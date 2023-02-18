@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MRefresh == null)
 				{
 					r_MRefresh = new(this, "Refresh", 0);
-					r_MRefresh.SetBelong(this.GetValue());
 				}
 				return r_MRefresh;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MAddPackageVersion_IPackageVersion == null)
 				{
 					r_MAddPackageVersion_IPackageVersion = new(this, "AddPackageVersion", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
-					r_MAddPackageVersion_IPackageVersion.SetBelong(this.GetValue());
 				}
 				return r_MAddPackageVersion_IPackageVersion;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MClearVersions == null)
 				{
 					r_MClearVersions = new(this, "ClearVersions", 0);
-					r_MClearVersions.SetBelong(this.GetValue());
 				}
 				return r_MClearVersions;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FTicksPerMillisecond == null)
 				{
 					r_FTicksPerMillisecond = new(typeof(System.Globalization.Calendar), "TicksPerMillisecond");
-					r_FTicksPerMillisecond.SetBelong(null);
 				}
 				return r_FTicksPerMillisecond;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FTicksPerSecond == null)
 				{
 					r_FTicksPerSecond = new(typeof(System.Globalization.Calendar), "TicksPerSecond");
-					r_FTicksPerSecond.SetBelong(null);
 				}
 				return r_FTicksPerSecond;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FTicksPerMinute == null)
 				{
 					r_FTicksPerMinute = new(typeof(System.Globalization.Calendar), "TicksPerMinute");
-					r_FTicksPerMinute.SetBelong(null);
 				}
 				return r_FTicksPerMinute;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FTicksPerHour == null)
 				{
 					r_FTicksPerHour = new(typeof(System.Globalization.Calendar), "TicksPerHour");
-					r_FTicksPerHour.SetBelong(null);
 				}
 				return r_FTicksPerHour;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FTicksPerDay == null)
 				{
 					r_FTicksPerDay = new(typeof(System.Globalization.Calendar), "TicksPerDay");
-					r_FTicksPerDay.SetBelong(null);
 				}
 				return r_FTicksPerDay;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FMillisPerSecond == null)
 				{
 					r_FMillisPerSecond = new(typeof(System.Globalization.Calendar), "MillisPerSecond");
-					r_FMillisPerSecond.SetBelong(null);
 				}
 				return r_FMillisPerSecond;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FMillisPerMinute == null)
 				{
 					r_FMillisPerMinute = new(typeof(System.Globalization.Calendar), "MillisPerMinute");
-					r_FMillisPerMinute.SetBelong(null);
 				}
 				return r_FMillisPerMinute;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FMillisPerHour == null)
 				{
 					r_FMillisPerHour = new(typeof(System.Globalization.Calendar), "MillisPerHour");
-					r_FMillisPerHour.SetBelong(null);
 				}
 				return r_FMillisPerHour;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FMillisPerDay == null)
 				{
 					r_FMillisPerDay = new(typeof(System.Globalization.Calendar), "MillisPerDay");
-					r_FMillisPerDay.SetBelong(null);
 				}
 				return r_FMillisPerDay;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FDaysPerYear == null)
 				{
 					r_FDaysPerYear = new(typeof(System.Globalization.Calendar), "DaysPerYear");
-					r_FDaysPerYear.SetBelong(null);
 				}
 				return r_FDaysPerYear;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FDaysPer4Years == null)
 				{
 					r_FDaysPer4Years = new(typeof(System.Globalization.Calendar), "DaysPer4Years");
-					r_FDaysPer4Years.SetBelong(null);
 				}
 				return r_FDaysPer4Years;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FDaysPer100Years == null)
 				{
 					r_FDaysPer100Years = new(typeof(System.Globalization.Calendar), "DaysPer100Years");
-					r_FDaysPer100Years.SetBelong(null);
 				}
 				return r_FDaysPer100Years;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FDaysPer400Years == null)
 				{
 					r_FDaysPer400Years = new(typeof(System.Globalization.Calendar), "DaysPer400Years");
-					r_FDaysPer400Years.SetBelong(null);
 				}
 				return r_FDaysPer400Years;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FDaysTo10000 == null)
 				{
 					r_FDaysTo10000 = new(typeof(System.Globalization.Calendar), "DaysTo10000");
-					r_FDaysTo10000.SetBelong(null);
 				}
 				return r_FDaysTo10000;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FMaxMillis == null)
 				{
 					r_FMaxMillis = new(typeof(System.Globalization.Calendar), "MaxMillis");
-					r_FMaxMillis.SetBelong(null);
 				}
 				return r_FMaxMillis;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_GREGORIAN == null)
 				{
 					r_FCAL_GREGORIAN = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN");
-					r_FCAL_GREGORIAN.SetBelong(null);
 				}
 				return r_FCAL_GREGORIAN;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_GREGORIAN_US == null)
 				{
 					r_FCAL_GREGORIAN_US = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_US");
-					r_FCAL_GREGORIAN_US.SetBelong(null);
 				}
 				return r_FCAL_GREGORIAN_US;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_JAPAN == null)
 				{
 					r_FCAL_JAPAN = new(typeof(System.Globalization.Calendar), "CAL_JAPAN");
-					r_FCAL_JAPAN.SetBelong(null);
 				}
 				return r_FCAL_JAPAN;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_TAIWAN == null)
 				{
 					r_FCAL_TAIWAN = new(typeof(System.Globalization.Calendar), "CAL_TAIWAN");
-					r_FCAL_TAIWAN.SetBelong(null);
 				}
 				return r_FCAL_TAIWAN;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_KOREA == null)
 				{
 					r_FCAL_KOREA = new(typeof(System.Globalization.Calendar), "CAL_KOREA");
-					r_FCAL_KOREA.SetBelong(null);
 				}
 				return r_FCAL_KOREA;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_HIJRI == null)
 				{
 					r_FCAL_HIJRI = new(typeof(System.Globalization.Calendar), "CAL_HIJRI");
-					r_FCAL_HIJRI.SetBelong(null);
 				}
 				return r_FCAL_HIJRI;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_THAI == null)
 				{
 					r_FCAL_THAI = new(typeof(System.Globalization.Calendar), "CAL_THAI");
-					r_FCAL_THAI.SetBelong(null);
 				}
 				return r_FCAL_THAI;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_HEBREW == null)
 				{
 					r_FCAL_HEBREW = new(typeof(System.Globalization.Calendar), "CAL_HEBREW");
-					r_FCAL_HEBREW.SetBelong(null);
 				}
 				return r_FCAL_HEBREW;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_GREGORIAN_ME_FRENCH == null)
 				{
 					r_FCAL_GREGORIAN_ME_FRENCH = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_ME_FRENCH");
-					r_FCAL_GREGORIAN_ME_FRENCH.SetBelong(null);
 				}
 				return r_FCAL_GREGORIAN_ME_FRENCH;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_GREGORIAN_ARABIC == null)
 				{
 					r_FCAL_GREGORIAN_ARABIC = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_ARABIC");
-					r_FCAL_GREGORIAN_ARABIC.SetBelong(null);
 				}
 				return r_FCAL_GREGORIAN_ARABIC;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_GREGORIAN_XLIT_ENGLISH == null)
 				{
 					r_FCAL_GREGORIAN_XLIT_ENGLISH = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_XLIT_ENGLISH");
-					r_FCAL_GREGORIAN_XLIT_ENGLISH.SetBelong(null);
 				}
 				return r_FCAL_GREGORIAN_XLIT_ENGLISH;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_GREGORIAN_XLIT_FRENCH == null)
 				{
 					r_FCAL_GREGORIAN_XLIT_FRENCH = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_XLIT_FRENCH");
-					r_FCAL_GREGORIAN_XLIT_FRENCH.SetBelong(null);
 				}
 				return r_FCAL_GREGORIAN_XLIT_FRENCH;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_JULIAN == null)
 				{
 					r_FCAL_JULIAN = new(typeof(System.Globalization.Calendar), "CAL_JULIAN");
-					r_FCAL_JULIAN.SetBelong(null);
 				}
 				return r_FCAL_JULIAN;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_JAPANESELUNISOLAR == null)
 				{
 					r_FCAL_JAPANESELUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_JAPANESELUNISOLAR");
-					r_FCAL_JAPANESELUNISOLAR.SetBelong(null);
 				}
 				return r_FCAL_JAPANESELUNISOLAR;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_CHINESELUNISOLAR == null)
 				{
 					r_FCAL_CHINESELUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_CHINESELUNISOLAR");
-					r_FCAL_CHINESELUNISOLAR.SetBelong(null);
 				}
 				return r_FCAL_CHINESELUNISOLAR;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_SAKA == null)
 				{
 					r_FCAL_SAKA = new(typeof(System.Globalization.Calendar), "CAL_SAKA");
-					r_FCAL_SAKA.SetBelong(null);
 				}
 				return r_FCAL_SAKA;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_LUNAR_ETO_CHN == null)
 				{
 					r_FCAL_LUNAR_ETO_CHN = new(typeof(System.Globalization.Calendar), "CAL_LUNAR_ETO_CHN");
-					r_FCAL_LUNAR_ETO_CHN.SetBelong(null);
 				}
 				return r_FCAL_LUNAR_ETO_CHN;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_LUNAR_ETO_KOR == null)
 				{
 					r_FCAL_LUNAR_ETO_KOR = new(typeof(System.Globalization.Calendar), "CAL_LUNAR_ETO_KOR");
-					r_FCAL_LUNAR_ETO_KOR.SetBelong(null);
 				}
 				return r_FCAL_LUNAR_ETO_KOR;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_LUNAR_ETO_ROKUYOU == null)
 				{
 					r_FCAL_LUNAR_ETO_ROKUYOU = new(typeof(System.Globalization.Calendar), "CAL_LUNAR_ETO_ROKUYOU");
-					r_FCAL_LUNAR_ETO_ROKUYOU.SetBelong(null);
 				}
 				return r_FCAL_LUNAR_ETO_ROKUYOU;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_KOREANLUNISOLAR == null)
 				{
 					r_FCAL_KOREANLUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_KOREANLUNISOLAR");
-					r_FCAL_KOREANLUNISOLAR.SetBelong(null);
 				}
 				return r_FCAL_KOREANLUNISOLAR;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_TAIWANLUNISOLAR == null)
 				{
 					r_FCAL_TAIWANLUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_TAIWANLUNISOLAR");
-					r_FCAL_TAIWANLUNISOLAR.SetBelong(null);
 				}
 				return r_FCAL_TAIWANLUNISOLAR;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_PERSIAN == null)
 				{
 					r_FCAL_PERSIAN = new(typeof(System.Globalization.Calendar), "CAL_PERSIAN");
-					r_FCAL_PERSIAN.SetBelong(null);
 				}
 				return r_FCAL_PERSIAN;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCAL_UMALQURA == null)
 				{
 					r_FCAL_UMALQURA = new(typeof(System.Globalization.Calendar), "CAL_UMALQURA");
-					r_FCAL_UMALQURA.SetBelong(null);
 				}
 				return r_FCAL_UMALQURA;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_currentEraValue == null)
 				{
 					r_Fm_currentEraValue = new(this, "m_currentEraValue");
-					r_Fm_currentEraValue.SetBelong(this.GetValue());
 				}
 				return r_Fm_currentEraValue;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_isReadOnly == null)
 				{
 					r_Fm_isReadOnly = new(this, "m_isReadOnly");
-					r_Fm_isReadOnly.SetBelong(this.GetValue());
 				}
 				return r_Fm_isReadOnly;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FCurrentEra == null)
 				{
 					r_FCurrentEra = new(typeof(System.Globalization.Calendar), "CurrentEra");
-					r_FCurrentEra.SetBelong(null);
 				}
 				return r_FCurrentEra;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FtwoDigitYearMax == null)
 				{
 					r_FtwoDigitYearMax = new(this, "twoDigitYearMax");
-					r_FtwoDigitYearMax.SetBelong(this.GetValue());
 				}
 				return r_FtwoDigitYearMax;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PMinSupportedDateTime == null)
 				{
 					r_PMinSupportedDateTime = new(this, "MinSupportedDateTime", -1);
-					r_PMinSupportedDateTime.SetBelong(this.GetValue());
 				}
 				return r_PMinSupportedDateTime;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PMaxSupportedDateTime == null)
 				{
 					r_PMaxSupportedDateTime = new(this, "MaxSupportedDateTime", -1);
-					r_PMaxSupportedDateTime.SetBelong(this.GetValue());
 				}
 				return r_PMaxSupportedDateTime;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PID == null)
 				{
 					r_PID = new(this, "ID", -1);
-					r_PID.SetBelong(this.GetValue());
 				}
 				return r_PID;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PBaseCalendarID == null)
 				{
 					r_PBaseCalendarID = new(this, "BaseCalendarID", -1);
-					r_PBaseCalendarID.SetBelong(this.GetValue());
 				}
 				return r_PBaseCalendarID;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PAlgorithmType == null)
 				{
 					r_PAlgorithmType = new(this, "AlgorithmType", -1);
-					r_PAlgorithmType.SetBelong(this.GetValue());
 				}
 				return r_PAlgorithmType;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PIsReadOnly == null)
 				{
 					r_PIsReadOnly = new(this, "IsReadOnly", -1);
-					r_PIsReadOnly.SetBelong(this.GetValue());
 				}
 				return r_PIsReadOnly;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrentEraValue == null)
 				{
 					r_PCurrentEraValue = new(this, "CurrentEraValue", -1);
-					r_PCurrentEraValue.SetBelong(this.GetValue());
 				}
 				return r_PCurrentEraValue;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PEras == null)
 				{
 					r_PEras = new(this, "Eras", -1);
-					r_PEras.SetBelong(this.GetValue());
 				}
 				return r_PEras;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PDaysInYearBeforeMinSupportedYear == null)
 				{
 					r_PDaysInYearBeforeMinSupportedYear = new(this, "DaysInYearBeforeMinSupportedYear", -1);
-					r_PDaysInYearBeforeMinSupportedYear.SetBelong(this.GetValue());
 				}
 				return r_PDaysInYearBeforeMinSupportedYear;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PTwoDigitYearMax == null)
 				{
 					r_PTwoDigitYearMax = new(this, "TwoDigitYearMax", -1);
-					r_PTwoDigitYearMax.SetBelong(this.GetValue());
 				}
 				return r_PTwoDigitYearMax;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MClone == null)
 				{
 					r_MClone = new(this, "Clone", 0);
-					r_MClone.SetBelong(this.GetValue());
 				}
 				return r_MClone;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MReadOnly_Calendar == null)
 				{
 					r_MReadOnly_Calendar = new(typeof(System.Globalization.Calendar), "ReadOnly", 0, typeof(System.Globalization.Calendar));
-					r_MReadOnly_Calendar.SetBelong(null);
 				}
 				return r_MReadOnly_Calendar;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyWritable == null)
 				{
 					r_MVerifyWritable = new(this, "VerifyWritable", 0);
-					r_MVerifyWritable.SetBelong(this.GetValue());
 				}
 				return r_MVerifyWritable;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MSetReadOnlyState_Boolean == null)
 				{
 					r_MSetReadOnlyState_Boolean = new(this, "SetReadOnlyState", 0, typeof(System.Boolean));
-					r_MSetReadOnlyState_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetReadOnlyState_Boolean;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCheckAddResult_Int64_DateTime_DateTime == null)
 				{
 					r_MCheckAddResult_Int64_DateTime_DateTime = new(typeof(System.Globalization.Calendar), "CheckAddResult", 0, typeof(System.Int64), typeof(System.DateTime), typeof(System.DateTime));
-					r_MCheckAddResult_Int64_DateTime_DateTime.SetBelong(null);
 				}
 				return r_MCheckAddResult_Int64_DateTime_DateTime;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAdd_DateTime_Double_Int32 == null)
 				{
 					r_MAdd_DateTime_Double_Int32 = new(this, "Add", 0, typeof(System.DateTime), typeof(System.Double), typeof(System.Int32));
-					r_MAdd_DateTime_Double_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAdd_DateTime_Double_Int32;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddMilliseconds_DateTime_Double == null)
 				{
 					r_MAddMilliseconds_DateTime_Double = new(this, "AddMilliseconds", 0, typeof(System.DateTime), typeof(System.Double));
-					r_MAddMilliseconds_DateTime_Double.SetBelong(this.GetValue());
 				}
 				return r_MAddMilliseconds_DateTime_Double;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddDays_DateTime_Int32 == null)
 				{
 					r_MAddDays_DateTime_Int32 = new(this, "AddDays", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddDays_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddDays_DateTime_Int32;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddHours_DateTime_Int32 == null)
 				{
 					r_MAddHours_DateTime_Int32 = new(this, "AddHours", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddHours_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddHours_DateTime_Int32;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddMinutes_DateTime_Int32 == null)
 				{
 					r_MAddMinutes_DateTime_Int32 = new(this, "AddMinutes", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddMinutes_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddMinutes_DateTime_Int32;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddMonths_DateTime_Int32 == null)
 				{
 					r_MAddMonths_DateTime_Int32 = new(this, "AddMonths", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddMonths_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddMonths_DateTime_Int32;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddSeconds_DateTime_Int32 == null)
 				{
 					r_MAddSeconds_DateTime_Int32 = new(this, "AddSeconds", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddSeconds_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddSeconds_DateTime_Int32;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddWeeks_DateTime_Int32 == null)
 				{
 					r_MAddWeeks_DateTime_Int32 = new(this, "AddWeeks", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddWeeks_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddWeeks_DateTime_Int32;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddYears_DateTime_Int32 == null)
 				{
 					r_MAddYears_DateTime_Int32 = new(this, "AddYears", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MAddYears_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddYears_DateTime_Int32;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDayOfMonth_DateTime == null)
 				{
 					r_MGetDayOfMonth_DateTime = new(this, "GetDayOfMonth", 0, typeof(System.DateTime));
-					r_MGetDayOfMonth_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetDayOfMonth_DateTime;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDayOfWeek_DateTime == null)
 				{
 					r_MGetDayOfWeek_DateTime = new(this, "GetDayOfWeek", 0, typeof(System.DateTime));
-					r_MGetDayOfWeek_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetDayOfWeek_DateTime;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDayOfYear_DateTime == null)
 				{
 					r_MGetDayOfYear_DateTime = new(this, "GetDayOfYear", 0, typeof(System.DateTime));
-					r_MGetDayOfYear_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetDayOfYear_DateTime;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDaysInMonth_Int32_Int32 == null)
 				{
 					r_MGetDaysInMonth_Int32_Int32 = new(this, "GetDaysInMonth", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MGetDaysInMonth_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetDaysInMonth_Int32_Int32;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDaysInMonth_Int32_Int32_Int32 == null)
 				{
 					r_MGetDaysInMonth_Int32_Int32_Int32 = new(this, "GetDaysInMonth", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MGetDaysInMonth_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetDaysInMonth_Int32_Int32_Int32;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDaysInYear_Int32 == null)
 				{
 					r_MGetDaysInYear_Int32 = new(this, "GetDaysInYear", 0, typeof(System.Int32));
-					r_MGetDaysInYear_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetDaysInYear_Int32;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetDaysInYear_Int32_Int32 == null)
 				{
 					r_MGetDaysInYear_Int32_Int32 = new(this, "GetDaysInYear", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MGetDaysInYear_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetDaysInYear_Int32_Int32;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetEra_DateTime == null)
 				{
 					r_MGetEra_DateTime = new(this, "GetEra", 0, typeof(System.DateTime));
-					r_MGetEra_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetEra_DateTime;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHour_DateTime == null)
 				{
 					r_MGetHour_DateTime = new(this, "GetHour", 0, typeof(System.DateTime));
-					r_MGetHour_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetHour_DateTime;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetMilliseconds_DateTime == null)
 				{
 					r_MGetMilliseconds_DateTime = new(this, "GetMilliseconds", 0, typeof(System.DateTime));
-					r_MGetMilliseconds_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetMilliseconds_DateTime;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetMinute_DateTime == null)
 				{
 					r_MGetMinute_DateTime = new(this, "GetMinute", 0, typeof(System.DateTime));
-					r_MGetMinute_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetMinute_DateTime;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetMonth_DateTime == null)
 				{
 					r_MGetMonth_DateTime = new(this, "GetMonth", 0, typeof(System.DateTime));
-					r_MGetMonth_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetMonth_DateTime;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetMonthsInYear_Int32 == null)
 				{
 					r_MGetMonthsInYear_Int32 = new(this, "GetMonthsInYear", 0, typeof(System.Int32));
-					r_MGetMonthsInYear_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetMonthsInYear_Int32;
 			}
@@ -1365,7 +1286,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetMonthsInYear_Int32_Int32 == null)
 				{
 					r_MGetMonthsInYear_Int32_Int32 = new(this, "GetMonthsInYear", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MGetMonthsInYear_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetMonthsInYear_Int32_Int32;
 			}
@@ -1382,7 +1302,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetSecond_DateTime == null)
 				{
 					r_MGetSecond_DateTime = new(this, "GetSecond", 0, typeof(System.DateTime));
-					r_MGetSecond_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetSecond_DateTime;
 			}
@@ -1399,7 +1318,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetFirstDayWeekOfYear_DateTime_Int32 == null)
 				{
 					r_MGetFirstDayWeekOfYear_DateTime_Int32 = new(this, "GetFirstDayWeekOfYear", 0, typeof(System.DateTime), typeof(System.Int32));
-					r_MGetFirstDayWeekOfYear_DateTime_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetFirstDayWeekOfYear_DateTime_Int32;
 			}
@@ -1416,7 +1334,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetWeekOfYearFullDays_DateTime_Int32_Int32 == null)
 				{
 					r_MGetWeekOfYearFullDays_DateTime_Int32_Int32 = new(this, "GetWeekOfYearFullDays", 0, typeof(System.DateTime), typeof(System.Int32), typeof(System.Int32));
-					r_MGetWeekOfYearFullDays_DateTime_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetWeekOfYearFullDays_DateTime_Int32_Int32;
 			}
@@ -1433,7 +1350,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetWeekOfYearOfMinSupportedDateTime_Int32_Int32 == null)
 				{
 					r_MGetWeekOfYearOfMinSupportedDateTime_Int32_Int32 = new(this, "GetWeekOfYearOfMinSupportedDateTime", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MGetWeekOfYearOfMinSupportedDateTime_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetWeekOfYearOfMinSupportedDateTime_Int32_Int32;
 			}
@@ -1450,7 +1366,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek == null)
 				{
 					r_MGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek = new(this, "GetWeekOfYear", 0, typeof(System.DateTime), typeof(System.Globalization.CalendarWeekRule), typeof(System.DayOfWeek));
-					r_MGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek.SetBelong(this.GetValue());
 				}
 				return r_MGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek;
 			}
@@ -1467,7 +1382,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetYear_DateTime == null)
 				{
 					r_MGetYear_DateTime = new(this, "GetYear", 0, typeof(System.DateTime));
-					r_MGetYear_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MGetYear_DateTime;
 			}
@@ -1484,7 +1398,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLeapDay_Int32_Int32_Int32 == null)
 				{
 					r_MIsLeapDay_Int32_Int32_Int32 = new(this, "IsLeapDay", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MIsLeapDay_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsLeapDay_Int32_Int32_Int32;
 			}
@@ -1501,7 +1414,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLeapDay_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MIsLeapDay_Int32_Int32_Int32_Int32 = new(this, "IsLeapDay", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MIsLeapDay_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsLeapDay_Int32_Int32_Int32_Int32;
 			}
@@ -1518,7 +1430,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLeapMonth_Int32_Int32 == null)
 				{
 					r_MIsLeapMonth_Int32_Int32 = new(this, "IsLeapMonth", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MIsLeapMonth_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsLeapMonth_Int32_Int32;
 			}
@@ -1535,7 +1446,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLeapMonth_Int32_Int32_Int32 == null)
 				{
 					r_MIsLeapMonth_Int32_Int32_Int32 = new(this, "IsLeapMonth", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MIsLeapMonth_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsLeapMonth_Int32_Int32_Int32;
 			}
@@ -1552,7 +1462,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetLeapMonth_Int32 == null)
 				{
 					r_MGetLeapMonth_Int32 = new(this, "GetLeapMonth", 0, typeof(System.Int32));
-					r_MGetLeapMonth_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetLeapMonth_Int32;
 			}
@@ -1569,7 +1478,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetLeapMonth_Int32_Int32 == null)
 				{
 					r_MGetLeapMonth_Int32_Int32 = new(this, "GetLeapMonth", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MGetLeapMonth_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetLeapMonth_Int32_Int32;
 			}
@@ -1586,7 +1494,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLeapYear_Int32 == null)
 				{
 					r_MIsLeapYear_Int32 = new(this, "IsLeapYear", 0, typeof(System.Int32));
-					r_MIsLeapYear_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsLeapYear_Int32;
 			}
@@ -1603,7 +1510,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLeapYear_Int32_Int32 == null)
 				{
 					r_MIsLeapYear_Int32_Int32 = new(this, "IsLeapYear", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MIsLeapYear_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsLeapYear_Int32_Int32;
 			}
@@ -1620,7 +1526,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32 = new(this, "ToDateTime", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -1637,7 +1542,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32 = new(this, "ToDateTime", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -1654,7 +1558,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime == null)
 				{
 					r_MTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime = new(this, "TryToDateTime", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.DateTime).MakeByRefType());
-					r_MTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime;
 			}
@@ -1671,7 +1574,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsValidYear_Int32_Int32 == null)
 				{
 					r_MIsValidYear_Int32_Int32 = new(this, "IsValidYear", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MIsValidYear_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsValidYear_Int32_Int32;
 			}
@@ -1688,7 +1590,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsValidMonth_Int32_Int32_Int32 == null)
 				{
 					r_MIsValidMonth_Int32_Int32_Int32 = new(this, "IsValidMonth", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MIsValidMonth_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsValidMonth_Int32_Int32_Int32;
 			}
@@ -1705,7 +1606,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsValidDay_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MIsValidDay_Int32_Int32_Int32_Int32 = new(this, "IsValidDay", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MIsValidDay_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MIsValidDay_Int32_Int32_Int32_Int32;
 			}
@@ -1722,7 +1622,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToFourDigitYear_Int32 == null)
 				{
 					r_MToFourDigitYear_Int32 = new(this, "ToFourDigitYear", 0, typeof(System.Int32));
-					r_MToFourDigitYear_Int32.SetBelong(this.GetValue());
 				}
 				return r_MToFourDigitYear_Int32;
 			}
@@ -1739,7 +1638,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MTimeToTicks_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MTimeToTicks_Int32_Int32_Int32_Int32 = new(typeof(System.Globalization.Calendar), "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MTimeToTicks_Int32_Int32_Int32_Int32.SetBelong(null);
 				}
 				return r_MTimeToTicks_Int32_Int32_Int32_Int32;
 			}
@@ -1756,7 +1654,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetSystemTwoDigitYearSetting_Int32_Int32 == null)
 				{
 					r_MGetSystemTwoDigitYearSetting_Int32_Int32 = new(typeof(System.Globalization.Calendar), "GetSystemTwoDigitYearSetting", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MGetSystemTwoDigitYearSetting_Int32_Int32.SetBelong(null);
 				}
 				return r_MGetSystemTwoDigitYearSetting_Int32_Int32;
 			}
@@ -1773,7 +1670,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -1790,7 +1686,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1807,7 +1702,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -1824,7 +1718,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1841,7 +1734,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -1858,7 +1750,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fvalue == null)
 				{
 					r_Fvalue = new(this, "value");
-					r_Fvalue.SetBelong(this.GetValue());
 				}
 				return r_Fvalue;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_PValue == null)
 				{
 					r_PValue = new(this, "Value", -1);
-					r_PValue.SetBelong(this.GetValue());
 				}
 				return r_PValue;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MEquals_RuntimePropertyHandle == null)
 				{
 					r_MEquals_RuntimePropertyHandle = new(this, "Equals", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
-					r_MEquals_RuntimePropertyHandle.SetBelong(this.GetValue());
 				}
 				return r_MEquals_RuntimePropertyHandle;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle == null)
 				{
 					r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Equality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
-					r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle.SetBelong(null);
 				}
 				return r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle == null)
 				{
 					r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Inequality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
-					r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle.SetBelong(null);
 				}
 				return r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

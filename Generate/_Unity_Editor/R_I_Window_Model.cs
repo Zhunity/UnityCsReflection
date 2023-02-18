@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Psize == null)
 				{
 					r_Psize = new(this, "size", -1);
-					r_Psize.SetBelong(this.GetValue());
 				}
 				return r_Psize;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PeventInterests == null)
 				{
 					r_PeventInterests = new(this, "eventInterests", -1);
-					r_PeventInterests.SetBelong(this.GetValue());
 				}
 				return r_PeventInterests;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PonGUIHandler == null)
 				{
 					r_PonGUIHandler = new(this, "onGUIHandler", -1);
-					r_PonGUIHandler.SetBelong(this.GetValue());
 				}
 				return r_PonGUIHandler;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PwindowBackend == null)
 				{
 					r_PwindowBackend = new(this, "windowBackend", -1);
-					r_PwindowBackend.SetBelong(this.GetValue());
 				}
 				return r_PwindowBackend;
 			}

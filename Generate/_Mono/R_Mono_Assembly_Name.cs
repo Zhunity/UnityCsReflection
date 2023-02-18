@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_FMONO_PUBLIC_KEY_TOKEN_LENGTH == null)
 				{
 					r_FMONO_PUBLIC_KEY_TOKEN_LENGTH = new( ReflectionUtils.GetType("Mono.MonoAssemblyName"), "MONO_PUBLIC_KEY_TOKEN_LENGTH");
-					r_FMONO_PUBLIC_KEY_TOKEN_LENGTH.SetBelong(null);
 				}
 				return r_FMONO_PUBLIC_KEY_TOKEN_LENGTH;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fname == null)
 				{
 					r_Fname = new(this, "name");
-					r_Fname.SetBelong(this.GetValue());
 				}
 				return r_Fname;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fculture == null)
 				{
 					r_Fculture = new(this, "culture");
-					r_Fculture.SetBelong(this.GetValue());
 				}
 				return r_Fculture;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fhash_value == null)
 				{
 					r_Fhash_value = new(this, "hash_value");
-					r_Fhash_value.SetBelong(this.GetValue());
 				}
 				return r_Fhash_value;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fpublic_key == null)
 				{
 					r_Fpublic_key = new(this, "public_key");
-					r_Fpublic_key.SetBelong(this.GetValue());
 				}
 				return r_Fpublic_key;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fpublic_key_token == null)
 				{
 					r_Fpublic_key_token = new(this, "public_key_token");
-					r_Fpublic_key_token.SetBelong(this.GetValue());
 				}
 				return r_Fpublic_key_token;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fhash_alg == null)
 				{
 					r_Fhash_alg = new(this, "hash_alg");
-					r_Fhash_alg.SetBelong(this.GetValue());
 				}
 				return r_Fhash_alg;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fhash_len == null)
 				{
 					r_Fhash_len = new(this, "hash_len");
-					r_Fhash_len.SetBelong(this.GetValue());
 				}
 				return r_Fhash_len;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fflags == null)
 				{
 					r_Fflags = new(this, "flags");
-					r_Fflags.SetBelong(this.GetValue());
 				}
 				return r_Fflags;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fmajor == null)
 				{
 					r_Fmajor = new(this, "major");
-					r_Fmajor.SetBelong(this.GetValue());
 				}
 				return r_Fmajor;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fminor == null)
 				{
 					r_Fminor = new(this, "minor");
-					r_Fminor.SetBelong(this.GetValue());
 				}
 				return r_Fminor;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Fbuild == null)
 				{
 					r_Fbuild = new(this, "build");
-					r_Fbuild.SetBelong(this.GetValue());
 				}
 				return r_Fbuild;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Frevision == null)
 				{
 					r_Frevision = new(this, "revision");
-					r_Frevision.SetBelong(this.GetValue());
 				}
 				return r_Frevision;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_Farch == null)
 				{
 					r_Farch = new(this, "arch");
-					r_Farch.SetBelong(this.GetValue());
 				}
 				return r_Farch;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RMono
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_PProperties == null)
 				{
 					r_PProperties = new(this, "Properties", -1);
-					r_PProperties.SetBelong(this.GetValue());
 				}
 				return r_PProperties;
 			}

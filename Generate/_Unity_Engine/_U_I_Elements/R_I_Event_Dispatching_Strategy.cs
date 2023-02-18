@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCanDispatchEvent_EventBase == null)
 				{
 					r_MCanDispatchEvent_EventBase = new(this, "CanDispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MCanDispatchEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MCanDispatchEvent_EventBase;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDispatchEvent_EventBase_IPanel == null)
 				{
 					r_MDispatchEvent_EventBase_IPanel = new(this, "DispatchEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.IPanel));
-					r_MDispatchEvent_EventBase_IPanel.SetBelong(this.GetValue());
 				}
 				return r_MDispatchEvent_EventBase_IPanel;
 			}

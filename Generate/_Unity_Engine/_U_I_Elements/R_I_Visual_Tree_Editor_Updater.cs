@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetUpdater_VisualTreeEditorUpdatePhase == null)
 				{
 					r_MGetUpdater_VisualTreeEditorUpdatePhase = new(this, "GetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
-					r_MGetUpdater_VisualTreeEditorUpdatePhase.SetBelong(this.GetValue());
 				}
 				return r_MGetUpdater_VisualTreeEditorUpdatePhase;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase == null)
 				{
 					r_MSetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase = new(this, "SetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IVisualTreeUpdater"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
-					r_MSetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase.SetBelong(this.GetValue());
 				}
 				return r_MSetUpdater_IVisualTreeUpdater_VisualTreeEditorUpdatePhase;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdate == null)
 				{
 					r_MUpdate = new(this, "Update", 0);
-					r_MUpdate.SetBelong(this.GetValue());
 				}
 				return r_MUpdate;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdateVisualTreePhase_VisualTreeEditorUpdatePhase == null)
 				{
 					r_MUpdateVisualTreePhase_VisualTreeEditorUpdatePhase = new(this, "UpdateVisualTreePhase", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
-					r_MUpdateVisualTreePhase_VisualTreeEditorUpdatePhase.SetBelong(this.GetValue());
 				}
 				return r_MUpdateVisualTreePhase_VisualTreeEditorUpdatePhase;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnVersionChanged_VisualElement_VersionChangeType == null)
 				{
 					r_MOnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
-					r_MOnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.GetValue());
 				}
 				return r_MOnVersionChanged_VisualElement_VersionChangeType;
 			}

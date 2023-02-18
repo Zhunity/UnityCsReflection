@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartTrackingAsset_T == null)
 				{
 					r_MStartTrackingAsset_T = new(this, "StartTrackingAsset", 0, Type.MakeGenericMethodParameter(0));
-					r_MStartTrackingAsset_T.SetBelong(this.GetValue());
 				}
 				return r_MStartTrackingAsset_T;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStopTrackingAsset_T == null)
 				{
 					r_MStopTrackingAsset_T = new(this, "StopTrackingAsset", 0, Type.MakeGenericMethodParameter(0));
-					r_MStopTrackingAsset_T.SetBelong(this.GetValue());
 				}
 				return r_MStopTrackingAsset_T;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MIsTrackingAsset_T == null)
 				{
 					r_MIsTrackingAsset_T = new(this, "IsTrackingAsset", 0, Type.MakeGenericMethodParameter(0));
-					r_MIsTrackingAsset_T.SetBelong(this.GetValue());
 				}
 				return r_MIsTrackingAsset_T;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MIsTrackingAssets == null)
 				{
 					r_MIsTrackingAssets = new(this, "IsTrackingAssets", 0);
-					r_MIsTrackingAssets.SetBelong(this.GetValue());
 				}
 				return r_MIsTrackingAssets;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCheckTrackedAssetsDirty == null)
 				{
 					r_MCheckTrackedAssetsDirty = new(this, "CheckTrackedAssetsDirty", 0);
-					r_MCheckTrackedAssetsDirty.SetBelong(this.GetValue());
 				}
 				return r_MCheckTrackedAssetsDirty;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32 == null)
 				{
 					r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32 = new(this, "UpdateAssetTrackerCounts", 0, Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_ == null)
 				{
 					r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_ = new(this, "OnAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
-					r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_.SetBelong(this.GetValue());
 				}
 				return r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnTrackedAssetChanged == null)
 				{
 					r_MOnTrackedAssetChanged = new(this, "OnTrackedAssetChanged", 0);
-					r_MOnTrackedAssetChanged.SetBelong(this.GetValue());
 				}
 				return r_MOnTrackedAssetChanged;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 				if(r_PIdentity == null)
 				{
 					r_PIdentity = new(this, "Identity", -1);
-					r_PIdentity.SetBelong(this.GetValue());
 				}
 				return r_PIdentity;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 				if(r_MIsInRole_String == null)
 				{
 					r_MIsInRole_String = new(this, "IsInRole", 0, typeof(System.String));
-					r_MIsInRole_String.SetBelong(this.GetValue());
 				}
 				return r_MIsInRole_String;
 			}

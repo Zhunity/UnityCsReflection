@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MOnPackageSelectionChanged_PackageSelectionArgs == null)
 				{
 					r_MOnPackageSelectionChanged_PackageSelectionArgs = new(this, "OnPackageSelectionChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageSelectionArgs"));
-					r_MOnPackageSelectionChanged_PackageSelectionArgs.SetBelong(this.GetValue());
 				}
 				return r_MOnPackageSelectionChanged_PackageSelectionArgs;
 			}

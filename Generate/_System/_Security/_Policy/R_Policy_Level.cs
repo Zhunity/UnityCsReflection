@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_Flabel == null)
 				{
 					r_Flabel = new(this, "label");
-					r_Flabel.SetBelong(this.GetValue());
 				}
 				return r_Flabel;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_Froot_code_group == null)
 				{
 					r_Froot_code_group = new(this, "root_code_group");
-					r_Froot_code_group.SetBelong(this.GetValue());
 				}
 				return r_Froot_code_group;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_Ffull_trust_assemblies == null)
 				{
 					r_Ffull_trust_assemblies = new(this, "full_trust_assemblies");
-					r_Ffull_trust_assemblies.SetBelong(this.GetValue());
 				}
 				return r_Ffull_trust_assemblies;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_Fnamed_permission_sets == null)
 				{
 					r_Fnamed_permission_sets = new(this, "named_permission_sets");
-					r_Fnamed_permission_sets.SetBelong(this.GetValue());
 				}
 				return r_Fnamed_permission_sets;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_location == null)
 				{
 					r_F_location = new(this, "_location");
-					r_F_location.SetBelong(this.GetValue());
 				}
 				return r_F_location;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_F_type == null)
 				{
 					r_F_type = new(this, "_type");
-					r_F_type.SetBelong(this.GetValue());
 				}
 				return r_F_type;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_FfullNames == null)
 				{
 					r_FfullNames = new(this, "fullNames");
-					r_FfullNames.SetBelong(this.GetValue());
 				}
 				return r_FfullNames;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_Fxml == null)
 				{
 					r_Fxml = new(this, "xml");
-					r_Fxml.SetBelong(this.GetValue());
 				}
 				return r_Fxml;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PFullTrustAssemblies == null)
 				{
 					r_PFullTrustAssemblies = new(this, "FullTrustAssemblies", -1);
-					r_PFullTrustAssemblies.SetBelong(this.GetValue());
 				}
 				return r_PFullTrustAssemblies;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PLabel == null)
 				{
 					r_PLabel = new(this, "Label", -1);
-					r_PLabel.SetBelong(this.GetValue());
 				}
 				return r_PLabel;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PNamedPermissionSets == null)
 				{
 					r_PNamedPermissionSets = new(this, "NamedPermissionSets", -1);
-					r_PNamedPermissionSets.SetBelong(this.GetValue());
 				}
 				return r_PNamedPermissionSets;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PRootCodeGroup == null)
 				{
 					r_PRootCodeGroup = new(this, "RootCodeGroup", -1);
-					r_PRootCodeGroup.SetBelong(this.GetValue());
 				}
 				return r_PRootCodeGroup;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PStoreLocation == null)
 				{
 					r_PStoreLocation = new(this, "StoreLocation", -1);
-					r_PStoreLocation.SetBelong(this.GetValue());
 				}
 				return r_PStoreLocation;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_PType == null)
 				{
 					r_PType = new(this, "Type", -1);
-					r_PType.SetBelong(this.GetValue());
 				}
 				return r_PType;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MLoadFromFile_String == null)
 				{
 					r_MLoadFromFile_String = new(this, "LoadFromFile", 0, typeof(System.String));
-					r_MLoadFromFile_String.SetBelong(this.GetValue());
 				}
 				return r_MLoadFromFile_String;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MLoadFromString_String == null)
 				{
 					r_MLoadFromString_String = new(this, "LoadFromString", 0, typeof(System.String));
-					r_MLoadFromString_String.SetBelong(this.GetValue());
 				}
 				return r_MLoadFromString_String;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MFromString_String == null)
 				{
 					r_MFromString_String = new(this, "FromString", 0, typeof(System.String));
-					r_MFromString_String.SetBelong(this.GetValue());
 				}
 				return r_MFromString_String;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MAddFullTrustAssembly_StrongName == null)
 				{
 					r_MAddFullTrustAssembly_StrongName = new(this, "AddFullTrustAssembly", 0, typeof(System.Security.Policy.StrongName));
-					r_MAddFullTrustAssembly_StrongName.SetBelong(this.GetValue());
 				}
 				return r_MAddFullTrustAssembly_StrongName;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MAddFullTrustAssembly_StrongNameMembershipCondition == null)
 				{
 					r_MAddFullTrustAssembly_StrongNameMembershipCondition = new(this, "AddFullTrustAssembly", 0, typeof(System.Security.Policy.StrongNameMembershipCondition));
-					r_MAddFullTrustAssembly_StrongNameMembershipCondition.SetBelong(this.GetValue());
 				}
 				return r_MAddFullTrustAssembly_StrongNameMembershipCondition;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MAddNamedPermissionSet_NamedPermissionSet == null)
 				{
 					r_MAddNamedPermissionSet_NamedPermissionSet = new(this, "AddNamedPermissionSet", 0, typeof(System.Security.NamedPermissionSet));
-					r_MAddNamedPermissionSet_NamedPermissionSet.SetBelong(this.GetValue());
 				}
 				return r_MAddNamedPermissionSet_NamedPermissionSet;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MChangeNamedPermissionSet_String_PermissionSet == null)
 				{
 					r_MChangeNamedPermissionSet_String_PermissionSet = new(this, "ChangeNamedPermissionSet", 0, typeof(System.String), typeof(System.Security.PermissionSet));
-					r_MChangeNamedPermissionSet_String_PermissionSet.SetBelong(this.GetValue());
 				}
 				return r_MChangeNamedPermissionSet_String_PermissionSet;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MCreateAppDomainLevel == null)
 				{
 					r_MCreateAppDomainLevel = new(typeof(System.Security.Policy.PolicyLevel), "CreateAppDomainLevel", 0);
-					r_MCreateAppDomainLevel.SetBelong(null);
 				}
 				return r_MCreateAppDomainLevel;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MFromXml_SecurityElement == null)
 				{
 					r_MFromXml_SecurityElement = new(this, "FromXml", 0, typeof(System.Security.SecurityElement));
-					r_MFromXml_SecurityElement.SetBelong(this.GetValue());
 				}
 				return r_MFromXml_SecurityElement;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MGetNamedPermissionSet_String == null)
 				{
 					r_MGetNamedPermissionSet_String = new(this, "GetNamedPermissionSet", 0, typeof(System.String));
-					r_MGetNamedPermissionSet_String.SetBelong(this.GetValue());
 				}
 				return r_MGetNamedPermissionSet_String;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MRecover == null)
 				{
 					r_MRecover = new(this, "Recover", 0);
-					r_MRecover.SetBelong(this.GetValue());
 				}
 				return r_MRecover;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MRemoveFullTrustAssembly_StrongName == null)
 				{
 					r_MRemoveFullTrustAssembly_StrongName = new(this, "RemoveFullTrustAssembly", 0, typeof(System.Security.Policy.StrongName));
-					r_MRemoveFullTrustAssembly_StrongName.SetBelong(this.GetValue());
 				}
 				return r_MRemoveFullTrustAssembly_StrongName;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MRemoveFullTrustAssembly_StrongNameMembershipCondition == null)
 				{
 					r_MRemoveFullTrustAssembly_StrongNameMembershipCondition = new(this, "RemoveFullTrustAssembly", 0, typeof(System.Security.Policy.StrongNameMembershipCondition));
-					r_MRemoveFullTrustAssembly_StrongNameMembershipCondition.SetBelong(this.GetValue());
 				}
 				return r_MRemoveFullTrustAssembly_StrongNameMembershipCondition;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MRemoveNamedPermissionSet_NamedPermissionSet == null)
 				{
 					r_MRemoveNamedPermissionSet_NamedPermissionSet = new(this, "RemoveNamedPermissionSet", 0, typeof(System.Security.NamedPermissionSet));
-					r_MRemoveNamedPermissionSet_NamedPermissionSet.SetBelong(this.GetValue());
 				}
 				return r_MRemoveNamedPermissionSet_NamedPermissionSet;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MRemoveNamedPermissionSet_String == null)
 				{
 					r_MRemoveNamedPermissionSet_String = new(this, "RemoveNamedPermissionSet", 0, typeof(System.String));
-					r_MRemoveNamedPermissionSet_String.SetBelong(this.GetValue());
 				}
 				return r_MRemoveNamedPermissionSet_String;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MReset == null)
 				{
 					r_MReset = new(this, "Reset", 0);
-					r_MReset.SetBelong(this.GetValue());
 				}
 				return r_MReset;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MResolve_Evidence == null)
 				{
 					r_MResolve_Evidence = new(this, "Resolve", 0, typeof(System.Security.Policy.Evidence));
-					r_MResolve_Evidence.SetBelong(this.GetValue());
 				}
 				return r_MResolve_Evidence;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MResolveMatchingCodeGroups_Evidence == null)
 				{
 					r_MResolveMatchingCodeGroups_Evidence = new(this, "ResolveMatchingCodeGroups", 0, typeof(System.Security.Policy.Evidence));
-					r_MResolveMatchingCodeGroups_Evidence.SetBelong(this.GetValue());
 				}
 				return r_MResolveMatchingCodeGroups_Evidence;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MToXml == null)
 				{
 					r_MToXml = new(this, "ToXml", 0);
-					r_MToXml.SetBelong(this.GetValue());
 				}
 				return r_MToXml;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MSave == null)
 				{
 					r_MSave = new(this, "Save", 0);
-					r_MSave.SetBelong(this.GetValue());
 				}
 				return r_MSave;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MCreateDefaultLevel_PolicyLevelType == null)
 				{
 					r_MCreateDefaultLevel_PolicyLevelType = new(this, "CreateDefaultLevel", 0, typeof(System.Security.PolicyLevelType));
-					r_MCreateDefaultLevel_PolicyLevelType.SetBelong(this.GetValue());
 				}
 				return r_MCreateDefaultLevel_PolicyLevelType;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MCreateDefaultFullTrustAssemblies == null)
 				{
 					r_MCreateDefaultFullTrustAssemblies = new(this, "CreateDefaultFullTrustAssemblies", 0);
-					r_MCreateDefaultFullTrustAssemblies.SetBelong(this.GetValue());
 				}
 				return r_MCreateDefaultFullTrustAssemblies;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MCreateDefaultNamedPermissionSets == null)
 				{
 					r_MCreateDefaultNamedPermissionSets = new(this, "CreateDefaultNamedPermissionSets", 0);
-					r_MCreateDefaultNamedPermissionSets.SetBelong(this.GetValue());
 				}
 				return r_MCreateDefaultNamedPermissionSets;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MResolveClassName_String == null)
 				{
 					r_MResolveClassName_String = new(this, "ResolveClassName", 0, typeof(System.String));
-					r_MResolveClassName_String.SetBelong(this.GetValue());
 				}
 				return r_MResolveClassName_String;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MIsFullTrustAssembly_Assembly == null)
 				{
 					r_MIsFullTrustAssembly_Assembly = new(this, "IsFullTrustAssembly", 0, typeof(System.Reflection.Assembly));
-					r_MIsFullTrustAssembly_Assembly.SetBelong(this.GetValue());
 				}
 				return r_MIsFullTrustAssembly_Assembly;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

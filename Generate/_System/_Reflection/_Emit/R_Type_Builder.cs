@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Ftname == null)
 				{
 					r_Ftname = new(this, "tname");
-					r_Ftname.SetBelong(this.GetValue());
 				}
 				return r_Ftname;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fnspace == null)
 				{
 					r_Fnspace = new(this, "nspace");
-					r_Fnspace.SetBelong(this.GetValue());
 				}
 				return r_Fnspace;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fparent == null)
 				{
 					r_Fparent = new(this, "parent");
-					r_Fparent.SetBelong(this.GetValue());
 				}
 				return r_Fparent;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fnesting_type == null)
 				{
 					r_Fnesting_type = new(this, "nesting_type");
-					r_Fnesting_type.SetBelong(this.GetValue());
 				}
 				return r_Fnesting_type;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Finterfaces == null)
 				{
 					r_Finterfaces = new(this, "interfaces");
-					r_Finterfaces.SetBelong(this.GetValue());
 				}
 				return r_Finterfaces;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fnum_methods == null)
 				{
 					r_Fnum_methods = new(this, "num_methods");
-					r_Fnum_methods.SetBelong(this.GetValue());
 				}
 				return r_Fnum_methods;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fmethods == null)
 				{
 					r_Fmethods = new(this, "methods");
-					r_Fmethods.SetBelong(this.GetValue());
 				}
 				return r_Fmethods;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fctors == null)
 				{
 					r_Fctors = new(this, "ctors");
-					r_Fctors.SetBelong(this.GetValue());
 				}
 				return r_Fctors;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fproperties == null)
 				{
 					r_Fproperties = new(this, "properties");
-					r_Fproperties.SetBelong(this.GetValue());
 				}
 				return r_Fproperties;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fnum_fields == null)
 				{
 					r_Fnum_fields = new(this, "num_fields");
-					r_Fnum_fields.SetBelong(this.GetValue());
 				}
 				return r_Fnum_fields;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Ffields == null)
 				{
 					r_Ffields = new(this, "fields");
-					r_Ffields.SetBelong(this.GetValue());
 				}
 				return r_Ffields;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fevents == null)
 				{
 					r_Fevents = new(this, "events");
-					r_Fevents.SetBelong(this.GetValue());
 				}
 				return r_Fevents;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fcattrs == null)
 				{
 					r_Fcattrs = new(this, "cattrs");
-					r_Fcattrs.SetBelong(this.GetValue());
 				}
 				return r_Fcattrs;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fsubtypes == null)
 				{
 					r_Fsubtypes = new(this, "subtypes");
-					r_Fsubtypes.SetBelong(this.GetValue());
 				}
 				return r_Fsubtypes;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fattrs == null)
 				{
 					r_Fattrs = new(this, "attrs");
-					r_Fattrs.SetBelong(this.GetValue());
 				}
 				return r_Fattrs;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Ftable_idx == null)
 				{
 					r_Ftable_idx = new(this, "table_idx");
-					r_Ftable_idx.SetBelong(this.GetValue());
 				}
 				return r_Ftable_idx;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fpmodule == null)
 				{
 					r_Fpmodule = new(this, "pmodule");
-					r_Fpmodule.SetBelong(this.GetValue());
 				}
 				return r_Fpmodule;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fclass_size == null)
 				{
 					r_Fclass_size = new(this, "class_size");
-					r_Fclass_size.SetBelong(this.GetValue());
 				}
 				return r_Fclass_size;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fpacking_size == null)
 				{
 					r_Fpacking_size = new(this, "packing_size");
-					r_Fpacking_size.SetBelong(this.GetValue());
 				}
 				return r_Fpacking_size;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fgeneric_container == null)
 				{
 					r_Fgeneric_container = new(this, "generic_container");
-					r_Fgeneric_container.SetBelong(this.GetValue());
 				}
 				return r_Fgeneric_container;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fgeneric_params == null)
 				{
 					r_Fgeneric_params = new(this, "generic_params");
-					r_Fgeneric_params.SetBelong(this.GetValue());
 				}
 				return r_Fgeneric_params;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fpermissions == null)
 				{
 					r_Fpermissions = new(this, "permissions");
-					r_Fpermissions.SetBelong(this.GetValue());
 				}
 				return r_Fpermissions;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fcreated == null)
 				{
 					r_Fcreated = new(this, "created");
-					r_Fcreated.SetBelong(this.GetValue());
 				}
 				return r_Fcreated;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fstate == null)
 				{
 					r_Fstate = new(this, "state");
-					r_Fstate.SetBelong(this.GetValue());
 				}
 				return r_Fstate;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Ffullname == null)
 				{
 					r_Ffullname = new(this, "fullname");
-					r_Ffullname.SetBelong(this.GetValue());
 				}
 				return r_Ffullname;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_FcreateTypeCalled == null)
 				{
 					r_FcreateTypeCalled = new(this, "createTypeCalled");
-					r_FcreateTypeCalled.SetBelong(this.GetValue());
 				}
 				return r_FcreateTypeCalled;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Funderlying_type == null)
 				{
 					r_Funderlying_type = new(this, "underlying_type");
-					r_Funderlying_type.SetBelong(this.GetValue());
 				}
 				return r_Funderlying_type;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_FUnspecifiedTypeSize == null)
 				{
 					r_FUnspecifiedTypeSize = new(typeof(System.Reflection.Emit.TypeBuilder), "UnspecifiedTypeSize");
-					r_FUnspecifiedTypeSize.SetBelong(null);
 				}
 				return r_FUnspecifiedTypeSize;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_F_impl == null)
 				{
 					r_F_impl = new(this, "_impl");
-					r_F_impl.SetBelong(this.GetValue());
 				}
 				return r_F_impl;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PAssembly == null)
 				{
 					r_PAssembly = new(this, "Assembly", -1);
-					r_PAssembly.SetBelong(this.GetValue());
 				}
 				return r_PAssembly;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PAssemblyQualifiedName == null)
 				{
 					r_PAssemblyQualifiedName = new(this, "AssemblyQualifiedName", -1);
-					r_PAssemblyQualifiedName.SetBelong(this.GetValue());
 				}
 				return r_PAssemblyQualifiedName;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PBaseType == null)
 				{
 					r_PBaseType = new(this, "BaseType", -1);
-					r_PBaseType.SetBelong(this.GetValue());
 				}
 				return r_PBaseType;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaringType == null)
 				{
 					r_PDeclaringType = new(this, "DeclaringType", -1);
-					r_PDeclaringType.SetBelong(this.GetValue());
 				}
 				return r_PDeclaringType;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PUnderlyingSystemType == null)
 				{
 					r_PUnderlyingSystemType = new(this, "UnderlyingSystemType", -1);
-					r_PUnderlyingSystemType.SetBelong(this.GetValue());
 				}
 				return r_PUnderlyingSystemType;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PFullName == null)
 				{
 					r_PFullName = new(this, "FullName", -1);
-					r_PFullName.SetBelong(this.GetValue());
 				}
 				return r_PFullName;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PGUID == null)
 				{
 					r_PGUID = new(this, "GUID", -1);
-					r_PGUID.SetBelong(this.GetValue());
 				}
 				return r_PGUID;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PModule == null)
 				{
 					r_PModule = new(this, "Module", -1);
-					r_PModule.SetBelong(this.GetValue());
 				}
 				return r_PModule;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PName == null)
 				{
 					r_PName = new(this, "Name", -1);
-					r_PName.SetBelong(this.GetValue());
 				}
 				return r_PName;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PNamespace == null)
 				{
 					r_PNamespace = new(this, "Namespace", -1);
-					r_PNamespace.SetBelong(this.GetValue());
 				}
 				return r_PNamespace;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PPackingSize == null)
 				{
 					r_PPackingSize = new(this, "PackingSize", -1);
-					r_PPackingSize.SetBelong(this.GetValue());
 				}
 				return r_PPackingSize;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PSize == null)
 				{
 					r_PSize = new(this, "Size", -1);
-					r_PSize.SetBelong(this.GetValue());
 				}
 				return r_PSize;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PReflectedType == null)
 				{
 					r_PReflectedType = new(this, "ReflectedType", -1);
-					r_PReflectedType.SetBelong(this.GetValue());
 				}
 				return r_PReflectedType;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PTypeHandle == null)
 				{
 					r_PTypeHandle = new(this, "TypeHandle", -1);
-					r_PTypeHandle.SetBelong(this.GetValue());
 				}
 				return r_PTypeHandle;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PTypeToken == null)
 				{
 					r_PTypeToken = new(this, "TypeToken", -1);
-					r_PTypeToken.SetBelong(this.GetValue());
 				}
 				return r_PTypeToken;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Pis_created == null)
 				{
 					r_Pis_created = new(this, "is_created", -1);
-					r_Pis_created.SetBelong(this.GetValue());
 				}
 				return r_Pis_created;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PContainsGenericParameters == null)
 				{
 					r_PContainsGenericParameters = new(this, "ContainsGenericParameters", -1);
-					r_PContainsGenericParameters.SetBelong(this.GetValue());
 				}
 				return r_PContainsGenericParameters;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsGenericParameter == null)
 				{
 					r_PIsGenericParameter = new(this, "IsGenericParameter", -1);
-					r_PIsGenericParameter.SetBelong(this.GetValue());
 				}
 				return r_PIsGenericParameter;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PGenericParameterAttributes == null)
 				{
 					r_PGenericParameterAttributes = new(this, "GenericParameterAttributes", -1);
-					r_PGenericParameterAttributes.SetBelong(this.GetValue());
 				}
 				return r_PGenericParameterAttributes;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsGenericTypeDefinition == null)
 				{
 					r_PIsGenericTypeDefinition = new(this, "IsGenericTypeDefinition", -1);
-					r_PIsGenericTypeDefinition.SetBelong(this.GetValue());
 				}
 				return r_PIsGenericTypeDefinition;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsGenericType == null)
 				{
 					r_PIsGenericType = new(this, "IsGenericType", -1);
-					r_PIsGenericType.SetBelong(this.GetValue());
 				}
 				return r_PIsGenericType;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PGenericParameterPosition == null)
 				{
 					r_PGenericParameterPosition = new(this, "GenericParameterPosition", -1);
-					r_PGenericParameterPosition.SetBelong(this.GetValue());
 				}
 				return r_PGenericParameterPosition;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaringMethod == null)
 				{
 					r_PDeclaringMethod = new(this, "DeclaringMethod", -1);
-					r_PDeclaringMethod.SetBelong(this.GetValue());
 				}
 				return r_PDeclaringMethod;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsUserType == null)
 				{
 					r_PIsUserType = new(this, "IsUserType", -1);
-					r_PIsUserType.SetBelong(this.GetValue());
 				}
 				return r_PIsUserType;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsConstructedGenericType == null)
 				{
 					r_PIsConstructedGenericType = new(this, "IsConstructedGenericType", -1);
-					r_PIsConstructedGenericType.SetBelong(this.GetValue());
 				}
 				return r_PIsConstructedGenericType;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsTypeDefinition == null)
 				{
 					r_PIsTypeDefinition = new(this, "IsTypeDefinition", -1);
-					r_PIsTypeDefinition.SetBelong(this.GetValue());
 				}
 				return r_PIsTypeDefinition;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PGenericTypeParameters == null)
 				{
 					r_PGenericTypeParameters = new(this, "GenericTypeParameters", -1);
-					r_PGenericTypeParameters.SetBelong(this.GetValue());
 				}
 				return r_PGenericTypeParameters;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredConstructors == null)
 				{
 					r_PDeclaredConstructors = new(this, "DeclaredConstructors", -1);
-					r_PDeclaredConstructors.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredConstructors;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredEvents == null)
 				{
 					r_PDeclaredEvents = new(this, "DeclaredEvents", -1);
-					r_PDeclaredEvents.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredEvents;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredFields == null)
 				{
 					r_PDeclaredFields = new(this, "DeclaredFields", -1);
-					r_PDeclaredFields.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredFields;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredMembers == null)
 				{
 					r_PDeclaredMembers = new(this, "DeclaredMembers", -1);
-					r_PDeclaredMembers.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredMembers;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredMethods == null)
 				{
 					r_PDeclaredMethods = new(this, "DeclaredMethods", -1);
-					r_PDeclaredMethods.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredMethods;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredNestedTypes == null)
 				{
 					r_PDeclaredNestedTypes = new(this, "DeclaredNestedTypes", -1);
-					r_PDeclaredNestedTypes.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredNestedTypes;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PDeclaredProperties == null)
 				{
 					r_PDeclaredProperties = new(this, "DeclaredProperties", -1);
-					r_PDeclaredProperties.SetBelong(this.GetValue());
 				}
 				return r_PDeclaredProperties;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PImplementedInterfaces == null)
 				{
 					r_PImplementedInterfaces = new(this, "ImplementedInterfaces", -1);
-					r_PImplementedInterfaces.SetBelong(this.GetValue());
 				}
 				return r_PImplementedInterfaces;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSerializable == null)
 				{
 					r_PIsSerializable = new(this, "IsSerializable", -1);
-					r_PIsSerializable.SetBelong(this.GetValue());
 				}
 				return r_PIsSerializable;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsVisible == null)
 				{
 					r_PIsVisible = new(this, "IsVisible", -1);
-					r_PIsVisible.SetBelong(this.GetValue());
 				}
 				return r_PIsVisible;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PMemberType == null)
 				{
 					r_PMemberType = new(this, "MemberType", -1);
-					r_PMemberType.SetBelong(this.GetValue());
 				}
 				return r_PMemberType;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNested == null)
 				{
 					r_PIsNested = new(this, "IsNested", -1);
-					r_PIsNested.SetBelong(this.GetValue());
 				}
 				return r_PIsNested;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsArray == null)
 				{
 					r_PIsArray = new(this, "IsArray", -1);
-					r_PIsArray.SetBelong(this.GetValue());
 				}
 				return r_PIsArray;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsByRef == null)
 				{
 					r_PIsByRef = new(this, "IsByRef", -1);
-					r_PIsByRef.SetBelong(this.GetValue());
 				}
 				return r_PIsByRef;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsPointer == null)
 				{
 					r_PIsPointer = new(this, "IsPointer", -1);
-					r_PIsPointer.SetBelong(this.GetValue());
 				}
 				return r_PIsPointer;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsGenericTypeParameter == null)
 				{
 					r_PIsGenericTypeParameter = new(this, "IsGenericTypeParameter", -1);
-					r_PIsGenericTypeParameter.SetBelong(this.GetValue());
 				}
 				return r_PIsGenericTypeParameter;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsGenericMethodParameter == null)
 				{
 					r_PIsGenericMethodParameter = new(this, "IsGenericMethodParameter", -1);
-					r_PIsGenericMethodParameter.SetBelong(this.GetValue());
 				}
 				return r_PIsGenericMethodParameter;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSZArray == null)
 				{
 					r_PIsSZArray = new(this, "IsSZArray", -1);
-					r_PIsSZArray.SetBelong(this.GetValue());
 				}
 				return r_PIsSZArray;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsVariableBoundArray == null)
 				{
 					r_PIsVariableBoundArray = new(this, "IsVariableBoundArray", -1);
-					r_PIsVariableBoundArray.SetBelong(this.GetValue());
 				}
 				return r_PIsVariableBoundArray;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsByRefLike == null)
 				{
 					r_PIsByRefLike = new(this, "IsByRefLike", -1);
-					r_PIsByRefLike.SetBelong(this.GetValue());
 				}
 				return r_PIsByRefLike;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PHasElementType == null)
 				{
 					r_PHasElementType = new(this, "HasElementType", -1);
-					r_PHasElementType.SetBelong(this.GetValue());
 				}
 				return r_PHasElementType;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PGenericTypeArguments == null)
 				{
 					r_PGenericTypeArguments = new(this, "GenericTypeArguments", -1);
-					r_PGenericTypeArguments.SetBelong(this.GetValue());
 				}
 				return r_PGenericTypeArguments;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PAttributes == null)
 				{
 					r_PAttributes = new(this, "Attributes", -1);
-					r_PAttributes.SetBelong(this.GetValue());
 				}
 				return r_PAttributes;
 			}
@@ -1365,7 +1286,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsAbstract == null)
 				{
 					r_PIsAbstract = new(this, "IsAbstract", -1);
-					r_PIsAbstract.SetBelong(this.GetValue());
 				}
 				return r_PIsAbstract;
 			}
@@ -1382,7 +1302,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsImport == null)
 				{
 					r_PIsImport = new(this, "IsImport", -1);
-					r_PIsImport.SetBelong(this.GetValue());
 				}
 				return r_PIsImport;
 			}
@@ -1399,7 +1318,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSealed == null)
 				{
 					r_PIsSealed = new(this, "IsSealed", -1);
-					r_PIsSealed.SetBelong(this.GetValue());
 				}
 				return r_PIsSealed;
 			}
@@ -1416,7 +1334,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSpecialName == null)
 				{
 					r_PIsSpecialName = new(this, "IsSpecialName", -1);
-					r_PIsSpecialName.SetBelong(this.GetValue());
 				}
 				return r_PIsSpecialName;
 			}
@@ -1433,7 +1350,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsClass == null)
 				{
 					r_PIsClass = new(this, "IsClass", -1);
-					r_PIsClass.SetBelong(this.GetValue());
 				}
 				return r_PIsClass;
 			}
@@ -1450,7 +1366,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNestedAssembly == null)
 				{
 					r_PIsNestedAssembly = new(this, "IsNestedAssembly", -1);
-					r_PIsNestedAssembly.SetBelong(this.GetValue());
 				}
 				return r_PIsNestedAssembly;
 			}
@@ -1467,7 +1382,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNestedFamANDAssem == null)
 				{
 					r_PIsNestedFamANDAssem = new(this, "IsNestedFamANDAssem", -1);
-					r_PIsNestedFamANDAssem.SetBelong(this.GetValue());
 				}
 				return r_PIsNestedFamANDAssem;
 			}
@@ -1484,7 +1398,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNestedFamily == null)
 				{
 					r_PIsNestedFamily = new(this, "IsNestedFamily", -1);
-					r_PIsNestedFamily.SetBelong(this.GetValue());
 				}
 				return r_PIsNestedFamily;
 			}
@@ -1501,7 +1414,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNestedFamORAssem == null)
 				{
 					r_PIsNestedFamORAssem = new(this, "IsNestedFamORAssem", -1);
-					r_PIsNestedFamORAssem.SetBelong(this.GetValue());
 				}
 				return r_PIsNestedFamORAssem;
 			}
@@ -1518,7 +1430,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNestedPrivate == null)
 				{
 					r_PIsNestedPrivate = new(this, "IsNestedPrivate", -1);
-					r_PIsNestedPrivate.SetBelong(this.GetValue());
 				}
 				return r_PIsNestedPrivate;
 			}
@@ -1535,7 +1446,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNestedPublic == null)
 				{
 					r_PIsNestedPublic = new(this, "IsNestedPublic", -1);
-					r_PIsNestedPublic.SetBelong(this.GetValue());
 				}
 				return r_PIsNestedPublic;
 			}
@@ -1552,7 +1462,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsNotPublic == null)
 				{
 					r_PIsNotPublic = new(this, "IsNotPublic", -1);
-					r_PIsNotPublic.SetBelong(this.GetValue());
 				}
 				return r_PIsNotPublic;
 			}
@@ -1569,7 +1478,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsPublic == null)
 				{
 					r_PIsPublic = new(this, "IsPublic", -1);
-					r_PIsPublic.SetBelong(this.GetValue());
 				}
 				return r_PIsPublic;
 			}
@@ -1586,7 +1494,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsAutoLayout == null)
 				{
 					r_PIsAutoLayout = new(this, "IsAutoLayout", -1);
-					r_PIsAutoLayout.SetBelong(this.GetValue());
 				}
 				return r_PIsAutoLayout;
 			}
@@ -1603,7 +1510,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsExplicitLayout == null)
 				{
 					r_PIsExplicitLayout = new(this, "IsExplicitLayout", -1);
-					r_PIsExplicitLayout.SetBelong(this.GetValue());
 				}
 				return r_PIsExplicitLayout;
 			}
@@ -1620,7 +1526,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsLayoutSequential == null)
 				{
 					r_PIsLayoutSequential = new(this, "IsLayoutSequential", -1);
-					r_PIsLayoutSequential.SetBelong(this.GetValue());
 				}
 				return r_PIsLayoutSequential;
 			}
@@ -1637,7 +1542,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsAnsiClass == null)
 				{
 					r_PIsAnsiClass = new(this, "IsAnsiClass", -1);
-					r_PIsAnsiClass.SetBelong(this.GetValue());
 				}
 				return r_PIsAnsiClass;
 			}
@@ -1654,7 +1558,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsAutoClass == null)
 				{
 					r_PIsAutoClass = new(this, "IsAutoClass", -1);
-					r_PIsAutoClass.SetBelong(this.GetValue());
 				}
 				return r_PIsAutoClass;
 			}
@@ -1671,7 +1574,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsUnicodeClass == null)
 				{
 					r_PIsUnicodeClass = new(this, "IsUnicodeClass", -1);
-					r_PIsUnicodeClass.SetBelong(this.GetValue());
 				}
 				return r_PIsUnicodeClass;
 			}
@@ -1688,7 +1590,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsCOMObject == null)
 				{
 					r_PIsCOMObject = new(this, "IsCOMObject", -1);
-					r_PIsCOMObject.SetBelong(this.GetValue());
 				}
 				return r_PIsCOMObject;
 			}
@@ -1705,7 +1606,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsContextful == null)
 				{
 					r_PIsContextful = new(this, "IsContextful", -1);
-					r_PIsContextful.SetBelong(this.GetValue());
 				}
 				return r_PIsContextful;
 			}
@@ -1722,7 +1622,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsCollectible == null)
 				{
 					r_PIsCollectible = new(this, "IsCollectible", -1);
-					r_PIsCollectible.SetBelong(this.GetValue());
 				}
 				return r_PIsCollectible;
 			}
@@ -1739,7 +1638,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsEnum == null)
 				{
 					r_PIsEnum = new(this, "IsEnum", -1);
-					r_PIsEnum.SetBelong(this.GetValue());
 				}
 				return r_PIsEnum;
 			}
@@ -1756,7 +1654,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsMarshalByRef == null)
 				{
 					r_PIsMarshalByRef = new(this, "IsMarshalByRef", -1);
-					r_PIsMarshalByRef.SetBelong(this.GetValue());
 				}
 				return r_PIsMarshalByRef;
 			}
@@ -1773,7 +1670,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsPrimitive == null)
 				{
 					r_PIsPrimitive = new(this, "IsPrimitive", -1);
-					r_PIsPrimitive.SetBelong(this.GetValue());
 				}
 				return r_PIsPrimitive;
 			}
@@ -1790,7 +1686,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsValueType == null)
 				{
 					r_PIsValueType = new(this, "IsValueType", -1);
-					r_PIsValueType.SetBelong(this.GetValue());
 				}
 				return r_PIsValueType;
 			}
@@ -1807,7 +1702,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSignatureType == null)
 				{
 					r_PIsSignatureType = new(this, "IsSignatureType", -1);
-					r_PIsSignatureType.SetBelong(this.GetValue());
 				}
 				return r_PIsSignatureType;
 			}
@@ -1824,7 +1718,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSecurityCritical == null)
 				{
 					r_PIsSecurityCritical = new(this, "IsSecurityCritical", -1);
-					r_PIsSecurityCritical.SetBelong(this.GetValue());
 				}
 				return r_PIsSecurityCritical;
 			}
@@ -1841,7 +1734,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSecuritySafeCritical == null)
 				{
 					r_PIsSecuritySafeCritical = new(this, "IsSecuritySafeCritical", -1);
-					r_PIsSecuritySafeCritical.SetBelong(this.GetValue());
 				}
 				return r_PIsSecuritySafeCritical;
 			}
@@ -1858,7 +1750,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSecurityTransparent == null)
 				{
 					r_PIsSecurityTransparent = new(this, "IsSecurityTransparent", -1);
-					r_PIsSecurityTransparent.SetBelong(this.GetValue());
 				}
 				return r_PIsSecurityTransparent;
 			}
@@ -1875,7 +1766,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PStructLayoutAttribute == null)
 				{
 					r_PStructLayoutAttribute = new(this, "StructLayoutAttribute", -1);
-					r_PStructLayoutAttribute.SetBelong(this.GetValue());
 				}
 				return r_PStructLayoutAttribute;
 			}
@@ -1892,7 +1782,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PTypeInitializer == null)
 				{
 					r_PTypeInitializer = new(this, "TypeInitializer", -1);
-					r_PTypeInitializer.SetBelong(this.GetValue());
 				}
 				return r_PTypeInitializer;
 			}
@@ -1909,7 +1798,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsWindowsRuntimeObject == null)
 				{
 					r_PIsWindowsRuntimeObject = new(this, "IsWindowsRuntimeObject", -1);
-					r_PIsWindowsRuntimeObject.SetBelong(this.GetValue());
 				}
 				return r_PIsWindowsRuntimeObject;
 			}
@@ -1926,7 +1814,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsExportedToWindowsRuntime == null)
 				{
 					r_PIsExportedToWindowsRuntime = new(this, "IsExportedToWindowsRuntime", -1);
-					r_PIsExportedToWindowsRuntime.SetBelong(this.GetValue());
 				}
 				return r_PIsExportedToWindowsRuntime;
 			}
@@ -1943,7 +1830,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsSzArray == null)
 				{
 					r_PIsSzArray = new(this, "IsSzArray", -1);
-					r_PIsSzArray.SetBelong(this.GetValue());
 				}
 				return r_PIsSzArray;
 			}
@@ -1960,7 +1846,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PIsInterface == null)
 				{
 					r_PIsInterface = new(this, "IsInterface", -1);
-					r_PIsInterface.SetBelong(this.GetValue());
 				}
 				return r_PIsInterface;
 			}
@@ -1977,7 +1862,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PFullNameOrDefault == null)
 				{
 					r_PFullNameOrDefault = new(this, "FullNameOrDefault", -1);
-					r_PFullNameOrDefault.SetBelong(this.GetValue());
 				}
 				return r_PFullNameOrDefault;
 			}
@@ -1994,7 +1878,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PInternalNameIfAvailable == null)
 				{
 					r_PInternalNameIfAvailable = new(this, "InternalNameIfAvailable", -1);
-					r_PInternalNameIfAvailable.SetBelong(this.GetValue());
 				}
 				return r_PInternalNameIfAvailable;
 			}
@@ -2011,7 +1894,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PNameOrDefault == null)
 				{
 					r_PNameOrDefault = new(this, "NameOrDefault", -1);
-					r_PNameOrDefault.SetBelong(this.GetValue());
 				}
 				return r_PNameOrDefault;
 			}
@@ -2028,7 +1910,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PCustomAttributes == null)
 				{
 					r_PCustomAttributes = new(this, "CustomAttributes", -1);
-					r_PCustomAttributes.SetBelong(this.GetValue());
 				}
 				return r_PCustomAttributes;
 			}
@@ -2045,7 +1926,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PMetadataToken == null)
 				{
 					r_PMetadataToken = new(this, "MetadataToken", -1);
-					r_PMetadataToken.SetBelong(this.GetValue());
 				}
 				return r_PMetadataToken;
 			}
@@ -2062,7 +1942,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr == null)
 				{
 					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._TypeBuilder.GetIDsOfNames", 0, typeof(System.Guid).MakeByRefType(), typeof(System.IntPtr), typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
-					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames_In_Guid_IntPtr_UInt32_UInt32_IntPtr;
 			}
@@ -2079,7 +1958,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr == null)
 				{
 					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr = new(this, "System.Runtime.InteropServices._TypeBuilder.GetTypeInfo", 0, typeof(System.UInt32), typeof(System.UInt32), typeof(System.IntPtr));
-					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfo_UInt32_UInt32_IntPtr;
 			}
@@ -2096,7 +1974,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32 == null)
 				{
 					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32 = new(this, "System.Runtime.InteropServices._TypeBuilder.GetTypeInfoCount", 0, typeof(System.UInt32).MakeByRefType());
-					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32;
 			}
@@ -2113,7 +1990,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr == null)
 				{
 					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr = new(this, "System.Runtime.InteropServices._TypeBuilder.Invoke", 0, typeof(System.UInt32), typeof(System.Guid).MakeByRefType(), typeof(System.UInt32), typeof(System.Int16), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.IntPtr));
-					r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__Invoke_UInt32_In_Guid_UInt32_Int16_IntPtr_IntPtr_IntPtr_IntPtr;
 			}
@@ -2130,7 +2006,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetAttributeFlagsImpl == null)
 				{
 					r_MGetAttributeFlagsImpl = new(this, "GetAttributeFlagsImpl", 0);
-					r_MGetAttributeFlagsImpl.SetBelong(this.GetValue());
 				}
 				return r_MGetAttributeFlagsImpl;
 			}
@@ -2147,7 +2022,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsSubclassOf_Type == null)
 				{
 					r_MIsSubclassOf_Type = new(this, "IsSubclassOf", 0, typeof(System.Type));
-					r_MIsSubclassOf_Type.SetBelong(this.GetValue());
 				}
 				return r_MIsSubclassOf_Type;
 			}
@@ -2164,7 +2038,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetFullName == null)
 				{
 					r_MGetFullName = new(this, "GetFullName", 0);
-					r_MGetFullName.SetBelong(this.GetValue());
 				}
 				return r_MGetFullName;
 			}
@@ -2181,7 +2054,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MAddDeclarativeSecurity_SecurityAction_PermissionSet == null)
 				{
 					r_MAddDeclarativeSecurity_SecurityAction_PermissionSet = new(this, "AddDeclarativeSecurity", 0, typeof(System.Security.Permissions.SecurityAction), typeof(System.Security.PermissionSet));
-					r_MAddDeclarativeSecurity_SecurityAction_PermissionSet.SetBelong(this.GetValue());
 				}
 				return r_MAddDeclarativeSecurity_SecurityAction_PermissionSet;
 			}
@@ -2198,7 +2070,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MAddInterfaceImplementation_Type == null)
 				{
 					r_MAddInterfaceImplementation_Type = new(this, "AddInterfaceImplementation", 0, typeof(System.Type));
-					r_MAddInterfaceImplementation_Type.SetBelong(this.GetValue());
 				}
 				return r_MAddInterfaceImplementation_Type;
 			}
@@ -2215,7 +2086,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructorImpl_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetConstructorImpl_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray = new(this, "GetConstructorImpl", 0, typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetConstructorImpl_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructorImpl_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray;
 			}
@@ -2232,7 +2102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsDefined_Type_Boolean == null)
 				{
 					r_MIsDefined_Type_Boolean = new(this, "IsDefined", 0, typeof(System.Type), typeof(System.Boolean));
-					r_MIsDefined_Type_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MIsDefined_Type_Boolean;
 			}
@@ -2249,7 +2118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetCustomAttributes_Boolean == null)
 				{
 					r_MGetCustomAttributes_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Boolean));
-					r_MGetCustomAttributes_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetCustomAttributes_Boolean;
 			}
@@ -2266,7 +2134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetCustomAttributes_Type_Boolean == null)
 				{
 					r_MGetCustomAttributes_Type_Boolean = new(this, "GetCustomAttributes", 0, typeof(System.Type), typeof(System.Boolean));
-					r_MGetCustomAttributes_Type_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetCustomAttributes_Type_Boolean;
 			}
@@ -2283,7 +2150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String == null)
 				{
 					r_MDefineNestedType_String = new(this, "DefineNestedType", 0, typeof(System.String));
-					r_MDefineNestedType_String.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String;
 			}
@@ -2300,7 +2166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes));
-					r_MDefineNestedType_String_TypeAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes;
 			}
@@ -2317,7 +2182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes_Type == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes_Type = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes), typeof(System.Type));
-					r_MDefineNestedType_String_TypeAttributes_Type.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes_Type;
 			}
@@ -2334,7 +2198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes_Type_TypeArray_PackingSize_Int32 == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes_Type_TypeArray_PackingSize_Int32 = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.Emit.PackingSize), typeof(System.Int32));
-					r_MDefineNestedType_String_TypeAttributes_Type_TypeArray_PackingSize_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes_Type_TypeArray_PackingSize_Int32;
 			}
@@ -2351,7 +2214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes_Type_TypeArray == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes_Type_TypeArray = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes), typeof(System.Type), typeof(System.Type).MakeArrayType());
-					r_MDefineNestedType_String_TypeAttributes_Type_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes_Type_TypeArray;
 			}
@@ -2368,7 +2230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes_Type_Int32 == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes_Type_Int32 = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes), typeof(System.Type), typeof(System.Int32));
-					r_MDefineNestedType_String_TypeAttributes_Type_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes_Type_Int32;
 			}
@@ -2385,7 +2246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes_Type_PackingSize == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes_Type_PackingSize = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes), typeof(System.Type), typeof(System.Reflection.Emit.PackingSize));
-					r_MDefineNestedType_String_TypeAttributes_Type_PackingSize.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes_Type_PackingSize;
 			}
@@ -2402,7 +2262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineNestedType_String_TypeAttributes_Type_PackingSize_Int32 == null)
 				{
 					r_MDefineNestedType_String_TypeAttributes_Type_PackingSize_Int32 = new(this, "DefineNestedType", 0, typeof(System.String), typeof(System.Reflection.TypeAttributes), typeof(System.Type), typeof(System.Reflection.Emit.PackingSize), typeof(System.Int32));
-					r_MDefineNestedType_String_TypeAttributes_Type_PackingSize_Int32.SetBelong(this.GetValue());
 				}
 				return r_MDefineNestedType_String_TypeAttributes_Type_PackingSize_Int32;
 			}
@@ -2419,7 +2278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray == null)
 				{
 					r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray = new(this, "DefineConstructor", 0, typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType());
-					r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray;
 			}
@@ -2436,7 +2294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray_TypeArrayArray_TypeArrayArray == null)
 				{
 					r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray_TypeArrayArray_TypeArrayArray = new(this, "DefineConstructor", 0, typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
-					r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray_TypeArrayArray_TypeArrayArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineConstructor_MethodAttributes_CallingConventions_TypeArray_TypeArrayArray_TypeArrayArray;
 			}
@@ -2453,7 +2310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineDefaultConstructor_MethodAttributes == null)
 				{
 					r_MDefineDefaultConstructor_MethodAttributes = new(this, "DefineDefaultConstructor", 0, typeof(System.Reflection.MethodAttributes));
-					r_MDefineDefaultConstructor_MethodAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineDefaultConstructor_MethodAttributes;
 			}
@@ -2470,7 +2326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mappend_method_MethodBuilder == null)
 				{
 					r_Mappend_method_MethodBuilder = new(this, "append_method", 0, typeof(System.Reflection.Emit.MethodBuilder));
-					r_Mappend_method_MethodBuilder.SetBelong(this.GetValue());
 				}
 				return r_Mappend_method_MethodBuilder;
 			}
@@ -2487,7 +2342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineMethod_String_MethodAttributes_Type_TypeArray == null)
 				{
 					r_MDefineMethod_String_MethodAttributes_Type_TypeArray = new(this, "DefineMethod", 0, typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Type), typeof(System.Type).MakeArrayType());
-					r_MDefineMethod_String_MethodAttributes_Type_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineMethod_String_MethodAttributes_Type_TypeArray;
 			}
@@ -2504,7 +2358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray == null)
 				{
 					r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray = new(this, "DefineMethod", 0, typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType());
-					r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray;
 			}
@@ -2521,7 +2374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray == null)
 				{
 					r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(this, "DefineMethod", 0, typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
-					r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineMethod_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray;
 			}
@@ -2538,7 +2390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet == null)
 				{
 					r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet = new(this, "DefinePInvokeMethod", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Runtime.InteropServices.CharSet));
-					r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet.SetBelong(this.GetValue());
 				}
 				return r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet;
 			}
@@ -2555,7 +2406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray_CallingConvention_CharSet == null)
 				{
 					r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray_CallingConvention_CharSet = new(this, "DefinePInvokeMethod", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Runtime.InteropServices.CharSet));
-					r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray_CallingConvention_CharSet.SetBelong(this.GetValue());
 				}
 				return r_MDefinePInvokeMethod_String_String_String_MethodAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray_CallingConvention_CharSet;
 			}
@@ -2572,7 +2422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefinePInvokeMethod_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet == null)
 				{
 					r_MDefinePInvokeMethod_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet = new(this, "DefinePInvokeMethod", 0, typeof(System.String), typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Runtime.InteropServices.CharSet));
-					r_MDefinePInvokeMethod_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet.SetBelong(this.GetValue());
 				}
 				return r_MDefinePInvokeMethod_String_String_MethodAttributes_CallingConventions_Type_TypeArray_CallingConvention_CharSet;
 			}
@@ -2589,7 +2438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineMethod_String_MethodAttributes == null)
 				{
 					r_MDefineMethod_String_MethodAttributes = new(this, "DefineMethod", 0, typeof(System.String), typeof(System.Reflection.MethodAttributes));
-					r_MDefineMethod_String_MethodAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineMethod_String_MethodAttributes;
 			}
@@ -2606,7 +2454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineMethod_String_MethodAttributes_CallingConventions == null)
 				{
 					r_MDefineMethod_String_MethodAttributes_CallingConventions = new(this, "DefineMethod", 0, typeof(System.String), typeof(System.Reflection.MethodAttributes), typeof(System.Reflection.CallingConventions));
-					r_MDefineMethod_String_MethodAttributes_CallingConventions.SetBelong(this.GetValue());
 				}
 				return r_MDefineMethod_String_MethodAttributes_CallingConventions;
 			}
@@ -2623,7 +2470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineMethodOverride_MethodInfo_MethodInfo == null)
 				{
 					r_MDefineMethodOverride_MethodInfo_MethodInfo = new(this, "DefineMethodOverride", 0, typeof(System.Reflection.MethodInfo), typeof(System.Reflection.MethodInfo));
-					r_MDefineMethodOverride_MethodInfo_MethodInfo.SetBelong(this.GetValue());
 				}
 				return r_MDefineMethodOverride_MethodInfo_MethodInfo;
 			}
@@ -2640,7 +2486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineField_String_Type_FieldAttributes == null)
 				{
 					r_MDefineField_String_Type_FieldAttributes = new(this, "DefineField", 0, typeof(System.String), typeof(System.Type), typeof(System.Reflection.FieldAttributes));
-					r_MDefineField_String_Type_FieldAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineField_String_Type_FieldAttributes;
 			}
@@ -2657,7 +2502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineField_String_Type_TypeArray_TypeArray_FieldAttributes == null)
 				{
 					r_MDefineField_String_Type_TypeArray_TypeArray_FieldAttributes = new(this, "DefineField", 0, typeof(System.String), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.FieldAttributes));
-					r_MDefineField_String_Type_TypeArray_TypeArray_FieldAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineField_String_Type_TypeArray_TypeArray_FieldAttributes;
 			}
@@ -2674,7 +2518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineProperty_String_PropertyAttributes_Type_TypeArray == null)
 				{
 					r_MDefineProperty_String_PropertyAttributes_Type_TypeArray = new(this, "DefineProperty", 0, typeof(System.String), typeof(System.Reflection.PropertyAttributes), typeof(System.Type), typeof(System.Type).MakeArrayType());
-					r_MDefineProperty_String_PropertyAttributes_Type_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineProperty_String_PropertyAttributes_Type_TypeArray;
 			}
@@ -2691,7 +2534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray == null)
 				{
 					r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray = new(this, "DefineProperty", 0, typeof(System.String), typeof(System.Reflection.PropertyAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType());
-					r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray;
 			}
@@ -2708,7 +2550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineProperty_String_PropertyAttributes_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray == null)
 				{
 					r_MDefineProperty_String_PropertyAttributes_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(this, "DefineProperty", 0, typeof(System.String), typeof(System.Reflection.PropertyAttributes), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
-					r_MDefineProperty_String_PropertyAttributes_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineProperty_String_PropertyAttributes_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray;
 			}
@@ -2725,7 +2566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray == null)
 				{
 					r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(this, "DefineProperty", 0, typeof(System.String), typeof(System.Reflection.PropertyAttributes), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
-					r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineProperty_String_PropertyAttributes_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray;
 			}
@@ -2742,7 +2582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineTypeInitializer == null)
 				{
 					r_MDefineTypeInitializer = new(this, "DefineTypeInitializer", 0);
-					r_MDefineTypeInitializer.SetBelong(this.GetValue());
 				}
 				return r_MDefineTypeInitializer;
 			}
@@ -2759,7 +2598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mcreate_runtime_class == null)
 				{
 					r_Mcreate_runtime_class = new(this, "create_runtime_class", 0);
-					r_Mcreate_runtime_class.SetBelong(this.GetValue());
 				}
 				return r_Mcreate_runtime_class;
 			}
@@ -2776,7 +2614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mis_nested_in_Type == null)
 				{
 					r_Mis_nested_in_Type = new(this, "is_nested_in", 0, typeof(System.Type));
-					r_Mis_nested_in_Type.SetBelong(this.GetValue());
 				}
 				return r_Mis_nested_in_Type;
 			}
@@ -2793,7 +2630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mhas_ctor_method == null)
 				{
 					r_Mhas_ctor_method = new(this, "has_ctor_method", 0);
-					r_Mhas_ctor_method.SetBelong(this.GetValue());
 				}
 				return r_Mhas_ctor_method;
 			}
@@ -2810,7 +2646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MCreateType == null)
 				{
 					r_MCreateType = new(this, "CreateType", 0);
-					r_MCreateType.SetBelong(this.GetValue());
 				}
 				return r_MCreateType;
 			}
@@ -2827,7 +2662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MCreateTypeInfo == null)
 				{
 					r_MCreateTypeInfo = new(this, "CreateTypeInfo", 0);
-					r_MCreateTypeInfo.SetBelong(this.GetValue());
 				}
 				return r_MCreateTypeInfo;
 			}
@@ -2844,7 +2678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MResolveUserTypes == null)
 				{
 					r_MResolveUserTypes = new(this, "ResolveUserTypes", 0);
-					r_MResolveUserTypes.SetBelong(this.GetValue());
 				}
 				return r_MResolveUserTypes;
 			}
@@ -2861,7 +2694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MResolveUserTypes_TypeArray == null)
 				{
 					r_MResolveUserTypes_TypeArray = new(typeof(System.Reflection.Emit.TypeBuilder), "ResolveUserTypes", 0, typeof(System.Type).MakeArrayType());
-					r_MResolveUserTypes_TypeArray.SetBelong(null);
 				}
 				return r_MResolveUserTypes_TypeArray;
 			}
@@ -2878,7 +2710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MResolveUserType_Type == null)
 				{
 					r_MResolveUserType_Type = new(typeof(System.Reflection.Emit.TypeBuilder), "ResolveUserType", 0, typeof(System.Type));
-					r_MResolveUserType_Type.SetBelong(null);
 				}
 				return r_MResolveUserType_Type;
 			}
@@ -2895,7 +2726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_ == null)
 				{
 					r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_ = new(this, "FixupTokens", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)), typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.Int32), typeof(System.Reflection.MemberInfo)));
-					r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_.SetBelong(this.GetValue());
 				}
 				return r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p_;
 			}
@@ -2912,7 +2742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGenerateDebugInfo_ISymbolWriter == null)
 				{
 					r_MGenerateDebugInfo_ISymbolWriter = new(this, "GenerateDebugInfo", 0, typeof(System.Diagnostics.SymbolStore.ISymbolWriter));
-					r_MGenerateDebugInfo_ISymbolWriter.SetBelong(this.GetValue());
 				}
 				return r_MGenerateDebugInfo_ISymbolWriter;
 			}
@@ -2929,7 +2758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructors_BindingFlags == null)
 				{
 					r_MGetConstructors_BindingFlags = new(this, "GetConstructors", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetConstructors_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructors_BindingFlags;
 			}
@@ -2946,7 +2774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructorsInternal_BindingFlags == null)
 				{
 					r_MGetConstructorsInternal_BindingFlags = new(this, "GetConstructorsInternal", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetConstructorsInternal_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructorsInternal_BindingFlags;
 			}
@@ -2963,7 +2790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetElementType == null)
 				{
 					r_MGetElementType = new(this, "GetElementType", 0);
-					r_MGetElementType.SetBelong(this.GetValue());
 				}
 				return r_MGetElementType;
 			}
@@ -2980,7 +2806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEvent_String_BindingFlags == null)
 				{
 					r_MGetEvent_String_BindingFlags = new(this, "GetEvent", 0, typeof(System.String), typeof(System.Reflection.BindingFlags));
-					r_MGetEvent_String_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetEvent_String_BindingFlags;
 			}
@@ -2997,7 +2822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEvents == null)
 				{
 					r_MGetEvents = new(this, "GetEvents", 0);
-					r_MGetEvents.SetBelong(this.GetValue());
 				}
 				return r_MGetEvents;
 			}
@@ -3014,7 +2838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEvents_BindingFlags == null)
 				{
 					r_MGetEvents_BindingFlags = new(this, "GetEvents", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetEvents_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetEvents_BindingFlags;
 			}
@@ -3031,7 +2854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetField_String_BindingFlags == null)
 				{
 					r_MGetField_String_BindingFlags = new(this, "GetField", 0, typeof(System.String), typeof(System.Reflection.BindingFlags));
-					r_MGetField_String_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetField_String_BindingFlags;
 			}
@@ -3048,7 +2870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetFields_BindingFlags == null)
 				{
 					r_MGetFields_BindingFlags = new(this, "GetFields", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetFields_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetFields_BindingFlags;
 			}
@@ -3065,7 +2886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetInterface_String_Boolean == null)
 				{
 					r_MGetInterface_String_Boolean = new(this, "GetInterface", 0, typeof(System.String), typeof(System.Boolean));
-					r_MGetInterface_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetInterface_String_Boolean;
 			}
@@ -3082,7 +2902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetInterfaces == null)
 				{
 					r_MGetInterfaces = new(this, "GetInterfaces", 0);
-					r_MGetInterfaces.SetBelong(this.GetValue());
 				}
 				return r_MGetInterfaces;
 			}
@@ -3099,7 +2918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMember_String_MemberTypes_BindingFlags == null)
 				{
 					r_MGetMember_String_MemberTypes_BindingFlags = new(this, "GetMember", 0, typeof(System.String), typeof(System.Reflection.MemberTypes), typeof(System.Reflection.BindingFlags));
-					r_MGetMember_String_MemberTypes_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetMember_String_MemberTypes_BindingFlags;
 			}
@@ -3116,7 +2934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMembers_BindingFlags == null)
 				{
 					r_MGetMembers_BindingFlags = new(this, "GetMembers", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetMembers_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetMembers_BindingFlags;
 			}
@@ -3133,7 +2950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethodsByName_String_BindingFlags_Boolean_Type == null)
 				{
 					r_MGetMethodsByName_String_BindingFlags_Boolean_Type = new(this, "GetMethodsByName", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Boolean), typeof(System.Type));
-					r_MGetMethodsByName_String_BindingFlags_Boolean_Type.SetBelong(this.GetValue());
 				}
 				return r_MGetMethodsByName_String_BindingFlags_Boolean_Type;
 			}
@@ -3150,7 +2966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethods_BindingFlags == null)
 				{
 					r_MGetMethods_BindingFlags = new(this, "GetMethods", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetMethods_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetMethods_BindingFlags;
 			}
@@ -3167,7 +2982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray = new(this, "GetMethodImpl", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray;
 			}
@@ -3184,7 +2998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetNestedType_String_BindingFlags == null)
 				{
 					r_MGetNestedType_String_BindingFlags = new(this, "GetNestedType", 0, typeof(System.String), typeof(System.Reflection.BindingFlags));
-					r_MGetNestedType_String_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetNestedType_String_BindingFlags;
 			}
@@ -3201,7 +3014,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetNestedTypes_BindingFlags == null)
 				{
 					r_MGetNestedTypes_BindingFlags = new(this, "GetNestedTypes", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetNestedTypes_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetNestedTypes_BindingFlags;
 			}
@@ -3218,7 +3030,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperties_BindingFlags == null)
 				{
 					r_MGetProperties_BindingFlags = new(this, "GetProperties", 0, typeof(System.Reflection.BindingFlags));
-					r_MGetProperties_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetProperties_BindingFlags;
 			}
@@ -3235,7 +3046,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetPropertyImpl_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetPropertyImpl_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray = new(this, "GetPropertyImpl", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetPropertyImpl_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetPropertyImpl_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray;
 			}
@@ -3252,7 +3062,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MHasElementTypeImpl == null)
 				{
 					r_MHasElementTypeImpl = new(this, "HasElementTypeImpl", 0);
-					r_MHasElementTypeImpl.SetBelong(this.GetValue());
 				}
 				return r_MHasElementTypeImpl;
 			}
@@ -3269,7 +3078,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_ParameterModifierArray_CultureInfo_StringArray == null)
 				{
 					r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_ParameterModifierArray_CultureInfo_StringArray = new(this, "InvokeMember", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Object), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType(), typeof(System.Globalization.CultureInfo), typeof(System.String).MakeArrayType());
-					r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_ParameterModifierArray_CultureInfo_StringArray.SetBelong(this.GetValue());
 				}
 				return r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_ParameterModifierArray_CultureInfo_StringArray;
 			}
@@ -3286,7 +3094,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsArrayImpl == null)
 				{
 					r_MIsArrayImpl = new(this, "IsArrayImpl", 0);
-					r_MIsArrayImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsArrayImpl;
 			}
@@ -3303,7 +3110,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsByRefImpl == null)
 				{
 					r_MIsByRefImpl = new(this, "IsByRefImpl", 0);
-					r_MIsByRefImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsByRefImpl;
 			}
@@ -3320,7 +3126,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsCOMObjectImpl == null)
 				{
 					r_MIsCOMObjectImpl = new(this, "IsCOMObjectImpl", 0);
-					r_MIsCOMObjectImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsCOMObjectImpl;
 			}
@@ -3337,7 +3142,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsPointerImpl == null)
 				{
 					r_MIsPointerImpl = new(this, "IsPointerImpl", 0);
-					r_MIsPointerImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsPointerImpl;
 			}
@@ -3354,7 +3158,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsPrimitiveImpl == null)
 				{
 					r_MIsPrimitiveImpl = new(this, "IsPrimitiveImpl", 0);
-					r_MIsPrimitiveImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsPrimitiveImpl;
 			}
@@ -3371,7 +3174,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsValueTypeImpl == null)
 				{
 					r_MIsValueTypeImpl = new(this, "IsValueTypeImpl", 0);
-					r_MIsValueTypeImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsValueTypeImpl;
 			}
@@ -3388,7 +3190,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMakeArrayType == null)
 				{
 					r_MMakeArrayType = new(this, "MakeArrayType", 0);
-					r_MMakeArrayType.SetBelong(this.GetValue());
 				}
 				return r_MMakeArrayType;
 			}
@@ -3405,7 +3206,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMakeArrayType_Int32 == null)
 				{
 					r_MMakeArrayType_Int32 = new(this, "MakeArrayType", 0, typeof(System.Int32));
-					r_MMakeArrayType_Int32.SetBelong(this.GetValue());
 				}
 				return r_MMakeArrayType_Int32;
 			}
@@ -3422,7 +3222,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMakeByRefType == null)
 				{
 					r_MMakeByRefType = new(this, "MakeByRefType", 0);
-					r_MMakeByRefType.SetBelong(this.GetValue());
 				}
 				return r_MMakeByRefType;
 			}
@@ -3439,7 +3238,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMakeGenericType_TypeArray == null)
 				{
 					r_MMakeGenericType_TypeArray = new(this, "MakeGenericType", 0, typeof(System.Type).MakeArrayType());
-					r_MMakeGenericType_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MMakeGenericType_TypeArray;
 			}
@@ -3456,7 +3254,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMakePointerType == null)
 				{
 					r_MMakePointerType = new(this, "MakePointerType", 0);
-					r_MMakePointerType.SetBelong(this.GetValue());
 				}
 				return r_MMakePointerType;
 			}
@@ -3473,7 +3270,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSetCustomAttribute_CustomAttributeBuilder == null)
 				{
 					r_MSetCustomAttribute_CustomAttributeBuilder = new(this, "SetCustomAttribute", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder));
-					r_MSetCustomAttribute_CustomAttributeBuilder.SetBelong(this.GetValue());
 				}
 				return r_MSetCustomAttribute_CustomAttributeBuilder;
 			}
@@ -3490,7 +3286,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSetCustomAttribute_ConstructorInfo_ByteArray == null)
 				{
 					r_MSetCustomAttribute_ConstructorInfo_ByteArray = new(this, "SetCustomAttribute", 0, typeof(System.Reflection.ConstructorInfo), typeof(System.Byte).MakeArrayType());
-					r_MSetCustomAttribute_ConstructorInfo_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MSetCustomAttribute_ConstructorInfo_ByteArray;
 			}
@@ -3507,7 +3302,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineEvent_String_EventAttributes_Type == null)
 				{
 					r_MDefineEvent_String_EventAttributes_Type = new(this, "DefineEvent", 0, typeof(System.String), typeof(System.Reflection.EventAttributes), typeof(System.Type));
-					r_MDefineEvent_String_EventAttributes_Type.SetBelong(this.GetValue());
 				}
 				return r_MDefineEvent_String_EventAttributes_Type;
 			}
@@ -3524,7 +3318,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineInitializedData_String_ByteArray_FieldAttributes == null)
 				{
 					r_MDefineInitializedData_String_ByteArray_FieldAttributes = new(this, "DefineInitializedData", 0, typeof(System.String), typeof(System.Byte).MakeArrayType(), typeof(System.Reflection.FieldAttributes));
-					r_MDefineInitializedData_String_ByteArray_FieldAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineInitializedData_String_ByteArray_FieldAttributes;
 			}
@@ -3541,7 +3334,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineUninitializedData_String_Int32_FieldAttributes == null)
 				{
 					r_MDefineUninitializedData_String_Int32_FieldAttributes = new(this, "DefineUninitializedData", 0, typeof(System.String), typeof(System.Int32), typeof(System.Reflection.FieldAttributes));
-					r_MDefineUninitializedData_String_Int32_FieldAttributes.SetBelong(this.GetValue());
 				}
 				return r_MDefineUninitializedData_String_Int32_FieldAttributes;
 			}
@@ -3558,7 +3350,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSetParent_Type == null)
 				{
 					r_MSetParent_Type = new(this, "SetParent", 0, typeof(System.Type));
-					r_MSetParent_Type.SetBelong(this.GetValue());
 				}
 				return r_MSetParent_Type;
 			}
@@ -3575,7 +3366,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mget_next_table_index_Object_Int32_Int32 == null)
 				{
 					r_Mget_next_table_index_Object_Int32_Int32 = new(this, "get_next_table_index", 0, typeof(System.Object), typeof(System.Int32), typeof(System.Int32));
-					r_Mget_next_table_index_Object_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_Mget_next_table_index_Object_Int32_Int32;
 			}
@@ -3592,7 +3382,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetInterfaceMap_Type == null)
 				{
 					r_MGetInterfaceMap_Type = new(this, "GetInterfaceMap", 0, typeof(System.Type));
-					r_MGetInterfaceMap_Type.SetBelong(this.GetValue());
 				}
 				return r_MGetInterfaceMap_Type;
 			}
@@ -3609,7 +3398,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MInternalResolve == null)
 				{
 					r_MInternalResolve = new(this, "InternalResolve", 0);
-					r_MInternalResolve.SetBelong(this.GetValue());
 				}
 				return r_MInternalResolve;
 			}
@@ -3626,7 +3414,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MRuntimeResolve == null)
 				{
 					r_MRuntimeResolve = new(this, "RuntimeResolve", 0);
-					r_MRuntimeResolve.SetBelong(this.GetValue());
 				}
 				return r_MRuntimeResolve;
 			}
@@ -3643,7 +3430,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mnot_supported == null)
 				{
 					r_Mnot_supported = new(this, "not_supported", 0);
-					r_Mnot_supported.SetBelong(this.GetValue());
 				}
 				return r_Mnot_supported;
 			}
@@ -3660,7 +3446,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mcheck_not_created == null)
 				{
 					r_Mcheck_not_created = new(this, "check_not_created", 0);
-					r_Mcheck_not_created.SetBelong(this.GetValue());
 				}
 				return r_Mcheck_not_created;
 			}
@@ -3677,7 +3462,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mcheck_created == null)
 				{
 					r_Mcheck_created = new(this, "check_created", 0);
-					r_Mcheck_created.SetBelong(this.GetValue());
 				}
 				return r_Mcheck_created;
 			}
@@ -3694,7 +3478,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mcheck_name_String_String == null)
 				{
 					r_Mcheck_name_String_String = new(this, "check_name", 0, typeof(System.String), typeof(System.String));
-					r_Mcheck_name_String_String.SetBelong(this.GetValue());
 				}
 				return r_Mcheck_name_String_String;
 			}
@@ -3711,7 +3494,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -3728,7 +3510,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsAssignableFrom_Type == null)
 				{
 					r_MIsAssignableFrom_Type = new(this, "IsAssignableFrom", 0, typeof(System.Type));
-					r_MIsAssignableFrom_Type.SetBelong(this.GetValue());
 				}
 				return r_MIsAssignableFrom_Type;
 			}
@@ -3745,7 +3526,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsAssignableTo_Type == null)
 				{
 					r_MIsAssignableTo_Type = new(this, "IsAssignableTo", 0, typeof(System.Type));
-					r_MIsAssignableTo_Type.SetBelong(this.GetValue());
 				}
 				return r_MIsAssignableTo_Type;
 			}
@@ -3762,7 +3542,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsCreated == null)
 				{
 					r_MIsCreated = new(this, "IsCreated", 0);
-					r_MIsCreated.SetBelong(this.GetValue());
 				}
 				return r_MIsCreated;
 			}
@@ -3779,7 +3558,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetGenericArguments == null)
 				{
 					r_MGetGenericArguments = new(this, "GetGenericArguments", 0);
-					r_MGetGenericArguments.SetBelong(this.GetValue());
 				}
 				return r_MGetGenericArguments;
 			}
@@ -3796,7 +3574,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetGenericTypeDefinition == null)
 				{
 					r_MGetGenericTypeDefinition = new(this, "GetGenericTypeDefinition", 0);
-					r_MGetGenericTypeDefinition.SetBelong(this.GetValue());
 				}
 				return r_MGetGenericTypeDefinition;
 			}
@@ -3813,7 +3590,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MDefineGenericParameters_StringArray == null)
 				{
 					r_MDefineGenericParameters_StringArray = new(this, "DefineGenericParameters", 0, typeof(System.String).MakeArrayType());
-					r_MDefineGenericParameters_StringArray.SetBelong(this.GetValue());
 				}
 				return r_MDefineGenericParameters_StringArray;
 			}
@@ -3830,7 +3606,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructor_Type_ConstructorInfo == null)
 				{
 					r_MGetConstructor_Type_ConstructorInfo = new(typeof(System.Reflection.Emit.TypeBuilder), "GetConstructor", 0, typeof(System.Type), typeof(System.Reflection.ConstructorInfo));
-					r_MGetConstructor_Type_ConstructorInfo.SetBelong(null);
 				}
 				return r_MGetConstructor_Type_ConstructorInfo;
 			}
@@ -3847,7 +3622,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsValidGetMethodType_Type == null)
 				{
 					r_MIsValidGetMethodType_Type = new(typeof(System.Reflection.Emit.TypeBuilder), "IsValidGetMethodType", 0, typeof(System.Type));
-					r_MIsValidGetMethodType_Type.SetBelong(null);
 				}
 				return r_MIsValidGetMethodType_Type;
 			}
@@ -3864,7 +3638,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_Type_MethodInfo == null)
 				{
 					r_MGetMethod_Type_MethodInfo = new(typeof(System.Reflection.Emit.TypeBuilder), "GetMethod", 0, typeof(System.Type), typeof(System.Reflection.MethodInfo));
-					r_MGetMethod_Type_MethodInfo.SetBelong(null);
 				}
 				return r_MGetMethod_Type_MethodInfo;
 			}
@@ -3881,7 +3654,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetField_Type_FieldInfo == null)
 				{
 					r_MGetField_Type_FieldInfo = new(typeof(System.Reflection.Emit.TypeBuilder), "GetField", 0, typeof(System.Type), typeof(System.Reflection.FieldInfo));
-					r_MGetField_Type_FieldInfo.SetBelong(null);
 				}
 				return r_MGetField_Type_FieldInfo;
 			}
@@ -3898,7 +3670,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsAssignableFrom_TypeInfo == null)
 				{
 					r_MIsAssignableFrom_TypeInfo = new(this, "IsAssignableFrom", 0, typeof(System.Reflection.TypeInfo));
-					r_MIsAssignableFrom_TypeInfo.SetBelong(this.GetValue());
 				}
 				return r_MIsAssignableFrom_TypeInfo;
 			}
@@ -3915,7 +3686,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MSetConstantValue_Type_Object_Ref_Object == null)
 				{
 					r_MSetConstantValue_Type_Object_Ref_Object = new(typeof(System.Reflection.Emit.TypeBuilder), "SetConstantValue", 0, typeof(System.Type), typeof(System.Object), typeof(System.Object).MakeByRefType());
-					r_MSetConstantValue_Type_Object_Ref_Object.SetBelong(null);
 				}
 				return r_MSetConstantValue_Type_Object_Ref_Object;
 			}
@@ -3932,7 +3702,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mthrow_argument_ConstantDoesntMatch == null)
 				{
 					r_Mthrow_argument_ConstantDoesntMatch = new(typeof(System.Reflection.Emit.TypeBuilder), "throw_argument_ConstantDoesntMatch", 0);
-					r_Mthrow_argument_ConstantDoesntMatch.SetBelong(null);
 				}
 				return r_Mthrow_argument_ConstantDoesntMatch;
 			}
@@ -3949,7 +3718,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MAsType == null)
 				{
 					r_MAsType = new(this, "AsType", 0);
-					r_MAsType.SetBelong(this.GetValue());
 				}
 				return r_MAsType;
 			}
@@ -3966,7 +3734,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDeclaredEvent_String == null)
 				{
 					r_MGetDeclaredEvent_String = new(this, "GetDeclaredEvent", 0, typeof(System.String));
-					r_MGetDeclaredEvent_String.SetBelong(this.GetValue());
 				}
 				return r_MGetDeclaredEvent_String;
 			}
@@ -3983,7 +3750,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDeclaredField_String == null)
 				{
 					r_MGetDeclaredField_String = new(this, "GetDeclaredField", 0, typeof(System.String));
-					r_MGetDeclaredField_String.SetBelong(this.GetValue());
 				}
 				return r_MGetDeclaredField_String;
 			}
@@ -4000,7 +3766,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDeclaredMethod_String == null)
 				{
 					r_MGetDeclaredMethod_String = new(this, "GetDeclaredMethod", 0, typeof(System.String));
-					r_MGetDeclaredMethod_String.SetBelong(this.GetValue());
 				}
 				return r_MGetDeclaredMethod_String;
 			}
@@ -4017,7 +3782,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDeclaredNestedType_String == null)
 				{
 					r_MGetDeclaredNestedType_String = new(this, "GetDeclaredNestedType", 0, typeof(System.String));
-					r_MGetDeclaredNestedType_String.SetBelong(this.GetValue());
 				}
 				return r_MGetDeclaredNestedType_String;
 			}
@@ -4034,7 +3798,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDeclaredProperty_String == null)
 				{
 					r_MGetDeclaredProperty_String = new(this, "GetDeclaredProperty", 0, typeof(System.String));
-					r_MGetDeclaredProperty_String.SetBelong(this.GetValue());
 				}
 				return r_MGetDeclaredProperty_String;
 			}
@@ -4051,7 +3814,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDeclaredMethods_String == null)
 				{
 					r_MGetDeclaredMethods_String = new(this, "GetDeclaredMethods", 0, typeof(System.String));
-					r_MGetDeclaredMethods_String.SetBelong(this.GetValue());
 				}
 				return r_MGetDeclaredMethods_String;
 			}
@@ -4068,7 +3830,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsEnumDefined_Object == null)
 				{
 					r_MIsEnumDefined_Object = new(this, "IsEnumDefined", 0, typeof(System.Object));
-					r_MIsEnumDefined_Object.SetBelong(this.GetValue());
 				}
 				return r_MIsEnumDefined_Object;
 			}
@@ -4085,7 +3846,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEnumName_Object == null)
 				{
 					r_MGetEnumName_Object = new(this, "GetEnumName", 0, typeof(System.Object));
-					r_MGetEnumName_Object.SetBelong(this.GetValue());
 				}
 				return r_MGetEnumName_Object;
 			}
@@ -4102,7 +3862,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEnumNames == null)
 				{
 					r_MGetEnumNames = new(this, "GetEnumNames", 0);
-					r_MGetEnumNames.SetBelong(this.GetValue());
 				}
 				return r_MGetEnumNames;
 			}
@@ -4119,7 +3878,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetRootElementType == null)
 				{
 					r_MGetRootElementType = new(this, "GetRootElementType", 0);
-					r_MGetRootElementType.SetBelong(this.GetValue());
 				}
 				return r_MGetRootElementType;
 			}
@@ -4136,7 +3894,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFindInterfaces_TypeFilter_Object == null)
 				{
 					r_MFindInterfaces_TypeFilter_Object = new(this, "FindInterfaces", 0, typeof(System.Reflection.TypeFilter), typeof(System.Object));
-					r_MFindInterfaces_TypeFilter_Object.SetBelong(this.GetValue());
 				}
 				return r_MFindInterfaces_TypeFilter_Object;
 			}
@@ -4153,7 +3910,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFindMembers_MemberTypes_BindingFlags_MemberFilter_Object == null)
 				{
 					r_MFindMembers_MemberTypes_BindingFlags_MemberFilter_Object = new(this, "FindMembers", 0, typeof(System.Reflection.MemberTypes), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.MemberFilter), typeof(System.Object));
-					r_MFindMembers_MemberTypes_BindingFlags_MemberFilter_Object.SetBelong(this.GetValue());
 				}
 				return r_MFindMembers_MemberTypes_BindingFlags_MemberFilter_Object;
 			}
@@ -4170,7 +3926,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MImplementInterface_Type == null)
 				{
 					r_MImplementInterface_Type = new(this, "ImplementInterface", 0, typeof(System.Type));
-					r_MImplementInterface_Type.SetBelong(this.GetValue());
 				}
 				return r_MImplementInterface_Type;
 			}
@@ -4187,7 +3942,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -4204,7 +3958,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetArrayRank == null)
 				{
 					r_MGetArrayRank = new(this, "GetArrayRank", 0);
-					r_MGetArrayRank.SetBelong(this.GetValue());
 				}
 				return r_MGetArrayRank;
 			}
@@ -4221,7 +3974,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetGenericParameterConstraints == null)
 				{
 					r_MGetGenericParameterConstraints = new(this, "GetGenericParameterConstraints", 0);
-					r_MGetGenericParameterConstraints.SetBelong(this.GetValue());
 				}
 				return r_MGetGenericParameterConstraints;
 			}
@@ -4238,7 +3990,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsContextfulImpl == null)
 				{
 					r_MIsContextfulImpl = new(this, "IsContextfulImpl", 0);
-					r_MIsContextfulImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsContextfulImpl;
 			}
@@ -4255,7 +4006,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsMarshalByRefImpl == null)
 				{
 					r_MIsMarshalByRefImpl = new(this, "IsMarshalByRefImpl", 0);
-					r_MIsMarshalByRefImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsMarshalByRefImpl;
 			}
@@ -4272,7 +4022,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructor_TypeArray == null)
 				{
 					r_MGetConstructor_TypeArray = new(this, "GetConstructor", 0, typeof(System.Type).MakeArrayType());
-					r_MGetConstructor_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructor_TypeArray;
 			}
@@ -4289,7 +4038,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructor_BindingFlags_Binder_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetConstructor_BindingFlags_Binder_TypeArray_ParameterModifierArray = new(this, "GetConstructor", 0, typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetConstructor_BindingFlags_Binder_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructor_BindingFlags_Binder_TypeArray_ParameterModifierArray;
 			}
@@ -4306,7 +4054,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructor_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetConstructor_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray = new(this, "GetConstructor", 0, typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetConstructor_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructor_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray;
 			}
@@ -4323,7 +4070,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructors == null)
 				{
 					r_MGetConstructors = new(this, "GetConstructors", 0);
-					r_MGetConstructors.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructors;
 			}
@@ -4340,7 +4086,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEvent_String == null)
 				{
 					r_MGetEvent_String = new(this, "GetEvent", 0, typeof(System.String));
-					r_MGetEvent_String.SetBelong(this.GetValue());
 				}
 				return r_MGetEvent_String;
 			}
@@ -4357,7 +4102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetField_String == null)
 				{
 					r_MGetField_String = new(this, "GetField", 0, typeof(System.String));
-					r_MGetField_String.SetBelong(this.GetValue());
 				}
 				return r_MGetField_String;
 			}
@@ -4374,7 +4118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetFields == null)
 				{
 					r_MGetFields = new(this, "GetFields", 0);
-					r_MGetFields.SetBelong(this.GetValue());
 				}
 				return r_MGetFields;
 			}
@@ -4391,7 +4134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMember_String == null)
 				{
 					r_MGetMember_String = new(this, "GetMember", 0, typeof(System.String));
-					r_MGetMember_String.SetBelong(this.GetValue());
 				}
 				return r_MGetMember_String;
 			}
@@ -4408,7 +4150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMember_String_BindingFlags == null)
 				{
 					r_MGetMember_String_BindingFlags = new(this, "GetMember", 0, typeof(System.String), typeof(System.Reflection.BindingFlags));
-					r_MGetMember_String_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetMember_String_BindingFlags;
 			}
@@ -4425,7 +4166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMembers == null)
 				{
 					r_MGetMembers = new(this, "GetMembers", 0);
-					r_MGetMembers.SetBelong(this.GetValue());
 				}
 				return r_MGetMembers;
 			}
@@ -4442,7 +4182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String == null)
 				{
 					r_MGetMethod_String = new(this, "GetMethod", 0, typeof(System.String));
-					r_MGetMethod_String.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String;
 			}
@@ -4459,7 +4198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_BindingFlags == null)
 				{
 					r_MGetMethod_String_BindingFlags = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Reflection.BindingFlags));
-					r_MGetMethod_String_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_BindingFlags;
 			}
@@ -4476,7 +4214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_TypeArray == null)
 				{
 					r_MGetMethod_String_TypeArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Type).MakeArrayType());
-					r_MGetMethod_String_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_TypeArray;
 			}
@@ -4493,7 +4230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethod_String_TypeArray_ParameterModifierArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethod_String_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_TypeArray_ParameterModifierArray;
 			}
@@ -4510,7 +4246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_BindingFlags_Binder_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethod_String_BindingFlags_Binder_TypeArray_ParameterModifierArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethod_String_BindingFlags_Binder_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_BindingFlags_Binder_TypeArray_ParameterModifierArray;
 			}
@@ -4527,7 +4262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray;
 			}
@@ -4544,7 +4278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_Int32_TypeArray == null)
 				{
 					r_MGetMethod_String_Int32_TypeArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Int32), typeof(System.Type).MakeArrayType());
-					r_MGetMethod_String_Int32_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_Int32_TypeArray;
 			}
@@ -4561,7 +4294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_Int32_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethod_String_Int32_TypeArray_ParameterModifierArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethod_String_Int32_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_Int32_TypeArray_ParameterModifierArray;
 			}
@@ -4578,7 +4310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_Int32_BindingFlags_Binder_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethod_String_Int32_BindingFlags_Binder_TypeArray_ParameterModifierArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Int32), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethod_String_Int32_BindingFlags_Binder_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_Int32_BindingFlags_Binder_TypeArray_ParameterModifierArray;
 			}
@@ -4595,7 +4326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethod_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray = new(this, "GetMethod", 0, typeof(System.String), typeof(System.Int32), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethod_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray;
 			}
@@ -4612,7 +4342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethodImpl_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetMethodImpl_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray = new(this, "GetMethodImpl", 0, typeof(System.String), typeof(System.Int32), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Reflection.CallingConventions), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetMethodImpl_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetMethodImpl_String_Int32_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray;
 			}
@@ -4629,7 +4358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethods == null)
 				{
 					r_MGetMethods = new(this, "GetMethods", 0);
-					r_MGetMethods.SetBelong(this.GetValue());
 				}
 				return r_MGetMethods;
 			}
@@ -4646,7 +4374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetNestedType_String == null)
 				{
 					r_MGetNestedType_String = new(this, "GetNestedType", 0, typeof(System.String));
-					r_MGetNestedType_String.SetBelong(this.GetValue());
 				}
 				return r_MGetNestedType_String;
 			}
@@ -4663,7 +4390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetNestedTypes == null)
 				{
 					r_MGetNestedTypes = new(this, "GetNestedTypes", 0);
-					r_MGetNestedTypes.SetBelong(this.GetValue());
 				}
 				return r_MGetNestedTypes;
 			}
@@ -4680,7 +4406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String == null)
 				{
 					r_MGetProperty_String = new(this, "GetProperty", 0, typeof(System.String));
-					r_MGetProperty_String.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String;
 			}
@@ -4697,7 +4422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String_BindingFlags == null)
 				{
 					r_MGetProperty_String_BindingFlags = new(this, "GetProperty", 0, typeof(System.String), typeof(System.Reflection.BindingFlags));
-					r_MGetProperty_String_BindingFlags.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String_BindingFlags;
 			}
@@ -4714,7 +4438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String_Type == null)
 				{
 					r_MGetProperty_String_Type = new(this, "GetProperty", 0, typeof(System.String), typeof(System.Type));
-					r_MGetProperty_String_Type.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String_Type;
 			}
@@ -4731,7 +4454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String_TypeArray == null)
 				{
 					r_MGetProperty_String_TypeArray = new(this, "GetProperty", 0, typeof(System.String), typeof(System.Type).MakeArrayType());
-					r_MGetProperty_String_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String_TypeArray;
 			}
@@ -4748,7 +4470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String_Type_TypeArray == null)
 				{
 					r_MGetProperty_String_Type_TypeArray = new(this, "GetProperty", 0, typeof(System.String), typeof(System.Type), typeof(System.Type).MakeArrayType());
-					r_MGetProperty_String_Type_TypeArray.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String_Type_TypeArray;
 			}
@@ -4765,7 +4486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String_Type_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetProperty_String_Type_TypeArray_ParameterModifierArray = new(this, "GetProperty", 0, typeof(System.String), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetProperty_String_Type_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String_Type_TypeArray_ParameterModifierArray;
 			}
@@ -4782,7 +4502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperty_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray == null)
 				{
 					r_MGetProperty_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray = new(this, "GetProperty", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Reflection.ParameterModifier).MakeArrayType());
-					r_MGetProperty_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray.SetBelong(this.GetValue());
 				}
 				return r_MGetProperty_String_BindingFlags_Binder_Type_TypeArray_ParameterModifierArray;
 			}
@@ -4799,7 +4518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetProperties == null)
 				{
 					r_MGetProperties = new(this, "GetProperties", 0);
-					r_MGetProperties.SetBelong(this.GetValue());
 				}
 				return r_MGetProperties;
 			}
@@ -4816,7 +4534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetDefaultMembers == null)
 				{
 					r_MGetDefaultMembers = new(this, "GetDefaultMembers", 0);
-					r_MGetDefaultMembers.SetBelong(this.GetValue());
 				}
 				return r_MGetDefaultMembers;
 			}
@@ -4833,7 +4550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetTypeCodeImpl == null)
 				{
 					r_MGetTypeCodeImpl = new(this, "GetTypeCodeImpl", 0);
-					r_MGetTypeCodeImpl.SetBelong(this.GetValue());
 				}
 				return r_MGetTypeCodeImpl;
 			}
@@ -4850,7 +4566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray == null)
 				{
 					r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray = new(this, "InvokeMember", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Object), typeof(System.Object).MakeArrayType());
-					r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray.SetBelong(this.GetValue());
 				}
 				return r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray;
 			}
@@ -4867,7 +4582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_CultureInfo == null)
 				{
 					r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_CultureInfo = new(this, "InvokeMember", 0, typeof(System.String), typeof(System.Reflection.BindingFlags), typeof(System.Reflection.Binder), typeof(System.Object), typeof(System.Object).MakeArrayType(), typeof(System.Globalization.CultureInfo));
-					r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_CultureInfo.SetBelong(this.GetValue());
 				}
 				return r_MInvokeMember_String_BindingFlags_Binder_Object_ObjectArray_CultureInfo;
 			}
@@ -4884,7 +4598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetInterface_String == null)
 				{
 					r_MGetInterface_String = new(this, "GetInterface", 0, typeof(System.String));
-					r_MGetInterface_String.SetBelong(this.GetValue());
 				}
 				return r_MGetInterface_String;
 			}
@@ -4901,7 +4614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsInstanceOfType_Object == null)
 				{
 					r_MIsInstanceOfType_Object = new(this, "IsInstanceOfType", 0, typeof(System.Object));
-					r_MIsInstanceOfType_Object.SetBelong(this.GetValue());
 				}
 				return r_MIsInstanceOfType_Object;
 			}
@@ -4918,7 +4630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsEquivalentTo_Type == null)
 				{
 					r_MIsEquivalentTo_Type = new(this, "IsEquivalentTo", 0, typeof(System.Type));
-					r_MIsEquivalentTo_Type.SetBelong(this.GetValue());
 				}
 				return r_MIsEquivalentTo_Type;
 			}
@@ -4935,7 +4646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEnumUnderlyingType == null)
 				{
 					r_MGetEnumUnderlyingType = new(this, "GetEnumUnderlyingType", 0);
-					r_MGetEnumUnderlyingType.SetBelong(this.GetValue());
 				}
 				return r_MGetEnumUnderlyingType;
 			}
@@ -4952,7 +4662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetEnumValues == null)
 				{
 					r_MGetEnumValues = new(this, "GetEnumValues", 0);
-					r_MGetEnumValues.SetBelong(this.GetValue());
 				}
 				return r_MGetEnumValues;
 			}
@@ -4969,7 +4678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -4986,7 +4694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -5003,7 +4710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_Type == null)
 				{
 					r_MEquals_Type = new(this, "Equals", 0, typeof(System.Type));
-					r_MEquals_Type.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Type;
 			}
@@ -5020,7 +4726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetMethod_MethodInfo == null)
 				{
 					r_MGetMethod_MethodInfo = new(this, "GetMethod", 0, typeof(System.Reflection.MethodInfo));
-					r_MGetMethod_MethodInfo.SetBelong(this.GetValue());
 				}
 				return r_MGetMethod_MethodInfo;
 			}
@@ -5037,7 +4742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetConstructor_ConstructorInfo == null)
 				{
 					r_MGetConstructor_ConstructorInfo = new(this, "GetConstructor", 0, typeof(System.Reflection.ConstructorInfo));
-					r_MGetConstructor_ConstructorInfo.SetBelong(this.GetValue());
 				}
 				return r_MGetConstructor_ConstructorInfo;
 			}
@@ -5054,7 +4758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetField_FieldInfo == null)
 				{
 					r_MGetField_FieldInfo = new(this, "GetField", 0, typeof(System.Reflection.FieldInfo));
-					r_MGetField_FieldInfo.SetBelong(this.GetValue());
 				}
 				return r_MGetField_FieldInfo;
 			}
@@ -5071,7 +4774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetTypeHandleInternal == null)
 				{
 					r_MGetTypeHandleInternal = new(this, "GetTypeHandleInternal", 0);
-					r_MGetTypeHandleInternal.SetBelong(this.GetValue());
 				}
 				return r_MGetTypeHandleInternal;
 			}
@@ -5088,7 +4790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsWindowsRuntimeObjectImpl == null)
 				{
 					r_MIsWindowsRuntimeObjectImpl = new(this, "IsWindowsRuntimeObjectImpl", 0);
-					r_MIsWindowsRuntimeObjectImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsWindowsRuntimeObjectImpl;
 			}
@@ -5105,7 +4806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsExportedToWindowsRuntimeImpl == null)
 				{
 					r_MIsExportedToWindowsRuntimeImpl = new(this, "IsExportedToWindowsRuntimeImpl", 0);
-					r_MIsExportedToWindowsRuntimeImpl.SetBelong(this.GetValue());
 				}
 				return r_MIsExportedToWindowsRuntimeImpl;
 			}
@@ -5122,7 +4822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MHasProxyAttributeImpl == null)
 				{
 					r_MHasProxyAttributeImpl = new(this, "HasProxyAttributeImpl", 0);
-					r_MHasProxyAttributeImpl.SetBelong(this.GetValue());
 				}
 				return r_MHasProxyAttributeImpl;
 			}
@@ -5139,7 +4838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFormatTypeName == null)
 				{
 					r_MFormatTypeName = new(this, "FormatTypeName", 0);
-					r_MFormatTypeName.SetBelong(this.GetValue());
 				}
 				return r_MFormatTypeName;
 			}
@@ -5156,7 +4854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFormatTypeName_Boolean == null)
 				{
 					r_MFormatTypeName_Boolean = new(this, "FormatTypeName", 0, typeof(System.Boolean));
-					r_MFormatTypeName_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MFormatTypeName_Boolean;
 			}
@@ -5173,7 +4870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsRuntimeImplemented == null)
 				{
 					r_MIsRuntimeImplemented = new(this, "IsRuntimeImplemented", 0);
-					r_MIsRuntimeImplemented.SetBelong(this.GetValue());
 				}
 				return r_MIsRuntimeImplemented;
 			}
@@ -5190,7 +4886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MInternalGetNameIfAvailable_Ref_Type == null)
 				{
 					r_MInternalGetNameIfAvailable_Ref_Type = new(this, "InternalGetNameIfAvailable", 0, typeof(System.Type).MakeByRefType());
-					r_MInternalGetNameIfAvailable_Ref_Type.SetBelong(this.GetValue());
 				}
 				return r_MInternalGetNameIfAvailable_Ref_Type;
 			}
@@ -5207,7 +4902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mget_Module == null)
 				{
 					r_Mget_Module = new(this, "get_Module", 0);
-					r_Mget_Module.SetBelong(this.GetValue());
 				}
 				return r_Mget_Module;
 			}
@@ -5224,7 +4918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MHasSameMetadataDefinitionAs_MemberInfo == null)
 				{
 					r_MHasSameMetadataDefinitionAs_MemberInfo = new(this, "HasSameMetadataDefinitionAs", 0, typeof(System.Reflection.MemberInfo));
-					r_MHasSameMetadataDefinitionAs_MemberInfo.SetBelong(this.GetValue());
 				}
 				return r_MHasSameMetadataDefinitionAs_MemberInfo;
 			}
@@ -5241,7 +4934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetCustomAttributesData == null)
 				{
 					r_MGetCustomAttributesData = new(this, "GetCustomAttributesData", 0);
-					r_MGetCustomAttributesData.SetBelong(this.GetValue());
 				}
 				return r_MGetCustomAttributesData;
 			}
@@ -5258,7 +4950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MCacheEquals_Object == null)
 				{
 					r_MCacheEquals_Object = new(this, "CacheEquals", 0, typeof(System.Object));
-					r_MCacheEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MCacheEquals_Object;
 			}
@@ -5275,7 +4966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MHasSameMetadataDefinitionAsCore_GTOther_MemberInfo == null)
 				{
 					r_MHasSameMetadataDefinitionAsCore_GTOther_MemberInfo = new(this, "HasSameMetadataDefinitionAsCore", 1, typeof(System.Reflection.MemberInfo));
-					r_MHasSameMetadataDefinitionAsCore_GTOther_MemberInfo.SetBelong(this.GetValue());
 				}
 				return r_MHasSameMetadataDefinitionAsCore_GTOther_MemberInfo;
 			}
@@ -5292,7 +4982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -5309,7 +4998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

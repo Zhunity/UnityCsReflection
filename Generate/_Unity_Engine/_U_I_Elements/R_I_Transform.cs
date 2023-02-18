@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pposition == null)
 				{
 					r_Pposition = new(this, "position", -1);
-					r_Pposition.SetBelong(this.GetValue());
 				}
 				return r_Pposition;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Protation == null)
 				{
 					r_Protation = new(this, "rotation", -1);
-					r_Protation.SetBelong(this.GetValue());
 				}
 				return r_Protation;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pscale == null)
 				{
 					r_Pscale = new(this, "scale", -1);
-					r_Pscale.SetBelong(this.GetValue());
 				}
 				return r_Pscale;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pmatrix == null)
 				{
 					r_Pmatrix = new(this, "matrix", -1);
-					r_Pmatrix.SetBelong(this.GetValue());
 				}
 				return r_Pmatrix;
 			}

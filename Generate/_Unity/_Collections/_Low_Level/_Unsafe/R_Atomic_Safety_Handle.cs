@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FRead == null)
 				{
 					r_FRead = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Read");
-					r_FRead.SetBelong(null);
 				}
 				return r_FRead;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FWrite == null)
 				{
 					r_FWrite = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Write");
-					r_FWrite.SetBelong(null);
 				}
 				return r_FWrite;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FDispose == null)
 				{
 					r_FDispose = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Dispose");
-					r_FDispose.SetBelong(null);
 				}
 				return r_FDispose;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FReadCheck == null)
 				{
 					r_FReadCheck = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "ReadCheck");
-					r_FReadCheck.SetBelong(null);
 				}
 				return r_FReadCheck;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FWriteCheck == null)
 				{
 					r_FWriteCheck = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "WriteCheck");
-					r_FWriteCheck.SetBelong(null);
 				}
 				return r_FWriteCheck;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FDisposeCheck == null)
 				{
 					r_FDisposeCheck = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "DisposeCheck");
-					r_FDisposeCheck.SetBelong(null);
 				}
 				return r_FDisposeCheck;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FReadWriteDisposeCheck == null)
 				{
 					r_FReadWriteDisposeCheck = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "ReadWriteDisposeCheck");
-					r_FReadWriteDisposeCheck.SetBelong(null);
 				}
 				return r_FReadWriteDisposeCheck;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FversionNode == null)
 				{
 					r_FversionNode = new(this, "versionNode");
-					r_FversionNode.SetBelong(this.GetValue());
 				}
 				return r_FversionNode;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_Fversion == null)
 				{
 					r_Fversion = new(this, "version");
-					r_Fversion.SetBelong(this.GetValue());
 				}
 				return r_Fversion;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_FstaticSafetyId == null)
 				{
 					r_FstaticSafetyId = new(this, "staticSafetyId");
-					r_FstaticSafetyId.SetBelong(this.GetValue());
 				}
 				return r_FstaticSafetyId;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCreate == null)
 				{
 					r_MCreate = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Create", 0);
-					r_MCreate.SetBelong(null);
 				}
 				return r_MCreate;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetTempUnsafePtrSliceHandle == null)
 				{
 					r_MGetTempUnsafePtrSliceHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempUnsafePtrSliceHandle", 0);
-					r_MGetTempUnsafePtrSliceHandle.SetBelong(null);
 				}
 				return r_MGetTempUnsafePtrSliceHandle;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetTempMemoryHandle == null)
 				{
 					r_MGetTempMemoryHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempMemoryHandle", 0);
-					r_MGetTempMemoryHandle.SetBelong(null);
 				}
 				return r_MGetTempMemoryHandle;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MIsTempMemoryHandle_AtomicSafetyHandle == null)
 				{
 					r_MIsTempMemoryHandle_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsTempMemoryHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MIsTempMemoryHandle_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MIsTempMemoryHandle_AtomicSafetyHandle;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MRelease_AtomicSafetyHandle == null)
 				{
 					r_MRelease_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Release", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MRelease_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MRelease_AtomicSafetyHandle;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MIsDefaultValue_In_AtomicSafetyHandle == null)
 				{
 					r_MIsDefaultValue_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsDefaultValue", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MIsDefaultValue_In_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MIsDefaultValue_In_AtomicSafetyHandle;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetExclusiveWeak_In_AtomicSafetyHandle == null)
 				{
 					r_MGetExclusiveWeak_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MGetExclusiveWeak_In_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetExclusiveWeak_In_AtomicSafetyHandle;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MPrepareUndisposable_Ref_AtomicSafetyHandle == null)
 				{
 					r_MPrepareUndisposable_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "PrepareUndisposable", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MPrepareUndisposable_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MPrepareUndisposable_Ref_AtomicSafetyHandle;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MUseSecondaryVersion_Ref_AtomicSafetyHandle == null)
 				{
 					r_MUseSecondaryVersion_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "UseSecondaryVersion", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MUseSecondaryVersion_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MUseSecondaryVersion_Ref_AtomicSafetyHandle;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowSecondaryVersionWriting", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_MSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetAllowSecondaryVersionWriting_AtomicSafetyHandle_Boolean;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetBumpSecondaryVersionOnScheduleWrite", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_MSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetBumpSecondaryVersionOnScheduleWrite_AtomicSafetyHandle_Boolean;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_MSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetAllowReadOrWriteAccess_AtomicSafetyHandle_Boolean;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetAllowReadOrWriteAccess_AtomicSafetyHandle == null)
 				{
 					r_MGetAllowReadOrWriteAccess_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MGetAllowReadOrWriteAccess_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetAllowReadOrWriteAccess_AtomicSafetyHandle;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetNestedContainer_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetNestedContainer_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-					r_MSetNestedContainer_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetNestedContainer_AtomicSafetyHandle_Boolean;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetNestedContainer_AtomicSafetyHandle == null)
 				{
 					r_MGetNestedContainer_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MGetNestedContainer_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetNestedContainer_AtomicSafetyHandle;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle == null)
 				{
 					r_MCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndBumpSecondaryVersion", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckWriteAndBumpSecondaryVersion_AtomicSafetyHandle;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle == null)
 				{
 					r_MEnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompleted", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MEnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MEnforceAllBufferJobsHaveCompleted_AtomicSafetyHandle;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle == null)
 				{
 					r_MEnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndRelease", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MEnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MEnforceAllBufferJobsHaveCompletedAndRelease_AtomicSafetyHandle;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle == null)
 				{
 					r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndDisableReadWrite", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_AtomicSafetyHandle;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle == null)
 				{
 					r_MCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrowNoEarlyOut", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckReadAndThrowNoEarlyOut_AtomicSafetyHandle;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle == null)
 				{
 					r_MCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrowNoEarlyOut", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckWriteAndThrowNoEarlyOut_AtomicSafetyHandle;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckDeallocateAndThrow_AtomicSafetyHandle == null)
 				{
 					r_MCheckDeallocateAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckDeallocateAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckDeallocateAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckDeallocateAndThrow_AtomicSafetyHandle;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle == null)
 				{
 					r_MCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckGetSecondaryDataPointerAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckGetSecondaryDataPointerAndThrow_AtomicSafetyHandle;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetReaderArray_AtomicSafetyHandle_Int32_IntPtr == null)
 				{
 					r_MGetReaderArray_AtomicSafetyHandle_Int32_IntPtr = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderArray", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Int32), typeof(System.IntPtr));
-					r_MGetReaderArray_AtomicSafetyHandle_Int32_IntPtr.SetBelong(null);
 				}
 				return r_MGetReaderArray_AtomicSafetyHandle_Int32_IntPtr;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetWriter_AtomicSafetyHandle == null)
 				{
 					r_MGetWriter_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriter", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MGetWriter_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetWriter_AtomicSafetyHandle;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckReadAndThrow_AtomicSafetyHandle == null)
 				{
 					r_MCheckReadAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckReadAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckReadAndThrow_AtomicSafetyHandle;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckWriteAndThrow_AtomicSafetyHandle == null)
 				{
 					r_MCheckWriteAndThrow_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MCheckWriteAndThrow_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckWriteAndThrow_AtomicSafetyHandle;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MValidateNonDefaultHandle_In_AtomicSafetyHandle == null)
 				{
 					r_MValidateNonDefaultHandle_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "ValidateNonDefaultHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MValidateNonDefaultHandle_In_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MValidateNonDefaultHandle_In_AtomicSafetyHandle;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MIsValidNonDefaultHandle_In_AtomicSafetyHandle == null)
 				{
 					r_MIsValidNonDefaultHandle_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsValidNonDefaultHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MIsValidNonDefaultHandle_In_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MIsValidNonDefaultHandle_In_AtomicSafetyHandle;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckExistsAndThrow_In_AtomicSafetyHandle == null)
 				{
 					r_MCheckExistsAndThrow_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckExistsAndThrow", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCheckExistsAndThrow_In_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckExistsAndThrow_In_AtomicSafetyHandle;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MIsHandleValid_In_AtomicSafetyHandle == null)
 				{
 					r_MIsHandleValid_In_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsHandleValid", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MIsHandleValid_In_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MIsHandleValid_In_AtomicSafetyHandle;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetReaderName_AtomicSafetyHandle_Int32 == null)
 				{
 					r_MGetReaderName_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderName", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Int32));
-					r_MGetReaderName_AtomicSafetyHandle_Int32.SetBelong(null);
 				}
 				return r_MGetReaderName_AtomicSafetyHandle_Int32;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetWriterName_AtomicSafetyHandle == null)
 				{
 					r_MGetWriterName_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriterName", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-					r_MGetWriterName_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetWriterName_AtomicSafetyHandle;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MNewStaticSafetyId_BytePointer_Int32 == null)
 				{
 					r_MNewStaticSafetyId_BytePointer_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "NewStaticSafetyId", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
-					r_MNewStaticSafetyId_BytePointer_Int32.SetBelong(null);
 				}
 				return r_MNewStaticSafetyId_BytePointer_Int32;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MNewStaticSafetyId_GT == null)
 				{
 					r_MNewStaticSafetyId_GT = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "NewStaticSafetyId", 1);
-					r_MNewStaticSafetyId_GT.SetBelong(null);
 				}
 				return r_MNewStaticSafetyId_GT;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32 == null)
 				{
 					r_MSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetCustomErrorMessage", 0, typeof(System.Int32), typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyErrorType), typeof(System.Byte).MakePointerType(), typeof(System.Int32));
-					r_MSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32.SetBelong(null);
 				}
 				return r_MSetCustomErrorMessage_Int32_AtomicSafetyErrorType_BytePointer_Int32;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32 == null)
 				{
 					r_MSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetStaticSafetyId", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32));
-					r_MSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32.SetBelong(null);
 				}
 				return r_MSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCreateHandle_Out_AtomicSafetyHandle_Allocator == null)
 				{
 					r_MCreateHandle_Out_AtomicSafetyHandle_Allocator = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CreateHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Collections.Allocator));
-					r_MCreateHandle_Out_AtomicSafetyHandle_Allocator.SetBelong(null);
 				}
 				return r_MCreateHandle_Out_AtomicSafetyHandle_Allocator;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MDisposeHandle_Ref_AtomicSafetyHandle == null)
 				{
 					r_MDisposeHandle_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "DisposeHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MDisposeHandle_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MDisposeHandle_Ref_AtomicSafetyHandle;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCreate_Injected_Out_AtomicSafetyHandle == null)
 				{
 					r_MCreate_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Create_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCreate_Injected_Out_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCreate_Injected_Out_AtomicSafetyHandle;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle == null)
 				{
 					r_MGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempUnsafePtrSliceHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle == null)
 				{
 					r_MGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetTempMemoryHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "IsTempMemoryHandle_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MRelease_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MRelease_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "Release_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MRelease_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MRelease_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowSecondaryVersionWriting_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_MSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetBumpSecondaryVersionOnScheduleWrite_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_MSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetAllowReadOrWriteAccess_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_MSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetAllowReadOrWriteAccess_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean == null)
 				{
 					r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "SetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-					r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean.SetBelong(null);
 				}
 				return r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndBumpSecondaryVersion_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompleted_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndRelease_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "EnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckReadAndThrowNoEarlyOut_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckWriteAndThrowNoEarlyOut_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckDeallocateAndThrow_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "CheckGetSecondaryDataPointerAndThrow_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr == null)
 				{
 					r_MGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderArray_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32), typeof(System.IntPtr));
-					r_MGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr.SetBelong(null);
 				}
 				return r_MGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle == null)
 				{
 					r_MGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriter_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
-					r_MGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle.SetBelong(null);
 				}
 				return r_MGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32 == null)
 				{
 					r_MGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32 = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetReaderName_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Int32));
-					r_MGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32.SetBelong(null);
 				}
 				return r_MGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetWriterName_Injected_Ref_AtomicSafetyHandle == null)
 				{
 					r_MGetWriterName_Injected_Ref_AtomicSafetyHandle = new(typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), "GetWriterName_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-					r_MGetWriterName_Injected_Ref_AtomicSafetyHandle.SetBelong(null);
 				}
 				return r_MGetWriterName_Injected_Ref_AtomicSafetyHandle;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

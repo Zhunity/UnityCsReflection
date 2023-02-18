@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_Fk_IsCaseSensitiveFileSystem == null)
 				{
 					r_Fk_IsCaseSensitiveFileSystem = new( ReflectionUtils.GetType("NiceIO.NPath"), "k_IsCaseSensitiveFileSystem");
-					r_Fk_IsCaseSensitiveFileSystem.SetBelong(null);
 				}
 				return r_Fk_IsCaseSensitiveFileSystem;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_Fk_IsWindows == null)
 				{
 					r_Fk_IsWindows = new( ReflectionUtils.GetType("NiceIO.NPath"), "k_IsWindows");
-					r_Fk_IsWindows.SetBelong(null);
 				}
 				return r_Fk_IsWindows;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_FPathStringComparison == null)
 				{
 					r_FPathStringComparison = new( ReflectionUtils.GetType("NiceIO.NPath"), "PathStringComparison");
-					r_FPathStringComparison.SetBelong(null);
 				}
 				return r_FPathStringComparison;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_F_path == null)
 				{
 					r_F_path = new(this, "_path");
-					r_F_path.SetBelong(this.GetValue());
 				}
 				return r_F_path;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_FMethodImplOptions_AggressiveInlining == null)
 				{
 					r_FMethodImplOptions_AggressiveInlining = new( ReflectionUtils.GetType("NiceIO.NPath"), "MethodImplOptions_AggressiveInlining");
-					r_FMethodImplOptions_AggressiveInlining.SetBelong(null);
 				}
 				return r_FMethodImplOptions_AggressiveInlining;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PEmpty == null)
 				{
 					r_PEmpty = new( ReflectionUtils.GetType("NiceIO.NPath"), "Empty", -1);
-					r_PEmpty.SetBelong(null);
 				}
 				return r_PEmpty;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PParent == null)
 				{
 					r_PParent = new(this, "Parent", -1);
-					r_PParent.SetBelong(this.GetValue());
 				}
 				return r_PParent;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PIsRelative == null)
 				{
 					r_PIsRelative = new(this, "IsRelative", -1);
-					r_PIsRelative.SetBelong(this.GetValue());
 				}
 				return r_PIsRelative;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PFileName == null)
 				{
 					r_PFileName = new(this, "FileName", -1);
-					r_PFileName.SetBelong(this.GetValue());
 				}
 				return r_PFileName;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PFileNameWithoutExtension == null)
 				{
 					r_PFileNameWithoutExtension = new(this, "FileNameWithoutExtension", -1);
-					r_PFileNameWithoutExtension.SetBelong(this.GetValue());
 				}
 				return r_PFileNameWithoutExtension;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PDepth == null)
 				{
 					r_PDepth = new(this, "Depth", -1);
-					r_PDepth.SetBelong(this.GetValue());
 				}
 				return r_PDepth;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PIsCurrentDir == null)
 				{
 					r_PIsCurrentDir = new(this, "IsCurrentDir", -1);
-					r_PIsCurrentDir.SetBelong(this.GetValue());
 				}
 				return r_PIsCurrentDir;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PExtension == null)
 				{
 					r_PExtension = new(this, "Extension", -1);
-					r_PExtension.SetBelong(this.GetValue());
 				}
 				return r_PExtension;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PUNCServerName == null)
 				{
 					r_PUNCServerName = new(this, "UNCServerName", -1);
-					r_PUNCServerName.SetBelong(this.GetValue());
 				}
 				return r_PUNCServerName;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PDriveLetter == null)
 				{
 					r_PDriveLetter = new(this, "DriveLetter", -1);
-					r_PDriveLetter.SetBelong(this.GetValue());
 				}
 				return r_PDriveLetter;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PIsRoot == null)
 				{
 					r_PIsRoot = new(this, "IsRoot", -1);
-					r_PIsRoot.SetBelong(this.GetValue());
 				}
 				return r_PIsRoot;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PIsUNC == null)
 				{
 					r_PIsUNC = new(this, "IsUNC", -1);
-					r_PIsUNC.SetBelong(this.GetValue());
 				}
 				return r_PIsUNC;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PIsSymbolicLink == null)
 				{
 					r_PIsSymbolicLink = new(this, "IsSymbolicLink", -1);
-					r_PIsSymbolicLink.SetBelong(this.GetValue());
 				}
 				return r_PIsSymbolicLink;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PCurrentDirectory == null)
 				{
 					r_PCurrentDirectory = new( ReflectionUtils.GetType("NiceIO.NPath"), "CurrentDirectory", -1);
-					r_PCurrentDirectory.SetBelong(null);
 				}
 				return r_PCurrentDirectory;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PHomeDirectory == null)
 				{
 					r_PHomeDirectory = new( ReflectionUtils.GetType("NiceIO.NPath"), "HomeDirectory", -1);
-					r_PHomeDirectory.SetBelong(null);
 				}
 				return r_PHomeDirectory;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PSystemTemp == null)
 				{
 					r_PSystemTemp = new( ReflectionUtils.GetType("NiceIO.NPath"), "SystemTemp", -1);
-					r_PSystemTemp.SetBelong(null);
 				}
 				return r_PSystemTemp;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PRecursiveParents == null)
 				{
 					r_PRecursiveParents = new(this, "RecursiveParents", -1);
-					r_PRecursiveParents.SetBelong(this.GetValue());
 				}
 				return r_PRecursiveParents;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PAttributes == null)
 				{
 					r_PAttributes = new(this, "Attributes", -1);
-					r_PAttributes.SetBelong(this.GetValue());
 				}
 				return r_PAttributes;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCalculateIsWindows == null)
 				{
 					r_MCalculateIsWindows = new( ReflectionUtils.GetType("NiceIO.NPath"), "CalculateIsWindows", 0);
-					r_MCalculateIsWindows.SetBelong(null);
 				}
 				return r_MCalculateIsWindows;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCalculateIsWindows10 == null)
 				{
 					r_MCalculateIsWindows10 = new( ReflectionUtils.GetType("NiceIO.NPath"), "CalculateIsWindows10", 0);
-					r_MCalculateIsWindows10.SetBelong(null);
 				}
 				return r_MCalculateIsWindows10;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MIsUNCPath_String == null)
 				{
 					r_MIsUNCPath_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "IsUNCPath", 0, typeof(System.String));
-					r_MIsUNCPath_String.SetBelong(null);
 				}
 				return r_MIsUNCPath_String;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MConvertToForwardSlashPath_String == null)
 				{
 					r_MConvertToForwardSlashPath_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "ConvertToForwardSlashPath", 0, typeof(System.String));
-					r_MConvertToForwardSlashPath_String.SetBelong(null);
 				}
 				return r_MConvertToForwardSlashPath_String;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMakeCompletelyWellFormatted_String_Boolean == null)
 				{
 					r_MMakeCompletelyWellFormatted_String_Boolean = new( ReflectionUtils.GetType("NiceIO.NPath"), "MakeCompletelyWellFormatted", 0, typeof(System.String), typeof(System.Boolean));
-					r_MMakeCompletelyWellFormatted_String_Boolean.SetBelong(null);
 				}
 				return r_MMakeCompletelyWellFormatted_String_Boolean;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCollapseSingleDots_String == null)
 				{
 					r_MCollapseSingleDots_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CollapseSingleDots", 0, typeof(System.String));
-					r_MCollapseSingleDots_String.SetBelong(null);
 				}
 				return r_MCollapseSingleDots_String;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCollapseDoubleSlashes_String == null)
 				{
 					r_MCollapseDoubleSlashes_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CollapseDoubleSlashes", 0, typeof(System.String));
-					r_MCollapseDoubleSlashes_String.SetBelong(null);
 				}
 				return r_MCollapseDoubleSlashes_String;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCollapseDoubleDots_String == null)
 				{
 					r_MCollapseDoubleDots_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CollapseDoubleDots", 0, typeof(System.String));
-					r_MCollapseDoubleDots_String.SetBelong(null);
 				}
 				return r_MCollapseDoubleDots_String;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MIsSlash_Char == null)
 				{
 					r_MIsSlash_Char = new( ReflectionUtils.GetType("NiceIO.NPath"), "IsSlash", 0, typeof(System.Char));
-					r_MIsSlash_Char.SetBelong(null);
 				}
 				return r_MIsSlash_Char;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCombine_String == null)
 				{
 					r_MCombine_String = new(this, "Combine", 0, typeof(System.String));
-					r_MCombine_String.SetBelong(this.GetValue());
 				}
 				return r_MCombine_String;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCombine_String_String == null)
 				{
 					r_MCombine_String_String = new(this, "Combine", 0, typeof(System.String), typeof(System.String));
-					r_MCombine_String_String.SetBelong(this.GetValue());
 				}
 				return r_MCombine_String_String;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCombine_NPath == null)
 				{
 					r_MCombine_NPath = new(this, "Combine", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MCombine_NPath.SetBelong(this.GetValue());
 				}
 				return r_MCombine_NPath;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCombine_NPathArray == null)
 				{
 					r_MCombine_NPathArray = new(this, "Combine", 0,  ReflectionUtils.GetType("NiceIO.NPath").MakeArrayType());
-					r_MCombine_NPathArray.SetBelong(this.GetValue());
 				}
 				return r_MCombine_NPathArray;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MRelativeTo_NPath == null)
 				{
 					r_MRelativeTo_NPath = new(this, "RelativeTo", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MRelativeTo_NPath.SetBelong(this.GetValue());
 				}
 				return r_MRelativeTo_NPath;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MChangeExtension_String == null)
 				{
 					r_MChangeExtension_String = new(this, "ChangeExtension", 0, typeof(System.String));
-					r_MChangeExtension_String.SetBelong(this.GetValue());
 				}
 				return r_MChangeExtension_String;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MHasDirectory_String == null)
 				{
 					r_MHasDirectory_String = new(this, "HasDirectory", 0, typeof(System.String));
-					r_MHasDirectory_String.SetBelong(this.GetValue());
 				}
 				return r_MHasDirectory_String;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MExists_NPath == null)
 				{
 					r_MExists_NPath = new(this, "Exists", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MExists_NPath.SetBelong(this.GetValue());
 				}
 				return r_MExists_NPath;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectoryExists_NPath == null)
 				{
 					r_MDirectoryExists_NPath = new(this, "DirectoryExists", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MDirectoryExists_NPath.SetBelong(this.GetValue());
 				}
 				return r_MDirectoryExists_NPath;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFileExists_NPath == null)
 				{
 					r_MFileExists_NPath = new(this, "FileExists", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFileExists_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFileExists_NPath;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MHasSameUNCServerName_NPath == null)
 				{
 					r_MHasSameUNCServerName_NPath = new(this, "HasSameUNCServerName", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MHasSameUNCServerName_NPath.SetBelong(this.GetValue());
 				}
 				return r_MHasSameUNCServerName_NPath;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MHasSameDriveLetter_NPath == null)
 				{
 					r_MHasSameDriveLetter_NPath = new(this, "HasSameDriveLetter", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MHasSameDriveLetter_NPath.SetBelong(this.GetValue());
 				}
 				return r_MHasSameDriveLetter_NPath;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MInQuotes_SlashMode == null)
 				{
 					r_MInQuotes_SlashMode = new(this, "InQuotes", 0,  ReflectionUtils.GetType("NiceIO.SlashMode"));
-					r_MInQuotes_SlashMode.SetBelong(this.GetValue());
 				}
 				return r_MInQuotes_SlashMode;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MToString_SlashMode == null)
 				{
 					r_MToString_SlashMode = new(this, "ToString", 0,  ReflectionUtils.GetType("NiceIO.SlashMode"));
-					r_MToString_SlashMode.SetBelong(this.GetValue());
 				}
 				return r_MToString_SlashMode;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MEquals_NPath == null)
 				{
 					r_MEquals_NPath = new(this, "Equals", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MEquals_NPath.SetBelong(this.GetValue());
 				}
 				return r_MEquals_NPath;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_Mop_Equality_NPath_NPath == null)
 				{
 					r_Mop_Equality_NPath_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "op_Equality", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_Mop_Equality_NPath_NPath.SetBelong(null);
 				}
 				return r_Mop_Equality_NPath_NPath;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCompareTo_Object == null)
 				{
 					r_MCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_MCompareTo_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_Object;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_Mop_Inequality_NPath_NPath == null)
 				{
 					r_Mop_Inequality_NPath_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "op_Inequality", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_Mop_Inequality_NPath_NPath.SetBelong(null);
 				}
 				return r_Mop_Inequality_NPath_NPath;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MHasExtension_String == null)
 				{
 					r_MHasExtension_String = new(this, "HasExtension", 0, typeof(System.String));
-					r_MHasExtension_String.SetBelong(this.GetValue());
 				}
 				return r_MHasExtension_String;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MHasExtension_StringArray == null)
 				{
 					r_MHasExtension_StringArray = new(this, "HasExtension", 0, typeof(System.String).MakeArrayType());
-					r_MHasExtension_StringArray.SetBelong(this.GetValue());
 				}
 				return r_MHasExtension_StringArray;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MWithDot_String == null)
 				{
 					r_MWithDot_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "WithDot", 0, typeof(System.String));
-					r_MWithDot_String.SetBelong(null);
 				}
 				return r_MWithDot_String;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFiles_String_Boolean == null)
 				{
 					r_MFiles_String_Boolean = new(this, "Files", 0, typeof(System.String), typeof(System.Boolean));
-					r_MFiles_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MFiles_String_Boolean;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFiles_Boolean == null)
 				{
 					r_MFiles_Boolean = new(this, "Files", 0, typeof(System.Boolean));
-					r_MFiles_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MFiles_Boolean;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFiles_StringArray_Boolean == null)
 				{
 					r_MFiles_StringArray_Boolean = new(this, "Files", 0, typeof(System.String).MakeArrayType(), typeof(System.Boolean));
-					r_MFiles_StringArray_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MFiles_StringArray_Boolean;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MContents_String_Boolean == null)
 				{
 					r_MContents_String_Boolean = new(this, "Contents", 0, typeof(System.String), typeof(System.Boolean));
-					r_MContents_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MContents_String_Boolean;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MContents_Boolean == null)
 				{
 					r_MContents_Boolean = new(this, "Contents", 0, typeof(System.Boolean));
-					r_MContents_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MContents_Boolean;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectories_String_Boolean == null)
 				{
 					r_MDirectories_String_Boolean = new(this, "Directories", 0, typeof(System.String), typeof(System.Boolean));
-					r_MDirectories_String_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDirectories_String_Boolean;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectories_Boolean == null)
 				{
 					r_MDirectories_Boolean = new(this, "Directories", 0, typeof(System.Boolean));
-					r_MDirectories_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDirectories_Boolean;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateFile == null)
 				{
 					r_MCreateFile = new(this, "CreateFile", 0);
-					r_MCreateFile.SetBelong(this.GetValue());
 				}
 				return r_MCreateFile;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateFile_NPath == null)
 				{
 					r_MCreateFile_NPath = new(this, "CreateFile", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MCreateFile_NPath.SetBelong(this.GetValue());
 				}
 				return r_MCreateFile_NPath;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateDirectory == null)
 				{
 					r_MCreateDirectory = new(this, "CreateDirectory", 0);
-					r_MCreateDirectory.SetBelong(this.GetValue());
 				}
 				return r_MCreateDirectory;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateDirectory_NPath == null)
 				{
 					r_MCreateDirectory_NPath = new(this, "CreateDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MCreateDirectory_NPath.SetBelong(this.GetValue());
 				}
 				return r_MCreateDirectory_NPath;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateSymbolicLink_NPath_Boolean == null)
 				{
 					r_MCreateSymbolicLink_NPath_Boolean = new(this, "CreateSymbolicLink", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean));
-					r_MCreateSymbolicLink_NPath_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MCreateSymbolicLink_NPath_Boolean;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCopy_NPath == null)
 				{
 					r_MCopy_NPath = new(this, "Copy", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MCopy_NPath.SetBelong(this.GetValue());
 				}
 				return r_MCopy_NPath;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCopy_NPath_Func_d_NPath_Boolean_p_ == null)
 				{
 					r_MCopy_NPath_Func_d_NPath_Boolean_p_ = new(this, "Copy", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
-					r_MCopy_NPath_Func_d_NPath_Boolean_p_.SetBelong(this.GetValue());
 				}
 				return r_MCopy_NPath_Func_d_NPath_Boolean_p_;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMakeAbsolute_NPath == null)
 				{
 					r_MMakeAbsolute_NPath = new(this, "MakeAbsolute", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MMakeAbsolute_NPath.SetBelong(this.GetValue());
 				}
 				return r_MMakeAbsolute_NPath;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_ == null)
 				{
 					r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_ = new(this, "CopyWithDeterminedDestination", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
-					r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_.SetBelong(this.GetValue());
 				}
 				return r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDelete_DeleteMode == null)
 				{
 					r_MDelete_DeleteMode = new(this, "Delete", 0,  ReflectionUtils.GetType("NiceIO.DeleteMode"));
-					r_MDelete_DeleteMode.SetBelong(this.GetValue());
 				}
 				return r_MDelete_DeleteMode;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDeleteIfExists_DeleteMode == null)
 				{
 					r_MDeleteIfExists_DeleteMode = new(this, "DeleteIfExists", 0,  ReflectionUtils.GetType("NiceIO.DeleteMode"));
-					r_MDeleteIfExists_DeleteMode.SetBelong(this.GetValue());
 				}
 				return r_MDeleteIfExists_DeleteMode;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDeleteContents == null)
 				{
 					r_MDeleteContents = new(this, "DeleteContents", 0);
-					r_MDeleteContents.SetBelong(this.GetValue());
 				}
 				return r_MDeleteContents;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateTempDirectory_String == null)
 				{
 					r_MCreateTempDirectory_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CreateTempDirectory", 0, typeof(System.String));
-					r_MCreateTempDirectory_String.SetBelong(null);
 				}
 				return r_MCreateTempDirectory_String;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMove_NPath == null)
 				{
 					r_MMove_NPath = new(this, "Move", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MMove_NPath.SetBelong(this.GetValue());
 				}
 				return r_MMove_NPath;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MSetCurrentDirectory_NPath == null)
 				{
 					r_MSetCurrentDirectory_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "SetCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MSetCurrentDirectory_NPath.SetBelong(null);
 				}
 				return r_MSetCurrentDirectory_NPath;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MThrowIfRoot == null)
 				{
 					r_MThrowIfRoot = new(this, "ThrowIfRoot", 0);
-					r_MThrowIfRoot.SetBelong(this.GetValue());
 				}
 				return r_MThrowIfRoot;
 			}
@@ -1365,7 +1286,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MEnsureDirectoryExists_NPath == null)
 				{
 					r_MEnsureDirectoryExists_NPath = new(this, "EnsureDirectoryExists", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MEnsureDirectoryExists_NPath.SetBelong(this.GetValue());
 				}
 				return r_MEnsureDirectoryExists_NPath;
 			}
@@ -1382,7 +1302,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MEnsureParentDirectoryExists == null)
 				{
 					r_MEnsureParentDirectoryExists = new(this, "EnsureParentDirectoryExists", 0);
-					r_MEnsureParentDirectoryExists.SetBelong(this.GetValue());
 				}
 				return r_MEnsureParentDirectoryExists;
 			}
@@ -1399,7 +1318,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFileMustExist == null)
 				{
 					r_MFileMustExist = new(this, "FileMustExist", 0);
-					r_MFileMustExist.SetBelong(this.GetValue());
 				}
 				return r_MFileMustExist;
 			}
@@ -1416,7 +1334,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectoryMustExist == null)
 				{
 					r_MDirectoryMustExist = new(this, "DirectoryMustExist", 0);
-					r_MDirectoryMustExist.SetBelong(this.GetValue());
 				}
 				return r_MDirectoryMustExist;
 			}
@@ -1433,7 +1350,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MIsChildOf_NPath == null)
 				{
 					r_MIsChildOf_NPath = new(this, "IsChildOf", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MIsChildOf_NPath.SetBelong(this.GetValue());
 				}
 				return r_MIsChildOf_NPath;
 			}
@@ -1450,7 +1366,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MIsSameAsOrChildOf_NPath == null)
 				{
 					r_MIsSameAsOrChildOf_NPath = new(this, "IsSameAsOrChildOf", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MIsSameAsOrChildOf_NPath.SetBelong(this.GetValue());
 				}
 				return r_MIsSameAsOrChildOf_NPath;
 			}
@@ -1467,7 +1382,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MParentContaining_NPath == null)
 				{
 					r_MParentContaining_NPath = new(this, "ParentContaining", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MParentContaining_NPath.SetBelong(this.GetValue());
 				}
 				return r_MParentContaining_NPath;
 			}
@@ -1484,7 +1398,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MWriteAllText_String == null)
 				{
 					r_MWriteAllText_String = new(this, "WriteAllText", 0, typeof(System.String));
-					r_MWriteAllText_String.SetBelong(this.GetValue());
 				}
 				return r_MWriteAllText_String;
 			}
@@ -1501,7 +1414,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MReplaceAllText_String == null)
 				{
 					r_MReplaceAllText_String = new(this, "ReplaceAllText", 0, typeof(System.String));
-					r_MReplaceAllText_String.SetBelong(this.GetValue());
 				}
 				return r_MReplaceAllText_String;
 			}
@@ -1518,7 +1430,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MWriteAllBytes_ByteArray == null)
 				{
 					r_MWriteAllBytes_ByteArray = new(this, "WriteAllBytes", 0, typeof(System.Byte).MakeArrayType());
-					r_MWriteAllBytes_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MWriteAllBytes_ByteArray;
 			}
@@ -1535,7 +1446,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MReadAllText == null)
 				{
 					r_MReadAllText = new(this, "ReadAllText", 0);
-					r_MReadAllText.SetBelong(this.GetValue());
 				}
 				return r_MReadAllText;
 			}
@@ -1552,7 +1462,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MReadAllBytes == null)
 				{
 					r_MReadAllBytes = new(this, "ReadAllBytes", 0);
-					r_MReadAllBytes.SetBelong(this.GetValue());
 				}
 				return r_MReadAllBytes;
 			}
@@ -1569,7 +1478,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MWriteAllLines_StringArray == null)
 				{
 					r_MWriteAllLines_StringArray = new(this, "WriteAllLines", 0, typeof(System.String).MakeArrayType());
-					r_MWriteAllLines_StringArray.SetBelong(this.GetValue());
 				}
 				return r_MWriteAllLines_StringArray;
 			}
@@ -1586,7 +1494,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MReadAllLines == null)
 				{
 					r_MReadAllLines = new(this, "ReadAllLines", 0);
-					r_MReadAllLines.SetBelong(this.GetValue());
 				}
 				return r_MReadAllLines;
 			}
@@ -1603,7 +1510,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ == null)
 				{
 					r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ = new(this, "CopyFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
-					r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_.SetBelong(this.GetValue());
 				}
 				return r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_;
 			}
@@ -1620,7 +1526,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ == null)
 				{
 					r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ = new(this, "MoveFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
-					r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_.SetBelong(this.GetValue());
 				}
 				return r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_;
 			}
@@ -1637,7 +1542,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MAlwaysTrue_NPath == null)
 				{
 					r_MAlwaysTrue_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "AlwaysTrue", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MAlwaysTrue_NPath.SetBelong(null);
 				}
 				return r_MAlwaysTrue_NPath;
 			}
@@ -1654,7 +1558,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_Mop_Implicit_String == null)
 				{
 					r_Mop_Implicit_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "op_Implicit", 0, typeof(System.String));
-					r_Mop_Implicit_String.SetBelong(null);
 				}
 				return r_Mop_Implicit_String;
 			}
@@ -1671,7 +1574,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MSetLastWriteTimeUtc_DateTime == null)
 				{
 					r_MSetLastWriteTimeUtc_DateTime = new(this, "SetLastWriteTimeUtc", 0, typeof(System.DateTime));
-					r_MSetLastWriteTimeUtc_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MSetLastWriteTimeUtc_DateTime;
 			}
@@ -1688,7 +1590,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MGetLastWriteTimeUtc == null)
 				{
 					r_MGetLastWriteTimeUtc = new(this, "GetLastWriteTimeUtc", 0);
-					r_MGetLastWriteTimeUtc.SetBelong(this.GetValue());
 				}
 				return r_MGetLastWriteTimeUtc;
 			}
@@ -1705,7 +1606,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MGetFileSize == null)
 				{
 					r_MGetFileSize = new(this, "GetFileSize", 0);
-					r_MGetFileSize.SetBelong(this.GetValue());
 				}
 				return r_MGetFileSize;
 			}
@@ -1722,7 +1622,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MWithFileSystem_FileSystem == null)
 				{
 					r_MWithFileSystem_FileSystem = new( ReflectionUtils.GetType("NiceIO.NPath"), "WithFileSystem", 0,  ReflectionUtils.GetType("NiceIO.NPath+FileSystem"));
-					r_MWithFileSystem_FileSystem.SetBelong(null);
 				}
 				return r_MWithFileSystem_FileSystem;
 			}
@@ -1739,7 +1638,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MResolveWithFileSystem == null)
 				{
 					r_MResolveWithFileSystem = new(this, "ResolveWithFileSystem", 0);
-					r_MResolveWithFileSystem.SetBelong(this.GetValue());
 				}
 				return r_MResolveWithFileSystem;
 			}
@@ -1756,7 +1654,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MInQuotesResolved_SlashMode == null)
 				{
 					r_MInQuotesResolved_SlashMode = new(this, "InQuotesResolved", 0,  ReflectionUtils.GetType("NiceIO.SlashMode"));
-					r_MInQuotesResolved_SlashMode.SetBelong(this.GetValue());
 				}
 				return r_MInQuotesResolved_SlashMode;
 			}
@@ -1773,7 +1670,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MWithFrozenCurrentDirectory_NPath == null)
 				{
 					r_MWithFrozenCurrentDirectory_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "WithFrozenCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MWithFrozenCurrentDirectory_NPath.SetBelong(null);
 				}
 				return r_MWithFrozenCurrentDirectory_NPath;
 			}
@@ -1790,7 +1686,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1807,7 +1702,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1824,7 +1718,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

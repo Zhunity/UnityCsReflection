@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Fhandle == null)
 				{
 					r_Fhandle = new(this, "handle");
-					r_Fhandle.SetBelong(this.GetValue());
 				}
 				return r_Fhandle;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_PIsAllocated == null)
 				{
 					r_PIsAllocated = new(this, "IsAllocated", -1);
-					r_PIsAllocated.SetBelong(this.GetValue());
 				}
 				return r_PIsAllocated;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_PTarget == null)
 				{
 					r_PTarget = new(this, "Target", -1);
-					r_PTarget.SetBelong(this.GetValue());
 				}
 				return r_PTarget;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MAddrOfPinnedObject == null)
 				{
 					r_MAddrOfPinnedObject = new(this, "AddrOfPinnedObject", 0);
-					r_MAddrOfPinnedObject.SetBelong(this.GetValue());
 				}
 				return r_MAddrOfPinnedObject;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MAlloc_Object == null)
 				{
 					r_MAlloc_Object = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object));
-					r_MAlloc_Object.SetBelong(null);
 				}
 				return r_MAlloc_Object;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MAlloc_Object_GCHandleType == null)
 				{
 					r_MAlloc_Object_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object), typeof(System.Runtime.InteropServices.GCHandleType));
-					r_MAlloc_Object_GCHandleType.SetBelong(null);
 				}
 				return r_MAlloc_Object_GCHandleType;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFree == null)
 				{
 					r_MFree = new(this, "Free", 0);
-					r_MFree.SetBelong(this.GetValue());
 				}
 				return r_MFree;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Mop_Explicit_GCHandle == null)
 				{
 					r_Mop_Explicit_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.Runtime.InteropServices.GCHandle));
-					r_Mop_Explicit_GCHandle.SetBelong(null);
 				}
 				return r_Mop_Explicit_GCHandle;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Mop_Explicit_IntPtr == null)
 				{
 					r_Mop_Explicit_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.IntPtr));
-					r_Mop_Explicit_IntPtr.SetBelong(null);
 				}
 				return r_Mop_Explicit_IntPtr;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MCheckCurrentDomain_IntPtr == null)
 				{
 					r_MCheckCurrentDomain_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "CheckCurrentDomain", 0, typeof(System.IntPtr));
-					r_MCheckCurrentDomain_IntPtr.SetBelong(null);
 				}
 				return r_MCheckCurrentDomain_IntPtr;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetTarget_IntPtr == null)
 				{
 					r_MGetTarget_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTarget", 0, typeof(System.IntPtr));
-					r_MGetTarget_IntPtr.SetBelong(null);
 				}
 				return r_MGetTarget_IntPtr;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetTargetHandle_Object_IntPtr_GCHandleType == null)
 				{
 					r_MGetTargetHandle_Object_IntPtr_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTargetHandle", 0, typeof(System.Object), typeof(System.IntPtr), typeof(System.Runtime.InteropServices.GCHandleType));
-					r_MGetTargetHandle_Object_IntPtr_GCHandleType.SetBelong(null);
 				}
 				return r_MGetTargetHandle_Object_IntPtr_GCHandleType;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFreeHandle_IntPtr == null)
 				{
 					r_MFreeHandle_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FreeHandle", 0, typeof(System.IntPtr));
-					r_MFreeHandle_IntPtr.SetBelong(null);
 				}
 				return r_MFreeHandle_IntPtr;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetAddrOfPinnedObject_IntPtr == null)
 				{
 					r_MGetAddrOfPinnedObject_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetAddrOfPinnedObject", 0, typeof(System.IntPtr));
-					r_MGetAddrOfPinnedObject_IntPtr.SetBelong(null);
 				}
 				return r_MGetAddrOfPinnedObject_IntPtr;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Mop_Equality_GCHandle_GCHandle == null)
 				{
 					r_Mop_Equality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Equality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
-					r_Mop_Equality_GCHandle_GCHandle.SetBelong(null);
 				}
 				return r_Mop_Equality_GCHandle_GCHandle;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Mop_Inequality_GCHandle_GCHandle == null)
 				{
 					r_Mop_Inequality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Inequality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
-					r_Mop_Inequality_GCHandle_GCHandle.SetBelong(null);
 				}
 				return r_Mop_Inequality_GCHandle_GCHandle;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFromIntPtr_IntPtr == null)
 				{
 					r_MFromIntPtr_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FromIntPtr", 0, typeof(System.IntPtr));
-					r_MFromIntPtr_IntPtr.SetBelong(null);
 				}
 				return r_MFromIntPtr_IntPtr;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToIntPtr_GCHandle == null)
 				{
 					r_MToIntPtr_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "ToIntPtr", 0, typeof(System.Runtime.InteropServices.GCHandle));
-					r_MToIntPtr_GCHandle.SetBelong(null);
 				}
 				return r_MToIntPtr_GCHandle;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

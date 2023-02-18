@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_FBlockSize == null)
 				{
 					r_FBlockSize = new(typeof(System.Security.SecureString), "BlockSize");
-					r_FBlockSize.SetBelong(null);
 				}
 				return r_FBlockSize;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_FMaxSize == null)
 				{
 					r_FMaxSize = new(typeof(System.Security.SecureString), "MaxSize");
-					r_FMaxSize.SetBelong(null);
 				}
 				return r_FMaxSize;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_Flength == null)
 				{
 					r_Flength = new(this, "length");
-					r_Flength.SetBelong(this.GetValue());
 				}
 				return r_Flength;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_Fdisposed == null)
 				{
 					r_Fdisposed = new(this, "disposed");
-					r_Fdisposed.SetBelong(this.GetValue());
 				}
 				return r_Fdisposed;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_Fread_only == null)
 				{
 					r_Fread_only = new(this, "read_only");
-					r_Fread_only.SetBelong(this.GetValue());
 				}
 				return r_Fread_only;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_Fdata == null)
 				{
 					r_Fdata = new(this, "data");
-					r_Fdata.SetBelong(this.GetValue());
 				}
 				return r_Fdata;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_PLength == null)
 				{
 					r_PLength = new(this, "Length", -1);
-					r_PLength.SetBelong(this.GetValue());
 				}
 				return r_PLength;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MAppendChar_Char == null)
 				{
 					r_MAppendChar_Char = new(this, "AppendChar", 0, typeof(System.Char));
-					r_MAppendChar_Char.SetBelong(this.GetValue());
 				}
 				return r_MAppendChar_Char;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MClear == null)
 				{
 					r_MClear = new(this, "Clear", 0);
-					r_MClear.SetBelong(this.GetValue());
 				}
 				return r_MClear;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MCopy == null)
 				{
 					r_MCopy = new(this, "Copy", 0);
-					r_MCopy.SetBelong(this.GetValue());
 				}
 				return r_MCopy;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MInsertAt_Int32_Char == null)
 				{
 					r_MInsertAt_Int32_Char = new(this, "InsertAt", 0, typeof(System.Int32), typeof(System.Char));
-					r_MInsertAt_Int32_Char.SetBelong(this.GetValue());
 				}
 				return r_MInsertAt_Int32_Char;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MIsReadOnly == null)
 				{
 					r_MIsReadOnly = new(this, "IsReadOnly", 0);
-					r_MIsReadOnly.SetBelong(this.GetValue());
 				}
 				return r_MIsReadOnly;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MMakeReadOnly == null)
 				{
 					r_MMakeReadOnly = new(this, "MakeReadOnly", 0);
-					r_MMakeReadOnly.SetBelong(this.GetValue());
 				}
 				return r_MMakeReadOnly;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MRemoveAt_Int32 == null)
 				{
 					r_MRemoveAt_Int32 = new(this, "RemoveAt", 0, typeof(System.Int32));
-					r_MRemoveAt_Int32.SetBelong(this.GetValue());
 				}
 				return r_MRemoveAt_Int32;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MSetAt_Int32_Char == null)
 				{
 					r_MSetAt_Int32_Char = new(this, "SetAt", 0, typeof(System.Int32), typeof(System.Char));
-					r_MSetAt_Int32_Char.SetBelong(this.GetValue());
 				}
 				return r_MSetAt_Int32_Char;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MEncrypt == null)
 				{
 					r_MEncrypt = new(this, "Encrypt", 0);
-					r_MEncrypt.SetBelong(this.GetValue());
 				}
 				return r_MEncrypt;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MDecrypt == null)
 				{
 					r_MDecrypt = new(this, "Decrypt", 0);
-					r_MDecrypt.SetBelong(this.GetValue());
 				}
 				return r_MDecrypt;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MAlloc_Int32_Boolean == null)
 				{
 					r_MAlloc_Int32_Boolean = new(this, "Alloc", 0, typeof(System.Int32), typeof(System.Boolean));
-					r_MAlloc_Int32_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MAlloc_Int32_Boolean;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MGetBuffer == null)
 				{
 					r_MGetBuffer = new(this, "GetBuffer", 0);
-					r_MGetBuffer.SetBelong(this.GetValue());
 				}
 				return r_MGetBuffer;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

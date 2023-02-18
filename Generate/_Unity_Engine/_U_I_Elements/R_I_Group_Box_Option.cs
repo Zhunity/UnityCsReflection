@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSetSelected_Boolean == null)
 				{
 					r_MSetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
-					r_MSetSelected_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetSelected_Boolean;
 			}

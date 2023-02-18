@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PLevel == null)
 				{
 					r_PLevel = new(this, "Level", -1);
-					r_PLevel.SetBelong(this.GetValue());
 				}
 				return r_PLevel;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PNextActivator == null)
 				{
 					r_PNextActivator = new(this, "NextActivator", -1);
-					r_PNextActivator.SetBelong(this.GetValue());
 				}
 				return r_PNextActivator;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_MActivate_IConstructionCallMessage == null)
 				{
 					r_MActivate_IConstructionCallMessage = new(this, "Activate", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
-					r_MActivate_IConstructionCallMessage.SetBelong(this.GetValue());
 				}
 				return r_MActivate_IConstructionCallMessage;
 			}

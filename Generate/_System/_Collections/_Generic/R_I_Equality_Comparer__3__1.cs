@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MEquals_T_T == null)
 				{
 					r_MEquals_T_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
-					r_MEquals_T_T.SetBelong(this.GetValue());
 				}
 				return r_MEquals_T_T;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MGetHashCode_T == null)
 				{
 					r_MGetHashCode_T = new(this, "GetHashCode", 0, Type.MakeGenericMethodParameter(0));
-					r_MGetHashCode_T.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode_T;
 			}

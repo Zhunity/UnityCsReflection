@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_PvisualTree == null)
 				{
 					r_PvisualTree = new(this, "visualTree", -1);
-					r_PvisualTree.SetBelong(this.GetValue());
 				}
 				return r_PvisualTree;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnCreate_IWindowModel == null)
 				{
 					r_MOnCreate_IWindowModel = new(this, "OnCreate", 0,  ReflectionUtils.GetType("UnityEditor.IWindowModel"));
-					r_MOnCreate_IWindowModel.SetBelong(this.GetValue());
 				}
 				return r_MOnCreate_IWindowModel;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MOnDestroy_IWindowModel == null)
 				{
 					r_MOnDestroy_IWindowModel = new(this, "OnDestroy", 0,  ReflectionUtils.GetType("UnityEditor.IWindowModel"));
-					r_MOnDestroy_IWindowModel.SetBelong(this.GetValue());
 				}
 				return r_MOnDestroy_IWindowModel;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetTooltip_Vector2_Out_String_Out_Rect == null)
 				{
 					r_MGetTooltip_Vector2_Out_String_Out_Rect = new(this, "GetTooltip", 0, typeof(UnityEngine.Vector2), typeof(System.String).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
-					r_MGetTooltip_Vector2_Out_String_Out_Rect.SetBelong(this.GetValue());
 				}
 				return r_MGetTooltip_Vector2_Out_String_Out_Rect;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MSizeChanged == null)
 				{
 					r_MSizeChanged = new(this, "SizeChanged", 0);
-					r_MSizeChanged.SetBelong(this.GetValue());
 				}
 				return r_MSizeChanged;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MEventInterestsChanged == null)
 				{
 					r_MEventInterestsChanged = new(this, "EventInterestsChanged", 0);
-					r_MEventInterestsChanged.SetBelong(this.GetValue());
 				}
 				return r_MEventInterestsChanged;
 			}

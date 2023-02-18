@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Ppanel == null)
 				{
 					r_Ppanel = new(this, "panel", -1);
-					r_Ppanel.SetBelong(this.GetValue());
 				}
 				return r_Ppanel;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PdebuggerOverlayPanel == null)
 				{
 					r_PdebuggerOverlayPanel = new(this, "debuggerOverlayPanel", -1);
-					r_PdebuggerOverlayPanel.SetBelong(this.GetValue());
 				}
 				return r_PdebuggerOverlayPanel;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PvisualTree == null)
 				{
 					r_PvisualTree = new(this, "visualTree", -1);
-					r_PvisualTree.SetBelong(this.GetValue());
 				}
 				return r_PvisualTree;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PdebugContainer == null)
 				{
 					r_PdebugContainer = new(this, "debugContainer", -1);
-					r_PdebugContainer.SetBelong(this.GetValue());
 				}
 				return r_PdebugContainer;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PhasAttachedDebuggers == null)
 				{
 					r_PhasAttachedDebuggers = new(this, "hasAttachedDebuggers", -1);
-					r_PhasAttachedDebuggers.SetBelong(this.GetValue());
 				}
 				return r_PhasAttachedDebuggers;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MAttachDebugger_IPanelDebugger == null)
 				{
 					r_MAttachDebugger_IPanelDebugger = new(this, "AttachDebugger", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
-					r_MAttachDebugger_IPanelDebugger.SetBelong(this.GetValue());
 				}
 				return r_MAttachDebugger_IPanelDebugger;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDetachDebugger_IPanelDebugger == null)
 				{
 					r_MDetachDebugger_IPanelDebugger = new(this, "DetachDebugger", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IPanelDebugger"));
-					r_MDetachDebugger_IPanelDebugger.SetBelong(this.GetValue());
 				}
 				return r_MDetachDebugger_IPanelDebugger;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MDetachAllDebuggers == null)
 				{
 					r_MDetachAllDebuggers = new(this, "DetachAllDebuggers", 0);
-					r_MDetachAllDebuggers.SetBelong(this.GetValue());
 				}
 				return r_MDetachAllDebuggers;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetAttachedDebuggers == null)
 				{
 					r_MGetAttachedDebuggers = new(this, "GetAttachedDebuggers", 0);
-					r_MGetAttachedDebuggers.SetBelong(this.GetValue());
 				}
 				return r_MGetAttachedDebuggers;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMarkDirtyRepaint == null)
 				{
 					r_MMarkDirtyRepaint = new(this, "MarkDirtyRepaint", 0);
-					r_MMarkDirtyRepaint.SetBelong(this.GetValue());
 				}
 				return r_MMarkDirtyRepaint;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMarkDebugContainerDirtyRepaint == null)
 				{
 					r_MMarkDebugContainerDirtyRepaint = new(this, "MarkDebugContainerDirtyRepaint", 0);
-					r_MMarkDebugContainerDirtyRepaint.SetBelong(this.GetValue());
 				}
 				return r_MMarkDebugContainerDirtyRepaint;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MRefresh == null)
 				{
 					r_MRefresh = new(this, "Refresh", 0);
-					r_MRefresh.SetBelong(this.GetValue());
 				}
 				return r_MRefresh;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnVersionChanged_VisualElement_VersionChangeType == null)
 				{
 					r_MOnVersionChanged_VisualElement_VersionChangeType = new(this, "OnVersionChanged", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType"));
-					r_MOnVersionChanged_VisualElement_VersionChangeType.SetBelong(this.GetValue());
 				}
 				return r_MOnVersionChanged_VisualElement_VersionChangeType;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MInterceptEvent_EventBase == null)
 				{
 					r_MInterceptEvent_EventBase = new(this, "InterceptEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MInterceptEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MInterceptEvent_EventBase;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MPostProcessEvent_EventBase == null)
 				{
 					r_MPostProcessEvent_EventBase = new(this, "PostProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MPostProcessEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MPostProcessEvent_EventBase;
 			}

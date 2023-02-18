@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_F_list == null)
 				{
 					r_F_list = new(this, "_list");
-					r_F_list.SetBelong(this.GetValue());
 				}
 				return r_F_list;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_PList == null)
 				{
 					r_PList = new(this, "List", -1);
-					r_PList.SetBelong(this.GetValue());
 				}
 				return r_PList;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCreateCopy == null)
 				{
 					r_MCreateCopy = new(this, "CreateCopy", 0);
-					r_MCreateCopy.SetBelong(this.GetValue());
 				}
 				return r_MCreateCopy;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MCapture == null)
 				{
 					r_MCapture = new(typeof(System.Threading.CompressedStack), "Capture", 0);
-					r_MCapture.SetBelong(null);
 				}
 				return r_MCapture;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetCompressedStack == null)
 				{
 					r_MGetCompressedStack = new(typeof(System.Threading.CompressedStack), "GetCompressedStack", 0);
-					r_MGetCompressedStack.SetBelong(null);
 				}
 				return r_MGetCompressedStack;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetObjectData_SerializationInfo_StreamingContext == null)
 				{
 					r_MGetObjectData_SerializationInfo_StreamingContext = new(this, "GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_MGetObjectData_SerializationInfo_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MGetObjectData_SerializationInfo_StreamingContext;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MRun_CompressedStack_ContextCallback_Object == null)
 				{
 					r_MRun_CompressedStack_ContextCallback_Object = new(typeof(System.Threading.CompressedStack), "Run", 0, typeof(System.Threading.CompressedStack), typeof(System.Threading.ContextCallback), typeof(System.Object));
-					r_MRun_CompressedStack_ContextCallback_Object.SetBelong(null);
 				}
 				return r_MRun_CompressedStack_ContextCallback_Object;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MEquals_CompressedStack == null)
 				{
 					r_MEquals_CompressedStack = new(this, "Equals", 0, typeof(System.Threading.CompressedStack));
-					r_MEquals_CompressedStack.SetBelong(this.GetValue());
 				}
 				return r_MEquals_CompressedStack;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MIsEmpty == null)
 				{
 					r_MIsEmpty = new(this, "IsEmpty", 0);
-					r_MIsEmpty.SetBelong(this.GetValue());
 				}
 				return r_MIsEmpty;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

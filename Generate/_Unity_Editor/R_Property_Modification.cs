@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Ftarget == null)
 				{
 					r_Ftarget = new(this, "target");
-					r_Ftarget.SetBelong(this.GetValue());
 				}
 				return r_Ftarget;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_FpropertyPath == null)
 				{
 					r_FpropertyPath = new(this, "propertyPath");
-					r_FpropertyPath.SetBelong(this.GetValue());
 				}
 				return r_FpropertyPath;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_Fvalue == null)
 				{
 					r_Fvalue = new(this, "value");
-					r_Fvalue.SetBelong(this.GetValue());
 				}
 				return r_Fvalue;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_FobjectReference == null)
 				{
 					r_FobjectReference = new(this, "objectReference");
-					r_FobjectReference.SetBelong(this.GetValue());
 				}
 				return r_FobjectReference;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MApply == null)
 				{
 					r_MApply = new(this, "Apply", 0);
-					r_MApply.SetBelong(this.GetValue());
 				}
 				return r_MApply;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MApplyToObject_Object == null)
 				{
 					r_MApplyToObject_Object = new(this, "ApplyToObject", 0, typeof(UnityEngine.Object));
-					r_MApplyToObject_Object.SetBelong(this.GetValue());
 				}
 				return r_MApplyToObject_Object;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MApplyPropertyModificationToObject_Object_PropertyModification == null)
 				{
 					r_MApplyPropertyModificationToObject_Object_PropertyModification = new(typeof(UnityEditor.PropertyModification), "ApplyPropertyModificationToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification));
-					r_MApplyPropertyModificationToObject_Object_PropertyModification.SetBelong(null);
 				}
 				return r_MApplyPropertyModificationToObject_Object_PropertyModification;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray == null)
 				{
 					r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray = new(typeof(UnityEditor.PropertyModification), "ApplyPropertyModificationsToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification).MakeArrayType());
-					r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray.SetBelong(null);
 				}
 				return r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

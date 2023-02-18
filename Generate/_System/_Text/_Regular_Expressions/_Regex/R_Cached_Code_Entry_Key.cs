@@ -24,7 +24,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_options == null)
 				{
 					r_F_options = new(this, "_options");
-					r_F_options.SetBelong(this.GetValue());
 				}
 				return r_F_options;
 			}
@@ -41,7 +40,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_cultureKey == null)
 				{
 					r_F_cultureKey = new(this, "_cultureKey");
-					r_F_cultureKey.SetBelong(this.GetValue());
 				}
 				return r_F_cultureKey;
 			}
@@ -58,7 +56,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_F_pattern == null)
 				{
 					r_F_pattern = new(this, "_pattern");
-					r_F_pattern.SetBelong(this.GetValue());
 				}
 				return r_F_pattern;
 			}
@@ -75,7 +72,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -92,7 +88,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MEquals_CachedCodeEntryKey == null)
 				{
 					r_MEquals_CachedCodeEntryKey = new(this, "Equals", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
-					r_MEquals_CachedCodeEntryKey.SetBelong(this.GetValue());
 				}
 				return r_MEquals_CachedCodeEntryKey;
 			}
@@ -109,7 +104,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_Mop_Equality_CachedCodeEntryKey_CachedCodeEntryKey == null)
 				{
 					r_Mop_Equality_CachedCodeEntryKey_CachedCodeEntryKey = new( ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), "op_Equality", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
-					r_Mop_Equality_CachedCodeEntryKey_CachedCodeEntryKey.SetBelong(null);
 				}
 				return r_Mop_Equality_CachedCodeEntryKey_CachedCodeEntryKey;
 			}
@@ -126,7 +120,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_Mop_Inequality_CachedCodeEntryKey_CachedCodeEntryKey == null)
 				{
 					r_Mop_Inequality_CachedCodeEntryKey_CachedCodeEntryKey = new( ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"), "op_Inequality", 0,  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"),  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey"));
-					r_Mop_Inequality_CachedCodeEntryKey_CachedCodeEntryKey.SetBelong(null);
 				}
 				return r_Mop_Inequality_CachedCodeEntryKey_CachedCodeEntryKey;
 			}
@@ -143,7 +136,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -160,7 +152,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -177,7 +168,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -194,7 +184,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -211,7 +200,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

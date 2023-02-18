@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_PItem_TKey == null)
 				{
 					r_PItem_TKey = new(this, "Item", -1, Type.MakeGenericMethodParameter(0));
-					r_PItem_TKey.SetBelong(this.GetValue());
 				}
 				return r_PItem_TKey;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_PKeys == null)
 				{
 					r_PKeys = new(this, "Keys", -1);
-					r_PKeys.SetBelong(this.GetValue());
 				}
 				return r_PKeys;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_PValues == null)
 				{
 					r_PValues = new(this, "Values", -1);
-					r_PValues.SetBelong(this.GetValue());
 				}
 				return r_PValues;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MContainsKey_TKey == null)
 				{
 					r_MContainsKey_TKey = new(this, "ContainsKey", 0, Type.MakeGenericMethodParameter(0));
-					r_MContainsKey_TKey.SetBelong(this.GetValue());
 				}
 				return r_MContainsKey_TKey;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MAdd_TKey_TValue == null)
 				{
 					r_MAdd_TKey_TValue = new(this, "Add", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1));
-					r_MAdd_TKey_TValue.SetBelong(this.GetValue());
 				}
 				return r_MAdd_TKey_TValue;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MRemove_TKey == null)
 				{
 					r_MRemove_TKey = new(this, "Remove", 0, Type.MakeGenericMethodParameter(0));
-					r_MRemove_TKey.SetBelong(this.GetValue());
 				}
 				return r_MRemove_TKey;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 				if(r_MTryGetValue_TKey_Out_TValue == null)
 				{
 					r_MTryGetValue_TKey_Out_TValue = new(this, "TryGetValue", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1).MakeByRefType());
-					r_MTryGetValue_TKey_Out_TValue.SetBelong(this.GetValue());
 				}
 				return r_MTryGetValue_TKey_Out_TValue;
 			}

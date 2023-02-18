@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_F_properties == null)
 				{
 					r_F_properties = new(this, "_properties");
-					r_F_properties.SetBelong(this.GetValue());
 				}
 				return r_F_properties;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_PHasProperties == null)
 				{
 					r_PHasProperties = new(this, "HasProperties", -1);
-					r_PHasProperties.SetBelong(this.GetValue());
 				}
 				return r_PHasProperties;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MRegisterDynamicProperty_IDynamicProperty == null)
 				{
 					r_MRegisterDynamicProperty_IDynamicProperty = new(this, "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty));
-					r_MRegisterDynamicProperty_IDynamicProperty.SetBelong(this.GetValue());
 				}
 				return r_MRegisterDynamicProperty_IDynamicProperty;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MUnregisterDynamicProperty_String == null)
 				{
 					r_MUnregisterDynamicProperty_String = new(this, "UnregisterDynamicProperty", 0, typeof(System.String));
-					r_MUnregisterDynamicProperty_String.SetBelong(this.GetValue());
 				}
 				return r_MUnregisterDynamicProperty_String;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MNotifyMessage_Boolean_IMessage_Boolean_Boolean == null)
 				{
 					r_MNotifyMessage_Boolean_IMessage_Boolean_Boolean = new(this, "NotifyMessage", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
-					r_MNotifyMessage_Boolean_IMessage_Boolean_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MNotifyMessage_Boolean_IMessage_Boolean_Boolean;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MFindProperty_String == null)
 				{
 					r_MFindProperty_String = new(this, "FindProperty", 0, typeof(System.String));
-					r_MFindProperty_String.SetBelong(this.GetValue());
 				}
 				return r_MFindProperty_String;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MCancel_Int32 == null)
 				{
 					r_MCancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
-					r_MCancel_Int32.SetBelong(this.GetValue());
 				}
 				return r_MCancel_Int32;
 			}

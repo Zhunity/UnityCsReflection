@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_Fvalue == null)
 				{
 					r_Fvalue = new(this, "value");
-					r_Fvalue.SetBelong(this.GetValue());
 				}
 				return r_Fvalue;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_Funit == null)
 				{
 					r_Funit = new(this, "unit");
-					r_Funit.SetBelong(this.GetValue());
 				}
 				return r_Funit;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_PUnit == null)
 				{
 					r_PUnit = new(this, "Unit", -1);
-					r_PUnit.SetBelong(this.GetValue());
 				}
 				return r_PUnit;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_PValue == null)
 				{
 					r_PValue = new(this, "Value", -1);
-					r_PValue.SetBelong(this.GetValue());
 				}
 				return r_PValue;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MPoint_Single == null)
 				{
 					r_MPoint_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Point", 0, typeof(System.Single));
-					r_MPoint_Single.SetBelong(null);
 				}
 				return r_MPoint_Single;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MEquals_YogaValue == null)
 				{
 					r_MEquals_YogaValue = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"));
-					r_MEquals_YogaValue.SetBelong(this.GetValue());
 				}
 				return r_MEquals_YogaValue;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MUndefined == null)
 				{
 					r_MUndefined = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Undefined", 0);
-					r_MUndefined.SetBelong(null);
 				}
 				return r_MUndefined;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MAuto == null)
 				{
 					r_MAuto = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Auto", 0);
-					r_MAuto.SetBelong(null);
 				}
 				return r_MAuto;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MPercent_Single == null)
 				{
 					r_MPercent_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "Percent", 0, typeof(System.Single));
-					r_MPercent_Single.SetBelong(null);
 				}
 				return r_MPercent_Single;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_Mop_Implicit_Single == null)
 				{
 					r_Mop_Implicit_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "op_Implicit", 0, typeof(System.Single));
-					r_Mop_Implicit_Single.SetBelong(null);
 				}
 				return r_Mop_Implicit_Single;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MMarshalValue_YogaValue == null)
 				{
 					r_MMarshalValue_YogaValue = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"), "MarshalValue", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue"));
-					r_MMarshalValue_YogaValue.SetBelong(null);
 				}
 				return r_MMarshalValue_YogaValue;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

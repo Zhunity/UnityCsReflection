@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FinvariantInfo == null)
 				{
 					r_FinvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "invariantInfo");
-					r_FinvariantInfo.SetBelong(null);
 				}
 				return r_FinvariantInfo;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnumberGroupSizes == null)
 				{
 					r_FnumberGroupSizes = new(this, "numberGroupSizes");
-					r_FnumberGroupSizes.SetBelong(this.GetValue());
 				}
 				return r_FnumberGroupSizes;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencyGroupSizes == null)
 				{
 					r_FcurrencyGroupSizes = new(this, "currencyGroupSizes");
-					r_FcurrencyGroupSizes.SetBelong(this.GetValue());
 				}
 				return r_FcurrencyGroupSizes;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentGroupSizes == null)
 				{
 					r_FpercentGroupSizes = new(this, "percentGroupSizes");
-					r_FpercentGroupSizes.SetBelong(this.GetValue());
 				}
 				return r_FpercentGroupSizes;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpositiveSign == null)
 				{
 					r_FpositiveSign = new(this, "positiveSign");
-					r_FpositiveSign.SetBelong(this.GetValue());
 				}
 				return r_FpositiveSign;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnegativeSign == null)
 				{
 					r_FnegativeSign = new(this, "negativeSign");
-					r_FnegativeSign.SetBelong(this.GetValue());
 				}
 				return r_FnegativeSign;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnumberDecimalSeparator == null)
 				{
 					r_FnumberDecimalSeparator = new(this, "numberDecimalSeparator");
-					r_FnumberDecimalSeparator.SetBelong(this.GetValue());
 				}
 				return r_FnumberDecimalSeparator;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnumberGroupSeparator == null)
 				{
 					r_FnumberGroupSeparator = new(this, "numberGroupSeparator");
-					r_FnumberGroupSeparator.SetBelong(this.GetValue());
 				}
 				return r_FnumberGroupSeparator;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencyGroupSeparator == null)
 				{
 					r_FcurrencyGroupSeparator = new(this, "currencyGroupSeparator");
-					r_FcurrencyGroupSeparator.SetBelong(this.GetValue());
 				}
 				return r_FcurrencyGroupSeparator;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencyDecimalSeparator == null)
 				{
 					r_FcurrencyDecimalSeparator = new(this, "currencyDecimalSeparator");
-					r_FcurrencyDecimalSeparator.SetBelong(this.GetValue());
 				}
 				return r_FcurrencyDecimalSeparator;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencySymbol == null)
 				{
 					r_FcurrencySymbol = new(this, "currencySymbol");
-					r_FcurrencySymbol.SetBelong(this.GetValue());
 				}
 				return r_FcurrencySymbol;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FansiCurrencySymbol == null)
 				{
 					r_FansiCurrencySymbol = new(this, "ansiCurrencySymbol");
-					r_FansiCurrencySymbol.SetBelong(this.GetValue());
 				}
 				return r_FansiCurrencySymbol;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnanSymbol == null)
 				{
 					r_FnanSymbol = new(this, "nanSymbol");
-					r_FnanSymbol.SetBelong(this.GetValue());
 				}
 				return r_FnanSymbol;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpositiveInfinitySymbol == null)
 				{
 					r_FpositiveInfinitySymbol = new(this, "positiveInfinitySymbol");
-					r_FpositiveInfinitySymbol.SetBelong(this.GetValue());
 				}
 				return r_FpositiveInfinitySymbol;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnegativeInfinitySymbol == null)
 				{
 					r_FnegativeInfinitySymbol = new(this, "negativeInfinitySymbol");
-					r_FnegativeInfinitySymbol.SetBelong(this.GetValue());
 				}
 				return r_FnegativeInfinitySymbol;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentDecimalSeparator == null)
 				{
 					r_FpercentDecimalSeparator = new(this, "percentDecimalSeparator");
-					r_FpercentDecimalSeparator.SetBelong(this.GetValue());
 				}
 				return r_FpercentDecimalSeparator;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentGroupSeparator == null)
 				{
 					r_FpercentGroupSeparator = new(this, "percentGroupSeparator");
-					r_FpercentGroupSeparator.SetBelong(this.GetValue());
 				}
 				return r_FpercentGroupSeparator;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentSymbol == null)
 				{
 					r_FpercentSymbol = new(this, "percentSymbol");
-					r_FpercentSymbol.SetBelong(this.GetValue());
 				}
 				return r_FpercentSymbol;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FperMilleSymbol == null)
 				{
 					r_FperMilleSymbol = new(this, "perMilleSymbol");
-					r_FperMilleSymbol.SetBelong(this.GetValue());
 				}
 				return r_FperMilleSymbol;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnativeDigits == null)
 				{
 					r_FnativeDigits = new(this, "nativeDigits");
-					r_FnativeDigits.SetBelong(this.GetValue());
 				}
 				return r_FnativeDigits;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_dataItem == null)
 				{
 					r_Fm_dataItem = new(this, "m_dataItem");
-					r_Fm_dataItem.SetBelong(this.GetValue());
 				}
 				return r_Fm_dataItem;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnumberDecimalDigits == null)
 				{
 					r_FnumberDecimalDigits = new(this, "numberDecimalDigits");
-					r_FnumberDecimalDigits.SetBelong(this.GetValue());
 				}
 				return r_FnumberDecimalDigits;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencyDecimalDigits == null)
 				{
 					r_FcurrencyDecimalDigits = new(this, "currencyDecimalDigits");
-					r_FcurrencyDecimalDigits.SetBelong(this.GetValue());
 				}
 				return r_FcurrencyDecimalDigits;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencyPositivePattern == null)
 				{
 					r_FcurrencyPositivePattern = new(this, "currencyPositivePattern");
-					r_FcurrencyPositivePattern.SetBelong(this.GetValue());
 				}
 				return r_FcurrencyPositivePattern;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcurrencyNegativePattern == null)
 				{
 					r_FcurrencyNegativePattern = new(this, "currencyNegativePattern");
-					r_FcurrencyNegativePattern.SetBelong(this.GetValue());
 				}
 				return r_FcurrencyNegativePattern;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FnumberNegativePattern == null)
 				{
 					r_FnumberNegativePattern = new(this, "numberNegativePattern");
-					r_FnumberNegativePattern.SetBelong(this.GetValue());
 				}
 				return r_FnumberNegativePattern;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentPositivePattern == null)
 				{
 					r_FpercentPositivePattern = new(this, "percentPositivePattern");
-					r_FpercentPositivePattern.SetBelong(this.GetValue());
 				}
 				return r_FpercentPositivePattern;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentNegativePattern == null)
 				{
 					r_FpercentNegativePattern = new(this, "percentNegativePattern");
-					r_FpercentNegativePattern.SetBelong(this.GetValue());
 				}
 				return r_FpercentNegativePattern;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FpercentDecimalDigits == null)
 				{
 					r_FpercentDecimalDigits = new(this, "percentDecimalDigits");
-					r_FpercentDecimalDigits.SetBelong(this.GetValue());
 				}
 				return r_FpercentDecimalDigits;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FdigitSubstitution == null)
 				{
 					r_FdigitSubstitution = new(this, "digitSubstitution");
-					r_FdigitSubstitution.SetBelong(this.GetValue());
 				}
 				return r_FdigitSubstitution;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FisReadOnly == null)
 				{
 					r_FisReadOnly = new(this, "isReadOnly");
-					r_FisReadOnly.SetBelong(this.GetValue());
 				}
 				return r_FisReadOnly;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_useUserOverride == null)
 				{
 					r_Fm_useUserOverride = new(this, "m_useUserOverride");
-					r_Fm_useUserOverride.SetBelong(this.GetValue());
 				}
 				return r_Fm_useUserOverride;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_isInvariant == null)
 				{
 					r_Fm_isInvariant = new(this, "m_isInvariant");
-					r_Fm_isInvariant.SetBelong(this.GetValue());
 				}
 				return r_Fm_isInvariant;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FvalidForParseAsNumber == null)
 				{
 					r_FvalidForParseAsNumber = new(this, "validForParseAsNumber");
-					r_FvalidForParseAsNumber.SetBelong(this.GetValue());
 				}
 				return r_FvalidForParseAsNumber;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FvalidForParseAsCurrency == null)
 				{
 					r_FvalidForParseAsCurrency = new(this, "validForParseAsCurrency");
-					r_FvalidForParseAsCurrency.SetBelong(this.GetValue());
 				}
 				return r_FvalidForParseAsCurrency;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FInvalidNumberStyles == null)
 				{
 					r_FInvalidNumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "InvalidNumberStyles");
-					r_FInvalidNumberStyles.SetBelong(null);
 				}
 				return r_FInvalidNumberStyles;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PInvariantInfo == null)
 				{
 					r_PInvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "InvariantInfo", -1);
-					r_PInvariantInfo.SetBelong(null);
 				}
 				return r_PInvariantInfo;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencyDecimalDigits == null)
 				{
 					r_PCurrencyDecimalDigits = new(this, "CurrencyDecimalDigits", -1);
-					r_PCurrencyDecimalDigits.SetBelong(this.GetValue());
 				}
 				return r_PCurrencyDecimalDigits;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencyDecimalSeparator == null)
 				{
 					r_PCurrencyDecimalSeparator = new(this, "CurrencyDecimalSeparator", -1);
-					r_PCurrencyDecimalSeparator.SetBelong(this.GetValue());
 				}
 				return r_PCurrencyDecimalSeparator;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PIsReadOnly == null)
 				{
 					r_PIsReadOnly = new(this, "IsReadOnly", -1);
-					r_PIsReadOnly.SetBelong(this.GetValue());
 				}
 				return r_PIsReadOnly;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencyGroupSizes == null)
 				{
 					r_PCurrencyGroupSizes = new(this, "CurrencyGroupSizes", -1);
-					r_PCurrencyGroupSizes.SetBelong(this.GetValue());
 				}
 				return r_PCurrencyGroupSizes;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNumberGroupSizes == null)
 				{
 					r_PNumberGroupSizes = new(this, "NumberGroupSizes", -1);
-					r_PNumberGroupSizes.SetBelong(this.GetValue());
 				}
 				return r_PNumberGroupSizes;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentGroupSizes == null)
 				{
 					r_PPercentGroupSizes = new(this, "PercentGroupSizes", -1);
-					r_PPercentGroupSizes.SetBelong(this.GetValue());
 				}
 				return r_PPercentGroupSizes;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencyGroupSeparator == null)
 				{
 					r_PCurrencyGroupSeparator = new(this, "CurrencyGroupSeparator", -1);
-					r_PCurrencyGroupSeparator.SetBelong(this.GetValue());
 				}
 				return r_PCurrencyGroupSeparator;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencySymbol == null)
 				{
 					r_PCurrencySymbol = new(this, "CurrencySymbol", -1);
-					r_PCurrencySymbol.SetBelong(this.GetValue());
 				}
 				return r_PCurrencySymbol;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrentInfo == null)
 				{
 					r_PCurrentInfo = new(typeof(System.Globalization.NumberFormatInfo), "CurrentInfo", -1);
-					r_PCurrentInfo.SetBelong(null);
 				}
 				return r_PCurrentInfo;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNaNSymbol == null)
 				{
 					r_PNaNSymbol = new(this, "NaNSymbol", -1);
-					r_PNaNSymbol.SetBelong(this.GetValue());
 				}
 				return r_PNaNSymbol;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencyNegativePattern == null)
 				{
 					r_PCurrencyNegativePattern = new(this, "CurrencyNegativePattern", -1);
-					r_PCurrencyNegativePattern.SetBelong(this.GetValue());
 				}
 				return r_PCurrencyNegativePattern;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNumberNegativePattern == null)
 				{
 					r_PNumberNegativePattern = new(this, "NumberNegativePattern", -1);
-					r_PNumberNegativePattern.SetBelong(this.GetValue());
 				}
 				return r_PNumberNegativePattern;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentPositivePattern == null)
 				{
 					r_PPercentPositivePattern = new(this, "PercentPositivePattern", -1);
-					r_PPercentPositivePattern.SetBelong(this.GetValue());
 				}
 				return r_PPercentPositivePattern;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentNegativePattern == null)
 				{
 					r_PPercentNegativePattern = new(this, "PercentNegativePattern", -1);
-					r_PPercentNegativePattern.SetBelong(this.GetValue());
 				}
 				return r_PPercentNegativePattern;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNegativeInfinitySymbol == null)
 				{
 					r_PNegativeInfinitySymbol = new(this, "NegativeInfinitySymbol", -1);
-					r_PNegativeInfinitySymbol.SetBelong(this.GetValue());
 				}
 				return r_PNegativeInfinitySymbol;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNegativeSign == null)
 				{
 					r_PNegativeSign = new(this, "NegativeSign", -1);
-					r_PNegativeSign.SetBelong(this.GetValue());
 				}
 				return r_PNegativeSign;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNumberDecimalDigits == null)
 				{
 					r_PNumberDecimalDigits = new(this, "NumberDecimalDigits", -1);
-					r_PNumberDecimalDigits.SetBelong(this.GetValue());
 				}
 				return r_PNumberDecimalDigits;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNumberDecimalSeparator == null)
 				{
 					r_PNumberDecimalSeparator = new(this, "NumberDecimalSeparator", -1);
-					r_PNumberDecimalSeparator.SetBelong(this.GetValue());
 				}
 				return r_PNumberDecimalSeparator;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNumberGroupSeparator == null)
 				{
 					r_PNumberGroupSeparator = new(this, "NumberGroupSeparator", -1);
-					r_PNumberGroupSeparator.SetBelong(this.GetValue());
 				}
 				return r_PNumberGroupSeparator;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCurrencyPositivePattern == null)
 				{
 					r_PCurrencyPositivePattern = new(this, "CurrencyPositivePattern", -1);
-					r_PCurrencyPositivePattern.SetBelong(this.GetValue());
 				}
 				return r_PCurrencyPositivePattern;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPositiveInfinitySymbol == null)
 				{
 					r_PPositiveInfinitySymbol = new(this, "PositiveInfinitySymbol", -1);
-					r_PPositiveInfinitySymbol.SetBelong(this.GetValue());
 				}
 				return r_PPositiveInfinitySymbol;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPositiveSign == null)
 				{
 					r_PPositiveSign = new(this, "PositiveSign", -1);
-					r_PPositiveSign.SetBelong(this.GetValue());
 				}
 				return r_PPositiveSign;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentDecimalDigits == null)
 				{
 					r_PPercentDecimalDigits = new(this, "PercentDecimalDigits", -1);
-					r_PPercentDecimalDigits.SetBelong(this.GetValue());
 				}
 				return r_PPercentDecimalDigits;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentDecimalSeparator == null)
 				{
 					r_PPercentDecimalSeparator = new(this, "PercentDecimalSeparator", -1);
-					r_PPercentDecimalSeparator.SetBelong(this.GetValue());
 				}
 				return r_PPercentDecimalSeparator;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentGroupSeparator == null)
 				{
 					r_PPercentGroupSeparator = new(this, "PercentGroupSeparator", -1);
-					r_PPercentGroupSeparator.SetBelong(this.GetValue());
 				}
 				return r_PPercentGroupSeparator;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPercentSymbol == null)
 				{
 					r_PPercentSymbol = new(this, "PercentSymbol", -1);
-					r_PPercentSymbol.SetBelong(this.GetValue());
 				}
 				return r_PPercentSymbol;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PPerMilleSymbol == null)
 				{
 					r_PPerMilleSymbol = new(this, "PerMilleSymbol", -1);
-					r_PPerMilleSymbol.SetBelong(this.GetValue());
 				}
 				return r_PPerMilleSymbol;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PNativeDigits == null)
 				{
 					r_PNativeDigits = new(this, "NativeDigits", -1);
-					r_PNativeDigits.SetBelong(this.GetValue());
 				}
 				return r_PNativeDigits;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PDigitSubstitution == null)
 				{
 					r_PDigitSubstitution = new(this, "DigitSubstitution", -1);
-					r_PDigitSubstitution.SetBelong(this.GetValue());
 				}
 				return r_PDigitSubstitution;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnSerializing_StreamingContext == null)
 				{
 					r_MOnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnSerializing_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnSerializing_StreamingContext;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserializing_StreamingContext == null)
 				{
 					r_MOnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserializing_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserializing_StreamingContext;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserialized_StreamingContext == null)
 				{
 					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserialized_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserialized_StreamingContext;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyDecimalSeparator_String_String == null)
 				{
 					r_MVerifyDecimalSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
-					r_MVerifyDecimalSeparator_String_String.SetBelong(null);
 				}
 				return r_MVerifyDecimalSeparator_String_String;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyGroupSeparator_String_String == null)
 				{
 					r_MVerifyGroupSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
-					r_MVerifyGroupSeparator_String_String.SetBelong(null);
 				}
 				return r_MVerifyGroupSeparator_String_String;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyNativeDigits_StringArray_String == null)
 				{
 					r_MVerifyNativeDigits_StringArray_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
-					r_MVerifyNativeDigits_StringArray_String.SetBelong(null);
 				}
 				return r_MVerifyNativeDigits_StringArray_String;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyDigitSubstitution_DigitShapes_String == null)
 				{
 					r_MVerifyDigitSubstitution_DigitShapes_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
-					r_MVerifyDigitSubstitution_DigitShapes_String.SetBelong(null);
 				}
 				return r_MVerifyDigitSubstitution_DigitShapes_String;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyWritable == null)
 				{
 					r_MVerifyWritable = new(this, "VerifyWritable", 0);
-					r_MVerifyWritable.SetBelong(this.GetValue());
 				}
 				return r_MVerifyWritable;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetInstance_IFormatProvider == null)
 				{
 					r_MGetInstance_IFormatProvider = new(typeof(System.Globalization.NumberFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
-					r_MGetInstance_IFormatProvider.SetBelong(null);
 				}
 				return r_MGetInstance_IFormatProvider;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MClone == null)
 				{
 					r_MClone = new(this, "Clone", 0);
-					r_MClone.SetBelong(this.GetValue());
 				}
 				return r_MClone;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCheckGroupSize_String_Int32Array == null)
 				{
 					r_MCheckGroupSize_String_Int32Array = new(typeof(System.Globalization.NumberFormatInfo), "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
-					r_MCheckGroupSize_String_Int32Array.SetBelong(null);
 				}
 				return r_MCheckGroupSize_String_Int32Array;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetFormat_Type == null)
 				{
 					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-					r_MGetFormat_Type.SetBelong(this.GetValue());
 				}
 				return r_MGetFormat_Type;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MReadOnly_NumberFormatInfo == null)
 				{
 					r_MReadOnly_NumberFormatInfo = new(typeof(System.Globalization.NumberFormatInfo), "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
-					r_MReadOnly_NumberFormatInfo.SetBelong(null);
 				}
 				return r_MReadOnly_NumberFormatInfo;
 			}
@@ -1365,7 +1286,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MValidateParseStyleInteger_NumberStyles == null)
 				{
 					r_MValidateParseStyleInteger_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
-					r_MValidateParseStyleInteger_NumberStyles.SetBelong(null);
 				}
 				return r_MValidateParseStyleInteger_NumberStyles;
 			}
@@ -1382,7 +1302,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MValidateParseStyleFloatingPoint_NumberStyles == null)
 				{
 					r_MValidateParseStyleFloatingPoint_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
-					r_MValidateParseStyleFloatingPoint_NumberStyles.SetBelong(null);
 				}
 				return r_MValidateParseStyleFloatingPoint_NumberStyles;
 			}
@@ -1399,7 +1318,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -1416,7 +1334,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1433,7 +1350,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -1450,7 +1366,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1467,7 +1382,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -1484,7 +1398,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

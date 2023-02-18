@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Pexpanded == null)
 				{
 					r_Pexpanded = new(this, "expanded", -1);
-					r_Pexpanded.SetBelong(this.GetValue());
 				}
 				return r_Pexpanded;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Ptitle == null)
 				{
 					r_Ptitle = new(this, "title", -1);
-					r_Ptitle.SetBelong(this.GetValue());
 				}
 				return r_Ptitle;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MAdd_VisualElement == null)
 				{
 					r_MAdd_VisualElement = new(this, "Add", 0, typeof(UnityEngine.UIElements.VisualElement));
-					r_MAdd_VisualElement.SetBelong(this.GetValue());
 				}
 				return r_MAdd_VisualElement;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MExecute_Action_d_TimerState_p_ == null)
 				{
 					r_MExecute_Action_d_TimerState_p_ = new(this, "Execute", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)));
-					r_MExecute_Action_d_TimerState_p_.SetBelong(this.GetValue());
 				}
 				return r_MExecute_Action_d_TimerState_p_;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MExecute_Action == null)
 				{
 					r_MExecute_Action = new(this, "Execute", 0, typeof(System.Action));
-					r_MExecute_Action.SetBelong(this.GetValue());
 				}
 				return r_MExecute_Action;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fcharacter == null)
 				{
 					r_Fcharacter = new(this, "character");
-					r_Fcharacter.SetBelong(this.GetValue());
 				}
 				return r_Fcharacter;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Findex == null)
 				{
 					r_Findex = new(this, "index");
-					r_Findex.SetBelong(this.GetValue());
 				}
 				return r_Findex;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FelementType == null)
 				{
 					r_FelementType = new(this, "elementType");
-					r_FelementType.SetBelong(this.GetValue());
 				}
 				return r_FelementType;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FstringLength == null)
 				{
 					r_FstringLength = new(this, "stringLength");
-					r_FstringLength.SetBelong(this.GetValue());
 				}
 				return r_FstringLength;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FtextElement == null)
 				{
 					r_FtextElement = new(this, "textElement");
-					r_FtextElement.SetBelong(this.GetValue());
 				}
 				return r_FtextElement;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FalternativeGlyph == null)
 				{
 					r_FalternativeGlyph = new(this, "alternativeGlyph");
-					r_FalternativeGlyph.SetBelong(this.GetValue());
 				}
 				return r_FalternativeGlyph;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FfontAsset == null)
 				{
 					r_FfontAsset = new(this, "fontAsset");
-					r_FfontAsset.SetBelong(this.GetValue());
 				}
 				return r_FfontAsset;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FspriteAsset == null)
 				{
 					r_FspriteAsset = new(this, "spriteAsset");
-					r_FspriteAsset.SetBelong(this.GetValue());
 				}
 				return r_FspriteAsset;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FspriteIndex == null)
 				{
 					r_FspriteIndex = new(this, "spriteIndex");
-					r_FspriteIndex.SetBelong(this.GetValue());
 				}
 				return r_FspriteIndex;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fmaterial == null)
 				{
 					r_Fmaterial = new(this, "material");
-					r_Fmaterial.SetBelong(this.GetValue());
 				}
 				return r_Fmaterial;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FmaterialReferenceIndex == null)
 				{
 					r_FmaterialReferenceIndex = new(this, "materialReferenceIndex");
-					r_FmaterialReferenceIndex.SetBelong(this.GetValue());
 				}
 				return r_FmaterialReferenceIndex;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FisUsingAlternateTypeface == null)
 				{
 					r_FisUsingAlternateTypeface = new(this, "isUsingAlternateTypeface");
-					r_FisUsingAlternateTypeface.SetBelong(this.GetValue());
 				}
 				return r_FisUsingAlternateTypeface;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FpointSize == null)
 				{
 					r_FpointSize = new(this, "pointSize");
-					r_FpointSize.SetBelong(this.GetValue());
 				}
 				return r_FpointSize;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FlineNumber == null)
 				{
 					r_FlineNumber = new(this, "lineNumber");
-					r_FlineNumber.SetBelong(this.GetValue());
 				}
 				return r_FlineNumber;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FpageNumber == null)
 				{
 					r_FpageNumber = new(this, "pageNumber");
-					r_FpageNumber.SetBelong(this.GetValue());
 				}
 				return r_FpageNumber;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FvertexIndex == null)
 				{
 					r_FvertexIndex = new(this, "vertexIndex");
-					r_FvertexIndex.SetBelong(this.GetValue());
 				}
 				return r_FvertexIndex;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FvertexTopLeft == null)
 				{
 					r_FvertexTopLeft = new(this, "vertexTopLeft");
-					r_FvertexTopLeft.SetBelong(this.GetValue());
 				}
 				return r_FvertexTopLeft;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FvertexBottomLeft == null)
 				{
 					r_FvertexBottomLeft = new(this, "vertexBottomLeft");
-					r_FvertexBottomLeft.SetBelong(this.GetValue());
 				}
 				return r_FvertexBottomLeft;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FvertexTopRight == null)
 				{
 					r_FvertexTopRight = new(this, "vertexTopRight");
-					r_FvertexTopRight.SetBelong(this.GetValue());
 				}
 				return r_FvertexTopRight;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FvertexBottomRight == null)
 				{
 					r_FvertexBottomRight = new(this, "vertexBottomRight");
-					r_FvertexBottomRight.SetBelong(this.GetValue());
 				}
 				return r_FvertexBottomRight;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FtopLeft == null)
 				{
 					r_FtopLeft = new(this, "topLeft");
-					r_FtopLeft.SetBelong(this.GetValue());
 				}
 				return r_FtopLeft;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FbottomLeft == null)
 				{
 					r_FbottomLeft = new(this, "bottomLeft");
-					r_FbottomLeft.SetBelong(this.GetValue());
 				}
 				return r_FbottomLeft;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FtopRight == null)
 				{
 					r_FtopRight = new(this, "topRight");
-					r_FtopRight.SetBelong(this.GetValue());
 				}
 				return r_FtopRight;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FbottomRight == null)
 				{
 					r_FbottomRight = new(this, "bottomRight");
-					r_FbottomRight.SetBelong(this.GetValue());
 				}
 				return r_FbottomRight;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Forigin == null)
 				{
 					r_Forigin = new(this, "origin");
-					r_Forigin.SetBelong(this.GetValue());
 				}
 				return r_Forigin;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fascender == null)
 				{
 					r_Fascender = new(this, "ascender");
-					r_Fascender.SetBelong(this.GetValue());
 				}
 				return r_Fascender;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FbaseLine == null)
 				{
 					r_FbaseLine = new(this, "baseLine");
-					r_FbaseLine.SetBelong(this.GetValue());
 				}
 				return r_FbaseLine;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fdescender == null)
 				{
 					r_Fdescender = new(this, "descender");
-					r_Fdescender.SetBelong(this.GetValue());
 				}
 				return r_Fdescender;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FadjustedAscender == null)
 				{
 					r_FadjustedAscender = new(this, "adjustedAscender");
-					r_FadjustedAscender.SetBelong(this.GetValue());
 				}
 				return r_FadjustedAscender;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FadjustedDescender == null)
 				{
 					r_FadjustedDescender = new(this, "adjustedDescender");
-					r_FadjustedDescender.SetBelong(this.GetValue());
 				}
 				return r_FadjustedDescender;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FadjustedHorizontalAdvance == null)
 				{
 					r_FadjustedHorizontalAdvance = new(this, "adjustedHorizontalAdvance");
-					r_FadjustedHorizontalAdvance.SetBelong(this.GetValue());
 				}
 				return r_FadjustedHorizontalAdvance;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FxAdvance == null)
 				{
 					r_FxAdvance = new(this, "xAdvance");
-					r_FxAdvance.SetBelong(this.GetValue());
 				}
 				return r_FxAdvance;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FaspectRatio == null)
 				{
 					r_FaspectRatio = new(this, "aspectRatio");
-					r_FaspectRatio.SetBelong(this.GetValue());
 				}
 				return r_FaspectRatio;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fscale == null)
 				{
 					r_Fscale = new(this, "scale");
-					r_Fscale.SetBelong(this.GetValue());
 				}
 				return r_Fscale;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fcolor == null)
 				{
 					r_Fcolor = new(this, "color");
-					r_Fcolor.SetBelong(this.GetValue());
 				}
 				return r_Fcolor;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FunderlineColor == null)
 				{
 					r_FunderlineColor = new(this, "underlineColor");
-					r_FunderlineColor.SetBelong(this.GetValue());
 				}
 				return r_FunderlineColor;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FunderlineVertexIndex == null)
 				{
 					r_FunderlineVertexIndex = new(this, "underlineVertexIndex");
-					r_FunderlineVertexIndex.SetBelong(this.GetValue());
 				}
 				return r_FunderlineVertexIndex;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FstrikethroughColor == null)
 				{
 					r_FstrikethroughColor = new(this, "strikethroughColor");
-					r_FstrikethroughColor.SetBelong(this.GetValue());
 				}
 				return r_FstrikethroughColor;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FstrikethroughVertexIndex == null)
 				{
 					r_FstrikethroughVertexIndex = new(this, "strikethroughVertexIndex");
-					r_FstrikethroughVertexIndex.SetBelong(this.GetValue());
 				}
 				return r_FstrikethroughVertexIndex;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FhighlightColor == null)
 				{
 					r_FhighlightColor = new(this, "highlightColor");
-					r_FhighlightColor.SetBelong(this.GetValue());
 				}
 				return r_FhighlightColor;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FhighlightState == null)
 				{
 					r_FhighlightState = new(this, "highlightState");
-					r_FhighlightState.SetBelong(this.GetValue());
 				}
 				return r_FhighlightState;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fstyle == null)
 				{
 					r_Fstyle = new(this, "style");
-					r_Fstyle.SetBelong(this.GetValue());
 				}
 				return r_Fstyle;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FisVisible == null)
 				{
 					r_FisVisible = new(this, "isVisible");
-					r_FisVisible.SetBelong(this.GetValue());
 				}
 				return r_FisVisible;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

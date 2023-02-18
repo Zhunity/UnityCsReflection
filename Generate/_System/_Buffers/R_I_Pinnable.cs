@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 				if(r_MPin_Int32 == null)
 				{
 					r_MPin_Int32 = new(this, "Pin", 0, typeof(System.Int32));
-					r_MPin_Int32.SetBelong(this.GetValue());
 				}
 				return r_MPin_Int32;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 				if(r_MUnpin == null)
 				{
 					r_MUnpin = new(this, "Unpin", 0);
-					r_MUnpin.SetBelong(this.GetValue());
 				}
 				return r_MUnpin;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PisChecked == null)
 				{
 					r_PisChecked = new(this, "isChecked", -1);
-					r_PisChecked.SetBelong(this.GetValue());
 				}
 				return r_PisChecked;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Ptext == null)
 				{
 					r_Ptext = new(this, "text", -1);
-					r_Ptext.SetBelong(this.GetValue());
 				}
 				return r_Ptext;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PinsertSeparatorBefore == null)
 				{
 					r_PinsertSeparatorBefore = new(this, "insertSeparatorBefore", -1);
-					r_PinsertSeparatorBefore.SetBelong(this.GetValue());
 				}
 				return r_PinsertSeparatorBefore;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Paction == null)
 				{
 					r_Paction = new(this, "action", -1);
-					r_Paction.SetBelong(this.GetValue());
 				}
 				return r_Paction;
 			}

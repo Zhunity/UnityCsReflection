@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_Fm_CategoryId == null)
 				{
 					r_Fm_CategoryId = new(this, "m_CategoryId");
-					r_Fm_CategoryId.SetBelong(this.GetValue());
 				}
 				return r_Fm_CategoryId;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PName == null)
 				{
 					r_PName = new(this, "Name", -1);
-					r_PName.SetBelong(this.GetValue());
 				}
 				return r_PName;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PColor == null)
 				{
 					r_PColor = new(this, "Color", -1);
-					r_PColor.SetBelong(this.GetValue());
 				}
 				return r_PColor;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PRender == null)
 				{
 					r_PRender = new(typeof(Unity.Profiling.ProfilerCategory), "Render", -1);
-					r_PRender.SetBelong(null);
 				}
 				return r_PRender;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PScripts == null)
 				{
 					r_PScripts = new(typeof(Unity.Profiling.ProfilerCategory), "Scripts", -1);
-					r_PScripts.SetBelong(null);
 				}
 				return r_PScripts;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PGui == null)
 				{
 					r_PGui = new(typeof(Unity.Profiling.ProfilerCategory), "Gui", -1);
-					r_PGui.SetBelong(null);
 				}
 				return r_PGui;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PPhysics == null)
 				{
 					r_PPhysics = new(typeof(Unity.Profiling.ProfilerCategory), "Physics", -1);
-					r_PPhysics.SetBelong(null);
 				}
 				return r_PPhysics;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PPhysics2D == null)
 				{
 					r_PPhysics2D = new(typeof(Unity.Profiling.ProfilerCategory), "Physics2D", -1);
-					r_PPhysics2D.SetBelong(null);
 				}
 				return r_PPhysics2D;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PAnimation == null)
 				{
 					r_PAnimation = new(typeof(Unity.Profiling.ProfilerCategory), "Animation", -1);
-					r_PAnimation.SetBelong(null);
 				}
 				return r_PAnimation;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PAi == null)
 				{
 					r_PAi = new(typeof(Unity.Profiling.ProfilerCategory), "Ai", -1);
-					r_PAi.SetBelong(null);
 				}
 				return r_PAi;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PAudio == null)
 				{
 					r_PAudio = new(typeof(Unity.Profiling.ProfilerCategory), "Audio", -1);
-					r_PAudio.SetBelong(null);
 				}
 				return r_PAudio;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PVideo == null)
 				{
 					r_PVideo = new(typeof(Unity.Profiling.ProfilerCategory), "Video", -1);
-					r_PVideo.SetBelong(null);
 				}
 				return r_PVideo;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PParticles == null)
 				{
 					r_PParticles = new(typeof(Unity.Profiling.ProfilerCategory), "Particles", -1);
-					r_PParticles.SetBelong(null);
 				}
 				return r_PParticles;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PLighting == null)
 				{
 					r_PLighting = new(typeof(Unity.Profiling.ProfilerCategory), "Lighting", -1);
-					r_PLighting.SetBelong(null);
 				}
 				return r_PLighting;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PNetwork == null)
 				{
 					r_PNetwork = new(typeof(Unity.Profiling.ProfilerCategory), "Network", -1);
-					r_PNetwork.SetBelong(null);
 				}
 				return r_PNetwork;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PLoading == null)
 				{
 					r_PLoading = new(typeof(Unity.Profiling.ProfilerCategory), "Loading", -1);
-					r_PLoading.SetBelong(null);
 				}
 				return r_PLoading;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PVr == null)
 				{
 					r_PVr = new(typeof(Unity.Profiling.ProfilerCategory), "Vr", -1);
-					r_PVr.SetBelong(null);
 				}
 				return r_PVr;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PInput == null)
 				{
 					r_PInput = new(typeof(Unity.Profiling.ProfilerCategory), "Input", -1);
-					r_PInput.SetBelong(null);
 				}
 				return r_PInput;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PMemory == null)
 				{
 					r_PMemory = new(typeof(Unity.Profiling.ProfilerCategory), "Memory", -1);
-					r_PMemory.SetBelong(null);
 				}
 				return r_PMemory;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PVirtualTexturing == null)
 				{
 					r_PVirtualTexturing = new(typeof(Unity.Profiling.ProfilerCategory), "VirtualTexturing", -1);
-					r_PVirtualTexturing.SetBelong(null);
 				}
 				return r_PVirtualTexturing;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PFileIO == null)
 				{
 					r_PFileIO = new(typeof(Unity.Profiling.ProfilerCategory), "FileIO", -1);
-					r_PFileIO.SetBelong(null);
 				}
 				return r_PFileIO;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PInternal == null)
 				{
 					r_PInternal = new(typeof(Unity.Profiling.ProfilerCategory), "Internal", -1);
-					r_PInternal.SetBelong(null);
 				}
 				return r_PInternal;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PAny == null)
 				{
 					r_PAny = new(typeof(Unity.Profiling.ProfilerCategory), "Any", -1);
-					r_PAny.SetBelong(null);
 				}
 				return r_PAny;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_PGPU == null)
 				{
 					r_PGPU = new(typeof(Unity.Profiling.ProfilerCategory), "GPU", -1);
-					r_PGPU.SetBelong(null);
 				}
 				return r_PGPU;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_Mop_Implicit_ProfilerCategory == null)
 				{
 					r_Mop_Implicit_ProfilerCategory = new(typeof(Unity.Profiling.ProfilerCategory), "op_Implicit", 0, typeof(Unity.Profiling.ProfilerCategory));
-					r_Mop_Implicit_ProfilerCategory.SetBelong(null);
 				}
 				return r_Mop_Implicit_ProfilerCategory;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

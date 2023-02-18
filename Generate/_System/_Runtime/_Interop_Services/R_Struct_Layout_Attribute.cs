@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FDEFAULT_PACKING_SIZE == null)
 				{
 					r_FDEFAULT_PACKING_SIZE = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "DEFAULT_PACKING_SIZE");
-					r_FDEFAULT_PACKING_SIZE.SetBelong(null);
 				}
 				return r_FDEFAULT_PACKING_SIZE;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_F_val == null)
 				{
 					r_F_val = new(this, "_val");
-					r_F_val.SetBelong(this.GetValue());
 				}
 				return r_F_val;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FPack == null)
 				{
 					r_FPack = new(this, "Pack");
-					r_FPack.SetBelong(this.GetValue());
 				}
 				return r_FPack;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FSize == null)
 				{
 					r_FSize = new(this, "Size");
-					r_FSize.SetBelong(this.GetValue());
 				}
 				return r_FSize;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FCharSet == null)
 				{
 					r_FCharSet = new(this, "CharSet");
-					r_FCharSet.SetBelong(this.GetValue());
 				}
 				return r_FCharSet;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_PValue == null)
 				{
 					r_PValue = new(this, "Value", -1);
-					r_PValue.SetBelong(this.GetValue());
 				}
 				return r_PValue;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_PTypeId == null)
 				{
 					r_PTypeId = new(this, "TypeId", -1);
-					r_PTypeId.SetBelong(this.GetValue());
 				}
 				return r_PTypeId;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetCustomAttribute_RuntimeType == null)
 				{
 					r_MGetCustomAttribute_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "GetCustomAttribute", 0,  ReflectionUtils.GetType("System.RuntimeType"));
-					r_MGetCustomAttribute_RuntimeType.SetBelong(null);
 				}
 				return r_MGetCustomAttribute_RuntimeType;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MIsDefined_RuntimeType == null)
 				{
 					r_MIsDefined_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "IsDefined", 0,  ReflectionUtils.GetType("System.RuntimeType"));
-					r_MIsDefined_RuntimeType.SetBelong(null);
 				}
 				return r_MIsDefined_RuntimeType;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MMatch_Object == null)
 				{
 					r_MMatch_Object = new(this, "Match", 0, typeof(System.Object));
-					r_MMatch_Object.SetBelong(this.GetValue());
 				}
 				return r_MMatch_Object;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MIsDefaultAttribute == null)
 				{
 					r_MIsDefaultAttribute = new(this, "IsDefaultAttribute", 0);
-					r_MIsDefaultAttribute.SetBelong(this.GetValue());
 				}
 				return r_MIsDefaultAttribute;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_Fvalue__ == null)
 				{
 					r_Fvalue__ = new(this, "value__");
-					r_Fvalue__.SetBelong(this.GetValue());
 				}
 				return r_Fvalue__;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_EMPTY == null)
 				{
 					r_FVT_EMPTY = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_EMPTY");
-					r_FVT_EMPTY.SetBelong(null);
 				}
 				return r_FVT_EMPTY;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_NULL == null)
 				{
 					r_FVT_NULL = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_NULL");
-					r_FVT_NULL.SetBelong(null);
 				}
 				return r_FVT_NULL;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_I2 == null)
 				{
 					r_FVT_I2 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_I2");
-					r_FVT_I2.SetBelong(null);
 				}
 				return r_FVT_I2;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_I4 == null)
 				{
 					r_FVT_I4 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_I4");
-					r_FVT_I4.SetBelong(null);
 				}
 				return r_FVT_I4;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_R4 == null)
 				{
 					r_FVT_R4 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_R4");
-					r_FVT_R4.SetBelong(null);
 				}
 				return r_FVT_R4;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_R8 == null)
 				{
 					r_FVT_R8 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_R8");
-					r_FVT_R8.SetBelong(null);
 				}
 				return r_FVT_R8;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_CY == null)
 				{
 					r_FVT_CY = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_CY");
-					r_FVT_CY.SetBelong(null);
 				}
 				return r_FVT_CY;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_DATE == null)
 				{
 					r_FVT_DATE = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_DATE");
-					r_FVT_DATE.SetBelong(null);
 				}
 				return r_FVT_DATE;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_BSTR == null)
 				{
 					r_FVT_BSTR = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_BSTR");
-					r_FVT_BSTR.SetBelong(null);
 				}
 				return r_FVT_BSTR;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_DISPATCH == null)
 				{
 					r_FVT_DISPATCH = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_DISPATCH");
-					r_FVT_DISPATCH.SetBelong(null);
 				}
 				return r_FVT_DISPATCH;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_ERROR == null)
 				{
 					r_FVT_ERROR = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_ERROR");
-					r_FVT_ERROR.SetBelong(null);
 				}
 				return r_FVT_ERROR;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_BOOL == null)
 				{
 					r_FVT_BOOL = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_BOOL");
-					r_FVT_BOOL.SetBelong(null);
 				}
 				return r_FVT_BOOL;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_VARIANT == null)
 				{
 					r_FVT_VARIANT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_VARIANT");
-					r_FVT_VARIANT.SetBelong(null);
 				}
 				return r_FVT_VARIANT;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_UNKNOWN == null)
 				{
 					r_FVT_UNKNOWN = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_UNKNOWN");
-					r_FVT_UNKNOWN.SetBelong(null);
 				}
 				return r_FVT_UNKNOWN;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_DECIMAL == null)
 				{
 					r_FVT_DECIMAL = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_DECIMAL");
-					r_FVT_DECIMAL.SetBelong(null);
 				}
 				return r_FVT_DECIMAL;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_I1 == null)
 				{
 					r_FVT_I1 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_I1");
-					r_FVT_I1.SetBelong(null);
 				}
 				return r_FVT_I1;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_UI1 == null)
 				{
 					r_FVT_UI1 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_UI1");
-					r_FVT_UI1.SetBelong(null);
 				}
 				return r_FVT_UI1;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_UI2 == null)
 				{
 					r_FVT_UI2 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_UI2");
-					r_FVT_UI2.SetBelong(null);
 				}
 				return r_FVT_UI2;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_UI4 == null)
 				{
 					r_FVT_UI4 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_UI4");
-					r_FVT_UI4.SetBelong(null);
 				}
 				return r_FVT_UI4;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_I8 == null)
 				{
 					r_FVT_I8 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_I8");
-					r_FVT_I8.SetBelong(null);
 				}
 				return r_FVT_I8;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_UI8 == null)
 				{
 					r_FVT_UI8 = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_UI8");
-					r_FVT_UI8.SetBelong(null);
 				}
 				return r_FVT_UI8;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_INT == null)
 				{
 					r_FVT_INT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_INT");
-					r_FVT_INT.SetBelong(null);
 				}
 				return r_FVT_INT;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_UINT == null)
 				{
 					r_FVT_UINT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_UINT");
-					r_FVT_UINT.SetBelong(null);
 				}
 				return r_FVT_UINT;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_VOID == null)
 				{
 					r_FVT_VOID = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_VOID");
-					r_FVT_VOID.SetBelong(null);
 				}
 				return r_FVT_VOID;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_HRESULT == null)
 				{
 					r_FVT_HRESULT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_HRESULT");
-					r_FVT_HRESULT.SetBelong(null);
 				}
 				return r_FVT_HRESULT;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_PTR == null)
 				{
 					r_FVT_PTR = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_PTR");
-					r_FVT_PTR.SetBelong(null);
 				}
 				return r_FVT_PTR;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_SAFEARRAY == null)
 				{
 					r_FVT_SAFEARRAY = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_SAFEARRAY");
-					r_FVT_SAFEARRAY.SetBelong(null);
 				}
 				return r_FVT_SAFEARRAY;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_CARRAY == null)
 				{
 					r_FVT_CARRAY = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_CARRAY");
-					r_FVT_CARRAY.SetBelong(null);
 				}
 				return r_FVT_CARRAY;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_USERDEFINED == null)
 				{
 					r_FVT_USERDEFINED = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_USERDEFINED");
-					r_FVT_USERDEFINED.SetBelong(null);
 				}
 				return r_FVT_USERDEFINED;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_LPSTR == null)
 				{
 					r_FVT_LPSTR = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_LPSTR");
-					r_FVT_LPSTR.SetBelong(null);
 				}
 				return r_FVT_LPSTR;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_LPWSTR == null)
 				{
 					r_FVT_LPWSTR = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_LPWSTR");
-					r_FVT_LPWSTR.SetBelong(null);
 				}
 				return r_FVT_LPWSTR;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_RECORD == null)
 				{
 					r_FVT_RECORD = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_RECORD");
-					r_FVT_RECORD.SetBelong(null);
 				}
 				return r_FVT_RECORD;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_FILETIME == null)
 				{
 					r_FVT_FILETIME = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_FILETIME");
-					r_FVT_FILETIME.SetBelong(null);
 				}
 				return r_FVT_FILETIME;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_BLOB == null)
 				{
 					r_FVT_BLOB = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_BLOB");
-					r_FVT_BLOB.SetBelong(null);
 				}
 				return r_FVT_BLOB;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_STREAM == null)
 				{
 					r_FVT_STREAM = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_STREAM");
-					r_FVT_STREAM.SetBelong(null);
 				}
 				return r_FVT_STREAM;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_STORAGE == null)
 				{
 					r_FVT_STORAGE = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_STORAGE");
-					r_FVT_STORAGE.SetBelong(null);
 				}
 				return r_FVT_STORAGE;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_STREAMED_OBJECT == null)
 				{
 					r_FVT_STREAMED_OBJECT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_STREAMED_OBJECT");
-					r_FVT_STREAMED_OBJECT.SetBelong(null);
 				}
 				return r_FVT_STREAMED_OBJECT;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_STORED_OBJECT == null)
 				{
 					r_FVT_STORED_OBJECT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_STORED_OBJECT");
-					r_FVT_STORED_OBJECT.SetBelong(null);
 				}
 				return r_FVT_STORED_OBJECT;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_BLOB_OBJECT == null)
 				{
 					r_FVT_BLOB_OBJECT = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_BLOB_OBJECT");
-					r_FVT_BLOB_OBJECT.SetBelong(null);
 				}
 				return r_FVT_BLOB_OBJECT;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_CF == null)
 				{
 					r_FVT_CF = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_CF");
-					r_FVT_CF.SetBelong(null);
 				}
 				return r_FVT_CF;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_CLSID == null)
 				{
 					r_FVT_CLSID = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_CLSID");
-					r_FVT_CLSID.SetBelong(null);
 				}
 				return r_FVT_CLSID;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_VECTOR == null)
 				{
 					r_FVT_VECTOR = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_VECTOR");
-					r_FVT_VECTOR.SetBelong(null);
 				}
 				return r_FVT_VECTOR;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_ARRAY == null)
 				{
 					r_FVT_ARRAY = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_ARRAY");
-					r_FVT_ARRAY.SetBelong(null);
 				}
 				return r_FVT_ARRAY;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_FVT_BYREF == null)
 				{
 					r_FVT_BYREF = new(typeof(System.Runtime.InteropServices.VarEnum), "VT_BYREF");
-					r_FVT_BYREF.SetBelong(null);
 				}
 				return r_FVT_BYREF;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetValue == null)
 				{
 					r_MGetValue = new(this, "GetValue", 0);
-					r_MGetValue.SetBelong(this.GetValue());
 				}
 				return r_MGetValue;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString_String_IFormatProvider == null)
 				{
 					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_MToString_String_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_String_IFormatProvider;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MCompareTo_Object == null)
 				{
 					r_MCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_MCompareTo_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_Object;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString_String == null)
 				{
 					r_MToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_MToString_String.SetBelong(this.GetValue());
 				}
 				return r_MToString_String;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MToString_IFormatProvider == null)
 				{
 					r_MToString_IFormatProvider = new(this, "ToString", 0, typeof(System.IFormatProvider));
-					r_MToString_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_IFormatProvider;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MHasFlag_Enum == null)
 				{
 					r_MHasFlag_Enum = new(this, "HasFlag", 0, typeof(System.Enum));
-					r_MHasFlag_Enum.SetBelong(this.GetValue());
 				}
 				return r_MHasFlag_Enum;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetTypeCode == null)
 				{
 					r_MGetTypeCode = new(this, "GetTypeCode", 0);
-					r_MGetTypeCode.SetBelong(this.GetValue());
 				}
 				return r_MGetTypeCode;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

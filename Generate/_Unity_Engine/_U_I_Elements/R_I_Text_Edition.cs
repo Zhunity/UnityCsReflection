@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pmultiline == null)
 				{
 					r_Pmultiline = new(this, "multiline", -1);
-					r_Pmultiline.SetBelong(this.GetValue());
 				}
 				return r_Pmultiline;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PisReadOnly == null)
 				{
 					r_PisReadOnly = new(this, "isReadOnly", -1);
-					r_PisReadOnly.SetBelong(this.GetValue());
 				}
 				return r_PisReadOnly;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PmaxLength == null)
 				{
 					r_PmaxLength = new(this, "maxLength", -1);
-					r_PmaxLength.SetBelong(this.GetValue());
 				}
 				return r_PmaxLength;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PisDelayed == null)
 				{
 					r_PisDelayed = new(this, "isDelayed", -1);
-					r_PisDelayed.SetBelong(this.GetValue());
 				}
 				return r_PisDelayed;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PAcceptCharacter == null)
 				{
 					r_PAcceptCharacter = new(this, "AcceptCharacter", -1);
-					r_PAcceptCharacter.SetBelong(this.GetValue());
 				}
 				return r_PAcceptCharacter;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PUpdateScrollOffset == null)
 				{
 					r_PUpdateScrollOffset = new(this, "UpdateScrollOffset", -1);
-					r_PUpdateScrollOffset.SetBelong(this.GetValue());
 				}
 				return r_PUpdateScrollOffset;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PUpdateValueFromText == null)
 				{
 					r_PUpdateValueFromText = new(this, "UpdateValueFromText", -1);
-					r_PUpdateValueFromText.SetBelong(this.GetValue());
 				}
 				return r_PUpdateValueFromText;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PUpdateTextFromValue == null)
 				{
 					r_PUpdateTextFromValue = new(this, "UpdateTextFromValue", -1);
-					r_PUpdateTextFromValue.SetBelong(this.GetValue());
 				}
 				return r_PUpdateTextFromValue;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PMoveFocusToCompositeRoot == null)
 				{
 					r_PMoveFocusToCompositeRoot = new(this, "MoveFocusToCompositeRoot", -1);
-					r_PMoveFocusToCompositeRoot.SetBelong(this.GetValue());
 				}
 				return r_PMoveFocusToCompositeRoot;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PmaskChar == null)
 				{
 					r_PmaskChar = new(this, "maskChar", -1);
-					r_PmaskChar.SetBelong(this.GetValue());
 				}
 				return r_PmaskChar;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PisPassword == null)
 				{
 					r_PisPassword = new(this, "isPassword", -1);
-					r_PisPassword.SetBelong(this.GetValue());
 				}
 				return r_PisPassword;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PautoCorrection == null)
 				{
 					r_PautoCorrection = new(this, "autoCorrection", -1);
-					r_PautoCorrection.SetBelong(this.GetValue());
 				}
 				return r_PautoCorrection;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PhideMobileInput == null)
 				{
 					r_PhideMobileInput = new(this, "hideMobileInput", -1);
-					r_PhideMobileInput.SetBelong(this.GetValue());
 				}
 				return r_PhideMobileInput;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PtouchScreenKeyboard == null)
 				{
 					r_PtouchScreenKeyboard = new(this, "touchScreenKeyboard", -1);
-					r_PtouchScreenKeyboard.SetBelong(this.GetValue());
 				}
 				return r_PtouchScreenKeyboard;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PkeyboardType == null)
 				{
 					r_PkeyboardType = new(this, "keyboardType", -1);
-					r_PkeyboardType.SetBelong(this.GetValue());
 				}
 				return r_PkeyboardType;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MResetValueAndText == null)
 				{
 					r_MResetValueAndText = new(this, "ResetValueAndText", 0);
-					r_MResetValueAndText.SetBelong(this.GetValue());
 				}
 				return r_MResetValueAndText;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSaveValueAndText == null)
 				{
 					r_MSaveValueAndText = new(this, "SaveValueAndText", 0);
-					r_MSaveValueAndText.SetBelong(this.GetValue());
 				}
 				return r_MSaveValueAndText;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MRestoreValueAndText == null)
 				{
 					r_MRestoreValueAndText = new(this, "RestoreValueAndText", 0);
-					r_MRestoreValueAndText.SetBelong(this.GetValue());
 				}
 				return r_MRestoreValueAndText;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUpdateText_String == null)
 				{
 					r_MUpdateText_String = new(this, "UpdateText", 0, typeof(System.String));
-					r_MUpdateText_String.SetBelong(this.GetValue());
 				}
 				return r_MUpdateText_String;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCullString_String == null)
 				{
 					r_MCullString_String = new(this, "CullString", 0, typeof(System.String));
-					r_MCullString_String.SetBelong(this.GetValue());
 				}
 				return r_MCullString_String;
 			}

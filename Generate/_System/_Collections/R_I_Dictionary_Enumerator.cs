@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_PKey == null)
 				{
 					r_PKey = new(this, "Key", -1);
-					r_PKey.SetBelong(this.GetValue());
 				}
 				return r_PKey;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_PValue == null)
 				{
 					r_PValue = new(this, "Value", -1);
-					r_PValue.SetBelong(this.GetValue());
 				}
 				return r_PValue;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 				if(r_PEntry == null)
 				{
 					r_PEntry = new(this, "Entry", -1);
-					r_PEntry.SetBelong(this.GetValue());
 				}
 				return r_PEntry;
 			}

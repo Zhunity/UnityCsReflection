@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 				if(r_PName == null)
 				{
 					r_PName = new(this, "Name", -1);
-					r_PName.SetBelong(this.GetValue());
 				}
 				return r_PName;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 				if(r_PAuthenticationType == null)
 				{
 					r_PAuthenticationType = new(this, "AuthenticationType", -1);
-					r_PAuthenticationType.SetBelong(this.GetValue());
 				}
 				return r_PAuthenticationType;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 				if(r_PIsAuthenticated == null)
 				{
 					r_PIsAuthenticated = new(this, "IsAuthenticated", -1);
-					r_PIsAuthenticated.SetBelong(this.GetValue());
 				}
 				return r_PIsAuthenticated;
 			}

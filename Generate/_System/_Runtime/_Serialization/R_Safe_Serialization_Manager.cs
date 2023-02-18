@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_ESerializeObjectState == null)
 				{
 					r_ESerializeObjectState = new(this, "SerializeObjectState");
-					r_ESerializeObjectState.SetBelong(this.GetValue());
 				}
 				return r_ESerializeObjectState;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_Fm_serializedStates == null)
 				{
 					r_Fm_serializedStates = new(this, "m_serializedStates");
-					r_Fm_serializedStates.SetBelong(this.GetValue());
 				}
 				return r_Fm_serializedStates;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_Fm_savedSerializationInfo == null)
 				{
 					r_Fm_savedSerializationInfo = new(this, "m_savedSerializationInfo");
-					r_Fm_savedSerializationInfo.SetBelong(this.GetValue());
 				}
 				return r_Fm_savedSerializationInfo;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_Fm_realObject == null)
 				{
 					r_Fm_realObject = new(this, "m_realObject");
-					r_Fm_realObject.SetBelong(this.GetValue());
 				}
 				return r_Fm_realObject;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_Fm_realType == null)
 				{
 					r_Fm_realType = new(this, "m_realType");
-					r_Fm_realType.SetBelong(this.GetValue());
 				}
 				return r_Fm_realType;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_FSerializeObjectState == null)
 				{
 					r_FSerializeObjectState = new(this, "SerializeObjectState");
-					r_FSerializeObjectState.SetBelong(this.GetValue());
 				}
 				return r_FSerializeObjectState;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_FRealTypeSerializationName == null)
 				{
 					r_FRealTypeSerializationName = new( ReflectionUtils.GetType("System.Runtime.Serialization.SafeSerializationManager"), "RealTypeSerializationName");
-					r_FRealTypeSerializationName.SetBelong(null);
 				}
 				return r_FRealTypeSerializationName;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_PIsActive == null)
 				{
 					r_PIsActive = new(this, "IsActive", -1);
-					r_PIsActive.SetBelong(this.GetValue());
 				}
 				return r_PIsActive;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MCompleteSerialization_Object_SerializationInfo_StreamingContext == null)
 				{
 					r_MCompleteSerialization_Object_SerializationInfo_StreamingContext = new(this, "CompleteSerialization", 0, typeof(System.Object), typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_MCompleteSerialization_Object_SerializationInfo_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MCompleteSerialization_Object_SerializationInfo_StreamingContext;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MCompleteDeserialization_Object == null)
 				{
 					r_MCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
-					r_MCompleteDeserialization_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompleteDeserialization_Object;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext = new(this, "System.Runtime.Serialization.ISerializable.GetObjectData", 0, typeof(System.Runtime.Serialization.SerializationInfo), typeof(System.Runtime.Serialization.StreamingContext));
-					r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData_SerializationInfo_StreamingContext;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext = new(this, "System.Runtime.Serialization.IObjectReference.GetRealObject", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__IObjectReference__2__GetRealObject_StreamingContext;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MOnDeserialized_StreamingContext == null)
 				{
 					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserialized_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserialized_StreamingContext;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

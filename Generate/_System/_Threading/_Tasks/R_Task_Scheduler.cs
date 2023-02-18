@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_EUnobservedTaskException == null)
 				{
 					r_EUnobservedTaskException = new(typeof(System.Threading.Tasks.TaskScheduler), "UnobservedTaskException");
-					r_EUnobservedTaskException.SetBelong(null);
 				}
 				return r_EUnobservedTaskException;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fs_activeTaskSchedulers == null)
 				{
 					r_Fs_activeTaskSchedulers = new(typeof(System.Threading.Tasks.TaskScheduler), "s_activeTaskSchedulers");
-					r_Fs_activeTaskSchedulers.SetBelong(null);
 				}
 				return r_Fs_activeTaskSchedulers;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fs_defaultTaskScheduler == null)
 				{
 					r_Fs_defaultTaskScheduler = new(typeof(System.Threading.Tasks.TaskScheduler), "s_defaultTaskScheduler");
-					r_Fs_defaultTaskScheduler.SetBelong(null);
 				}
 				return r_Fs_defaultTaskScheduler;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fs_taskSchedulerIdCounter == null)
 				{
 					r_Fs_taskSchedulerIdCounter = new(typeof(System.Threading.Tasks.TaskScheduler), "s_taskSchedulerIdCounter");
-					r_Fs_taskSchedulerIdCounter.SetBelong(null);
 				}
 				return r_Fs_taskSchedulerIdCounter;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_taskSchedulerId == null)
 				{
 					r_Fm_taskSchedulerId = new(this, "m_taskSchedulerId");
-					r_Fm_taskSchedulerId.SetBelong(this.GetValue());
 				}
 				return r_Fm_taskSchedulerId;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_F_unobservedTaskException == null)
 				{
 					r_F_unobservedTaskException = new(typeof(System.Threading.Tasks.TaskScheduler), "_unobservedTaskException");
-					r_F_unobservedTaskException.SetBelong(null);
 				}
 				return r_F_unobservedTaskException;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_F_unobservedTaskExceptionLockObject == null)
 				{
 					r_F_unobservedTaskExceptionLockObject = new(typeof(System.Threading.Tasks.TaskScheduler), "_unobservedTaskExceptionLockObject");
-					r_F_unobservedTaskExceptionLockObject.SetBelong(null);
 				}
 				return r_F_unobservedTaskExceptionLockObject;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PMaximumConcurrencyLevel == null)
 				{
 					r_PMaximumConcurrencyLevel = new(this, "MaximumConcurrencyLevel", -1);
-					r_PMaximumConcurrencyLevel.SetBelong(this.GetValue());
 				}
 				return r_PMaximumConcurrencyLevel;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PRequiresAtomicStartTransition == null)
 				{
 					r_PRequiresAtomicStartTransition = new(this, "RequiresAtomicStartTransition", -1);
-					r_PRequiresAtomicStartTransition.SetBelong(this.GetValue());
 				}
 				return r_PRequiresAtomicStartTransition;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PDefault == null)
 				{
 					r_PDefault = new(typeof(System.Threading.Tasks.TaskScheduler), "Default", -1);
-					r_PDefault.SetBelong(null);
 				}
 				return r_PDefault;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PCurrent == null)
 				{
 					r_PCurrent = new(typeof(System.Threading.Tasks.TaskScheduler), "Current", -1);
-					r_PCurrent.SetBelong(null);
 				}
 				return r_PCurrent;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PInternalCurrent == null)
 				{
 					r_PInternalCurrent = new(typeof(System.Threading.Tasks.TaskScheduler), "InternalCurrent", -1);
-					r_PInternalCurrent.SetBelong(null);
 				}
 				return r_PInternalCurrent;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PId == null)
 				{
 					r_PId = new(this, "Id", -1);
-					r_PId.SetBelong(this.GetValue());
 				}
 				return r_PId;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MQueueTask_Task == null)
 				{
 					r_MQueueTask_Task = new(this, "QueueTask", 0, typeof(System.Threading.Tasks.Task));
-					r_MQueueTask_Task.SetBelong(this.GetValue());
 				}
 				return r_MQueueTask_Task;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTryExecuteTaskInline_Task_Boolean == null)
 				{
 					r_MTryExecuteTaskInline_Task_Boolean = new(this, "TryExecuteTaskInline", 0, typeof(System.Threading.Tasks.Task), typeof(System.Boolean));
-					r_MTryExecuteTaskInline_Task_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MTryExecuteTaskInline_Task_Boolean;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetScheduledTasks == null)
 				{
 					r_MGetScheduledTasks = new(this, "GetScheduledTasks", 0);
-					r_MGetScheduledTasks.SetBelong(this.GetValue());
 				}
 				return r_MGetScheduledTasks;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTryRunInline_Task_Boolean == null)
 				{
 					r_MTryRunInline_Task_Boolean = new(this, "TryRunInline", 0, typeof(System.Threading.Tasks.Task), typeof(System.Boolean));
-					r_MTryRunInline_Task_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MTryRunInline_Task_Boolean;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTryDequeue_Task == null)
 				{
 					r_MTryDequeue_Task = new(this, "TryDequeue", 0, typeof(System.Threading.Tasks.Task));
-					r_MTryDequeue_Task.SetBelong(this.GetValue());
 				}
 				return r_MTryDequeue_Task;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MNotifyWorkItemProgress == null)
 				{
 					r_MNotifyWorkItemProgress = new(this, "NotifyWorkItemProgress", 0);
-					r_MNotifyWorkItemProgress.SetBelong(this.GetValue());
 				}
 				return r_MNotifyWorkItemProgress;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAddToActiveTaskSchedulers == null)
 				{
 					r_MAddToActiveTaskSchedulers = new(this, "AddToActiveTaskSchedulers", 0);
-					r_MAddToActiveTaskSchedulers.SetBelong(this.GetValue());
 				}
 				return r_MAddToActiveTaskSchedulers;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFromCurrentSynchronizationContext == null)
 				{
 					r_MFromCurrentSynchronizationContext = new(typeof(System.Threading.Tasks.TaskScheduler), "FromCurrentSynchronizationContext", 0);
-					r_MFromCurrentSynchronizationContext.SetBelong(null);
 				}
 				return r_MFromCurrentSynchronizationContext;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTryExecuteTask_Task == null)
 				{
 					r_MTryExecuteTask_Task = new(this, "TryExecuteTask", 0, typeof(System.Threading.Tasks.Task));
-					r_MTryExecuteTask_Task.SetBelong(this.GetValue());
 				}
 				return r_MTryExecuteTask_Task;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MPublishUnobservedTaskException_Object_UnobservedTaskExceptionEventArgs == null)
 				{
 					r_MPublishUnobservedTaskException_Object_UnobservedTaskExceptionEventArgs = new(typeof(System.Threading.Tasks.TaskScheduler), "PublishUnobservedTaskException", 0, typeof(System.Object), typeof(System.Threading.Tasks.UnobservedTaskExceptionEventArgs));
-					r_MPublishUnobservedTaskException_Object_UnobservedTaskExceptionEventArgs.SetBelong(null);
 				}
 				return r_MPublishUnobservedTaskException_Object_UnobservedTaskExceptionEventArgs;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetScheduledTasksForDebugger == null)
 				{
 					r_MGetScheduledTasksForDebugger = new(this, "GetScheduledTasksForDebugger", 0);
-					r_MGetScheduledTasksForDebugger.SetBelong(this.GetValue());
 				}
 				return r_MGetScheduledTasksForDebugger;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetTaskSchedulersForDebugger == null)
 				{
 					r_MGetTaskSchedulersForDebugger = new(typeof(System.Threading.Tasks.TaskScheduler), "GetTaskSchedulersForDebugger", 0);
-					r_MGetTaskSchedulersForDebugger.SetBelong(null);
 				}
 				return r_MGetTaskSchedulersForDebugger;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

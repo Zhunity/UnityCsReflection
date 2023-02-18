@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Pname == null)
 				{
 					r_Pname = new(this, "name", -1);
-					r_Pname.SetBelong(this.GetValue());
 				}
 				return r_Pname;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PdisplayName == null)
 				{
 					r_PdisplayName = new(this, "displayName", -1);
-					r_PdisplayName.SetBelong(this.GetValue());
 				}
 				return r_PdisplayName;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PversionString == null)
 				{
 					r_PversionString = new(this, "versionString", -1);
-					r_PversionString.SetBelong(this.GetValue());
 				}
 				return r_PversionString;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PuniqueId == null)
 				{
 					r_PuniqueId = new(this, "uniqueId", -1);
-					r_PuniqueId.SetBelong(this.GetValue());
 				}
 				return r_PuniqueId;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PpackageUniqueId == null)
 				{
 					r_PpackageUniqueId = new(this, "packageUniqueId", -1);
-					r_PpackageUniqueId.SetBelong(this.GetValue());
 				}
 				return r_PpackageUniqueId;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_Ppackage == null)
 				{
 					r_Ppackage = new(this, "package", -1);
-					r_Ppackage.SetBelong(this.GetValue());
 				}
 				return r_Ppackage;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PisInstalled == null)
 				{
 					r_PisInstalled = new(this, "isInstalled", -1);
-					r_PisInstalled.SetBelong(this.GetValue());
 				}
 				return r_PisInstalled;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MCompareTo_T == null)
 				{
 					r_MCompareTo_T = new(this, "CompareTo", 0, Type.MakeGenericMethodParameter(0));
-					r_MCompareTo_T.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_T;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pelement == null)
 				{
 					r_Pelement = new(this, "element", -1);
-					r_Pelement.SetBelong(this.GetValue());
 				}
 				return r_Pelement;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PisActive == null)
 				{
 					r_PisActive = new(this, "isActive", -1);
-					r_PisActive.SetBelong(this.GetValue());
 				}
 				return r_PisActive;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MResume == null)
 				{
 					r_MResume = new(this, "Resume", 0);
-					r_MResume.SetBelong(this.GetValue());
 				}
 				return r_MResume;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MPause == null)
 				{
 					r_MPause = new(this, "Pause", 0);
-					r_MPause.SetBelong(this.GetValue());
 				}
 				return r_MPause;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MExecuteLater_Int64 == null)
 				{
 					r_MExecuteLater_Int64 = new(this, "ExecuteLater", 0, typeof(System.Int64));
-					r_MExecuteLater_Int64.SetBelong(this.GetValue());
 				}
 				return r_MExecuteLater_Int64;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartingIn_Int64 == null)
 				{
 					r_MStartingIn_Int64 = new(this, "StartingIn", 0, typeof(System.Int64));
-					r_MStartingIn_Int64.SetBelong(this.GetValue());
 				}
 				return r_MStartingIn_Int64;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MEvery_Int64 == null)
 				{
 					r_MEvery_Int64 = new(this, "Every", 0, typeof(System.Int64));
-					r_MEvery_Int64.SetBelong(this.GetValue());
 				}
 				return r_MEvery_Int64;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MUntil_Func_d_Boolean_p_ == null)
 				{
 					r_MUntil_Func_d_Boolean_p_ = new(this, "Until", 0, typeof(System.Func<>).MakeGenericType(typeof(System.Boolean)));
-					r_MUntil_Func_d_Boolean_p_.SetBelong(this.GetValue());
 				}
 				return r_MUntil_Func_d_Boolean_p_;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MForDuration_Int64 == null)
 				{
 					r_MForDuration_Int64 = new(this, "ForDuration", 0, typeof(System.Int64));
-					r_MForDuration_Int64.SetBelong(this.GetValue());
 				}
 				return r_MForDuration_Int64;
 			}

@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 				if(r_MRenewal_ILease == null)
 				{
 					r_MRenewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
-					r_MRenewal_ILease.SetBelong(this.GetValue());
 				}
 				return r_MRenewal_ILease;
 			}

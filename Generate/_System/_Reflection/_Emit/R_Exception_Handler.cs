@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_exceptionClass == null)
 				{
 					r_Fm_exceptionClass = new(this, "m_exceptionClass");
-					r_Fm_exceptionClass.SetBelong(this.GetValue());
 				}
 				return r_Fm_exceptionClass;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_tryStartOffset == null)
 				{
 					r_Fm_tryStartOffset = new(this, "m_tryStartOffset");
-					r_Fm_tryStartOffset.SetBelong(this.GetValue());
 				}
 				return r_Fm_tryStartOffset;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_tryEndOffset == null)
 				{
 					r_Fm_tryEndOffset = new(this, "m_tryEndOffset");
-					r_Fm_tryEndOffset.SetBelong(this.GetValue());
 				}
 				return r_Fm_tryEndOffset;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_filterOffset == null)
 				{
 					r_Fm_filterOffset = new(this, "m_filterOffset");
-					r_Fm_filterOffset.SetBelong(this.GetValue());
 				}
 				return r_Fm_filterOffset;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_handlerStartOffset == null)
 				{
 					r_Fm_handlerStartOffset = new(this, "m_handlerStartOffset");
-					r_Fm_handlerStartOffset.SetBelong(this.GetValue());
 				}
 				return r_Fm_handlerStartOffset;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_handlerEndOffset == null)
 				{
 					r_Fm_handlerEndOffset = new(this, "m_handlerEndOffset");
-					r_Fm_handlerEndOffset.SetBelong(this.GetValue());
 				}
 				return r_Fm_handlerEndOffset;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Fm_kind == null)
 				{
 					r_Fm_kind = new(this, "m_kind");
-					r_Fm_kind.SetBelong(this.GetValue());
 				}
 				return r_Fm_kind;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PExceptionTypeToken == null)
 				{
 					r_PExceptionTypeToken = new(this, "ExceptionTypeToken", -1);
-					r_PExceptionTypeToken.SetBelong(this.GetValue());
 				}
 				return r_PExceptionTypeToken;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PTryOffset == null)
 				{
 					r_PTryOffset = new(this, "TryOffset", -1);
-					r_PTryOffset.SetBelong(this.GetValue());
 				}
 				return r_PTryOffset;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PTryLength == null)
 				{
 					r_PTryLength = new(this, "TryLength", -1);
-					r_PTryLength.SetBelong(this.GetValue());
 				}
 				return r_PTryLength;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PFilterOffset == null)
 				{
 					r_PFilterOffset = new(this, "FilterOffset", -1);
-					r_PFilterOffset.SetBelong(this.GetValue());
 				}
 				return r_PFilterOffset;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PHandlerOffset == null)
 				{
 					r_PHandlerOffset = new(this, "HandlerOffset", -1);
-					r_PHandlerOffset.SetBelong(this.GetValue());
 				}
 				return r_PHandlerOffset;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PHandlerLength == null)
 				{
 					r_PHandlerLength = new(this, "HandlerLength", -1);
-					r_PHandlerLength.SetBelong(this.GetValue());
 				}
 				return r_PHandlerLength;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PKind == null)
 				{
 					r_PKind = new(this, "Kind", -1);
-					r_PKind.SetBelong(this.GetValue());
 				}
 				return r_PKind;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MIsValidKind_ExceptionHandlingClauseOptions == null)
 				{
 					r_MIsValidKind_ExceptionHandlingClauseOptions = new(typeof(System.Reflection.Emit.ExceptionHandler), "IsValidKind", 0, typeof(System.Reflection.ExceptionHandlingClauseOptions));
-					r_MIsValidKind_ExceptionHandlingClauseOptions.SetBelong(null);
 				}
 				return r_MIsValidKind_ExceptionHandlingClauseOptions;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_ExceptionHandler == null)
 				{
 					r_MEquals_ExceptionHandler = new(this, "Equals", 0, typeof(System.Reflection.Emit.ExceptionHandler));
-					r_MEquals_ExceptionHandler.SetBelong(this.GetValue());
 				}
 				return r_MEquals_ExceptionHandler;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mop_Equality_ExceptionHandler_ExceptionHandler == null)
 				{
 					r_Mop_Equality_ExceptionHandler_ExceptionHandler = new(typeof(System.Reflection.Emit.ExceptionHandler), "op_Equality", 0, typeof(System.Reflection.Emit.ExceptionHandler), typeof(System.Reflection.Emit.ExceptionHandler));
-					r_Mop_Equality_ExceptionHandler_ExceptionHandler.SetBelong(null);
 				}
 				return r_Mop_Equality_ExceptionHandler_ExceptionHandler;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mop_Inequality_ExceptionHandler_ExceptionHandler == null)
 				{
 					r_Mop_Inequality_ExceptionHandler_ExceptionHandler = new(typeof(System.Reflection.Emit.ExceptionHandler), "op_Inequality", 0, typeof(System.Reflection.Emit.ExceptionHandler), typeof(System.Reflection.Emit.ExceptionHandler));
-					r_Mop_Inequality_ExceptionHandler_ExceptionHandler.SetBelong(null);
 				}
 				return r_Mop_Inequality_ExceptionHandler_ExceptionHandler;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

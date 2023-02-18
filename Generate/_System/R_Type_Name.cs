@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PDisplayName == null)
 				{
 					r_PDisplayName = new(this, "DisplayName", -1);
-					r_PDisplayName.SetBelong(this.GetValue());
 				}
 				return r_PDisplayName;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MNestedName_TypeIdentifier == null)
 				{
 					r_MNestedName_TypeIdentifier = new(this, "NestedName", 0,  ReflectionUtils.GetType("System.TypeIdentifier"));
-					r_MNestedName_TypeIdentifier.SetBelong(this.GetValue());
 				}
 				return r_MNestedName_TypeIdentifier;
 			}

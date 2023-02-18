@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MCopy == null)
 				{
 					r_MCopy = new(this, "Copy", 0);
-					r_MCopy.SetBelong(this.GetValue());
 				}
 				return r_MCopy;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MDemand == null)
 				{
 					r_MDemand = new(this, "Demand", 0);
-					r_MDemand.SetBelong(this.GetValue());
 				}
 				return r_MDemand;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MIntersect_IPermission == null)
 				{
 					r_MIntersect_IPermission = new(this, "Intersect", 0, typeof(System.Security.IPermission));
-					r_MIntersect_IPermission.SetBelong(this.GetValue());
 				}
 				return r_MIntersect_IPermission;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MIsSubsetOf_IPermission == null)
 				{
 					r_MIsSubsetOf_IPermission = new(this, "IsSubsetOf", 0, typeof(System.Security.IPermission));
-					r_MIsSubsetOf_IPermission.SetBelong(this.GetValue());
 				}
 				return r_MIsSubsetOf_IPermission;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 				if(r_MUnion_IPermission == null)
 				{
 					r_MUnion_IPermission = new(this, "Union", 0, typeof(System.Security.IPermission));
-					r_MUnion_IPermission.SetBelong(this.GetValue());
 				}
 				return r_MUnion_IPermission;
 			}

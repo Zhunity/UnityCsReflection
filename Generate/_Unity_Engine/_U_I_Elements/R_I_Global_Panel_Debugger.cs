@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MInterceptMouseEvent_IPanel_IMouseEvent == null)
 				{
 					r_MInterceptMouseEvent_IPanel_IMouseEvent = new(this, "InterceptMouseEvent", 0, typeof(UnityEngine.UIElements.IPanel), typeof(UnityEngine.UIElements.IMouseEvent));
-					r_MInterceptMouseEvent_IPanel_IMouseEvent.SetBelong(this.GetValue());
 				}
 				return r_MInterceptMouseEvent_IPanel_IMouseEvent;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MOnContextClick_IPanel_ContextClickEvent == null)
 				{
 					r_MOnContextClick_IPanel_ContextClickEvent = new(this, "OnContextClick", 0, typeof(UnityEngine.UIElements.IPanel), typeof(UnityEngine.UIElements.ContextClickEvent));
-					r_MOnContextClick_IPanel_ContextClickEvent.SetBelong(this.GetValue());
 				}
 				return r_MOnContextClick_IPanel_ContextClickEvent;
 			}

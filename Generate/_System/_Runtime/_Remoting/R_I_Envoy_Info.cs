@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 				if(r_PEnvoySinks == null)
 				{
 					r_PEnvoySinks = new(this, "EnvoySinks", -1);
-					r_PEnvoySinks.SetBelong(this.GetValue());
 				}
 				return r_PEnvoySinks;
 			}

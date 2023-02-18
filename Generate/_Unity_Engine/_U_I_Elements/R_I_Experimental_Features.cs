@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Panimation == null)
 				{
 					r_Panimation = new(this, "animation", -1);
-					r_Panimation.SetBelong(this.GetValue());
 				}
 				return r_Panimation;
 			}

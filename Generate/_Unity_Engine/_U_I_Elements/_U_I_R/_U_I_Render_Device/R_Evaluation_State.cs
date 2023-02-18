@@ -24,7 +24,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FstateMatProps == null)
 				{
 					r_FstateMatProps = new(this, "stateMatProps");
-					r_FstateMatProps.SetBelong(this.GetValue());
 				}
 				return r_FstateMatProps;
 			}
@@ -41,7 +40,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FdefaultMat == null)
 				{
 					r_FdefaultMat = new(this, "defaultMat");
-					r_FdefaultMat.SetBelong(this.GetValue());
 				}
 				return r_FdefaultMat;
 			}
@@ -58,7 +56,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FcurState == null)
 				{
 					r_FcurState = new(this, "curState");
-					r_FcurState.SetBelong(this.GetValue());
 				}
 				return r_FcurState;
 			}
@@ -75,7 +72,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FcurPage == null)
 				{
 					r_FcurPage = new(this, "curPage");
-					r_FcurPage.SetBelong(this.GetValue());
 				}
 				return r_FcurPage;
 			}
@@ -92,7 +88,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FmustApplyMaterial == null)
 				{
 					r_FmustApplyMaterial = new(this, "mustApplyMaterial");
-					r_FmustApplyMaterial.SetBelong(this.GetValue());
 				}
 				return r_FmustApplyMaterial;
 			}
@@ -109,7 +104,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FmustApplyCommonBlock == null)
 				{
 					r_FmustApplyCommonBlock = new(this, "mustApplyCommonBlock");
-					r_FmustApplyCommonBlock.SetBelong(this.GetValue());
 				}
 				return r_FmustApplyCommonBlock;
 			}
@@ -126,7 +120,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FmustApplyStateBlock == null)
 				{
 					r_FmustApplyStateBlock = new(this, "mustApplyStateBlock");
-					r_FmustApplyStateBlock.SetBelong(this.GetValue());
 				}
 				return r_FmustApplyStateBlock;
 			}
@@ -143,7 +136,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_FmustApplyStencil == null)
 				{
 					r_FmustApplyStencil = new(this, "mustApplyStencil");
-					r_FmustApplyStencil.SetBelong(this.GetValue());
 				}
 				return r_FmustApplyStencil;
 			}
@@ -160,7 +152,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -177,7 +168,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -194,7 +184,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -211,7 +200,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -228,7 +216,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -245,7 +232,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

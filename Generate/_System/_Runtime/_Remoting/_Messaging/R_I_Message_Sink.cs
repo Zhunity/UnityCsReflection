@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_PNextSink == null)
 				{
 					r_PNextSink = new(this, "NextSink", -1);
-					r_PNextSink.SetBelong(this.GetValue());
 				}
 				return r_PNextSink;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MSyncProcessMessage_IMessage == null)
 				{
 					r_MSyncProcessMessage_IMessage = new(this, "SyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage));
-					r_MSyncProcessMessage_IMessage.SetBelong(this.GetValue());
 				}
 				return r_MSyncProcessMessage_IMessage;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 				if(r_MAsyncProcessMessage_IMessage_IMessageSink == null)
 				{
 					r_MAsyncProcessMessage_IMessage_IMessageSink = new(this, "AsyncProcessMessage", 0, typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Runtime.Remoting.Messaging.IMessageSink));
-					r_MAsyncProcessMessage_IMessage_IMessageSink.SetBelong(this.GetValue());
 				}
 				return r_MAsyncProcessMessage_IMessage_IMessageSink;
 			}

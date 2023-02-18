@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_Ftype == null)
 				{
 					r_Ftype = new(this, "type");
-					r_Ftype.SetBelong(this.GetValue());
 				}
 				return r_Ftype;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_FValue == null)
 				{
 					r_FValue = new(this, "Value");
-					r_FValue.SetBelong(this.GetValue());
 				}
 				return r_FValue;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_FType == null)
 				{
 					r_FType = new(this, "Type");
-					r_FType.SetBelong(this.GetValue());
 				}
 				return r_FType;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PIsNull == null)
 				{
 					r_PIsNull = new(this, "IsNull", -1);
-					r_PIsNull.SetBelong(this.GetValue());
 				}
 				return r_PIsNull;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MMakeTypedReference_Object_FieldInfoArray == null)
 				{
 					r_MMakeTypedReference_Object_FieldInfoArray = new(typeof(System.TypedReference), "MakeTypedReference", 0, typeof(System.Object), typeof(System.Reflection.FieldInfo).MakeArrayType());
-					r_MMakeTypedReference_Object_FieldInfoArray.SetBelong(null);
 				}
 				return r_MMakeTypedReference_Object_FieldInfoArray;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType == null)
 				{
 					r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType = new(typeof(System.TypedReference), "InternalMakeTypedReference", 0, typeof(void).MakePointerType(), typeof(System.Object), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.RuntimeType"));
-					r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType.SetBelong(null);
 				}
 				return r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToObject_TypedReference == null)
 				{
 					r_MToObject_TypedReference = new(typeof(System.TypedReference), "ToObject", 0, typeof(System.TypedReference));
-					r_MToObject_TypedReference.SetBelong(null);
 				}
 				return r_MToObject_TypedReference;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MInternalToObject_VoidPointer == null)
 				{
 					r_MInternalToObject_VoidPointer = new(typeof(System.TypedReference), "InternalToObject", 0, typeof(void).MakePointerType());
-					r_MInternalToObject_VoidPointer.SetBelong(null);
 				}
 				return r_MInternalToObject_VoidPointer;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetTargetType_TypedReference == null)
 				{
 					r_MGetTargetType_TypedReference = new(typeof(System.TypedReference), "GetTargetType", 0, typeof(System.TypedReference));
-					r_MGetTargetType_TypedReference.SetBelong(null);
 				}
 				return r_MGetTargetType_TypedReference;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MTargetTypeToken_TypedReference == null)
 				{
 					r_MTargetTypeToken_TypedReference = new(typeof(System.TypedReference), "TargetTypeToken", 0, typeof(System.TypedReference));
-					r_MTargetTypeToken_TypedReference.SetBelong(null);
 				}
 				return r_MTargetTypeToken_TypedReference;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MSetTypedReference_TypedReference_Object == null)
 				{
 					r_MSetTypedReference_TypedReference_Object = new(typeof(System.TypedReference), "SetTypedReference", 0, typeof(System.TypedReference), typeof(System.Object));
-					r_MSetTypedReference_TypedReference_Object.SetBelong(null);
 				}
 				return r_MSetTypedReference_TypedReference_Object;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

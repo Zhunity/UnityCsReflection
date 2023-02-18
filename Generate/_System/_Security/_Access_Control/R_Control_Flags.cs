@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_Fvalue__ == null)
 				{
 					r_Fvalue__ = new(this, "value__");
-					r_Fvalue__.SetBelong(this.GetValue());
 				}
 				return r_Fvalue__;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FNone == null)
 				{
 					r_FNone = new(typeof(System.Security.AccessControl.ControlFlags), "None");
-					r_FNone.SetBelong(null);
 				}
 				return r_FNone;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FOwnerDefaulted == null)
 				{
 					r_FOwnerDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "OwnerDefaulted");
-					r_FOwnerDefaulted.SetBelong(null);
 				}
 				return r_FOwnerDefaulted;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FGroupDefaulted == null)
 				{
 					r_FGroupDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "GroupDefaulted");
-					r_FGroupDefaulted.SetBelong(null);
 				}
 				return r_FGroupDefaulted;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FDiscretionaryAclPresent == null)
 				{
 					r_FDiscretionaryAclPresent = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclPresent");
-					r_FDiscretionaryAclPresent.SetBelong(null);
 				}
 				return r_FDiscretionaryAclPresent;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FDiscretionaryAclDefaulted == null)
 				{
 					r_FDiscretionaryAclDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclDefaulted");
-					r_FDiscretionaryAclDefaulted.SetBelong(null);
 				}
 				return r_FDiscretionaryAclDefaulted;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FSystemAclPresent == null)
 				{
 					r_FSystemAclPresent = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclPresent");
-					r_FSystemAclPresent.SetBelong(null);
 				}
 				return r_FSystemAclPresent;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FSystemAclDefaulted == null)
 				{
 					r_FSystemAclDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclDefaulted");
-					r_FSystemAclDefaulted.SetBelong(null);
 				}
 				return r_FSystemAclDefaulted;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FDiscretionaryAclUntrusted == null)
 				{
 					r_FDiscretionaryAclUntrusted = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclUntrusted");
-					r_FDiscretionaryAclUntrusted.SetBelong(null);
 				}
 				return r_FDiscretionaryAclUntrusted;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FServerSecurity == null)
 				{
 					r_FServerSecurity = new(typeof(System.Security.AccessControl.ControlFlags), "ServerSecurity");
-					r_FServerSecurity.SetBelong(null);
 				}
 				return r_FServerSecurity;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FDiscretionaryAclAutoInheritRequired == null)
 				{
 					r_FDiscretionaryAclAutoInheritRequired = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclAutoInheritRequired");
-					r_FDiscretionaryAclAutoInheritRequired.SetBelong(null);
 				}
 				return r_FDiscretionaryAclAutoInheritRequired;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FSystemAclAutoInheritRequired == null)
 				{
 					r_FSystemAclAutoInheritRequired = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclAutoInheritRequired");
-					r_FSystemAclAutoInheritRequired.SetBelong(null);
 				}
 				return r_FSystemAclAutoInheritRequired;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FDiscretionaryAclAutoInherited == null)
 				{
 					r_FDiscretionaryAclAutoInherited = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclAutoInherited");
-					r_FDiscretionaryAclAutoInherited.SetBelong(null);
 				}
 				return r_FDiscretionaryAclAutoInherited;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FSystemAclAutoInherited == null)
 				{
 					r_FSystemAclAutoInherited = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclAutoInherited");
-					r_FSystemAclAutoInherited.SetBelong(null);
 				}
 				return r_FSystemAclAutoInherited;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FDiscretionaryAclProtected == null)
 				{
 					r_FDiscretionaryAclProtected = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclProtected");
-					r_FDiscretionaryAclProtected.SetBelong(null);
 				}
 				return r_FDiscretionaryAclProtected;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FSystemAclProtected == null)
 				{
 					r_FSystemAclProtected = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclProtected");
-					r_FSystemAclProtected.SetBelong(null);
 				}
 				return r_FSystemAclProtected;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FRMControlValid == null)
 				{
 					r_FRMControlValid = new(typeof(System.Security.AccessControl.ControlFlags), "RMControlValid");
-					r_FRMControlValid.SetBelong(null);
 				}
 				return r_FRMControlValid;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_FSelfRelative == null)
 				{
 					r_FSelfRelative = new(typeof(System.Security.AccessControl.ControlFlags), "SelfRelative");
-					r_FSelfRelative.SetBelong(null);
 				}
 				return r_FSelfRelative;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MGetValue == null)
 				{
 					r_MGetValue = new(this, "GetValue", 0);
-					r_MGetValue.SetBelong(this.GetValue());
 				}
 				return r_MGetValue;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MToString_String_IFormatProvider == null)
 				{
 					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_MToString_String_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_String_IFormatProvider;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MCompareTo_Object == null)
 				{
 					r_MCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_MCompareTo_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_Object;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MToString_String == null)
 				{
 					r_MToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_MToString_String.SetBelong(this.GetValue());
 				}
 				return r_MToString_String;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MToString_IFormatProvider == null)
 				{
 					r_MToString_IFormatProvider = new(this, "ToString", 0, typeof(System.IFormatProvider));
-					r_MToString_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_IFormatProvider;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MHasFlag_Enum == null)
 				{
 					r_MHasFlag_Enum = new(this, "HasFlag", 0, typeof(System.Enum));
-					r_MHasFlag_Enum.SetBelong(this.GetValue());
 				}
 				return r_MHasFlag_Enum;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MGetTypeCode == null)
 				{
 					r_MGetTypeCode = new(this, "GetTypeCode", 0);
-					r_MGetTypeCode.SetBelong(this.GetValue());
 				}
 				return r_MGetTypeCode;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

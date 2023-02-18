@@ -24,7 +24,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_Fassembly == null)
 				{
 					r_Fassembly = new(this, "assembly");
-					r_Fassembly.SetBelong(this.GetValue());
 				}
 				return r_Fassembly;
 			}
@@ -41,7 +40,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_Fdata == null)
 				{
 					r_Fdata = new(this, "data");
-					r_Fdata.SetBelong(this.GetValue());
 				}
 				return r_Fdata;
 			}
@@ -58,7 +56,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_Fdata_length == null)
 				{
 					r_Fdata_length = new(this, "data_length");
-					r_Fdata_length.SetBelong(this.GetValue());
 				}
 				return r_Fdata_length;
 			}
@@ -75,7 +72,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -92,7 +88,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -109,7 +104,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -126,7 +120,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -143,7 +136,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -160,7 +152,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

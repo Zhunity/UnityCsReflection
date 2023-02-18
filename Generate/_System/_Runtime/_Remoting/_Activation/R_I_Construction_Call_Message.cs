@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PActivationType == null)
 				{
 					r_PActivationType = new(this, "ActivationType", -1);
-					r_PActivationType.SetBelong(this.GetValue());
 				}
 				return r_PActivationType;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PActivationTypeName == null)
 				{
 					r_PActivationTypeName = new(this, "ActivationTypeName", -1);
-					r_PActivationTypeName.SetBelong(this.GetValue());
 				}
 				return r_PActivationTypeName;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PActivator == null)
 				{
 					r_PActivator = new(this, "Activator", -1);
-					r_PActivator.SetBelong(this.GetValue());
 				}
 				return r_PActivator;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PCallSiteActivationAttributes == null)
 				{
 					r_PCallSiteActivationAttributes = new(this, "CallSiteActivationAttributes", -1);
-					r_PCallSiteActivationAttributes.SetBelong(this.GetValue());
 				}
 				return r_PCallSiteActivationAttributes;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 				if(r_PContextProperties == null)
 				{
 					r_PContextProperties = new(this, "ContextProperties", -1);
-					r_PContextProperties.SetBelong(this.GetValue());
 				}
 				return r_PContextProperties;
 			}

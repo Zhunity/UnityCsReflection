@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 				if(r_MCompleteDeserialization_Object == null)
 				{
 					r_MCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
-					r_MCompleteDeserialization_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompleteDeserialization_Object;
 			}

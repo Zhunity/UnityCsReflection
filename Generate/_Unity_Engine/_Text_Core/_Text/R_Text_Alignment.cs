@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_Fvalue__ == null)
 				{
 					r_Fvalue__ = new(this, "value__");
-					r_Fvalue__.SetBelong(this.GetValue());
 				}
 				return r_Fvalue__;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FTopLeft == null)
 				{
 					r_FTopLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopLeft");
-					r_FTopLeft.SetBelong(null);
 				}
 				return r_FTopLeft;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FTopCenter == null)
 				{
 					r_FTopCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopCenter");
-					r_FTopCenter.SetBelong(null);
 				}
 				return r_FTopCenter;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FTopRight == null)
 				{
 					r_FTopRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopRight");
-					r_FTopRight.SetBelong(null);
 				}
 				return r_FTopRight;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FTopJustified == null)
 				{
 					r_FTopJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopJustified");
-					r_FTopJustified.SetBelong(null);
 				}
 				return r_FTopJustified;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FTopFlush == null)
 				{
 					r_FTopFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopFlush");
-					r_FTopFlush.SetBelong(null);
 				}
 				return r_FTopFlush;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FTopGeoAligned == null)
 				{
 					r_FTopGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopGeoAligned");
-					r_FTopGeoAligned.SetBelong(null);
 				}
 				return r_FTopGeoAligned;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMiddleLeft == null)
 				{
 					r_FMiddleLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleLeft");
-					r_FMiddleLeft.SetBelong(null);
 				}
 				return r_FMiddleLeft;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMiddleCenter == null)
 				{
 					r_FMiddleCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleCenter");
-					r_FMiddleCenter.SetBelong(null);
 				}
 				return r_FMiddleCenter;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMiddleRight == null)
 				{
 					r_FMiddleRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleRight");
-					r_FMiddleRight.SetBelong(null);
 				}
 				return r_FMiddleRight;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMiddleJustified == null)
 				{
 					r_FMiddleJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleJustified");
-					r_FMiddleJustified.SetBelong(null);
 				}
 				return r_FMiddleJustified;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMiddleFlush == null)
 				{
 					r_FMiddleFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleFlush");
-					r_FMiddleFlush.SetBelong(null);
 				}
 				return r_FMiddleFlush;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMiddleGeoAligned == null)
 				{
 					r_FMiddleGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleGeoAligned");
-					r_FMiddleGeoAligned.SetBelong(null);
 				}
 				return r_FMiddleGeoAligned;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBottomLeft == null)
 				{
 					r_FBottomLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomLeft");
-					r_FBottomLeft.SetBelong(null);
 				}
 				return r_FBottomLeft;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBottomCenter == null)
 				{
 					r_FBottomCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomCenter");
-					r_FBottomCenter.SetBelong(null);
 				}
 				return r_FBottomCenter;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBottomRight == null)
 				{
 					r_FBottomRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomRight");
-					r_FBottomRight.SetBelong(null);
 				}
 				return r_FBottomRight;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBottomJustified == null)
 				{
 					r_FBottomJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomJustified");
-					r_FBottomJustified.SetBelong(null);
 				}
 				return r_FBottomJustified;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBottomFlush == null)
 				{
 					r_FBottomFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomFlush");
-					r_FBottomFlush.SetBelong(null);
 				}
 				return r_FBottomFlush;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBottomGeoAligned == null)
 				{
 					r_FBottomGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomGeoAligned");
-					r_FBottomGeoAligned.SetBelong(null);
 				}
 				return r_FBottomGeoAligned;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBaselineLeft == null)
 				{
 					r_FBaselineLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineLeft");
-					r_FBaselineLeft.SetBelong(null);
 				}
 				return r_FBaselineLeft;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBaselineCenter == null)
 				{
 					r_FBaselineCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineCenter");
-					r_FBaselineCenter.SetBelong(null);
 				}
 				return r_FBaselineCenter;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBaselineRight == null)
 				{
 					r_FBaselineRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineRight");
-					r_FBaselineRight.SetBelong(null);
 				}
 				return r_FBaselineRight;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBaselineJustified == null)
 				{
 					r_FBaselineJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineJustified");
-					r_FBaselineJustified.SetBelong(null);
 				}
 				return r_FBaselineJustified;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBaselineFlush == null)
 				{
 					r_FBaselineFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineFlush");
-					r_FBaselineFlush.SetBelong(null);
 				}
 				return r_FBaselineFlush;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FBaselineGeoAligned == null)
 				{
 					r_FBaselineGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineGeoAligned");
-					r_FBaselineGeoAligned.SetBelong(null);
 				}
 				return r_FBaselineGeoAligned;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMidlineLeft == null)
 				{
 					r_FMidlineLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineLeft");
-					r_FMidlineLeft.SetBelong(null);
 				}
 				return r_FMidlineLeft;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMidlineCenter == null)
 				{
 					r_FMidlineCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineCenter");
-					r_FMidlineCenter.SetBelong(null);
 				}
 				return r_FMidlineCenter;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMidlineRight == null)
 				{
 					r_FMidlineRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineRight");
-					r_FMidlineRight.SetBelong(null);
 				}
 				return r_FMidlineRight;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMidlineJustified == null)
 				{
 					r_FMidlineJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineJustified");
-					r_FMidlineJustified.SetBelong(null);
 				}
 				return r_FMidlineJustified;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMidlineFlush == null)
 				{
 					r_FMidlineFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineFlush");
-					r_FMidlineFlush.SetBelong(null);
 				}
 				return r_FMidlineFlush;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FMidlineGeoAligned == null)
 				{
 					r_FMidlineGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineGeoAligned");
-					r_FMidlineGeoAligned.SetBelong(null);
 				}
 				return r_FMidlineGeoAligned;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FCaplineLeft == null)
 				{
 					r_FCaplineLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineLeft");
-					r_FCaplineLeft.SetBelong(null);
 				}
 				return r_FCaplineLeft;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FCaplineCenter == null)
 				{
 					r_FCaplineCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineCenter");
-					r_FCaplineCenter.SetBelong(null);
 				}
 				return r_FCaplineCenter;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FCaplineRight == null)
 				{
 					r_FCaplineRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineRight");
-					r_FCaplineRight.SetBelong(null);
 				}
 				return r_FCaplineRight;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FCaplineJustified == null)
 				{
 					r_FCaplineJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineJustified");
-					r_FCaplineJustified.SetBelong(null);
 				}
 				return r_FCaplineJustified;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FCaplineFlush == null)
 				{
 					r_FCaplineFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineFlush");
-					r_FCaplineFlush.SetBelong(null);
 				}
 				return r_FCaplineFlush;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_FCaplineGeoAligned == null)
 				{
 					r_FCaplineGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineGeoAligned");
-					r_FCaplineGeoAligned.SetBelong(null);
 				}
 				return r_FCaplineGeoAligned;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MGetValue == null)
 				{
 					r_MGetValue = new(this, "GetValue", 0);
-					r_MGetValue.SetBelong(this.GetValue());
 				}
 				return r_MGetValue;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MToString_String_IFormatProvider == null)
 				{
 					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-					r_MToString_String_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_String_IFormatProvider;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MCompareTo_Object == null)
 				{
 					r_MCompareTo_Object = new(this, "CompareTo", 0, typeof(System.Object));
-					r_MCompareTo_Object.SetBelong(this.GetValue());
 				}
 				return r_MCompareTo_Object;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MToString_String == null)
 				{
 					r_MToString_String = new(this, "ToString", 0, typeof(System.String));
-					r_MToString_String.SetBelong(this.GetValue());
 				}
 				return r_MToString_String;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MToString_IFormatProvider == null)
 				{
 					r_MToString_IFormatProvider = new(this, "ToString", 0, typeof(System.IFormatProvider));
-					r_MToString_IFormatProvider.SetBelong(this.GetValue());
 				}
 				return r_MToString_IFormatProvider;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MHasFlag_Enum == null)
 				{
 					r_MHasFlag_Enum = new(this, "HasFlag", 0, typeof(System.Enum));
-					r_MHasFlag_Enum.SetBelong(this.GetValue());
 				}
 				return r_MHasFlag_Enum;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MGetTypeCode == null)
 				{
 					r_MGetTypeCode = new(this, "GetTypeCode", 0);
-					r_MGetTypeCode.SetBelong(this.GetValue());
 				}
 				return r_MGetTypeCode;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

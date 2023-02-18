@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_PInternalName == null)
 				{
 					r_PInternalName = new(this, "InternalName", -1);
-					r_PInternalName.SetBelong(this.GetValue());
 				}
 				return r_PInternalName;
 			}

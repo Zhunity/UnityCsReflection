@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PInvokeMayRunArbitraryCode == null)
 				{
 					r_PInvokeMayRunArbitraryCode = new(this, "InvokeMayRunArbitraryCode", -1);
-					r_PInvokeMayRunArbitraryCode.SetBelong(this.GetValue());
 				}
 				return r_PInvokeMayRunArbitraryCode;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MInvoke_Task == null)
 				{
 					r_MInvoke_Task = new(this, "Invoke", 0, typeof(System.Threading.Tasks.Task));
-					r_MInvoke_Task.SetBelong(this.GetValue());
 				}
 				return r_MInvoke_Task;
 			}

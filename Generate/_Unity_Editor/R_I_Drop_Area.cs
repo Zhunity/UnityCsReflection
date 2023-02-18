@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MDragOver_EditorWindow_Vector2 == null)
 				{
 					r_MDragOver_EditorWindow_Vector2 = new(this, "DragOver", 0, typeof(UnityEditor.EditorWindow), typeof(UnityEngine.Vector2));
-					r_MDragOver_EditorWindow_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MDragOver_EditorWindow_Vector2;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				if(r_MPerformDrop_EditorWindow_DropInfo_Vector2 == null)
 				{
 					r_MPerformDrop_EditorWindow_DropInfo_Vector2 = new(this, "PerformDrop", 0, typeof(UnityEditor.EditorWindow),  ReflectionUtils.GetType("UnityEditor.DropInfo"), typeof(UnityEngine.Vector2));
-					r_MPerformDrop_EditorWindow_DropInfo_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MPerformDrop_EditorWindow_DropInfo_Vector2;
 			}

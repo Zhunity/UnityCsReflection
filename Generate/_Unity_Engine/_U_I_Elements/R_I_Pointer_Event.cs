@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PpointerId == null)
 				{
 					r_PpointerId = new(this, "pointerId", -1);
-					r_PpointerId.SetBelong(this.GetValue());
 				}
 				return r_PpointerId;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PpointerType == null)
 				{
 					r_PpointerType = new(this, "pointerType", -1);
-					r_PpointerType.SetBelong(this.GetValue());
 				}
 				return r_PpointerType;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PisPrimary == null)
 				{
 					r_PisPrimary = new(this, "isPrimary", -1);
-					r_PisPrimary.SetBelong(this.GetValue());
 				}
 				return r_PisPrimary;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pbutton == null)
 				{
 					r_Pbutton = new(this, "button", -1);
-					r_Pbutton.SetBelong(this.GetValue());
 				}
 				return r_Pbutton;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PpressedButtons == null)
 				{
 					r_PpressedButtons = new(this, "pressedButtons", -1);
-					r_PpressedButtons.SetBelong(this.GetValue());
 				}
 				return r_PpressedButtons;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pposition == null)
 				{
 					r_Pposition = new(this, "position", -1);
-					r_Pposition.SetBelong(this.GetValue());
 				}
 				return r_Pposition;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PlocalPosition == null)
 				{
 					r_PlocalPosition = new(this, "localPosition", -1);
-					r_PlocalPosition.SetBelong(this.GetValue());
 				}
 				return r_PlocalPosition;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PdeltaPosition == null)
 				{
 					r_PdeltaPosition = new(this, "deltaPosition", -1);
-					r_PdeltaPosition.SetBelong(this.GetValue());
 				}
 				return r_PdeltaPosition;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PdeltaTime == null)
 				{
 					r_PdeltaTime = new(this, "deltaTime", -1);
-					r_PdeltaTime.SetBelong(this.GetValue());
 				}
 				return r_PdeltaTime;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PclickCount == null)
 				{
 					r_PclickCount = new(this, "clickCount", -1);
-					r_PclickCount.SetBelong(this.GetValue());
 				}
 				return r_PclickCount;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Ppressure == null)
 				{
 					r_Ppressure = new(this, "pressure", -1);
-					r_Ppressure.SetBelong(this.GetValue());
 				}
 				return r_Ppressure;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PtangentialPressure == null)
 				{
 					r_PtangentialPressure = new(this, "tangentialPressure", -1);
-					r_PtangentialPressure.SetBelong(this.GetValue());
 				}
 				return r_PtangentialPressure;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PaltitudeAngle == null)
 				{
 					r_PaltitudeAngle = new(this, "altitudeAngle", -1);
-					r_PaltitudeAngle.SetBelong(this.GetValue());
 				}
 				return r_PaltitudeAngle;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PazimuthAngle == null)
 				{
 					r_PazimuthAngle = new(this, "azimuthAngle", -1);
-					r_PazimuthAngle.SetBelong(this.GetValue());
 				}
 				return r_PazimuthAngle;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Ptwist == null)
 				{
 					r_Ptwist = new(this, "twist", -1);
-					r_Ptwist.SetBelong(this.GetValue());
 				}
 				return r_Ptwist;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Ptilt == null)
 				{
 					r_Ptilt = new(this, "tilt", -1);
-					r_Ptilt.SetBelong(this.GetValue());
 				}
 				return r_Ptilt;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PpenStatus == null)
 				{
 					r_PpenStatus = new(this, "penStatus", -1);
-					r_PpenStatus.SetBelong(this.GetValue());
 				}
 				return r_PpenStatus;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pradius == null)
 				{
 					r_Pradius = new(this, "radius", -1);
-					r_Pradius.SetBelong(this.GetValue());
 				}
 				return r_Pradius;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PradiusVariance == null)
 				{
 					r_PradiusVariance = new(this, "radiusVariance", -1);
-					r_PradiusVariance.SetBelong(this.GetValue());
 				}
 				return r_PradiusVariance;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Pmodifiers == null)
 				{
 					r_Pmodifiers = new(this, "modifiers", -1);
-					r_Pmodifiers.SetBelong(this.GetValue());
 				}
 				return r_Pmodifiers;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PshiftKey == null)
 				{
 					r_PshiftKey = new(this, "shiftKey", -1);
-					r_PshiftKey.SetBelong(this.GetValue());
 				}
 				return r_PshiftKey;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PctrlKey == null)
 				{
 					r_PctrlKey = new(this, "ctrlKey", -1);
-					r_PctrlKey.SetBelong(this.GetValue());
 				}
 				return r_PctrlKey;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PcommandKey == null)
 				{
 					r_PcommandKey = new(this, "commandKey", -1);
-					r_PcommandKey.SetBelong(this.GetValue());
 				}
 				return r_PcommandKey;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PaltKey == null)
 				{
 					r_PaltKey = new(this, "altKey", -1);
-					r_PaltKey.SetBelong(this.GetValue());
 				}
 				return r_PaltKey;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_PactionKey == null)
 				{
 					r_PactionKey = new(this, "actionKey", -1);
-					r_PactionKey.SetBelong(this.GetValue());
 				}
 				return r_PactionKey;
 			}

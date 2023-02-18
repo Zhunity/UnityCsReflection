@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_FtokValue == null)
 				{
 					r_FtokValue = new(this, "tokValue");
-					r_FtokValue.SetBelong(this.GetValue());
 				}
 				return r_FtokValue;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_FEmpty == null)
 				{
 					r_FEmpty = new(typeof(System.Reflection.Emit.FieldToken), "Empty");
-					r_FEmpty.SetBelong(null);
 				}
 				return r_FEmpty;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_PToken == null)
 				{
 					r_PToken = new(this, "Token", -1);
-					r_PToken.SetBelong(this.GetValue());
 				}
 				return r_PToken;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MEquals_FieldToken == null)
 				{
 					r_MEquals_FieldToken = new(this, "Equals", 0, typeof(System.Reflection.Emit.FieldToken));
-					r_MEquals_FieldToken.SetBelong(this.GetValue());
 				}
 				return r_MEquals_FieldToken;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mop_Equality_FieldToken_FieldToken == null)
 				{
 					r_Mop_Equality_FieldToken_FieldToken = new(typeof(System.Reflection.Emit.FieldToken), "op_Equality", 0, typeof(System.Reflection.Emit.FieldToken), typeof(System.Reflection.Emit.FieldToken));
-					r_Mop_Equality_FieldToken_FieldToken.SetBelong(null);
 				}
 				return r_Mop_Equality_FieldToken_FieldToken;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_Mop_Inequality_FieldToken_FieldToken == null)
 				{
 					r_Mop_Inequality_FieldToken_FieldToken = new(typeof(System.Reflection.Emit.FieldToken), "op_Inequality", 0, typeof(System.Reflection.Emit.FieldToken), typeof(System.Reflection.Emit.FieldToken));
-					r_Mop_Inequality_FieldToken_FieldToken.SetBelong(null);
 				}
 				return r_Mop_Inequality_FieldToken_FieldToken;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

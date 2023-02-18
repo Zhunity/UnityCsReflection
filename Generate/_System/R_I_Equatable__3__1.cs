@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MEquals_T == null)
 				{
 					r_MEquals_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0));
-					r_MEquals_T.SetBelong(this.GetValue());
 				}
 				return r_MEquals_T;
 			}

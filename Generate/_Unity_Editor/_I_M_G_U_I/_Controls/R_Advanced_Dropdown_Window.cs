@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_EwindowClosed == null)
 				{
 					r_EwindowClosed = new(this, "windowClosed");
-					r_EwindowClosed.SetBelong(this.GetValue());
 				}
 				return r_EwindowClosed;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_EselectionChanged == null)
 				{
 					r_EselectionChanged = new(this, "selectionChanged");
-					r_EselectionChanged.SetBelong(this.GetValue());
 				}
 				return r_EselectionChanged;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_EselectionCanceled == null)
 				{
 					r_EselectionCanceled = new(this, "selectionCanceled");
-					r_EselectionCanceled.SetBelong(this.GetValue());
 				}
 				return r_EselectionCanceled;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_FkBorderThickness == null)
 				{
 					r_FkBorderThickness = new( ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownWindow"), "kBorderThickness");
-					r_FkBorderThickness.SetBelong(null);
 				}
 				return r_FkBorderThickness;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_FkRightMargin == null)
 				{
 					r_FkRightMargin = new( ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownWindow"), "kRightMargin");
-					r_FkRightMargin.SetBelong(null);
 				}
 				return r_FkRightMargin;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_Gui == null)
 				{
 					r_Fm_Gui = new(this, "m_Gui");
-					r_Fm_Gui.SetBelong(this.GetValue());
 				}
 				return r_Fm_Gui;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_DataSource == null)
 				{
 					r_Fm_DataSource = new(this, "m_DataSource");
-					r_Fm_DataSource.SetBelong(this.GetValue());
 				}
 				return r_Fm_DataSource;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_State == null)
 				{
 					r_Fm_State = new(this, "m_State");
-					r_Fm_State.SetBelong(this.GetValue());
 				}
 				return r_Fm_State;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_CurrentlyRenderedTree == null)
 				{
 					r_Fm_CurrentlyRenderedTree = new(this, "m_CurrentlyRenderedTree");
-					r_Fm_CurrentlyRenderedTree.SetBelong(this.GetValue());
 				}
 				return r_Fm_CurrentlyRenderedTree;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_AnimationTree == null)
 				{
 					r_Fm_AnimationTree = new(this, "m_AnimationTree");
-					r_Fm_AnimationTree.SetBelong(this.GetValue());
 				}
 				return r_Fm_AnimationTree;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_NewAnimTarget == null)
 				{
 					r_Fm_NewAnimTarget = new(this, "m_NewAnimTarget");
-					r_Fm_NewAnimTarget.SetBelong(this.GetValue());
 				}
 				return r_Fm_NewAnimTarget;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_LastTime == null)
 				{
 					r_Fm_LastTime = new(this, "m_LastTime");
-					r_Fm_LastTime.SetBelong(this.GetValue());
 				}
 				return r_Fm_LastTime;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_ScrollToSelected == null)
 				{
 					r_Fm_ScrollToSelected = new(this, "m_ScrollToSelected");
-					r_Fm_ScrollToSelected.SetBelong(this.GetValue());
 				}
 				return r_Fm_ScrollToSelected;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_InitialSelectionPosition == null)
 				{
 					r_Fm_InitialSelectionPosition = new(this, "m_InitialSelectionPosition");
-					r_Fm_InitialSelectionPosition.SetBelong(this.GetValue());
 				}
 				return r_Fm_InitialSelectionPosition;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_ButtonRectScreenPos == null)
 				{
 					r_Fm_ButtonRectScreenPos = new(this, "m_ButtonRectScreenPos");
-					r_Fm_ButtonRectScreenPos.SetBelong(this.GetValue());
 				}
 				return r_Fm_ButtonRectScreenPos;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_ViewsStack == null)
 				{
 					r_Fm_ViewsStack = new(this, "m_ViewsStack");
-					r_Fm_ViewsStack.SetBelong(this.GetValue());
 				}
 				return r_Fm_ViewsStack;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_DirtyList == null)
 				{
 					r_Fm_DirtyList = new(this, "m_DirtyList");
-					r_Fm_DirtyList.SetBelong(this.GetValue());
 				}
 				return r_Fm_DirtyList;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_Search == null)
 				{
 					r_Fm_Search = new(this, "m_Search");
-					r_Fm_Search.SetBelong(this.GetValue());
 				}
 				return r_Fm_Search;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_F__0__showHeader__1__k__BackingField == null)
 				{
 					r_F__0__showHeader__1__k__BackingField = new(this, "<showHeader>k__BackingField");
-					r_F__0__showHeader__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__showHeader__1__k__BackingField;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_F__0__searchable__1__k__BackingField == null)
 				{
 					r_F__0__searchable__1__k__BackingField = new(this, "<searchable>k__BackingField");
-					r_F__0__searchable__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__searchable__1__k__BackingField;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_F__0__closeOnSelection__1__k__BackingField == null)
 				{
 					r_F__0__closeOnSelection__1__k__BackingField = new(this, "<closeOnSelection>k__BackingField");
-					r_F__0__closeOnSelection__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__closeOnSelection__1__k__BackingField;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_F__0__isSearchFieldDisabled__1__k__BackingField == null)
 				{
 					r_F__0__isSearchFieldDisabled__1__k__BackingField = new(this, "<isSearchFieldDisabled>k__BackingField");
-					r_F__0__isSearchFieldDisabled__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__isSearchFieldDisabled__1__k__BackingField;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_F__0__setInitialSelectionPosition__1__k__BackingField == null)
 				{
 					r_F__0__setInitialSelectionPosition__1__k__BackingField = new(this, "<setInitialSelectionPosition>k__BackingField");
-					r_F__0__setInitialSelectionPosition__1__k__BackingField.SetBelong(this.GetValue());
 				}
 				return r_F__0__setInitialSelectionPosition__1__k__BackingField;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_FwindowClosed == null)
 				{
 					r_FwindowClosed = new(this, "windowClosed");
-					r_FwindowClosed.SetBelong(this.GetValue());
 				}
 				return r_FwindowClosed;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_FselectionChanged == null)
 				{
 					r_FselectionChanged = new(this, "selectionChanged");
-					r_FselectionChanged.SetBelong(this.GetValue());
 				}
 				return r_FselectionChanged;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_FselectionCanceled == null)
 				{
 					r_FselectionCanceled = new(this, "selectionCanceled");
-					r_FselectionCanceled.SetBelong(this.GetValue());
 				}
 				return r_FselectionCanceled;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_FspecialKeyboardHandling == null)
 				{
 					r_FspecialKeyboardHandling = new(this, "specialKeyboardHandling");
-					r_FspecialKeyboardHandling.SetBelong(this.GetValue());
 				}
 				return r_FspecialKeyboardHandling;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_TitleContent == null)
 				{
 					r_Fm_TitleContent = new(this, "m_TitleContent");
-					r_Fm_TitleContent.SetBelong(this.GetValue());
 				}
 				return r_Fm_TitleContent;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_Pos == null)
 				{
 					r_Fm_Pos = new(this, "m_Pos");
-					r_Fm_Pos.SetBelong(this.GetValue());
 				}
 				return r_Fm_Pos;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_SerializedDataModeController == null)
 				{
 					r_Fm_SerializedDataModeController = new(this, "m_SerializedDataModeController");
-					r_Fm_SerializedDataModeController.SetBelong(this.GetValue());
 				}
 				return r_Fm_SerializedDataModeController;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_Parent == null)
 				{
 					r_Fm_Parent = new(this, "m_Parent");
-					r_Fm_Parent.SetBelong(this.GetValue());
 				}
 				return r_Fm_Parent;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_Notification == null)
 				{
 					r_Fm_Notification = new(this, "m_Notification");
-					r_Fm_Notification.SetBelong(this.GetValue());
 				}
 				return r_Fm_Notification;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Fm_FadeoutTime == null)
 				{
 					r_Fm_FadeoutTime = new(this, "m_FadeoutTime");
-					r_Fm_FadeoutTime.SetBelong(this.GetValue());
 				}
 				return r_Fm_FadeoutTime;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PrenderedTreeItem == null)
 				{
 					r_PrenderedTreeItem = new(this, "renderedTreeItem", -1);
-					r_PrenderedTreeItem.SetBelong(this.GetValue());
 				}
 				return r_PrenderedTreeItem;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PhasSearch == null)
 				{
 					r_PhasSearch = new(this, "hasSearch", -1);
-					r_PhasSearch.SetBelong(this.GetValue());
 				}
 				return r_PhasSearch;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PsearchString == null)
 				{
 					r_PsearchString = new(this, "searchString", -1);
-					r_PsearchString.SetBelong(this.GetValue());
 				}
 				return r_PsearchString;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PshowHeader == null)
 				{
 					r_PshowHeader = new(this, "showHeader", -1);
-					r_PshowHeader.SetBelong(this.GetValue());
 				}
 				return r_PshowHeader;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Psearchable == null)
 				{
 					r_Psearchable = new(this, "searchable", -1);
-					r_Psearchable.SetBelong(this.GetValue());
 				}
 				return r_Psearchable;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PcloseOnSelection == null)
 				{
 					r_PcloseOnSelection = new(this, "closeOnSelection", -1);
-					r_PcloseOnSelection.SetBelong(this.GetValue());
 				}
 				return r_PcloseOnSelection;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PisSearchFieldDisabled == null)
 				{
 					r_PisSearchFieldDisabled = new(this, "isSearchFieldDisabled", -1);
-					r_PisSearchFieldDisabled.SetBelong(this.GetValue());
 				}
 				return r_PisSearchFieldDisabled;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PsetInitialSelectionPosition == null)
 				{
 					r_PsetInitialSelectionPosition = new(this, "setInitialSelectionPosition", -1);
-					r_PsetInitialSelectionPosition.SetBelong(this.GetValue());
 				}
 				return r_PsetInitialSelectionPosition;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pstate == null)
 				{
 					r_Pstate = new(this, "state", -1);
-					r_Pstate.SetBelong(this.GetValue());
 				}
 				return r_Pstate;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pgui == null)
 				{
 					r_Pgui = new(this, "gui", -1);
-					r_Pgui.SetBelong(this.GetValue());
 				}
 				return r_Pgui;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PdataSource == null)
 				{
 					r_PdataSource = new(this, "dataSource", -1);
-					r_PdataSource.SetBelong(this.GetValue());
 				}
 				return r_PdataSource;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PdataModeController == null)
 				{
 					r_PdataModeController = new(this, "dataModeController", -1);
-					r_PdataModeController.SetBelong(this.GetValue());
 				}
 				return r_PdataModeController;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PbaseRootVisualElement == null)
 				{
 					r_PbaseRootVisualElement = new(this, "baseRootVisualElement", -1);
-					r_PbaseRootVisualElement.SetBelong(this.GetValue());
 				}
 				return r_PbaseRootVisualElement;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_ProotVisualElement == null)
 				{
 					r_ProotVisualElement = new(this, "rootVisualElement", -1);
-					r_ProotVisualElement.SetBelong(this.GetValue());
 				}
 				return r_ProotVisualElement;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PliveReloadPreferenceDefault == null)
 				{
 					r_PliveReloadPreferenceDefault = new(this, "liveReloadPreferenceDefault", -1);
-					r_PliveReloadPreferenceDefault.SetBelong(this.GetValue());
 				}
 				return r_PliveReloadPreferenceDefault;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PisUIToolkitWindow == null)
 				{
 					r_PisUIToolkitWindow = new(this, "isUIToolkitWindow", -1);
-					r_PisUIToolkitWindow.SetBelong(this.GetValue());
 				}
 				return r_PisUIToolkitWindow;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PoverlayCanvas == null)
 				{
 					r_PoverlayCanvas = new(this, "overlayCanvas", -1);
-					r_PoverlayCanvas.SetBelong(this.GetValue());
 				}
 				return r_PoverlayCanvas;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PviewDataDictionary == null)
 				{
 					r_PviewDataDictionary = new(this, "viewDataDictionary", -1);
-					r_PviewDataDictionary.SetBelong(this.GetValue());
 				}
 				return r_PviewDataDictionary;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PwantsMouseMove == null)
 				{
 					r_PwantsMouseMove = new(this, "wantsMouseMove", -1);
-					r_PwantsMouseMove.SetBelong(this.GetValue());
 				}
 				return r_PwantsMouseMove;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PwantsMouseEnterLeaveWindow == null)
 				{
 					r_PwantsMouseEnterLeaveWindow = new(this, "wantsMouseEnterLeaveWindow", -1);
-					r_PwantsMouseEnterLeaveWindow.SetBelong(this.GetValue());
 				}
 				return r_PwantsMouseEnterLeaveWindow;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PwantsLessLayoutEvents == null)
 				{
 					r_PwantsLessLayoutEvents = new(this, "wantsLessLayoutEvents", -1);
-					r_PwantsLessLayoutEvents.SetBelong(this.GetValue());
 				}
 				return r_PwantsLessLayoutEvents;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PautoRepaintOnSceneChange == null)
 				{
 					r_PautoRepaintOnSceneChange = new(this, "autoRepaintOnSceneChange", -1);
-					r_PautoRepaintOnSceneChange.SetBelong(this.GetValue());
 				}
 				return r_PautoRepaintOnSceneChange;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pmaximized == null)
 				{
 					r_Pmaximized = new(this, "maximized", -1);
-					r_Pmaximized.SetBelong(this.GetValue());
 				}
 				return r_Pmaximized;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PhasFocus == null)
 				{
 					r_PhasFocus = new(this, "hasFocus", -1);
-					r_PhasFocus.SetBelong(this.GetValue());
 				}
 				return r_PhasFocus;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pdocked == null)
 				{
 					r_Pdocked = new(this, "docked", -1);
-					r_Pdocked.SetBelong(this.GetValue());
 				}
 				return r_Pdocked;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PdisableInputEvents == null)
 				{
 					r_PdisableInputEvents = new(this, "disableInputEvents", -1);
-					r_PdisableInputEvents.SetBelong(this.GetValue());
 				}
 				return r_PdisableInputEvents;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PhasUnsavedChanges == null)
 				{
 					r_PhasUnsavedChanges = new(this, "hasUnsavedChanges", -1);
-					r_PhasUnsavedChanges.SetBelong(this.GetValue());
 				}
 				return r_PhasUnsavedChanges;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PsaveChangesMessage == null)
 				{
 					r_PsaveChangesMessage = new(this, "saveChangesMessage", -1);
-					r_PsaveChangesMessage.SetBelong(this.GetValue());
 				}
 				return r_PsaveChangesMessage;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PminSize == null)
 				{
 					r_PminSize = new(this, "minSize", -1);
-					r_PminSize.SetBelong(this.GetValue());
 				}
 				return r_PminSize;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PmaxSize == null)
 				{
 					r_PmaxSize = new(this, "maxSize", -1);
-					r_PmaxSize.SetBelong(this.GetValue());
 				}
 				return r_PmaxSize;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Ptitle == null)
 				{
 					r_Ptitle = new(this, "title", -1);
-					r_Ptitle.SetBelong(this.GetValue());
 				}
 				return r_Ptitle;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PtitleContent == null)
 				{
 					r_PtitleContent = new(this, "titleContent", -1);
-					r_PtitleContent.SetBelong(this.GetValue());
 				}
 				return r_PtitleContent;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PdepthBufferBits == null)
 				{
 					r_PdepthBufferBits = new(this, "depthBufferBits", -1);
-					r_PdepthBufferBits.SetBelong(this.GetValue());
 				}
 				return r_PdepthBufferBits;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PantiAliasing == null)
 				{
 					r_PantiAliasing = new(this, "antiAliasing", -1);
-					r_PantiAliasing.SetBelong(this.GetValue());
 				}
 				return r_PantiAliasing;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PantiAlias == null)
 				{
 					r_PantiAlias = new(this, "antiAlias", -1);
-					r_PantiAlias.SetBelong(this.GetValue());
 				}
 				return r_PantiAlias;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pposition == null)
 				{
 					r_Pposition = new(this, "position", -1);
-					r_Pposition.SetBelong(this.GetValue());
 				}
 				return r_Pposition;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_Pname == null)
 				{
 					r_Pname = new(this, "name", -1);
-					r_Pname.SetBelong(this.GetValue());
 				}
 				return r_Pname;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_PhideFlags == null)
 				{
 					r_PhideFlags = new(this, "hideFlags", -1);
-					r_PhideFlags.SetBelong(this.GetValue());
 				}
 				return r_PhideFlags;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnEnable == null)
 				{
 					r_MOnEnable = new(this, "OnEnable", 0);
-					r_MOnEnable.SetBelong(this.GetValue());
 				}
 				return r_MOnEnable;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnDisable == null)
 				{
 					r_MOnDisable = new(this, "OnDisable", 0);
-					r_MOnDisable.SetBelong(this.GetValue());
 				}
 				return r_MOnDisable;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnDestroy == null)
 				{
 					r_MOnDestroy = new(this, "OnDestroy", 0);
-					r_MOnDestroy.SetBelong(this.GetValue());
 				}
 				return r_MOnDestroy;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCreateAndInit_GT_Rect_AdvancedDropdownState == null)
 				{
 					r_MCreateAndInit_GT_Rect_AdvancedDropdownState = new( ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownWindow"), "CreateAndInit", 1, typeof(UnityEngine.Rect), typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownState));
-					r_MCreateAndInit_GT_Rect_AdvancedDropdownState.SetBelong(null);
 				}
 				return r_MCreateAndInit_GT_Rect_AdvancedDropdownState;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MInit_Rect == null)
 				{
 					r_MInit_Rect = new(this, "Init", 0, typeof(UnityEngine.Rect));
-					r_MInit_Rect.SetBelong(this.GetValue());
 				}
 				return r_MInit_Rect;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetSelectionFromState == null)
 				{
 					r_MSetSelectionFromState = new(this, "SetSelectionFromState", 0);
-					r_MSetSelectionFromState.SetBelong(this.GetValue());
 				}
 				return r_MSetSelectionFromState;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetLocationPriority == null)
 				{
 					r_MGetLocationPriority = new(this, "GetLocationPriority", 0);
-					r_MGetLocationPriority.SetBelong(this.GetValue());
 				}
 				return r_MGetLocationPriority;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCalculateWindowSize_Rect == null)
 				{
 					r_MCalculateWindowSize_Rect = new(this, "CalculateWindowSize", 0, typeof(UnityEngine.Rect));
-					r_MCalculateWindowSize_Rect.SetBelong(this.GetValue());
 				}
 				return r_MCalculateWindowSize_Rect;
 			}
@@ -1365,7 +1286,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnGUI == null)
 				{
 					r_MOnGUI = new(this, "OnGUI", 0);
-					r_MOnGUI.SetBelong(this.GetValue());
 				}
 				return r_MOnGUI;
 			}
@@ -1382,7 +1302,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnDirtyList == null)
 				{
 					r_MOnDirtyList = new(this, "OnDirtyList", 0);
-					r_MOnDirtyList.SetBelong(this.GetValue());
 				}
 				return r_MOnDirtyList;
 			}
@@ -1399,7 +1318,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnGUISearch == null)
 				{
 					r_MOnGUISearch = new(this, "OnGUISearch", 0);
-					r_MOnGUISearch.SetBelong(this.GetValue());
 				}
 				return r_MOnGUISearch;
 			}
@@ -1416,7 +1334,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MHandleKeyboard == null)
 				{
 					r_MHandleKeyboard = new(this, "HandleKeyboard", 0);
-					r_MHandleKeyboard.SetBelong(this.GetValue());
 				}
 				return r_MHandleKeyboard;
 			}
@@ -1433,7 +1350,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCloseWindow == null)
 				{
 					r_MCloseWindow = new(this, "CloseWindow", 0);
-					r_MCloseWindow.SetBelong(this.GetValue());
 				}
 				return r_MCloseWindow;
 			}
@@ -1450,7 +1366,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetSelectedItem == null)
 				{
 					r_MGetSelectedItem = new(this, "GetSelectedItem", 0);
-					r_MGetSelectedItem.SetBelong(this.GetValue());
 				}
 				return r_MGetSelectedItem;
 			}
@@ -1467,7 +1382,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSpecialKeyboardHandling_Event == null)
 				{
 					r_MSpecialKeyboardHandling_Event = new(this, "SpecialKeyboardHandling", 0, typeof(UnityEngine.Event));
-					r_MSpecialKeyboardHandling_Event.SetBelong(this.GetValue());
 				}
 				return r_MSpecialKeyboardHandling_Event;
 			}
@@ -1484,7 +1398,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawDropdown_Single_AdvancedDropdownItem == null)
 				{
 					r_MDrawDropdown_Single_AdvancedDropdownItem = new(this, "DrawDropdown", 0, typeof(System.Single), typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem));
-					r_MDrawDropdown_Single_AdvancedDropdownItem.SetBelong(this.GetValue());
 				}
 				return r_MDrawDropdown_Single_AdvancedDropdownItem;
 			}
@@ -1501,7 +1414,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawList_AdvancedDropdownItem == null)
 				{
 					r_MDrawList_AdvancedDropdownItem = new(this, "DrawList", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem));
-					r_MDrawList_AdvancedDropdownItem.SetBelong(this.GetValue());
 				}
 				return r_MDrawList_AdvancedDropdownItem;
 			}
@@ -1518,7 +1430,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGoToParent == null)
 				{
 					r_MGoToParent = new(this, "GoToParent", 0);
-					r_MGoToParent.SetBelong(this.GetValue());
 				}
 				return r_MGoToParent;
 			}
@@ -1535,7 +1446,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGoToChild == null)
 				{
 					r_MGoToChild = new(this, "GoToChild", 0);
-					r_MGoToChild.SetBelong(this.GetValue());
 				}
 				return r_MGoToChild;
 			}
@@ -1552,7 +1462,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnScriptReload == null)
 				{
 					r_MOnScriptReload = new( ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownWindow"), "OnScriptReload", 0);
-					r_MOnScriptReload.SetBelong(null);
 				}
 				return r_MOnScriptReload;
 			}
@@ -1569,7 +1478,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCloseAllOpenWindows_GT == null)
 				{
 					r_MCloseAllOpenWindows_GT = new( ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownWindow"), "CloseAllOpenWindows", 1);
-					r_MCloseAllOpenWindows_GT.SetBelong(null);
 				}
 				return r_MCloseAllOpenWindows_GT;
 			}
@@ -1586,7 +1494,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_M__0__OnGUISearch__1__b__71_0_String == null)
 				{
 					r_M__0__OnGUISearch__1__b__71_0_String = new(this, "<OnGUISearch>b__71_0", 0, typeof(System.String));
-					r_M__0__OnGUISearch__1__b__71_0_String.SetBelong(this.GetValue());
 				}
 				return r_M__0__OnGUISearch__1__b__71_0_String;
 			}
@@ -1603,7 +1510,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetDataModeController_Internal == null)
 				{
 					r_MGetDataModeController_Internal = new(this, "GetDataModeController_Internal", 0);
-					r_MGetDataModeController_Internal.SetBelong(this.GetValue());
 				}
 				return r_MGetDataModeController_Internal;
 			}
@@ -1620,7 +1526,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSaveViewData == null)
 				{
 					r_MSaveViewData = new(this, "SaveViewData", 0);
-					r_MSaveViewData.SetBelong(this.GetValue());
 				}
 				return r_MSaveViewData;
 			}
@@ -1637,7 +1542,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetViewDataDictionary == null)
 				{
 					r_MGetViewDataDictionary = new(this, "GetViewDataDictionary", 0);
-					r_MGetViewDataDictionary.SetBelong(this.GetValue());
 				}
 				return r_MGetViewDataDictionary;
 			}
@@ -1654,7 +1558,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDisableViewDataPersistence == null)
 				{
 					r_MDisableViewDataPersistence = new(this, "DisableViewDataPersistence", 0);
-					r_MDisableViewDataPersistence.SetBelong(this.GetValue());
 				}
 				return r_MDisableViewDataPersistence;
 			}
@@ -1671,7 +1574,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MClearPersistentViewData == null)
 				{
 					r_MClearPersistentViewData = new(this, "ClearPersistentViewData", 0);
-					r_MClearPersistentViewData.SetBelong(this.GetValue());
 				}
 				return r_MClearPersistentViewData;
 			}
@@ -1688,7 +1590,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MBeginWindows == null)
 				{
 					r_MBeginWindows = new(this, "BeginWindows", 0);
-					r_MBeginWindows.SetBelong(this.GetValue());
 				}
 				return r_MBeginWindows;
 			}
@@ -1705,7 +1606,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MEndWindows == null)
 				{
 					r_MEndWindows = new(this, "EndWindows", 0);
-					r_MEndWindows.SetBelong(this.GetValue());
 				}
 				return r_MEndWindows;
 			}
@@ -1722,7 +1622,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnResized == null)
 				{
 					r_MOnResized = new(this, "OnResized", 0);
-					r_MOnResized.SetBelong(this.GetValue());
 				}
 				return r_MOnResized;
 			}
@@ -1739,7 +1638,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnBackgroundViewResized_Rect == null)
 				{
 					r_MOnBackgroundViewResized_Rect = new(this, "OnBackgroundViewResized", 0, typeof(UnityEngine.Rect));
-					r_MOnBackgroundViewResized_Rect.SetBelong(this.GetValue());
 				}
 				return r_MOnBackgroundViewResized_Rect;
 			}
@@ -1756,7 +1654,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCheckForWindowRepaint == null)
 				{
 					r_MCheckForWindowRepaint = new(this, "CheckForWindowRepaint", 0);
-					r_MCheckForWindowRepaint.SetBelong(this.GetValue());
 				}
 				return r_MCheckForWindowRepaint;
 			}
@@ -1773,7 +1670,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetLocalizedTitleContent == null)
 				{
 					r_MGetLocalizedTitleContent = new(this, "GetLocalizedTitleContent", 0);
-					r_MGetLocalizedTitleContent.SetBelong(this.GetValue());
 				}
 				return r_MGetLocalizedTitleContent;
 			}
@@ -1790,7 +1686,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowNotification_GUIContent == null)
 				{
 					r_MShowNotification_GUIContent = new(this, "ShowNotification", 0, typeof(UnityEngine.GUIContent));
-					r_MShowNotification_GUIContent.SetBelong(this.GetValue());
 				}
 				return r_MShowNotification_GUIContent;
 			}
@@ -1807,7 +1702,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowNotification_GUIContent_Double == null)
 				{
 					r_MShowNotification_GUIContent_Double = new(this, "ShowNotification", 0, typeof(UnityEngine.GUIContent), typeof(System.Double));
-					r_MShowNotification_GUIContent_Double.SetBelong(this.GetValue());
 				}
 				return r_MShowNotification_GUIContent_Double;
 			}
@@ -1824,7 +1718,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MRemoveNotification == null)
 				{
 					r_MRemoveNotification = new(this, "RemoveNotification", 0);
-					r_MRemoveNotification.SetBelong(this.GetValue());
 				}
 				return r_MRemoveNotification;
 			}
@@ -1841,7 +1734,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDrawNotification == null)
 				{
 					r_MDrawNotification = new(this, "DrawNotification", 0);
-					r_MDrawNotification.SetBelong(this.GetValue());
 				}
 				return r_MDrawNotification;
 			}
@@ -1858,7 +1750,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnMaximized == null)
 				{
 					r_MOnMaximized = new(this, "OnMaximized", 0);
-					r_MOnMaximized.SetBelong(this.GetValue());
 				}
 				return r_MOnMaximized;
 			}
@@ -1875,7 +1766,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MCanMaximize == null)
 				{
 					r_MCanMaximize = new(this, "CanMaximize", 0);
-					r_MCanMaximize.SetBelong(this.GetValue());
 				}
 				return r_MCanMaximize;
 			}
@@ -1892,7 +1782,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetNumTabs == null)
 				{
 					r_MGetNumTabs = new(this, "GetNumTabs", 0);
-					r_MGetNumTabs.SetBelong(this.GetValue());
 				}
 				return r_MGetNumTabs;
 			}
@@ -1909,7 +1798,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowNextTabIfPossible == null)
 				{
 					r_MShowNextTabIfPossible = new(this, "ShowNextTabIfPossible", 0);
-					r_MShowNextTabIfPossible.SetBelong(this.GetValue());
 				}
 				return r_MShowNextTabIfPossible;
 			}
@@ -1926,7 +1814,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowTab == null)
 				{
 					r_MShowTab = new(this, "ShowTab", 0);
-					r_MShowTab.SetBelong(this.GetValue());
 				}
 				return r_MShowTab;
 			}
@@ -1943,7 +1830,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MIsSelectedTab == null)
 				{
 					r_MIsSelectedTab = new(this, "IsSelectedTab", 0);
-					r_MIsSelectedTab.SetBelong(this.GetValue());
 				}
 				return r_MIsSelectedTab;
 			}
@@ -1960,7 +1846,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MFocus == null)
 				{
 					r_MFocus = new(this, "Focus", 0);
-					r_MFocus.SetBelong(this.GetValue());
 				}
 				return r_MFocus;
 			}
@@ -1977,7 +1862,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MMakeParentsSettingsMatchMe == null)
 				{
 					r_MMakeParentsSettingsMatchMe = new(this, "MakeParentsSettingsMatchMe", 0);
-					r_MMakeParentsSettingsMatchMe.SetBelong(this.GetValue());
 				}
 				return r_MMakeParentsSettingsMatchMe;
 			}
@@ -1994,7 +1878,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowUtility == null)
 				{
 					r_MShowUtility = new(this, "ShowUtility", 0);
-					r_MShowUtility.SetBelong(this.GetValue());
 				}
 				return r_MShowUtility;
 			}
@@ -2011,7 +1894,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowTooltip == null)
 				{
 					r_MShowTooltip = new(this, "ShowTooltip", 0);
-					r_MShowTooltip.SetBelong(this.GetValue());
 				}
 				return r_MShowTooltip;
 			}
@@ -2028,7 +1910,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowPopup == null)
 				{
 					r_MShowPopup = new(this, "ShowPopup", 0);
-					r_MShowPopup.SetBelong(this.GetValue());
 				}
 				return r_MShowPopup;
 			}
@@ -2045,7 +1926,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowModalUtility == null)
 				{
 					r_MShowModalUtility = new(this, "ShowModalUtility", 0);
-					r_MShowModalUtility.SetBelong(this.GetValue());
 				}
 				return r_MShowModalUtility;
 			}
@@ -2062,7 +1942,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowPopupWithMode_ShowMode_Boolean == null)
 				{
 					r_MShowPopupWithMode_ShowMode_Boolean = new(this, "ShowPopupWithMode", 0,  ReflectionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean));
-					r_MShowPopupWithMode_ShowMode_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MShowPopupWithMode_ShowMode_Boolean;
 			}
@@ -2079,7 +1958,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowWithMode_ShowMode == null)
 				{
 					r_MShowWithMode_ShowMode = new(this, "ShowWithMode", 0,  ReflectionUtils.GetType("UnityEditor.ShowMode"));
-					r_MShowWithMode_ShowMode.SetBelong(this.GetValue());
 				}
 				return r_MShowWithMode_ShowMode;
 			}
@@ -2096,7 +1974,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowAsDropDown_Rect_Vector2 == null)
 				{
 					r_MShowAsDropDown_Rect_Vector2 = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
-					r_MShowAsDropDown_Rect_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MShowAsDropDown_Rect_Vector2;
 			}
@@ -2113,7 +1990,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowAsDropDown_Rect_Vector2_PopupLocationArray == null)
 				{
 					r_MShowAsDropDown_Rect_Vector2_PopupLocationArray = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType());
-					r_MShowAsDropDown_Rect_Vector2_PopupLocationArray.SetBelong(this.GetValue());
 				}
 				return r_MShowAsDropDown_Rect_Vector2_PopupLocationArray;
 			}
@@ -2130,7 +2006,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode == null)
 				{
 					r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType(),  ReflectionUtils.GetType("UnityEditor.ShowMode"));
-					r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode.SetBelong(this.GetValue());
 				}
 				return r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode;
 			}
@@ -2147,7 +2022,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean == null)
 				{
 					r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean = new(this, "ShowAsDropDown", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType(),  ReflectionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean));
-					r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MShowAsDropDown_Rect_Vector2_PopupLocationArray_ShowMode_Boolean;
 			}
@@ -2164,7 +2038,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray == null)
 				{
 					r_MShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray = new(this, "ShowAsDropDownFitToScreen", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEditor.PopupLocation").MakeArrayType());
-					r_MShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.SetBelong(this.GetValue());
 				}
 				return r_MShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray;
 			}
@@ -2181,7 +2054,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShow == null)
 				{
 					r_MShow = new(this, "Show", 0);
-					r_MShow.SetBelong(this.GetValue());
 				}
 				return r_MShow;
 			}
@@ -2198,7 +2070,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShow_Boolean == null)
 				{
 					r_MShow_Boolean = new(this, "Show", 0, typeof(System.Boolean));
-					r_MShow_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MShow_Boolean;
 			}
@@ -2215,7 +2086,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowAuxWindow == null)
 				{
 					r_MShowAuxWindow = new(this, "ShowAuxWindow", 0);
-					r_MShowAuxWindow.SetBelong(this.GetValue());
 				}
 				return r_MShowAuxWindow;
 			}
@@ -2232,7 +2102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MShowModal == null)
 				{
 					r_MShowModal = new(this, "ShowModal", 0);
-					r_MShowModal.SetBelong(this.GetValue());
 				}
 				return r_MShowModal;
 			}
@@ -2249,7 +2118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MRemoveFromDockArea == null)
 				{
 					r_MRemoveFromDockArea = new(this, "RemoveFromDockArea", 0);
-					r_MRemoveFromDockArea.SetBelong(this.GetValue());
 				}
 				return r_MRemoveFromDockArea;
 			}
@@ -2266,7 +2134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSaveChanges == null)
 				{
 					r_MSaveChanges = new(this, "SaveChanges", 0);
-					r_MSaveChanges.SetBelong(this.GetValue());
 				}
 				return r_MSaveChanges;
 			}
@@ -2283,7 +2150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MDiscardChanges == null)
 				{
 					r_MDiscardChanges = new(this, "DiscardChanges", 0);
-					r_MDiscardChanges.SetBelong(this.GetValue());
 				}
 				return r_MDiscardChanges;
 			}
@@ -2300,7 +2166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MClose == null)
 				{
 					r_MClose = new(this, "Close", 0);
-					r_MClose.SetBelong(this.GetValue());
 				}
 				return r_MClose;
 			}
@@ -2317,7 +2182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MRepaint == null)
 				{
 					r_MRepaint = new(this, "Repaint", 0);
-					r_MRepaint.SetBelong(this.GetValue());
 				}
 				return r_MRepaint;
 			}
@@ -2334,7 +2198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MRepaintImmediately == null)
 				{
 					r_MRepaintImmediately = new(this, "RepaintImmediately", 0);
-					r_MRepaintImmediately.SetBelong(this.GetValue());
 				}
 				return r_MRepaintImmediately;
 			}
@@ -2351,7 +2214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetParentGameViewDimensions_Rect_Rect_Vector2 == null)
 				{
 					r_MSetParentGameViewDimensions_Rect_Rect_Vector2 = new(this, "SetParentGameViewDimensions", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
-					r_MSetParentGameViewDimensions_Rect_Rect_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MSetParentGameViewDimensions_Rect_Rect_Vector2;
 			}
@@ -2368,7 +2230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetPlayModeViewSize_Vector2 == null)
 				{
 					r_MSetPlayModeViewSize_Vector2 = new(this, "SetPlayModeViewSize", 0, typeof(UnityEngine.Vector2));
-					r_MSetPlayModeViewSize_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MSetPlayModeViewSize_Vector2;
 			}
@@ -2385,7 +2246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetMainPlayModeViewSize_Vector2 == null)
 				{
 					r_MSetMainPlayModeViewSize_Vector2 = new(this, "SetMainPlayModeViewSize", 0, typeof(UnityEngine.Vector2));
-					r_MSetMainPlayModeViewSize_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MSetMainPlayModeViewSize_Vector2;
 			}
@@ -2402,7 +2262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetDisplayViewSize_Int32_Vector2 == null)
 				{
 					r_MSetDisplayViewSize_Int32_Vector2 = new(this, "SetDisplayViewSize", 0, typeof(System.Int32), typeof(UnityEngine.Vector2));
-					r_MSetDisplayViewSize_Int32_Vector2.SetBelong(this.GetValue());
 				}
 				return r_MSetDisplayViewSize_Int32_Vector2;
 			}
@@ -2419,7 +2278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetDisplayViewSize_Int32 == null)
 				{
 					r_MGetDisplayViewSize_Int32 = new(this, "GetDisplayViewSize", 0, typeof(System.Int32));
-					r_MGetDisplayViewSize_Int32.SetBelong(this.GetValue());
 				}
 				return r_MGetDisplayViewSize_Int32;
 			}
@@ -2436,7 +2294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetPlayModeView_Boolean == null)
 				{
 					r_MSetPlayModeView_Boolean = new(this, "SetPlayModeView", 0, typeof(System.Boolean));
-					r_MSetPlayModeView_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetPlayModeView_Boolean;
 			}
@@ -2453,7 +2310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSendEvent_Event == null)
 				{
 					r_MSendEvent_Event = new(this, "SendEvent", 0, typeof(UnityEngine.Event));
-					r_MSendEvent_Event.SetBelong(this.GetValue());
 				}
 				return r_MSendEvent_Event;
 			}
@@ -2470,7 +2326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MAddSceneTab == null)
 				{
 					r_MAddSceneTab = new(this, "AddSceneTab", 0);
-					r_MAddSceneTab.SetBelong(this.GetValue());
 				}
 				return r_MAddSceneTab;
 			}
@@ -2487,7 +2342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MAddGameTab == null)
 				{
 					r_MAddGameTab = new(this, "AddGameTab", 0);
-					r_MAddGameTab.SetBelong(this.GetValue());
 				}
 				return r_MAddGameTab;
 			}
@@ -2504,7 +2358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetExtraPaneTypes == null)
 				{
 					r_MGetExtraPaneTypes = new(this, "GetExtraPaneTypes", 0);
-					r_MGetExtraPaneTypes.SetBelong(this.GetValue());
 				}
 				return r_MGetExtraPaneTypes;
 			}
@@ -2521,7 +2374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MTryGetOverlay_String_Out_Overlay == null)
 				{
 					r_MTryGetOverlay_String_Out_Overlay = new(this, "TryGetOverlay", 0, typeof(System.String), typeof(UnityEditor.Overlays.Overlay).MakeByRefType());
-					r_MTryGetOverlay_String_Out_Overlay.SetBelong(this.GetValue());
 				}
 				return r_MTryGetOverlay_String_Out_Overlay;
 			}
@@ -2538,7 +2390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnBackingScaleFactorChangedInternal == null)
 				{
 					r_MOnBackingScaleFactorChangedInternal = new(this, "OnBackingScaleFactorChangedInternal", 0);
-					r_MOnBackingScaleFactorChangedInternal.SetBelong(this.GetValue());
 				}
 				return r_MOnBackingScaleFactorChangedInternal;
 			}
@@ -2555,7 +2406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MOnBackingScaleFactorChanged == null)
 				{
 					r_MOnBackingScaleFactorChanged = new(this, "OnBackingScaleFactorChanged", 0);
-					r_MOnBackingScaleFactorChanged.SetBelong(this.GetValue());
 				}
 				return r_MOnBackingScaleFactorChanged;
 			}
@@ -2572,7 +2422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MSetDirty == null)
 				{
 					r_MSetDirty = new(this, "SetDirty", 0);
-					r_MSetDirty.SetBelong(this.GetValue());
 				}
 				return r_MSetDirty;
 			}
@@ -2589,7 +2438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetInstanceID == null)
 				{
 					r_MGetInstanceID = new(this, "GetInstanceID", 0);
-					r_MGetInstanceID.SetBelong(this.GetValue());
 				}
 				return r_MGetInstanceID;
 			}
@@ -2606,7 +2454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -2623,7 +2470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -2640,7 +2486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -2657,7 +2502,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -2674,7 +2518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -2691,7 +2534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

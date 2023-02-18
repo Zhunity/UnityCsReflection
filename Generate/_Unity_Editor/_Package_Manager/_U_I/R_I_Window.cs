@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PactiveSelection == null)
 				{
 					r_PactiveSelection = new(this, "activeSelection", -1);
-					r_PactiveSelection.SetBelong(this.GetValue());
 				}
 				return r_PactiveSelection;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PaddMenu == null)
 				{
 					r_PaddMenu = new(this, "addMenu", -1);
-					r_PaddMenu.SetBelong(this.GetValue());
 				}
 				return r_PaddMenu;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_PadvancedMenu == null)
 				{
 					r_PadvancedMenu = new(this, "advancedMenu", -1);
-					r_PadvancedMenu.SetBelong(this.GetValue());
 				}
 				return r_PadvancedMenu;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MSelect_String == null)
 				{
 					r_MSelect_String = new(this, "Select", 0, typeof(System.String));
-					r_MSelect_String.SetBelong(this.GetValue());
 				}
 				return r_MSelect_String;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MAddDetailsExtension == null)
 				{
 					r_MAddDetailsExtension = new(this, "AddDetailsExtension", 0);
-					r_MAddDetailsExtension.SetBelong(this.GetValue());
 				}
 				return r_MAddDetailsExtension;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MAddPackageActionMenu == null)
 				{
 					r_MAddPackageActionMenu = new(this, "AddPackageActionMenu", 0);
-					r_MAddPackageActionMenu.SetBelong(this.GetValue());
 				}
 				return r_MAddPackageActionMenu;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				if(r_MAddPackageActionButton == null)
 				{
 					r_MAddPackageActionButton = new(this, "AddPackageActionButton", 0);
-					r_MAddPackageActionButton.SetBelong(this.GetValue());
 				}
 				return r_MAddPackageActionButton;
 			}

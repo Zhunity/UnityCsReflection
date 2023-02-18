@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Fm_ClickStatus == null)
 				{
 					r_Fm_ClickStatus = new(this, "m_ClickStatus");
-					r_Fm_ClickStatus.SetBelong(this.GetValue());
 				}
 				return r_Fm_ClickStatus;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_F__0__s_DoubleClickTime__1__k__BackingField == null)
 				{
 					r_F__0__s_DoubleClickTime__1__k__BackingField = new( ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "<s_DoubleClickTime>k__BackingField");
-					r_F__0__s_DoubleClickTime__1__k__BackingField.SetBelong(null);
 				}
 				return r_F__0__s_DoubleClickTime__1__k__BackingField;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_Ps_DoubleClickTime == null)
 				{
 					r_Ps_DoubleClickTime = new( ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "s_DoubleClickTime", -1);
-					r_Ps_DoubleClickTime.SetBelong(null);
 				}
 				return r_Ps_DoubleClickTime;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MStartClickTracking_EventBase == null)
 				{
 					r_MStartClickTracking_EventBase = new(this, "StartClickTracking", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MStartClickTracking_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MStartClickTracking_EventBase;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MSendClickEvent_EventBase == null)
 				{
 					r_MSendClickEvent_EventBase = new(this, "SendClickEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MSendClickEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MSendClickEvent_EventBase;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MCancelClickTracking_EventBase == null)
 				{
 					r_MCancelClickTracking_EventBase = new(this, "CancelClickTracking", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MCancelClickTracking_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MCancelClickTracking_EventBase;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MProcessEvent_EventBase == null)
 				{
 					r_MProcessEvent_EventBase = new(this, "ProcessEvent", 0, typeof(UnityEngine.UIElements.EventBase));
-					r_MProcessEvent_EventBase.SetBelong(this.GetValue());
 				}
 				return r_MProcessEvent_EventBase;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MContainsPointer_VisualElement_Vector2 == null)
 				{
 					r_MContainsPointer_VisualElement_Vector2 = new( ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector"), "ContainsPointer", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.Vector2));
-					r_MContainsPointer_VisualElement_Vector2.SetBelong(null);
 				}
 				return r_MContainsPointer_VisualElement_Vector2;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

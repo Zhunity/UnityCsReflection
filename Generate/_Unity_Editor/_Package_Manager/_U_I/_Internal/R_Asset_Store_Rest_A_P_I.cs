@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_PurchasesUri == null)
 				{
 					r_Fk_PurchasesUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_PurchasesUri");
-					r_Fk_PurchasesUri.SetBelong(null);
 				}
 				return r_Fk_PurchasesUri;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_TaggingsUri == null)
 				{
 					r_Fk_TaggingsUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_TaggingsUri");
-					r_Fk_TaggingsUri.SetBelong(null);
 				}
 				return r_Fk_TaggingsUri;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_ProductInfoUri == null)
 				{
 					r_Fk_ProductInfoUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_ProductInfoUri");
-					r_Fk_ProductInfoUri.SetBelong(null);
 				}
 				return r_Fk_ProductInfoUri;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_UpdateInfoUri == null)
 				{
 					r_Fk_UpdateInfoUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_UpdateInfoUri");
-					r_Fk_UpdateInfoUri.SetBelong(null);
 				}
 				return r_Fk_UpdateInfoUri;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_DownloadInfoUri == null)
 				{
 					r_Fk_DownloadInfoUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_DownloadInfoUri");
-					r_Fk_DownloadInfoUri.SetBelong(null);
 				}
 				return r_Fk_DownloadInfoUri;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_TermsCheckUri == null)
 				{
 					r_Fk_TermsCheckUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_TermsCheckUri");
-					r_Fk_TermsCheckUri.SetBelong(null);
 				}
 				return r_Fk_TermsCheckUri;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_TermsAcceptUri == null)
 				{
 					r_Fk_TermsAcceptUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_TermsAcceptUri");
-					r_Fk_TermsAcceptUri.SetBelong(null);
 				}
 				return r_Fk_TermsAcceptUri;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_MaxRetries == null)
 				{
 					r_Fk_MaxRetries = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_MaxRetries");
-					r_Fk_MaxRetries.SetBelong(null);
 				}
 				return r_Fk_MaxRetries;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_ClientErrorResponseCode == null)
 				{
 					r_Fk_ClientErrorResponseCode = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_ClientErrorResponseCode");
-					r_Fk_ClientErrorResponseCode.SetBelong(null);
 				}
 				return r_Fk_ClientErrorResponseCode;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_ServerErrorResponseCode == null)
 				{
 					r_Fk_ServerErrorResponseCode = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_ServerErrorResponseCode");
-					r_Fk_ServerErrorResponseCode.SetBelong(null);
 				}
 				return r_Fk_ServerErrorResponseCode;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_ErrorMessage == null)
 				{
 					r_Fk_ErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_ErrorMessage");
-					r_Fk_ErrorMessage.SetBelong(null);
 				}
 				return r_Fk_ErrorMessage;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_GeneralServerError == null)
 				{
 					r_Fk_GeneralServerError = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_GeneralServerError");
-					r_Fk_GeneralServerError.SetBelong(null);
 				}
 				return r_Fk_GeneralServerError;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_GeneralClientError == null)
 				{
 					r_Fk_GeneralClientError = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_GeneralClientError");
-					r_Fk_GeneralClientError.SetBelong(null);
 				}
 				return r_Fk_GeneralClientError;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_KnownErrors == null)
 				{
 					r_Fk_KnownErrors = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_KnownErrors");
-					r_Fk_KnownErrors.SetBelong(null);
 				}
 				return r_Fk_KnownErrors;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fk_Categories == null)
 				{
 					r_Fk_Categories = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "k_Categories");
-					r_Fk_Categories.SetBelong(null);
 				}
 				return r_Fk_Categories;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_Host == null)
 				{
 					r_Fm_Host = new(this, "m_Host");
-					r_Fm_Host.SetBelong(this.GetValue());
 				}
 				return r_Fm_Host;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_UnityConnect == null)
 				{
 					r_Fm_UnityConnect = new(this, "m_UnityConnect");
-					r_Fm_UnityConnect.SetBelong(this.GetValue());
 				}
 				return r_Fm_UnityConnect;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_AssetStoreOAuth == null)
 				{
 					r_Fm_AssetStoreOAuth = new(this, "m_AssetStoreOAuth");
-					r_Fm_AssetStoreOAuth.SetBelong(this.GetValue());
 				}
 				return r_Fm_AssetStoreOAuth;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_AssetStoreCache == null)
 				{
 					r_Fm_AssetStoreCache = new(this, "m_AssetStoreCache");
-					r_Fm_AssetStoreCache.SetBelong(this.GetValue());
 				}
 				return r_Fm_AssetStoreCache;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Fm_HttpClientFactory == null)
 				{
 					r_Fm_HttpClientFactory = new(this, "m_HttpClientFactory");
-					r_Fm_HttpClientFactory.SetBelong(this.GetValue());
 				}
 				return r_Fm_HttpClientFactory;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Pinstance == null)
 				{
 					r_Pinstance = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"), "instance", -1);
-					r_Pinstance.SetBelong(null);
 				}
 				return r_Pinstance;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_Phost == null)
 				{
 					r_Phost = new(this, "host", -1);
-					r_Phost.SetBelong(this.GetValue());
 				}
 				return r_Phost;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MResolveDependencies_UnityConnectProxy_AssetStoreOAuth_AssetStoreCache_HttpClientFactory == null)
 				{
 					r_MResolveDependencies_UnityConnectProxy_AssetStoreOAuth_AssetStoreCache_HttpClientFactory = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.HttpClientFactory"));
-					r_MResolveDependencies_UnityConnectProxy_AssetStoreOAuth_AssetStoreCache_HttpClientFactory.SetBelong(this.GetValue());
 				}
 				return r_MResolveDependencies_UnityConnectProxy_AssetStoreOAuth_AssetStoreCache_HttpClientFactory;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
 					r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetPurchases", 0, typeof(System.String), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
-					r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.SetBelong(this.GetValue());
 				}
 				return r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MAbortGetPurchases_String == null)
 				{
 					r_MAbortGetPurchases_String = new(this, "AbortGetPurchases", 0, typeof(System.String));
-					r_MAbortGetPurchases_String.SetBelong(this.GetValue());
 				}
 				return r_MAbortGetPurchases_String;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
 					r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetCategories", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
-					r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.SetBelong(this.GetValue());
 				}
 				return r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
 					r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetTaggings", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
-					r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.SetBelong(this.GetValue());
 				}
 				return r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_ == null)
 				{
 					r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_ = new(this, "GetProductDetail", 0, typeof(System.Int64), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))));
-					r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_.SetBelong(this.GetValue());
 				}
 				return r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_ == null)
 				{
 					r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_ = new(this, "GetDownloadDetail", 0, typeof(System.Int64), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")));
-					r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_.SetBelong(this.GetValue());
 				}
 				return r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_ == null)
 				{
 					r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_ = new(this, "GetProductUpdateDetail", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))));
-					r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_.SetBelong(this.GetValue());
 				}
 				return r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
 					r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "CheckTermsAndConditions", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
-					r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.SetBelong(this.GetValue());
 				}
 				return r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
 					r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "HandleHttpRequest", 0,  ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient"), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
-					r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.SetBelong(this.GetValue());
 				}
 				return r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
 					r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "HandleHttpRequest", 0, typeof(System.Func<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient")), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
-					r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.SetBelong(this.GetValue());
 				}
 				return r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

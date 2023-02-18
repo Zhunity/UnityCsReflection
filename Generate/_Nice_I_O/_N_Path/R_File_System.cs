@@ -24,7 +24,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_F_active == null)
 				{
 					r_F_active = new( ReflectionUtils.GetType("NiceIO.NPath+FileSystem"), "_active");
-					r_F_active.SetBelong(null);
 				}
 				return r_F_active;
 			}
@@ -41,7 +40,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_PActive == null)
 				{
 					r_PActive = new( ReflectionUtils.GetType("NiceIO.NPath+FileSystem"), "Active", -1);
-					r_PActive.SetBelong(null);
 				}
 				return r_PActive;
 			}
@@ -58,7 +56,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMakeFileSystemForCurrentMachine == null)
 				{
 					r_MMakeFileSystemForCurrentMachine = new( ReflectionUtils.GetType("NiceIO.NPath+FileSystem"), "MakeFileSystemForCurrentMachine", 0);
-					r_MMakeFileSystemForCurrentMachine.SetBelong(null);
 				}
 				return r_MMakeFileSystemForCurrentMachine;
 			}
@@ -75,7 +72,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -92,7 +88,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_GetFiles_NPath_String_SearchOption == null)
 				{
 					r_MDirectory_GetFiles_NPath_String_SearchOption = new(this, "Directory_GetFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.String), typeof(System.IO.SearchOption));
-					r_MDirectory_GetFiles_NPath_String_SearchOption.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_GetFiles_NPath_String_SearchOption;
 			}
@@ -109,7 +104,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_Exists_NPath == null)
 				{
 					r_MDirectory_Exists_NPath = new(this, "Directory_Exists", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MDirectory_Exists_NPath.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_Exists_NPath;
 			}
@@ -126,7 +120,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_Exists_NPath == null)
 				{
 					r_MFile_Exists_NPath = new(this, "File_Exists", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_Exists_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_Exists_NPath;
 			}
@@ -143,7 +136,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_WriteAllBytes_NPath_ByteArray == null)
 				{
 					r_MFile_WriteAllBytes_NPath_ByteArray = new(this, "File_WriteAllBytes", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Byte).MakeArrayType());
-					r_MFile_WriteAllBytes_NPath_ByteArray.SetBelong(this.GetValue());
 				}
 				return r_MFile_WriteAllBytes_NPath_ByteArray;
 			}
@@ -160,7 +152,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_Copy_NPath_NPath_Boolean == null)
 				{
 					r_MFile_Copy_NPath_NPath_Boolean = new(this, "File_Copy", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean));
-					r_MFile_Copy_NPath_NPath_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MFile_Copy_NPath_NPath_Boolean;
 			}
@@ -177,7 +168,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_Delete_NPath == null)
 				{
 					r_MFile_Delete_NPath = new(this, "File_Delete", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_Delete_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_Delete_NPath;
 			}
@@ -194,7 +184,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_Move_NPath_NPath == null)
 				{
 					r_MFile_Move_NPath_NPath = new(this, "File_Move", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_Move_NPath_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_Move_NPath_NPath;
 			}
@@ -211,7 +200,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_WriteAllText_NPath_String == null)
 				{
 					r_MFile_WriteAllText_NPath_String = new(this, "File_WriteAllText", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.String));
-					r_MFile_WriteAllText_NPath_String.SetBelong(this.GetValue());
 				}
 				return r_MFile_WriteAllText_NPath_String;
 			}
@@ -228,7 +216,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_ReadAllText_NPath == null)
 				{
 					r_MFile_ReadAllText_NPath = new(this, "File_ReadAllText", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_ReadAllText_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_ReadAllText_NPath;
 			}
@@ -245,7 +232,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_WriteAllLines_NPath_StringArray == null)
 				{
 					r_MFile_WriteAllLines_NPath_StringArray = new(this, "File_WriteAllLines", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.String).MakeArrayType());
-					r_MFile_WriteAllLines_NPath_StringArray.SetBelong(this.GetValue());
 				}
 				return r_MFile_WriteAllLines_NPath_StringArray;
 			}
@@ -262,7 +248,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_ReadAllBytes_NPath == null)
 				{
 					r_MFile_ReadAllBytes_NPath = new(this, "File_ReadAllBytes", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_ReadAllBytes_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_ReadAllBytes_NPath;
 			}
@@ -279,7 +264,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_ReadAllLines_NPath == null)
 				{
 					r_MFile_ReadAllLines_NPath = new(this, "File_ReadAllLines", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_ReadAllLines_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_ReadAllLines_NPath;
 			}
@@ -296,7 +280,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_SetLastWriteTimeUtc_NPath_DateTime == null)
 				{
 					r_MFile_SetLastWriteTimeUtc_NPath_DateTime = new(this, "File_SetLastWriteTimeUtc", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.DateTime));
-					r_MFile_SetLastWriteTimeUtc_NPath_DateTime.SetBelong(this.GetValue());
 				}
 				return r_MFile_SetLastWriteTimeUtc_NPath_DateTime;
 			}
@@ -313,7 +296,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_GetLastWriteTimeUtc_NPath == null)
 				{
 					r_MFile_GetLastWriteTimeUtc_NPath = new(this, "File_GetLastWriteTimeUtc", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_GetLastWriteTimeUtc_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_GetLastWriteTimeUtc_NPath;
 			}
@@ -330,7 +312,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_GetSize_NPath == null)
 				{
 					r_MFile_GetSize_NPath = new(this, "File_GetSize", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_GetSize_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_GetSize_NPath;
 			}
@@ -347,7 +328,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_SetAttributes_NPath_FileAttributes == null)
 				{
 					r_MFile_SetAttributes_NPath_FileAttributes = new(this, "File_SetAttributes", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.IO.FileAttributes));
-					r_MFile_SetAttributes_NPath_FileAttributes.SetBelong(this.GetValue());
 				}
 				return r_MFile_SetAttributes_NPath_FileAttributes;
 			}
@@ -364,7 +344,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFile_GetAttributes_NPath == null)
 				{
 					r_MFile_GetAttributes_NPath = new(this, "File_GetAttributes", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MFile_GetAttributes_NPath.SetBelong(this.GetValue());
 				}
 				return r_MFile_GetAttributes_NPath;
 			}
@@ -381,7 +360,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_CreateDirectory_NPath == null)
 				{
 					r_MDirectory_CreateDirectory_NPath = new(this, "Directory_CreateDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MDirectory_CreateDirectory_NPath.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_CreateDirectory_NPath;
 			}
@@ -398,7 +376,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_Delete_NPath_Boolean == null)
 				{
 					r_MDirectory_Delete_NPath_Boolean = new(this, "Directory_Delete", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean));
-					r_MDirectory_Delete_NPath_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_Delete_NPath_Boolean;
 			}
@@ -415,7 +392,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_Move_NPath_NPath == null)
 				{
 					r_MDirectory_Move_NPath_NPath = new(this, "Directory_Move", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MDirectory_Move_NPath_NPath.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_Move_NPath_NPath;
 			}
@@ -432,7 +408,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_GetCurrentDirectory == null)
 				{
 					r_MDirectory_GetCurrentDirectory = new(this, "Directory_GetCurrentDirectory", 0);
-					r_MDirectory_GetCurrentDirectory.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_GetCurrentDirectory;
 			}
@@ -449,7 +424,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_SetCurrentDirectory_NPath == null)
 				{
 					r_MDirectory_SetCurrentDirectory_NPath = new(this, "Directory_SetCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MDirectory_SetCurrentDirectory_NPath.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_SetCurrentDirectory_NPath;
 			}
@@ -466,7 +440,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MDirectory_GetDirectories_NPath_String_SearchOption == null)
 				{
 					r_MDirectory_GetDirectories_NPath_String_SearchOption = new(this, "Directory_GetDirectories", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.String), typeof(System.IO.SearchOption));
-					r_MDirectory_GetDirectories_NPath_String_SearchOption.SetBelong(this.GetValue());
 				}
 				return r_MDirectory_GetDirectories_NPath_String_SearchOption;
 			}
@@ -483,7 +456,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MResolve_NPath == null)
 				{
 					r_MResolve_NPath = new(this, "Resolve", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MResolve_NPath.SetBelong(this.GetValue());
 				}
 				return r_MResolve_NPath;
 			}
@@ -500,7 +472,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MIsSymbolicLink_NPath == null)
 				{
 					r_MIsSymbolicLink_NPath = new(this, "IsSymbolicLink", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
-					r_MIsSymbolicLink_NPath.SetBelong(this.GetValue());
 				}
 				return r_MIsSymbolicLink_NPath;
 			}
@@ -517,7 +488,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MCreateSymbolicLink_NPath_NPath_Boolean == null)
 				{
 					r_MCreateSymbolicLink_NPath_NPath_Boolean = new(this, "CreateSymbolicLink", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean));
-					r_MCreateSymbolicLink_NPath_NPath_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MCreateSymbolicLink_NPath_NPath_Boolean;
 			}
@@ -534,7 +504,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -551,7 +520,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -568,7 +536,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -585,7 +552,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -602,7 +568,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -619,7 +584,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

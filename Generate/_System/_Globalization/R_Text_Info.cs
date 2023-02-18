@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_listSeparator == null)
 				{
 					r_Fm_listSeparator = new(this, "m_listSeparator");
-					r_Fm_listSeparator.SetBelong(this.GetValue());
 				}
 				return r_Fm_listSeparator;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_isReadOnly == null)
 				{
 					r_Fm_isReadOnly = new(this, "m_isReadOnly");
-					r_Fm_isReadOnly.SetBelong(this.GetValue());
 				}
 				return r_Fm_isReadOnly;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_cultureName == null)
 				{
 					r_Fm_cultureName = new(this, "m_cultureName");
-					r_Fm_cultureName.SetBelong(this.GetValue());
 				}
 				return r_Fm_cultureName;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_cultureData == null)
 				{
 					r_Fm_cultureData = new(this, "m_cultureData");
-					r_Fm_cultureData.SetBelong(this.GetValue());
 				}
 				return r_Fm_cultureData;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_textInfoName == null)
 				{
 					r_Fm_textInfoName = new(this, "m_textInfoName");
-					r_Fm_textInfoName.SetBelong(this.GetValue());
 				}
 				return r_Fm_textInfoName;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_IsAsciiCasingSameAsInvariant == null)
 				{
 					r_Fm_IsAsciiCasingSameAsInvariant = new(this, "m_IsAsciiCasingSameAsInvariant");
-					r_Fm_IsAsciiCasingSameAsInvariant.SetBelong(this.GetValue());
 				}
 				return r_Fm_IsAsciiCasingSameAsInvariant;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fs_Invariant == null)
 				{
 					r_Fs_Invariant = new(typeof(System.Globalization.TextInfo), "s_Invariant");
-					r_Fs_Invariant.SetBelong(null);
 				}
 				return r_Fs_Invariant;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FcustomCultureName == null)
 				{
 					r_FcustomCultureName = new(this, "customCultureName");
-					r_FcustomCultureName.SetBelong(this.GetValue());
 				}
 				return r_FcustomCultureName;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_nDataItem == null)
 				{
 					r_Fm_nDataItem = new(this, "m_nDataItem");
-					r_Fm_nDataItem.SetBelong(this.GetValue());
 				}
 				return r_Fm_nDataItem;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_useUserOverride == null)
 				{
 					r_Fm_useUserOverride = new(this, "m_useUserOverride");
-					r_Fm_useUserOverride.SetBelong(this.GetValue());
 				}
 				return r_Fm_useUserOverride;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_Fm_win32LangID == null)
 				{
 					r_Fm_win32LangID = new(this, "m_win32LangID");
-					r_Fm_win32LangID.SetBelong(this.GetValue());
 				}
 				return r_Fm_win32LangID;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_FwordSeparatorMask == null)
 				{
 					r_FwordSeparatorMask = new(typeof(System.Globalization.TextInfo), "wordSeparatorMask");
-					r_FwordSeparatorMask.SetBelong(null);
 				}
 				return r_FwordSeparatorMask;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PInvariant == null)
 				{
 					r_PInvariant = new(typeof(System.Globalization.TextInfo), "Invariant", -1);
-					r_PInvariant.SetBelong(null);
 				}
 				return r_PInvariant;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PANSICodePage == null)
 				{
 					r_PANSICodePage = new(this, "ANSICodePage", -1);
-					r_PANSICodePage.SetBelong(this.GetValue());
 				}
 				return r_PANSICodePage;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_POEMCodePage == null)
 				{
 					r_POEMCodePage = new(this, "OEMCodePage", -1);
-					r_POEMCodePage.SetBelong(this.GetValue());
 				}
 				return r_POEMCodePage;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PMacCodePage == null)
 				{
 					r_PMacCodePage = new(this, "MacCodePage", -1);
-					r_PMacCodePage.SetBelong(this.GetValue());
 				}
 				return r_PMacCodePage;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PEBCDICCodePage == null)
 				{
 					r_PEBCDICCodePage = new(this, "EBCDICCodePage", -1);
-					r_PEBCDICCodePage.SetBelong(this.GetValue());
 				}
 				return r_PEBCDICCodePage;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PLCID == null)
 				{
 					r_PLCID = new(this, "LCID", -1);
-					r_PLCID.SetBelong(this.GetValue());
 				}
 				return r_PLCID;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PCultureName == null)
 				{
 					r_PCultureName = new(this, "CultureName", -1);
-					r_PCultureName.SetBelong(this.GetValue());
 				}
 				return r_PCultureName;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PIsReadOnly == null)
 				{
 					r_PIsReadOnly = new(this, "IsReadOnly", -1);
-					r_PIsReadOnly.SetBelong(this.GetValue());
 				}
 				return r_PIsReadOnly;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PListSeparator == null)
 				{
 					r_PListSeparator = new(this, "ListSeparator", -1);
-					r_PListSeparator.SetBelong(this.GetValue());
 				}
 				return r_PListSeparator;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PIsAsciiCasingSameAsInvariant == null)
 				{
 					r_PIsAsciiCasingSameAsInvariant = new(this, "IsAsciiCasingSameAsInvariant", -1);
-					r_PIsAsciiCasingSameAsInvariant.SetBelong(this.GetValue());
 				}
 				return r_PIsAsciiCasingSameAsInvariant;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_PIsRightToLeft == null)
 				{
 					r_PIsRightToLeft = new(this, "IsRightToLeft", -1);
-					r_PIsRightToLeft.SetBelong(this.GetValue());
 				}
 				return r_PIsRightToLeft;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserializing_StreamingContext == null)
 				{
 					r_MOnDeserializing_StreamingContext = new(this, "OnDeserializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserializing_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserializing_StreamingContext;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserialized == null)
 				{
 					r_MOnDeserialized = new(this, "OnDeserialized", 0);
-					r_MOnDeserialized.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserialized;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnDeserialized_StreamingContext == null)
 				{
 					r_MOnDeserialized_StreamingContext = new(this, "OnDeserialized", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnDeserialized_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnDeserialized_StreamingContext;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MOnSerializing_StreamingContext == null)
 				{
 					r_MOnSerializing_StreamingContext = new(this, "OnSerializing", 0, typeof(System.Runtime.Serialization.StreamingContext));
-					r_MOnSerializing_StreamingContext.SetBelong(this.GetValue());
 				}
 				return r_MOnSerializing_StreamingContext;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCodeOrdinalIgnoreCase_String == null)
 				{
 					r_MGetHashCodeOrdinalIgnoreCase_String = new(typeof(System.Globalization.TextInfo), "GetHashCodeOrdinalIgnoreCase", 0, typeof(System.String));
-					r_MGetHashCodeOrdinalIgnoreCase_String.SetBelong(null);
 				}
 				return r_MGetHashCodeOrdinalIgnoreCase_String;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64 == null)
 				{
 					r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64 = new(typeof(System.Globalization.TextInfo), "GetHashCodeOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int64));
-					r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64.SetBelong(null);
 				}
 				return r_MGetHashCodeOrdinalIgnoreCase_String_Boolean_Int64;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32 == null)
 				{
 					r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "CompareOrdinalIgnoreCaseEx", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32.SetBelong(null);
 				}
 				return r_MCompareOrdinalIgnoreCaseEx_String_Int32_String_Int32_Int32_Int32;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 == null)
 				{
 					r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "IndexOfStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.SetBelong(null);
 				}
 				return r_MIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 == null)
 				{
 					r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "LastIndexOfStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
-					r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32.SetBelong(null);
 				}
 				return r_MLastIndexOfStringOrdinalIgnoreCase_String_String_Int32_Int32;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MClone == null)
 				{
 					r_MClone = new(this, "Clone", 0);
-					r_MClone.SetBelong(this.GetValue());
 				}
 				return r_MClone;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MReadOnly_TextInfo == null)
 				{
 					r_MReadOnly_TextInfo = new(typeof(System.Globalization.TextInfo), "ReadOnly", 0, typeof(System.Globalization.TextInfo));
-					r_MReadOnly_TextInfo.SetBelong(null);
 				}
 				return r_MReadOnly_TextInfo;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MVerifyWritable == null)
 				{
 					r_MVerifyWritable = new(this, "VerifyWritable", 0);
-					r_MVerifyWritable.SetBelong(this.GetValue());
 				}
 				return r_MVerifyWritable;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MSetReadOnlyState_Boolean == null)
 				{
 					r_MSetReadOnlyState_Boolean = new(this, "SetReadOnlyState", 0, typeof(System.Boolean));
-					r_MSetReadOnlyState_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetReadOnlyState_Boolean;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToLower_Char == null)
 				{
 					r_MToLower_Char = new(this, "ToLower", 0, typeof(System.Char));
-					r_MToLower_Char.SetBelong(this.GetValue());
 				}
 				return r_MToLower_Char;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToLower_String == null)
 				{
 					r_MToLower_String = new(this, "ToLower", 0, typeof(System.String));
-					r_MToLower_String.SetBelong(this.GetValue());
 				}
 				return r_MToLower_String;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToLowerAsciiInvariant_Char == null)
 				{
 					r_MToLowerAsciiInvariant_Char = new(typeof(System.Globalization.TextInfo), "ToLowerAsciiInvariant", 0, typeof(System.Char));
-					r_MToLowerAsciiInvariant_Char.SetBelong(null);
 				}
 				return r_MToLowerAsciiInvariant_Char;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToUpper_Char == null)
 				{
 					r_MToUpper_Char = new(this, "ToUpper", 0, typeof(System.Char));
-					r_MToUpper_Char.SetBelong(this.GetValue());
 				}
 				return r_MToUpper_Char;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToUpper_String == null)
 				{
 					r_MToUpper_String = new(this, "ToUpper", 0, typeof(System.String));
-					r_MToUpper_String.SetBelong(this.GetValue());
 				}
 				return r_MToUpper_String;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToUpperAsciiInvariant_Char == null)
 				{
 					r_MToUpperAsciiInvariant_Char = new(typeof(System.Globalization.TextInfo), "ToUpperAsciiInvariant", 0, typeof(System.Char));
-					r_MToUpperAsciiInvariant_Char.SetBelong(null);
 				}
 				return r_MToUpperAsciiInvariant_Char;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsAscii_Char == null)
 				{
 					r_MIsAscii_Char = new(typeof(System.Globalization.TextInfo), "IsAscii", 0, typeof(System.Char));
-					r_MIsAscii_Char.SetBelong(null);
 				}
 				return r_MIsAscii_Char;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToTitleCase_String == null)
 				{
 					r_MToTitleCase_String = new(this, "ToTitleCase", 0, typeof(System.String));
-					r_MToTitleCase_String.SetBelong(this.GetValue());
 				}
 				return r_MToTitleCase_String;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32 == null)
 				{
 					r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "AddNonLetter", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
-					r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.SetBelong(null);
 				}
 				return r_MAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32 == null)
 				{
 					r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32 = new(this, "AddTitlecaseLetter", 0, typeof(System.Text.StringBuilder).MakeByRefType(), typeof(System.String).MakeByRefType(), typeof(System.Int32), typeof(System.Int32));
-					r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsWordSeparator_UnicodeCategory == null)
 				{
 					r_MIsWordSeparator_UnicodeCategory = new(typeof(System.Globalization.TextInfo), "IsWordSeparator", 0, typeof(System.Globalization.UnicodeCategory));
-					r_MIsWordSeparator_UnicodeCategory.SetBelong(null);
 				}
 				return r_MIsWordSeparator_UnicodeCategory;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MIsLetterCategory_UnicodeCategory == null)
 				{
 					r_MIsLetterCategory_UnicodeCategory = new(typeof(System.Globalization.TextInfo), "IsLetterCategory", 0, typeof(System.Globalization.UnicodeCategory));
-					r_MIsLetterCategory_UnicodeCategory.SetBelong(null);
 				}
 				return r_MIsLetterCategory_UnicodeCategory;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object == null)
 				{
 					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object = new(this, "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", 0, typeof(System.Object));
-					r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object.SetBelong(this.GetValue());
 				}
 				return r_MSystem__2__Runtime__2__Serialization__2__IDeserializationCallback__2__OnDeserialization_Object;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetCaseInsensitiveHashCode_String == null)
 				{
 					r_MGetCaseInsensitiveHashCode_String = new(this, "GetCaseInsensitiveHashCode", 0, typeof(System.String));
-					r_MGetCaseInsensitiveHashCode_String.SetBelong(this.GetValue());
 				}
 				return r_MGetCaseInsensitiveHashCode_String;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetCaseInsensitiveHashCode_String_Boolean_Int64 == null)
 				{
 					r_MGetCaseInsensitiveHashCode_String_Boolean_Int64 = new(this, "GetCaseInsensitiveHashCode", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int64));
-					r_MGetCaseInsensitiveHashCode_String_Boolean_Int64.SetBelong(this.GetValue());
 				}
 				return r_MGetCaseInsensitiveHashCode_String_Boolean_Int64;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetInvariantCaseInsensitiveHashCode_String == null)
 				{
 					r_MGetInvariantCaseInsensitiveHashCode_String = new(this, "GetInvariantCaseInsensitiveHashCode", 0, typeof(System.String));
-					r_MGetInvariantCaseInsensitiveHashCode_String.SetBelong(this.GetValue());
 				}
 				return r_MGetInvariantCaseInsensitiveHashCode_String;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToUpperInternal_String == null)
 				{
 					r_MToUpperInternal_String = new(this, "ToUpperInternal", 0, typeof(System.String));
-					r_MToUpperInternal_String.SetBelong(this.GetValue());
 				}
 				return r_MToUpperInternal_String;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToLowerInternal_String == null)
 				{
 					r_MToLowerInternal_String = new(this, "ToLowerInternal", 0, typeof(System.String));
-					r_MToLowerInternal_String.SetBelong(this.GetValue());
 				}
 				return r_MToLowerInternal_String;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToUpperInternal_Char == null)
 				{
 					r_MToUpperInternal_Char = new(this, "ToUpperInternal", 0, typeof(System.Char));
-					r_MToUpperInternal_Char.SetBelong(this.GetValue());
 				}
 				return r_MToUpperInternal_Char;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToLowerInternal_Char == null)
 				{
 					r_MToLowerInternal_Char = new(this, "ToLowerInternal", 0, typeof(System.Char));
-					r_MToLowerInternal_Char.SetBelong(this.GetValue());
 				}
 				return r_MToLowerInternal_Char;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32 == null)
 				{
 					r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32 = new(typeof(System.Globalization.TextInfo), "InternalCompareStringOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
-					r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32.SetBelong(null);
 				}
 				return r_MInternalCompareStringOrdinalIgnoreCase_String_Int32_String_Int32_Int32_Int32;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ == null)
 				{
 					r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ = new(this, "ToLowerAsciiInvariant", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
-					r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.SetBelong(this.GetValue());
 				}
 				return r_MToLowerAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ == null)
 				{
 					r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_ = new(this, "ToUpperAsciiInvariant", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
-					r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_.SetBelong(this.GetValue());
 				}
 				return r_MToUpperAsciiInvariant_ReadOnlySpan_d_Char_p__Span_d_Char_p_;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean == null)
 				{
 					r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean = new(this, "ChangeCase", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
-					r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean.SetBelong(this.GetValue());
 				}
 				return r_MChangeCase_ReadOnlySpan_d_Char_p__Span_d_Char_p__Boolean;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}

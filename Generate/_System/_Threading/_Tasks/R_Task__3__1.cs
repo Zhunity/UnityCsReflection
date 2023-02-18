@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_result == null)
 				{
 					r_Fm_result = new(this, "m_result");
-					r_Fm_result.SetBelong(this.GetValue());
 				}
 				return r_Fm_result;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fs_defaultFactory == null)
 				{
 					r_Fs_defaultFactory = new(typeof(System.Threading.Tasks.Task<>), "s_defaultFactory");
-					r_Fs_defaultFactory.SetBelong(null);
 				}
 				return r_Fs_defaultFactory;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_action == null)
 				{
 					r_Fm_action = new(this, "m_action");
-					r_Fm_action.SetBelong(this.GetValue());
 				}
 				return r_Fm_action;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_stateObject == null)
 				{
 					r_Fm_stateObject = new(this, "m_stateObject");
-					r_Fm_stateObject.SetBelong(this.GetValue());
 				}
 				return r_Fm_stateObject;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_taskScheduler == null)
 				{
 					r_Fm_taskScheduler = new(this, "m_taskScheduler");
-					r_Fm_taskScheduler.SetBelong(this.GetValue());
 				}
 				return r_Fm_taskScheduler;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_parent == null)
 				{
 					r_Fm_parent = new(this, "m_parent");
-					r_Fm_parent.SetBelong(this.GetValue());
 				}
 				return r_Fm_parent;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_stateFlags == null)
 				{
 					r_Fm_stateFlags = new(this, "m_stateFlags");
-					r_Fm_stateFlags.SetBelong(this.GetValue());
 				}
 				return r_Fm_stateFlags;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_Fm_contingentProperties == null)
 				{
 					r_Fm_contingentProperties = new(this, "m_contingentProperties");
-					r_Fm_contingentProperties.SetBelong(this.GetValue());
 				}
 				return r_Fm_contingentProperties;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PDebuggerDisplayResultDescription == null)
 				{
 					r_PDebuggerDisplayResultDescription = new(this, "DebuggerDisplayResultDescription", -1);
-					r_PDebuggerDisplayResultDescription.SetBelong(this.GetValue());
 				}
 				return r_PDebuggerDisplayResultDescription;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PDebuggerDisplayMethodDescription == null)
 				{
 					r_PDebuggerDisplayMethodDescription = new(this, "DebuggerDisplayMethodDescription", -1);
-					r_PDebuggerDisplayMethodDescription.SetBelong(this.GetValue());
 				}
 				return r_PDebuggerDisplayMethodDescription;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PResult == null)
 				{
 					r_PResult = new(this, "Result", -1);
-					r_PResult.SetBelong(this.GetValue());
 				}
 				return r_PResult;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PResultOnSuccess == null)
 				{
 					r_PResultOnSuccess = new(this, "ResultOnSuccess", -1);
-					r_PResultOnSuccess.SetBelong(this.GetValue());
 				}
 				return r_PResultOnSuccess;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PFactory == null)
 				{
 					r_PFactory = new(typeof(System.Threading.Tasks.Task<>), "Factory", -1);
-					r_PFactory.SetBelong(null);
 				}
 				return r_PFactory;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_POptions == null)
 				{
 					r_POptions = new(this, "Options", -1);
-					r_POptions.SetBelong(this.GetValue());
 				}
 				return r_POptions;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsWaitNotificationEnabledOrNotRanToCompletion == null)
 				{
 					r_PIsWaitNotificationEnabledOrNotRanToCompletion = new(this, "IsWaitNotificationEnabledOrNotRanToCompletion", -1);
-					r_PIsWaitNotificationEnabledOrNotRanToCompletion.SetBelong(this.GetValue());
 				}
 				return r_PIsWaitNotificationEnabledOrNotRanToCompletion;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PShouldNotifyDebuggerOfWaitCompletion == null)
 				{
 					r_PShouldNotifyDebuggerOfWaitCompletion = new(this, "ShouldNotifyDebuggerOfWaitCompletion", -1);
-					r_PShouldNotifyDebuggerOfWaitCompletion.SetBelong(this.GetValue());
 				}
 				return r_PShouldNotifyDebuggerOfWaitCompletion;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsWaitNotificationEnabled == null)
 				{
 					r_PIsWaitNotificationEnabled = new(this, "IsWaitNotificationEnabled", -1);
-					r_PIsWaitNotificationEnabled.SetBelong(this.GetValue());
 				}
 				return r_PIsWaitNotificationEnabled;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PId == null)
 				{
 					r_PId = new(this, "Id", -1);
-					r_PId.SetBelong(this.GetValue());
 				}
 				return r_PId;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PException == null)
 				{
 					r_PException = new(this, "Exception", -1);
-					r_PException.SetBelong(this.GetValue());
 				}
 				return r_PException;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PStatus == null)
 				{
 					r_PStatus = new(this, "Status", -1);
-					r_PStatus.SetBelong(this.GetValue());
 				}
 				return r_PStatus;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsCanceled == null)
 				{
 					r_PIsCanceled = new(this, "IsCanceled", -1);
-					r_PIsCanceled.SetBelong(this.GetValue());
 				}
 				return r_PIsCanceled;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsCancellationRequested == null)
 				{
 					r_PIsCancellationRequested = new(this, "IsCancellationRequested", -1);
-					r_PIsCancellationRequested.SetBelong(this.GetValue());
 				}
 				return r_PIsCancellationRequested;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PCancellationToken == null)
 				{
 					r_PCancellationToken = new(this, "CancellationToken", -1);
-					r_PCancellationToken.SetBelong(this.GetValue());
 				}
 				return r_PCancellationToken;
 			}
@@ -413,7 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsCancellationAcknowledged == null)
 				{
 					r_PIsCancellationAcknowledged = new(this, "IsCancellationAcknowledged", -1);
-					r_PIsCancellationAcknowledged.SetBelong(this.GetValue());
 				}
 				return r_PIsCancellationAcknowledged;
 			}
@@ -430,7 +406,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsCompleted == null)
 				{
 					r_PIsCompleted = new(this, "IsCompleted", -1);
-					r_PIsCompleted.SetBelong(this.GetValue());
 				}
 				return r_PIsCompleted;
 			}
@@ -447,7 +422,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsCompletedSuccessfully == null)
 				{
 					r_PIsCompletedSuccessfully = new(this, "IsCompletedSuccessfully", -1);
-					r_PIsCompletedSuccessfully.SetBelong(this.GetValue());
 				}
 				return r_PIsCompletedSuccessfully;
 			}
@@ -464,7 +438,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PCreationOptions == null)
 				{
 					r_PCreationOptions = new(this, "CreationOptions", -1);
-					r_PCreationOptions.SetBelong(this.GetValue());
 				}
 				return r_PCreationOptions;
 			}
@@ -481,7 +454,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PAsyncState == null)
 				{
 					r_PAsyncState = new(this, "AsyncState", -1);
-					r_PAsyncState.SetBelong(this.GetValue());
 				}
 				return r_PAsyncState;
 			}
@@ -498,7 +470,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PExecutingTaskScheduler == null)
 				{
 					r_PExecutingTaskScheduler = new(this, "ExecutingTaskScheduler", -1);
-					r_PExecutingTaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_PExecutingTaskScheduler;
 			}
@@ -515,7 +486,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PCompletedEvent == null)
 				{
 					r_PCompletedEvent = new(this, "CompletedEvent", -1);
-					r_PCompletedEvent.SetBelong(this.GetValue());
 				}
 				return r_PCompletedEvent;
 			}
@@ -532,7 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PExceptionRecorded == null)
 				{
 					r_PExceptionRecorded = new(this, "ExceptionRecorded", -1);
-					r_PExceptionRecorded.SetBelong(this.GetValue());
 				}
 				return r_PExceptionRecorded;
 			}
@@ -549,7 +518,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsFaulted == null)
 				{
 					r_PIsFaulted = new(this, "IsFaulted", -1);
-					r_PIsFaulted.SetBelong(this.GetValue());
 				}
 				return r_PIsFaulted;
 			}
@@ -566,7 +534,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PCapturedContext == null)
 				{
 					r_PCapturedContext = new(this, "CapturedContext", -1);
-					r_PCapturedContext.SetBelong(this.GetValue());
 				}
 				return r_PCapturedContext;
 			}
@@ -583,7 +550,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsExceptionObservedByParent == null)
 				{
 					r_PIsExceptionObservedByParent = new(this, "IsExceptionObservedByParent", -1);
-					r_PIsExceptionObservedByParent.SetBelong(this.GetValue());
 				}
 				return r_PIsExceptionObservedByParent;
 			}
@@ -600,7 +566,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_PIsDelegateInvoked == null)
 				{
 					r_PIsDelegateInvoked = new(this, "IsDelegateInvoked", -1);
-					r_PIsDelegateInvoked.SetBelong(this.GetValue());
 				}
 				return r_PIsDelegateInvoked;
 			}
@@ -617,7 +582,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
 					r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
 				}
 				return r_MStartNew_Task_Func_d_TResult_p__CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
 			}
@@ -634,7 +598,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
 					r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(typeof(System.Threading.Tasks.Task<>), "StartNew", 0, typeof(System.Threading.Tasks.Task), typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(null);
 				}
 				return r_MStartNew_Task_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
 			}
@@ -651,7 +614,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTrySetResult_TResult == null)
 				{
 					r_MTrySetResult_TResult = new(this, "TrySetResult", 0, Type.MakeGenericMethodParameter(0));
-					r_MTrySetResult_TResult.SetBelong(this.GetValue());
 				}
 				return r_MTrySetResult_TResult;
 			}
@@ -668,7 +630,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MDangerousSetResult_TResult == null)
 				{
 					r_MDangerousSetResult_TResult = new(this, "DangerousSetResult", 0, Type.MakeGenericMethodParameter(0));
-					r_MDangerousSetResult_TResult.SetBelong(this.GetValue());
 				}
 				return r_MDangerousSetResult_TResult;
 			}
@@ -685,7 +646,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetResultCore_Boolean == null)
 				{
 					r_MGetResultCore_Boolean = new(this, "GetResultCore", 0, typeof(System.Boolean));
-					r_MGetResultCore_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MGetResultCore_Boolean;
 			}
@@ -702,7 +662,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MInnerInvoke == null)
 				{
 					r_MInnerInvoke = new(this, "InnerInvoke", 0);
-					r_MInnerInvoke.SetBelong(this.GetValue());
 				}
 				return r_MInnerInvoke;
 			}
@@ -719,7 +678,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetAwaiter == null)
 				{
 					r_MGetAwaiter = new(this, "GetAwaiter", 0);
-					r_MGetAwaiter.SetBelong(this.GetValue());
 				}
 				return r_MGetAwaiter;
 			}
@@ -736,7 +694,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MConfigureAwait_Boolean == null)
 				{
 					r_MConfigureAwait_Boolean = new(this, "ConfigureAwait", 0, typeof(System.Boolean));
-					r_MConfigureAwait_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MConfigureAwait_Boolean;
 			}
@@ -753,7 +710,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__p_ == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__p_ = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)));
-					r_MContinueWith_Action_d_Task_d_TResult_p__p_.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__p_;
 			}
@@ -770,7 +726,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken;
 			}
@@ -787,7 +742,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler;
 			}
@@ -804,7 +758,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskContinuationOptions;
 			}
@@ -821,7 +774,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -838,7 +790,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>)), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__p__TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
@@ -855,7 +806,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object));
-					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object;
 			}
@@ -872,7 +822,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken;
 			}
@@ -889,7 +838,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler;
 			}
@@ -906,7 +854,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskContinuationOptions;
 			}
@@ -923,7 +870,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -940,7 +886,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_d_TResult_p__Object_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
@@ -957,7 +902,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_ == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_ = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p_;
 			}
@@ -974,7 +918,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken;
 			}
@@ -991,7 +934,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler;
 			}
@@ -1008,7 +950,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskContinuationOptions;
 			}
@@ -1025,7 +966,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -1042,7 +982,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__TNewResult_p__TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
@@ -1059,7 +998,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object;
 			}
@@ -1076,7 +1014,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken;
 			}
@@ -1093,7 +1030,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler;
 			}
@@ -1110,7 +1046,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskContinuationOptions;
 			}
@@ -1127,7 +1062,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -1144,7 +1078,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task<>), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTNewResult_Func_d_Task_d_TResult_p__Object_TNewResult_p__Object_TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
@@ -1161,7 +1094,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler == null)
 				{
 					r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler = new(this, "TaskConstructorCore", 0, typeof(System.Delegate), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions),  ReflectionUtils.GetType("System.Threading.Tasks.InternalTaskOptions"), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MTaskConstructorCore_Delegate_Object_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler;
 			}
@@ -1178,7 +1110,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTrySetCanceled_CancellationToken == null)
 				{
 					r_MTrySetCanceled_CancellationToken = new(this, "TrySetCanceled", 0, typeof(System.Threading.CancellationToken));
-					r_MTrySetCanceled_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MTrySetCanceled_CancellationToken;
 			}
@@ -1195,7 +1126,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTrySetCanceled_CancellationToken_Object == null)
 				{
 					r_MTrySetCanceled_CancellationToken_Object = new(this, "TrySetCanceled", 0, typeof(System.Threading.CancellationToken), typeof(System.Object));
-					r_MTrySetCanceled_CancellationToken_Object.SetBelong(this.GetValue());
 				}
 				return r_MTrySetCanceled_CancellationToken_Object;
 			}
@@ -1212,7 +1142,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MTrySetException_Object == null)
 				{
 					r_MTrySetException_Object = new(this, "TrySetException", 0, typeof(System.Object));
-					r_MTrySetException_Object.SetBelong(this.GetValue());
 				}
 				return r_MTrySetException_Object;
 			}
@@ -1229,7 +1158,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAtomicStateUpdate_Int32_Int32 == null)
 				{
 					r_MAtomicStateUpdate_Int32_Int32 = new(this, "AtomicStateUpdate", 0, typeof(System.Int32), typeof(System.Int32));
-					r_MAtomicStateUpdate_Int32_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAtomicStateUpdate_Int32_Int32;
 			}
@@ -1246,7 +1174,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAtomicStateUpdate_Int32_Int32_Ref_Int32 == null)
 				{
 					r_MAtomicStateUpdate_Int32_Int32_Ref_Int32 = new(this, "AtomicStateUpdate", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
-					r_MAtomicStateUpdate_Int32_Int32_Ref_Int32.SetBelong(this.GetValue());
 				}
 				return r_MAtomicStateUpdate_Int32_Int32_Ref_Int32;
 			}
@@ -1263,7 +1190,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MSetNotificationForWaitCompletion_Boolean == null)
 				{
 					r_MSetNotificationForWaitCompletion_Boolean = new(this, "SetNotificationForWaitCompletion", 0, typeof(System.Boolean));
-					r_MSetNotificationForWaitCompletion_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetNotificationForWaitCompletion_Boolean;
 			}
@@ -1280,7 +1206,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MNotifyDebuggerOfWaitCompletionIfNecessary == null)
 				{
 					r_MNotifyDebuggerOfWaitCompletionIfNecessary = new(this, "NotifyDebuggerOfWaitCompletionIfNecessary", 0);
-					r_MNotifyDebuggerOfWaitCompletionIfNecessary.SetBelong(this.GetValue());
 				}
 				return r_MNotifyDebuggerOfWaitCompletionIfNecessary;
 			}
@@ -1297,7 +1222,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MMarkStarted == null)
 				{
 					r_MMarkStarted = new(this, "MarkStarted", 0);
-					r_MMarkStarted.SetBelong(this.GetValue());
 				}
 				return r_MMarkStarted;
 			}
@@ -1314,7 +1238,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAddNewChild == null)
 				{
 					r_MAddNewChild = new(this, "AddNewChild", 0);
-					r_MAddNewChild.SetBelong(this.GetValue());
 				}
 				return r_MAddNewChild;
 			}
@@ -1331,7 +1254,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MDisregardChild == null)
 				{
 					r_MDisregardChild = new(this, "DisregardChild", 0);
-					r_MDisregardChild.SetBelong(this.GetValue());
 				}
 				return r_MDisregardChild;
 			}
@@ -1348,7 +1270,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MStart == null)
 				{
 					r_MStart = new(this, "Start", 0);
-					r_MStart.SetBelong(this.GetValue());
 				}
 				return r_MStart;
 			}
@@ -1365,7 +1286,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MStart_TaskScheduler == null)
 				{
 					r_MStart_TaskScheduler = new(this, "Start", 0, typeof(System.Threading.Tasks.TaskScheduler));
-					r_MStart_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MStart_TaskScheduler;
 			}
@@ -1382,7 +1302,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MRunSynchronously == null)
 				{
 					r_MRunSynchronously = new(this, "RunSynchronously", 0);
-					r_MRunSynchronously.SetBelong(this.GetValue());
 				}
 				return r_MRunSynchronously;
 			}
@@ -1399,7 +1318,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MRunSynchronously_TaskScheduler == null)
 				{
 					r_MRunSynchronously_TaskScheduler = new(this, "RunSynchronously", 0, typeof(System.Threading.Tasks.TaskScheduler));
-					r_MRunSynchronously_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MRunSynchronously_TaskScheduler;
 			}
@@ -1416,7 +1334,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MInternalRunSynchronously_TaskScheduler_Boolean == null)
 				{
 					r_MInternalRunSynchronously_TaskScheduler_Boolean = new(this, "InternalRunSynchronously", 0, typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Boolean));
-					r_MInternalRunSynchronously_TaskScheduler_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MInternalRunSynchronously_TaskScheduler_Boolean;
 			}
@@ -1433,7 +1350,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MEnsureContingentPropertiesInitialized_Boolean == null)
 				{
 					r_MEnsureContingentPropertiesInitialized_Boolean = new(this, "EnsureContingentPropertiesInitialized", 0, typeof(System.Boolean));
-					r_MEnsureContingentPropertiesInitialized_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MEnsureContingentPropertiesInitialized_Boolean;
 			}
@@ -1450,7 +1366,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MDispose == null)
 				{
 					r_MDispose = new(this, "Dispose", 0);
-					r_MDispose.SetBelong(this.GetValue());
 				}
 				return r_MDispose;
 			}
@@ -1467,7 +1382,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MDispose_Boolean == null)
 				{
 					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
-					r_MDispose_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MDispose_Boolean;
 			}
@@ -1484,7 +1398,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MScheduleAndStart_Boolean == null)
 				{
 					r_MScheduleAndStart_Boolean = new(this, "ScheduleAndStart", 0, typeof(System.Boolean));
-					r_MScheduleAndStart_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MScheduleAndStart_Boolean;
 			}
@@ -1501,7 +1414,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAddException_Object == null)
 				{
 					r_MAddException_Object = new(this, "AddException", 0, typeof(System.Object));
-					r_MAddException_Object.SetBelong(this.GetValue());
 				}
 				return r_MAddException_Object;
 			}
@@ -1518,7 +1430,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAddException_Object_Boolean == null)
 				{
 					r_MAddException_Object_Boolean = new(this, "AddException", 0, typeof(System.Object), typeof(System.Boolean));
-					r_MAddException_Object_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MAddException_Object_Boolean;
 			}
@@ -1535,7 +1446,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetExceptionDispatchInfos == null)
 				{
 					r_MGetExceptionDispatchInfos = new(this, "GetExceptionDispatchInfos", 0);
-					r_MGetExceptionDispatchInfos.SetBelong(this.GetValue());
 				}
 				return r_MGetExceptionDispatchInfos;
 			}
@@ -1552,7 +1462,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetCancellationExceptionDispatchInfo == null)
 				{
 					r_MGetCancellationExceptionDispatchInfo = new(this, "GetCancellationExceptionDispatchInfo", 0);
-					r_MGetCancellationExceptionDispatchInfo.SetBelong(this.GetValue());
 				}
 				return r_MGetCancellationExceptionDispatchInfo;
 			}
@@ -1569,7 +1478,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MThrowIfExceptional_Boolean == null)
 				{
 					r_MThrowIfExceptional_Boolean = new(this, "ThrowIfExceptional", 0, typeof(System.Boolean));
-					r_MThrowIfExceptional_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MThrowIfExceptional_Boolean;
 			}
@@ -1586,7 +1494,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MUpdateExceptionObservedStatus == null)
 				{
 					r_MUpdateExceptionObservedStatus = new(this, "UpdateExceptionObservedStatus", 0);
-					r_MUpdateExceptionObservedStatus.SetBelong(this.GetValue());
 				}
 				return r_MUpdateExceptionObservedStatus;
 			}
@@ -1603,7 +1510,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFinish_Boolean == null)
 				{
 					r_MFinish_Boolean = new(this, "Finish", 0, typeof(System.Boolean));
-					r_MFinish_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MFinish_Boolean;
 			}
@@ -1620,7 +1526,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFinishStageTwo == null)
 				{
 					r_MFinishStageTwo = new(this, "FinishStageTwo", 0);
-					r_MFinishStageTwo.SetBelong(this.GetValue());
 				}
 				return r_MFinishStageTwo;
 			}
@@ -1637,7 +1542,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFinishStageThree == null)
 				{
 					r_MFinishStageThree = new(this, "FinishStageThree", 0);
-					r_MFinishStageThree.SetBelong(this.GetValue());
 				}
 				return r_MFinishStageThree;
 			}
@@ -1654,7 +1558,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MProcessChildCompletion_Task == null)
 				{
 					r_MProcessChildCompletion_Task = new(this, "ProcessChildCompletion", 0, typeof(System.Threading.Tasks.Task));
-					r_MProcessChildCompletion_Task.SetBelong(this.GetValue());
 				}
 				return r_MProcessChildCompletion_Task;
 			}
@@ -1671,7 +1574,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAddExceptionsFromChildren == null)
 				{
 					r_MAddExceptionsFromChildren = new(this, "AddExceptionsFromChildren", 0);
-					r_MAddExceptionsFromChildren.SetBelong(this.GetValue());
 				}
 				return r_MAddExceptionsFromChildren;
 			}
@@ -1688,7 +1590,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MExecuteEntry_Boolean == null)
 				{
 					r_MExecuteEntry_Boolean = new(this, "ExecuteEntry", 0, typeof(System.Boolean));
-					r_MExecuteEntry_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MExecuteEntry_Boolean;
 			}
@@ -1705,7 +1606,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MSetContinuationForAwait_Action_Boolean_Boolean == null)
 				{
 					r_MSetContinuationForAwait_Action_Boolean_Boolean = new(this, "SetContinuationForAwait", 0, typeof(System.Action), typeof(System.Boolean), typeof(System.Boolean));
-					r_MSetContinuationForAwait_Action_Boolean_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MSetContinuationForAwait_Action_Boolean_Boolean;
 			}
@@ -1722,7 +1622,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MWait == null)
 				{
 					r_MWait = new(this, "Wait", 0);
-					r_MWait.SetBelong(this.GetValue());
 				}
 				return r_MWait;
 			}
@@ -1739,7 +1638,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MWait_TimeSpan == null)
 				{
 					r_MWait_TimeSpan = new(this, "Wait", 0, typeof(System.TimeSpan));
-					r_MWait_TimeSpan.SetBelong(this.GetValue());
 				}
 				return r_MWait_TimeSpan;
 			}
@@ -1756,7 +1654,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MWait_CancellationToken == null)
 				{
 					r_MWait_CancellationToken = new(this, "Wait", 0, typeof(System.Threading.CancellationToken));
-					r_MWait_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MWait_CancellationToken;
 			}
@@ -1773,7 +1670,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MWait_Int32 == null)
 				{
 					r_MWait_Int32 = new(this, "Wait", 0, typeof(System.Int32));
-					r_MWait_Int32.SetBelong(this.GetValue());
 				}
 				return r_MWait_Int32;
 			}
@@ -1790,7 +1686,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MWait_Int32_CancellationToken == null)
 				{
 					r_MWait_Int32_CancellationToken = new(this, "Wait", 0, typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_MWait_Int32_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MWait_Int32_CancellationToken;
 			}
@@ -1807,7 +1702,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MInternalWait_Int32_CancellationToken == null)
 				{
 					r_MInternalWait_Int32_CancellationToken = new(this, "InternalWait", 0, typeof(System.Int32), typeof(System.Threading.CancellationToken));
-					r_MInternalWait_Int32_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MInternalWait_Int32_CancellationToken;
 			}
@@ -1824,7 +1718,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MInternalCancel_Boolean == null)
 				{
 					r_MInternalCancel_Boolean = new(this, "InternalCancel", 0, typeof(System.Boolean));
-					r_MInternalCancel_Boolean.SetBelong(this.GetValue());
 				}
 				return r_MInternalCancel_Boolean;
 			}
@@ -1841,7 +1734,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MRecordInternalCancellationRequest == null)
 				{
 					r_MRecordInternalCancellationRequest = new(this, "RecordInternalCancellationRequest", 0);
-					r_MRecordInternalCancellationRequest.SetBelong(this.GetValue());
 				}
 				return r_MRecordInternalCancellationRequest;
 			}
@@ -1858,7 +1750,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MRecordInternalCancellationRequest_CancellationToken == null)
 				{
 					r_MRecordInternalCancellationRequest_CancellationToken = new(this, "RecordInternalCancellationRequest", 0, typeof(System.Threading.CancellationToken));
-					r_MRecordInternalCancellationRequest_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MRecordInternalCancellationRequest_CancellationToken;
 			}
@@ -1875,7 +1766,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MRecordInternalCancellationRequest_CancellationToken_Object == null)
 				{
 					r_MRecordInternalCancellationRequest_CancellationToken_Object = new(this, "RecordInternalCancellationRequest", 0, typeof(System.Threading.CancellationToken), typeof(System.Object));
-					r_MRecordInternalCancellationRequest_CancellationToken_Object.SetBelong(this.GetValue());
 				}
 				return r_MRecordInternalCancellationRequest_CancellationToken_Object;
 			}
@@ -1892,7 +1782,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MCancellationCleanupLogic == null)
 				{
 					r_MCancellationCleanupLogic = new(this, "CancellationCleanupLogic", 0);
-					r_MCancellationCleanupLogic.SetBelong(this.GetValue());
 				}
 				return r_MCancellationCleanupLogic;
 			}
@@ -1909,7 +1798,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFinishContinuations == null)
 				{
 					r_MFinishContinuations = new(this, "FinishContinuations", 0);
-					r_MFinishContinuations.SetBelong(this.GetValue());
 				}
 				return r_MFinishContinuations;
 			}
@@ -1926,7 +1814,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_p_ == null)
 				{
 					r_MContinueWith_Action_d_Task_p_ = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)));
-					r_MContinueWith_Action_d_Task_p_.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_p_;
 			}
@@ -1943,7 +1830,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_p__CancellationToken == null)
 				{
 					r_MContinueWith_Action_d_Task_p__CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_Action_d_Task_p__CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_p__CancellationToken;
 			}
@@ -1960,7 +1846,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_p__TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_p__TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_p__TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_p__TaskScheduler;
 			}
@@ -1977,7 +1862,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_p__TaskContinuationOptions == null)
 				{
 					r_MContinueWith_Action_d_Task_p__TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_Action_d_Task_p__TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_p__TaskContinuationOptions;
 			}
@@ -1994,7 +1878,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -2011,7 +1894,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_Object_p__Object == null)
 				{
 					r_MContinueWith_Action_d_Task_Object_p__Object = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object));
-					r_MContinueWith_Action_d_Task_Object_p__Object.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_Object_p__Object;
 			}
@@ -2028,7 +1910,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken == null)
 				{
 					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken;
 			}
@@ -2045,7 +1926,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_Object_p__Object_TaskScheduler;
 			}
@@ -2062,7 +1942,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_Object_p__Object_TaskContinuationOptions;
 			}
@@ -2079,7 +1958,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 0, typeof(System.Action<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_Action_d_Task_Object_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -2096,7 +1974,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p_ == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_TResult_p_ = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)));
-					r_MContinueWith_GTResult_Func_d_Task_TResult_p_.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_TResult_p_;
 			}
@@ -2113,7 +1990,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken;
 			}
@@ -2130,7 +2006,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskScheduler;
 			}
@@ -2147,7 +2022,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__TaskContinuationOptions;
 			}
@@ -2164,7 +2038,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -2181,7 +2054,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
-					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object;
 			}
@@ -2198,7 +2070,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
-					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken;
 			}
@@ -2215,7 +2086,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskScheduler;
 			}
@@ -2232,7 +2102,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_TaskContinuationOptions;
 			}
@@ -2249,7 +2118,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
 					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWith", 1, typeof(System.Func<, , >).MakeGenericType(typeof(System.Threading.Tasks.Task), typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
-					r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler.SetBelong(this.GetValue());
 				}
 				return r_MContinueWith_GTResult_Func_d_Task_Object_TResult_p__Object_CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -2266,7 +2134,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions == null)
 				{
 					r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions = new(this, "ContinueWithCore", 0, typeof(System.Threading.Tasks.Task), typeof(System.Threading.Tasks.TaskScheduler), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions));
-					r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions.SetBelong(this.GetValue());
 				}
 				return r_MContinueWithCore_Task_TaskScheduler_CancellationToken_TaskContinuationOptions;
 			}
@@ -2283,7 +2150,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MAddCompletionAction_ITaskCompletionAction == null)
 				{
 					r_MAddCompletionAction_ITaskCompletionAction = new(this, "AddCompletionAction", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ITaskCompletionAction"));
-					r_MAddCompletionAction_ITaskCompletionAction.SetBelong(this.GetValue());
 				}
 				return r_MAddCompletionAction_ITaskCompletionAction;
 			}
@@ -2300,7 +2166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MRemoveContinuation_Object == null)
 				{
 					r_MRemoveContinuation_Object = new(this, "RemoveContinuation", 0, typeof(System.Object));
-					r_MRemoveContinuation_Object.SetBelong(this.GetValue());
 				}
 				return r_MRemoveContinuation_Object;
 			}
@@ -2317,7 +2182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetDelegateContinuationsForDebugger == null)
 				{
 					r_MGetDelegateContinuationsForDebugger = new(this, "GetDelegateContinuationsForDebugger", 0);
-					r_MGetDelegateContinuationsForDebugger.SetBelong(this.GetValue());
 				}
 				return r_MGetDelegateContinuationsForDebugger;
 			}
@@ -2334,7 +2198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MMarkAborted_ThreadAbortException == null)
 				{
 					r_MMarkAborted_ThreadAbortException = new(this, "MarkAborted", 0, typeof(System.Threading.ThreadAbortException));
-					r_MMarkAborted_ThreadAbortException.SetBelong(this.GetValue());
 				}
 				return r_MMarkAborted_ThreadAbortException;
 			}
@@ -2351,7 +2214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -2368,7 +2230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -2385,7 +2246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -2402,7 +2262,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -2419,7 +2278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -2436,7 +2294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}

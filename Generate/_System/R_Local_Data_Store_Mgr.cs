@@ -22,7 +22,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_FInitialSlotTableSize == null)
 				{
 					r_FInitialSlotTableSize = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "InitialSlotTableSize");
-					r_FInitialSlotTableSize.SetBelong(null);
 				}
 				return r_FInitialSlotTableSize;
 			}
@@ -39,7 +38,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_FSlotTableDoubleThreshold == null)
 				{
 					r_FSlotTableDoubleThreshold = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "SlotTableDoubleThreshold");
-					r_FSlotTableDoubleThreshold.SetBelong(null);
 				}
 				return r_FSlotTableDoubleThreshold;
 			}
@@ -56,7 +54,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_FLargeSlotTableSizeIncrease == null)
 				{
 					r_FLargeSlotTableSizeIncrease = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "LargeSlotTableSizeIncrease");
-					r_FLargeSlotTableSizeIncrease.SetBelong(null);
 				}
 				return r_FLargeSlotTableSizeIncrease;
 			}
@@ -73,7 +70,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_Fm_SlotInfoTable == null)
 				{
 					r_Fm_SlotInfoTable = new(this, "m_SlotInfoTable");
-					r_Fm_SlotInfoTable.SetBelong(this.GetValue());
 				}
 				return r_Fm_SlotInfoTable;
 			}
@@ -90,7 +86,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_Fm_FirstAvailableSlot == null)
 				{
 					r_Fm_FirstAvailableSlot = new(this, "m_FirstAvailableSlot");
-					r_Fm_FirstAvailableSlot.SetBelong(this.GetValue());
 				}
 				return r_Fm_FirstAvailableSlot;
 			}
@@ -107,7 +102,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_Fm_ManagedLocalDataStores == null)
 				{
 					r_Fm_ManagedLocalDataStores = new(this, "m_ManagedLocalDataStores");
-					r_Fm_ManagedLocalDataStores.SetBelong(this.GetValue());
 				}
 				return r_Fm_ManagedLocalDataStores;
 			}
@@ -124,7 +118,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_Fm_KeyToSlotMap == null)
 				{
 					r_Fm_KeyToSlotMap = new(this, "m_KeyToSlotMap");
-					r_Fm_KeyToSlotMap.SetBelong(this.GetValue());
 				}
 				return r_Fm_KeyToSlotMap;
 			}
@@ -141,7 +134,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_Fm_CookieGenerator == null)
 				{
 					r_Fm_CookieGenerator = new(this, "m_CookieGenerator");
-					r_Fm_CookieGenerator.SetBelong(this.GetValue());
 				}
 				return r_Fm_CookieGenerator;
 			}
@@ -158,7 +150,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MCreateLocalDataStore == null)
 				{
 					r_MCreateLocalDataStore = new(this, "CreateLocalDataStore", 0);
-					r_MCreateLocalDataStore.SetBelong(this.GetValue());
 				}
 				return r_MCreateLocalDataStore;
 			}
@@ -175,7 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MDeleteLocalDataStore_LocalDataStore == null)
 				{
 					r_MDeleteLocalDataStore_LocalDataStore = new(this, "DeleteLocalDataStore", 0,  ReflectionUtils.GetType("System.LocalDataStore"));
-					r_MDeleteLocalDataStore_LocalDataStore.SetBelong(this.GetValue());
 				}
 				return r_MDeleteLocalDataStore_LocalDataStore;
 			}
@@ -192,7 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MAllocateDataSlot == null)
 				{
 					r_MAllocateDataSlot = new(this, "AllocateDataSlot", 0);
-					r_MAllocateDataSlot.SetBelong(this.GetValue());
 				}
 				return r_MAllocateDataSlot;
 			}
@@ -209,7 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MAllocateNamedDataSlot_String == null)
 				{
 					r_MAllocateNamedDataSlot_String = new(this, "AllocateNamedDataSlot", 0, typeof(System.String));
-					r_MAllocateNamedDataSlot_String.SetBelong(this.GetValue());
 				}
 				return r_MAllocateNamedDataSlot_String;
 			}
@@ -226,7 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetNamedDataSlot_String == null)
 				{
 					r_MGetNamedDataSlot_String = new(this, "GetNamedDataSlot", 0, typeof(System.String));
-					r_MGetNamedDataSlot_String.SetBelong(this.GetValue());
 				}
 				return r_MGetNamedDataSlot_String;
 			}
@@ -243,7 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MFreeNamedDataSlot_String == null)
 				{
 					r_MFreeNamedDataSlot_String = new(this, "FreeNamedDataSlot", 0, typeof(System.String));
-					r_MFreeNamedDataSlot_String.SetBelong(this.GetValue());
 				}
 				return r_MFreeNamedDataSlot_String;
 			}
@@ -260,7 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MFreeDataSlot_Int32_Int64 == null)
 				{
 					r_MFreeDataSlot_Int32_Int64 = new(this, "FreeDataSlot", 0, typeof(System.Int32), typeof(System.Int64));
-					r_MFreeDataSlot_Int32_Int64.SetBelong(this.GetValue());
 				}
 				return r_MFreeDataSlot_Int32_Int64;
 			}
@@ -277,7 +262,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MValidateSlot_LocalDataStoreSlot == null)
 				{
 					r_MValidateSlot_LocalDataStoreSlot = new(this, "ValidateSlot", 0, typeof(System.LocalDataStoreSlot));
-					r_MValidateSlot_LocalDataStoreSlot.SetBelong(this.GetValue());
 				}
 				return r_MValidateSlot_LocalDataStoreSlot;
 			}
@@ -294,7 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetSlotTableLength == null)
 				{
 					r_MGetSlotTableLength = new(this, "GetSlotTableLength", 0);
-					r_MGetSlotTableLength.SetBelong(this.GetValue());
 				}
 				return r_MGetSlotTableLength;
 			}
@@ -311,7 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MEquals_Object == null)
 				{
 					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-					r_MEquals_Object.SetBelong(this.GetValue());
 				}
 				return r_MEquals_Object;
 			}
@@ -328,7 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MFinalize == null)
 				{
 					r_MFinalize = new(this, "Finalize", 0);
-					r_MFinalize.SetBelong(this.GetValue());
 				}
 				return r_MFinalize;
 			}
@@ -345,7 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetHashCode == null)
 				{
 					r_MGetHashCode = new(this, "GetHashCode", 0);
-					r_MGetHashCode.SetBelong(this.GetValue());
 				}
 				return r_MGetHashCode;
 			}
@@ -362,7 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MGetType == null)
 				{
 					r_MGetType = new(this, "GetType", 0);
-					r_MGetType.SetBelong(this.GetValue());
 				}
 				return r_MGetType;
 			}
@@ -379,7 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MMemberwiseClone == null)
 				{
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
-					r_MMemberwiseClone.SetBelong(this.GetValue());
 				}
 				return r_MMemberwiseClone;
 			}
@@ -396,7 +374,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 				if(r_MToString == null)
 				{
 					r_MToString = new(this, "ToString", 0);
-					r_MToString.SetBelong(this.GetValue());
 				}
 				return r_MToString;
 			}
