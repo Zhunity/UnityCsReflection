@@ -9,6 +9,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		protected override void OnInit()
 		{
 			RPversions.GetValue();
+			RPdisplayName.GetValue();
+			RPpublisherName.GetValue();
 		}
 	}
 }

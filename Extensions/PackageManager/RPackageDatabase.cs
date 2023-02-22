@@ -18,10 +18,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			while (iter.MoveNext())
 			{
 				RIPackage item = new RIPackage(iter.Value);
-				Debug.Log("RPdisplayName : " +item.RPdisplayName.Value + " RPpublisherName :  " + item.RPpublisherName.Value + " Key : " + iter.Key + " Value : " + iter.Value);
-
-				//if(item.RPversions.instance == null)
-				//break;
+				//Debug.Log(item.id + " create xxxxxxxxxxxxxxxxxxx  " + item.Value + "  " + item.RPdisplayName.Value);
 			}
 		}
 	}
