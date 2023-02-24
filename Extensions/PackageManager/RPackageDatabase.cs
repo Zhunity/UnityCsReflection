@@ -18,7 +18,13 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			while (iter.MoveNext())
 			{
 				RIPackage item = new RIPackage(iter.Value);
-				//Debug.Log(item.id + " create xxxxxxxxxxxxxxxxxxx  " + item.Value + "  " + item.RPdisplayName.Value);
+				if(item.RPstate.Value.Equals( RPackageState.RFUpdateAvailable.Value))
+				{
+					var updateTarget = item.RPversions.GetUpdateTarget(item.RPversions.RPinstalled);
+					Install(updateTarget);
+					Debug.Log(item.id + " create xxxxxxxxxxxxxxxxxxx  " + item.RPdisplayName.Value + "  state " + item.RPstate.Value);
+					break;
+				}
 			}
 		}
 	}
