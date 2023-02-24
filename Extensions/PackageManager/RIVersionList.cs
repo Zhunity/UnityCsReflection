@@ -28,7 +28,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				return;
 			}
 			var package = rBelong as RIPackage;
-			Debug.Log(package.id + "  Value : " + package.Value + " RPdisplayName : " + package.RPdisplayName.Value + " RPinstalled : " + RPinstalled.RPversionId.Value + " targetVersion : " + rtargetVersion.RPversionId.Value);
 		}
 	}
 }
