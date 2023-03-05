@@ -25,7 +25,6 @@ namespace Hvak.Editor.Extension
 
 		public void Init()
 		{
-		//	Manifest.LoadManifest();
 		}
 
 		public void Update()

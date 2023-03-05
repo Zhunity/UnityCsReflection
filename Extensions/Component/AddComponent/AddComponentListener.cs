@@ -31,7 +31,6 @@ namespace Hvak.Editor.Extension
 		Delegate selectDelegate;
 
 		// ComponentItem的对象的对象
-		const string COMPONENT_ITEM_TYPE_NAME = "ComponentDropdownItem";
 		RComponentDropdownItem componentItem = new RComponentDropdownItem();
 
 		private bool isClear = false;
@@ -90,7 +89,7 @@ namespace Hvak.Editor.Extension
 		/// <param name="para"></param>
 		public void ItemSelect(Object para)
 		{
-			if (para.GetType().Name == COMPONENT_ITEM_TYPE_NAME)
+			if (para.GetType() == componentItem.type)
 			{
 				componentItem.SetInstance(para);
 				string showName = (string)componentItem.displayName.GetValue();
