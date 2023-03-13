@@ -12,7 +12,7 @@ namespace Hvak.Editor
 	/// Hierarchy的右键菜单
 	/// TODO 可参考UnityResourceReference  SceneHierarchy.AddCreateGameObjectItemsToMenu
 	/// </summary>
-	public class HierarchyMenuItem
+	public class AddUIMenuItem
 	{
 		[MenuItem("GameObject/UI/Image")]
 		static void CreatImage()
