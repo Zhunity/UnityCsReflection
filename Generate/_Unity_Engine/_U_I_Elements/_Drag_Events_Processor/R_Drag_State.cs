@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDragState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.DragEventsProcessor+DragState");
+            }
+        }
+
+        public RDragState() : base("UnityEngine.UIElements.DragEventsProcessor+DragState")
+        {
+        }
+
+        public RDragState(System.Object instance) : base("UnityEngine.UIElements.DragEventsProcessor+DragState")
+		{
+            SetInstance(instance);
+		}
+
+        public RDragState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDragState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDragState() : base("UnityEngine.UIElements.DragEventsProcessor+DragState")
-        {
-        }
-
-        public RDragState(System.Object instance) : base("UnityEngine.UIElements.DragEventsProcessor+DragState")
-		{
-            SetInstance(instance);
-		}
-
-        public RDragState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDragState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

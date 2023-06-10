@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class REditorWindow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.EditorWindow);
+            }
+        }
+
+        public REditorWindow() : base("UnityEditor.EditorWindow")
+        {
+        }
+
+        public REditorWindow(System.Object instance) : base("UnityEditor.EditorWindow")
+		{
+            SetInstance(instance);
+		}
+
+        public REditorWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REditorWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean m_AutoRepaintOnSceneChange
@@ -2683,23 +2708,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public REditorWindow() : base("UnityEditor.EditorWindow")
-        {
-        }
-
-        public REditorWindow(System.Object instance) : base("UnityEditor.EditorWindow")
-		{
-            SetInstance(instance);
-		}
-
-        public REditorWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REditorWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void Internal_MakeModal(Hvak.Editor.Refleaction.RUnityEditor.RContainerWindow @win)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 	/// </summary>
     public partial class RStackTrace : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Diagnostics.StackTrace);
+            }
+        }
+
+        public RStackTrace() : base("System.Diagnostics.StackTrace")
+        {
+        }
+
+        public RStackTrace(System.Object instance) : base("System.Diagnostics.StackTrace")
+		{
+            SetInstance(instance);
+		}
+
+        public RStackTrace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStackTrace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 METHODS_TO_SKIP
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			}
 		}
 
-
-        public RStackTrace() : base("System.Diagnostics.StackTrace")
-        {
-        }
-
-        public RStackTrace(System.Object instance) : base("System.Diagnostics.StackTrace")
-		{
-            SetInstance(instance);
-		}
-
-        public RStackTrace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStackTrace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void init_frames(System.Int32 @skipFrames, System.Boolean @fNeedFileInfo)
         {

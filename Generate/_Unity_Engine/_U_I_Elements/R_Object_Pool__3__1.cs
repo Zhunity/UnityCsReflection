@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RObjectPool<T> : RMember // where T : new()
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ObjectPool`1");
+            }
+        }
+
+        public RObjectPool() : base("UnityEngine.UIElements.ObjectPool`1")
+        {
+        }
+
+        public RObjectPool(System.Object instance) : base("UnityEngine.UIElements.ObjectPool`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RObjectPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObjectPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.Stack`1[T] m_Stack
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RObjectPool() : base("UnityEngine.UIElements.ObjectPool`1")
-        {
-        }
-
-        public RObjectPool(System.Object instance) : base("UnityEngine.UIElements.ObjectPool`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RObjectPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObjectPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 Size()
         {

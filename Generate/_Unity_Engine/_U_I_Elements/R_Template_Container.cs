@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTemplateContainer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TemplateContainer);
+            }
+        }
+
+        public RTemplateContainer() : base("UnityEngine.UIElements.TemplateContainer")
+        {
+        }
+
+        public RTemplateContainer(System.Object instance) : base("UnityEngine.UIElements.TemplateContainer")
+		{
+            SetInstance(instance);
+		}
+
+        public RTemplateContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTemplateContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <templateId>k__BackingField
@@ -3595,23 +3620,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTemplateContainer() : base("UnityEngine.UIElements.TemplateContainer")
-        {
-        }
-
-        public RTemplateContainer(System.Object instance) : base("UnityEngine.UIElements.TemplateContainer")
-		{
-            SetInstance(instance);
-		}
-
-        public RTemplateContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTemplateContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetContentContainer(UnityEngine.UIElements.VisualElement @content)
         {

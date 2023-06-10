@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RUpdateScopedRegistryRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.UpdateScopedRegistryRequest");
+            }
+        }
+
+        public RUpdateScopedRegistryRequest() : base("UnityEditor.PackageManager.Requests.UpdateScopedRegistryRequest")
+        {
+        }
+
+        public RUpdateScopedRegistryRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.UpdateScopedRegistryRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpdateScopedRegistryRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpdateScopedRegistryRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.RegistryInfo Result
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RUpdateScopedRegistryRequest() : base("UnityEditor.PackageManager.Requests.UpdateScopedRegistryRequest")
-        {
-        }
-
-        public RUpdateScopedRegistryRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.UpdateScopedRegistryRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpdateScopedRegistryRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpdateScopedRegistryRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEditor.PackageManager.RegistryInfo GetOperationData(System.Int64 @operationId)
         {

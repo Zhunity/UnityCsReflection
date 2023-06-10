@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RProjectionMatrixMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Camera+ProjectionMatrixMode");
+            }
+        }
+
+        public RProjectionMatrixMode() : base("UnityEngine.Camera+ProjectionMatrixMode")
+        {
+        }
+
+        public RProjectionMatrixMode(System.Object instance) : base("UnityEngine.Camera+ProjectionMatrixMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RProjectionMatrixMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProjectionMatrixMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RProjectionMatrixMode() : base("UnityEngine.Camera+ProjectionMatrixMode")
-        {
-        }
-
-        public RProjectionMatrixMode(System.Object instance) : base("UnityEngine.Camera+ProjectionMatrixMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RProjectionMatrixMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProjectionMatrixMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

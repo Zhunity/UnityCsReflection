@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class RSnapCorner : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner");
+            }
+        }
+
+        public RSnapCorner() : base("UnityEditor.Overlays.SnapCorner")
+        {
+        }
+
+        public RSnapCorner(System.Object instance) : base("UnityEditor.Overlays.SnapCorner")
+		{
+            SetInstance(instance);
+		}
+
+        public RSnapCorner(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSnapCorner(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public RSnapCorner() : base("UnityEditor.Overlays.SnapCorner")
-        {
-        }
-
-        public RSnapCorner(System.Object instance) : base("UnityEditor.Overlays.SnapCorner")
-		{
-            SetInstance(instance);
-		}
-
-        public RSnapCorner(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSnapCorner(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

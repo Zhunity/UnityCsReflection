@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RCubemapFace : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.CubemapFace);
+            }
+        }
+
+        public RCubemapFace() : base("UnityEngine.CubemapFace")
+        {
+        }
+
+        public RCubemapFace(System.Object instance) : base("UnityEngine.CubemapFace")
+		{
+            SetInstance(instance);
+		}
+
+        public RCubemapFace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCubemapFace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RCubemapFace() : base("UnityEngine.CubemapFace")
-        {
-        }
-
-        public RCubemapFace(System.Object instance) : base("UnityEngine.CubemapFace")
-		{
-            SetInstance(instance);
-		}
-
-        public RCubemapFace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCubemapFace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

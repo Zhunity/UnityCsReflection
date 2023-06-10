@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RTuple<T1, T2, T3> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Tuple`3");
+            }
+        }
+
+        public RTuple() : base("UnityEditor.Tuple`3")
+        {
+        }
+
+        public RTuple(System.Object instance) : base("UnityEditor.Tuple`3")
+		{
+            SetInstance(instance);
+		}
+
+        public RTuple(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTuple(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T1 m_Item1
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RTuple() : base("UnityEditor.Tuple`3")
-        {
-        }
-
-        public RTuple(System.Object instance) : base("UnityEditor.Tuple`3")
-		{
-            SetInstance(instance);
-		}
-
-        public RTuple(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTuple(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

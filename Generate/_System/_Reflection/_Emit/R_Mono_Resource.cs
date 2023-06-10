@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RMonoResource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.MonoResource");
+            }
+        }
+
+        public RMonoResource() : base("System.Reflection.Emit.MonoResource")
+        {
+        }
+
+        public RMonoResource(System.Object instance) : base("System.Reflection.Emit.MonoResource")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoResource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoResource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] data
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RMonoResource() : base("System.Reflection.Emit.MonoResource")
-        {
-        }
-
-        public RMonoResource(System.Object instance) : base("System.Reflection.Emit.MonoResource")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoResource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoResource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

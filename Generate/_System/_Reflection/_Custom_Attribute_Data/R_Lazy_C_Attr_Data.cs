@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RLazyCAttrData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.CustomAttributeData+LazyCAttrData");
+            }
+        }
+
+        public RLazyCAttrData() : base("System.Reflection.CustomAttributeData+LazyCAttrData")
+        {
+        }
+
+        public RLazyCAttrData(System.Object instance) : base("System.Reflection.CustomAttributeData+LazyCAttrData")
+		{
+            SetInstance(instance);
+		}
+
+        public RLazyCAttrData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLazyCAttrData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.Assembly assembly
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RLazyCAttrData() : base("System.Reflection.CustomAttributeData+LazyCAttrData")
-        {
-        }
-
-        public RLazyCAttrData(System.Object instance) : base("System.Reflection.CustomAttributeData+LazyCAttrData")
-		{
-            SetInstance(instance);
-		}
-
-        public RLazyCAttrData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLazyCAttrData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

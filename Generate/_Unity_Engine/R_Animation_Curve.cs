@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RAnimationCurve : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.AnimationCurve);
+            }
+        }
+
+        public RAnimationCurve() : base("UnityEngine.AnimationCurve")
+        {
+        }
+
+        public RAnimationCurve(System.Object instance) : base("UnityEngine.AnimationCurve")
+		{
+            SetInstance(instance);
+		}
+
+        public RAnimationCurve(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAnimationCurve(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RAnimationCurve() : base("UnityEngine.AnimationCurve")
-        {
-        }
-
-        public RAnimationCurve(System.Object instance) : base("UnityEngine.AnimationCurve")
-		{
-            SetInstance(instance);
-		}
-
-        public RAnimationCurve(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAnimationCurve(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void Internal_Destroy(System.IntPtr @ptr)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RVertexFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags");
+            }
+        }
+
+        public RVertexFlags() : base("UnityEngine.UIElements.UIR.VertexFlags")
+        {
+        }
+
+        public RVertexFlags(System.Object instance) : base("UnityEngine.UIElements.UIR.VertexFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RVertexFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVertexFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RVertexFlags() : base("UnityEngine.UIElements.UIR.VertexFlags")
-        {
-        }
-
-        public RVertexFlags(System.Object instance) : base("UnityEngine.UIElements.UIR.VertexFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RVertexFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVertexFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

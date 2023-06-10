@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMono
 	/// </summary>
     public partial class RRuntimeEventHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Mono.RuntimeEventHandle");
+            }
+        }
+
+        public RRuntimeEventHandle() : base("Mono.RuntimeEventHandle")
+        {
+        }
+
+        public RRuntimeEventHandle(System.Object instance) : base("Mono.RuntimeEventHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeEventHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeEventHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr value
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RMono
 			}
 		}
 
-
-        public RRuntimeEventHandle() : base("Mono.RuntimeEventHandle")
-        {
-        }
-
-        public RRuntimeEventHandle(System.Object instance) : base("Mono.RuntimeEventHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeEventHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeEventHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

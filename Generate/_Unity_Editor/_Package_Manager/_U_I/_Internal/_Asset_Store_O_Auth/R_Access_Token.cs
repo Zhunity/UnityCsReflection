@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAccessToken : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken");
+            }
+        }
+
+        public RAccessToken() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")
+        {
+        }
+
+        public RAccessToken(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")
+		{
+            SetInstance(instance);
+		}
+
+        public RAccessToken(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAccessToken(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String tokenType
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAccessToken() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")
-        {
-        }
-
-        public RAccessToken(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")
-		{
-            SetInstance(instance);
-		}
-
-        public RAccessToken(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAccessToken(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsValid(System.Int64 @bufferTime)
         {

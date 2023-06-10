@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextOverflowMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextOverflowMode");
+            }
+        }
+
+        public RTextOverflowMode() : base("UnityEngine.TextCore.Text.TextOverflowMode")
+        {
+        }
+
+        public RTextOverflowMode(System.Object instance) : base("UnityEngine.TextCore.Text.TextOverflowMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextOverflowMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextOverflowMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextOverflowMode() : base("UnityEngine.TextCore.Text.TextOverflowMode")
-        {
-        }
-
-        public RTextOverflowMode(System.Object instance) : base("UnityEngine.TextCore.Text.TextOverflowMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextOverflowMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextOverflowMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

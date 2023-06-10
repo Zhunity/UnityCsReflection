@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RFontReferenceMap : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextSettings+FontReferenceMap");
+            }
+        }
+
+        public RFontReferenceMap() : base("UnityEngine.TextCore.Text.TextSettings+FontReferenceMap")
+        {
+        }
+
+        public RFontReferenceMap(System.Object instance) : base("UnityEngine.TextCore.Text.TextSettings+FontReferenceMap")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontReferenceMap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontReferenceMap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Font font
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RFontReferenceMap() : base("UnityEngine.TextCore.Text.TextSettings+FontReferenceMap")
-        {
-        }
-
-        public RFontReferenceMap(System.Object instance) : base("UnityEngine.TextCore.Text.TextSettings+FontReferenceMap")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontReferenceMap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontReferenceMap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

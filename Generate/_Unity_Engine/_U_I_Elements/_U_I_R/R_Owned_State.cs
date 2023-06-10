@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class ROwnedState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.OwnedState");
+            }
+        }
+
+        public ROwnedState() : base("UnityEngine.UIElements.UIR.OwnedState")
+        {
+        }
+
+        public ROwnedState(System.Object instance) : base("UnityEngine.UIElements.UIR.OwnedState")
+		{
+            SetInstance(instance);
+		}
+
+        public ROwnedState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROwnedState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public ROwnedState() : base("UnityEngine.UIElements.UIR.OwnedState")
-        {
-        }
-
-        public ROwnedState(System.Object instance) : base("UnityEngine.UIElements.UIR.OwnedState")
-		{
-            SetInstance(instance);
-		}
-
-        public ROwnedState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROwnedState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

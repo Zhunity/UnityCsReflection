@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMouseDownEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MouseDownEvent);
+            }
+        }
+
+        public RMouseDownEvent() : base("UnityEngine.UIElements.MouseDownEvent")
+        {
+        }
+
+        public RMouseDownEvent(System.Object instance) : base("UnityEngine.UIElements.MouseDownEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RMouseDownEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMouseDownEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -1067,23 +1092,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMouseDownEvent() : base("UnityEngine.UIElements.MouseDownEvent")
-        {
-        }
-
-        public RMouseDownEvent(System.Object instance) : base("UnityEngine.UIElements.MouseDownEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RMouseDownEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMouseDownEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

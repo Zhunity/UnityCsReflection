@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 	/// </summary>
     public partial class RLease : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Lifetime.Lease");
+            }
+        }
+
+        public RLease() : base("System.Runtime.Remoting.Lifetime.Lease")
+        {
+        }
+
+        public RLease(System.Object instance) : base("System.Runtime.Remoting.Lifetime.Lease")
+		{
+            SetInstance(instance);
+		}
+
+        public RLease(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLease(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.DateTime _leaseExpireTime
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 			}
 		}
 
-
-        public RLease() : base("System.Runtime.Remoting.Lifetime.Lease")
-        {
-        }
-
-        public RLease(System.Object instance) : base("System.Runtime.Remoting.Lifetime.Lease")
-		{
-            SetInstance(instance);
-		}
-
-        public RLease(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLease(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Activate()
         {

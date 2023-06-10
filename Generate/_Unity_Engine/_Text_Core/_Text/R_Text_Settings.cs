@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.TextSettings);
+            }
+        }
+
+        public RTextSettings() : base("UnityEngine.TextCore.Text.TextSettings")
+        {
+        }
+
+        public RTextSettings(System.Object instance) : base("UnityEngine.TextCore.Text.TextSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Version
@@ -779,23 +804,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextSettings() : base("UnityEngine.TextCore.Text.TextSettings")
-        {
-        }
-
-        public RTextSettings(System.Object instance) : base("UnityEngine.TextCore.Text.TextSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InitializeFontReferenceLookup()
         {

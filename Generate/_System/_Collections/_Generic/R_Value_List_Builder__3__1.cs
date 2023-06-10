@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RValueListBuilder<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.ValueListBuilder`1");
+            }
+        }
+
+        public RValueListBuilder() : base("System.Collections.Generic.ValueListBuilder`1")
+        {
+        }
+
+        public RValueListBuilder(System.Object instance) : base("System.Collections.Generic.ValueListBuilder`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RValueListBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValueListBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Span`1[T] _span
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RValueListBuilder() : base("System.Collections.Generic.ValueListBuilder`1")
-        {
-        }
-
-        public RValueListBuilder(System.Object instance) : base("System.Collections.Generic.ValueListBuilder`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RValueListBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValueListBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Append(T @item)
         {

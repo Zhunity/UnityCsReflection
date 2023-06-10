@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCodePageDataItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.CodePageDataItem");
+            }
+        }
+
+        public RCodePageDataItem() : base("System.Globalization.CodePageDataItem")
+        {
+        }
+
+        public RCodePageDataItem(System.Object instance) : base("System.Globalization.CodePageDataItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RCodePageDataItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCodePageDataItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_dataIndex
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCodePageDataItem() : base("System.Globalization.CodePageDataItem")
-        {
-        }
-
-        public RCodePageDataItem(System.Object instance) : base("System.Globalization.CodePageDataItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RCodePageDataItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCodePageDataItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.String CreateString(System.String @pStrings, System.UInt32 @index)
         {

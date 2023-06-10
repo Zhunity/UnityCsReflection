@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAccessRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AccessRule);
+            }
+        }
+
+        public RAccessRule() : base("System.Security.AccessControl.AccessRule")
+        {
+        }
+
+        public RAccessRule(System.Object instance) : base("System.Security.AccessControl.AccessRule")
+		{
+            SetInstance(instance);
+		}
+
+        public RAccessRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAccessRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.AccessControlType type
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAccessRule() : base("System.Security.AccessControl.AccessRule")
-        {
-        }
-
-        public RAccessRule(System.Object instance) : base("System.Security.AccessControl.AccessRule")
-		{
-            SetInstance(instance);
-		}
-
-        public RAccessRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAccessRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

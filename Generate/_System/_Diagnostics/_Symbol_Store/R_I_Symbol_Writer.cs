@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 	/// </summary>
     public partial class RISymbolWriter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Diagnostics.SymbolStore.ISymbolWriter);
+            }
+        }
+
+        public RISymbolWriter() : base("System.Diagnostics.SymbolStore.ISymbolWriter")
+        {
+        }
+
+        public RISymbolWriter(System.Object instance) : base("System.Diagnostics.SymbolStore.ISymbolWriter")
+		{
+            SetInstance(instance);
+		}
+
+        public RISymbolWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RISymbolWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void Close()
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			}
 		}
 
-
-        public RISymbolWriter() : base("System.Diagnostics.SymbolStore.ISymbolWriter")
-        {
-        }
-
-        public RISymbolWriter(System.Object instance) : base("System.Diagnostics.SymbolStore.ISymbolWriter")
-		{
-            SetInstance(instance);
-		}
-
-        public RISymbolWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RISymbolWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Close()
         {

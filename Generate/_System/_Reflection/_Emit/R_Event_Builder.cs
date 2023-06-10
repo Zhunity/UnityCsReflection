@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class REventBuilder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.EventBuilder);
+            }
+        }
+
+        public REventBuilder() : base("System.Reflection.Emit.EventBuilder")
+        {
+        }
+
+        public REventBuilder(System.Object instance) : base("System.Reflection.Emit.EventBuilder")
+		{
+            SetInstance(instance);
+		}
+
+        public REventBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public REventBuilder() : base("System.Reflection.Emit.EventBuilder")
-        {
-        }
-
-        public REventBuilder(System.Object instance) : base("System.Reflection.Emit.EventBuilder")
-		{
-            SetInstance(instance);
-		}
-
-        public REventBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__InteropServices__2___EventBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {

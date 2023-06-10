@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RStylePropertyReader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader");
+            }
+        }
+
+        public RStylePropertyReader() : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader")
+        {
+        }
+
+        public RStylePropertyReader(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader")
+		{
+            SetInstance(instance);
+		}
+
+        public RStylePropertyReader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStylePropertyReader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyReader+GetCursorIdFunction getCursorIdFunc
@@ -1115,23 +1140,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RStylePropertyReader() : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader")
-        {
-        }
-
-        public RStylePropertyReader(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader")
-		{
-            SetInstance(instance);
-		}
-
-        public RStylePropertyReader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStylePropertyReader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetContext(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleComplexSelector @selector, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableContext @varContext, System.Single @dpiScaling)
         {

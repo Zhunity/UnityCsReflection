@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RHashtable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Hashtable);
+            }
+        }
+
+        public RHashtable() : base("System.Collections.Hashtable")
+        {
+        }
+
+        public RHashtable(System.Object instance) : base("System.Collections.Hashtable")
+		{
+            SetInstance(instance);
+		}
+
+        public RHashtable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHashtable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 HashPrime
@@ -1067,23 +1092,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RHashtable() : base("System.Collections.Hashtable")
-        {
-        }
-
-        public RHashtable(System.Object instance) : base("System.Collections.Hashtable")
-		{
-            SetInstance(instance);
-		}
-
-        public RHashtable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHashtable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.UInt32 InitHash(System.Object @key, System.Int32 @hashsize, out System.UInt32 @seed, out System.UInt32 @incr)
         {

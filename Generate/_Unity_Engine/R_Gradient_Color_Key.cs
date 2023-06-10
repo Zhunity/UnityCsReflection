@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGradientColorKey : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GradientColorKey);
+            }
+        }
+
+        public RGradientColorKey() : base("UnityEngine.GradientColorKey")
+        {
+        }
+
+        public RGradientColorKey(System.Object instance) : base("UnityEngine.GradientColorKey")
+		{
+            SetInstance(instance);
+		}
+
+        public RGradientColorKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGradientColorKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color color
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGradientColorKey() : base("UnityEngine.GradientColorKey")
-        {
-        }
-
-        public RGradientColorKey(System.Object instance) : base("UnityEngine.GradientColorKey")
-		{
-            SetInstance(instance);
-		}
-
-        public RGradientColorKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGradientColorKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

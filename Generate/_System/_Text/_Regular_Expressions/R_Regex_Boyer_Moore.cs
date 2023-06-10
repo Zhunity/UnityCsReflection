@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegexBoyerMoore : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.RegularExpressions.RegexBoyerMoore");
+            }
+        }
+
+        public RRegexBoyerMoore() : base("System.Text.RegularExpressions.RegexBoyerMoore")
+        {
+        }
+
+        public RRegexBoyerMoore(System.Object instance) : base("System.Text.RegularExpressions.RegexBoyerMoore")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegexBoyerMoore(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegexBoyerMoore(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32[] Positive
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegexBoyerMoore() : base("System.Text.RegularExpressions.RegexBoyerMoore")
-        {
-        }
-
-        public RRegexBoyerMoore(System.Object instance) : base("System.Text.RegularExpressions.RegexBoyerMoore")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegexBoyerMoore(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegexBoyerMoore(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean MatchPattern(System.String @text, System.Int32 @index)
         {

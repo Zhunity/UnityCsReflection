@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RScaleMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.ScaleMode);
+            }
+        }
+
+        public RScaleMode() : base("UnityEngine.ScaleMode")
+        {
+        }
+
+        public RScaleMode(System.Object instance) : base("UnityEngine.ScaleMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RScaleMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScaleMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RScaleMode() : base("UnityEngine.ScaleMode")
-        {
-        }
-
-        public RScaleMode(System.Object instance) : base("UnityEngine.ScaleMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RScaleMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScaleMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

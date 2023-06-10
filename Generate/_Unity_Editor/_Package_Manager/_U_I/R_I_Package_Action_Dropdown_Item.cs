@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIPackageActionDropdownItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IPackageActionDropdownItem");
+            }
+        }
+
+        public RIPackageActionDropdownItem() : base("UnityEditor.PackageManager.UI.IPackageActionDropdownItem")
+        {
+        }
+
+        public RIPackageActionDropdownItem(System.Object instance) : base("UnityEditor.PackageManager.UI.IPackageActionDropdownItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPackageActionDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPackageActionDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean isChecked
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIPackageActionDropdownItem() : base("UnityEditor.PackageManager.UI.IPackageActionDropdownItem")
-        {
-        }
-
-        public RIPackageActionDropdownItem(System.Object instance) : base("UnityEditor.PackageManager.UI.IPackageActionDropdownItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPackageActionDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPackageActionDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RFlowControl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.FlowControl);
+            }
+        }
+
+        public RFlowControl() : base("System.Reflection.Emit.FlowControl")
+        {
+        }
+
+        public RFlowControl(System.Object instance) : base("System.Reflection.Emit.FlowControl")
+		{
+            SetInstance(instance);
+		}
+
+        public RFlowControl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFlowControl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RFlowControl() : base("System.Reflection.Emit.FlowControl")
-        {
-        }
-
-        public RFlowControl(System.Object instance) : base("System.Reflection.Emit.FlowControl")
-		{
-            SetInstance(instance);
-		}
-
-        public RFlowControl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFlowControl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

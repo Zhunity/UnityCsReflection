@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RGetViewDataDictionary : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.GetViewDataDictionary");
+            }
+        }
+
+        public RGetViewDataDictionary() : base("UnityEngine.UIElements.GetViewDataDictionary")
+        {
+        }
+
+        public RGetViewDataDictionary(System.Object instance) : base("UnityEngine.UIElements.GetViewDataDictionary")
+		{
+            SetInstance(instance);
+		}
+
+        public RGetViewDataDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGetViewDataDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RGetViewDataDictionary() : base("UnityEngine.UIElements.GetViewDataDictionary")
-        {
-        }
-
-        public RGetViewDataDictionary(System.Object instance) : base("UnityEngine.UIElements.GetViewDataDictionary")
-		{
-            SetInstance(instance);
-		}
-
-        public RGetViewDataDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGetViewDataDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary Invoke()
         {

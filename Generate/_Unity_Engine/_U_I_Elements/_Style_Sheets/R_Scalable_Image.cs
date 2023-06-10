@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RScalableImage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.ScalableImage");
+            }
+        }
+
+        public RScalableImage() : base("UnityEngine.UIElements.StyleSheets.ScalableImage")
+        {
+        }
+
+        public RScalableImage(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.ScalableImage")
+		{
+            SetInstance(instance);
+		}
+
+        public RScalableImage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScalableImage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Texture2D normalImage
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RScalableImage() : base("UnityEngine.UIElements.StyleSheets.ScalableImage")
-        {
-        }
-
-        public RScalableImage(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.ScalableImage")
-		{
-            SetInstance(instance);
-		}
-
-        public RScalableImage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScalableImage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

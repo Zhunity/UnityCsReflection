@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RICollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.ICollection);
+            }
+        }
+
+        public RICollection() : base("System.Collections.ICollection")
+        {
+        }
+
+        public RICollection(System.Object instance) : base("System.Collections.ICollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RICollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RICollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 Count
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RICollection() : base("System.Collections.ICollection")
-        {
-        }
-
-        public RICollection(System.Object instance) : base("System.Collections.ICollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RICollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RICollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CopyTo(System.Array @array, System.Int32 @index)
         {

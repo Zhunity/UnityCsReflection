@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRASSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings");
+            }
+        }
+
+        public RRASSettings() : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings")
+        {
+        }
+
+        public RRASSettings(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RRASSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRASSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+ManagementMode managementMode
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRASSettings() : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings")
-        {
-        }
-
-        public RRASSettings(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RRASSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRASSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

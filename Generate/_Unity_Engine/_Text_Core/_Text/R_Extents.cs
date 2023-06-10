@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RExtents : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Extents");
+            }
+        }
+
+        public RExtents() : base("UnityEngine.TextCore.Text.Extents")
+        {
+        }
+
+        public RExtents(System.Object instance) : base("UnityEngine.TextCore.Text.Extents")
+		{
+            SetInstance(instance);
+		}
+
+        public RExtents(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExtents(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 min
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RExtents() : base("UnityEngine.TextCore.Text.Extents")
-        {
-        }
-
-        public RExtents(System.Object instance) : base("UnityEngine.TextCore.Text.Extents")
-		{
-            SetInstance(instance);
-		}
-
-        public RExtents(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExtents(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

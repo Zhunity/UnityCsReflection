@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBackgroundPosition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BackgroundPosition);
+            }
+        }
+
+        public RBackgroundPosition() : base("UnityEngine.UIElements.BackgroundPosition")
+        {
+        }
+
+        public RBackgroundPosition(System.Object instance) : base("UnityEngine.UIElements.BackgroundPosition")
+		{
+            SetInstance(instance);
+		}
+
+        public RBackgroundPosition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBackgroundPosition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundPositionKeyword keyword
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBackgroundPosition() : base("UnityEngine.UIElements.BackgroundPosition")
-        {
-        }
-
-        public RBackgroundPosition(System.Object instance) : base("UnityEngine.UIElements.BackgroundPosition")
-		{
-            SetInstance(instance);
-		}
-
-        public RBackgroundPosition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBackgroundPosition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.BackgroundPosition Initial()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageProgress : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageProgress");
+            }
+        }
+
+        public RPackageProgress() : base("UnityEditor.PackageManager.UI.Internal.PackageProgress")
+        {
+        }
+
+        public RPackageProgress(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageProgress")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageProgress(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageProgress(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageProgress() : base("UnityEditor.PackageManager.UI.Internal.PackageProgress")
-        {
-        }
-
-        public RPackageProgress(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageProgress")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageProgress(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageProgress(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

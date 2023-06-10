@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class REasingFunction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.EasingFunction);
+            }
+        }
+
+        public REasingFunction() : base("UnityEngine.UIElements.EasingFunction")
+        {
+        }
+
+        public REasingFunction(System.Object instance) : base("UnityEngine.UIElements.EasingFunction")
+		{
+            SetInstance(instance);
+		}
+
+        public REasingFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REasingFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.EasingMode m_Mode
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public REasingFunction() : base("UnityEngine.UIElements.EasingFunction")
-        {
-        }
-
-        public REasingFunction(System.Object instance) : base("UnityEngine.UIElements.EasingFunction")
-		{
-            SetInstance(instance);
-		}
-
-        public REasingFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REasingFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.EasingFunction op_Implicit(UnityEngine.UIElements.EasingMode @easingMode)
         {

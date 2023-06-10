@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RGlyphAnchorPoint : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.LowLevel.GlyphAnchorPoint");
+            }
+        }
+
+        public RGlyphAnchorPoint() : base("UnityEngine.TextCore.LowLevel.GlyphAnchorPoint")
+        {
+        }
+
+        public RGlyphAnchorPoint(System.Object instance) : base("UnityEngine.TextCore.LowLevel.GlyphAnchorPoint")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlyphAnchorPoint(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlyphAnchorPoint(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_XCoordinate
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RGlyphAnchorPoint() : base("UnityEngine.TextCore.LowLevel.GlyphAnchorPoint")
-        {
-        }
-
-        public RGlyphAnchorPoint(System.Object instance) : base("UnityEngine.TextCore.LowLevel.GlyphAnchorPoint")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlyphAnchorPoint(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlyphAnchorPoint(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

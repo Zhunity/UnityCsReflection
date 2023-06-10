@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class REncoding : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.Encoding);
+            }
+        }
+
+        public REncoding() : base("System.Text.Encoding")
+        {
+        }
+
+        public REncoding(System.Object instance) : base("System.Text.Encoding")
+		{
+            SetInstance(instance);
+		}
+
+        public REncoding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REncoding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.Encoding defaultEncoding
@@ -2507,23 +2532,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public REncoding() : base("System.Text.Encoding")
-        {
-        }
-
-        public REncoding(System.Object instance) : base("System.Text.Encoding")
-		{
-            SetInstance(instance);
-		}
-
-        public REncoding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REncoding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetDefaultFallbacks()
         {

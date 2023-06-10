@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPlaceholderPackage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PlaceholderPackage");
+            }
+        }
+
+        public RPlaceholderPackage() : base("UnityEditor.PackageManager.UI.Internal.PlaceholderPackage")
+        {
+        }
+
+        public RPlaceholderPackage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PlaceholderPackage")
+		{
+            SetInstance(instance);
+		}
+
+        public RPlaceholderPackage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPlaceholderPackage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_UniqueId
@@ -747,23 +772,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPlaceholderPackage() : base("UnityEditor.PackageManager.UI.Internal.PlaceholderPackage")
-        {
-        }
-
-        public RPlaceholderPackage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PlaceholderPackage")
-		{
-            SetInstance(instance);
-		}
-
-        public RPlaceholderPackage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPlaceholderPackage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
         {

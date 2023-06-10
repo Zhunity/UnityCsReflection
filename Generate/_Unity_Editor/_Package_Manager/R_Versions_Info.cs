@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RVersionsInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.VersionsInfo);
+            }
+        }
+
+        public RVersionsInfo() : base("UnityEditor.PackageManager.VersionsInfo")
+        {
+        }
+
+        public RVersionsInfo(System.Object instance) : base("UnityEditor.PackageManager.VersionsInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RVersionsInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVersionsInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String[] m_All
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RVersionsInfo() : base("UnityEditor.PackageManager.VersionsInfo")
-        {
-        }
-
-        public RVersionsInfo(System.Object instance) : base("UnityEditor.PackageManager.VersionsInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RVersionsInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVersionsInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

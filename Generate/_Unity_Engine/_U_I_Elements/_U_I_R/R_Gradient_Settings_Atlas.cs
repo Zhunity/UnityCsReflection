@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RGradientSettingsAtlas : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas");
+            }
+        }
+
+        public RGradientSettingsAtlas() : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas")
+        {
+        }
+
+        public RGradientSettingsAtlas(System.Object instance) : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas")
+		{
+            SetInstance(instance);
+		}
+
+        public RGradientSettingsAtlas(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGradientSettingsAtlas(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker s_MarkerWrite
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RGradientSettingsAtlas() : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas")
-        {
-        }
-
-        public RGradientSettingsAtlas(System.Object instance) : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas")
-		{
-            SetInstance(instance);
-		}
-
-        public RGradientSettingsAtlas(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGradientSettingsAtlas(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

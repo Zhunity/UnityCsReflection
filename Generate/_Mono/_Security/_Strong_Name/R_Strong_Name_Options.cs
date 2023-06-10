@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 	/// </summary>
     public partial class RStrongNameOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Mono.Security.StrongName+StrongNameOptions");
+            }
+        }
+
+        public RStrongNameOptions() : base("Mono.Security.StrongName+StrongNameOptions")
+        {
+        }
+
+        public RStrongNameOptions(System.Object instance) : base("Mono.Security.StrongName+StrongNameOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongNameOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongNameOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			}
 		}
 
-
-        public RStrongNameOptions() : base("Mono.Security.StrongName+StrongNameOptions")
-        {
-        }
-
-        public RStrongNameOptions(System.Object instance) : base("Mono.Security.StrongName+StrongNameOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongNameOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongNameOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

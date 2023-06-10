@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingInstanceMaterialConfig : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig);
+            }
+        }
+
+        public RRayTracingInstanceMaterialConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig")
+        {
+        }
+
+        public RRayTracingInstanceMaterialConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingInstanceMaterialConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingInstanceMaterialConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 renderQueueLowerBound
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingInstanceMaterialConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig")
-        {
-        }
-
-        public RRayTracingInstanceMaterialConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialConfig")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingInstanceMaterialConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingInstanceMaterialConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

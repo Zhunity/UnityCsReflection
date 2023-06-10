@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingInstanceTriangleCullingConfig : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig);
+            }
+        }
+
+        public RRayTracingInstanceTriangleCullingConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig")
+        {
+        }
+
+        public RRayTracingInstanceTriangleCullingConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingInstanceTriangleCullingConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingInstanceTriangleCullingConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String[] optionalDoubleSidedShaderKeywords
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingInstanceTriangleCullingConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig")
-        {
-        }
-
-        public RRayTracingInstanceTriangleCullingConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceTriangleCullingConfig")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingInstanceTriangleCullingConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingInstanceTriangleCullingConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

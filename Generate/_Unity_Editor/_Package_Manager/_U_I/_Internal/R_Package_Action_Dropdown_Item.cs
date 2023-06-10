@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageActionDropdownItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageActionDropdownItem");
+            }
+        }
+
+        public RPackageActionDropdownItem() : base("UnityEditor.PackageManager.UI.Internal.PackageActionDropdownItem")
+        {
+        }
+
+        public RPackageActionDropdownItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageActionDropdownItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageActionDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageActionDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onVisibleChanged
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageActionDropdownItem() : base("UnityEditor.PackageManager.UI.Internal.PackageActionDropdownItem")
-        {
-        }
-
-        public RPackageActionDropdownItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageActionDropdownItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageActionDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageActionDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RKeyCollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2+KeyCollection");
+            }
+        }
+
+        public RKeyCollection() : base("System.Collections.Generic.Dictionary`2+KeyCollection")
+        {
+        }
+
+        public RKeyCollection(System.Object instance) : base("System.Collections.Generic.Dictionary`2+KeyCollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeyCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeyCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[TKey,TValue] _dictionary
@@ -333,23 +358,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RKeyCollection() : base("System.Collections.Generic.Dictionary`2+KeyCollection")
-        {
-        }
-
-        public RKeyCollection(System.Object instance) : base("System.Collections.Generic.Dictionary`2+KeyCollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeyCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeyCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RType, Hvak.Editor.Refleaction.RType>.RKeyCollection.REnumerator GetEnumerator()
         {

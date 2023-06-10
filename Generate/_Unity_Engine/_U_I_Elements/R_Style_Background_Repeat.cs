@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleBackgroundRepeat : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleBackgroundRepeat);
+            }
+        }
+
+        public RStyleBackgroundRepeat() : base("UnityEngine.UIElements.StyleBackgroundRepeat")
+        {
+        }
+
+        public RStyleBackgroundRepeat(System.Object instance) : base("UnityEngine.UIElements.StyleBackgroundRepeat")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleBackgroundRepeat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleBackgroundRepeat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundRepeat m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleBackgroundRepeat() : base("UnityEngine.UIElements.StyleBackgroundRepeat")
-        {
-        }
-
-        public RStyleBackgroundRepeat(System.Object instance) : base("UnityEngine.UIElements.StyleBackgroundRepeat")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleBackgroundRepeat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleBackgroundRepeat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleBackgroundRepeat @lhs, UnityEngine.UIElements.StyleBackgroundRepeat @rhs)
         {

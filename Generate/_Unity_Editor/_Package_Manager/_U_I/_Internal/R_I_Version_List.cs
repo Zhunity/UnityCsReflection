@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RIVersionList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IVersionList");
+            }
+        }
+
+        public RIVersionList() : base("UnityEditor.PackageManager.UI.Internal.IVersionList")
+        {
+        }
+
+        public RIVersionList(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IVersionList")
+		{
+            SetInstance(instance);
+		}
+
+        public RIVersionList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIVersionList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackageVersion] key
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RIVersionList() : base("UnityEditor.PackageManager.UI.Internal.IVersionList")
-        {
-        }
-
-        public RIVersionList(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IVersionList")
-		{
-            SetInstance(instance);
-		}
-
-        public RIVersionList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIVersionList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetUpdateTarget(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

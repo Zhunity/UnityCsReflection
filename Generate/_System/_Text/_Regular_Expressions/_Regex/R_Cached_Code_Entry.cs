@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RCachedCodeEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntry");
+            }
+        }
+
+        public RCachedCodeEntry() : base("System.Text.RegularExpressions.Regex+CachedCodeEntry")
+        {
+        }
+
+        public RCachedCodeEntry(System.Object instance) : base("System.Text.RegularExpressions.Regex+CachedCodeEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RCachedCodeEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCachedCodeEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Regex+CachedCodeEntry Next
@@ -301,23 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RCachedCodeEntry() : base("System.Text.RegularExpressions.Regex+CachedCodeEntry")
-        {
-        }
-
-        public RCachedCodeEntry(System.Object instance) : base("System.Text.RegularExpressions.Regex+CachedCodeEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RCachedCodeEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCachedCodeEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddCompiled(System.Text.RegularExpressions.RegexRunnerFactory @factory)
         {

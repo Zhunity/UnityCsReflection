@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRect : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rect);
+            }
+        }
+
+        public RRect() : base("UnityEngine.Rect")
+        {
+        }
+
+        public RRect(System.Object instance) : base("UnityEngine.Rect")
+		{
+            SetInstance(instance);
+		}
+
+        public RRect(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRect(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_XMin
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRect() : base("UnityEngine.Rect")
-        {
-        }
-
-        public RRect(System.Object instance) : base("UnityEngine.Rect")
-		{
-            SetInstance(instance);
-		}
-
-        public RRect(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRect(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Rect MinMaxRect(System.Single @xmin, System.Single @ymin, System.Single @xmax, System.Single @ymax)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGUILayoutOption : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GUILayoutOption);
+            }
+        }
+
+        public RGUILayoutOption() : base("UnityEngine.GUILayoutOption")
+        {
+        }
+
+        public RGUILayoutOption(System.Object instance) : base("UnityEngine.GUILayoutOption")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUILayoutOption(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUILayoutOption(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.GUILayoutOption+Type type
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGUILayoutOption() : base("UnityEngine.GUILayoutOption")
-        {
-        }
-
-        public RGUILayoutOption(System.Object instance) : base("UnityEngine.GUILayoutOption")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUILayoutOption(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUILayoutOption(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

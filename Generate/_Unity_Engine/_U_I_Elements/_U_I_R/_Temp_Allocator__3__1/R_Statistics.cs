@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RStatistics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics");
+            }
+        }
+
+        public RStatistics() : base("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics")
+        {
+        }
+
+        public RStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics")
+		{
+            SetInstance(instance);
+		}
+
+        public RStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1+PageStatistics[T] pool
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RStatistics() : base("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics")
-        {
-        }
-
-        public RStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics")
-		{
-            SetInstance(instance);
-		}
-
-        public RStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

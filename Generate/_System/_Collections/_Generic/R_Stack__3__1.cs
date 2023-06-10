@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RStack<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.Stack<>);
+            }
+        }
+
+        public RStack() : base("System.Collections.Generic.Stack`1")
+        {
+        }
+
+        public RStack(System.Object instance) : base("System.Collections.Generic.Stack`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RStack(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStack(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T[] _array
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RStack() : base("System.Collections.Generic.Stack`1")
-        {
-        }
-
-        public RStack(System.Object instance) : base("System.Collections.Generic.Stack`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RStack(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStack(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

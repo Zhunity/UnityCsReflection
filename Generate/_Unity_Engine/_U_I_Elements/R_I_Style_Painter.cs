@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIStylePainter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IStylePainter");
+            }
+        }
+
+        public RIStylePainter() : base("UnityEngine.UIElements.IStylePainter")
+        {
+        }
+
+        public RIStylePainter(System.Object instance) : base("UnityEngine.UIElements.IStylePainter")
+		{
+            SetInstance(instance);
+		}
+
+        public RIStylePainter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIStylePainter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement visualElement
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIStylePainter() : base("UnityEngine.UIElements.IStylePainter")
-        {
-        }
-
-        public RIStylePainter(System.Object instance) : base("UnityEngine.UIElements.IStylePainter")
-		{
-            SetInstance(instance);
-		}
-
-        public RIStylePainter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIStylePainter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
         {

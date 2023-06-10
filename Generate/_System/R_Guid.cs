@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RGuid : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Guid);
+            }
+        }
+
+        public RGuid() : base("System.Guid")
+        {
+        }
+
+        public RGuid(System.Object instance) : base("System.Guid")
+		{
+            SetInstance(instance);
+		}
+
+        public RGuid(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGuid(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Guid Empty
@@ -891,23 +916,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RGuid() : base("System.Guid")
-        {
-        }
-
-        public RGuid(System.Object instance) : base("System.Guid")
-		{
-            SetInstance(instance);
-		}
-
-        public RGuid(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGuid(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Guid NewGuid()
         {

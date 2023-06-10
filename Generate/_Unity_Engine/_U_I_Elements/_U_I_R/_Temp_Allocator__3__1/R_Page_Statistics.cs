@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RPageStatistics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TempAllocator`1+PageStatistics");
+            }
+        }
+
+        public RPageStatistics() : base("UnityEngine.UIElements.UIR.TempAllocator`1+PageStatistics")
+        {
+        }
+
+        public RPageStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1+PageStatistics")
+		{
+            SetInstance(instance);
+		}
+
+        public RPageStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPageStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 size
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RPageStatistics() : base("UnityEngine.UIElements.UIR.TempAllocator`1+PageStatistics")
-        {
-        }
-
-        public RPageStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1+PageStatistics")
-		{
-            SetInstance(instance);
-		}
-
-        public RPageStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPageStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

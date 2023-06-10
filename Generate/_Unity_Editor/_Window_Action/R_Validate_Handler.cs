@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RValidateHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.WindowAction+ValidateHandler");
+            }
+        }
+
+        public RValidateHandler() : base("UnityEditor.WindowAction+ValidateHandler")
+        {
+        }
+
+        public RValidateHandler(System.Object instance) : base("UnityEditor.WindowAction+ValidateHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RValidateHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValidateHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RValidateHandler() : base("UnityEditor.WindowAction+ValidateHandler")
-        {
-        }
-
-        public RValidateHandler(System.Object instance) : base("UnityEditor.WindowAction+ValidateHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RValidateHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValidateHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(UnityEditor.EditorWindow @window, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction @action)
         {

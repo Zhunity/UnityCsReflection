@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RReflectionProbeBlendInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.ReflectionProbeBlendInfo);
+            }
+        }
+
+        public RReflectionProbeBlendInfo() : base("UnityEngine.Rendering.ReflectionProbeBlendInfo")
+        {
+        }
+
+        public RReflectionProbeBlendInfo(System.Object instance) : base("UnityEngine.Rendering.ReflectionProbeBlendInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RReflectionProbeBlendInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReflectionProbeBlendInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.ReflectionProbe probe
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RReflectionProbeBlendInfo() : base("UnityEngine.Rendering.ReflectionProbeBlendInfo")
-        {
-        }
-
-        public RReflectionProbeBlendInfo(System.Object instance) : base("UnityEngine.Rendering.ReflectionProbeBlendInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RReflectionProbeBlendInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReflectionProbeBlendInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

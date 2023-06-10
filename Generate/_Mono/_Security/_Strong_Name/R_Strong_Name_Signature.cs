@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 	/// </summary>
     public partial class RStrongNameSignature : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Mono.Security.StrongName+StrongNameSignature");
+            }
+        }
+
+        public RStrongNameSignature() : base("Mono.Security.StrongName+StrongNameSignature")
+        {
+        }
+
+        public RStrongNameSignature(System.Object instance) : base("Mono.Security.StrongName+StrongNameSignature")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongNameSignature(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongNameSignature(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] hash
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			}
 		}
 
-
-        public RStrongNameSignature() : base("Mono.Security.StrongName+StrongNameSignature")
-        {
-        }
-
-        public RStrongNameSignature(System.Object instance) : base("Mono.Security.StrongName+StrongNameSignature")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongNameSignature(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongNameSignature(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

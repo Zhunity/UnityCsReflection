@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RCamera : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Camera);
+            }
+        }
+
+        public RCamera() : base("UnityEngine.Camera")
+        {
+        }
+
+        public RCamera(System.Object instance) : base("UnityEngine.Camera")
+		{
+            SetInstance(instance);
+		}
+
+        public RCamera(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCamera(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single kMinAperture
@@ -4859,23 +4884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RCamera() : base("UnityEngine.Camera")
-        {
-        }
-
-        public RCamera(System.Object instance) : base("UnityEngine.Camera")
-		{
-            SetInstance(instance);
-		}
-
-        public RCamera(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCamera(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

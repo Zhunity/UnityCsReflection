@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RInsertionBehavior : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.InsertionBehavior");
+            }
+        }
+
+        public RInsertionBehavior() : base("System.Collections.Generic.InsertionBehavior")
+        {
+        }
+
+        public RInsertionBehavior(System.Object instance) : base("System.Collections.Generic.InsertionBehavior")
+		{
+            SetInstance(instance);
+		}
+
+        public RInsertionBehavior(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInsertionBehavior(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RInsertionBehavior() : base("System.Collections.Generic.InsertionBehavior")
-        {
-        }
-
-        public RInsertionBehavior(System.Object instance) : base("System.Collections.Generic.InsertionBehavior")
-		{
-            SetInstance(instance);
-		}
-
-        public RInsertionBehavior(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInsertionBehavior(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

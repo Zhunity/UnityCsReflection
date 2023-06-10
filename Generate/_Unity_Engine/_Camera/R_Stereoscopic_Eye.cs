@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RStereoscopicEye : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Camera+StereoscopicEye");
+            }
+        }
+
+        public RStereoscopicEye() : base("UnityEngine.Camera+StereoscopicEye")
+        {
+        }
+
+        public RStereoscopicEye(System.Object instance) : base("UnityEngine.Camera+StereoscopicEye")
+		{
+            SetInstance(instance);
+		}
+
+        public RStereoscopicEye(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStereoscopicEye(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RStereoscopicEye() : base("UnityEngine.Camera+StereoscopicEye")
-        {
-        }
-
-        public RStereoscopicEye(System.Object instance) : base("UnityEngine.Camera+StereoscopicEye")
-		{
-            SetInstance(instance);
-		}
-
-        public RStereoscopicEye(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStereoscopicEye(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

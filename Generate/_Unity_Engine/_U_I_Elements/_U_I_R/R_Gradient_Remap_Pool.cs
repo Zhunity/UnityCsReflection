@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RGradientRemapPool : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientRemapPool");
+            }
+        }
+
+        public RGradientRemapPool() : base("UnityEngine.UIElements.UIR.GradientRemapPool")
+        {
+        }
+
+        public RGradientRemapPool(System.Object instance) : base("UnityEngine.UIElements.UIR.GradientRemapPool")
+		{
+            SetInstance(instance);
+		}
+
+        public RGradientRemapPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGradientRemapPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 Count
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RGradientRemapPool() : base("UnityEngine.UIElements.UIR.GradientRemapPool")
-        {
-        }
-
-        public RGradientRemapPool(System.Object instance) : base("UnityEngine.UIElements.UIR.GradientRemapPool")
-		{
-            SetInstance(instance);
-		}
-
-        public RGradientRemapPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGradientRemapPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

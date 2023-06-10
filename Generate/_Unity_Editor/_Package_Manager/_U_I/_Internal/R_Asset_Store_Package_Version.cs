@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStorePackageVersion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion");
+            }
+        }
+
+        public RAssetStorePackageVersion() : base("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion")
+        {
+        }
+
+        public RAssetStorePackageVersion(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStorePackageVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStorePackageVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_IncompatibleWarningMessage
@@ -1083,23 +1108,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStorePackageVersion() : base("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion")
-        {
-        }
-
-        public RAssetStorePackageVersion(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStorePackageVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStorePackageVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy)
         {

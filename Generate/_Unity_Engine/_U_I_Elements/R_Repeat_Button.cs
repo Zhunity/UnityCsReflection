@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRepeatButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.RepeatButton);
+            }
+        }
+
+        public RRepeatButton() : base("UnityEngine.UIElements.RepeatButton")
+        {
+        }
+
+        public RRepeatButton(System.Object instance) : base("UnityEngine.UIElements.RepeatButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RRepeatButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRepeatButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Clickable m_Clickable
@@ -3867,23 +3892,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRepeatButton() : base("UnityEngine.UIElements.RepeatButton")
-        {
-        }
-
-        public RRepeatButton(System.Object instance) : base("UnityEngine.UIElements.RepeatButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RRepeatButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRepeatButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetAction(System.Action @clickEvent, System.Int64 @delay, System.Int64 @interval)
         {

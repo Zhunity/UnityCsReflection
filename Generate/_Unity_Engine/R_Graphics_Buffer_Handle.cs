@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGraphicsBufferHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GraphicsBufferHandle);
+            }
+        }
+
+        public RGraphicsBufferHandle() : base("UnityEngine.GraphicsBufferHandle")
+        {
+        }
+
+        public RGraphicsBufferHandle(System.Object instance) : base("UnityEngine.GraphicsBufferHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RGraphicsBufferHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGraphicsBufferHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 value
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGraphicsBufferHandle() : base("UnityEngine.GraphicsBufferHandle")
-        {
-        }
-
-        public RGraphicsBufferHandle(System.Object instance) : base("UnityEngine.GraphicsBufferHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RGraphicsBufferHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGraphicsBufferHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RTrimType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.String+TrimType");
+            }
+        }
+
+        public RTrimType() : base("System.String+TrimType")
+        {
+        }
+
+        public RTrimType(System.Object instance) : base("System.String+TrimType")
+		{
+            SetInstance(instance);
+		}
+
+        public RTrimType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTrimType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RTrimType() : base("System.String+TrimType")
-        {
-        }
-
-        public RTrimType(System.Object instance) : base("System.String+TrimType")
-		{
-            SetInstance(instance);
-		}
-
-        public RTrimType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTrimType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

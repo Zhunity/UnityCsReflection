@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 	/// </summary>
     public partial class RSafePasswordHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle");
+            }
+        }
+
+        public RSafePasswordHandle() : base("Microsoft.Win32.SafeHandles.SafePasswordHandle")
+        {
+        }
+
+        public RSafePasswordHandle(System.Object instance) : base("Microsoft.Win32.SafeHandles.SafePasswordHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafePasswordHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafePasswordHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr handle
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 			}
 		}
 
-
-        public RSafePasswordHandle() : base("Microsoft.Win32.SafeHandles.SafePasswordHandle")
-        {
-        }
-
-        public RSafePasswordHandle(System.Object instance) : base("Microsoft.Win32.SafeHandles.SafePasswordHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafePasswordHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafePasswordHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.IntPtr CreateHandle(System.String @password)
         {

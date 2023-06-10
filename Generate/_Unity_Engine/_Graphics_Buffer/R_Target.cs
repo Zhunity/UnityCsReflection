@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTarget : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target");
+            }
+        }
+
+        public RTarget() : base("UnityEngine.GraphicsBuffer+Target")
+        {
+        }
+
+        public RTarget(System.Object instance) : base("UnityEngine.GraphicsBuffer+Target")
+		{
+            SetInstance(instance);
+		}
+
+        public RTarget(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTarget(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -397,23 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTarget() : base("UnityEngine.GraphicsBuffer+Target")
-        {
-        }
-
-        public RTarget(System.Object instance) : base("UnityEngine.GraphicsBuffer+Target")
-		{
-            SetInstance(instance);
-		}
-
-        public RTarget(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTarget(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

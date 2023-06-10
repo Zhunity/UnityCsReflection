@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageLoadBar : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageLoadBar");
+            }
+        }
+
+        public RPackageLoadBar() : base("UnityEditor.PackageManager.UI.Internal.PackageLoadBar")
+        {
+        }
+
+        public RPackageLoadBar(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageLoadBar")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageLoadBar(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageLoadBar(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_FixedHeight
@@ -4075,23 +4100,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageLoadBar() : base("UnityEditor.PackageManager.UI.Internal.PackageLoadBar")
-        {
-        }
-
-        public RPackageLoadBar(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageLoadBar")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageLoadBar(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageLoadBar(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies()
         {

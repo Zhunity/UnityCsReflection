@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RMemory<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Memory<>);
+            }
+        }
+
+        public RMemory() : base("System.Memory`1")
+        {
+        }
+
+        public RMemory(System.Object instance) : base("System.Memory`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RMemory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMemory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object _object
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RMemory() : base("System.Memory`1")
-        {
-        }
-
-        public RMemory(System.Object instance) : base("System.Memory`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RMemory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMemory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Memory<T> op_Implicit(T[] @array)
         {

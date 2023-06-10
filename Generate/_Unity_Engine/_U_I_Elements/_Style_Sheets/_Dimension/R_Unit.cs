@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RUnit : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension+Unit");
+            }
+        }
+
+        public RUnit() : base("UnityEngine.UIElements.StyleSheets.Dimension+Unit")
+        {
+        }
+
+        public RUnit(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Dimension+Unit")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnit(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnit(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -381,23 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RUnit() : base("UnityEngine.UIElements.StyleSheets.Dimension+Unit")
-        {
-        }
-
-        public RUnit(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Dimension+Unit")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnit(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnit(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

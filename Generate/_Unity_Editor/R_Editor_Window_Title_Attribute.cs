@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class REditorWindowTitleAttribute : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.EditorWindowTitleAttribute);
+            }
+        }
+
+        public REditorWindowTitleAttribute() : base("UnityEditor.EditorWindowTitleAttribute")
+        {
+        }
+
+        public REditorWindowTitleAttribute(System.Object instance) : base("UnityEditor.EditorWindowTitleAttribute")
+		{
+            SetInstance(instance);
+		}
+
+        public REditorWindowTitleAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REditorWindowTitleAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <title>k__BackingField
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public REditorWindowTitleAttribute() : base("UnityEditor.EditorWindowTitleAttribute")
-        {
-        }
-
-        public REditorWindowTitleAttribute(System.Object instance) : base("UnityEditor.EditorWindowTitleAttribute")
-		{
-            SetInstance(instance);
-		}
-
-        public REditorWindowTitleAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REditorWindowTitleAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

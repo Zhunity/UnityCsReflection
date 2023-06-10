@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RIMembershipCondition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.IMembershipCondition);
+            }
+        }
+
+        public RIMembershipCondition() : base("System.Security.Policy.IMembershipCondition")
+        {
+        }
+
+        public RIMembershipCondition(System.Object instance) : base("System.Security.Policy.IMembershipCondition")
+		{
+            SetInstance(instance);
+		}
+
+        public RIMembershipCondition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIMembershipCondition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean Check(System.Security.Policy.Evidence)
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RIMembershipCondition() : base("System.Security.Policy.IMembershipCondition")
-        {
-        }
-
-        public RIMembershipCondition(System.Object instance) : base("System.Security.Policy.IMembershipCondition")
-		{
-            SetInstance(instance);
-		}
-
-        public RIMembershipCondition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIMembershipCondition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Check(System.Security.Policy.Evidence @evidence)
         {

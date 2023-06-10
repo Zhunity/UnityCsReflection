@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RGUIGlobals : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IMGUIContainer+GUIGlobals");
+            }
+        }
+
+        public RGUIGlobals() : base("UnityEngine.UIElements.IMGUIContainer+GUIGlobals")
+        {
+        }
+
+        public RGUIGlobals(System.Object instance) : base("UnityEngine.UIElements.IMGUIContainer+GUIGlobals")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUIGlobals(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUIGlobals(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 matrix
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RGUIGlobals() : base("UnityEngine.UIElements.IMGUIContainer+GUIGlobals")
-        {
-        }
-
-        public RGUIGlobals(System.Object instance) : base("UnityEngine.UIElements.IMGUIContainer+GUIGlobals")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUIGlobals(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUIGlobals(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

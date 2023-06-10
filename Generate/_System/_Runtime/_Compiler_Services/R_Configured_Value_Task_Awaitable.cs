@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RConfiguredValueTaskAwaitable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable);
+            }
+        }
+
+        public RConfiguredValueTaskAwaitable() : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable")
+        {
+        }
+
+        public RConfiguredValueTaskAwaitable(System.Object instance) : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable")
+		{
+            SetInstance(instance);
+		}
+
+        public RConfiguredValueTaskAwaitable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConfiguredValueTaskAwaitable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask _value
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RConfiguredValueTaskAwaitable() : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable")
-        {
-        }
-
-        public RConfiguredValueTaskAwaitable(System.Object instance) : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable")
-		{
-            SetInstance(instance);
-		}
-
-        public RConfiguredValueTaskAwaitable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConfiguredValueTaskAwaitable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredValueTaskAwaitable.RConfiguredValueTaskAwaiter GetAwaiter()
         {

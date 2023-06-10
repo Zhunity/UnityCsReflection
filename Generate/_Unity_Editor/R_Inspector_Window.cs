@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RInspectorWindow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.InspectorWindow");
+            }
+        }
+
+        public RInspectorWindow() : base("UnityEditor.InspectorWindow")
+        {
+        }
+
+        public RInspectorWindow(System.Object instance) : base("UnityEditor.InspectorWindow")
+		{
+            SetInstance(instance);
+		}
+
+        public RInspectorWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInspectorWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.InspectorWindow] m_AllInspectors
@@ -3611,23 +3636,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RInspectorWindow() : base("UnityEditor.InspectorWindow")
-        {
-        }
-
-        public RInspectorWindow(System.Object instance) : base("UnityEditor.InspectorWindow")
-		{
-            SetInstance(instance);
-		}
-
-        public RInspectorWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInspectorWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Awake()
         {

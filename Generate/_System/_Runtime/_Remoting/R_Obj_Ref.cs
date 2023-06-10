@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	/// </summary>
     public partial class RObjRef : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.ObjRef);
+            }
+        }
+
+        public RObjRef() : base("System.Runtime.Remoting.ObjRef")
+        {
+        }
+
+        public RObjRef(System.Object instance) : base("System.Runtime.Remoting.ObjRef")
+		{
+            SetInstance(instance);
+		}
+
+        public RObjRef(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObjRef(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Remoting.IChannelInfo channel_info
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 			}
 		}
 
-
-        public RObjRef() : base("System.Runtime.Remoting.ObjRef")
-        {
-        }
-
-        public RObjRef(System.Object instance) : base("System.Runtime.Remoting.ObjRef")
-		{
-            SetInstance(instance);
-		}
-
-        public RObjRef(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObjRef(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 @domainId, System.Byte[] @tInfo)
         {

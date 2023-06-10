@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RRefEmitPermissionSet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.RefEmitPermissionSet");
+            }
+        }
+
+        public RRefEmitPermissionSet() : base("System.Reflection.Emit.RefEmitPermissionSet")
+        {
+        }
+
+        public RRefEmitPermissionSet(System.Object instance) : base("System.Reflection.Emit.RefEmitPermissionSet")
+		{
+            SetInstance(instance);
+		}
+
+        public RRefEmitPermissionSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRefEmitPermissionSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Permissions.SecurityAction action
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RRefEmitPermissionSet() : base("System.Reflection.Emit.RefEmitPermissionSet")
-        {
-        }
-
-        public RRefEmitPermissionSet(System.Object instance) : base("System.Reflection.Emit.RefEmitPermissionSet")
-		{
-            SetInstance(instance);
-		}
-
-        public RRefEmitPermissionSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRefEmitPermissionSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

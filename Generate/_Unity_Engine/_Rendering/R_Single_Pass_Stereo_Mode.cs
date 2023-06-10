@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RSinglePassStereoMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.SinglePassStereoMode);
+            }
+        }
+
+        public RSinglePassStereoMode() : base("UnityEngine.Rendering.SinglePassStereoMode")
+        {
+        }
+
+        public RSinglePassStereoMode(System.Object instance) : base("UnityEngine.Rendering.SinglePassStereoMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RSinglePassStereoMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSinglePassStereoMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RSinglePassStereoMode() : base("UnityEngine.Rendering.SinglePassStereoMode")
-        {
-        }
-
-        public RSinglePassStereoMode(System.Object instance) : base("UnityEngine.Rendering.SinglePassStereoMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RSinglePassStereoMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSinglePassStereoMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

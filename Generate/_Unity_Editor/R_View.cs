@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.View");
+            }
+        }
+
+        public RView() : base("UnityEditor.View")
+        {
+        }
+
+        public RView(System.Object instance) : base("UnityEditor.View")
+		{
+            SetInstance(instance);
+		}
+
+        public RView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.MonoReloadableIntPtr m_ViewPtr
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RView() : base("UnityEditor.View")
-        {
-        }
-
-        public RView(System.Object instance) : base("UnityEditor.View")
-		{
-            SetInstance(instance);
-		}
-
-        public RView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reflow()
         {

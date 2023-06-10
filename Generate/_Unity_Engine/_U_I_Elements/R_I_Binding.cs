@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIBinding : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IBinding);
+            }
+        }
+
+        public RIBinding() : base("UnityEngine.UIElements.IBinding")
+        {
+        }
+
+        public RIBinding(System.Object instance) : base("UnityEngine.UIElements.IBinding")
+		{
+            SetInstance(instance);
+		}
+
+        public RIBinding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIBinding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void PreUpdate()
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIBinding() : base("UnityEngine.UIElements.IBinding")
-        {
-        }
-
-        public RIBinding(System.Object instance) : base("UnityEngine.UIElements.IBinding")
-		{
-            SetInstance(instance);
-		}
-
-        public RIBinding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIBinding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void PreUpdate()
         {

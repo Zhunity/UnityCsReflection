@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTouchScreenKeyboard_InternalConstructorHelperArguments : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments");
+            }
+        }
+
+        public RTouchScreenKeyboard_InternalConstructorHelperArguments() : base("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments")
+        {
+        }
+
+        public RTouchScreenKeyboard_InternalConstructorHelperArguments(System.Object instance) : base("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments")
+		{
+            SetInstance(instance);
+		}
+
+        public RTouchScreenKeyboard_InternalConstructorHelperArguments(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTouchScreenKeyboard_InternalConstructorHelperArguments(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 keyboardType
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTouchScreenKeyboard_InternalConstructorHelperArguments() : base("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments")
-        {
-        }
-
-        public RTouchScreenKeyboard_InternalConstructorHelperArguments(System.Object instance) : base("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments")
-		{
-            SetInstance(instance);
-		}
-
-        public RTouchScreenKeyboard_InternalConstructorHelperArguments(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTouchScreenKeyboard_InternalConstructorHelperArguments(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

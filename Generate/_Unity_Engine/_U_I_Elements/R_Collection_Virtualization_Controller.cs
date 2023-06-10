@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RCollectionVirtualizationController : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.CollectionVirtualizationController");
+            }
+        }
+
+        public RCollectionVirtualizationController() : base("UnityEngine.UIElements.CollectionVirtualizationController")
+        {
+        }
+
+        public RCollectionVirtualizationController(System.Object instance) : base("UnityEngine.UIElements.CollectionVirtualizationController")
+		{
+            SetInstance(instance);
+		}
+
+        public RCollectionVirtualizationController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCollectionVirtualizationController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView m_ScrollView
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RCollectionVirtualizationController() : base("UnityEngine.UIElements.CollectionVirtualizationController")
-        {
-        }
-
-        public RCollectionVirtualizationController(System.Object instance) : base("UnityEngine.UIElements.CollectionVirtualizationController")
-		{
-            SetInstance(instance);
-		}
-
-        public RCollectionVirtualizationController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCollectionVirtualizationController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Refresh(System.Boolean @rebuild)
         {

@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RIMessageCtrl : RMember //
     {
-
-		/// <summary>
-		/// Void Cancel(Int32)
-		/// </summary>
-		protected RMethod r_MCancel_Int32;
-		public virtual RMethod RMCancel_Int32
-		{
-			get
-			{
-				if(r_MCancel_Int32 == null)
-				{
-					r_MCancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
-				}
-				return r_MCancel_Int32;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Messaging.IMessageCtrl);
+            }
+        }
 
         public RIMessageCtrl() : base("System.Runtime.Remoting.Messaging.IMessageCtrl")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		 public RIMessageCtrl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void Cancel(Int32)
+		/// </summary>
+		protected RMethod r_MCancel_Int32;
+		public virtual RMethod RMCancel_Int32
+		{
+			get
+			{
+				if(r_MCancel_Int32 == null)
+				{
+					r_MCancel_Int32 = new(this, "Cancel", 0, typeof(System.Int32));
+				}
+				return r_MCancel_Int32;
+			}
+		}
+
 
         public virtual void Cancel(System.Int32 @msToCancel)
         {

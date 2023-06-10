@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RIEditorWindowBackend : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IEditorWindowBackend");
+            }
+        }
+
+        public RIEditorWindowBackend() : base("UnityEditor.IEditorWindowBackend")
+        {
+        }
+
+        public RIEditorWindowBackend(System.Object instance) : base("UnityEditor.IEditorWindowBackend")
+		{
+            SetInstance(instance);
+		}
+
+        public RIEditorWindowBackend(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIEditorWindowBackend(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action overlayGUIHandler
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RIEditorWindowBackend() : base("UnityEditor.IEditorWindowBackend")
-        {
-        }
-
-        public RIEditorWindowBackend(System.Object instance) : base("UnityEditor.IEditorWindowBackend")
-		{
-            SetInstance(instance);
-		}
-
-        public RIEditorWindowBackend(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIEditorWindowBackend(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void PlayModeTintColorChanged()
         {

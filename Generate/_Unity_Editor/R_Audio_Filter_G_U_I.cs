@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RAudioFilterGUI : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.AudioFilterGUI");
+            }
+        }
+
+        public RAudioFilterGUI() : base("UnityEditor.AudioFilterGUI")
+        {
+        }
+
+        public RAudioFilterGUI(System.Object instance) : base("UnityEditor.AudioFilterGUI")
+		{
+            SetInstance(instance);
+		}
+
+        public RAudioFilterGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAudioFilterGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.EditorGUI+VUMeter+SmoothingData[] dataOut
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RAudioFilterGUI() : base("UnityEditor.AudioFilterGUI")
-        {
-        }
-
-        public RAudioFilterGUI(System.Object instance) : base("UnityEditor.AudioFilterGUI")
-		{
-            SetInstance(instance);
-		}
-
-        public RAudioFilterGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAudioFilterGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void DrawAudioFilterGUI(UnityEngine.MonoBehaviour @behaviour)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RMeshHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle");
+            }
+        }
+
+        public RMeshHandle() : base("UnityEngine.UIElements.UIR.MeshHandle")
+        {
+        }
+
+        public RMeshHandle(System.Object instance) : base("UnityEngine.UIElements.UIR.MeshHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc allocVerts
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RMeshHandle() : base("UnityEngine.UIElements.UIR.MeshHandle")
-        {
-        }
-
-        public RMeshHandle(System.Object instance) : base("UnityEngine.UIElements.UIR.MeshHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

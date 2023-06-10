@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RSynchronisationStage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.SynchronisationStage);
+            }
+        }
+
+        public RSynchronisationStage() : base("UnityEngine.Rendering.SynchronisationStage")
+        {
+        }
+
+        public RSynchronisationStage(System.Object instance) : base("UnityEngine.Rendering.SynchronisationStage")
+		{
+            SetInstance(instance);
+		}
+
+        public RSynchronisationStage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSynchronisationStage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RSynchronisationStage() : base("UnityEngine.Rendering.SynchronisationStage")
-        {
-        }
-
-        public RSynchronisationStage(System.Object instance) : base("UnityEngine.Rendering.SynchronisationStage")
-		{
-            SetInstance(instance);
-		}
-
-        public RSynchronisationStage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSynchronisationStage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

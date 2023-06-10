@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RRoundingMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Decimal+DecCalc+RoundingMode");
+            }
+        }
+
+        public RRoundingMode() : base("System.Decimal+DecCalc+RoundingMode")
+        {
+        }
+
+        public RRoundingMode(System.Object instance) : base("System.Decimal+DecCalc+RoundingMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RRoundingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRoundingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -319,23 +344,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RRoundingMode() : base("System.Decimal+DecCalc+RoundingMode")
-        {
-        }
-
-        public RRoundingMode(System.Object instance) : base("System.Decimal+DecCalc+RoundingMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RRoundingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRoundingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

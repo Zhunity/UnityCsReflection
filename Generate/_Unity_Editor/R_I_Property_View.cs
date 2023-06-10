@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RIPropertyView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IPropertyView");
+            }
+        }
+
+        public RIPropertyView() : base("UnityEditor.IPropertyView")
+        {
+        }
+
+        public RIPropertyView(System.Object instance) : base("UnityEditor.IPropertyView")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPropertyView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPropertyView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker tracker
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RIPropertyView() : base("UnityEditor.IPropertyView")
-        {
-        }
-
-        public RIPropertyView(System.Object instance) : base("UnityEditor.IPropertyView")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPropertyView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPropertyView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @headerOnGUI, System.String @v)
         {

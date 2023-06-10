@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 	/// </summary>
     public partial class RRenewalDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate");
+            }
+        }
+
+        public RRenewalDelegate() : base("System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate")
+        {
+        }
+
+        public RRenewalDelegate(System.Object instance) : base("System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenewalDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenewalDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 			}
 		}
 
-
-        public RRenewalDelegate() : base("System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate")
-        {
-        }
-
-        public RRenewalDelegate(System.Object instance) : base("System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenewalDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenewalDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.TimeSpan Invoke(System.Runtime.Remoting.Lifetime.ILease @lease)
         {

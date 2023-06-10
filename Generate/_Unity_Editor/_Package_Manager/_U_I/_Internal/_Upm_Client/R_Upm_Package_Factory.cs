@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmPackageFactory : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmClient+UpmPackageFactory");
+            }
+        }
+
+        public RUpmPackageFactory() : base("UnityEditor.PackageManager.UI.Internal.UpmClient+UpmPackageFactory")
+        {
+        }
+
+        public RUpmPackageFactory(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmClient+UpmPackageFactory")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmPackageFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmPackageFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UpmCache m_UpmCache
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmPackageFactory() : base("UnityEditor.PackageManager.UI.Internal.UpmClient+UpmPackageFactory")
-        {
-        }
-
-        public RUpmPackageFactory(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmClient+UpmPackageFactory")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmPackageFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmPackageFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmClient @upmClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerProjectSettingsProxy @settingsProxy)
         {

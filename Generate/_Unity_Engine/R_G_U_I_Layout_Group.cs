@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGUILayoutGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.GUILayoutGroup");
+            }
+        }
+
+        public RGUILayoutGroup() : base("UnityEngine.GUILayoutGroup")
+        {
+        }
+
+        public RGUILayoutGroup(System.Object instance) : base("UnityEngine.GUILayoutGroup")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUILayoutGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUILayoutGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.GUILayoutEntry] entries
@@ -859,23 +884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGUILayoutGroup() : base("UnityEngine.GUILayoutGroup")
-        {
-        }
-
-        public RGUILayoutGroup(System.Object instance) : base("UnityEngine.GUILayoutGroup")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUILayoutGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUILayoutGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ApplyOptions(UnityEngine.GUILayoutOption[] @options)
         {

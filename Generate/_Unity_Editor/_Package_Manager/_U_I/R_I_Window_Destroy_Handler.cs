@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIWindowDestroyHandler : RMember //
     {
-
-		/// <summary>
-		/// Void OnWindowDestroy(UnityEditor.PackageManager.UI.WindowDestroyArgs)
-		/// </summary>
-		protected RMethod r_MOnWindowDestroy_WindowDestroyArgs;
-		public virtual RMethod RMOnWindowDestroy_WindowDestroyArgs
-		{
-			get
-			{
-				if(r_MOnWindowDestroy_WindowDestroyArgs == null)
-				{
-					r_MOnWindowDestroy_WindowDestroyArgs = new(this, "OnWindowDestroy", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowDestroyArgs"));
-				}
-				return r_MOnWindowDestroy_WindowDestroyArgs;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IWindowDestroyHandler");
+            }
+        }
 
         public RIWindowDestroyHandler() : base("UnityEditor.PackageManager.UI.IWindowDestroyHandler")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		 public RIWindowDestroyHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void OnWindowDestroy(UnityEditor.PackageManager.UI.WindowDestroyArgs)
+		/// </summary>
+		protected RMethod r_MOnWindowDestroy_WindowDestroyArgs;
+		public virtual RMethod RMOnWindowDestroy_WindowDestroyArgs
+		{
+			get
+			{
+				if(r_MOnWindowDestroy_WindowDestroyArgs == null)
+				{
+					r_MOnWindowDestroy_WindowDestroyArgs = new(this, "OnWindowDestroy", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowDestroyArgs"));
+				}
+				return r_MOnWindowDestroy_WindowDestroyArgs;
+			}
+		}
+
 
         public virtual void OnWindowDestroy(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RWindowDestroyArgs @args)
         {

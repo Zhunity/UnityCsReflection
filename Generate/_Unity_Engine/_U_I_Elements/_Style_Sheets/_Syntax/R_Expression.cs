@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 	/// </summary>
     public partial class RExpression : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.Expression");
+            }
+        }
+
+        public RExpression() : base("UnityEngine.UIElements.StyleSheets.Syntax.Expression")
+        {
+        }
+
+        public RExpression(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.Expression")
+		{
+            SetInstance(instance);
+		}
+
+        public RExpression(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExpression(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Syntax.ExpressionType type
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 			}
 		}
 
-
-        public RExpression() : base("UnityEngine.UIElements.StyleSheets.Syntax.Expression")
-        {
-        }
-
-        public RExpression(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.Expression")
-		{
-            SetInstance(instance);
-		}
-
-        public RExpression(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExpression(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

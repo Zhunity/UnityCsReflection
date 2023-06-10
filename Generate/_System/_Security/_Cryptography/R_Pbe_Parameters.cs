@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RPbeParameters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.PbeParameters);
+            }
+        }
+
+        public RPbeParameters() : base("System.Security.Cryptography.PbeParameters")
+        {
+        }
+
+        public RPbeParameters(System.Object instance) : base("System.Security.Cryptography.PbeParameters")
+		{
+            SetInstance(instance);
+		}
+
+        public RPbeParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPbeParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Cryptography.PbeEncryptionAlgorithm <EncryptionAlgorithm>k__BackingField
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RPbeParameters() : base("System.Security.Cryptography.PbeParameters")
-        {
-        }
-
-        public RPbeParameters(System.Object instance) : base("System.Security.Cryptography.PbeParameters")
-		{
-            SetInstance(instance);
-		}
-
-        public RPbeParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPbeParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

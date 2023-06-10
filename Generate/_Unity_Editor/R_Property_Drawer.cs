@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPropertyDrawer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PropertyDrawer);
+            }
+        }
+
+        public RPropertyDrawer() : base("UnityEditor.PropertyDrawer")
+        {
+        }
+
+        public RPropertyDrawer(System.Object instance) : base("UnityEditor.PropertyDrawer")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropertyDrawer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropertyDrawer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.PropertyAttribute m_Attribute
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPropertyDrawer() : base("UnityEditor.PropertyDrawer")
-        {
-        }
-
-        public RPropertyDrawer(System.Object instance) : base("UnityEditor.PropertyDrawer")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropertyDrawer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropertyDrawer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnGUISafe(UnityEngine.Rect @position, UnityEditor.SerializedProperty @property, UnityEngine.GUIContent @label)
         {

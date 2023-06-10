@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class RDockZone : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.Overlays.DockZone);
+            }
+        }
+
+        public RDockZone() : base("UnityEditor.Overlays.DockZone")
+        {
+        }
+
+        public RDockZone(System.Object instance) : base("UnityEditor.Overlays.DockZone")
+		{
+            SetInstance(instance);
+		}
+
+        public RDockZone(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDockZone(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public RDockZone() : base("UnityEditor.Overlays.DockZone")
-        {
-        }
-
-        public RDockZone(System.Object instance) : base("UnityEditor.Overlays.DockZone")
-		{
-            SetInstance(instance);
-		}
-
-        public RDockZone(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDockZone(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

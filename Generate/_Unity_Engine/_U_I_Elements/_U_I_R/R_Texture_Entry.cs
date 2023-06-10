@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RTextureEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureEntry");
+            }
+        }
+
+        public RTextureEntry() : base("UnityEngine.UIElements.UIR.TextureEntry")
+        {
+        }
+
+        public RTextureEntry(System.Object instance) : base("UnityEngine.UIElements.UIR.TextureEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextureEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextureEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Texture source
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RTextureEntry() : base("UnityEngine.UIElements.UIR.TextureEntry")
-        {
-        }
-
-        public RTextureEntry(System.Object instance) : base("UnityEngine.UIElements.UIR.TextureEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextureEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextureEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

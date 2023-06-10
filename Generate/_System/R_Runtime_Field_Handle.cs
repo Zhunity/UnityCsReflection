@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RRuntimeFieldHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.RuntimeFieldHandle);
+            }
+        }
+
+        public RRuntimeFieldHandle() : base("System.RuntimeFieldHandle")
+        {
+        }
+
+        public RRuntimeFieldHandle(System.Object instance) : base("System.RuntimeFieldHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeFieldHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeFieldHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr value
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RRuntimeFieldHandle() : base("System.RuntimeFieldHandle")
-        {
-        }
-
-        public RRuntimeFieldHandle(System.Object instance) : base("System.RuntimeFieldHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeFieldHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeFieldHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsNullHandle()
         {

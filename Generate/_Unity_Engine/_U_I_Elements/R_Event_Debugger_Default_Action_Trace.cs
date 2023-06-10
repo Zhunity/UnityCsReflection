@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class REventDebuggerDefaultActionTrace : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerDefaultActionTrace");
+            }
+        }
+
+        public REventDebuggerDefaultActionTrace() : base("UnityEngine.UIElements.EventDebuggerDefaultActionTrace")
+        {
+        }
+
+        public REventDebuggerDefaultActionTrace(System.Object instance) : base("UnityEngine.UIElements.EventDebuggerDefaultActionTrace")
+		{
+            SetInstance(instance);
+		}
+
+        public REventDebuggerDefaultActionTrace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventDebuggerDefaultActionTrace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.PropagationPhase <phase>k__BackingField
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public REventDebuggerDefaultActionTrace() : base("UnityEngine.UIElements.EventDebuggerDefaultActionTrace")
-        {
-        }
-
-        public REventDebuggerDefaultActionTrace(System.Object instance) : base("UnityEngine.UIElements.EventDebuggerDefaultActionTrace")
-		{
-            SetInstance(instance);
-		}
-
-        public REventDebuggerDefaultActionTrace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventDebuggerDefaultActionTrace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

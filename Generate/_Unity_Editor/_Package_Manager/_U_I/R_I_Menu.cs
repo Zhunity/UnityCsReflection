@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIMenu : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IMenu");
+            }
+        }
+
+        public RIMenu() : base("UnityEditor.PackageManager.UI.IMenu")
+        {
+        }
+
+        public RIMenu(System.Object instance) : base("UnityEditor.PackageManager.UI.IMenu")
+		{
+            SetInstance(instance);
+		}
+
+        public RIMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IMenuDropdownItem AddDropdownItem()
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIMenu() : base("UnityEditor.PackageManager.UI.IMenu")
-        {
-        }
-
-        public RIMenu(System.Object instance) : base("UnityEditor.PackageManager.UI.IMenu")
-		{
-            SetInstance(instance);
-		}
-
-        public RIMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIMenuDropdownItem AddDropdownItem()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAceType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AceType);
+            }
+        }
+
+        public RAceType() : base("System.Security.AccessControl.AceType")
+        {
+        }
+
+        public RAceType(System.Object instance) : base("System.Security.AccessControl.AceType")
+		{
+            SetInstance(instance);
+		}
+
+        public RAceType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAceType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAceType() : base("System.Security.AccessControl.AceType")
-        {
-        }
-
-        public RAceType(System.Object instance) : base("System.Security.AccessControl.AceType")
-		{
-            SetInstance(instance);
-		}
-
-        public RAceType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAceType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

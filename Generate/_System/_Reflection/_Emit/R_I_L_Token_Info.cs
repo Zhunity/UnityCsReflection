@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RILTokenInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.ILTokenInfo");
+            }
+        }
+
+        public RILTokenInfo() : base("System.Reflection.Emit.ILTokenInfo")
+        {
+        }
+
+        public RILTokenInfo(System.Object instance) : base("System.Reflection.Emit.ILTokenInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RILTokenInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RILTokenInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.MemberInfo member
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RILTokenInfo() : base("System.Reflection.Emit.ILTokenInfo")
-        {
-        }
-
-        public RILTokenInfo(System.Object instance) : base("System.Reflection.Emit.ILTokenInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RILTokenInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RILTokenInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

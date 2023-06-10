@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RNullable<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Nullable<>);
+            }
+        }
+
+        public RNullable() : base("System.Nullable`1")
+        {
+        }
+
+        public RNullable(System.Object instance) : base("System.Nullable`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RNullable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNullable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean hasValue
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RNullable() : base("System.Nullable`1")
-        {
-        }
-
-        public RNullable(System.Object instance) : base("System.Nullable`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RNullable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNullable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RType GetValueOrDefault()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 	/// </summary>
     public partial class REnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1+Enumerator");
+            }
+        }
+
+        public REnumerator() : base("Unity.Collections.NativeSlice`1+Enumerator")
+        {
+        }
+
+        public REnumerator(System.Object instance) : base("Unity.Collections.NativeSlice`1+Enumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[T] m_Array
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			}
 		}
 
-
-        public REnumerator() : base("Unity.Collections.NativeSlice`1+Enumerator")
-        {
-        }
-
-        public REnumerator(System.Object instance) : base("Unity.Collections.NativeSlice`1+Enumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

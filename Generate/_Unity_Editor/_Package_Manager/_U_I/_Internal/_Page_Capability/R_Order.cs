@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class ROrder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageCapability+Order");
+            }
+        }
+
+        public ROrder() : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Order")
+        {
+        }
+
+        public ROrder(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Order")
+		{
+            SetInstance(instance);
+		}
+
+        public ROrder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROrder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public ROrder() : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Order")
-        {
-        }
-
-        public ROrder(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Order")
-		{
-            SetInstance(instance);
-		}
-
-        public ROrder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROrder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

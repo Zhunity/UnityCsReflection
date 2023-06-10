@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RSample : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.UI.Sample);
+            }
+        }
+
+        public RSample() : base("UnityEditor.PackageManager.UI.Sample")
+        {
+        }
+
+        public RSample(System.Object instance) : base("UnityEditor.PackageManager.UI.Sample")
+		{
+            SetInstance(instance);
+		}
+
+        public RSample(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSample(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_CopySamplesFilesTitle
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RSample() : base("UnityEditor.PackageManager.UI.Sample")
-        {
-        }
-
-        public RSample(System.Object instance) : base("UnityEditor.PackageManager.UI.Sample")
-		{
-            SetInstance(instance);
-		}
-
-        public RSample(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSample(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample> FindByPackage(UnityEditor.PackageManager.PackageInfo @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy @assetDatabaseProxy)
         {

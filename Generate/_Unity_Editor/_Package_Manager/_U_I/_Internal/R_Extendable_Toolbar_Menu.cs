@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RExtendableToolbarMenu : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ExtendableToolbarMenu");
+            }
+        }
+
+        public RExtendableToolbarMenu() : base("UnityEditor.PackageManager.UI.Internal.ExtendableToolbarMenu")
+        {
+        }
+
+        public RExtendableToolbarMenu(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ExtendableToolbarMenu")
+		{
+            SetInstance(instance);
+		}
+
+        public RExtendableToolbarMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExtendableToolbarMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onClick
@@ -4075,23 +4100,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RExtendableToolbarMenu() : base("UnityEditor.PackageManager.UI.Internal.ExtendableToolbarMenu")
-        {
-        }
-
-        public RExtendableToolbarMenu(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ExtendableToolbarMenu")
-		{
-            SetInstance(instance);
-		}
-
-        public RExtendableToolbarMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExtendableToolbarMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies()
         {

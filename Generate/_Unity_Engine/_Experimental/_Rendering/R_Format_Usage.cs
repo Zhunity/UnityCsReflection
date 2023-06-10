@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RFormatUsage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.FormatUsage);
+            }
+        }
+
+        public RFormatUsage() : base("UnityEngine.Experimental.Rendering.FormatUsage")
+        {
+        }
+
+        public RFormatUsage(System.Object instance) : base("UnityEngine.Experimental.Rendering.FormatUsage")
+		{
+            SetInstance(instance);
+		}
+
+        public RFormatUsage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFormatUsage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RFormatUsage() : base("UnityEngine.Experimental.Rendering.FormatUsage")
-        {
-        }
-
-        public RFormatUsage(System.Object instance) : base("UnityEngine.Experimental.Rendering.FormatUsage")
-		{
-            SetInstance(instance);
-		}
-
-        public RFormatUsage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFormatUsage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

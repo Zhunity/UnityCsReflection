@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RPbeEncryptionAlgorithm : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.PbeEncryptionAlgorithm);
+            }
+        }
+
+        public RPbeEncryptionAlgorithm() : base("System.Security.Cryptography.PbeEncryptionAlgorithm")
+        {
+        }
+
+        public RPbeEncryptionAlgorithm(System.Object instance) : base("System.Security.Cryptography.PbeEncryptionAlgorithm")
+		{
+            SetInstance(instance);
+		}
+
+        public RPbeEncryptionAlgorithm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPbeEncryptionAlgorithm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RPbeEncryptionAlgorithm() : base("System.Security.Cryptography.PbeEncryptionAlgorithm")
-        {
-        }
-
-        public RPbeEncryptionAlgorithm(System.Object instance) : base("System.Security.Cryptography.PbeEncryptionAlgorithm")
-		{
-            SetInstance(instance);
-		}
-
-        public RPbeEncryptionAlgorithm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPbeEncryptionAlgorithm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

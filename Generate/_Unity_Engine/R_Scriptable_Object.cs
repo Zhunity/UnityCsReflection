@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RScriptableObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.ScriptableObject);
+            }
+        }
+
+        public RScriptableObject() : base("UnityEngine.ScriptableObject")
+        {
+        }
+
+        public RScriptableObject(System.Object instance) : base("UnityEngine.ScriptableObject")
+		{
+            SetInstance(instance);
+		}
+
+        public RScriptableObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScriptableObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RScriptableObject() : base("UnityEngine.ScriptableObject")
-        {
-        }
-
-        public RScriptableObject(System.Object instance) : base("UnityEngine.ScriptableObject")
-		{
-            SetInstance(instance);
-		}
-
-        public RScriptableObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScriptableObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetDirty()
         {

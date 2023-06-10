@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRenderTextureFormat : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.RenderTextureFormat);
+            }
+        }
+
+        public RRenderTextureFormat() : base("UnityEngine.RenderTextureFormat")
+        {
+        }
+
+        public RRenderTextureFormat(System.Object instance) : base("UnityEngine.RenderTextureFormat")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderTextureFormat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderTextureFormat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -683,23 +708,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRenderTextureFormat() : base("UnityEngine.RenderTextureFormat")
-        {
-        }
-
-        public RRenderTextureFormat(System.Object instance) : base("UnityEngine.RenderTextureFormat")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderTextureFormat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderTextureFormat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

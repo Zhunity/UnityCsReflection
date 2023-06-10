@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RBoolean : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Boolean);
+            }
+        }
+
+        public RBoolean() : base("System.Boolean")
+        {
+        }
+
+        public RBoolean(System.Object instance) : base("System.Boolean")
+		{
+            SetInstance(instance);
+		}
+
+        public RBoolean(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBoolean(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean m_value
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RBoolean() : base("System.Boolean")
-        {
-        }
-
-        public RBoolean(System.Object instance) : base("System.Boolean")
-		{
-            SetInstance(instance);
-		}
-
-        public RBoolean(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBoolean(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

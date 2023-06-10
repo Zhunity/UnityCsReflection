@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RCodeGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.CodeGroup);
+            }
+        }
+
+        public RCodeGroup() : base("System.Security.Policy.CodeGroup")
+        {
+        }
+
+        public RCodeGroup(System.Object instance) : base("System.Security.Policy.CodeGroup")
+		{
+            SetInstance(instance);
+		}
+
+        public RCodeGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCodeGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Policy.PolicyStatement m_policy
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RCodeGroup() : base("System.Security.Policy.CodeGroup")
-        {
-        }
-
-        public RCodeGroup(System.Object instance) : base("System.Security.Policy.CodeGroup")
-		{
-            SetInstance(instance);
-		}
-
-        public RCodeGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCodeGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.Policy.CodeGroup Copy()
         {

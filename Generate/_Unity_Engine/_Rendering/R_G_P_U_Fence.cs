@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RGPUFence : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.GraphicsFence);
+            }
+        }
+
+        public RGPUFence() : base("UnityEngine.Rendering.GPUFence")
+        {
+        }
+
+        public RGPUFence(System.Object instance) : base("UnityEngine.Rendering.GPUFence")
+		{
+            SetInstance(instance);
+		}
+
+        public RGPUFence(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGPUFence(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean passed
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RGPUFence() : base("UnityEngine.Rendering.GPUFence")
-        {
-        }
-
-        public RGPUFence(System.Object instance) : base("UnityEngine.Rendering.GPUFence")
-		{
-            SetInstance(instance);
-		}
-
-        public RGPUFence(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGPUFence(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

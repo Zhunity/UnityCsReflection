@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 	/// </summary>
     public partial class RGlyphMetrics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.GlyphMetrics);
+            }
+        }
+
+        public RGlyphMetrics() : base("UnityEngine.TextCore.GlyphMetrics")
+        {
+        }
+
+        public RGlyphMetrics(System.Object instance) : base("UnityEngine.TextCore.GlyphMetrics")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlyphMetrics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlyphMetrics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_Width
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			}
 		}
 
-
-        public RGlyphMetrics() : base("UnityEngine.TextCore.GlyphMetrics")
-        {
-        }
-
-        public RGlyphMetrics(System.Object instance) : base("UnityEngine.TextCore.GlyphMetrics")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlyphMetrics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlyphMetrics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

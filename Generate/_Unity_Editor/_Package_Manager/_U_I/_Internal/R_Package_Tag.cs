@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageTag : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageTag");
+            }
+        }
+
+        public RPackageTag() : base("UnityEditor.PackageManager.UI.Internal.PackageTag")
+        {
+        }
+
+        public RPackageTag(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageTag")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageTag(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageTag(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 value__
@@ -587,23 +612,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageTag() : base("UnityEditor.PackageManager.UI.Internal.PackageTag")
-        {
-        }
-
-        public RPackageTag(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageTag")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageTag(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageTag(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

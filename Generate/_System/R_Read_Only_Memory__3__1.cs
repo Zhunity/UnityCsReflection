@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RReadOnlyMemory<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ReadOnlyMemory<>);
+            }
+        }
+
+        public RReadOnlyMemory() : base("System.ReadOnlyMemory`1")
+        {
+        }
+
+        public RReadOnlyMemory(System.Object instance) : base("System.ReadOnlyMemory`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RReadOnlyMemory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReadOnlyMemory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object _object
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RReadOnlyMemory() : base("System.ReadOnlyMemory`1")
-        {
-        }
-
-        public RReadOnlyMemory(System.Object instance) : base("System.ReadOnlyMemory`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RReadOnlyMemory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReadOnlyMemory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.ReadOnlyMemory<T> op_Implicit(T[] @array)
         {

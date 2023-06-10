@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RModuleBuilderTokenGenerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.ModuleBuilderTokenGenerator");
+            }
+        }
+
+        public RModuleBuilderTokenGenerator() : base("System.Reflection.Emit.ModuleBuilderTokenGenerator")
+        {
+        }
+
+        public RModuleBuilderTokenGenerator(System.Object instance) : base("System.Reflection.Emit.ModuleBuilderTokenGenerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RModuleBuilderTokenGenerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RModuleBuilderTokenGenerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.Emit.ModuleBuilder mb
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RModuleBuilderTokenGenerator() : base("System.Reflection.Emit.ModuleBuilderTokenGenerator")
-        {
-        }
-
-        public RModuleBuilderTokenGenerator(System.Object instance) : base("System.Reflection.Emit.ModuleBuilderTokenGenerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RModuleBuilderTokenGenerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RModuleBuilderTokenGenerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetToken(System.String @str)
         {

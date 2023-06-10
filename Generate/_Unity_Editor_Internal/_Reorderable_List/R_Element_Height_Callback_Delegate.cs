@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RElementHeightCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+ElementHeightCallbackDelegate");
+            }
+        }
+
+        public RElementHeightCallbackDelegate() : base("UnityEditorInternal.ReorderableList+ElementHeightCallbackDelegate")
+        {
+        }
+
+        public RElementHeightCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+ElementHeightCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RElementHeightCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RElementHeightCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RElementHeightCallbackDelegate() : base("UnityEditorInternal.ReorderableList+ElementHeightCallbackDelegate")
-        {
-        }
-
-        public RElementHeightCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+ElementHeightCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RElementHeightCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RElementHeightCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Single Invoke(System.Int32 @index)
         {

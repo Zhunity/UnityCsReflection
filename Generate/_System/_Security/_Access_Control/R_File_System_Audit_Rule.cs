@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RFileSystemAuditRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.FileSystemAuditRule);
+            }
+        }
+
+        public RFileSystemAuditRule() : base("System.Security.AccessControl.FileSystemAuditRule")
+        {
+        }
+
+        public RFileSystemAuditRule(System.Object instance) : base("System.Security.AccessControl.FileSystemAuditRule")
+		{
+            SetInstance(instance);
+		}
+
+        public RFileSystemAuditRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFileSystemAuditRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.FileSystemRights FileSystemRights
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RFileSystemAuditRule() : base("System.Security.AccessControl.FileSystemAuditRule")
-        {
-        }
-
-        public RFileSystemAuditRule(System.Object instance) : base("System.Security.AccessControl.FileSystemAuditRule")
-		{
-            SetInstance(instance);
-		}
-
-        public RFileSystemAuditRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFileSystemAuditRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

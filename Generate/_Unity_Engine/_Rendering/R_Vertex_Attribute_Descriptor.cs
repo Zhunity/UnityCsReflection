@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RVertexAttributeDescriptor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.VertexAttributeDescriptor);
+            }
+        }
+
+        public RVertexAttributeDescriptor() : base("UnityEngine.Rendering.VertexAttributeDescriptor")
+        {
+        }
+
+        public RVertexAttributeDescriptor(System.Object instance) : base("UnityEngine.Rendering.VertexAttributeDescriptor")
+		{
+            SetInstance(instance);
+		}
+
+        public RVertexAttributeDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVertexAttributeDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RVertexAttributeDescriptor() : base("UnityEngine.Rendering.VertexAttributeDescriptor")
-        {
-        }
-
-        public RVertexAttributeDescriptor(System.Object instance) : base("UnityEngine.Rendering.VertexAttributeDescriptor")
-		{
-            SetInstance(instance);
-		}
-
-        public RVertexAttributeDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVertexAttributeDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

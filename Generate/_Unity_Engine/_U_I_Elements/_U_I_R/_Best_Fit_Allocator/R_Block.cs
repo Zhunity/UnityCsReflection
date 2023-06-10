@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RBlock : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+Block");
+            }
+        }
+
+        public RBlock() : base("UnityEngine.UIElements.UIR.BestFitAllocator+Block")
+        {
+        }
+
+        public RBlock(System.Object instance) : base("UnityEngine.UIElements.UIR.BestFitAllocator+Block")
+		{
+            SetInstance(instance);
+		}
+
+        public RBlock(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBlock(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 start
@@ -253,23 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RBlock() : base("UnityEngine.UIElements.UIR.BestFitAllocator+Block")
-        {
-        }
-
-        public RBlock(System.Object instance) : base("UnityEngine.UIElements.UIR.BestFitAllocator+Block")
-		{
-            SetInstance(instance);
-		}
-
-        public RBlock(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBlock(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

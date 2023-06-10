@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RHierarchy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy");
+            }
+        }
+
+        public RHierarchy() : base("UnityEngine.UIElements.VisualElement+Hierarchy")
+        {
+        }
+
+        public RHierarchy(System.Object instance) : base("UnityEngine.UIElements.VisualElement+Hierarchy")
+		{
+            SetInstance(instance);
+		}
+
+        public RHierarchy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHierarchy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_InvalidHierarchyChangeMsg
@@ -541,23 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RHierarchy() : base("UnityEngine.UIElements.VisualElement+Hierarchy")
-        {
-        }
-
-        public RHierarchy(System.Object instance) : base("UnityEngine.UIElements.VisualElement+Hierarchy")
-		{
-            SetInstance(instance);
-		}
-
-        public RHierarchy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHierarchy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(UnityEngine.UIElements.VisualElement @child)
         {

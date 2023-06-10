@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RUIntPtr : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.UIntPtr);
+            }
+        }
+
+        public RUIntPtr() : base("System.UIntPtr")
+        {
+        }
+
+        public RUIntPtr(System.Object instance) : base("System.UIntPtr")
+		{
+            SetInstance(instance);
+		}
+
+        public RUIntPtr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUIntPtr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UIntPtr Zero
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RUIntPtr() : base("System.UIntPtr")
-        {
-        }
-
-        public RUIntPtr(System.Object instance) : base("System.UIntPtr")
-		{
-            SetInstance(instance);
-		}
-
-        public RUIntPtr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUIntPtr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

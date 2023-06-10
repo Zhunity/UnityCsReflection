@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RCursor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Cursor);
+            }
+        }
+
+        public RCursor() : base("UnityEngine.UIElements.Cursor")
+        {
+        }
+
+        public RCursor(System.Object instance) : base("UnityEngine.UIElements.Cursor")
+		{
+            SetInstance(instance);
+		}
+
+        public RCursor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCursor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Texture2D <texture>k__BackingField
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RCursor() : base("UnityEngine.UIElements.Cursor")
-        {
-        }
-
-        public RCursor(System.Object instance) : base("UnityEngine.UIElements.Cursor")
-		{
-            SetInstance(instance);
-		}
-
-        public RCursor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCursor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

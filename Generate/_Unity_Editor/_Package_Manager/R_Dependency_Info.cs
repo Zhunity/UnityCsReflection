@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RDependencyInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.DependencyInfo);
+            }
+        }
+
+        public RDependencyInfo() : base("UnityEditor.PackageManager.DependencyInfo")
+        {
+        }
+
+        public RDependencyInfo(System.Object instance) : base("UnityEditor.PackageManager.DependencyInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RDependencyInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDependencyInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Name
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RDependencyInfo() : base("UnityEditor.PackageManager.DependencyInfo")
-        {
-        }
-
-        public RDependencyInfo(System.Object instance) : base("UnityEditor.PackageManager.DependencyInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RDependencyInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDependencyInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

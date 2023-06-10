@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 	/// </summary>
     public partial class RAssemblyVersionCompatibility : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Configuration.Assemblies.AssemblyVersionCompatibility);
+            }
+        }
+
+        public RAssemblyVersionCompatibility() : base("System.Configuration.Assemblies.AssemblyVersionCompatibility")
+        {
+        }
+
+        public RAssemblyVersionCompatibility(System.Object instance) : base("System.Configuration.Assemblies.AssemblyVersionCompatibility")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssemblyVersionCompatibility(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssemblyVersionCompatibility(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			}
 		}
 
-
-        public RAssemblyVersionCompatibility() : base("System.Configuration.Assemblies.AssemblyVersionCompatibility")
-        {
-        }
-
-        public RAssemblyVersionCompatibility(System.Object instance) : base("System.Configuration.Assemblies.AssemblyVersionCompatibility")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssemblyVersionCompatibility(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssemblyVersionCompatibility(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

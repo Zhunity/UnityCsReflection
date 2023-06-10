@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleFontDefinition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleFontDefinition);
+            }
+        }
+
+        public RStyleFontDefinition() : base("UnityEngine.UIElements.StyleFontDefinition")
+        {
+        }
+
+        public RStyleFontDefinition(System.Object instance) : base("UnityEngine.UIElements.StyleFontDefinition")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleFontDefinition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleFontDefinition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword m_Keyword
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleFontDefinition() : base("UnityEngine.UIElements.StyleFontDefinition")
-        {
-        }
-
-        public RStyleFontDefinition(System.Object instance) : base("UnityEngine.UIElements.StyleFontDefinition")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleFontDefinition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleFontDefinition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.StyleFontDefinition op_Implicit(UnityEngine.UIElements.StyleKeyword @keyword)
         {

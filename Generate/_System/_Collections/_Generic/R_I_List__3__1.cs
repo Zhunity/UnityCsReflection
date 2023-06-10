@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RIList<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.IList<>);
+            }
+        }
+
+        public RIList() : base("System.Collections.Generic.IList`1")
+        {
+        }
+
+        public RIList(System.Object instance) : base("System.Collections.Generic.IList`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RIList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T Item [Int32]
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RIList() : base("System.Collections.Generic.IList`1")
-        {
-        }
-
-        public RIList(System.Object instance) : base("System.Collections.Generic.IList`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RIList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 IndexOf(T @item)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegex : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.Regex);
+            }
+        }
+
+        public RRegex() : base("System.Text.RegularExpressions.Regex")
+        {
+        }
+
+        public RRegex(System.Object instance) : base("System.Text.RegularExpressions.Regex")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 CacheDictionarySwitchLimit
@@ -1531,23 +1556,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegex() : base("System.Text.RegularExpressions.Regex")
-        {
-        }
-
-        public RRegex(System.Object instance) : base("System.Text.RegularExpressions.Regex")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry GetCachedCode(Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntryKey @key, System.Boolean @isToAdd)
         {

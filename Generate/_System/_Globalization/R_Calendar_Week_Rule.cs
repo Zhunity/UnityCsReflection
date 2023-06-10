@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCalendarWeekRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.CalendarWeekRule);
+            }
+        }
+
+        public RCalendarWeekRule() : base("System.Globalization.CalendarWeekRule")
+        {
+        }
+
+        public RCalendarWeekRule(System.Object instance) : base("System.Globalization.CalendarWeekRule")
+		{
+            SetInstance(instance);
+		}
+
+        public RCalendarWeekRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCalendarWeekRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCalendarWeekRule() : base("System.Globalization.CalendarWeekRule")
-        {
-        }
-
-        public RCalendarWeekRule(System.Object instance) : base("System.Globalization.CalendarWeekRule")
-		{
-            SetInstance(instance);
-		}
-
-        public RCalendarWeekRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCalendarWeekRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

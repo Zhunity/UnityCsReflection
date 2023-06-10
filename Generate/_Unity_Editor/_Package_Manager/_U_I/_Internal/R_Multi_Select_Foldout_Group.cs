@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RMultiSelectFoldoutGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.MultiSelectFoldoutGroup");
+            }
+        }
+
+        public RMultiSelectFoldoutGroup() : base("UnityEditor.PackageManager.UI.Internal.MultiSelectFoldoutGroup")
+        {
+        }
+
+        public RMultiSelectFoldoutGroup(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.MultiSelectFoldoutGroup")
+		{
+            SetInstance(instance);
+		}
+
+        public RMultiSelectFoldoutGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMultiSelectFoldoutGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.MultiSelectFoldout <mainFoldout>k__BackingField
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RMultiSelectFoldoutGroup() : base("UnityEditor.PackageManager.UI.Internal.MultiSelectFoldoutGroup")
-        {
-        }
-
-        public RMultiSelectFoldoutGroup(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.MultiSelectFoldoutGroup")
-		{
-            SetInstance(instance);
-		}
-
-        public RMultiSelectFoldoutGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMultiSelectFoldoutGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean AddPackageVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

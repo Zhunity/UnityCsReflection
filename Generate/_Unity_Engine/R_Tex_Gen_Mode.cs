@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTexGenMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TexGenMode);
+            }
+        }
+
+        public RTexGenMode() : base("UnityEngine.TexGenMode")
+        {
+        }
+
+        public RTexGenMode(System.Object instance) : base("UnityEngine.TexGenMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RTexGenMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTexGenMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTexGenMode() : base("UnityEngine.TexGenMode")
-        {
-        }
-
-        public RTexGenMode(System.Object instance) : base("UnityEngine.TexGenMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RTexGenMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTexGenMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RTextInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.TextInfo);
+            }
+        }
+
+        public RTextInfo() : base("System.Globalization.TextInfo")
+        {
+        }
+
+        public RTextInfo(System.Object instance) : base("System.Globalization.TextInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_listSeparator
@@ -1067,23 +1092,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RTextInfo() : base("System.Globalization.TextInfo")
-        {
-        }
-
-        public RTextInfo(System.Object instance) : base("System.Globalization.TextInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnDeserializing(System.Runtime.Serialization.StreamingContext @ctx)
         {

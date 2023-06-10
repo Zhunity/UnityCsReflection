@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimePropertyInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo");
+            }
+        }
+
+        public RRuntimePropertyInfo() : base("System.Reflection.RuntimePropertyInfo")
+        {
+        }
+
+        public RRuntimePropertyInfo(System.Object instance) : base("System.Reflection.RuntimePropertyInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimePropertyInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimePropertyInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr klass
@@ -1083,23 +1108,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimePropertyInfo() : base("System.Reflection.RuntimePropertyInfo")
-        {
-        }
-
-        public RRuntimePropertyInfo(System.Object instance) : base("System.Reflection.RuntimePropertyInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimePropertyInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimePropertyInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void get_property_info(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimePropertyInfo @prop, ref Hvak.Editor.Refleaction.RSystem.RReflection.RMonoPropertyInfo @info, Hvak.Editor.Refleaction.RSystem.RReflection.RPInfo @req_info)
         {

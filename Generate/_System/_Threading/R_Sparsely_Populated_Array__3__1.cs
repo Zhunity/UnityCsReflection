@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RSparselyPopulatedArray<T> : RMember // where T : class
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.SparselyPopulatedArray`1");
+            }
+        }
+
+        public RSparselyPopulatedArray() : base("System.Threading.SparselyPopulatedArray`1")
+        {
+        }
+
+        public RSparselyPopulatedArray(System.Object instance) : base("System.Threading.SparselyPopulatedArray`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RSparselyPopulatedArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSparselyPopulatedArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.SparselyPopulatedArrayFragment`1[T] _head
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RSparselyPopulatedArray() : base("System.Threading.SparselyPopulatedArray`1")
-        {
-        }
-
-        public RSparselyPopulatedArray(System.Object instance) : base("System.Threading.SparselyPopulatedArray`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RSparselyPopulatedArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSparselyPopulatedArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RSparselyPopulatedArrayAddInfo<Hvak.Editor.Refleaction.RType> Add(T @element)
         {

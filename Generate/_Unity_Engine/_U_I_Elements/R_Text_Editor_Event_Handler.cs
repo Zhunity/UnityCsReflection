@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextEditorEventHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextEditorEventHandler");
+            }
+        }
+
+        public RTextEditorEventHandler() : base("UnityEngine.UIElements.TextEditorEventHandler")
+        {
+        }
+
+        public RTextEditorEventHandler(System.Object instance) : base("UnityEngine.UIElements.TextEditorEventHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextEditorEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextEditorEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement textElement
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextEditorEventHandler() : base("UnityEngine.UIElements.TextEditorEventHandler")
-        {
-        }
-
-        public RTextEditorEventHandler(System.Object instance) : base("UnityEngine.UIElements.TextEditorEventHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextEditorEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextEditorEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase @evt)
         {

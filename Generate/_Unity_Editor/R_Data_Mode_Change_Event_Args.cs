@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RDataModeChangeEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.DataModeChangeEventArgs);
+            }
+        }
+
+        public RDataModeChangeEventArgs() : base("UnityEditor.DataModeChangeEventArgs")
+        {
+        }
+
+        public RDataModeChangeEventArgs(System.Object instance) : base("UnityEditor.DataModeChangeEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RDataModeChangeEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDataModeChangeEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.DataMode nextDataMode
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RDataModeChangeEventArgs() : base("UnityEditor.DataModeChangeEventArgs")
-        {
-        }
-
-        public RDataModeChangeEventArgs(System.Object instance) : base("UnityEditor.DataModeChangeEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RDataModeChangeEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDataModeChangeEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RIFormatterConverter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Serialization.IFormatterConverter);
+            }
+        }
+
+        public RIFormatterConverter() : base("System.Runtime.Serialization.IFormatterConverter")
+        {
+        }
+
+        public RIFormatterConverter(System.Object instance) : base("System.Runtime.Serialization.IFormatterConverter")
+		{
+            SetInstance(instance);
+		}
+
+        public RIFormatterConverter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIFormatterConverter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object Convert(System.Object, System.Type)
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			}
 		}
 
-
-        public RIFormatterConverter() : base("System.Runtime.Serialization.IFormatterConverter")
-        {
-        }
-
-        public RIFormatterConverter(System.Object instance) : base("System.Runtime.Serialization.IFormatterConverter")
-		{
-            SetInstance(instance);
-		}
-
-        public RIFormatterConverter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIFormatterConverter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object Convert(System.Object @value, System.Type @type)
         {

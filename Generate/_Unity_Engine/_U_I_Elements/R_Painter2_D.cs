@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPainter2D : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Painter2D);
+            }
+        }
+
+        public RPainter2D() : base("UnityEngine.UIElements.Painter2D")
+        {
+        }
+
+        public RPainter2D(System.Object instance) : base("UnityEngine.UIElements.Painter2D")
+		{
+            SetInstance(instance);
+		}
+
+        public RPainter2D(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPainter2D(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.MeshGenerationContext m_Ctx
@@ -667,23 +692,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPainter2D() : base("UnityEngine.UIElements.Painter2D")
-        {
-        }
-
-        public RPainter2D(System.Object instance) : base("UnityEngine.UIElements.Painter2D")
-		{
-            SetInstance(instance);
-		}
-
-        public RPainter2D(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPainter2D(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

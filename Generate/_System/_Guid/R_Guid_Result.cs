@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RGuidResult : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Guid+GuidResult");
+            }
+        }
+
+        public RGuidResult() : base("System.Guid+GuidResult")
+        {
+        }
+
+        public RGuidResult(System.Object instance) : base("System.Guid+GuidResult")
+		{
+            SetInstance(instance);
+		}
+
+        public RGuidResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGuidResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Guid _parsedGuid
@@ -317,23 +342,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RGuidResult() : base("System.Guid+GuidResult")
-        {
-        }
-
-        public RGuidResult(System.Object instance) : base("System.Guid+GuidResult")
-		{
-            SetInstance(instance);
-		}
-
-        public RGuidResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGuidResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(Hvak.Editor.Refleaction.RSystem.RGuid.RGuidParseThrowStyle @canThrow)
         {

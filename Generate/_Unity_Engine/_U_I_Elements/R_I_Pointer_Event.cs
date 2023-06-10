@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIPointerEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IPointerEvent);
+            }
+        }
+
+        public RIPointerEvent() : base("UnityEngine.UIElements.IPointerEvent")
+        {
+        }
+
+        public RIPointerEvent(System.Object instance) : base("UnityEngine.UIElements.IPointerEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPointerEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPointerEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 pointerId
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIPointerEvent() : base("UnityEngine.UIElements.IPointerEvent")
-        {
-        }
-
-        public RIPointerEvent(System.Object instance) : base("UnityEngine.UIElements.IPointerEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPointerEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPointerEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

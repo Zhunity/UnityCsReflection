@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRay : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Ray);
+            }
+        }
+
+        public RRay() : base("UnityEngine.Ray")
+        {
+        }
+
+        public RRay(System.Object instance) : base("UnityEngine.Ray")
+		{
+            SetInstance(instance);
+		}
+
+        public RRay(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRay(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 m_Origin
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRay() : base("UnityEngine.Ray")
-        {
-        }
-
-        public RRay(System.Object instance) : base("UnityEngine.Ray")
-		{
-            SetInstance(instance);
-		}
-
-        public RRay(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRay(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Vector3 GetPoint(System.Single @distance)
         {

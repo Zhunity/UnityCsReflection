@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 	/// </summary>
     public partial class RStackFrame : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Diagnostics.StackFrame);
+            }
+        }
+
+        public RStackFrame() : base("System.Diagnostics.StackFrame")
+        {
+        }
+
+        public RStackFrame(System.Object instance) : base("System.Diagnostics.StackFrame")
+		{
+            SetInstance(instance);
+		}
+
+        public RStackFrame(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStackFrame(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 OFFSET_UNKNOWN
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			}
 		}
 
-
-        public RStackFrame() : base("System.Diagnostics.StackFrame")
-        {
-        }
-
-        public RStackFrame(System.Object instance) : base("System.Diagnostics.StackFrame")
-		{
-            SetInstance(instance);
-		}
-
-        public RStackFrame(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStackFrame(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean get_frame_info(System.Int32 @skip, System.Boolean @needFileInfo, out System.Reflection.MethodBase @method, out System.Int32 @iloffset, out System.Int32 @native_offset, out System.String @file, out System.Int32 @line, out System.Int32 @column)
         {

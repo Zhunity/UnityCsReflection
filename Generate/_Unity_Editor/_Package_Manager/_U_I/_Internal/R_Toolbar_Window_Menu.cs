@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RToolbarWindowMenu : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ToolbarWindowMenu");
+            }
+        }
+
+        public RToolbarWindowMenu() : base("UnityEditor.PackageManager.UI.Internal.ToolbarWindowMenu")
+        {
+        }
+
+        public RToolbarWindowMenu(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ToolbarWindowMenu")
+		{
+            SetInstance(instance);
+		}
+
+        public RToolbarWindowMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RToolbarWindowMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onClick
@@ -3963,23 +3988,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RToolbarWindowMenu() : base("UnityEditor.PackageManager.UI.Internal.ToolbarWindowMenu")
-        {
-        }
-
-        public RToolbarWindowMenu(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ToolbarWindowMenu")
-		{
-            SetInstance(instance);
-		}
-
-        public RToolbarWindowMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RToolbarWindowMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @widthMode, System.Single @desiredHeight, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @heightMode)
         {

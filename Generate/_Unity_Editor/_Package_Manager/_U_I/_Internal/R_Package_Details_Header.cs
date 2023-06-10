@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageDetailsHeader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDetailsHeader");
+            }
+        }
+
+        public RPackageDetailsHeader() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsHeader")
+        {
+        }
+
+        public RPackageDetailsHeader(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsHeader")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageDetailsHeader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageDetailsHeader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageTag[] k_VisibleTags
@@ -4347,23 +4372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageDetailsHeader() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsHeader")
-        {
-        }
-
-        public RPackageDetailsHeader(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsHeader")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageDetailsHeader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageDetailsHeader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies()
         {

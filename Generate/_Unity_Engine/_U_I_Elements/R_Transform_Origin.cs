@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTransformOrigin : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TransformOrigin);
+            }
+        }
+
+        public RTransformOrigin() : base("UnityEngine.UIElements.TransformOrigin")
+        {
+        }
+
+        public RTransformOrigin(System.Object instance) : base("UnityEngine.UIElements.TransformOrigin")
+		{
+            SetInstance(instance);
+		}
+
+        public RTransformOrigin(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTransformOrigin(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Length m_X
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTransformOrigin() : base("UnityEngine.UIElements.TransformOrigin")
-        {
-        }
-
-        public RTransformOrigin(System.Object instance) : base("UnityEngine.UIElements.TransformOrigin")
-		{
-            SetInstance(instance);
-		}
-
-        public RTransformOrigin(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTransformOrigin(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.TransformOrigin Initial()
         {

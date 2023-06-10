@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 	/// </summary>
     public partial class RFileSystem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("NiceIO.NPath+FileSystem");
+            }
+        }
+
+        public RFileSystem() : base("NiceIO.NPath+FileSystem")
+        {
+        }
+
+        public RFileSystem(System.Object instance) : base("NiceIO.NPath+FileSystem")
+		{
+            SetInstance(instance);
+		}
+
+        public RFileSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFileSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// NiceIO.NPath+FileSystem _active
@@ -589,23 +614,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			}
 		}
 
-
-        public RFileSystem() : base("NiceIO.NPath+FileSystem")
-        {
-        }
-
-        public RFileSystem(System.Object instance) : base("NiceIO.NPath+FileSystem")
-		{
-            SetInstance(instance);
-		}
-
-        public RFileSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFileSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem MakeFileSystemForCurrentMachine()
         {

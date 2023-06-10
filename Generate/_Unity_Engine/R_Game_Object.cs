@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGameObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GameObject);
+            }
+        }
+
+        public RGameObject() : base("UnityEngine.GameObject")
+        {
+        }
+
+        public RGameObject(System.Object instance) : base("UnityEngine.GameObject")
+		{
+            SetInstance(instance);
+		}
+
+        public RGameObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGameObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Transform transform
@@ -1595,23 +1620,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGameObject() : base("UnityEngine.GameObject")
-        {
-        }
-
-        public RGameObject(System.Object instance) : base("UnityEngine.GameObject")
-		{
-            SetInstance(instance);
-		}
-
-        public RGameObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGameObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.GameObject CreatePrimitive(UnityEngine.PrimitiveType @type)
         {

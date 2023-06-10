@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRenderTargetMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+RenderTargetMode");
+            }
+        }
+
+        public RRenderTargetMode() : base("UnityEngine.UIElements.VisualElement+RenderTargetMode")
+        {
+        }
+
+        public RRenderTargetMode(System.Object instance) : base("UnityEngine.UIElements.VisualElement+RenderTargetMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderTargetMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderTargetMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -301,23 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRenderTargetMode() : base("UnityEngine.UIElements.VisualElement+RenderTargetMode")
-        {
-        }
-
-        public RRenderTargetMode(System.Object instance) : base("UnityEngine.UIElements.VisualElement+RenderTargetMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderTargetMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderTargetMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

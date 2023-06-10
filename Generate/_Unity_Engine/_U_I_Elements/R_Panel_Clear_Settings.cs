@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPanelClearSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.PanelClearSettings");
+            }
+        }
+
+        public RPanelClearSettings() : base("UnityEngine.UIElements.PanelClearSettings")
+        {
+        }
+
+        public RPanelClearSettings(System.Object instance) : base("UnityEngine.UIElements.PanelClearSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RPanelClearSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPanelClearSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean clearDepthStencil
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPanelClearSettings() : base("UnityEngine.UIElements.PanelClearSettings")
-        {
-        }
-
-        public RPanelClearSettings(System.Object instance) : base("UnityEngine.UIElements.PanelClearSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RPanelClearSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPanelClearSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayAttribute : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.Overlays.OverlayAttribute);
+            }
+        }
+
+        public ROverlayAttribute() : base("UnityEditor.Overlays.OverlayAttribute")
+        {
+        }
+
+        public ROverlayAttribute(System.Object instance) : base("UnityEditor.Overlays.OverlayAttribute")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type m_EditorWindowType
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayAttribute() : base("UnityEditor.Overlays.OverlayAttribute")
-        {
-        }
-
-        public ROverlayAttribute(System.Object instance) : base("UnityEditor.Overlays.OverlayAttribute")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

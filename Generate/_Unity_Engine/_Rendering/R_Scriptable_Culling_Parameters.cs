@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RScriptableCullingParameters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.ScriptableCullingParameters);
+            }
+        }
+
+        public RScriptableCullingParameters() : base("UnityEngine.Rendering.ScriptableCullingParameters")
+        {
+        }
+
+        public RScriptableCullingParameters(System.Object instance) : base("UnityEngine.Rendering.ScriptableCullingParameters")
+		{
+            SetInstance(instance);
+		}
+
+        public RScriptableCullingParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScriptableCullingParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_IsOrthographic
@@ -1035,23 +1060,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RScriptableCullingParameters() : base("UnityEngine.Rendering.ScriptableCullingParameters")
-        {
-        }
-
-        public RScriptableCullingParameters(System.Object instance) : base("UnityEngine.Rendering.ScriptableCullingParameters")
-		{
-            SetInstance(instance);
-		}
-
-        public RScriptableCullingParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScriptableCullingParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Single GetLayerCullingDistance(System.Int32 @layerIndex)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAuthorizationRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AuthorizationRule);
+            }
+        }
+
+        public RAuthorizationRule() : base("System.Security.AccessControl.AuthorizationRule")
+        {
+        }
+
+        public RAuthorizationRule(System.Object instance) : base("System.Security.AccessControl.AuthorizationRule")
+		{
+            SetInstance(instance);
+		}
+
+        public RAuthorizationRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAuthorizationRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Principal.IdentityReference identity
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAuthorizationRule() : base("System.Security.AccessControl.AuthorizationRule")
-        {
-        }
-
-        public RAuthorizationRule(System.Object instance) : base("System.Security.AccessControl.AuthorizationRule")
-		{
-            SetInstance(instance);
-		}
-
-        public RAuthorizationRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAuthorizationRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

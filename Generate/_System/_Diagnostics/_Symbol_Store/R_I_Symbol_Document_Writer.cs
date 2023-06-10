@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 	/// </summary>
     public partial class RISymbolDocumentWriter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Diagnostics.SymbolStore.ISymbolDocumentWriter);
+            }
+        }
+
+        public RISymbolDocumentWriter() : base("System.Diagnostics.SymbolStore.ISymbolDocumentWriter")
+        {
+        }
+
+        public RISymbolDocumentWriter(System.Object instance) : base("System.Diagnostics.SymbolStore.ISymbolDocumentWriter")
+		{
+            SetInstance(instance);
+		}
+
+        public RISymbolDocumentWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RISymbolDocumentWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void SetCheckSum(System.Guid, Byte[])
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			}
 		}
 
-
-        public RISymbolDocumentWriter() : base("System.Diagnostics.SymbolStore.ISymbolDocumentWriter")
-        {
-        }
-
-        public RISymbolDocumentWriter(System.Object instance) : base("System.Diagnostics.SymbolStore.ISymbolDocumentWriter")
-		{
-            SetInstance(instance);
-		}
-
-        public RISymbolDocumentWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RISymbolDocumentWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetCheckSum(System.Guid @algorithmId, System.Byte[] @checkSum)
         {

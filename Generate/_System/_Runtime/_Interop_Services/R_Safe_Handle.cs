@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RSafeHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.SafeHandle);
+            }
+        }
+
+        public RSafeHandle() : base("System.Runtime.InteropServices.SafeHandle")
+        {
+        }
+
+        public RSafeHandle(System.Object instance) : base("System.Runtime.InteropServices.SafeHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafeHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafeHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr handle
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RSafeHandle() : base("System.Runtime.InteropServices.SafeHandle")
-        {
-        }
-
-        public RSafeHandle(System.Object instance) : base("System.Runtime.InteropServices.SafeHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafeHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafeHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleFont : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleFont);
+            }
+        }
+
+        public RStyleFont() : base("UnityEngine.UIElements.StyleFont")
+        {
+        }
+
+        public RStyleFont(System.Object instance) : base("UnityEngine.UIElements.StyleFont")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleFont(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleFont(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Font m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleFont() : base("UnityEngine.UIElements.StyleFont")
-        {
-        }
-
-        public RStyleFont(System.Object instance) : base("UnityEngine.UIElements.StyleFont")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleFont(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleFont(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleFont @lhs, UnityEngine.UIElements.StyleFont @rhs)
         {

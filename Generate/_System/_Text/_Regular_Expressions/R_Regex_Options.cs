@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegexOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.RegexOptions);
+            }
+        }
+
+        public RRegexOptions() : base("System.Text.RegularExpressions.RegexOptions")
+        {
+        }
+
+        public RRegexOptions(System.Object instance) : base("System.Text.RegularExpressions.RegexOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegexOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegexOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegexOptions() : base("System.Text.RegularExpressions.RegexOptions")
-        {
-        }
-
-        public RRegexOptions(System.Object instance) : base("System.Text.RegularExpressions.RegexOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegexOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegexOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

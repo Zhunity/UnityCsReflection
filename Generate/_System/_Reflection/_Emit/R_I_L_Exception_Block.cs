@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RILExceptionBlock : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.ILExceptionBlock");
+            }
+        }
+
+        public RILExceptionBlock() : base("System.Reflection.Emit.ILExceptionBlock")
+        {
+        }
+
+        public RILExceptionBlock(System.Object instance) : base("System.Reflection.Emit.ILExceptionBlock")
+		{
+            SetInstance(instance);
+		}
+
+        public RILExceptionBlock(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RILExceptionBlock(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 CATCH
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RILExceptionBlock() : base("System.Reflection.Emit.ILExceptionBlock")
-        {
-        }
-
-        public RILExceptionBlock(System.Object instance) : base("System.Reflection.Emit.ILExceptionBlock")
-		{
-            SetInstance(instance);
-		}
-
-        public RILExceptionBlock(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RILExceptionBlock(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Debug()
         {

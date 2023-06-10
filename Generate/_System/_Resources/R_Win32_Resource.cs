@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 	/// </summary>
     public partial class RWin32Resource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Resources.Win32Resource");
+            }
+        }
+
+        public RWin32Resource() : base("System.Resources.Win32Resource")
+        {
+        }
+
+        public RWin32Resource(System.Object instance) : base("System.Resources.Win32Resource")
+		{
+            SetInstance(instance);
+		}
+
+        public RWin32Resource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWin32Resource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Resources.NameOrId type
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			}
 		}
 
-
-        public RWin32Resource() : base("System.Resources.Win32Resource")
-        {
-        }
-
-        public RWin32Resource(System.Object instance) : base("System.Resources.Win32Resource")
-		{
-            SetInstance(instance);
-		}
-
-        public RWin32Resource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWin32Resource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void WriteTo(System.IO.Stream @s)
         {

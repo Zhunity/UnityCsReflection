@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAccessControlType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AccessControlType);
+            }
+        }
+
+        public RAccessControlType() : base("System.Security.AccessControl.AccessControlType")
+        {
+        }
+
+        public RAccessControlType(System.Object instance) : base("System.Security.AccessControl.AccessControlType")
+		{
+            SetInstance(instance);
+		}
+
+        public RAccessControlType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAccessControlType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAccessControlType() : base("System.Security.AccessControl.AccessControlType")
-        {
-        }
-
-        public RAccessControlType(System.Object instance) : base("System.Security.AccessControl.AccessControlType")
-		{
-            SetInstance(instance);
-		}
-
-        public RAccessControlType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAccessControlType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

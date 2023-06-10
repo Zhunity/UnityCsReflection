@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStartDragArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StartDragArgs");
+            }
+        }
+
+        public RStartDragArgs() : base("UnityEngine.UIElements.StartDragArgs")
+        {
+        }
+
+        public RStartDragArgs(System.Object instance) : base("UnityEngine.UIElements.StartDragArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RStartDragArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStartDragArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <title>k__BackingField
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStartDragArgs() : base("UnityEngine.UIElements.StartDragArgs")
-        {
-        }
-
-        public RStartDragArgs(System.Object instance) : base("UnityEngine.UIElements.StartDragArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RStartDragArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStartDragArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetGenericData(System.String @key, System.Object @data)
         {

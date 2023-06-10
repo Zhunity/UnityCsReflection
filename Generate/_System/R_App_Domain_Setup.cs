@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAppDomainSetup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AppDomainSetup);
+            }
+        }
+
+        public RAppDomainSetup() : base("System.AppDomainSetup")
+        {
+        }
+
+        public RAppDomainSetup(System.Object instance) : base("System.AppDomainSetup")
+		{
+            SetInstance(instance);
+		}
+
+        public RAppDomainSetup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAppDomainSetup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String application_base
@@ -1019,23 +1044,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAppDomainSetup() : base("System.AppDomainSetup")
-        {
-        }
-
-        public RAppDomainSetup(System.Object instance) : base("System.AppDomainSetup")
-		{
-            SetInstance(instance);
-		}
-
-        public RAppDomainSetup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAppDomainSetup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.String GetAppBase(System.String @appBase)
         {

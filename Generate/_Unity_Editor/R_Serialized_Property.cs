@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RSerializedProperty : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.SerializedProperty);
+            }
+        }
+
+        public RSerializedProperty() : base("UnityEditor.SerializedProperty")
+        {
+        }
+
+        public RSerializedProperty(System.Object instance) : base("UnityEditor.SerializedProperty")
+		{
+            SetInstance(instance);
+		}
+
+        public RSerializedProperty(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSerializedProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_NativePropertyPtr
@@ -4507,23 +4532,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RSerializedProperty() : base("UnityEditor.SerializedProperty")
-        {
-        }
-
-        public RSerializedProperty(System.Object instance) : base("UnityEditor.SerializedProperty")
-		{
-            SetInstance(instance);
-		}
-
-        public RSerializedProperty(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSerializedProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

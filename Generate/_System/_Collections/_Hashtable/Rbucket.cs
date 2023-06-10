@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class Rbucket : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Hashtable+bucket");
+            }
+        }
+
+        public Rbucket() : base("System.Collections.Hashtable+bucket")
+        {
+        }
+
+        public Rbucket(System.Object instance) : base("System.Collections.Hashtable+bucket")
+		{
+            SetInstance(instance);
+		}
+
+        public Rbucket(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public Rbucket(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object key
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public Rbucket() : base("System.Collections.Hashtable+bucket")
-        {
-        }
-
-        public Rbucket(System.Object instance) : base("System.Collections.Hashtable+bucket")
-		{
-            SetInstance(instance);
-		}
-
-        public Rbucket(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public Rbucket(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

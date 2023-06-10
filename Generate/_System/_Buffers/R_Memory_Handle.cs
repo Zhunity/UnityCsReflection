@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 	/// </summary>
     public partial class RMemoryHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Buffers.MemoryHandle);
+            }
+        }
+
+        public RMemoryHandle() : base("System.Buffers.MemoryHandle")
+        {
+        }
+
+        public RMemoryHandle(System.Object instance) : base("System.Buffers.MemoryHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RMemoryHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMemoryHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Void* _pointer
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 			}
 		}
 
-
-        public RMemoryHandle() : base("System.Buffers.MemoryHandle")
-        {
-        }
-
-        public RMemoryHandle(System.Object instance) : base("System.Buffers.MemoryHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RMemoryHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMemoryHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPreviewWindow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PreviewWindow");
+            }
+        }
+
+        public RPreviewWindow() : base("UnityEditor.PreviewWindow")
+        {
+        }
+
+        public RPreviewWindow(System.Object instance) : base("UnityEditor.PreviewWindow")
+		{
+            SetInstance(instance);
+		}
+
+        public RPreviewWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPreviewWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.InspectorWindow m_ParentInspectorWindow
@@ -3227,23 +3252,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPreviewWindow() : base("UnityEditor.PreviewWindow")
-        {
-        }
-
-        public RPreviewWindow(System.Object instance) : base("UnityEditor.PreviewWindow")
-		{
-            SetInstance(instance);
-		}
-
-        public RPreviewWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPreviewWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetParentInspector(Hvak.Editor.Refleaction.RUnityEditor.RInspectorWindow @inspector)
         {

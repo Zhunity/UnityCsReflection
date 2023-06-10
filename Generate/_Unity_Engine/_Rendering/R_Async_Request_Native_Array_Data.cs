@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RAsyncRequestNativeArrayData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData");
+            }
+        }
+
+        public RAsyncRequestNativeArrayData() : base("UnityEngine.Rendering.AsyncRequestNativeArrayData")
+        {
+        }
+
+        public RAsyncRequestNativeArrayData(System.Object instance) : base("UnityEngine.Rendering.AsyncRequestNativeArrayData")
+		{
+            SetInstance(instance);
+		}
+
+        public RAsyncRequestNativeArrayData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAsyncRequestNativeArrayData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Void* nativeArrayBuffer
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RAsyncRequestNativeArrayData() : base("UnityEngine.Rendering.AsyncRequestNativeArrayData")
-        {
-        }
-
-        public RAsyncRequestNativeArrayData(System.Object instance) : base("UnityEngine.Rendering.AsyncRequestNativeArrayData")
-		{
-            SetInstance(instance);
-		}
-
-        public RAsyncRequestNativeArrayData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAsyncRequestNativeArrayData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData CreateAndCheckAccess<T>(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array) where T : struct
         {

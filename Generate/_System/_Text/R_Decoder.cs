@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class RDecoder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.Decoder);
+            }
+        }
+
+        public RDecoder() : base("System.Text.Decoder")
+        {
+        }
+
+        public RDecoder(System.Object instance) : base("System.Text.Decoder")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecoder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecoder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.DecoderFallback _fallback
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public RDecoder() : base("System.Text.Decoder")
-        {
-        }
-
-        public RDecoder(System.Object instance) : base("System.Text.Decoder")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecoder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecoder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RStructLayoutAttribute : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.StructLayoutAttribute);
+            }
+        }
+
+        public RStructLayoutAttribute() : base("System.Runtime.InteropServices.StructLayoutAttribute")
+        {
+        }
+
+        public RStructLayoutAttribute(System.Object instance) : base("System.Runtime.InteropServices.StructLayoutAttribute")
+		{
+            SetInstance(instance);
+		}
+
+        public RStructLayoutAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStructLayoutAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 DEFAULT_PACKING_SIZE
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RStructLayoutAttribute() : base("System.Runtime.InteropServices.StructLayoutAttribute")
-        {
-        }
-
-        public RStructLayoutAttribute(System.Object instance) : base("System.Runtime.InteropServices.StructLayoutAttribute")
-		{
-            SetInstance(instance);
-		}
-
-        public RStructLayoutAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStructLayoutAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Runtime.InteropServices.StructLayoutAttribute GetCustomAttribute(Hvak.Editor.Refleaction.RSystem.RRuntimeType @type)
         {

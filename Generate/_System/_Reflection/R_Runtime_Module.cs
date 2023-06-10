@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimeModule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimeModule");
+            }
+        }
+
+        public RRuntimeModule() : base("System.Reflection.RuntimeModule")
+        {
+        }
+
+        public RRuntimeModule(System.Object instance) : base("System.Reflection.RuntimeModule")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeModule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeModule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr _impl
@@ -1307,23 +1332,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimeModule() : base("System.Reflection.RuntimeModule")
-        {
-        }
-
-        public RRuntimeModule(System.Object instance) : base("System.Reflection.RuntimeModule")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeModule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeModule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsResource()
         {

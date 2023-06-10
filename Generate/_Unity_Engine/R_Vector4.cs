@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RVector4 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Vector4);
+            }
+        }
+
+        public RVector4() : base("UnityEngine.Vector4")
+        {
+        }
+
+        public RVector4(System.Object instance) : base("UnityEngine.Vector4")
+		{
+            SetInstance(instance);
+		}
+
+        public RVector4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVector4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single kEpsilon
@@ -859,23 +884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RVector4() : base("UnityEngine.Vector4")
-        {
-        }
-
-        public RVector4(System.Object instance) : base("UnityEngine.Vector4")
-		{
-            SetInstance(instance);
-		}
-
-        public RVector4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVector4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Set(System.Single @newX, System.Single @newY, System.Single @newZ, System.Single @newW)
         {

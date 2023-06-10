@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RInheritedData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.InheritedData");
+            }
+        }
+
+        public RInheritedData() : base("UnityEngine.UIElements.InheritedData")
+        {
+        }
+
+        public RInheritedData(System.Object instance) : base("UnityEngine.UIElements.InheritedData")
+		{
+            SetInstance(instance);
+		}
+
+        public RInheritedData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInheritedData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color color
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RInheritedData() : base("UnityEngine.UIElements.InheritedData")
-        {
-        }
-
-        public RInheritedData(System.Object instance) : base("UnityEngine.UIElements.InheritedData")
-		{
-            SetInstance(instance);
-		}
-
-        public RInheritedData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInheritedData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInheritedData Copy()
         {

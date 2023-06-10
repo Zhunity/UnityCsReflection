@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RVisualStateList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualStateList");
+            }
+        }
+
+        public RVisualStateList() : base("UnityEditor.PackageManager.UI.Internal.VisualStateList")
+        {
+        }
+
+        public RVisualStateList(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.VisualStateList")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualStateList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualStateList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.Internal.VisualState] m_OrderedVisualStates
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RVisualStateList() : base("UnityEditor.PackageManager.UI.Internal.VisualStateList")
-        {
-        }
-
-        public RVisualStateList(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.VisualStateList")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualStateList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualStateList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnBeforeSerialize()
         {

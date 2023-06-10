@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RUnityType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.UnityType");
+            }
+        }
+
+        public RUnityType() : base("UnityEditor.UnityType")
+        {
+        }
+
+        public RUnityType(System.Object instance) : base("UnityEditor.UnityType")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnityType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnityType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <name>k__BackingField
@@ -603,23 +628,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RUnityType() : base("UnityEditor.UnityType")
-        {
-        }
-
-        public RUnityType(System.Object instance) : base("UnityEditor.UnityType")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnityType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnityType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RUnityType.RUnityTypeTransport> Internal_GetAllTypes()
         {

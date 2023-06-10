@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RGetRegistriesRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.GetRegistriesRequest");
+            }
+        }
+
+        public RGetRegistriesRequest() : base("UnityEditor.PackageManager.Requests.GetRegistriesRequest")
+        {
+        }
+
+        public RGetRegistriesRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.GetRegistriesRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RGetRegistriesRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGetRegistriesRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.RegistryInfo[] Result
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RGetRegistriesRequest() : base("UnityEditor.PackageManager.Requests.GetRegistriesRequest")
-        {
-        }
-
-        public RGetRegistriesRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.GetRegistriesRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RGetRegistriesRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGetRegistriesRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEditor.PackageManager.RegistryInfo[] GetResult()
         {

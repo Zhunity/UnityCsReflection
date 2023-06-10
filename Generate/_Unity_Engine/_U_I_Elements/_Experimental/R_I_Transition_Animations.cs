@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	/// </summary>
     public partial class RITransitionAnimations : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Experimental.ITransitionAnimations);
+            }
+        }
+
+        public RITransitionAnimations() : base("UnityEngine.UIElements.Experimental.ITransitionAnimations")
+        {
+        }
+
+        public RITransitionAnimations(System.Object instance) : base("UnityEngine.UIElements.Experimental.ITransitionAnimations")
+		{
+            SetInstance(instance);
+		}
+
+        public RITransitionAnimations(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RITransitionAnimations(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Experimental.ValueAnimation`1[System.Single] Start(Single, Single, Int32, System.Action`2[UnityEngine.UIElements.VisualElement,System.Single])
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			}
 		}
 
-
-        public RITransitionAnimations() : base("UnityEngine.UIElements.Experimental.ITransitionAnimations")
-        {
-        }
-
-        public RITransitionAnimations(System.Object instance) : base("UnityEngine.UIElements.Experimental.ITransitionAnimations")
-		{
-            SetInstance(instance);
-		}
-
-        public RITransitionAnimations(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RITransitionAnimations(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.Experimental.ValueAnimation<System.Single> Start(System.Single @from, System.Single @to, System.Int32 @durationMs, System.Action<UnityEngine.UIElements.VisualElement, System.Single> @onValueChanged)
         {

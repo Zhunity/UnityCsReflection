@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageManagerPrefs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs");
+            }
+        }
+
+        public RPackageManagerPrefs() : base("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs")
+        {
+        }
+
+        public RPackageManagerPrefs(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageManagerPrefs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageManagerPrefs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_SkipRemoveConfirmationPrefs
@@ -667,23 +692,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageManagerPrefs() : base("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs")
-        {
-        }
-
-        public RPackageManagerPrefs(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageManagerPrefs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageManagerPrefs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsDetailsExtensionExpanded(System.String @extensionTitle)
         {

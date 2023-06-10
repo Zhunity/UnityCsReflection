@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RAlternatingRowBackground : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.AlternatingRowBackground);
+            }
+        }
+
+        public RAlternatingRowBackground() : base("UnityEngine.UIElements.AlternatingRowBackground")
+        {
+        }
+
+        public RAlternatingRowBackground(System.Object instance) : base("UnityEngine.UIElements.AlternatingRowBackground")
+		{
+            SetInstance(instance);
+		}
+
+        public RAlternatingRowBackground(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAlternatingRowBackground(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RAlternatingRowBackground() : base("UnityEngine.UIElements.AlternatingRowBackground")
-        {
-        }
-
-        public RAlternatingRowBackground(System.Object instance) : base("UnityEngine.UIElements.AlternatingRowBackground")
-		{
-            SetInstance(instance);
-		}
-
-        public RAlternatingRowBackground(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAlternatingRowBackground(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

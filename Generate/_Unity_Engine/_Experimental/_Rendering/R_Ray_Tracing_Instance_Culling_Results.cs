@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingInstanceCullingResults : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults);
+            }
+        }
+
+        public RRayTracingInstanceCullingResults() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults")
+        {
+        }
+
+        public RRayTracingInstanceCullingResults(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingInstanceCullingResults(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingInstanceCullingResults(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceMaterialCRC[] materialsCRC
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingInstanceCullingResults() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults")
-        {
-        }
-
-        public RRayTracingInstanceCullingResults(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingInstanceCullingResults(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingInstanceCullingResults(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

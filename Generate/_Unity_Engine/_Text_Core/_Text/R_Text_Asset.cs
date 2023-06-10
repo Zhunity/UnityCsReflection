@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextAsset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.TextAsset);
+            }
+        }
+
+        public RTextAsset() : base("UnityEngine.TextCore.Text.TextAsset")
+        {
+        }
+
+        public RTextAsset(System.Object instance) : base("UnityEngine.TextCore.Text.TextAsset")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Version
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextAsset() : base("UnityEngine.TextCore.Text.TextAsset")
-        {
-        }
-
-        public RTextAsset(System.Object instance) : base("UnityEngine.TextCore.Text.TextAsset")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetDirty()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RMenuFunction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.GenericMenu+MenuFunction");
+            }
+        }
+
+        public RMenuFunction() : base("UnityEditor.GenericMenu+MenuFunction")
+        {
+        }
+
+        public RMenuFunction(System.Object instance) : base("UnityEditor.GenericMenu+MenuFunction")
+		{
+            SetInstance(instance);
+		}
+
+        public RMenuFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMenuFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RMenuFunction() : base("UnityEditor.GenericMenu+MenuFunction")
-        {
-        }
-
-        public RMenuFunction(System.Object instance) : base("UnityEditor.GenericMenu+MenuFunction")
-		{
-            SetInstance(instance);
-		}
-
-        public RMenuFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMenuFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RFontAsset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.FontAsset);
+            }
+        }
+
+        public RFontAsset() : base("UnityEngine.TextCore.Text.FontAsset")
+        {
+        }
+
+        public RFontAsset(System.Object instance) : base("UnityEngine.TextCore.Text.FontAsset")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_SourceFontFileGUID
@@ -2891,23 +2916,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RFontAsset() : base("UnityEngine.TextCore.Text.FontAsset")
-        {
-        }
-
-        public RFontAsset(System.Object instance) : base("UnityEngine.TextCore.Text.FontAsset")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.TextCore.Text.FontAsset CreateFontAsset(System.String @familyName, System.String @styleName, System.Int32 @pointSize)
         {

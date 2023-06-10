@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RSubMeshDescriptor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.SubMeshDescriptor);
+            }
+        }
+
+        public RSubMeshDescriptor() : base("UnityEngine.Rendering.SubMeshDescriptor")
+        {
+        }
+
+        public RSubMeshDescriptor(System.Object instance) : base("UnityEngine.Rendering.SubMeshDescriptor")
+		{
+            SetInstance(instance);
+		}
+
+        public RSubMeshDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSubMeshDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Bounds <bounds>k__BackingField
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RSubMeshDescriptor() : base("UnityEngine.Rendering.SubMeshDescriptor")
-        {
-        }
-
-        public RSubMeshDescriptor(System.Object instance) : base("UnityEngine.Rendering.SubMeshDescriptor")
-		{
-            SetInstance(instance);
-		}
-
-        public RSubMeshDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSubMeshDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

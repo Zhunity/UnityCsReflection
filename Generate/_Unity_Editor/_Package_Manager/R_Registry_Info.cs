@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RRegistryInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.RegistryInfo);
+            }
+        }
+
+        public RRegistryInfo() : base("UnityEditor.PackageManager.RegistryInfo")
+        {
+        }
+
+        public RRegistryInfo(System.Object instance) : base("UnityEditor.PackageManager.RegistryInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegistryInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegistryInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Id
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RRegistryInfo() : base("UnityEditor.PackageManager.RegistryInfo")
-        {
-        }
-
-        public RRegistryInfo(System.Object instance) : base("UnityEditor.PackageManager.RegistryInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegistryInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegistryInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

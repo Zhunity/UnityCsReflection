@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RUnmanagedType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.UnmanagedType);
+            }
+        }
+
+        public RUnmanagedType() : base("System.Runtime.InteropServices.UnmanagedType")
+        {
+        }
+
+        public RUnmanagedType(System.Object instance) : base("System.Runtime.InteropServices.UnmanagedType")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnmanagedType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnmanagedType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RUnmanagedType() : base("System.Runtime.InteropServices.UnmanagedType")
-        {
-        }
-
-        public RUnmanagedType(System.Object instance) : base("System.Runtime.InteropServices.UnmanagedType")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnmanagedType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnmanagedType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

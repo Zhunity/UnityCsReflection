@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaFlexDirection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaFlexDirection");
+            }
+        }
+
+        public RYogaFlexDirection() : base("UnityEngine.Yoga.YogaFlexDirection")
+        {
+        }
+
+        public RYogaFlexDirection(System.Object instance) : base("UnityEngine.Yoga.YogaFlexDirection")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaFlexDirection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaFlexDirection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaFlexDirection() : base("UnityEngine.Yoga.YogaFlexDirection")
-        {
-        }
-
-        public RYogaFlexDirection(System.Object instance) : base("UnityEngine.Yoga.YogaFlexDirection")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaFlexDirection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaFlexDirection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

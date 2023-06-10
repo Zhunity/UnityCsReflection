@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 	/// </summary>
     public partial class RSearchOption : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IO.SearchOption);
+            }
+        }
+
+        public RSearchOption() : base("System.IO.SearchOption")
+        {
+        }
+
+        public RSearchOption(System.Object instance) : base("System.IO.SearchOption")
+		{
+            SetInstance(instance);
+		}
+
+        public RSearchOption(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSearchOption(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			}
 		}
 
-
-        public RSearchOption() : base("System.IO.SearchOption")
-        {
-        }
-
-        public RSearchOption(System.Object instance) : base("System.IO.SearchOption")
-		{
-            SetInstance(instance);
-		}
-
-        public RSearchOption(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSearchOption(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

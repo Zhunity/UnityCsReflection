@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RQuaternion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Quaternion);
+            }
+        }
+
+        public RQuaternion() : base("UnityEngine.Quaternion")
+        {
+        }
+
+        public RQuaternion(System.Object instance) : base("UnityEngine.Quaternion")
+		{
+            SetInstance(instance);
+		}
+
+        public RQuaternion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RQuaternion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single x
@@ -1195,23 +1220,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RQuaternion() : base("UnityEngine.Quaternion")
-        {
-        }
-
-        public RQuaternion(System.Object instance) : base("UnityEngine.Quaternion")
-		{
-            SetInstance(instance);
-		}
-
-        public RQuaternion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RQuaternion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Quaternion FromToRotation(UnityEngine.Vector3 @fromDirection, UnityEngine.Vector3 @toDirection)
         {

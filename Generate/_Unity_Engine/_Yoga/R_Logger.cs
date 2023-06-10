@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RLogger : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.Logger");
+            }
+        }
+
+        public RLogger() : base("UnityEngine.Yoga.Logger")
+        {
+        }
+
+        public RLogger(System.Object instance) : base("UnityEngine.Yoga.Logger")
+		{
+            SetInstance(instance);
+		}
+
+        public RLogger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLogger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RLogger() : base("UnityEngine.Yoga.Logger")
-        {
-        }
-
-        public RLogger(System.Object instance) : base("UnityEngine.Yoga.Logger")
-		{
-            SetInstance(instance);
-		}
-
-        public RLogger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLogger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaConfig @config, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaLogLevel @level, System.String @message)
         {

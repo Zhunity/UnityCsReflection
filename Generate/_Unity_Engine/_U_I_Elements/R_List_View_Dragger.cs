@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RListViewDragger : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ListViewDragger");
+            }
+        }
+
+        public RListViewDragger() : base("UnityEngine.UIElements.ListViewDragger")
+        {
+        }
+
+        public RListViewDragger(System.Object instance) : base("UnityEngine.UIElements.ListViewDragger")
+		{
+            SetInstance(instance);
+		}
+
+        public RListViewDragger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RListViewDragger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.ListViewDragger+DragPosition m_LastDragPosition
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RListViewDragger() : base("UnityEngine.UIElements.ListViewDragger")
-        {
-        }
-
-        public RListViewDragger(System.Object instance) : base("UnityEngine.UIElements.ListViewDragger")
-		{
-            SetInstance(instance);
-		}
-
-        public RListViewDragger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RListViewDragger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean CanStartDrag(UnityEngine.Vector3 @pointerPosition)
         {

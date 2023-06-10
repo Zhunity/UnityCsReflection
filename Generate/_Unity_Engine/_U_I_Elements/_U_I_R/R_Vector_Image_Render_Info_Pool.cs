@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RVectorImageRenderInfoPool : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageRenderInfoPool");
+            }
+        }
+
+        public RVectorImageRenderInfoPool() : base("UnityEngine.UIElements.UIR.VectorImageRenderInfoPool")
+        {
+        }
+
+        public RVectorImageRenderInfoPool(System.Object instance) : base("UnityEngine.UIElements.UIR.VectorImageRenderInfoPool")
+		{
+            SetInstance(instance);
+		}
+
+        public RVectorImageRenderInfoPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVectorImageRenderInfoPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 Count
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RVectorImageRenderInfoPool() : base("UnityEngine.UIElements.UIR.VectorImageRenderInfoPool")
-        {
-        }
-
-        public RVectorImageRenderInfoPool(System.Object instance) : base("UnityEngine.UIElements.UIR.VectorImageRenderInfoPool")
-		{
-            SetInstance(instance);
-		}
-
-        public RVectorImageRenderInfoPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVectorImageRenderInfoPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

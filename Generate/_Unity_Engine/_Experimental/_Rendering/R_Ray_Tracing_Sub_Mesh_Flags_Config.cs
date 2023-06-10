@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingSubMeshFlagsConfig : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig);
+            }
+        }
+
+        public RRayTracingSubMeshFlagsConfig() : base("UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig")
+        {
+        }
+
+        public RRayTracingSubMeshFlagsConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingSubMeshFlagsConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingSubMeshFlagsConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags opaqueMaterials
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingSubMeshFlagsConfig() : base("UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig")
-        {
-        }
-
-        public RRayTracingSubMeshFlagsConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingSubMeshFlagsConfig")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingSubMeshFlagsConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingSubMeshFlagsConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

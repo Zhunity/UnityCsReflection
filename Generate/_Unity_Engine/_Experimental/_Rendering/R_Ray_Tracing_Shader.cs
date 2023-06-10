@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingShader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingShader);
+            }
+        }
+
+        public RRayTracingShader() : base("UnityEngine.Experimental.Rendering.RayTracingShader")
+        {
+        }
+
+        public RRayTracingShader(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingShader")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingShader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingShader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Single maxRecursionDepth
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingShader() : base("UnityEngine.Experimental.Rendering.RayTracingShader")
-        {
-        }
-
-        public RRayTracingShader(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingShader")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingShader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingShader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetFloat(System.Int32 @nameID, System.Single @val)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RPolicyLevel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.PolicyLevel);
+            }
+        }
+
+        public RPolicyLevel() : base("System.Security.Policy.PolicyLevel")
+        {
+        }
+
+        public RPolicyLevel(System.Object instance) : base("System.Security.Policy.PolicyLevel")
+		{
+            SetInstance(instance);
+		}
+
+        public RPolicyLevel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPolicyLevel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String label
@@ -731,23 +756,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RPolicyLevel() : base("System.Security.Policy.PolicyLevel")
-        {
-        }
-
-        public RPolicyLevel(System.Object instance) : base("System.Security.Policy.PolicyLevel")
-		{
-            SetInstance(instance);
-		}
-
-        public RPolicyLevel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPolicyLevel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void LoadFromFile(System.String @filename)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMesh : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Mesh);
+            }
+        }
+
+        public RMesh() : base("UnityEngine.Mesh")
+        {
+        }
+
+        public RMesh(System.Object instance) : base("UnityEngine.Mesh")
+		{
+            SetInstance(instance);
+		}
+
+        public RMesh(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMesh(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2[] uv1
@@ -5035,23 +5060,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMesh() : base("UnityEngine.Mesh")
-        {
-        }
-
-        public RMesh(System.Object instance) : base("UnityEngine.Mesh")
-		{
-            SetInstance(instance);
-		}
-
-        public RMesh(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMesh(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void Internal_Create(UnityEngine.Mesh @mono)
         {

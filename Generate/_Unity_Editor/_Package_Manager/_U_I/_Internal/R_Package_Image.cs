@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageImage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageImage");
+            }
+        }
+
+        public RPackageImage() : base("UnityEditor.PackageManager.UI.Internal.PackageImage")
+        {
+        }
+
+        public RPackageImage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageImage")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageImage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageImage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageImage+ImageType type
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageImage() : base("UnityEditor.PackageManager.UI.Internal.PackageImage")
-        {
-        }
-
-        public RPackageImage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageImage")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageImage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageImage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RCommonSecurityDescriptor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.CommonSecurityDescriptor);
+            }
+        }
+
+        public RCommonSecurityDescriptor() : base("System.Security.AccessControl.CommonSecurityDescriptor")
+        {
+        }
+
+        public RCommonSecurityDescriptor(System.Object instance) : base("System.Security.AccessControl.CommonSecurityDescriptor")
+		{
+            SetInstance(instance);
+		}
+
+        public RCommonSecurityDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCommonSecurityDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean is_container
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RCommonSecurityDescriptor() : base("System.Security.AccessControl.CommonSecurityDescriptor")
-        {
-        }
-
-        public RCommonSecurityDescriptor(System.Object instance) : base("System.Security.AccessControl.CommonSecurityDescriptor")
-		{
-            SetInstance(instance);
-		}
-
-        public RCommonSecurityDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCommonSecurityDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.RawSecurityDescriptor @rawSecurityDescriptor)
         {

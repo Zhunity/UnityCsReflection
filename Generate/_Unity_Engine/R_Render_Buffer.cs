@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRenderBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.RenderBuffer);
+            }
+        }
+
+        public RRenderBuffer() : base("UnityEngine.RenderBuffer")
+        {
+        }
+
+        public RRenderBuffer(System.Object instance) : base("UnityEngine.RenderBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_RenderTextureInstanceID
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRenderBuffer() : base("UnityEngine.RenderBuffer")
-        {
-        }
-
-        public RRenderBuffer(System.Object instance) : base("UnityEngine.RenderBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetLoadAction(UnityEngine.Rendering.RenderBufferLoadAction @action)
         {

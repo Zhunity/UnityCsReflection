@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPointerCaptureEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.PointerCaptureEvent);
+            }
+        }
+
+        public RPointerCaptureEvent() : base("UnityEngine.UIElements.PointerCaptureEvent")
+        {
+        }
+
+        public RPointerCaptureEvent(System.Object instance) : base("UnityEngine.UIElements.PointerCaptureEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RPointerCaptureEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPointerCaptureEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler relatedTarget
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPointerCaptureEvent() : base("UnityEngine.UIElements.PointerCaptureEvent")
-        {
-        }
-
-        public RPointerCaptureEvent(System.Object instance) : base("UnityEngine.UIElements.PointerCaptureEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RPointerCaptureEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPointerCaptureEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

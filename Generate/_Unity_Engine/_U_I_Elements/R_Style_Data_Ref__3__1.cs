@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleDataRef<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1");
+            }
+        }
+
+        public RStyleDataRef() : base("UnityEngine.UIElements.StyleDataRef`1")
+        {
+        }
+
+        public RStyleDataRef(System.Object instance) : base("UnityEngine.UIElements.StyleDataRef`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleDataRef(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleDataRef(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleDataRef`1+RefCounted[T] m_Ref
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleDataRef() : base("UnityEngine.UIElements.StyleDataRef`1")
-        {
-        }
-
-        public RStyleDataRef(System.Object instance) : base("UnityEngine.UIElements.StyleDataRef`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleDataRef(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleDataRef(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> Acquire()
         {

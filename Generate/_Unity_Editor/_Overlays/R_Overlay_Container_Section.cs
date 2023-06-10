@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayContainerSection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection");
+            }
+        }
+
+        public ROverlayContainerSection() : base("UnityEditor.Overlays.OverlayContainerSection")
+        {
+        }
+
+        public ROverlayContainerSection(System.Object instance) : base("UnityEditor.Overlays.OverlayContainerSection")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayContainerSection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayContainerSection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayContainerSection() : base("UnityEditor.Overlays.OverlayContainerSection")
-        {
-        }
-
-        public ROverlayContainerSection(System.Object instance) : base("UnityEditor.Overlays.OverlayContainerSection")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayContainerSection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayContainerSection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

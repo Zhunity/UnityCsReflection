@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCompareInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.CompareInfo);
+            }
+        }
+
+        public RCompareInfo() : base("System.Globalization.CompareInfo")
+        {
+        }
+
+        public RCompareInfo(System.Object instance) : base("System.Globalization.CompareInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RCompareInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCompareInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Globalization.CompareOptions ValidIndexMaskOffFlags
@@ -1931,23 +1956,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCompareInfo() : base("System.Globalization.CompareInfo")
-        {
-        }
-
-        public RCompareInfo(System.Object instance) : base("System.Globalization.CompareInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RCompareInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCompareInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Int32 InvariantIndexOf(System.String @source, System.String @value, System.Int32 @startIndex, System.Int32 @count, System.Boolean @ignoreCase)
         {

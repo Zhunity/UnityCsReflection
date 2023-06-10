@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RFontTextureRebuildCallback : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Font+FontTextureRebuildCallback");
+            }
+        }
+
+        public RFontTextureRebuildCallback() : base("UnityEngine.Font+FontTextureRebuildCallback")
+        {
+        }
+
+        public RFontTextureRebuildCallback(System.Object instance) : base("UnityEngine.Font+FontTextureRebuildCallback")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontTextureRebuildCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontTextureRebuildCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RFontTextureRebuildCallback() : base("UnityEngine.Font+FontTextureRebuildCallback")
-        {
-        }
-
-        public RFontTextureRebuildCallback(System.Object instance) : base("UnityEngine.Font+FontTextureRebuildCallback")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontTextureRebuildCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontTextureRebuildCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke()
         {

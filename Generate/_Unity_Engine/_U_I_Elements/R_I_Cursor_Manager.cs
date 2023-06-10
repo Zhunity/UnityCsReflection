@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RICursorManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ICursorManager");
+            }
+        }
+
+        public RICursorManager() : base("UnityEngine.UIElements.ICursorManager")
+        {
+        }
+
+        public RICursorManager(System.Object instance) : base("UnityEngine.UIElements.ICursorManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RICursorManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RICursorManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void SetCursor(UnityEngine.UIElements.Cursor)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RICursorManager() : base("UnityEngine.UIElements.ICursorManager")
-        {
-        }
-
-        public RICursorManager(System.Object instance) : base("UnityEngine.UIElements.ICursorManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RICursorManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RICursorManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetCursor(UnityEngine.UIElements.Cursor @cursor)
         {

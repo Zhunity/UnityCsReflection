@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RClientProxy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ClientProxy");
+            }
+        }
+
+        public RClientProxy() : base("UnityEditor.PackageManager.UI.Internal.ClientProxy")
+        {
+        }
+
+        public RClientProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ClientProxy")
+		{
+            SetInstance(instance);
+		}
+
+        public RClientProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClientProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void Resolve(Boolean)
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RClientProxy() : base("UnityEditor.PackageManager.UI.Internal.ClientProxy")
-        {
-        }
-
-        public RClientProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ClientProxy")
-		{
-            SetInstance(instance);
-		}
-
-        public RClientProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClientProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Resolve(System.Boolean @force)
         {

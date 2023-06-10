@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RFileSecurity : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.FileSecurity);
+            }
+        }
+
+        public RFileSecurity() : base("System.Security.AccessControl.FileSecurity")
+        {
+        }
+
+        public RFileSecurity(System.Object instance) : base("System.Security.AccessControl.FileSecurity")
+		{
+            SetInstance(instance);
+		}
+
+        public RFileSecurity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFileSecurity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.CommonSecurityDescriptor descriptor
@@ -1371,23 +1396,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RFileSecurity() : base("System.Security.AccessControl.FileSecurity")
-        {
-        }
-
-        public RFileSecurity(System.Object instance) : base("System.Security.AccessControl.FileSecurity")
-		{
-            SetInstance(instance);
-		}
-
-        public RFileSecurity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFileSecurity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.AccessControl.AccessRule AccessRuleFactory(System.Security.Principal.IdentityReference @identityReference, System.Int32 @accessMask, System.Boolean @isInherited, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags, System.Security.AccessControl.AccessControlType @type)
         {

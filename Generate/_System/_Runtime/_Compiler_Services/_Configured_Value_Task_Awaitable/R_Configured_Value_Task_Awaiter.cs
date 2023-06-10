@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RConfiguredValueTaskAwaiter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable+ConfiguredValueTaskAwaiter");
+            }
+        }
+
+        public RConfiguredValueTaskAwaiter() : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable+ConfiguredValueTaskAwaiter")
+        {
+        }
+
+        public RConfiguredValueTaskAwaiter(System.Object instance) : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable+ConfiguredValueTaskAwaiter")
+		{
+            SetInstance(instance);
+		}
+
+        public RConfiguredValueTaskAwaiter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConfiguredValueTaskAwaiter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.Tasks.ValueTask _value
@@ -189,23 +214,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RConfiguredValueTaskAwaiter() : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable+ConfiguredValueTaskAwaiter")
-        {
-        }
-
-        public RConfiguredValueTaskAwaiter(System.Object instance) : base("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable+ConfiguredValueTaskAwaiter")
-		{
-            SetInstance(instance);
-		}
-
-        public RConfiguredValueTaskAwaiter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConfiguredValueTaskAwaiter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetResult()
         {

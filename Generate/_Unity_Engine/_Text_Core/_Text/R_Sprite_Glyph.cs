@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RSpriteGlyph : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.SpriteGlyph);
+            }
+        }
+
+        public RSpriteGlyph() : base("UnityEngine.TextCore.Text.SpriteGlyph")
+        {
+        }
+
+        public RSpriteGlyph(System.Object instance) : base("UnityEngine.TextCore.Text.SpriteGlyph")
+		{
+            SetInstance(instance);
+		}
+
+        public RSpriteGlyph(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSpriteGlyph(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Sprite sprite
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RSpriteGlyph() : base("UnityEngine.TextCore.Text.SpriteGlyph")
-        {
-        }
-
-        public RSpriteGlyph(System.Object instance) : base("UnityEngine.TextCore.Text.SpriteGlyph")
-		{
-            SetInstance(instance);
-		}
-
-        public RSpriteGlyph(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSpriteGlyph(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Compare(UnityEngine.TextCore.Glyph @other)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RIEqualityComparer<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.IEqualityComparer<>);
+            }
+        }
+
+        public RIEqualityComparer() : base("System.Collections.Generic.IEqualityComparer`1")
+        {
+        }
+
+        public RIEqualityComparer(System.Object instance) : base("System.Collections.Generic.IEqualityComparer`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RIEqualityComparer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIEqualityComparer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean Equals(T, T)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RIEqualityComparer() : base("System.Collections.Generic.IEqualityComparer`1")
-        {
-        }
-
-        public RIEqualityComparer(System.Object instance) : base("System.Collections.Generic.IEqualityComparer`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RIEqualityComparer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIEqualityComparer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(T @x, T @y)
         {

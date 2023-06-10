@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	/// </summary>
     public partial class RWellKnownSidType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Principal.WellKnownSidType);
+            }
+        }
+
+        public RWellKnownSidType() : base("System.Security.Principal.WellKnownSidType")
+        {
+        }
+
+        public RWellKnownSidType(System.Object instance) : base("System.Security.Principal.WellKnownSidType")
+		{
+            SetInstance(instance);
+		}
+
+        public RWellKnownSidType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWellKnownSidType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -1771,23 +1796,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			}
 		}
 
-
-        public RWellKnownSidType() : base("System.Security.Principal.WellKnownSidType")
-        {
-        }
-
-        public RWellKnownSidType(System.Object instance) : base("System.Security.Principal.WellKnownSidType")
-		{
-            SetInstance(instance);
-		}
-
-        public RWellKnownSidType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWellKnownSidType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RPredicate<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Predicate<>);
+            }
+        }
+
+        public RPredicate() : base("System.Predicate`1")
+        {
+        }
+
+        public RPredicate(System.Object instance) : base("System.Predicate`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RPredicate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPredicate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RPredicate() : base("System.Predicate`1")
-        {
-        }
-
-        public RPredicate(System.Object instance) : base("System.Predicate`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RPredicate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPredicate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(T @obj)
         {

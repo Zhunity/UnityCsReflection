@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RFont : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Font);
+            }
+        }
+
+        public RFont() : base("UnityEngine.Font")
+        {
+        }
+
+        public RFont(System.Object instance) : base("UnityEngine.Font")
+		{
+            SetInstance(instance);
+		}
+
+        public RFont(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFont(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.Font] textureRebuilt
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RFont() : base("UnityEngine.Font")
-        {
-        }
-
-        public RFont(System.Object instance) : base("UnityEngine.Font")
-		{
-            SetInstance(instance);
-		}
-
-        public RFont(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFont(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Font CreateDynamicFontFromOSFont(System.String @fontname, System.Int32 @size)
         {

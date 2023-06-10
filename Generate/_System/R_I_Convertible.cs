@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIConvertible : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IConvertible);
+            }
+        }
+
+        public RIConvertible() : base("System.IConvertible")
+        {
+        }
+
+        public RIConvertible(System.Object instance) : base("System.IConvertible")
+		{
+            SetInstance(instance);
+		}
+
+        public RIConvertible(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIConvertible(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.TypeCode GetTypeCode()
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RIConvertible() : base("System.IConvertible")
-        {
-        }
-
-        public RIConvertible(System.Object instance) : base("System.IConvertible")
-		{
-            SetInstance(instance);
-		}
-
-        public RIConvertible(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIConvertible(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.TypeCode GetTypeCode()
         {

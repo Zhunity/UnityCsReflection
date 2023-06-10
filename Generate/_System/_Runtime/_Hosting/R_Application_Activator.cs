@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting
 	/// </summary>
     public partial class RApplicationActivator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Hosting.ApplicationActivator);
+            }
+        }
+
+        public RApplicationActivator() : base("System.Runtime.Hosting.ApplicationActivator")
+        {
+        }
+
+        public RApplicationActivator(System.Object instance) : base("System.Runtime.Hosting.ApplicationActivator")
+		{
+            SetInstance(instance);
+		}
+
+        public RApplicationActivator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RApplicationActivator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext)
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting
 			}
 		}
 
-
-        public RApplicationActivator() : base("System.Runtime.Hosting.ApplicationActivator")
-        {
-        }
-
-        public RApplicationActivator(System.Object instance) : base("System.Runtime.Hosting.ApplicationActivator")
-		{
-            SetInstance(instance);
-		}
-
-        public RApplicationActivator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RApplicationActivator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Runtime.Remoting.ObjectHandle CreateInstance(System.ActivationContext @activationContext)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RIDropArea : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IDropArea");
+            }
+        }
+
+        public RIDropArea() : base("UnityEditor.IDropArea")
+        {
+        }
+
+        public RIDropArea(System.Object instance) : base("UnityEditor.IDropArea")
+		{
+            SetInstance(instance);
+		}
+
+        public RIDropArea(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIDropArea(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.DropInfo DragOver(UnityEditor.EditorWindow, UnityEngine.Vector2)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RIDropArea() : base("UnityEditor.IDropArea")
-        {
-        }
-
-        public RIDropArea(System.Object instance) : base("UnityEditor.IDropArea")
-		{
-            SetInstance(instance);
-		}
-
-        public RIDropArea(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIDropArea(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RDropInfo DragOver(UnityEditor.EditorWindow @w, UnityEngine.Vector2 @screenPos)
         {

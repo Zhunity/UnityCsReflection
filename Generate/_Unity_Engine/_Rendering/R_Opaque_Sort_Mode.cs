@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class ROpaqueSortMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.OpaqueSortMode);
+            }
+        }
+
+        public ROpaqueSortMode() : base("UnityEngine.Rendering.OpaqueSortMode")
+        {
+        }
+
+        public ROpaqueSortMode(System.Object instance) : base("UnityEngine.Rendering.OpaqueSortMode")
+		{
+            SetInstance(instance);
+		}
+
+        public ROpaqueSortMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROpaqueSortMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public ROpaqueSortMode() : base("UnityEngine.Rendering.OpaqueSortMode")
-        {
-        }
-
-        public ROpaqueSortMode(System.Object instance) : base("UnityEngine.Rendering.OpaqueSortMode")
-		{
-            SetInstance(instance);
-		}
-
-        public ROpaqueSortMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROpaqueSortMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RGradientSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.GradientSettings");
+            }
+        }
+
+        public RGradientSettings() : base("UnityEngine.UIElements.GradientSettings")
+        {
+        }
+
+        public RGradientSettings(System.Object instance) : base("UnityEngine.UIElements.GradientSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RGradientSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGradientSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.GradientType gradientType
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RGradientSettings() : base("UnityEngine.UIElements.GradientSettings")
-        {
-        }
-
-        public RGradientSettings(System.Object instance) : base("UnityEngine.UIElements.GradientSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RGradientSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGradientSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

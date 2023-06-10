@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RUITKTextHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UITKTextHandle");
+            }
+        }
+
+        public RUITKTextHandle() : base("UnityEngine.UIElements.UITKTextHandle")
+        {
+        }
+
+        public RUITKTextHandle(System.Object instance) : base("UnityEngine.UIElements.UITKTextHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RUITKTextHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUITKTextHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 <MeasuredSizes>k__BackingField
@@ -939,23 +964,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RUITKTextHandle() : base("UnityEngine.UIElements.UITKTextHandle")
-        {
-        }
-
-        public RUITKTextHandle(System.Object instance) : base("UnityEngine.UIElements.UITKTextHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RUITKTextHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUITKTextHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Single ComputeTextWidth(System.String @textToMeasure, System.Boolean @wordWrap, System.Single @width, System.Single @height)
         {

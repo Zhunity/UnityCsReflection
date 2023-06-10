@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	/// </summary>
     public partial class RIContextProperty : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Contexts.IContextProperty);
+            }
+        }
+
+        public RIContextProperty() : base("System.Runtime.Remoting.Contexts.IContextProperty")
+        {
+        }
+
+        public RIContextProperty(System.Object instance) : base("System.Runtime.Remoting.Contexts.IContextProperty")
+		{
+            SetInstance(instance);
+		}
+
+        public RIContextProperty(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIContextProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String Name
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			}
 		}
 
-
-        public RIContextProperty() : base("System.Runtime.Remoting.Contexts.IContextProperty")
-        {
-        }
-
-        public RIContextProperty(System.Object instance) : base("System.Runtime.Remoting.Contexts.IContextProperty")
-		{
-            SetInstance(instance);
-		}
-
-        public RIContextProperty(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIContextProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Freeze(System.Runtime.Remoting.Contexts.Context @newContext)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPageFilters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageFilters");
+            }
+        }
+
+        public RPageFilters() : base("UnityEditor.PackageManager.UI.Internal.PageFilters")
+        {
+        }
+
+        public RPageFilters(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageFilters")
+		{
+            SetInstance(instance);
+		}
+
+        public RPageFilters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPageFilters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_UnlabeledStatus
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPageFilters() : base("UnityEditor.PackageManager.UI.Internal.PageFilters")
-        {
-        }
-
-        public RPageFilters(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageFilters")
-		{
-            SetInstance(instance);
-		}
-
-        public RPageFilters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPageFilters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters Clone()
         {

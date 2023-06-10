@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 	/// </summary>
     public partial class RSymAddressKind : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Diagnostics.SymbolStore.SymAddressKind);
+            }
+        }
+
+        public RSymAddressKind() : base("System.Diagnostics.SymbolStore.SymAddressKind")
+        {
+        }
+
+        public RSymAddressKind(System.Object instance) : base("System.Diagnostics.SymbolStore.SymAddressKind")
+		{
+            SetInstance(instance);
+		}
+
+        public RSymAddressKind(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSymAddressKind(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			}
 		}
 
-
-        public RSymAddressKind() : base("System.Diagnostics.SymbolStore.SymAddressKind")
-        {
-        }
-
-        public RSymAddressKind(System.Object instance) : base("System.Diagnostics.SymbolStore.SymAddressKind")
-		{
-            SetInstance(instance);
-		}
-
-        public RSymAddressKind(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSymAddressKind(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

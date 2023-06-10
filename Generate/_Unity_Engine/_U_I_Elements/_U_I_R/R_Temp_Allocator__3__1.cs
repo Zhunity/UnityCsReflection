@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RTempAllocator<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TempAllocator`1");
+            }
+        }
+
+        public RTempAllocator() : base("UnityEngine.UIElements.UIR.TempAllocator`1")
+        {
+        }
+
+        public RTempAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RTempAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTempAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_ExcessMinCapacity
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RTempAllocator() : base("UnityEngine.UIElements.UIR.TempAllocator`1")
-        {
-        }
-
-        public RTempAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RTempAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTempAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

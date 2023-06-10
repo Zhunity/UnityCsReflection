@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRepeat : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Repeat);
+            }
+        }
+
+        public RRepeat() : base("UnityEngine.UIElements.Repeat")
+        {
+        }
+
+        public RRepeat(System.Object instance) : base("UnityEngine.UIElements.Repeat")
+		{
+            SetInstance(instance);
+		}
+
+        public RRepeat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRepeat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRepeat() : base("UnityEngine.UIElements.Repeat")
-        {
-        }
-
-        public RRepeat(System.Object instance) : base("UnityEngine.UIElements.Repeat")
-		{
-            SetInstance(instance);
-		}
-
-        public RRepeat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRepeat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

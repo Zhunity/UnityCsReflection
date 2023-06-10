@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RWheelEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.WheelEvent);
+            }
+        }
+
+        public RWheelEvent() : base("UnityEngine.UIElements.WheelEvent")
+        {
+        }
+
+        public RWheelEvent(System.Object instance) : base("UnityEngine.UIElements.WheelEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RWheelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWheelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 <delta>k__BackingField
@@ -1083,23 +1108,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RWheelEvent() : base("UnityEngine.UIElements.WheelEvent")
-        {
-        }
-
-        public RWheelEvent(System.Object instance) : base("UnityEngine.UIElements.WheelEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RWheelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWheelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.WheelEvent GetPooled(UnityEngine.Event @systemEvent)
         {

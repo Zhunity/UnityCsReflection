@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RSelectableLabel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.SelectableLabel");
+            }
+        }
+
+        public RSelectableLabel() : base("UnityEditor.PackageManager.UI.Internal.SelectableLabel")
+        {
+        }
+
+        public RSelectableLabel(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.SelectableLabel")
+		{
+            SetInstance(instance);
+		}
+
+        public RSelectableLabel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSelectableLabel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <multiline>k__BackingField
@@ -3899,23 +3924,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RSelectableLabel() : base("UnityEditor.PackageManager.UI.Internal.SelectableLabel")
-        {
-        }
-
-        public RSelectableLabel(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.SelectableLabel")
-		{
-            SetInstance(instance);
-		}
-
-        public RSelectableLabel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSelectableLabel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetAsSelectableAndElided()
         {

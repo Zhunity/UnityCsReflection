@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RWeakReference : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.WeakReference);
+            }
+        }
+
+        public RWeakReference() : base("System.WeakReference")
+        {
+        }
+
+        public RWeakReference(System.Object instance) : base("System.WeakReference")
+		{
+            SetInstance(instance);
+		}
+
+        public RWeakReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWeakReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean isLongReference
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RWeakReference() : base("System.WeakReference")
-        {
-        }
-
-        public RWeakReference(System.Object instance) : base("System.WeakReference")
-		{
-            SetInstance(instance);
-		}
-
-        public RWeakReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWeakReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AllocateHandle(System.Object @target)
         {

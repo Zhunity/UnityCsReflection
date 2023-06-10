@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAssemblyLoadEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AssemblyLoadEventArgs);
+            }
+        }
+
+        public RAssemblyLoadEventArgs() : base("System.AssemblyLoadEventArgs")
+        {
+        }
+
+        public RAssemblyLoadEventArgs(System.Object instance) : base("System.AssemblyLoadEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssemblyLoadEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssemblyLoadEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.Assembly <LoadedAssembly>k__BackingField
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAssemblyLoadEventArgs() : base("System.AssemblyLoadEventArgs")
-        {
-        }
-
-        public RAssemblyLoadEventArgs(System.Object instance) : base("System.AssemblyLoadEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssemblyLoadEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssemblyLoadEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextInputSource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInputSource");
+            }
+        }
+
+        public RTextInputSource() : base("UnityEngine.TextCore.Text.TextInputSource")
+        {
+        }
+
+        public RTextInputSource(System.Object instance) : base("UnityEngine.TextCore.Text.TextInputSource")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextInputSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextInputSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextInputSource() : base("UnityEngine.TextCore.Text.TextInputSource")
-        {
-        }
-
-        public RTextInputSource(System.Object instance) : base("UnityEngine.TextCore.Text.TextInputSource")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextInputSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextInputSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

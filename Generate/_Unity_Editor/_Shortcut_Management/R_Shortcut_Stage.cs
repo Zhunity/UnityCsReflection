@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement
 	/// </summary>
     public partial class RShortcutStage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.ShortcutManagement.ShortcutStage);
+            }
+        }
+
+        public RShortcutStage() : base("UnityEditor.ShortcutManagement.ShortcutStage")
+        {
+        }
+
+        public RShortcutStage(System.Object instance) : base("UnityEditor.ShortcutManagement.ShortcutStage")
+		{
+            SetInstance(instance);
+		}
+
+        public RShortcutStage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RShortcutStage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement
 			}
 		}
 
-
-        public RShortcutStage() : base("UnityEditor.ShortcutManagement.ShortcutStage")
-        {
-        }
-
-        public RShortcutStage(System.Object instance) : base("UnityEditor.ShortcutManagement.ShortcutStage")
-		{
-            SetInstance(instance);
-		}
-
-        public RShortcutStage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RShortcutStage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

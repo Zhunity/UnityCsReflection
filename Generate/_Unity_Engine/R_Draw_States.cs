@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RDrawStates : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.DrawStates");
+            }
+        }
+
+        public RDrawStates() : base("UnityEngine.DrawStates")
+        {
+        }
+
+        public RDrawStates(System.Object instance) : base("UnityEngine.DrawStates")
+		{
+            SetInstance(instance);
+		}
+
+        public RDrawStates(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDrawStates(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 controlId
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RDrawStates() : base("UnityEngine.DrawStates")
-        {
-        }
-
-        public RDrawStates(System.Object instance) : base("UnityEngine.DrawStates")
-		{
-            SetInstance(instance);
-		}
-
-        public RDrawStates(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDrawStates(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

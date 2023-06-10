@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVersionChangeType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VersionChangeType");
+            }
+        }
+
+        public RVersionChangeType() : base("UnityEngine.UIElements.VersionChangeType")
+        {
+        }
+
+        public RVersionChangeType(System.Object instance) : base("UnityEngine.UIElements.VersionChangeType")
+		{
+            SetInstance(instance);
+		}
+
+        public RVersionChangeType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVersionChangeType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVersionChangeType() : base("UnityEngine.UIElements.VersionChangeType")
-        {
-        }
-
-        public RVersionChangeType(System.Object instance) : base("UnityEngine.UIElements.VersionChangeType")
-		{
-            SetInstance(instance);
-		}
-
-        public RVersionChangeType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVersionChangeType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

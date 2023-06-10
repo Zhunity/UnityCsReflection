@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RHashSet<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.HashSet<>);
+            }
+        }
+
+        public RHashSet() : base("System.Collections.Generic.HashSet`1")
+        {
+        }
+
+        public RHashSet(System.Object instance) : base("System.Collections.Generic.HashSet`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RHashSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHashSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 Lower31BitMask
@@ -1131,23 +1156,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RHashSet() : base("System.Collections.Generic.HashSet`1")
-        {
-        }
-
-        public RHashSet(System.Object instance) : base("System.Collections.Generic.HashSet`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RHashSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHashSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CopyFrom(System.Collections.Generic.HashSet<T> @source)
         {

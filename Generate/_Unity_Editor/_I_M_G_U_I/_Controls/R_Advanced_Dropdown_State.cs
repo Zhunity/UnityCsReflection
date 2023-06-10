@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	/// </summary>
     public partial class RAdvancedDropdownState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownState);
+            }
+        }
+
+        public RAdvancedDropdownState() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownState")
+        {
+        }
+
+        public RAdvancedDropdownState(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownState")
+		{
+            SetInstance(instance);
+		}
+
+        public RAdvancedDropdownState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAdvancedDropdownState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownState+AdvancedDropdownItemState[] states
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			}
 		}
 
-
-        public RAdvancedDropdownState() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownState")
-        {
-        }
-
-        public RAdvancedDropdownState(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownState")
-		{
-            SetInstance(instance);
-		}
-
-        public RAdvancedDropdownState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAdvancedDropdownState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownState.RAdvancedDropdownItemState GetStateForItem(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item)
         {

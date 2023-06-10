@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleEnum<T> : RMember // where T : struct, System.IConvertible
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleEnum<>);
+            }
+        }
+
+        public RStyleEnum() : base("UnityEngine.UIElements.StyleEnum`1")
+        {
+        }
+
+        public RStyleEnum(System.Object instance) : base("UnityEngine.UIElements.StyleEnum`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleEnum(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleEnum(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleEnum() : base("UnityEngine.UIElements.StyleEnum`1")
-        {
-        }
-
-        public RStyleEnum(System.Object instance) : base("UnityEngine.UIElements.StyleEnum`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleEnum(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleEnum(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @lhs, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RType> @rhs)
         {

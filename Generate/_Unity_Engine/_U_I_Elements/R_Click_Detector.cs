@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RClickDetector : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ClickDetector");
+            }
+        }
+
+        public RClickDetector() : base("UnityEngine.UIElements.ClickDetector")
+        {
+        }
+
+        public RClickDetector(System.Object instance) : base("UnityEngine.UIElements.ClickDetector")
+		{
+            SetInstance(instance);
+		}
+
+        public RClickDetector(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClickDetector(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.ClickDetector+ButtonClickStatus] m_ClickStatus
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RClickDetector() : base("UnityEngine.UIElements.ClickDetector")
-        {
-        }
-
-        public RClickDetector(System.Object instance) : base("UnityEngine.UIElements.ClickDetector")
-		{
-            SetInstance(instance);
-		}
-
-        public RClickDetector(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClickDetector(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void StartClickTracking(UnityEngine.UIElements.EventBase @evt)
         {

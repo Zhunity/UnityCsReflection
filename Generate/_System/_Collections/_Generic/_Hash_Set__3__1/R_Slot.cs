@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RSlot : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1+Slot");
+            }
+        }
+
+        public RSlot() : base("System.Collections.Generic.HashSet`1+Slot")
+        {
+        }
+
+        public RSlot(System.Object instance) : base("System.Collections.Generic.HashSet`1+Slot")
+		{
+            SetInstance(instance);
+		}
+
+        public RSlot(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSlot(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 hashCode
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RSlot() : base("System.Collections.Generic.HashSet`1+Slot")
-        {
-        }
-
-        public RSlot(System.Object instance) : base("System.Collections.Generic.HashSet`1+Slot")
-		{
-            SetInstance(instance);
-		}
-
-        public RSlot(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSlot(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

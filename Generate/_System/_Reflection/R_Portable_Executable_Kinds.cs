@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RPortableExecutableKinds : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.PortableExecutableKinds);
+            }
+        }
+
+        public RPortableExecutableKinds() : base("System.Reflection.PortableExecutableKinds")
+        {
+        }
+
+        public RPortableExecutableKinds(System.Object instance) : base("System.Reflection.PortableExecutableKinds")
+		{
+            SetInstance(instance);
+		}
+
+        public RPortableExecutableKinds(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPortableExecutableKinds(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RPortableExecutableKinds() : base("System.Reflection.PortableExecutableKinds")
-        {
-        }
-
-        public RPortableExecutableKinds(System.Object instance) : base("System.Reflection.PortableExecutableKinds")
-		{
-            SetInstance(instance);
-		}
-
-        public RPortableExecutableKinds(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPortableExecutableKinds(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

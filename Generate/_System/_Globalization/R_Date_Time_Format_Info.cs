@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RDateTimeFormatInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.DateTimeFormatInfo);
+            }
+        }
+
+        public RDateTimeFormatInfo() : base("System.Globalization.DateTimeFormatInfo")
+        {
+        }
+
+        public RDateTimeFormatInfo(System.Object instance) : base("System.Globalization.DateTimeFormatInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RDateTimeFormatInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDateTimeFormatInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Globalization.DateTimeFormatInfo s_invariantInfo
@@ -3099,23 +3124,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RDateTimeFormatInfo() : base("System.Globalization.DateTimeFormatInfo")
-        {
-        }
-
-        public RDateTimeFormatInfo(System.Object instance) : base("System.Globalization.DateTimeFormatInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RDateTimeFormatInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDateTimeFormatInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String[] internalGetAbbreviatedDayOfWeekNames()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIAsyncResult : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IAsyncResult);
+            }
+        }
+
+        public RIAsyncResult() : base("System.IAsyncResult")
+        {
+        }
+
+        public RIAsyncResult(System.Object instance) : base("System.IAsyncResult")
+		{
+            SetInstance(instance);
+		}
+
+        public RIAsyncResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIAsyncResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean IsCompleted
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RIAsyncResult() : base("System.IAsyncResult")
-        {
-        }
-
-        public RIAsyncResult(System.Object instance) : base("System.IAsyncResult")
-		{
-            SetInstance(instance);
-		}
-
-        public RIAsyncResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIAsyncResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

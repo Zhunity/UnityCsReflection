@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RTaskScheduler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Tasks.TaskScheduler);
+            }
+        }
+
+        public RTaskScheduler() : base("System.Threading.Tasks.TaskScheduler")
+        {
+        }
+
+        public RTaskScheduler(System.Object instance) : base("System.Threading.Tasks.TaskScheduler")
+		{
+            SetInstance(instance);
+		}
+
+        public RTaskScheduler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTaskScheduler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.EventHandler`1[System.Threading.Tasks.UnobservedTaskExceptionEventArgs] UnobservedTaskException
@@ -110,8 +135,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 		/// <summary>
 		/// System.Threading.Lock _unobservedTaskExceptionLockObject
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RThreading.RLock r_F_unobservedTaskExceptionLockObject;
-		public static Hvak.Editor.Refleaction.RSystem.RThreading.RLock RF_unobservedTaskExceptionLockObject
+		protected static Hvak.Editor.Refleaction.RField r_F_unobservedTaskExceptionLockObject;
+		public static Hvak.Editor.Refleaction.RField RF_unobservedTaskExceptionLockObject
 		{
 			get
 			{
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RTaskScheduler() : base("System.Threading.Tasks.TaskScheduler")
-        {
-        }
-
-        public RTaskScheduler(System.Object instance) : base("System.Threading.Tasks.TaskScheduler")
-		{
-            SetInstance(instance);
-		}
-
-        public RTaskScheduler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTaskScheduler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void QueueTask(System.Threading.Tasks.Task @task)
         {

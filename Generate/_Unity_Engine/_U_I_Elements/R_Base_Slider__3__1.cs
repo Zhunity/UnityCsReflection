@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBaseSlider<TValueType> : RMember // where TValueType : System.IComparable<TValueType>
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BaseSlider<>);
+            }
+        }
+
+        public RBaseSlider() : base("UnityEngine.UIElements.BaseSlider`1")
+        {
+        }
+
+        public RBaseSlider(System.Object instance) : base("UnityEngine.UIElements.BaseSlider`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseSlider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseSlider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Func`2[TValueType,TValueType] onValidateValue
@@ -4827,23 +4852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBaseSlider() : base("UnityEngine.UIElements.BaseSlider`1")
-        {
-        }
-
-        public RBaseSlider(System.Object instance) : base("UnityEngine.UIElements.BaseSlider`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseSlider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseSlider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetHighValueWithoutNotify(TValueType @newHighValue)
         {

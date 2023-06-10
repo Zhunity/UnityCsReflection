@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleLength : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleLength);
+            }
+        }
+
+        public RStyleLength() : base("UnityEngine.UIElements.StyleLength")
+        {
+        }
+
+        public RStyleLength(System.Object instance) : base("UnityEngine.UIElements.StyleLength")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleLength(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleLength(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Length m_Value
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleLength() : base("UnityEngine.UIElements.StyleLength")
-        {
-        }
-
-        public RStyleLength(System.Object instance) : base("UnityEngine.UIElements.StyleLength")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleLength(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleLength(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleLength @lhs, UnityEngine.UIElements.StyleLength @rhs)
         {

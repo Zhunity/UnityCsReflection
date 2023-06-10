@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class ROrdering : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageCapability+Ordering");
+            }
+        }
+
+        public ROrdering() : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Ordering")
+        {
+        }
+
+        public ROrdering(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Ordering")
+		{
+            SetInstance(instance);
+		}
+
+        public ROrdering(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROrdering(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String displayName
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public ROrdering() : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Ordering")
-        {
-        }
-
-        public ROrdering(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageCapability+Ordering")
-		{
-            SetInstance(instance);
-		}
-
-        public ROrdering(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROrdering(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

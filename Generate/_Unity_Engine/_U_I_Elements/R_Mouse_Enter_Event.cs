@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMouseEnterEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MouseEnterEvent);
+            }
+        }
+
+        public RMouseEnterEvent() : base("UnityEngine.UIElements.MouseEnterEvent")
+        {
+        }
+
+        public RMouseEnterEvent(System.Object instance) : base("UnityEngine.UIElements.MouseEnterEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RMouseEnterEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMouseEnterEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -1003,23 +1028,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMouseEnterEvent() : base("UnityEngine.UIElements.MouseEnterEvent")
-        {
-        }
-
-        public RMouseEnterEvent(System.Object instance) : base("UnityEngine.UIElements.MouseEnterEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RMouseEnterEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMouseEnterEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

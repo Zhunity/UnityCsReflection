@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMaterialPropertyType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.MaterialPropertyType);
+            }
+        }
+
+        public RMaterialPropertyType() : base("UnityEngine.MaterialPropertyType")
+        {
+        }
+
+        public RMaterialPropertyType(System.Object instance) : base("UnityEngine.MaterialPropertyType")
+		{
+            SetInstance(instance);
+		}
+
+        public RMaterialPropertyType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMaterialPropertyType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMaterialPropertyType() : base("UnityEngine.MaterialPropertyType")
-        {
-        }
-
-        public RMaterialPropertyType(System.Object instance) : base("UnityEngine.MaterialPropertyType")
-		{
-            SetInstance(instance);
-		}
-
-        public RMaterialPropertyType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMaterialPropertyType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

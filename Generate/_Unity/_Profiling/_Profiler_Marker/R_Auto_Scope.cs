@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 	/// </summary>
     public partial class RAutoScope : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Profiling.ProfilerMarker+AutoScope");
+            }
+        }
+
+        public RAutoScope() : base("Unity.Profiling.ProfilerMarker+AutoScope")
+        {
+        }
+
+        public RAutoScope(System.Object instance) : base("Unity.Profiling.ProfilerMarker+AutoScope")
+		{
+            SetInstance(instance);
+		}
+
+        public RAutoScope(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAutoScope(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			}
 		}
 
-
-        public RAutoScope() : base("Unity.Profiling.ProfilerMarker+AutoScope")
-        {
-        }
-
-        public RAutoScope(System.Object instance) : base("Unity.Profiling.ProfilerMarker+AutoScope")
-		{
-            SetInstance(instance);
-		}
-
-        public RAutoScope(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAutoScope(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

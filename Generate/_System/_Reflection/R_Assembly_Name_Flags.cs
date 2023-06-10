@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RAssemblyNameFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.AssemblyNameFlags);
+            }
+        }
+
+        public RAssemblyNameFlags() : base("System.Reflection.AssemblyNameFlags")
+        {
+        }
+
+        public RAssemblyNameFlags(System.Object instance) : base("System.Reflection.AssemblyNameFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssemblyNameFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssemblyNameFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RAssemblyNameFlags() : base("System.Reflection.AssemblyNameFlags")
-        {
-        }
-
-        public RAssemblyNameFlags(System.Object instance) : base("System.Reflection.AssemblyNameFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssemblyNameFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssemblyNameFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

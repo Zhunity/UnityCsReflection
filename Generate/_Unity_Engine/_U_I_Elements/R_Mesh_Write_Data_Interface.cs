@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMeshWriteDataInterface : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface");
+            }
+        }
+
+        public RMeshWriteDataInterface() : base("UnityEngine.UIElements.MeshWriteDataInterface")
+        {
+        }
+
+        public RMeshWriteDataInterface(System.Object instance) : base("UnityEngine.UIElements.MeshWriteDataInterface")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshWriteDataInterface(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshWriteDataInterface(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr vertices
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMeshWriteDataInterface() : base("UnityEngine.UIElements.MeshWriteDataInterface")
-        {
-        }
-
-        public RMeshWriteDataInterface(System.Object instance) : base("UnityEngine.UIElements.MeshWriteDataInterface")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshWriteDataInterface(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshWriteDataInterface(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

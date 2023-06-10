@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RDataModeController : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.DataModeController");
+            }
+        }
+
+        public RDataModeController() : base("UnityEditor.DataModeController")
+        {
+        }
+
+        public RDataModeController(System.Object instance) : base("UnityEditor.DataModeController")
+		{
+            SetInstance(instance);
+		}
+
+        public RDataModeController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDataModeController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.DataModeChangeEventArgs] dataModeChanged
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RDataModeController() : base("UnityEditor.DataModeController")
-        {
-        }
-
-        public RDataModeController(System.Object instance) : base("UnityEditor.DataModeController")
-		{
-            SetInstance(instance);
-		}
-
-        public RDataModeController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDataModeController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void UpdateSupportedDataModes(System.Collections.Generic.IList<UnityEditor.DataMode> @supported, UnityEditor.DataMode @preferred)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmPackage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackage");
+            }
+        }
+
+        public RUpmPackage() : base("UnityEditor.PackageManager.UI.Internal.UpmPackage")
+        {
+        }
+
+        public RUpmPackage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmPackage")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmPackage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmPackage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean m_IsDiscoverable
@@ -731,23 +756,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmPackage() : base("UnityEditor.PackageManager.UI.Internal.UpmPackage")
-        {
-        }
-
-        public RUpmPackage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmPackage")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmPackage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmPackage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
         {

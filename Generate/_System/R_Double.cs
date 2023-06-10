@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDouble : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Double);
+            }
+        }
+
+        public RDouble() : base("System.Double")
+        {
+        }
+
+        public RDouble(System.Object instance) : base("System.Double")
+		{
+            SetInstance(instance);
+		}
+
+        public RDouble(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDouble(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Double m_value
@@ -987,23 +1012,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDouble() : base("System.Double")
-        {
-        }
-
-        public RDouble(System.Object instance) : base("System.Double")
-		{
-            SetInstance(instance);
-		}
-
-        public RDouble(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDouble(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsFinite(System.Double @d)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayDropZone : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayDropZone");
+            }
+        }
+
+        public ROverlayDropZone() : base("UnityEditor.Overlays.OverlayDropZone")
+        {
+        }
+
+        public ROverlayDropZone(System.Object instance) : base("UnityEditor.Overlays.OverlayDropZone")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayDropZone(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayDropZone(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.Overlays.Overlay m_TargetOverlay
@@ -3659,23 +3684,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayDropZone() : base("UnityEditor.Overlays.OverlayDropZone")
-        {
-        }
-
-        public ROverlayDropZone(System.Object instance) : base("UnityEditor.Overlays.OverlayDropZone")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayDropZone(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayDropZone(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnDropZoneActivated(UnityEditor.Overlays.Overlay @draggedOverlay)
         {

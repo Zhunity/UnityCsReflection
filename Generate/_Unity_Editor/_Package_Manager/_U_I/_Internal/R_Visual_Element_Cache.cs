@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RVisualElementCache : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualElementCache");
+            }
+        }
+
+        public RVisualElementCache() : base("UnityEditor.PackageManager.UI.Internal.VisualElementCache")
+        {
+        }
+
+        public RVisualElementCache(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.VisualElementCache")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualElementCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualElementCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,UnityEngine.UIElements.VisualElement] m_Cache
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RVisualElementCache() : base("UnityEditor.PackageManager.UI.Internal.VisualElementCache")
-        {
-        }
-
-        public RVisualElementCache(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.VisualElementCache")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualElementCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualElementCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual T Create<T>(System.String @query) where T : UnityEngine.UIElements.VisualElement
         {

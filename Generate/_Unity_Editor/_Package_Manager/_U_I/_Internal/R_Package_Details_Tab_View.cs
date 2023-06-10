@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageDetailsTabView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabView");
+            }
+        }
+
+        public RPackageDetailsTabView() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabView")
+        {
+        }
+
+        public RPackageDetailsTabView(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabView")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageDetailsTabView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageDetailsTabView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement,UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement] onTabSwitched
@@ -4155,23 +4180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageDetailsTabView() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabView")
-        {
-        }
-
-        public RPackageDetailsTabView(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabView")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageDetailsTabView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageDetailsTabView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void RefreshAllTabs(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

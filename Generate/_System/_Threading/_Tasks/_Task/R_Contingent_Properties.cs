@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RContingentProperties : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.Tasks.Task+ContingentProperties");
+            }
+        }
+
+        public RContingentProperties() : base("System.Threading.Tasks.Task+ContingentProperties")
+        {
+        }
+
+        public RContingentProperties(System.Object instance) : base("System.Threading.Tasks.Task+ContingentProperties")
+		{
+            SetInstance(instance);
+		}
+
+        public RContingentProperties(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RContingentProperties(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.ExecutionContext m_capturedContext
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RContingentProperties() : base("System.Threading.Tasks.Task+ContingentProperties")
-        {
-        }
-
-        public RContingentProperties(System.Object instance) : base("System.Threading.Tasks.Task+ContingentProperties")
-		{
-            SetInstance(instance);
-		}
-
-        public RContingentProperties(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RContingentProperties(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetCompleted()
         {

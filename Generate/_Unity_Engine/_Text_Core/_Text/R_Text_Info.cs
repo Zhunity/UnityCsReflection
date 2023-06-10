@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo");
+            }
+        }
+
+        public RTextInfo() : base("UnityEngine.TextCore.Text.TextInfo")
+        {
+        }
+
+        public RTextInfo(System.Object instance) : base("UnityEngine.TextCore.Text.TextInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 s_InfinityVectorPositive
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextInfo() : base("UnityEngine.TextCore.Text.TextInfo")
-        {
-        }
-
-        public RTextInfo(System.Object instance) : base("UnityEngine.TextCore.Text.TextInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

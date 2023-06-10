@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RBasicNode<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1");
+            }
+        }
+
+        public RBasicNode() : base("UnityEngine.UIElements.UIR.BasicNode`1")
+        {
+        }
+
+        public RBasicNode(System.Object instance) : base("UnityEngine.UIElements.UIR.BasicNode`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RBasicNode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBasicNode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BasicNode`1[T] next
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RBasicNode() : base("UnityEngine.UIElements.UIR.BasicNode`1")
-        {
-        }
-
-        public RBasicNode(System.Object instance) : base("UnityEngine.UIElements.UIR.BasicNode`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RBasicNode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBasicNode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AppendTo(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType> @first)
         {

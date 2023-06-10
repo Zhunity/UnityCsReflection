@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 	/// </summary>
     public partial class RSemVersion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion");
+            }
+        }
+
+        public RSemVersion() : base("UnityEditor.Scripting.ScriptCompilation.SemVersion")
+        {
+        }
+
+        public RSemVersion(System.Object instance) : base("UnityEditor.Scripting.ScriptCompilation.SemVersion")
+		{
+            SetInstance(instance);
+		}
+
+        public RSemVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSemVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <IsInitialized>k__BackingField
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			}
 		}
 
-
-        public RSemVersion() : base("UnityEditor.Scripting.ScriptCompilation.SemVersion")
-        {
-        }
-
-        public RSemVersion(System.Object instance) : base("UnityEditor.Scripting.ScriptCompilation.SemVersion")
-		{
-            SetInstance(instance);
-		}
-
-        public RSemVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSemVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Int32 Compare(Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @versionA, Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion @versionB)
         {

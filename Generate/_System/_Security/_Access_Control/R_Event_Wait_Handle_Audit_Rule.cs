@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class REventWaitHandleAuditRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.EventWaitHandleAuditRule);
+            }
+        }
+
+        public REventWaitHandleAuditRule() : base("System.Security.AccessControl.EventWaitHandleAuditRule")
+        {
+        }
+
+        public REventWaitHandleAuditRule(System.Object instance) : base("System.Security.AccessControl.EventWaitHandleAuditRule")
+		{
+            SetInstance(instance);
+		}
+
+        public REventWaitHandleAuditRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventWaitHandleAuditRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.EventWaitHandleRights EventWaitHandleRights
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public REventWaitHandleAuditRule() : base("System.Security.AccessControl.EventWaitHandleAuditRule")
-        {
-        }
-
-        public REventWaitHandleAuditRule(System.Object instance) : base("System.Security.AccessControl.EventWaitHandleAuditRule")
-		{
-            SetInstance(instance);
-		}
-
-        public REventWaitHandleAuditRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventWaitHandleAuditRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

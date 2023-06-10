@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RSecondarySpriteTexture : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.SecondarySpriteTexture);
+            }
+        }
+
+        public RSecondarySpriteTexture() : base("UnityEngine.SecondarySpriteTexture")
+        {
+        }
+
+        public RSecondarySpriteTexture(System.Object instance) : base("UnityEngine.SecondarySpriteTexture")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecondarySpriteTexture(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecondarySpriteTexture(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RSecondarySpriteTexture() : base("UnityEngine.SecondarySpriteTexture")
-        {
-        }
-
-        public RSecondarySpriteTexture(System.Object instance) : base("UnityEngine.SecondarySpriteTexture")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecondarySpriteTexture(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecondarySpriteTexture(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

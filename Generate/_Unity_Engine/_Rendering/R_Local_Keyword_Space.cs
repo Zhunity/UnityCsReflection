@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RLocalKeywordSpace : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.LocalKeywordSpace);
+            }
+        }
+
+        public RLocalKeywordSpace() : base("UnityEngine.Rendering.LocalKeywordSpace")
+        {
+        }
+
+        public RLocalKeywordSpace(System.Object instance) : base("UnityEngine.Rendering.LocalKeywordSpace")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalKeywordSpace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalKeywordSpace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_KeywordSpace
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RLocalKeywordSpace() : base("UnityEngine.Rendering.LocalKeywordSpace")
-        {
-        }
-
-        public RLocalKeywordSpace(System.Object instance) : base("UnityEngine.Rendering.LocalKeywordSpace")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalKeywordSpace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalKeywordSpace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Rendering.LocalKeyword[] GetKeywords()
         {

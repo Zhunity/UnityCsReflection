@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RTypeBuilder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.TypeBuilder);
+            }
+        }
+
+        public RTypeBuilder() : base("System.Reflection.Emit.TypeBuilder")
+        {
+        }
+
+        public RTypeBuilder(System.Object instance) : base("System.Reflection.Emit.TypeBuilder")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypeBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypeBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String tname
@@ -5003,23 +5028,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RTypeBuilder() : base("System.Reflection.Emit.TypeBuilder")
-        {
-        }
-
-        public RTypeBuilder(System.Object instance) : base("System.Reflection.Emit.TypeBuilder")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypeBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypeBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {

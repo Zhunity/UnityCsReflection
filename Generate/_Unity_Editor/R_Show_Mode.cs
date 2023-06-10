@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RShowMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.ShowMode");
+            }
+        }
+
+        public RShowMode() : base("UnityEditor.ShowMode")
+        {
+        }
+
+        public RShowMode(System.Object instance) : base("UnityEditor.ShowMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RShowMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RShowMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RShowMode() : base("UnityEditor.ShowMode")
-        {
-        }
-
-        public RShowMode(System.Object instance) : base("UnityEditor.ShowMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RShowMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RShowMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

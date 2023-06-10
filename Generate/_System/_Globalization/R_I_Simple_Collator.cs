@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RISimpleCollator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.ISimpleCollator");
+            }
+        }
+
+        public RISimpleCollator() : base("System.Globalization.ISimpleCollator")
+        {
+        }
+
+        public RISimpleCollator(System.Object instance) : base("System.Globalization.ISimpleCollator")
+		{
+            SetInstance(instance);
+		}
+
+        public RISimpleCollator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RISimpleCollator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Globalization.SortKey GetSortKey(System.String, System.Globalization.CompareOptions)
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RISimpleCollator() : base("System.Globalization.ISimpleCollator")
-        {
-        }
-
-        public RISimpleCollator(System.Object instance) : base("System.Globalization.ISimpleCollator")
-		{
-            SetInstance(instance);
-		}
-
-        public RISimpleCollator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RISimpleCollator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Globalization.SortKey GetSortKey(System.String @source, System.Globalization.CompareOptions @options)
         {

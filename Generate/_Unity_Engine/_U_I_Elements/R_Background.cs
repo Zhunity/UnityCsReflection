@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBackground : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Background);
+            }
+        }
+
+        public RBackground() : base("UnityEngine.UIElements.Background")
+        {
+        }
+
+        public RBackground(System.Object instance) : base("UnityEngine.UIElements.Background")
+		{
+            SetInstance(instance);
+		}
+
+        public RBackground(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBackground(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Texture2D m_Texture
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBackground() : base("UnityEngine.UIElements.Background")
-        {
-        }
-
-        public RBackground(System.Object instance) : base("UnityEngine.UIElements.Background")
-		{
-            SetInstance(instance);
-		}
-
-        public RBackground(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBackground(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.Background FromTexture2D(UnityEngine.Texture2D @t)
         {

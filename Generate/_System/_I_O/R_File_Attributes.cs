@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 	/// </summary>
     public partial class RFileAttributes : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IO.FileAttributes);
+            }
+        }
+
+        public RFileAttributes() : base("System.IO.FileAttributes")
+        {
+        }
+
+        public RFileAttributes(System.Object instance) : base("System.IO.FileAttributes")
+		{
+            SetInstance(instance);
+		}
+
+        public RFileAttributes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFileAttributes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			}
 		}
 
-
-        public RFileAttributes() : base("System.IO.FileAttributes")
-        {
-        }
-
-        public RFileAttributes(System.Object instance) : base("System.IO.FileAttributes")
-		{
-            SetInstance(instance);
-		}
-
-        public RFileAttributes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFileAttributes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

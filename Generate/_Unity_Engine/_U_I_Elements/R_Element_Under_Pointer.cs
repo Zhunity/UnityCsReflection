@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RElementUnderPointer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ElementUnderPointer");
+            }
+        }
+
+        public RElementUnderPointer() : base("UnityEngine.UIElements.ElementUnderPointer")
+        {
+        }
+
+        public RElementUnderPointer(System.Object instance) : base("UnityEngine.UIElements.ElementUnderPointer")
+		{
+            SetInstance(instance);
+		}
+
+        public RElementUnderPointer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RElementUnderPointer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement[] m_PendingTopElementUnderPointer
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RElementUnderPointer() : base("UnityEngine.UIElements.ElementUnderPointer")
-        {
-        }
-
-        public RElementUnderPointer(System.Object instance) : base("UnityEngine.UIElements.ElementUnderPointer")
-		{
-            SetInstance(instance);
-		}
-
-        public RElementUnderPointer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RElementUnderPointer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.VisualElement GetTopElementUnderPointer(System.Int32 @pointerId, out UnityEngine.Vector2 @pickPosition, out System.Boolean @isTemporary)
         {

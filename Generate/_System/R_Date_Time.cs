@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDateTime : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.DateTime);
+            }
+        }
+
+        public RDateTime() : base("System.DateTime")
+        {
+        }
+
+        public RDateTime(System.Object instance) : base("System.DateTime")
+		{
+            SetInstance(instance);
+		}
+
+        public RDateTime(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDateTime(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int64 TicksPerMillisecond
@@ -2715,23 +2740,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDateTime() : base("System.DateTime")
-        {
-        }
-
-        public RDateTime(System.Object instance) : base("System.DateTime")
-		{
-            SetInstance(instance);
-		}
-
-        public RDateTime(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDateTime(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.DateTime Add(System.TimeSpan @value)
         {

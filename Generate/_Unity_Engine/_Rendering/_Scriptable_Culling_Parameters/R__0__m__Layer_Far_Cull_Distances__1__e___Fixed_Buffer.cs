@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class R__0__m_LayerFarCullDistances__1__e__FixedBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer");
+            }
+        }
+
+        public R__0__m_LayerFarCullDistances__1__e__FixedBuffer() : base("UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer")
+        {
+        }
+
+        public R__0__m_LayerFarCullDistances__1__e__FixedBuffer(System.Object instance) : base("UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public R__0__m_LayerFarCullDistances__1__e__FixedBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public R__0__m_LayerFarCullDistances__1__e__FixedBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single FixedElementField
@@ -125,23 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public R__0__m_LayerFarCullDistances__1__e__FixedBuffer() : base("UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer")
-        {
-        }
-
-        public R__0__m_LayerFarCullDistances__1__e__FixedBuffer(System.Object instance) : base("UnityEngine.Rendering.ScriptableCullingParameters+<m_LayerFarCullDistances>e__FixedBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public R__0__m_LayerFarCullDistances__1__e__FixedBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public R__0__m_LayerFarCullDistances__1__e__FixedBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmBaseOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmBaseOperation");
+            }
+        }
+
+        public RUpmBaseOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmBaseOperation")
+        {
+        }
+
+        public RUpmBaseOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmBaseOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmBaseOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmBaseOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.IOperation,UnityEditor.PackageManager.UI.Internal.UIError] onOperationError
@@ -571,23 +596,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmBaseOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmBaseOperation")
-        {
-        }
-
-        public RUpmBaseOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmBaseOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmBaseOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmBaseOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy @clientProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RUnicodeLineBreakingRules : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules);
+            }
+        }
+
+        public RUnicodeLineBreakingRules() : base("UnityEngine.TextCore.Text.UnicodeLineBreakingRules")
+        {
+        }
+
+        public RUnicodeLineBreakingRules(System.Object instance) : base("UnityEngine.TextCore.Text.UnicodeLineBreakingRules")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnicodeLineBreakingRules(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnicodeLineBreakingRules(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules s_Instance
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RUnicodeLineBreakingRules() : base("UnityEngine.TextCore.Text.UnicodeLineBreakingRules")
-        {
-        }
-
-        public RUnicodeLineBreakingRules(System.Object instance) : base("UnityEngine.TextCore.Text.UnicodeLineBreakingRules")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnicodeLineBreakingRules(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnicodeLineBreakingRules(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void LoadLineBreakingRules()
         {

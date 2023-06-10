@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RMeshInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo");
+            }
+        }
+
+        public RMeshInfo() : base("UnityEngine.TextCore.Text.MeshInfo")
+        {
+        }
+
+        public RMeshInfo(System.Object instance) : base("UnityEngine.TextCore.Text.MeshInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color32 k_DefaultColor
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RMeshInfo() : base("UnityEngine.TextCore.Text.MeshInfo")
-        {
-        }
-
-        public RMeshInfo(System.Object instance) : base("UnityEngine.TextCore.Text.MeshInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResizeMeshInfo(System.Int32 @size)
         {

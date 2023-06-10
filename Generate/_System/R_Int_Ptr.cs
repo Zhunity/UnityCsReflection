@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIntPtr : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IntPtr);
+            }
+        }
+
+        public RIntPtr() : base("System.IntPtr")
+        {
+        }
+
+        public RIntPtr(System.Object instance) : base("System.IntPtr")
+		{
+            SetInstance(instance);
+		}
+
+        public RIntPtr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIntPtr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Void* m_value
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RIntPtr() : base("System.IntPtr")
-        {
-        }
-
-        public RIntPtr(System.Object instance) : base("System.IntPtr")
-		{
-            SetInstance(instance);
-		}
-
-        public RIntPtr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIntPtr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

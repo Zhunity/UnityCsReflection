@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RManualResetEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ManualResetEvent);
+            }
+        }
+
+        public RManualResetEvent() : base("System.Threading.ManualResetEvent")
+        {
+        }
+
+        public RManualResetEvent(System.Object instance) : base("System.Threading.ManualResetEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RManualResetEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RManualResetEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Microsoft.Win32.SafeHandles.SafeWaitHandle safeWaitHandle
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RManualResetEvent() : base("System.Threading.ManualResetEvent")
-        {
-        }
-
-        public RManualResetEvent(System.Object instance) : base("System.Threading.ManualResetEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RManualResetEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RManualResetEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Reset()
         {

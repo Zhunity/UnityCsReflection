@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RConvertMeshJobData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.ConvertMeshJobData");
+            }
+        }
+
+        public RConvertMeshJobData() : base("UnityEngine.UIElements.UIR.ConvertMeshJobData")
+        {
+        }
+
+        public RConvertMeshJobData(System.Object instance) : base("UnityEngine.UIElements.UIR.ConvertMeshJobData")
+		{
+            SetInstance(instance);
+		}
+
+        public RConvertMeshJobData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConvertMeshJobData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr vertSrc
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RConvertMeshJobData() : base("UnityEngine.UIElements.UIR.ConvertMeshJobData")
-        {
-        }
-
-        public RConvertMeshJobData(System.Object instance) : base("UnityEngine.UIElements.UIR.ConvertMeshJobData")
-		{
-            SetInstance(instance);
-		}
-
-        public RConvertMeshJobData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConvertMeshJobData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

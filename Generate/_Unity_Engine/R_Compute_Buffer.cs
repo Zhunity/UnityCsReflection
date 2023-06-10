@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RComputeBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.ComputeBuffer);
+            }
+        }
+
+        public RComputeBuffer() : base("UnityEngine.ComputeBuffer")
+        {
+        }
+
+        public RComputeBuffer(System.Object instance) : base("UnityEngine.ComputeBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public RComputeBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RComputeBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -651,23 +676,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RComputeBuffer() : base("UnityEngine.ComputeBuffer")
-        {
-        }
-
-        public RComputeBuffer(System.Object instance) : base("UnityEngine.ComputeBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public RComputeBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RComputeBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

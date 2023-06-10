@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RSerializationEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Serialization.SerializationEntry);
+            }
+        }
+
+        public RSerializationEntry() : base("System.Runtime.Serialization.SerializationEntry")
+        {
+        }
+
+        public RSerializationEntry(System.Object instance) : base("System.Runtime.Serialization.SerializationEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RSerializationEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSerializationEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String _name
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			}
 		}
 
-
-        public RSerializationEntry() : base("System.Runtime.Serialization.SerializationEntry")
-        {
-        }
-
-        public RSerializationEntry(System.Object instance) : base("System.Runtime.Serialization.SerializationEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RSerializationEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSerializationEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

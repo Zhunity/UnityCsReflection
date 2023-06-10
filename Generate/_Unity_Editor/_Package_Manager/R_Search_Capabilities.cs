@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RSearchCapabilities : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.SearchCapabilities");
+            }
+        }
+
+        public RSearchCapabilities() : base("UnityEditor.PackageManager.SearchCapabilities")
+        {
+        }
+
+        public RSearchCapabilities(System.Object instance) : base("UnityEditor.PackageManager.SearchCapabilities")
+		{
+            SetInstance(instance);
+		}
+
+        public RSearchCapabilities(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSearchCapabilities(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RSearchCapabilities() : base("UnityEditor.PackageManager.SearchCapabilities")
-        {
-        }
-
-        public RSearchCapabilities(System.Object instance) : base("UnityEditor.PackageManager.SearchCapabilities")
-		{
-            SetInstance(instance);
-		}
-
-        public RSearchCapabilities(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSearchCapabilities(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

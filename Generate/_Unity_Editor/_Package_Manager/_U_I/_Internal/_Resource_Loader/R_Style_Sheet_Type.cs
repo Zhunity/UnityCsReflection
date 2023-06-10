@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RStyleSheetType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType");
+            }
+        }
+
+        public RStyleSheetType() : base("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType")
+        {
+        }
+
+        public RStyleSheetType(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleSheetType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleSheetType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -333,23 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RStyleSheetType() : base("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType")
-        {
-        }
-
-        public RStyleSheetType(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleSheetType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleSheetType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

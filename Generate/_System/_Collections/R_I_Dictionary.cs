@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RIDictionary : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.IDictionary);
+            }
+        }
+
+        public RIDictionary() : base("System.Collections.IDictionary")
+        {
+        }
+
+        public RIDictionary(System.Object instance) : base("System.Collections.IDictionary")
+		{
+            SetInstance(instance);
+		}
+
+        public RIDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object Item [System.Object]
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RIDictionary() : base("System.Collections.IDictionary")
-        {
-        }
-
-        public RIDictionary(System.Object instance) : base("System.Collections.IDictionary")
-		{
-            SetInstance(instance);
-		}
-
-        public RIDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Contains(System.Object @key)
         {

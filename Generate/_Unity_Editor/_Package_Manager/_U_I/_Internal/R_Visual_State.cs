@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RVisualState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualState");
+            }
+        }
+
+        public RVisualState() : base("UnityEditor.PackageManager.UI.Internal.VisualState")
+        {
+        }
+
+        public RVisualState(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.VisualState")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String packageUniqueId
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RVisualState() : base("UnityEditor.PackageManager.UI.Internal.VisualState")
-        {
-        }
-
-        public RVisualState(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.VisualState")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState @other)
         {

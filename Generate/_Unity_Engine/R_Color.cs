@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RColor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Color);
+            }
+        }
+
+        public RColor() : base("UnityEngine.Color")
+        {
+        }
+
+        public RColor(System.Object instance) : base("UnityEngine.Color")
+		{
+            SetInstance(instance);
+		}
+
+        public RColor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RColor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single r
@@ -779,23 +804,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RColor() : base("UnityEngine.Color")
-        {
-        }
-
-        public RColor(System.Object instance) : base("UnityEngine.Color")
-		{
-            SetInstance(instance);
-		}
-
-        public RColor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RColor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

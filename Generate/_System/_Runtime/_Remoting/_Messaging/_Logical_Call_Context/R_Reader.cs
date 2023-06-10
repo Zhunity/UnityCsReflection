@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RReader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.LogicalCallContext+Reader");
+            }
+        }
+
+        public RReader() : base("System.Runtime.Remoting.Messaging.LogicalCallContext+Reader")
+        {
+        }
+
+        public RReader(System.Object instance) : base("System.Runtime.Remoting.Messaging.LogicalCallContext+Reader")
+		{
+            SetInstance(instance);
+		}
+
+        public RReader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RReader() : base("System.Runtime.Remoting.Messaging.LogicalCallContext+Reader")
-        {
-        }
-
-        public RReader(System.Object instance) : base("System.Runtime.Remoting.Messaging.LogicalCallContext+Reader")
-		{
-            SetInstance(instance);
-		}
-
-        public RReader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Runtime.Remoting.Messaging.LogicalCallContext Clone()
         {

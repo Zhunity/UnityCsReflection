@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RSpritePackingRotation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.SpritePackingRotation);
+            }
+        }
+
+        public RSpritePackingRotation() : base("UnityEngine.SpritePackingRotation")
+        {
+        }
+
+        public RSpritePackingRotation(System.Object instance) : base("UnityEngine.SpritePackingRotation")
+		{
+            SetInstance(instance);
+		}
+
+        public RSpritePackingRotation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSpritePackingRotation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RSpritePackingRotation() : base("UnityEngine.SpritePackingRotation")
-        {
-        }
-
-        public RSpritePackingRotation(System.Object instance) : base("UnityEngine.SpritePackingRotation")
-		{
-            SetInstance(instance);
-		}
-
-        public RSpritePackingRotation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSpritePackingRotation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RGitInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.GitInfo);
+            }
+        }
+
+        public RGitInfo() : base("UnityEditor.PackageManager.GitInfo")
+        {
+        }
+
+        public RGitInfo(System.Object instance) : base("UnityEditor.PackageManager.GitInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RGitInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGitInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Hash
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RGitInfo() : base("UnityEditor.PackageManager.GitInfo")
-        {
-        }
-
-        public RGitInfo(System.Object instance) : base("UnityEditor.PackageManager.GitInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RGitInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGitInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

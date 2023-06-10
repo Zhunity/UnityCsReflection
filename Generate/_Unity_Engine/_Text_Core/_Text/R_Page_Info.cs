@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RPageInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.PageInfo");
+            }
+        }
+
+        public RPageInfo() : base("UnityEngine.TextCore.Text.PageInfo")
+        {
+        }
+
+        public RPageInfo(System.Object instance) : base("UnityEngine.TextCore.Text.PageInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RPageInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPageInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 firstCharacterIndex
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RPageInfo() : base("UnityEngine.TextCore.Text.PageInfo")
-        {
-        }
-
-        public RPageInfo(System.Object instance) : base("UnityEngine.TextCore.Text.PageInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RPageInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPageInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

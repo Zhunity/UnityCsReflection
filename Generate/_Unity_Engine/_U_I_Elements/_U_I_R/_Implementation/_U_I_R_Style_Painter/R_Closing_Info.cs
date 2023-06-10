@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 	/// </summary>
     public partial class RClosingInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+ClosingInfo");
+            }
+        }
+
+        public RClosingInfo() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+ClosingInfo")
+        {
+        }
+
+        public RClosingInfo(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+ClosingInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RClosingInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClosingInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean needsClosing
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 			}
 		}
 
-
-        public RClosingInfo() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+ClosingInfo")
-        {
-        }
-
-        public RClosingInfo(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+ClosingInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RClosingInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClosingInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

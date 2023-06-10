@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RSemaphoreSlim : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.SemaphoreSlim);
+            }
+        }
+
+        public RSemaphoreSlim() : base("System.Threading.SemaphoreSlim")
+        {
+        }
+
+        public RSemaphoreSlim(System.Object instance) : base("System.Threading.SemaphoreSlim")
+		{
+            SetInstance(instance);
+		}
+
+        public RSemaphoreSlim(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSemaphoreSlim(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_currentCount
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RSemaphoreSlim() : base("System.Threading.SemaphoreSlim")
-        {
-        }
-
-        public RSemaphoreSlim(System.Object instance) : base("System.Threading.SemaphoreSlim")
-		{
-            SetInstance(instance);
-		}
-
-        public RSemaphoreSlim(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSemaphoreSlim(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Wait()
         {

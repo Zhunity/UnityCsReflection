@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RBoundsInt : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.BoundsInt);
+            }
+        }
+
+        public RBoundsInt() : base("UnityEngine.BoundsInt")
+        {
+        }
+
+        public RBoundsInt(System.Object instance) : base("UnityEngine.BoundsInt")
+		{
+            SetInstance(instance);
+		}
+
+        public RBoundsInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBoundsInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3Int m_Position
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RBoundsInt() : base("UnityEngine.BoundsInt")
-        {
-        }
-
-        public RBoundsInt(System.Object instance) : base("UnityEngine.BoundsInt")
-		{
-            SetInstance(instance);
-		}
-
-        public RBoundsInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBoundsInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetMinMax(UnityEngine.Vector3Int @minPosition, UnityEngine.Vector3Int @maxPosition)
         {

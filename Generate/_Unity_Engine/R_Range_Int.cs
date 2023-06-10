@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRangeInt : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.RangeInt);
+            }
+        }
+
+        public RRangeInt() : base("UnityEngine.RangeInt")
+        {
+        }
+
+        public RRangeInt(System.Object instance) : base("UnityEngine.RangeInt")
+		{
+            SetInstance(instance);
+		}
+
+        public RRangeInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRangeInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 start
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRangeInt() : base("UnityEngine.RangeInt")
-        {
-        }
-
-        public RRangeInt(System.Object instance) : base("UnityEngine.RangeInt")
-		{
-            SetInstance(instance);
-		}
-
-        public RRangeInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRangeInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

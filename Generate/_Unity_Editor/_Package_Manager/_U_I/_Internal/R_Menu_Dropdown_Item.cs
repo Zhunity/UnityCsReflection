@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RMenuDropdownItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.MenuDropdownItem");
+            }
+        }
+
+        public RMenuDropdownItem() : base("UnityEditor.PackageManager.UI.Internal.MenuDropdownItem")
+        {
+        }
+
+        public RMenuDropdownItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.MenuDropdownItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RMenuDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMenuDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onVisibleChanged
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RMenuDropdownItem() : base("UnityEditor.PackageManager.UI.Internal.MenuDropdownItem")
-        {
-        }
-
-        public RMenuDropdownItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.MenuDropdownItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RMenuDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMenuDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 	/// </summary>
     public partial class RProfilerMarkerDataType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType);
+            }
+        }
+
+        public RProfilerMarkerDataType() : base("Unity.Profiling.LowLevel.ProfilerMarkerDataType")
+        {
+        }
+
+        public RProfilerMarkerDataType(System.Object instance) : base("Unity.Profiling.LowLevel.ProfilerMarkerDataType")
+		{
+            SetInstance(instance);
+		}
+
+        public RProfilerMarkerDataType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProfilerMarkerDataType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			}
 		}
 
-
-        public RProfilerMarkerDataType() : base("Unity.Profiling.LowLevel.ProfilerMarkerDataType")
-        {
-        }
-
-        public RProfilerMarkerDataType(System.Object instance) : base("Unity.Profiling.LowLevel.ProfilerMarkerDataType")
-		{
-            SetInstance(instance);
-		}
-
-        public RProfilerMarkerDataType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProfilerMarkerDataType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

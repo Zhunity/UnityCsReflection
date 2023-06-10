@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 	/// </summary>
     public partial class REntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+Entry");
+            }
+        }
+
+        public REntry() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+Entry")
+        {
+        }
+
+        public REntry(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+Entry")
+		{
+            SetInstance(instance);
+		}
+
+        public REntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] vertices
@@ -317,23 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 			}
 		}
 
-
-        public REntry() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+Entry")
-        {
-        }
-
-        public REntry(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+Entry")
-		{
-            SetInstance(instance);
-		}
-
-        public REntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

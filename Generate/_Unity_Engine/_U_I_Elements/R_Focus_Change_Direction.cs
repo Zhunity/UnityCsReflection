@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFocusChangeDirection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.FocusChangeDirection);
+            }
+        }
+
+        public RFocusChangeDirection() : base("UnityEngine.UIElements.FocusChangeDirection")
+        {
+        }
+
+        public RFocusChangeDirection(System.Object instance) : base("UnityEngine.UIElements.FocusChangeDirection")
+		{
+            SetInstance(instance);
+		}
+
+        public RFocusChangeDirection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFocusChangeDirection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection <unspecified>k__BackingField
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFocusChangeDirection() : base("UnityEngine.UIElements.FocusChangeDirection")
-        {
-        }
-
-        public RFocusChangeDirection(System.Object instance) : base("UnityEngine.UIElements.FocusChangeDirection")
-		{
-            SetInstance(instance);
-		}
-
-        public RFocusChangeDirection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFocusChangeDirection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Int32 op_Implicit(UnityEngine.UIElements.FocusChangeDirection @fcd)
         {

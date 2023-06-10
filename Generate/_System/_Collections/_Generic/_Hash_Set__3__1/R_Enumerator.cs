@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class REnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1+Enumerator");
+            }
+        }
+
+        public REnumerator() : base("System.Collections.Generic.HashSet`1+Enumerator")
+        {
+        }
+
+        public REnumerator(System.Object instance) : base("System.Collections.Generic.HashSet`1+Enumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[T] _set
@@ -253,23 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public REnumerator() : base("System.Collections.Generic.HashSet`1+Enumerator")
-        {
-        }
-
-        public REnumerator(System.Object instance) : base("System.Collections.Generic.HashSet`1+Enumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

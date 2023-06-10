@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RLigatureSubstitutionRecord : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord");
+            }
+        }
+
+        public RLigatureSubstitutionRecord() : base("UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord")
+        {
+        }
+
+        public RLigatureSubstitutionRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord")
+		{
+            SetInstance(instance);
+		}
+
+        public RLigatureSubstitutionRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLigatureSubstitutionRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32[] m_ComponentGlyphIDs
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RLigatureSubstitutionRecord() : base("UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord")
-        {
-        }
-
-        public RLigatureSubstitutionRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.LigatureSubstitutionRecord")
-		{
-            SetInstance(instance);
-		}
-
-        public RLigatureSubstitutionRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLigatureSubstitutionRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

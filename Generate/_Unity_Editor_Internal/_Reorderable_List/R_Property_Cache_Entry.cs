@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RPropertyCacheEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+PropertyCacheEntry");
+            }
+        }
+
+        public RPropertyCacheEntry() : base("UnityEditorInternal.ReorderableList+PropertyCacheEntry")
+        {
+        }
+
+        public RPropertyCacheEntry(System.Object instance) : base("UnityEditorInternal.ReorderableList+PropertyCacheEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropertyCacheEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropertyCacheEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.SerializedProperty property
@@ -189,23 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RPropertyCacheEntry() : base("UnityEditorInternal.ReorderableList+PropertyCacheEntry")
-        {
-        }
-
-        public RPropertyCacheEntry(System.Object instance) : base("UnityEditorInternal.ReorderableList+PropertyCacheEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropertyCacheEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropertyCacheEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Set(UnityEditor.SerializedProperty @property, System.Single @height, System.Single @offset)
         {

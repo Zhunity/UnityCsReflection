@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 	/// </summary>
     public partial class RValueTaskSourceOnCompletedFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags);
+            }
+        }
+
+        public RValueTaskSourceOnCompletedFlags() : base("System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags")
+        {
+        }
+
+        public RValueTaskSourceOnCompletedFlags(System.Object instance) : base("System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RValueTaskSourceOnCompletedFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValueTaskSourceOnCompletedFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 			}
 		}
 
-
-        public RValueTaskSourceOnCompletedFlags() : base("System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags")
-        {
-        }
-
-        public RValueTaskSourceOnCompletedFlags(System.Object instance) : base("System.Threading.Tasks.Sources.ValueTaskSourceOnCompletedFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RValueTaskSourceOnCompletedFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValueTaskSourceOnCompletedFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

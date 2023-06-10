@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RLinkInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.LinkInfo");
+            }
+        }
+
+        public RLinkInfo() : base("UnityEngine.TextCore.Text.LinkInfo")
+        {
+        }
+
+        public RLinkInfo(System.Object instance) : base("UnityEngine.TextCore.Text.LinkInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RLinkInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLinkInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 hashCode
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RLinkInfo() : base("UnityEngine.TextCore.Text.LinkInfo")
-        {
-        }
-
-        public RLinkInfo(System.Object instance) : base("UnityEngine.TextCore.Text.LinkInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RLinkInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLinkInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetLinkId(System.Char[] @text, System.Int32 @startIndex, System.Int32 @length)
         {

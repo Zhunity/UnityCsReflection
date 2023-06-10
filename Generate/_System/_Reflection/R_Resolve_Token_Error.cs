@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RResolveTokenError : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.ResolveTokenError");
+            }
+        }
+
+        public RResolveTokenError() : base("System.Reflection.ResolveTokenError")
+        {
+        }
+
+        public RResolveTokenError(System.Object instance) : base("System.Reflection.ResolveTokenError")
+		{
+            SetInstance(instance);
+		}
+
+        public RResolveTokenError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RResolveTokenError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RResolveTokenError() : base("System.Reflection.ResolveTokenError")
-        {
-        }
-
-        public RResolveTokenError(System.Object instance) : base("System.Reflection.ResolveTokenError")
-		{
-            SetInstance(instance);
-		}
-
-        public RResolveTokenError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RResolveTokenError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

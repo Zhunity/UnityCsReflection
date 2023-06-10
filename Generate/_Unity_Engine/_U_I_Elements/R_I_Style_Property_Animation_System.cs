@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIStylePropertyAnimationSystem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IStylePropertyAnimationSystem");
+            }
+        }
+
+        public RIStylePropertyAnimationSystem() : base("UnityEngine.UIElements.IStylePropertyAnimationSystem")
+        {
+        }
+
+        public RIStylePropertyAnimationSystem(System.Object instance) : base("UnityEngine.UIElements.IStylePropertyAnimationSystem")
+		{
+            SetInstance(instance);
+		}
+
+        public RIStylePropertyAnimationSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIStylePropertyAnimationSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean StartTransition(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, Single, Single, Int32, Int32, System.Func`2[System.Single,System.Single])
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIStylePropertyAnimationSystem() : base("UnityEngine.UIElements.IStylePropertyAnimationSystem")
-        {
-        }
-
-        public RIStylePropertyAnimationSystem(System.Object instance) : base("UnityEngine.UIElements.IStylePropertyAnimationSystem")
-		{
-            SetInstance(instance);
-		}
-
-        public RIStylePropertyAnimationSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIStylePropertyAnimationSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean StartTransition(UnityEngine.UIElements.VisualElement @owner, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @prop, System.Single @startValue, System.Single @endValue, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {

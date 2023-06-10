@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RInternalThread : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.InternalThread");
+            }
+        }
+
+        public RInternalThread() : base("System.Threading.InternalThread")
+        {
+        }
+
+        public RInternalThread(System.Object instance) : base("System.Threading.InternalThread")
+		{
+            SetInstance(instance);
+		}
+
+        public RInternalThread(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInternalThread(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 lock_thread_id
@@ -763,23 +788,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RInternalThread() : base("System.Threading.InternalThread")
-        {
-        }
-
-        public RInternalThread(System.Object instance) : base("System.Threading.InternalThread")
-		{
-            SetInstance(instance);
-		}
-
-        public RInternalThread(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInternalThread(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Thread_free_internal()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RLinkedListNode<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.LinkedListNode<>);
+            }
+        }
+
+        public RLinkedListNode() : base("System.Collections.Generic.LinkedListNode`1")
+        {
+        }
+
+        public RLinkedListNode(System.Object instance) : base("System.Collections.Generic.LinkedListNode`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RLinkedListNode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLinkedListNode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.LinkedList`1[T] list
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RLinkedListNode() : base("System.Collections.Generic.LinkedListNode`1")
-        {
-        }
-
-        public RLinkedListNode(System.Object instance) : base("System.Collections.Generic.LinkedListNode`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RLinkedListNode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLinkedListNode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invalidate()
         {

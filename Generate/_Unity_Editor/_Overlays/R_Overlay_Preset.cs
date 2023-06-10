@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayPreset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayPreset");
+            }
+        }
+
+        public ROverlayPreset() : base("UnityEditor.Overlays.OverlayPreset")
+        {
+        }
+
+        public ROverlayPreset(System.Object instance) : base("UnityEditor.Overlays.OverlayPreset")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayPreset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayPreset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_RawWindowType
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayPreset() : base("UnityEditor.Overlays.OverlayPreset")
-        {
-        }
-
-        public ROverlayPreset(System.Object instance) : base("UnityEditor.Overlays.OverlayPreset")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayPreset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayPreset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnEnable()
         {

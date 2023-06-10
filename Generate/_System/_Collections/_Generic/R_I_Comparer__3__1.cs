@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RIComparer<T> : RMember //
     {
-
-		/// <summary>
-		/// Int32 Compare(T, T)
-		/// </summary>
-		protected RMethod r_MCompare_T_T;
-		public virtual RMethod RMCompare_T_T
-		{
-			get
-			{
-				if(r_MCompare_T_T == null)
-				{
-					r_MCompare_T_T = new(this, "Compare", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
-				}
-				return r_MCompare_T_T;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.IComparer<>);
+            }
+        }
 
         public RIComparer() : base("System.Collections.Generic.IComparer`1")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		 public RIComparer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Int32 Compare(T, T)
+		/// </summary>
+		protected RMethod r_MCompare_T_T;
+		public virtual RMethod RMCompare_T_T
+		{
+			get
+			{
+				if(r_MCompare_T_T == null)
+				{
+					r_MCompare_T_T = new(this, "Compare", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
+				}
+				return r_MCompare_T_T;
+			}
+		}
+
 
         public virtual System.Int32 Compare(T @x, T @y)
         {

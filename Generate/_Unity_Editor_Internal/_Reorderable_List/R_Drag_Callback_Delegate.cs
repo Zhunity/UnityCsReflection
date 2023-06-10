@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RDragCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+DragCallbackDelegate");
+            }
+        }
+
+        public RDragCallbackDelegate() : base("UnityEditorInternal.ReorderableList+DragCallbackDelegate")
+        {
+        }
+
+        public RDragCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+DragCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RDragCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDragCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RDragCallbackDelegate() : base("UnityEditorInternal.ReorderableList+DragCallbackDelegate")
-        {
-        }
-
-        public RDragCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+DragCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RDragCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDragCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEditorInternal.ReorderableList @list)
         {

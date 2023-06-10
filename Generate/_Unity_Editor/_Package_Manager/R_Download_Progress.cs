@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RDownloadProgress : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.DownloadProgress");
+            }
+        }
+
+        public RDownloadProgress() : base("UnityEditor.PackageManager.DownloadProgress")
+        {
+        }
+
+        public RDownloadProgress(System.Object instance) : base("UnityEditor.PackageManager.DownloadProgress")
+		{
+            SetInstance(instance);
+		}
+
+        public RDownloadProgress(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDownloadProgress(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt64 currentBytes
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RDownloadProgress() : base("UnityEditor.PackageManager.DownloadProgress")
-        {
-        }
-
-        public RDownloadProgress(System.Object instance) : base("UnityEditor.PackageManager.DownloadProgress")
-		{
-            SetInstance(instance);
-		}
-
-        public RDownloadProgress(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDownloadProgress(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

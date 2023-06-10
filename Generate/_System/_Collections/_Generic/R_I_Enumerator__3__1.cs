@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RIEnumerator<T> : RMember //
     {
-
-		/// <summary>
-		/// T Current
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;
-		public virtual Hvak.Editor.Refleaction.RProperty RPCurrent
-		{
-			get
-			{
-				if(r_PCurrent == null)
-				{
-					r_PCurrent = new(this, "Current", -1);
-				}
-				return r_PCurrent;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.IEnumerator<>);
+            }
+        }
 
         public RIEnumerator() : base("System.Collections.Generic.IEnumerator`1")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 		 public RIEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// T Current
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;
+		public virtual Hvak.Editor.Refleaction.RProperty RPCurrent
+		{
+			get
+			{
+				if(r_PCurrent == null)
+				{
+					r_PCurrent = new(this, "Current", -1);
+				}
+				return r_PCurrent;
+			}
+		}
+
 
     }
 }

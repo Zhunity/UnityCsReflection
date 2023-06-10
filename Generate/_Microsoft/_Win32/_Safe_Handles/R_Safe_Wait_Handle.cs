@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 	/// </summary>
     public partial class RSafeWaitHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Microsoft.Win32.SafeHandles.SafeWaitHandle);
+            }
+        }
+
+        public RSafeWaitHandle() : base("Microsoft.Win32.SafeHandles.SafeWaitHandle")
+        {
+        }
+
+        public RSafeWaitHandle(System.Object instance) : base("Microsoft.Win32.SafeHandles.SafeWaitHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafeWaitHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafeWaitHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr handle
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 			}
 		}
 
-
-        public RSafeWaitHandle() : base("Microsoft.Win32.SafeHandles.SafeWaitHandle")
-        {
-        }
-
-        public RSafeWaitHandle(System.Object instance) : base("Microsoft.Win32.SafeHandles.SafeWaitHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafeWaitHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafeWaitHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean ReleaseHandle()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RRawTexture : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GradientSettingsAtlas+RawTexture");
+            }
+        }
+
+        public RRawTexture() : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas+RawTexture")
+        {
+        }
+
+        public RRawTexture(System.Object instance) : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas+RawTexture")
+		{
+            SetInstance(instance);
+		}
+
+        public RRawTexture(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRawTexture(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color32[] rgba
@@ -189,23 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RRawTexture() : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas+RawTexture")
-        {
-        }
-
-        public RRawTexture(System.Object instance) : base("UnityEngine.UIElements.UIR.GradientSettingsAtlas+RawTexture")
-		{
-            SetInstance(instance);
-		}
-
-        public RRawTexture(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRawTexture(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void WriteRawInt2Packed(System.Int32 @v0, System.Int32 @v1, System.Int32 @destX, System.Int32 @destY)
         {

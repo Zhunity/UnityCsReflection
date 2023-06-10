@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 	/// </summary>
     public partial class RStyleState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.StyleSheets.StyleState");
+            }
+        }
+
+        public RStyleState() : base("UnityEditor.StyleSheets.StyleState")
+        {
+        }
+
+        public RStyleState(System.Object instance) : base("UnityEditor.StyleSheets.StyleState")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int64 value__
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 			}
 		}
 
-
-        public RStyleState() : base("UnityEditor.StyleSheets.StyleState")
-        {
-        }
-
-        public RStyleState(System.Object instance) : base("UnityEditor.StyleSheets.StyleState")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

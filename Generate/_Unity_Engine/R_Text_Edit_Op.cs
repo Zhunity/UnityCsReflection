@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTextEditOp : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextEditOp");
+            }
+        }
+
+        public RTextEditOp() : base("UnityEngine.TextEditOp")
+        {
+        }
+
+        public RTextEditOp(System.Object instance) : base("UnityEngine.TextEditOp")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextEditOp(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextEditOp(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTextEditOp() : base("UnityEngine.TextEditOp")
-        {
-        }
-
-        public RTextEditOp(System.Object instance) : base("UnityEngine.TextEditOp")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextEditOp(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextEditOp(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RCustomAttributeInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.CustomAttributeBuilder+CustomAttributeInfo");
+            }
+        }
+
+        public RCustomAttributeInfo() : base("System.Reflection.Emit.CustomAttributeBuilder+CustomAttributeInfo")
+        {
+        }
+
+        public RCustomAttributeInfo(System.Object instance) : base("System.Reflection.Emit.CustomAttributeBuilder+CustomAttributeInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RCustomAttributeInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCustomAttributeInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.ConstructorInfo ctor
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RCustomAttributeInfo() : base("System.Reflection.Emit.CustomAttributeBuilder+CustomAttributeInfo")
-        {
-        }
-
-        public RCustomAttributeInfo(System.Object instance) : base("System.Reflection.Emit.CustomAttributeBuilder+CustomAttributeInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RCustomAttributeInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCustomAttributeInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

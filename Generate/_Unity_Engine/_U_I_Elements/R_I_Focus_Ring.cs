@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIFocusRing : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IFocusRing);
+            }
+        }
+
+        public RIFocusRing() : base("UnityEngine.UIElements.IFocusRing")
+        {
+        }
+
+        public RIFocusRing(System.Object instance) : base("UnityEngine.UIElements.IFocusRing")
+		{
+            SetInstance(instance);
+		}
+
+        public RIFocusRing(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIFocusRing(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable, UnityEngine.UIElements.EventBase)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIFocusRing() : base("UnityEngine.UIElements.IFocusRing")
-        {
-        }
-
-        public RIFocusRing(System.Object instance) : base("UnityEngine.UIElements.IFocusRing")
-		{
-            SetInstance(instance);
-		}
-
-        public RIFocusRing(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIFocusRing(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.FocusChangeDirection GetFocusChangeDirection(UnityEngine.UIElements.Focusable @currentFocusable, UnityEngine.UIElements.EventBase @e)
         {

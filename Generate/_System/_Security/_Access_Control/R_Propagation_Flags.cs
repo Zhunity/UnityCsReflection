@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RPropagationFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.PropagationFlags);
+            }
+        }
+
+        public RPropagationFlags() : base("System.Security.AccessControl.PropagationFlags")
+        {
+        }
+
+        public RPropagationFlags(System.Object instance) : base("System.Security.AccessControl.PropagationFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropagationFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropagationFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RPropagationFlags() : base("System.Security.AccessControl.PropagationFlags")
-        {
-        }
-
-        public RPropagationFlags(System.Object instance) : base("System.Security.AccessControl.PropagationFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropagationFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropagationFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

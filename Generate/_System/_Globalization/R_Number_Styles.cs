@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RNumberStyles : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.NumberStyles);
+            }
+        }
+
+        public RNumberStyles() : base("System.Globalization.NumberStyles")
+        {
+        }
+
+        public RNumberStyles(System.Object instance) : base("System.Globalization.NumberStyles")
+		{
+            SetInstance(instance);
+		}
+
+        public RNumberStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNumberStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RNumberStyles() : base("System.Globalization.NumberStyles")
-        {
-        }
-
-        public RNumberStyles(System.Object instance) : base("System.Globalization.NumberStyles")
-		{
-            SetInstance(instance);
-		}
-
-        public RNumberStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNumberStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

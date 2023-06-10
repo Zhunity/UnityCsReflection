@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RResourceType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.ResourceType);
+            }
+        }
+
+        public RResourceType() : base("System.Security.AccessControl.ResourceType")
+        {
+        }
+
+        public RResourceType(System.Object instance) : base("System.Security.AccessControl.ResourceType")
+		{
+            SetInstance(instance);
+		}
+
+        public RResourceType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RResourceType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RResourceType() : base("System.Security.AccessControl.ResourceType")
-        {
-        }
-
-        public RResourceType(System.Object instance) : base("System.Security.AccessControl.ResourceType")
-		{
-            SetInstance(instance);
-		}
-
-        public RResourceType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RResourceType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

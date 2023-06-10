@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAggregateException : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AggregateException);
+            }
+        }
+
+        public RAggregateException() : base("System.AggregateException")
+        {
+        }
+
+        public RAggregateException(System.Object instance) : base("System.AggregateException")
+		{
+            SetInstance(instance);
+		}
+
+        public RAggregateException(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAggregateException(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
@@ -603,23 +628,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAggregateException() : base("System.AggregateException")
-        {
-        }
-
-        public RAggregateException(System.Object instance) : base("System.AggregateException")
-		{
-            SetInstance(instance);
-		}
-
-        public RAggregateException(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAggregateException(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

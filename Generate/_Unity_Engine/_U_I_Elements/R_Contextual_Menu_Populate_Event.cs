@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RContextualMenuPopulateEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ContextualMenuPopulateEvent);
+            }
+        }
+
+        public RContextualMenuPopulateEvent() : base("UnityEngine.UIElements.ContextualMenuPopulateEvent")
+        {
+        }
+
+        public RContextualMenuPopulateEvent(System.Object instance) : base("UnityEngine.UIElements.ContextualMenuPopulateEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RContextualMenuPopulateEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RContextualMenuPopulateEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenu <menu>k__BackingField
@@ -1099,23 +1124,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RContextualMenuPopulateEvent() : base("UnityEngine.UIElements.ContextualMenuPopulateEvent")
-        {
-        }
-
-        public RContextualMenuPopulateEvent(System.Object instance) : base("UnityEngine.UIElements.ContextualMenuPopulateEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RContextualMenuPopulateEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RContextualMenuPopulateEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.ContextualMenuPopulateEvent GetPooled(UnityEngine.UIElements.EventBase @triggerEvent, UnityEngine.UIElements.DropdownMenu @menu, UnityEngine.UIElements.IEventHandler @target, UnityEngine.UIElements.ContextualMenuManager @menuManager)
         {

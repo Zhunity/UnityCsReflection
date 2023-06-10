@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayMenu : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayMenu");
+            }
+        }
+
+        public ROverlayMenu() : base("UnityEditor.Overlays.OverlayMenu")
+        {
+        }
+
+        public ROverlayMenu(System.Object instance) : base("UnityEditor.Overlays.OverlayMenu")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean s_KeepAlive
@@ -3867,23 +3892,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayMenu() : base("UnityEditor.Overlays.OverlayMenu")
-        {
-        }
-
-        public ROverlayMenu(System.Object instance) : base("UnityEditor.Overlays.OverlayMenu")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnCustomStyleResolved(UnityEngine.UIElements.CustomStyleResolvedEvent @e)
         {

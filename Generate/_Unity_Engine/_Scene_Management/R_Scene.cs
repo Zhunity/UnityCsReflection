@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 	/// </summary>
     public partial class RScene : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.SceneManagement.Scene);
+            }
+        }
+
+        public RScene() : base("UnityEngine.SceneManagement.Scene")
+        {
+        }
+
+        public RScene(System.Object instance) : base("UnityEngine.SceneManagement.Scene")
+		{
+            SetInstance(instance);
+		}
+
+        public RScene(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScene(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_Handle
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			}
 		}
 
-
-        public RScene() : base("UnityEngine.SceneManagement.Scene")
-        {
-        }
-
-        public RScene(System.Object instance) : base("UnityEngine.SceneManagement.Scene")
-		{
-            SetInstance(instance);
-		}
-
-        public RScene(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScene(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsValidInternal(System.Int32 @sceneHandle)
         {

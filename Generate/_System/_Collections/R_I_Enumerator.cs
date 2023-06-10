@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RIEnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.IEnumerator);
+            }
+        }
+
+        public RIEnumerator() : base("System.Collections.IEnumerator")
+        {
+        }
+
+        public RIEnumerator(System.Object instance) : base("System.Collections.IEnumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RIEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object Current
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RIEnumerator() : base("System.Collections.IEnumerator")
-        {
-        }
-
-        public RIEnumerator(System.Object instance) : base("System.Collections.IEnumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RIEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean MoveNext()
         {

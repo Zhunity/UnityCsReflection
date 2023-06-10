@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RFieldBuilder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.FieldBuilder);
+            }
+        }
+
+        public RFieldBuilder() : base("System.Reflection.Emit.FieldBuilder")
+        {
+        }
+
+        public RFieldBuilder(System.Object instance) : base("System.Reflection.Emit.FieldBuilder")
+		{
+            SetInstance(instance);
+		}
+
+        public RFieldBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFieldBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.FieldAttributes attrs
@@ -1227,23 +1252,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RFieldBuilder() : base("System.Reflection.Emit.FieldBuilder")
-        {
-        }
-
-        public RFieldBuilder(System.Object instance) : base("System.Reflection.Emit.FieldBuilder")
-		{
-            SetInstance(instance);
-		}
-
-        public RFieldBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFieldBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__InteropServices__2___FieldBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {

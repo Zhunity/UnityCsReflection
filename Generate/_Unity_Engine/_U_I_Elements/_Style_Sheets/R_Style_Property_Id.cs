@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RStylePropertyId : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId");
+            }
+        }
+
+        public RStylePropertyId() : base("UnityEngine.UIElements.StyleSheets.StylePropertyId")
+        {
+        }
+
+        public RStylePropertyId(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyId")
+		{
+            SetInstance(instance);
+		}
+
+        public RStylePropertyId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStylePropertyId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -1739,23 +1764,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RStylePropertyId() : base("UnityEngine.UIElements.StyleSheets.StylePropertyId")
-        {
-        }
-
-        public RStylePropertyId(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyId")
-		{
-            SetInstance(instance);
-		}
-
-        public RStylePropertyId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStylePropertyId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

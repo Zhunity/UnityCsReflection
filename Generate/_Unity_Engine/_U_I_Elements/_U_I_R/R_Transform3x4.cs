@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RTransform3x4 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Transform3x4");
+            }
+        }
+
+        public RTransform3x4() : base("UnityEngine.UIElements.UIR.Transform3x4")
+        {
+        }
+
+        public RTransform3x4(System.Object instance) : base("UnityEngine.UIElements.UIR.Transform3x4")
+		{
+            SetInstance(instance);
+		}
+
+        public RTransform3x4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTransform3x4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector4 v0
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RTransform3x4() : base("UnityEngine.UIElements.UIR.Transform3x4")
-        {
-        }
-
-        public RTransform3x4(System.Object instance) : base("UnityEngine.UIElements.UIR.Transform3x4")
-		{
-            SetInstance(instance);
-		}
-
-        public RTransform3x4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTransform3x4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

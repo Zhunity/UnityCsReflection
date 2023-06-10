@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RBMPAlloc : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc");
+            }
+        }
+
+        public RBMPAlloc() : base("UnityEngine.UIElements.UIR.BMPAlloc")
+        {
+        }
+
+        public RBMPAlloc(System.Object instance) : base("UnityEngine.UIElements.UIR.BMPAlloc")
+		{
+            SetInstance(instance);
+		}
+
+        public RBMPAlloc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBMPAlloc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc Invalid
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RBMPAlloc() : base("UnityEngine.UIElements.UIR.BMPAlloc")
-        {
-        }
-
-        public RBMPAlloc(System.Object instance) : base("UnityEngine.UIElements.UIR.BMPAlloc")
-		{
-            SetInstance(instance);
-		}
-
-        public RBMPAlloc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBMPAlloc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @other)
         {

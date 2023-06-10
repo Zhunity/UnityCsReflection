@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TextElement);
+            }
+        }
+
+        public RTextElement() : base("UnityEngine.UIElements.TextElement")
+        {
+        }
+
+        public RTextElement(System.Object instance) : base("UnityEngine.UIElements.TextElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String ussClassName
@@ -5227,23 +5252,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextElement() : base("UnityEngine.UIElements.TextElement")
-        {
-        }
-
-        public RTextElement(System.Object instance) : base("UnityEngine.UIElements.TextElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent @e)
         {

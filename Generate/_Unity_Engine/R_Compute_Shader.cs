@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RComputeShader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.ComputeShader);
+            }
+        }
+
+        public RComputeShader() : base("UnityEngine.ComputeShader")
+        {
+        }
+
+        public RComputeShader(System.Object instance) : base("UnityEngine.ComputeShader")
+		{
+            SetInstance(instance);
+		}
+
+        public RComputeShader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RComputeShader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeywordSpace keywordSpace
@@ -1387,23 +1412,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RComputeShader() : base("UnityEngine.ComputeShader")
-        {
-        }
-
-        public RComputeShader(System.Object instance) : base("UnityEngine.ComputeShader")
-		{
-            SetInstance(instance);
-		}
-
-        public RComputeShader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RComputeShader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 FindKernel(System.String @name)
         {

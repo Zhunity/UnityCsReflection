@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RReflectionProbeTimeSlicingMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.ReflectionProbeTimeSlicingMode);
+            }
+        }
+
+        public RReflectionProbeTimeSlicingMode() : base("UnityEngine.Rendering.ReflectionProbeTimeSlicingMode")
+        {
+        }
+
+        public RReflectionProbeTimeSlicingMode(System.Object instance) : base("UnityEngine.Rendering.ReflectionProbeTimeSlicingMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RReflectionProbeTimeSlicingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReflectionProbeTimeSlicingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RReflectionProbeTimeSlicingMode() : base("UnityEngine.Rendering.ReflectionProbeTimeSlicingMode")
-        {
-        }
-
-        public RReflectionProbeTimeSlicingMode(System.Object instance) : base("UnityEngine.Rendering.ReflectionProbeTimeSlicingMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RReflectionProbeTimeSlicingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReflectionProbeTimeSlicingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

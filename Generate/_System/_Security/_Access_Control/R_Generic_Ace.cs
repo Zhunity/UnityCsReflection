@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RGenericAce : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.GenericAce);
+            }
+        }
+
+        public RGenericAce() : base("System.Security.AccessControl.GenericAce")
+        {
+        }
+
+        public RGenericAce(System.Object instance) : base("System.Security.AccessControl.GenericAce")
+		{
+            SetInstance(instance);
+		}
+
+        public RGenericAce(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGenericAce(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.AceFlags ace_flags
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RGenericAce() : base("System.Security.AccessControl.GenericAce")
-        {
-        }
-
-        public RGenericAce(System.Object instance) : base("System.Security.AccessControl.GenericAce")
-		{
-            SetInstance(instance);
-		}
-
-        public RGenericAce(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGenericAce(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.AccessControl.GenericAce Copy()
         {

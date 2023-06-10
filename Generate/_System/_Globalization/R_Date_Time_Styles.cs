@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RDateTimeStyles : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.DateTimeStyles);
+            }
+        }
+
+        public RDateTimeStyles() : base("System.Globalization.DateTimeStyles")
+        {
+        }
+
+        public RDateTimeStyles(System.Object instance) : base("System.Globalization.DateTimeStyles")
+		{
+            SetInstance(instance);
+		}
+
+        public RDateTimeStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDateTimeStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RDateTimeStyles() : base("System.Globalization.DateTimeStyles")
-        {
-        }
-
-        public RDateTimeStyles(System.Object instance) : base("System.Globalization.DateTimeStyles")
-		{
-            SetInstance(instance);
-		}
-
-        public RDateTimeStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDateTimeStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

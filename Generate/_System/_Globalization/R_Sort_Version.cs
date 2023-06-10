@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RSortVersion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.SortVersion);
+            }
+        }
+
+        public RSortVersion() : base("System.Globalization.SortVersion")
+        {
+        }
+
+        public RSortVersion(System.Object instance) : base("System.Globalization.SortVersion")
+		{
+            SetInstance(instance);
+		}
+
+        public RSortVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSortVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_NlsVersion
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RSortVersion() : base("System.Globalization.SortVersion")
-        {
-        }
-
-        public RSortVersion(System.Object instance) : base("System.Globalization.SortVersion")
-		{
-            SetInstance(instance);
-		}
-
-        public RSortVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSortVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 	/// </summary>
     public partial class RMarkerFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Profiling.LowLevel.MarkerFlags);
+            }
+        }
+
+        public RMarkerFlags() : base("Unity.Profiling.LowLevel.MarkerFlags")
+        {
+        }
+
+        public RMarkerFlags(System.Object instance) : base("Unity.Profiling.LowLevel.MarkerFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RMarkerFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMarkerFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt16 value__
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			}
 		}
 
-
-        public RMarkerFlags() : base("Unity.Profiling.LowLevel.MarkerFlags")
-        {
-        }
-
-        public RMarkerFlags(System.Object instance) : base("Unity.Profiling.LowLevel.MarkerFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RMarkerFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMarkerFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

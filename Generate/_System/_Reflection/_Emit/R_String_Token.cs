@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RStringToken : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.StringToken);
+            }
+        }
+
+        public RStringToken() : base("System.Reflection.Emit.StringToken")
+        {
+        }
+
+        public RStringToken(System.Object instance) : base("System.Reflection.Emit.StringToken")
+		{
+            SetInstance(instance);
+		}
+
+        public RStringToken(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStringToken(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 tokValue
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RStringToken() : base("System.Reflection.Emit.StringToken")
-        {
-        }
-
-        public RStringToken(System.Object instance) : base("System.Reflection.Emit.StringToken")
-		{
-            SetInstance(instance);
-		}
-
-        public RStringToken(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStringToken(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

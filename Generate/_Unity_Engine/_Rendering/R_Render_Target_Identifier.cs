@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RRenderTargetIdentifier : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.RenderTargetIdentifier);
+            }
+        }
+
+        public RRenderTargetIdentifier() : base("UnityEngine.Rendering.RenderTargetIdentifier")
+        {
+        }
+
+        public RRenderTargetIdentifier(System.Object instance) : base("UnityEngine.Rendering.RenderTargetIdentifier")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderTargetIdentifier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderTargetIdentifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 AllDepthSlices
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RRenderTargetIdentifier() : base("UnityEngine.Rendering.RenderTargetIdentifier")
-        {
-        }
-
-        public RRenderTargetIdentifier(System.Object instance) : base("UnityEngine.Rendering.RenderTargetIdentifier")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderTargetIdentifier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderTargetIdentifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Rendering.RenderTargetIdentifier op_Implicit(UnityEngine.Rendering.BuiltinRenderTextureType @type)
         {

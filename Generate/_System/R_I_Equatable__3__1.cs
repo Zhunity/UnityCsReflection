@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIEquatable<T> : RMember //
     {
-
-		/// <summary>
-		/// Boolean Equals(T)
-		/// </summary>
-		protected RMethod r_MEquals_T;
-		public virtual RMethod RMEquals_T
-		{
-			get
-			{
-				if(r_MEquals_T == null)
-				{
-					r_MEquals_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0));
-				}
-				return r_MEquals_T;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IEquatable<>);
+            }
+        }
 
         public RIEquatable() : base("System.IEquatable`1")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem
 		 public RIEquatable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Boolean Equals(T)
+		/// </summary>
+		protected RMethod r_MEquals_T;
+		public virtual RMethod RMEquals_T
+		{
+			get
+			{
+				if(r_MEquals_T == null)
+				{
+					r_MEquals_T = new(this, "Equals", 0, Type.MakeGenericMethodParameter(0));
+				}
+				return r_MEquals_T;
+			}
+		}
+
 
         public virtual System.Boolean Equals(T @other)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBlurEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BlurEvent);
+            }
+        }
+
+        public RBlurEvent() : base("UnityEngine.UIElements.BlurEvent")
+        {
+        }
+
+        public RBlurEvent(System.Object instance) : base("UnityEngine.UIElements.BlurEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RBlurEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBlurEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable relatedTarget
@@ -859,23 +884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBlurEvent() : base("UnityEngine.UIElements.BlurEvent")
-        {
-        }
-
-        public RBlurEvent(System.Object instance) : base("UnityEngine.UIElements.BlurEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RBlurEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBlurEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void PreDispatch(UnityEngine.UIElements.IPanel @panel)
         {

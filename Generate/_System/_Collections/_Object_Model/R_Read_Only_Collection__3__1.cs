@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
 	/// </summary>
     public partial class RReadOnlyCollection<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.ObjectModel.ReadOnlyCollection<>);
+            }
+        }
+
+        public RReadOnlyCollection() : base("System.Collections.ObjectModel.ReadOnlyCollection`1")
+        {
+        }
+
+        public RReadOnlyCollection(System.Object instance) : base("System.Collections.ObjectModel.ReadOnlyCollection`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RReadOnlyCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReadOnlyCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.IList`1[T] list
@@ -603,23 +628,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
 			}
 		}
 
-
-        public RReadOnlyCollection() : base("System.Collections.ObjectModel.ReadOnlyCollection`1")
-        {
-        }
-
-        public RReadOnlyCollection(System.Object instance) : base("System.Collections.ObjectModel.ReadOnlyCollection`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RReadOnlyCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReadOnlyCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Contains(T @value)
         {

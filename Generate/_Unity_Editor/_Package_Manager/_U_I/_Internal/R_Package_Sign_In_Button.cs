@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageSignInButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageSignInButton");
+            }
+        }
+
+        public RPackageSignInButton() : base("UnityEditor.PackageManager.UI.Internal.PackageSignInButton")
+        {
+        }
+
+        public RPackageSignInButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageSignInButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageSignInButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageSignInButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UnityConnectProxy m_UnityConnectProxy
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageSignInButton() : base("UnityEditor.PackageManager.UI.Internal.PackageSignInButton")
-        {
-        }
-
-        public RPackageSignInButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageSignInButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageSignInButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageSignInButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TriggerAction(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

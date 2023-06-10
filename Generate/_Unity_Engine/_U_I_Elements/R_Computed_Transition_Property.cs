@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RComputedTransitionProperty : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedTransitionProperty");
+            }
+        }
+
+        public RComputedTransitionProperty() : base("UnityEngine.UIElements.ComputedTransitionProperty")
+        {
+        }
+
+        public RComputedTransitionProperty(System.Object instance) : base("UnityEngine.UIElements.ComputedTransitionProperty")
+		{
+            SetInstance(instance);
+		}
+
+        public RComputedTransitionProperty(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RComputedTransitionProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId id
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RComputedTransitionProperty() : base("UnityEngine.UIElements.ComputedTransitionProperty")
-        {
-        }
-
-        public RComputedTransitionProperty(System.Object instance) : base("UnityEngine.UIElements.ComputedTransitionProperty")
-		{
-            SetInstance(instance);
-		}
-
-        public RComputedTransitionProperty(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RComputedTransitionProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

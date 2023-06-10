@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RPropertyName : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.PropertyName);
+            }
+        }
+
+        public RPropertyName() : base("UnityEngine.PropertyName")
+        {
+        }
+
+        public RPropertyName(System.Object instance) : base("UnityEngine.PropertyName")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropertyName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropertyName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 id
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RPropertyName() : base("UnityEngine.PropertyName")
-        {
-        }
-
-        public RPropertyName(System.Object instance) : base("UnityEngine.PropertyName")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropertyName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropertyName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsNullOrEmpty(UnityEngine.PropertyName @prop)
         {

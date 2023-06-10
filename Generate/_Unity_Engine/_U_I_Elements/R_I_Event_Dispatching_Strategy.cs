@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIEventDispatchingStrategy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy");
+            }
+        }
+
+        public RIEventDispatchingStrategy() : base("UnityEngine.UIElements.IEventDispatchingStrategy")
+        {
+        }
+
+        public RIEventDispatchingStrategy(System.Object instance) : base("UnityEngine.UIElements.IEventDispatchingStrategy")
+		{
+            SetInstance(instance);
+		}
+
+        public RIEventDispatchingStrategy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIEventDispatchingStrategy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIEventDispatchingStrategy() : base("UnityEngine.UIElements.IEventDispatchingStrategy")
-        {
-        }
-
-        public RIEventDispatchingStrategy(System.Object instance) : base("UnityEngine.UIElements.IEventDispatchingStrategy")
-		{
-            SetInstance(instance);
-		}
-
-        public RIEventDispatchingStrategy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIEventDispatchingStrategy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase @evt)
         {

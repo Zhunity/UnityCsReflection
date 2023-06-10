@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RTokenHashValue : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.DateTimeFormatInfo+TokenHashValue");
+            }
+        }
+
+        public RTokenHashValue() : base("System.Globalization.DateTimeFormatInfo+TokenHashValue")
+        {
+        }
+
+        public RTokenHashValue(System.Object instance) : base("System.Globalization.DateTimeFormatInfo+TokenHashValue")
+		{
+            SetInstance(instance);
+		}
+
+        public RTokenHashValue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTokenHashValue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String tokenString
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RTokenHashValue() : base("System.Globalization.DateTimeFormatInfo+TokenHashValue")
-        {
-        }
-
-        public RTokenHashValue(System.Object instance) : base("System.Globalization.DateTimeFormatInfo+TokenHashValue")
-		{
-            SetInstance(instance);
-		}
-
-        public RTokenHashValue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTokenHashValue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

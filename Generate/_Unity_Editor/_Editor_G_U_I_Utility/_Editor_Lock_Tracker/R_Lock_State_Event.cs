@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RLockStateEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.EditorGUIUtility+EditorLockTracker+LockStateEvent");
+            }
+        }
+
+        public RLockStateEvent() : base("UnityEditor.EditorGUIUtility+EditorLockTracker+LockStateEvent")
+        {
+        }
+
+        public RLockStateEvent(System.Object instance) : base("UnityEditor.EditorGUIUtility+EditorLockTracker+LockStateEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RLockStateEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLockStateEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void AddListener(UnityEngine.Events.UnityAction`1[System.Boolean])
@@ -815,23 +840,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RLockStateEvent() : base("UnityEditor.EditorGUIUtility+EditorLockTracker+LockStateEvent")
-        {
-        }
-
-        public RLockStateEvent(System.Object instance) : base("UnityEditor.EditorGUIUtility+EditorLockTracker+LockStateEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RLockStateEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLockStateEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddListener(UnityEngine.Events.UnityAction<System.Boolean> @call)
         {

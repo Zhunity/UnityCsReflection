@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRectInt : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.RectInt);
+            }
+        }
+
+        public RRectInt() : base("UnityEngine.RectInt")
+        {
+        }
+
+        public RRectInt(System.Object instance) : base("UnityEngine.RectInt")
+		{
+            SetInstance(instance);
+		}
+
+        public RRectInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRectInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_XMin
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRectInt() : base("UnityEngine.RectInt")
-        {
-        }
-
-        public RRectInt(System.Object instance) : base("UnityEngine.RectInt")
-		{
-            SetInstance(instance);
-		}
-
-        public RRectInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRectInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetMinMax(UnityEngine.Vector2Int @minPosition, UnityEngine.Vector2Int @maxPosition)
         {

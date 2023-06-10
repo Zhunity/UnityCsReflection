@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 	/// </summary>
     public partial class RNewScriptDropdownItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.AddComponent.NewScriptDropdownItem");
+            }
+        }
+
+        public RNewScriptDropdownItem() : base("UnityEditor.AddComponent.NewScriptDropdownItem")
+        {
+        }
+
+        public RNewScriptDropdownItem(System.Object instance) : base("UnityEditor.AddComponent.NewScriptDropdownItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RNewScriptDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNewScriptDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char[] kInvalidPathChars
@@ -715,23 +740,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 			}
 		}
 
-
-        public RNewScriptDropdownItem() : base("UnityEditor.AddComponent.NewScriptDropdownItem")
-        {
-        }
-
-        public RNewScriptDropdownItem(System.Object instance) : base("UnityEditor.AddComponent.NewScriptDropdownItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RNewScriptDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNewScriptDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean CanCreate()
         {

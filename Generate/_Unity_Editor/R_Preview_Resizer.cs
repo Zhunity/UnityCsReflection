@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPreviewResizer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PreviewResizer");
+            }
+        }
+
+        public RPreviewResizer() : base("UnityEditor.PreviewResizer")
+        {
+        }
+
+        public RPreviewResizer(System.Object instance) : base("UnityEditor.PreviewResizer")
+		{
+            SetInstance(instance);
+		}
+
+        public RPreviewResizer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPreviewResizer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single s_DraggedPreviewSize
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPreviewResizer() : base("UnityEditor.PreviewResizer")
-        {
-        }
-
-        public RPreviewResizer(System.Object instance) : base("UnityEditor.PreviewResizer")
-		{
-            SetInstance(instance);
-		}
-
-        public RPreviewResizer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPreviewResizer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(System.String @prefName)
         {

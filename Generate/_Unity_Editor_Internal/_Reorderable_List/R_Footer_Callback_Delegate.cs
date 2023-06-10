@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RFooterCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+FooterCallbackDelegate");
+            }
+        }
+
+        public RFooterCallbackDelegate() : base("UnityEditorInternal.ReorderableList+FooterCallbackDelegate")
+        {
+        }
+
+        public RFooterCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+FooterCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RFooterCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFooterCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RFooterCallbackDelegate() : base("UnityEditorInternal.ReorderableList+FooterCallbackDelegate")
-        {
-        }
-
-        public RFooterCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+FooterCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RFooterCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFooterCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEngine.Rect @rect)
         {

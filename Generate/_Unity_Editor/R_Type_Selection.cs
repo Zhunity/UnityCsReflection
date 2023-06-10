@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RTypeSelection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.TypeSelection");
+            }
+        }
+
+        public RTypeSelection() : base("UnityEditor.TypeSelection")
+        {
+        }
+
+        public RTypeSelection(System.Object instance) : base("UnityEditor.TypeSelection")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypeSelection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypeSelection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.GUIContent label
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RTypeSelection() : base("UnityEditor.TypeSelection")
-        {
-        }
-
-        public RTypeSelection(System.Object instance) : base("UnityEditor.TypeSelection")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypeSelection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypeSelection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 CompareTo(System.Object @o)
         {

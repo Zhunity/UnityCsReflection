@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RTimer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Timer);
+            }
+        }
+
+        public RTimer() : base("System.Threading.Timer")
+        {
+        }
+
+        public RTimer(System.Object instance) : base("System.Threading.Timer")
+		{
+            SetInstance(instance);
+		}
+
+        public RTimer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTimer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.TimerCallback callback
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RTimer() : base("System.Threading.Timer")
-        {
-        }
-
-        public RTimer(System.Object instance) : base("System.Threading.Timer")
-		{
-            SetInstance(instance);
-		}
-
-        public RTimer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTimer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(System.Threading.TimerCallback @callback, System.Object @state, System.Int64 @dueTime, System.Int64 @period)
         {

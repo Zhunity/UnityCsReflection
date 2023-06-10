@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RPackageInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.PackageInfo);
+            }
+        }
+
+        public RPackageInfo() : base("UnityEditor.PackageManager.PackageInfo")
+        {
+        }
+
+        public RPackageInfo(System.Object instance) : base("UnityEditor.PackageManager.PackageInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_PackageId
@@ -1355,23 +1380,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RPackageInfo() : base("UnityEditor.PackageManager.PackageInfo")
-        {
-        }
-
-        public RPackageInfo(System.Object instance) : base("UnityEditor.PackageManager.PackageInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEditor.PackageManager.PackageInfo FindForAssetPath(System.String @assetPath)
         {

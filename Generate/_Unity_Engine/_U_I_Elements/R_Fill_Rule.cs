@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFillRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.FillRule);
+            }
+        }
+
+        public RFillRule() : base("UnityEngine.UIElements.FillRule")
+        {
+        }
+
+        public RFillRule(System.Object instance) : base("UnityEngine.UIElements.FillRule")
+		{
+            SetInstance(instance);
+		}
+
+        public RFillRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFillRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFillRule() : base("UnityEngine.UIElements.FillRule")
-        {
-        }
-
-        public RFillRule(System.Object instance) : base("UnityEngine.UIElements.FillRule")
-		{
-            SetInstance(instance);
-		}
-
-        public RFillRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFillRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

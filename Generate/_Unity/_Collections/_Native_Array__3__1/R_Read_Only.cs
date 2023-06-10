@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 	/// </summary>
     public partial class RReadOnly : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly");
+            }
+        }
+
+        public RReadOnly() : base("Unity.Collections.NativeArray`1+ReadOnly")
+        {
+        }
+
+        public RReadOnly(System.Object instance) : base("Unity.Collections.NativeArray`1+ReadOnly")
+		{
+            SetInstance(instance);
+		}
+
+        public RReadOnly(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReadOnly(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Void* m_Buffer
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			}
 		}
 
-
-        public RReadOnly() : base("Unity.Collections.NativeArray`1+ReadOnly")
-        {
-        }
-
-        public RReadOnly(System.Object instance) : base("Unity.Collections.NativeArray`1+ReadOnly")
-		{
-            SetInstance(instance);
-		}
-
-        public RReadOnly(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReadOnly(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CopyTo(Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType> @array)
         {

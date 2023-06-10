@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	/// </summary>
     public partial class RServerIdentity : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.ServerIdentity");
+            }
+        }
+
+        public RServerIdentity() : base("System.Runtime.Remoting.ServerIdentity")
+        {
+        }
+
+        public RServerIdentity(System.Object instance) : base("System.Runtime.Remoting.ServerIdentity")
+		{
+            SetInstance(instance);
+		}
+
+        public RServerIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RServerIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type _objectType
@@ -603,23 +628,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 			}
 		}
 
-
-        public RServerIdentity() : base("System.Runtime.Remoting.ServerIdentity")
-        {
-        }
-
-        public RServerIdentity(System.Object instance) : base("System.Runtime.Remoting.ServerIdentity")
-		{
-            SetInstance(instance);
-		}
-
-        public RServerIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RServerIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void StartTrackingLifetime(System.Runtime.Remoting.Lifetime.ILease @lease)
         {

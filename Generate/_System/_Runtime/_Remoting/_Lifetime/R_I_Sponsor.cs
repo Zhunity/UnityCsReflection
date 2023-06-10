@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 	/// </summary>
     public partial class RISponsor : RMember //
     {
-
-		/// <summary>
-		/// System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease)
-		/// </summary>
-		protected RMethod r_MRenewal_ILease;
-		public virtual RMethod RMRenewal_ILease
-		{
-			get
-			{
-				if(r_MRenewal_ILease == null)
-				{
-					r_MRenewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
-				}
-				return r_MRenewal_ILease;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Lifetime.ISponsor);
+            }
+        }
 
         public RISponsor() : base("System.Runtime.Remoting.Lifetime.ISponsor")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 		 public RISponsor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease)
+		/// </summary>
+		protected RMethod r_MRenewal_ILease;
+		public virtual RMethod RMRenewal_ILease
+		{
+			get
+			{
+				if(r_MRenewal_ILease == null)
+				{
+					r_MRenewal_ILease = new(this, "Renewal", 0, typeof(System.Runtime.Remoting.Lifetime.ILease));
+				}
+				return r_MRenewal_ILease;
+			}
+		}
+
 
         public virtual System.TimeSpan Renewal(System.Runtime.Remoting.Lifetime.ILease @lease)
         {

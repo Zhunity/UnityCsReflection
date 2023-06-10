@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RParameterInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.ParameterInfo);
+            }
+        }
+
+        public RParameterInfo() : base("System.Reflection.ParameterInfo")
+        {
+        }
+
+        public RParameterInfo(System.Object instance) : base("System.Reflection.ParameterInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RParameterInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RParameterInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.ParameterAttributes AttrsImpl
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RParameterInfo() : base("System.Reflection.ParameterInfo")
-        {
-        }
-
-        public RParameterInfo(System.Object instance) : base("System.Reflection.ParameterInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RParameterInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RParameterInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsDefined(System.Type @attributeType, System.Boolean @inherit)
         {

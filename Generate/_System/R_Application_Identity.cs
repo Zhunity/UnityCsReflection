@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RApplicationIdentity : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ApplicationIdentity);
+            }
+        }
+
+        public RApplicationIdentity() : base("System.ApplicationIdentity")
+        {
+        }
+
+        public RApplicationIdentity(System.Object instance) : base("System.ApplicationIdentity")
+		{
+            SetInstance(instance);
+		}
+
+        public RApplicationIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RApplicationIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String _fullName
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RApplicationIdentity() : base("System.ApplicationIdentity")
-        {
-        }
-
-        public RApplicationIdentity(System.Object instance) : base("System.ApplicationIdentity")
-		{
-            SetInstance(instance);
-		}
-
-        public RApplicationIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RApplicationIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

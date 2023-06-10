@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageSelectionObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageSelectionObject");
+            }
+        }
+
+        public RPackageSelectionObject() : base("UnityEditor.PackageManager.UI.Internal.PackageSelectionObject")
+        {
+        }
+
+        public RPackageSelectionObject(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageSelectionObject")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageSelectionObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageSelectionObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String displayName
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageSelectionObject() : base("UnityEditor.PackageManager.UI.Internal.PackageSelectionObject")
-        {
-        }
-
-        public RPackageSelectionObject(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageSelectionObject")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageSelectionObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageSelectionObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetDirty()
         {

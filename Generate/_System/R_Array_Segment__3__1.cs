@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RArraySegment<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ArraySegment<>);
+            }
+        }
+
+        public RArraySegment() : base("System.ArraySegment`1")
+        {
+        }
+
+        public RArraySegment(System.Object instance) : base("System.ArraySegment`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RArraySegment(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RArraySegment(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.ArraySegment`1[T] <Empty>k__BackingField
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RArraySegment() : base("System.ArraySegment`1")
-        {
-        }
-
-        public RArraySegment(System.Object instance) : base("System.ArraySegment`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RArraySegment(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RArraySegment(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RArraySegment<Hvak.Editor.Refleaction.RType>.REnumerator GetEnumerator()
         {

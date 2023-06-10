@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCalendar : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.Calendar);
+            }
+        }
+
+        public RCalendar() : base("System.Globalization.Calendar")
+        {
+        }
+
+        public RCalendar(System.Object instance) : base("System.Globalization.Calendar")
+		{
+            SetInstance(instance);
+		}
+
+        public RCalendar(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCalendar(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int64 TicksPerMillisecond
@@ -1755,23 +1780,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCalendar() : base("System.Globalization.Calendar")
-        {
-        }
-
-        public RCalendar(System.Object instance) : base("System.Globalization.Calendar")
-		{
-            SetInstance(instance);
-		}
-
-        public RCalendar(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCalendar(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object Clone()
         {

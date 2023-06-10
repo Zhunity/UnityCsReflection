@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 	/// </summary>
     public partial class RBinaryWriter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IO.BinaryWriter);
+            }
+        }
+
+        public RBinaryWriter() : base("System.IO.BinaryWriter")
+        {
+        }
+
+        public RBinaryWriter(System.Object instance) : base("System.IO.BinaryWriter")
+		{
+            SetInstance(instance);
+		}
+
+        public RBinaryWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBinaryWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IO.BinaryWriter Null
@@ -715,23 +740,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			}
 		}
 
-
-        public RBinaryWriter() : base("System.IO.BinaryWriter")
-        {
-        }
-
-        public RBinaryWriter(System.Object instance) : base("System.IO.BinaryWriter")
-		{
-            SetInstance(instance);
-		}
-
-        public RBinaryWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBinaryWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Close()
         {

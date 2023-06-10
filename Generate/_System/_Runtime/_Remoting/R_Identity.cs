@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	/// </summary>
     public partial class RIdentity : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Identity");
+            }
+        }
+
+        public RIdentity() : base("System.Runtime.Remoting.Identity")
+        {
+        }
+
+        public RIdentity(System.Object instance) : base("System.Runtime.Remoting.Identity")
+		{
+            SetInstance(instance);
+		}
+
+        public RIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String _objectUri
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 			}
 		}
 
-
-        public RIdentity() : base("System.Runtime.Remoting.Identity")
-        {
-        }
-
-        public RIdentity(System.Object instance) : base("System.Runtime.Remoting.Identity")
-		{
-            SetInstance(instance);
-		}
-
-        public RIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Runtime.Remoting.ObjRef CreateObjRef(System.Type @requestedType)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 	/// </summary>
     public partial class RStrongName : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Mono.Security.StrongName");
+            }
+        }
+
+        public RStrongName() : base("Mono.Security.StrongName")
+        {
+        }
+
+        public RStrongName(System.Object instance) : base("Mono.Security.StrongName")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Cryptography.RSA rsa
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			}
 		}
 
-
-        public RStrongName() : base("Mono.Security.StrongName")
-        {
-        }
-
-        public RStrongName(System.Object instance) : base("Mono.Security.StrongName")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InvalidateCache()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RMatchResult : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.MatchResult");
+            }
+        }
+
+        public RMatchResult() : base("UnityEngine.UIElements.StyleSheets.MatchResult")
+        {
+        }
+
+        public RMatchResult(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.MatchResult")
+		{
+            SetInstance(instance);
+		}
+
+        public RMatchResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMatchResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.MatchResultErrorCode errorCode
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RMatchResult() : base("UnityEngine.UIElements.StyleSheets.MatchResult")
-        {
-        }
-
-        public RMatchResult(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.MatchResult")
-		{
-            SetInstance(instance);
-		}
-
-        public RMatchResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMatchResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

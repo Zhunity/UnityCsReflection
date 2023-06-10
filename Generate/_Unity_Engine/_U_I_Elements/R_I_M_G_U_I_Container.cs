@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIMGUIContainer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IMGUIContainer);
+            }
+        }
+
+        public RIMGUIContainer() : base("UnityEngine.UIElements.IMGUIContainer")
+        {
+        }
+
+        public RIMGUIContainer(System.Object instance) : base("UnityEngine.UIElements.IMGUIContainer")
+		{
+            SetInstance(instance);
+		}
+
+        public RIMGUIContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIMGUIContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action m_OnGUIHandler
@@ -4395,23 +4420,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIMGUIContainer() : base("UnityEngine.UIElements.IMGUIContainer")
-        {
-        }
-
-        public RIMGUIContainer(System.Object instance) : base("UnityEngine.UIElements.IMGUIContainer")
-		{
-            SetInstance(instance);
-		}
-
-        public RIMGUIContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIMGUIContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext @mgc)
         {

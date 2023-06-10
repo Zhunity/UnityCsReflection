@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RIPermission : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.IPermission);
+            }
+        }
+
+        public RIPermission() : base("System.Security.IPermission")
+        {
+        }
+
+        public RIPermission(System.Object instance) : base("System.Security.IPermission")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPermission(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPermission(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.IPermission Copy()
@@ -91,23 +116,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RIPermission() : base("System.Security.IPermission")
-        {
-        }
-
-        public RIPermission(System.Object instance) : base("System.Security.IPermission")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPermission(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPermission(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.IPermission Copy()
         {

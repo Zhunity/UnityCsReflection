@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RHostExecutionContextManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.HostExecutionContextManager);
+            }
+        }
+
+        public RHostExecutionContextManager() : base("System.Threading.HostExecutionContextManager")
+        {
+        }
+
+        public RHostExecutionContextManager(System.Object instance) : base("System.Threading.HostExecutionContextManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RHostExecutionContextManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHostExecutionContextManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.HostExecutionContext Capture()
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RHostExecutionContextManager() : base("System.Threading.HostExecutionContextManager")
-        {
-        }
-
-        public RHostExecutionContextManager(System.Object instance) : base("System.Threading.HostExecutionContextManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RHostExecutionContextManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHostExecutionContextManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Threading.HostExecutionContext Capture()
         {

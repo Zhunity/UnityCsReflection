@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTransparencySortMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TransparencySortMode);
+            }
+        }
+
+        public RTransparencySortMode() : base("UnityEngine.TransparencySortMode")
+        {
+        }
+
+        public RTransparencySortMode(System.Object instance) : base("UnityEngine.TransparencySortMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RTransparencySortMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTransparencySortMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTransparencySortMode() : base("UnityEngine.TransparencySortMode")
-        {
-        }
-
-        public RTransparencySortMode(System.Object instance) : base("UnityEngine.TransparencySortMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RTransparencySortMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTransparencySortMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

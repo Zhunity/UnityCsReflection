@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RThreadPriority : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ThreadPriority);
+            }
+        }
+
+        public RThreadPriority() : base("System.Threading.ThreadPriority")
+        {
+        }
+
+        public RThreadPriority(System.Object instance) : base("System.Threading.ThreadPriority")
+		{
+            SetInstance(instance);
+		}
+
+        public RThreadPriority(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RThreadPriority(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RThreadPriority() : base("System.Threading.ThreadPriority")
-        {
-        }
-
-        public RThreadPriority(System.Object instance) : base("System.Threading.ThreadPriority")
-		{
-            SetInstance(instance);
-		}
-
-        public RThreadPriority(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RThreadPriority(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RRemoveRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.Requests.RemoveRequest);
+            }
+        }
+
+        public RRemoveRequest() : base("UnityEditor.PackageManager.Requests.RemoveRequest")
+        {
+        }
+
+        public RRemoveRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.RemoveRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RRemoveRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRemoveRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_PackageIdOrName
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RRemoveRequest() : base("UnityEditor.PackageManager.Requests.RemoveRequest")
-        {
-        }
-
-        public RRemoveRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.RemoveRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RRemoveRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRemoveRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void FetchNativeData()
         {

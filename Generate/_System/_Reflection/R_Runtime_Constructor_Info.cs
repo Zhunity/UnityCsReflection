@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimeConstructorInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimeConstructorInfo");
+            }
+        }
+
+        public RRuntimeConstructorInfo() : base("System.Reflection.RuntimeConstructorInfo")
+        {
+        }
+
+        public RRuntimeConstructorInfo(System.Object instance) : base("System.Reflection.RuntimeConstructorInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeConstructorInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeConstructorInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr mhandle
@@ -1179,23 +1204,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimeConstructorInfo() : base("System.Reflection.RuntimeConstructorInfo")
-        {
-        }
-
-        public RRuntimeConstructorInfo(System.Object instance) : base("System.Reflection.RuntimeConstructorInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeConstructorInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeConstructorInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeModule GetRuntimeModule()
         {

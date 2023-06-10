@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RGenericAcl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.GenericAcl);
+            }
+        }
+
+        public RGenericAcl() : base("System.Security.AccessControl.GenericAcl")
+        {
+        }
+
+        public RGenericAcl(System.Object instance) : base("System.Security.AccessControl.GenericAcl")
+		{
+            SetInstance(instance);
+		}
+
+        public RGenericAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGenericAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte AclRevision
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RGenericAcl() : base("System.Security.AccessControl.GenericAcl")
-        {
-        }
-
-        public RGenericAcl(System.Object instance) : base("System.Security.AccessControl.GenericAcl")
-		{
-            SetInstance(instance);
-		}
-
-        public RGenericAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGenericAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CopyTo(System.Security.AccessControl.GenericAce[] @array, System.Int32 @index)
         {

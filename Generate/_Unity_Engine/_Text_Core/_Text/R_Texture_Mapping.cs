@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextureMapping : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextureMapping");
+            }
+        }
+
+        public RTextureMapping() : base("UnityEngine.TextCore.Text.TextureMapping")
+        {
+        }
+
+        public RTextureMapping(System.Object instance) : base("UnityEngine.TextCore.Text.TextureMapping")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextureMapping(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextureMapping(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextureMapping() : base("UnityEngine.TextCore.Text.TextureMapping")
-        {
-        }
-
-        public RTextureMapping(System.Object instance) : base("UnityEngine.TextCore.Text.TextureMapping")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextureMapping(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextureMapping(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

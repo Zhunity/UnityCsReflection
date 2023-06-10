@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RDefaults : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults");
+            }
+        }
+
+        public RDefaults() : base("UnityEditorInternal.ReorderableList+Defaults")
+        {
+        }
+
+        public RDefaults(System.Object instance) : base("UnityEditorInternal.ReorderableList+Defaults")
+		{
+            SetInstance(instance);
+		}
+
+        public RDefaults(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDefaults(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.GUIContent iconToolbarPlus
@@ -701,23 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RDefaults() : base("UnityEditorInternal.ReorderableList+Defaults")
-        {
-        }
-
-        public RDefaults(System.Object instance) : base("UnityEditorInternal.ReorderableList+Defaults")
-		{
-            SetInstance(instance);
-		}
-
-        public RDefaults(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDefaults(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 ArrayCountInPropertyPath(UnityEditor.SerializedProperty @prop)
         {

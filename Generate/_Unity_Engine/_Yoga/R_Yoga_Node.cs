@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaNode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode");
+            }
+        }
+
+        public RYogaNode() : base("UnityEngine.Yoga.YogaNode")
+        {
+        }
+
+        public RYogaNode(System.Object instance) : base("UnityEngine.Yoga.YogaNode")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaNode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaNode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr _ygNode
@@ -1963,23 +1988,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaNode() : base("UnityEngine.Yoga.YogaNode")
-        {
-        }
-
-        public RYogaNode(System.Object instance) : base("UnityEngine.Yoga.YogaNode")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaNode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaNode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 	/// </summary>
     public partial class RX509CertificateImpl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Security.Cryptography.X509Certificates.X509CertificateImpl");
+            }
+        }
+
+        public RX509CertificateImpl() : base("System.Security.Cryptography.X509Certificates.X509CertificateImpl")
+        {
+        }
+
+        public RX509CertificateImpl(System.Object instance) : base("System.Security.Cryptography.X509Certificates.X509CertificateImpl")
+		{
+            SetInstance(instance);
+		}
+
+        public RX509CertificateImpl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RX509CertificateImpl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean IsValid
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			}
 		}
 
-
-        public RX509CertificateImpl() : base("System.Security.Cryptography.X509Certificates.X509CertificateImpl")
-        {
-        }
-
-        public RX509CertificateImpl(System.Object instance) : base("System.Security.Cryptography.X509Certificates.X509CertificateImpl")
-		{
-            SetInstance(instance);
-		}
-
-        public RX509CertificateImpl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RX509CertificateImpl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.IntPtr GetNativeAppleCertificate()
         {

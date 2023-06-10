@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class RSaveData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.SaveData");
+            }
+        }
+
+        public RSaveData() : base("UnityEditor.Overlays.SaveData")
+        {
+        }
+
+        public RSaveData(System.Object instance) : base("UnityEditor.Overlays.SaveData")
+		{
+            SetInstance(instance);
+		}
+
+        public RSaveData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSaveData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_InvalidIndex
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public RSaveData() : base("UnityEditor.Overlays.SaveData")
-        {
-        }
-
-        public RSaveData(System.Object instance) : base("UnityEditor.Overlays.SaveData")
-		{
-            SetInstance(instance);
-		}
-
-        public RSaveData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSaveData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @other)
         {

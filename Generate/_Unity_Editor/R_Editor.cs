@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class REditor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.Editor);
+            }
+        }
+
+        public REditor() : base("UnityEditor.Editor")
+        {
+        }
+
+        public REditor(System.Object instance) : base("UnityEditor.Editor")
+		{
+            SetInstance(instance);
+		}
+
+        public REditor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REditor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.Editor] finishedDefaultHeaderGUI
@@ -2091,23 +2116,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public REditor() : base("UnityEditor.Editor")
-        {
-        }
-
-        public REditor(System.Object instance) : base("UnityEditor.Editor")
-		{
-            SetInstance(instance);
-		}
-
-        public REditor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REditor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean GetHasUnsavedChanges()
         {

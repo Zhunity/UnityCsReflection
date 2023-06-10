@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 	/// </summary>
     public partial class RFileStream : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IO.FileStream);
+            }
+        }
+
+        public RFileStream() : base("System.IO.FileStream")
+        {
+        }
+
+        public RFileStream(System.Object instance) : base("System.IO.FileStream")
+		{
+            SetInstance(instance);
+		}
+
+        public RFileStream(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFileStream(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 DefaultBufferSize
@@ -1579,23 +1604,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			}
 		}
 
-
-        public RFileStream() : base("System.IO.FileStream")
-        {
-        }
-
-        public RFileStream(System.Object instance) : base("System.IO.FileStream")
-		{
-            SetInstance(instance);
-		}
-
-        public RFileStream(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFileStream(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(Microsoft.Win32.SafeHandles.SafeFileHandle @safeHandle, System.IO.FileAccess @access, System.Boolean @ownsHandle, System.Int32 @bufferSize, System.Boolean @isAsync, System.Boolean @isConsoleWrapper)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPlaceholderVersionList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PlaceholderVersionList");
+            }
+        }
+
+        public RPlaceholderVersionList() : base("UnityEditor.PackageManager.UI.Internal.PlaceholderVersionList")
+        {
+        }
+
+        public RPlaceholderVersionList(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PlaceholderVersionList")
+		{
+            SetInstance(instance);
+		}
+
+        public RPlaceholderVersionList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPlaceholderVersionList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PlaceholderPackageVersion[] m_Versions
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPlaceholderVersionList() : base("UnityEditor.PackageManager.UI.Internal.PlaceholderVersionList")
-        {
-        }
-
-        public RPlaceholderVersionList(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PlaceholderVersionList")
-		{
-            SetInstance(instance);
-		}
-
-        public RPlaceholderVersionList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPlaceholderVersionList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetUpdateTarget(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

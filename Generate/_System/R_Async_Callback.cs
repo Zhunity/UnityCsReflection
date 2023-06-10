@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAsyncCallback : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AsyncCallback);
+            }
+        }
+
+        public RAsyncCallback() : base("System.AsyncCallback")
+        {
+        }
+
+        public RAsyncCallback(System.Object instance) : base("System.AsyncCallback")
+		{
+            SetInstance(instance);
+		}
+
+        public RAsyncCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAsyncCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAsyncCallback() : base("System.AsyncCallback")
-        {
-        }
-
-        public RAsyncCallback(System.Object instance) : base("System.AsyncCallback")
-		{
-            SetInstance(instance);
-		}
-
-        public RAsyncCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAsyncCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(System.IAsyncResult @ar)
         {

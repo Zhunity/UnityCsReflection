@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RSlotUsageEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+SlotUsageEntry");
+            }
+        }
+
+        public RSlotUsageEntry() : base("UnityEngine.UIElements.VisualTreeAsset+SlotUsageEntry")
+        {
+        }
+
+        public RSlotUsageEntry(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+SlotUsageEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RSlotUsageEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSlotUsageEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String slotName
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RSlotUsageEntry() : base("UnityEngine.UIElements.VisualTreeAsset+SlotUsageEntry")
-        {
-        }
-
-        public RSlotUsageEntry(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+SlotUsageEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RSlotUsageEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSlotUsageEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

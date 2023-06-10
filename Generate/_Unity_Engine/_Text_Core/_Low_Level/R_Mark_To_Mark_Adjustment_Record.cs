@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RMarkToMarkAdjustmentRecord : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord");
+            }
+        }
+
+        public RMarkToMarkAdjustmentRecord() : base("UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord")
+        {
+        }
+
+        public RMarkToMarkAdjustmentRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord")
+		{
+            SetInstance(instance);
+		}
+
+        public RMarkToMarkAdjustmentRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMarkToMarkAdjustmentRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 m_BaseMarkGlyphID
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RMarkToMarkAdjustmentRecord() : base("UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord")
-        {
-        }
-
-        public RMarkToMarkAdjustmentRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.MarkToMarkAdjustmentRecord")
-		{
-            SetInstance(instance);
-		}
-
-        public RMarkToMarkAdjustmentRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMarkToMarkAdjustmentRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RTypedReference : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.TypedReference);
+            }
+        }
+
+        public RTypedReference() : base("System.TypedReference")
+        {
+        }
+
+        public RTypedReference(System.Object instance) : base("System.TypedReference")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypedReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypedReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.RuntimeTypeHandle type
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RTypedReference() : base("System.TypedReference")
-        {
-        }
-
-        public RTypedReference(System.Object instance) : base("System.TypedReference")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypedReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypedReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.RTypedReference MakeTypedReference(System.Object @target, System.Reflection.FieldInfo[] @flds)
         {

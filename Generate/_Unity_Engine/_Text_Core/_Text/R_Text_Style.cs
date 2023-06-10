@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.TextStyle);
+            }
+        }
+
+        public RTextStyle() : base("UnityEngine.TextCore.Text.TextStyle")
+        {
+        }
+
+        public RTextStyle(System.Object instance) : base("UnityEngine.TextCore.Text.TextStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyle k_NormalStyle
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextStyle() : base("UnityEngine.TextCore.Text.TextStyle")
-        {
-        }
-
-        public RTextStyle(System.Object instance) : base("UnityEngine.TextCore.Text.TextStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void RefreshStyle()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RGetter<T, R> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo+Getter`2");
+            }
+        }
+
+        public RGetter() : base("System.Reflection.RuntimePropertyInfo+Getter`2")
+        {
+        }
+
+        public RGetter(System.Object instance) : base("System.Reflection.RuntimePropertyInfo+Getter`2")
+		{
+            SetInstance(instance);
+		}
+
+        public RGetter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGetter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RGetter() : base("System.Reflection.RuntimePropertyInfo+Getter`2")
-        {
-        }
-
-        public RGetter(System.Object instance) : base("System.Reflection.RuntimePropertyInfo+Getter`2")
-		{
-            SetInstance(instance);
-		}
-
-        public RGetter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGetter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual R Invoke(T @_this)
         {

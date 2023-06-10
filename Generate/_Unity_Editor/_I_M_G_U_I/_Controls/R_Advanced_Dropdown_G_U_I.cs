@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	/// </summary>
     public partial class RAdvancedDropdownGUI : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI");
+            }
+        }
+
+        public RAdvancedDropdownGUI() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI")
+        {
+        }
+
+        public RAdvancedDropdownGUI(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI")
+		{
+            SetInstance(instance);
+		}
+
+        public RAdvancedDropdownGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAdvancedDropdownGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 s_IconSize
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			}
 		}
 
-
-        public RAdvancedDropdownGUI() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI")
-        {
-        }
-
-        public RAdvancedDropdownGUI(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownGUI")
-		{
-            SetInstance(instance);
-		}
-
-        public RAdvancedDropdownGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAdvancedDropdownGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void LoadStyles()
         {

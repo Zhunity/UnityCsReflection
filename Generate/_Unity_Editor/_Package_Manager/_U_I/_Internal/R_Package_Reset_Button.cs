@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageResetButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageResetButton");
+            }
+        }
+
+        public RPackageResetButton() : base("UnityEditor.PackageManager.UI.Internal.PackageResetButton")
+        {
+        }
+
+        public RPackageResetButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageResetButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageResetButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageResetButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy m_Application
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageResetButton() : base("UnityEditor.PackageManager.UI.Internal.PackageResetButton")
-        {
-        }
-
-        public RPackageResetButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageResetButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageResetButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageResetButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TriggerAction(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

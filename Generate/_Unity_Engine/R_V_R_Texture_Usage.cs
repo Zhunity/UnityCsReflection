@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RVRTextureUsage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.VRTextureUsage);
+            }
+        }
+
+        public RVRTextureUsage() : base("UnityEngine.VRTextureUsage")
+        {
+        }
+
+        public RVRTextureUsage(System.Object instance) : base("UnityEngine.VRTextureUsage")
+		{
+            SetInstance(instance);
+		}
+
+        public RVRTextureUsage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVRTextureUsage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RVRTextureUsage() : base("UnityEngine.VRTextureUsage")
-        {
-        }
-
-        public RVRTextureUsage(System.Object instance) : base("UnityEngine.VRTextureUsage")
-		{
-            SetInstance(instance);
-		}
-
-        public RVRTextureUsage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVRTextureUsage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RSlider : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Slider);
+            }
+        }
+
+        public RSlider() : base("UnityEngine.UIElements.Slider")
+        {
+        }
+
+        public RSlider(System.Object instance) : base("UnityEngine.UIElements.Slider")
+		{
+            SetInstance(instance);
+		}
+
+        public RSlider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSlider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Func`2[System.Single,System.Single] onValidateValue
@@ -4123,23 +4148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RSlider() : base("UnityEngine.UIElements.Slider")
-        {
-        }
-
-        public RSlider(System.Object instance) : base("UnityEngine.UIElements.Slider")
-		{
-            SetInstance(instance);
-		}
-
-        public RSlider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSlider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ApplyInputDeviceDelta(UnityEngine.Vector3 @delta, UnityEngine.UIElements.DeltaSpeed @speed, System.Single @startValue)
         {

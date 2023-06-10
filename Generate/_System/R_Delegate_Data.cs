@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDelegateData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.DelegateData");
+            }
+        }
+
+        public RDelegateData() : base("System.DelegateData")
+        {
+        }
+
+        public RDelegateData(System.Object instance) : base("System.DelegateData")
+		{
+            SetInstance(instance);
+		}
+
+        public RDelegateData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDelegateData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type target_type
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDelegateData() : base("System.DelegateData")
-        {
-        }
-
-        public RDelegateData(System.Object instance) : base("System.DelegateData")
-		{
-            SetInstance(instance);
-		}
-
-        public RDelegateData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDelegateData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

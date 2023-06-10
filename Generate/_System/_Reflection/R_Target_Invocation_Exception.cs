@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RTargetInvocationException : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.TargetInvocationException);
+            }
+        }
+
+        public RTargetInvocationException() : base("System.Reflection.TargetInvocationException")
+        {
+        }
+
+        public RTargetInvocationException(System.Object instance) : base("System.Reflection.TargetInvocationException")
+		{
+            SetInstance(instance);
+		}
+
+        public RTargetInvocationException(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTargetInvocationException(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RTargetInvocationException() : base("System.Reflection.TargetInvocationException")
-        {
-        }
-
-        public RTargetInvocationException(System.Object instance) : base("System.Reflection.TargetInvocationException")
-		{
-            SetInstance(instance);
-		}
-
-        public RTargetInvocationException(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTargetInvocationException(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddExceptionDataForRestrictedErrorInfo(System.String @restrictedError, System.String @restrictedErrorReference, System.String @restrictedCapabilitySid, System.Object @restrictedErrorObject, System.Boolean @hasrestrictedLanguageErrorObject)
         {

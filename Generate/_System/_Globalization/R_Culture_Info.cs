@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCultureInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.CultureInfo);
+            }
+        }
+
+        public RCultureInfo() : base("System.Globalization.CultureInfo")
+        {
+        }
+
+        public RCultureInfo(System.Object instance) : base("System.Globalization.CultureInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RCultureInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCultureInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Globalization.CultureInfo invariant_culture_info
@@ -1915,23 +1940,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCultureInfo() : base("System.Globalization.CultureInfo")
-        {
-        }
-
-        public RCultureInfo(System.Object instance) : base("System.Globalization.CultureInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RCultureInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCultureInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Globalization.CultureInfo ConstructCurrentCulture()
         {

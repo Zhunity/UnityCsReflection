@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIExperimentalFeatures : RMember //
     {
-
-		/// <summary>
-		/// UnityEngine.UIElements.Experimental.ITransitionAnimations animation
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RITransitionAnimations r_Panimation;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RITransitionAnimations RPanimation
-		{
-			get
-			{
-				if(r_Panimation == null)
-				{
-					r_Panimation = new(this, "animation", -1);
-				}
-				return r_Panimation;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IExperimentalFeatures);
+            }
+        }
 
         public RIExperimentalFeatures() : base("UnityEngine.UIElements.IExperimentalFeatures")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		 public RIExperimentalFeatures(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// UnityEngine.UIElements.Experimental.ITransitionAnimations animation
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RITransitionAnimations r_Panimation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental.RITransitionAnimations RPanimation
+		{
+			get
+			{
+				if(r_Panimation == null)
+				{
+					r_Panimation = new(this, "animation", -1);
+				}
+				return r_Panimation;
+			}
+		}
+
 
     }
 }

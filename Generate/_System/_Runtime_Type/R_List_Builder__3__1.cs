@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RListBuilder<T> : RMember // where T : class
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.RuntimeType+ListBuilder`1");
+            }
+        }
+
+        public RListBuilder() : base("System.RuntimeType+ListBuilder`1")
+        {
+        }
+
+        public RListBuilder(System.Object instance) : base("System.RuntimeType+ListBuilder`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RListBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RListBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T[] _items
@@ -253,23 +278,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RListBuilder() : base("System.RuntimeType+ListBuilder`1")
-        {
-        }
-
-        public RListBuilder(System.Object instance) : base("System.RuntimeType+ListBuilder`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RListBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RListBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual T[] ToArray()
         {

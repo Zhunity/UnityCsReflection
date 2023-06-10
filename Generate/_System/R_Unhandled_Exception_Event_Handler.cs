@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RUnhandledExceptionEventHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.UnhandledExceptionEventHandler);
+            }
+        }
+
+        public RUnhandledExceptionEventHandler() : base("System.UnhandledExceptionEventHandler")
+        {
+        }
+
+        public RUnhandledExceptionEventHandler(System.Object instance) : base("System.UnhandledExceptionEventHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnhandledExceptionEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnhandledExceptionEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RUnhandledExceptionEventHandler() : base("System.UnhandledExceptionEventHandler")
-        {
-        }
-
-        public RUnhandledExceptionEventHandler(System.Object instance) : base("System.UnhandledExceptionEventHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnhandledExceptionEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnhandledExceptionEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(System.Object @sender, System.UnhandledExceptionEventArgs @e)
         {

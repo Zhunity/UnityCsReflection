@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleSelectorType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorType");
+            }
+        }
+
+        public RStyleSelectorType() : base("UnityEngine.UIElements.StyleSelectorType")
+        {
+        }
+
+        public RStyleSelectorType(System.Object instance) : base("UnityEngine.UIElements.StyleSelectorType")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleSelectorType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleSelectorType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleSelectorType() : base("UnityEngine.UIElements.StyleSelectorType")
-        {
-        }
-
-        public RStyleSelectorType(System.Object instance) : base("UnityEngine.UIElements.StyleSelectorType")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleSelectorType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleSelectorType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

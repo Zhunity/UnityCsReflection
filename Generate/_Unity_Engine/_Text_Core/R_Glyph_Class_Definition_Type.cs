@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 	/// </summary>
     public partial class RGlyphClassDefinitionType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.GlyphClassDefinitionType);
+            }
+        }
+
+        public RGlyphClassDefinitionType() : base("UnityEngine.TextCore.GlyphClassDefinitionType")
+        {
+        }
+
+        public RGlyphClassDefinitionType(System.Object instance) : base("UnityEngine.TextCore.GlyphClassDefinitionType")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlyphClassDefinitionType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlyphClassDefinitionType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			}
 		}
 
-
-        public RGlyphClassDefinitionType() : base("UnityEngine.TextCore.GlyphClassDefinitionType")
-        {
-        }
-
-        public RGlyphClassDefinitionType(System.Object instance) : base("UnityEngine.TextCore.GlyphClassDefinitionType")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlyphClassDefinitionType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlyphClassDefinitionType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

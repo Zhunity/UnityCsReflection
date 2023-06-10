@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMeshDataArray : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray");
+            }
+        }
+
+        public RMeshDataArray() : base("UnityEngine.Mesh+MeshDataArray")
+        {
+        }
+
+        public RMeshDataArray(System.Object instance) : base("UnityEngine.Mesh+MeshDataArray")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshDataArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshDataArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr* m_Ptrs
@@ -397,23 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMeshDataArray() : base("UnityEngine.Mesh+MeshDataArray")
-        {
-        }
-
-        public RMeshDataArray(System.Object instance) : base("UnityEngine.Mesh+MeshDataArray")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshDataArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshDataArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public unsafe static void AcquireReadOnlyMeshData(UnityEngine.Mesh @mesh, System.IntPtr* @datas)
         {

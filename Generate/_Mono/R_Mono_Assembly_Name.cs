@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMono
 	/// </summary>
     public partial class RMonoAssemblyName : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Mono.MonoAssemblyName");
+            }
+        }
+
+        public RMonoAssemblyName() : base("Mono.MonoAssemblyName")
+        {
+        }
+
+        public RMonoAssemblyName(System.Object instance) : base("Mono.MonoAssemblyName")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoAssemblyName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoAssemblyName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 MONO_PUBLIC_KEY_TOKEN_LENGTH
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RMono
 			}
 		}
 
-
-        public RMonoAssemblyName() : base("Mono.MonoAssemblyName")
-        {
-        }
-
-        public RMonoAssemblyName(System.Object instance) : base("Mono.MonoAssemblyName")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoAssemblyName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoAssemblyName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

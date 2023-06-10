@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAssemblyLoadEventHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AssemblyLoadEventHandler);
+            }
+        }
+
+        public RAssemblyLoadEventHandler() : base("System.AssemblyLoadEventHandler")
+        {
+        }
+
+        public RAssemblyLoadEventHandler(System.Object instance) : base("System.AssemblyLoadEventHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssemblyLoadEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssemblyLoadEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAssemblyLoadEventHandler() : base("System.AssemblyLoadEventHandler")
-        {
-        }
-
-        public RAssemblyLoadEventHandler(System.Object instance) : base("System.AssemblyLoadEventHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssemblyLoadEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssemblyLoadEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(System.Object @sender, System.AssemblyLoadEventArgs @args)
         {

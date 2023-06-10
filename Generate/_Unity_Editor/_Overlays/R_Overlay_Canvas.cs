@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayCanvas : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.Overlays.OverlayCanvas);
+            }
+        }
+
+        public ROverlayCanvas() : base("UnityEditor.Overlays.OverlayCanvas")
+        {
+        }
+
+        public ROverlayCanvas(System.Object instance) : base("UnityEditor.Overlays.OverlayCanvas")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayCanvas(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayCanvas(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] overlaysEnabledChanged
@@ -1531,23 +1556,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayCanvas() : base("UnityEditor.Overlays.OverlayCanvas")
-        {
-        }
-
-        public ROverlayCanvas(System.Object instance) : base("UnityEditor.Overlays.OverlayCanvas")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayCanvas(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayCanvas(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEditor.Overlays.DockZone GetDockZone(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer @container)
         {

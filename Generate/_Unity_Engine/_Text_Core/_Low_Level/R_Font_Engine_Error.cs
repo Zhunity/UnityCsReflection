@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RFontEngineError : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.LowLevel.FontEngineError);
+            }
+        }
+
+        public RFontEngineError() : base("UnityEngine.TextCore.LowLevel.FontEngineError")
+        {
+        }
+
+        public RFontEngineError(System.Object instance) : base("UnityEngine.TextCore.LowLevel.FontEngineError")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontEngineError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontEngineError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RFontEngineError() : base("UnityEngine.TextCore.LowLevel.FontEngineError")
-        {
-        }
-
-        public RFontEngineError(System.Object instance) : base("UnityEngine.TextCore.LowLevel.FontEngineError")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontEngineError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontEngineError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

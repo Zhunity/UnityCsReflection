@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 	/// </summary>
     public partial class RValueAnimation<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>);
+            }
+        }
+
+        public RValueAnimation() : base("UnityEngine.UIElements.Experimental.ValueAnimation`1")
+        {
+        }
+
+        public RValueAnimation(System.Object instance) : base("UnityEngine.UIElements.Experimental.ValueAnimation`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RValueAnimation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValueAnimation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_DefaultDurationMs
@@ -779,23 +804,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			}
 		}
 
-
-        public RValueAnimation() : base("UnityEngine.UIElements.Experimental.ValueAnimation`1")
-        {
-        }
-
-        public RValueAnimation(System.Object instance) : base("UnityEngine.UIElements.Experimental.ValueAnimation`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RValueAnimation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValueAnimation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Start()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RUnmanagedMarshal : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.UnmanagedMarshal);
+            }
+        }
+
+        public RUnmanagedMarshal() : base("System.Reflection.Emit.UnmanagedMarshal")
+        {
+        }
+
+        public RUnmanagedMarshal(System.Object instance) : base("System.Reflection.Emit.UnmanagedMarshal")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnmanagedMarshal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnmanagedMarshal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 count
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RUnmanagedMarshal() : base("System.Reflection.Emit.UnmanagedMarshal")
-        {
-        }
-
-        public RUnmanagedMarshal(System.Object instance) : base("System.Reflection.Emit.UnmanagedMarshal")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnmanagedMarshal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnmanagedMarshal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Reflection.Emit.UnmanagedMarshal DefineByValArray(System.Int32 @elemCount)
         {

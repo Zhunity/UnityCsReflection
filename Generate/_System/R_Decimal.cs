@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDecimal : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Decimal);
+            }
+        }
+
+        public RDecimal() : base("System.Decimal")
+        {
+        }
+
+        public RDecimal(System.Object instance) : base("System.Decimal")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecimal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecimal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 SignMask
@@ -1995,23 +2020,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDecimal() : base("System.Decimal")
-        {
-        }
-
-        public RDecimal(System.Object instance) : base("System.Decimal")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecimal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecimal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc AsMutable(ref System.Decimal @d)
         {

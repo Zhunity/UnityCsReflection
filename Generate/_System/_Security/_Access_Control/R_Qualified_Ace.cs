@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RQualifiedAce : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.QualifiedAce);
+            }
+        }
+
+        public RQualifiedAce() : base("System.Security.AccessControl.QualifiedAce")
+        {
+        }
+
+        public RQualifiedAce(System.Object instance) : base("System.Security.AccessControl.QualifiedAce")
+		{
+            SetInstance(instance);
+		}
+
+        public RQualifiedAce(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RQualifiedAce(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] opaque
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RQualifiedAce() : base("System.Security.AccessControl.QualifiedAce")
-        {
-        }
-
-        public RQualifiedAce(System.Object instance) : base("System.Security.AccessControl.QualifiedAce")
-		{
-            SetInstance(instance);
-		}
-
-        public RQualifiedAce(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RQualifiedAce(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Byte[] GetOpaque()
         {

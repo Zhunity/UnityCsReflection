@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RSmoothingData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.EditorGUI+VUMeter+SmoothingData");
+            }
+        }
+
+        public RSmoothingData() : base("UnityEditor.EditorGUI+VUMeter+SmoothingData")
+        {
+        }
+
+        public RSmoothingData(System.Object instance) : base("UnityEditor.EditorGUI+VUMeter+SmoothingData")
+		{
+            SetInstance(instance);
+		}
+
+        public RSmoothingData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSmoothingData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single lastValue
@@ -159,23 +184,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RSmoothingData() : base("UnityEditor.EditorGUI+VUMeter+SmoothingData")
-        {
-        }
-
-        public RSmoothingData(System.Object instance) : base("UnityEditor.EditorGUI+VUMeter+SmoothingData")
-		{
-            SetInstance(instance);
-		}
-
-        public RSmoothingData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSmoothingData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RITextEdition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ITextEdition);
+            }
+        }
+
+        public RITextEdition() : base("UnityEngine.UIElements.ITextEdition")
+        {
+        }
+
+        public RITextEdition(System.Object instance) : base("UnityEngine.UIElements.ITextEdition")
+		{
+            SetInstance(instance);
+		}
+
+        public RITextEdition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RITextEdition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean multiline
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RITextEdition() : base("UnityEngine.UIElements.ITextEdition")
-        {
-        }
-
-        public RITextEdition(System.Object instance) : base("UnityEngine.UIElements.ITextEdition")
-		{
-            SetInstance(instance);
-		}
-
-        public RITextEdition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RITextEdition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResetValueAndText()
         {

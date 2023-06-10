@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RObjectGUIState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.ObjectGUIState");
+            }
+        }
+
+        public RObjectGUIState() : base("UnityEngine.ObjectGUIState")
+        {
+        }
+
+        public RObjectGUIState(System.Object instance) : base("UnityEngine.ObjectGUIState")
+		{
+            SetInstance(instance);
+		}
+
+        public RObjectGUIState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObjectGUIState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RObjectGUIState() : base("UnityEngine.ObjectGUIState")
-        {
-        }
-
-        public RObjectGUIState(System.Object instance) : base("UnityEngine.ObjectGUIState")
-		{
-            SetInstance(instance);
-		}
-
-        public RObjectGUIState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObjectGUIState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

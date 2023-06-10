@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIPackageVersion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IPackageVersion");
+            }
+        }
+
+        public RIPackageVersion() : base("UnityEditor.PackageManager.UI.IPackageVersion")
+        {
+        }
+
+        public RIPackageVersion(System.Object instance) : base("UnityEditor.PackageManager.UI.IPackageVersion")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPackageVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPackageVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIPackageVersion() : base("UnityEditor.PackageManager.UI.IPackageVersion")
-        {
-        }
-
-        public RIPackageVersion(System.Object instance) : base("UnityEditor.PackageManager.UI.IPackageVersion")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPackageVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPackageVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

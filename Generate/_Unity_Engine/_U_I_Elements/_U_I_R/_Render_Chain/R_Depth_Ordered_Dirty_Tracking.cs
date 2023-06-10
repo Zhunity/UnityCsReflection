@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RDepthOrderedDirtyTracking : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain+DepthOrderedDirtyTracking");
+            }
+        }
+
+        public RDepthOrderedDirtyTracking() : base("UnityEngine.UIElements.UIR.RenderChain+DepthOrderedDirtyTracking")
+        {
+        }
+
+        public RDepthOrderedDirtyTracking(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChain+DepthOrderedDirtyTracking")
+		{
+            SetInstance(instance);
+		}
+
+        public RDepthOrderedDirtyTracking(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDepthOrderedDirtyTracking(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] heads
@@ -253,23 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RDepthOrderedDirtyTracking() : base("UnityEngine.UIElements.UIR.RenderChain+DepthOrderedDirtyTracking")
-        {
-        }
-
-        public RDepthOrderedDirtyTracking(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChain+DepthOrderedDirtyTracking")
-		{
-            SetInstance(instance);
-		}
-
-        public RDepthOrderedDirtyTracking(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDepthOrderedDirtyTracking(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void EnsureFits(System.Int32 @maxDepth)
         {

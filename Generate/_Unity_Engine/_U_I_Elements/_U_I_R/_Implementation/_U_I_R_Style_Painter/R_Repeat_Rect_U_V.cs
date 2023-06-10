@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 	/// </summary>
     public partial class RRepeatRectUV : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+RepeatRectUV");
+            }
+        }
+
+        public RRepeatRectUV() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+RepeatRectUV")
+        {
+        }
+
+        public RRepeatRectUV(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+RepeatRectUV")
+		{
+            SetInstance(instance);
+		}
+
+        public RRepeatRectUV(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRepeatRectUV(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rect rect
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 			}
 		}
 
-
-        public RRepeatRectUV() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+RepeatRectUV")
-        {
-        }
-
-        public RRepeatRectUV(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+RepeatRectUV")
-		{
-            SetInstance(instance);
-		}
-
-        public RRepeatRectUV(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRepeatRectUV(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

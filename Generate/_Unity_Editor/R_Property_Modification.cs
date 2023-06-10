@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPropertyModification : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PropertyModification);
+            }
+        }
+
+        public RPropertyModification() : base("UnityEditor.PropertyModification")
+        {
+        }
+
+        public RPropertyModification(System.Object instance) : base("UnityEditor.PropertyModification")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropertyModification(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropertyModification(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Object target
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPropertyModification() : base("UnityEditor.PropertyModification")
-        {
-        }
-
-        public RPropertyModification(System.Object instance) : base("UnityEditor.PropertyModification")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropertyModification(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropertyModification(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Apply()
         {

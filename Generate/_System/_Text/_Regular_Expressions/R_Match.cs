@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RMatch : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.Match);
+            }
+        }
+
+        public RMatch() : base("System.Text.RegularExpressions.Match")
+        {
+        }
+
+        public RMatch(System.Object instance) : base("System.Text.RegularExpressions.Match")
+		{
+            SetInstance(instance);
+		}
+
+        public RMatch(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMatch(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.GroupCollection _groupcoll
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RMatch() : base("System.Text.RegularExpressions.Match")
-        {
-        }
-
-        public RMatch(System.Object instance) : base("System.Text.RegularExpressions.Match")
-		{
-            SetInstance(instance);
-		}
-
-        public RMatch(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMatch(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart)
         {

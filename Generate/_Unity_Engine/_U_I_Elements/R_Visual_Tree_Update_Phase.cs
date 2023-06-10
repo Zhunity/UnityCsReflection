@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVisualTreeUpdatePhase : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase");
+            }
+        }
+
+        public RVisualTreeUpdatePhase() : base("UnityEngine.UIElements.VisualTreeUpdatePhase")
+        {
+        }
+
+        public RVisualTreeUpdatePhase(System.Object instance) : base("UnityEngine.UIElements.VisualTreeUpdatePhase")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualTreeUpdatePhase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualTreeUpdatePhase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVisualTreeUpdatePhase() : base("UnityEngine.UIElements.VisualTreeUpdatePhase")
-        {
-        }
-
-        public RVisualTreeUpdatePhase(System.Object instance) : base("UnityEngine.UIElements.VisualTreeUpdatePhase")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualTreeUpdatePhase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualTreeUpdatePhase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

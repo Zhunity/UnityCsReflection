@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RContextForm : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.ActivationContext+ContextForm");
+            }
+        }
+
+        public RContextForm() : base("System.ActivationContext+ContextForm")
+        {
+        }
+
+        public RContextForm(System.Object instance) : base("System.ActivationContext+ContextForm")
+		{
+            SetInstance(instance);
+		}
+
+        public RContextForm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RContextForm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RContextForm() : base("System.ActivationContext+ContextForm")
-        {
-        }
-
-        public RContextForm(System.Object instance) : base("System.ActivationContext+ContextForm")
-		{
-            SetInstance(instance);
-		}
-
-        public RContextForm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RContextForm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

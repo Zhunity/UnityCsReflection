@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingInstanceCullingConfig : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig);
+            }
+        }
+
+        public RRayTracingInstanceCullingConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig")
+        {
+        }
+
+        public RRayTracingInstanceCullingConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingInstanceCullingConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingInstanceCullingConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingFlags flags
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingInstanceCullingConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig")
-        {
-        }
-
-        public RRayTracingInstanceCullingConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingInstanceCullingConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingInstanceCullingConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

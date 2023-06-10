@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageDetailsLinks : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDetailsLinks");
+            }
+        }
+
+        public RPackageDetailsLinks() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsLinks")
+        {
+        }
+
+        public RPackageDetailsLinks(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsLinks")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageDetailsLinks(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageDetailsLinks(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_ViewDocumentationText
@@ -3835,23 +3860,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageDetailsLinks() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsLinks")
-        {
-        }
-
-        public RPackageDetailsLinks(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsLinks")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageDetailsLinks(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageDetailsLinks(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies()
         {

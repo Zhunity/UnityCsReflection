@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RLocalVariableInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.LocalVariableInfo);
+            }
+        }
+
+        public RLocalVariableInfo() : base("System.Reflection.LocalVariableInfo")
+        {
+        }
+
+        public RLocalVariableInfo(System.Object instance) : base("System.Reflection.LocalVariableInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalVariableInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalVariableInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type type
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RLocalVariableInfo() : base("System.Reflection.LocalVariableInfo")
-        {
-        }
-
-        public RLocalVariableInfo(System.Object instance) : base("System.Reflection.LocalVariableInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalVariableInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalVariableInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

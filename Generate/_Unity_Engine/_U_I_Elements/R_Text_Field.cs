@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextField : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TextField);
+            }
+        }
+
+        public RTextField() : base("UnityEngine.UIElements.TextField")
+        {
+        }
+
+        public RTextField(System.Object instance) : base("UnityEngine.UIElements.TextField")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextField(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextField(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] onIsReadOnlyChanged
@@ -4299,23 +4324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextField() : base("UnityEngine.UIElements.TextField")
-        {
-        }
-
-        public RTextField(System.Object instance) : base("UnityEngine.UIElements.TextField")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextField(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextField(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetValueWithoutNotify(System.String @newValue)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 	/// </summary>
     public partial class RExpressionMultiplier : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier");
+            }
+        }
+
+        public RExpressionMultiplier() : base("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier")
+        {
+        }
+
+        public RExpressionMultiplier(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier")
+		{
+            SetInstance(instance);
+		}
+
+        public RExpressionMultiplier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExpressionMultiplier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 Infinity
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 			}
 		}
 
-
-        public RExpressionMultiplier() : base("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier")
-        {
-        }
-
-        public RExpressionMultiplier(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.ExpressionMultiplier")
-		{
-            SetInstance(instance);
-		}
-
-        public RExpressionMultiplier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExpressionMultiplier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetType(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplierType @value)
         {

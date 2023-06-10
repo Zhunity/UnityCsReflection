@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RGlyphPairAdjustmentRecord : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord);
+            }
+        }
+
+        public RGlyphPairAdjustmentRecord() : base("UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord")
+        {
+        }
+
+        public RGlyphPairAdjustmentRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlyphPairAdjustmentRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlyphPairAdjustmentRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RGlyphPairAdjustmentRecord() : base("UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord")
-        {
-        }
-
-        public RGlyphPairAdjustmentRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlyphPairAdjustmentRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlyphPairAdjustmentRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

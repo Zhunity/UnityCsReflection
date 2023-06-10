@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRareData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.RareData");
+            }
+        }
+
+        public RRareData() : base("UnityEngine.UIElements.RareData")
+        {
+        }
+
+        public RRareData(System.Object instance) : base("UnityEngine.UIElements.RareData")
+		{
+            SetInstance(instance);
+		}
+
+        public RRareData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRareData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Cursor cursor
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRareData() : base("UnityEngine.UIElements.RareData")
-        {
-        }
-
-        public RRareData(System.Object instance) : base("UnityEngine.UIElements.RareData")
-		{
-            SetInstance(instance);
-		}
-
-        public RRareData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRareData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRareData Copy()
         {

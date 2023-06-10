@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RInvokableCallList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Events.InvokableCallList");
+            }
+        }
+
+        public RInvokableCallList() : base("UnityEngine.Events.InvokableCallList")
+        {
+        }
+
+        public RInvokableCallList(System.Object instance) : base("UnityEngine.Events.InvokableCallList")
+		{
+            SetInstance(instance);
+		}
+
+        public RInvokableCallList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInvokableCallList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.Events.BaseInvokableCall] m_PersistentCalls
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RInvokableCallList() : base("UnityEngine.Events.InvokableCallList")
-        {
-        }
-
-        public RInvokableCallList(System.Object instance) : base("UnityEngine.Events.InvokableCallList")
-		{
-            SetInstance(instance);
-		}
-
-        public RInvokableCallList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInvokableCallList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddPersistentInvokableCall(Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall @call)
         {

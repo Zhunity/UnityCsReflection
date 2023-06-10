@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RSafeSerializationEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Serialization.SafeSerializationEventArgs);
+            }
+        }
+
+        public RSafeSerializationEventArgs() : base("System.Runtime.Serialization.SafeSerializationEventArgs")
+        {
+        }
+
+        public RSafeSerializationEventArgs(System.Object instance) : base("System.Runtime.Serialization.SafeSerializationEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafeSerializationEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafeSerializationEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Serialization.StreamingContext m_streamingContext
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			}
 		}
 
-
-        public RSafeSerializationEventArgs() : base("System.Runtime.Serialization.SafeSerializationEventArgs")
-        {
-        }
-
-        public RSafeSerializationEventArgs(System.Object instance) : base("System.Runtime.Serialization.SafeSerializationEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafeSerializationEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafeSerializationEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddSerializedState(System.Runtime.Serialization.ISafeSerializationData @serializedState)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RUInt32 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.UInt32);
+            }
+        }
+
+        public RUInt32() : base("System.UInt32")
+        {
+        }
+
+        public RUInt32(System.Object instance) : base("System.UInt32")
+		{
+            SetInstance(instance);
+		}
+
+        public RUInt32(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUInt32(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 m_value
@@ -667,23 +692,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RUInt32() : base("System.UInt32")
-        {
-        }
-
-        public RUInt32(System.Object instance) : base("System.UInt32")
-		{
-            SetInstance(instance);
-		}
-
-        public RUInt32(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUInt32(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 CompareTo(System.Object @value)
         {

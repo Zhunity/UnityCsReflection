@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RCoreCameraValues : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Rendering.CoreCameraValues");
+            }
+        }
+
+        public RCoreCameraValues() : base("UnityEngine.Rendering.CoreCameraValues")
+        {
+        }
+
+        public RCoreCameraValues(System.Object instance) : base("UnityEngine.Rendering.CoreCameraValues")
+		{
+            SetInstance(instance);
+		}
+
+        public RCoreCameraValues(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCoreCameraValues(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 filterMode
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RCoreCameraValues() : base("UnityEngine.Rendering.CoreCameraValues")
-        {
-        }
-
-        public RCoreCameraValues(System.Object instance) : base("UnityEngine.Rendering.CoreCameraValues")
-		{
-            SetInstance(instance);
-		}
-
-        public RCoreCameraValues(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCoreCameraValues(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RRendering.RCoreCameraValues @other)
         {

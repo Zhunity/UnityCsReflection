@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RShader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Shader);
+            }
+        }
+
+        public RShader() : base("UnityEngine.Shader")
+        {
+        }
+
+        public RShader(System.Object instance) : base("UnityEngine.Shader")
+		{
+            SetInstance(instance);
+		}
+
+        public RShader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RShader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderHardwareTier globalShaderHardwareTier
@@ -2971,23 +2996,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RShader() : base("UnityEngine.Shader")
-        {
-        }
-
-        public RShader(System.Object instance) : base("UnityEngine.Shader")
-		{
-            SetInstance(instance);
-		}
-
-        public RShader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RShader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void SetGlobalTexGenMode(System.String @propertyName, UnityEngine.TexGenMode @mode)
         {

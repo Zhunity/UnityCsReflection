@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageFiltering : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFiltering");
+            }
+        }
+
+        public RPackageFiltering() : base("UnityEditor.PackageManager.UI.Internal.PackageFiltering")
+        {
+        }
+
+        public RPackageFiltering(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageFiltering")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageFiltering(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageFiltering(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.PackageFilterTab] onFilterTabChanged
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageFiltering() : base("UnityEditor.PackageManager.UI.Internal.PackageFiltering")
-        {
-        }
-
-        public RPackageFiltering(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageFiltering")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageFiltering(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageFiltering(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerProjectSettingsProxy @settingsProxy)
         {

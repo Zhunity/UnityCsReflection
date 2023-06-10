@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextVertex : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextVertex");
+            }
+        }
+
+        public RTextVertex() : base("UnityEngine.TextCore.Text.TextVertex")
+        {
+        }
+
+        public RTextVertex(System.Object instance) : base("UnityEngine.TextCore.Text.TextVertex")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextVertex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextVertex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 position
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextVertex() : base("UnityEngine.TextCore.Text.TextVertex")
-        {
-        }
-
-        public RTextVertex(System.Object instance) : base("UnityEngine.TextCore.Text.TextVertex")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextVertex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextVertex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

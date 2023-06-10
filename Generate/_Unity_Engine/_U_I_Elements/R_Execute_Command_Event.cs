@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RExecuteCommandEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ExecuteCommandEvent);
+            }
+        }
+
+        public RExecuteCommandEvent() : base("UnityEngine.UIElements.ExecuteCommandEvent")
+        {
+        }
+
+        public RExecuteCommandEvent(System.Object instance) : base("UnityEngine.UIElements.ExecuteCommandEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RExecuteCommandEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExecuteCommandEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String commandName
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RExecuteCommandEvent() : base("UnityEngine.UIElements.ExecuteCommandEvent")
-        {
-        }
-
-        public RExecuteCommandEvent(System.Object instance) : base("UnityEngine.UIElements.ExecuteCommandEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RExecuteCommandEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExecuteCommandEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

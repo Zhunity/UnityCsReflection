@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDayOfWeek : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.DayOfWeek);
+            }
+        }
+
+        public RDayOfWeek() : base("System.DayOfWeek")
+        {
+        }
+
+        public RDayOfWeek(System.Object instance) : base("System.DayOfWeek")
+		{
+            SetInstance(instance);
+		}
+
+        public RDayOfWeek(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDayOfWeek(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDayOfWeek() : base("System.DayOfWeek")
-        {
-        }
-
-        public RDayOfWeek(System.Object instance) : base("System.DayOfWeek")
-		{
-            SetInstance(instance);
-		}
-
-        public RDayOfWeek(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDayOfWeek(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

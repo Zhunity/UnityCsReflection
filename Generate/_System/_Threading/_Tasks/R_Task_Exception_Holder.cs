@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RTaskExceptionHolder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.Tasks.TaskExceptionHolder");
+            }
+        }
+
+        public RTaskExceptionHolder() : base("System.Threading.Tasks.TaskExceptionHolder")
+        {
+        }
+
+        public RTaskExceptionHolder(System.Object instance) : base("System.Threading.Tasks.TaskExceptionHolder")
+		{
+            SetInstance(instance);
+		}
+
+        public RTaskExceptionHolder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTaskExceptionHolder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean s_failFastOnUnobservedException
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RTaskExceptionHolder() : base("System.Threading.Tasks.TaskExceptionHolder")
-        {
-        }
-
-        public RTaskExceptionHolder(System.Object instance) : base("System.Threading.Tasks.TaskExceptionHolder")
-		{
-            SetInstance(instance);
-		}
-
-        public RTaskExceptionHolder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTaskExceptionHolder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean ShouldFailFastOnUnobservedException()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RITextSelection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ITextSelection);
+            }
+        }
+
+        public RITextSelection() : base("UnityEngine.UIElements.ITextSelection")
+        {
+        }
+
+        public RITextSelection(System.Object instance) : base("UnityEngine.UIElements.ITextSelection")
+		{
+            SetInstance(instance);
+		}
+
+        public RITextSelection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RITextSelection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean isSelectable
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RITextSelection() : base("UnityEngine.UIElements.ITextSelection")
-        {
-        }
-
-        public RITextSelection(System.Object instance) : base("UnityEngine.UIElements.ITextSelection")
-		{
-            SetInstance(instance);
-		}
-
-        public RITextSelection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RITextSelection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean HasSelection()
         {

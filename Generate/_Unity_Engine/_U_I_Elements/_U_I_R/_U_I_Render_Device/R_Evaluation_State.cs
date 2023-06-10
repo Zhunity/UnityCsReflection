@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class REvaluationState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState");
+            }
+        }
+
+        public REvaluationState() : base("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState")
+        {
+        }
+
+        public REvaluationState(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState")
+		{
+            SetInstance(instance);
+		}
+
+        public REvaluationState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REvaluationState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.MaterialPropertyBlock stateMatProps
@@ -237,23 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public REvaluationState() : base("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState")
-        {
-        }
-
-        public REvaluationState(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState")
-		{
-            SetInstance(instance);
-		}
-
-        public REvaluationState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REvaluationState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

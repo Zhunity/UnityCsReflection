@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 	/// </summary>
     public partial class RWin32VersionResource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Resources.Win32VersionResource");
+            }
+        }
+
+        public RWin32VersionResource() : base("System.Resources.Win32VersionResource")
+        {
+        }
+
+        public RWin32VersionResource(System.Object instance) : base("System.Resources.Win32VersionResource")
+		{
+            SetInstance(instance);
+		}
+
+        public RWin32VersionResource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWin32VersionResource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String[] WellKnownProperties
@@ -651,23 +676,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			}
 		}
 
-
-        public RWin32VersionResource() : base("System.Resources.Win32VersionResource")
-        {
-        }
-
-        public RWin32VersionResource(System.Object instance) : base("System.Resources.Win32VersionResource")
-		{
-            SetInstance(instance);
-		}
-
-        public RWin32VersionResource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWin32VersionResource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void emit_padding(System.IO.BinaryWriter @w)
         {

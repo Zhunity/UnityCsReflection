@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RNavigationSubmitEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.NavigationSubmitEvent);
+            }
+        }
+
+        public RNavigationSubmitEvent() : base("UnityEngine.UIElements.NavigationSubmitEvent")
+        {
+        }
+
+        public RNavigationSubmitEvent(System.Object instance) : base("UnityEngine.UIElements.NavigationSubmitEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RNavigationSubmitEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNavigationSubmitEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -907,23 +932,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RNavigationSubmitEvent() : base("UnityEngine.UIElements.NavigationSubmitEvent")
-        {
-        }
-
-        public RNavigationSubmitEvent(System.Object instance) : base("UnityEngine.UIElements.NavigationSubmitEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RNavigationSubmitEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNavigationSubmitEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class RDecoderNLS : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.DecoderNLS");
+            }
+        }
+
+        public RDecoderNLS() : base("System.Text.DecoderNLS")
+        {
+        }
+
+        public RDecoderNLS(System.Object instance) : base("System.Text.DecoderNLS")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecoderNLS(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecoderNLS(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.Encoding _encoding
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public RDecoderNLS() : base("System.Text.DecoderNLS")
-        {
-        }
-
-        public RDecoderNLS(System.Object instance) : base("System.Text.DecoderNLS")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecoderNLS(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecoderNLS(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPropertyHandlerCache : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PropertyHandlerCache");
+            }
+        }
+
+        public RPropertyHandlerCache() : base("UnityEditor.PropertyHandlerCache")
+        {
+        }
+
+        public RPropertyHandlerCache(System.Object instance) : base("UnityEditor.PropertyHandlerCache")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropertyHandlerCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropertyHandlerCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,UnityEditor.PropertyHandler] m_PropertyHandlers
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPropertyHandlerCache() : base("UnityEditor.PropertyHandlerCache")
-        {
-        }
-
-        public RPropertyHandlerCache(System.Object instance) : base("UnityEditor.PropertyHandlerCache")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropertyHandlerCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropertyHandlerCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler GetHandler(UnityEditor.SerializedProperty @property)
         {

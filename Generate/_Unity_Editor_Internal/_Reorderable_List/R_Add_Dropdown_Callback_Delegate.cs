@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RAddDropdownCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+AddDropdownCallbackDelegate");
+            }
+        }
+
+        public RAddDropdownCallbackDelegate() : base("UnityEditorInternal.ReorderableList+AddDropdownCallbackDelegate")
+        {
+        }
+
+        public RAddDropdownCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+AddDropdownCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RAddDropdownCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAddDropdownCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RAddDropdownCallbackDelegate() : base("UnityEditorInternal.ReorderableList+AddDropdownCallbackDelegate")
-        {
-        }
-
-        public RAddDropdownCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+AddDropdownCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RAddDropdownCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAddDropdownCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEngine.Rect @buttonRect, UnityEditorInternal.ReorderableList @list)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RListUpdateArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ListUpdateArgs");
+            }
+        }
+
+        public RListUpdateArgs() : base("UnityEditor.PackageManager.UI.Internal.ListUpdateArgs")
+        {
+        }
+
+        public RListUpdateArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ListUpdateArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RListUpdateArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RListUpdateArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPage page
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RListUpdateArgs() : base("UnityEditor.PackageManager.UI.Internal.ListUpdateArgs")
-        {
-        }
-
-        public RListUpdateArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ListUpdateArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RListUpdateArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RListUpdateArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

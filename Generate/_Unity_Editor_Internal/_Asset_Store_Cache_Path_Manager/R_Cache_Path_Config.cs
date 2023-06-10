@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RCachePathConfig : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig");
+            }
+        }
+
+        public RCachePathConfig() : base("UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig")
+        {
+        }
+
+        public RCachePathConfig(System.Object instance) : base("UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig")
+		{
+            SetInstance(instance);
+		}
+
+        public RCachePathConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCachePathConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Path
@@ -205,23 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RCachePathConfig() : base("UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig")
-        {
-        }
-
-        public RCachePathConfig(System.Object instance) : base("UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig")
-		{
-            SetInstance(instance);
-		}
-
-        public RCachePathConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCachePathConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

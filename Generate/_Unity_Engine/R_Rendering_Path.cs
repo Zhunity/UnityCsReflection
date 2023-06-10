@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRenderingPath : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.RenderingPath);
+            }
+        }
+
+        public RRenderingPath() : base("UnityEngine.RenderingPath")
+        {
+        }
+
+        public RRenderingPath(System.Object instance) : base("UnityEngine.RenderingPath")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderingPath(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderingPath(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRenderingPath() : base("UnityEngine.RenderingPath")
-        {
-        }
-
-        public RRenderingPath(System.Object instance) : base("UnityEngine.RenderingPath")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderingPath(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderingPath(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

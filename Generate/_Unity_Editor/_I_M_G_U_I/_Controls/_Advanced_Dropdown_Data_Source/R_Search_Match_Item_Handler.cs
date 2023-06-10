@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	/// </summary>
     public partial class RSearchMatchItemHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler");
+            }
+        }
+
+        public RSearchMatchItemHandler() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler")
+        {
+        }
+
+        public RSearchMatchItemHandler(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RSearchMatchItemHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSearchMatchItemHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			}
 		}
 
-
-        public RSearchMatchItemHandler() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler")
-        {
-        }
-
-        public RSearchMatchItemHandler(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RSearchMatchItemHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSearchMatchItemHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(in UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, in System.String[] @words, out System.Boolean @didMatchStart)
         {

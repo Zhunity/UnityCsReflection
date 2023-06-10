@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageGroup");
+            }
+        }
+
+        public RPackageGroup() : base("UnityEditor.PackageManager.UI.Internal.PackageGroup")
+        {
+        }
+
+        public RPackageGroup(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageGroup")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] onGroupToggle
@@ -3803,23 +3828,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageGroup() : base("UnityEditor.PackageManager.UI.Internal.PackageGroup")
-        {
-        }
-
-        public RPackageGroup(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageGroup")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Contains(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RISelectableItem @item)
         {

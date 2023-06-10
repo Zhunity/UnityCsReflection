@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RGPUBufferAllocator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GPUBufferAllocator");
+            }
+        }
+
+        public RGPUBufferAllocator() : base("UnityEngine.UIElements.UIR.GPUBufferAllocator")
+        {
+        }
+
+        public RGPUBufferAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.GPUBufferAllocator")
+		{
+            SetInstance(instance);
+		}
+
+        public RGPUBufferAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGPUBufferAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BestFitAllocator m_Low
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RGPUBufferAllocator() : base("UnityEngine.UIElements.UIR.GPUBufferAllocator")
-        {
-        }
-
-        public RGPUBufferAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.GPUBufferAllocator")
-		{
-            SetInstance(instance);
-		}
-
-        public RGPUBufferAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGPUBufferAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size, System.Boolean @shortLived)
         {

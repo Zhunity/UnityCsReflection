@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFocusable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Focusable);
+            }
+        }
+
+        public RFocusable() : base("UnityEngine.UIElements.Focusable")
+        {
+        }
+
+        public RFocusable(System.Object instance) : base("UnityEngine.UIElements.Focusable")
+		{
+            SetInstance(instance);
+		}
+
+        public RFocusable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFocusable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <focusable>k__BackingField
@@ -683,23 +708,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFocusable() : base("UnityEngine.UIElements.Focusable")
-        {
-        }
-
-        public RFocusable(System.Object instance) : base("UnityEngine.UIElements.Focusable")
-		{
-            SetInstance(instance);
-		}
-
-        public RFocusable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFocusable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Focus()
         {

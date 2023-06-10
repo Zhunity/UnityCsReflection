@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RByte : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Byte);
+            }
+        }
+
+        public RByte() : base("System.Byte")
+        {
+        }
+
+        public RByte(System.Object instance) : base("System.Byte")
+		{
+            SetInstance(instance);
+		}
+
+        public RByte(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RByte(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte m_value
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RByte() : base("System.Byte")
-        {
-        }
-
-        public RByte(System.Object instance) : base("System.Byte")
-		{
-            SetInstance(instance);
-		}
-
-        public RByte(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RByte(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 CompareTo(System.Object @value)
         {

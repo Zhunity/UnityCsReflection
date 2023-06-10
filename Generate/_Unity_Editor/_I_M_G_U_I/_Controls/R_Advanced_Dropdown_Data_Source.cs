@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	/// </summary>
     public partial class RAdvancedDropdownDataSource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource");
+            }
+        }
+
+        public RAdvancedDropdownDataSource() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource")
+        {
+        }
+
+        public RAdvancedDropdownDataSource(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource")
+		{
+            SetInstance(instance);
+		}
+
+        public RAdvancedDropdownDataSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAdvancedDropdownDataSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String kSearchHeader
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			}
 		}
 
-
-        public RAdvancedDropdownDataSource() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource")
-        {
-        }
-
-        public RAdvancedDropdownDataSource(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource")
-		{
-            SetInstance(instance);
-		}
-
-        public RAdvancedDropdownDataSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAdvancedDropdownDataSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ReloadData()
         {

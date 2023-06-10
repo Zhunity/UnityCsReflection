@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class RStringBuilder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.StringBuilder);
+            }
+        }
+
+        public RStringBuilder() : base("System.Text.StringBuilder")
+        {
+        }
+
+        public RStringBuilder(System.Object instance) : base("System.Text.StringBuilder")
+		{
+            SetInstance(instance);
+		}
+
+        public RStringBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStringBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char[] m_ChunkChars
@@ -1851,23 +1876,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public RStringBuilder() : base("System.Text.StringBuilder")
-        {
-        }
-
-        public RStringBuilder(System.Object instance) : base("System.Text.StringBuilder")
-		{
-            SetInstance(instance);
-		}
-
-        public RStringBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStringBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

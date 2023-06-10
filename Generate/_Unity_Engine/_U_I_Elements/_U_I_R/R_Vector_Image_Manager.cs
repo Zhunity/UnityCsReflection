@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RVectorImageManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageManager");
+            }
+        }
+
+        public RVectorImageManager() : base("UnityEngine.UIElements.UIR.VectorImageManager")
+        {
+        }
+
+        public RVectorImageManager(System.Object instance) : base("UnityEngine.UIElements.UIR.VectorImageManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RVectorImageManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVectorImageManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.VectorImageManager] instances
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RVectorImageManager() : base("UnityEngine.UIElements.UIR.VectorImageManager")
-        {
-        }
-
-        public RVectorImageManager(System.Object instance) : base("UnityEngine.UIElements.UIR.VectorImageManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RVectorImageManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVectorImageManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RParamsArray : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.ParamsArray");
+            }
+        }
+
+        public RParamsArray() : base("System.ParamsArray")
+        {
+        }
+
+        public RParamsArray(System.Object instance) : base("System.ParamsArray")
+		{
+            SetInstance(instance);
+		}
+
+        public RParamsArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RParamsArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object[] s_oneArgArray
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RParamsArray() : base("System.ParamsArray")
-        {
-        }
-
-        public RParamsArray(System.Object instance) : base("System.ParamsArray")
-		{
-            SetInstance(instance);
-		}
-
-        public RParamsArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RParamsArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetAtSlow(System.Int32 @index)
         {

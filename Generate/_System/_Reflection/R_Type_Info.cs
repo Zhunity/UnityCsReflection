@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RTypeInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.TypeInfo);
+            }
+        }
+
+        public RTypeInfo() : base("System.Reflection.TypeInfo")
+        {
+        }
+
+        public RTypeInfo(System.Object instance) : base("System.Reflection.TypeInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypeInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypeInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.BindingFlags DeclaredOnlyLookup
@@ -3451,23 +3476,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RTypeInfo() : base("System.Reflection.TypeInfo")
-        {
-        }
-
-        public RTypeInfo(System.Object instance) : base("System.Reflection.TypeInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypeInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypeInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Reflection.TypeInfo System__2__Reflection__2__IReflectableType__2__GetTypeInfo()
         {

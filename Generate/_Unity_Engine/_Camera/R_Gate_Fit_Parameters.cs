@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGateFitParameters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Camera+GateFitParameters");
+            }
+        }
+
+        public RGateFitParameters() : base("UnityEngine.Camera+GateFitParameters")
+        {
+        }
+
+        public RGateFitParameters(System.Object instance) : base("UnityEngine.Camera+GateFitParameters")
+		{
+            SetInstance(instance);
+		}
+
+        public RGateFitParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGateFitParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Camera+GateFitMode <mode>k__BackingField
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGateFitParameters() : base("UnityEngine.Camera+GateFitParameters")
-        {
-        }
-
-        public RGateFitParameters(System.Object instance) : base("UnityEngine.Camera+GateFitParameters")
-		{
-            SetInstance(instance);
-		}
-
-        public RGateFitParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGateFitParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

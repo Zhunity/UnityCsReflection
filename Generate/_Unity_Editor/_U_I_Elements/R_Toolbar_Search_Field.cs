@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 	/// </summary>
     public partial class RToolbarSearchField : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.UIElements.ToolbarSearchField);
+            }
+        }
+
+        public RToolbarSearchField() : base("UnityEditor.UIElements.ToolbarSearchField")
+        {
+        }
+
+        public RToolbarSearchField(System.Object instance) : base("UnityEditor.UIElements.ToolbarSearchField")
+		{
+            SetInstance(instance);
+		}
+
+        public RToolbarSearchField(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RToolbarSearchField(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String textUssClassName
@@ -3707,23 +3732,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 			}
 		}
 
-
-        public RToolbarSearchField() : base("UnityEditor.UIElements.ToolbarSearchField")
-        {
-        }
-
-        public RToolbarSearchField(System.Object instance) : base("UnityEditor.UIElements.ToolbarSearchField")
-		{
-            SetInstance(instance);
-		}
-
-        public RToolbarSearchField(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RToolbarSearchField(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetValueWithoutNotify(System.String @newValue)
         {

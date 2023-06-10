@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RComparison<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Comparison<>);
+            }
+        }
+
+        public RComparison() : base("System.Comparison`1")
+        {
+        }
+
+        public RComparison(System.Object instance) : base("System.Comparison`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RComparison(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RComparison(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RComparison() : base("System.Comparison`1")
-        {
-        }
-
-        public RComparison(System.Object instance) : base("System.Comparison`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RComparison(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RComparison(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 Invoke(T @x, T @y)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RPolicyStatement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.PolicyStatement);
+            }
+        }
+
+        public RPolicyStatement() : base("System.Security.Policy.PolicyStatement")
+        {
+        }
+
+        public RPolicyStatement(System.Object instance) : base("System.Security.Policy.PolicyStatement")
+		{
+            SetInstance(instance);
+		}
+
+        public RPolicyStatement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPolicyStatement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.PermissionSet perms
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RPolicyStatement() : base("System.Security.Policy.PolicyStatement")
-        {
-        }
-
-        public RPolicyStatement(System.Object instance) : base("System.Security.Policy.PolicyStatement")
-		{
-            SetInstance(instance);
-		}
-
-        public RPolicyStatement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPolicyStatement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.Policy.PolicyStatement Copy()
         {

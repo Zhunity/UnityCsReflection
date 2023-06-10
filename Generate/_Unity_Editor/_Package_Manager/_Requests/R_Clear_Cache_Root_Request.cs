@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RClearCacheRootRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.ClearCacheRootRequest");
+            }
+        }
+
+        public RClearCacheRootRequest() : base("UnityEditor.PackageManager.Requests.ClearCacheRootRequest")
+        {
+        }
+
+        public RClearCacheRootRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.ClearCacheRootRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RClearCacheRootRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClearCacheRootRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.CacheRootConfig Result
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RClearCacheRootRequest() : base("UnityEditor.PackageManager.Requests.ClearCacheRootRequest")
-        {
-        }
-
-        public RClearCacheRootRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.ClearCacheRootRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RClearCacheRootRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClearCacheRootRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RCacheRootConfig GetResult()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RGPUBuffer<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1");
+            }
+        }
+
+        public RGPUBuffer() : base("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1")
+        {
+        }
+
+        public RGPUBuffer(System.Object instance) : base("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RGPUBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGPUBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr buffer
@@ -237,23 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RGPUBuffer() : base("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1")
-        {
-        }
-
-        public RGPUBuffer(System.Object instance) : base("UnityEngine.UIElements.UIR.Utility+GPUBuffer`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RGPUBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGPUBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

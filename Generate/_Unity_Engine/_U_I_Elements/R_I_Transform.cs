@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RITransform : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ITransform);
+            }
+        }
+
+        public RITransform() : base("UnityEngine.UIElements.ITransform")
+        {
+        }
+
+        public RITransform(System.Object instance) : base("UnityEngine.UIElements.ITransform")
+		{
+            SetInstance(instance);
+		}
+
+        public RITransform(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RITransform(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 position
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RITransform() : base("UnityEngine.UIElements.ITransform")
-        {
-        }
-
-        public RITransform(System.Object instance) : base("UnityEngine.UIElements.ITransform")
-		{
-            SetInstance(instance);
-		}
-
-        public RITransform(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RITransform(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

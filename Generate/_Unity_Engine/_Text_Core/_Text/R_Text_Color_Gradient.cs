@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextColorGradient : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.TextColorGradient);
+            }
+        }
+
+        public RTextColorGradient() : base("UnityEngine.TextCore.Text.TextColorGradient")
+        {
+        }
+
+        public RTextColorGradient(System.Object instance) : base("UnityEngine.TextCore.Text.TextColorGradient")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextColorGradient(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextColorGradient(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.ColorGradientMode colorMode
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextColorGradient() : base("UnityEngine.TextCore.Text.TextColorGradient")
-        {
-        }
-
-        public RTextColorGradient(System.Object instance) : base("UnityEngine.TextCore.Text.TextColorGradient")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextColorGradient(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextColorGradient(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetDirty()
         {

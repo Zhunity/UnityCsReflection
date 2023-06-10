@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RSelectionProxy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.SelectionProxy");
+            }
+        }
+
+        public RSelectionProxy() : base("UnityEditor.PackageManager.UI.Internal.SelectionProxy")
+        {
+        }
+
+        public RSelectionProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.SelectionProxy")
+		{
+            SetInstance(instance);
+		}
+
+        public RSelectionProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSelectionProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onSelectionChanged
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RSelectionProxy() : base("UnityEditor.PackageManager.UI.Internal.SelectionProxy")
-        {
-        }
-
-        public RSelectionProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.SelectionProxy")
-		{
-            SetInstance(instance);
-		}
-
-        public RSelectionProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSelectionProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnSelectionChanged()
         {

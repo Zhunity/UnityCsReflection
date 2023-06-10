@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 	/// </summary>
     public partial class RExceptionDispatchInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.ExceptionServices.ExceptionDispatchInfo);
+            }
+        }
+
+        public RExceptionDispatchInfo() : base("System.Runtime.ExceptionServices.ExceptionDispatchInfo")
+        {
+        }
+
+        public RExceptionDispatchInfo(System.Object instance) : base("System.Runtime.ExceptionServices.ExceptionDispatchInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RExceptionDispatchInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExceptionDispatchInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Exception m_Exception
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 			}
 		}
 
-
-        public RExceptionDispatchInfo() : base("System.Runtime.ExceptionServices.ExceptionDispatchInfo")
-        {
-        }
-
-        public RExceptionDispatchInfo(System.Object instance) : base("System.Runtime.ExceptionServices.ExceptionDispatchInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RExceptionDispatchInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExceptionDispatchInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Runtime.ExceptionServices.ExceptionDispatchInfo Capture(System.Exception @source)
         {

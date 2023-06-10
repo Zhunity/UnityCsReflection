@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RWindowAction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.WindowAction");
+            }
+        }
+
+        public RWindowAction() : base("UnityEditor.WindowAction")
+        {
+        }
+
+        public RWindowAction(System.Object instance) : base("UnityEditor.WindowAction")
+		{
+            SetInstance(instance);
+		}
+
+        public RWindowAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWindowAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String id
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RWindowAction() : base("UnityEditor.WindowAction")
-        {
-        }
-
-        public RWindowAction(System.Object instance) : base("UnityEditor.WindowAction")
-		{
-            SetInstance(instance);
-		}
-
-        public RWindowAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWindowAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEditor.RWindowAction CreateWindowMenuItem(System.String @id, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction.RExecuteHandler @executeHandler, System.String @menuPath)
         {

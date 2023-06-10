@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPointerOverEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.PointerOverEvent);
+            }
+        }
+
+        public RPointerOverEvent() : base("UnityEngine.UIElements.PointerOverEvent")
+        {
+        }
+
+        public RPointerOverEvent(System.Object instance) : base("UnityEngine.UIElements.PointerOverEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RPointerOverEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPointerOverEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 pointerId
@@ -1195,23 +1220,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPointerOverEvent() : base("UnityEngine.UIElements.PointerOverEvent")
-        {
-        }
-
-        public RPointerOverEvent(System.Object instance) : base("UnityEngine.UIElements.PointerOverEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RPointerOverEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPointerOverEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

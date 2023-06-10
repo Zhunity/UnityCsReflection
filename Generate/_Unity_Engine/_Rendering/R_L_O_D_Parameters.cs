@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RLODParameters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.LODParameters);
+            }
+        }
+
+        public RLODParameters() : base("UnityEngine.Rendering.LODParameters")
+        {
+        }
+
+        public RLODParameters(System.Object instance) : base("UnityEngine.Rendering.LODParameters")
+		{
+            SetInstance(instance);
+		}
+
+        public RLODParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLODParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_IsOrthographic
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RLODParameters() : base("UnityEngine.Rendering.LODParameters")
-        {
-        }
-
-        public RLODParameters(System.Object instance) : base("UnityEngine.Rendering.LODParameters")
-		{
-            SetInstance(instance);
-		}
-
-        public RLODParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLODParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(UnityEngine.Rendering.LODParameters @other)
         {

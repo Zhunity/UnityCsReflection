@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RIOProxy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy");
+            }
+        }
+
+        public RIOProxy() : base("UnityEditor.PackageManager.UI.Internal.IOProxy")
+        {
+        }
+
+        public RIOProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IOProxy")
+		{
+            SetInstance(instance);
+		}
+
+        public RIOProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIOProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String CurrentDirectory
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RIOProxy() : base("UnityEditor.PackageManager.UI.Internal.IOProxy")
-        {
-        }
-
-        public RIOProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IOProxy")
-		{
-            SetInstance(instance);
-		}
-
-        public RIOProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIOProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void DirectoryCopy(System.String @sourcePath, System.String @destinationPath, System.Boolean @makeWritable, System.Action<System.String, System.Single> @progressCallback)
         {

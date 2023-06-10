@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RCustomAttributeData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.CustomAttributeData);
+            }
+        }
+
+        public RCustomAttributeData() : base("System.Reflection.CustomAttributeData")
+        {
+        }
+
+        public RCustomAttributeData(System.Object instance) : base("System.Reflection.CustomAttributeData")
+		{
+            SetInstance(instance);
+		}
+
+        public RCustomAttributeData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCustomAttributeData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.ConstructorInfo ctorInfo
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RCustomAttributeData() : base("System.Reflection.CustomAttributeData")
-        {
-        }
-
-        public RCustomAttributeData(System.Object instance) : base("System.Reflection.CustomAttributeData")
-		{
-            SetInstance(instance);
-		}
-
-        public RCustomAttributeData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCustomAttributeData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void ResolveArgumentsInternal(System.Reflection.ConstructorInfo @ctor, System.Reflection.Assembly @assembly, System.IntPtr @data, System.UInt32 @data_length, out System.Object[] @ctorArgs, out System.Object[] @namedArgs)
         {

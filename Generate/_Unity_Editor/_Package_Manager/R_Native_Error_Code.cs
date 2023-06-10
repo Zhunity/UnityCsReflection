@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RNativeErrorCode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.NativeErrorCode");
+            }
+        }
+
+        public RNativeErrorCode() : base("UnityEditor.PackageManager.NativeErrorCode")
+        {
+        }
+
+        public RNativeErrorCode(System.Object instance) : base("UnityEditor.PackageManager.NativeErrorCode")
+		{
+            SetInstance(instance);
+		}
+
+        public RNativeErrorCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNativeErrorCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RNativeErrorCode() : base("UnityEditor.PackageManager.NativeErrorCode")
-        {
-        }
-
-        public RNativeErrorCode(System.Object instance) : base("UnityEditor.PackageManager.NativeErrorCode")
-		{
-            SetInstance(instance);
-		}
-
-        public RNativeErrorCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNativeErrorCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RMultiSelectDetails : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.MultiSelectDetails");
+            }
+        }
+
+        public RMultiSelectDetails() : base("UnityEditor.PackageManager.UI.Internal.MultiSelectDetails")
+        {
+        }
+
+        public RMultiSelectDetails(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.MultiSelectDetails")
+		{
+            SetInstance(instance);
+		}
+
+        public RMultiSelectDetails(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMultiSelectDetails(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ResourceLoader m_ResourceLoader
@@ -4107,23 +4132,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RMultiSelectDetails() : base("UnityEditor.PackageManager.UI.Internal.MultiSelectDetails")
-        {
-        }
-
-        public RMultiSelectDetails(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.MultiSelectDetails")
-		{
-            SetInstance(instance);
-		}
-
-        public RMultiSelectDetails(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMultiSelectDetails(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies()
         {

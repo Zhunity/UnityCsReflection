@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 	/// </summary>
     public partial class RILease : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Lifetime.ILease);
+            }
+        }
+
+        public RILease() : base("System.Runtime.Remoting.Lifetime.ILease")
+        {
+        }
+
+        public RILease(System.Object instance) : base("System.Runtime.Remoting.Lifetime.ILease")
+		{
+            SetInstance(instance);
+		}
+
+        public RILease(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RILease(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.TimeSpan CurrentLeaseTime
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 			}
 		}
 
-
-        public RILease() : base("System.Runtime.Remoting.Lifetime.ILease")
-        {
-        }
-
-        public RILease(System.Object instance) : base("System.Runtime.Remoting.Lifetime.ILease")
-		{
-            SetInstance(instance);
-		}
-
-        public RILease(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RILease(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Register(System.Runtime.Remoting.Lifetime.ISponsor @obj)
         {

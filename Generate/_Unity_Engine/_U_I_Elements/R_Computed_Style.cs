@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RComputedStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle");
+            }
+        }
+
+        public RComputedStyle() : base("UnityEngine.UIElements.ComputedStyle")
+        {
+        }
+
+        public RComputedStyle(System.Object instance) : base("UnityEngine.UIElements.ComputedStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RComputedStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RComputedStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleDataRef`1[UnityEngine.UIElements.InheritedData] inheritedData
@@ -2475,23 +2500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RComputedStyle() : base("UnityEngine.UIElements.ComputedStyle")
-        {
-        }
-
-        public RComputedStyle(System.Object instance) : base("UnityEngine.UIElements.ComputedStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RComputedStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RComputedStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle Create()
         {

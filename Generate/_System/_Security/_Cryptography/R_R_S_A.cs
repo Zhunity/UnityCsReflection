@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RRSA : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.RSA);
+            }
+        }
+
+        public RRSA() : base("System.Security.Cryptography.RSA")
+        {
+        }
+
+        public RRSA(System.Object instance) : base("System.Security.Cryptography.RSA")
+		{
+            SetInstance(instance);
+		}
+
+        public RRSA(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRSA(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 KeySizeValue
@@ -1035,23 +1060,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RRSA() : base("System.Security.Cryptography.RSA")
-        {
-        }
-
-        public RRSA(System.Object instance) : base("System.Security.Cryptography.RSA")
-		{
-            SetInstance(instance);
-		}
-
-        public RRSA(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRSA(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Security.Cryptography.RSA Create()
         {

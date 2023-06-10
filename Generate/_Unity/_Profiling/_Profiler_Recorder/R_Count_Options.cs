@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 	/// </summary>
     public partial class RCountOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Profiling.ProfilerRecorder+CountOptions");
+            }
+        }
+
+        public RCountOptions() : base("Unity.Profiling.ProfilerRecorder+CountOptions")
+        {
+        }
+
+        public RCountOptions(System.Object instance) : base("Unity.Profiling.ProfilerRecorder+CountOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RCountOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCountOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			}
 		}
 
-
-        public RCountOptions() : base("Unity.Profiling.ProfilerRecorder+CountOptions")
-        {
-        }
-
-        public RCountOptions(System.Object instance) : base("Unity.Profiling.ProfilerRecorder+CountOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RCountOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCountOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

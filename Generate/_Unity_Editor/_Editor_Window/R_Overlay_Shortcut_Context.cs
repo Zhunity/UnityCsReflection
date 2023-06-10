@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class ROverlayShortcutContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.EditorWindow+OverlayShortcutContext");
+            }
+        }
+
+        public ROverlayShortcutContext() : base("UnityEditor.EditorWindow+OverlayShortcutContext")
+        {
+        }
+
+        public ROverlayShortcutContext(System.Object instance) : base("UnityEditor.EditorWindow+OverlayShortcutContext")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayShortcutContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayShortcutContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.EditorWindow editorWindow
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public ROverlayShortcutContext() : base("UnityEditor.EditorWindow+OverlayShortcutContext")
-        {
-        }
-
-        public ROverlayShortcutContext(System.Object instance) : base("UnityEditor.EditorWindow+OverlayShortcutContext")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayShortcutContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayShortcutContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

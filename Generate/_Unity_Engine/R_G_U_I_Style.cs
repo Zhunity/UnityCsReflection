@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGUIStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GUIStyle);
+            }
+        }
+
+        public RGUIStyle() : base("UnityEngine.GUIStyle")
+        {
+        }
+
+        public RGUIStyle(System.Object instance) : base("UnityEngine.GUIStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUIStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUIStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -2043,23 +2068,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGUIStyle() : base("UnityEngine.GUIStyle")
-        {
-        }
-
-        public RGUIStyle(System.Object instance) : base("UnityEngine.GUIStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUIStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUIStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.IntPtr Internal_Create(UnityEngine.GUIStyle @self)
         {

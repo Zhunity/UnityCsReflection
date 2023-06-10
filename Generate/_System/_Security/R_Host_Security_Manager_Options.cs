@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RHostSecurityManagerOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.HostSecurityManagerOptions);
+            }
+        }
+
+        public RHostSecurityManagerOptions() : base("System.Security.HostSecurityManagerOptions")
+        {
+        }
+
+        public RHostSecurityManagerOptions(System.Object instance) : base("System.Security.HostSecurityManagerOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RHostSecurityManagerOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHostSecurityManagerOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RHostSecurityManagerOptions() : base("System.Security.HostSecurityManagerOptions")
-        {
-        }
-
-        public RHostSecurityManagerOptions(System.Object instance) : base("System.Security.HostSecurityManagerOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RHostSecurityManagerOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHostSecurityManagerOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

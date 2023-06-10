@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RHashAlgorithm : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.HashAlgorithm);
+            }
+        }
+
+        public RHashAlgorithm() : base("System.Security.Cryptography.HashAlgorithm")
+        {
+        }
+
+        public RHashAlgorithm(System.Object instance) : base("System.Security.Cryptography.HashAlgorithm")
+		{
+            SetInstance(instance);
+		}
+
+        public RHashAlgorithm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHashAlgorithm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean _disposed
@@ -555,23 +580,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RHashAlgorithm() : base("System.Security.Cryptography.HashAlgorithm")
-        {
-        }
-
-        public RHashAlgorithm(System.Object instance) : base("System.Security.Cryptography.HashAlgorithm")
-		{
-            SetInstance(instance);
-		}
-
-        public RHashAlgorithm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHashAlgorithm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Security.Cryptography.HashAlgorithm Create()
         {

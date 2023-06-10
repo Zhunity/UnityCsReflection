@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RLabelGUI : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.LabelGUI");
+            }
+        }
+
+        public RLabelGUI() : base("UnityEditor.LabelGUI")
+        {
+        }
+
+        public RLabelGUI(System.Object instance) : base("UnityEditor.LabelGUI")
+		{
+            SetInstance(instance);
+		}
+
+        public RLabelGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLabelGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.HashSet`1[UnityEngine.Object] m_CurrentAssetsSet
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RLabelGUI() : base("UnityEditor.LabelGUI")
-        {
-        }
-
-        public RLabelGUI(System.Object instance) : base("UnityEditor.LabelGUI")
-		{
-            SetInstance(instance);
-		}
-
-        public RLabelGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLabelGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnEnable()
         {

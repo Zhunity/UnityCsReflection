@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RNumberFormatInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.NumberFormatInfo);
+            }
+        }
+
+        public RNumberFormatInfo() : base("System.Globalization.NumberFormatInfo")
+        {
+        }
+
+        public RNumberFormatInfo(System.Object instance) : base("System.Globalization.NumberFormatInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RNumberFormatInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNumberFormatInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Globalization.NumberFormatInfo invariantInfo
@@ -1403,23 +1428,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RNumberFormatInfo() : base("System.Globalization.NumberFormatInfo")
-        {
-        }
-
-        public RNumberFormatInfo(System.Object instance) : base("System.Globalization.NumberFormatInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RNumberFormatInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNumberFormatInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnSerializing(System.Runtime.Serialization.StreamingContext @ctx)
         {

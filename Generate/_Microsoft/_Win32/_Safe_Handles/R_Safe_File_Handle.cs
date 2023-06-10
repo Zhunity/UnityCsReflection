@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 	/// </summary>
     public partial class RSafeFileHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Microsoft.Win32.SafeHandles.SafeFileHandle);
+            }
+        }
+
+        public RSafeFileHandle() : base("Microsoft.Win32.SafeHandles.SafeFileHandle")
+        {
+        }
+
+        public RSafeFileHandle(System.Object instance) : base("Microsoft.Win32.SafeHandles.SafeFileHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafeFileHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafeFileHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr handle
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 			}
 		}
 
-
-        public RSafeFileHandle() : base("Microsoft.Win32.SafeHandles.SafeFileHandle")
-        {
-        }
-
-        public RSafeFileHandle(System.Object instance) : base("Microsoft.Win32.SafeHandles.SafeFileHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafeFileHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafeFileHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean ReleaseHandle()
         {

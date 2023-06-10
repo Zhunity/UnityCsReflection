@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RMatchEvaluator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.MatchEvaluator);
+            }
+        }
+
+        public RMatchEvaluator() : base("System.Text.RegularExpressions.MatchEvaluator")
+        {
+        }
+
+        public RMatchEvaluator(System.Object instance) : base("System.Text.RegularExpressions.MatchEvaluator")
+		{
+            SetInstance(instance);
+		}
+
+        public RMatchEvaluator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMatchEvaluator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RMatchEvaluator() : base("System.Text.RegularExpressions.MatchEvaluator")
-        {
-        }
-
-        public RMatchEvaluator(System.Object instance) : base("System.Text.RegularExpressions.MatchEvaluator")
-		{
-            SetInstance(instance);
-		}
-
-        public RMatchEvaluator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMatchEvaluator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String Invoke(System.Text.RegularExpressions.Match @match)
         {

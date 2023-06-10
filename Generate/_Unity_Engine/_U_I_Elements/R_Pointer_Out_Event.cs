@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPointerOutEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.PointerOutEvent);
+            }
+        }
+
+        public RPointerOutEvent() : base("UnityEngine.UIElements.PointerOutEvent")
+        {
+        }
+
+        public RPointerOutEvent(System.Object instance) : base("UnityEngine.UIElements.PointerOutEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RPointerOutEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPointerOutEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 pointerId
@@ -1195,23 +1220,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPointerOutEvent() : base("UnityEngine.UIElements.PointerOutEvent")
-        {
-        }
-
-        public RPointerOutEvent(System.Object instance) : base("UnityEngine.UIElements.PointerOutEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RPointerOutEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPointerOutEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

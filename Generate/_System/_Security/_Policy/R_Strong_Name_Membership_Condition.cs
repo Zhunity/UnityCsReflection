@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RStrongNameMembershipCondition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.StrongNameMembershipCondition);
+            }
+        }
+
+        public RStrongNameMembershipCondition() : base("System.Security.Policy.StrongNameMembershipCondition")
+        {
+        }
+
+        public RStrongNameMembershipCondition(System.Object instance) : base("System.Security.Policy.StrongNameMembershipCondition")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongNameMembershipCondition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongNameMembershipCondition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 version
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RStrongNameMembershipCondition() : base("System.Security.Policy.StrongNameMembershipCondition")
-        {
-        }
-
-        public RStrongNameMembershipCondition(System.Object instance) : base("System.Security.Policy.StrongNameMembershipCondition")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongNameMembershipCondition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongNameMembershipCondition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Check(System.Security.Policy.Evidence @evidence)
         {

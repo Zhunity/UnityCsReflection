@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVisualData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualData");
+            }
+        }
+
+        public RVisualData() : base("UnityEngine.UIElements.VisualData")
+        {
+        }
+
+        public RVisualData(System.Object instance) : base("UnityEngine.UIElements.VisualData")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color backgroundColor
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVisualData() : base("UnityEngine.UIElements.VisualData")
-        {
-        }
-
-        public RVisualData(System.Object instance) : base("UnityEngine.UIElements.VisualData")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualData Copy()
         {

@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RIHashCodeProvider : RMember //
     {
-
-		/// <summary>
-		/// Int32 GetHashCode(System.Object)
-		/// </summary>
-		protected RMethod r_MGetHashCode_Object;
-		public virtual RMethod RMGetHashCode_Object
-		{
-			get
-			{
-				if(r_MGetHashCode_Object == null)
-				{
-					r_MGetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
-				}
-				return r_MGetHashCode_Object;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.IHashCodeProvider);
+            }
+        }
 
         public RIHashCodeProvider() : base("System.Collections.IHashCodeProvider")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 		 public RIHashCodeProvider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Int32 GetHashCode(System.Object)
+		/// </summary>
+		protected RMethod r_MGetHashCode_Object;
+		public virtual RMethod RMGetHashCode_Object
+		{
+			get
+			{
+				if(r_MGetHashCode_Object == null)
+				{
+					r_MGetHashCode_Object = new(this, "GetHashCode", 0, typeof(System.Object));
+				}
+				return r_MGetHashCode_Object;
+			}
+		}
+
 
         public virtual System.Int32 GetHashCode(System.Object @obj)
         {

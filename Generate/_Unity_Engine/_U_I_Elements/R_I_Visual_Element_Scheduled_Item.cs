@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIVisualElementScheduledItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IVisualElementScheduledItem);
+            }
+        }
+
+        public RIVisualElementScheduledItem() : base("UnityEngine.UIElements.IVisualElementScheduledItem")
+        {
+        }
+
+        public RIVisualElementScheduledItem(System.Object instance) : base("UnityEngine.UIElements.IVisualElementScheduledItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RIVisualElementScheduledItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIVisualElementScheduledItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement element
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIVisualElementScheduledItem() : base("UnityEngine.UIElements.IVisualElementScheduledItem")
-        {
-        }
-
-        public RIVisualElementScheduledItem(System.Object instance) : base("UnityEngine.UIElements.IVisualElementScheduledItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RIVisualElementScheduledItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIVisualElementScheduledItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Resume()
         {

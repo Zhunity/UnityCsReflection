@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RMethodBody : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.MethodBody);
+            }
+        }
+
+        public RMethodBody() : base("System.Reflection.MethodBody")
+        {
+        }
+
+        public RMethodBody(System.Object instance) : base("System.Reflection.MethodBody")
+		{
+            SetInstance(instance);
+		}
+
+        public RMethodBody(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMethodBody(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.ExceptionHandlingClause[] clauses
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RMethodBody() : base("System.Reflection.MethodBody")
-        {
-        }
-
-        public RMethodBody(System.Object instance) : base("System.Reflection.MethodBody")
-		{
-            SetInstance(instance);
-		}
-
-        public RMethodBody(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMethodBody(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Byte[] GetILAsByteArray()
         {

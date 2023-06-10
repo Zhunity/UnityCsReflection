@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RSerializationInfoEnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Serialization.SerializationInfoEnumerator);
+            }
+        }
+
+        public RSerializationInfoEnumerator() : base("System.Runtime.Serialization.SerializationInfoEnumerator")
+        {
+        }
+
+        public RSerializationInfoEnumerator(System.Object instance) : base("System.Runtime.Serialization.SerializationInfoEnumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RSerializationInfoEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSerializationInfoEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String[] _members
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			}
 		}
 
-
-        public RSerializationInfoEnumerator() : base("System.Runtime.Serialization.SerializationInfoEnumerator")
-        {
-        }
-
-        public RSerializationInfoEnumerator(System.Object instance) : base("System.Runtime.Serialization.SerializationInfoEnumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RSerializationInfoEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSerializationInfoEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean MoveNext()
         {

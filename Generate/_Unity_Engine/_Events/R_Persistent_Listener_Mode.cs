@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RPersistentListenerMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Events.PersistentListenerMode);
+            }
+        }
+
+        public RPersistentListenerMode() : base("UnityEngine.Events.PersistentListenerMode")
+        {
+        }
+
+        public RPersistentListenerMode(System.Object instance) : base("UnityEngine.Events.PersistentListenerMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RPersistentListenerMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPersistentListenerMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RPersistentListenerMode() : base("UnityEngine.Events.PersistentListenerMode")
-        {
-        }
-
-        public RPersistentListenerMode(System.Object instance) : base("UnityEngine.Events.PersistentListenerMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RPersistentListenerMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPersistentListenerMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreCache : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache");
+            }
+        }
+
+        public RAssetStoreCache() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCache")
+        {
+        }
+
+        public RAssetStoreCache(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCache")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo],System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo]] onLocalInfosChanged
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreCache() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCache")
-        {
-        }
-
-        public RAssetStoreCache(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCache")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @systemIOProxy)
         {

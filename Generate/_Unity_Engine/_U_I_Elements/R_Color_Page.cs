@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RColorPage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ColorPage");
+            }
+        }
+
+        public RColorPage() : base("UnityEngine.UIElements.ColorPage")
+        {
+        }
+
+        public RColorPage(System.Object instance) : base("UnityEngine.UIElements.ColorPage")
+		{
+            SetInstance(instance);
+		}
+
+        public RColorPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RColorPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean isValid
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RColorPage() : base("UnityEngine.UIElements.ColorPage")
-        {
-        }
-
-        public RColorPage(System.Object instance) : base("UnityEngine.UIElements.ColorPage")
-		{
-            SetInstance(instance);
-		}
-
-        public RColorPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RColorPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage Init(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain @renderChain, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {

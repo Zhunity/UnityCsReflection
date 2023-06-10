@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RFontAssetCreationEditorSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.FontAssetCreationEditorSettings);
+            }
+        }
+
+        public RFontAssetCreationEditorSettings() : base("UnityEngine.TextCore.Text.FontAssetCreationEditorSettings")
+        {
+        }
+
+        public RFontAssetCreationEditorSettings(System.Object instance) : base("UnityEngine.TextCore.Text.FontAssetCreationEditorSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontAssetCreationEditorSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontAssetCreationEditorSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String sourceFontFileGUID
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RFontAssetCreationEditorSettings() : base("UnityEngine.TextCore.Text.FontAssetCreationEditorSettings")
-        {
-        }
-
-        public RFontAssetCreationEditorSettings(System.Object instance) : base("UnityEngine.TextCore.Text.FontAssetCreationEditorSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontAssetCreationEditorSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontAssetCreationEditorSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

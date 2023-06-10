@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class R__DTString : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.__DTString");
+            }
+        }
+
+        public R__DTString() : base("System.__DTString")
+        {
+        }
+
+        public R__DTString(System.Object instance) : base("System.__DTString")
+		{
+            SetInstance(instance);
+		}
+
+        public R__DTString(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public R__DTString(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.ReadOnlySpan`1[System.Char] Value
@@ -571,23 +596,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public R__DTString() : base("System.__DTString")
-        {
-        }
-
-        public R__DTString(System.Object instance) : base("System.__DTString")
-		{
-            SetInstance(instance);
-		}
-
-        public R__DTString(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public R__DTString(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean GetNext()
         {

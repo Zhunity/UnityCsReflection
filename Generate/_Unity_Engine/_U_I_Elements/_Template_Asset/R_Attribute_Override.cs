@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RAttributeOverride : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TemplateAsset+AttributeOverride");
+            }
+        }
+
+        public RAttributeOverride() : base("UnityEngine.UIElements.TemplateAsset+AttributeOverride")
+        {
+        }
+
+        public RAttributeOverride(System.Object instance) : base("UnityEngine.UIElements.TemplateAsset+AttributeOverride")
+		{
+            SetInstance(instance);
+		}
+
+        public RAttributeOverride(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAttributeOverride(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_ElementName
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RAttributeOverride() : base("UnityEngine.UIElements.TemplateAsset+AttributeOverride")
-        {
-        }
-
-        public RAttributeOverride(System.Object instance) : base("UnityEngine.UIElements.TemplateAsset+AttributeOverride")
-		{
-            SetInstance(instance);
-		}
-
-        public RAttributeOverride(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAttributeOverride(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

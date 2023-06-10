@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RBuf16 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Decimal+DecCalc+Buf16");
+            }
+        }
+
+        public RBuf16() : base("System.Decimal+DecCalc+Buf16")
+        {
+        }
+
+        public RBuf16(System.Object instance) : base("System.Decimal+DecCalc+Buf16")
+		{
+            SetInstance(instance);
+		}
+
+        public RBuf16(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBuf16(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 U0
@@ -239,23 +264,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RBuf16() : base("System.Decimal+DecCalc+Buf16")
-        {
-        }
-
-        public RBuf16(System.Object instance) : base("System.Decimal+DecCalc+Buf16")
-		{
-            SetInstance(instance);
-		}
-
-        public RBuf16(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBuf16(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

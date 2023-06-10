@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCultureTypes : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.CultureTypes);
+            }
+        }
+
+        public RCultureTypes() : base("System.Globalization.CultureTypes")
+        {
+        }
+
+        public RCultureTypes(System.Object instance) : base("System.Globalization.CultureTypes")
+		{
+            SetInstance(instance);
+		}
+
+        public RCultureTypes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCultureTypes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCultureTypes() : base("System.Globalization.CultureTypes")
-        {
-        }
-
-        public RCultureTypes(System.Object instance) : base("System.Globalization.CultureTypes")
-		{
-            SetInstance(instance);
-		}
-
-        public RCultureTypes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCultureTypes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

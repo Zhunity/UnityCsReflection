@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RCommandBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.CommandBuffer);
+            }
+        }
+
+        public RCommandBuffer() : base("UnityEngine.Rendering.CommandBuffer")
+        {
+        }
+
+        public RCommandBuffer(System.Object instance) : base("UnityEngine.Rendering.CommandBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public RCommandBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCommandBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -7915,23 +7940,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RCommandBuffer() : base("UnityEngine.Rendering.CommandBuffer")
-        {
-        }
-
-        public RCommandBuffer(System.Object instance) : base("UnityEngine.Rendering.CommandBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public RCommandBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCommandBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ConvertTexture(UnityEngine.Rendering.RenderTargetIdentifier @src, UnityEngine.Rendering.RenderTargetIdentifier @dst)
         {

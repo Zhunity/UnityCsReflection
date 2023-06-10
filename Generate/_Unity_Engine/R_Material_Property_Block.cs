@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMaterialPropertyBlock : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.MaterialPropertyBlock);
+            }
+        }
+
+        public RMaterialPropertyBlock() : base("UnityEngine.MaterialPropertyBlock")
+        {
+        }
+
+        public RMaterialPropertyBlock(System.Object instance) : base("UnityEngine.MaterialPropertyBlock")
+		{
+            SetInstance(instance);
+		}
+
+        public RMaterialPropertyBlock(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMaterialPropertyBlock(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -2635,23 +2660,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMaterialPropertyBlock() : base("UnityEngine.MaterialPropertyBlock")
-        {
-        }
-
-        public RMaterialPropertyBlock(System.Object instance) : base("UnityEngine.MaterialPropertyBlock")
-		{
-            SetInstance(instance);
-		}
-
-        public RMaterialPropertyBlock(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMaterialPropertyBlock(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddFloat(System.String @name, System.Single @value)
         {

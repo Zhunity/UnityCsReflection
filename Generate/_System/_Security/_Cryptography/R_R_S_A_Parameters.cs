@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RRSAParameters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.RSAParameters);
+            }
+        }
+
+        public RRSAParameters() : base("System.Security.Cryptography.RSAParameters")
+        {
+        }
+
+        public RRSAParameters(System.Object instance) : base("System.Security.Cryptography.RSAParameters")
+		{
+            SetInstance(instance);
+		}
+
+        public RRSAParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRSAParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] Exponent
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RRSAParameters() : base("System.Security.Cryptography.RSAParameters")
-        {
-        }
-
-        public RRSAParameters(System.Object instance) : base("System.Security.Cryptography.RSAParameters")
-		{
-            SetInstance(instance);
-		}
-
-        public RRSAParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRSAParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

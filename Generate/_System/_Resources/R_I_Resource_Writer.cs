@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 	/// </summary>
     public partial class RIResourceWriter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Resources.IResourceWriter);
+            }
+        }
+
+        public RIResourceWriter() : base("System.Resources.IResourceWriter")
+        {
+        }
+
+        public RIResourceWriter(System.Object instance) : base("System.Resources.IResourceWriter")
+		{
+            SetInstance(instance);
+		}
+
+        public RIResourceWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIResourceWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void AddResource(System.String, System.String)
@@ -91,23 +116,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			}
 		}
 
-
-        public RIResourceWriter() : base("System.Resources.IResourceWriter")
-        {
-        }
-
-        public RIResourceWriter(System.Object instance) : base("System.Resources.IResourceWriter")
-		{
-            SetInstance(instance);
-		}
-
-        public RIResourceWriter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIResourceWriter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddResource(System.String @name, System.String @value)
         {

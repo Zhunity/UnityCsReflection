@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTextEditingUtilities : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextEditingUtilities");
+            }
+        }
+
+        public RTextEditingUtilities() : base("UnityEngine.TextEditingUtilities")
+        {
+        }
+
+        public RTextEditingUtilities(System.Object instance) : base("UnityEngine.TextEditingUtilities")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextEditingUtilities(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextEditingUtilities(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities m_TextSelectingUtility
@@ -747,23 +772,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTextEditingUtilities() : base("UnityEngine.TextEditingUtilities")
-        {
-        }
-
-        public RTextEditingUtilities(System.Object instance) : base("UnityEngine.TextEditingUtilities")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextEditingUtilities(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextEditingUtilities(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean UpdateImeState()
         {

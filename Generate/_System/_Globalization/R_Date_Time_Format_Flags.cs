@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RDateTimeFormatFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.DateTimeFormatFlags");
+            }
+        }
+
+        public RDateTimeFormatFlags() : base("System.Globalization.DateTimeFormatFlags")
+        {
+        }
+
+        public RDateTimeFormatFlags(System.Object instance) : base("System.Globalization.DateTimeFormatFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RDateTimeFormatFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDateTimeFormatFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RDateTimeFormatFlags() : base("System.Globalization.DateTimeFormatFlags")
-        {
-        }
-
-        public RDateTimeFormatFlags(System.Object instance) : base("System.Globalization.DateTimeFormatFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RDateTimeFormatFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDateTimeFormatFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

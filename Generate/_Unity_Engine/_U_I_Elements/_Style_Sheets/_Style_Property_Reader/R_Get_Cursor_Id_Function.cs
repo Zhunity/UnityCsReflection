@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RGetCursorIdFunction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyReader+GetCursorIdFunction");
+            }
+        }
+
+        public RGetCursorIdFunction() : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader+GetCursorIdFunction")
+        {
+        }
+
+        public RGetCursorIdFunction(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader+GetCursorIdFunction")
+		{
+            SetInstance(instance);
+		}
+
+        public RGetCursorIdFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGetCursorIdFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RGetCursorIdFunction() : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader+GetCursorIdFunction")
-        {
-        }
-
-        public RGetCursorIdFunction(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyReader+GetCursorIdFunction")
-		{
-            SetInstance(instance);
-		}
-
-        public RGetCursorIdFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGetCursorIdFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 Invoke(UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle @handle)
         {

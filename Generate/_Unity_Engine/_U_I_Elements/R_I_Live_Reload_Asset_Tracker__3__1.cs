@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RILiveReloadAssetTracker<T> : RMember // where T : UnityEngine.ScriptableObject
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ILiveReloadAssetTracker`1");
+            }
+        }
+
+        public RILiveReloadAssetTracker() : base("UnityEngine.UIElements.ILiveReloadAssetTracker`1")
+        {
+        }
+
+        public RILiveReloadAssetTracker(System.Object instance) : base("UnityEngine.UIElements.ILiveReloadAssetTracker`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RILiveReloadAssetTracker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RILiveReloadAssetTracker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 StartTrackingAsset(T)
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RILiveReloadAssetTracker() : base("UnityEngine.UIElements.ILiveReloadAssetTracker`1")
-        {
-        }
-
-        public RILiveReloadAssetTracker(System.Object instance) : base("UnityEngine.UIElements.ILiveReloadAssetTracker`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RILiveReloadAssetTracker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RILiveReloadAssetTracker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 StartTrackingAsset(T @asset)
         {

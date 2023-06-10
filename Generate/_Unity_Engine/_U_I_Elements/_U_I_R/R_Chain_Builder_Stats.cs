@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RChainBuilderStats : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.ChainBuilderStats");
+            }
+        }
+
+        public RChainBuilderStats() : base("UnityEngine.UIElements.UIR.ChainBuilderStats")
+        {
+        }
+
+        public RChainBuilderStats(System.Object instance) : base("UnityEngine.UIElements.UIR.ChainBuilderStats")
+		{
+            SetInstance(instance);
+		}
+
+        public RChainBuilderStats(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RChainBuilderStats(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 elementsAdded
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RChainBuilderStats() : base("UnityEngine.UIElements.UIR.ChainBuilderStats")
-        {
-        }
-
-        public RChainBuilderStats(System.Object instance) : base("UnityEngine.UIElements.UIR.ChainBuilderStats")
-		{
-            SetInstance(instance);
-		}
-
-        public RChainBuilderStats(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RChainBuilderStats(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

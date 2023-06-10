@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIWindow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IWindow");
+            }
+        }
+
+        public RIWindow() : base("UnityEditor.PackageManager.UI.IWindow")
+        {
+        }
+
+        public RIWindow(System.Object instance) : base("UnityEditor.PackageManager.UI.IWindow")
+		{
+            SetInstance(instance);
+		}
+
+        public RIWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.PackageSelectionArgs activeSelection
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIWindow() : base("UnityEditor.PackageManager.UI.IWindow")
-        {
-        }
-
-        public RIWindow(System.Object instance) : base("UnityEditor.PackageManager.UI.IWindow")
-		{
-            SetInstance(instance);
-		}
-
-        public RIWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Select(System.String @identifier)
         {

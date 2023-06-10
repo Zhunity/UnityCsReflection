@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RYieldAwaitable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.CompilerServices.YieldAwaitable);
+            }
+        }
+
+        public RYieldAwaitable() : base("System.Runtime.CompilerServices.YieldAwaitable")
+        {
+        }
+
+        public RYieldAwaitable(System.Object instance) : base("System.Runtime.CompilerServices.YieldAwaitable")
+		{
+            SetInstance(instance);
+		}
+
+        public RYieldAwaitable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYieldAwaitable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// YieldAwaiter GetAwaiter()
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RYieldAwaitable() : base("System.Runtime.CompilerServices.YieldAwaitable")
-        {
-        }
-
-        public RYieldAwaitable(System.Object instance) : base("System.Runtime.CompilerServices.YieldAwaitable")
-		{
-            SetInstance(instance);
-		}
-
-        public RYieldAwaitable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYieldAwaitable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RYieldAwaitable.RYieldAwaiter GetAwaiter()
         {

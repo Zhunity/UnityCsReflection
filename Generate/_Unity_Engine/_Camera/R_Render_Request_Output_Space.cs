@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRenderRequestOutputSpace : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Camera+RenderRequestOutputSpace");
+            }
+        }
+
+        public RRenderRequestOutputSpace() : base("UnityEngine.Camera+RenderRequestOutputSpace")
+        {
+        }
+
+        public RRenderRequestOutputSpace(System.Object instance) : base("UnityEngine.Camera+RenderRequestOutputSpace")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderRequestOutputSpace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderRequestOutputSpace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -397,23 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRenderRequestOutputSpace() : base("UnityEngine.Camera+RenderRequestOutputSpace")
-        {
-        }
-
-        public RRenderRequestOutputSpace(System.Object instance) : base("UnityEngine.Camera+RenderRequestOutputSpace")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderRequestOutputSpace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderRequestOutputSpace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

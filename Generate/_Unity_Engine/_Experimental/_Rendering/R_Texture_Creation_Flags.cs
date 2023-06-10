@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RTextureCreationFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.TextureCreationFlags);
+            }
+        }
+
+        public RTextureCreationFlags() : base("UnityEngine.Experimental.Rendering.TextureCreationFlags")
+        {
+        }
+
+        public RTextureCreationFlags(System.Object instance) : base("UnityEngine.Experimental.Rendering.TextureCreationFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextureCreationFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextureCreationFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RTextureCreationFlags() : base("UnityEngine.Experimental.Rendering.TextureCreationFlags")
-        {
-        }
-
-        public RTextureCreationFlags(System.Object instance) : base("UnityEngine.Experimental.Rendering.TextureCreationFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextureCreationFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextureCreationFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

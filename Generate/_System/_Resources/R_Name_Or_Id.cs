@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 	/// </summary>
     public partial class RNameOrId : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Resources.NameOrId");
+            }
+        }
+
+        public RNameOrId() : base("System.Resources.NameOrId")
+        {
+        }
+
+        public RNameOrId(System.Object instance) : base("System.Resources.NameOrId")
+		{
+            SetInstance(instance);
+		}
+
+        public RNameOrId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNameOrId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			}
 		}
 
-
-        public RNameOrId() : base("System.Resources.NameOrId")
-        {
-        }
-
-        public RNameOrId(System.Object instance) : base("System.Resources.NameOrId")
-		{
-            SetInstance(instance);
-		}
-
-        public RNameOrId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNameOrId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

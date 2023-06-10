@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RArrayList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.ArrayList);
+            }
+        }
+
+        public RArrayList() : base("System.Collections.ArrayList")
+        {
+        }
+
+        public RArrayList(System.Object instance) : base("System.Collections.ArrayList")
+		{
+            SetInstance(instance);
+		}
+
+        public RArrayList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RArrayList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object[] _items
@@ -1003,23 +1028,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RArrayList() : base("System.Collections.ArrayList")
-        {
-        }
-
-        public RArrayList(System.Object instance) : base("System.Collections.ArrayList")
-		{
-            SetInstance(instance);
-		}
-
-        public RArrayList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RArrayList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Collections.ArrayList Adapter(System.Collections.IList @list)
         {

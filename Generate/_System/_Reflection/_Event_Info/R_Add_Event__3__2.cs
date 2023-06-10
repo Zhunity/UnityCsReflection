@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RAddEvent<T, D> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.EventInfo+AddEvent`2");
+            }
+        }
+
+        public RAddEvent() : base("System.Reflection.EventInfo+AddEvent`2")
+        {
+        }
+
+        public RAddEvent(System.Object instance) : base("System.Reflection.EventInfo+AddEvent`2")
+		{
+            SetInstance(instance);
+		}
+
+        public RAddEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAddEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RAddEvent() : base("System.Reflection.EventInfo+AddEvent`2")
-        {
-        }
-
-        public RAddEvent(System.Object instance) : base("System.Reflection.EventInfo+AddEvent`2")
-		{
-            SetInstance(instance);
-		}
-
-        public RAddEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAddEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(T @_this, D @dele)
         {

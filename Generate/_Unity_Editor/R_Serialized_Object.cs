@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RSerializedObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.SerializedObject);
+            }
+        }
+
+        public RSerializedObject() : base("UnityEditor.SerializedObject")
+        {
+        }
+
+        public RSerializedObject(System.Object instance) : base("UnityEditor.SerializedObject")
+		{
+            SetInstance(instance);
+		}
+
+        public RSerializedObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSerializedObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_NativeObjectPtr
@@ -763,23 +788,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RSerializedObject() : base("UnityEditor.SerializedObject")
-        {
-        }
-
-        public RSerializedObject(System.Object instance) : base("UnityEditor.SerializedObject")
-		{
-            SetInstance(instance);
-		}
-
-        public RSerializedObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSerializedObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

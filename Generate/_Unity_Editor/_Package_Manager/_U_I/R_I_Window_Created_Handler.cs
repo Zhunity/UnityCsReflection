@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIWindowCreatedHandler : RMember //
     {
-
-		/// <summary>
-		/// Void OnWindowCreated(UnityEditor.PackageManager.UI.WindowCreatedArgs)
-		/// </summary>
-		protected RMethod r_MOnWindowCreated_WindowCreatedArgs;
-		public virtual RMethod RMOnWindowCreated_WindowCreatedArgs
-		{
-			get
-			{
-				if(r_MOnWindowCreated_WindowCreatedArgs == null)
-				{
-					r_MOnWindowCreated_WindowCreatedArgs = new(this, "OnWindowCreated", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowCreatedArgs"));
-				}
-				return r_MOnWindowCreated_WindowCreatedArgs;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IWindowCreatedHandler");
+            }
+        }
 
         public RIWindowCreatedHandler() : base("UnityEditor.PackageManager.UI.IWindowCreatedHandler")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		 public RIWindowCreatedHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void OnWindowCreated(UnityEditor.PackageManager.UI.WindowCreatedArgs)
+		/// </summary>
+		protected RMethod r_MOnWindowCreated_WindowCreatedArgs;
+		public virtual RMethod RMOnWindowCreated_WindowCreatedArgs
+		{
+			get
+			{
+				if(r_MOnWindowCreated_WindowCreatedArgs == null)
+				{
+					r_MOnWindowCreated_WindowCreatedArgs = new(this, "OnWindowCreated", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowCreatedArgs"));
+				}
+				return r_MOnWindowCreated_WindowCreatedArgs;
+			}
+		}
+
 
         public virtual void OnWindowCreated(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RWindowCreatedArgs @args)
         {

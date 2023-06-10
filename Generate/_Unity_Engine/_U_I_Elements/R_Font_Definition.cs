@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFontDefinition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.FontDefinition);
+            }
+        }
+
+        public RFontDefinition() : base("UnityEngine.UIElements.FontDefinition")
+        {
+        }
+
+        public RFontDefinition(System.Object instance) : base("UnityEngine.UIElements.FontDefinition")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontDefinition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontDefinition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Font m_Font
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFontDefinition() : base("UnityEngine.UIElements.FontDefinition")
-        {
-        }
-
-        public RFontDefinition(System.Object instance) : base("UnityEngine.UIElements.FontDefinition")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontDefinition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontDefinition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.FontDefinition FromFont(UnityEngine.Font @f)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaSize : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaSize");
+            }
+        }
+
+        public RYogaSize() : base("UnityEngine.Yoga.YogaSize")
+        {
+        }
+
+        public RYogaSize(System.Object instance) : base("UnityEngine.Yoga.YogaSize")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaSize(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaSize(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single width
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaSize() : base("UnityEngine.Yoga.YogaSize")
-        {
-        }
-
-        public RYogaSize(System.Object instance) : base("UnityEngine.Yoga.YogaSize")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaSize(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaSize(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

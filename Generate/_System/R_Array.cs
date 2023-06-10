@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RArray : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Array);
+            }
+        }
+
+        public RArray() : base("System.Array")
+        {
+        }
+
+        public RArray(System.Object instance) : base("System.Array")
+		{
+            SetInstance(instance);
+		}
+
+        public RArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 System.Collections.ICollection.Count
@@ -2587,23 +2612,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RArray() : base("System.Array")
-        {
-        }
-
-        public RArray(System.Object instance) : base("System.Array")
-		{
-            SetInstance(instance);
-		}
-
-        public RArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Array CreateInstance(System.Type @elementType, System.Int64[] @lengths)
         {

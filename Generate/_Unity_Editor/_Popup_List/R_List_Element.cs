@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RListElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PopupList+ListElement");
+            }
+        }
+
+        public RListElement() : base("UnityEditor.PopupList+ListElement")
+        {
+        }
+
+        public RListElement(System.Object instance) : base("UnityEditor.PopupList+ListElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RListElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RListElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.GUIContent m_Content
@@ -333,23 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RListElement() : base("UnityEditor.PopupList+ListElement")
-        {
-        }
-
-        public RListElement(System.Object instance) : base("UnityEditor.PopupList+ListElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RListElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RListElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResetScore()
         {

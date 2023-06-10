@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RSerializedPropertyType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.SerializedPropertyType);
+            }
+        }
+
+        public RSerializedPropertyType() : base("UnityEditor.SerializedPropertyType")
+        {
+        }
+
+        public RSerializedPropertyType(System.Object instance) : base("UnityEditor.SerializedPropertyType")
+		{
+            SetInstance(instance);
+		}
+
+        public RSerializedPropertyType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSerializedPropertyType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -667,23 +692,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RSerializedPropertyType() : base("UnityEditor.SerializedPropertyType")
-        {
-        }
-
-        public RSerializedPropertyType(System.Object instance) : base("UnityEditor.SerializedPropertyType")
-		{
-            SetInstance(instance);
-		}
-
-        public RSerializedPropertyType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSerializedPropertyType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

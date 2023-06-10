@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBaseListViewController : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BaseListViewController);
+            }
+        }
+
+        public RBaseListViewController() : base("UnityEngine.UIElements.BaseListViewController")
+        {
+        }
+
+        public RBaseListViewController(System.Object instance) : base("UnityEngine.UIElements.BaseListViewController")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseListViewController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseListViewController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action itemsSourceSizeChanged
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBaseListViewController() : base("UnityEngine.UIElements.BaseListViewController")
-        {
-        }
-
-        public RBaseListViewController(System.Object instance) : base("UnityEngine.UIElements.BaseListViewController")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseListViewController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseListViewController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InvokeMakeItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @reusableItem)
         {

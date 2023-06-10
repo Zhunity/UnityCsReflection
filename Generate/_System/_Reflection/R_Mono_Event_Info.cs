@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RMonoEventInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.MonoEventInfo");
+            }
+        }
+
+        public RMonoEventInfo() : base("System.Reflection.MonoEventInfo")
+        {
+        }
+
+        public RMonoEventInfo(System.Object instance) : base("System.Reflection.MonoEventInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoEventInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoEventInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type declaring_type
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RMonoEventInfo() : base("System.Reflection.MonoEventInfo")
-        {
-        }
-
-        public RMonoEventInfo(System.Object instance) : base("System.Reflection.MonoEventInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoEventInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoEventInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

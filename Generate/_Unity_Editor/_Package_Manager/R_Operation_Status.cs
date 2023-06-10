@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class ROperationStatus : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.OperationStatus");
+            }
+        }
+
+        public ROperationStatus() : base("UnityEditor.PackageManager.OperationStatus")
+        {
+        }
+
+        public ROperationStatus(System.Object instance) : base("UnityEditor.PackageManager.OperationStatus")
+		{
+            SetInstance(instance);
+		}
+
+        public ROperationStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROperationStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageInfo[] m_PackageList
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public ROperationStatus() : base("UnityEditor.PackageManager.OperationStatus")
-        {
-        }
-
-        public ROperationStatus(System.Object instance) : base("UnityEditor.PackageManager.OperationStatus")
-		{
-            SetInstance(instance);
-		}
-
-        public ROperationStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROperationStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

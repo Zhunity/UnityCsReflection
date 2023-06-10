@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPointerMoveEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.PointerMoveEvent);
+            }
+        }
+
+        public RPointerMoveEvent() : base("UnityEngine.UIElements.PointerMoveEvent")
+        {
+        }
+
+        public RPointerMoveEvent(System.Object instance) : base("UnityEngine.UIElements.PointerMoveEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RPointerMoveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPointerMoveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <isHandledByDraggable>k__BackingField
@@ -1243,23 +1268,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPointerMoveEvent() : base("UnityEngine.UIElements.PointerMoveEvent")
-        {
-        }
-
-        public RPointerMoveEvent(System.Object instance) : base("UnityEngine.UIElements.PointerMoveEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RPointerMoveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPointerMoveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

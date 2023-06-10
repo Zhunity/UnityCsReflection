@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageDetailsTabElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement");
+            }
+        }
+
+        public RPackageDetailsTabElement() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement")
+        {
+        }
+
+        public RPackageDetailsTabElement(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageDetailsTabElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageDetailsTabElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_DisplayName
@@ -3563,23 +3588,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageDetailsTabElement() : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement")
-        {
-        }
-
-        public RPackageDetailsTabElement(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageDetailsTabElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageDetailsTabElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsValid(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

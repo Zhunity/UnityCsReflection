@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 	/// </summary>
     public partial class RIPinnable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Buffers.IPinnable);
+            }
+        }
+
+        public RIPinnable() : base("System.Buffers.IPinnable")
+        {
+        }
+
+        public RIPinnable(System.Object instance) : base("System.Buffers.IPinnable")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPinnable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPinnable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Buffers.MemoryHandle Pin(Int32)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 			}
 		}
 
-
-        public RIPinnable() : base("System.Buffers.IPinnable")
-        {
-        }
-
-        public RIPinnable(System.Object instance) : base("System.Buffers.IPinnable")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPinnable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPinnable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Buffers.MemoryHandle Pin(System.Int32 @elementIndex)
         {

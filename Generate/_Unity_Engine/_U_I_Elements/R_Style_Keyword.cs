@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleKeyword : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleKeyword);
+            }
+        }
+
+        public RStyleKeyword() : base("UnityEngine.UIElements.StyleKeyword")
+        {
+        }
+
+        public RStyleKeyword(System.Object instance) : base("UnityEngine.UIElements.StyleKeyword")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleKeyword(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleKeyword(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleKeyword() : base("UnityEngine.UIElements.StyleKeyword")
-        {
-        }
-
-        public RStyleKeyword(System.Object instance) : base("UnityEngine.UIElements.StyleKeyword")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleKeyword(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleKeyword(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RNavigationMoveEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.NavigationMoveEvent);
+            }
+        }
+
+        public RNavigationMoveEvent() : base("UnityEngine.UIElements.NavigationMoveEvent")
+        {
+        }
+
+        public RNavigationMoveEvent(System.Object instance) : base("UnityEngine.UIElements.NavigationMoveEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RNavigationMoveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNavigationMoveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.NavigationMoveEvent+Direction <direction>k__BackingField
@@ -1067,23 +1092,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RNavigationMoveEvent() : base("UnityEngine.UIElements.NavigationMoveEvent")
-        {
-        }
-
-        public RNavigationMoveEvent(System.Object instance) : base("UnityEngine.UIElements.NavigationMoveEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RNavigationMoveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNavigationMoveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection DetermineMoveDirection(System.Single @x, System.Single @y, System.Single @deadZone)
         {

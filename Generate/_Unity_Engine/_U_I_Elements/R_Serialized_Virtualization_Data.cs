@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RSerializedVirtualizationData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.SerializedVirtualizationData");
+            }
+        }
+
+        public RSerializedVirtualizationData() : base("UnityEngine.UIElements.SerializedVirtualizationData")
+        {
+        }
+
+        public RSerializedVirtualizationData(System.Object instance) : base("UnityEngine.UIElements.SerializedVirtualizationData")
+		{
+            SetInstance(instance);
+		}
+
+        public RSerializedVirtualizationData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSerializedVirtualizationData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 scrollOffset
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RSerializedVirtualizationData() : base("UnityEngine.UIElements.SerializedVirtualizationData")
-        {
-        }
-
-        public RSerializedVirtualizationData(System.Object instance) : base("UnityEngine.UIElements.SerializedVirtualizationData")
-		{
-            SetInstance(instance);
-		}
-
-        public RSerializedVirtualizationData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSerializedVirtualizationData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

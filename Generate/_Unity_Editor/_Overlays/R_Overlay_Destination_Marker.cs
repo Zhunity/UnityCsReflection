@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayDestinationMarker : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayDestinationMarker");
+            }
+        }
+
+        public ROverlayDestinationMarker() : base("UnityEditor.Overlays.OverlayDestinationMarker")
+        {
+        }
+
+        public ROverlayDestinationMarker(System.Object instance) : base("UnityEditor.Overlays.OverlayDestinationMarker")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayDestinationMarker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayDestinationMarker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String className
@@ -3563,23 +3588,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayDestinationMarker() : base("UnityEditor.Overlays.OverlayDestinationMarker")
-        {
-        }
-
-        public ROverlayDestinationMarker(System.Object instance) : base("UnityEditor.Overlays.OverlayDestinationMarker")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayDestinationMarker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayDestinationMarker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetTarget(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase @target)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RProgressUpdateEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.ProgressUpdateEventArgs");
+            }
+        }
+
+        public RProgressUpdateEventArgs() : base("UnityEditor.PackageManager.ProgressUpdateEventArgs")
+        {
+        }
+
+        public RProgressUpdateEventArgs(System.Object instance) : base("UnityEditor.PackageManager.ProgressUpdateEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RProgressUpdateEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProgressUpdateEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageProgress] entries
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RProgressUpdateEventArgs() : base("UnityEditor.PackageManager.ProgressUpdateEventArgs")
-        {
-        }
-
-        public RProgressUpdateEventArgs(System.Object instance) : base("UnityEditor.PackageManager.ProgressUpdateEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RProgressUpdateEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProgressUpdateEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

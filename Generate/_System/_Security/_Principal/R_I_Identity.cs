@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	/// </summary>
     public partial class RIIdentity : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Principal.IIdentity);
+            }
+        }
+
+        public RIIdentity() : base("System.Security.Principal.IIdentity")
+        {
+        }
+
+        public RIIdentity(System.Object instance) : base("System.Security.Principal.IIdentity")
+		{
+            SetInstance(instance);
+		}
+
+        public RIIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String Name
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			}
 		}
 
-
-        public RIIdentity() : base("System.Security.Principal.IIdentity")
-        {
-        }
-
-        public RIIdentity(System.Object instance) : base("System.Security.Principal.IIdentity")
-		{
-            SetInstance(instance);
-		}
-
-        public RIIdentity(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIIdentity(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

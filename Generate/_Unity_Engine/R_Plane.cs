@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RPlane : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Plane);
+            }
+        }
+
+        public RPlane() : base("UnityEngine.Plane")
+        {
+        }
+
+        public RPlane(System.Object instance) : base("UnityEngine.Plane")
+		{
+            SetInstance(instance);
+		}
+
+        public RPlane(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPlane(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 size
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RPlane() : base("UnityEngine.Plane")
-        {
-        }
-
-        public RPlane(System.Object instance) : base("UnityEngine.Plane")
-		{
-            SetInstance(instance);
-		}
-
-        public RPlane(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPlane(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetNormalAndPosition(UnityEngine.Vector3 @inNormal, UnityEngine.Vector3 @inPoint)
         {

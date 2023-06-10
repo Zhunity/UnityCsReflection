@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMeshWriteData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MeshWriteData);
+            }
+        }
+
+        public RMeshWriteData() : base("UnityEngine.UIElements.MeshWriteData")
+        {
+        }
+
+        public RMeshWriteData(System.Object instance) : base("UnityEngine.UIElements.MeshWriteData")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshWriteData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshWriteData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Collections.NativeSlice`1[UnityEngine.UIElements.Vertex] m_Vertices
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMeshWriteData() : base("UnityEngine.UIElements.MeshWriteData")
-        {
-        }
-
-        public RMeshWriteData(System.Object instance) : base("UnityEngine.UIElements.MeshWriteData")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshWriteData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshWriteData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetNextVertex(UnityEngine.UIElements.Vertex @vertex)
         {

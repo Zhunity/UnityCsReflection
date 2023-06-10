@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RCoroutine : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Coroutine);
+            }
+        }
+
+        public RCoroutine() : base("UnityEngine.Coroutine")
+        {
+        }
+
+        public RCoroutine(System.Object instance) : base("UnityEngine.Coroutine")
+		{
+            SetInstance(instance);
+		}
+
+        public RCoroutine(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCoroutine(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RCoroutine() : base("UnityEngine.Coroutine")
-        {
-        }
-
-        public RCoroutine(System.Object instance) : base("UnityEngine.Coroutine")
-		{
-            SetInstance(instance);
-		}
-
-        public RCoroutine(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCoroutine(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class REntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2+Entry");
+            }
+        }
+
+        public REntry() : base("System.Collections.Generic.Dictionary`2+Entry")
+        {
+        }
+
+        public REntry(System.Object instance) : base("System.Collections.Generic.Dictionary`2+Entry")
+		{
+            SetInstance(instance);
+		}
+
+        public REntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 hashCode
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public REntry() : base("System.Collections.Generic.Dictionary`2+Entry")
-        {
-        }
-
-        public REntry(System.Object instance) : base("System.Collections.Generic.Dictionary`2+Entry")
-		{
-            SetInstance(instance);
-		}
-
-        public REntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

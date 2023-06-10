@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RRequest<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.Requests.Request<>);
+            }
+        }
+
+        public RRequest() : base("UnityEditor.PackageManager.Requests.Request`1")
+        {
+        }
+
+        public RRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.Request`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean m_ResultFetched
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RRequest() : base("UnityEditor.PackageManager.Requests.Request`1")
-        {
-        }
-
-        public RRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.Request`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual T GetResult()
         {

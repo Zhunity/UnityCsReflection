@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleTranslate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleTranslate);
+            }
+        }
+
+        public RStyleTranslate() : base("UnityEngine.UIElements.StyleTranslate")
+        {
+        }
+
+        public RStyleTranslate(System.Object instance) : base("UnityEngine.UIElements.StyleTranslate")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleTranslate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleTranslate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Translate m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleTranslate() : base("UnityEngine.UIElements.StyleTranslate")
-        {
-        }
-
-        public RStyleTranslate(System.Object instance) : base("UnityEngine.UIElements.StyleTranslate")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleTranslate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleTranslate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleTranslate @lhs, UnityEngine.UIElements.StyleTranslate @rhs)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RSecurityRuleSet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.SecurityRuleSet);
+            }
+        }
+
+        public RSecurityRuleSet() : base("System.Security.SecurityRuleSet")
+        {
+        }
+
+        public RSecurityRuleSet(System.Object instance) : base("System.Security.SecurityRuleSet")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecurityRuleSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecurityRuleSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RSecurityRuleSet() : base("System.Security.SecurityRuleSet")
-        {
-        }
-
-        public RSecurityRuleSet(System.Object instance) : base("System.Security.SecurityRuleSet")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecurityRuleSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecurityRuleSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

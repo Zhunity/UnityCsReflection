@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RRuntimeType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.RuntimeType");
+            }
+        }
+
+        public RRuntimeType() : base("System.RuntimeType")
+        {
+        }
+
+        public RRuntimeType(System.Object instance) : base("System.RuntimeType")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.RuntimeType ValueType
@@ -5035,23 +5060,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RRuntimeType() : base("System.RuntimeType")
-        {
-        }
-
-        public RRuntimeType(System.Object instance) : base("System.RuntimeType")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.RRuntimeType GetType(System.String @typeName, System.Boolean @throwOnError, System.Boolean @ignoreCase, System.Boolean @reflectionOnly, ref Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark @stackMark)
         {

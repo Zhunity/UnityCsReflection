@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	/// </summary>
     public partial class RSecurityIdentifier : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Principal.SecurityIdentifier);
+            }
+        }
+
+        public RSecurityIdentifier() : base("System.Security.Principal.SecurityIdentifier")
+        {
+        }
+
+        public RSecurityIdentifier(System.Object instance) : base("System.Security.Principal.SecurityIdentifier")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecurityIdentifier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecurityIdentifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] buffer
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			}
 		}
 
-
-        public RSecurityIdentifier() : base("System.Security.Principal.SecurityIdentifier")
-        {
-        }
-
-        public RSecurityIdentifier(System.Object instance) : base("System.Security.Principal.SecurityIdentifier")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecurityIdentifier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecurityIdentifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CreateFromBinaryForm(System.IntPtr @binaryForm, System.Int32 @length)
         {

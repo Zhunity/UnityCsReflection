@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RVector2Int : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Vector2Int);
+            }
+        }
+
+        public RVector2Int() : base("UnityEngine.Vector2Int")
+        {
+        }
+
+        public RVector2Int(System.Object instance) : base("UnityEngine.Vector2Int")
+		{
+            SetInstance(instance);
+		}
+
+        public RVector2Int(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVector2Int(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_X
@@ -795,23 +820,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RVector2Int() : base("UnityEngine.Vector2Int")
-        {
-        }
-
-        public RVector2Int(System.Object instance) : base("UnityEngine.Vector2Int")
-		{
-            SetInstance(instance);
-		}
-
-        public RVector2Int(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVector2Int(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Set(System.Int32 @x, System.Int32 @y)
         {

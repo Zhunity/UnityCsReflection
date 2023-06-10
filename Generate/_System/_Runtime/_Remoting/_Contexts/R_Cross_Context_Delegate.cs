@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	/// </summary>
     public partial class RCrossContextDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Contexts.CrossContextDelegate);
+            }
+        }
+
+        public RCrossContextDelegate() : base("System.Runtime.Remoting.Contexts.CrossContextDelegate")
+        {
+        }
+
+        public RCrossContextDelegate(System.Object instance) : base("System.Runtime.Remoting.Contexts.CrossContextDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RCrossContextDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCrossContextDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			}
 		}
 
-
-        public RCrossContextDelegate() : base("System.Runtime.Remoting.Contexts.CrossContextDelegate")
-        {
-        }
-
-        public RCrossContextDelegate(System.Object instance) : base("System.Runtime.Remoting.Contexts.CrossContextDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RCrossContextDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCrossContextDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke()
         {

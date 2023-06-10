@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RRenderChainCommand : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand");
+            }
+        }
+
+        public RRenderChainCommand() : base("UnityEngine.UIElements.UIR.RenderChainCommand")
+        {
+        }
+
+        public RRenderChainCommand(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChainCommand")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderChainCommand(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderChainCommand(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement owner
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RRenderChainCommand() : base("UnityEngine.UIElements.UIR.RenderChainCommand")
-        {
-        }
-
-        public RRenderChainCommand(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChainCommand")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderChainCommand(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderChainCommand(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

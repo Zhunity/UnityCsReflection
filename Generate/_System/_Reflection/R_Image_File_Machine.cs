@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RImageFileMachine : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.ImageFileMachine);
+            }
+        }
+
+        public RImageFileMachine() : base("System.Reflection.ImageFileMachine")
+        {
+        }
+
+        public RImageFileMachine(System.Object instance) : base("System.Reflection.ImageFileMachine")
+		{
+            SetInstance(instance);
+		}
+
+        public RImageFileMachine(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RImageFileMachine(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RImageFileMachine() : base("System.Reflection.ImageFileMachine")
-        {
-        }
-
-        public RImageFileMachine(System.Object instance) : base("System.Reflection.ImageFileMachine")
-		{
-            SetInstance(instance);
-		}
-
-        public RImageFileMachine(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RImageFileMachine(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

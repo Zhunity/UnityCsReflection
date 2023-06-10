@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RSearchRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.Requests.SearchRequest);
+            }
+        }
+
+        public RSearchRequest() : base("UnityEditor.PackageManager.Requests.SearchRequest")
+        {
+        }
+
+        public RSearchRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.SearchRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RSearchRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSearchRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_PackageIdOrName
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RSearchRequest() : base("UnityEditor.PackageManager.Requests.SearchRequest")
-        {
-        }
-
-        public RSearchRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.SearchRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RSearchRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSearchRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEditor.PackageManager.PackageInfo[] GetOperationData(System.Int64 @operationId)
         {

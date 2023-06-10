@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RAddScopedRegistryRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.AddScopedRegistryRequest");
+            }
+        }
+
+        public RAddScopedRegistryRequest() : base("UnityEditor.PackageManager.Requests.AddScopedRegistryRequest")
+        {
+        }
+
+        public RAddScopedRegistryRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.AddScopedRegistryRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RAddScopedRegistryRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAddScopedRegistryRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.RegistryInfo Result
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RAddScopedRegistryRequest() : base("UnityEditor.PackageManager.Requests.AddScopedRegistryRequest")
-        {
-        }
-
-        public RAddScopedRegistryRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.AddScopedRegistryRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RAddScopedRegistryRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAddScopedRegistryRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEditor.PackageManager.RegistryInfo GetResult()
         {

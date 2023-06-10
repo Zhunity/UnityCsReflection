@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting
 	/// </summary>
     public partial class RActivationArguments : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Hosting.ActivationArguments);
+            }
+        }
+
+        public RActivationArguments() : base("System.Runtime.Hosting.ActivationArguments")
+        {
+        }
+
+        public RActivationArguments(System.Object instance) : base("System.Runtime.Hosting.ActivationArguments")
+		{
+            SetInstance(instance);
+		}
+
+        public RActivationArguments(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RActivationArguments(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.ActivationContext _context
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RHosting
 			}
 		}
 
-
-        public RActivationArguments() : base("System.Runtime.Hosting.ActivationArguments")
-        {
-        }
-
-        public RActivationArguments(System.Object instance) : base("System.Runtime.Hosting.ActivationArguments")
-		{
-            SetInstance(instance);
-		}
-
-        public RActivationArguments(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RActivationArguments(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.Policy.EvidenceBase Clone()
         {

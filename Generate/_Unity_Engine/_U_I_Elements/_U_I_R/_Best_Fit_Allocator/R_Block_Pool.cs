@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RBlockPool : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool");
+            }
+        }
+
+        public RBlockPool() : base("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool")
+        {
+        }
+
+        public RBlockPool(System.Object instance) : base("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool")
+		{
+            SetInstance(instance);
+		}
+
+        public RBlockPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBlockPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 Count
@@ -205,23 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RBlockPool() : base("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool")
-        {
-        }
-
-        public RBlockPool(System.Object instance) : base("UnityEngine.UIElements.UIR.BestFitAllocator+BlockPool")
-		{
-            SetInstance(instance);
-		}
-
-        public RBlockPool(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBlockPool(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBestFitAllocator.RBlock CreateBlock()
         {

@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 	/// </summary>
     public partial class REnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly+Enumerator");
+            }
+        }
+
+        public REnumerator() : base("Unity.Collections.NativeArray`1+ReadOnly+Enumerator")
+        {
+        }
+
+        public REnumerator(System.Object instance) : base("Unity.Collections.NativeArray`1+ReadOnly+Enumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1+ReadOnly[T] m_Array
@@ -223,23 +248,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			}
 		}
 
-
-        public REnumerator() : base("Unity.Collections.NativeArray`1+ReadOnly+Enumerator")
-        {
-        }
-
-        public REnumerator(System.Object instance) : base("Unity.Collections.NativeArray`1+ReadOnly+Enumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVisualElementAnimationSystem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem");
+            }
+        }
+
+        public RVisualElementAnimationSystem() : base("UnityEngine.UIElements.VisualElementAnimationSystem")
+        {
+        }
+
+        public RVisualElementAnimationSystem(System.Object instance) : base("UnityEngine.UIElements.VisualElementAnimationSystem")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualElementAnimationSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualElementAnimationSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.BaseVisualElementPanel] panelChanged
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVisualElementAnimationSystem() : base("UnityEngine.UIElements.VisualElementAnimationSystem")
-        {
-        }
-
-        public RVisualElementAnimationSystem(System.Object instance) : base("UnityEngine.UIElements.VisualElementAnimationSystem")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualElementAnimationSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualElementAnimationSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int64 CurrentTimeMs()
         {

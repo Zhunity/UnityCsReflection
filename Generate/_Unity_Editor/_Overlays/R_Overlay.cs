@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlay : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.Overlays.Overlay);
+            }
+        }
+
+        public ROverlay() : base("UnityEditor.Overlays.Overlay")
+        {
+        }
+
+        public ROverlay(System.Object instance) : base("UnityEditor.Overlays.Overlay")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlay(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlay(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.Overlays.Layout] layoutChanged
@@ -2331,23 +2356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlay() : base("UnityEditor.Overlays.Overlay")
-        {
-        }
-
-        public ROverlay(System.Object instance) : base("UnityEditor.Overlays.Overlay")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlay(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlay(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.String GetEventTypeErrorMessage(System.String @errorEvent)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreDownloadOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation");
+            }
+        }
+
+        public RAssetStoreDownloadOperation() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation")
+        {
+        }
+
+        public RAssetStoreDownloadOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreDownloadOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreDownloadOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.IOperation,UnityEditor.PackageManager.UI.Internal.UIError] onOperationError
@@ -891,23 +916,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreDownloadOperation() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation")
-        {
-        }
-
-        public RAssetStoreDownloadOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreDownloadOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreDownloadOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy @assetStoreCachePathProxy)
         {

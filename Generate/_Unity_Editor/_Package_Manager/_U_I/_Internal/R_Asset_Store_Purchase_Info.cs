@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStorePurchaseInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo");
+            }
+        }
+
+        public RAssetStorePurchaseInfo() : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")
+        {
+        }
+
+        public RAssetStorePurchaseInfo(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStorePurchaseInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStorePurchaseInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int64 productId
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStorePurchaseInfo() : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")
-        {
-        }
-
-        public RAssetStorePurchaseInfo(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStorePurchaseInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStorePurchaseInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo ParsePurchaseInfo(System.Collections.Generic.IDictionary<System.String, System.Object> @rawInfo)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RActivationContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ActivationContext);
+            }
+        }
+
+        public RActivationContext() : base("System.ActivationContext")
+        {
+        }
+
+        public RActivationContext(System.Object instance) : base("System.ActivationContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RActivationContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RActivationContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.ApplicationIdentity _appid
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RActivationContext() : base("System.ActivationContext")
-        {
-        }
-
-        public RActivationContext(System.Object instance) : base("System.ActivationContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RActivationContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RActivationContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

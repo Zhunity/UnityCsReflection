@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 	/// </summary>
     public partial class RProfilerRecorderDescription : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription);
+            }
+        }
+
+        public RProfilerRecorderDescription() : base("Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription")
+        {
+        }
+
+        public RProfilerRecorderDescription(System.Object instance) : base("Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription")
+		{
+            SetInstance(instance);
+		}
+
+        public RProfilerRecorderDescription(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProfilerRecorderDescription(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerCategory category
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 			}
 		}
 
-
-        public RProfilerRecorderDescription() : base("Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription")
-        {
-        }
-
-        public RProfilerRecorderDescription(System.Object instance) : base("Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription")
-		{
-            SetInstance(instance);
-		}
-
-        public RProfilerRecorderDescription(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProfilerRecorderDescription(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RMarkPositionAdjustment : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.LowLevel.MarkPositionAdjustment");
+            }
+        }
+
+        public RMarkPositionAdjustment() : base("UnityEngine.TextCore.LowLevel.MarkPositionAdjustment")
+        {
+        }
+
+        public RMarkPositionAdjustment(System.Object instance) : base("UnityEngine.TextCore.LowLevel.MarkPositionAdjustment")
+		{
+            SetInstance(instance);
+		}
+
+        public RMarkPositionAdjustment(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMarkPositionAdjustment(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_XPositionAdjustment
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RMarkPositionAdjustment() : base("UnityEngine.TextCore.LowLevel.MarkPositionAdjustment")
-        {
-        }
-
-        public RMarkPositionAdjustment(System.Object instance) : base("UnityEngine.TextCore.LowLevel.MarkPositionAdjustment")
-		{
-            SetInstance(instance);
-		}
-
-        public RMarkPositionAdjustment(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMarkPositionAdjustment(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

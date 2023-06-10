@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RBindingFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.BindingFlags);
+            }
+        }
+
+        public RBindingFlags() : base("System.Reflection.BindingFlags")
+        {
+        }
+
+        public RBindingFlags(System.Object instance) : base("System.Reflection.BindingFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RBindingFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBindingFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -571,23 +596,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RBindingFlags() : base("System.Reflection.BindingFlags")
-        {
-        }
-
-        public RBindingFlags(System.Object instance) : base("System.Reflection.BindingFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RBindingFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBindingFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

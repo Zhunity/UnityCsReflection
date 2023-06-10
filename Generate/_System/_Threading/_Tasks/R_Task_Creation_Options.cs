@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RTaskCreationOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Tasks.TaskCreationOptions);
+            }
+        }
+
+        public RTaskCreationOptions() : base("System.Threading.Tasks.TaskCreationOptions")
+        {
+        }
+
+        public RTaskCreationOptions(System.Object instance) : base("System.Threading.Tasks.TaskCreationOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RTaskCreationOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTaskCreationOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RTaskCreationOptions() : base("System.Threading.Tasks.TaskCreationOptions")
-        {
-        }
-
-        public RTaskCreationOptions(System.Object instance) : base("System.Threading.Tasks.TaskCreationOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RTaskCreationOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTaskCreationOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

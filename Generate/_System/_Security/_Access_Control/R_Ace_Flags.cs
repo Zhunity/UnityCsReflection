@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAceFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AceFlags);
+            }
+        }
+
+        public RAceFlags() : base("System.Security.AccessControl.AceFlags")
+        {
+        }
+
+        public RAceFlags(System.Object instance) : base("System.Security.AccessControl.AceFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RAceFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAceFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAceFlags() : base("System.Security.AccessControl.AceFlags")
-        {
-        }
-
-        public RAceFlags(System.Object instance) : base("System.Security.AccessControl.AceFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RAceFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAceFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

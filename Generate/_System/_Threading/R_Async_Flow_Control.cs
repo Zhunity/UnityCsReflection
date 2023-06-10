@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RAsyncFlowControl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.AsyncFlowControl);
+            }
+        }
+
+        public RAsyncFlowControl() : base("System.Threading.AsyncFlowControl")
+        {
+        }
+
+        public RAsyncFlowControl(System.Object instance) : base("System.Threading.AsyncFlowControl")
+		{
+            SetInstance(instance);
+		}
+
+        public RAsyncFlowControl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAsyncFlowControl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean useEC
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RAsyncFlowControl() : base("System.Threading.AsyncFlowControl")
-        {
-        }
-
-        public RAsyncFlowControl(System.Object instance) : base("System.Threading.AsyncFlowControl")
-		{
-            SetInstance(instance);
-		}
-
-        public RAsyncFlowControl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAsyncFlowControl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Setup()
         {

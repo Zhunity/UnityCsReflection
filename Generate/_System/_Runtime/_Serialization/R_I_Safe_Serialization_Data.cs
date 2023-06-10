@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RISafeSerializationData : RMember //
     {
-
-		/// <summary>
-		/// Void CompleteDeserialization(System.Object)
-		/// </summary>
-		protected RMethod r_MCompleteDeserialization_Object;
-		public virtual RMethod RMCompleteDeserialization_Object
-		{
-			get
-			{
-				if(r_MCompleteDeserialization_Object == null)
-				{
-					r_MCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
-				}
-				return r_MCompleteDeserialization_Object;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Serialization.ISafeSerializationData);
+            }
+        }
 
         public RISafeSerializationData() : base("System.Runtime.Serialization.ISafeSerializationData")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 		 public RISafeSerializationData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void CompleteDeserialization(System.Object)
+		/// </summary>
+		protected RMethod r_MCompleteDeserialization_Object;
+		public virtual RMethod RMCompleteDeserialization_Object
+		{
+			get
+			{
+				if(r_MCompleteDeserialization_Object == null)
+				{
+					r_MCompleteDeserialization_Object = new(this, "CompleteDeserialization", 0, typeof(System.Object));
+				}
+				return r_MCompleteDeserialization_Object;
+			}
+		}
+
 
         public virtual void CompleteDeserialization(System.Object @deserialized)
         {

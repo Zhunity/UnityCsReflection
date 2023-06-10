@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RExtensionManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ExtensionManager");
+            }
+        }
+
+        public RExtensionManager() : base("UnityEditor.PackageManager.UI.Internal.ExtensionManager")
+        {
+        }
+
+        public RExtensionManager(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ExtensionManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RExtensionManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExtensionManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ExtensionManager+EventDispatcher m_EventDispatcher
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RExtensionManager() : base("UnityEditor.PackageManager.UI.Internal.ExtensionManager")
-        {
-        }
-
-        public RExtensionManager(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ExtensionManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RExtensionManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExtensionManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SendPackageSelectionChangedEvent(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

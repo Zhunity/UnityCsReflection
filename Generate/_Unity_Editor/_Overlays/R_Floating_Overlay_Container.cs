@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class RFloatingOverlayContainer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.FloatingOverlayContainer");
+            }
+        }
+
+        public RFloatingOverlayContainer() : base("UnityEditor.Overlays.FloatingOverlayContainer")
+        {
+        }
+
+        public RFloatingOverlayContainer(System.Object instance) : base("UnityEditor.Overlays.FloatingOverlayContainer")
+		{
+            SetInstance(instance);
+		}
+
+        public RFloatingOverlayContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFloatingOverlayContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags m_Flags
@@ -3771,23 +3796,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public RFloatingOverlayContainer() : base("UnityEditor.Overlays.FloatingOverlayContainer")
-        {
-        }
-
-        public RFloatingOverlayContainer(System.Object instance) : base("UnityEditor.Overlays.FloatingOverlayContainer")
-		{
-            SetInstance(instance);
-		}
-
-        public RFloatingOverlayContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFloatingOverlayContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsOverlayLayoutSupported(UnityEditor.Overlays.Layout @requested)
         {

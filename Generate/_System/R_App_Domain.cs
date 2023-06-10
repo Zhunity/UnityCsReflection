@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAppDomain : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AppDomain);
+            }
+        }
+
+        public RAppDomain() : base("System.AppDomain")
+        {
+        }
+
+        public RAppDomain(System.Object instance) : base("System.AppDomain")
+		{
+            SetInstance(instance);
+		}
+
+        public RAppDomain(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAppDomain(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.AssemblyLoadEventHandler AssemblyLoad
@@ -3227,23 +3252,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAppDomain() : base("System.AppDomain")
-        {
-        }
-
-        public RAppDomain(System.Object instance) : base("System.AppDomain")
-		{
-            SetInstance(instance);
-		}
-
-        public RAppDomain(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAppDomain(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsAppXModel()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIStylePropertyAnimations : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IStylePropertyAnimations");
+            }
+        }
+
+        public RIStylePropertyAnimations() : base("UnityEngine.UIElements.IStylePropertyAnimations")
+        {
+        }
+
+        public RIStylePropertyAnimations(System.Object instance) : base("UnityEngine.UIElements.IStylePropertyAnimations")
+		{
+            SetInstance(instance);
+		}
+
+        public RIStylePropertyAnimations(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIStylePropertyAnimations(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 runningAnimationCount
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIStylePropertyAnimations() : base("UnityEngine.UIElements.IStylePropertyAnimations")
-        {
-        }
-
-        public RIStylePropertyAnimations(System.Object instance) : base("UnityEngine.UIElements.IStylePropertyAnimations")
-		{
-            SetInstance(instance);
-		}
-
-        public RIStylePropertyAnimations(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIStylePropertyAnimations(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Start(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, System.Single @from, System.Single @to, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {

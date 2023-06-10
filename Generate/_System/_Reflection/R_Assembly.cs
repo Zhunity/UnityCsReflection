@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RAssembly : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Assembly);
+            }
+        }
+
+        public RAssembly() : base("System.Reflection.Assembly")
+        {
+        }
+
+        public RAssembly(System.Object instance) : base("System.Reflection.Assembly")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssembly(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssembly(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
@@ -1803,23 +1828,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RAssembly() : base("System.Reflection.Assembly")
-        {
-        }
-
-        public RAssembly(System.Object instance) : base("System.Reflection.Assembly")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssembly(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssembly(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.Policy.Evidence UnprotectedGetEvidence()
         {

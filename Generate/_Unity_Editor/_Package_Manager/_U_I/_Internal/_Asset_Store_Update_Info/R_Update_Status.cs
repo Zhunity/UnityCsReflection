@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpdateStatus : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo+UpdateStatus");
+            }
+        }
+
+        public RUpdateStatus() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo+UpdateStatus")
+        {
+        }
+
+        public RUpdateStatus(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo+UpdateStatus")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpdateStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpdateStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -301,23 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpdateStatus() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo+UpdateStatus")
-        {
-        }
-
-        public RUpdateStatus(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo+UpdateStatus")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpdateStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpdateStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

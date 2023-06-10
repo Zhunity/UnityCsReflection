@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RVarEnum : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.VarEnum);
+            }
+        }
+
+        public RVarEnum() : base("System.Runtime.InteropServices.VarEnum")
+        {
+        }
+
+        public RVarEnum(System.Object instance) : base("System.Runtime.InteropServices.VarEnum")
+		{
+            SetInstance(instance);
+		}
+
+        public RVarEnum(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVarEnum(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -939,23 +964,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RVarEnum() : base("System.Runtime.InteropServices.VarEnum")
-        {
-        }
-
-        public RVarEnum(System.Object instance) : base("System.Runtime.InteropServices.VarEnum")
-		{
-            SetInstance(instance);
-		}
-
-        public RVarEnum(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVarEnum(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

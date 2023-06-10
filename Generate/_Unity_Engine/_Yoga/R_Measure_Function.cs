@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RMeasureFunction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.MeasureFunction");
+            }
+        }
+
+        public RMeasureFunction() : base("UnityEngine.Yoga.MeasureFunction")
+        {
+        }
+
+        public RMeasureFunction(System.Object instance) : base("UnityEngine.Yoga.MeasureFunction")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeasureFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeasureFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RMeasureFunction() : base("UnityEngine.Yoga.MeasureFunction")
-        {
-        }
-
-        public RMeasureFunction(System.Object instance) : base("UnityEngine.Yoga.MeasureFunction")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeasureFunction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeasureFunction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize Invoke(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @width, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @widthMode, System.Single @height, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
         {

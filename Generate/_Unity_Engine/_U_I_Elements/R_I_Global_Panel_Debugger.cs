@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIGlobalPanelDebugger : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IGlobalPanelDebugger");
+            }
+        }
+
+        public RIGlobalPanelDebugger() : base("UnityEngine.UIElements.IGlobalPanelDebugger")
+        {
+        }
+
+        public RIGlobalPanelDebugger(System.Object instance) : base("UnityEngine.UIElements.IGlobalPanelDebugger")
+		{
+            SetInstance(instance);
+		}
+
+        public RIGlobalPanelDebugger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIGlobalPanelDebugger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean InterceptMouseEvent(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.IMouseEvent)
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIGlobalPanelDebugger() : base("UnityEngine.UIElements.IGlobalPanelDebugger")
-        {
-        }
-
-        public RIGlobalPanelDebugger(System.Object instance) : base("UnityEngine.UIElements.IGlobalPanelDebugger")
-		{
-            SetInstance(instance);
-		}
-
-        public RIGlobalPanelDebugger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIGlobalPanelDebugger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean InterceptMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
         {

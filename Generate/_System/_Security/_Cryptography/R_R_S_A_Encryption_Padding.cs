@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RRSAEncryptionPadding : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.RSAEncryptionPadding);
+            }
+        }
+
+        public RRSAEncryptionPadding() : base("System.Security.Cryptography.RSAEncryptionPadding")
+        {
+        }
+
+        public RRSAEncryptionPadding(System.Object instance) : base("System.Security.Cryptography.RSAEncryptionPadding")
+		{
+            SetInstance(instance);
+		}
+
+        public RRSAEncryptionPadding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRSAEncryptionPadding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Cryptography.RSAEncryptionPadding s_pkcs1
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RRSAEncryptionPadding() : base("System.Security.Cryptography.RSAEncryptionPadding")
-        {
-        }
-
-        public RRSAEncryptionPadding(System.Object instance) : base("System.Security.Cryptography.RSAEncryptionPadding")
-		{
-            SetInstance(instance);
-		}
-
-        public RRSAEncryptionPadding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRSAEncryptionPadding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Security.Cryptography.RSAEncryptionPadding CreateOaep(System.Security.Cryptography.HashAlgorithmName @hashAlgorithm)
         {

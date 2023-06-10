@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RApplicationProxy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ApplicationProxy");
+            }
+        }
+
+        public RApplicationProxy() : base("UnityEditor.PackageManager.UI.Internal.ApplicationProxy")
+        {
+        }
+
+        public RApplicationProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ApplicationProxy")
+		{
+            SetInstance(instance);
+		}
+
+        public RApplicationProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RApplicationProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] onInternetReachabilityChange
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RApplicationProxy() : base("UnityEditor.PackageManager.UI.Internal.ApplicationProxy")
-        {
-        }
-
-        public RApplicationProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ApplicationProxy")
-		{
-            SetInstance(instance);
-		}
-
-        public RApplicationProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RApplicationProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnEnable()
         {

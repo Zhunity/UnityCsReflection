@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RWaitHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.WaitHandle);
+            }
+        }
+
+        public RWaitHandle() : base("System.Threading.WaitHandle")
+        {
+        }
+
+        public RWaitHandle(System.Object instance) : base("System.Threading.WaitHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RWaitHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWaitHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 WaitTimeout
@@ -971,23 +996,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RWaitHandle() : base("System.Threading.WaitHandle")
-        {
-        }
-
-        public RWaitHandle(System.Object instance) : base("System.Threading.WaitHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RWaitHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWaitHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RCubemap : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Cubemap);
+            }
+        }
+
+        public RCubemap() : base("UnityEngine.Cubemap")
+        {
+        }
+
+        public RCubemap(System.Object instance) : base("UnityEngine.Cubemap")
+		{
+            SetInstance(instance);
+		}
+
+        public RCubemap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCubemap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextureFormat format
@@ -1307,23 +1332,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RCubemap() : base("UnityEngine.Cubemap")
-        {
-        }
-
-        public RCubemap(System.Object instance) : base("UnityEngine.Cubemap")
-		{
-            SetInstance(instance);
-		}
-
-        public RCubemap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCubemap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean Internal_CreateImpl(UnityEngine.Cubemap @mono, System.Int32 @ext, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex)
         {

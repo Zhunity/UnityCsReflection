@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RMonoTypeInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.MonoTypeInfo");
+            }
+        }
+
+        public RMonoTypeInfo() : base("System.MonoTypeInfo")
+        {
+        }
+
+        public RMonoTypeInfo(System.Object instance) : base("System.MonoTypeInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoTypeInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoTypeInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String full_name
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RMonoTypeInfo() : base("System.MonoTypeInfo")
-        {
-        }
-
-        public RMonoTypeInfo(System.Object instance) : base("System.MonoTypeInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoTypeInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoTypeInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

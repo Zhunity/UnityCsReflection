@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 	/// </summary>
     public partial class RDataType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.DataType");
+            }
+        }
+
+        public RDataType() : base("UnityEngine.UIElements.StyleSheets.Syntax.DataType")
+        {
+        }
+
+        public RDataType(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.DataType")
+		{
+            SetInstance(instance);
+		}
+
+        public RDataType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDataType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 			}
 		}
 
-
-        public RDataType() : base("UnityEngine.UIElements.StyleSheets.Syntax.DataType")
-        {
-        }
-
-        public RDataType(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.DataType")
-		{
-            SetInstance(instance);
-		}
-
-        public RDataType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDataType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

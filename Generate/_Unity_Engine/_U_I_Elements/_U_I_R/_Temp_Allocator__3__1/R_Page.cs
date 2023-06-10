@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RPage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TempAllocator`1+Page");
+            }
+        }
+
+        public RPage() : base("UnityEngine.UIElements.UIR.TempAllocator`1+Page")
+        {
+        }
+
+        public RPage(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1+Page")
+		{
+            SetInstance(instance);
+		}
+
+        public RPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[T] array
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RPage() : base("UnityEngine.UIElements.UIR.TempAllocator`1+Page")
-        {
-        }
-
-        public RPage(System.Object instance) : base("UnityEngine.UIElements.UIR.TempAllocator`1+Page")
-		{
-            SetInstance(instance);
-		}
-
-        public RPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

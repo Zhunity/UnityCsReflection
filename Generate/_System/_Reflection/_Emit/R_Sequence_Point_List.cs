@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RSequencePointList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.SequencePointList");
+            }
+        }
+
+        public RSequencePointList() : base("System.Reflection.Emit.SequencePointList")
+        {
+        }
+
+        public RSequencePointList(System.Object instance) : base("System.Reflection.Emit.SequencePointList")
+		{
+            SetInstance(instance);
+		}
+
+        public RSequencePointList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSequencePointList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Diagnostics.SymbolStore.ISymbolDocumentWriter doc
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RSequencePointList() : base("System.Reflection.Emit.SequencePointList")
-        {
-        }
-
-        public RSequencePointList(System.Object instance) : base("System.Reflection.Emit.SequencePointList")
-		{
-            SetInstance(instance);
-		}
-
-        public RSequencePointList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSequencePointList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32[] GetOffsets()
         {

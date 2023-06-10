@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVisualElementAsset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAsset");
+            }
+        }
+
+        public RVisualElementAsset() : base("UnityEngine.UIElements.VisualElementAsset")
+        {
+        }
+
+        public RVisualElementAsset(System.Object instance) : base("UnityEngine.UIElements.VisualElementAsset")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualElementAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualElementAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Name
@@ -555,23 +580,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVisualElementAsset() : base("UnityEngine.UIElements.VisualElementAsset")
-        {
-        }
-
-        public RVisualElementAsset(System.Object instance) : base("UnityEngine.UIElements.VisualElementAsset")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualElementAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualElementAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnBeforeSerialize()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RISelectableItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ISelectableItem");
+            }
+        }
+
+        public RISelectableItem() : base("UnityEditor.PackageManager.UI.Internal.ISelectableItem")
+        {
+        }
+
+        public RISelectableItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ISelectableItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RISelectableItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RISelectableItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPackage package
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RISelectableItem() : base("UnityEditor.PackageManager.UI.Internal.ISelectableItem")
-        {
-        }
-
-        public RISelectableItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.ISelectableItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RISelectableItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RISelectableItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

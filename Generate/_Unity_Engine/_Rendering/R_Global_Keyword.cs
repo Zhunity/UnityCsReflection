@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RGlobalKeyword : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.GlobalKeyword);
+            }
+        }
+
+        public RGlobalKeyword() : base("UnityEngine.Rendering.GlobalKeyword")
+        {
+        }
+
+        public RGlobalKeyword(System.Object instance) : base("UnityEngine.Rendering.GlobalKeyword")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlobalKeyword(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlobalKeyword(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Name
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RGlobalKeyword() : base("UnityEngine.Rendering.GlobalKeyword")
-        {
-        }
-
-        public RGlobalKeyword(System.Object instance) : base("UnityEngine.Rendering.GlobalKeyword")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlobalKeyword(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlobalKeyword(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.UInt32 GetGlobalKeywordCount()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 	/// </summary>
     public partial class RGlyph : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Glyph);
+            }
+        }
+
+        public RGlyph() : base("UnityEngine.TextCore.Glyph")
+        {
+        }
+
+        public RGlyph(System.Object instance) : base("UnityEngine.TextCore.Glyph")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlyph(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlyph(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 m_Index
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			}
 		}
 
-
-        public RGlyph() : base("UnityEngine.TextCore.Glyph")
-        {
-        }
-
-        public RGlyph(System.Object instance) : base("UnityEngine.TextCore.Glyph")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlyph(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlyph(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Compare(UnityEngine.TextCore.Glyph @other)
         {

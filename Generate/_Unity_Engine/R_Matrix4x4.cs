@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMatrix4x4 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Matrix4x4);
+            }
+        }
+
+        public RMatrix4x4() : base("UnityEngine.Matrix4x4")
+        {
+        }
+
+        public RMatrix4x4(System.Object instance) : base("UnityEngine.Matrix4x4")
+		{
+            SetInstance(instance);
+		}
+
+        public RMatrix4x4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMatrix4x4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m00
@@ -1371,23 +1396,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMatrix4x4() : base("UnityEngine.Matrix4x4")
-        {
-        }
-
-        public RMatrix4x4(System.Object instance) : base("UnityEngine.Matrix4x4")
-		{
-            SetInstance(instance);
-		}
-
-        public RMatrix4x4(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMatrix4x4(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Quaternion GetRotation()
         {

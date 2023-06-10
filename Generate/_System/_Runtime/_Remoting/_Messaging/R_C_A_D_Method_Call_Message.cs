@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RCADMethodCallMessage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.CADMethodCallMessage");
+            }
+        }
+
+        public RCADMethodCallMessage() : base("System.Runtime.Remoting.Messaging.CADMethodCallMessage")
+        {
+        }
+
+        public RCADMethodCallMessage(System.Object instance) : base("System.Runtime.Remoting.Messaging.CADMethodCallMessage")
+		{
+            SetInstance(instance);
+		}
+
+        public RCADMethodCallMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCADMethodCallMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String _uri
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RCADMethodCallMessage() : base("System.Runtime.Remoting.Messaging.CADMethodCallMessage")
-        {
-        }
-
-        public RCADMethodCallMessage(System.Object instance) : base("System.Runtime.Remoting.Messaging.CADMethodCallMessage")
-		{
-            SetInstance(instance);
-		}
-
-        public RCADMethodCallMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCADMethodCallMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodCallMessage Create(System.Runtime.Remoting.Messaging.IMessage @callMsg)
         {

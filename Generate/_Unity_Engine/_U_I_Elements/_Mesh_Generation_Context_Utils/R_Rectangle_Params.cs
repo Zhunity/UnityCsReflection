@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRectangleParams : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams");
+            }
+        }
+
+        public RRectangleParams() : base("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams")
+        {
+        }
+
+        public RRectangleParams(System.Object instance) : base("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams")
+		{
+            SetInstance(instance);
+		}
+
+        public RRectangleParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRectangleParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rect rect
@@ -765,23 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRectangleParams() : base("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams")
-        {
-        }
-
-        public RRectangleParams(System.Object instance) : base("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams")
-		{
-            SetInstance(instance);
-		}
-
-        public RRectangleParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRectangleParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeSolid(UnityEngine.Rect @rect, UnityEngine.Color @color, UnityEngine.UIElements.ContextType @panelContext)
         {

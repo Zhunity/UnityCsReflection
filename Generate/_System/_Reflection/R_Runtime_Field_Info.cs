@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimeFieldInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo");
+            }
+        }
+
+        public RRuntimeFieldInfo() : base("System.Reflection.RuntimeFieldInfo")
+        {
+        }
+
+        public RRuntimeFieldInfo(System.Object instance) : base("System.Reflection.RuntimeFieldInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeFieldInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeFieldInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr klass
@@ -1163,23 +1188,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimeFieldInfo() : base("System.Reflection.RuntimeFieldInfo")
-        {
-        }
-
-        public RRuntimeFieldInfo(System.Object instance) : base("System.Reflection.RuntimeFieldInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeFieldInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeFieldInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RRuntimeType GetDeclaringTypeInternal()
         {

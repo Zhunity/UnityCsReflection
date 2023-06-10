@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RTaskContinuation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.Tasks.TaskContinuation");
+            }
+        }
+
+        public RTaskContinuation() : base("System.Threading.Tasks.TaskContinuation")
+        {
+        }
+
+        public RTaskContinuation(System.Object instance) : base("System.Threading.Tasks.TaskContinuation")
+		{
+            SetInstance(instance);
+		}
+
+        public RTaskContinuation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTaskContinuation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void Run(System.Threading.Tasks.Task, Boolean)
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RTaskContinuation() : base("System.Threading.Tasks.TaskContinuation")
-        {
-        }
-
-        public RTaskContinuation(System.Object instance) : base("System.Threading.Tasks.TaskContinuation")
-		{
-            SetInstance(instance);
-		}
-
-        public RTaskContinuation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTaskContinuation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Run(System.Threading.Tasks.Task @completedTask, System.Boolean @bCanInlineContinuationTask)
         {

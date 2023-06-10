@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RHideFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.HideFlags);
+            }
+        }
+
+        public RHideFlags() : base("UnityEngine.HideFlags")
+        {
+        }
+
+        public RHideFlags(System.Object instance) : base("UnityEngine.HideFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RHideFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHideFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RHideFlags() : base("UnityEngine.HideFlags")
-        {
-        }
-
-        public RHideFlags(System.Object instance) : base("UnityEngine.HideFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RHideFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHideFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

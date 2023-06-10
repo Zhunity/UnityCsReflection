@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAuditFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AuditFlags);
+            }
+        }
+
+        public RAuditFlags() : base("System.Security.AccessControl.AuditFlags")
+        {
+        }
+
+        public RAuditFlags(System.Object instance) : base("System.Security.AccessControl.AuditFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RAuditFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAuditFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAuditFlags() : base("System.Security.AccessControl.AuditFlags")
-        {
-        }
-
-        public RAuditFlags(System.Object instance) : base("System.Security.AccessControl.AuditFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RAuditFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAuditFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

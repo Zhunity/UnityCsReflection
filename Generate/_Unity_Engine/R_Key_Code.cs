@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RKeyCode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.KeyCode);
+            }
+        }
+
+        public RKeyCode() : base("UnityEngine.KeyCode")
+        {
+        }
+
+        public RKeyCode(System.Object instance) : base("UnityEngine.KeyCode")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeyCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeyCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -5483,23 +5508,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RKeyCode() : base("UnityEngine.KeyCode")
-        {
-        }
-
-        public RKeyCode(System.Object instance) : base("UnityEngine.KeyCode")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeyCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeyCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RCancellationCallbackInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.CancellationCallbackInfo");
+            }
+        }
+
+        public RCancellationCallbackInfo() : base("System.Threading.CancellationCallbackInfo")
+        {
+        }
+
+        public RCancellationCallbackInfo(System.Object instance) : base("System.Threading.CancellationCallbackInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RCancellationCallbackInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCancellationCallbackInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Object] Callback
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RCancellationCallbackInfo() : base("System.Threading.CancellationCallbackInfo")
-        {
-        }
-
-        public RCancellationCallbackInfo(System.Object instance) : base("System.Threading.CancellationCallbackInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RCancellationCallbackInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCancellationCallbackInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ExecuteCallback()
         {

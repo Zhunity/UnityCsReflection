@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RReflectionProbeMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.ReflectionProbeMode);
+            }
+        }
+
+        public RReflectionProbeMode() : base("UnityEngine.Rendering.ReflectionProbeMode")
+        {
+        }
+
+        public RReflectionProbeMode(System.Object instance) : base("UnityEngine.Rendering.ReflectionProbeMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RReflectionProbeMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReflectionProbeMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RReflectionProbeMode() : base("UnityEngine.Rendering.ReflectionProbeMode")
-        {
-        }
-
-        public RReflectionProbeMode(System.Object instance) : base("UnityEngine.Rendering.ReflectionProbeMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RReflectionProbeMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReflectionProbeMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

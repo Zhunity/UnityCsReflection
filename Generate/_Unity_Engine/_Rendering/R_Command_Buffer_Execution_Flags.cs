@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RCommandBufferExecutionFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.CommandBufferExecutionFlags);
+            }
+        }
+
+        public RCommandBufferExecutionFlags() : base("UnityEngine.Rendering.CommandBufferExecutionFlags")
+        {
+        }
+
+        public RCommandBufferExecutionFlags(System.Object instance) : base("UnityEngine.Rendering.CommandBufferExecutionFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RCommandBufferExecutionFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCommandBufferExecutionFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RCommandBufferExecutionFlags() : base("UnityEngine.Rendering.CommandBufferExecutionFlags")
-        {
-        }
-
-        public RCommandBufferExecutionFlags(System.Object instance) : base("UnityEngine.Rendering.CommandBufferExecutionFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RCommandBufferExecutionFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCommandBufferExecutionFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

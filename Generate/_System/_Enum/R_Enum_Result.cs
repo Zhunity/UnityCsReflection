@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class REnumResult : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Enum+EnumResult");
+            }
+        }
+
+        public REnumResult() : base("System.Enum+EnumResult")
+        {
+        }
+
+        public REnumResult(System.Object instance) : base("System.Enum+EnumResult")
+		{
+            SetInstance(instance);
+		}
+
+        public REnumResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnumResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object parsedEnum
@@ -301,23 +326,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public REnumResult() : base("System.Enum+EnumResult")
-        {
-        }
-
-        public REnumResult(System.Object instance) : base("System.Enum+EnumResult")
-		{
-            SetInstance(instance);
-		}
-
-        public REnumResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnumResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(System.Boolean @canMethodThrow)
         {

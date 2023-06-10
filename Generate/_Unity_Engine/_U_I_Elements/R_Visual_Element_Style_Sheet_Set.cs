@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVisualElementStyleSheetSet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.VisualElementStyleSheetSet);
+            }
+        }
+
+        public RVisualElementStyleSheetSet() : base("UnityEngine.UIElements.VisualElementStyleSheetSet")
+        {
+        }
+
+        public RVisualElementStyleSheetSet(System.Object instance) : base("UnityEngine.UIElements.VisualElementStyleSheetSet")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualElementStyleSheetSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualElementStyleSheetSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_Element
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVisualElementStyleSheetSet() : base("UnityEngine.UIElements.VisualElementStyleSheetSet")
-        {
-        }
-
-        public RVisualElementStyleSheetSet(System.Object instance) : base("UnityEngine.UIElements.VisualElementStyleSheetSet")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualElementStyleSheetSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualElementStyleSheetSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(UnityEngine.UIElements.StyleSheet @styleSheet)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RSafeSerializationManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Serialization.SafeSerializationManager");
+            }
+        }
+
+        public RSafeSerializationManager() : base("System.Runtime.Serialization.SafeSerializationManager")
+        {
+        }
+
+        public RSafeSerializationManager(System.Object instance) : base("System.Runtime.Serialization.SafeSerializationManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafeSerializationManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafeSerializationManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			}
 		}
 
-
-        public RSafeSerializationManager() : base("System.Runtime.Serialization.SafeSerializationManager")
-        {
-        }
-
-        public RSafeSerializationManager(System.Object instance) : base("System.Runtime.Serialization.SafeSerializationManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafeSerializationManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafeSerializationManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CompleteSerialization(System.Object @serializedObject, System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

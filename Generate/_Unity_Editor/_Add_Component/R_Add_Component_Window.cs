@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 	/// </summary>
     public partial class RAddComponentWindow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.AddComponent.AddComponentWindow");
+            }
+        }
+
+        public RAddComponentWindow() : base("UnityEditor.AddComponent.AddComponentWindow")
+        {
+        }
+
+        public RAddComponentWindow(System.Object instance) : base("UnityEditor.AddComponent.AddComponentWindow")
+		{
+            SetInstance(instance);
+		}
+
+        public RAddComponentWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAddComponentWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.IMGUI.Controls.AdvancedDropdownWindow] windowClosed
@@ -2187,23 +2212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 			}
 		}
 
-
-        public RAddComponentWindow() : base("UnityEditor.AddComponent.AddComponentWindow")
-        {
-        }
-
-        public RAddComponentWindow(System.Object instance) : base("UnityEditor.AddComponent.AddComponentWindow")
-		{
-            SetInstance(instance);
-		}
-
-        public RAddComponentWindow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAddComponentWindow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean Show(UnityEngine.Rect @rect, UnityEngine.GameObject[] @gos)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RExceptionMessageKind : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Exception+ExceptionMessageKind");
+            }
+        }
+
+        public RExceptionMessageKind() : base("System.Exception+ExceptionMessageKind")
+        {
+        }
+
+        public RExceptionMessageKind(System.Object instance) : base("System.Exception+ExceptionMessageKind")
+		{
+            SetInstance(instance);
+		}
+
+        public RExceptionMessageKind(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExceptionMessageKind(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RExceptionMessageKind() : base("System.Exception+ExceptionMessageKind")
-        {
-        }
-
-        public RExceptionMessageKind(System.Object instance) : base("System.Exception+ExceptionMessageKind")
-		{
-            SetInstance(instance);
-		}
-
-        public RExceptionMessageKind(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExceptionMessageKind(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

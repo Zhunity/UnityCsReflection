@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RGUISlideGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.GUISlideGroup");
+            }
+        }
+
+        public RGUISlideGroup() : base("UnityEditor.GUISlideGroup")
+        {
+        }
+
+        public RGUISlideGroup(System.Object instance) : base("UnityEditor.GUISlideGroup")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUISlideGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUISlideGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.GUISlideGroup current
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RGUISlideGroup() : base("UnityEditor.GUISlideGroup")
-        {
-        }
-
-        public RGUISlideGroup(System.Object instance) : base("UnityEditor.GUISlideGroup")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUISlideGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUISlideGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Begin()
         {

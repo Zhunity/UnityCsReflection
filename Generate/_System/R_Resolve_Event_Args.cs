@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RResolveEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ResolveEventArgs);
+            }
+        }
+
+        public RResolveEventArgs() : base("System.ResolveEventArgs")
+        {
+        }
+
+        public RResolveEventArgs(System.Object instance) : base("System.ResolveEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RResolveEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RResolveEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <Name>k__BackingField
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RResolveEventArgs() : base("System.ResolveEventArgs")
-        {
-        }
-
-        public RResolveEventArgs(System.Object instance) : base("System.ResolveEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RResolveEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RResolveEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

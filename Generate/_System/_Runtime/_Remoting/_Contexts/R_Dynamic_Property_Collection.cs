@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	/// </summary>
     public partial class RDynamicPropertyCollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Contexts.DynamicPropertyCollection");
+            }
+        }
+
+        public RDynamicPropertyCollection() : base("System.Runtime.Remoting.Contexts.DynamicPropertyCollection")
+        {
+        }
+
+        public RDynamicPropertyCollection(System.Object instance) : base("System.Runtime.Remoting.Contexts.DynamicPropertyCollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RDynamicPropertyCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDynamicPropertyCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.ArrayList _properties
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			}
 		}
 
-
-        public RDynamicPropertyCollection() : base("System.Runtime.Remoting.Contexts.DynamicPropertyCollection")
-        {
-        }
-
-        public RDynamicPropertyCollection(System.Object instance) : base("System.Runtime.Remoting.Contexts.DynamicPropertyCollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RDynamicPropertyCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDynamicPropertyCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean RegisterDynamicProperty(System.Runtime.Remoting.Contexts.IDynamicProperty @prop)
         {

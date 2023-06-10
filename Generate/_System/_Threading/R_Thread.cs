@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RThread : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Thread);
+            }
+        }
+
+        public RThread() : base("System.Threading.Thread")
+        {
+        }
+
+        public RThread(System.Object instance) : base("System.Threading.Thread")
+		{
+            SetInstance(instance);
+		}
+
+        public RThread(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RThread(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.LocalDataStoreMgr s_LocalDataStoreMgr
@@ -2427,23 +2452,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RThread() : base("System.Threading.Thread")
-        {
-        }
-
-        public RThread(System.Object instance) : base("System.Threading.Thread")
-		{
-            SetInstance(instance);
-		}
-
-        public RThread(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RThread(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void AsyncLocalSetCurrentCulture(System.Threading.AsyncLocalValueChangedArgs<System.Globalization.CultureInfo> @args)
         {

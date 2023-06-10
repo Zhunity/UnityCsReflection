@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RExecuteHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler");
+            }
+        }
+
+        public RExecuteHandler() : base("UnityEditor.WindowAction+ExecuteHandler")
+        {
+        }
+
+        public RExecuteHandler(System.Object instance) : base("UnityEditor.WindowAction+ExecuteHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RExecuteHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExecuteHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RExecuteHandler() : base("UnityEditor.WindowAction+ExecuteHandler")
-        {
-        }
-
-        public RExecuteHandler(System.Object instance) : base("UnityEditor.WindowAction+ExecuteHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RExecuteHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExecuteHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEditor.EditorWindow @window, Hvak.Editor.Refleaction.RUnityEditor.RWindowAction @action)
         {

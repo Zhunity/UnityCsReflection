@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIEventHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IEventHandler);
+            }
+        }
+
+        public RIEventHandler() : base("UnityEngine.UIElements.IEventHandler")
+        {
+        }
+
+        public RIEventHandler(System.Object instance) : base("UnityEngine.UIElements.IEventHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RIEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void SendEvent(UnityEngine.UIElements.EventBase)
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIEventHandler() : base("UnityEngine.UIElements.IEventHandler")
-        {
-        }
-
-        public RIEventHandler(System.Object instance) : base("UnityEngine.UIElements.IEventHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RIEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SendEvent(UnityEngine.UIElements.EventBase @e)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RError : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.Error);
+            }
+        }
+
+        public RError() : base("UnityEditor.PackageManager.Error")
+        {
+        }
+
+        public RError(System.Object instance) : base("UnityEditor.PackageManager.Error")
+		{
+            SetInstance(instance);
+		}
+
+        public RError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeErrorCode m_ErrorCode
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RError() : base("UnityEditor.PackageManager.Error")
-        {
-        }
-
-        public RError(System.Object instance) : base("UnityEditor.PackageManager.Error")
-		{
-            SetInstance(instance);
-		}
-
-        public RError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

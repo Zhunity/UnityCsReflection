@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.CultureInfo+Data");
+            }
+        }
+
+        public RData() : base("System.Globalization.CultureInfo+Data")
+        {
+        }
+
+        public RData(System.Object instance) : base("System.Globalization.CultureInfo+Data")
+		{
+            SetInstance(instance);
+		}
+
+        public RData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 ansi
@@ -205,23 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RData() : base("System.Globalization.CultureInfo+Data")
-        {
-        }
-
-        public RData(System.Object instance) : base("System.Globalization.CultureInfo+Data")
-		{
-            SetInstance(instance);
-		}
-
-        public RData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

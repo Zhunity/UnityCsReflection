@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RKeyDownEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.KeyDownEvent);
+            }
+        }
+
+        public RKeyDownEvent() : base("UnityEngine.UIElements.KeyDownEvent")
+        {
+        }
+
+        public RKeyDownEvent(System.Object instance) : base("UnityEngine.UIElements.KeyDownEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeyDownEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeyDownEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -971,23 +996,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RKeyDownEvent() : base("UnityEngine.UIElements.KeyDownEvent")
-        {
-        }
-
-        public RKeyDownEvent(System.Object instance) : base("UnityEngine.UIElements.KeyDownEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeyDownEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeyDownEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetEquivalentImguiEvent(UnityEngine.Event @outImguiEvent)
         {

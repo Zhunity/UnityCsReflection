@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class REventInterests : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.EventInterests");
+            }
+        }
+
+        public REventInterests() : base("UnityEngine.EventInterests")
+        {
+        }
+
+        public REventInterests(System.Object instance) : base("UnityEngine.EventInterests")
+		{
+            SetInstance(instance);
+		}
+
+        public REventInterests(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventInterests(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <wantsMouseMove>k__BackingField
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public REventInterests() : base("UnityEngine.EventInterests")
-        {
-        }
-
-        public REventInterests(System.Object instance) : base("UnityEngine.EventInterests")
-		{
-            SetInstance(instance);
-		}
-
-        public REventInterests(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventInterests(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean WantsEvent(UnityEngine.EventType @type)
         {

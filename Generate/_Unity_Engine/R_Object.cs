@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Object);
+            }
+        }
+
+        public RObject() : base("UnityEngine.Object")
+        {
+        }
+
+        public RObject(System.Object instance) : base("UnityEngine.Object")
+		{
+            SetInstance(instance);
+		}
+
+        public RObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_CachedPtr
@@ -1275,23 +1300,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RObject() : base("UnityEngine.Object")
-        {
-        }
-
-        public RObject(System.Object instance) : base("UnityEngine.Object")
-		{
-            SetInstance(instance);
-		}
-
-        public RObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetInstanceID()
         {

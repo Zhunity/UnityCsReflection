@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RKeyboardNavigationOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.KeyboardNavigationOperation);
+            }
+        }
+
+        public RKeyboardNavigationOperation() : base("UnityEngine.UIElements.KeyboardNavigationOperation")
+        {
+        }
+
+        public RKeyboardNavigationOperation(System.Object instance) : base("UnityEngine.UIElements.KeyboardNavigationOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeyboardNavigationOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeyboardNavigationOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RKeyboardNavigationOperation() : base("UnityEngine.UIElements.KeyboardNavigationOperation")
-        {
-        }
-
-        public RKeyboardNavigationOperation(System.Object instance) : base("UnityEngine.UIElements.KeyboardNavigationOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeyboardNavigationOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeyboardNavigationOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

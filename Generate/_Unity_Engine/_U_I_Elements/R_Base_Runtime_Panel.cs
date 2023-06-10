@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBaseRuntimePanel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.BaseRuntimePanel");
+            }
+        }
+
+        public RBaseRuntimePanel() : base("UnityEngine.UIElements.BaseRuntimePanel")
+        {
+        }
+
+        public RBaseRuntimePanel(System.Object instance) : base("UnityEngine.UIElements.BaseRuntimePanel")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseRuntimePanel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseRuntimePanel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action destroyed
@@ -1803,23 +1828,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBaseRuntimePanel() : base("UnityEngine.UIElements.BaseRuntimePanel")
-        {
-        }
-
-        public RBaseRuntimePanel(System.Object instance) : base("UnityEngine.UIElements.BaseRuntimePanel")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseRuntimePanel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseRuntimePanel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose(System.Boolean @disposing)
         {

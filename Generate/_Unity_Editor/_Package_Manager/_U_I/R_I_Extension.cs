@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIExtension : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IExtension");
+            }
+        }
+
+        public RIExtension() : base("UnityEditor.PackageManager.UI.IExtension")
+        {
+        }
+
+        public RIExtension(System.Object instance) : base("UnityEditor.PackageManager.UI.IExtension")
+		{
+            SetInstance(instance);
+		}
+
+        public RIExtension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIExtension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 priority
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIExtension() : base("UnityEditor.PackageManager.UI.IExtension")
-        {
-        }
-
-        public RIExtension(System.Object instance) : base("UnityEditor.PackageManager.UI.IExtension")
-		{
-            SetInstance(instance);
-		}
-
-        public RIExtension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIExtension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

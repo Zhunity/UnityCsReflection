@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RAsyncGPUReadbackRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest);
+            }
+        }
+
+        public RAsyncGPUReadbackRequest() : base("UnityEngine.Rendering.AsyncGPUReadbackRequest")
+        {
+        }
+
+        public RAsyncGPUReadbackRequest(System.Object instance) : base("UnityEngine.Rendering.AsyncGPUReadbackRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RAsyncGPUReadbackRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAsyncGPUReadbackRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -683,23 +708,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RAsyncGPUReadbackRequest() : base("UnityEngine.Rendering.AsyncGPUReadbackRequest")
-        {
-        }
-
-        public RAsyncGPUReadbackRequest(System.Object instance) : base("UnityEngine.Rendering.AsyncGPUReadbackRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RAsyncGPUReadbackRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAsyncGPUReadbackRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Update()
         {

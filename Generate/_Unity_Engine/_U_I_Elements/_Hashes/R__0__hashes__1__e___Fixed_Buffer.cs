@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class R__0__hashes__1__e__FixedBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer");
+            }
+        }
+
+        public R__0__hashes__1__e__FixedBuffer() : base("UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer")
+        {
+        }
+
+        public R__0__hashes__1__e__FixedBuffer(System.Object instance) : base("UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public R__0__hashes__1__e__FixedBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public R__0__hashes__1__e__FixedBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 FixedElementField
@@ -125,23 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public R__0__hashes__1__e__FixedBuffer() : base("UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer")
-        {
-        }
-
-        public R__0__hashes__1__e__FixedBuffer(System.Object instance) : base("UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public R__0__hashes__1__e__FixedBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public R__0__hashes__1__e__FixedBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

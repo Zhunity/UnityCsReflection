@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMeasureMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+MeasureMode");
+            }
+        }
+
+        public RMeasureMode() : base("UnityEngine.UIElements.VisualElement+MeasureMode")
+        {
+        }
+
+        public RMeasureMode(System.Object instance) : base("UnityEngine.UIElements.VisualElement+MeasureMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeasureMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeasureMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMeasureMode() : base("UnityEngine.UIElements.VisualElement+MeasureMode")
-        {
-        }
-
-        public RMeasureMode(System.Object instance) : base("UnityEngine.UIElements.VisualElement+MeasureMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeasureMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeasureMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

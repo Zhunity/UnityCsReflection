@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RMonoReloadableIntPtr : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.MonoReloadableIntPtr");
+            }
+        }
+
+        public RMonoReloadableIntPtr() : base("UnityEditor.MonoReloadableIntPtr")
+        {
+        }
+
+        public RMonoReloadableIntPtr(System.Object instance) : base("UnityEditor.MonoReloadableIntPtr")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoReloadableIntPtr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoReloadableIntPtr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_IntPtr
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RMonoReloadableIntPtr() : base("UnityEditor.MonoReloadableIntPtr")
-        {
-        }
-
-        public RMonoReloadableIntPtr(System.Object instance) : base("UnityEditor.MonoReloadableIntPtr")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoReloadableIntPtr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoReloadableIntPtr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

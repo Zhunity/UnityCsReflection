@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Action);
+            }
+        }
+
+        public RAction() : base("System.Action")
+        {
+        }
+
+        public RAction(System.Object instance) : base("System.Action")
+		{
+            SetInstance(instance);
+		}
+
+        public RAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAction() : base("System.Action")
-        {
-        }
-
-        public RAction(System.Object instance) : base("System.Action")
-		{
-            SetInstance(instance);
-		}
-
-        public RAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke()
         {

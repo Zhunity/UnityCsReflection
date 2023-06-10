@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RLocalDataStore : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.LocalDataStore");
+            }
+        }
+
+        public RLocalDataStore() : base("System.LocalDataStore")
+        {
+        }
+
+        public RLocalDataStore(System.Object instance) : base("System.LocalDataStore")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalDataStore(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalDataStore(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.LocalDataStoreElement[] m_DataTable
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RLocalDataStore() : base("System.LocalDataStore")
-        {
-        }
-
-        public RLocalDataStore(System.Object instance) : base("System.LocalDataStore")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalDataStore(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalDataStore(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

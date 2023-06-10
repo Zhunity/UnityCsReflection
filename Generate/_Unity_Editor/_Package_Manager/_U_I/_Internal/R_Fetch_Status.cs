@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RFetchStatus : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.FetchStatus");
+            }
+        }
+
+        public RFetchStatus() : base("UnityEditor.PackageManager.UI.Internal.FetchStatus")
+        {
+        }
+
+        public RFetchStatus(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.FetchStatus")
+		{
+            SetInstance(instance);
+		}
+
+        public RFetchStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFetchStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String productId
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RFetchStatus() : base("UnityEditor.PackageManager.UI.Internal.FetchStatus")
-        {
-        }
-
-        public RFetchStatus(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.FetchStatus")
-		{
-            SetInstance(instance);
-		}
-
-        public RFetchStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFetchStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsFetchInProgress(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RFetchType @fetchType)
         {

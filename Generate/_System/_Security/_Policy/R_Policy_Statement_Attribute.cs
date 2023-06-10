@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RPolicyStatementAttribute : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.PolicyStatementAttribute);
+            }
+        }
+
+        public RPolicyStatementAttribute() : base("System.Security.Policy.PolicyStatementAttribute")
+        {
+        }
+
+        public RPolicyStatementAttribute(System.Object instance) : base("System.Security.Policy.PolicyStatementAttribute")
+		{
+            SetInstance(instance);
+		}
+
+        public RPolicyStatementAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPolicyStatementAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RPolicyStatementAttribute() : base("System.Security.Policy.PolicyStatementAttribute")
-        {
-        }
-
-        public RPolicyStatementAttribute(System.Object instance) : base("System.Security.Policy.PolicyStatementAttribute")
-		{
-            SetInstance(instance);
-		}
-
-        public RPolicyStatementAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPolicyStatementAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

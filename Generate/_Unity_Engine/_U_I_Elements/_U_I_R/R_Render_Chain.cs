@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RRenderChain : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChain");
+            }
+        }
+
+        public RRenderChain() : base("UnityEngine.UIElements.UIR.RenderChain")
+        {
+        }
+
+        public RRenderChain(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChain")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderChain(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderChain(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChainCommand m_FirstCommand
@@ -1499,23 +1524,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RRenderChain() : base("UnityEngine.UIElements.UIR.RenderChain")
-        {
-        }
-
-        public RRenderChain(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChain")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderChain(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderChain(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Constructor(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBaseVisualElementPanel @panelObj, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice @deviceObj, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RAtlasBase @atlas, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVectorImageManager @vectorImageMan)
         {

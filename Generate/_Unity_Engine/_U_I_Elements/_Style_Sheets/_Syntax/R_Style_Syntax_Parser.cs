@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 	/// </summary>
     public partial class RStyleSyntaxParser : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser");
+            }
+        }
+
+        public RStyleSyntaxParser() : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser")
+        {
+        }
+
+        public RStyleSyntaxParser(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleSyntaxParser(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleSyntaxParser(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.Syntax.Expression] m_ProcessExpressionList
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 			}
 		}
 
-
-        public RStyleSyntaxParser() : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser")
-        {
-        }
-
-        public RStyleSyntaxParser(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleSyntaxParser(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleSyntaxParser(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression Parse(System.String @syntax)
         {

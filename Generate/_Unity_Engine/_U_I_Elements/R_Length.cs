@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RLength : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Length);
+            }
+        }
+
+        public RLength() : base("UnityEngine.UIElements.Length")
+        {
+        }
+
+        public RLength(System.Object instance) : base("UnityEngine.UIElements.Length")
+		{
+            SetInstance(instance);
+		}
+
+        public RLength(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLength(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single k_MaxValue
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RLength() : base("UnityEngine.UIElements.Length")
-        {
-        }
-
-        public RLength(System.Object instance) : base("UnityEngine.UIElements.Length")
-		{
-            SetInstance(instance);
-		}
-
-        public RLength(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLength(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.Length Percent(System.Single @value)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RFunc<T1, T2, T3, T4, TResult> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Func<, , , , >);
+            }
+        }
+
+        public RFunc() : base("System.Func`5")
+        {
+        }
+
+        public RFunc(System.Object instance) : base("System.Func`5")
+		{
+            SetInstance(instance);
+		}
+
+        public RFunc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFunc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RFunc() : base("System.Func`5")
-        {
-        }
-
-        public RFunc(System.Object instance) : base("System.Func`5")
-		{
-            SetInstance(instance);
-		}
-
-        public RFunc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFunc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual TResult Invoke(T1 @arg1, T2 @arg2, T3 @arg3, T4 @arg4)
         {

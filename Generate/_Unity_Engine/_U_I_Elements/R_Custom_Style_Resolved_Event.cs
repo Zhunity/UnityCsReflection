@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RCustomStyleResolvedEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.CustomStyleResolvedEvent);
+            }
+        }
+
+        public RCustomStyleResolvedEvent() : base("UnityEngine.UIElements.CustomStyleResolvedEvent")
+        {
+        }
+
+        public RCustomStyleResolvedEvent(System.Object instance) : base("UnityEngine.UIElements.CustomStyleResolvedEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RCustomStyleResolvedEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCustomStyleResolvedEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.ICustomStyle customStyle
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RCustomStyleResolvedEvent() : base("UnityEngine.UIElements.CustomStyleResolvedEvent")
-        {
-        }
-
-        public RCustomStyleResolvedEvent(System.Object instance) : base("UnityEngine.UIElements.CustomStyleResolvedEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RCustomStyleResolvedEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCustomStyleResolvedEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

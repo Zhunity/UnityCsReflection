@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RDisableBatchingType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.DisableBatchingType");
+            }
+        }
+
+        public RDisableBatchingType() : base("UnityEngine.DisableBatchingType")
+        {
+        }
+
+        public RDisableBatchingType(System.Object instance) : base("UnityEngine.DisableBatchingType")
+		{
+            SetInstance(instance);
+		}
+
+        public RDisableBatchingType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDisableBatchingType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RDisableBatchingType() : base("UnityEngine.DisableBatchingType")
-        {
-        }
-
-        public RDisableBatchingType(System.Object instance) : base("UnityEngine.DisableBatchingType")
-		{
-            SetInstance(instance);
-		}
-
-        public RDisableBatchingType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDisableBatchingType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

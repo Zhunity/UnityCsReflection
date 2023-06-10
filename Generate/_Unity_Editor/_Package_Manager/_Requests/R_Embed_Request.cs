@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class REmbedRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.Requests.EmbedRequest);
+            }
+        }
+
+        public REmbedRequest() : base("UnityEditor.PackageManager.Requests.EmbedRequest")
+        {
+        }
+
+        public REmbedRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.EmbedRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public REmbedRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REmbedRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageInfo Result
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public REmbedRequest() : base("UnityEditor.PackageManager.Requests.EmbedRequest")
-        {
-        }
-
-        public REmbedRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.EmbedRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public REmbedRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REmbedRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEditor.PackageManager.PackageInfo GetResult()
         {

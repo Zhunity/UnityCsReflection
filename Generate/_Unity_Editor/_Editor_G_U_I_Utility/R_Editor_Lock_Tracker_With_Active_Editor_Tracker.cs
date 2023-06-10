@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class REditorLockTrackerWithActiveEditorTracker : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.EditorGUIUtility+EditorLockTrackerWithActiveEditorTracker");
+            }
+        }
+
+        public REditorLockTrackerWithActiveEditorTracker() : base("UnityEditor.EditorGUIUtility+EditorLockTrackerWithActiveEditorTracker")
+        {
+        }
+
+        public REditorLockTrackerWithActiveEditorTracker(System.Object instance) : base("UnityEditor.EditorGUIUtility+EditorLockTrackerWithActiveEditorTracker")
+		{
+            SetInstance(instance);
+		}
+
+        public REditorLockTrackerWithActiveEditorTracker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REditorLockTrackerWithActiveEditorTracker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.ActiveEditorTracker m_Tracker
@@ -237,23 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public REditorLockTrackerWithActiveEditorTracker() : base("UnityEditor.EditorGUIUtility+EditorLockTrackerWithActiveEditorTracker")
-        {
-        }
-
-        public REditorLockTrackerWithActiveEditorTracker(System.Object instance) : base("UnityEditor.EditorGUIUtility+EditorLockTrackerWithActiveEditorTracker")
-		{
-            SetInstance(instance);
-		}
-
-        public REditorLockTrackerWithActiveEditorTracker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REditorLockTrackerWithActiveEditorTracker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddItemsToMenu(UnityEditor.GenericMenu @menu, System.Boolean @disabled)
         {

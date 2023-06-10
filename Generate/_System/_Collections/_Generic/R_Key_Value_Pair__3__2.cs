@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RKeyValuePair<TKey, TValue> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.KeyValuePair<, >);
+            }
+        }
+
+        public RKeyValuePair() : base("System.Collections.Generic.KeyValuePair`2")
+        {
+        }
+
+        public RKeyValuePair(System.Object instance) : base("System.Collections.Generic.KeyValuePair`2")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeyValuePair(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeyValuePair(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// TKey key
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RKeyValuePair() : base("System.Collections.Generic.KeyValuePair`2")
-        {
-        }
-
-        public RKeyValuePair(System.Object instance) : base("System.Collections.Generic.KeyValuePair`2")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeyValuePair(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeyValuePair(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

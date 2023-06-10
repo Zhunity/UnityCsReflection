@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimeEventInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimeEventInfo");
+            }
+        }
+
+        public RRuntimeEventInfo() : base("System.Reflection.RuntimeEventInfo")
+        {
+        }
+
+        public RRuntimeEventInfo(System.Object instance) : base("System.Reflection.RuntimeEventInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeEventInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeEventInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr klass
@@ -779,23 +804,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimeEventInfo() : base("System.Reflection.RuntimeEventInfo")
-        {
-        }
-
-        public RRuntimeEventInfo(System.Object instance) : base("System.Reflection.RuntimeEventInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeEventInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeEventInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void get_event_info(Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeEventInfo @ev, out Hvak.Editor.Refleaction.RSystem.RReflection.RMonoEventInfo @info)
         {

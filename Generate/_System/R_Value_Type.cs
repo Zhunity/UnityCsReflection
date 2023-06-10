@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RValueType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ValueType);
+            }
+        }
+
+        public RValueType() : base("System.ValueType")
+        {
+        }
+
+        public RValueType(System.Object instance) : base("System.ValueType")
+		{
+            SetInstance(instance);
+		}
+
+        public RValueType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValueType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean InternalEquals(System.Object, System.Object, System.Object[] ByRef)
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RValueType() : base("System.ValueType")
-        {
-        }
-
-        public RValueType(System.Object instance) : base("System.ValueType")
-		{
-            SetInstance(instance);
-		}
-
-        public RValueType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValueType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean InternalEquals(System.Object @o1, System.Object @o2, out System.Object[] @fields)
         {

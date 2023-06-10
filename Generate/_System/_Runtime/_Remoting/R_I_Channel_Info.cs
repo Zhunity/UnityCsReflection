@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 	/// </summary>
     public partial class RIChannelInfo : RMember //
     {
-
-		/// <summary>
-		/// System.Object[] ChannelData
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> r_PChannelData;
-		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> RPChannelData
-		{
-			get
-			{
-				if(r_PChannelData == null)
-				{
-					r_PChannelData = new(this, "ChannelData", -1);
-				}
-				return r_PChannelData;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.IChannelInfo);
+            }
+        }
 
         public RIChannelInfo() : base("System.Runtime.Remoting.IChannelInfo")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 		 public RIChannelInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.Object[] ChannelData
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> r_PChannelData;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RObject> RPChannelData
+		{
+			get
+			{
+				if(r_PChannelData == null)
+				{
+					r_PChannelData = new(this, "ChannelData", -1);
+				}
+				return r_PChannelData;
+			}
+		}
+
 
     }
 }

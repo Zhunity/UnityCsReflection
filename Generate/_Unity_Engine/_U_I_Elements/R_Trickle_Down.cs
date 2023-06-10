@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTrickleDown : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TrickleDown);
+            }
+        }
+
+        public RTrickleDown() : base("UnityEngine.UIElements.TrickleDown")
+        {
+        }
+
+        public RTrickleDown(System.Object instance) : base("UnityEngine.UIElements.TrickleDown")
+		{
+            SetInstance(instance);
+		}
+
+        public RTrickleDown(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTrickleDown(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTrickleDown() : base("UnityEngine.UIElements.TrickleDown")
-        {
-        }
-
-        public RTrickleDown(System.Object instance) : base("UnityEngine.UIElements.TrickleDown")
-		{
-            SetInstance(instance);
-		}
-
-        public RTrickleDown(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTrickleDown(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPageSelection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageSelection");
+            }
+        }
+
+        public RPageSelection() : base("UnityEditor.PackageManager.UI.Internal.PageSelection")
+        {
+        }
+
+        public RPageSelection(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageSelection")
+		{
+            SetInstance(instance);
+		}
+
+        public RPageSelection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPageSelection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair] m_PreviousSelections
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPageSelection() : base("UnityEditor.PackageManager.UI.Internal.PageSelection")
-        {
-        }
-
-        public RPageSelection(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageSelection")
-		{
-            SetInstance(instance);
-		}
-
-        public RPageSelection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPageSelection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean SetNewSelection(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair> @packageAndVersionIds)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RList<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.List<>);
+            }
+        }
+
+        public RList() : base("System.Collections.Generic.List`1")
+        {
+        }
+
+        public RList(System.Object instance) : base("System.Collections.Generic.List`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 DefaultCapacity
@@ -1275,23 +1300,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RList() : base("System.Collections.Generic.List`1")
-        {
-        }
-
-        public RList(System.Object instance) : base("System.Collections.Generic.List`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsCompatibleObject(System.Object @value)
         {

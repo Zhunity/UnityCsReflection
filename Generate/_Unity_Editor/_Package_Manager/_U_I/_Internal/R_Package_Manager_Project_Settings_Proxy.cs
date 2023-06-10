@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageManagerProjectSettingsProxy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettingsProxy");
+            }
+        }
+
+        public RPackageManagerProjectSettingsProxy() : base("UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettingsProxy")
+        {
+        }
+
+        public RPackageManagerProjectSettingsProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettingsProxy")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageManagerProjectSettingsProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageManagerProjectSettingsProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Boolean] onEnablePreReleasePackagesChanged
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageManagerProjectSettingsProxy() : base("UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettingsProxy")
-        {
-        }
-
-        public RPackageManagerProjectSettingsProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageManagerProjectSettingsProxy")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageManagerProjectSettingsProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageManagerProjectSettingsProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetRegistries(UnityEditor.PackageManager.RegistryInfo[] @registries)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RGuidParseThrowStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Guid+GuidParseThrowStyle");
+            }
+        }
+
+        public RGuidParseThrowStyle() : base("System.Guid+GuidParseThrowStyle")
+        {
+        }
+
+        public RGuidParseThrowStyle(System.Object instance) : base("System.Guid+GuidParseThrowStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RGuidParseThrowStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGuidParseThrowStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RGuidParseThrowStyle() : base("System.Guid+GuidParseThrowStyle")
-        {
-        }
-
-        public RGuidParseThrowStyle(System.Object instance) : base("System.Guid+GuidParseThrowStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RGuidParseThrowStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGuidParseThrowStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

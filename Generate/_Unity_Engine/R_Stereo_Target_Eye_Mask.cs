@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RStereoTargetEyeMask : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.StereoTargetEyeMask);
+            }
+        }
+
+        public RStereoTargetEyeMask() : base("UnityEngine.StereoTargetEyeMask")
+        {
+        }
+
+        public RStereoTargetEyeMask(System.Object instance) : base("UnityEngine.StereoTargetEyeMask")
+		{
+            SetInstance(instance);
+		}
+
+        public RStereoTargetEyeMask(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStereoTargetEyeMask(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RStereoTargetEyeMask() : base("UnityEngine.StereoTargetEyeMask")
-        {
-        }
-
-        public RStereoTargetEyeMask(System.Object instance) : base("UnityEngine.StereoTargetEyeMask")
-		{
-            SetInstance(instance);
-		}
-
-        public RStereoTargetEyeMask(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStereoTargetEyeMask(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

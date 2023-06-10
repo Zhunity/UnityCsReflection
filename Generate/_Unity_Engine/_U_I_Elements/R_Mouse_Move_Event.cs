@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMouseMoveEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MouseMoveEvent);
+            }
+        }
+
+        public RMouseMoveEvent() : base("UnityEngine.UIElements.MouseMoveEvent")
+        {
+        }
+
+        public RMouseMoveEvent(System.Object instance) : base("UnityEngine.UIElements.MouseMoveEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RMouseMoveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMouseMoveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -1035,23 +1060,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMouseMoveEvent() : base("UnityEngine.UIElements.MouseMoveEvent")
-        {
-        }
-
-        public RMouseMoveEvent(System.Object instance) : base("UnityEngine.UIElements.MouseMoveEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RMouseMoveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMouseMoveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

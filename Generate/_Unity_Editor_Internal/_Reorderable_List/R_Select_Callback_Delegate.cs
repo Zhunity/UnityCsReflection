@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RSelectCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+SelectCallbackDelegate");
+            }
+        }
+
+        public RSelectCallbackDelegate() : base("UnityEditorInternal.ReorderableList+SelectCallbackDelegate")
+        {
+        }
+
+        public RSelectCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+SelectCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RSelectCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSelectCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RSelectCallbackDelegate() : base("UnityEditorInternal.ReorderableList+SelectCallbackDelegate")
-        {
-        }
-
-        public RSelectCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+SelectCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RSelectCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSelectCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEditorInternal.ReorderableList @list)
         {

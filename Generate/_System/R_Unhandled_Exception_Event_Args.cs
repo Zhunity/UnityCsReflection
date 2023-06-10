@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RUnhandledExceptionEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.UnhandledExceptionEventArgs);
+            }
+        }
+
+        public RUnhandledExceptionEventArgs() : base("System.UnhandledExceptionEventArgs")
+        {
+        }
+
+        public RUnhandledExceptionEventArgs(System.Object instance) : base("System.UnhandledExceptionEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnhandledExceptionEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnhandledExceptionEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object _exception
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RUnhandledExceptionEventArgs() : base("System.UnhandledExceptionEventArgs")
-        {
-        }
-
-        public RUnhandledExceptionEventArgs(System.Object instance) : base("System.UnhandledExceptionEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnhandledExceptionEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnhandledExceptionEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

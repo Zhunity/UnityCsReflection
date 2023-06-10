@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RLocalDataStoreMgr : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.LocalDataStoreMgr");
+            }
+        }
+
+        public RLocalDataStoreMgr() : base("System.LocalDataStoreMgr")
+        {
+        }
+
+        public RLocalDataStoreMgr(System.Object instance) : base("System.LocalDataStoreMgr")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalDataStoreMgr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalDataStoreMgr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 InitialSlotTableSize
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RLocalDataStoreMgr() : base("System.LocalDataStoreMgr")
-        {
-        }
-
-        public RLocalDataStoreMgr(System.Object instance) : base("System.LocalDataStoreMgr")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalDataStoreMgr(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalDataStoreMgr(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder CreateLocalDataStore()
         {

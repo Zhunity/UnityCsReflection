@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RPermissionSet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.PermissionSet);
+            }
+        }
+
+        public RPermissionSet() : base("System.Security.PermissionSet")
+        {
+        }
+
+        public RPermissionSet(System.Object instance) : base("System.Security.PermissionSet")
+		{
+            SetInstance(instance);
+		}
+
+        public RPermissionSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPermissionSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String tagName
@@ -923,23 +948,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RPermissionSet() : base("System.Security.PermissionSet")
-        {
-        }
-
-        public RPermissionSet(System.Object instance) : base("System.Security.PermissionSet")
-		{
-            SetInstance(instance);
-		}
-
-        public RPermissionSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPermissionSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.IPermission AddPermission(System.Security.IPermission @perm)
         {

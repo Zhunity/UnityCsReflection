@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RClampedDragger<T> : RMember // where T : System.IComparable<T>
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ClampedDragger`1");
+            }
+        }
+
+        public RClampedDragger() : base("UnityEngine.UIElements.ClampedDragger`1")
+        {
+        }
+
+        public RClampedDragger(System.Object instance) : base("UnityEngine.UIElements.ClampedDragger`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RClampedDragger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClampedDragger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action dragging
@@ -603,23 +628,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RClampedDragger() : base("UnityEngine.UIElements.ClampedDragger`1")
-        {
-        }
-
-        public RClampedDragger(System.Object instance) : base("UnityEngine.UIElements.ClampedDragger`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RClampedDragger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClampedDragger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ProcessDownEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
         {

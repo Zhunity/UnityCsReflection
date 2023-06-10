@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageDowngradeButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDowngradeButton");
+            }
+        }
+
+        public RPackageDowngradeButton() : base("UnityEditor.PackageManager.UI.Internal.PackageDowngradeButton")
+        {
+        }
+
+        public RPackageDowngradeButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDowngradeButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageDowngradeButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageDowngradeButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager m_AssetStoreDownloadManager
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageDowngradeButton() : base("UnityEditor.PackageManager.UI.Internal.PackageDowngradeButton")
-        {
-        }
-
-        public RPackageDowngradeButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageDowngradeButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageDowngradeButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageDowngradeButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TriggerAction(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

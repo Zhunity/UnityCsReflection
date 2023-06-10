@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RBlendShape : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.BlendShape");
+            }
+        }
+
+        public RBlendShape() : base("UnityEngine.BlendShape")
+        {
+        }
+
+        public RBlendShape(System.Object instance) : base("UnityEngine.BlendShape")
+		{
+            SetInstance(instance);
+		}
+
+        public RBlendShape(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBlendShape(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 m_FirstVertex
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RBlendShape() : base("UnityEngine.BlendShape")
-        {
-        }
-
-        public RBlendShape(System.Object instance) : base("UnityEngine.BlendShape")
-		{
-            SetInstance(instance);
-		}
-
-        public RBlendShape(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBlendShape(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

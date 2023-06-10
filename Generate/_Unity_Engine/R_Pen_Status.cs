@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RPenStatus : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.PenStatus);
+            }
+        }
+
+        public RPenStatus() : base("UnityEngine.PenStatus")
+        {
+        }
+
+        public RPenStatus(System.Object instance) : base("UnityEngine.PenStatus")
+		{
+            SetInstance(instance);
+		}
+
+        public RPenStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPenStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RPenStatus() : base("UnityEngine.PenStatus")
-        {
-        }
-
-        public RPenStatus(System.Object instance) : base("UnityEngine.PenStatus")
-		{
-            SetInstance(instance);
-		}
-
-        public RPenStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPenStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

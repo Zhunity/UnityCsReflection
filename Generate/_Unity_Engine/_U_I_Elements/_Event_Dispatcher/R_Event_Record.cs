@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class REventRecord : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.EventDispatcher+EventRecord");
+            }
+        }
+
+        public REventRecord() : base("UnityEngine.UIElements.EventDispatcher+EventRecord")
+        {
+        }
+
+        public REventRecord(System.Object instance) : base("UnityEngine.UIElements.EventDispatcher+EventRecord")
+		{
+            SetInstance(instance);
+		}
+
+        public REventRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.EventBase m_Event
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public REventRecord() : base("UnityEngine.UIElements.EventDispatcher+EventRecord")
-        {
-        }
-
-        public REventRecord(System.Object instance) : base("UnityEngine.UIElements.EventDispatcher+EventRecord")
-		{
-            SetInstance(instance);
-		}
-
-        public REventRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

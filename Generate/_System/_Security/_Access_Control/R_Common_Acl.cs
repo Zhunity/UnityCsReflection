@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RCommonAcl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.CommonAcl);
+            }
+        }
+
+        public RCommonAcl() : base("System.Security.AccessControl.CommonAcl")
+        {
+        }
+
+        public RCommonAcl(System.Object instance) : base("System.Security.AccessControl.CommonAcl")
+		{
+            SetInstance(instance);
+		}
+
+        public RCommonAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCommonAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 default_capacity
@@ -875,23 +900,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RCommonAcl() : base("System.Security.AccessControl.CommonAcl")
-        {
-        }
-
-        public RCommonAcl(System.Object instance) : base("System.Security.AccessControl.CommonAcl")
-		{
-            SetInstance(instance);
-		}
-
-        public RCommonAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCommonAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(System.Boolean @isContainer, System.Boolean @isDS, System.Security.AccessControl.RawAcl @rawAcl)
         {

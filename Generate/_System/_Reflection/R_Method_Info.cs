@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RMethodInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.MethodInfo);
+            }
+        }
+
+        public RMethodInfo() : base("System.Reflection.MethodInfo")
+        {
+        }
+
+        public RMethodInfo(System.Object instance) : base("System.Reflection.MethodInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RMethodInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMethodInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.MemberTypes MemberType
@@ -1179,23 +1204,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RMethodInfo() : base("System.Reflection.MethodInfo")
-        {
-        }
-
-        public RMethodInfo(System.Object instance) : base("System.Reflection.MethodInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RMethodInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMethodInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Type[] GetGenericArguments()
         {

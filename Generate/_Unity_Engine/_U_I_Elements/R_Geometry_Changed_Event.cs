@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RGeometryChangedEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.GeometryChangedEvent);
+            }
+        }
+
+        public RGeometryChangedEvent() : base("UnityEngine.UIElements.GeometryChangedEvent")
+        {
+        }
+
+        public RGeometryChangedEvent(System.Object instance) : base("UnityEngine.UIElements.GeometryChangedEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RGeometryChangedEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGeometryChangedEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rect <oldRect>k__BackingField
@@ -923,23 +948,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RGeometryChangedEvent() : base("UnityEngine.UIElements.GeometryChangedEvent")
-        {
-        }
-
-        public RGeometryChangedEvent(System.Object instance) : base("UnityEngine.UIElements.GeometryChangedEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RGeometryChangedEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGeometryChangedEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.GeometryChangedEvent GetPooled(UnityEngine.Rect @oldRect, UnityEngine.Rect @newRect)
         {

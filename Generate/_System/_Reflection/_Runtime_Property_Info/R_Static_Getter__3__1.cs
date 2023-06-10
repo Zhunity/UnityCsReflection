@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RStaticGetter<R> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo+StaticGetter`1");
+            }
+        }
+
+        public RStaticGetter() : base("System.Reflection.RuntimePropertyInfo+StaticGetter`1")
+        {
+        }
+
+        public RStaticGetter(System.Object instance) : base("System.Reflection.RuntimePropertyInfo+StaticGetter`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RStaticGetter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStaticGetter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RStaticGetter() : base("System.Reflection.RuntimePropertyInfo+StaticGetter`1")
-        {
-        }
-
-        public RStaticGetter(System.Object instance) : base("System.Reflection.RuntimePropertyInfo+StaticGetter`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RStaticGetter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStaticGetter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual R Invoke()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RGenericTypeParameterBuilder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.GenericTypeParameterBuilder);
+            }
+        }
+
+        public RGenericTypeParameterBuilder() : base("System.Reflection.Emit.GenericTypeParameterBuilder")
+        {
+        }
+
+        public RGenericTypeParameterBuilder(System.Object instance) : base("System.Reflection.Emit.GenericTypeParameterBuilder")
+		{
+            SetInstance(instance);
+		}
+
+        public RGenericTypeParameterBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGenericTypeParameterBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.Emit.TypeBuilder tbuilder
@@ -3643,23 +3668,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RGenericTypeParameterBuilder() : base("System.Reflection.Emit.GenericTypeParameterBuilder")
-        {
-        }
-
-        public RGenericTypeParameterBuilder(System.Object instance) : base("System.Reflection.Emit.GenericTypeParameterBuilder")
-		{
-            SetInstance(instance);
-		}
-
-        public RGenericTypeParameterBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGenericTypeParameterBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetBaseTypeConstraint(System.Type @baseTypeConstraint)
         {

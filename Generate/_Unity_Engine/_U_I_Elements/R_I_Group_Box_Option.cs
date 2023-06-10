@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIGroupBoxOption : RMember //
     {
-
-		/// <summary>
-		/// Void SetSelected(Boolean)
-		/// </summary>
-		protected RMethod r_MSetSelected_Boolean;
-		public virtual RMethod RMSetSelected_Boolean
-		{
-			get
-			{
-				if(r_MSetSelected_Boolean == null)
-				{
-					r_MSetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
-				}
-				return r_MSetSelected_Boolean;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IGroupBoxOption");
+            }
+        }
 
         public RIGroupBoxOption() : base("UnityEngine.UIElements.IGroupBoxOption")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		 public RIGroupBoxOption(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void SetSelected(Boolean)
+		/// </summary>
+		protected RMethod r_MSetSelected_Boolean;
+		public virtual RMethod RMSetSelected_Boolean
+		{
+			get
+			{
+				if(r_MSetSelected_Boolean == null)
+				{
+					r_MSetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
+				}
+				return r_MSetSelected_Boolean;
+			}
+		}
+
 
         public virtual void SetSelected(System.Boolean @selected)
         {

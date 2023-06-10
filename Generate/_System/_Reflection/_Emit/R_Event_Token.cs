@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class REventToken : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.EventToken);
+            }
+        }
+
+        public REventToken() : base("System.Reflection.Emit.EventToken")
+        {
+        }
+
+        public REventToken(System.Object instance) : base("System.Reflection.Emit.EventToken")
+		{
+            SetInstance(instance);
+		}
+
+        public REventToken(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventToken(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 tokValue
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public REventToken() : base("System.Reflection.Emit.EventToken")
-        {
-        }
-
-        public REventToken(System.Object instance) : base("System.Reflection.Emit.EventToken")
-		{
-            SetInstance(instance);
-		}
-
-        public REventToken(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventToken(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

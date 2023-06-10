@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RHashes : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.Hashes");
+            }
+        }
+
+        public RHashes() : base("UnityEngine.UIElements.Hashes")
+        {
+        }
+
+        public RHashes(System.Object instance) : base("UnityEngine.UIElements.Hashes")
+		{
+            SetInstance(instance);
+		}
+
+        public RHashes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHashes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 kSize
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RHashes() : base("UnityEngine.UIElements.Hashes")
-        {
-        }
-
-        public RHashes(System.Object instance) : base("UnityEngine.UIElements.Hashes")
-		{
-            SetInstance(instance);
-		}
-
-        public RHashes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHashes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

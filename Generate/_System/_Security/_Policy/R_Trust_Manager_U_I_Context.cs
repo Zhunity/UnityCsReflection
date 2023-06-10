@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RTrustManagerUIContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.TrustManagerUIContext);
+            }
+        }
+
+        public RTrustManagerUIContext() : base("System.Security.Policy.TrustManagerUIContext")
+        {
+        }
+
+        public RTrustManagerUIContext(System.Object instance) : base("System.Security.Policy.TrustManagerUIContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RTrustManagerUIContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTrustManagerUIContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RTrustManagerUIContext() : base("System.Security.Policy.TrustManagerUIContext")
-        {
-        }
-
-        public RTrustManagerUIContext(System.Object instance) : base("System.Security.Policy.TrustManagerUIContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RTrustManagerUIContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTrustManagerUIContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

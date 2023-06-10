@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RIPreviewable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IPreviewable");
+            }
+        }
+
+        public RIPreviewable() : base("UnityEditor.IPreviewable")
+        {
+        }
+
+        public RIPreviewable(System.Object instance) : base("UnityEditor.IPreviewable")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPreviewable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPreviewable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Object target
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RIPreviewable() : base("UnityEditor.IPreviewable")
-        {
-        }
-
-        public RIPreviewable(System.Object instance) : base("UnityEditor.IPreviewable")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPreviewable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPreviewable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Initialize(UnityEngine.Object[] @targets)
         {

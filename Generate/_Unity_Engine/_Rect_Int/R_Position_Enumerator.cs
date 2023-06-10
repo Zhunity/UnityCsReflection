@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RPositionEnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.RectInt+PositionEnumerator");
+            }
+        }
+
+        public RPositionEnumerator() : base("UnityEngine.RectInt+PositionEnumerator")
+        {
+        }
+
+        public RPositionEnumerator(System.Object instance) : base("UnityEngine.RectInt+PositionEnumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RPositionEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPositionEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2Int _min
@@ -253,23 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RPositionEnumerator() : base("UnityEngine.RectInt+PositionEnumerator")
-        {
-        }
-
-        public RPositionEnumerator(System.Object instance) : base("UnityEngine.RectInt+PositionEnumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RPositionEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPositionEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RRectInt.RPositionEnumerator GetEnumerator()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Button);
+            }
+        }
+
+        public RButton() : base("UnityEngine.UIElements.Button")
+        {
+        }
+
+        public RButton(System.Object instance) : base("UnityEngine.UIElements.Button")
+		{
+            SetInstance(instance);
+		}
+
+        public RButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onClick
@@ -3931,23 +3956,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RButton() : base("UnityEngine.UIElements.Button")
-        {
-        }
-
-        public RButton(System.Object instance) : base("UnityEngine.UIElements.Button")
-		{
-            SetInstance(instance);
-		}
-
-        public RButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnNavigationSubmit(UnityEngine.UIElements.NavigationSubmitEvent @evt)
         {

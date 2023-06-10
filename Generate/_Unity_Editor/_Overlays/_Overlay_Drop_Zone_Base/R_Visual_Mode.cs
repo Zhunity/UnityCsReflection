@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class RVisualMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayDropZoneBase+VisualMode");
+            }
+        }
+
+        public RVisualMode() : base("UnityEditor.Overlays.OverlayDropZoneBase+VisualMode")
+        {
+        }
+
+        public RVisualMode(System.Object instance) : base("UnityEditor.Overlays.OverlayDropZoneBase+VisualMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -317,23 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public RVisualMode() : base("UnityEditor.Overlays.OverlayDropZoneBase+VisualMode")
-        {
-        }
-
-        public RVisualMode(System.Object instance) : base("UnityEditor.Overlays.OverlayDropZoneBase+VisualMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

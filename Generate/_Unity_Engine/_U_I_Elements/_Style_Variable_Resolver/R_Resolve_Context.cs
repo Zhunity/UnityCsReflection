@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RResolveContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver+ResolveContext");
+            }
+        }
+
+        public RResolveContext() : base("UnityEngine.UIElements.StyleVariableResolver+ResolveContext")
+        {
+        }
+
+        public RResolveContext(System.Object instance) : base("UnityEngine.UIElements.StyleVariableResolver+ResolveContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RResolveContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RResolveContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet sheet
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RResolveContext() : base("UnityEngine.UIElements.StyleVariableResolver+ResolveContext")
-        {
-        }
-
-        public RResolveContext(System.Object instance) : base("UnityEngine.UIElements.StyleVariableResolver+ResolveContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RResolveContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RResolveContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

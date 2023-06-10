@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RSecurityState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.SecurityState);
+            }
+        }
+
+        public RSecurityState() : base("System.Security.SecurityState")
+        {
+        }
+
+        public RSecurityState(System.Object instance) : base("System.Security.SecurityState")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecurityState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecurityState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void EnsureState()
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RSecurityState() : base("System.Security.SecurityState")
-        {
-        }
-
-        public RSecurityState(System.Object instance) : base("System.Security.SecurityState")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecurityState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecurityState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void EnsureState()
         {

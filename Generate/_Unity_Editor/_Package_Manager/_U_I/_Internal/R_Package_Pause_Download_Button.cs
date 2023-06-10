@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackagePauseDownloadButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackagePauseDownloadButton");
+            }
+        }
+
+        public RPackagePauseDownloadButton() : base("UnityEditor.PackageManager.UI.Internal.PackagePauseDownloadButton")
+        {
+        }
+
+        public RPackagePauseDownloadButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackagePauseDownloadButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackagePauseDownloadButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackagePauseDownloadButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager m_AssetStoreDownloadManager
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackagePauseDownloadButton() : base("UnityEditor.PackageManager.UI.Internal.PackagePauseDownloadButton")
-        {
-        }
-
-        public RPackagePauseDownloadButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackagePauseDownloadButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackagePauseDownloadButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackagePauseDownloadButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TriggerAction(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCalendarId : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.CalendarId");
+            }
+        }
+
+        public RCalendarId() : base("System.Globalization.CalendarId")
+        {
+        }
+
+        public RCalendarId(System.Object instance) : base("System.Globalization.CalendarId")
+		{
+            SetInstance(instance);
+		}
+
+        public RCalendarId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCalendarId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt16 value__
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCalendarId() : base("System.Globalization.CalendarId")
-        {
-        }
-
-        public RCalendarId(System.Object instance) : base("System.Globalization.CalendarId")
-		{
-            SetInstance(instance);
-		}
-
-        public RCalendarId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCalendarId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RHeader : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Messaging.Header);
+            }
+        }
+
+        public RHeader() : base("System.Runtime.Remoting.Messaging.Header")
+        {
+        }
+
+        public RHeader(System.Object instance) : base("System.Runtime.Remoting.Messaging.Header")
+		{
+            SetInstance(instance);
+		}
+
+        public RHeader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHeader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String HeaderNamespace
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RHeader() : base("System.Runtime.Remoting.Messaging.Header")
-        {
-        }
-
-        public RHeader(System.Object instance) : base("System.Runtime.Remoting.Messaging.Header")
-		{
-            SetInstance(instance);
-		}
-
-        public RHeader(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHeader(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

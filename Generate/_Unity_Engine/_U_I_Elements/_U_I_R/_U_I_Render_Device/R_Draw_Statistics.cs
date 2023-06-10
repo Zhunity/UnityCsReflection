@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RDrawStatistics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+DrawStatistics");
+            }
+        }
+
+        public RDrawStatistics() : base("UnityEngine.UIElements.UIR.UIRenderDevice+DrawStatistics")
+        {
+        }
+
+        public RDrawStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+DrawStatistics")
+		{
+            SetInstance(instance);
+		}
+
+        public RDrawStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDrawStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 currentFrameIndex
@@ -253,23 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RDrawStatistics() : base("UnityEngine.UIElements.UIR.UIRenderDevice+DrawStatistics")
-        {
-        }
-
-        public RDrawStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+DrawStatistics")
-		{
-            SetInstance(instance);
-		}
-
-        public RDrawStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDrawStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

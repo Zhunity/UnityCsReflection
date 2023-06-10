@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPointerDispatchState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.PointerDispatchState");
+            }
+        }
+
+        public RPointerDispatchState() : base("UnityEngine.UIElements.PointerDispatchState")
+        {
+        }
+
+        public RPointerDispatchState(System.Object instance) : base("UnityEngine.UIElements.PointerDispatchState")
+		{
+            SetInstance(instance);
+		}
+
+        public RPointerDispatchState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPointerDispatchState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler[] m_PendingPointerCapture
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPointerDispatchState() : base("UnityEngine.UIElements.PointerDispatchState")
-        {
-        }
-
-        public RPointerDispatchState(System.Object instance) : base("UnityEngine.UIElements.PointerDispatchState")
-		{
-            SetInstance(instance);
-		}
-
-        public RPointerDispatchState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPointerDispatchState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

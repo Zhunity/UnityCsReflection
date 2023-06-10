@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RIWindowModel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.IWindowModel");
+            }
+        }
+
+        public RIWindowModel() : base("UnityEditor.IWindowModel")
+        {
+        }
+
+        public RIWindowModel(System.Object instance) : base("UnityEditor.IWindowModel")
+		{
+            SetInstance(instance);
+		}
+
+        public RIWindowModel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIWindowModel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 size
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RIWindowModel() : base("UnityEditor.IWindowModel")
-        {
-        }
-
-        public RIWindowModel(System.Object instance) : base("UnityEditor.IWindowModel")
-		{
-            SetInstance(instance);
-		}
-
-        public RIWindowModel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIWindowModel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RAllocToFree : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToFree");
+            }
+        }
+
+        public RAllocToFree() : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToFree")
+        {
+        }
+
+        public RAllocToFree(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToFree")
+		{
+            SetInstance(instance);
+		}
+
+        public RAllocToFree(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAllocToFree(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.Alloc alloc
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RAllocToFree() : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToFree")
-        {
-        }
-
-        public RAllocToFree(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToFree")
-		{
-            SetInstance(instance);
-		}
-
-        public RAllocToFree(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAllocToFree(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

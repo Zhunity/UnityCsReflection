@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class REventDispatcher : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.EventDispatcher);
+            }
+        }
+
+        public REventDispatcher() : base("UnityEngine.UIElements.EventDispatcher")
+        {
+        }
+
+        public REventDispatcher(System.Object instance) : base("UnityEngine.UIElements.EventDispatcher")
+		{
+            SetInstance(instance);
+		}
+
+        public REventDispatcher(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventDispatcher(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.ClickDetector m_ClickDetector
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public REventDispatcher() : base("UnityEngine.UIElements.EventDispatcher")
-        {
-        }
-
-        public REventDispatcher(System.Object instance) : base("UnityEngine.UIElements.EventDispatcher")
-		{
-            SetInstance(instance);
-		}
-
-        public REventDispatcher(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventDispatcher(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void ClearEditorDispatcher()
         {

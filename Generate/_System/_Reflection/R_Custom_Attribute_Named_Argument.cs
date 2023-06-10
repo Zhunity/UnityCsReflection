@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RCustomAttributeNamedArgument : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.CustomAttributeNamedArgument);
+            }
+        }
+
+        public RCustomAttributeNamedArgument() : base("System.Reflection.CustomAttributeNamedArgument")
+        {
+        }
+
+        public RCustomAttributeNamedArgument(System.Object instance) : base("System.Reflection.CustomAttributeNamedArgument")
+		{
+            SetInstance(instance);
+		}
+
+        public RCustomAttributeNamedArgument(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCustomAttributeNamedArgument(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.CustomAttributeTypedArgument <TypedValue>k__BackingField
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RCustomAttributeNamedArgument() : base("System.Reflection.CustomAttributeNamedArgument")
-        {
-        }
-
-        public RCustomAttributeNamedArgument(System.Object instance) : base("System.Reflection.CustomAttributeNamedArgument")
-		{
-            SetInstance(instance);
-		}
-
-        public RCustomAttributeNamedArgument(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCustomAttributeNamedArgument(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

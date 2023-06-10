@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleColor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleColor);
+            }
+        }
+
+        public RStyleColor() : base("UnityEngine.UIElements.StyleColor")
+        {
+        }
+
+        public RStyleColor(System.Object instance) : base("UnityEngine.UIElements.StyleColor")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleColor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleColor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color m_Value
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleColor() : base("UnityEngine.UIElements.StyleColor")
-        {
-        }
-
-        public RStyleColor(System.Object instance) : base("UnityEngine.UIElements.StyleColor")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleColor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleColor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleColor @lhs, UnityEngine.UIElements.StyleColor @rhs)
         {

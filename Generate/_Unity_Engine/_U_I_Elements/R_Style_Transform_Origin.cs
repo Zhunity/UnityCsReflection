@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleTransformOrigin : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleTransformOrigin);
+            }
+        }
+
+        public RStyleTransformOrigin() : base("UnityEngine.UIElements.StyleTransformOrigin")
+        {
+        }
+
+        public RStyleTransformOrigin(System.Object instance) : base("UnityEngine.UIElements.StyleTransformOrigin")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleTransformOrigin(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleTransformOrigin(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.TransformOrigin m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleTransformOrigin() : base("UnityEngine.UIElements.StyleTransformOrigin")
-        {
-        }
-
-        public RStyleTransformOrigin(System.Object instance) : base("UnityEngine.UIElements.StyleTransformOrigin")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleTransformOrigin(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleTransformOrigin(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleTransformOrigin @lhs, UnityEngine.UIElements.StyleTransformOrigin @rhs)
         {

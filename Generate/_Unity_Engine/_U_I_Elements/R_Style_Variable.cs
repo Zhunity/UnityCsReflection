@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleVariable : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariable");
+            }
+        }
+
+        public RStyleVariable() : base("UnityEngine.UIElements.StyleVariable")
+        {
+        }
+
+        public RStyleVariable(System.Object instance) : base("UnityEngine.UIElements.StyleVariable")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleVariable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleVariable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleVariable() : base("UnityEngine.UIElements.StyleVariable")
-        {
-        }
-
-        public RStyleVariable(System.Object instance) : base("UnityEngine.UIElements.StyleVariable")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleVariable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleVariable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

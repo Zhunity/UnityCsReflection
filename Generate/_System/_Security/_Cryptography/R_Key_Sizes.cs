@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RKeySizes : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.KeySizes);
+            }
+        }
+
+        public RKeySizes() : base("System.Security.Cryptography.KeySizes")
+        {
+        }
+
+        public RKeySizes(System.Object instance) : base("System.Security.Cryptography.KeySizes")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeySizes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeySizes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_minSize
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RKeySizes() : base("System.Security.Cryptography.KeySizes")
-        {
-        }
-
-        public RKeySizes(System.Object instance) : base("System.Security.Cryptography.KeySizes")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeySizes(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeySizes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsLegal(System.Int32 @keySize)
         {

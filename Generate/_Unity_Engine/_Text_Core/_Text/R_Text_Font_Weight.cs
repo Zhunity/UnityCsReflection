@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextFontWeight : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.TextFontWeight);
+            }
+        }
+
+        public RTextFontWeight() : base("UnityEngine.TextCore.Text.TextFontWeight")
+        {
+        }
+
+        public RTextFontWeight(System.Object instance) : base("UnityEngine.TextCore.Text.TextFontWeight")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextFontWeight(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextFontWeight(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextFontWeight() : base("UnityEngine.TextCore.Text.TextFontWeight")
-        {
-        }
-
-        public RTextFontWeight(System.Object instance) : base("UnityEngine.TextCore.Text.TextFontWeight")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextFontWeight(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextFontWeight(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

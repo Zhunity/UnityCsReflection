@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTouchScreenKeyboardType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TouchScreenKeyboardType);
+            }
+        }
+
+        public RTouchScreenKeyboardType() : base("UnityEngine.TouchScreenKeyboardType")
+        {
+        }
+
+        public RTouchScreenKeyboardType(System.Object instance) : base("UnityEngine.TouchScreenKeyboardType")
+		{
+            SetInstance(instance);
+		}
+
+        public RTouchScreenKeyboardType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTouchScreenKeyboardType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTouchScreenKeyboardType() : base("UnityEngine.TouchScreenKeyboardType")
-        {
-        }
-
-        public RTouchScreenKeyboardType(System.Object instance) : base("UnityEngine.TouchScreenKeyboardType")
-		{
-            SetInstance(instance);
-		}
-
-        public RTouchScreenKeyboardType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTouchScreenKeyboardType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

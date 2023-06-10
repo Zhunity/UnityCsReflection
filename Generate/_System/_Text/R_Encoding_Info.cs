@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class REncodingInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.EncodingInfo);
+            }
+        }
+
+        public REncodingInfo() : base("System.Text.EncodingInfo")
+        {
+        }
+
+        public REncodingInfo(System.Object instance) : base("System.Text.EncodingInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public REncodingInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REncodingInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 iCodePage
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public REncodingInfo() : base("System.Text.EncodingInfo")
-        {
-        }
-
-        public REncodingInfo(System.Object instance) : base("System.Text.EncodingInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public REncodingInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REncodingInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Text.Encoding GetEncoding()
         {

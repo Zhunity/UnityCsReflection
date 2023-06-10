@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUnityConnectProxy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy");
+            }
+        }
+
+        public RUnityConnectProxy() : base("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy")
+        {
+        }
+
+        public RUnityConnectProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnityConnectProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnityConnectProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[System.Boolean,System.Boolean] onUserLoginStateChange
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUnityConnectProxy() : base("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy")
-        {
-        }
-
-        public RUnityConnectProxy(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnityConnectProxy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnityConnectProxy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnEnable()
         {

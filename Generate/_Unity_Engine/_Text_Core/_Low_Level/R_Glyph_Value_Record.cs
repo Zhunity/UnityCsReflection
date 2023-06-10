@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 	/// </summary>
     public partial class RGlyphValueRecord : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord);
+            }
+        }
+
+        public RGlyphValueRecord() : base("UnityEngine.TextCore.LowLevel.GlyphValueRecord")
+        {
+        }
+
+        public RGlyphValueRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.GlyphValueRecord")
+		{
+            SetInstance(instance);
+		}
+
+        public RGlyphValueRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGlyphValueRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_XPlacement
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			}
 		}
 
-
-        public RGlyphValueRecord() : base("UnityEngine.TextCore.LowLevel.GlyphValueRecord")
-        {
-        }
-
-        public RGlyphValueRecord(System.Object instance) : base("UnityEngine.TextCore.LowLevel.GlyphValueRecord")
-		{
-            SetInstance(instance);
-		}
-
-        public RGlyphValueRecord(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGlyphValueRecord(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.TextCore.LowLevel.GlyphValueRecord op_Addition(UnityEngine.TextCore.LowLevel.GlyphValueRecord @a, UnityEngine.TextCore.LowLevel.GlyphValueRecord @b)
         {

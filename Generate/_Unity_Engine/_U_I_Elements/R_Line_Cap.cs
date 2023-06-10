@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RLineCap : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.LineCap);
+            }
+        }
+
+        public RLineCap() : base("UnityEngine.UIElements.LineCap")
+        {
+        }
+
+        public RLineCap(System.Object instance) : base("UnityEngine.UIElements.LineCap")
+		{
+            SetInstance(instance);
+		}
+
+        public RLineCap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLineCap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RLineCap() : base("UnityEngine.UIElements.LineCap")
-        {
-        }
-
-        public RLineCap(System.Object instance) : base("UnityEngine.UIElements.LineCap")
-		{
-            SetInstance(instance);
-		}
-
-        public RLineCap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLineCap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

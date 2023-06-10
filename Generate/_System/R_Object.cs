@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Object);
+            }
+        }
+
+        public RObject() : base("System.Object")
+        {
+        }
+
+        public RObject(System.Object instance) : base("System.Object")
+		{
+            SetInstance(instance);
+		}
+
+        public RObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RObject() : base("System.Object")
-        {
-        }
-
-        public RObject(System.Object instance) : base("System.Object")
-		{
-            SetInstance(instance);
-		}
-
-        public RObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

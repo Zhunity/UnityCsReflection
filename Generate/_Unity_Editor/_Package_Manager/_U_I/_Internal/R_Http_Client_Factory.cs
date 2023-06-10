@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RHttpClientFactory : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.HttpClientFactory");
+            }
+        }
+
+        public RHttpClientFactory() : base("UnityEditor.PackageManager.UI.Internal.HttpClientFactory")
+        {
+        }
+
+        public RHttpClientFactory(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.HttpClientFactory")
+		{
+            SetInstance(instance);
+		}
+
+        public RHttpClientFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHttpClientFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.IAsyncHTTPClient GetASyncHTTPClient(System.String)
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RHttpClientFactory() : base("UnityEditor.PackageManager.UI.Internal.HttpClientFactory")
-        {
-        }
-
-        public RHttpClientFactory(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.HttpClientFactory")
-		{
-            SetInstance(instance);
-		}
-
-        public RHttpClientFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHttpClientFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RIAsyncHTTPClient GetASyncHTTPClient(System.String @url)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RApartmentState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ApartmentState);
+            }
+        }
+
+        public RApartmentState() : base("System.Threading.ApartmentState")
+        {
+        }
+
+        public RApartmentState(System.Object instance) : base("System.Threading.ApartmentState")
+		{
+            SetInstance(instance);
+		}
+
+        public RApartmentState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RApartmentState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RApartmentState() : base("System.Threading.ApartmentState")
-        {
-        }
-
-        public RApartmentState(System.Object instance) : base("System.Threading.ApartmentState")
-		{
-            SetInstance(instance);
-		}
-
-        public RApartmentState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RApartmentState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

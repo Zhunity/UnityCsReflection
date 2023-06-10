@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RObjectAceFlags : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.ObjectAceFlags);
+            }
+        }
+
+        public RObjectAceFlags() : base("System.Security.AccessControl.ObjectAceFlags")
+        {
+        }
+
+        public RObjectAceFlags(System.Object instance) : base("System.Security.AccessControl.ObjectAceFlags")
+		{
+            SetInstance(instance);
+		}
+
+        public RObjectAceFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObjectAceFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RObjectAceFlags() : base("System.Security.AccessControl.ObjectAceFlags")
-        {
-        }
-
-        public RObjectAceFlags(System.Object instance) : base("System.Security.AccessControl.ObjectAceFlags")
-		{
-            SetInstance(instance);
-		}
-
-        public RObjectAceFlags(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObjectAceFlags(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

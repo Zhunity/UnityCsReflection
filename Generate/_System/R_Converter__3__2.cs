@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RConverter<TInput, TOutput> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Converter<, >);
+            }
+        }
+
+        public RConverter() : base("System.Converter`2")
+        {
+        }
+
+        public RConverter(System.Object instance) : base("System.Converter`2")
+		{
+            SetInstance(instance);
+		}
+
+        public RConverter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConverter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RConverter() : base("System.Converter`2")
-        {
-        }
-
-        public RConverter(System.Object instance) : base("System.Converter`2")
-		{
-            SetInstance(instance);
-		}
-
-        public RConverter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConverter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual TOutput Invoke(TInput @input)
         {

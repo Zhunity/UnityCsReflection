@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class REventHandler<TEventArgs> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.EventHandler<>);
+            }
+        }
+
+        public REventHandler() : base("System.EventHandler`1")
+        {
+        }
+
+        public REventHandler(System.Object instance) : base("System.EventHandler`1")
+		{
+            SetInstance(instance);
+		}
+
+        public REventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public REventHandler() : base("System.EventHandler`1")
-        {
-        }
-
-        public REventHandler(System.Object instance) : base("System.EventHandler`1")
-		{
-            SetInstance(instance);
-		}
-
-        public REventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(System.Object @sender, TEventArgs @e)
         {

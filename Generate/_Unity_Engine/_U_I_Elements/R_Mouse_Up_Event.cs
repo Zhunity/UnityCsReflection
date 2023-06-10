@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMouseUpEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MouseUpEvent);
+            }
+        }
+
+        public RMouseUpEvent() : base("UnityEngine.UIElements.MouseUpEvent")
+        {
+        }
+
+        public RMouseUpEvent(System.Object instance) : base("UnityEngine.UIElements.MouseUpEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RMouseUpEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMouseUpEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -1083,23 +1108,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMouseUpEvent() : base("UnityEngine.UIElements.MouseUpEvent")
-        {
-        }
-
-        public RMouseUpEvent(System.Object instance) : base("UnityEngine.UIElements.MouseUpEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RMouseUpEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMouseUpEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

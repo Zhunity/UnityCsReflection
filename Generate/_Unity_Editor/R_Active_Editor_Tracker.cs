@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RActiveEditorTracker : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.ActiveEditorTracker);
+            }
+        }
+
+        public RActiveEditorTracker() : base("UnityEditor.ActiveEditorTracker")
+        {
+        }
+
+        public RActiveEditorTracker(System.Object instance) : base("UnityEditor.ActiveEditorTracker")
+		{
+            SetInstance(instance);
+		}
+
+        public RActiveEditorTracker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RActiveEditorTracker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action editorTrackerRebuilt
@@ -987,23 +1012,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RActiveEditorTracker() : base("UnityEditor.ActiveEditorTracker")
-        {
-        }
-
-        public RActiveEditorTracker(System.Object instance) : base("UnityEditor.ActiveEditorTracker")
-		{
-            SetInstance(instance);
-		}
-
-        public RActiveEditorTracker(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RActiveEditorTracker(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void Internal_Create(UnityEditor.ActiveEditorTracker @self)
         {

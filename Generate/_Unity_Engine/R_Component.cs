@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RComponent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Component);
+            }
+        }
+
+        public RComponent() : base("UnityEngine.Component")
+        {
+        }
+
+        public RComponent(System.Object instance) : base("UnityEngine.Component")
+		{
+            SetInstance(instance);
+		}
+
+        public RComponent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RComponent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Transform transform
@@ -1131,23 +1156,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RComponent() : base("UnityEngine.Component")
-        {
-        }
-
-        public RComponent(System.Object instance) : base("UnityEngine.Component")
-		{
-            SetInstance(instance);
-		}
-
-        public RComponent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RComponent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Component GetComponent(System.Type @type)
         {

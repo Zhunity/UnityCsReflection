@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RMono
 	/// </summary>
     public partial class RRuntimePropertyHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Mono.RuntimePropertyHandle");
+            }
+        }
+
+        public RRuntimePropertyHandle() : base("Mono.RuntimePropertyHandle")
+        {
+        }
+
+        public RRuntimePropertyHandle(System.Object instance) : base("Mono.RuntimePropertyHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimePropertyHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimePropertyHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr value
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RMono
 			}
 		}
 
-
-        public RRuntimePropertyHandle() : base("Mono.RuntimePropertyHandle")
-        {
-        }
-
-        public RRuntimePropertyHandle(System.Object instance) : base("Mono.RuntimePropertyHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimePropertyHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimePropertyHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

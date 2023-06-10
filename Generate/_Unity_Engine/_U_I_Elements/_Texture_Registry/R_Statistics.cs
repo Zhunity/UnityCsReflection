@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStatistics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextureRegistry+Statistics");
+            }
+        }
+
+        public RStatistics() : base("UnityEngine.UIElements.TextureRegistry+Statistics")
+        {
+        }
+
+        public RStatistics(System.Object instance) : base("UnityEngine.UIElements.TextureRegistry+Statistics")
+		{
+            SetInstance(instance);
+		}
+
+        public RStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 freeIdsCount
@@ -205,23 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStatistics() : base("UnityEngine.UIElements.TextureRegistry+Statistics")
-        {
-        }
-
-        public RStatistics(System.Object instance) : base("UnityEngine.UIElements.TextureRegistry+Statistics")
-		{
-            SetInstance(instance);
-		}
-
-        public RStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

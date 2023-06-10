@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 	/// </summary>
     public partial class RDeleteMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("NiceIO.DeleteMode");
+            }
+        }
+
+        public RDeleteMode() : base("NiceIO.DeleteMode")
+        {
+        }
+
+        public RDeleteMode(System.Object instance) : base("NiceIO.DeleteMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RDeleteMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDeleteMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			}
 		}
 
-
-        public RDeleteMode() : base("NiceIO.DeleteMode")
-        {
-        }
-
-        public RDeleteMode(System.Object instance) : base("NiceIO.DeleteMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RDeleteMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDeleteMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleInt : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleInt);
+            }
+        }
+
+        public RStyleInt() : base("UnityEngine.UIElements.StyleInt")
+        {
+        }
+
+        public RStyleInt(System.Object instance) : base("UnityEngine.UIElements.StyleInt")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleInt() : base("UnityEngine.UIElements.StyleInt")
-        {
-        }
-
-        public RStyleInt(System.Object instance) : base("UnityEngine.UIElements.StyleInt")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleInt(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleInt(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleInt @lhs, UnityEngine.UIElements.StyleInt @rhs)
         {

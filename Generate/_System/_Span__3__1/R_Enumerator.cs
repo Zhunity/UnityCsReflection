@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class REnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Span`1+Enumerator");
+            }
+        }
+
+        public REnumerator() : base("System.Span`1+Enumerator")
+        {
+        }
+
+        public REnumerator(System.Object instance) : base("System.Span`1+Enumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Span`1[T] _span
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public REnumerator() : base("System.Span`1+Enumerator")
-        {
-        }
-
-        public REnumerator(System.Object instance) : base("System.Span`1+Enumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public REnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean MoveNext()
         {

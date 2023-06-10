@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 	/// </summary>
     public partial class RAnalyticsEventData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.AddComponent.AddComponentWindow+AnalyticsEventData");
+            }
+        }
+
+        public RAnalyticsEventData() : base("UnityEditor.AddComponent.AddComponentWindow+AnalyticsEventData")
+        {
+        }
+
+        public RAnalyticsEventData(System.Object instance) : base("UnityEditor.AddComponent.AddComponentWindow+AnalyticsEventData")
+		{
+            SetInstance(instance);
+		}
+
+        public RAnalyticsEventData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAnalyticsEventData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 			}
 		}
 
-
-        public RAnalyticsEventData() : base("UnityEditor.AddComponent.AddComponentWindow+AnalyticsEventData")
-        {
-        }
-
-        public RAnalyticsEventData(System.Object instance) : base("UnityEditor.AddComponent.AddComponentWindow+AnalyticsEventData")
-		{
-            SetInstance(instance);
-		}
-
-        public RAnalyticsEventData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAnalyticsEventData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

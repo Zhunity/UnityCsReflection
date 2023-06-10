@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RHash128 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Hash128);
+            }
+        }
+
+        public RHash128() : base("UnityEngine.Hash128")
+        {
+        }
+
+        public RHash128(System.Object instance) : base("UnityEngine.Hash128")
+		{
+            SetInstance(instance);
+		}
+
+        public RHash128(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHash128(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt64 u64_0
@@ -795,23 +820,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RHash128() : base("UnityEngine.Hash128")
-        {
-        }
-
-        public RHash128(System.Object instance) : base("UnityEngine.Hash128")
-		{
-            SetInstance(instance);
-		}
-
-        public RHash128(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHash128(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 CompareTo(UnityEngine.Hash128 @rhs)
         {

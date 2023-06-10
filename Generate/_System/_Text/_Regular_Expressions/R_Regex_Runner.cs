@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegexRunner : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.RegexRunner);
+            }
+        }
+
+        public RRegexRunner() : base("System.Text.RegularExpressions.RegexRunner")
+        {
+        }
+
+        public RRegexRunner(System.Object instance) : base("System.Text.RegularExpressions.RegexRunner")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegexRunner(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegexRunner(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 runtextbeg
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegexRunner() : base("System.Text.RegularExpressions.RegexRunner")
-        {
-        }
-
-        public RRegexRunner(System.Object instance) : base("System.Text.RegularExpressions.RegexRunner")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegexRunner(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegexRunner(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Text.RegularExpressions.Match Scan(System.Text.RegularExpressions.Regex @regex, System.String @text, System.Int32 @textbeg, System.Int32 @textend, System.Int32 @textstart, System.Int32 @prevlen, System.Boolean @quick)
         {

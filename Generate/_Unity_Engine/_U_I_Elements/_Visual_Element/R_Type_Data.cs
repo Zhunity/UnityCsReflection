@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTypeData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+TypeData");
+            }
+        }
+
+        public RTypeData() : base("UnityEngine.UIElements.VisualElement+TypeData")
+        {
+        }
+
+        public RTypeData(System.Object instance) : base("UnityEngine.UIElements.VisualElement+TypeData")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypeData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypeData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type <type>k__BackingField
@@ -237,23 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTypeData() : base("UnityEngine.UIElements.VisualElement+TypeData")
-        {
-        }
-
-        public RTypeData(System.Object instance) : base("UnityEngine.UIElements.VisualElement+TypeData")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypeData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypeData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

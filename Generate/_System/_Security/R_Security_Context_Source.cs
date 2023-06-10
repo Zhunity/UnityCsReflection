@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RSecurityContextSource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.SecurityContextSource);
+            }
+        }
+
+        public RSecurityContextSource() : base("System.Security.SecurityContextSource")
+        {
+        }
+
+        public RSecurityContextSource(System.Object instance) : base("System.Security.SecurityContextSource")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecurityContextSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecurityContextSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RSecurityContextSource() : base("System.Security.SecurityContextSource")
-        {
-        }
-
-        public RSecurityContextSource(System.Object instance) : base("System.Security.SecurityContextSource")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecurityContextSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecurityContextSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

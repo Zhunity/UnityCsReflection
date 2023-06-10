@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 	/// </summary>
     public partial class RCustomSampler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Profiling.CustomSampler);
+            }
+        }
+
+        public RCustomSampler() : base("UnityEngine.Profiling.CustomSampler")
+        {
+        }
+
+        public RCustomSampler(System.Object instance) : base("UnityEngine.Profiling.CustomSampler")
+		{
+            SetInstance(instance);
+		}
+
+        public RCustomSampler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCustomSampler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Profiling.CustomSampler s_InvalidCustomSampler
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 			}
 		}
 
-
-        public RCustomSampler() : base("UnityEngine.Profiling.CustomSampler")
-        {
-        }
-
-        public RCustomSampler(System.Object instance) : base("UnityEngine.Profiling.CustomSampler")
-		{
-            SetInstance(instance);
-		}
-
-        public RCustomSampler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCustomSampler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Profiling.CustomSampler Create(System.String @name, System.Boolean @collectGpuData)
         {

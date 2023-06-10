@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RHighlightState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState");
+            }
+        }
+
+        public RHighlightState() : base("UnityEngine.TextCore.Text.HighlightState")
+        {
+        }
+
+        public RHighlightState(System.Object instance) : base("UnityEngine.TextCore.Text.HighlightState")
+		{
+            SetInstance(instance);
+		}
+
+        public RHighlightState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHighlightState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color32 color
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RHighlightState() : base("UnityEngine.TextCore.Text.HighlightState")
-        {
-        }
-
-        public RHighlightState(System.Object instance) : base("UnityEngine.TextCore.Text.HighlightState")
-		{
-            SetInstance(instance);
-		}
-
-        public RHighlightState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHighlightState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @lhs, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState @rhs)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RDeviceToFree : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+DeviceToFree");
+            }
+        }
+
+        public RDeviceToFree() : base("UnityEngine.UIElements.UIR.UIRenderDevice+DeviceToFree")
+        {
+        }
+
+        public RDeviceToFree(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+DeviceToFree")
+		{
+            SetInstance(instance);
+		}
+
+        public RDeviceToFree(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDeviceToFree(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 handle
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RDeviceToFree() : base("UnityEngine.UIElements.UIR.UIRenderDevice+DeviceToFree")
-        {
-        }
-
-        public RDeviceToFree(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+DeviceToFree")
-		{
-            SetInstance(instance);
-		}
-
-        public RDeviceToFree(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDeviceToFree(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

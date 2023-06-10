@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RLiveReloadTrackers : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.LiveReloadTrackers");
+            }
+        }
+
+        public RLiveReloadTrackers() : base("UnityEngine.UIElements.LiveReloadTrackers")
+        {
+        }
+
+        public RLiveReloadTrackers(System.Object instance) : base("UnityEngine.UIElements.LiveReloadTrackers")
+		{
+            SetInstance(instance);
+		}
+
+        public RLiveReloadTrackers(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLiveReloadTrackers(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RLiveReloadTrackers() : base("UnityEngine.UIElements.LiveReloadTrackers")
-        {
-        }
-
-        public RLiveReloadTrackers(System.Object instance) : base("UnityEngine.UIElements.LiveReloadTrackers")
-		{
-            SetInstance(instance);
-		}
-
-        public RLiveReloadTrackers(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLiveReloadTrackers(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

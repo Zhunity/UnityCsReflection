@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RNamedPermissionSet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.NamedPermissionSet);
+            }
+        }
+
+        public RNamedPermissionSet() : base("System.Security.NamedPermissionSet")
+        {
+        }
+
+        public RNamedPermissionSet(System.Object instance) : base("System.Security.NamedPermissionSet")
+		{
+            SetInstance(instance);
+		}
+
+        public RNamedPermissionSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNamedPermissionSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -731,23 +756,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RNamedPermissionSet() : base("System.Security.NamedPermissionSet")
-        {
-        }
-
-        public RNamedPermissionSet(System.Object instance) : base("System.Security.NamedPermissionSet")
-		{
-            SetInstance(instance);
-		}
-
-        public RNamedPermissionSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNamedPermissionSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.PermissionSet Copy()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMaterial : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Material);
+            }
+        }
+
+        public RMaterial() : base("UnityEngine.Material")
+        {
+        }
+
+        public RMaterial(System.Object instance) : base("UnityEngine.Material")
+		{
+            SetInstance(instance);
+		}
+
+        public RMaterial(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMaterial(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Shader shader
@@ -4107,23 +4132,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMaterial() : base("UnityEngine.Material")
-        {
-        }
-
-        public RMaterial(System.Object instance) : base("UnityEngine.Material")
-		{
-            SetInstance(instance);
-		}
-
-        public RMaterial(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMaterial(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Material Create(System.String @scriptContents)
         {

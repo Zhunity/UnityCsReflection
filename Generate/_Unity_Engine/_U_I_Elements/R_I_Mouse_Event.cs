@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIMouseEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IMouseEvent);
+            }
+        }
+
+        public RIMouseEvent() : base("UnityEngine.UIElements.IMouseEvent")
+        {
+        }
+
+        public RIMouseEvent(System.Object instance) : base("UnityEngine.UIElements.IMouseEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RIMouseEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIMouseEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIMouseEvent() : base("UnityEngine.UIElements.IMouseEvent")
-        {
-        }
-
-        public RIMouseEvent(System.Object instance) : base("UnityEngine.UIElements.IMouseEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RIMouseEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIMouseEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 	/// </summary>
     public partial class RClipMethod : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Implementation.ClipMethod");
+            }
+        }
+
+        public RClipMethod() : base("UnityEngine.UIElements.UIR.Implementation.ClipMethod")
+        {
+        }
+
+        public RClipMethod(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.ClipMethod")
+		{
+            SetInstance(instance);
+		}
+
+        public RClipMethod(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClipMethod(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 			}
 		}
 
-
-        public RClipMethod() : base("UnityEngine.UIElements.UIR.Implementation.ClipMethod")
-        {
-        }
-
-        public RClipMethod(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.ClipMethod")
-		{
-            SetInstance(instance);
-		}
-
-        public RClipMethod(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClipMethod(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

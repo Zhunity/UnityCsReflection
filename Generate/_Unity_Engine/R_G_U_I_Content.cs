@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGUIContent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GUIContent);
+            }
+        }
+
+        public RGUIContent() : base("UnityEngine.GUIContent")
+        {
+        }
+
+        public RGUIContent(System.Object instance) : base("UnityEngine.GUIContent")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUIContent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUIContent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action OnTextChanged
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGUIContent() : base("UnityEngine.GUIContent")
-        {
-        }
-
-        public RGUIContent(System.Object instance) : base("UnityEngine.GUIContent")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUIContent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUIContent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.GUIContent Temp(System.String @t)
         {

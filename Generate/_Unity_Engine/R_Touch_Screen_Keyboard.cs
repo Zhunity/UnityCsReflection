@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTouchScreenKeyboard : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TouchScreenKeyboard);
+            }
+        }
+
+        public RTouchScreenKeyboard() : base("UnityEngine.TouchScreenKeyboard")
+        {
+        }
+
+        public RTouchScreenKeyboard(System.Object instance) : base("UnityEngine.TouchScreenKeyboard")
+		{
+            SetInstance(instance);
+		}
+
+        public RTouchScreenKeyboard(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTouchScreenKeyboard(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTouchScreenKeyboard() : base("UnityEngine.TouchScreenKeyboard")
-        {
-        }
-
-        public RTouchScreenKeyboard(System.Object instance) : base("UnityEngine.TouchScreenKeyboard")
-		{
-            SetInstance(instance);
-		}
-
-        public RTouchScreenKeyboard(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTouchScreenKeyboard(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void Internal_Destroy(System.IntPtr @ptr)
         {

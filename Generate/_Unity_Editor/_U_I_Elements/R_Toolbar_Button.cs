@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 	/// </summary>
     public partial class RToolbarButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.UIElements.ToolbarButton);
+            }
+        }
+
+        public RToolbarButton() : base("UnityEditor.UIElements.ToolbarButton")
+        {
+        }
+
+        public RToolbarButton(System.Object instance) : base("UnityEditor.UIElements.ToolbarButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RToolbarButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RToolbarButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onClick
@@ -3883,23 +3908,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 			}
 		}
 
-
-        public RToolbarButton() : base("UnityEditor.UIElements.ToolbarButton")
-        {
-        }
-
-        public RToolbarButton(System.Object instance) : base("UnityEditor.UIElements.ToolbarButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RToolbarButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RToolbarButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Vector2 DoMeasure(System.Single @desiredWidth, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @widthMode, System.Single @desiredHeight, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement.RMeasureMode @heightMode)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDispatchContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.EventDispatcher+DispatchContext");
+            }
+        }
+
+        public RDispatchContext() : base("UnityEngine.UIElements.EventDispatcher+DispatchContext")
+        {
+        }
+
+        public RDispatchContext(System.Object instance) : base("UnityEngine.UIElements.EventDispatcher+DispatchContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RDispatchContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDispatchContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 m_GateCount
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDispatchContext() : base("UnityEngine.UIElements.EventDispatcher+DispatchContext")
-        {
-        }
-
-        public RDispatchContext(System.Object instance) : base("UnityEngine.UIElements.EventDispatcher+DispatchContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RDispatchContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDispatchContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

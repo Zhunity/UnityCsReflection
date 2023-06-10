@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBaseVerticalCollectionView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BaseVerticalCollectionView);
+            }
+        }
+
+        public RBaseVerticalCollectionView() : base("UnityEngine.UIElements.BaseVerticalCollectionView")
+        {
+        }
+
+        public RBaseVerticalCollectionView(System.Object instance) : base("UnityEngine.UIElements.BaseVerticalCollectionView")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseVerticalCollectionView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseVerticalCollectionView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Collections.Generic.IEnumerable`1[System.Object]] onItemsChosen
@@ -5675,23 +5700,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBaseVerticalCollectionView() : base("UnityEngine.UIElements.BaseVerticalCollectionView")
-        {
-        }
-
-        public RBaseVerticalCollectionView(System.Object instance) : base("UnityEngine.UIElements.BaseVerticalCollectionView")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseVerticalCollectionView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseVerticalCollectionView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Single ResolveItemHeight(System.Single @height)
         {

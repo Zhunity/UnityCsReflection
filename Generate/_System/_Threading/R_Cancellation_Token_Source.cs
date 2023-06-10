@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RCancellationTokenSource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.CancellationTokenSource);
+            }
+        }
+
+        public RCancellationTokenSource() : base("System.Threading.CancellationTokenSource")
+        {
+        }
+
+        public RCancellationTokenSource(System.Object instance) : base("System.Threading.CancellationTokenSource")
+		{
+            SetInstance(instance);
+		}
+
+        public RCancellationTokenSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCancellationTokenSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.CancellationTokenSource s_canceledSource
@@ -779,23 +804,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RCancellationTokenSource() : base("System.Threading.CancellationTokenSource")
-        {
-        }
-
-        public RCancellationTokenSource(System.Object instance) : base("System.Threading.CancellationTokenSource")
-		{
-            SetInstance(instance);
-		}
-
-        public RCancellationTokenSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCancellationTokenSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InitializeWithTimer(System.Int32 @millisecondsDelay)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RConfiguredTaskAwaitable<TResult> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.CompilerServices.ConfiguredTaskAwaitable<>);
+            }
+        }
+
+        public RConfiguredTaskAwaitable() : base("System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1")
+        {
+        }
+
+        public RConfiguredTaskAwaitable(System.Object instance) : base("System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RConfiguredTaskAwaitable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConfiguredTaskAwaitable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1+ConfiguredTaskAwaiter[TResult] m_configuredTaskAwaiter
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RConfiguredTaskAwaitable() : base("System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1")
-        {
-        }
-
-        public RConfiguredTaskAwaitable(System.Object instance) : base("System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RConfiguredTaskAwaitable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConfiguredTaskAwaitable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices.RConfiguredTaskAwaitable<Hvak.Editor.Refleaction.RType>.RConfiguredTaskAwaiter GetAwaiter()
         {

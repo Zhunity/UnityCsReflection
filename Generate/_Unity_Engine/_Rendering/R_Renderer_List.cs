@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RRendererList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.RendererList);
+            }
+        }
+
+        public RRendererList() : base("UnityEngine.Rendering.RendererList")
+        {
+        }
+
+        public RRendererList(System.Object instance) : base("UnityEngine.Rendering.RendererList")
+		{
+            SetInstance(instance);
+		}
+
+        public RRendererList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRendererList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UIntPtr context
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RRendererList() : base("UnityEngine.Rendering.RendererList")
-        {
-        }
-
-        public RRendererList(System.Object instance) : base("UnityEngine.Rendering.RendererList")
-		{
-            SetInstance(instance);
-		}
-
-        public RRendererList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRendererList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean get_isValid_Injected(ref UnityEngine.Rendering.RendererList @_unity_self)
         {

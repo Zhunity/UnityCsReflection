@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RManualResetEventSlim : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ManualResetEventSlim);
+            }
+        }
+
+        public RManualResetEventSlim() : base("System.Threading.ManualResetEventSlim")
+        {
+        }
+
+        public RManualResetEventSlim(System.Object instance) : base("System.Threading.ManualResetEventSlim")
+		{
+            SetInstance(instance);
+		}
+
+        public RManualResetEventSlim(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RManualResetEventSlim(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 DEFAULT_SPIN_SP
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RManualResetEventSlim() : base("System.Threading.ManualResetEventSlim")
-        {
-        }
-
-        public RManualResetEventSlim(System.Object instance) : base("System.Threading.ManualResetEventSlim")
-		{
-            SetInstance(instance);
-		}
-
-        public RManualResetEventSlim(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RManualResetEventSlim(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Initialize(System.Boolean @initialState, System.Int32 @spinCount)
         {

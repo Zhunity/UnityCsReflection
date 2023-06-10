@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RLayoutData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.LayoutData");
+            }
+        }
+
+        public RLayoutData() : base("UnityEngine.UIElements.LayoutData")
+        {
+        }
+
+        public RLayoutData(System.Object instance) : base("UnityEngine.UIElements.LayoutData")
+		{
+            SetInstance(instance);
+		}
+
+        public RLayoutData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLayoutData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Align alignContent
@@ -715,23 +740,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RLayoutData() : base("UnityEngine.UIElements.LayoutData")
-        {
-        }
-
-        public RLayoutData(System.Object instance) : base("UnityEngine.UIElements.LayoutData")
-		{
-            SetInstance(instance);
-		}
-
-        public RLayoutData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLayoutData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLayoutData Copy()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RCancellationTokenRegistration : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.CancellationTokenRegistration);
+            }
+        }
+
+        public RCancellationTokenRegistration() : base("System.Threading.CancellationTokenRegistration")
+        {
+        }
+
+        public RCancellationTokenRegistration(System.Object instance) : base("System.Threading.CancellationTokenRegistration")
+		{
+            SetInstance(instance);
+		}
+
+        public RCancellationTokenRegistration(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCancellationTokenRegistration(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.CancellationCallbackInfo m_callbackInfo
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RCancellationTokenRegistration() : base("System.Threading.CancellationTokenRegistration")
-        {
-        }
-
-        public RCancellationTokenRegistration(System.Object instance) : base("System.Threading.CancellationTokenRegistration")
-		{
-            SetInstance(instance);
-		}
-
-        public RCancellationTokenRegistration(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCancellationTokenRegistration(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Unregister()
         {

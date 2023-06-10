@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIResolvedStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IResolvedStyle);
+            }
+        }
+
+        public RIResolvedStyle() : base("UnityEngine.UIElements.IResolvedStyle")
+        {
+        }
+
+        public RIResolvedStyle(System.Object instance) : base("UnityEngine.UIElements.IResolvedStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RIResolvedStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIResolvedStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Align alignContent
@@ -1259,23 +1284,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIResolvedStyle() : base("UnityEngine.UIElements.IResolvedStyle")
-        {
-        }
-
-        public RIResolvedStyle(System.Object instance) : base("UnityEngine.UIElements.IResolvedStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RIResolvedStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIResolvedStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RUpdateScopedRegistryOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UpdateScopedRegistryOptions");
+            }
+        }
+
+        public RUpdateScopedRegistryOptions() : base("UnityEditor.PackageManager.UpdateScopedRegistryOptions")
+        {
+        }
+
+        public RUpdateScopedRegistryOptions(System.Object instance) : base("UnityEditor.PackageManager.UpdateScopedRegistryOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpdateScopedRegistryOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpdateScopedRegistryOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Name
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RUpdateScopedRegistryOptions() : base("UnityEditor.PackageManager.UpdateScopedRegistryOptions")
-        {
-        }
-
-        public RUpdateScopedRegistryOptions(System.Object instance) : base("UnityEditor.PackageManager.UpdateScopedRegistryOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpdateScopedRegistryOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpdateScopedRegistryOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

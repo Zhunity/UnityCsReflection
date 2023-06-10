@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RMethodBase : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.MethodBase);
+            }
+        }
+
+        public RMethodBase() : base("System.Reflection.MethodBase")
+        {
+        }
+
+        public RMethodBase(System.Object instance) : base("System.Reflection.MethodBase")
+		{
+            SetInstance(instance);
+		}
+
+        public RMethodBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMethodBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.MethodAttributes Attributes
@@ -1099,23 +1124,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RMethodBase() : base("System.Reflection.MethodBase")
-        {
-        }
-
-        public RMethodBase(System.Object instance) : base("System.Reflection.MethodBase")
-		{
-            SetInstance(instance);
-		}
-
-        public RMethodBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMethodBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Reflection.ParameterInfo[] GetParameters()
         {

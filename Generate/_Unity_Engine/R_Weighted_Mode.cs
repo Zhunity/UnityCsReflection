@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RWeightedMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.WeightedMode);
+            }
+        }
+
+        public RWeightedMode() : base("UnityEngine.WeightedMode")
+        {
+        }
+
+        public RWeightedMode(System.Object instance) : base("UnityEngine.WeightedMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RWeightedMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWeightedMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RWeightedMode() : base("UnityEngine.WeightedMode")
-        {
-        }
-
-        public RWeightedMode(System.Object instance) : base("UnityEngine.WeightedMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RWeightedMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWeightedMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

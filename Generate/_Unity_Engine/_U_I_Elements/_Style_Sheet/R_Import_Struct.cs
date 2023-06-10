@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RImportStruct : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheet+ImportStruct");
+            }
+        }
+
+        public RImportStruct() : base("UnityEngine.UIElements.StyleSheet+ImportStruct")
+        {
+        }
+
+        public RImportStruct(System.Object instance) : base("UnityEngine.UIElements.StyleSheet+ImportStruct")
+		{
+            SetInstance(instance);
+		}
+
+        public RImportStruct(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RImportStruct(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheet styleSheet
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RImportStruct() : base("UnityEngine.UIElements.StyleSheet+ImportStruct")
-        {
-        }
-
-        public RImportStruct(System.Object instance) : base("UnityEngine.UIElements.StyleSheet+ImportStruct")
-		{
-            SetInstance(instance);
-		}
-
-        public RImportStruct(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RImportStruct(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

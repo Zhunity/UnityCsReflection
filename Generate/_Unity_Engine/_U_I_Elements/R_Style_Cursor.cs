@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleCursor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleCursor);
+            }
+        }
+
+        public RStyleCursor() : base("UnityEngine.UIElements.StyleCursor")
+        {
+        }
+
+        public RStyleCursor(System.Object instance) : base("UnityEngine.UIElements.StyleCursor")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleCursor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleCursor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Cursor m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleCursor() : base("UnityEngine.UIElements.StyleCursor")
-        {
-        }
-
-        public RStyleCursor(System.Object instance) : base("UnityEngine.UIElements.StyleCursor")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleCursor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleCursor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleCursor @lhs, UnityEngine.UIElements.StyleCursor @rhs)
         {

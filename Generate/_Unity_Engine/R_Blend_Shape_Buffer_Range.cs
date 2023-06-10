@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RBlendShapeBufferRange : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.BlendShapeBufferRange);
+            }
+        }
+
+        public RBlendShapeBufferRange() : base("UnityEngine.BlendShapeBufferRange")
+        {
+        }
+
+        public RBlendShapeBufferRange(System.Object instance) : base("UnityEngine.BlendShapeBufferRange")
+		{
+            SetInstance(instance);
+		}
+
+        public RBlendShapeBufferRange(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBlendShapeBufferRange(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 m_StartIndex
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RBlendShapeBufferRange() : base("UnityEngine.BlendShapeBufferRange")
-        {
-        }
-
-        public RBlendShapeBufferRange(System.Object instance) : base("UnityEngine.BlendShapeBufferRange")
-		{
-            SetInstance(instance);
-		}
-
-        public RBlendShapeBufferRange(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBlendShapeBufferRange(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

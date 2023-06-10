@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RCallContextSecurityData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.CallContextSecurityData");
+            }
+        }
+
+        public RCallContextSecurityData() : base("System.Runtime.Remoting.Messaging.CallContextSecurityData")
+        {
+        }
+
+        public RCallContextSecurityData(System.Object instance) : base("System.Runtime.Remoting.Messaging.CallContextSecurityData")
+		{
+            SetInstance(instance);
+		}
+
+        public RCallContextSecurityData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCallContextSecurityData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Principal.IPrincipal _principal
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RCallContextSecurityData() : base("System.Runtime.Remoting.Messaging.CallContextSecurityData")
-        {
-        }
-
-        public RCallContextSecurityData(System.Object instance) : base("System.Runtime.Remoting.Messaging.CallContextSecurityData")
-		{
-            SetInstance(instance);
-		}
-
-        public RCallContextSecurityData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCallContextSecurityData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object Clone()
         {

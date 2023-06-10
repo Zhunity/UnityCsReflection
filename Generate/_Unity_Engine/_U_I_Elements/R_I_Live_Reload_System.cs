@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RILiveReloadSystem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ILiveReloadSystem");
+            }
+        }
+
+        public RILiveReloadSystem() : base("UnityEngine.UIElements.ILiveReloadSystem")
+        {
+        }
+
+        public RILiveReloadSystem(System.Object instance) : base("UnityEngine.UIElements.ILiveReloadSystem")
+		{
+            SetInstance(instance);
+		}
+
+        public RILiveReloadSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RILiveReloadSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean enable
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RILiveReloadSystem() : base("UnityEngine.UIElements.ILiveReloadSystem")
-        {
-        }
-
-        public RILiveReloadSystem(System.Object instance) : base("UnityEngine.UIElements.ILiveReloadSystem")
-		{
-            SetInstance(instance);
-		}
-
-        public RILiveReloadSystem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RILiveReloadSystem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Update()
         {

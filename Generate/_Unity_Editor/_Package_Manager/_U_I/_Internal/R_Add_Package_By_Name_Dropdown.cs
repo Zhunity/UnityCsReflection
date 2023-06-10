@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAddPackageByNameDropdown : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AddPackageByNameDropdown");
+            }
+        }
+
+        public RAddPackageByNameDropdown() : base("UnityEditor.PackageManager.UI.Internal.AddPackageByNameDropdown")
+        {
+        }
+
+        public RAddPackageByNameDropdown(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AddPackageByNameDropdown")
+		{
+            SetInstance(instance);
+		}
+
+        public RAddPackageByNameDropdown(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAddPackageByNameDropdown(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 k_DefaultWindowSize
@@ -4027,23 +4052,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAddPackageByNameDropdown() : base("UnityEditor.PackageManager.UI.Internal.AddPackageByNameDropdown")
-        {
-        }
-
-        public RAddPackageByNameDropdown(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AddPackageByNameDropdown")
-		{
-            SetInstance(instance);
-		}
-
-        public RAddPackageByNameDropdown(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAddPackageByNameDropdown(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader @resourceLoader, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFiltering @packageFiltering, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmClient @upmClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDatabase @packageDatabase, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager @packageManager)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class REntitlementsInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.EntitlementsInfo");
+            }
+        }
+
+        public REntitlementsInfo() : base("UnityEditor.PackageManager.EntitlementsInfo")
+        {
+        }
+
+        public REntitlementsInfo(System.Object instance) : base("UnityEditor.PackageManager.EntitlementsInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public REntitlementsInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REntitlementsInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean m_IsAllowed
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public REntitlementsInfo() : base("UnityEditor.PackageManager.EntitlementsInfo")
-        {
-        }
-
-        public REntitlementsInfo(System.Object instance) : base("UnityEditor.PackageManager.EntitlementsInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public REntitlementsInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REntitlementsInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

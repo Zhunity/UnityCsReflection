@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RTypeFilter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.TypeFilter);
+            }
+        }
+
+        public RTypeFilter() : base("System.Reflection.TypeFilter")
+        {
+        }
+
+        public RTypeFilter(System.Object instance) : base("System.Reflection.TypeFilter")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypeFilter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypeFilter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RTypeFilter() : base("System.Reflection.TypeFilter")
-        {
-        }
-
-        public RTypeFilter(System.Object instance) : base("System.Reflection.TypeFilter")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypeFilter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypeFilter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(System.Type @m, System.Object @filterCriteria)
         {

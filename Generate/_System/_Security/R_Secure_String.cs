@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RSecureString : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.SecureString);
+            }
+        }
+
+        public RSecureString() : base("System.Security.SecureString")
+        {
+        }
+
+        public RSecureString(System.Object instance) : base("System.Security.SecureString")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecureString(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecureString(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 BlockSize
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RSecureString() : base("System.Security.SecureString")
-        {
-        }
-
-        public RSecureString(System.Object instance) : base("System.Security.SecureString")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecureString(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecureString(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AppendChar(System.Char @c)
         {

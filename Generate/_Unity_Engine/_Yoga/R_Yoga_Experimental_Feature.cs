@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaExperimentalFeature : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaExperimentalFeature");
+            }
+        }
+
+        public RYogaExperimentalFeature() : base("UnityEngine.Yoga.YogaExperimentalFeature")
+        {
+        }
+
+        public RYogaExperimentalFeature(System.Object instance) : base("UnityEngine.Yoga.YogaExperimentalFeature")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaExperimentalFeature(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaExperimentalFeature(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaExperimentalFeature() : base("UnityEngine.Yoga.YogaExperimentalFeature")
-        {
-        }
-
-        public RYogaExperimentalFeature(System.Object instance) : base("UnityEngine.Yoga.YogaExperimentalFeature")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaExperimentalFeature(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaExperimentalFeature(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

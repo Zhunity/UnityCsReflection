@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleList<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleList<>);
+            }
+        }
+
+        public RStyleList() : base("UnityEngine.UIElements.StyleList`1")
+        {
+        }
+
+        public RStyleList(System.Object instance) : base("UnityEngine.UIElements.StyleList`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword m_Keyword
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleList() : base("UnityEngine.UIElements.StyleList`1")
-        {
-        }
-
-        public RStyleList(System.Object instance) : base("UnityEngine.UIElements.StyleList`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleList<T> @lhs, UnityEngine.UIElements.StyleList<T> @rhs)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreDownloadInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo");
+            }
+        }
+
+        public RAssetStoreDownloadInfo() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")
+        {
+        }
+
+        public RAssetStoreDownloadInfo(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreDownloadInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreDownloadInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean isValid
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreDownloadInfo() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")
-        {
-        }
-
-        public RAssetStoreDownloadInfo(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreDownloadInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreDownloadInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadInfo ParseDownloadInfo(System.Collections.Generic.IDictionary<System.String, System.Object> @rawInfo)
         {

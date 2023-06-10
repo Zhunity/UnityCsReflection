@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RMonoWin32Resource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.MonoWin32Resource");
+            }
+        }
+
+        public RMonoWin32Resource() : base("System.Reflection.Emit.MonoWin32Resource")
+        {
+        }
+
+        public RMonoWin32Resource(System.Object instance) : base("System.Reflection.Emit.MonoWin32Resource")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoWin32Resource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoWin32Resource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 res_type
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RMonoWin32Resource() : base("System.Reflection.Emit.MonoWin32Resource")
-        {
-        }
-
-        public RMonoWin32Resource(System.Object instance) : base("System.Reflection.Emit.MonoWin32Resource")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoWin32Resource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoWin32Resource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPackageInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageInfo);
+            }
+        }
+
+        public RPackageInfo() : base("UnityEditor.PackageInfo")
+        {
+        }
+
+        public RPackageInfo(System.Object instance) : base("UnityEditor.PackageInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String packagePath
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPackageInfo() : base("UnityEditor.PackageInfo")
-        {
-        }
-
-        public RPackageInfo(System.Object instance) : base("UnityEditor.PackageInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEditor.PackageInfo[] GetPackageList()
         {

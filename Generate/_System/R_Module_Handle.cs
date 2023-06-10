@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RModuleHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ModuleHandle);
+            }
+        }
+
+        public RModuleHandle() : base("System.ModuleHandle")
+        {
+        }
+
+        public RModuleHandle(System.Object instance) : base("System.ModuleHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RModuleHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RModuleHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr value
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RModuleHandle() : base("System.ModuleHandle")
-        {
-        }
-
-        public RModuleHandle(System.Object instance) : base("System.ModuleHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RModuleHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RModuleHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetPEKind(out System.Reflection.PortableExecutableKinds @peKind, out System.Reflection.ImageFileMachine @machine)
         {

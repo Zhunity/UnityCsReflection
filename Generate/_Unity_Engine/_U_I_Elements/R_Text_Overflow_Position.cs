@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextOverflowPosition : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TextOverflowPosition);
+            }
+        }
+
+        public RTextOverflowPosition() : base("UnityEngine.UIElements.TextOverflowPosition")
+        {
+        }
+
+        public RTextOverflowPosition(System.Object instance) : base("UnityEngine.UIElements.TextOverflowPosition")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextOverflowPosition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextOverflowPosition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextOverflowPosition() : base("UnityEngine.UIElements.TextOverflowPosition")
-        {
-        }
-
-        public RTextOverflowPosition(System.Object instance) : base("UnityEngine.UIElements.TextOverflowPosition")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextOverflowPosition(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextOverflowPosition(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

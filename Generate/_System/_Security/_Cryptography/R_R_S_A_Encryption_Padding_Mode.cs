@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RRSAEncryptionPaddingMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.RSAEncryptionPaddingMode);
+            }
+        }
+
+        public RRSAEncryptionPaddingMode() : base("System.Security.Cryptography.RSAEncryptionPaddingMode")
+        {
+        }
+
+        public RRSAEncryptionPaddingMode(System.Object instance) : base("System.Security.Cryptography.RSAEncryptionPaddingMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RRSAEncryptionPaddingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRSAEncryptionPaddingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RRSAEncryptionPaddingMode() : base("System.Security.Cryptography.RSAEncryptionPaddingMode")
-        {
-        }
-
-        public RRSAEncryptionPaddingMode(System.Object instance) : base("System.Security.Cryptography.RSAEncryptionPaddingMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RRSAEncryptionPaddingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRSAEncryptionPaddingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

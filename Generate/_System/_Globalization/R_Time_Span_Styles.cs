@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RTimeSpanStyles : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.TimeSpanStyles);
+            }
+        }
+
+        public RTimeSpanStyles() : base("System.Globalization.TimeSpanStyles")
+        {
+        }
+
+        public RTimeSpanStyles(System.Object instance) : base("System.Globalization.TimeSpanStyles")
+		{
+            SetInstance(instance);
+		}
+
+        public RTimeSpanStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTimeSpanStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RTimeSpanStyles() : base("System.Globalization.TimeSpanStyles")
-        {
-        }
-
-        public RTimeSpanStyles(System.Object instance) : base("System.Globalization.TimeSpanStyles")
-		{
-            SetInstance(instance);
-		}
-
-        public RTimeSpanStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTimeSpanStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

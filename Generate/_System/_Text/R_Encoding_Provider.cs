@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class REncodingProvider : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.EncodingProvider);
+            }
+        }
+
+        public REncodingProvider() : base("System.Text.EncodingProvider")
+        {
+        }
+
+        public REncodingProvider(System.Object instance) : base("System.Text.EncodingProvider")
+		{
+            SetInstance(instance);
+		}
+
+        public REncodingProvider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REncodingProvider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object s_InternalSyncObject
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public REncodingProvider() : base("System.Text.EncodingProvider")
-        {
-        }
-
-        public REncodingProvider(System.Object instance) : base("System.Text.EncodingProvider")
-		{
-            SetInstance(instance);
-		}
-
-        public REncodingProvider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REncodingProvider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Text.Encoding GetEncoding(System.String @name)
         {

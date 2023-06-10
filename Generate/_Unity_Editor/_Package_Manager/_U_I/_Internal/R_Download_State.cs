@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RDownloadState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.DownloadState");
+            }
+        }
+
+        public RDownloadState() : base("UnityEditor.PackageManager.UI.Internal.DownloadState")
+        {
+        }
+
+        public RDownloadState(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.DownloadState")
+		{
+            SetInstance(instance);
+		}
+
+        public RDownloadState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDownloadState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RDownloadState() : base("UnityEditor.PackageManager.UI.Internal.DownloadState")
-        {
-        }
-
-        public RDownloadState(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.DownloadState")
-		{
-            SetInstance(instance);
-		}
-
-        public RDownloadState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDownloadState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

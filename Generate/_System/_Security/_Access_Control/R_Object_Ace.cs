@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RObjectAce : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.ObjectAce);
+            }
+        }
+
+        public RObjectAce() : base("System.Security.AccessControl.ObjectAce")
+        {
+        }
+
+        public RObjectAce(System.Object instance) : base("System.Security.AccessControl.ObjectAce")
+		{
+            SetInstance(instance);
+		}
+
+        public RObjectAce(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RObjectAce(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Guid object_ace_type
@@ -571,23 +596,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RObjectAce() : base("System.Security.AccessControl.ObjectAce")
-        {
-        }
-
-        public RObjectAce(System.Object instance) : base("System.Security.AccessControl.ObjectAce")
-		{
-            SetInstance(instance);
-		}
-
-        public RObjectAce(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RObjectAce(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RScale : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Scale);
+            }
+        }
+
+        public RScale() : base("UnityEngine.UIElements.Scale")
+        {
+        }
+
+        public RScale(System.Object instance) : base("UnityEngine.UIElements.Scale")
+		{
+            SetInstance(instance);
+		}
+
+        public RScale(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScale(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 m_Scale
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RScale() : base("UnityEngine.UIElements.Scale")
-        {
-        }
-
-        public RScale(System.Object instance) : base("UnityEngine.UIElements.Scale")
-		{
-            SetInstance(instance);
-		}
-
-        public RScale(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScale(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.Scale Initial()
         {

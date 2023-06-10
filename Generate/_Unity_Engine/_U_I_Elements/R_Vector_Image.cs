@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVectorImage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.VectorImage);
+            }
+        }
+
+        public RVectorImage() : base("UnityEngine.UIElements.VectorImage")
+        {
+        }
+
+        public RVectorImage(System.Object instance) : base("UnityEngine.UIElements.VectorImage")
+		{
+            SetInstance(instance);
+		}
+
+        public RVectorImage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVectorImage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 version
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVectorImage() : base("UnityEngine.UIElements.VectorImage")
-        {
-        }
-
-        public RVectorImage(System.Object instance) : base("UnityEngine.UIElements.VectorImage")
-		{
-            SetInstance(instance);
-		}
-
-        public RVectorImage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVectorImage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetDirty()
         {

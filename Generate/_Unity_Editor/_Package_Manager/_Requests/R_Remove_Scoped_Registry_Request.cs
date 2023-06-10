@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 	/// </summary>
     public partial class RRemoveScopedRegistryRequest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.RemoveScopedRegistryRequest");
+            }
+        }
+
+        public RRemoveScopedRegistryRequest() : base("UnityEditor.PackageManager.Requests.RemoveScopedRegistryRequest")
+        {
+        }
+
+        public RRemoveScopedRegistryRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.RemoveScopedRegistryRequest")
+		{
+            SetInstance(instance);
+		}
+
+        public RRemoveScopedRegistryRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRemoveScopedRegistryRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.NativeStatusCode NativeStatus
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			}
 		}
 
-
-        public RRemoveScopedRegistryRequest() : base("UnityEditor.PackageManager.Requests.RemoveScopedRegistryRequest")
-        {
-        }
-
-        public RRemoveScopedRegistryRequest(System.Object instance) : base("UnityEditor.PackageManager.Requests.RemoveScopedRegistryRequest")
-		{
-            SetInstance(instance);
-		}
-
-        public RRemoveScopedRegistryRequest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRemoveScopedRegistryRequest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void FetchNativeData()
         {

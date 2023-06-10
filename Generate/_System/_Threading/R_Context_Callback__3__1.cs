@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RContextCallback<TState> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.ContextCallback`1");
+            }
+        }
+
+        public RContextCallback() : base("System.Threading.ContextCallback`1")
+        {
+        }
+
+        public RContextCallback(System.Object instance) : base("System.Threading.ContextCallback`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RContextCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RContextCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RContextCallback() : base("System.Threading.ContextCallback`1")
-        {
-        }
-
-        public RContextCallback(System.Object instance) : base("System.Threading.ContextCallback`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RContextCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RContextCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(ref TState @state)
         {

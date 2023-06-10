@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RMarshalAsAttribute : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.MarshalAsAttribute);
+            }
+        }
+
+        public RMarshalAsAttribute() : base("System.Runtime.InteropServices.MarshalAsAttribute")
+        {
+        }
+
+        public RMarshalAsAttribute(System.Object instance) : base("System.Runtime.InteropServices.MarshalAsAttribute")
+		{
+            SetInstance(instance);
+		}
+
+        public RMarshalAsAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMarshalAsAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String MarshalCookie
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RMarshalAsAttribute() : base("System.Runtime.InteropServices.MarshalAsAttribute")
-        {
-        }
-
-        public RMarshalAsAttribute(System.Object instance) : base("System.Runtime.InteropServices.MarshalAsAttribute")
-		{
-            SetInstance(instance);
-		}
-
-        public RMarshalAsAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMarshalAsAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Runtime.InteropServices.MarshalAsAttribute Copy()
         {

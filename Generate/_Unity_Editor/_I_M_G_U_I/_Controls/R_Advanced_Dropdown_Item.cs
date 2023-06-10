@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 	/// </summary>
     public partial class RAdvancedDropdownItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem);
+            }
+        }
+
+        public RAdvancedDropdownItem() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownItem")
+        {
+        }
+
+        public RAdvancedDropdownItem(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RAdvancedDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAdvancedDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Name
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			}
 		}
 
-
-        public RAdvancedDropdownItem() : base("UnityEditor.IMGUI.Controls.AdvancedDropdownItem")
-        {
-        }
-
-        public RAdvancedDropdownItem(System.Object instance) : base("UnityEditor.IMGUI.Controls.AdvancedDropdownItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RAdvancedDropdownItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAdvancedDropdownItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddChild(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @child)
         {

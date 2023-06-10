@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RHeaderCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+HeaderCallbackDelegate");
+            }
+        }
+
+        public RHeaderCallbackDelegate() : base("UnityEditorInternal.ReorderableList+HeaderCallbackDelegate")
+        {
+        }
+
+        public RHeaderCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+HeaderCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RHeaderCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHeaderCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RHeaderCallbackDelegate() : base("UnityEditorInternal.ReorderableList+HeaderCallbackDelegate")
-        {
-        }
-
-        public RHeaderCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+HeaderCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RHeaderCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHeaderCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEngine.Rect @rect)
         {

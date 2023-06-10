@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RPowerOvfl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Decimal+DecCalc+PowerOvfl");
+            }
+        }
+
+        public RPowerOvfl() : base("System.Decimal+DecCalc+PowerOvfl")
+        {
+        }
+
+        public RPowerOvfl(System.Object instance) : base("System.Decimal+DecCalc+PowerOvfl")
+		{
+            SetInstance(instance);
+		}
+
+        public RPowerOvfl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPowerOvfl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 Hi
@@ -143,23 +168,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RPowerOvfl() : base("System.Decimal+DecCalc+PowerOvfl")
-        {
-        }
-
-        public RPowerOvfl(System.Object instance) : base("System.Decimal+DecCalc+PowerOvfl")
-		{
-            SetInstance(instance);
-		}
-
-        public RPowerOvfl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPowerOvfl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

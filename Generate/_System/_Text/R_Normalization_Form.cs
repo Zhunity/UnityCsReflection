@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class RNormalizationForm : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.NormalizationForm);
+            }
+        }
+
+        public RNormalizationForm() : base("System.Text.NormalizationForm")
+        {
+        }
+
+        public RNormalizationForm(System.Object instance) : base("System.Text.NormalizationForm")
+		{
+            SetInstance(instance);
+		}
+
+        public RNormalizationForm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNormalizationForm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public RNormalizationForm() : base("System.Text.NormalizationForm")
-        {
-        }
-
-        public RNormalizationForm(System.Object instance) : base("System.Text.NormalizationForm")
-		{
-            SetInstance(instance);
-		}
-
-        public RNormalizationForm(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNormalizationForm(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

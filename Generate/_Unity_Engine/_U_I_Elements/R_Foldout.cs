@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFoldout : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Foldout);
+            }
+        }
+
+        public RFoldout() : base("UnityEngine.UIElements.Foldout")
+        {
+        }
+
+        public RFoldout(System.Object instance) : base("UnityEngine.UIElements.Foldout")
+		{
+            SetInstance(instance);
+		}
+
+        public RFoldout(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFoldout(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Toggle m_Toggle
@@ -3787,23 +3812,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFoldout() : base("UnityEngine.UIElements.Foldout")
-        {
-        }
-
-        public RFoldout(System.Object instance) : base("UnityEngine.UIElements.Foldout")
-		{
-            SetInstance(instance);
-		}
-
-        public RFoldout(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFoldout(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetValueWithoutNotify(System.Boolean @newValue)
         {

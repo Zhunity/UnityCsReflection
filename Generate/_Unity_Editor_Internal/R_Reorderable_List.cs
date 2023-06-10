@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RReorderableList : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditorInternal.ReorderableList);
+            }
+        }
+
+        public RReorderableList() : base("UnityEditorInternal.ReorderableList")
+        {
+        }
+
+        public RReorderableList(System.Object instance) : base("UnityEditorInternal.ReorderableList")
+		{
+            SetInstance(instance);
+		}
+
+        public RReorderableList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReorderableList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditorInternal.ReorderableList+HeaderCallbackDelegate drawHeaderCallback
@@ -1787,23 +1812,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RReorderableList() : base("UnityEditorInternal.ReorderableList")
-        {
-        }
-
-        public RReorderableList(System.Object instance) : base("UnityEditorInternal.ReorderableList")
-		{
-            SetInstance(instance);
-		}
-
-        public RReorderableList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReorderableList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.String GetParentListPath(System.String @propertyPath)
         {

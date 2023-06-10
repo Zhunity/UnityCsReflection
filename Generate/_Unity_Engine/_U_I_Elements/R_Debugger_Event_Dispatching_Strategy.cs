@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDebuggerEventDispatchingStrategy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.DebuggerEventDispatchingStrategy");
+            }
+        }
+
+        public RDebuggerEventDispatchingStrategy() : base("UnityEngine.UIElements.DebuggerEventDispatchingStrategy")
+        {
+        }
+
+        public RDebuggerEventDispatchingStrategy(System.Object instance) : base("UnityEngine.UIElements.DebuggerEventDispatchingStrategy")
+		{
+            SetInstance(instance);
+		}
+
+        public RDebuggerEventDispatchingStrategy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDebuggerEventDispatchingStrategy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IGlobalPanelDebugger s_GlobalPanelDebug
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDebuggerEventDispatchingStrategy() : base("UnityEngine.UIElements.DebuggerEventDispatchingStrategy")
-        {
-        }
-
-        public RDebuggerEventDispatchingStrategy(System.Object instance) : base("UnityEngine.UIElements.DebuggerEventDispatchingStrategy")
-		{
-            SetInstance(instance);
-		}
-
-        public RDebuggerEventDispatchingStrategy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDebuggerEventDispatchingStrategy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean CanDispatchEvent(UnityEngine.UIElements.EventBase @evt)
         {

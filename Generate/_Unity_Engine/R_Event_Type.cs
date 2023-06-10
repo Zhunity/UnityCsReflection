@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class REventType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.EventType);
+            }
+        }
+
+        public REventType() : base("UnityEngine.EventType")
+        {
+        }
+
+        public REventType(System.Object instance) : base("UnityEngine.EventType")
+		{
+            SetInstance(instance);
+		}
+
+        public REventType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public REventType() : base("UnityEngine.EventType")
-        {
-        }
-
-        public REventType(System.Object instance) : base("UnityEngine.EventType")
-		{
-            SetInstance(instance);
-		}
-
-        public REventType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

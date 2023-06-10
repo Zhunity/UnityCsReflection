@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextInputBase : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase");
+            }
+        }
+
+        public RTextInputBase() : base("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase")
+        {
+        }
+
+        public RTextInputBase(System.Object instance) : base("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextInputBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextInputBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement <textElement>k__BackingField
@@ -4365,23 +4390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextInputBase() : base("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase")
-        {
-        }
-
-        public RTextInputBase(System.Object instance) : base("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextInputBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextInputBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SelectAll()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Delegate);
+            }
+        }
+
+        public RDelegate() : base("System.Delegate")
+        {
+        }
+
+        public RDelegate(System.Object instance) : base("System.Delegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr method_ptr
@@ -923,23 +948,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDelegate() : base("System.Delegate")
-        {
-        }
-
-        public RDelegate(System.Object instance) : base("System.Delegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Reflection.MethodInfo GetVirtualMethod_internal()
         {

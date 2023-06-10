@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmCache : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmCache");
+            }
+        }
+
+        public RUpmCache() : base("UnityEditor.PackageManager.UI.Internal.UpmCache")
+        {
+        }
+
+        public RUpmCache(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmCache")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[System.String,System.Boolean] onLoadAllVersionsChanged
@@ -939,23 +964,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmCache() : base("UnityEditor.PackageManager.UI.Internal.UpmCache")
-        {
-        }
-
-        public RUpmCache(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmCache")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo> FindUpdatedPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @oldInfos, System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @newInfos)
         {

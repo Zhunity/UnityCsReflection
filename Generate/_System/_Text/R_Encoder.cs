@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class REncoder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.Encoder);
+            }
+        }
+
+        public REncoder() : base("System.Text.Encoder")
+        {
+        }
+
+        public REncoder(System.Object instance) : base("System.Text.Encoder")
+		{
+            SetInstance(instance);
+		}
+
+        public REncoder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REncoder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.EncoderFallback _fallback
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public REncoder() : base("System.Text.Encoder")
-        {
-        }
-
-        public REncoder(System.Object instance) : base("System.Text.Encoder")
-		{
-            SetInstance(instance);
-		}
-
-        public REncoder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REncoder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

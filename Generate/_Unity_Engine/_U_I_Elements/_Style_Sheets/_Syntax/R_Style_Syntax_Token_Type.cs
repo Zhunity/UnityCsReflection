@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 	/// </summary>
     public partial class RStyleSyntaxTokenType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType");
+            }
+        }
+
+        public RStyleSyntaxTokenType() : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType")
+        {
+        }
+
+        public RStyleSyntaxTokenType(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleSyntaxTokenType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleSyntaxTokenType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -571,23 +596,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 			}
 		}
 
-
-        public RStyleSyntaxTokenType() : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType")
-        {
-        }
-
-        public RStyleSyntaxTokenType(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenType")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleSyntaxTokenType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleSyntaxTokenType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

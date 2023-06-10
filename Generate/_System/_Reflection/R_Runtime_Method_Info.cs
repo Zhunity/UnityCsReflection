@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimeMethodInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimeMethodInfo");
+            }
+        }
+
+        public RRuntimeMethodInfo() : base("System.Reflection.RuntimeMethodInfo")
+        {
+        }
+
+        public RRuntimeMethodInfo(System.Object instance) : base("System.Reflection.RuntimeMethodInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeMethodInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeMethodInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr mhandle
@@ -1499,23 +1524,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimeMethodInfo() : base("System.Reflection.RuntimeMethodInfo")
-        {
-        }
-
-        public RRuntimeMethodInfo(System.Object instance) : base("System.Reflection.RuntimeMethodInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeMethodInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeMethodInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String FormatNameAndSig(System.Boolean @serialization)
         {

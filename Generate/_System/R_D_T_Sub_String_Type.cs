@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDTSubStringType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.DTSubStringType");
+            }
+        }
+
+        public RDTSubStringType() : base("System.DTSubStringType")
+        {
+        }
+
+        public RDTSubStringType(System.Object instance) : base("System.DTSubStringType")
+		{
+            SetInstance(instance);
+		}
+
+        public RDTSubStringType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDTSubStringType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDTSubStringType() : base("System.DTSubStringType")
-        {
-        }
-
-        public RDTSubStringType(System.Object instance) : base("System.DTSubStringType")
-		{
-            SetInstance(instance);
-		}
-
-        public RDTSubStringType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDTSubStringType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

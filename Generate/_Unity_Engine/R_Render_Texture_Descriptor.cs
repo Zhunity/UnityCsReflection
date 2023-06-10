@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRenderTextureDescriptor : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.RenderTextureDescriptor);
+            }
+        }
+
+        public RRenderTextureDescriptor() : base("UnityEngine.RenderTextureDescriptor")
+        {
+        }
+
+        public RRenderTextureDescriptor(System.Object instance) : base("UnityEngine.RenderTextureDescriptor")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderTextureDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderTextureDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 <width>k__BackingField
@@ -683,23 +708,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRenderTextureDescriptor() : base("UnityEngine.RenderTextureDescriptor")
-        {
-        }
-
-        public RRenderTextureDescriptor(System.Object instance) : base("UnityEngine.RenderTextureDescriptor")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderTextureDescriptor(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderTextureDescriptor(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetOrClearRenderTextureCreationFlag(System.Boolean @value, UnityEngine.RenderTextureCreationFlags @flag)
         {

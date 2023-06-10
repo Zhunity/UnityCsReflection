@@ -10,7 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RICollectionDragAndDropController : RMember //
     {
-
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ICollectionDragAndDropController");
+            }
+        }
 
         public RICollectionDragAndDropController() : base("UnityEngine.UIElements.ICollectionDragAndDropController")
         {
@@ -28,6 +34,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		 public RICollectionDragAndDropController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
 
     }
 }

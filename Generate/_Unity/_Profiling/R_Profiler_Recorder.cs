@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 	/// </summary>
     public partial class RProfilerRecorder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Profiling.ProfilerRecorder);
+            }
+        }
+
+        public RProfilerRecorder() : base("Unity.Profiling.ProfilerRecorder")
+        {
+        }
+
+        public RProfilerRecorder(System.Object instance) : base("Unity.Profiling.ProfilerRecorder")
+		{
+            SetInstance(instance);
+		}
+
+        public RProfilerRecorder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProfilerRecorder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt64 handle
@@ -1035,23 +1060,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			}
 		}
 
-
-        public RProfilerRecorder() : base("Unity.Profiling.ProfilerRecorder")
-        {
-        }
-
-        public RProfilerRecorder(System.Object instance) : base("Unity.Profiling.ProfilerRecorder")
-		{
-            SetInstance(instance);
-		}
-
-        public RProfilerRecorder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProfilerRecorder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Unity.Profiling.ProfilerRecorder StartNew(Unity.Profiling.ProfilerCategory @category, System.String @statName, System.Int32 @capacity, Unity.Profiling.ProfilerRecorderOptions @options)
         {

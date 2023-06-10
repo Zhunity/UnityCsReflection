@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RByReference<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.ByReference`1");
+            }
+        }
+
+        public RByReference() : base("System.ByReference`1")
+        {
+        }
+
+        public RByReference(System.Object instance) : base("System.ByReference`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RByReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RByReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr _value
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RByReference() : base("System.ByReference`1")
-        {
-        }
-
-        public RByReference(System.Object instance) : base("System.ByReference`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RByReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RByReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

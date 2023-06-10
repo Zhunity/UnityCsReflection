@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTextAsset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextAsset);
+            }
+        }
+
+        public RTextAsset() : base("UnityEngine.TextAsset")
+        {
+        }
+
+        public RTextAsset(System.Object instance) : base("UnityEngine.TextAsset")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Byte[] bytes
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTextAsset() : base("UnityEngine.TextAsset")
-        {
-        }
-
-        public RTextAsset(System.Object instance) : base("UnityEngine.TextAsset")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Byte[] GetPreviewBytes(System.Int32 @maxByteCount)
         {

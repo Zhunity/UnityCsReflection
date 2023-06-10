@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 	/// </summary>
     public partial class RActivatorLevel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Activation.ActivatorLevel);
+            }
+        }
+
+        public RActivatorLevel() : base("System.Runtime.Remoting.Activation.ActivatorLevel")
+        {
+        }
+
+        public RActivatorLevel(System.Object instance) : base("System.Runtime.Remoting.Activation.ActivatorLevel")
+		{
+            SetInstance(instance);
+		}
+
+        public RActivatorLevel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RActivatorLevel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 			}
 		}
 
-
-        public RActivatorLevel() : base("System.Runtime.Remoting.Activation.ActivatorLevel")
-        {
-        }
-
-        public RActivatorLevel(System.Object instance) : base("System.Runtime.Remoting.Activation.ActivatorLevel")
-		{
-            SetInstance(instance);
-		}
-
-        public RActivatorLevel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RActivatorLevel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

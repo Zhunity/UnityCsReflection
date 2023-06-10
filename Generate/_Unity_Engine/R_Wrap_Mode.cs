@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RWrapMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.WrapMode);
+            }
+        }
+
+        public RWrapMode() : base("UnityEngine.WrapMode")
+        {
+        }
+
+        public RWrapMode(System.Object instance) : base("UnityEngine.WrapMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RWrapMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWrapMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RWrapMode() : base("UnityEngine.WrapMode")
-        {
-        }
-
-        public RWrapMode(System.Object instance) : base("UnityEngine.WrapMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RWrapMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWrapMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

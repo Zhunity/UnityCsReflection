@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RNativeBorderParams : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.MeshBuilderNative+NativeBorderParams");
+            }
+        }
+
+        public RNativeBorderParams() : base("UnityEngine.UIElements.MeshBuilderNative+NativeBorderParams")
+        {
+        }
+
+        public RNativeBorderParams(System.Object instance) : base("UnityEngine.UIElements.MeshBuilderNative+NativeBorderParams")
+		{
+            SetInstance(instance);
+		}
+
+        public RNativeBorderParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNativeBorderParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rect rect
@@ -381,23 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RNativeBorderParams() : base("UnityEngine.UIElements.MeshBuilderNative+NativeBorderParams")
-        {
-        }
-
-        public RNativeBorderParams(System.Object instance) : base("UnityEngine.UIElements.MeshBuilderNative+NativeBorderParams")
-		{
-            SetInstance(instance);
-		}
-
-        public RNativeBorderParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNativeBorderParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaLogLevel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaLogLevel");
+            }
+        }
+
+        public RYogaLogLevel() : base("UnityEngine.Yoga.YogaLogLevel")
+        {
+        }
+
+        public RYogaLogLevel(System.Object instance) : base("UnityEngine.Yoga.YogaLogLevel")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaLogLevel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaLogLevel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaLogLevel() : base("UnityEngine.Yoga.YogaLogLevel")
-        {
-        }
-
-        public RYogaLogLevel(System.Object instance) : base("UnityEngine.Yoga.YogaLogLevel")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaLogLevel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaLogLevel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 	/// </summary>
     public partial class RAtomicSafetyHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle);
+            }
+        }
+
+        public RAtomicSafetyHandle() : base("Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle")
+        {
+        }
+
+        public RAtomicSafetyHandle(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RAtomicSafetyHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAtomicSafetyHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 Read
@@ -1275,23 +1300,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 			}
 		}
 
-
-        public RAtomicSafetyHandle() : base("Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle")
-        {
-        }
-
-        public RAtomicSafetyHandle(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RAtomicSafetyHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAtomicSafetyHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle Create()
         {

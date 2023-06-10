@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RMenuItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.GenericMenu+MenuItem");
+            }
+        }
+
+        public RMenuItem() : base("UnityEditor.GenericMenu+MenuItem")
+        {
+        }
+
+        public RMenuItem(System.Object instance) : base("UnityEditor.GenericMenu+MenuItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RMenuItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMenuItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.GUIContent content
@@ -205,23 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RMenuItem() : base("UnityEditor.GenericMenu+MenuItem")
-        {
-        }
-
-        public RMenuItem(System.Object instance) : base("UnityEditor.GenericMenu+MenuItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RMenuItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMenuItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 	/// </summary>
     public partial class RNPath : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("NiceIO.NPath");
+            }
+        }
+
+        public RNPath() : base("NiceIO.NPath")
+        {
+        }
+
+        public RNPath(System.Object instance) : base("NiceIO.NPath")
+		{
+            SetInstance(instance);
+		}
+
+        public RNPath(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNPath(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean k_IsCaseSensitiveFileSystem
@@ -1723,23 +1748,6 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			}
 		}
 
-
-        public RNPath() : base("NiceIO.NPath")
-        {
-        }
-
-        public RNPath(System.Object instance) : base("NiceIO.NPath")
-		{
-            SetInstance(instance);
-		}
-
-        public RNPath(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNPath(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean CalculateIsWindows()
         {

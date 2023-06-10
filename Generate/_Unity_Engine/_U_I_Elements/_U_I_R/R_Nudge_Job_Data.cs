@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RNudgeJobData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.NudgeJobData");
+            }
+        }
+
+        public RNudgeJobData() : base("UnityEngine.UIElements.UIR.NudgeJobData")
+        {
+        }
+
+        public RNudgeJobData(System.Object instance) : base("UnityEngine.UIElements.UIR.NudgeJobData")
+		{
+            SetInstance(instance);
+		}
+
+        public RNudgeJobData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNudgeJobData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr src
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RNudgeJobData() : base("UnityEngine.UIElements.UIR.NudgeJobData")
-        {
-        }
-
-        public RNudgeJobData(System.Object instance) : base("UnityEngine.UIElements.UIR.NudgeJobData")
-		{
-            SetInstance(instance);
-		}
-
-        public RNudgeJobData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNudgeJobData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

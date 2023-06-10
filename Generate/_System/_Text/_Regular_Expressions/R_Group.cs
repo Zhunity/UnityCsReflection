@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.Group);
+            }
+        }
+
+        public RGroup() : base("System.Text.RegularExpressions.Group")
+        {
+        }
+
+        public RGroup(System.Object instance) : base("System.Text.RegularExpressions.Group")
+		{
+            SetInstance(instance);
+		}
+
+        public RGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Group s_emptyGroup
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RGroup() : base("System.Text.RegularExpressions.Group")
-        {
-        }
-
-        public RGroup(System.Object instance) : base("System.Text.RegularExpressions.Group")
-		{
-            SetInstance(instance);
-		}
-
-        public RGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Text.RegularExpressions.Group Synchronized(System.Text.RegularExpressions.Group @inner)
         {

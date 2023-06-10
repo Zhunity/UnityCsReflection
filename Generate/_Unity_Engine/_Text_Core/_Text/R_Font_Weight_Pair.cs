@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RFontWeightPair : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.FontWeightPair);
+            }
+        }
+
+        public RFontWeightPair() : base("UnityEngine.TextCore.Text.FontWeightPair")
+        {
+        }
+
+        public RFontWeightPair(System.Object instance) : base("UnityEngine.TextCore.Text.FontWeightPair")
+		{
+            SetInstance(instance);
+		}
+
+        public RFontWeightPair(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFontWeightPair(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.FontAsset regularTypeface
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RFontWeightPair() : base("UnityEngine.TextCore.Text.FontWeightPair")
-        {
-        }
-
-        public RFontWeightPair(System.Object instance) : base("UnityEngine.TextCore.Text.FontWeightPair")
-		{
-            SetInstance(instance);
-		}
-
-        public RFontWeightPair(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFontWeightPair(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

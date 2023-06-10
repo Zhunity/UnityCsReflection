@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RIMessage : RMember //
     {
-
-		/// <summary>
-		/// System.Collections.IDictionary Properties
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PProperties;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary RPProperties
-		{
-			get
-			{
-				if(r_PProperties == null)
-				{
-					r_PProperties = new(this, "Properties", -1);
-				}
-				return r_PProperties;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Messaging.IMessage);
+            }
+        }
 
         public RIMessage() : base("System.Runtime.Remoting.Messaging.IMessage")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 		 public RIMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.Collections.IDictionary Properties
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary r_PProperties;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RIDictionary RPProperties
+		{
+			get
+			{
+				if(r_PProperties == null)
+				{
+					r_PProperties = new(this, "Properties", -1);
+				}
+				return r_PProperties;
+			}
+		}
+
 
     }
 }

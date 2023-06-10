@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDefaultDragAndDropClient : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.DefaultDragAndDropClient");
+            }
+        }
+
+        public RDefaultDragAndDropClient() : base("UnityEngine.UIElements.DefaultDragAndDropClient")
+        {
+        }
+
+        public RDefaultDragAndDropClient(System.Object instance) : base("UnityEngine.UIElements.DefaultDragAndDropClient")
+		{
+            SetInstance(instance);
+		}
+
+        public RDefaultDragAndDropClient(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDefaultDragAndDropClient(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StartDragArgs m_StartDragArgs
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDefaultDragAndDropClient() : base("UnityEngine.UIElements.DefaultDragAndDropClient")
-        {
-        }
-
-        public RDefaultDragAndDropClient(System.Object instance) : base("UnityEngine.UIElements.DefaultDragAndDropClient")
-		{
-            SetInstance(instance);
-		}
-
-        public RDefaultDragAndDropClient(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDefaultDragAndDropClient(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void StartDrag(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs @args)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 	/// </summary>
     public partial class RUIRStylePainter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter");
+            }
+        }
+
+        public RUIRStylePainter() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter")
+        {
+        }
+
+        public RUIRStylePainter(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter")
+		{
+            SetInstance(instance);
+		}
+
+        public RUIRStylePainter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUIRStylePainter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderChain m_Owner
@@ -1099,23 +1124,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 			}
 		}
 
-
-        public RUIRStylePainter() : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter")
-        {
-        }
-
-        public RUIRStylePainter(System.Object instance) : base("UnityEngine.UIElements.UIR.Implementation.UIRStylePainter")
-		{
-            SetInstance(instance);
-		}
-
-        public RUIRStylePainter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUIRStylePainter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.MeshWriteData GetPooledMeshWriteData()
         {

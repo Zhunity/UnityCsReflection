@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleTextShadow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleTextShadow);
+            }
+        }
+
+        public RStyleTextShadow() : base("UnityEngine.UIElements.StyleTextShadow")
+        {
+        }
+
+        public RStyleTextShadow(System.Object instance) : base("UnityEngine.UIElements.StyleTextShadow")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleTextShadow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleTextShadow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleKeyword m_Keyword
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleTextShadow() : base("UnityEngine.UIElements.StyleTextShadow")
-        {
-        }
-
-        public RStyleTextShadow(System.Object instance) : base("UnityEngine.UIElements.StyleTextShadow")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleTextShadow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleTextShadow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleTextShadow @lhs, UnityEngine.UIElements.StyleTextShadow @rhs)
         {

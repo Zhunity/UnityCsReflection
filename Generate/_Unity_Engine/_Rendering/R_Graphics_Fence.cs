@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RGraphicsFence : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.GraphicsFence);
+            }
+        }
+
+        public RGraphicsFence() : base("UnityEngine.Rendering.GraphicsFence")
+        {
+        }
+
+        public RGraphicsFence(System.Object instance) : base("UnityEngine.Rendering.GraphicsFence")
+		{
+            SetInstance(instance);
+		}
+
+        public RGraphicsFence(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGraphicsFence(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RGraphicsFence() : base("UnityEngine.Rendering.GraphicsFence")
-        {
-        }
-
-        public RGraphicsFence(System.Object instance) : base("UnityEngine.Rendering.GraphicsFence")
-		{
-            SetInstance(instance);
-		}
-
-        public RGraphicsFence(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGraphicsFence(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Rendering.SynchronisationStageFlags TranslateSynchronizationStageToFlags(UnityEngine.Rendering.SynchronisationStage @s)
         {

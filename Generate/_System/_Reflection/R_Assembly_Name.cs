@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RAssemblyName : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.AssemblyName);
+            }
+        }
+
+        public RAssemblyName() : base("System.Reflection.AssemblyName")
+        {
+        }
+
+        public RAssemblyName(System.Object instance) : base("System.Reflection.AssemblyName")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssemblyName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssemblyName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String name
@@ -907,23 +932,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RAssemblyName() : base("System.Reflection.AssemblyName")
-        {
-        }
-
-        public RAssemblyName(System.Object instance) : base("System.Reflection.AssemblyName")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssemblyName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssemblyName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean ParseAssemblyName(System.IntPtr @name, out Hvak.Editor.Refleaction.RMono.RMonoAssemblyName @aname, out System.Boolean @is_version_definited, out System.Boolean @is_token_defined)
         {

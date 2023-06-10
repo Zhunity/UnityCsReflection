@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RCorElementType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.CorElementType");
+            }
+        }
+
+        public RCorElementType() : base("System.Reflection.CorElementType")
+        {
+        }
+
+        public RCorElementType(System.Object instance) : base("System.Reflection.CorElementType")
+		{
+            SetInstance(instance);
+		}
+
+        public RCorElementType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCorElementType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -1387,23 +1412,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RCorElementType() : base("System.Reflection.CorElementType")
-        {
-        }
-
-        public RCorElementType(System.Object instance) : base("System.Reflection.CorElementType")
-		{
-            SetInstance(instance);
-		}
-
-        public RCorElementType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCorElementType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

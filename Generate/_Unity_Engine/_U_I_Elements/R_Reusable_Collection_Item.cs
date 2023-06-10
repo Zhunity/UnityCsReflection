@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RReusableCollectionItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ReusableCollectionItem");
+            }
+        }
+
+        public RReusableCollectionItem() : base("UnityEngine.UIElements.ReusableCollectionItem")
+        {
+        }
+
+        public RReusableCollectionItem(System.Object instance) : base("UnityEngine.UIElements.ReusableCollectionItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RReusableCollectionItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReusableCollectionItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onGeometryChanged
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RReusableCollectionItem() : base("UnityEngine.UIElements.ReusableCollectionItem")
-        {
-        }
-
-        public RReusableCollectionItem(System.Object instance) : base("UnityEngine.UIElements.ReusableCollectionItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RReusableCollectionItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReusableCollectionItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(UnityEngine.UIElements.VisualElement @item)
         {

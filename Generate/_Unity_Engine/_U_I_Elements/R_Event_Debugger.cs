@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class REventDebugger : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebugger");
+            }
+        }
+
+        public REventDebugger() : base("UnityEngine.UIElements.EventDebugger")
+        {
+        }
+
+        public REventDebugger(System.Object instance) : base("UnityEngine.UIElements.EventDebugger")
+		{
+            SetInstance(instance);
+		}
+
+        public REventDebugger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventDebugger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IPanelDebug m_PanelDebug
@@ -875,23 +900,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public REventDebugger() : base("UnityEngine.UIElements.EventDebugger")
-        {
-        }
-
-        public REventDebugger(System.Object instance) : base("UnityEngine.UIElements.EventDebugger")
-		{
-            SetInstance(instance);
-		}
-
-        public REventDebugger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventDebugger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void UpdateModificationCount()
         {

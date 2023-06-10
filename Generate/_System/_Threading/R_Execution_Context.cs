@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RExecutionContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ExecutionContext);
+            }
+        }
+
+        public RExecutionContext() : base("System.Threading.ExecutionContext")
+        {
+        }
+
+        public RExecutionContext(System.Object instance) : base("System.Threading.ExecutionContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RExecutionContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExecutionContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.SynchronizationContext _syncContext
@@ -747,23 +772,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RExecutionContext() : base("System.Threading.ExecutionContext")
-        {
-        }
-
-        public RExecutionContext(System.Object instance) : base("System.Threading.ExecutionContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RExecutionContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExecutionContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Object GetLocalValue(Hvak.Editor.Refleaction.RSystem.RThreading.RIAsyncLocal @local)
         {

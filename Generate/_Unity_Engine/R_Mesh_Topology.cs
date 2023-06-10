@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMeshTopology : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.MeshTopology);
+            }
+        }
+
+        public RMeshTopology() : base("UnityEngine.MeshTopology")
+        {
+        }
+
+        public RMeshTopology(System.Object instance) : base("UnityEngine.MeshTopology")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshTopology(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshTopology(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMeshTopology() : base("UnityEngine.MeshTopology")
-        {
-        }
-
-        public RMeshTopology(System.Object instance) : base("UnityEngine.MeshTopology")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshTopology(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshTopology(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

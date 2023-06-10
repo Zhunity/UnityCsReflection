@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RAttachToPanelEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.AttachToPanelEvent);
+            }
+        }
+
+        public RAttachToPanelEvent() : base("UnityEngine.UIElements.AttachToPanelEvent")
+        {
+        }
+
+        public RAttachToPanelEvent(System.Object instance) : base("UnityEngine.UIElements.AttachToPanelEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RAttachToPanelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAttachToPanelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel originPanel
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RAttachToPanelEvent() : base("UnityEngine.UIElements.AttachToPanelEvent")
-        {
-        }
-
-        public RAttachToPanelEvent(System.Object instance) : base("UnityEngine.UIElements.AttachToPanelEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RAttachToPanelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAttachToPanelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

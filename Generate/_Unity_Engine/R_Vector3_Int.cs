@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RVector3Int : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Vector3Int);
+            }
+        }
+
+        public RVector3Int() : base("UnityEngine.Vector3Int")
+        {
+        }
+
+        public RVector3Int(System.Object instance) : base("UnityEngine.Vector3Int")
+		{
+            SetInstance(instance);
+		}
+
+        public RVector3Int(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVector3Int(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_X
@@ -891,23 +916,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RVector3Int() : base("UnityEngine.Vector3Int")
-        {
-        }
-
-        public RVector3Int(System.Object instance) : base("UnityEngine.Vector3Int")
-		{
-            SetInstance(instance);
-		}
-
-        public RVector3Int(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVector3Int(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Set(System.Int32 @x, System.Int32 @y, System.Int32 @z)
         {

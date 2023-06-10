@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RInlineStyleAccess : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.InlineStyleAccess");
+            }
+        }
+
+        public RInlineStyleAccess() : base("UnityEngine.UIElements.InlineStyleAccess")
+        {
+        }
+
+        public RInlineStyleAccess(System.Object instance) : base("UnityEngine.UIElements.InlineStyleAccess")
+		{
+            SetInstance(instance);
+		}
+
+        public RInlineStyleAccess(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInlineStyleAccess(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyReader s_StylePropertyReader
@@ -2603,23 +2628,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RInlineStyleAccess() : base("UnityEngine.UIElements.InlineStyleAccess")
-        {
-        }
-
-        public RInlineStyleAccess(System.Object instance) : base("UnityEngine.UIElements.InlineStyleAccess")
-		{
-            SetInstance(instance);
-		}
-
-        public RInlineStyleAccess(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInlineStyleAccess(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

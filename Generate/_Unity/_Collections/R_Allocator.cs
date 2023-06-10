@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 	/// </summary>
     public partial class RAllocator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Collections.Allocator);
+            }
+        }
+
+        public RAllocator() : base("Unity.Collections.Allocator")
+        {
+        }
+
+        public RAllocator(System.Object instance) : base("Unity.Collections.Allocator")
+		{
+            SetInstance(instance);
+		}
+
+        public RAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -347,23 +372,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			}
 		}
 
-
-        public RAllocator() : base("Unity.Collections.Allocator")
-        {
-        }
-
-        public RAllocator(System.Object instance) : base("Unity.Collections.Allocator")
-		{
-            SetInstance(instance);
-		}
-
-        public RAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

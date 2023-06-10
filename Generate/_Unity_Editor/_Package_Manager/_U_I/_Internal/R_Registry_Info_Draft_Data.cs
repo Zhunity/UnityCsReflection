@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RRegistryInfoDraftData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData");
+            }
+        }
+
+        public RRegistryInfoDraftData() : base("UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData")
+        {
+        }
+
+        public RRegistryInfoDraftData(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegistryInfoDraftData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegistryInfoDraftData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_RegistryName
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RRegistryInfoDraftData() : base("UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData")
-        {
-        }
-
-        public RRegistryInfoDraftData(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.RegistryInfoDraftData")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegistryInfoDraftData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegistryInfoDraftData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void RevertChanges(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryInfoOriginalData @original)
         {

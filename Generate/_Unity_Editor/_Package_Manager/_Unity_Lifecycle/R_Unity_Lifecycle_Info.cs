@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 	/// </summary>
     public partial class RUnityLifecycleInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UnityLifecycle.UnityLifecycleInfo");
+            }
+        }
+
+        public RUnityLifecycleInfo() : base("UnityEditor.PackageManager.UnityLifecycle.UnityLifecycleInfo")
+        {
+        }
+
+        public RUnityLifecycleInfo(System.Object instance) : base("UnityEditor.PackageManager.UnityLifecycle.UnityLifecycleInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnityLifecycleInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnityLifecycleInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Version
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 			}
 		}
 
-
-        public RUnityLifecycleInfo() : base("UnityEditor.PackageManager.UnityLifecycle.UnityLifecycleInfo")
-        {
-        }
-
-        public RUnityLifecycleInfo(System.Object instance) : base("UnityEditor.PackageManager.UnityLifecycle.UnityLifecycleInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnityLifecycleInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnityLifecycleInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

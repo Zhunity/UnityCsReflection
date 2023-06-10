@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RSafetyHandleIndex : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Mesh+SafetyHandleIndex");
+            }
+        }
+
+        public RSafetyHandleIndex() : base("UnityEngine.Mesh+SafetyHandleIndex")
+        {
+        }
+
+        public RSafetyHandleIndex(System.Object instance) : base("UnityEngine.Mesh+SafetyHandleIndex")
+		{
+            SetInstance(instance);
+		}
+
+        public RSafetyHandleIndex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSafetyHandleIndex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RSafetyHandleIndex() : base("UnityEngine.Mesh+SafetyHandleIndex")
-        {
-        }
-
-        public RSafetyHandleIndex(System.Object instance) : base("UnityEngine.Mesh+SafetyHandleIndex")
-		{
-            SetInstance(instance);
-		}
-
-        public RSafetyHandleIndex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSafetyHandleIndex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

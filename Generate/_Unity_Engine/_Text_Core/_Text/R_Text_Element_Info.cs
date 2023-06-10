@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextElementInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextElementInfo");
+            }
+        }
+
+        public RTextElementInfo() : base("UnityEngine.TextCore.Text.TextElementInfo")
+        {
+        }
+
+        public RTextElementInfo(System.Object instance) : base("UnityEngine.TextCore.Text.TextElementInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextElementInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextElementInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char character
@@ -795,23 +820,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextElementInfo() : base("UnityEngine.TextCore.Text.TextElementInfo")
-        {
-        }
-
-        public RTextElementInfo(System.Object instance) : base("UnityEngine.TextCore.Text.TextElementInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextElementInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextElementInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

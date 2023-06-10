@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RResolveEventHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.ResolveEventHandler);
+            }
+        }
+
+        public RResolveEventHandler() : base("System.ResolveEventHandler")
+        {
+        }
+
+        public RResolveEventHandler(System.Object instance) : base("System.ResolveEventHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RResolveEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RResolveEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RResolveEventHandler() : base("System.ResolveEventHandler")
-        {
-        }
-
-        public RResolveEventHandler(System.Object instance) : base("System.ResolveEventHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RResolveEventHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RResolveEventHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Reflection.Assembly Invoke(System.Object @sender, System.ResolveEventArgs @args)
         {

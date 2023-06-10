@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RVersion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Version);
+            }
+        }
+
+        public RVersion() : base("System.Version")
+        {
+        }
+
+        public RVersion(System.Object instance) : base("System.Version")
+		{
+            SetInstance(instance);
+		}
+
+        public RVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 _Major
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RVersion() : base("System.Version")
-        {
-        }
-
-        public RVersion(System.Object instance) : base("System.Version")
-		{
-            SetInstance(instance);
-		}
-
-        public RVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object Clone()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 	/// </summary>
     public partial class RAuthCodeResponse : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Connect.UnityOAuth+AuthCodeResponse");
+            }
+        }
+
+        public RAuthCodeResponse() : base("UnityEditor.Connect.UnityOAuth+AuthCodeResponse")
+        {
+        }
+
+        public RAuthCodeResponse(System.Object instance) : base("UnityEditor.Connect.UnityOAuth+AuthCodeResponse")
+		{
+            SetInstance(instance);
+		}
+
+        public RAuthCodeResponse(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAuthCodeResponse(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <AuthCode>k__BackingField
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			}
 		}
 
-
-        public RAuthCodeResponse() : base("UnityEditor.Connect.UnityOAuth+AuthCodeResponse")
-        {
-        }
-
-        public RAuthCodeResponse(System.Object instance) : base("UnityEditor.Connect.UnityOAuth+AuthCodeResponse")
-		{
-            SetInstance(instance);
-		}
-
-        public RAuthCodeResponse(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAuthCodeResponse(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

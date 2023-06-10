@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreCallQueue : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue");
+            }
+        }
+
+        public RAssetStoreCallQueue() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue")
+        {
+        }
+
+        public RAssetStoreCallQueue(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreCallQueue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreCallQueue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onCheckUpdateProgress
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreCallQueue() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue")
-        {
-        }
-
-        public RAssetStoreCallQueue(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreCallQueue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreCallQueue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFiltering @packageFiltering, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient @assetStoreClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager @pageManager)
         {

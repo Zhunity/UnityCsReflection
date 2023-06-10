@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RTaskFactory : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Tasks.TaskFactory);
+            }
+        }
+
+        public RTaskFactory() : base("System.Threading.Tasks.TaskFactory")
+        {
+        }
+
+        public RTaskFactory(System.Object instance) : base("System.Threading.Tasks.TaskFactory")
+		{
+            SetInstance(instance);
+		}
+
+        public RTaskFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTaskFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.CancellationToken m_defaultCancellationToken
@@ -1531,23 +1556,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RTaskFactory() : base("System.Threading.Tasks.TaskFactory")
-        {
-        }
-
-        public RTaskFactory(System.Object instance) : base("System.Threading.Tasks.TaskFactory")
-		{
-            SetInstance(instance);
-		}
-
-        public RTaskFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTaskFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Threading.Tasks.TaskScheduler GetDefaultScheduler(System.Threading.Tasks.Task @currTask)
         {

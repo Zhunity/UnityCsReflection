@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreListOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreListOperation");
+            }
+        }
+
+        public RAssetStoreListOperation() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreListOperation")
+        {
+        }
+
+        public RAssetStoreListOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreListOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreListOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreListOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.IOperation,UnityEditor.PackageManager.UI.Internal.UIError] onOperationError
@@ -763,23 +788,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreListOperation() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreListOperation")
-        {
-        }
-
-        public RAssetStoreListOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreListOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreListOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreListOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache)
         {

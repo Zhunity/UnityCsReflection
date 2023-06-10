@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 	/// </summary>
     public partial class RClass : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy+Class");
+            }
+        }
+
+        public RClass() : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy+Class")
+        {
+        }
+
+        public RClass(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy+Class")
+		{
+            SetInstance(instance);
+		}
+
+        public RClass(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RClass(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean Equals(System.Object)
@@ -111,23 +136,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 			}
 		}
 
-
-        public RClass() : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy+Class")
-        {
-        }
-
-        public RClass(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy+Class")
-		{
-            SetInstance(instance);
-		}
-
-        public RClass(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RClass(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

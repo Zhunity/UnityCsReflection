@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RUnityAction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Events.UnityAction);
+            }
+        }
+
+        public RUnityAction() : base("UnityEngine.Events.UnityAction")
+        {
+        }
+
+        public RUnityAction(System.Object instance) : base("UnityEngine.Events.UnityAction")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnityAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnityAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RUnityAction() : base("UnityEngine.Events.UnityAction")
-        {
-        }
-
-        public RUnityAction(System.Object instance) : base("UnityEngine.Events.UnityAction")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnityAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnityAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 	/// </summary>
     public partial class RSVC<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1");
+            }
+        }
+
+        public RSVC() : base("UnityEditor.StyleSheets.SVC`1")
+        {
+        }
+
+        public RSVC(System.Object instance) : base("UnityEditor.StyleSheets.SVC`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RSVC(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSVC(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T m_Value
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 			}
 		}
 
-
-        public RSVC() : base("UnityEditor.StyleSheets.SVC`1")
-        {
-        }
-
-        public RSVC(System.Object instance) : base("UnityEditor.StyleSheets.SVC`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RSVC(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSVC(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static T op_Implicit(Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets.RSVC<Hvak.Editor.Refleaction.RType> @sc)
         {

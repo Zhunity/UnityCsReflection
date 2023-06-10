@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class ROnSelectCallback : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PopupList+OnSelectCallback");
+            }
+        }
+
+        public ROnSelectCallback() : base("UnityEditor.PopupList+OnSelectCallback")
+        {
+        }
+
+        public ROnSelectCallback(System.Object instance) : base("UnityEditor.PopupList+OnSelectCallback")
+		{
+            SetInstance(instance);
+		}
+
+        public ROnSelectCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROnSelectCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public ROnSelectCallback() : base("UnityEditor.PopupList+OnSelectCallback")
-        {
-        }
-
-        public ROnSelectCallback(System.Object instance) : base("UnityEditor.PopupList+OnSelectCallback")
-		{
-            SetInstance(instance);
-		}
-
-        public ROnSelectCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROnSelectCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(Hvak.Editor.Refleaction.RUnityEditor.RPopupList.RListElement @element)
         {

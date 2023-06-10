@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTimerEventScheduler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TimerEventScheduler");
+            }
+        }
+
+        public RTimerEventScheduler() : base("UnityEngine.UIElements.TimerEventScheduler")
+        {
+        }
+
+        public RTimerEventScheduler(System.Object instance) : base("UnityEngine.UIElements.TimerEventScheduler")
+		{
+            SetInstance(instance);
+		}
+
+        public RTimerEventScheduler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTimerEventScheduler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.ScheduledItem] m_ScheduledItems
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTimerEventScheduler() : base("UnityEngine.UIElements.TimerEventScheduler")
-        {
-        }
-
-        public RTimerEventScheduler(System.Object instance) : base("UnityEngine.UIElements.TimerEventScheduler")
-		{
-            SetInstance(instance);
-		}
-
-        public RTimerEventScheduler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTimerEventScheduler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Schedule(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RScheduledItem @item)
         {

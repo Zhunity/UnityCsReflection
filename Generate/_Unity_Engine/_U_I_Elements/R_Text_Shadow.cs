@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextShadow : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TextShadow);
+            }
+        }
+
+        public RTextShadow() : base("UnityEngine.UIElements.TextShadow")
+        {
+        }
+
+        public RTextShadow(System.Object instance) : base("UnityEngine.UIElements.TextShadow")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextShadow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextShadow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 offset
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextShadow() : base("UnityEngine.UIElements.TextShadow")
-        {
-        }
-
-        public RTextShadow(System.Object instance) : base("UnityEngine.UIElements.TextShadow")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextShadow(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextShadow(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

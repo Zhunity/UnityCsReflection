@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RIComparer : RMember //
     {
-
-		/// <summary>
-		/// Int32 Compare(System.Object, System.Object)
-		/// </summary>
-		protected RMethod r_MCompare_Object_Object;
-		public virtual RMethod RMCompare_Object_Object
-		{
-			get
-			{
-				if(r_MCompare_Object_Object == null)
-				{
-					r_MCompare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
-				}
-				return r_MCompare_Object_Object;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.IComparer);
+            }
+        }
 
         public RIComparer() : base("System.Collections.IComparer")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 		 public RIComparer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Int32 Compare(System.Object, System.Object)
+		/// </summary>
+		protected RMethod r_MCompare_Object_Object;
+		public virtual RMethod RMCompare_Object_Object
+		{
+			get
+			{
+				if(r_MCompare_Object_Object == null)
+				{
+					r_MCompare_Object_Object = new(this, "Compare", 0, typeof(System.Object), typeof(System.Object));
+				}
+				return r_MCompare_Object_Object;
+			}
+		}
+
 
         public virtual System.Int32 Compare(System.Object @x, System.Object @y)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleRule : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleRule");
+            }
+        }
+
+        public RStyleRule() : base("UnityEngine.UIElements.StyleRule")
+        {
+        }
+
+        public RStyleRule(System.Object instance) : base("UnityEngine.UIElements.StyleRule")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleProperty[] m_Properties
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleRule() : base("UnityEngine.UIElements.StyleRule")
-        {
-        }
-
-        public RStyleRule(System.Object instance) : base("UnityEngine.UIElements.StyleRule")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleRule(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleRule(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

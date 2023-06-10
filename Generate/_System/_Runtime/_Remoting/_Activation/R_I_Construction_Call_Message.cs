@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 	/// </summary>
     public partial class RIConstructionCallMessage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage);
+            }
+        }
+
+        public RIConstructionCallMessage() : base("System.Runtime.Remoting.Activation.IConstructionCallMessage")
+        {
+        }
+
+        public RIConstructionCallMessage(System.Object instance) : base("System.Runtime.Remoting.Activation.IConstructionCallMessage")
+		{
+            SetInstance(instance);
+		}
+
+        public RIConstructionCallMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIConstructionCallMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type ActivationType
@@ -91,23 +116,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 			}
 		}
 
-
-        public RIConstructionCallMessage() : base("System.Runtime.Remoting.Activation.IConstructionCallMessage")
-        {
-        }
-
-        public RIConstructionCallMessage(System.Object instance) : base("System.Runtime.Remoting.Activation.IConstructionCallMessage")
-		{
-            SetInstance(instance);
-		}
-
-        public RIConstructionCallMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIConstructionCallMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RSliderKey : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1+SliderKey");
+            }
+        }
+
+        public RSliderKey() : base("UnityEngine.UIElements.BaseSlider`1+SliderKey")
+        {
+        }
+
+        public RSliderKey(System.Object instance) : base("UnityEngine.UIElements.BaseSlider`1+SliderKey")
+		{
+            SetInstance(instance);
+		}
+
+        public RSliderKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSliderKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -349,23 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RSliderKey() : base("UnityEngine.UIElements.BaseSlider`1+SliderKey")
-        {
-        }
-
-        public RSliderKey(System.Object instance) : base("UnityEngine.UIElements.BaseSlider`1+SliderKey")
-		{
-            SetInstance(instance);
-		}
-
-        public RSliderKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSliderKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

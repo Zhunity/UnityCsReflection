@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RManipulatorActivationFilter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ManipulatorActivationFilter);
+            }
+        }
+
+        public RManipulatorActivationFilter() : base("UnityEngine.UIElements.ManipulatorActivationFilter")
+        {
+        }
+
+        public RManipulatorActivationFilter(System.Object instance) : base("UnityEngine.UIElements.ManipulatorActivationFilter")
+		{
+            SetInstance(instance);
+		}
+
+        public RManipulatorActivationFilter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RManipulatorActivationFilter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.MouseButton <button>k__BackingField
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RManipulatorActivationFilter() : base("UnityEngine.UIElements.ManipulatorActivationFilter")
-        {
-        }
-
-        public RManipulatorActivationFilter(System.Object instance) : base("UnityEngine.UIElements.ManipulatorActivationFilter")
-		{
-            SetInstance(instance);
-		}
-
-        public RManipulatorActivationFilter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RManipulatorActivationFilter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

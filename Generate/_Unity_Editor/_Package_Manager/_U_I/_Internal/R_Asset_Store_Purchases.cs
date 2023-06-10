@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStorePurchases : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchases");
+            }
+        }
+
+        public RAssetStorePurchases() : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchases")
+        {
+        }
+
+        public RAssetStorePurchases(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchases")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStorePurchases(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStorePurchases(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int64 total
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStorePurchases() : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchases")
-        {
-        }
-
-        public RAssetStorePurchases(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStorePurchases")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStorePurchases(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStorePurchases(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AppendPurchases(System.Collections.Generic.IDictionary<System.String, System.Object> @rawList)
         {

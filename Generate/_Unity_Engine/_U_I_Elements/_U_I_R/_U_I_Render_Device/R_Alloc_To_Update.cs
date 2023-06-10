@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RAllocToUpdate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate");
+            }
+        }
+
+        public RAllocToUpdate() : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate")
+        {
+        }
+
+        public RAllocToUpdate(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate")
+		{
+            SetInstance(instance);
+		}
+
+        public RAllocToUpdate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAllocToUpdate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 id
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RAllocToUpdate() : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate")
-        {
-        }
-
-        public RAllocToUpdate(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate")
-		{
-            SetInstance(instance);
-		}
-
-        public RAllocToUpdate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAllocToUpdate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

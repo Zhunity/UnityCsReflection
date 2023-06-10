@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 	/// </summary>
     public partial class RNativeArray<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Collections.NativeArray<>);
+            }
+        }
+
+        public RNativeArray() : base("Unity.Collections.NativeArray`1")
+        {
+        }
+
+        public RNativeArray(System.Object instance) : base("Unity.Collections.NativeArray`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RNativeArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNativeArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Void* m_Buffer
@@ -1227,23 +1252,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			}
 		}
 
-
-        public RNativeArray() : base("Unity.Collections.NativeArray`1")
-        {
-        }
-
-        public RNativeArray(System.Object instance) : base("Unity.Collections.NativeArray`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RNativeArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNativeArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void InitStaticSafetyId(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RDetachedAllocator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DetachedAllocator");
+            }
+        }
+
+        public RDetachedAllocator() : base("UnityEngine.UIElements.UIR.DetachedAllocator")
+        {
+        }
+
+        public RDetachedAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.DetachedAllocator")
+		{
+            SetInstance(instance);
+		}
+
+        public RDetachedAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDetachedAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.TempAllocator`1[UnityEngine.UIElements.Vertex] m_VertsPool
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RDetachedAllocator() : base("UnityEngine.UIElements.UIR.DetachedAllocator")
-        {
-        }
-
-        public RDetachedAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.DetachedAllocator")
-		{
-            SetInstance(instance);
-		}
-
-        public RDetachedAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDetachedAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

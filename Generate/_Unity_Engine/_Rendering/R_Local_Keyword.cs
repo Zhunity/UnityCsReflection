@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RLocalKeyword : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.LocalKeyword);
+            }
+        }
+
+        public RLocalKeyword() : base("UnityEngine.Rendering.LocalKeyword")
+        {
+        }
+
+        public RLocalKeyword(System.Object instance) : base("UnityEngine.Rendering.LocalKeyword")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalKeyword(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalKeyword(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.LocalKeywordSpace m_SpaceInfo
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RLocalKeyword() : base("UnityEngine.Rendering.LocalKeyword")
-        {
-        }
-
-        public RLocalKeyword(System.Object instance) : base("UnityEngine.Rendering.LocalKeyword")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalKeyword(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalKeyword(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsDynamic(UnityEngine.Rendering.LocalKeyword @kw)
         {

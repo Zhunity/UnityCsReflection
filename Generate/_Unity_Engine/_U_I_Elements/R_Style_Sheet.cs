@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleSheet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleSheet);
+            }
+        }
+
+        public RStyleSheet() : base("UnityEngine.UIElements.StyleSheet")
+        {
+        }
+
+        public RStyleSheet(System.Object instance) : base("UnityEngine.UIElements.StyleSheet")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleSheet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleSheet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean m_ImportedWithErrors
@@ -1019,23 +1044,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleSheet() : base("UnityEngine.UIElements.StyleSheet")
-        {
-        }
-
-        public RStyleSheet(System.Object instance) : base("UnityEngine.UIElements.StyleSheet")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleSheet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleSheet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean TryCheckAccess<T>(T[] @list, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueType @type, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle @handle, out T @value)
         {

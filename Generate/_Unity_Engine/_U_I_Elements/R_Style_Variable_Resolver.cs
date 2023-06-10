@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleVariableResolver : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleVariableResolver");
+            }
+        }
+
+        public RStyleVariableResolver() : base("UnityEngine.UIElements.StyleVariableResolver")
+        {
+        }
+
+        public RStyleVariableResolver(System.Object instance) : base("UnityEngine.UIElements.StyleVariableResolver")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleVariableResolver(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleVariableResolver(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 kMaxResolves
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleVariableResolver() : base("UnityEngine.UIElements.StyleVariableResolver")
-        {
-        }
-
-        public RStyleVariableResolver(System.Object instance) : base("UnityEngine.UIElements.StyleVariableResolver")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleVariableResolver(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleVariableResolver(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty @property, UnityEngine.UIElements.StyleSheet @sheet, Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleValueHandle> @handles)
         {

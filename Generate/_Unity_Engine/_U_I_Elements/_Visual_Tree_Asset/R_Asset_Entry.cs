@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RAssetEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+AssetEntry");
+            }
+        }
+
+        public RAssetEntry() : base("UnityEngine.UIElements.VisualTreeAsset+AssetEntry")
+        {
+        }
+
+        public RAssetEntry(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+AssetEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String path
@@ -189,23 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RAssetEntry() : base("UnityEngine.UIElements.VisualTreeAsset+AssetEntry")
-        {
-        }
-
-        public RAssetEntry(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+AssetEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

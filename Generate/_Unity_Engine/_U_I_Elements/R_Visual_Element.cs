@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVisualElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.VisualElement);
+            }
+        }
+
+        public RVisualElement() : base("UnityEngine.UIElements.VisualElement")
+        {
+        }
+
+        public RVisualElement(System.Object instance) : base("UnityEngine.UIElements.VisualElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RVisualElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVisualElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 <UnityEngine.UIElements.IStylePropertyAnimations.runningAnimationCount>k__BackingField
@@ -7307,23 +7332,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVisualElement() : base("UnityEngine.UIElements.VisualElement")
-        {
-        }
-
-        public RVisualElement(System.Object instance) : base("UnityEngine.UIElements.VisualElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RVisualElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVisualElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIStylePropertyAnimationSystem GetStylePropertyAnimationSystem()
         {

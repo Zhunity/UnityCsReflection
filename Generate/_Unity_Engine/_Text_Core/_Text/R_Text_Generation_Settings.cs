@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextGenerationSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextGenerationSettings");
+            }
+        }
+
+        public RTextGenerationSettings() : base("UnityEngine.TextCore.Text.TextGenerationSettings")
+        {
+        }
+
+        public RTextGenerationSettings(System.Object instance) : base("UnityEngine.TextCore.Text.TextGenerationSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextGenerationSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextGenerationSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String text
@@ -971,23 +996,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextGenerationSettings() : base("UnityEngine.TextCore.Text.TextGenerationSettings")
-        {
-        }
-
-        public RTextGenerationSettings(System.Object instance) : base("UnityEngine.TextCore.Text.TextGenerationSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextGenerationSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextGenerationSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings @other)
         {

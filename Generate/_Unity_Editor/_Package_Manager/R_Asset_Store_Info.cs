@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RAssetStoreInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.AssetStoreInfo");
+            }
+        }
+
+        public RAssetStoreInfo() : base("UnityEditor.PackageManager.AssetStoreInfo")
+        {
+        }
+
+        public RAssetStoreInfo(System.Object instance) : base("UnityEditor.PackageManager.AssetStoreInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_ProductId
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RAssetStoreInfo() : base("UnityEditor.PackageManager.AssetStoreInfo")
-        {
-        }
-
-        public RAssetStoreInfo(System.Object instance) : base("UnityEditor.PackageManager.AssetStoreInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

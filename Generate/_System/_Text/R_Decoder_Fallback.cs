@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class RDecoderFallback : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.DecoderFallback);
+            }
+        }
+
+        public RDecoderFallback() : base("System.Text.DecoderFallback")
+        {
+        }
+
+        public RDecoderFallback(System.Object instance) : base("System.Text.DecoderFallback")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecoderFallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecoderFallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.DecoderFallback s_replacementFallback
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public RDecoderFallback() : base("System.Text.DecoderFallback")
-        {
-        }
-
-        public RDecoderFallback(System.Object instance) : base("System.Text.DecoderFallback")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecoderFallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecoderFallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Text.DecoderFallbackBuffer CreateFallbackBuffer()
         {

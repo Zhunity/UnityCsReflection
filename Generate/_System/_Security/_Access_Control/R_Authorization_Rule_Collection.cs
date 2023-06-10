@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAuthorizationRuleCollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AuthorizationRuleCollection);
+            }
+        }
+
+        public RAuthorizationRuleCollection() : base("System.Security.AccessControl.AuthorizationRuleCollection")
+        {
+        }
+
+        public RAuthorizationRuleCollection(System.Object instance) : base("System.Security.AccessControl.AuthorizationRuleCollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RAuthorizationRuleCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAuthorizationRuleCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.AuthorizationRule Item [Int32]
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAuthorizationRuleCollection() : base("System.Security.AccessControl.AuthorizationRuleCollection")
-        {
-        }
-
-        public RAuthorizationRuleCollection(System.Object instance) : base("System.Security.AccessControl.AuthorizationRuleCollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RAuthorizationRuleCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAuthorizationRuleCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddRule(System.Security.AccessControl.AuthorizationRule @rule)
         {

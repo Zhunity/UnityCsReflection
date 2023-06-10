@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RAsyncLocal<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.AsyncLocal<>);
+            }
+        }
+
+        public RAsyncLocal() : base("System.Threading.AsyncLocal`1")
+        {
+        }
+
+        public RAsyncLocal(System.Object instance) : base("System.Threading.AsyncLocal`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RAsyncLocal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAsyncLocal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Threading.AsyncLocalValueChangedArgs`1[T]] m_valueChangedHandler
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RAsyncLocal() : base("System.Threading.AsyncLocal`1")
-        {
-        }
-
-        public RAsyncLocal(System.Object instance) : base("System.Threading.AsyncLocal`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RAsyncLocal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAsyncLocal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Threading__2__IAsyncLocal__2__OnValueChanged(System.Object @previousValueObj, System.Object @currentValueObj, System.Boolean @contextChanged)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 	/// </summary>
     public partial class RLoadingState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.SceneManagement.Scene+LoadingState");
+            }
+        }
+
+        public RLoadingState() : base("UnityEngine.SceneManagement.Scene+LoadingState")
+        {
+        }
+
+        public RLoadingState(System.Object instance) : base("UnityEngine.SceneManagement.Scene+LoadingState")
+		{
+            SetInstance(instance);
+		}
+
+        public RLoadingState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLoadingState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -301,23 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			}
 		}
 
-
-        public RLoadingState() : base("UnityEngine.SceneManagement.Scene+LoadingState")
-        {
-        }
-
-        public RLoadingState(System.Object instance) : base("UnityEngine.SceneManagement.Scene+LoadingState")
-		{
-            SetInstance(instance);
-		}
-
-        public RLoadingState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLoadingState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

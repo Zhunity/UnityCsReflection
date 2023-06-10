@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTransform : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Transform);
+            }
+        }
+
+        public RTransform() : base("UnityEngine.Transform")
+        {
+        }
+
+        public RTransform(System.Object instance) : base("UnityEngine.Transform")
+		{
+            SetInstance(instance);
+		}
+
+        public RTransform(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTransform(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 position
@@ -3259,23 +3284,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTransform() : base("UnityEngine.Transform")
-        {
-        }
-
-        public RTransform(System.Object instance) : base("UnityEngine.Transform")
-		{
-            SetInstance(instance);
-		}
-
-        public RTransform(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTransform(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.Vector3 GetLocalEulerAngles(Hvak.Editor.Refleaction.RUnityEngine.RRotationOrder @order)
         {

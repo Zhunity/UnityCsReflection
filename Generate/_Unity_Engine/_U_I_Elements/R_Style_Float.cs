@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleFloat : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleFloat);
+            }
+        }
+
+        public RStyleFloat() : base("UnityEngine.UIElements.StyleFloat")
+        {
+        }
+
+        public RStyleFloat(System.Object instance) : base("UnityEngine.UIElements.StyleFloat")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleFloat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleFloat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleFloat() : base("UnityEngine.UIElements.StyleFloat")
-        {
-        }
-
-        public RStyleFloat(System.Object instance) : base("UnityEngine.UIElements.StyleFloat")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleFloat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleFloat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleFloat @lhs, UnityEngine.UIElements.StyleFloat @rhs)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RBounds : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Bounds);
+            }
+        }
+
+        public RBounds() : base("UnityEngine.Bounds")
+        {
+        }
+
+        public RBounds(System.Object instance) : base("UnityEngine.Bounds")
+		{
+            SetInstance(instance);
+		}
+
+        public RBounds(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBounds(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 m_Center
@@ -555,23 +580,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RBounds() : base("UnityEngine.Bounds")
-        {
-        }
-
-        public RBounds(System.Object instance) : base("UnityEngine.Bounds")
-		{
-            SetInstance(instance);
-		}
-
-        public RBounds(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBounds(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

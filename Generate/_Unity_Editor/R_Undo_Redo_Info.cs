@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RUndoRedoInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.UndoRedoInfo);
+            }
+        }
+
+        public RUndoRedoInfo() : base("UnityEditor.UndoRedoInfo")
+        {
+        }
+
+        public RUndoRedoInfo(System.Object instance) : base("UnityEditor.UndoRedoInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RUndoRedoInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUndoRedoInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String undoName
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RUndoRedoInfo() : base("UnityEditor.UndoRedoInfo")
-        {
-        }
-
-        public RUndoRedoInfo(System.Object instance) : base("UnityEditor.UndoRedoInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RUndoRedoInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUndoRedoInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

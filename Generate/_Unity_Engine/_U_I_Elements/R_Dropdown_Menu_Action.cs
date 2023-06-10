@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDropdownMenuAction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.DropdownMenuAction);
+            }
+        }
+
+        public RDropdownMenuAction() : base("UnityEngine.UIElements.DropdownMenuAction")
+        {
+        }
+
+        public RDropdownMenuAction(System.Object instance) : base("UnityEngine.UIElements.DropdownMenuAction")
+		{
+            SetInstance(instance);
+		}
+
+        public RDropdownMenuAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDropdownMenuAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String <name>k__BackingField
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDropdownMenuAction() : base("UnityEngine.UIElements.DropdownMenuAction")
-        {
-        }
-
-        public RDropdownMenuAction(System.Object instance) : base("UnityEngine.UIElements.DropdownMenuAction")
-		{
-            SetInstance(instance);
-		}
-
-        public RDropdownMenuAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDropdownMenuAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus AlwaysEnabled(UnityEngine.UIElements.DropdownMenuAction @a)
         {

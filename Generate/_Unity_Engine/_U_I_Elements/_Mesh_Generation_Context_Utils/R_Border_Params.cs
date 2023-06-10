@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBorderParams : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams");
+            }
+        }
+
+        public RBorderParams() : base("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams")
+        {
+        }
+
+        public RBorderParams(System.Object instance) : base("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams")
+		{
+            SetInstance(instance);
+		}
+
+        public RBorderParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBorderParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rect rect
@@ -429,23 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBorderParams() : base("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams")
-        {
-        }
-
-        public RBorderParams(System.Object instance) : base("UnityEngine.UIElements.MeshGenerationContextUtils+BorderParams")
-		{
-            SetInstance(instance);
-		}
-
-        public RBorderParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBorderParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeBorderParams ToNativeParams()
         {

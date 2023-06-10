@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RQueue<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.Queue<>);
+            }
+        }
+
+        public RQueue() : base("System.Collections.Generic.Queue`1")
+        {
+        }
+
+        public RQueue(System.Object instance) : base("System.Collections.Generic.Queue`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RQueue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RQueue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T[] _array
@@ -555,23 +580,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RQueue() : base("System.Collections.Generic.Queue`1")
-        {
-        }
-
-        public RQueue(System.Object instance) : base("System.Collections.Generic.Queue`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RQueue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RQueue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

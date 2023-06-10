@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RDownloadDelegateHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager+DownloadDelegateHandler");
+            }
+        }
+
+        public RDownloadDelegateHandler() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager+DownloadDelegateHandler")
+        {
+        }
+
+        public RDownloadDelegateHandler(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager+DownloadDelegateHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RDownloadDelegateHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDownloadDelegateHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager <downloadManager>k__BackingField
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RDownloadDelegateHandler() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager+DownloadDelegateHandler")
-        {
-        }
-
-        public RDownloadDelegateHandler(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager+DownloadDelegateHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RDownloadDelegateHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDownloadDelegateHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnDownloadProgress(System.String @downloadId, System.String @message, System.UInt64 @bytes, System.UInt64 @total, System.Int32 @errorCode)
         {

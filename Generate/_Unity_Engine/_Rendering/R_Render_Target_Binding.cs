@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RRenderTargetBinding : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.RenderTargetBinding);
+            }
+        }
+
+        public RRenderTargetBinding() : base("UnityEngine.Rendering.RenderTargetBinding")
+        {
+        }
+
+        public RRenderTargetBinding(System.Object instance) : base("UnityEngine.Rendering.RenderTargetBinding")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderTargetBinding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderTargetBinding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.RenderTargetIdentifier[] m_ColorRenderTargets
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RRenderTargetBinding() : base("UnityEngine.Rendering.RenderTargetBinding")
-        {
-        }
-
-        public RRenderTargetBinding(System.Object instance) : base("UnityEngine.Rendering.RenderTargetBinding")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderTargetBinding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderTargetBinding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

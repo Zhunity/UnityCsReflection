@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 	/// </summary>
     public partial class RStyleSyntaxTokenizer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer");
+            }
+        }
+
+        public RStyleSyntaxTokenizer() : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer")
+        {
+        }
+
+        public RStyleSyntaxTokenizer(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleSyntaxTokenizer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleSyntaxTokenizer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxToken] m_Tokens
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 			}
 		}
 
-
-        public RStyleSyntaxTokenizer() : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer")
-        {
-        }
-
-        public RStyleSyntaxTokenizer(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleSyntaxTokenizer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleSyntaxTokenizer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RStyleSyntaxToken MoveNext()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RParameterModifier : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.ParameterModifier);
+            }
+        }
+
+        public RParameterModifier() : base("System.Reflection.ParameterModifier")
+        {
+        }
+
+        public RParameterModifier(System.Object instance) : base("System.Reflection.ParameterModifier")
+		{
+            SetInstance(instance);
+		}
+
+        public RParameterModifier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RParameterModifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean[] _byRef
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RParameterModifier() : base("System.Reflection.ParameterModifier")
-        {
-        }
-
-        public RParameterModifier(System.Object instance) : base("System.Reflection.ParameterModifier")
-		{
-            SetInstance(instance);
-		}
-
-        public RParameterModifier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RParameterModifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

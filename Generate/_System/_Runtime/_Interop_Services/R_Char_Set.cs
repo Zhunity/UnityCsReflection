@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RCharSet : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.CharSet);
+            }
+        }
+
+        public RCharSet() : base("System.Runtime.InteropServices.CharSet")
+        {
+        }
+
+        public RCharSet(System.Object instance) : base("System.Runtime.InteropServices.CharSet")
+		{
+            SetInstance(instance);
+		}
+
+        public RCharSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCharSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RCharSet() : base("System.Runtime.InteropServices.CharSet")
-        {
-        }
-
-        public RCharSet(System.Object instance) : base("System.Runtime.InteropServices.CharSet")
-		{
-            SetInstance(instance);
-		}
-
-        public RCharSet(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCharSet(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

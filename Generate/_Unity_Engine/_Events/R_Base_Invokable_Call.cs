@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RBaseInvokableCall : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Events.BaseInvokableCall");
+            }
+        }
+
+        public RBaseInvokableCall() : base("UnityEngine.Events.BaseInvokableCall")
+        {
+        }
+
+        public RBaseInvokableCall(System.Object instance) : base("UnityEngine.Events.BaseInvokableCall")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseInvokableCall(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseInvokableCall(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void Invoke(System.Object[])
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RBaseInvokableCall() : base("UnityEngine.Events.BaseInvokableCall")
-        {
-        }
-
-        public RBaseInvokableCall(System.Object instance) : base("UnityEngine.Events.BaseInvokableCall")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseInvokableCall(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseInvokableCall(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(System.Object[] @args)
         {

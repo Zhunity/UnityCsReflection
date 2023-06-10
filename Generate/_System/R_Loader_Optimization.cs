@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RLoaderOptimization : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.LoaderOptimization);
+            }
+        }
+
+        public RLoaderOptimization() : base("System.LoaderOptimization")
+        {
+        }
+
+        public RLoaderOptimization(System.Object instance) : base("System.LoaderOptimization")
+		{
+            SetInstance(instance);
+		}
+
+        public RLoaderOptimization(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLoaderOptimization(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RLoaderOptimization() : base("System.LoaderOptimization")
-        {
-        }
-
-        public RLoaderOptimization(System.Object instance) : base("System.LoaderOptimization")
-		{
-            SetInstance(instance);
-		}
-
-        public RLoaderOptimization(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLoaderOptimization(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

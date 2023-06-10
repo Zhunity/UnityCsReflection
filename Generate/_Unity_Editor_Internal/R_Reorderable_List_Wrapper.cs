@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RReorderableListWrapper : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableListWrapper");
+            }
+        }
+
+        public RReorderableListWrapper() : base("UnityEditorInternal.ReorderableListWrapper")
+        {
+        }
+
+        public RReorderableListWrapper(System.Object instance) : base("UnityEditorInternal.ReorderableListWrapper")
+		{
+            SetInstance(instance);
+		}
+
+        public RReorderableListWrapper(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RReorderableListWrapper(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditorInternal.ReorderableList m_ReorderableList
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RReorderableListWrapper() : base("UnityEditorInternal.ReorderableListWrapper")
-        {
-        }
-
-        public RReorderableListWrapper(System.Object instance) : base("UnityEditorInternal.ReorderableListWrapper")
-		{
-            SetInstance(instance);
-		}
-
-        public RReorderableListWrapper(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RReorderableListWrapper(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.String GetPropertyIdentifier(UnityEditor.SerializedProperty @serializedProperty)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RJobMerger : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.JobMerger");
+            }
+        }
+
+        public RJobMerger() : base("UnityEngine.UIElements.UIR.JobMerger")
+        {
+        }
+
+        public RJobMerger(System.Object instance) : base("UnityEngine.UIElements.UIR.JobMerger")
+		{
+            SetInstance(instance);
+		}
+
+        public RJobMerger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RJobMerger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Collections.NativeArray`1[Unity.Jobs.JobHandle] m_Jobs
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RJobMerger() : base("UnityEngine.UIElements.UIR.JobMerger")
-        {
-        }
-
-        public RJobMerger(System.Object instance) : base("UnityEngine.UIElements.UIR.JobMerger")
-		{
-            SetInstance(instance);
-		}
-
-        public RJobMerger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RJobMerger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(Unity.Jobs.JobHandle @job)
         {

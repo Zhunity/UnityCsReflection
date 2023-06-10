@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RStrongNameKeyPair : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.StrongNameKeyPair);
+            }
+        }
+
+        public RStrongNameKeyPair() : base("System.Reflection.StrongNameKeyPair")
+        {
+        }
+
+        public RStrongNameKeyPair(System.Object instance) : base("System.Reflection.StrongNameKeyPair")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongNameKeyPair(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongNameKeyPair(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] _publicKey
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RStrongNameKeyPair() : base("System.Reflection.StrongNameKeyPair")
-        {
-        }
-
-        public RStrongNameKeyPair(System.Object instance) : base("System.Reflection.StrongNameKeyPair")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongNameKeyPair(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongNameKeyPair(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__Serialization__2__ISerializable__2__GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

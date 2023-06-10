@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RSynchronizationContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.SynchronizationContext);
+            }
+        }
+
+        public RSynchronizationContext() : base("System.Threading.SynchronizationContext")
+        {
+        }
+
+        public RSynchronizationContext(System.Object instance) : base("System.Threading.SynchronizationContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RSynchronizationContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSynchronizationContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.SynchronizationContextProperties _props
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RSynchronizationContext() : base("System.Threading.SynchronizationContext")
-        {
-        }
-
-        public RSynchronizationContext(System.Object instance) : base("System.Threading.SynchronizationContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RSynchronizationContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSynchronizationContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetWaitNotificationRequired()
         {

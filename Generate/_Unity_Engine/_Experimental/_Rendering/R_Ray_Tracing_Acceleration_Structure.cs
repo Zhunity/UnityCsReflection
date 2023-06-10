@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingAccelerationStructure : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure);
+            }
+        }
+
+        public RRayTracingAccelerationStructure() : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure")
+        {
+        }
+
+        public RRayTracingAccelerationStructure(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingAccelerationStructure(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingAccelerationStructure(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr m_Ptr
@@ -747,23 +772,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingAccelerationStructure() : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure")
-        {
-        }
-
-        public RRayTracingAccelerationStructure(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingAccelerationStructure(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingAccelerationStructure(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

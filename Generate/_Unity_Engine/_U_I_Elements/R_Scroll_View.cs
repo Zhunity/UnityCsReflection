@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RScrollView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ScrollView);
+            }
+        }
+
+        public RScrollView() : base("UnityEngine.UIElements.ScrollView")
+        {
+        }
+
+        public RScrollView(System.Object instance) : base("UnityEngine.UIElements.ScrollView")
+		{
+            SetInstance(instance);
+		}
+
+        public RScrollView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScrollView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_MaxLocalLayoutPassCount
@@ -5355,23 +5380,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RScrollView() : base("UnityEngine.UIElements.ScrollView")
-        {
-        }
-
-        public RScrollView(System.Object instance) : base("UnityEngine.UIElements.ScrollView")
-		{
-            SetInstance(instance);
-		}
-
-        public RScrollView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScrollView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnHorizontalScrollDragElementChanged(UnityEngine.UIElements.GeometryChangedEvent @evt)
         {

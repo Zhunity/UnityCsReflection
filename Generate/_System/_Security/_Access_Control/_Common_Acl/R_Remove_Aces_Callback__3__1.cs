@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RRemoveAcesCallback<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1");
+            }
+        }
+
+        public RRemoveAcesCallback() : base("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1")
+        {
+        }
+
+        public RRemoveAcesCallback(System.Object instance) : base("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RRemoveAcesCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRemoveAcesCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RRemoveAcesCallback() : base("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1")
-        {
-        }
-
-        public RRemoveAcesCallback(System.Object instance) : base("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RRemoveAcesCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRemoveAcesCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(T @ace)
         {

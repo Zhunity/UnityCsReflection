@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RCrossAppDomainDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.CrossAppDomainDelegate);
+            }
+        }
+
+        public RCrossAppDomainDelegate() : base("System.CrossAppDomainDelegate")
+        {
+        }
+
+        public RCrossAppDomainDelegate(System.Object instance) : base("System.CrossAppDomainDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RCrossAppDomainDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCrossAppDomainDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RCrossAppDomainDelegate() : base("System.CrossAppDomainDelegate")
-        {
-        }
-
-        public RCrossAppDomainDelegate(System.Object instance) : base("System.CrossAppDomainDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RCrossAppDomainDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCrossAppDomainDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreOAuth : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth");
+            }
+        }
+
+        public RAssetStoreOAuth() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth")
+        {
+        }
+
+        public RAssetStoreOAuth(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreOAuth(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreOAuth(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.String] m_OnAuthCodeFetched
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreOAuth() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth")
-        {
-        }
-
-        public RAssetStoreOAuth(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreOAuth(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreOAuth(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityOAuthProxy @unityOAuth, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory)
         {

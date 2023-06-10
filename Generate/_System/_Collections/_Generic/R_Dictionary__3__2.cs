@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RDictionary<TKey, TValue> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.Generic.Dictionary<, >);
+            }
+        }
+
+        public RDictionary() : base("System.Collections.Generic.Dictionary`2")
+        {
+        }
+
+        public RDictionary(System.Object instance) : base("System.Collections.Generic.Dictionary`2")
+		{
+            SetInstance(instance);
+		}
+
+        public RDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32[] _buckets
@@ -1115,23 +1140,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RDictionary() : base("System.Collections.Generic.Dictionary`2")
-        {
-        }
-
-        public RDictionary(System.Object instance) : base("System.Collections.Generic.Dictionary`2")
-		{
-            SetInstance(instance);
-		}
-
-        public RDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(TKey @key, TValue @value)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RLayoutCacheState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.GUILayoutUtility+LayoutCacheState");
+            }
+        }
+
+        public RLayoutCacheState() : base("UnityEngine.GUILayoutUtility+LayoutCacheState")
+        {
+        }
+
+        public RLayoutCacheState(System.Object instance) : base("UnityEngine.GUILayoutUtility+LayoutCacheState")
+		{
+            SetInstance(instance);
+		}
+
+        public RLayoutCacheState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLayoutCacheState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 id
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RLayoutCacheState() : base("UnityEngine.GUILayoutUtility+LayoutCacheState")
-        {
-        }
-
-        public RLayoutCacheState(System.Object instance) : base("UnityEngine.GUILayoutUtility+LayoutCacheState")
-		{
-            SetInstance(instance);
-		}
-
-        public RLayoutCacheState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLayoutCacheState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

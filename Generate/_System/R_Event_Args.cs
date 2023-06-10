@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class REventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.EventArgs);
+            }
+        }
+
+        public REventArgs() : base("System.EventArgs")
+        {
+        }
+
+        public REventArgs(System.Object instance) : base("System.EventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public REventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.EventArgs Empty
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public REventArgs() : base("System.EventArgs")
-        {
-        }
-
-        public REventArgs(System.Object instance) : base("System.EventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public REventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RUpdaterArray : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdater+UpdaterArray");
+            }
+        }
+
+        public RUpdaterArray() : base("UnityEngine.UIElements.VisualTreeUpdater+UpdaterArray")
+        {
+        }
+
+        public RUpdaterArray(System.Object instance) : base("UnityEngine.UIElements.VisualTreeUpdater+UpdaterArray")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpdaterArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpdaterArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualTreeUpdater[] m_VisualTreeUpdaters
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RUpdaterArray() : base("UnityEngine.UIElements.VisualTreeUpdater+UpdaterArray")
-        {
-        }
-
-        public RUpdaterArray(System.Object instance) : base("UnityEngine.UIElements.VisualTreeUpdater+UpdaterArray")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpdaterArray(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpdaterArray(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 	/// </summary>
     public partial class RNativeSlice<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Collections.NativeSlice<>);
+            }
+        }
+
+        public RNativeSlice() : base("Unity.Collections.NativeSlice`1")
+        {
+        }
+
+        public RNativeSlice(System.Object instance) : base("Unity.Collections.NativeSlice`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RNativeSlice(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNativeSlice(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte* m_Buffer
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			}
 		}
 
-
-        public RNativeSlice() : base("Unity.Collections.NativeSlice`1")
-        {
-        }
-
-        public RNativeSlice(System.Object instance) : base("Unity.Collections.NativeSlice`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RNativeSlice(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNativeSlice(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType> op_Implicit(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> @array)
         {

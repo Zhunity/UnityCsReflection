@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFocusEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.FocusEvent);
+            }
+        }
+
+        public RFocusEvent() : base("UnityEngine.UIElements.FocusEvent")
+        {
+        }
+
+        public RFocusEvent(System.Object instance) : base("UnityEngine.UIElements.FocusEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RFocusEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFocusEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable relatedTarget
@@ -859,23 +884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFocusEvent() : base("UnityEngine.UIElements.FocusEvent")
-        {
-        }
-
-        public RFocusEvent(System.Object instance) : base("UnityEngine.UIElements.FocusEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RFocusEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFocusEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void PreDispatch(UnityEngine.UIElements.IPanel @panel)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RUsingEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+UsingEntry");
+            }
+        }
+
+        public RUsingEntry() : base("UnityEngine.UIElements.VisualTreeAsset+UsingEntry")
+        {
+        }
+
+        public RUsingEntry(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+UsingEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RUsingEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUsingEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.IComparer`1[UnityEngine.UIElements.VisualTreeAsset+UsingEntry] comparer
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RUsingEntry() : base("UnityEngine.UIElements.VisualTreeAsset+UsingEntry")
-        {
-        }
-
-        public RUsingEntry(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+UsingEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RUsingEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUsingEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 	/// </summary>
     public partial class RIVersionTypeTraits : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits");
+            }
+        }
+
+        public RIVersionTypeTraits() : base("UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits")
+        {
+        }
+
+        public RIVersionTypeTraits(System.Object instance) : base("UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits")
+		{
+            SetInstance(instance);
+		}
+
+        public RIVersionTypeTraits(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIVersionTypeTraits(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean IsAllowedFirstCharacter(Char, Boolean)
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			}
 		}
 
-
-        public RIVersionTypeTraits() : base("UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits")
-        {
-        }
-
-        public RIVersionTypeTraits(System.Object instance) : base("UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits")
-		{
-            SetInstance(instance);
-		}
-
-        public RIVersionTypeTraits(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIVersionTypeTraits(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsAllowedFirstCharacter(System.Char @c, System.Boolean @strict)
         {

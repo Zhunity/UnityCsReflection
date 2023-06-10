@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBaseListView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BaseListView);
+            }
+        }
+
+        public RBaseListView() : base("UnityEngine.UIElements.BaseListView")
+        {
+        }
+
+        public RBaseListView(System.Object instance) : base("UnityEngine.UIElements.BaseListView")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseListView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseListView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Collections.Generic.IEnumerable`1[System.Int32]] itemsAdded
@@ -5643,23 +5668,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBaseListView() : base("UnityEngine.UIElements.BaseListView")
-        {
-        }
-
-        public RBaseListView(System.Object instance) : base("UnityEngine.UIElements.BaseListView")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseListView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseListView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetupArraySizeField()
         {

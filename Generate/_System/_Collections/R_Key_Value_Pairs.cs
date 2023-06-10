@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RKeyValuePairs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.KeyValuePairs");
+            }
+        }
+
+        public RKeyValuePairs() : base("System.Collections.KeyValuePairs")
+        {
+        }
+
+        public RKeyValuePairs(System.Object instance) : base("System.Collections.KeyValuePairs")
+		{
+            SetInstance(instance);
+		}
+
+        public RKeyValuePairs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RKeyValuePairs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object _key
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RKeyValuePairs() : base("System.Collections.KeyValuePairs")
-        {
-        }
-
-        public RKeyValuePairs(System.Object instance) : base("System.Collections.KeyValuePairs")
-		{
-            SetInstance(instance);
-		}
-
-        public RKeyValuePairs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RKeyValuePairs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

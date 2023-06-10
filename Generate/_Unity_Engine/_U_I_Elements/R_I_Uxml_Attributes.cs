@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIUxmlAttributes : RMember //
     {
-
-		/// <summary>
-		/// Boolean TryGetAttributeValue(System.String, System.String ByRef)
-		/// </summary>
-		protected RMethod r_MTryGetAttributeValue_String_Out_String;
-		public virtual RMethod RMTryGetAttributeValue_String_Out_String
-		{
-			get
-			{
-				if(r_MTryGetAttributeValue_String_Out_String == null)
-				{
-					r_MTryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
-				}
-				return r_MTryGetAttributeValue_String_Out_String;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IUxmlAttributes);
+            }
+        }
 
         public RIUxmlAttributes() : base("UnityEngine.UIElements.IUxmlAttributes")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		 public RIUxmlAttributes(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Boolean TryGetAttributeValue(System.String, System.String ByRef)
+		/// </summary>
+		protected RMethod r_MTryGetAttributeValue_String_Out_String;
+		public virtual RMethod RMTryGetAttributeValue_String_Out_String
+		{
+			get
+			{
+				if(r_MTryGetAttributeValue_String_Out_String == null)
+				{
+					r_MTryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
+				}
+				return r_MTryGetAttributeValue_String_Out_String;
+			}
+		}
+
 
         public virtual System.Boolean TryGetAttributeValue(System.String @attributeName, out System.String @value)
         {

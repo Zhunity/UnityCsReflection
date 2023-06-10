@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMouseCaptureOutEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MouseCaptureOutEvent);
+            }
+        }
+
+        public RMouseCaptureOutEvent() : base("UnityEngine.UIElements.MouseCaptureOutEvent")
+        {
+        }
+
+        public RMouseCaptureOutEvent(System.Object instance) : base("UnityEngine.UIElements.MouseCaptureOutEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RMouseCaptureOutEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMouseCaptureOutEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IEventHandler relatedTarget
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMouseCaptureOutEvent() : base("UnityEngine.UIElements.MouseCaptureOutEvent")
-        {
-        }
-
-        public RMouseCaptureOutEvent(System.Object instance) : base("UnityEngine.UIElements.MouseCaptureOutEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RMouseCaptureOutEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMouseCaptureOutEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

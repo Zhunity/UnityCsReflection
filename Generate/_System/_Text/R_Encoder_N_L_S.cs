@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class REncoderNLS : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.EncoderNLS");
+            }
+        }
+
+        public REncoderNLS() : base("System.Text.EncoderNLS")
+        {
+        }
+
+        public REncoderNLS(System.Object instance) : base("System.Text.EncoderNLS")
+		{
+            SetInstance(instance);
+		}
+
+        public REncoderNLS(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REncoderNLS(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char _charLeftOver
@@ -491,23 +516,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public REncoderNLS() : base("System.Text.EncoderNLS")
-        {
-        }
-
-        public REncoderNLS(System.Object instance) : base("System.Text.EncoderNLS")
-		{
-            SetInstance(instance);
-		}
-
-        public REncoderNLS(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REncoderNLS(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

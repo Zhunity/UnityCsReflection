@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RCharacter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.Character);
+            }
+        }
+
+        public RCharacter() : base("UnityEngine.TextCore.Text.Character")
+        {
+        }
+
+        public RCharacter(System.Object instance) : base("UnityEngine.TextCore.Text.Character")
+		{
+            SetInstance(instance);
+		}
+
+        public RCharacter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCharacter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextCore.Text.TextElementType m_ElementType
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RCharacter() : base("UnityEngine.TextCore.Text.Character")
-        {
-        }
-
-        public RCharacter(System.Object instance) : base("UnityEngine.TextCore.Text.Character")
-		{
-            SetInstance(instance);
-		}
-
-        public RCharacter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCharacter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

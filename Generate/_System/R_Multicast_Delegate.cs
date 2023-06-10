@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RMulticastDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.MulticastDelegate);
+            }
+        }
+
+        public RMulticastDelegate() : base("System.MulticastDelegate")
+        {
+        }
+
+        public RMulticastDelegate(System.Object instance) : base("System.MulticastDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RMulticastDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMulticastDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Delegate[] delegates
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RMulticastDelegate() : base("System.MulticastDelegate")
-        {
-        }
-
-        public RMulticastDelegate(System.Object instance) : base("System.MulticastDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RMulticastDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMulticastDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

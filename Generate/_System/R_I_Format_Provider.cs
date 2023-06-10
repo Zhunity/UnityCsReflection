@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIFormatProvider : RMember //
     {
-
-		/// <summary>
-		/// System.Object GetFormat(System.Type)
-		/// </summary>
-		protected RMethod r_MGetFormat_Type;
-		public virtual RMethod RMGetFormat_Type
-		{
-			get
-			{
-				if(r_MGetFormat_Type == null)
-				{
-					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
-				}
-				return r_MGetFormat_Type;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IFormatProvider);
+            }
+        }
 
         public RIFormatProvider() : base("System.IFormatProvider")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem
 		 public RIFormatProvider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.Object GetFormat(System.Type)
+		/// </summary>
+		protected RMethod r_MGetFormat_Type;
+		public virtual RMethod RMGetFormat_Type
+		{
+			get
+			{
+				if(r_MGetFormat_Type == null)
+				{
+					r_MGetFormat_Type = new(this, "GetFormat", 0, typeof(System.Type));
+				}
+				return r_MGetFormat_Type;
+			}
+		}
+
 
         public virtual System.Object GetFormat(System.Type @formatType)
         {

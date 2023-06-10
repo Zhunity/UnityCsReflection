@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RTask<TResult> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Tasks.Task<>);
+            }
+        }
+
+        public RTask() : base("System.Threading.Tasks.Task`1")
+        {
+        }
+
+        public RTask(System.Object instance) : base("System.Threading.Tasks.Task`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RTask(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTask(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// TResult m_result
@@ -2299,23 +2324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RTask() : base("System.Threading.Tasks.Task`1")
-        {
-        }
-
-        public RTask(System.Object instance) : base("System.Threading.Tasks.Task`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RTask(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTask(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Threading.Tasks.Task<TResult> StartNew(System.Threading.Tasks.Task @parent, System.Func<TResult> @function, System.Threading.CancellationToken @cancellationToken, System.Threading.Tasks.TaskCreationOptions @creationOptions, Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions @internalOptions, System.Threading.Tasks.TaskScheduler @scheduler)
         {

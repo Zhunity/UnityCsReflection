@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RScroller : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Scroller);
+            }
+        }
+
+        public RScroller() : base("UnityEngine.UIElements.Scroller")
+        {
+        }
+
+        public RScroller(System.Object instance) : base("UnityEngine.UIElements.Scroller")
+		{
+            SetInstance(instance);
+		}
+
+        public RScroller(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScroller(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Single] valueChanged
@@ -3867,23 +3892,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RScroller() : base("UnityEngine.UIElements.Scroller")
-        {
-        }
-
-        public RScroller(System.Object instance) : base("UnityEngine.UIElements.Scroller")
-		{
-            SetInstance(instance);
-		}
-
-        public RScroller(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScroller(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Adjust(System.Single @factor)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RRuntimeTypeHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.RuntimeTypeHandle);
+            }
+        }
+
+        public RRuntimeTypeHandle() : base("System.RuntimeTypeHandle")
+        {
+        }
+
+        public RRuntimeTypeHandle(System.Object instance) : base("System.RuntimeTypeHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeTypeHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeTypeHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IntPtr value
@@ -859,23 +884,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RRuntimeTypeHandle() : base("System.RuntimeTypeHandle")
-        {
-        }
-
-        public RRuntimeTypeHandle(System.Object instance) : base("System.RuntimeTypeHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeTypeHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeTypeHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

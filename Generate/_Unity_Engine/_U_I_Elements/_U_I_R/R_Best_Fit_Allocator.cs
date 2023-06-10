@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RBestFitAllocator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BestFitAllocator");
+            }
+        }
+
+        public RBestFitAllocator() : base("UnityEngine.UIElements.UIR.BestFitAllocator")
+        {
+        }
+
+        public RBestFitAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.BestFitAllocator")
+		{
+            SetInstance(instance);
+		}
+
+        public RBestFitAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBestFitAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 <totalSize>k__BackingField
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RBestFitAllocator() : base("UnityEngine.UIElements.UIR.BestFitAllocator")
-        {
-        }
-
-        public RBestFitAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.BestFitAllocator")
-		{
-            SetInstance(instance);
-		}
-
-        public RBestFitAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBestFitAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc Allocate(System.UInt32 @size)
         {

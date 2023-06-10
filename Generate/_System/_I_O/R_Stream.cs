@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 	/// </summary>
     public partial class RStream : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IO.Stream);
+            }
+        }
+
+        public RStream() : base("System.IO.Stream")
+        {
+        }
+
+        public RStream(System.Object instance) : base("System.IO.Stream")
+		{
+            SetInstance(instance);
+		}
+
+        public RStream(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStream(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.IO.Stream Null
@@ -1227,23 +1252,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			}
 		}
 
-
-        public RStream() : base("System.IO.Stream")
-        {
-        }
-
-        public RStream(System.Object instance) : base("System.IO.Stream")
-		{
-            SetInstance(instance);
-		}
-
-        public RStream(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStream(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Threading.SemaphoreSlim EnsureAsyncActiveSemaphoreInitialized()
         {

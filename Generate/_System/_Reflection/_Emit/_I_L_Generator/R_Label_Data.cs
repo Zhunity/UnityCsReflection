@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RLabelData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.ILGenerator+LabelData");
+            }
+        }
+
+        public RLabelData() : base("System.Reflection.Emit.ILGenerator+LabelData")
+        {
+        }
+
+        public RLabelData(System.Object instance) : base("System.Reflection.Emit.ILGenerator+LabelData")
+		{
+            SetInstance(instance);
+		}
+
+        public RLabelData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLabelData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 addr
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RLabelData() : base("System.Reflection.Emit.ILGenerator+LabelData")
-        {
-        }
-
-        public RLabelData(System.Object instance) : base("System.Reflection.Emit.ILGenerator+LabelData")
-		{
-            SetInstance(instance);
-		}
-
-        public RLabelData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLabelData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

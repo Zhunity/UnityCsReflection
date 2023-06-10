@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RParameterBuilder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.ParameterBuilder);
+            }
+        }
+
+        public RParameterBuilder() : base("System.Reflection.Emit.ParameterBuilder")
+        {
+        }
+
+        public RParameterBuilder(System.Object instance) : base("System.Reflection.Emit.ParameterBuilder")
+		{
+            SetInstance(instance);
+		}
+
+        public RParameterBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RParameterBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.MethodBase methodb
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RParameterBuilder() : base("System.Reflection.Emit.ParameterBuilder")
-        {
-        }
-
-        public RParameterBuilder(System.Object instance) : base("System.Reflection.Emit.ParameterBuilder")
-		{
-            SetInstance(instance);
-		}
-
-        public RParameterBuilder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RParameterBuilder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void System__2__Runtime__2__InteropServices__2___ParameterBuilder__2__GetIDsOfNames(in System.Guid @riid, System.IntPtr @rgszNames, System.UInt32 @cNames, System.UInt32 @lcid, System.IntPtr @rgDispId)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RLocalDataStoreElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.LocalDataStoreElement");
+            }
+        }
+
+        public RLocalDataStoreElement() : base("System.LocalDataStoreElement")
+        {
+        }
+
+        public RLocalDataStoreElement(System.Object instance) : base("System.LocalDataStoreElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalDataStoreElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalDataStoreElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object m_value
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RLocalDataStoreElement() : base("System.LocalDataStoreElement")
-        {
-        }
-
-        public RLocalDataStoreElement(System.Object instance) : base("System.LocalDataStoreElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalDataStoreElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalDataStoreElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RDetailsExtension : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.DetailsExtension");
+            }
+        }
+
+        public RDetailsExtension() : base("UnityEditor.PackageManager.UI.Internal.DetailsExtension")
+        {
+        }
+
+        public RDetailsExtension(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.DetailsExtension")
+		{
+            SetInstance(instance);
+		}
+
+        public RDetailsExtension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDetailsExtension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action onPriorityChanged
@@ -3707,23 +3732,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RDetailsExtension() : base("UnityEditor.PackageManager.UI.Internal.DetailsExtension")
-        {
-        }
-
-        public RDetailsExtension(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.DetailsExtension")
-		{
-            SetInstance(instance);
-		}
-
-        public RDetailsExtension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDetailsExtension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetExpanded(System.Boolean @expanded)
         {

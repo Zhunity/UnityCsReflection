@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RCaptureCollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.CaptureCollection);
+            }
+        }
+
+        public RCaptureCollection() : base("System.Text.RegularExpressions.CaptureCollection")
+        {
+        }
+
+        public RCaptureCollection(System.Object instance) : base("System.Text.RegularExpressions.CaptureCollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RCaptureCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCaptureCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Group _group
@@ -603,23 +628,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RCaptureCollection() : base("System.Text.RegularExpressions.CaptureCollection")
-        {
-        }
-
-        public RCaptureCollection(System.Object instance) : base("System.Text.RegularExpressions.CaptureCollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RCaptureCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCaptureCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Collections.IEnumerator GetEnumerator()
         {

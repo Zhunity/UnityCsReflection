@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RCreateValueCallback : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback");
+            }
+        }
+
+        public RCreateValueCallback() : base("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback")
+        {
+        }
+
+        public RCreateValueCallback(System.Object instance) : base("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback")
+		{
+            SetInstance(instance);
+		}
+
+        public RCreateValueCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCreateValueCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RCreateValueCallback() : base("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback")
-        {
-        }
-
-        public RCreateValueCallback(System.Object instance) : base("System.Runtime.CompilerServices.ConditionalWeakTable`2+CreateValueCallback")
-		{
-            SetInstance(instance);
-		}
-
-        public RCreateValueCallback(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCreateValueCallback(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual TValue Invoke(TKey @key)
         {

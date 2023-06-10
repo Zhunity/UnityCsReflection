@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RExceptionHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.ExceptionHandler);
+            }
+        }
+
+        public RExceptionHandler() : base("System.Reflection.Emit.ExceptionHandler")
+        {
+        }
+
+        public RExceptionHandler(System.Object instance) : base("System.Reflection.Emit.ExceptionHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RExceptionHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExceptionHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_exceptionClass
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RExceptionHandler() : base("System.Reflection.Emit.ExceptionHandler")
-        {
-        }
-
-        public RExceptionHandler(System.Object instance) : base("System.Reflection.Emit.ExceptionHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RExceptionHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExceptionHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsValidKind(System.Reflection.ExceptionHandlingClauseOptions @kind)
         {

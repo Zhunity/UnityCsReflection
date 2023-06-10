@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RRSASignaturePadding : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.RSASignaturePadding);
+            }
+        }
+
+        public RRSASignaturePadding() : base("System.Security.Cryptography.RSASignaturePadding")
+        {
+        }
+
+        public RRSASignaturePadding(System.Object instance) : base("System.Security.Cryptography.RSASignaturePadding")
+		{
+            SetInstance(instance);
+		}
+
+        public RRSASignaturePadding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRSASignaturePadding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Cryptography.RSASignaturePadding s_pkcs1
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RRSASignaturePadding() : base("System.Security.Cryptography.RSASignaturePadding")
-        {
-        }
-
-        public RRSASignaturePadding(System.Object instance) : base("System.Security.Cryptography.RSASignaturePadding")
-		{
-            SetInstance(instance);
-		}
-
-        public RRSASignaturePadding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRSASignaturePadding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

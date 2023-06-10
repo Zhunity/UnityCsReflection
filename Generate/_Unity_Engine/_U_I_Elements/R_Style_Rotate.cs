@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleRotate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleRotate);
+            }
+        }
+
+        public RStyleRotate() : base("UnityEngine.UIElements.StyleRotate")
+        {
+        }
+
+        public RStyleRotate(System.Object instance) : base("UnityEngine.UIElements.StyleRotate")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleRotate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleRotate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Rotate m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleRotate() : base("UnityEngine.UIElements.StyleRotate")
-        {
-        }
-
-        public RStyleRotate(System.Object instance) : base("UnityEngine.UIElements.StyleRotate")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleRotate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleRotate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleRotate @lhs, UnityEngine.UIElements.StyleRotate @rhs)
         {

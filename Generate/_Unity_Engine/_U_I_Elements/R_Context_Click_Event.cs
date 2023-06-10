@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RContextClickEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ContextClickEvent);
+            }
+        }
+
+        public RContextClickEvent() : base("UnityEngine.UIElements.ContextClickEvent")
+        {
+        }
+
+        public RContextClickEvent(System.Object instance) : base("UnityEngine.UIElements.ContextClickEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RContextClickEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RContextClickEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -987,23 +1012,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RContextClickEvent() : base("UnityEngine.UIElements.ContextClickEvent")
-        {
-        }
-
-        public RContextClickEvent(System.Object instance) : base("UnityEngine.UIElements.ContextClickEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RContextClickEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RContextClickEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

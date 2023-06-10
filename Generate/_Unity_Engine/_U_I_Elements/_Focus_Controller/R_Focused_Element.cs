@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFocusedElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.FocusController+FocusedElement");
+            }
+        }
+
+        public RFocusedElement() : base("UnityEngine.UIElements.FocusController+FocusedElement")
+        {
+        }
+
+        public RFocusedElement(System.Object instance) : base("UnityEngine.UIElements.FocusController+FocusedElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RFocusedElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFocusedElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_SubTreeRoot
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFocusedElement() : base("UnityEngine.UIElements.FocusController+FocusedElement")
-        {
-        }
-
-        public RFocusedElement(System.Object instance) : base("UnityEngine.UIElements.FocusController+FocusedElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RFocusedElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFocusedElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

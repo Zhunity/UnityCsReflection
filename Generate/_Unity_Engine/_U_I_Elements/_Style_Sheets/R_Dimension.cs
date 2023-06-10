@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RDimension : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.Dimension");
+            }
+        }
+
+        public RDimension() : base("UnityEngine.UIElements.StyleSheets.Dimension")
+        {
+        }
+
+        public RDimension(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Dimension")
+		{
+            SetInstance(instance);
+		}
+
+        public RDimension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDimension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.Dimension+Unit unit
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RDimension() : base("UnityEngine.UIElements.StyleSheets.Dimension")
-        {
-        }
-
-        public RDimension(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.Dimension")
-		{
-            SetInstance(instance);
-		}
-
-        public RDimension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDimension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.Length ToLength()
         {

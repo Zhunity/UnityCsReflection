@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RAngle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Angle);
+            }
+        }
+
+        public RAngle() : base("UnityEngine.UIElements.Angle")
+        {
+        }
+
+        public RAngle(System.Object instance) : base("UnityEngine.UIElements.Angle")
+		{
+            SetInstance(instance);
+		}
+
+        public RAngle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAngle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_Value
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RAngle() : base("UnityEngine.UIElements.Angle")
-        {
-        }
-
-        public RAngle(System.Object instance) : base("UnityEngine.UIElements.Angle")
-		{
-            SetInstance(instance);
-		}
-
-        public RAngle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAngle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.Angle Degrees(System.Single @value)
         {

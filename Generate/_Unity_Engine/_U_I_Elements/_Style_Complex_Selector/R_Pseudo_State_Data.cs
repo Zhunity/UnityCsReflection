@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPseudoStateData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleComplexSelector+PseudoStateData");
+            }
+        }
+
+        public RPseudoStateData() : base("UnityEngine.UIElements.StyleComplexSelector+PseudoStateData")
+        {
+        }
+
+        public RPseudoStateData(System.Object instance) : base("UnityEngine.UIElements.StyleComplexSelector+PseudoStateData")
+		{
+            SetInstance(instance);
+		}
+
+        public RPseudoStateData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPseudoStateData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.PseudoStates state
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPseudoStateData() : base("UnityEngine.UIElements.StyleComplexSelector+PseudoStateData")
-        {
-        }
-
-        public RPseudoStateData(System.Object instance) : base("UnityEngine.UIElements.StyleComplexSelector+PseudoStateData")
-		{
-            SetInstance(instance);
-		}
-
-        public RPseudoStateData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPseudoStateData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

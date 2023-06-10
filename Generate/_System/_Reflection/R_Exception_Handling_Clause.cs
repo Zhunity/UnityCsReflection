@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RExceptionHandlingClause : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.ExceptionHandlingClause);
+            }
+        }
+
+        public RExceptionHandlingClause() : base("System.Reflection.ExceptionHandlingClause")
+        {
+        }
+
+        public RExceptionHandlingClause(System.Object instance) : base("System.Reflection.ExceptionHandlingClause")
+		{
+            SetInstance(instance);
+		}
+
+        public RExceptionHandlingClause(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExceptionHandlingClause(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type catch_type
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RExceptionHandlingClause() : base("System.Reflection.ExceptionHandlingClause")
-        {
-        }
-
-        public RExceptionHandlingClause(System.Object instance) : base("System.Reflection.ExceptionHandlingClause")
-		{
-            SetInstance(instance);
-		}
-
-        public RExceptionHandlingClause(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExceptionHandlingClause(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

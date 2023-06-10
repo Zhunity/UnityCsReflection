@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RStyleBackgroundSize : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.StyleBackgroundSize);
+            }
+        }
+
+        public RStyleBackgroundSize() : base("UnityEngine.UIElements.StyleBackgroundSize")
+        {
+        }
+
+        public RStyleBackgroundSize(System.Object instance) : base("UnityEngine.UIElements.StyleBackgroundSize")
+		{
+            SetInstance(instance);
+		}
+
+        public RStyleBackgroundSize(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStyleBackgroundSize(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.BackgroundSize m_Value
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RStyleBackgroundSize() : base("UnityEngine.UIElements.StyleBackgroundSize")
-        {
-        }
-
-        public RStyleBackgroundSize(System.Object instance) : base("UnityEngine.UIElements.StyleBackgroundSize")
-		{
-            SetInstance(instance);
-		}
-
-        public RStyleBackgroundSize(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStyleBackgroundSize(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleBackgroundSize @lhs, UnityEngine.UIElements.StyleBackgroundSize @rhs)
         {

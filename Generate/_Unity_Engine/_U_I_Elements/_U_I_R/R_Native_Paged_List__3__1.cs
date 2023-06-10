@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RNativePagedList<T> : RMember // where T : struct
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.NativePagedList`1");
+            }
+        }
+
+        public RNativePagedList() : base("UnityEngine.UIElements.UIR.NativePagedList`1")
+        {
+        }
+
+        public RNativePagedList(System.Object instance) : base("UnityEngine.UIElements.UIR.NativePagedList`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RNativePagedList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNativePagedList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_PoolCapacity
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RNativePagedList() : base("UnityEngine.UIElements.UIR.NativePagedList`1")
-        {
-        }
-
-        public RNativePagedList(System.Object instance) : base("UnityEngine.UIElements.UIR.NativePagedList`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RNativePagedList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNativePagedList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(ref Hvak.Editor.Refleaction.RType @data)
         {

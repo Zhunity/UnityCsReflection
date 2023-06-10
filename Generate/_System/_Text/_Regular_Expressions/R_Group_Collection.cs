@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RGroupCollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.GroupCollection);
+            }
+        }
+
+        public RGroupCollection() : base("System.Text.RegularExpressions.GroupCollection")
+        {
+        }
+
+        public RGroupCollection(System.Object instance) : base("System.Text.RegularExpressions.GroupCollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RGroupCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGroupCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.Match _match
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RGroupCollection() : base("System.Text.RegularExpressions.GroupCollection")
-        {
-        }
-
-        public RGroupCollection(System.Object instance) : base("System.Text.RegularExpressions.GroupCollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RGroupCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGroupCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Collections.IEnumerator GetEnumerator()
         {

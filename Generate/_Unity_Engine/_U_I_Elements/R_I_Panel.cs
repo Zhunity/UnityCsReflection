@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIPanel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IPanel);
+            }
+        }
+
+        public RIPanel() : base("UnityEngine.UIElements.IPanel")
+        {
+        }
+
+        public RIPanel(System.Object instance) : base("UnityEngine.UIElements.IPanel")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPanel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPanel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement visualTree
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIPanel() : base("UnityEngine.UIElements.IPanel")
-        {
-        }
-
-        public RIPanel(System.Object instance) : base("UnityEngine.UIElements.IPanel")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPanel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPanel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.VisualElement Pick(UnityEngine.Vector2 @point)
         {

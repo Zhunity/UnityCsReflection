@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RDSAParameters : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.DSAParameters);
+            }
+        }
+
+        public RDSAParameters() : base("System.Security.Cryptography.DSAParameters")
+        {
+        }
+
+        public RDSAParameters(System.Object instance) : base("System.Security.Cryptography.DSAParameters")
+		{
+            SetInstance(instance);
+		}
+
+        public RDSAParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDSAParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] P
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RDSAParameters() : base("System.Security.Cryptography.DSAParameters")
-        {
-        }
-
-        public RDSAParameters(System.Object instance) : base("System.Security.Cryptography.DSAParameters")
-		{
-            SetInstance(instance);
-		}
-
-        public RDSAParameters(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDSAParameters(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

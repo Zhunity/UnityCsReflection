@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RJobManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.JobManager");
+            }
+        }
+
+        public RJobManager() : base("UnityEngine.UIElements.UIR.JobManager")
+        {
+        }
+
+        public RJobManager(System.Object instance) : base("UnityEngine.UIElements.UIR.JobManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RJobManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RJobManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.NativePagedList`1[UnityEngine.UIElements.UIR.NudgeJobData] m_NudgeJobs
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RJobManager() : base("UnityEngine.UIElements.UIR.JobManager")
-        {
-        }
-
-        public RJobManager(System.Object instance) : base("UnityEngine.UIElements.UIR.JobManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RJobManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RJobManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData @job)
         {

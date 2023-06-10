@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RTokenGenerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.Emit.TokenGenerator");
+            }
+        }
+
+        public RTokenGenerator() : base("System.Reflection.Emit.TokenGenerator")
+        {
+        }
+
+        public RTokenGenerator(System.Object instance) : base("System.Reflection.Emit.TokenGenerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RTokenGenerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTokenGenerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 GetToken(System.String)
@@ -75,23 +100,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RTokenGenerator() : base("System.Reflection.Emit.TokenGenerator")
-        {
-        }
-
-        public RTokenGenerator(System.Object instance) : base("System.Reflection.Emit.TokenGenerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RTokenGenerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTokenGenerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetToken(System.String @str)
         {

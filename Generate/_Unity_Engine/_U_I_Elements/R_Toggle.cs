@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RToggle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.Toggle);
+            }
+        }
+
+        public RToggle() : base("UnityEngine.UIElements.Toggle")
+        {
+        }
+
+        public RToggle(System.Object instance) : base("UnityEngine.UIElements.Toggle")
+		{
+            SetInstance(instance);
+		}
+
+        public RToggle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RToggle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Func`2[System.Boolean,System.Boolean] onValidateValue
@@ -3899,23 +3924,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RToggle() : base("UnityEngine.UIElements.Toggle")
-        {
-        }
-
-        public RToggle(System.Object instance) : base("UnityEngine.UIElements.Toggle")
-		{
-            SetInstance(instance);
-		}
-
-        public RToggle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RToggle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InitLabel()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RCADMethodReturnMessage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.CADMethodReturnMessage");
+            }
+        }
+
+        public RCADMethodReturnMessage() : base("System.Runtime.Remoting.Messaging.CADMethodReturnMessage")
+        {
+        }
+
+        public RCADMethodReturnMessage(System.Object instance) : base("System.Runtime.Remoting.Messaging.CADMethodReturnMessage")
+		{
+            SetInstance(instance);
+		}
+
+        public RCADMethodReturnMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCADMethodReturnMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object _returnValue
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RCADMethodReturnMessage() : base("System.Runtime.Remoting.Messaging.CADMethodReturnMessage")
-        {
-        }
-
-        public RCADMethodReturnMessage(System.Object instance) : base("System.Runtime.Remoting.Messaging.CADMethodReturnMessage")
-		{
-            SetInstance(instance);
-		}
-
-        public RCADMethodReturnMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCADMethodReturnMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging.RCADMethodReturnMessage Create(System.Runtime.Remoting.Messaging.IMessage @callMsg)
         {

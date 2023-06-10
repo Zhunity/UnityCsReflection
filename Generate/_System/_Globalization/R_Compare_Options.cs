@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCompareOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.CompareOptions);
+            }
+        }
+
+        public RCompareOptions() : base("System.Globalization.CompareOptions")
+        {
+        }
+
+        public RCompareOptions(System.Object instance) : base("System.Globalization.CompareOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RCompareOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCompareOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCompareOptions() : base("System.Globalization.CompareOptions")
-        {
-        }
-
-        public RCompareOptions(System.Object instance) : base("System.Globalization.CompareOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RCompareOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCompareOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

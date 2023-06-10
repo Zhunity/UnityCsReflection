@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class R__0____1__c__DisplayClass71_0 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0");
+            }
+        }
+
+        public R__0____1__c__DisplayClass71_0() : base("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0")
+        {
+        }
+
+        public R__0____1__c__DisplayClass71_0(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0")
+		{
+            SetInstance(instance);
+		}
+
+        public R__0____1__c__DisplayClass71_0(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public R__0____1__c__DisplayClass71_0(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementAsset asset
@@ -125,23 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public R__0____1__c__DisplayClass71_0() : base("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0")
-        {
-        }
-
-        public R__0____1__c__DisplayClass71_0(System.Object instance) : base("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0")
-		{
-            SetInstance(instance);
-		}
-
-        public R__0____1__c__DisplayClass71_0(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public R__0____1__c__DisplayClass71_0(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 	/// </summary>
     public partial class REnforceJobResult : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Collections.LowLevel.Unsafe.EnforceJobResult);
+            }
+        }
+
+        public REnforceJobResult() : base("Unity.Collections.LowLevel.Unsafe.EnforceJobResult")
+        {
+        }
+
+        public REnforceJobResult(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.EnforceJobResult")
+		{
+            SetInstance(instance);
+		}
+
+        public REnforceJobResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnforceJobResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 			}
 		}
 
-
-        public REnforceJobResult() : base("Unity.Collections.LowLevel.Unsafe.EnforceJobResult")
-        {
-        }
-
-        public REnforceJobResult(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.EnforceJobResult")
-		{
-            SetInstance(instance);
-		}
-
-        public REnforceJobResult(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnforceJobResult(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

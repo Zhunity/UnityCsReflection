@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMouseLeaveEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MouseLeaveEvent);
+            }
+        }
+
+        public RMouseLeaveEvent() : base("UnityEngine.UIElements.MouseLeaveEvent")
+        {
+        }
+
+        public RMouseLeaveEvent(System.Object instance) : base("UnityEngine.UIElements.MouseLeaveEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RMouseLeaveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMouseLeaveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -1003,23 +1028,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMouseLeaveEvent() : base("UnityEngine.UIElements.MouseLeaveEvent")
-        {
-        }
-
-        public RMouseLeaveEvent(System.Object instance) : base("UnityEngine.UIElements.MouseLeaveEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RMouseLeaveEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMouseLeaveEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

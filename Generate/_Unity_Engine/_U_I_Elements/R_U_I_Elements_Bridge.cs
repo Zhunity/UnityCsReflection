@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RUIElementsBridge : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIElementsBridge");
+            }
+        }
+
+        public RUIElementsBridge() : base("UnityEngine.UIElements.UIElementsBridge")
+        {
+        }
+
+        public RUIElementsBridge(System.Object instance) : base("UnityEngine.UIElements.UIElementsBridge")
+		{
+            SetInstance(instance);
+		}
+
+        public RUIElementsBridge(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUIElementsBridge(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void SetWantsMouseJumping(Int32)
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RUIElementsBridge() : base("UnityEngine.UIElements.UIElementsBridge")
-        {
-        }
-
-        public RUIElementsBridge(System.Object instance) : base("UnityEngine.UIElements.UIElementsBridge")
-		{
-            SetInstance(instance);
-		}
-
-        public RUIElementsBridge(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUIElementsBridge(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetWantsMouseJumping(System.Int32 @value)
         {

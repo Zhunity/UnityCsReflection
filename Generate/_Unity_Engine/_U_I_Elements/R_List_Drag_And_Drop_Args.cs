@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RListDragAndDropArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ListDragAndDropArgs");
+            }
+        }
+
+        public RListDragAndDropArgs() : base("UnityEngine.UIElements.ListDragAndDropArgs")
+        {
+        }
+
+        public RListDragAndDropArgs(System.Object instance) : base("UnityEngine.UIElements.ListDragAndDropArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RListDragAndDropArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RListDragAndDropArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object <target>k__BackingField
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RListDragAndDropArgs() : base("UnityEngine.UIElements.ListDragAndDropArgs")
-        {
-        }
-
-        public RListDragAndDropArgs(System.Object instance) : base("UnityEngine.UIElements.ListDragAndDropArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RListDragAndDropArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RListDragAndDropArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

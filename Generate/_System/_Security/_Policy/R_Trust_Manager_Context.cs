@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RTrustManagerContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.TrustManagerContext);
+            }
+        }
+
+        public RTrustManagerContext() : base("System.Security.Policy.TrustManagerContext")
+        {
+        }
+
+        public RTrustManagerContext(System.Object instance) : base("System.Security.Policy.TrustManagerContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RTrustManagerContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTrustManagerContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean _ignorePersistedDecision
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RTrustManagerContext() : base("System.Security.Policy.TrustManagerContext")
-        {
-        }
-
-        public RTrustManagerContext(System.Object instance) : base("System.Security.Policy.TrustManagerContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RTrustManagerContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTrustManagerContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RHvak.REditor.RRefleaction
 	/// </summary>
     public partial class RBTest : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Hvak.Editor.Refleaction.BTest");
+            }
+        }
+
+        public RBTest() : base("Hvak.Editor.Refleaction.BTest")
+        {
+        }
+
+        public RBTest(System.Object instance) : base("Hvak.Editor.Refleaction.BTest")
+		{
+            SetInstance(instance);
+		}
+
+        public RBTest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBTest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String str
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RHvak.REditor.RRefleaction
 			}
 		}
 
-
-        public RBTest() : base("Hvak.Editor.Refleaction.BTest")
-        {
-        }
-
-        public RBTest(System.Object instance) : base("Hvak.Editor.Refleaction.BTest")
-		{
-            SetInstance(instance);
-		}
-
-        public RBTest(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBTest(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

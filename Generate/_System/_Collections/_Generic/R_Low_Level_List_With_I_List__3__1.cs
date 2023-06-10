@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 	/// </summary>
     public partial class RLowLevelListWithIList<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Collections.Generic.LowLevelListWithIList`1");
+            }
+        }
+
+        public RLowLevelListWithIList() : base("System.Collections.Generic.LowLevelListWithIList`1")
+        {
+        }
+
+        public RLowLevelListWithIList(System.Object instance) : base("System.Collections.Generic.LowLevelListWithIList`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RLowLevelListWithIList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLowLevelListWithIList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T[] _items
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			}
 		}
 
-
-        public RLowLevelListWithIList() : base("System.Collections.Generic.LowLevelListWithIList`1")
-        {
-        }
-
-        public RLowLevelListWithIList(System.Object instance) : base("System.Collections.Generic.LowLevelListWithIList`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RLowLevelListWithIList(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLowLevelListWithIList(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Collections.Generic.IEnumerator<T> System__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator()
         {

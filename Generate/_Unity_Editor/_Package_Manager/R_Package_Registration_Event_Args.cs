@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RPackageRegistrationEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs);
+            }
+        }
+
+        public RPackageRegistrationEventArgs() : base("UnityEditor.PackageManager.PackageRegistrationEventArgs")
+        {
+        }
+
+        public RPackageRegistrationEventArgs(System.Object instance) : base("UnityEditor.PackageManager.PackageRegistrationEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageRegistrationEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageRegistrationEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.PackageManager.PackageInfo] <added>k__BackingField
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RPackageRegistrationEventArgs() : base("UnityEditor.PackageManager.PackageRegistrationEventArgs")
-        {
-        }
-
-        public RPackageRegistrationEventArgs(System.Object instance) : base("UnityEditor.PackageManager.PackageRegistrationEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageRegistrationEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageRegistrationEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEditor.PackageManager.PackageInfo[] Internal_GetAddedPackages(System.IntPtr @nativeHandle)
         {

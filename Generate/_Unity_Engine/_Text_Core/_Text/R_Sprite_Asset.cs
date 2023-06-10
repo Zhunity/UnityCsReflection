@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RSpriteAsset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextCore.Text.SpriteAsset);
+            }
+        }
+
+        public RSpriteAsset() : base("UnityEngine.TextCore.Text.SpriteAsset")
+        {
+        }
+
+        public RSpriteAsset(System.Object instance) : base("UnityEngine.TextCore.Text.SpriteAsset")
+		{
+            SetInstance(instance);
+		}
+
+        public RSpriteAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSpriteAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Int32] m_NameLookup
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RSpriteAsset() : base("UnityEngine.TextCore.Text.SpriteAsset")
-        {
-        }
-
-        public RSpriteAsset(System.Object instance) : base("UnityEngine.TextCore.Text.SpriteAsset")
-		{
-            SetInstance(instance);
-		}
-
-        public RSpriteAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSpriteAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Awake()
         {

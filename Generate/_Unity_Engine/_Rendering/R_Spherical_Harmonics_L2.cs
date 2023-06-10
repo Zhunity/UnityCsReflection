@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RSphericalHarmonicsL2 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.SphericalHarmonicsL2);
+            }
+        }
+
+        public RSphericalHarmonicsL2() : base("UnityEngine.Rendering.SphericalHarmonicsL2")
+        {
+        }
+
+        public RSphericalHarmonicsL2(System.Object instance) : base("UnityEngine.Rendering.SphericalHarmonicsL2")
+		{
+            SetInstance(instance);
+		}
+
+        public RSphericalHarmonicsL2(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSphericalHarmonicsL2(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single shr0
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RSphericalHarmonicsL2() : base("UnityEngine.Rendering.SphericalHarmonicsL2")
-        {
-        }
-
-        public RSphericalHarmonicsL2(System.Object instance) : base("UnityEngine.Rendering.SphericalHarmonicsL2")
-		{
-            SetInstance(instance);
-		}
-
-        public RSphericalHarmonicsL2(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSphericalHarmonicsL2(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

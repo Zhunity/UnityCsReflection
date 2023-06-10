@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RDecCalc : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Decimal+DecCalc");
+            }
+        }
+
+        public RDecCalc() : base("System.Decimal+DecCalc")
+        {
+        }
+
+        public RDecCalc(System.Object instance) : base("System.Decimal+DecCalc")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecCalc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecCalc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 uflags
@@ -973,23 +998,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RDecCalc() : base("System.Decimal+DecCalc")
-        {
-        }
-
-        public RDecCalc(System.Object instance) : base("System.Decimal+DecCalc")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecCalc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecCalc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.UInt32 GetExponent(System.Single @f)
         {

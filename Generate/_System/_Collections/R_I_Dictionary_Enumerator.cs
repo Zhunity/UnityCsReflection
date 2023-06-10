@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RIDictionaryEnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.IDictionaryEnumerator);
+            }
+        }
+
+        public RIDictionaryEnumerator() : base("System.Collections.IDictionaryEnumerator")
+        {
+        }
+
+        public RIDictionaryEnumerator(System.Object instance) : base("System.Collections.IDictionaryEnumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RIDictionaryEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIDictionaryEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object Key
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RIDictionaryEnumerator() : base("System.Collections.IDictionaryEnumerator")
-        {
-        }
-
-        public RIDictionaryEnumerator(System.Object instance) : base("System.Collections.IDictionaryEnumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RIDictionaryEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIDictionaryEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

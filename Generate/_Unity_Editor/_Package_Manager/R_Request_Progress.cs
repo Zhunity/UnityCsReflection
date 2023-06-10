@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RRequestProgress : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.RequestProgress");
+            }
+        }
+
+        public RRequestProgress() : base("UnityEditor.PackageManager.RequestProgress")
+        {
+        }
+
+        public RRequestProgress(System.Object instance) : base("UnityEditor.PackageManager.RequestProgress")
+		{
+            SetInstance(instance);
+		}
+
+        public RRequestProgress(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRequestProgress(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.ProgressUpdateEventArgs] progressUpdated
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RRequestProgress() : base("UnityEditor.PackageManager.RequestProgress")
-        {
-        }
-
-        public RRequestProgress(System.Object instance) : base("UnityEditor.PackageManager.RequestProgress")
-		{
-            SetInstance(instance);
-		}
-
-        public RRequestProgress(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRequestProgress(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void SetProgressHandler(System.Int64 @operationId, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress @requestProgress)
         {

@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIFormattable : RMember //
     {
-
-		/// <summary>
-		/// System.String ToString(System.String, System.IFormatProvider)
-		/// </summary>
-		protected RMethod r_MToString_String_IFormatProvider;
-		public virtual RMethod RMToString_String_IFormatProvider
-		{
-			get
-			{
-				if(r_MToString_String_IFormatProvider == null)
-				{
-					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
-				}
-				return r_MToString_String_IFormatProvider;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IFormattable);
+            }
+        }
 
         public RIFormattable() : base("System.IFormattable")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem
 		 public RIFormattable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.String ToString(System.String, System.IFormatProvider)
+		/// </summary>
+		protected RMethod r_MToString_String_IFormatProvider;
+		public virtual RMethod RMToString_String_IFormatProvider
+		{
+			get
+			{
+				if(r_MToString_String_IFormatProvider == null)
+				{
+					r_MToString_String_IFormatProvider = new(this, "ToString", 0, typeof(System.String), typeof(System.IFormatProvider));
+				}
+				return r_MToString_String_IFormatProvider;
+			}
+		}
+
 
         public virtual System.String ToString(System.String @format, System.IFormatProvider @formatProvider)
         {

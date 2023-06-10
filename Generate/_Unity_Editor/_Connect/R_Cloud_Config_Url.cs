@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 	/// </summary>
     public partial class RCloudConfigUrl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl");
+            }
+        }
+
+        public RCloudConfigUrl() : base("UnityEditor.Connect.CloudConfigUrl")
+        {
+        }
+
+        public RCloudConfigUrl(System.Object instance) : base("UnityEditor.Connect.CloudConfigUrl")
+		{
+            SetInstance(instance);
+		}
+
+        public RCloudConfigUrl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCloudConfigUrl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			}
 		}
 
-
-        public RCloudConfigUrl() : base("UnityEditor.Connect.CloudConfigUrl")
-        {
-        }
-
-        public RCloudConfigUrl(System.Object instance) : base("UnityEditor.Connect.CloudConfigUrl")
-		{
-            SetInstance(instance);
-		}
-
-        public RCloudConfigUrl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCloudConfigUrl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmRemoveRegistryOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmRemoveRegistryOperation");
+            }
+        }
+
+        public RUpmRemoveRegistryOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmRemoveRegistryOperation")
+        {
+        }
+
+        public RUpmRemoveRegistryOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmRemoveRegistryOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmRemoveRegistryOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmRemoveRegistryOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.IOperation,UnityEditor.PackageManager.UI.Internal.UIError] onOperationError
@@ -747,23 +772,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmRemoveRegistryOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmRemoveRegistryOperation")
-        {
-        }
-
-        public RUpmRemoveRegistryOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmRemoveRegistryOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmRemoveRegistryOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmRemoveRegistryOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Remove(System.String @name)
         {

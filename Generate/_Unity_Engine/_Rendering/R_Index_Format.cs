@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RIndexFormat : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.IndexFormat);
+            }
+        }
+
+        public RIndexFormat() : base("UnityEngine.Rendering.IndexFormat")
+        {
+        }
+
+        public RIndexFormat(System.Object instance) : base("UnityEngine.Rendering.IndexFormat")
+		{
+            SetInstance(instance);
+		}
+
+        public RIndexFormat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIndexFormat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RIndexFormat() : base("UnityEngine.Rendering.IndexFormat")
-        {
-        }
-
-        public RIndexFormat(System.Object instance) : base("UnityEngine.Rendering.IndexFormat")
-		{
-            SetInstance(instance);
-		}
-
-        public RIndexFormat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIndexFormat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

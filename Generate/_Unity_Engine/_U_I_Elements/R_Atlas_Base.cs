@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RAtlasBase : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.AtlasBase");
+            }
+        }
+
+        public RAtlasBase() : base("UnityEngine.UIElements.AtlasBase")
+        {
+        }
+
+        public RAtlasBase(System.Object instance) : base("UnityEngine.UIElements.AtlasBase")
+		{
+            SetInstance(instance);
+		}
+
+        public RAtlasBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAtlasBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextureRegistry textureRegistry
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RAtlasBase() : base("UnityEngine.UIElements.AtlasBase")
-        {
-        }
-
-        public RAtlasBase(System.Object instance) : base("UnityEngine.UIElements.AtlasBase")
-		{
-            SetInstance(instance);
-		}
-
-        public RAtlasBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAtlasBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TryGetAtlas(UnityEngine.UIElements.VisualElement @ctx, UnityEngine.Texture2D @src, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @atlas, out UnityEngine.RectInt @atlasRect)
         {

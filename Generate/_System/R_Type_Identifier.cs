@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RTypeIdentifier : RMember //
     {
-
-		/// <summary>
-		/// System.String InternalName
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PInternalName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPInternalName
-		{
-			get
-			{
-				if(r_PInternalName == null)
-				{
-					r_PInternalName = new(this, "InternalName", -1);
-				}
-				return r_PInternalName;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.TypeIdentifier");
+            }
+        }
 
         public RTypeIdentifier() : base("System.TypeIdentifier")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem
 		 public RTypeIdentifier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.String InternalName
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PInternalName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPInternalName
+		{
+			get
+			{
+				if(r_PInternalName == null)
+				{
+					r_PInternalName = new(this, "InternalName", -1);
+				}
+				return r_PInternalName;
+			}
+		}
+
 
     }
 }

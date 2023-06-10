@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegexCode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode");
+            }
+        }
+
+        public RRegexCode() : base("System.Text.RegularExpressions.RegexCode")
+        {
+        }
+
+        public RRegexCode(System.Object instance) : base("System.Text.RegularExpressions.RegexCode")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegexCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegexCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 Onerep
@@ -1051,23 +1076,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegexCode() : base("System.Text.RegularExpressions.RegexCode")
-        {
-        }
-
-        public RRegexCode(System.Object instance) : base("System.Text.RegularExpressions.RegexCode")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegexCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegexCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean OpcodeBacktracks(System.Int32 @Op)
         {

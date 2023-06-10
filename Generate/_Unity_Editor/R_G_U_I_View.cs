@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RGUIView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.GUIView");
+            }
+        }
+
+        public RGUIView() : base("UnityEditor.GUIView")
+        {
+        }
+
+        public RGUIView(System.Object instance) : base("UnityEditor.GUIView")
+		{
+            SetInstance(instance);
+		}
+
+        public RGUIView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGUIView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.GUIView] positionChanged
@@ -2011,23 +2036,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RGUIView() : base("UnityEditor.GUIView")
-        {
-        }
-
-        public RGUIView(System.Object instance) : base("UnityEditor.GUIView")
-		{
-            SetInstance(instance);
-		}
-
-        public RGUIView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGUIView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Repaint()
         {

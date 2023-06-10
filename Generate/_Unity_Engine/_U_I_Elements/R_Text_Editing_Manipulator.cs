@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextEditingManipulator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextEditingManipulator");
+            }
+        }
+
+        public RTextEditingManipulator() : base("UnityEngine.UIElements.TextEditingManipulator")
+        {
+        }
+
+        public RTextEditingManipulator(System.Object instance) : base("UnityEngine.UIElements.TextEditingManipulator")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextEditingManipulator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextEditingManipulator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextElement m_TextElement
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextEditingManipulator() : base("UnityEngine.UIElements.TextEditingManipulator")
-        {
-        }
-
-        public RTextEditingManipulator(System.Object instance) : base("UnityEngine.UIElements.TextEditingManipulator")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextEditingManipulator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextEditingManipulator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InitTextEditorEventHandler()
         {

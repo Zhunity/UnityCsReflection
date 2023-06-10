@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaPositionType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaPositionType");
+            }
+        }
+
+        public RYogaPositionType() : base("UnityEngine.Yoga.YogaPositionType")
+        {
+        }
+
+        public RYogaPositionType(System.Object instance) : base("UnityEngine.Yoga.YogaPositionType")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaPositionType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaPositionType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaPositionType() : base("UnityEngine.Yoga.YogaPositionType")
-        {
-        }
-
-        public RYogaPositionType(System.Object instance) : base("UnityEngine.Yoga.YogaPositionType")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaPositionType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaPositionType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

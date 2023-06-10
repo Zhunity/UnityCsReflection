@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 	/// </summary>
     public partial class RIPrincipal : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Principal.IPrincipal);
+            }
+        }
+
+        public RIPrincipal() : base("System.Security.Principal.IPrincipal")
+        {
+        }
+
+        public RIPrincipal(System.Object instance) : base("System.Security.Principal.IPrincipal")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPrincipal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPrincipal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Principal.IIdentity Identity
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			}
 		}
 
-
-        public RIPrincipal() : base("System.Security.Principal.IPrincipal")
-        {
-        }
-
-        public RIPrincipal(System.Object instance) : base("System.Security.Principal.IPrincipal")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPrincipal(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPrincipal(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsInRole(System.String @role)
         {

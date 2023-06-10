@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RLinkedPoolItem<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.LinkedPoolItem`1");
+            }
+        }
+
+        public RLinkedPoolItem() : base("UnityEngine.UIElements.UIR.LinkedPoolItem`1")
+        {
+        }
+
+        public RLinkedPoolItem(System.Object instance) : base("UnityEngine.UIElements.UIR.LinkedPoolItem`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RLinkedPoolItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLinkedPoolItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T poolNext
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RLinkedPoolItem() : base("UnityEngine.UIElements.UIR.LinkedPoolItem`1")
-        {
-        }
-
-        public RLinkedPoolItem(System.Object instance) : base("UnityEngine.UIElements.UIR.LinkedPoolItem`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RLinkedPoolItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLinkedPoolItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RNestingContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PropertyHandler+NestingContext");
+            }
+        }
+
+        public RNestingContext() : base("UnityEditor.PropertyHandler+NestingContext")
+        {
+        }
+
+        public RNestingContext(System.Object instance) : base("UnityEditor.PropertyHandler+NestingContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RNestingContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNestingContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PropertyHandler m_Handler
@@ -221,23 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RNestingContext() : base("UnityEditor.PropertyHandler+NestingContext")
-        {
-        }
-
-        public RNestingContext(System.Object instance) : base("UnityEditor.PropertyHandler+NestingContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RNestingContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNestingContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext Get(Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler @handler, System.Int32 @nestingLevel)
         {

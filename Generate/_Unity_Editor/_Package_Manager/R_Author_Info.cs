@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RAuthorInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.AuthorInfo);
+            }
+        }
+
+        public RAuthorInfo() : base("UnityEditor.PackageManager.AuthorInfo")
+        {
+        }
+
+        public RAuthorInfo(System.Object instance) : base("UnityEditor.PackageManager.AuthorInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RAuthorInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAuthorInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String m_Name
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RAuthorInfo() : base("UnityEditor.PackageManager.AuthorInfo")
-        {
-        }
-
-        public RAuthorInfo(System.Object instance) : base("UnityEditor.PackageManager.AuthorInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RAuthorInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAuthorInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

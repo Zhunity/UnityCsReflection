@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RSpan<T> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Span<>);
+            }
+        }
+
+        public RSpan() : base("System.Span`1")
+        {
+        }
+
+        public RSpan(System.Object instance) : base("System.Span`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RSpan(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSpan(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.ByReference`1[T] _pointer
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RSpan() : base("System.Span`1")
-        {
-        }
-
-        public RSpan(System.Object instance) : base("System.Span`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RSpan(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSpan(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual T GetPinnableReference()
         {

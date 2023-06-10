@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RShaderHardwareTier : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.GraphicsTier);
+            }
+        }
+
+        public RShaderHardwareTier() : base("UnityEngine.Rendering.ShaderHardwareTier")
+        {
+        }
+
+        public RShaderHardwareTier(System.Object instance) : base("UnityEngine.Rendering.ShaderHardwareTier")
+		{
+            SetInstance(instance);
+		}
+
+        public RShaderHardwareTier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RShaderHardwareTier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RShaderHardwareTier() : base("UnityEngine.Rendering.ShaderHardwareTier")
-        {
-        }
-
-        public RShaderHardwareTier(System.Object instance) : base("UnityEngine.Rendering.ShaderHardwareTier")
-		{
-            SetInstance(instance);
-		}
-
-        public RShaderHardwareTier(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RShaderHardwareTier(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

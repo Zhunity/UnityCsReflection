@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RMeshGenerationContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.MeshGenerationContext);
+            }
+        }
+
+        public RMeshGenerationContext() : base("UnityEngine.UIElements.MeshGenerationContext")
+        {
+        }
+
+        public RMeshGenerationContext(System.Object instance) : base("UnityEngine.UIElements.MeshGenerationContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RMeshGenerationContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMeshGenerationContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Painter2D m_Painter2D
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RMeshGenerationContext() : base("UnityEngine.UIElements.MeshGenerationContext")
-        {
-        }
-
-        public RMeshGenerationContext(System.Object instance) : base("UnityEngine.UIElements.MeshGenerationContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RMeshGenerationContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMeshGenerationContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.MeshWriteData Allocate(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture)
         {

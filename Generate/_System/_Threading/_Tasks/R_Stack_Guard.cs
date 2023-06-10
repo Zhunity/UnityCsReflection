@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 	/// </summary>
     public partial class RStackGuard : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.Tasks.StackGuard");
+            }
+        }
+
+        public RStackGuard() : base("System.Threading.Tasks.StackGuard")
+        {
+        }
+
+        public RStackGuard(System.Object instance) : base("System.Threading.Tasks.StackGuard")
+		{
+            SetInstance(instance);
+		}
+
+        public RStackGuard(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStackGuard(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_inliningDepth
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			}
 		}
 
-
-        public RStackGuard() : base("System.Threading.Tasks.StackGuard")
-        {
-        }
-
-        public RStackGuard(System.Object instance) : base("System.Threading.Tasks.StackGuard")
-		{
-            SetInstance(instance);
-		}
-
-        public RStackGuard(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStackGuard(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TryBeginInliningScope()
         {

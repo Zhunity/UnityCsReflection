@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RHostView : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.HostView");
+            }
+        }
+
+        public RHostView() : base("UnityEditor.HostView")
+        {
+        }
+
+        public RHostView(System.Object instance) : base("UnityEditor.HostView")
+		{
+            SetInstance(instance);
+		}
+
+        public RHostView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHostView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.HostView] actualViewChanged
@@ -2827,23 +2852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RHostView() : base("UnityEditor.HostView")
-        {
-        }
-
-        public RHostView(System.Object instance) : base("UnityEditor.HostView")
-		{
-            SetInstance(instance);
-		}
-
-        public RHostView(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHostView(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetActualViewInternal(UnityEditor.EditorWindow @value, System.Boolean @sendEvents)
         {

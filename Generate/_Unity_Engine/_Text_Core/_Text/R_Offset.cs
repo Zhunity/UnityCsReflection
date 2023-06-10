@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class ROffset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset");
+            }
+        }
+
+        public ROffset() : base("UnityEngine.TextCore.Text.Offset")
+        {
+        }
+
+        public ROffset(System.Object instance) : base("UnityEngine.TextCore.Text.Offset")
+		{
+            SetInstance(instance);
+		}
+
+        public ROffset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROffset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_Left
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public ROffset() : base("UnityEngine.TextCore.Text.Offset")
-        {
-        }
-
-        public ROffset(System.Object instance) : base("UnityEngine.TextCore.Text.Offset")
-		{
-            SetInstance(instance);
-		}
-
-        public ROffset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROffset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean op_Equality(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @lhs, Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset @rhs)
         {

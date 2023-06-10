@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPropagationPaths : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths");
+            }
+        }
+
+        public RPropagationPaths() : base("UnityEngine.UIElements.PropagationPaths")
+        {
+        }
+
+        public RPropagationPaths(System.Object instance) : base("UnityEngine.UIElements.PropagationPaths")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropagationPaths(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropagationPaths(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.ObjectPool`1[UnityEngine.UIElements.PropagationPaths] s_Pool
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPropagationPaths() : base("UnityEngine.UIElements.PropagationPaths")
-        {
-        }
-
-        public RPropagationPaths(System.Object instance) : base("UnityEngine.UIElements.PropagationPaths")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropagationPaths(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropagationPaths(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Copy(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths @paths)
         {

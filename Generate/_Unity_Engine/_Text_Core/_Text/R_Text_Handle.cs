@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RTextHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle");
+            }
+        }
+
+        public RTextHandle() : base("UnityEngine.TextCore.Text.TextHandle")
+        {
+        }
+
+        public RTextHandle(System.Object instance) : base("UnityEngine.TextCore.Text.TextHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector2 m_PreferredSize
@@ -683,23 +708,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RTextHandle() : base("UnityEngine.TextCore.Text.TextHandle")
-        {
-        }
-
-        public RTextHandle(System.Object instance) : base("UnityEngine.TextCore.Text.TextHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsTextInfoAllocated()
         {

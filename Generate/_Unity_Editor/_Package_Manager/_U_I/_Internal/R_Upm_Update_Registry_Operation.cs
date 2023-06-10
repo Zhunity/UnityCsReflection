@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmUpdateRegistryOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmUpdateRegistryOperation");
+            }
+        }
+
+        public RUpmUpdateRegistryOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmUpdateRegistryOperation")
+        {
+        }
+
+        public RUpmUpdateRegistryOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmUpdateRegistryOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmUpdateRegistryOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmUpdateRegistryOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.IOperation,UnityEditor.PackageManager.UI.Internal.UIError] onOperationError
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmUpdateRegistryOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmUpdateRegistryOperation")
-        {
-        }
-
-        public RUpmUpdateRegistryOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmUpdateRegistryOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmUpdateRegistryOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmUpdateRegistryOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Update(System.String @oldName, System.String @newName, System.String @url, System.String[] @scopes)
         {

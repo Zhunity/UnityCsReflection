@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RGfxUpdateBufferRange : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.GfxUpdateBufferRange");
+            }
+        }
+
+        public RGfxUpdateBufferRange() : base("UnityEngine.UIElements.UIR.GfxUpdateBufferRange")
+        {
+        }
+
+        public RGfxUpdateBufferRange(System.Object instance) : base("UnityEngine.UIElements.UIR.GfxUpdateBufferRange")
+		{
+            SetInstance(instance);
+		}
+
+        public RGfxUpdateBufferRange(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGfxUpdateBufferRange(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 offsetFromWriteStart
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RGfxUpdateBufferRange() : base("UnityEngine.UIElements.UIR.GfxUpdateBufferRange")
-        {
-        }
-
-        public RGfxUpdateBufferRange(System.Object instance) : base("UnityEngine.UIElements.UIR.GfxUpdateBufferRange")
-		{
-            SetInstance(instance);
-		}
-
-        public RGfxUpdateBufferRange(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGfxUpdateBufferRange(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

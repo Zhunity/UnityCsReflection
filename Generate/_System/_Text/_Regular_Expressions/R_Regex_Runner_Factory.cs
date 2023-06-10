@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegexRunnerFactory : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.RegularExpressions.RegexRunnerFactory);
+            }
+        }
+
+        public RRegexRunnerFactory() : base("System.Text.RegularExpressions.RegexRunnerFactory")
+        {
+        }
+
+        public RRegexRunnerFactory(System.Object instance) : base("System.Text.RegularExpressions.RegexRunnerFactory")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegexRunnerFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegexRunnerFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexRunner CreateInstance()
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegexRunnerFactory() : base("System.Text.RegularExpressions.RegexRunnerFactory")
-        {
-        }
-
-        public RRegexRunnerFactory(System.Object instance) : base("System.Text.RegularExpressions.RegexRunnerFactory")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegexRunnerFactory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegexRunnerFactory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Text.RegularExpressions.RegexRunner CreateInstance()
         {

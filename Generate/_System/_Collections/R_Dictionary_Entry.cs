@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 	/// </summary>
     public partial class RDictionaryEntry : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Collections.DictionaryEntry);
+            }
+        }
+
+        public RDictionaryEntry() : base("System.Collections.DictionaryEntry")
+        {
+        }
+
+        public RDictionaryEntry(System.Object instance) : base("System.Collections.DictionaryEntry")
+		{
+            SetInstance(instance);
+		}
+
+        public RDictionaryEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDictionaryEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object _key
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			}
 		}
 
-
-        public RDictionaryEntry() : base("System.Collections.DictionaryEntry")
-        {
-        }
-
-        public RDictionaryEntry(System.Object instance) : base("System.Collections.DictionaryEntry")
-		{
-            SetInstance(instance);
-		}
-
-        public RDictionaryEntry(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDictionaryEntry(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Deconstruct(out System.Object @key, out System.Object @value)
         {

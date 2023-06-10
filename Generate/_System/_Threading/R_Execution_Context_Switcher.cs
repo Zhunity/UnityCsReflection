@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RExecutionContextSwitcher : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.ExecutionContextSwitcher");
+            }
+        }
+
+        public RExecutionContextSwitcher() : base("System.Threading.ExecutionContextSwitcher")
+        {
+        }
+
+        public RExecutionContextSwitcher(System.Object instance) : base("System.Threading.ExecutionContextSwitcher")
+		{
+            SetInstance(instance);
+		}
+
+        public RExecutionContextSwitcher(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExecutionContextSwitcher(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.ExecutionContext+Reader outerEC
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RExecutionContextSwitcher() : base("System.Threading.ExecutionContextSwitcher")
-        {
-        }
-
-        public RExecutionContextSwitcher(System.Object instance) : base("System.Threading.ExecutionContextSwitcher")
-		{
-            SetInstance(instance);
-		}
-
-        public RExecutionContextSwitcher(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExecutionContextSwitcher(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean UndoNoThrow()
         {

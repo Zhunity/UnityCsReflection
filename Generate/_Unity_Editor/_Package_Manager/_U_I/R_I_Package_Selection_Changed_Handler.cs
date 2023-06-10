@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIPackageSelectionChangedHandler : RMember //
     {
-
-		/// <summary>
-		/// Void OnPackageSelectionChanged(UnityEditor.PackageManager.UI.PackageSelectionArgs)
-		/// </summary>
-		protected RMethod r_MOnPackageSelectionChanged_PackageSelectionArgs;
-		public virtual RMethod RMOnPackageSelectionChanged_PackageSelectionArgs
-		{
-			get
-			{
-				if(r_MOnPackageSelectionChanged_PackageSelectionArgs == null)
-				{
-					r_MOnPackageSelectionChanged_PackageSelectionArgs = new(this, "OnPackageSelectionChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageSelectionArgs"));
-				}
-				return r_MOnPackageSelectionChanged_PackageSelectionArgs;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IPackageSelectionChangedHandler");
+            }
+        }
 
         public RIPackageSelectionChangedHandler() : base("UnityEditor.PackageManager.UI.IPackageSelectionChangedHandler")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		 public RIPackageSelectionChangedHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void OnPackageSelectionChanged(UnityEditor.PackageManager.UI.PackageSelectionArgs)
+		/// </summary>
+		protected RMethod r_MOnPackageSelectionChanged_PackageSelectionArgs;
+		public virtual RMethod RMOnPackageSelectionChanged_PackageSelectionArgs
+		{
+			get
+			{
+				if(r_MOnPackageSelectionChanged_PackageSelectionArgs == null)
+				{
+					r_MOnPackageSelectionChanged_PackageSelectionArgs = new(this, "OnPackageSelectionChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageSelectionArgs"));
+				}
+				return r_MOnPackageSelectionChanged_PackageSelectionArgs;
+			}
+		}
+
 
         public virtual void OnPackageSelectionChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RPackageSelectionArgs @args)
         {

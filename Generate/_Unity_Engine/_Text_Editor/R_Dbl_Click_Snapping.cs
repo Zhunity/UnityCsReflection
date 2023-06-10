@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RDblClickSnapping : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextEditor+DblClickSnapping");
+            }
+        }
+
+        public RDblClickSnapping() : base("UnityEngine.TextEditor+DblClickSnapping")
+        {
+        }
+
+        public RDblClickSnapping(System.Object instance) : base("UnityEngine.TextEditor+DblClickSnapping")
+		{
+            SetInstance(instance);
+		}
+
+        public RDblClickSnapping(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDblClickSnapping(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RDblClickSnapping() : base("UnityEngine.TextEditor+DblClickSnapping")
-        {
-        }
-
-        public RDblClickSnapping(System.Object instance) : base("UnityEngine.TextEditor+DblClickSnapping")
-		{
-            SetInstance(instance);
-		}
-
-        public RDblClickSnapping(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDblClickSnapping(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class ROverlayContainer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer");
+            }
+        }
+
+        public ROverlayContainer() : base("UnityEditor.Overlays.OverlayContainer")
+        {
+        }
+
+        public ROverlayContainer(System.Object instance) : base("UnityEditor.Overlays.OverlayContainer")
+		{
+            SetInstance(instance);
+		}
+
+        public ROverlayContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROverlayContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String className
@@ -3963,23 +3988,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public ROverlayContainer() : base("UnityEditor.Overlays.OverlayContainer")
-        {
-        }
-
-        public ROverlayContainer(System.Object instance) : base("UnityEditor.Overlays.OverlayContainer")
-		{
-            SetInstance(instance);
-		}
-
-        public ROverlayContainer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROverlayContainer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetHorizontal()
         {

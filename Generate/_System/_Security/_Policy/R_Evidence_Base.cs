@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class REvidenceBase : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.EvidenceBase);
+            }
+        }
+
+        public REvidenceBase() : base("System.Security.Policy.EvidenceBase")
+        {
+        }
+
+        public REvidenceBase(System.Object instance) : base("System.Security.Policy.EvidenceBase")
+		{
+            SetInstance(instance);
+		}
+
+        public REvidenceBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REvidenceBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Policy.EvidenceBase Clone()
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public REvidenceBase() : base("System.Security.Policy.EvidenceBase")
-        {
-        }
-
-        public REvidenceBase(System.Object instance) : base("System.Security.Policy.EvidenceBase")
-		{
-            SetInstance(instance);
-		}
-
-        public REvidenceBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REvidenceBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.Policy.EvidenceBase Clone()
         {

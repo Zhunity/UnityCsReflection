@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RPropertyHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PropertyHandler");
+            }
+        }
+
+        public RPropertyHandler() : base("UnityEditor.PropertyHandler")
+        {
+        }
+
+        public RPropertyHandler(System.Object instance) : base("UnityEditor.PropertyHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RPropertyHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPropertyHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PropertyDrawer] m_PropertyDrawers
@@ -651,23 +676,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RPropertyHandler() : base("UnityEditor.PropertyHandler")
-        {
-        }
-
-        public RPropertyHandler(System.Object instance) : base("UnityEditor.PropertyHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RPropertyHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPropertyHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void OnUndoRedo(in UnityEditor.UndoRedoInfo @info)
         {

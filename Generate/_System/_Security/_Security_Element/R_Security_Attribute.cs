@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RSecurityAttribute : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Security.SecurityElement+SecurityAttribute");
+            }
+        }
+
+        public RSecurityAttribute() : base("System.Security.SecurityElement+SecurityAttribute")
+        {
+        }
+
+        public RSecurityAttribute(System.Object instance) : base("System.Security.SecurityElement+SecurityAttribute")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecurityAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecurityAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String _name
@@ -173,23 +198,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RSecurityAttribute() : base("System.Security.SecurityElement+SecurityAttribute")
-        {
-        }
-
-        public RSecurityAttribute(System.Object instance) : base("System.Security.SecurityElement+SecurityAttribute")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecurityAttribute(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecurityAttribute(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RSceneViewFilterMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Camera+SceneViewFilterMode");
+            }
+        }
+
+        public RSceneViewFilterMode() : base("UnityEngine.Camera+SceneViewFilterMode")
+        {
+        }
+
+        public RSceneViewFilterMode(System.Object instance) : base("UnityEngine.Camera+SceneViewFilterMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RSceneViewFilterMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSceneViewFilterMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RSceneViewFilterMode() : base("UnityEngine.Camera+SceneViewFilterMode")
-        {
-        }
-
-        public RSceneViewFilterMode(System.Object instance) : base("UnityEngine.Camera+SceneViewFilterMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RSceneViewFilterMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSceneViewFilterMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

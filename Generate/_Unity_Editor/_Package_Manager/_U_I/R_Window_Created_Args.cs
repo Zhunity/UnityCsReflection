@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RWindowCreatedArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.WindowCreatedArgs");
+            }
+        }
+
+        public RWindowCreatedArgs() : base("UnityEditor.PackageManager.UI.WindowCreatedArgs")
+        {
+        }
+
+        public RWindowCreatedArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.WindowCreatedArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RWindowCreatedArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RWindowCreatedArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.IWindow <window>k__BackingField
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RWindowCreatedArgs() : base("UnityEditor.PackageManager.UI.WindowCreatedArgs")
-        {
-        }
-
-        public RWindowCreatedArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.WindowCreatedArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RWindowCreatedArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RWindowCreatedArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

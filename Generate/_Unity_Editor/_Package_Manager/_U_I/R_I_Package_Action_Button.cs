@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIPackageActionButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IPackageActionButton");
+            }
+        }
+
+        public RIPackageActionButton() : base("UnityEditor.PackageManager.UI.IPackageActionButton")
+        {
+        }
+
+        public RIPackageActionButton(System.Object instance) : base("UnityEditor.PackageManager.UI.IPackageActionButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPackageActionButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPackageActionButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String text
@@ -91,23 +116,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIPackageActionButton() : base("UnityEditor.PackageManager.UI.IPackageActionButton")
-        {
-        }
-
-        public RIPackageActionButton(System.Object instance) : base("UnityEditor.PackageManager.UI.IPackageActionButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPackageActionButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPackageActionButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionDropdownItem AddDropdownItem()
         {

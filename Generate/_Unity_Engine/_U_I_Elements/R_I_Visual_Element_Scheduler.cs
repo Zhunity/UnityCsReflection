@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIVisualElementScheduler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IVisualElementScheduler);
+            }
+        }
+
+        public RIVisualElementScheduler() : base("UnityEngine.UIElements.IVisualElementScheduler")
+        {
+        }
+
+        public RIVisualElementScheduler(System.Object instance) : base("UnityEngine.UIElements.IVisualElementScheduler")
+		{
+            SetInstance(instance);
+		}
+
+        public RIVisualElementScheduler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIVisualElementScheduler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IVisualElementScheduledItem Execute(System.Action`1[UnityEngine.UIElements.TimerState])
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIVisualElementScheduler() : base("UnityEngine.UIElements.IVisualElementScheduler")
-        {
-        }
-
-        public RIVisualElementScheduler(System.Object instance) : base("UnityEngine.UIElements.IVisualElementScheduler")
-		{
-            SetInstance(instance);
-		}
-
-        public RIVisualElementScheduler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIVisualElementScheduler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.IVisualElementScheduledItem Execute(System.Action<UnityEngine.UIElements.TimerState> @timerUpdateEvent)
         {

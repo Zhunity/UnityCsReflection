@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RIDetailsExtension : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.IDetailsExtension");
+            }
+        }
+
+        public RIDetailsExtension() : base("UnityEditor.PackageManager.UI.IDetailsExtension")
+        {
+        }
+
+        public RIDetailsExtension(System.Object instance) : base("UnityEditor.PackageManager.UI.IDetailsExtension")
+		{
+            SetInstance(instance);
+		}
+
+        public RIDetailsExtension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIDetailsExtension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean expanded
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RIDetailsExtension() : base("UnityEditor.PackageManager.UI.IDetailsExtension")
-        {
-        }
-
-        public RIDetailsExtension(System.Object instance) : base("UnityEditor.PackageManager.UI.IDetailsExtension")
-		{
-            SetInstance(instance);
-		}
-
-        public RIDetailsExtension(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIDetailsExtension(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(UnityEngine.UIElements.VisualElement @element)
         {

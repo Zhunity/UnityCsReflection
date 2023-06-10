@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDropdownMenu : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.DropdownMenu);
+            }
+        }
+
+        public RDropdownMenu() : base("UnityEngine.UIElements.DropdownMenu")
+        {
+        }
+
+        public RDropdownMenu(System.Object instance) : base("UnityEngine.UIElements.DropdownMenu")
+		{
+            SetInstance(instance);
+		}
+
+        public RDropdownMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDropdownMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.DropdownMenuItem] m_MenuItems
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDropdownMenu() : base("UnityEngine.UIElements.DropdownMenu")
-        {
-        }
-
-        public RDropdownMenu(System.Object instance) : base("UnityEngine.UIElements.DropdownMenu")
-		{
-            SetInstance(instance);
-		}
-
-        public RDropdownMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDropdownMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Collections.Generic.List<UnityEngine.UIElements.DropdownMenuItem> MenuItems()
         {

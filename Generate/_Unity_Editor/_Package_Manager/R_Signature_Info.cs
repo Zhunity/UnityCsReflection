@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RSignatureInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.SignatureInfo");
+            }
+        }
+
+        public RSignatureInfo() : base("UnityEditor.PackageManager.SignatureInfo")
+        {
+        }
+
+        public RSignatureInfo(System.Object instance) : base("UnityEditor.PackageManager.SignatureInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RSignatureInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSignatureInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.SignatureStatus m_Status
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RSignatureInfo() : base("UnityEditor.PackageManager.SignatureInfo")
-        {
-        }
-
-        public RSignatureInfo(System.Object instance) : base("UnityEditor.PackageManager.SignatureInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RSignatureInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSignatureInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

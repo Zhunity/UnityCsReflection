@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RNavigationCancelEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.NavigationCancelEvent);
+            }
+        }
+
+        public RNavigationCancelEvent() : base("UnityEngine.UIElements.NavigationCancelEvent")
+        {
+        }
+
+        public RNavigationCancelEvent(System.Object instance) : base("UnityEngine.UIElements.NavigationCancelEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RNavigationCancelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNavigationCancelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.EventModifiers modifiers
@@ -907,23 +932,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RNavigationCancelEvent() : base("UnityEngine.UIElements.NavigationCancelEvent")
-        {
-        }
-
-        public RNavigationCancelEvent(System.Object instance) : base("UnityEngine.UIElements.NavigationCancelEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RNavigationCancelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNavigationCancelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

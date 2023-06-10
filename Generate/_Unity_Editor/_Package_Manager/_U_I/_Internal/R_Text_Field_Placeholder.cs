@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RTextFieldPlaceholder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.TextFieldPlaceholder");
+            }
+        }
+
+        public RTextFieldPlaceholder() : base("UnityEditor.PackageManager.UI.Internal.TextFieldPlaceholder")
+        {
+        }
+
+        public RTextFieldPlaceholder(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.TextFieldPlaceholder")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextFieldPlaceholder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextFieldPlaceholder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.TextField m_ParentTextField
@@ -3867,23 +3892,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RTextFieldPlaceholder() : base("UnityEditor.PackageManager.UI.Internal.TextFieldPlaceholder")
-        {
-        }
-
-        public RTextFieldPlaceholder(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.TextFieldPlaceholder")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextFieldPlaceholder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextFieldPlaceholder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnTextFieldChange(UnityEngine.UIElements.ChangeEvent<System.String> @evt)
         {

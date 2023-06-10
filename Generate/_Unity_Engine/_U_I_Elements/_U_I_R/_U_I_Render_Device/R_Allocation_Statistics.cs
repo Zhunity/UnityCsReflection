@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RAllocationStatistics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics");
+            }
+        }
+
+        public RAllocationStatistics() : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics")
+        {
+        }
+
+        public RAllocationStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics")
+		{
+            SetInstance(instance);
+		}
+
+        public RAllocationStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAllocationStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics+PageStatistics[] pages
@@ -157,23 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RAllocationStatistics() : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics")
-        {
-        }
-
-        public RAllocationStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRenderDevice+AllocationStatistics")
-		{
-            SetInstance(instance);
-		}
-
-        public RAllocationStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAllocationStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

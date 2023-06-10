@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RScheduledItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ScheduledItem");
+            }
+        }
+
+        public RScheduledItem() : base("UnityEngine.UIElements.ScheduledItem")
+        {
+        }
+
+        public RScheduledItem(System.Object instance) : base("UnityEngine.UIElements.ScheduledItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RScheduledItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RScheduledItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Func`1[System.Boolean] timerUpdateStopCondition
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RScheduledItem() : base("UnityEngine.UIElements.ScheduledItem")
-        {
-        }
-
-        public RScheduledItem(System.Object instance) : base("UnityEngine.UIElements.ScheduledItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RScheduledItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RScheduledItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void ResetStartTime()
         {

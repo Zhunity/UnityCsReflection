@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RVector3 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Vector3);
+            }
+        }
+
+        public RVector3() : base("UnityEngine.Vector3")
+        {
+        }
+
+        public RVector3(System.Object instance) : base("UnityEngine.Vector3")
+		{
+            SetInstance(instance);
+		}
+
+        public RVector3(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVector3(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single kEpsilon
@@ -1339,23 +1364,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RVector3() : base("UnityEngine.Vector3")
-        {
-        }
-
-        public RVector3(System.Object instance) : base("UnityEngine.Vector3")
-		{
-            SetInstance(instance);
-		}
-
-        public RVector3(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVector3(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Vector3 Slerp(UnityEngine.Vector3 @a, UnityEngine.Vector3 @b, System.Single @t)
         {

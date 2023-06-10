@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaWrap : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaWrap");
+            }
+        }
+
+        public RYogaWrap() : base("UnityEngine.Yoga.YogaWrap")
+        {
+        }
+
+        public RYogaWrap(System.Object instance) : base("UnityEngine.Yoga.YogaWrap")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaWrap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaWrap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaWrap() : base("UnityEngine.Yoga.YogaWrap")
-        {
-        }
-
-        public RYogaWrap(System.Object instance) : base("UnityEngine.Yoga.YogaWrap")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaWrap(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaWrap(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

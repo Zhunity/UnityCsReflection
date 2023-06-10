@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 	/// </summary>
     public partial class RStrongNamePublicKeyBlob : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Permissions.StrongNamePublicKeyBlob);
+            }
+        }
+
+        public RStrongNamePublicKeyBlob() : base("System.Security.Permissions.StrongNamePublicKeyBlob")
+        {
+        }
+
+        public RStrongNamePublicKeyBlob(System.Object instance) : base("System.Security.Permissions.StrongNamePublicKeyBlob")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongNamePublicKeyBlob(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongNamePublicKeyBlob(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte[] pubkey
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 			}
 		}
 
-
-        public RStrongNamePublicKeyBlob() : base("System.Security.Permissions.StrongNamePublicKeyBlob")
-        {
-        }
-
-        public RStrongNamePublicKeyBlob(System.Object instance) : base("System.Security.Permissions.StrongNamePublicKeyBlob")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongNamePublicKeyBlob(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongNamePublicKeyBlob(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Security.Permissions.StrongNamePublicKeyBlob FromString(System.String @s)
         {

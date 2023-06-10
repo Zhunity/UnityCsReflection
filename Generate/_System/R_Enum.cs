@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class REnum : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Enum);
+            }
+        }
+
+        public REnum() : base("System.Enum")
+        {
+        }
+
+        public REnum(System.Object instance) : base("System.Enum")
+		{
+            SetInstance(instance);
+		}
+
+        public REnum(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REnum(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char[] enumSeperatorCharArray
@@ -1131,23 +1156,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public REnum() : base("System.Enum")
-        {
-        }
-
-        public REnum(System.Object instance) : base("System.Enum")
-		{
-            SetInstance(instance);
-		}
-
-        public REnum(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REnum(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.REnum.RValuesAndNames GetCachedValuesAndNames(Hvak.Editor.Refleaction.RSystem.RRuntimeType @enumType, System.Boolean @getNames)
         {

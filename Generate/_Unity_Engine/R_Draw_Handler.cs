@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RDrawHandler : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.DrawHandler");
+            }
+        }
+
+        public RDrawHandler() : base("UnityEngine.DrawHandler")
+        {
+        }
+
+        public RDrawHandler(System.Object instance) : base("UnityEngine.DrawHandler")
+		{
+            SetInstance(instance);
+		}
+
+        public RDrawHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDrawHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RDrawHandler() : base("UnityEngine.DrawHandler")
-        {
-        }
-
-        public RDrawHandler(System.Object instance) : base("UnityEngine.DrawHandler")
-		{
-            SetInstance(instance);
-		}
-
-        public RDrawHandler(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDrawHandler(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(UnityEngine.GUIStyle @style, UnityEngine.Rect @rect, UnityEngine.GUIContent @content, Hvak.Editor.Refleaction.RUnityEngine.RDrawStates @states)
         {

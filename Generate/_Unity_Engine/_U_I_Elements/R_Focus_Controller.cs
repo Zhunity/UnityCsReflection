@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFocusController : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.FocusController);
+            }
+        }
+
+        public RFocusController() : base("UnityEngine.UIElements.FocusController")
+        {
+        }
+
+        public RFocusController(System.Object instance) : base("UnityEngine.UIElements.FocusController")
+		{
+            SetInstance(instance);
+		}
+
+        public RFocusController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFocusController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IFocusRing <focusRing>k__BackingField
@@ -651,23 +676,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFocusController() : base("UnityEngine.UIElements.FocusController")
-        {
-        }
-
-        public RFocusController(System.Object instance) : base("UnityEngine.UIElements.FocusController")
-		{
-            SetInstance(instance);
-		}
-
-        public RFocusController(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFocusController(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsFocused(UnityEngine.UIElements.Focusable @f)
         {

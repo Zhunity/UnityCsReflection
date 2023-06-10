@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageAddButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAddButton");
+            }
+        }
+
+        public RPackageAddButton() : base("UnityEditor.PackageManager.UI.Internal.PackageAddButton")
+        {
+        }
+
+        public RPackageAddButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageAddButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageAddButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageAddButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_InstallButtonText
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageAddButton() : base("UnityEditor.PackageManager.UI.Internal.PackageAddButton")
-        {
-        }
-
-        public RPackageAddButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageAddButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageAddButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageAddButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TriggerAction(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIList<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> @versions)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RExclusiveReference : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.RegularExpressions.ExclusiveReference");
+            }
+        }
+
+        public RExclusiveReference() : base("System.Text.RegularExpressions.ExclusiveReference")
+        {
+        }
+
+        public RExclusiveReference(System.Object instance) : base("System.Text.RegularExpressions.ExclusiveReference")
+		{
+            SetInstance(instance);
+		}
+
+        public RExclusiveReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RExclusiveReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexRunner _ref
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RExclusiveReference() : base("System.Text.RegularExpressions.ExclusiveReference")
-        {
-        }
-
-        public RExclusiveReference(System.Object instance) : base("System.Text.RegularExpressions.ExclusiveReference")
-		{
-            SetInstance(instance);
-		}
-
-        public RExclusiveReference(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RExclusiveReference(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Text.RegularExpressions.RegexRunner Get()
         {

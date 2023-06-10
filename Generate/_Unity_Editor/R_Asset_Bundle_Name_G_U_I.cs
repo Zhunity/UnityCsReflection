@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RAssetBundleNameGUI : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI");
+            }
+        }
+
+        public RAssetBundleNameGUI() : base("UnityEditor.AssetBundleNameGUI")
+        {
+        }
+
+        public RAssetBundleNameGUI(System.Object instance) : base("UnityEditor.AssetBundleNameGUI")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetBundleNameGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetBundleNameGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.GUIContent kAssetBundleName
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RAssetBundleNameGUI() : base("UnityEditor.AssetBundleNameGUI")
-        {
-        }
-
-        public RAssetBundleNameGUI(System.Object instance) : base("UnityEditor.AssetBundleNameGUI")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetBundleNameGUI(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetBundleNameGUI(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnAssetBundleNameGUI(System.Collections.Generic.IEnumerable<UnityEngine.Object> @assets)
         {

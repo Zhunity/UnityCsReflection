@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RMidpointRounding : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.MidpointRounding);
+            }
+        }
+
+        public RMidpointRounding() : base("System.MidpointRounding")
+        {
+        }
+
+        public RMidpointRounding(System.Object instance) : base("System.MidpointRounding")
+		{
+            SetInstance(instance);
+		}
+
+        public RMidpointRounding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMidpointRounding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RMidpointRounding() : base("System.MidpointRounding")
-        {
-        }
-
-        public RMidpointRounding(System.Object instance) : base("System.MidpointRounding")
-		{
-            SetInstance(instance);
-		}
-
-        public RMidpointRounding(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMidpointRounding(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

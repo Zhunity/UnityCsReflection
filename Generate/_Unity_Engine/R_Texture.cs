@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTexture : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Texture);
+            }
+        }
+
+        public RTexture() : base("UnityEngine.Texture")
+        {
+        }
+
+        public RTexture(System.Object instance) : base("UnityEngine.Texture")
+		{
+            SetInstance(instance);
+		}
+
+        public RTexture(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTexture(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 GenerateAllMips
@@ -1051,23 +1076,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTexture() : base("UnityEngine.Texture")
-        {
-        }
-
-        public RTexture(System.Object instance) : base("UnityEngine.Texture")
-		{
-            SetInstance(instance);
-		}
-
-        public RTexture(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTexture(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void SetGlobalAnisotropicFilteringLimits(System.Int32 @forcedMin, System.Int32 @globalMax)
         {

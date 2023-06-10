@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBackgroundRepeat : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.BackgroundRepeat);
+            }
+        }
+
+        public RBackgroundRepeat() : base("UnityEngine.UIElements.BackgroundRepeat")
+        {
+        }
+
+        public RBackgroundRepeat(System.Object instance) : base("UnityEngine.UIElements.BackgroundRepeat")
+		{
+            SetInstance(instance);
+		}
+
+        public RBackgroundRepeat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBackgroundRepeat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Repeat x
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBackgroundRepeat() : base("UnityEngine.UIElements.BackgroundRepeat")
-        {
-        }
-
-        public RBackgroundRepeat(System.Object instance) : base("UnityEngine.UIElements.BackgroundRepeat")
-		{
-            SetInstance(instance);
-		}
-
-        public RBackgroundRepeat(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBackgroundRepeat(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.BackgroundRepeat Initial()
         {

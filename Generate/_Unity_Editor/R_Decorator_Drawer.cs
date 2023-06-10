@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RDecoratorDrawer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.DecoratorDrawer);
+            }
+        }
+
+        public RDecoratorDrawer() : base("UnityEditor.DecoratorDrawer")
+        {
+        }
+
+        public RDecoratorDrawer(System.Object instance) : base("UnityEditor.DecoratorDrawer")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecoratorDrawer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecoratorDrawer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.PropertyAttribute m_Attribute
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RDecoratorDrawer() : base("UnityEditor.DecoratorDrawer")
-        {
-        }
-
-        public RDecoratorDrawer(System.Object instance) : base("UnityEditor.DecoratorDrawer")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecoratorDrawer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecoratorDrawer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnGUI(UnityEngine.Rect @position)
         {

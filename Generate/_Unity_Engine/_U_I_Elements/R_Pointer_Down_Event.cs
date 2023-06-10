@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RPointerDownEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.PointerDownEvent);
+            }
+        }
+
+        public RPointerDownEvent() : base("UnityEngine.UIElements.PointerDownEvent")
+        {
+        }
+
+        public RPointerDownEvent(System.Object instance) : base("UnityEngine.UIElements.PointerDownEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RPointerDownEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPointerDownEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 pointerId
@@ -1211,23 +1236,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RPointerDownEvent() : base("UnityEngine.UIElements.PointerDownEvent")
-        {
-        }
-
-        public RPointerDownEvent(System.Object instance) : base("UnityEngine.UIElements.PointerDownEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RPointerDownEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPointerDownEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

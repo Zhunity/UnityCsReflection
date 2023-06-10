@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 	/// </summary>
     public partial class RIValueTaskSource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.Tasks.Sources.IValueTaskSource);
+            }
+        }
+
+        public RIValueTaskSource() : base("System.Threading.Tasks.Sources.IValueTaskSource")
+        {
+        }
+
+        public RIValueTaskSource(System.Object instance) : base("System.Threading.Tasks.Sources.IValueTaskSource")
+		{
+            SetInstance(instance);
+		}
+
+        public RIValueTaskSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIValueTaskSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(Int16)
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 			}
 		}
 
-
-        public RIValueTaskSource() : base("System.Threading.Tasks.Sources.IValueTaskSource")
-        {
-        }
-
-        public RIValueTaskSource(System.Object instance) : base("System.Threading.Tasks.Sources.IValueTaskSource")
-		{
-            SetInstance(instance);
-		}
-
-        public RIValueTaskSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIValueTaskSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Threading.Tasks.Sources.ValueTaskSourceStatus GetStatus(System.Int16 @token)
         {

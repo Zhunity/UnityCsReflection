@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageToolBarRegularButton : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton");
+            }
+        }
+
+        public RPackageToolBarRegularButton() : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton")
+        {
+        }
+
+        public RPackageToolBarRegularButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageToolBarRegularButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageToolBarRegularButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.PackageManager.UI.Internal.IPackageVersion] m_Versions
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageToolBarRegularButton() : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton")
-        {
-        }
-
-        public RPackageToolBarRegularButton(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageToolBarRegularButton(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageToolBarRegularButton(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void RegisterClickAction()
         {

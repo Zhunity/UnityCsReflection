@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RChar : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Char);
+            }
+        }
+
+        public RChar() : base("System.Char")
+        {
+        }
+
+        public RChar(System.Object instance) : base("System.Char")
+		{
+            SetInstance(instance);
+		}
+
+        public RChar(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RChar(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char m_value
@@ -1483,23 +1508,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RChar() : base("System.Char")
-        {
-        }
-
-        public RChar(System.Object instance) : base("System.Char")
-		{
-            SetInstance(instance);
-		}
-
-        public RChar(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RChar(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsLatin1(System.Char @ch)
         {

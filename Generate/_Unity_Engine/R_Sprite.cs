@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RSprite : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Sprite);
+            }
+        }
+
+        public RSprite() : base("UnityEngine.Sprite")
+        {
+        }
+
+        public RSprite(System.Object instance) : base("UnityEngine.Sprite")
+		{
+            SetInstance(instance);
+		}
+
+        public RSprite(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSprite(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Bounds bounds
@@ -1083,23 +1108,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RSprite() : base("UnityEngine.Sprite")
-        {
-        }
-
-        public RSprite(System.Object instance) : base("UnityEngine.Sprite")
-		{
-            SetInstance(instance);
-		}
-
-        public RSprite(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSprite(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetPackingMode()
         {

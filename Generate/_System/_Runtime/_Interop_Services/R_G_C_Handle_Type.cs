@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 	/// </summary>
     public partial class RGCHandleType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.InteropServices.GCHandleType);
+            }
+        }
+
+        public RGCHandleType() : base("System.Runtime.InteropServices.GCHandleType")
+        {
+        }
+
+        public RGCHandleType(System.Object instance) : base("System.Runtime.InteropServices.GCHandleType")
+		{
+            SetInstance(instance);
+		}
+
+        public RGCHandleType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGCHandleType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			}
 		}
 
-
-        public RGCHandleType() : base("System.Runtime.InteropServices.GCHandleType")
-        {
-        }
-
-        public RGCHandleType(System.Object instance) : base("System.Runtime.InteropServices.GCHandleType")
-		{
-            SetInstance(instance);
-		}
-
-        public RGCHandleType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGCHandleType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

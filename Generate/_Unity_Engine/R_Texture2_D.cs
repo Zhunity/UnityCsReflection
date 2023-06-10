@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTexture2D : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Texture2D);
+            }
+        }
+
+        public RTexture2D() : base("UnityEngine.Texture2D")
+        {
+        }
+
+        public RTexture2D(System.Object instance) : base("UnityEngine.Texture2D")
+		{
+            SetInstance(instance);
+		}
+
+        public RTexture2D(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTexture2D(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 streamingMipmapsPriorityMin
@@ -2267,23 +2292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTexture2D() : base("UnityEngine.Texture2D")
-        {
-        }
-
-        public RTexture2D(System.Object instance) : base("UnityEngine.Texture2D")
-		{
-            SetInstance(instance);
-		}
-
-        public RTexture2D(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTexture2D(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Compress(System.Boolean @highQuality)
         {

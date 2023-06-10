@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaValue : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaValue");
+            }
+        }
+
+        public RYogaValue() : base("UnityEngine.Yoga.YogaValue")
+        {
+        }
+
+        public RYogaValue(System.Object instance) : base("UnityEngine.Yoga.YogaValue")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaValue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaValue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single value
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaValue() : base("UnityEngine.Yoga.YogaValue")
-        {
-        }
-
-        public RYogaValue(System.Object instance) : base("UnityEngine.Yoga.YogaValue")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaValue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaValue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaValue Point(System.Single @value)
         {

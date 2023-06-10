@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCalendarAlgorithmType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.CalendarAlgorithmType);
+            }
+        }
+
+        public RCalendarAlgorithmType() : base("System.Globalization.CalendarAlgorithmType")
+        {
+        }
+
+        public RCalendarAlgorithmType(System.Object instance) : base("System.Globalization.CalendarAlgorithmType")
+		{
+            SetInstance(instance);
+		}
+
+        public RCalendarAlgorithmType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCalendarAlgorithmType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCalendarAlgorithmType() : base("System.Globalization.CalendarAlgorithmType")
-        {
-        }
-
-        public RCalendarAlgorithmType(System.Object instance) : base("System.Globalization.CalendarAlgorithmType")
-		{
-            SetInstance(instance);
-		}
-
-        public RCalendarAlgorithmType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCalendarAlgorithmType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

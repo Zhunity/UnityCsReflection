@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RAppDomainManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.AppDomainManager);
+            }
+        }
+
+        public RAppDomainManager() : base("System.AppDomainManager")
+        {
+        }
+
+        public RAppDomainManager(System.Object instance) : base("System.AppDomainManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RAppDomainManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAppDomainManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Hosting.ApplicationActivator _activator
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RAppDomainManager() : base("System.AppDomainManager")
-        {
-        }
-
-        public RAppDomainManager(System.Object instance) : base("System.AppDomainManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RAppDomainManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAppDomainManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.AppDomain CreateDomain(System.String @friendlyName, System.Security.Policy.Evidence @securityInfo, System.AppDomainSetup @appDomainInfo)
         {

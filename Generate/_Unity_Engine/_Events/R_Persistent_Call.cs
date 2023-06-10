@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RPersistentCall : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Events.PersistentCall");
+            }
+        }
+
+        public RPersistentCall() : base("UnityEngine.Events.PersistentCall")
+        {
+        }
+
+        public RPersistentCall(System.Object instance) : base("UnityEngine.Events.PersistentCall")
+		{
+            SetInstance(instance);
+		}
+
+        public RPersistentCall(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPersistentCall(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Object m_Target
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RPersistentCall() : base("UnityEngine.Events.PersistentCall")
-        {
-        }
-
-        public RPersistentCall(System.Object instance) : base("UnityEngine.Events.PersistentCall")
-		{
-            SetInstance(instance);
-		}
-
-        public RPersistentCall(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPersistentCall(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsValid()
         {

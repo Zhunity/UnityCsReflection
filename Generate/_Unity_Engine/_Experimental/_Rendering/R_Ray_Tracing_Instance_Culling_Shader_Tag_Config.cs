@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 	/// </summary>
     public partial class RRayTracingInstanceCullingShaderTagConfig : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig);
+            }
+        }
+
+        public RRayTracingInstanceCullingShaderTagConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig")
+        {
+        }
+
+        public RRayTracingInstanceCullingShaderTagConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig")
+		{
+            SetInstance(instance);
+		}
+
+        public RRayTracingInstanceCullingShaderTagConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRayTracingInstanceCullingShaderTagConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderTagId tagId
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			}
 		}
 
-
-        public RRayTracingInstanceCullingShaderTagConfig() : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig")
-        {
-        }
-
-        public RRayTracingInstanceCullingShaderTagConfig(System.Object instance) : base("UnityEngine.Experimental.Rendering.RayTracingInstanceCullingShaderTagConfig")
-		{
-            SetInstance(instance);
-		}
-
-        public RRayTracingInstanceCullingShaderTagConfig(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRayTracingInstanceCullingShaderTagConfig(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

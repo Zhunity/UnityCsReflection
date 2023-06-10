@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RConfigStatus : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus");
+            }
+        }
+
+        public RConfigStatus() : base("UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus")
+        {
+        }
+
+        public RConfigStatus(System.Object instance) : base("UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus")
+		{
+            SetInstance(instance);
+		}
+
+        public RConfigStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConfigStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -333,23 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RConfigStatus() : base("UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus")
-        {
-        }
-
-        public RConfigStatus(System.Object instance) : base("UnityEditorInternal.AssetStoreCachePathManager+ConfigStatus")
-		{
-            SetInstance(instance);
-		}
-
-        public RConfigStatus(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConfigStatus(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

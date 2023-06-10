@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class REditorDragging : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.EditorDragging");
+            }
+        }
+
+        public REditorDragging() : base("UnityEditor.EditorDragging")
+        {
+        }
+
+        public REditorDragging(System.Object instance) : base("UnityEditor.EditorDragging")
+		{
+            SetInstance(instance);
+		}
+
+        public REditorDragging(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REditorDragging(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String k_DraggingModeKey
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public REditorDragging() : base("UnityEditor.EditorDragging")
-        {
-        }
-
-        public REditorDragging(System.Object instance) : base("UnityEditor.EditorDragging")
-		{
-            SetInstance(instance);
-		}
-
-        public REditorDragging(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REditorDragging(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void HandleDraggingToEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex, UnityEngine.Rect @dragRect, UnityEngine.Rect @contentRect)
         {

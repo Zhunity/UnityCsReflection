@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 	/// </summary>
     public partial class RDSA : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Cryptography.DSA);
+            }
+        }
+
+        public RDSA() : base("System.Security.Cryptography.DSA")
+        {
+        }
+
+        public RDSA(System.Object instance) : base("System.Security.Cryptography.DSA")
+		{
+            SetInstance(instance);
+		}
+
+        public RDSA(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDSA(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 KeySizeValue
@@ -843,23 +868,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			}
 		}
 
-
-        public RDSA() : base("System.Security.Cryptography.DSA")
-        {
-        }
-
-        public RDSA(System.Object instance) : base("System.Security.Cryptography.DSA")
-		{
-            SetInstance(instance);
-		}
-
-        public RDSA(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDSA(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Security.Cryptography.DSA Create()
         {

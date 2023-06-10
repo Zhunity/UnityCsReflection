@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RSystemAcl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.SystemAcl);
+            }
+        }
+
+        public RSystemAcl() : base("System.Security.AccessControl.SystemAcl")
+        {
+        }
+
+        public RSystemAcl(System.Object instance) : base("System.Security.AccessControl.SystemAcl")
+		{
+            SetInstance(instance);
+		}
+
+        public RSystemAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSystemAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.RawAcl raw_acl
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RSystemAcl() : base("System.Security.AccessControl.SystemAcl")
-        {
-        }
-
-        public RSystemAcl(System.Object instance) : base("System.Security.AccessControl.SystemAcl")
-		{
-            SetInstance(instance);
-		}
-
-        public RSystemAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSystemAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddAudit(System.Security.AccessControl.AuditFlags @auditFlags, System.Security.Principal.SecurityIdentifier @sid, System.Int32 @accessMask, System.Security.AccessControl.InheritanceFlags @inheritanceFlags, System.Security.AccessControl.PropagationFlags @propagationFlags)
         {

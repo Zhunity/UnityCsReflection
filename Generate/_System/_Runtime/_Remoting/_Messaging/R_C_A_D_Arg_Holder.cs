@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RCADArgHolder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.CADArgHolder");
+            }
+        }
+
+        public RCADArgHolder() : base("System.Runtime.Remoting.Messaging.CADArgHolder")
+        {
+        }
+
+        public RCADArgHolder(System.Object instance) : base("System.Runtime.Remoting.Messaging.CADArgHolder")
+		{
+            SetInstance(instance);
+		}
+
+        public RCADArgHolder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCADArgHolder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 index
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RCADArgHolder() : base("System.Runtime.Remoting.Messaging.CADArgHolder")
-        {
-        }
-
-        public RCADArgHolder(System.Object instance) : base("System.Runtime.Remoting.Messaging.CADArgHolder")
-		{
-            SetInstance(instance);
-		}
-
-        public RCADArgHolder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCADArgHolder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

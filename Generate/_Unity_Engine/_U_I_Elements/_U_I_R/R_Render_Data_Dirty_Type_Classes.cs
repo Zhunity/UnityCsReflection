@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RRenderDataDirtyTypeClasses : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses");
+            }
+        }
+
+        public RRenderDataDirtyTypeClasses() : base("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses")
+        {
+        }
+
+        public RRenderDataDirtyTypeClasses(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderDataDirtyTypeClasses(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderDataDirtyTypeClasses(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RRenderDataDirtyTypeClasses() : base("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses")
-        {
-        }
-
-        public RRenderDataDirtyTypeClasses(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderDataDirtyTypeClasses")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderDataDirtyTypeClasses(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderDataDirtyTypeClasses(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

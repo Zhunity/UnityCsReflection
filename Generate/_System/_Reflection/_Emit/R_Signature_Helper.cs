@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RSignatureHelper : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.SignatureHelper);
+            }
+        }
+
+        public RSignatureHelper() : base("System.Reflection.Emit.SignatureHelper")
+        {
+        }
+
+        public RSignatureHelper(System.Object instance) : base("System.Reflection.Emit.SignatureHelper")
+		{
+            SetInstance(instance);
+		}
+
+        public RSignatureHelper(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSignatureHelper(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.Emit.ModuleBuilder module
@@ -715,23 +740,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RSignatureHelper() : base("System.Reflection.Emit.SignatureHelper")
-        {
-        }
-
-        public RSignatureHelper(System.Object instance) : base("System.Reflection.Emit.SignatureHelper")
-		{
-            SetInstance(instance);
-		}
-
-        public RSignatureHelper(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSignatureHelper(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Reflection.Emit.SignatureHelper GetFieldSigHelper(System.Reflection.Module @mod)
         {

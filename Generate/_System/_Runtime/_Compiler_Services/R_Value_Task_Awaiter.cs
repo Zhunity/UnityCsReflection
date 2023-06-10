@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RValueTaskAwaiter : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.CompilerServices.ValueTaskAwaiter);
+            }
+        }
+
+        public RValueTaskAwaiter() : base("System.Runtime.CompilerServices.ValueTaskAwaiter")
+        {
+        }
+
+        public RValueTaskAwaiter(System.Object instance) : base("System.Runtime.CompilerServices.ValueTaskAwaiter")
+		{
+            SetInstance(instance);
+		}
+
+        public RValueTaskAwaiter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValueTaskAwaiter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[System.Object] s_invokeActionDelegate
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RValueTaskAwaiter() : base("System.Runtime.CompilerServices.ValueTaskAwaiter")
-        {
-        }
-
-        public RValueTaskAwaiter(System.Object instance) : base("System.Runtime.CompilerServices.ValueTaskAwaiter")
-		{
-            SetInstance(instance);
-		}
-
-        public RValueTaskAwaiter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValueTaskAwaiter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetResult()
         {

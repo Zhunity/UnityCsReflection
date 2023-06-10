@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RTextCoreSettings : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings");
+            }
+        }
+
+        public RTextCoreSettings() : base("UnityEngine.UIElements.UIR.TextCoreSettings")
+        {
+        }
+
+        public RTextCoreSettings(System.Object instance) : base("UnityEngine.UIElements.UIR.TextCoreSettings")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextCoreSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextCoreSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Color faceColor
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RTextCoreSettings() : base("UnityEngine.UIElements.UIR.TextCoreSettings")
-        {
-        }
-
-        public RTextCoreSettings(System.Object instance) : base("UnityEngine.UIElements.UIR.TextCoreSettings")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextCoreSettings(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextCoreSettings(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

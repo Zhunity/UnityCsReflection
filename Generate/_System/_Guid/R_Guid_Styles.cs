@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RGuidStyles : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Guid+GuidStyles");
+            }
+        }
+
+        public RGuidStyles() : base("System.Guid+GuidStyles")
+        {
+        }
+
+        public RGuidStyles(System.Object instance) : base("System.Guid+GuidStyles")
+		{
+            SetInstance(instance);
+		}
+
+        public RGuidStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGuidStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -477,23 +502,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RGuidStyles() : base("System.Guid+GuidStyles")
-        {
-        }
-
-        public RGuidStyles(System.Object instance) : base("System.Guid+GuidStyles")
-		{
-            SetInstance(instance);
-		}
-
-        public RGuidStyles(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGuidStyles(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

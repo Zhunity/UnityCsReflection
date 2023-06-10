@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RIllogicalCallContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Messaging.IllogicalCallContext");
+            }
+        }
+
+        public RIllogicalCallContext() : base("System.Runtime.Remoting.Messaging.IllogicalCallContext")
+        {
+        }
+
+        public RIllogicalCallContext(System.Object instance) : base("System.Runtime.Remoting.Messaging.IllogicalCallContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RIllogicalCallContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIllogicalCallContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Hashtable m_Datastore
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RIllogicalCallContext() : base("System.Runtime.Remoting.Messaging.IllogicalCallContext")
-        {
-        }
-
-        public RIllogicalCallContext(System.Object instance) : base("System.Runtime.Remoting.Messaging.IllogicalCallContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RIllogicalCallContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIllogicalCallContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void FreeNamedDataSlot(System.String @name)
         {

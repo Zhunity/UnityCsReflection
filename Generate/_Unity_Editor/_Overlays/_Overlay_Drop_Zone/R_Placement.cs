@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 	/// </summary>
     public partial class RPlacement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayDropZone+Placement");
+            }
+        }
+
+        public RPlacement() : base("UnityEditor.Overlays.OverlayDropZone+Placement")
+        {
+        }
+
+        public RPlacement(System.Object instance) : base("UnityEditor.Overlays.OverlayDropZone+Placement")
+		{
+            SetInstance(instance);
+		}
+
+        public RPlacement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPlacement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -269,23 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			}
 		}
 
-
-        public RPlacement() : base("UnityEditor.Overlays.OverlayDropZone+Placement")
-        {
-        }
-
-        public RPlacement(System.Object instance) : base("UnityEditor.Overlays.OverlayDropZone+Placement")
-		{
-            SetInstance(instance);
-		}
-
-        public RPlacement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPlacement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class REvidence : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.Evidence);
+            }
+        }
+
+        public REvidence() : base("System.Security.Policy.Evidence")
+        {
+        }
+
+        public REvidence(System.Object instance) : base("System.Security.Policy.Evidence")
+		{
+            SetInstance(instance);
+		}
+
+        public REvidence(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REvidence(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean _locked
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public REvidence() : base("System.Security.Policy.Evidence")
-        {
-        }
-
-        public REvidence(System.Object instance) : base("System.Security.Policy.Evidence")
-		{
-            SetInstance(instance);
-		}
-
-        public REvidence(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REvidence(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddAssembly(System.Object @id)
         {

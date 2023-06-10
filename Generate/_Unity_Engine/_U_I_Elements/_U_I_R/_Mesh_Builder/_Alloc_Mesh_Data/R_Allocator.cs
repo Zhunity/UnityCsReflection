@@ -14,6 +14,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RAllocator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator");
+            }
+        }
+
+        public RAllocator() : base("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator")
+        {
+        }
+
+        public RAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator")
+		{
+            SetInstance(instance);
+		}
+
+        public RAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -367,23 +392,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RAllocator() : base("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator")
-        {
-        }
-
-        public RAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator")
-		{
-            SetInstance(instance);
-		}
-
-        public RAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual UnityEngine.UIElements.MeshWriteData Invoke(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
         {

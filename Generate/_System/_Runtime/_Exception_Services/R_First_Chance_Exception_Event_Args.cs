@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 	/// </summary>
     public partial class RFirstChanceExceptionEventArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs);
+            }
+        }
+
+        public RFirstChanceExceptionEventArgs() : base("System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs")
+        {
+        }
+
+        public RFirstChanceExceptionEventArgs(System.Object instance) : base("System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RFirstChanceExceptionEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFirstChanceExceptionEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Exception <Exception>k__BackingField
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 			}
 		}
 
-
-        public RFirstChanceExceptionEventArgs() : base("System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs")
-        {
-        }
-
-        public RFirstChanceExceptionEventArgs(System.Object instance) : base("System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RFirstChanceExceptionEventArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFirstChanceExceptionEventArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

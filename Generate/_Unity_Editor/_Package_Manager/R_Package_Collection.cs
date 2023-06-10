@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RPackageCollection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.PackageCollection);
+            }
+        }
+
+        public RPackageCollection() : base("UnityEditor.PackageManager.PackageCollection")
+        {
+        }
+
+        public RPackageCollection(System.Object instance) : base("UnityEditor.PackageManager.PackageCollection")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.PackageInfo[] m_PackageList
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RPackageCollection() : base("UnityEditor.PackageManager.PackageCollection")
-        {
-        }
-
-        public RPackageCollection(System.Object instance) : base("UnityEditor.PackageManager.PackageCollection")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageCollection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageCollection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Collections.Generic.IEnumerator<UnityEditor.PackageManager.PackageInfo> System__2__Collections__2__Generic__2__IEnumerable__0__UnityEditor__2__PackageManager__2__PackageInfo__1____2__GetEnumerator()
         {

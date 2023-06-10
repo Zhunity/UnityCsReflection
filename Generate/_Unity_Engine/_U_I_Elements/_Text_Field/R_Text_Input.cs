@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextInput : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextField+TextInput");
+            }
+        }
+
+        public RTextInput() : base("UnityEngine.UIElements.TextField+TextInput")
+        {
+        }
+
+        public RTextInput(System.Object instance) : base("UnityEngine.UIElements.TextField+TextInput")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextInput(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextInput(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.ScrollView scrollView
@@ -4077,23 +4102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextInput() : base("UnityEngine.UIElements.TextField+TextInput")
-        {
-        }
-
-        public RTextInput(System.Object instance) : base("UnityEngine.UIElements.TextField+TextInput")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextInput(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextInput(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String StringToValue(System.String @str)
         {

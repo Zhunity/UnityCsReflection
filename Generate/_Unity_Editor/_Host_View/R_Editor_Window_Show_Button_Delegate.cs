@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class REditorWindowShowButtonDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.HostView+EditorWindowShowButtonDelegate");
+            }
+        }
+
+        public REditorWindowShowButtonDelegate() : base("UnityEditor.HostView+EditorWindowShowButtonDelegate")
+        {
+        }
+
+        public REditorWindowShowButtonDelegate(System.Object instance) : base("UnityEditor.HostView+EditorWindowShowButtonDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public REditorWindowShowButtonDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REditorWindowShowButtonDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public REditorWindowShowButtonDelegate() : base("UnityEditor.HostView+EditorWindowShowButtonDelegate")
-        {
-        }
-
-        public REditorWindowShowButtonDelegate(System.Object instance) : base("UnityEditor.HostView+EditorWindowShowButtonDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public REditorWindowShowButtonDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REditorWindowShowButtonDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(UnityEngine.Rect @rect)
         {

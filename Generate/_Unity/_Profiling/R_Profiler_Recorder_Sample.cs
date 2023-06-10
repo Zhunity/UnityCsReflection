@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 	/// </summary>
     public partial class RProfilerRecorderSample : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Profiling.ProfilerRecorderSample);
+            }
+        }
+
+        public RProfilerRecorderSample() : base("Unity.Profiling.ProfilerRecorderSample")
+        {
+        }
+
+        public RProfilerRecorderSample(System.Object instance) : base("Unity.Profiling.ProfilerRecorderSample")
+		{
+            SetInstance(instance);
+		}
+
+        public RProfilerRecorderSample(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProfilerRecorderSample(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int64 value
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			}
 		}
 
-
-        public RProfilerRecorderSample() : base("Unity.Profiling.ProfilerRecorderSample")
-        {
-        }
-
-        public RProfilerRecorderSample(System.Object instance) : base("Unity.Profiling.ProfilerRecorderSample")
-		{
-            SetInstance(instance);
-		}
-
-        public RProfilerRecorderSample(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProfilerRecorderSample(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

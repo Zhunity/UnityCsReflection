@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RIPackageVersion : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion");
+            }
+        }
+
+        public RIPackageVersion() : base("UnityEditor.PackageManager.UI.Internal.IPackageVersion")
+        {
+        }
+
+        public RIPackageVersion(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IPackageVersion")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPackageVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPackageVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPackage package
@@ -475,23 +500,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RIPackageVersion() : base("UnityEditor.PackageManager.UI.Internal.IPackageVersion")
-        {
-        }
-
-        public RIPackageVersion(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IPackageVersion")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPackageVersion(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPackageVersion(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean HasTag(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag @tag)
         {

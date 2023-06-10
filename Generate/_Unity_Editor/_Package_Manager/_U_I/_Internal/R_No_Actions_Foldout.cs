@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RNoActionsFoldout : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.NoActionsFoldout");
+            }
+        }
+
+        public RNoActionsFoldout() : base("UnityEditor.PackageManager.UI.Internal.NoActionsFoldout")
+        {
+        }
+
+        public RNoActionsFoldout(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.NoActionsFoldout")
+		{
+            SetInstance(instance);
+		}
+
+        public RNoActionsFoldout(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNoActionsFoldout(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton m_Button
@@ -3627,23 +3652,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RNoActionsFoldout() : base("UnityEditor.PackageManager.UI.Internal.NoActionsFoldout")
-        {
-        }
-
-        public RNoActionsFoldout(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.NoActionsFoldout")
-		{
-            SetInstance(instance);
-		}
-
-        public RNoActionsFoldout(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNoActionsFoldout(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Refresh()
         {

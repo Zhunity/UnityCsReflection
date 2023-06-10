@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPageCapability : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageCapability");
+            }
+        }
+
+        public RPageCapability() : base("UnityEditor.PackageManager.UI.Internal.PageCapability")
+        {
+        }
+
+        public RPageCapability(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageCapability")
+		{
+            SetInstance(instance);
+		}
+
+        public RPageCapability(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPageCapability(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean requireUserLoggedIn
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPageCapability() : base("UnityEditor.PackageManager.UI.Internal.PageCapability")
-        {
-        }
-
-        public RPageCapability(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PageCapability")
-		{
-            SetInstance(instance);
-		}
-
-        public RPageCapability(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPageCapability(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageToolBarError : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageToolBarError");
+            }
+        }
+
+        public RPackageToolBarError() : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarError")
+        {
+        }
+
+        public RPackageToolBarError(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarError")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageToolBarError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageToolBarError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags m_Flags
@@ -3515,23 +3540,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageToolBarError() : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarError")
-        {
-        }
-
-        public RPackageToolBarError(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageToolBarError")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageToolBarError(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageToolBarError(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Refresh(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

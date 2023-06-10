@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RLineInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.LineInfo");
+            }
+        }
+
+        public RLineInfo() : base("UnityEngine.TextCore.Text.LineInfo")
+        {
+        }
+
+        public RLineInfo(System.Object instance) : base("UnityEngine.TextCore.Text.LineInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RLineInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLineInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 controlCharacterCount
@@ -443,23 +468,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RLineInfo() : base("UnityEngine.TextCore.Text.LineInfo")
-        {
-        }
-
-        public RLineInfo(System.Object instance) : base("UnityEngine.TextCore.Text.LineInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RLineInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLineInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

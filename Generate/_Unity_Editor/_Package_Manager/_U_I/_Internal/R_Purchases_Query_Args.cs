@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPurchasesQueryArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PurchasesQueryArgs");
+            }
+        }
+
+        public RPurchasesQueryArgs() : base("UnityEditor.PackageManager.UI.Internal.PurchasesQueryArgs")
+        {
+        }
+
+        public RPurchasesQueryArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PurchasesQueryArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RPurchasesQueryArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPurchasesQueryArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 startIndex
@@ -363,23 +388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPurchasesQueryArgs() : base("UnityEditor.PackageManager.UI.Internal.PurchasesQueryArgs")
-        {
-        }
-
-        public RPurchasesQueryArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PurchasesQueryArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RPurchasesQueryArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPurchasesQueryArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPurchasesQueryArgs Clone()
         {

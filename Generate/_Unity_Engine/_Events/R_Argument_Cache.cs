@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RArgumentCache : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Events.ArgumentCache");
+            }
+        }
+
+        public RArgumentCache() : base("UnityEngine.Events.ArgumentCache")
+        {
+        }
+
+        public RArgumentCache(System.Object instance) : base("UnityEngine.Events.ArgumentCache")
+		{
+            SetInstance(instance);
+		}
+
+        public RArgumentCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RArgumentCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Object m_ObjectArgument
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RArgumentCache() : base("UnityEngine.Events.ArgumentCache")
-        {
-        }
-
-        public RArgumentCache(System.Object instance) : base("UnityEngine.Events.ArgumentCache")
-		{
-            SetInstance(instance);
-		}
-
-        public RArgumentCache(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RArgumentCache(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnBeforeSerialize()
         {

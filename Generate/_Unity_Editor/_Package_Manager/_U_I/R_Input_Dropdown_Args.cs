@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 	/// </summary>
     public partial class RInputDropdownArgs : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.InputDropdownArgs");
+            }
+        }
+
+        public RInputDropdownArgs() : base("UnityEditor.PackageManager.UI.InputDropdownArgs")
+        {
+        }
+
+        public RInputDropdownArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.InputDropdownArgs")
+		{
+            SetInstance(instance);
+		}
+
+        public RInputDropdownArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInputDropdownArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String title
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			}
 		}
 
-
-        public RInputDropdownArgs() : base("UnityEditor.PackageManager.UI.InputDropdownArgs")
-        {
-        }
-
-        public RInputDropdownArgs(System.Object instance) : base("UnityEditor.PackageManager.UI.InputDropdownArgs")
-		{
-            SetInstance(instance);
-		}
-
-        public RInputDropdownArgs(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInputDropdownArgs(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

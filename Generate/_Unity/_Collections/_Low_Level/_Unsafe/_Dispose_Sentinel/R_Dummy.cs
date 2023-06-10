@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 	/// </summary>
     public partial class RDummy : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy");
+            }
+        }
+
+        public RDummy() : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy")
+        {
+        }
+
+        public RDummy(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy")
+		{
+            SetInstance(instance);
+		}
+
+        public RDummy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDummy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Dummy op_Implicit(Class)
@@ -125,23 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 			}
 		}
 
-
-        public RDummy() : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy")
-        {
-        }
-
-        public RDummy(System.Object instance) : base("Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy")
-		{
-            SetInstance(instance);
-		}
-
-        public RDummy(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDummy(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy op_Implicit(Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel.RDummy.RClass @value)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 	/// </summary>
     public partial class RUnityEventBase : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Events.UnityEventBase);
+            }
+        }
+
+        public RUnityEventBase() : base("UnityEngine.Events.UnityEventBase")
+        {
+        }
+
+        public RUnityEventBase(System.Object instance) : base("UnityEngine.Events.UnityEventBase")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnityEventBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnityEventBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Events.InvokableCallList m_Calls
@@ -859,23 +884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			}
 		}
 
-
-        public RUnityEventBase() : base("UnityEngine.Events.UnityEventBase")
-        {
-        }
-
-        public RUnityEventBase(System.Object instance) : base("UnityEngine.Events.UnityEventBase")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnityEventBase(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnityEventBase(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void UnityEngine__2__ISerializationCallbackReceiver__2__OnBeforeSerialize()
         {

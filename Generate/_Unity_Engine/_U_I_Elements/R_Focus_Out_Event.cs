@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RFocusOutEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.FocusOutEvent);
+            }
+        }
+
+        public RFocusOutEvent() : base("UnityEngine.UIElements.FocusOutEvent")
+        {
+        }
+
+        public RFocusOutEvent(System.Object instance) : base("UnityEngine.UIElements.FocusOutEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RFocusOutEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFocusOutEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.Focusable relatedTarget
@@ -875,23 +900,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RFocusOutEvent() : base("UnityEngine.UIElements.FocusOutEvent")
-        {
-        }
-
-        public RFocusOutEvent(System.Object instance) : base("UnityEngine.UIElements.FocusOutEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RFocusOutEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFocusOutEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

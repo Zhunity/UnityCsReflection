@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RUxmlObjectAsset : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UxmlObjectAsset");
+            }
+        }
+
+        public RUxmlObjectAsset() : base("UnityEngine.UIElements.UxmlObjectAsset")
+        {
+        }
+
+        public RUxmlObjectAsset(System.Object instance) : base("UnityEngine.UIElements.UxmlObjectAsset")
+		{
+            SetInstance(instance);
+		}
+
+        public RUxmlObjectAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUxmlObjectAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Properties
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RUxmlObjectAsset() : base("UnityEngine.UIElements.UxmlObjectAsset")
-        {
-        }
-
-        public RUxmlObjectAsset(System.Object instance) : base("UnityEngine.UIElements.UxmlObjectAsset")
-		{
-            SetInstance(instance);
-		}
-
-        public RUxmlObjectAsset(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUxmlObjectAsset(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Collections.Generic.List<System.String> GetProperties()
         {

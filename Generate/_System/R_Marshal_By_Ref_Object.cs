@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RMarshalByRefObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.MarshalByRefObject);
+            }
+        }
+
+        public RMarshalByRefObject() : base("System.MarshalByRefObject")
+        {
+        }
+
+        public RMarshalByRefObject(System.Object instance) : base("System.MarshalByRefObject")
+		{
+            SetInstance(instance);
+		}
+
+        public RMarshalByRefObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMarshalByRefObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity _identity
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RMarshalByRefObject() : base("System.MarshalByRefObject")
-        {
-        }
-
-        public RMarshalByRefObject(System.Object instance) : base("System.MarshalByRefObject")
-		{
-            SetInstance(instance);
-		}
-
-        public RMarshalByRefObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMarshalByRefObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity GetObjectIdentity(System.MarshalByRefObject @obj, out System.Boolean @IsClient)
         {

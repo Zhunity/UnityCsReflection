@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDirection : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction");
+            }
+        }
+
+        public RDirection() : base("UnityEngine.UIElements.NavigationMoveEvent+Direction")
+        {
+        }
+
+        public RDirection(System.Object instance) : base("UnityEngine.UIElements.NavigationMoveEvent+Direction")
+		{
+            SetInstance(instance);
+		}
+
+        public RDirection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDirection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -349,23 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDirection() : base("UnityEngine.UIElements.NavigationMoveEvent+Direction")
-        {
-        }
-
-        public RDirection(System.Object instance) : base("UnityEngine.UIElements.NavigationMoveEvent+Direction")
-		{
-            SetInstance(instance);
-		}
-
-        public RDirection(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDirection(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

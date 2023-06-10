@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	/// </summary>
     public partial class RContextCallbackObject : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.Remoting.Contexts.ContextCallbackObject");
+            }
+        }
+
+        public RContextCallbackObject() : base("System.Runtime.Remoting.Contexts.ContextCallbackObject")
+        {
+        }
+
+        public RContextCallbackObject(System.Object instance) : base("System.Runtime.Remoting.Contexts.ContextCallbackObject")
+		{
+            SetInstance(instance);
+		}
+
+        public RContextCallbackObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RContextCallbackObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Remoting.ServerIdentity ObjectIdentity
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			}
 		}
 
-
-        public RContextCallbackObject() : base("System.Runtime.Remoting.Contexts.ContextCallbackObject")
-        {
-        }
-
-        public RContextCallbackObject(System.Object instance) : base("System.Runtime.Remoting.Contexts.ContextCallbackObject")
-		{
-            SetInstance(instance);
-		}
-
-        public RContextCallbackObject(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RContextCallbackObject(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void DoCallBack(System.Runtime.Remoting.Contexts.CrossContextDelegate @deleg)
         {

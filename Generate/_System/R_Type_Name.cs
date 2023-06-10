@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RTypeName : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.TypeName");
+            }
+        }
+
+        public RTypeName() : base("System.TypeName")
+        {
+        }
+
+        public RTypeName(System.Object instance) : base("System.TypeName")
+		{
+            SetInstance(instance);
+		}
+
+        public RTypeName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTypeName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String DisplayName
@@ -43,23 +68,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RTypeName() : base("System.TypeName")
-        {
-        }
-
-        public RTypeName(System.Object instance) : base("System.TypeName")
-		{
-            SetInstance(instance);
-		}
-
-        public RTypeName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTypeName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RSystem.RTypeName NestedName(Hvak.Editor.Refleaction.RSystem.RTypeIdentifier @innerName)
         {

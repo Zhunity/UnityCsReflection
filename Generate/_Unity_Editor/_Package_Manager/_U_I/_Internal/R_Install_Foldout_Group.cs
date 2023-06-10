@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RInstallFoldoutGroup : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.InstallFoldoutGroup");
+            }
+        }
+
+        public RInstallFoldoutGroup() : base("UnityEditor.PackageManager.UI.Internal.InstallFoldoutGroup")
+        {
+        }
+
+        public RInstallFoldoutGroup(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.InstallFoldoutGroup")
+		{
+            SetInstance(instance);
+		}
+
+        public RInstallFoldoutGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInstallFoldoutGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.MultiSelectFoldout mainFoldout
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RInstallFoldoutGroup() : base("UnityEditor.PackageManager.UI.Internal.InstallFoldoutGroup")
-        {
-        }
-
-        public RInstallFoldoutGroup(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.InstallFoldoutGroup")
-		{
-            SetInstance(instance);
-		}
-
-        public RInstallFoldoutGroup(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInstallFoldoutGroup(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Refresh()
         {

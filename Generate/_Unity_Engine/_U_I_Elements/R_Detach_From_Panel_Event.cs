@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RDetachFromPanelEvent : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.DetachFromPanelEvent);
+            }
+        }
+
+        public RDetachFromPanelEvent() : base("UnityEngine.UIElements.DetachFromPanelEvent")
+        {
+        }
+
+        public RDetachFromPanelEvent(System.Object instance) : base("UnityEngine.UIElements.DetachFromPanelEvent")
+		{
+            SetInstance(instance);
+		}
+
+        public RDetachFromPanelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDetachFromPanelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IPanel originPanel
@@ -827,23 +852,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RDetachFromPanelEvent() : base("UnityEngine.UIElements.DetachFromPanelEvent")
-        {
-        }
-
-        public RDetachFromPanelEvent(System.Object instance) : base("UnityEngine.UIElements.DetachFromPanelEvent")
-		{
-            SetInstance(instance);
-		}
-
-        public RDetachFromPanelEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDetachFromPanelEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Init()
         {

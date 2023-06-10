@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIPanelDebugger : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.IPanelDebugger");
+            }
+        }
+
+        public RIPanelDebugger() : base("UnityEngine.UIElements.IPanelDebugger")
+        {
+        }
+
+        public RIPanelDebugger(System.Object instance) : base("UnityEngine.UIElements.IPanelDebugger")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPanelDebugger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPanelDebugger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.IPanelDebug panelDebug
@@ -107,23 +132,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIPanelDebugger() : base("UnityEngine.UIElements.IPanelDebugger")
-        {
-        }
-
-        public RIPanelDebugger(System.Object instance) : base("UnityEngine.UIElements.IPanelDebugger")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPanelDebugger(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPanelDebugger(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Disconnect()
         {

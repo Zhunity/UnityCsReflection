@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RRawAcl : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.RawAcl);
+            }
+        }
+
+        public RRawAcl() : base("System.Security.AccessControl.RawAcl")
+        {
+        }
+
+        public RRawAcl(System.Object instance) : base("System.Security.AccessControl.RawAcl")
+		{
+            SetInstance(instance);
+		}
+
+        public RRawAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRawAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte revision
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RRawAcl() : base("System.Security.AccessControl.RawAcl")
-        {
-        }
-
-        public RRawAcl(System.Object instance) : base("System.Security.AccessControl.RawAcl")
-		{
-            SetInstance(instance);
-		}
-
-        public RRawAcl(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRawAcl(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetBinaryForm(System.Byte[] @binaryForm, System.Int32 @offset)
         {

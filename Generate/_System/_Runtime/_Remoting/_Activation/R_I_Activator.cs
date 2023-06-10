@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 	/// </summary>
     public partial class RIActivator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Activation.IActivator);
+            }
+        }
+
+        public RIActivator() : base("System.Runtime.Remoting.Activation.IActivator")
+        {
+        }
+
+        public RIActivator(System.Object instance) : base("System.Runtime.Remoting.Activation.IActivator")
+		{
+            SetInstance(instance);
+		}
+
+        public RIActivator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIActivator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Runtime.Remoting.Activation.ActivatorLevel Level
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 			}
 		}
 
-
-        public RIActivator() : base("System.Runtime.Remoting.Activation.IActivator")
-        {
-        }
-
-        public RIActivator(System.Object instance) : base("System.Runtime.Remoting.Activation.IActivator")
-		{
-            SetInstance(instance);
-		}
-
-        public RIActivator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIActivator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Runtime.Remoting.Activation.IConstructionReturnMessage Activate(System.Runtime.Remoting.Activation.IConstructionCallMessage @msg)
         {

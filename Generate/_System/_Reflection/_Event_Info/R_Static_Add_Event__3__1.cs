@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RStaticAddEvent<D> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.EventInfo+StaticAddEvent`1");
+            }
+        }
+
+        public RStaticAddEvent() : base("System.Reflection.EventInfo+StaticAddEvent`1")
+        {
+        }
+
+        public RStaticAddEvent(System.Object instance) : base("System.Reflection.EventInfo+StaticAddEvent`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RStaticAddEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStaticAddEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RStaticAddEvent() : base("System.Reflection.EventInfo+StaticAddEvent`1")
-        {
-        }
-
-        public RStaticAddEvent(System.Object instance) : base("System.Reflection.EventInfo+StaticAddEvent`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RStaticAddEvent(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStaticAddEvent(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Invoke(D @dele)
         {

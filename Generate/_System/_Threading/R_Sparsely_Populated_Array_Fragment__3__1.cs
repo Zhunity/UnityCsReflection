@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RSparselyPopulatedArrayFragment<T> : RMember // where T : class
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Threading.SparselyPopulatedArrayFragment`1");
+            }
+        }
+
+        public RSparselyPopulatedArrayFragment() : base("System.Threading.SparselyPopulatedArrayFragment`1")
+        {
+        }
+
+        public RSparselyPopulatedArrayFragment(System.Object instance) : base("System.Threading.SparselyPopulatedArrayFragment`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RSparselyPopulatedArrayFragment(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSparselyPopulatedArrayFragment(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// T[] _elements
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RSparselyPopulatedArrayFragment() : base("System.Threading.SparselyPopulatedArrayFragment`1")
-        {
-        }
-
-        public RSparselyPopulatedArrayFragment(System.Object instance) : base("System.Threading.SparselyPopulatedArrayFragment`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RSparselyPopulatedArrayFragment(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSparselyPopulatedArrayFragment(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual T SafeAtomicRemove(System.Int32 @index, T @expectedElement)
         {

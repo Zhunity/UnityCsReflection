@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RPage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Page");
+            }
+        }
+
+        public RPage() : base("UnityEngine.UIElements.UIR.Page")
+        {
+        }
+
+        public RPage(System.Object instance) : base("UnityEngine.UIElements.UIR.Page")
+		{
+            SetInstance(instance);
+		}
+
+        public RPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <disposed>k__BackingField
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RPage() : base("UnityEngine.UIElements.UIR.Page")
-        {
-        }
-
-        public RPage(System.Object instance) : base("UnityEngine.UIElements.UIR.Page")
-		{
-            SetInstance(instance);
-		}
-
-        public RPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

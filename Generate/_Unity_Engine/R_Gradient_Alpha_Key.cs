@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RGradientAlphaKey : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.GradientAlphaKey);
+            }
+        }
+
+        public RGradientAlphaKey() : base("UnityEngine.GradientAlphaKey")
+        {
+        }
+
+        public RGradientAlphaKey(System.Object instance) : base("UnityEngine.GradientAlphaKey")
+		{
+            SetInstance(instance);
+		}
+
+        public RGradientAlphaKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGradientAlphaKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single alpha
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RGradientAlphaKey() : base("UnityEngine.GradientAlphaKey")
-        {
-        }
-
-        public RGradientAlphaKey(System.Object instance) : base("UnityEngine.GradientAlphaKey")
-		{
-            SetInstance(instance);
-		}
-
-        public RGradientAlphaKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGradientAlphaKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRenderHints : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.RenderHints");
+            }
+        }
+
+        public RRenderHints() : base("UnityEngine.UIElements.RenderHints")
+        {
+        }
+
+        public RRenderHints(System.Object instance) : base("UnityEngine.UIElements.RenderHints")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderHints(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderHints(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -427,23 +452,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRenderHints() : base("UnityEngine.UIElements.RenderHints")
-        {
-        }
-
-        public RRenderHints(System.Object instance) : base("UnityEngine.UIElements.RenderHints")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderHints(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderHints(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

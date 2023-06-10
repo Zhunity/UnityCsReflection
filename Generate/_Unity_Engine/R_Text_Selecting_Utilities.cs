@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTextSelectingUtilities : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextSelectingUtilities");
+            }
+        }
+
+        public RTextSelectingUtilities() : base("UnityEngine.TextSelectingUtilities")
+        {
+        }
+
+        public RTextSelectingUtilities(System.Object instance) : base("UnityEngine.TextSelectingUtilities")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextSelectingUtilities(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextSelectingUtilities(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextEditor+DblClickSnapping dblClickSnap
@@ -1499,23 +1524,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTextSelectingUtilities() : base("UnityEngine.TextSelectingUtilities")
-        {
-        }
-
-        public RTextSelectingUtilities(System.Object instance) : base("UnityEngine.TextSelectingUtilities")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextSelectingUtilities(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextSelectingUtilities(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetCursorIndexWithoutNotify(System.Int32 @index)
         {

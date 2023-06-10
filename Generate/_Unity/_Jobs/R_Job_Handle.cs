@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 	/// </summary>
     public partial class RJobHandle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Jobs.JobHandle);
+            }
+        }
+
+        public RJobHandle() : base("Unity.Jobs.JobHandle")
+        {
+        }
+
+        public RJobHandle(System.Object instance) : base("Unity.Jobs.JobHandle")
+		{
+            SetInstance(instance);
+		}
+
+        public RJobHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RJobHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt64 jobGroup
@@ -555,23 +580,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			}
 		}
 
-
-        public RJobHandle() : base("Unity.Jobs.JobHandle")
-        {
-        }
-
-        public RJobHandle(System.Object instance) : base("Unity.Jobs.JobHandle")
-		{
-            SetInstance(instance);
-		}
-
-        public RJobHandle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RJobHandle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Complete()
         {

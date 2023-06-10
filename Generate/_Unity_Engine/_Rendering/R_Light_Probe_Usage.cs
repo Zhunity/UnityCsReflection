@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RLightProbeUsage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.LightProbeUsage);
+            }
+        }
+
+        public RLightProbeUsage() : base("UnityEngine.Rendering.LightProbeUsage")
+        {
+        }
+
+        public RLightProbeUsage(System.Object instance) : base("UnityEngine.Rendering.LightProbeUsage")
+		{
+            SetInstance(instance);
+		}
+
+        public RLightProbeUsage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLightProbeUsage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RLightProbeUsage() : base("UnityEngine.Rendering.LightProbeUsage")
-        {
-        }
-
-        public RLightProbeUsage(System.Object instance) : base("UnityEngine.Rendering.LightProbeUsage")
-		{
-            SetInstance(instance);
-		}
-
-        public RLightProbeUsage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLightProbeUsage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

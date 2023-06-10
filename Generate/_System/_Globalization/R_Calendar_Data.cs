@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RCalendarData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Globalization.CalendarData");
+            }
+        }
+
+        public RCalendarData() : base("System.Globalization.CalendarData")
+        {
+        }
+
+        public RCalendarData(System.Object instance) : base("System.Globalization.CalendarData")
+		{
+            SetInstance(instance);
+		}
+
+        public RCalendarData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCalendarData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 MAX_CALENDARS
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RCalendarData() : base("System.Globalization.CalendarData")
-        {
-        }
-
-        public RCalendarData(System.Object instance) : base("System.Globalization.CalendarData")
-		{
-            SetInstance(instance);
-		}
-
-        public RCalendarData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCalendarData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void InitializeEraNames(System.String @localeName, System.Int32 @calendarId)
         {

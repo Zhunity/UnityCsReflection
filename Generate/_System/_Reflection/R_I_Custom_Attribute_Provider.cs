@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RICustomAttributeProvider : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.ICustomAttributeProvider);
+            }
+        }
+
+        public RICustomAttributeProvider() : base("System.Reflection.ICustomAttributeProvider")
+        {
+        }
+
+        public RICustomAttributeProvider(System.Object instance) : base("System.Reflection.ICustomAttributeProvider")
+		{
+            SetInstance(instance);
+		}
+
+        public RICustomAttributeProvider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RICustomAttributeProvider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object[] GetCustomAttributes(Boolean)
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RICustomAttributeProvider() : base("System.Reflection.ICustomAttributeProvider")
-        {
-        }
-
-        public RICustomAttributeProvider(System.Object instance) : base("System.Reflection.ICustomAttributeProvider")
-		{
-            SetInstance(instance);
-		}
-
-        public RICustomAttributeProvider(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RICustomAttributeProvider(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object[] GetCustomAttributes(System.Boolean @inherit)
         {

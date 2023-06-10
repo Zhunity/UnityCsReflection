@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 	/// </summary>
     public partial class RCanRemoveCallbackDelegate : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+CanRemoveCallbackDelegate");
+            }
+        }
+
+        public RCanRemoveCallbackDelegate() : base("UnityEditorInternal.ReorderableList+CanRemoveCallbackDelegate")
+        {
+        }
+
+        public RCanRemoveCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+CanRemoveCallbackDelegate")
+		{
+            SetInstance(instance);
+		}
+
+        public RCanRemoveCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCanRemoveCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean HasSingleTarget
@@ -365,23 +390,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			}
 		}
 
-
-        public RCanRemoveCallbackDelegate() : base("UnityEditorInternal.ReorderableList+CanRemoveCallbackDelegate")
-        {
-        }
-
-        public RCanRemoveCallbackDelegate(System.Object instance) : base("UnityEditorInternal.ReorderableList+CanRemoveCallbackDelegate")
-		{
-            SetInstance(instance);
-		}
-
-        public RCanRemoveCallbackDelegate(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCanRemoveCallbackDelegate(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Invoke(UnityEditorInternal.ReorderableList @list)
         {

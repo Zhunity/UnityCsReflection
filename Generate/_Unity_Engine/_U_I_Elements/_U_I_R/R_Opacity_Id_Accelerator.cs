@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class ROpacityIdAccelerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.OpacityIdAccelerator");
+            }
+        }
+
+        public ROpacityIdAccelerator() : base("UnityEngine.UIElements.UIR.OpacityIdAccelerator")
+        {
+        }
+
+        public ROpacityIdAccelerator(System.Object instance) : base("UnityEngine.UIElements.UIR.OpacityIdAccelerator")
+		{
+            SetInstance(instance);
+		}
+
+        public ROpacityIdAccelerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public ROpacityIdAccelerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_VerticesPerBatch
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public ROpacityIdAccelerator() : base("UnityEngine.UIElements.UIR.OpacityIdAccelerator")
-        {
-        }
-
-        public ROpacityIdAccelerator(System.Object instance) : base("UnityEngine.UIElements.UIR.OpacityIdAccelerator")
-		{
-            SetInstance(instance);
-		}
-
-        public ROpacityIdAccelerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public ROpacityIdAccelerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void CreateJob(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @oldVerts, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> @newVerts, UnityEngine.Color32 @opacityData, System.Int32 @vertexCount)
         {

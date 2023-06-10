@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RStringSplitOptions : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.StringSplitOptions);
+            }
+        }
+
+        public RStringSplitOptions() : base("System.StringSplitOptions")
+        {
+        }
+
+        public RStringSplitOptions(System.Object instance) : base("System.StringSplitOptions")
+		{
+            SetInstance(instance);
+		}
+
+        public RStringSplitOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStringSplitOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RStringSplitOptions() : base("System.StringSplitOptions")
-        {
-        }
-
-        public RStringSplitOptions(System.Object instance) : base("System.StringSplitOptions")
-		{
-            SetInstance(instance);
-		}
-
-        public RStringSplitOptions(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStringSplitOptions(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

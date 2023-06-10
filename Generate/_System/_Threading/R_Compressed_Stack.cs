@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RCompressedStack : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.CompressedStack);
+            }
+        }
+
+        public RCompressedStack() : base("System.Threading.CompressedStack")
+        {
+        }
+
+        public RCompressedStack(System.Object instance) : base("System.Threading.CompressedStack")
+		{
+            SetInstance(instance);
+		}
+
+        public RCompressedStack(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCompressedStack(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.ArrayList _list
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RCompressedStack() : base("System.Threading.CompressedStack")
-        {
-        }
-
-        public RCompressedStack(System.Object instance) : base("System.Threading.CompressedStack")
-		{
-            SetInstance(instance);
-		}
-
-        public RCompressedStack(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCompressedStack(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Threading.CompressedStack CreateCopy()
         {

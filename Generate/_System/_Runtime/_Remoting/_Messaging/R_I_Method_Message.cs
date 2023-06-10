@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RIMethodMessage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Messaging.IMethodMessage);
+            }
+        }
+
+        public RIMethodMessage() : base("System.Runtime.Remoting.Messaging.IMethodMessage")
+        {
+        }
+
+        public RIMethodMessage(System.Object instance) : base("System.Runtime.Remoting.Messaging.IMethodMessage")
+		{
+            SetInstance(instance);
+		}
+
+        public RIMethodMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIMethodMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 ArgCount
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RIMethodMessage() : base("System.Runtime.Remoting.Messaging.IMethodMessage")
-        {
-        }
-
-        public RIMethodMessage(System.Object instance) : base("System.Runtime.Remoting.Messaging.IMethodMessage")
-		{
-            SetInstance(instance);
-		}
-
-        public RIMethodMessage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIMethodMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetArg(System.Int32 @argNum)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RFoveatedRenderingMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.FoveatedRenderingMode);
+            }
+        }
+
+        public RFoveatedRenderingMode() : base("UnityEngine.Rendering.FoveatedRenderingMode")
+        {
+        }
+
+        public RFoveatedRenderingMode(System.Object instance) : base("UnityEngine.Rendering.FoveatedRenderingMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RFoveatedRenderingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RFoveatedRenderingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RFoveatedRenderingMode() : base("UnityEngine.Rendering.FoveatedRenderingMode")
-        {
-        }
-
-        public RFoveatedRenderingMode(System.Object instance) : base("UnityEngine.Rendering.FoveatedRenderingMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RFoveatedRenderingMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RFoveatedRenderingMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

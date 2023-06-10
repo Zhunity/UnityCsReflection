@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUnlockFoldout : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnlockFoldout");
+            }
+        }
+
+        public RUnlockFoldout() : base("UnityEditor.PackageManager.UI.Internal.UnlockFoldout")
+        {
+        }
+
+        public RUnlockFoldout(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UnlockFoldout")
+		{
+            SetInstance(instance);
+		}
+
+        public RUnlockFoldout(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUnlockFoldout(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton m_Button
@@ -3627,23 +3652,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUnlockFoldout() : base("UnityEditor.PackageManager.UI.Internal.UnlockFoldout")
-        {
-        }
-
-        public RUnlockFoldout(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UnlockFoldout")
-		{
-            SetInstance(instance);
-		}
-
-        public RUnlockFoldout(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUnlockFoldout(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean AddPackageVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {

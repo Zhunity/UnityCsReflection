@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 	/// </summary>
     public partial class RRecorder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Profiling.Recorder);
+            }
+        }
+
+        public RRecorder() : base("UnityEngine.Profiling.Recorder")
+        {
+        }
+
+        public RRecorder(System.Object instance) : base("UnityEngine.Profiling.Recorder")
+		{
+            SetInstance(instance);
+		}
+
+        public RRecorder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRecorder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Unity.Profiling.ProfilerRecorderOptions s_RecorderDefaultOptions
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 			}
 		}
 
-
-        public RRecorder() : base("UnityEngine.Profiling.Recorder")
-        {
-        }
-
-        public RRecorder(System.Object instance) : base("UnityEngine.Profiling.Recorder")
-		{
-            SetInstance(instance);
-		}
-
-        public RRecorder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRecorder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

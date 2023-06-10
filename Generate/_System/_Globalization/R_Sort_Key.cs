@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 	/// </summary>
     public partial class RSortKey : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Globalization.SortKey);
+            }
+        }
+
+        public RSortKey() : base("System.Globalization.SortKey")
+        {
+        }
+
+        public RSortKey(System.Object instance) : base("System.Globalization.SortKey")
+		{
+            SetInstance(instance);
+		}
+
+        public RSortKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSortKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String source
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			}
 		}
 
-
-        public RSortKey() : base("System.Globalization.SortKey")
-        {
-        }
-
-        public RSortKey(System.Object instance) : base("System.Globalization.SortKey")
-		{
-            SetInstance(instance);
-		}
-
-        public RSortKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSortKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Int32 Compare(System.Globalization.SortKey @sortkey1, System.Globalization.SortKey @sortkey2)
         {

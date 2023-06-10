@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RVectorImageRenderInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VectorImageRenderInfo");
+            }
+        }
+
+        public RVectorImageRenderInfo() : base("UnityEngine.UIElements.UIR.VectorImageRenderInfo")
+        {
+        }
+
+        public RVectorImageRenderInfo(System.Object instance) : base("UnityEngine.UIElements.UIR.VectorImageRenderInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RVectorImageRenderInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVectorImageRenderInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 useCount
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RVectorImageRenderInfo() : base("UnityEngine.UIElements.UIR.VectorImageRenderInfo")
-        {
-        }
-
-        public RVectorImageRenderInfo(System.Object instance) : base("UnityEngine.UIElements.UIR.VectorImageRenderInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RVectorImageRenderInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVectorImageRenderInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

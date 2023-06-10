@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RBoneWeight : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.BoneWeight);
+            }
+        }
+
+        public RBoneWeight() : base("UnityEngine.BoneWeight")
+        {
+        }
+
+        public RBoneWeight(System.Object instance) : base("UnityEngine.BoneWeight")
+		{
+            SetInstance(instance);
+		}
+
+        public RBoneWeight(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBoneWeight(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_Weight0
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RBoneWeight() : base("UnityEngine.BoneWeight")
-        {
-        }
-
-        public RBoneWeight(System.Object instance) : base("UnityEngine.BoneWeight")
-		{
-            SetInstance(instance);
-		}
-
-        public RBoneWeight(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBoneWeight(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 GetHashCode()
         {

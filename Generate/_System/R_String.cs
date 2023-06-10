@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RString : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.String);
+            }
+        }
+
+        public RString() : base("System.String")
+        {
+        }
+
+        public RString(System.Object instance) : base("System.String")
+		{
+            SetInstance(instance);
+		}
+
+        public RString(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RString(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 StackallocIntBufferSizeLimit
@@ -4075,23 +4100,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RString() : base("System.String")
-        {
-        }
-
-        public RString(System.Object instance) : base("System.String")
-		{
-            SetInstance(instance);
-		}
-
-        public RString(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RString(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Int32 CompareOrdinalIgnoreCaseHelper(System.String @strA, System.String @strB)
         {

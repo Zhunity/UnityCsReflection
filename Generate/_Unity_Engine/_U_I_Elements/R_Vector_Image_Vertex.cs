@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RVectorImageVertex : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.VectorImageVertex");
+            }
+        }
+
+        public RVectorImageVertex() : base("UnityEngine.UIElements.VectorImageVertex")
+        {
+        }
+
+        public RVectorImageVertex(System.Object instance) : base("UnityEngine.UIElements.VectorImageVertex")
+		{
+            SetInstance(instance);
+		}
+
+        public RVectorImageVertex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVectorImageVertex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Vector3 position
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RVectorImageVertex() : base("UnityEngine.UIElements.VectorImageVertex")
-        {
-        }
-
-        public RVectorImageVertex(System.Object instance) : base("UnityEngine.UIElements.VectorImageVertex")
-		{
-            SetInstance(instance);
-		}
-
-        public RVectorImageVertex(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVectorImageVertex(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 	/// </summary>
     public partial class RToolbarMenu : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.UIElements.ToolbarMenu);
+            }
+        }
+
+        public RToolbarMenu() : base("UnityEditor.UIElements.ToolbarMenu")
+        {
+        }
+
+        public RToolbarMenu(System.Object instance) : base("UnityEditor.UIElements.ToolbarMenu")
+		{
+            SetInstance(instance);
+		}
+
+        public RToolbarMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RToolbarMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.DropdownMenu <menu>k__BackingField
@@ -3979,23 +4004,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 			}
 		}
 
-
-        public RToolbarMenu() : base("UnityEditor.UIElements.ToolbarMenu")
-        {
-        }
-
-        public RToolbarMenu(System.Object instance) : base("UnityEditor.UIElements.ToolbarMenu")
-		{
-            SetInstance(instance);
-		}
-
-        public RToolbarMenu(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RToolbarMenu(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnGenerateVisualContent(UnityEngine.UIElements.MeshGenerationContext @mgc)
         {

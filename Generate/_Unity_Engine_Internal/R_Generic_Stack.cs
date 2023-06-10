@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngineInternal
 	/// </summary>
     public partial class RGenericStack : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngineInternal.GenericStack);
+            }
+        }
+
+        public RGenericStack() : base("UnityEngineInternal.GenericStack")
+        {
+        }
+
+        public RGenericStack(System.Object instance) : base("UnityEngineInternal.GenericStack")
+		{
+            SetInstance(instance);
+		}
+
+        public RGenericStack(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RGenericStack(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Int32 Count
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngineInternal
 			}
 		}
 
-
-        public RGenericStack() : base("UnityEngineInternal.GenericStack")
-        {
-        }
-
-        public RGenericStack(System.Object instance) : base("UnityEngineInternal.GenericStack")
-		{
-            SetInstance(instance);
-		}
-
-        public RGenericStack(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RGenericStack(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Clear()
         {

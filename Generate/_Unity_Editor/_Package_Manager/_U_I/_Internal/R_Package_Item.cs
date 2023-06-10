@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RPackageItem : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageItem");
+            }
+        }
+
+        public RPackageItem() : base("UnityEditor.PackageManager.UI.Internal.PackageItem")
+        {
+        }
+
+        public RPackageItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageItem")
+		{
+            SetInstance(instance);
+		}
+
+        public RPackageItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RPackageItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 k_MainItemHeight
@@ -4363,23 +4388,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RPackageItem() : base("UnityEditor.PackageManager.UI.Internal.PackageItem")
-        {
-        }
-
-        public RPackageItem(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.PackageItem")
-		{
-            SetInstance(instance);
-		}
-
-        public RPackageItem(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RPackageItem(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void SetPackageAndVisualState(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState @state)
         {

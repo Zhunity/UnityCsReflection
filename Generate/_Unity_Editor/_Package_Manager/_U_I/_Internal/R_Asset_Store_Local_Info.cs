@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RAssetStoreLocalInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo");
+            }
+        }
+
+        public RAssetStoreLocalInfo() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")
+        {
+        }
+
+        public RAssetStoreLocalInfo(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssetStoreLocalInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssetStoreLocalInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String id
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RAssetStoreLocalInfo() : base("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")
-        {
-        }
-
-        public RAssetStoreLocalInfo(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssetStoreLocalInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssetStoreLocalInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo ParseLocalInfo(UnityEditor.PackageInfo @localInfo)
         {

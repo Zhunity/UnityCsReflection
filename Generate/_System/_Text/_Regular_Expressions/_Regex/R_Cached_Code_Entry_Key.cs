@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RCachedCodeEntryKey : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.RegularExpressions.Regex+CachedCodeEntryKey");
+            }
+        }
+
+        public RCachedCodeEntryKey() : base("System.Text.RegularExpressions.Regex+CachedCodeEntryKey")
+        {
+        }
+
+        public RCachedCodeEntryKey(System.Object instance) : base("System.Text.RegularExpressions.Regex+CachedCodeEntryKey")
+		{
+            SetInstance(instance);
+		}
+
+        public RCachedCodeEntryKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCachedCodeEntryKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Text.RegularExpressions.RegexOptions _options
@@ -205,23 +230,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RCachedCodeEntryKey() : base("System.Text.RegularExpressions.Regex+CachedCodeEntryKey")
-        {
-        }
-
-        public RCachedCodeEntryKey(System.Object instance) : base("System.Text.RegularExpressions.Regex+CachedCodeEntryKey")
-		{
-            SetInstance(instance);
-		}
-
-        public RCachedCodeEntryKey(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCachedCodeEntryKey(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

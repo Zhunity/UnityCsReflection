@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RDrawParams : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.DrawParams");
+            }
+        }
+
+        public RDrawParams() : base("UnityEngine.UIElements.UIR.DrawParams")
+        {
+        }
+
+        public RDrawParams(System.Object instance) : base("UnityEngine.UIElements.UIR.DrawParams")
+		{
+            SetInstance(instance);
+		}
+
+        public RDrawParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDrawParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rect k_UnlimitedRect
@@ -219,23 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RDrawParams() : base("UnityEngine.UIElements.UIR.DrawParams")
-        {
-        }
-
-        public RDrawParams(System.Object instance) : base("UnityEngine.UIElements.UIR.DrawParams")
-		{
-            SetInstance(instance);
-		}
-
-        public RDrawParams(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDrawParams(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Reset()
         {

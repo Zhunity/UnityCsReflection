@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 	/// </summary>
     public partial class RYogaJustify : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Yoga.YogaJustify");
+            }
+        }
+
+        public RYogaJustify() : base("UnityEngine.Yoga.YogaJustify")
+        {
+        }
+
+        public RYogaJustify(System.Object instance) : base("UnityEngine.Yoga.YogaJustify")
+		{
+            SetInstance(instance);
+		}
+
+        public RYogaJustify(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RYogaJustify(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -315,23 +340,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			}
 		}
 
-
-        public RYogaJustify() : base("UnityEngine.Yoga.YogaJustify")
-        {
-        }
-
-        public RYogaJustify(System.Object instance) : base("UnityEngine.Yoga.YogaJustify")
-		{
-            SetInstance(instance);
-		}
-
-        public RYogaJustify(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RYogaJustify(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

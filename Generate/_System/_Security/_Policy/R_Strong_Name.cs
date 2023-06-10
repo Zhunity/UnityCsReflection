@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 	/// </summary>
     public partial class RStrongName : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Policy.StrongName);
+            }
+        }
+
+        public RStrongName() : base("System.Security.Policy.StrongName")
+        {
+        }
+
+        public RStrongName(System.Object instance) : base("System.Security.Policy.StrongName")
+		{
+            SetInstance(instance);
+		}
+
+        public RStrongName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStrongName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Permissions.StrongNamePublicKeyBlob publickey
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			}
 		}
 
-
-        public RStrongName() : base("System.Security.Policy.StrongName")
-        {
-        }
-
-        public RStrongName(System.Object instance) : base("System.Security.Policy.StrongName")
-		{
-            SetInstance(instance);
-		}
-
-        public RStrongName(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStrongName(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object Copy()
         {

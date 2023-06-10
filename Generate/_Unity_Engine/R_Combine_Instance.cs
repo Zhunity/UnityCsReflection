@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RCombineInstance : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.CombineInstance);
+            }
+        }
+
+        public RCombineInstance() : base("UnityEngine.CombineInstance")
+        {
+        }
+
+        public RCombineInstance(System.Object instance) : base("UnityEngine.CombineInstance")
+		{
+            SetInstance(instance);
+		}
+
+        public RCombineInstance(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RCombineInstance(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 m_MeshInstanceID
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RCombineInstance() : base("UnityEngine.CombineInstance")
-        {
-        }
-
-        public RCombineInstance(System.Object instance) : base("UnityEngine.CombineInstance")
-		{
-            SetInstance(instance);
-		}
-
-        public RCombineInstance(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RCombineInstance(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

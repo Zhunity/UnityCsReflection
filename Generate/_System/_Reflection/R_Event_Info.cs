@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class REventInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.EventInfo);
+            }
+        }
+
+        public REventInfo() : base("System.Reflection.EventInfo")
+        {
+        }
+
+        public REventInfo(System.Object instance) : base("System.Reflection.EventInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public REventInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.EventInfo+AddEventAdapter cached_add_event
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public REventInfo() : base("System.Reflection.EventInfo")
-        {
-        }
-
-        public REventInfo(System.Object instance) : base("System.Reflection.EventInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public REventInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Reflection.MethodInfo[] GetOtherMethods()
         {

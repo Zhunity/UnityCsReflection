@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RRenderChainVEData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainVEData");
+            }
+        }
+
+        public RRenderChainVEData() : base("UnityEngine.UIElements.UIR.RenderChainVEData")
+        {
+        }
+
+        public RRenderChainVEData(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChainVEData")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderChainVEData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderChainVEData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.VisualElement prev
@@ -811,23 +836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RRenderChainVEData() : base("UnityEngine.UIElements.UIR.RenderChainVEData")
-        {
-        }
-
-        public RRenderChainVEData(System.Object instance) : base("UnityEngine.UIElements.UIR.RenderChainVEData")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderChainVEData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderChainVEData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean AllocatesID(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {

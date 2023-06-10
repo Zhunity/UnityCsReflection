@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 	/// </summary>
     public partial class RSeekOrigin : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IO.SeekOrigin);
+            }
+        }
+
+        public RSeekOrigin() : base("System.IO.SeekOrigin")
+        {
+        }
+
+        public RSeekOrigin(System.Object instance) : base("System.IO.SeekOrigin")
+		{
+            SetInstance(instance);
+		}
+
+        public RSeekOrigin(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSeekOrigin(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -283,23 +308,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			}
 		}
 
-
-        public RSeekOrigin() : base("System.IO.SeekOrigin")
-        {
-        }
-
-        public RSeekOrigin(System.Object instance) : base("System.IO.SeekOrigin")
-		{
-            SetInstance(instance);
-		}
-
-        public RSeekOrigin(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSeekOrigin(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

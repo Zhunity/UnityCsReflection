@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 	/// </summary>
     public partial class RErrorCode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.PackageManager.ErrorCode);
+            }
+        }
+
+        public RErrorCode() : base("UnityEditor.PackageManager.ErrorCode")
+        {
+        }
+
+        public RErrorCode(System.Object instance) : base("UnityEditor.PackageManager.ErrorCode")
+		{
+            SetInstance(instance);
+		}
+
+        public RErrorCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RErrorCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			}
 		}
 
-
-        public RErrorCode() : base("UnityEditor.PackageManager.ErrorCode")
-        {
-        }
-
-        public RErrorCode(System.Object instance) : base("UnityEditor.PackageManager.ErrorCode")
-		{
-            SetInstance(instance);
-		}
-
-        public RErrorCode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RErrorCode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

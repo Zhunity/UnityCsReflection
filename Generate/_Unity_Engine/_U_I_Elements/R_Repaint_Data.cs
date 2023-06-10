@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RRepaintData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.RepaintData");
+            }
+        }
+
+        public RRepaintData() : base("UnityEngine.UIElements.RepaintData")
+        {
+        }
+
+        public RRepaintData(System.Object instance) : base("UnityEngine.UIElements.RepaintData")
+		{
+            SetInstance(instance);
+		}
+
+        public RRepaintData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRepaintData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Matrix4x4 <currentOffset>k__BackingField
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RRepaintData() : base("UnityEngine.UIElements.RepaintData")
-        {
-        }
-
-        public RRepaintData(System.Object instance) : base("UnityEngine.UIElements.RepaintData")
-		{
-            SetInstance(instance);
-		}
-
-        public RRepaintData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRepaintData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

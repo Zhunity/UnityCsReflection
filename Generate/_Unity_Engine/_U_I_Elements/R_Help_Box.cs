@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RHelpBox : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.HelpBox);
+            }
+        }
+
+        public RHelpBox() : base("UnityEngine.UIElements.HelpBox")
+        {
+        }
+
+        public RHelpBox(System.Object instance) : base("UnityEngine.UIElements.HelpBox")
+		{
+            SetInstance(instance);
+		}
+
+        public RHelpBox(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHelpBox(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.String ussClassName
@@ -3691,23 +3716,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RHelpBox() : base("UnityEngine.UIElements.HelpBox")
-        {
-        }
-
-        public RHelpBox(System.Object instance) : base("UnityEngine.UIElements.HelpBox")
-		{
-            SetInstance(instance);
-		}
-
-        public RHelpBox(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHelpBox(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String GetIconClass(UnityEngine.UIElements.HelpBoxMessageType @messageType)
         {

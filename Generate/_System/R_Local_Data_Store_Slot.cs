@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RLocalDataStoreSlot : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.LocalDataStoreSlot);
+            }
+        }
+
+        public RLocalDataStoreSlot() : base("System.LocalDataStoreSlot")
+        {
+        }
+
+        public RLocalDataStoreSlot(System.Object instance) : base("System.LocalDataStoreSlot")
+		{
+            SetInstance(instance);
+		}
+
+        public RLocalDataStoreSlot(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLocalDataStoreSlot(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.LocalDataStoreMgr m_mgr
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RLocalDataStoreSlot() : base("System.LocalDataStoreSlot")
-        {
-        }
-
-        public RLocalDataStoreSlot(System.Object instance) : base("System.LocalDataStoreSlot")
-		{
-            SetInstance(instance);
-		}
-
-        public RLocalDataStoreSlot(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLocalDataStoreSlot(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

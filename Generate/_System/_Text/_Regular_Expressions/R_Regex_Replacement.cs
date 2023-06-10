@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 	/// </summary>
     public partial class RRegexReplacement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement");
+            }
+        }
+
+        public RRegexReplacement() : base("System.Text.RegularExpressions.RegexReplacement")
+        {
+        }
+
+        public RRegexReplacement(System.Object instance) : base("System.Text.RegularExpressions.RegexReplacement")
+		{
+            SetInstance(instance);
+		}
+
+        public RRegexReplacement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRegexReplacement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 Specials
@@ -331,23 +356,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			}
 		}
 
-
-        public RRegexReplacement() : base("System.Text.RegularExpressions.RegexReplacement")
-        {
-        }
-
-        public RRegexReplacement(System.Object instance) : base("System.Text.RegularExpressions.RegexReplacement")
-		{
-            SetInstance(instance);
-		}
-
-        public RRegexReplacement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRegexReplacement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement GetOrCreate(Hvak.Editor.Refleaction.RSystem.RWeakReference<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement> @replRef, System.String @replacement, System.Collections.Hashtable @caps, System.Int32 @capsize, System.Collections.Hashtable @capnames, System.Text.RegularExpressions.RegexOptions @roptions)
         {

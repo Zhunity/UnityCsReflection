@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 	/// </summary>
     public partial class RAceEnumerator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.AccessControl.AceEnumerator);
+            }
+        }
+
+        public RAceEnumerator() : base("System.Security.AccessControl.AceEnumerator")
+        {
+        }
+
+        public RAceEnumerator(System.Object instance) : base("System.Security.AccessControl.AceEnumerator")
+		{
+            SetInstance(instance);
+		}
+
+        public RAceEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAceEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.AccessControl.GenericAcl owner
@@ -203,23 +228,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			}
 		}
 
-
-        public RAceEnumerator() : base("System.Security.AccessControl.AceEnumerator")
-        {
-        }
-
-        public RAceEnumerator(System.Object instance) : base("System.Security.AccessControl.AceEnumerator")
-		{
-            SetInstance(instance);
-		}
-
-        public RAceEnumerator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAceEnumerator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean MoveNext()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 	/// </summary>
     public partial class RLogicalCallContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Messaging.LogicalCallContext);
+            }
+        }
+
+        public RLogicalCallContext() : base("System.Runtime.Remoting.Messaging.LogicalCallContext")
+        {
+        }
+
+        public RLogicalCallContext(System.Object instance) : base("System.Runtime.Remoting.Messaging.LogicalCallContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RLogicalCallContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLogicalCallContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Type s_callContextType
@@ -571,23 +596,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			}
 		}
 
-
-        public RLogicalCallContext() : base("System.Runtime.Remoting.Messaging.LogicalCallContext")
-        {
-        }
-
-        public RLogicalCallContext(System.Object instance) : base("System.Runtime.Remoting.Messaging.LogicalCallContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RLogicalCallContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLogicalCallContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

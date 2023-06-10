@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RMonoBehaviour : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.MonoBehaviour);
+            }
+        }
+
+        public RMonoBehaviour() : base("UnityEngine.MonoBehaviour")
+        {
+        }
+
+        public RMonoBehaviour(System.Object instance) : base("UnityEngine.MonoBehaviour")
+		{
+            SetInstance(instance);
+		}
+
+        public RMonoBehaviour(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RMonoBehaviour(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.CancellationTokenSource m_CancellationTokenSource
@@ -1691,23 +1716,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RMonoBehaviour() : base("UnityEngine.MonoBehaviour")
-        {
-        }
-
-        public RMonoBehaviour(System.Object instance) : base("UnityEngine.MonoBehaviour")
-		{
-            SetInstance(instance);
-		}
-
-        public RMonoBehaviour(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RMonoBehaviour(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void RaiseCancellation()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RTaskAwaiter<TResult> : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.CompilerServices.TaskAwaiter<>);
+            }
+        }
+
+        public RTaskAwaiter() : base("System.Runtime.CompilerServices.TaskAwaiter`1")
+        {
+        }
+
+        public RTaskAwaiter(System.Object instance) : base("System.Runtime.CompilerServices.TaskAwaiter`1")
+		{
+            SetInstance(instance);
+		}
+
+        public RTaskAwaiter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTaskAwaiter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Threading.Tasks.Task`1[TResult] m_task
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RTaskAwaiter() : base("System.Runtime.CompilerServices.TaskAwaiter`1")
-        {
-        }
-
-        public RTaskAwaiter(System.Object instance) : base("System.Runtime.CompilerServices.TaskAwaiter`1")
-		{
-            SetInstance(instance);
-		}
-
-        public RTaskAwaiter(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTaskAwaiter(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnCompleted(System.Action @continuation)
         {

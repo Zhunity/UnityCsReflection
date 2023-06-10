@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 	/// </summary>
     public partial class RSecurityAction : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.Permissions.SecurityAction);
+            }
+        }
+
+        public RSecurityAction() : base("System.Security.Permissions.SecurityAction")
+        {
+        }
+
+        public RSecurityAction(System.Object instance) : base("System.Security.Permissions.SecurityAction")
+		{
+            SetInstance(instance);
+		}
+
+        public RSecurityAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSecurityAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -379,23 +404,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 			}
 		}
 
-
-        public RSecurityAction() : base("System.Security.Permissions.SecurityAction")
-        {
-        }
-
-        public RSecurityAction(System.Object instance) : base("System.Security.Permissions.SecurityAction")
-		{
-            SetInstance(instance);
-		}
-
-        public RSecurityAction(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSecurityAction(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

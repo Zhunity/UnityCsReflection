@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RTextureWrapMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.TextureWrapMode);
+            }
+        }
+
+        public RTextureWrapMode() : base("UnityEngine.TextureWrapMode")
+        {
+        }
+
+        public RTextureWrapMode(System.Object instance) : base("UnityEngine.TextureWrapMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextureWrapMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextureWrapMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RTextureWrapMode() : base("UnityEngine.TextureWrapMode")
-        {
-        }
-
-        public RTextureWrapMode(System.Object instance) : base("UnityEngine.TextureWrapMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextureWrapMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextureWrapMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

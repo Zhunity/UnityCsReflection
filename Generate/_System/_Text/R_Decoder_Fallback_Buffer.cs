@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class RDecoderFallbackBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.DecoderFallbackBuffer);
+            }
+        }
+
+        public RDecoderFallbackBuffer() : base("System.Text.DecoderFallbackBuffer")
+        {
+        }
+
+        public RDecoderFallbackBuffer(System.Object instance) : base("System.Text.DecoderFallbackBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public RDecoderFallbackBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDecoderFallbackBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Byte* byteStart
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public RDecoderFallbackBuffer() : base("System.Text.DecoderFallbackBuffer")
-        {
-        }
-
-        public RDecoderFallbackBuffer(System.Object instance) : base("System.Text.DecoderFallbackBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public RDecoderFallbackBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDecoderFallbackBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Fallback(System.Byte[] @bytesUnknown, System.Int32 @index)
         {

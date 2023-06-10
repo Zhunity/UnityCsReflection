@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RIMultiSelectFoldoutElement : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IMultiSelectFoldoutElement");
+            }
+        }
+
+        public RIMultiSelectFoldoutElement() : base("UnityEditor.PackageManager.UI.Internal.IMultiSelectFoldoutElement")
+        {
+        }
+
+        public RIMultiSelectFoldoutElement(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IMultiSelectFoldoutElement")
+		{
+            SetInstance(instance);
+		}
+
+        public RIMultiSelectFoldoutElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIMultiSelectFoldoutElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void Refresh()
@@ -59,23 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RIMultiSelectFoldoutElement() : base("UnityEditor.PackageManager.UI.Internal.IMultiSelectFoldoutElement")
-        {
-        }
-
-        public RIMultiSelectFoldoutElement(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IMultiSelectFoldoutElement")
-		{
-            SetInstance(instance);
-		}
-
-        public RIMultiSelectFoldoutElement(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIMultiSelectFoldoutElement(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Refresh()
         {

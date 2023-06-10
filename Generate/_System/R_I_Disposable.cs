@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RIDisposable : RMember //
     {
-
-		/// <summary>
-		/// Void Dispose()
-		/// </summary>
-		protected RMethod r_MDispose;
-		public virtual RMethod RMDispose
-		{
-			get
-			{
-				if(r_MDispose == null)
-				{
-					r_MDispose = new(this, "Dispose", 0);
-				}
-				return r_MDispose;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.IDisposable);
+            }
+        }
 
         public RIDisposable() : base("System.IDisposable")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem
 		 public RIDisposable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// Void Dispose()
+		/// </summary>
+		protected RMethod r_MDispose;
+		public virtual RMethod RMDispose
+		{
+			get
+			{
+				if(r_MDispose == null)
+				{
+					r_MDispose = new(this, "Dispose", 0);
+				}
+				return r_MDispose;
+			}
+		}
+
 
         public virtual void Dispose()
         {

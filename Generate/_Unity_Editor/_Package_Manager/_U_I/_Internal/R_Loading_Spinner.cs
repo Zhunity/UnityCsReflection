@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RLoadingSpinner : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.LoadingSpinner");
+            }
+        }
+
+        public RLoadingSpinner() : base("UnityEditor.PackageManager.UI.Internal.LoadingSpinner")
+        {
+        }
+
+        public RLoadingSpinner(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.LoadingSpinner")
+		{
+            SetInstance(instance);
+		}
+
+        public RLoadingSpinner(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLoadingSpinner(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Boolean <started>k__BackingField
@@ -3643,23 +3668,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RLoadingSpinner() : base("UnityEditor.PackageManager.UI.Internal.LoadingSpinner")
-        {
-        }
-
-        public RLoadingSpinner(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.LoadingSpinner")
-		{
-            SetInstance(instance);
-		}
-
-        public RLoadingSpinner(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLoadingSpinner(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static void UpdateProgress()
         {

@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 	/// </summary>
     public partial class RRenderRequestMode : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.Camera+RenderRequestMode");
+            }
+        }
+
+        public RRenderRequestMode() : base("UnityEngine.Camera+RenderRequestMode")
+        {
+        }
+
+        public RRenderRequestMode(System.Object instance) : base("UnityEngine.Camera+RenderRequestMode")
+		{
+            SetInstance(instance);
+		}
+
+        public RRenderRequestMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRenderRequestMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -461,23 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			}
 		}
 
-
-        public RRenderRequestMode() : base("UnityEngine.Camera+RenderRequestMode")
-        {
-        }
-
-        public RRenderRequestMode(System.Object instance) : base("UnityEngine.Camera+RenderRequestMode")
-		{
-            SetInstance(instance);
-		}
-
-        public RRenderRequestMode(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRenderRequestMode(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

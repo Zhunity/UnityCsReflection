@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RIPage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPage");
+            }
+        }
+
+        public RIPage() : base("UnityEditor.PackageManager.UI.Internal.IPage")
+        {
+        }
+
+        public RIPage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IPage")
+		{
+            SetInstance(instance);
+		}
+
+        public RIPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.PageSelection] onSelectionChanged
@@ -635,23 +660,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RIPage() : base("UnityEditor.PackageManager.UI.Internal.IPage")
-        {
-        }
-
-        public RIPage(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.IPage")
-		{
-            SetInstance(instance);
-		}
-
-        public RIPage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIPage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddSubPage(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSubPage @subPage)
         {

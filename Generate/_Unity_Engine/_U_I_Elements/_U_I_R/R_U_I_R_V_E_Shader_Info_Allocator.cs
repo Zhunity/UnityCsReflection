@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RUIRVEShaderInfoAllocator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator");
+            }
+        }
+
+        public RUIRVEShaderInfoAllocator() : base("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator")
+        {
+        }
+
+        public RUIRVEShaderInfoAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator")
+		{
+            SetInstance(instance);
+		}
+
+        public RUIRVEShaderInfoAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUIRVEShaderInfoAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.UIR.BaseShaderInfoStorage m_Storage
@@ -1083,23 +1108,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RUIRVEShaderInfoAllocator() : base("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator")
-        {
-        }
-
-        public RUIRVEShaderInfoAllocator(System.Object instance) : base("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator")
-		{
-            SetInstance(instance);
-		}
-
-        public RUIRVEShaderInfoAllocator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUIRVEShaderInfoAllocator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.Vector2Int AllocToTexelCoord(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32 @allocator, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc)
         {

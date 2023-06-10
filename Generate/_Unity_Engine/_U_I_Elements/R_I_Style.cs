@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RIStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.IStyle);
+            }
+        }
+
+        public RIStyle() : base("UnityEngine.UIElements.IStyle")
+        {
+        }
+
+        public RIStyle(System.Object instance) : base("UnityEngine.UIElements.IStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RIStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RIStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.UIElements.Align] alignContent
@@ -1323,23 +1348,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RIStyle() : base("UnityEngine.UIElements.IStyle")
-        {
-        }
-
-        public RIStyle(System.Object instance) : base("UnityEngine.UIElements.IStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RIStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RIStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
     }
 }

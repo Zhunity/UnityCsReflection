@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 	/// </summary>
     public partial class RUpmAddOperation : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmAddOperation");
+            }
+        }
+
+        public RUpmAddOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmAddOperation")
+        {
+        }
+
+        public RUpmAddOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmAddOperation")
+		{
+            SetInstance(instance);
+		}
+
+        public RUpmAddOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RUpmAddOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`2[UnityEditor.PackageManager.UI.Internal.IOperation,UnityEditor.PackageManager.UI.Internal.UIError] onOperationError
@@ -795,23 +820,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-
-        public RUpmAddOperation() : base("UnityEditor.PackageManager.UI.Internal.UpmAddOperation")
-        {
-        }
-
-        public RUpmAddOperation(System.Object instance) : base("UnityEditor.PackageManager.UI.Internal.UpmAddOperation")
-		{
-            SetInstance(instance);
-		}
-
-        public RUpmAddOperation(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RUpmAddOperation(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Add(System.String @packageId, System.String @packageUniqueId)
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 	/// </summary>
     public partial class RStreamingContext : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Serialization.StreamingContext);
+            }
+        }
+
+        public RStreamingContext() : base("System.Runtime.Serialization.StreamingContext")
+        {
+        }
+
+        public RStreamingContext(System.Object instance) : base("System.Runtime.Serialization.StreamingContext")
+		{
+            SetInstance(instance);
+		}
+
+        public RStreamingContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStreamingContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object m_additionalContext
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			}
 		}
 
-
-        public RStreamingContext() : base("System.Runtime.Serialization.StreamingContext")
-        {
-        }
-
-        public RStreamingContext(System.Object instance) : base("System.Runtime.Serialization.StreamingContext")
-		{
-            SetInstance(instance);
-		}
-
-        public RStreamingContext(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStreamingContext(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

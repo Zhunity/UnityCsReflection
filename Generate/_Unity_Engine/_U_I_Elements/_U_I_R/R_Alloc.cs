@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RAlloc : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Alloc");
+            }
+        }
+
+        public RAlloc() : base("UnityEngine.UIElements.UIR.Alloc")
+        {
+        }
+
+        public RAlloc(System.Object instance) : base("UnityEngine.UIElements.UIR.Alloc")
+		{
+            SetInstance(instance);
+		}
+
+        public RAlloc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAlloc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 start
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RAlloc() : base("UnityEngine.UIElements.UIR.Alloc")
-        {
-        }
-
-        public RAlloc(System.Object instance) : base("UnityEngine.UIElements.UIR.Alloc")
-		{
-            SetInstance(instance);
-		}
-
-        public RAlloc(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAlloc(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

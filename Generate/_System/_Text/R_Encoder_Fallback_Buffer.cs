@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 	/// </summary>
     public partial class REncoderFallbackBuffer : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Text.EncoderFallbackBuffer);
+            }
+        }
+
+        public REncoderFallbackBuffer() : base("System.Text.EncoderFallbackBuffer")
+        {
+        }
+
+        public REncoderFallbackBuffer(System.Object instance) : base("System.Text.EncoderFallbackBuffer")
+		{
+            SetInstance(instance);
+		}
+
+        public REncoderFallbackBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REncoderFallbackBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Char* charStart
@@ -411,23 +436,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			}
 		}
 
-
-        public REncoderFallbackBuffer() : base("System.Text.EncoderFallbackBuffer")
-        {
-        }
-
-        public REncoderFallbackBuffer(System.Object instance) : base("System.Text.EncoderFallbackBuffer")
-		{
-            SetInstance(instance);
-		}
-
-        public REncoderFallbackBuffer(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REncoderFallbackBuffer(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Fallback(System.Char @charUnknown, System.Int32 @index)
         {

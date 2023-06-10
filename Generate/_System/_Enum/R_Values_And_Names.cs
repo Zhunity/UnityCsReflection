@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RValuesAndNames : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Enum+ValuesAndNames");
+            }
+        }
+
+        public RValuesAndNames() : base("System.Enum+ValuesAndNames")
+        {
+        }
+
+        public RValuesAndNames(System.Object instance) : base("System.Enum+ValuesAndNames")
+		{
+            SetInstance(instance);
+		}
+
+        public RValuesAndNames(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RValuesAndNames(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt64[] Values
@@ -141,23 +166,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RValuesAndNames() : base("System.Enum+ValuesAndNames")
-        {
-        }
-
-        public RValuesAndNames(System.Object instance) : base("System.Enum+ValuesAndNames")
-		{
-            SetInstance(instance);
-		}
-
-        public RValuesAndNames(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RValuesAndNames(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

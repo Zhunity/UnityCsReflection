@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement
 	/// </summary>
     public partial class RShortcutArguments : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEditor.ShortcutManagement.ShortcutArguments);
+            }
+        }
+
+        public RShortcutArguments() : base("UnityEditor.ShortcutManagement.ShortcutArguments")
+        {
+        }
+
+        public RShortcutArguments(System.Object instance) : base("UnityEditor.ShortcutManagement.ShortcutArguments")
+		{
+            SetInstance(instance);
+		}
+
+        public RShortcutArguments(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RShortcutArguments(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object context
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RShortcutManagement
 			}
 		}
 
-
-        public RShortcutArguments() : base("UnityEditor.ShortcutManagement.ShortcutArguments")
-        {
-        }
-
-        public RShortcutArguments(System.Object instance) : base("UnityEditor.ShortcutManagement.ShortcutArguments")
-		{
-            SetInstance(instance);
-		}
-
-        public RShortcutArguments(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RShortcutArguments(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

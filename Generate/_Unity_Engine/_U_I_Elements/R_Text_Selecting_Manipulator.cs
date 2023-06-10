@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTextSelectingManipulator : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextSelectingManipulator");
+            }
+        }
+
+        public RTextSelectingManipulator() : base("UnityEngine.UIElements.TextSelectingManipulator")
+        {
+        }
+
+        public RTextSelectingManipulator(System.Object instance) : base("UnityEngine.UIElements.TextSelectingManipulator")
+		{
+            SetInstance(instance);
+		}
+
+        public RTextSelectingManipulator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTextSelectingManipulator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.TextSelectingUtilities m_SelectingUtilities
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTextSelectingManipulator() : base("UnityEngine.UIElements.TextSelectingManipulator")
-        {
-        }
-
-        public RTextSelectingManipulator(System.Object instance) : base("UnityEngine.UIElements.TextSelectingManipulator")
-		{
-            SetInstance(instance);
-		}
-
-        public RTextSelectingManipulator(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTextSelectingManipulator(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void OnRevealCursor()
         {

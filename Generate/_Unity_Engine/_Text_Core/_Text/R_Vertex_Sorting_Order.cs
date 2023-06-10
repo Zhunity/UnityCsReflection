@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 	/// </summary>
     public partial class RVertexSortingOrder : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.TextCore.Text.VertexSortingOrder");
+            }
+        }
+
+        public RVertexSortingOrder() : base("UnityEngine.TextCore.Text.VertexSortingOrder")
+        {
+        }
+
+        public RVertexSortingOrder(System.Object instance) : base("UnityEngine.TextCore.Text.VertexSortingOrder")
+		{
+            SetInstance(instance);
+		}
+
+        public RVertexSortingOrder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RVertexSortingOrder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			}
 		}
 
-
-        public RVertexSortingOrder() : base("UnityEngine.TextCore.Text.VertexSortingOrder")
-        {
-        }
-
-        public RVertexSortingOrder(System.Object instance) : base("UnityEngine.TextCore.Text.VertexSortingOrder")
-		{
-            SetInstance(instance);
-		}
-
-        public RVertexSortingOrder(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RVertexSortingOrder(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 	/// </summary>
     public partial class RShaderTagId : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.Rendering.ShaderTagId);
+            }
+        }
+
+        public RShaderTagId() : base("UnityEngine.Rendering.ShaderTagId")
+        {
+        }
+
+        public RShaderTagId(System.Object instance) : base("UnityEngine.Rendering.ShaderTagId")
+		{
+            SetInstance(instance);
+		}
+
+        public RShaderTagId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RShaderTagId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Rendering.ShaderTagId none
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			}
 		}
 
-
-        public RShaderTagId() : base("UnityEngine.Rendering.ShaderTagId")
-        {
-        }
-
-        public RShaderTagId(System.Object instance) : base("UnityEngine.Rendering.ShaderTagId")
-		{
-            SetInstance(instance);
-		}
-
-        public RShaderTagId(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RShaderTagId(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

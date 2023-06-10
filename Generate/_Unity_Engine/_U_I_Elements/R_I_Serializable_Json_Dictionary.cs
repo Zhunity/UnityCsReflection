@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RISerializableJsonDictionary : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ISerializableJsonDictionary");
+            }
+        }
+
+        public RISerializableJsonDictionary() : base("UnityEngine.UIElements.ISerializableJsonDictionary")
+        {
+        }
+
+        public RISerializableJsonDictionary(System.Object instance) : base("UnityEngine.UIElements.ISerializableJsonDictionary")
+		{
+            SetInstance(instance);
+		}
+
+        public RISerializableJsonDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RISerializableJsonDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Void Set[T](System.String, T)
@@ -123,23 +148,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RISerializableJsonDictionary() : base("UnityEngine.UIElements.ISerializableJsonDictionary")
-        {
-        }
-
-        public RISerializableJsonDictionary(System.Object instance) : base("UnityEngine.UIElements.ISerializableJsonDictionary")
-		{
-            SetInstance(instance);
-		}
-
-        public RISerializableJsonDictionary(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RISerializableJsonDictionary(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Set<T>(System.String @key, T @value) where T : class
         {

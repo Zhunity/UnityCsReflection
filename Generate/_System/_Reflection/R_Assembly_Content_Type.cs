@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RAssemblyContentType : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.AssemblyContentType);
+            }
+        }
+
+        public RAssemblyContentType() : base("System.Reflection.AssemblyContentType")
+        {
+        }
+
+        public RAssemblyContentType(System.Object instance) : base("System.Reflection.AssemblyContentType")
+		{
+            SetInstance(instance);
+		}
+
+        public RAssemblyContentType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RAssemblyContentType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RAssemblyContentType() : base("System.Reflection.AssemblyContentType")
-        {
-        }
-
-        public RAssemblyContentType(System.Object instance) : base("System.Reflection.AssemblyContentType")
-		{
-            SetInstance(instance);
-		}
-
-        public RAssemblyContentType(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RAssemblyContentType(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RBaseVisualElementPanel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.BaseVisualElementPanel");
+            }
+        }
+
+        public RBaseVisualElementPanel() : base("UnityEngine.UIElements.BaseVisualElementPanel")
+        {
+        }
+
+        public RBaseVisualElementPanel(System.Object instance) : base("UnityEngine.UIElements.BaseVisualElementPanel")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseVisualElementPanel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseVisualElementPanel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.BaseVisualElementPanel] panelDisposed
@@ -1627,23 +1652,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RBaseVisualElementPanel() : base("UnityEngine.UIElements.BaseVisualElementPanel")
-        {
-        }
-
-        public RBaseVisualElementPanel(System.Object instance) : base("UnityEngine.UIElements.BaseVisualElementPanel")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseVisualElementPanel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseVisualElementPanel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Dispose()
         {

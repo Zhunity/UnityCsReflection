@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RSingle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Single);
+            }
+        }
+
+        public RSingle() : base("System.Single")
+        {
+        }
+
+        public RSingle(System.Object instance) : base("System.Single")
+		{
+            SetInstance(instance);
+		}
+
+        public RSingle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSingle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_value
@@ -987,23 +1012,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RSingle() : base("System.Single")
-        {
-        }
-
-        public RSingle(System.Object instance) : base("System.Single")
-		{
-            SetInstance(instance);
-		}
-
-        public RSingle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSingle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Boolean IsFinite(System.Single @f)
         {

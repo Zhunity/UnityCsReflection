@@ -10,23 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 	/// </summary>
     public partial class RIDynamicProperty : RMember //
     {
-
-		/// <summary>
-		/// System.String Name
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
-		{
-			get
-			{
-				if(r_PName == null)
-				{
-					r_PName = new(this, "Name", -1);
-				}
-				return r_PName;
-			}
-		}
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Contexts.IDynamicProperty);
+            }
+        }
 
         public RIDynamicProperty() : base("System.Runtime.Remoting.Contexts.IDynamicProperty")
         {
@@ -44,6 +34,24 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 		 public RIDynamicProperty(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
+		/// <summary>
+		/// System.String Name
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPName
+		{
+			get
+			{
+				if(r_PName == null)
+				{
+					r_PName = new(this, "Name", -1);
+				}
+				return r_PName;
+			}
+		}
+
 
     }
 }

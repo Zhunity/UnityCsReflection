@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RICustomStyle : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.ICustomStyle);
+            }
+        }
+
+        public RICustomStyle() : base("UnityEngine.UIElements.ICustomStyle")
+        {
+        }
+
+        public RICustomStyle(System.Object instance) : base("UnityEngine.UIElements.ICustomStyle")
+		{
+            SetInstance(instance);
+		}
+
+        public RICustomStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RICustomStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty`1[System.Single], Single ByRef)
@@ -155,23 +180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RICustomStyle() : base("UnityEngine.UIElements.ICustomStyle")
-        {
-        }
-
-        public RICustomStyle(System.Object instance) : base("UnityEngine.UIElements.ICustomStyle")
-		{
-            SetInstance(instance);
-		}
-
-        public RICustomStyle(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RICustomStyle(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean TryGetValue(UnityEngine.UIElements.CustomStyleProperty<System.Single> @property, out System.Single @value)
         {

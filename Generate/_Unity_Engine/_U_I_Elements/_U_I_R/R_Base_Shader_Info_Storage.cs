@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RBaseShaderInfoStorage : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BaseShaderInfoStorage");
+            }
+        }
+
+        public RBaseShaderInfoStorage() : base("UnityEngine.UIElements.UIR.BaseShaderInfoStorage")
+        {
+        }
+
+        public RBaseShaderInfoStorage(System.Object instance) : base("UnityEngine.UIElements.UIR.BaseShaderInfoStorage")
+		{
+            SetInstance(instance);
+		}
+
+        public RBaseShaderInfoStorage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RBaseShaderInfoStorage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 s_TextureCounter
@@ -299,23 +324,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RBaseShaderInfoStorage() : base("UnityEngine.UIElements.UIR.BaseShaderInfoStorage")
-        {
-        }
-
-        public RBaseShaderInfoStorage(System.Object instance) : base("UnityEngine.UIElements.UIR.BaseShaderInfoStorage")
-		{
-            SetInstance(instance);
-		}
-
-        public RBaseShaderInfoStorage(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RBaseShaderInfoStorage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean AllocateRect(System.Int32 @width, System.Int32 @height, out UnityEngine.RectInt @uvs)
         {

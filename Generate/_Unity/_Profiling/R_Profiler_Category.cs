@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 	/// </summary>
     public partial class RProfilerCategory : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(Unity.Profiling.ProfilerCategory);
+            }
+        }
+
+        public RProfilerCategory() : base("Unity.Profiling.ProfilerCategory")
+        {
+        }
+
+        public RProfilerCategory(System.Object instance) : base("Unity.Profiling.ProfilerCategory")
+		{
+            SetInstance(instance);
+		}
+
+        public RProfilerCategory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RProfilerCategory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt16 m_CategoryId
@@ -507,23 +532,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			}
 		}
 
-
-        public RProfilerCategory() : base("Unity.Profiling.ProfilerCategory")
-        {
-        }
-
-        public RProfilerCategory(System.Object instance) : base("Unity.Profiling.ProfilerCategory")
-		{
-            SetInstance(instance);
-		}
-
-        public RProfilerCategory(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RProfilerCategory(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.String ToString()
         {

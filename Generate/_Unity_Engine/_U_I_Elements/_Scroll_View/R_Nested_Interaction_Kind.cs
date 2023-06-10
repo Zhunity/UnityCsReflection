@@ -12,6 +12,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RNestedInteractionKind : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ScrollView+NestedInteractionKind");
+            }
+        }
+
+        public RNestedInteractionKind() : base("UnityEngine.UIElements.ScrollView+NestedInteractionKind")
+        {
+        }
+
+        public RNestedInteractionKind(System.Object instance) : base("UnityEngine.UIElements.ScrollView+NestedInteractionKind")
+		{
+            SetInstance(instance);
+		}
+
+        public RNestedInteractionKind(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RNestedInteractionKind(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -285,23 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RNestedInteractionKind() : base("UnityEngine.UIElements.ScrollView+NestedInteractionKind")
-        {
-        }
-
-        public RNestedInteractionKind(System.Object instance) : base("UnityEngine.UIElements.ScrollView+NestedInteractionKind")
-		{
-            SetInstance(instance);
-		}
-
-        public RNestedInteractionKind(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RNestedInteractionKind(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RImageSource : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.ImageSource");
+            }
+        }
+
+        public RImageSource() : base("UnityEngine.UIElements.StyleSheets.ImageSource")
+        {
+        }
+
+        public RImageSource(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.ImageSource")
+		{
+            SetInstance(instance);
+		}
+
+        public RImageSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RImageSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.Texture2D texture
@@ -187,23 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RImageSource() : base("UnityEngine.UIElements.StyleSheets.ImageSource")
-        {
-        }
-
-        public RImageSource(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.ImageSource")
-		{
-            SetInstance(instance);
-		}
-
-        public RImageSource(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RImageSource(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean IsNull()
         {

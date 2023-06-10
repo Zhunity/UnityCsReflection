@@ -44,7 +44,7 @@ namespace Hvak.Editor.Refleaction
 			// 0、如果需要用到dll的别名，可以在这里注册。（因为不知道怎么反射dll的alias名，先用笨方法，手动注册了）
 			ModuleAliasConfig.Set("", "");
 			// 1、指定生成代码的文件夹路径
-			GenerateRtype.UnityCSReflectionPath = $"{Application.dataPath}/UnityCsReflection/";
+			GenerateRtype.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
 			// 2、添加需要生成的类，重载了三种接口，这是其中传入类型名字的接口，其余两种是传类型列表，传实例列表
 			GenerateRtype.Generate(new List<string> { "UnityType", "ComponentDropdownItem", "AddComponentWindow", "PackageManagerWindow", "BTest" });
 		}

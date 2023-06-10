@@ -10,7 +10,13 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 	/// </summary>
     public partial class RIConstructionReturnMessage : RMember //
     {
-
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.Remoting.Activation.IConstructionReturnMessage);
+            }
+        }
 
         public RIConstructionReturnMessage() : base("System.Runtime.Remoting.Activation.IConstructionReturnMessage")
         {
@@ -28,6 +34,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 		 public RIConstructionReturnMessage(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
 	    {
 	    }
+
+
 
     }
 }

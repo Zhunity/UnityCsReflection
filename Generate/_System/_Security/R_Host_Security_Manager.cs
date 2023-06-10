@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 	/// </summary>
     public partial class RHostSecurityManager : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Security.HostSecurityManager);
+            }
+        }
+
+        public RHostSecurityManager() : base("System.Security.HostSecurityManager")
+        {
+        }
+
+        public RHostSecurityManager(System.Object instance) : base("System.Security.HostSecurityManager")
+		{
+            SetInstance(instance);
+		}
+
+        public RHostSecurityManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHostSecurityManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Security.Policy.PolicyLevel DomainPolicy
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			}
 		}
 
-
-        public RHostSecurityManager() : base("System.Security.HostSecurityManager")
-        {
-        }
-
-        public RHostSecurityManager(System.Object instance) : base("System.Security.HostSecurityManager")
-		{
-            SetInstance(instance);
-		}
-
-        public RHostSecurityManager(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHostSecurityManager(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Security.Policy.ApplicationTrust DetermineApplicationTrust(System.Security.Policy.Evidence @applicationEvidence, System.Security.Policy.Evidence @activatorEvidence, System.Security.Policy.TrustManagerContext @context)
         {

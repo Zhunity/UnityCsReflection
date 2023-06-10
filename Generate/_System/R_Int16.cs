@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem
 	/// </summary>
     public partial class RInt16 : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Int16);
+            }
+        }
+
+        public RInt16() : base("System.Int16")
+        {
+        }
+
+        public RInt16(System.Object instance) : base("System.Int16")
+		{
+            SetInstance(instance);
+		}
+
+        public RInt16(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RInt16(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int16 m_value
@@ -699,23 +724,6 @@ namespace Hvak.Editor.Refleaction.RSystem
 			}
 		}
 
-
-        public RInt16() : base("System.Int16")
-        {
-        }
-
-        public RInt16(System.Object instance) : base("System.Int16")
-		{
-            SetInstance(instance);
-		}
-
-        public RInt16(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RInt16(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Int32 CompareTo(System.Object @value)
         {

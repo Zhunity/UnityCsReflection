@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RThreadState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ThreadState);
+            }
+        }
+
+        public RThreadState() : base("System.Threading.ThreadState")
+        {
+        }
+
+        public RThreadState(System.Object instance) : base("System.Threading.ThreadState")
+		{
+            SetInstance(instance);
+		}
+
+        public RThreadState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RThreadState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 value__
@@ -395,23 +420,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RThreadState() : base("System.Threading.ThreadState")
-        {
-        }
-
-        public RThreadState(System.Object instance) : base("System.Threading.ThreadState")
-		{
-            SetInstance(instance);
-		}
-
-        public RThreadState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RThreadState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Object GetValue()
         {

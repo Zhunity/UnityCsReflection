@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTimeValue : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(UnityEngine.UIElements.TimeValue);
+            }
+        }
+
+        public RTimeValue() : base("UnityEngine.UIElements.TimeValue")
+        {
+        }
+
+        public RTimeValue(System.Object instance) : base("UnityEngine.UIElements.TimeValue")
+		{
+            SetInstance(instance);
+		}
+
+        public RTimeValue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTimeValue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Single m_Value
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTimeValue() : base("UnityEngine.UIElements.TimeValue")
-        {
-        }
-
-        public RTimeValue(System.Object instance) : base("UnityEngine.UIElements.TimeValue")
-		{
-            SetInstance(instance);
-		}
-
-        public RTimeValue(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTimeValue(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static UnityEngine.UIElements.TimeValue op_Implicit(System.Single @value)
         {

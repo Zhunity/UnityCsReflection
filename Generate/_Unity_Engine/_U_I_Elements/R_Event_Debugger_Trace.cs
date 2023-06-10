@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class REventDebuggerTrace : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.EventDebuggerTrace");
+            }
+        }
+
+        public REventDebuggerTrace() : base("UnityEngine.UIElements.EventDebuggerTrace")
+        {
+        }
+
+        public REventDebuggerTrace(System.Object instance) : base("UnityEngine.UIElements.EventDebuggerTrace")
+		{
+            SetInstance(instance);
+		}
+
+        public REventDebuggerTrace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REventDebuggerTrace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEngine.UIElements.EventDebuggerEventRecord <eventBase>k__BackingField
@@ -235,23 +260,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public REventDebuggerTrace() : base("UnityEngine.UIElements.EventDebuggerTrace")
-        {
-        }
-
-        public REventDebuggerTrace(System.Object instance) : base("UnityEngine.UIElements.EventDebuggerTrace")
-		{
-            SetInstance(instance);
-		}
-
-        public REventDebuggerTrace(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REventDebuggerTrace(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

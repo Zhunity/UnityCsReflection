@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RDropInfo : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.DropInfo");
+            }
+        }
+
+        public RDropInfo() : base("UnityEditor.DropInfo")
+        {
+        }
+
+        public RDropInfo(System.Object instance) : base("UnityEditor.DropInfo")
+		{
+            SetInstance(instance);
+		}
+
+        public RDropInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RDropInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// UnityEditor.IDropArea dropArea
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RDropInfo() : base("UnityEditor.DropInfo")
-        {
-        }
-
-        public RDropInfo(System.Object instance) : base("UnityEditor.DropInfo")
-		{
-            SetInstance(instance);
-		}
-
-        public RDropInfo(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RDropInfo(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

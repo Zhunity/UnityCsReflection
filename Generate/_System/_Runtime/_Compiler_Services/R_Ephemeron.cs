@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class REphemeron : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.Ephemeron");
+            }
+        }
+
+        public REphemeron() : base("System.Runtime.CompilerServices.Ephemeron")
+        {
+        }
+
+        public REphemeron(System.Object instance) : base("System.Runtime.CompilerServices.Ephemeron")
+		{
+            SetInstance(instance);
+		}
+
+        public REphemeron(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public REphemeron(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Object key
@@ -139,23 +164,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public REphemeron() : base("System.Runtime.CompilerServices.Ephemeron")
-        {
-        }
-
-        public REphemeron(System.Object instance) : base("System.Runtime.CompilerServices.Ephemeron")
-		{
-            SetInstance(instance);
-		}
-
-        public REphemeron(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public REphemeron(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

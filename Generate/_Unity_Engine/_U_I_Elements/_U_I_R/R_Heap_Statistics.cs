@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 	/// </summary>
     public partial class RHeapStatistics : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.HeapStatistics");
+            }
+        }
+
+        public RHeapStatistics() : base("UnityEngine.UIElements.UIR.HeapStatistics")
+        {
+        }
+
+        public RHeapStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.HeapStatistics")
+		{
+            SetInstance(instance);
+		}
+
+        public RHeapStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RHeapStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.UInt32 numAllocs
@@ -267,23 +292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			}
 		}
 
-
-        public RHeapStatistics() : base("UnityEngine.UIElements.UIR.HeapStatistics")
-        {
-        }
-
-        public RHeapStatistics(System.Object instance) : base("UnityEngine.UIElements.UIR.HeapStatistics")
-		{
-            SetInstance(instance);
-		}
-
-        public RHeapStatistics(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RHeapStatistics(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

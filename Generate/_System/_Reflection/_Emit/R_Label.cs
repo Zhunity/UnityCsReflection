@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 	/// </summary>
     public partial class RLabel : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Reflection.Emit.Label);
+            }
+        }
+
+        public RLabel() : base("System.Reflection.Emit.Label")
+        {
+        }
+
+        public RLabel(System.Object instance) : base("System.Reflection.Emit.Label")
+		{
+            SetInstance(instance);
+		}
+
+        public RLabel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RLabel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 label
@@ -171,23 +196,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			}
 		}
 
-
-        public RLabel() : base("System.Reflection.Emit.Label")
-        {
-        }
-
-        public RLabel(System.Object instance) : base("System.Reflection.Emit.Label")
-		{
-            SetInstance(instance);
-		}
-
-        public RLabel(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RLabel(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual System.Boolean Equals(System.Object @obj)
         {

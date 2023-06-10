@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 	/// </summary>
     public partial class RSplitterState : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEditor.SplitterState");
+            }
+        }
+
+        public RSplitterState() : base("UnityEditor.SplitterState")
+        {
+        }
+
+        public RSplitterState(System.Object instance) : base("UnityEditor.SplitterState")
+		{
+            SetInstance(instance);
+		}
+
+        public RSplitterState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RSplitterState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 defaultSplitSize
@@ -619,23 +644,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-
-        public RSplitterState() : base("UnityEditor.SplitterState")
-        {
-        }
-
-        public RSplitterState(System.Object instance) : base("UnityEditor.SplitterState")
-		{
-            SetInstance(instance);
-		}
-
-        public RSplitterState(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RSplitterState(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public static System.Single CastIntToFloat(System.Int32 @input)
         {

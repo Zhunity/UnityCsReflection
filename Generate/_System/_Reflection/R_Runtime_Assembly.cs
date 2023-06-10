@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 	/// </summary>
     public partial class RRuntimeAssembly : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("System.Reflection.RuntimeAssembly");
+            }
+        }
+
+        public RRuntimeAssembly() : base("System.Reflection.RuntimeAssembly")
+        {
+        }
+
+        public RRuntimeAssembly(System.Object instance) : base("System.Reflection.RuntimeAssembly")
+		{
+            SetInstance(instance);
+		}
+
+        public RRuntimeAssembly(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RRuntimeAssembly(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Reflection.ModuleResolveEventHandler ModuleResolve
@@ -1691,23 +1716,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			}
 		}
 
-
-        public RRuntimeAssembly() : base("System.Reflection.RuntimeAssembly")
-        {
-        }
-
-        public RRuntimeAssembly(System.Object instance) : base("System.Reflection.RuntimeAssembly")
-		{
-            SetInstance(instance);
-		}
-
-        public RRuntimeAssembly(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RRuntimeAssembly(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void GetObjectData(System.Runtime.Serialization.SerializationInfo @info, System.Runtime.Serialization.StreamingContext @context)
         {

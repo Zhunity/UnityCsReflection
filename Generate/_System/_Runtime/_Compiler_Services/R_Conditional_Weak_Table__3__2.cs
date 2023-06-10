@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 	/// </summary>
     public partial class RConditionalWeakTable<TKey, TValue> : RMember // where TKey : class where TValue : class
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >);
+            }
+        }
+
+        public RConditionalWeakTable() : base("System.Runtime.CompilerServices.ConditionalWeakTable`2")
+        {
+        }
+
+        public RConditionalWeakTable(System.Object instance) : base("System.Runtime.CompilerServices.ConditionalWeakTable`2")
+		{
+            SetInstance(instance);
+		}
+
+        public RConditionalWeakTable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RConditionalWeakTable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Int32 INITIAL_SIZE
@@ -459,23 +484,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			}
 		}
 
-
-        public RConditionalWeakTable() : base("System.Runtime.CompilerServices.ConditionalWeakTable`2")
-        {
-        }
-
-        public RConditionalWeakTable(System.Object instance) : base("System.Runtime.CompilerServices.ConditionalWeakTable`2")
-		{
-            SetInstance(instance);
-		}
-
-        public RConditionalWeakTable(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RConditionalWeakTable(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void Finalize()
         {

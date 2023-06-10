@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 	/// </summary>
     public partial class RTransitionData : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TransitionData");
+            }
+        }
+
+        public RTransitionData() : base("UnityEngine.UIElements.TransitionData")
+        {
+        }
+
+        public RTransitionData(System.Object instance) : base("UnityEngine.UIElements.TransitionData")
+		{
+            SetInstance(instance);
+		}
+
+        public RTransitionData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RTransitionData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.TimeValue] transitionDelay
@@ -251,23 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-
-        public RTransitionData() : base("UnityEngine.UIElements.TransitionData")
-        {
-        }
-
-        public RTransitionData(System.Object instance) : base("UnityEngine.UIElements.TransitionData")
-		{
-            SetInstance(instance);
-		}
-
-        public RTransitionData(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RTransitionData(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData Copy()
         {

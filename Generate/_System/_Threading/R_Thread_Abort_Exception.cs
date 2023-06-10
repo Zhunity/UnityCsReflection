@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 	/// </summary>
     public partial class RThreadAbortException : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return typeof(System.Threading.ThreadAbortException);
+            }
+        }
+
+        public RThreadAbortException() : base("System.Threading.ThreadAbortException")
+        {
+        }
+
+        public RThreadAbortException(System.Object instance) : base("System.Threading.ThreadAbortException")
+		{
+            SetInstance(instance);
+		}
+
+        public RThreadAbortException(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RThreadAbortException(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.EventHandler`1[System.Runtime.Serialization.SafeSerializationEventArgs] SerializeObjectState
@@ -539,23 +564,6 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			}
 		}
 
-
-        public RThreadAbortException() : base("System.Threading.ThreadAbortException")
-        {
-        }
-
-        public RThreadAbortException(System.Object instance) : base("System.Threading.ThreadAbortException")
-		{
-            SetInstance(instance);
-		}
-
-        public RThreadAbortException(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RThreadAbortException(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual void AddExceptionDataForRestrictedErrorInfo(System.String @restrictedError, System.String @restrictedErrorReference, System.String @restrictedCapabilitySid, System.Object @restrictedErrorObject, System.Boolean @hasrestrictedLanguageErrorObject)
         {

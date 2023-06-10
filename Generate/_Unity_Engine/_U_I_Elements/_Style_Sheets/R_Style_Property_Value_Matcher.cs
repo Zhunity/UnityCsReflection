@@ -10,6 +10,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 	/// </summary>
     public partial class RStylePropertyValueMatcher : RMember //
     {
+        public static Type Type
+        {
+            get
+            {
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher");
+            }
+        }
+
+        public RStylePropertyValueMatcher() : base("UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher")
+        {
+        }
+
+        public RStylePropertyValueMatcher(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher")
+		{
+            SetInstance(instance);
+		}
+
+        public RStylePropertyValueMatcher(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
+	    {
+	    }
+
+		 public RStylePropertyValueMatcher(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
+	    {
+	    }
+
 
 		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSheets.StylePropertyValue] m_Values
@@ -523,23 +548,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			}
 		}
 
-
-        public RStylePropertyValueMatcher() : base("UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher")
-        {
-        }
-
-        public RStylePropertyValueMatcher(System.Object instance) : base("UnityEngine.UIElements.StyleSheets.StylePropertyValueMatcher")
-		{
-            SetInstance(instance);
-		}
-
-        public RStylePropertyValueMatcher(RMember belongMember, string name, int genericCount = -1, params Type[] types) : base(belongMember, name, genericCount, types)
-	    {
-	    }
-
-		 public RStylePropertyValueMatcher(Type belongType, string name, int genericCount = -1, params Type[] types) : base(belongType, name, genericCount, types)
-	    {
-	    }
 
         public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RMatchResult Match(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpression @exp, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue> @values)
         {
