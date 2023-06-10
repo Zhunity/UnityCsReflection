@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
         {
             get
             {
-                return typeof(UnityEditor.PackageManager.Requests.Request<>).MakeGenericType(TypeToString.GetType(typeof(T)));
+                return typeof(UnityEditor.PackageManager.Requests.Request<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         {
             get
             {
-                return typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>).MakeGenericType(TypeToString.GetType(typeof(T)));
+                return typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

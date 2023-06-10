@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.LinkedPoolItem`1").MakeGenericType(TypeToString.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.LinkedPoolItem`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

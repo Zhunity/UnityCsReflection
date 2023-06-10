@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.Func<, >).MakeGenericType(TypeToString.GetType(typeof(T)), TypeToString.GetType(typeof(TResult)));
+                return typeof(System.Func<, >).MakeGenericType(ReflectionUtils.GetType(typeof(T)), ReflectionUtils.GetType(typeof(TResult)));
             }
         }
 

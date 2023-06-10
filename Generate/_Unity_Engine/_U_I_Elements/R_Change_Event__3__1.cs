@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.ChangeEvent<>).MakeGenericType(TypeToString.GetType(typeof(T)));
+                return typeof(UnityEngine.UIElements.ChangeEvent<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

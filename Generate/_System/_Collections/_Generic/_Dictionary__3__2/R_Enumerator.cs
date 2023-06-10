@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2+Enumerator").MakeGenericType(TypeToString.GetType(typeof(TKey)), TypeToString.GetType(typeof(TValue)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2+Enumerator").MakeGenericType(ReflectionUtils.GetType(typeof(TKey)), ReflectionUtils.GetType(typeof(TValue)));
             }
         }
 

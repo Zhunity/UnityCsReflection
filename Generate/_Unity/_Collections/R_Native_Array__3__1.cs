@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return typeof(Unity.Collections.NativeArray<>).MakeGenericType(TypeToString.GetType(typeof(T)));
+                return typeof(Unity.Collections.NativeArray<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

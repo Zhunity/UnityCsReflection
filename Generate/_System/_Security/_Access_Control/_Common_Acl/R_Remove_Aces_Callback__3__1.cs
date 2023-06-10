@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1").MakeGenericType(TypeToString.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

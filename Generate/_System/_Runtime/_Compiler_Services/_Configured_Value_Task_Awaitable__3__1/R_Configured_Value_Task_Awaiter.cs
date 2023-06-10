@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1+ConfiguredValueTaskAwaiter").MakeGenericType(TypeToString.GetType(typeof(TResult)));
+                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable`1+ConfiguredValueTaskAwaiter").MakeGenericType(ReflectionUtils.GetType(typeof(TResult)));
             }
         }
 

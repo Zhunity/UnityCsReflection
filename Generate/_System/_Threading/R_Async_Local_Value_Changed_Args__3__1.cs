@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
         {
             get
             {
-                return typeof(System.Threading.AsyncLocalValueChangedArgs<>).MakeGenericType(TypeToString.GetType(typeof(T)));
+                return typeof(System.Threading.AsyncLocalValueChangedArgs<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

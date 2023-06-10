@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
         {
             get
             {
-                return typeof(System.Threading.Tasks.ValueTask<>).MakeGenericType(TypeToString.GetType(typeof(TResult)));
+                return typeof(System.Threading.Tasks.ValueTask<>).MakeGenericType(ReflectionUtils.GetType(typeof(TResult)));
             }
         }
 

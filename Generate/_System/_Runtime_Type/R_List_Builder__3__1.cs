@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.RuntimeType+ListBuilder`1").MakeGenericType(TypeToString.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.RuntimeType+ListBuilder`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
         {
             get
             {
-                return typeof(System.Buffers.SpanAction<, >).MakeGenericType(TypeToString.GetType(typeof(T)), TypeToString.GetType(typeof(TArg)));
+                return typeof(System.Buffers.SpanAction<, >).MakeGenericType(ReflectionUtils.GetType(typeof(T)), ReflectionUtils.GetType(typeof(TArg)));
             }
         }
 
