@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo+Getter`2");
+                return  ReflectionUtils.GetType("System.Reflection.RuntimePropertyInfo+Getter`2").MakeGenericType(TypeToString.GetType(typeof(T)), TypeToString.GetType(typeof(R)));
             }
         }
 

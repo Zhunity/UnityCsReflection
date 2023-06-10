@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Threading.SparselyPopulatedArray`1");
+                return  ReflectionUtils.GetType("System.Threading.SparselyPopulatedArray`1").MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

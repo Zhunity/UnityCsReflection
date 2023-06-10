@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         {
             get
             {
-                return typeof(System.Runtime.CompilerServices.ValueTaskAwaiter<>);
+                return typeof(System.Runtime.CompilerServices.ValueTaskAwaiter<>).MakeGenericType(TypeToString.GetType(typeof(TResult)));
             }
         }
 

@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase");
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.TextInputBaseField`1+TextInputBase").MakeGenericType(TypeToString.GetType(typeof(TValueType)));
             }
         }
 

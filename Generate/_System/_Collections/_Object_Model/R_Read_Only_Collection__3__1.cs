@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
         {
             get
             {
-                return typeof(System.Collections.ObjectModel.ReadOnlyCollection<>);
+                return typeof(System.Collections.ObjectModel.ReadOnlyCollection<>).MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

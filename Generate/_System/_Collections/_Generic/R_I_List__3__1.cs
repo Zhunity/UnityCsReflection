@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return typeof(System.Collections.Generic.IList<>);
+                return typeof(System.Collections.Generic.IList<>).MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

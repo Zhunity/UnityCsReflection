@@ -18,7 +18,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly+Enumerator");
+                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly+Enumerator").MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

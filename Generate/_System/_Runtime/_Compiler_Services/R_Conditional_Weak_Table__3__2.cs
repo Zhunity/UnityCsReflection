@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         {
             get
             {
-                return typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >);
+                return typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >).MakeGenericType(TypeToString.GetType(typeof(TKey)), TypeToString.GetType(typeof(TValue)));
             }
         }
 

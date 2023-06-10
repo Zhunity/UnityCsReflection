@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Page+DataSet`1");
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.Page+DataSet`1").MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

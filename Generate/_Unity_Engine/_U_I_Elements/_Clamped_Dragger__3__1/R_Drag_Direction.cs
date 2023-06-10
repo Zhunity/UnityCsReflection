@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.ClampedDragger`1+DragDirection");
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ClampedDragger`1+DragDirection").MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

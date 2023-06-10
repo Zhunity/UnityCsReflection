@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.WeakReference<>);
+                return typeof(System.WeakReference<>).MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

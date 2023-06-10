@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.CustomStyleProperty<>);
+                return typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1");
+                return  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1").MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

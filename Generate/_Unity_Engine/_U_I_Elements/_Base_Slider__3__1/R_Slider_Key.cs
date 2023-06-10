@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1+SliderKey");
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1+SliderKey").MakeGenericType(TypeToString.GetType(typeof(TValueType)));
             }
         }
 

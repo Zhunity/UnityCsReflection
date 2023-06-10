@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.ReadOnlySpan<>);
+                return typeof(System.ReadOnlySpan<>).MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

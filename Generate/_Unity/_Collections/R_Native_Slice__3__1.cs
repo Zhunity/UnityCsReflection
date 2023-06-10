@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return typeof(Unity.Collections.NativeSlice<>);
+                return typeof(Unity.Collections.NativeSlice<>).MakeGenericType(TypeToString.GetType(typeof(T)));
             }
         }
 

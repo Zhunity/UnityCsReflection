@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEditor.Tuple`3");
+                return  ReflectionUtils.GetType("UnityEditor.Tuple`3").MakeGenericType(TypeToString.GetType(typeof(T1)), TypeToString.GetType(typeof(T2)), TypeToString.GetType(typeof(T3)));
             }
         }
 
