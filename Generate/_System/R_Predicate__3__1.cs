@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.Predicate<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(typeof(T));
             }
         }
 

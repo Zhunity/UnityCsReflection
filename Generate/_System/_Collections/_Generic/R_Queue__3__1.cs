@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return typeof(System.Collections.Generic.Queue<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.Queue`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FMinimumGrow == null)
 				{
-					r_FMinimumGrow = new(typeof(System.Collections.Generic.Queue<>), "MinimumGrow");
+					r_FMinimumGrow = new( ReflectionUtils.GetType("System.Collections.Generic.Queue`1"), "MinimumGrow");
 				}
 				return r_FMinimumGrow;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FGrowFactor == null)
 				{
-					r_FGrowFactor = new(typeof(System.Collections.Generic.Queue<>), "GrowFactor");
+					r_FGrowFactor = new( ReflectionUtils.GetType("System.Collections.Generic.Queue`1"), "GrowFactor");
 				}
 				return r_FGrowFactor;
 			}

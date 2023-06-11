@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Span`1+Enumerator").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Span`1+Enumerator").MakeGenericType(typeof(T));
             }
         }
 

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.Nullable<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_T == null)
 				{
-					r_Mop_Implicit_T = new(typeof(System.Nullable<>), "op_Implicit", 0, Type.MakeGenericMethodParameter(0));
+					r_Mop_Implicit_T = new( ReflectionUtils.GetType("System.Nullable`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0));
 				}
 				return r_Mop_Implicit_T;
 			}
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Nullable_d_T_p_ == null)
 				{
-					r_Mop_Explicit_Nullable_d_T_p_ = new(typeof(System.Nullable<>), "op_Explicit", 0, typeof(System.Nullable<>));
+					r_Mop_Explicit_Nullable_d_T_p_ = new( ReflectionUtils.GetType("System.Nullable`1"), "op_Explicit", 0,  ReflectionUtils.GetType("System.Nullable`1"));
 				}
 				return r_Mop_Explicit_Nullable_d_T_p_;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBox_Nullable_d_T_p_ == null)
 				{
-					r_MBox_Nullable_d_T_p_ = new(typeof(System.Nullable<>), "Box", 0, typeof(System.Nullable<>));
+					r_MBox_Nullable_d_T_p_ = new( ReflectionUtils.GetType("System.Nullable`1"), "Box", 0,  ReflectionUtils.GetType("System.Nullable`1"));
 				}
 				return r_MBox_Nullable_d_T_p_;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnbox_Object == null)
 				{
-					r_MUnbox_Object = new(typeof(System.Nullable<>), "Unbox", 0, typeof(System.Object));
+					r_MUnbox_Object = new( ReflectionUtils.GetType("System.Nullable`1"), "Unbox", 0, typeof(System.Object));
 				}
 				return r_MUnbox_Object;
 			}
@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnboxExact_Object == null)
 				{
-					r_MUnboxExact_Object = new(typeof(System.Nullable<>), "UnboxExact", 0, typeof(System.Object));
+					r_MUnboxExact_Object = new( ReflectionUtils.GetType("System.Nullable`1"), "UnboxExact", 0, typeof(System.Object));
 				}
 				return r_MUnboxExact_Object;
 			}

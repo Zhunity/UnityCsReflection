@@ -718,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetCustomizedDependencies_IPackageVersion_Nullable_d_Boolean_p_ == null)
 				{
-					r_MGetCustomizedDependencies_IPackageVersion_Nullable_d_Boolean_p_ = new(this, "GetCustomizedDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"), typeof(System.Nullable<>).MakeGenericType(typeof(System.Boolean)));
+					r_MGetCustomizedDependencies_IPackageVersion_Nullable_d_Boolean_p_ = new(this, "GetCustomizedDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"),  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType(typeof(System.Boolean)));
 				}
 				return r_MGetCustomizedDependencies_IPackageVersion_Nullable_d_Boolean_p_;
 			}
@@ -798,7 +798,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MTriggerOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MTriggerOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ = new(this, "TriggerOnPackagesChanged", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MTriggerOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ = new(this, "TriggerOnPackagesChanged", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MTriggerOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_;
 			}
@@ -830,7 +830,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MClearPackageErrors_IPackage_Predicate_d_UIError_p_ == null)
 				{
-					r_MClearPackageErrors_IPackage_Predicate_d_UIError_p_ = new(this, "ClearPackageErrors", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.Predicate<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MClearPackageErrors_IPackage_Predicate_d_UIError_p_ = new(this, "ClearPackageErrors", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MClearPackageErrors_IPackage_Predicate_d_UIError_p_;
 			}
@@ -846,7 +846,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetPackagesProgress_IEnumerable_d_IPackage_p__PackageProgress == null)
 				{
-					r_MSetPackagesProgress_IEnumerable_d_IPackage_p__PackageProgress = new(this, "SetPackagesProgress", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageProgress"));
+					r_MSetPackagesProgress_IEnumerable_d_IPackage_p__PackageProgress = new(this, "SetPackagesProgress", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageProgress"));
 				}
 				return r_MSetPackagesProgress_IEnumerable_d_IPackage_p__PackageProgress;
 			}
@@ -1022,7 +1022,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MOnAssetStorePackagesChanged_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MOnAssetStorePackagesChanged_IEnumerable_d_IPackage_p_ = new(this, "OnAssetStorePackagesChanged", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MOnAssetStorePackagesChanged_IEnumerable_d_IPackage_p_ = new(this, "OnAssetStorePackagesChanged", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MOnAssetStorePackagesChanged_IEnumerable_d_IPackage_p_;
 			}
@@ -1038,7 +1038,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MOnPackagesChanged_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MOnPackagesChanged_IEnumerable_d_IPackage_p_ = new(this, "OnPackagesChanged", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MOnPackagesChanged_IEnumerable_d_IPackage_p_ = new(this, "OnPackagesChanged", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MOnPackagesChanged_IEnumerable_d_IPackage_p_;
 			}
@@ -1230,7 +1230,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MInstall_IEnumerable_d_IPackageVersion_p_ == null)
 				{
-					r_MInstall_IEnumerable_d_IPackageVersion_p_ = new(this, "Install", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
+					r_MInstall_IEnumerable_d_IPackageVersion_p_ = new(this, "Install", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
 				}
 				return r_MInstall_IEnumerable_d_IPackageVersion_p_;
 			}
@@ -1310,7 +1310,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MUninstall_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MUninstall_IEnumerable_d_IPackage_p_ = new(this, "Uninstall", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MUninstall_IEnumerable_d_IPackage_p_ = new(this, "Uninstall", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MUninstall_IEnumerable_d_IPackage_p_;
 			}
@@ -1326,7 +1326,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MInstallAndResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MInstallAndResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_ = new(this, "InstallAndResetDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MInstallAndResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_ = new(this, "InstallAndResetDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MInstallAndResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_;
 			}
@@ -1342,7 +1342,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_ = new(this, "ResetDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_ = new(this, "ResetDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MResetDependencies_IPackageVersion_IEnumerable_d_IPackage_p_;
 			}
@@ -1406,7 +1406,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MCheckTermOfServiceAgreement_Action_Action_d_UIError_p_ == null)
 				{
-					r_MCheckTermOfServiceAgreement_Action_Action_d_UIError_p_ = new(this, "CheckTermOfServiceAgreement", 0, typeof(System.Action), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MCheckTermOfServiceAgreement_Action_Action_d_UIError_p_ = new(this, "CheckTermOfServiceAgreement", 0, typeof(System.Action),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MCheckTermOfServiceAgreement_Action_Action_d_UIError_p_;
 			}
@@ -1438,7 +1438,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MDownload_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MDownload_IEnumerable_d_IPackage_p_ = new(this, "Download", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MDownload_IEnumerable_d_IPackage_p_ = new(this, "Download", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MDownload_IEnumerable_d_IPackage_p_;
 			}
@@ -1454,7 +1454,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MDownload_Internal_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MDownload_Internal_IEnumerable_d_IPackage_p_ = new(this, "Download_Internal", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MDownload_Internal_IEnumerable_d_IPackage_p_ = new(this, "Download_Internal", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MDownload_Internal_IEnumerable_d_IPackage_p_;
 			}
@@ -1486,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAbortDownload_IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MAbortDownload_IEnumerable_d_IPackage_p_ = new(this, "AbortDownload", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+					r_MAbortDownload_IEnumerable_d_IPackage_p_ = new(this, "AbortDownload", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
 				return r_MAbortDownload_IEnumerable_d_IPackage_p_;
 			}

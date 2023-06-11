@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TempAllocator`1+Statistics").MakeGenericType(typeof(T));
             }
         }
 

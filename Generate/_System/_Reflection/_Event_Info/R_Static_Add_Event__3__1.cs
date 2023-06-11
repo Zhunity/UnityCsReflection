@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Reflection.EventInfo+StaticAddEvent`1").MakeGenericType(ReflectionUtils.GetType(typeof(D)));
+                return  ReflectionUtils.GetType("System.Reflection.EventInfo+StaticAddEvent`1").MakeGenericType(typeof(D));
             }
         }
 

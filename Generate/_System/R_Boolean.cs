@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryFormat_Span_d_Char_p__Out_Int32 == null)
 				{
-					r_MTryFormat_Span_d_Char_p__Out_Int32 = new(this, "TryFormat", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType());
+					r_MTryFormat_Span_d_Char_p__Out_Int32 = new(this, "TryFormat", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Char)), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MTryFormat_Span_d_Char_p__Out_Int32;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MParse_ReadOnlySpan_d_Char_p_ = new(typeof(System.Boolean), "Parse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MParse_ReadOnlySpan_d_Char_p_ = new(typeof(System.Boolean), "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MParse_ReadOnlySpan_d_Char_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__Out_Boolean == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Boolean = new(typeof(System.Boolean), "TryParse", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Boolean = new(typeof(System.Boolean), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Boolean).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__Out_Boolean;
 			}
@@ -350,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_ = new(typeof(System.Boolean), "TrimWhiteSpaceAndNull", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_ = new(typeof(System.Boolean), "TrimWhiteSpaceAndNull", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MTrimWhiteSpaceAndNull_ReadOnlySpan_d_Char_p_;
 			}

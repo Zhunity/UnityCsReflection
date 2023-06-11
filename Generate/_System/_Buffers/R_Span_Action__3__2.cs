@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
         {
             get
             {
-                return typeof(System.Buffers.SpanAction<, >).MakeGenericType(ReflectionUtils.GetType(typeof(T)), ReflectionUtils.GetType(typeof(TArg)));
+                return  ReflectionUtils.GetType("System.Buffers.SpanAction`2").MakeGenericType(typeof(T), typeof(TArg));
             }
         }
 
@@ -94,7 +94,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 			{
 				if(r_MInvoke_Span_d_T_p__TArg == null)
 				{
-					r_MInvoke_Span_d_T_p__TArg = new(this, "Invoke", 0, typeof(System.Span<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(1));
+					r_MInvoke_Span_d_T_p__TArg = new(this, "Invoke", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(1));
 				}
 				return r_MInvoke_Span_d_T_p__TArg;
 			}
@@ -110,7 +110,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 			{
 				if(r_MBeginInvoke_Span_d_T_p__TArg_AsyncCallback_Object == null)
 				{
-					r_MBeginInvoke_Span_d_T_p__TArg_AsyncCallback_Object = new(this, "BeginInvoke", 0, typeof(System.Span<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object));
+					r_MBeginInvoke_Span_d_T_p__TArg_AsyncCallback_Object = new(this, "BeginInvoke", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object));
 				}
 				return r_MBeginInvoke_Span_d_T_p__TArg_AsyncCallback_Object;
 			}

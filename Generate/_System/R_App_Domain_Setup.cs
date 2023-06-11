@@ -926,7 +926,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSetCompatibilitySwitches_IEnumerable_d_String_p_ == null)
 				{
-					r_MSetCompatibilitySwitches_IEnumerable_d_String_p_ = new(this, "SetCompatibilitySwitches", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MSetCompatibilitySwitches_IEnumerable_d_String_p_ = new(this, "SetCompatibilitySwitches", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MSetCompatibilitySwitches_IEnumerable_d_String_p_;
 			}

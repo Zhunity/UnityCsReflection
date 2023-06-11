@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_MWrite_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_MWrite_ReadOnlySpan_d_Byte_p_ = new(this, "Write", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_MWrite_ReadOnlySpan_d_Byte_p_ = new(this, "Write", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MWrite_ReadOnlySpan_d_Byte_p_;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_MWrite_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MWrite_ReadOnlySpan_d_Char_p_ = new(this, "Write", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MWrite_ReadOnlySpan_d_Char_p_ = new(this, "Write", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MWrite_ReadOnlySpan_d_Char_p_;
 			}

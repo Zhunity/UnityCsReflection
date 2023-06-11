@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return typeof(Unity.Collections.NativeSlice<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Implicit_NativeArray_d_T_p_ == null)
 				{
-					r_Mop_Implicit_NativeArray_d_T_p_ = new(typeof(Unity.Collections.NativeSlice<>), "op_Implicit", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Mop_Implicit_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"), "op_Implicit", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_Mop_Implicit_NativeArray_d_T_p_;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopyFrom_NativeSlice_d_T_p_ == null)
 				{
-					r_MCopyFrom_NativeSlice_d_T_p_ = new(this, "CopyFrom", 0, typeof(Unity.Collections.NativeSlice<>));
+					r_MCopyFrom_NativeSlice_d_T_p_ = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
 				}
 				return r_MCopyFrom_NativeSlice_d_T_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopyTo_NativeArray_d_T_p_ == null)
 				{
-					r_MCopyTo_NativeArray_d_T_p_ = new(this, "CopyTo", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCopyTo_NativeArray_d_T_p_ = new(this, "CopyTo", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCopyTo_NativeArray_d_T_p_;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MEquals_NativeSlice_d_T_p_ == null)
 				{
-					r_MEquals_NativeSlice_d_T_p_ = new(this, "Equals", 0, typeof(Unity.Collections.NativeSlice<>));
+					r_MEquals_NativeSlice_d_T_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
 				}
 				return r_MEquals_NativeSlice_d_T_p_;
 			}
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_ == null)
 				{
-					r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new(typeof(Unity.Collections.NativeSlice<>), "op_Equality", 0, typeof(Unity.Collections.NativeSlice<>), typeof(Unity.Collections.NativeSlice<>));
+					r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"), "op_Equality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
 				}
 				return r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_;
 			}
@@ -494,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_ == null)
 				{
-					r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new(typeof(Unity.Collections.NativeSlice<>), "op_Inequality", 0, typeof(Unity.Collections.NativeSlice<>), typeof(Unity.Collections.NativeSlice<>));
+					r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"), "op_Inequality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
 				}
 				return r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_;
 			}

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         {
             get
             {
-                return typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >).MakeGenericType(ReflectionUtils.GetType(typeof(TKey)), ReflectionUtils.GetType(typeof(TValue)));
+                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2").MakeGenericType(typeof(TKey), typeof(TValue));
             }
         }
 
@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FINITIAL_SIZE == null)
 				{
-					r_FINITIAL_SIZE = new(typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >), "INITIAL_SIZE");
+					r_FINITIAL_SIZE = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "INITIAL_SIZE");
 				}
 				return r_FINITIAL_SIZE;
 			}
@@ -62,7 +62,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FLOAD_FACTOR == null)
 				{
-					r_FLOAD_FACTOR = new(typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >), "LOAD_FACTOR");
+					r_FLOAD_FACTOR = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "LOAD_FACTOR");
 				}
 				return r_FLOAD_FACTOR;
 			}
@@ -78,7 +78,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FCOMPACT_FACTOR == null)
 				{
-					r_FCOMPACT_FACTOR = new(typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >), "COMPACT_FACTOR");
+					r_FCOMPACT_FACTOR = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "COMPACT_FACTOR");
 				}
 				return r_FCOMPACT_FACTOR;
 			}
@@ -94,7 +94,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FEXPAND_FACTOR == null)
 				{
-					r_FEXPAND_FACTOR = new(typeof(System.Runtime.CompilerServices.ConditionalWeakTable<, >), "EXPAND_FACTOR");
+					r_FEXPAND_FACTOR = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "EXPAND_FACTOR");
 				}
 				return r_FEXPAND_FACTOR;
 			}

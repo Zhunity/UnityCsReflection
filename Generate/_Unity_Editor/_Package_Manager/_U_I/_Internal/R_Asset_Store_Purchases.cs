@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAppendPurchases_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MAppendPurchases_IDictionary_d_String_Object_p_ = new(this, "AppendPurchases", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MAppendPurchases_IDictionary_d_String_Object_p_ = new(this, "AppendPurchases", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MAppendPurchases_IDictionary_d_String_Object_p_;
 			}

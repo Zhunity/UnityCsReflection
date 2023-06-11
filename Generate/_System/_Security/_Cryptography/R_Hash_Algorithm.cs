@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryComputeHash", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32 = new(this, "TryComputeHash", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32;
 			}
@@ -462,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_MHashCore_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_MHashCore_ReadOnlySpan_d_Byte_p_ = new(this, "HashCore", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_MHashCore_ReadOnlySpan_d_Byte_p_ = new(this, "HashCore", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MHashCore_ReadOnlySpan_d_Byte_p_;
 			}
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_MTryHashFinal_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_MTryHashFinal_Span_d_Byte_p__Out_Int32 = new(this, "TryHashFinal", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_MTryHashFinal_Span_d_Byte_p__Out_Int32 = new(this, "TryHashFinal", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MTryHashFinal_Span_d_Byte_p__Out_Int32;
 			}

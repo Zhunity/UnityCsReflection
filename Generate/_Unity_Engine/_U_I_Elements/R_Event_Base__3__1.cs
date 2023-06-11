@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.EventBase<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_TypeId == null)
 				{
-					r_Fs_TypeId = new(typeof(UnityEngine.UIElements.EventBase<>), "s_TypeId");
+					r_Fs_TypeId = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "s_TypeId");
 				}
 				return r_Fs_TypeId;
 			}
@@ -62,7 +62,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_Pool == null)
 				{
-					r_Fs_Pool = new(typeof(UnityEngine.UIElements.EventBase<>), "s_Pool");
+					r_Fs_Pool = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "s_Pool");
 				}
 				return r_Fs_Pool;
 			}
@@ -94,7 +94,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FEventCategory == null)
 				{
-					r_FEventCategory = new(typeof(UnityEngine.UIElements.EventBase<>), "EventCategory");
+					r_FEventCategory = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "EventCategory");
 				}
 				return r_FEventCategory;
 			}
@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSetCreateFunction_Func_d_T_p_ == null)
 				{
-					r_MSetCreateFunction_Func_d_T_p_ = new(typeof(UnityEngine.UIElements.EventBase<>), "SetCreateFunction", 0, typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetCreateFunction_Func_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "SetCreateFunction", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetCreateFunction_Func_d_T_p_;
 			}
@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MTypeId == null)
 				{
-					r_MTypeId = new(typeof(UnityEngine.UIElements.EventBase<>), "TypeId", 0);
+					r_MTypeId = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "TypeId", 0);
 				}
 				return r_MTypeId;
 			}
@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled == null)
 				{
-					r_MGetPooled = new(typeof(UnityEngine.UIElements.EventBase<>), "GetPooled", 0);
+					r_MGetPooled = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "GetPooled", 0);
 				}
 				return r_MGetPooled;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_EventBase == null)
 				{
-					r_MGetPooled_EventBase = new(typeof(UnityEngine.UIElements.EventBase<>), "GetPooled", 0, typeof(UnityEngine.UIElements.EventBase));
+					r_MGetPooled_EventBase = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "GetPooled", 0, typeof(UnityEngine.UIElements.EventBase));
 				}
 				return r_MGetPooled_EventBase;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MReleasePooled_T == null)
 				{
-					r_MReleasePooled_T = new(typeof(UnityEngine.UIElements.EventBase<>), "ReleasePooled", 0, Type.MakeGenericMethodParameter(0));
+					r_MReleasePooled_T = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventBase`1"), "ReleasePooled", 0, Type.MakeGenericMethodParameter(0));
 				}
 				return r_MReleasePooled_T;
 			}

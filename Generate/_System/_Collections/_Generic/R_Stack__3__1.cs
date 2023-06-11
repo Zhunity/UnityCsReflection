@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return typeof(System.Collections.Generic.Stack<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.Stack`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -110,7 +110,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FDefaultCapacity == null)
 				{
-					r_FDefaultCapacity = new(typeof(System.Collections.Generic.Stack<>), "DefaultCapacity");
+					r_FDefaultCapacity = new( ReflectionUtils.GetType("System.Collections.Generic.Stack`1"), "DefaultCapacity");
 				}
 				return r_FDefaultCapacity;
 			}

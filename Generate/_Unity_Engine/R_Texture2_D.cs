@@ -1566,7 +1566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLoadRawTextureData_GT_NativeArray_d_T_p_ == null)
 				{
-					r_MLoadRawTextureData_GT_NativeArray_d_T_p_ = new(this, "LoadRawTextureData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MLoadRawTextureData_GT_NativeArray_d_T_p_ = new(this, "LoadRawTextureData", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MLoadRawTextureData_GT_NativeArray_d_T_p_;
 			}
@@ -1598,7 +1598,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetPixelData_GT_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MSetPixelData_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetPixelData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_MSetPixelData_GT_NativeArray_d_T_p__Int32_Int32 = new(this, "SetPixelData", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetPixelData_GT_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -1822,7 +1822,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGenerateAtlas_Vector2Array_Int32_Int32_List_d_Rect_p_ == null)
 				{
-					r_MGenerateAtlas_Vector2Array_Int32_Int32_List_d_Rect_p_ = new(typeof(UnityEngine.Texture2D), "GenerateAtlas", 0, typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rect)));
+					r_MGenerateAtlas_Vector2Array_Int32_Int32_List_d_Rect_p_ = new(typeof(UnityEngine.Texture2D), "GenerateAtlas", 0, typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Rect)));
 				}
 				return r_MGenerateAtlas_Vector2Array_Int32_Int32_List_d_Rect_p_;
 			}

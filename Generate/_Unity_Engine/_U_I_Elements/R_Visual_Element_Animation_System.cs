@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MUnregisterAnimations_List_d_IValueAnimationUpdate_p_ == null)
 				{
-					r_MUnregisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "UnregisterAnimations", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
+					r_MUnregisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "UnregisterAnimations", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
 				}
 				return r_MUnregisterAnimations_List_d_IValueAnimationUpdate_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRegisterAnimations_List_d_IValueAnimationUpdate_p_ == null)
 				{
-					r_MRegisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "RegisterAnimations", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
+					r_MRegisterAnimations_List_d_IValueAnimationUpdate_p_ = new(this, "RegisterAnimations", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.IValueAnimationUpdate")));
 				}
 				return r_MRegisterAnimations_List_d_IValueAnimationUpdate_p_;
 			}

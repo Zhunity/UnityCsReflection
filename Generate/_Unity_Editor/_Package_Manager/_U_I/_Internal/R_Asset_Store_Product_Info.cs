@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo"), "ParseProductInfo", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"), typeof(System.String), typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo"), "ParseProductInfo", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"), typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MParseProductInfo_AssetStoreUtils_String_IDictionary_d_String_Object_p_;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetImagesFromProductDetails_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MGetImagesFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetImagesFromProductDetails", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MGetImagesFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetImagesFromProductDetails", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MGetImagesFromProductDetails_IDictionary_d_String_Object_p_;
 			}
@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetLinksFromProductDetails_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MGetLinksFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetLinksFromProductDetails", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MGetLinksFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetLinksFromProductDetails", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MGetLinksFromProductDetails_IDictionary_d_String_Object_p_;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetAssetStoreLinkFromProductDetails", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetAssetStoreLinkFromProductDetails", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MGetAssetStoreLinkFromProductDetails_IDictionary_d_String_Object_p_;
 			}
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetSizeInfoFromProductDetails", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_ = new(this, "GetSizeInfoFromProductDetails", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MGetSizeInfoFromProductDetails_IDictionary_d_String_Object_p_;
 			}

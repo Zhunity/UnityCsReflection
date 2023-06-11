@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MDownloadImageAsync_Int64_String_Action_d_Int64_Texture2D_p_ == null)
 				{
-					r_MDownloadImageAsync_Int64_String_Action_d_Int64_Texture2D_p_ = new(this, "DownloadImageAsync", 0, typeof(System.Int64), typeof(System.String), typeof(System.Action<, >).MakeGenericType(typeof(System.Int64), typeof(UnityEngine.Texture2D)));
+					r_MDownloadImageAsync_Int64_String_Action_d_Int64_Texture2D_p_ = new(this, "DownloadImageAsync", 0, typeof(System.Int64), typeof(System.String),  ReflectionUtils.GetType("System.Action`2").MakeGenericType(typeof(System.Int64), typeof(UnityEngine.Texture2D)));
 				}
 				return r_MDownloadImageAsync_Int64_String_Action_d_Int64_Texture2D_p_;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_ == null)
 				{
-					r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_ = new(this, "SetPurchaseInfos", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")));
+					r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_ = new(this, "SetPurchaseInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")));
 				}
 				return r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_;
 			}
@@ -718,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetLocalInfos_IEnumerable_d_AssetStoreLocalInfo_p_ == null)
 				{
-					r_MSetLocalInfos_IEnumerable_d_AssetStoreLocalInfo_p_ = new(this, "SetLocalInfos", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")));
+					r_MSetLocalInfos_IEnumerable_d_AssetStoreLocalInfo_p_ = new(this, "SetLocalInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")));
 				}
 				return r_MSetLocalInfos_IEnumerable_d_AssetStoreLocalInfo_p_;
 			}
@@ -734,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_ == null)
 				{
-					r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_ = new(this, "SetUpdateInfos", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo")));
+					r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_ = new(this, "SetUpdateInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo")));
 				}
 				return r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_;
 			}

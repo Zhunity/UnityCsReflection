@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.LowLevelListWithIList`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.LowLevelListWithIList`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddRange_IEnumerable_d_T_p_ == null)
 				{
-					r_MAddRange_IEnumerable_d_T_p_ = new(this, "AddRange", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAddRange_IEnumerable_d_T_p_ = new(this, "AddRange", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAddRange_IEnumerable_d_T_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MInsertRange_Int32_IEnumerable_d_T_p_ == null)
 				{
-					r_MInsertRange_Int32_IEnumerable_d_T_p_ = new(this, "InsertRange", 0, typeof(System.Int32), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MInsertRange_Int32_IEnumerable_d_T_p_ = new(this, "InsertRange", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MInsertRange_Int32_IEnumerable_d_T_p_;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MRemoveAll_Predicate_d_T_p_ == null)
 				{
-					r_MRemoveAll_Predicate_d_T_p_ = new(this, "RemoveAll", 0, typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MRemoveAll_Predicate_d_T_p_ = new(this, "RemoveAll", 0,  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MRemoveAll_Predicate_d_T_p_;
 			}

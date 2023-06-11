@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSetUnityObjectReferences_IEnumerable_d_Object_p_ == null)
 				{
-					r_MSetUnityObjectReferences_IEnumerable_d_Object_p_ = new(this, "SetUnityObjectReferences", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEngine.Object)));
+					r_MSetUnityObjectReferences_IEnumerable_d_Object_p_ = new(this, "SetUnityObjectReferences", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEngine.Object)));
 				}
 				return r_MSetUnityObjectReferences_IEnumerable_d_Object_p_;
 			}

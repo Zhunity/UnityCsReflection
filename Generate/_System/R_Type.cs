@@ -3582,7 +3582,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p_ == null)
 				{
-					r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p_ = new(typeof(System.Type), "GetType", 0, typeof(System.String), typeof(System.Func<, >).MakeGenericType(typeof(System.Reflection.AssemblyName), typeof(System.Reflection.Assembly)), typeof(System.Func<, , , >).MakeGenericType(typeof(System.Reflection.Assembly), typeof(System.String), typeof(System.Boolean), typeof(System.Type)));
+					r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p_ = new(typeof(System.Type), "GetType", 0, typeof(System.String),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Reflection.AssemblyName), typeof(System.Reflection.Assembly)),  ReflectionUtils.GetType("System.Func`4").MakeGenericType(typeof(System.Reflection.Assembly), typeof(System.String), typeof(System.Boolean), typeof(System.Type)));
 				}
 				return r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p_;
 			}
@@ -3598,7 +3598,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean == null)
 				{
-					r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean = new(typeof(System.Type), "GetType", 0, typeof(System.String), typeof(System.Func<, >).MakeGenericType(typeof(System.Reflection.AssemblyName), typeof(System.Reflection.Assembly)), typeof(System.Func<, , , >).MakeGenericType(typeof(System.Reflection.Assembly), typeof(System.String), typeof(System.Boolean), typeof(System.Type)), typeof(System.Boolean));
+					r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean = new(typeof(System.Type), "GetType", 0, typeof(System.String),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Reflection.AssemblyName), typeof(System.Reflection.Assembly)),  ReflectionUtils.GetType("System.Func`4").MakeGenericType(typeof(System.Reflection.Assembly), typeof(System.String), typeof(System.Boolean), typeof(System.Type)), typeof(System.Boolean));
 				}
 				return r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean;
 			}
@@ -3614,7 +3614,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean_Boolean == null)
 				{
-					r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean_Boolean = new(typeof(System.Type), "GetType", 0, typeof(System.String), typeof(System.Func<, >).MakeGenericType(typeof(System.Reflection.AssemblyName), typeof(System.Reflection.Assembly)), typeof(System.Func<, , , >).MakeGenericType(typeof(System.Reflection.Assembly), typeof(System.String), typeof(System.Boolean), typeof(System.Type)), typeof(System.Boolean), typeof(System.Boolean));
+					r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean_Boolean = new(typeof(System.Type), "GetType", 0, typeof(System.String),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Reflection.AssemblyName), typeof(System.Reflection.Assembly)),  ReflectionUtils.GetType("System.Func`4").MakeGenericType(typeof(System.Reflection.Assembly), typeof(System.String), typeof(System.Boolean), typeof(System.Type)), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MGetType_String_Func_d_AssemblyName_Assembly_p__Func_d_Assembly_String_Boolean_Type_p__Boolean_Boolean;
 			}

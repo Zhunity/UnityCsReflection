@@ -1150,7 +1150,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCopy_NPath_Func_d_NPath_Boolean_p_ == null)
 				{
-					r_MCopy_NPath_Func_d_NPath_Boolean_p_ = new(this, "Copy", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
+					r_MCopy_NPath_Func_d_NPath_Boolean_p_ = new(this, "Copy", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
 				}
 				return r_MCopy_NPath_Func_d_NPath_Boolean_p_;
 			}
@@ -1182,7 +1182,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_ == null)
 				{
-					r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_ = new(this, "CopyWithDeterminedDestination", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
+					r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_ = new(this, "CopyWithDeterminedDestination", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
 				}
 				return r_MCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_;
 			}
@@ -1534,7 +1534,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ == null)
 				{
-					r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ = new(this, "CopyFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
+					r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ = new(this, "CopyFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
 				}
 				return r_MCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_;
 			}
@@ -1550,7 +1550,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ == null)
 				{
-					r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ = new(this, "MoveFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
+					r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_ = new(this, "MoveFiles", 0,  ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("NiceIO.NPath"), typeof(System.Boolean)));
 				}
 				return r_MMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_;
 			}

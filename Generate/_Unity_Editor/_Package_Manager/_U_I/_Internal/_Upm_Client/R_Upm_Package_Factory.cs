@@ -160,7 +160,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGeneratePackagesAndTriggerChangeEvent_IEnumerable_d_String_p_ == null)
 				{
-					r_MGeneratePackagesAndTriggerChangeEvent_IEnumerable_d_String_p_ = new(this, "GeneratePackagesAndTriggerChangeEvent", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MGeneratePackagesAndTriggerChangeEvent_IEnumerable_d_String_p_ = new(this, "GeneratePackagesAndTriggerChangeEvent", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MGeneratePackagesAndTriggerChangeEvent_IEnumerable_d_String_p_;
 			}
@@ -176,7 +176,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_ == null)
 				{
-					r_MOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_ = new(this, "OnPackageInfosUpdated", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEditor.PackageManager.PackageInfo)));
+					r_MOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_ = new(this, "OnPackageInfosUpdated", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEditor.PackageManager.PackageInfo)));
 				}
 				return r_MOnPackageInfosUpdated_IEnumerable_d_PackageInfo_p_;
 			}

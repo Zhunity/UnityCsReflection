@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1+ElementCount").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1+ElementCount").MakeGenericType(typeof(T));
             }
         }
 

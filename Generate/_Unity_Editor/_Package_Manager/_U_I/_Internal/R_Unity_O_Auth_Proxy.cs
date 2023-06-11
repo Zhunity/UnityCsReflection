@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetAuthorizationCodeAsync_String_Action_d_AuthCodeResponse_p_ == null)
 				{
-					r_MGetAuthorizationCodeAsync_String_Action_d_AuthCodeResponse_p_ = new(this, "GetAuthorizationCodeAsync", 0, typeof(System.String), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.Connect.UnityOAuth+AuthCodeResponse")));
+					r_MGetAuthorizationCodeAsync_String_Action_d_AuthCodeResponse_p_ = new(this, "GetAuthorizationCodeAsync", 0, typeof(System.String),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.Connect.UnityOAuth+AuthCodeResponse")));
 				}
 				return r_MGetAuthorizationCodeAsync_String_Action_d_AuthCodeResponse_p_;
 			}

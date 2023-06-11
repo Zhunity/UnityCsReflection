@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
 				{
-					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
+					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
 				}
 				return r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MSanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_ == null)
 				{
-					r_MSanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_ = new( ReflectionUtils.GetType("UnityEditor.DataModeController"), "SanitizeSupportedDataModesList", 0, typeof(System.Collections.Generic.IReadOnlyList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.DataMode)));
+					r_MSanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_ = new( ReflectionUtils.GetType("UnityEditor.DataModeController"), "SanitizeSupportedDataModesList", 0,  ReflectionUtils.GetType("System.Collections.Generic.IReadOnlyList`1").MakeGenericType(typeof(UnityEditor.DataMode)),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.DataMode)));
 				}
 				return r_MSanitizeSupportedDataModesList_IReadOnlyList_d_DataMode_p__List_d_DataMode_p_;
 			}

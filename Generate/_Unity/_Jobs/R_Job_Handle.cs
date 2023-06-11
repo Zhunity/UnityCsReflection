@@ -174,7 +174,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCompleteAll_NativeArray_d_JobHandle_p_ == null)
 				{
-					r_MCompleteAll_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_MCompleteAll_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
 				}
 				return r_MCompleteAll_NativeArray_d_JobHandle_p_;
 			}
@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependencies_NativeArray_d_JobHandle_p_ == null)
 				{
-					r_MCombineDependencies_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_MCombineDependencies_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
 				}
 				return r_MCombineDependencies_NativeArray_d_JobHandle_p_;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependencies_NativeSlice_d_JobHandle_p_ == null)
 				{
-					r_MCombineDependencies_NativeSlice_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_MCombineDependencies_NativeSlice_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
 				}
 				return r_MCombineDependencies_NativeSlice_d_JobHandle_p_;
 			}

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
         {
             get
             {
-                return typeof(System.Threading.Tasks.ValueTask<>).MakeGenericType(ReflectionUtils.GetType(typeof(TResult)));
+                return  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1").MakeGenericType(typeof(TResult));
             }
         }
 
@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_Fs_canceledTask == null)
 				{
-					r_Fs_canceledTask = new(typeof(System.Threading.Tasks.ValueTask<>), "s_canceledTask");
+					r_Fs_canceledTask = new( ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"), "s_canceledTask");
 				}
 				return r_Fs_canceledTask;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MEquals_ValueTask_d_TResult_p_ == null)
 				{
-					r_MEquals_ValueTask_d_TResult_p_ = new(this, "Equals", 0, typeof(System.Threading.Tasks.ValueTask<>));
+					r_MEquals_ValueTask_d_TResult_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
 				}
 				return r_MEquals_ValueTask_d_TResult_p_;
 			}
@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ == null)
 				{
-					r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new(typeof(System.Threading.Tasks.ValueTask<>), "op_Equality", 0, typeof(System.Threading.Tasks.ValueTask<>), typeof(System.Threading.Tasks.ValueTask<>));
+					r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new( ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"), "op_Equality", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"),  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
 				}
 				return r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_;
 			}
@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ == null)
 				{
-					r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new(typeof(System.Threading.Tasks.ValueTask<>), "op_Inequality", 0, typeof(System.Threading.Tasks.ValueTask<>), typeof(System.Threading.Tasks.ValueTask<>));
+					r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new( ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"), "op_Inequality", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"),  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
 				}
 				return r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_ == null)
 				{
-					r_MGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_ = new(this, "GetTaskForValueTaskSource", 0, typeof(System.Threading.Tasks.Sources.IValueTaskSource<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_ = new(this, "GetTaskForValueTaskSource", 0,  ReflectionUtils.GetType("System.Threading.Tasks.Sources.IValueTaskSource`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_;
 			}

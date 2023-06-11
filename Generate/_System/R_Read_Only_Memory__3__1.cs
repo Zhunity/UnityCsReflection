@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.ReadOnlyMemory<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.ReadOnlyMemory`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -94,7 +94,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FRemoveFlagsBitMask == null)
 				{
-					r_FRemoveFlagsBitMask = new(typeof(System.ReadOnlyMemory<>), "RemoveFlagsBitMask");
+					r_FRemoveFlagsBitMask = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "RemoveFlagsBitMask");
 				}
 				return r_FRemoveFlagsBitMask;
 			}
@@ -110,7 +110,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new(typeof(System.ReadOnlyMemory<>), "Empty", -1);
+					r_PEmpty = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -174,7 +174,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_TArray == null)
 				{
-					r_Mop_Implicit_TArray = new(typeof(System.ReadOnlyMemory<>), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_Mop_Implicit_TArray = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_Mop_Implicit_TArray;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_ArraySegment_d_T_p_ == null)
 				{
-					r_Mop_Implicit_ArraySegment_d_T_p_ = new(typeof(System.ReadOnlyMemory<>), "op_Implicit", 0, typeof(System.ArraySegment<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Mop_Implicit_ArraySegment_d_T_p_ = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "op_Implicit", 0,  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_Mop_Implicit_ArraySegment_d_T_p_;
 			}
@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopyTo_Memory_d_T_p_ == null)
 				{
-					r_MCopyTo_Memory_d_T_p_ = new(this, "CopyTo", 0, typeof(System.Memory<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCopyTo_Memory_d_T_p_ = new(this, "CopyTo", 0,  ReflectionUtils.GetType("System.Memory`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCopyTo_Memory_d_T_p_;
 			}
@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryCopyTo_Memory_d_T_p_ == null)
 				{
-					r_MTryCopyTo_Memory_d_T_p_ = new(this, "TryCopyTo", 0, typeof(System.Memory<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MTryCopyTo_Memory_d_T_p_ = new(this, "TryCopyTo", 0,  ReflectionUtils.GetType("System.Memory`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MTryCopyTo_Memory_d_T_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MEquals_ReadOnlyMemory_d_T_p_ == null)
 				{
-					r_MEquals_ReadOnlyMemory_d_T_p_ = new(this, "Equals", 0, typeof(System.ReadOnlyMemory<>));
+					r_MEquals_ReadOnlyMemory_d_T_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("System.ReadOnlyMemory`1"));
 				}
 				return r_MEquals_ReadOnlyMemory_d_T_p_;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCombineHashCodes_Int32_Int32 == null)
 				{
-					r_MCombineHashCodes_Int32_Int32 = new(typeof(System.ReadOnlyMemory<>), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MCombineHashCodes_Int32_Int32 = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCombineHashCodes_Int32_Int32;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCombineHashCodes_Int32_Int32_Int32 == null)
 				{
-					r_MCombineHashCodes_Int32_Int32_Int32 = new(typeof(System.ReadOnlyMemory<>), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MCombineHashCodes_Int32_Int32_Int32 = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCombineHashCodes_Int32_Int32_Int32;
 			}

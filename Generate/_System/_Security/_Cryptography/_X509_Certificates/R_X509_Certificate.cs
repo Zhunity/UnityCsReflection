@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			{
 				if(r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32 == null)
 				{
-					r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32 = new(this, "TryGetCertHash", 0, typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
+					r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32 = new(this, "TryGetCertHash", 0, typeof(System.Security.Cryptography.HashAlgorithmName),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32;
 			}

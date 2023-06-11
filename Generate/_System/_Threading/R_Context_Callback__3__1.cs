@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Threading.ContextCallback`1").MakeGenericType(ReflectionUtils.GetType(typeof(TState)));
+                return  ReflectionUtils.GetType("System.Threading.ContextCallback`1").MakeGenericType(typeof(TState));
             }
         }
 

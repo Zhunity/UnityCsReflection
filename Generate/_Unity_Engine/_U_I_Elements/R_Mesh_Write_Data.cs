@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSetAllVertices_NativeSlice_d_Vertex_p_ == null)
 				{
-					r_MSetAllVertices_NativeSlice_d_Vertex_p_ = new(this, "SetAllVertices", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)));
+					r_MSetAllVertices_NativeSlice_d_Vertex_p_ = new(this, "SetAllVertices", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(UnityEngine.UIElements.Vertex)));
 				}
 				return r_MSetAllVertices_NativeSlice_d_Vertex_p_;
 			}
@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSetAllIndices_NativeSlice_d_UInt16_p_ == null)
 				{
-					r_MSetAllIndices_NativeSlice_d_UInt16_p_ = new(this, "SetAllIndices", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)));
+					r_MSetAllIndices_NativeSlice_d_UInt16_p_ = new(this, "SetAllIndices", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(System.UInt16)));
 				}
 				return r_MSetAllIndices_NativeSlice_d_UInt16_p_;
 			}
@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_ == null)
 				{
-					r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_ = new(this, "Reset", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)));
+					r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_ = new(this, "Reset", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(UnityEngine.UIElements.Vertex)),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(System.UInt16)));
 				}
 				return r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p_;
 			}
@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect == null)
 				{
-					r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect = new(this, "Reset", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(System.UInt16)), typeof(UnityEngine.Rect));
+					r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect = new(this, "Reset", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(UnityEngine.UIElements.Vertex)),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(System.UInt16)), typeof(UnityEngine.Rect));
 				}
 				return r_MReset_NativeSlice_d_Vertex_p__NativeSlice_d_UInt16_p__Rect;
 			}

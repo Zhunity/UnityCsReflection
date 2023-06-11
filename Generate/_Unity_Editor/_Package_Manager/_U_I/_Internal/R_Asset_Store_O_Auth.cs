@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MFetchUserInfo_Action_d_UserInfo_p__Action_d_UIError_p_ == null)
 				{
-					r_MFetchUserInfo_Action_d_UserInfo_p__Action_d_UIError_p_ = new(this, "FetchUserInfo", 0, typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+UserInfo")), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MFetchUserInfo_Action_d_UserInfo_p__Action_d_UIError_p_ = new(this, "FetchUserInfo", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+UserInfo")),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MFetchUserInfo_Action_d_UserInfo_p__Action_d_UIError_p_;
 			}
@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetAuthCode_Action_d_String_p_ == null)
 				{
-					r_MGetAuthCode_Action_d_String_p_ = new(this, "GetAuthCode", 0, typeof(System.Action<>).MakeGenericType(typeof(System.String)));
+					r_MGetAuthCode_Action_d_String_p_ = new(this, "GetAuthCode", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MGetAuthCode_Action_d_String_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetAccessToken_Action_d_AccessToken_p_ == null)
 				{
-					r_MGetAccessToken_Action_d_AccessToken_p_ = new(this, "GetAccessToken", 0, typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")));
+					r_MGetAccessToken_Action_d_AccessToken_p_ = new(this, "GetAccessToken", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")));
 				}
 				return r_MGetAccessToken_Action_d_AccessToken_p_;
 			}
@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetAccessToken_Action_d_AccessToken_p__String_String == null)
 				{
-					r_MGetAccessToken_Action_d_AccessToken_p__String_String = new(this, "GetAccessToken", 0, typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")), typeof(System.String), typeof(System.String));
+					r_MGetAccessToken_Action_d_AccessToken_p__String_String = new(this, "GetAccessToken", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+AccessToken")), typeof(System.String), typeof(System.String));
 				}
 				return r_MGetAccessToken_Action_d_AccessToken_p__String_String;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetTokenInfo_Action_d_TokenInfo_p_ == null)
 				{
-					r_MGetTokenInfo_Action_d_TokenInfo_p_ = new(this, "GetTokenInfo", 0, typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+TokenInfo")));
+					r_MGetTokenInfo_Action_d_TokenInfo_p_ = new(this, "GetTokenInfo", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+TokenInfo")));
 				}
 				return r_MGetTokenInfo_Action_d_TokenInfo_p_;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetUserInfo_Action_d_UserInfo_p_ == null)
 				{
-					r_MGetUserInfo_Action_d_UserInfo_p_ = new(this, "GetUserInfo", 0, typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+UserInfo")));
+					r_MGetUserInfo_Action_d_UserInfo_p_ = new(this, "GetUserInfo", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth+UserInfo")));
 				}
 				return r_MGetUserInfo_Action_d_UserInfo_p_;
 			}

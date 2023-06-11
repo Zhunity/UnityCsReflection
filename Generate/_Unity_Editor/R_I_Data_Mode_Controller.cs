@@ -78,7 +78,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode == null)
 				{
-					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
+					r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode = new(this, "UpdateSupportedDataModes", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType(typeof(UnityEditor.DataMode)), typeof(UnityEditor.DataMode));
 				}
 				return r_MUpdateSupportedDataModes_IList_d_DataMode_p__DataMode;
 			}

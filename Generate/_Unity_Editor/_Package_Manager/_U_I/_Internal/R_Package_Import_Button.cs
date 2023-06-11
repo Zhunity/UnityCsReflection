@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetPackageVersions_IEnumerable_d_IPackageVersion_p_ == null)
 				{
-					r_MSetPackageVersions_IEnumerable_d_IPackageVersion_p_ = new(this, "SetPackageVersions", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
+					r_MSetPackageVersions_IEnumerable_d_IPackageVersion_p_ = new(this, "SetPackageVersions", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
 				}
 				return r_MSetPackageVersions_IEnumerable_d_IPackageVersion_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRefresh_IEnumerable_d_IPackageVersion_p_ == null)
 				{
-					r_MRefresh_IEnumerable_d_IPackageVersion_p_ = new(this, "Refresh", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
+					r_MRefresh_IEnumerable_d_IPackageVersion_p_ = new(this, "Refresh", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
 				}
 				return r_MRefresh_IEnumerable_d_IPackageVersion_p_;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MTriggerAction_IList_d_IPackageVersion_p_ == null)
 				{
-					r_MTriggerAction_IList_d_IPackageVersion_p_ = new(this, "TriggerAction", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
+					r_MTriggerAction_IList_d_IPackageVersion_p_ = new(this, "TriggerAction", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
 				}
 				return r_MTriggerAction_IList_d_IPackageVersion_p_;
 			}

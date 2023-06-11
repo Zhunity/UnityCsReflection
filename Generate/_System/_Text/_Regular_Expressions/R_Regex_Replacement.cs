@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions == null)
 				{
-					r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0, typeof(System.WeakReference<>).MakeGenericType( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
+					r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0,  ReflectionUtils.GetType("System.WeakReference`1").MakeGenericType( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
 				}
 				return r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_MReplacementImplRTL_List_d_String_p__Match == null)
 				{
-					r_MReplacementImplRTL_List_d_String_p__Match = new(this, "ReplacementImplRTL", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)), typeof(System.Text.RegularExpressions.Match));
+					r_MReplacementImplRTL_List_d_String_p__Match = new(this, "ReplacementImplRTL", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)), typeof(System.Text.RegularExpressions.Match));
 				}
 				return r_MReplacementImplRTL_List_d_String_p__Match;
 			}

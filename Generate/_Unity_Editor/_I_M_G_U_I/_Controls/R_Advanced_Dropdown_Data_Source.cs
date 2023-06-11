@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			{
 				if(r_MAddMatchItem_AdvancedDropdownItem_String_StringArray_List_d_AdvancedDropdownItem_p__List_d_AdvancedDropdownItem_p_ == null)
 				{
-					r_MAddMatchItem_AdvancedDropdownItem_String_StringArray_List_d_AdvancedDropdownItem_p__List_d_AdvancedDropdownItem_p_ = new(this, "AddMatchItem", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem), typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem)), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem)));
+					r_MAddMatchItem_AdvancedDropdownItem_String_StringArray_List_d_AdvancedDropdownItem_p__List_d_AdvancedDropdownItem_p_ = new(this, "AddMatchItem", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem), typeof(System.String), typeof(System.String).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem)),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem)));
 				}
 				return r_MAddMatchItem_AdvancedDropdownItem_String_StringArray_List_d_AdvancedDropdownItem_p__List_d_AdvancedDropdownItem_p_;
 			}

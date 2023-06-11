@@ -1358,7 +1358,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MPrivateRequestClose_List_d_EditorWindow_p_ == null)
 				{
-					r_MPrivateRequestClose_List_d_EditorWindow_p_ = new( ReflectionUtils.GetType("UnityEditor.ContainerWindow"), "PrivateRequestClose", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.EditorWindow)));
+					r_MPrivateRequestClose_List_d_EditorWindow_p_ = new( ReflectionUtils.GetType("UnityEditor.ContainerWindow"), "PrivateRequestClose", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.EditorWindow)));
 				}
 				return r_MPrivateRequestClose_List_d_EditorWindow_p_;
 			}

@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCompareOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MCompareOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(typeof(System.String), "CompareOrdinal", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MCompareOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(typeof(System.String), "CompareOrdinal", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MCompareOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
 			}
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MConcat_GT_IEnumerable_d_T_p_ == null)
 				{
-					r_MConcat_GT_IEnumerable_d_T_p_ = new(typeof(System.String), "Concat", 1, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MConcat_GT_IEnumerable_d_T_p_ = new(typeof(System.String), "Concat", 1,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MConcat_GT_IEnumerable_d_T_p_;
 			}
@@ -910,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MConcat_IEnumerable_d_String_p_ == null)
 				{
-					r_MConcat_IEnumerable_d_String_p_ = new(typeof(System.String), "Concat", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MConcat_IEnumerable_d_String_p_ = new(typeof(System.String), "Concat", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MConcat_IEnumerable_d_String_p_;
 			}
@@ -1182,7 +1182,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MJoin_GT_Char_IEnumerable_d_T_p_ == null)
 				{
-					r_MJoin_GT_Char_IEnumerable_d_T_p_ = new(typeof(System.String), "Join", 1, typeof(System.Char), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MJoin_GT_Char_IEnumerable_d_T_p_ = new(typeof(System.String), "Join", 1, typeof(System.Char),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MJoin_GT_Char_IEnumerable_d_T_p_;
 			}
@@ -1246,7 +1246,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MJoin_GT_String_IEnumerable_d_T_p_ == null)
 				{
-					r_MJoin_GT_String_IEnumerable_d_T_p_ = new(typeof(System.String), "Join", 1, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MJoin_GT_String_IEnumerable_d_T_p_ = new(typeof(System.String), "Join", 1, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MJoin_GT_String_IEnumerable_d_T_p_;
 			}
@@ -1262,7 +1262,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MJoin_String_IEnumerable_d_String_p_ == null)
 				{
-					r_MJoin_String_IEnumerable_d_String_p_ = new(typeof(System.String), "Join", 0, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MJoin_String_IEnumerable_d_String_p_ = new(typeof(System.String), "Join", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MJoin_String_IEnumerable_d_String_p_;
 			}
@@ -1310,7 +1310,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_ == null)
 				{
-					r_MJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_ = new(typeof(System.String), "JoinCore", 1, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_ = new(typeof(System.String), "JoinCore", 1, typeof(System.Char).MakePointerType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_;
 			}
@@ -1518,7 +1518,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReplaceHelper_Int32_String_ReadOnlySpan_d_Int32_p_ == null)
 				{
-					r_MReplaceHelper_Int32_String_ReadOnlySpan_d_Int32_p_ = new(this, "ReplaceHelper", 0, typeof(System.Int32), typeof(System.String), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Int32)));
+					r_MReplaceHelper_Int32_String_ReadOnlySpan_d_Int32_p_ = new(this, "ReplaceHelper", 0, typeof(System.Int32), typeof(System.String),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MReplaceHelper_Int32_String_ReadOnlySpan_d_Int32_p_;
 			}
@@ -1630,7 +1630,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSplitInternal_ReadOnlySpan_d_Char_p__Int32_StringSplitOptions == null)
 				{
-					r_MSplitInternal_ReadOnlySpan_d_Char_p__Int32_StringSplitOptions = new(this, "SplitInternal", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.StringSplitOptions));
+					r_MSplitInternal_ReadOnlySpan_d_Char_p__Int32_StringSplitOptions = new(this, "SplitInternal", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.StringSplitOptions));
 				}
 				return r_MSplitInternal_ReadOnlySpan_d_Char_p__Int32_StringSplitOptions;
 			}
@@ -1742,7 +1742,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSplitKeepEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32 == null)
 				{
-					r_MSplitKeepEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32 = new(this, "SplitKeepEmptyEntries", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Int32)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32));
+					r_MSplitKeepEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32 = new(this, "SplitKeepEmptyEntries", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Int32)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSplitKeepEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32;
 			}
@@ -1758,7 +1758,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSplitOmitEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32 == null)
 				{
-					r_MSplitOmitEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32 = new(this, "SplitOmitEmptyEntries", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Int32)), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32));
+					r_MSplitOmitEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32 = new(this, "SplitOmitEmptyEntries", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Int32)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSplitOmitEmptyEntries_ReadOnlySpan_d_Int32_p__ReadOnlySpan_d_Int32_p__Int32_Int32;
 			}
@@ -1774,7 +1774,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_ == null)
 				{
-					r_MMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_ = new(this, "MakeSeparatorList", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Collections.Generic.ValueListBuilder`1").MakeGenericType(typeof(System.Int32)).MakeByRefType());
+					r_MMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_ = new(this, "MakeSeparatorList", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Collections.Generic.ValueListBuilder`1").MakeGenericType(typeof(System.Int32)).MakeByRefType());
 				}
 				return r_MMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_;
 			}
@@ -2382,7 +2382,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInitializeProbabilisticMap_UInt32Pointer_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MInitializeProbabilisticMap_UInt32Pointer_ReadOnlySpan_d_Char_p_ = new(typeof(System.String), "InitializeProbabilisticMap", 0, typeof(System.UInt32).MakePointerType(), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MInitializeProbabilisticMap_UInt32Pointer_ReadOnlySpan_d_Char_p_ = new(typeof(System.String), "InitializeProbabilisticMap", 0, typeof(System.UInt32).MakePointerType(),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MInitializeProbabilisticMap_UInt32Pointer_ReadOnlySpan_d_Char_p_;
 			}
@@ -2894,7 +2894,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCtor_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MCtor_ReadOnlySpan_d_Char_p_ = new(typeof(System.String), "Ctor", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MCtor_ReadOnlySpan_d_Char_p_ = new(typeof(System.String), "Ctor", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MCtor_ReadOnlySpan_d_Char_p_;
 			}
@@ -2910,7 +2910,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreate_GTState_Int32_TState_SpanAction_d_Char_TState_p_ == null)
 				{
-					r_MCreate_GTState_Int32_TState_SpanAction_d_Char_TState_p_ = new(typeof(System.String), "Create", 1, typeof(System.Int32), Type.MakeGenericMethodParameter(0), typeof(System.Buffers.SpanAction<, >).MakeGenericType(typeof(System.Char), Type.MakeGenericMethodParameter(0)));
+					r_MCreate_GTState_Int32_TState_SpanAction_d_Char_TState_p_ = new(typeof(System.String), "Create", 1, typeof(System.Int32), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Buffers.SpanAction`2").MakeGenericType(typeof(System.Char), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCreate_GTState_Int32_TState_SpanAction_d_Char_TState_p_;
 			}
@@ -3998,7 +3998,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateString_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MCreateString_ReadOnlySpan_d_Char_p_ = new(this, "CreateString", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MCreateString_ReadOnlySpan_d_Char_p_ = new(this, "CreateString", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MCreateString_ReadOnlySpan_d_Char_p_;
 			}

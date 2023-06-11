@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MParseDownloadInfo_IDictionary_d_String_Object_p_ == null)
 				{
-					r_MParseDownloadInfo_IDictionary_d_String_Object_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo"), "ParseDownloadInfo", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)));
+					r_MParseDownloadInfo_IDictionary_d_String_Object_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo"), "ParseDownloadInfo", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MParseDownloadInfo_IDictionary_d_String_Object_p_;
 			}

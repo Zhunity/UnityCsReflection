@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return typeof(System.Collections.Generic.LinkedList<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FVersionName == null)
 				{
-					r_FVersionName = new(typeof(System.Collections.Generic.LinkedList<>), "VersionName");
+					r_FVersionName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1"), "VersionName");
 				}
 				return r_FVersionName;
 			}
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FCountName == null)
 				{
-					r_FCountName = new(typeof(System.Collections.Generic.LinkedList<>), "CountName");
+					r_FCountName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1"), "CountName");
 				}
 				return r_FCountName;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FValuesName == null)
 				{
-					r_FValuesName = new(typeof(System.Collections.Generic.LinkedList<>), "ValuesName");
+					r_FValuesName = new( ReflectionUtils.GetType("System.Collections.Generic.LinkedList`1"), "ValuesName");
 				}
 				return r_FValuesName;
 			}
@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddAfter_LinkedListNode_d_T_p__T == null)
 				{
-					r_MAddAfter_LinkedListNode_d_T_p__T = new(this, "AddAfter", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
+					r_MAddAfter_LinkedListNode_d_T_p__T = new(this, "AddAfter", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MAddAfter_LinkedListNode_d_T_p__T;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddAfter_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ == null)
 				{
-					r_MAddAfter_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ = new(this, "AddAfter", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAddAfter_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ = new(this, "AddAfter", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAddAfter_LinkedListNode_d_T_p__LinkedListNode_d_T_p_;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddBefore_LinkedListNode_d_T_p__T == null)
 				{
-					r_MAddBefore_LinkedListNode_d_T_p__T = new(this, "AddBefore", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
+					r_MAddBefore_LinkedListNode_d_T_p__T = new(this, "AddBefore", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MAddBefore_LinkedListNode_d_T_p__T;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ == null)
 				{
-					r_MAddBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ = new(this, "AddBefore", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAddBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ = new(this, "AddBefore", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAddBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddFirst_LinkedListNode_d_T_p_ == null)
 				{
-					r_MAddFirst_LinkedListNode_d_T_p_ = new(this, "AddFirst", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAddFirst_LinkedListNode_d_T_p_ = new(this, "AddFirst", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAddFirst_LinkedListNode_d_T_p_;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAddLast_LinkedListNode_d_T_p_ == null)
 				{
-					r_MAddLast_LinkedListNode_d_T_p_ = new(this, "AddLast", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAddLast_LinkedListNode_d_T_p_ = new(this, "AddLast", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAddLast_LinkedListNode_d_T_p_;
 			}
@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MRemove_LinkedListNode_d_T_p_ == null)
 				{
-					r_MRemove_LinkedListNode_d_T_p_ = new(this, "Remove", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MRemove_LinkedListNode_d_T_p_ = new(this, "Remove", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MRemove_LinkedListNode_d_T_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MInternalInsertNodeBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ == null)
 				{
-					r_MInternalInsertNodeBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ = new(this, "InternalInsertNodeBefore", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MInternalInsertNodeBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_ = new(this, "InternalInsertNodeBefore", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MInternalInsertNodeBefore_LinkedListNode_d_T_p__LinkedListNode_d_T_p_;
 			}
@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MInternalInsertNodeToEmptyList_LinkedListNode_d_T_p_ == null)
 				{
-					r_MInternalInsertNodeToEmptyList_LinkedListNode_d_T_p_ = new(this, "InternalInsertNodeToEmptyList", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MInternalInsertNodeToEmptyList_LinkedListNode_d_T_p_ = new(this, "InternalInsertNodeToEmptyList", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MInternalInsertNodeToEmptyList_LinkedListNode_d_T_p_;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MInternalRemoveNode_LinkedListNode_d_T_p_ == null)
 				{
-					r_MInternalRemoveNode_LinkedListNode_d_T_p_ = new(this, "InternalRemoveNode", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MInternalRemoveNode_LinkedListNode_d_T_p_ = new(this, "InternalRemoveNode", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MInternalRemoveNode_LinkedListNode_d_T_p_;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MValidateNewNode_LinkedListNode_d_T_p_ == null)
 				{
-					r_MValidateNewNode_LinkedListNode_d_T_p_ = new(this, "ValidateNewNode", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MValidateNewNode_LinkedListNode_d_T_p_ = new(this, "ValidateNewNode", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MValidateNewNode_LinkedListNode_d_T_p_;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MValidateNode_LinkedListNode_d_T_p_ == null)
 				{
-					r_MValidateNode_LinkedListNode_d_T_p_ = new(this, "ValidateNode", 0, typeof(System.Collections.Generic.LinkedListNode<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MValidateNode_LinkedListNode_d_T_p_ = new(this, "ValidateNode", 0,  ReflectionUtils.GetType("System.Collections.Generic.LinkedListNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MValidateNode_LinkedListNode_d_T_p_;
 			}

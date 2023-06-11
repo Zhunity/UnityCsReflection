@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
         {
             get
             {
-                return typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(ReflectionUtils.GetType(typeof(T0)));
+                return  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(T0));
             }
         }
 

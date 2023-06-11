@@ -1422,7 +1422,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTexturePropertyNames_List_d_String_p_ == null)
 				{
-					r_MGetTexturePropertyNames_List_d_String_p_ = new(this, "GetTexturePropertyNames", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)));
+					r_MGetTexturePropertyNames_List_d_String_p_ = new(this, "GetTexturePropertyNames", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MGetTexturePropertyNames_List_d_String_p_;
 			}
@@ -1438,7 +1438,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTexturePropertyNameIDs_List_d_Int32_p_ == null)
 				{
-					r_MGetTexturePropertyNameIDs_List_d_Int32_p_ = new(this, "GetTexturePropertyNameIDs", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MGetTexturePropertyNameIDs_List_d_Int32_p_ = new(this, "GetTexturePropertyNameIDs", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MGetTexturePropertyNameIDs_List_d_Int32_p_;
 			}
@@ -2462,7 +2462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MExtractFloatArray_Int32_List_d_Single_p_ == null)
 				{
-					r_MExtractFloatArray_Int32_List_d_Single_p_ = new(this, "ExtractFloatArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MExtractFloatArray_Int32_List_d_Single_p_ = new(this, "ExtractFloatArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MExtractFloatArray_Int32_List_d_Single_p_;
 			}
@@ -2478,7 +2478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MExtractVectorArray_Int32_List_d_Vector4_p_ == null)
 				{
-					r_MExtractVectorArray_Int32_List_d_Vector4_p_ = new(this, "ExtractVectorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MExtractVectorArray_Int32_List_d_Vector4_p_ = new(this, "ExtractVectorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MExtractVectorArray_Int32_List_d_Vector4_p_;
 			}
@@ -2494,7 +2494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MExtractColorArray_Int32_List_d_Color_p_ == null)
 				{
-					r_MExtractColorArray_Int32_List_d_Color_p_ = new(this, "ExtractColorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_MExtractColorArray_Int32_List_d_Color_p_ = new(this, "ExtractColorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Color)));
 				}
 				return r_MExtractColorArray_Int32_List_d_Color_p_;
 			}
@@ -2510,7 +2510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MExtractMatrixArray_Int32_List_d_Matrix4x4_p_ == null)
 				{
-					r_MExtractMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "ExtractMatrixArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MExtractMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "ExtractMatrixArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MExtractMatrixArray_Int32_List_d_Matrix4x4_p_;
 			}
@@ -2910,7 +2910,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetFloatArray_String_List_d_Single_p_ == null)
 				{
-					r_MSetFloatArray_String_List_d_Single_p_ = new(this, "SetFloatArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MSetFloatArray_String_List_d_Single_p_ = new(this, "SetFloatArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MSetFloatArray_String_List_d_Single_p_;
 			}
@@ -2926,7 +2926,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetFloatArray_Int32_List_d_Single_p_ == null)
 				{
-					r_MSetFloatArray_Int32_List_d_Single_p_ = new(this, "SetFloatArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MSetFloatArray_Int32_List_d_Single_p_ = new(this, "SetFloatArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MSetFloatArray_Int32_List_d_Single_p_;
 			}
@@ -2974,7 +2974,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetColorArray_String_List_d_Color_p_ == null)
 				{
-					r_MSetColorArray_String_List_d_Color_p_ = new(this, "SetColorArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_MSetColorArray_String_List_d_Color_p_ = new(this, "SetColorArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Color)));
 				}
 				return r_MSetColorArray_String_List_d_Color_p_;
 			}
@@ -2990,7 +2990,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetColorArray_Int32_List_d_Color_p_ == null)
 				{
-					r_MSetColorArray_Int32_List_d_Color_p_ = new(this, "SetColorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_MSetColorArray_Int32_List_d_Color_p_ = new(this, "SetColorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Color)));
 				}
 				return r_MSetColorArray_Int32_List_d_Color_p_;
 			}
@@ -3038,7 +3038,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetVectorArray_String_List_d_Vector4_p_ == null)
 				{
-					r_MSetVectorArray_String_List_d_Vector4_p_ = new(this, "SetVectorArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MSetVectorArray_String_List_d_Vector4_p_ = new(this, "SetVectorArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MSetVectorArray_String_List_d_Vector4_p_;
 			}
@@ -3054,7 +3054,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetVectorArray_Int32_List_d_Vector4_p_ == null)
 				{
-					r_MSetVectorArray_Int32_List_d_Vector4_p_ = new(this, "SetVectorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MSetVectorArray_Int32_List_d_Vector4_p_ = new(this, "SetVectorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MSetVectorArray_Int32_List_d_Vector4_p_;
 			}
@@ -3102,7 +3102,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetMatrixArray_String_List_d_Matrix4x4_p_ == null)
 				{
-					r_MSetMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "SetMatrixArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MSetMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "SetMatrixArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MSetMatrixArray_String_List_d_Matrix4x4_p_;
 			}
@@ -3118,7 +3118,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetMatrixArray_Int32_List_d_Matrix4x4_p_ == null)
 				{
-					r_MSetMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "SetMatrixArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MSetMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "SetMatrixArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MSetMatrixArray_Int32_List_d_Matrix4x4_p_;
 			}
@@ -3550,7 +3550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetFloatArray_String_List_d_Single_p_ == null)
 				{
-					r_MGetFloatArray_String_List_d_Single_p_ = new(this, "GetFloatArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MGetFloatArray_String_List_d_Single_p_ = new(this, "GetFloatArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MGetFloatArray_String_List_d_Single_p_;
 			}
@@ -3566,7 +3566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetFloatArray_Int32_List_d_Single_p_ == null)
 				{
-					r_MGetFloatArray_Int32_List_d_Single_p_ = new(this, "GetFloatArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MGetFloatArray_Int32_List_d_Single_p_ = new(this, "GetFloatArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MGetFloatArray_Int32_List_d_Single_p_;
 			}
@@ -3582,7 +3582,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetColorArray_String_List_d_Color_p_ == null)
 				{
-					r_MGetColorArray_String_List_d_Color_p_ = new(this, "GetColorArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_MGetColorArray_String_List_d_Color_p_ = new(this, "GetColorArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Color)));
 				}
 				return r_MGetColorArray_String_List_d_Color_p_;
 			}
@@ -3598,7 +3598,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetColorArray_Int32_List_d_Color_p_ == null)
 				{
-					r_MGetColorArray_Int32_List_d_Color_p_ = new(this, "GetColorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_MGetColorArray_Int32_List_d_Color_p_ = new(this, "GetColorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Color)));
 				}
 				return r_MGetColorArray_Int32_List_d_Color_p_;
 			}
@@ -3614,7 +3614,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVectorArray_String_List_d_Vector4_p_ == null)
 				{
-					r_MGetVectorArray_String_List_d_Vector4_p_ = new(this, "GetVectorArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MGetVectorArray_String_List_d_Vector4_p_ = new(this, "GetVectorArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MGetVectorArray_String_List_d_Vector4_p_;
 			}
@@ -3630,7 +3630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVectorArray_Int32_List_d_Vector4_p_ == null)
 				{
-					r_MGetVectorArray_Int32_List_d_Vector4_p_ = new(this, "GetVectorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MGetVectorArray_Int32_List_d_Vector4_p_ = new(this, "GetVectorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MGetVectorArray_Int32_List_d_Vector4_p_;
 			}
@@ -3646,7 +3646,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetMatrixArray_String_List_d_Matrix4x4_p_ == null)
 				{
-					r_MGetMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "GetMatrixArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MGetMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "GetMatrixArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MGetMatrixArray_String_List_d_Matrix4x4_p_;
 			}
@@ -3662,7 +3662,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetMatrixArray_Int32_List_d_Matrix4x4_p_ == null)
 				{
-					r_MGetMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "GetMatrixArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MGetMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "GetMatrixArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MGetMatrixArray_Int32_List_d_Matrix4x4_p_;
 			}

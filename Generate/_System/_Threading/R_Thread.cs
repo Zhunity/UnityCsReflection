@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ == null)
 				{
-					r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(typeof(System.Threading.Thread), "AsyncLocalSetCurrentCulture", 0, typeof(System.Threading.AsyncLocalValueChangedArgs<>).MakeGenericType(typeof(System.Globalization.CultureInfo)));
+					r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(typeof(System.Threading.Thread), "AsyncLocalSetCurrentCulture", 0,  ReflectionUtils.GetType("System.Threading.AsyncLocalValueChangedArgs`1").MakeGenericType(typeof(System.Globalization.CultureInfo)));
 				}
 				return r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ == null)
 				{
-					r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(typeof(System.Threading.Thread), "AsyncLocalSetCurrentUICulture", 0, typeof(System.Threading.AsyncLocalValueChangedArgs<>).MakeGenericType(typeof(System.Globalization.CultureInfo)));
+					r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(typeof(System.Threading.Thread), "AsyncLocalSetCurrentUICulture", 0,  ReflectionUtils.GetType("System.Threading.AsyncLocalValueChangedArgs`1").MakeGenericType(typeof(System.Globalization.CultureInfo)));
 				}
 				return r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_;
 			}

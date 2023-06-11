@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.CustomStyleProperty<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -94,7 +94,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MEquals_CustomStyleProperty_d_T_p_ == null)
 				{
-					r_MEquals_CustomStyleProperty_d_T_p_ = new(this, "Equals", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>));
+					r_MEquals_CustomStyleProperty_d_T_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
 				}
 				return r_MEquals_CustomStyleProperty_d_T_p_;
 			}
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ == null)
 				{
-					r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new(typeof(UnityEngine.UIElements.CustomStyleProperty<>), "op_Equality", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>), typeof(UnityEngine.UIElements.CustomStyleProperty<>));
+					r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
 				}
 				return r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_;
 			}
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ == null)
 				{
-					r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new(typeof(UnityEngine.UIElements.CustomStyleProperty<>), "op_Inequality", 0, typeof(UnityEngine.UIElements.CustomStyleProperty<>), typeof(UnityEngine.UIElements.CustomStyleProperty<>));
+					r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
 				}
 				return r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_;
 			}

@@ -62,7 +62,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MDirectoryCopy_String_String_Boolean_Action_d_String_Single_p_ == null)
 				{
-					r_MDirectoryCopy_String_String_Boolean_Action_d_String_Single_p_ = new(this, "DirectoryCopy", 0, typeof(System.String), typeof(System.String), typeof(System.Boolean), typeof(System.Action<, >).MakeGenericType(typeof(System.String), typeof(System.Single)));
+					r_MDirectoryCopy_String_String_Boolean_Action_d_String_Single_p_ = new(this, "DirectoryCopy", 0, typeof(System.String), typeof(System.String), typeof(System.Boolean),  ReflectionUtils.GetType("System.Action`2").MakeGenericType(typeof(System.String), typeof(System.Single)));
 				}
 				return r_MDirectoryCopy_String_String_Boolean_Action_d_String_Single_p_;
 			}

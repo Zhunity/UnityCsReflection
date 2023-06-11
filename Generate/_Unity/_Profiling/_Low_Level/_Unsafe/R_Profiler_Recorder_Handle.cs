@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 			{
 				if(r_MGetAvailable_List_d_ProfilerRecorderHandle_p_ == null)
 				{
-					r_MGetAvailable_List_d_ProfilerRecorderHandle_p_ = new(typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle), "GetAvailable", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)));
+					r_MGetAvailable_List_d_ProfilerRecorderHandle_p_ = new(typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle), "GetAvailable", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)));
 				}
 				return r_MGetAvailable_List_d_ProfilerRecorderHandle_p_;
 			}

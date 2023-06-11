@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MListCategories_Action_d_List_d_String_p__p_ == null)
 				{
-					r_MListCategories_Action_d_List_d_String_p__p_ = new(this, "ListCategories", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String))));
+					r_MListCategories_Action_d_List_d_String_p__p_ = new(this, "ListCategories", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String))));
 				}
 				return r_MListCategories_Action_d_List_d_String_p__p_;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MListLabels_Action_d_List_d_String_p__p_ == null)
 				{
-					r_MListLabels_Action_d_List_d_String_p__p_ = new(this, "ListLabels", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String))));
+					r_MListLabels_Action_d_List_d_String_p__p_ = new(this, "ListLabels", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String))));
 				}
 				return r_MListLabels_Action_d_List_d_String_p__p_;
 			}
@@ -558,7 +558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MCheckUpdate_IEnumerable_d_String_p__Action == null)
 				{
-					r_MCheckUpdate_IEnumerable_d_String_p__Action = new(this, "CheckUpdate", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)), typeof(System.Action));
+					r_MCheckUpdate_IEnumerable_d_String_p__Action = new(this, "CheckUpdate", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)), typeof(System.Action));
 				}
 				return r_MCheckUpdate_IEnumerable_d_String_p__Action;
 			}
@@ -574,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MCheckTermOfServiceAgreement_Action_d_TermOfServiceAgreementStatus_p__Action_d_UIError_p_ == null)
 				{
-					r_MCheckTermOfServiceAgreement_Action_d_TermOfServiceAgreementStatus_p__Action_d_UIError_p_ = new(this, "CheckTermOfServiceAgreement", 0, typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.TermOfServiceAgreementStatus")), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MCheckTermOfServiceAgreement_Action_d_TermOfServiceAgreementStatus_p__Action_d_UIError_p_ = new(this, "CheckTermOfServiceAgreement", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.TermOfServiceAgreementStatus")),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MCheckTermOfServiceAgreement_Action_d_TermOfServiceAgreementStatus_p__Action_d_UIError_p_;
 			}

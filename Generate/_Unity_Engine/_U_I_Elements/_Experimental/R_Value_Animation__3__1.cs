@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         {
             get
             {
-                return typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_Fk_DefaultDurationMs == null)
 				{
-					r_Fk_DefaultDurationMs = new(typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>), "k_DefaultDurationMs");
+					r_Fk_DefaultDurationMs = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "k_DefaultDurationMs");
 				}
 				return r_Fk_DefaultDurationMs;
 			}
@@ -62,7 +62,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_Fk_DefaultMaxPoolSize == null)
 				{
-					r_Fk_DefaultMaxPoolSize = new(typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>), "k_DefaultMaxPoolSize");
+					r_Fk_DefaultMaxPoolSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "k_DefaultMaxPoolSize");
 				}
 				return r_Fk_DefaultMaxPoolSize;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_FsObjectPool == null)
 				{
-					r_FsObjectPool = new(typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>), "sObjectPool");
+					r_FsObjectPool = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "sObjectPool");
 				}
 				return r_FsObjectPool;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_MCreate_VisualElement_Func_d_T_T_Single_T_p_ == null)
 				{
-					r_MCreate_VisualElement_Func_d_T_T_Single_T_p_ = new(typeof(UnityEngine.UIElements.Experimental.ValueAnimation<>), "Create", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Func<, , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0), typeof(System.Single), Type.MakeGenericMethodParameter(0)));
+					r_MCreate_VisualElement_Func_d_T_T_Single_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "Create", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("System.Func`4").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0), typeof(System.Single), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCreate_VisualElement_Func_d_T_T_Single_T_p_;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_MEase_Func_d_Single_Single_p_ == null)
 				{
-					r_MEase_Func_d_Single_Single_p_ = new(this, "Ease", 0, typeof(System.Func<, >).MakeGenericType(typeof(System.Single), typeof(System.Single)));
+					r_MEase_Func_d_Single_Single_p_ = new(this, "Ease", 0,  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Single), typeof(System.Single)));
 				}
 				return r_MEase_Func_d_Single_Single_p_;
 			}

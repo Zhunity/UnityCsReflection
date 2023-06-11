@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MCreateJob_NativeSlice_d_Vertex_p__NativeSlice_d_Vertex_p__Color32_Int32 == null)
 				{
-					r_MCreateJob_NativeSlice_d_Vertex_p__NativeSlice_d_Vertex_p__Color32_Int32 = new(this, "CreateJob", 0, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(Unity.Collections.NativeSlice<>).MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(UnityEngine.Color32), typeof(System.Int32));
+					r_MCreateJob_NativeSlice_d_Vertex_p__NativeSlice_d_Vertex_p__Color32_Int32 = new(this, "CreateJob", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(UnityEngine.UIElements.Vertex)),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(UnityEngine.UIElements.Vertex)), typeof(UnityEngine.Color32), typeof(System.Int32));
 				}
 				return r_MCreateJob_NativeSlice_d_Vertex_p__NativeSlice_d_Vertex_p__Color32_Int32;
 			}

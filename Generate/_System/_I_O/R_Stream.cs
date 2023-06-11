@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_MReadAsync_Memory_d_Byte_p__CancellationToken == null)
 				{
-					r_MReadAsync_Memory_d_Byte_p__CancellationToken = new(this, "ReadAsync", 0, typeof(System.Memory<>).MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
+					r_MReadAsync_Memory_d_Byte_p__CancellationToken = new(this, "ReadAsync", 0,  ReflectionUtils.GetType("System.Memory`1").MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MReadAsync_Memory_d_Byte_p__CancellationToken;
 			}
@@ -750,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken == null)
 				{
-					r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken = new(this, "WriteAsync", 0, typeof(System.ReadOnlyMemory<>).MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
+					r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken = new(this, "WriteAsync", 0,  ReflectionUtils.GetType("System.ReadOnlyMemory`1").MakeGenericType(typeof(System.Byte)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken;
 			}
@@ -846,7 +846,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_MRead_Span_d_Byte_p_ == null)
 				{
-					r_MRead_Span_d_Byte_p_ = new(this, "Read", 0, typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
+					r_MRead_Span_d_Byte_p_ = new(this, "Read", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MRead_Span_d_Byte_p_;
 			}
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_MWrite_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_MWrite_ReadOnlySpan_d_Byte_p_ = new(this, "Write", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_MWrite_ReadOnlySpan_d_Byte_p_ = new(this, "Write", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MWrite_ReadOnlySpan_d_Byte_p_;
 			}
@@ -1070,7 +1070,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_M__0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ == null)
 				{
-					r_M__0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ = new(typeof(System.IO.Stream), "<ReadAsync>g__FinishReadAsync|44_0", 0, typeof(System.Threading.Tasks.Task<>).MakeGenericType(typeof(System.Int32)), typeof(System.Byte).MakeArrayType(), typeof(System.Memory<>).MakeGenericType(typeof(System.Byte)));
+					r_M__0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_ = new(typeof(System.IO.Stream), "<ReadAsync>g__FinishReadAsync|44_0", 0,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(typeof(System.Int32)), typeof(System.Byte).MakeArrayType(),  ReflectionUtils.GetType("System.Memory`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_M__0__ReadAsync__1__g__FinishReadAsync__5__44_0_Task_d_Int32_p__ByteArray_Memory_d_Byte_p_;
 			}

@@ -608,7 +608,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertices_NativeArray_d_Vector3_p_ == null)
 				{
-					r_MGetVertices_NativeArray_d_Vector3_p_ = new(this, "GetVertices", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MGetVertices_NativeArray_d_Vector3_p_ = new(this, "GetVertices", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MGetVertices_NativeArray_d_Vector3_p_;
 			}
@@ -624,7 +624,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetNormals_NativeArray_d_Vector3_p_ == null)
 				{
-					r_MGetNormals_NativeArray_d_Vector3_p_ = new(this, "GetNormals", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MGetNormals_NativeArray_d_Vector3_p_ = new(this, "GetNormals", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MGetNormals_NativeArray_d_Vector3_p_;
 			}
@@ -640,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTangents_NativeArray_d_Vector4_p_ == null)
 				{
-					r_MGetTangents_NativeArray_d_Vector4_p_ = new(this, "GetTangents", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MGetTangents_NativeArray_d_Vector4_p_ = new(this, "GetTangents", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MGetTangents_NativeArray_d_Vector4_p_;
 			}
@@ -656,7 +656,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetColors_NativeArray_d_Color_p_ == null)
 				{
-					r_MGetColors_NativeArray_d_Color_p_ = new(this, "GetColors", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Color)));
+					r_MGetColors_NativeArray_d_Color_p_ = new(this, "GetColors", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Color)));
 				}
 				return r_MGetColors_NativeArray_d_Color_p_;
 			}
@@ -672,7 +672,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetColors_NativeArray_d_Color32_p_ == null)
 				{
-					r_MGetColors_NativeArray_d_Color32_p_ = new(this, "GetColors", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Color32)));
+					r_MGetColors_NativeArray_d_Color32_p_ = new(this, "GetColors", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Color32)));
 				}
 				return r_MGetColors_NativeArray_d_Color32_p_;
 			}
@@ -688,7 +688,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetUVs_Int32_NativeArray_d_Vector2_p_ == null)
 				{
-					r_MGetUVs_Int32_NativeArray_d_Vector2_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_MGetUVs_Int32_NativeArray_d_Vector2_p_ = new(this, "GetUVs", 0, typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Vector2)));
 				}
 				return r_MGetUVs_Int32_NativeArray_d_Vector2_p_;
 			}
@@ -704,7 +704,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetUVs_Int32_NativeArray_d_Vector3_p_ == null)
 				{
-					r_MGetUVs_Int32_NativeArray_d_Vector3_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MGetUVs_Int32_NativeArray_d_Vector3_p_ = new(this, "GetUVs", 0, typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MGetUVs_Int32_NativeArray_d_Vector3_p_;
 			}
@@ -720,7 +720,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetUVs_Int32_NativeArray_d_Vector4_p_ == null)
 				{
-					r_MGetUVs_Int32_NativeArray_d_Vector4_p_ = new(this, "GetUVs", 0, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MGetUVs_Int32_NativeArray_d_Vector4_p_ = new(this, "GetUVs", 0, typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MGetUVs_Int32_NativeArray_d_Vector4_p_;
 			}
@@ -752,7 +752,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32 == null)
 				{
-					r_MCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32 = new(this, "CopyAttributeInto", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32));
+					r_MCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32 = new(this, "CopyAttributeInto", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32));
 				}
 				return r_MCopyAttributeInto_GT_NativeArray_d_T_p__VertexAttribute_VertexAttributeFormat_Int32;
 			}
@@ -784,7 +784,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ == null)
 				{
-					r_MSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ = new(this, "SetVertexBufferParams", 0, typeof(System.Int32), typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
+					r_MSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_ = new(this, "SetVertexBufferParams", 0, typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(UnityEngine.Rendering.VertexAttributeDescriptor)));
 				}
 				return r_MSetVertexBufferParams_Int32_NativeArray_d_VertexAttributeDescriptor_p_;
 			}
@@ -816,7 +816,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetIndices_NativeArray_d_UInt16_p__Int32_Boolean == null)
 				{
-					r_MGetIndices_NativeArray_d_UInt16_p__Int32_Boolean = new(this, "GetIndices", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean));
+					r_MGetIndices_NativeArray_d_UInt16_p__Int32_Boolean = new(this, "GetIndices", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(System.UInt16)), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MGetIndices_NativeArray_d_UInt16_p__Int32_Boolean;
 			}
@@ -832,7 +832,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetIndices_NativeArray_d_Int32_p__Int32_Boolean == null)
 				{
-					r_MGetIndices_NativeArray_d_Int32_p__Int32_Boolean = new(this, "GetIndices", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
+					r_MGetIndices_NativeArray_d_Int32_p__Int32_Boolean = new(this, "GetIndices", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(System.Int32)), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MGetIndices_NativeArray_d_Int32_p__Int32_Boolean;
 			}

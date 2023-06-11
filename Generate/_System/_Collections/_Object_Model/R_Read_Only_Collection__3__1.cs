@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
         {
             get
             {
-                return typeof(System.Collections.ObjectModel.ReadOnlyCollection<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.ObjectModel.ReadOnlyCollection`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
 			{
 				if(r_MIsCompatibleObject_Object == null)
 				{
-					r_MIsCompatibleObject_Object = new(typeof(System.Collections.ObjectModel.ReadOnlyCollection<>), "IsCompatibleObject", 0, typeof(System.Object));
+					r_MIsCompatibleObject_Object = new( ReflectionUtils.GetType("System.Collections.ObjectModel.ReadOnlyCollection`1"), "IsCompatibleObject", 0, typeof(System.Object));
 				}
 				return r_MIsCompatibleObject_Object;
 			}

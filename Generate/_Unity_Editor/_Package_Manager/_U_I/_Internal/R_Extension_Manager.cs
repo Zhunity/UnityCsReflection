@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MIsSorted_GT_List_d_T_p_ == null)
 				{
-					r_MIsSorted_GT_List_d_T_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ExtensionManager"), "IsSorted", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIsSorted_GT_List_d_T_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ExtensionManager"), "IsSorted", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIsSorted_GT_List_d_T_p_;
 			}

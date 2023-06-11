@@ -574,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext == null)
 				{
-					r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext = new(this, "InternalRegister", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Threading.SynchronizationContext), typeof(System.Threading.ExecutionContext));
+					r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext = new(this, "InternalRegister", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Threading.SynchronizationContext), typeof(System.Threading.ExecutionContext));
 				}
 				return r_MInternalRegister_Action_d_Object_p__Object_SynchronizationContext_ExecutionContext;
 			}

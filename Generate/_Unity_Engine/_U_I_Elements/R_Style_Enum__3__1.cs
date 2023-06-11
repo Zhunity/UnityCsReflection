@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.StyleEnum<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -110,7 +110,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_StyleEnum_d_T_p__StyleEnum_d_T_p_ == null)
 				{
-					r_Mop_Equality_StyleEnum_d_T_p__StyleEnum_d_T_p_ = new(typeof(UnityEngine.UIElements.StyleEnum<>), "op_Equality", 0, typeof(UnityEngine.UIElements.StyleEnum<>), typeof(UnityEngine.UIElements.StyleEnum<>));
+					r_Mop_Equality_StyleEnum_d_T_p__StyleEnum_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"));
 				}
 				return r_Mop_Equality_StyleEnum_d_T_p__StyleEnum_d_T_p_;
 			}
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_StyleEnum_d_T_p__StyleEnum_d_T_p_ == null)
 				{
-					r_Mop_Inequality_StyleEnum_d_T_p__StyleEnum_d_T_p_ = new(typeof(UnityEngine.UIElements.StyleEnum<>), "op_Inequality", 0, typeof(UnityEngine.UIElements.StyleEnum<>), typeof(UnityEngine.UIElements.StyleEnum<>));
+					r_Mop_Inequality_StyleEnum_d_T_p__StyleEnum_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"));
 				}
 				return r_Mop_Inequality_StyleEnum_d_T_p__StyleEnum_d_T_p_;
 			}
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Implicit_StyleKeyword == null)
 				{
-					r_Mop_Implicit_StyleKeyword = new(typeof(UnityEngine.UIElements.StyleEnum<>), "op_Implicit", 0, typeof(UnityEngine.UIElements.StyleKeyword));
+					r_Mop_Implicit_StyleKeyword = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"), "op_Implicit", 0, typeof(UnityEngine.UIElements.StyleKeyword));
 				}
 				return r_Mop_Implicit_StyleKeyword;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Implicit_T == null)
 				{
-					r_Mop_Implicit_T = new(typeof(UnityEngine.UIElements.StyleEnum<>), "op_Implicit", 0, Type.MakeGenericMethodParameter(0));
+					r_Mop_Implicit_T = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0));
 				}
 				return r_Mop_Implicit_T;
 			}
@@ -174,7 +174,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MEquals_StyleEnum_d_T_p_ == null)
 				{
-					r_MEquals_StyleEnum_d_T_p_ = new(this, "Equals", 0, typeof(UnityEngine.UIElements.StyleEnum<>));
+					r_MEquals_StyleEnum_d_T_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1"));
 				}
 				return r_MEquals_StyleEnum_d_T_p_;
 			}

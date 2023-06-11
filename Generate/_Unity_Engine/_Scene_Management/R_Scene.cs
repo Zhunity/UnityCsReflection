@@ -510,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetRootGameObjects_List_d_GameObject_p_ == null)
 				{
-					r_MGetRootGameObjects_List_d_GameObject_p_ = new(this, "GetRootGameObjects", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.GameObject)));
+					r_MGetRootGameObjects_List_d_GameObject_p_ = new(this, "GetRootGameObjects", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.GameObject)));
 				}
 				return r_MGetRootGameObjects_List_d_GameObject_p_;
 			}

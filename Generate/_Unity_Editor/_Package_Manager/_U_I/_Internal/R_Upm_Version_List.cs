@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion == null)
 				{
-					r_MAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmVersionList"), "AddToSortedVersions", 0, typeof(System.Collections.Generic.List<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion")),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion"));
+					r_MAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmVersionList"), "AddToSortedVersions", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion")),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion"));
 				}
 				return r_MAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion;
 			}
@@ -494,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean == null)
 				{
-					r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean = new(this, "UpdateExtraPackageInfos", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)), typeof(System.Boolean));
+					r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean = new(this, "UpdateExtraPackageInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)), typeof(System.Boolean));
 				}
 				return r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean;
 			}

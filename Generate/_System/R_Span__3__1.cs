@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.Span<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new(typeof(System.Span<>), "Empty", -1);
+					r_PEmpty = new( ReflectionUtils.GetType("System.Span`1"), "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopyTo_Span_d_T_p_ == null)
 				{
-					r_MCopyTo_Span_d_T_p_ = new(this, "CopyTo", 0, typeof(System.Span<>));
+					r_MCopyTo_Span_d_T_p_ = new(this, "CopyTo", 0,  ReflectionUtils.GetType("System.Span`1"));
 				}
 				return r_MCopyTo_Span_d_T_p_;
 			}
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryCopyTo_Span_d_T_p_ == null)
 				{
-					r_MTryCopyTo_Span_d_T_p_ = new(this, "TryCopyTo", 0, typeof(System.Span<>));
+					r_MTryCopyTo_Span_d_T_p_ = new(this, "TryCopyTo", 0,  ReflectionUtils.GetType("System.Span`1"));
 				}
 				return r_MTryCopyTo_Span_d_T_p_;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_Span_d_T_p__Span_d_T_p_ == null)
 				{
-					r_Mop_Equality_Span_d_T_p__Span_d_T_p_ = new(typeof(System.Span<>), "op_Equality", 0, typeof(System.Span<>), typeof(System.Span<>));
+					r_Mop_Equality_Span_d_T_p__Span_d_T_p_ = new( ReflectionUtils.GetType("System.Span`1"), "op_Equality", 0,  ReflectionUtils.GetType("System.Span`1"),  ReflectionUtils.GetType("System.Span`1"));
 				}
 				return r_Mop_Equality_Span_d_T_p__Span_d_T_p_;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_Span_d_T_p_ == null)
 				{
-					r_Mop_Implicit_Span_d_T_p_ = new(typeof(System.Span<>), "op_Implicit", 0, typeof(System.Span<>));
+					r_Mop_Implicit_Span_d_T_p_ = new( ReflectionUtils.GetType("System.Span`1"), "op_Implicit", 0,  ReflectionUtils.GetType("System.Span`1"));
 				}
 				return r_Mop_Implicit_Span_d_T_p_;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_Span_d_T_p__Span_d_T_p_ == null)
 				{
-					r_Mop_Inequality_Span_d_T_p__Span_d_T_p_ = new(typeof(System.Span<>), "op_Inequality", 0, typeof(System.Span<>), typeof(System.Span<>));
+					r_Mop_Inequality_Span_d_T_p__Span_d_T_p_ = new( ReflectionUtils.GetType("System.Span`1"), "op_Inequality", 0,  ReflectionUtils.GetType("System.Span`1"),  ReflectionUtils.GetType("System.Span`1"));
 				}
 				return r_Mop_Inequality_Span_d_T_p__Span_d_T_p_;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_TArray == null)
 				{
-					r_Mop_Implicit_TArray = new(typeof(System.Span<>), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_Mop_Implicit_TArray = new( ReflectionUtils.GetType("System.Span`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_Mop_Implicit_TArray;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_ArraySegment_d_T_p_ == null)
 				{
-					r_Mop_Implicit_ArraySegment_d_T_p_ = new(typeof(System.Span<>), "op_Implicit", 0, typeof(System.ArraySegment<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Mop_Implicit_ArraySegment_d_T_p_ = new( ReflectionUtils.GetType("System.Span`1"), "op_Implicit", 0,  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_Mop_Implicit_ArraySegment_d_T_p_;
 			}

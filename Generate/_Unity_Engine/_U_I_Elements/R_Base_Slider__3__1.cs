@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.BaseSlider<>).MakeGenericType(ReflectionUtils.GetType(typeof(TValueType)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1").MakeGenericType(typeof(TValueType));
             }
         }
 
@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FkDefaultPageSize == null)
 				{
-					r_FkDefaultPageSize = new(typeof(UnityEngine.UIElements.BaseSlider<>), "kDefaultPageSize");
+					r_FkDefaultPageSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "kDefaultPageSize");
 				}
 				return r_FkDefaultPageSize;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FkDefaultShowInputField == null)
 				{
-					r_FkDefaultShowInputField = new(typeof(UnityEngine.UIElements.BaseSlider<>), "kDefaultShowInputField");
+					r_FkDefaultShowInputField = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "kDefaultShowInputField");
 				}
 				return r_FkDefaultShowInputField;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FkDefaultInverted == null)
 				{
-					r_FkDefaultInverted = new(typeof(UnityEngine.UIElements.BaseSlider<>), "kDefaultInverted");
+					r_FkDefaultInverted = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "kDefaultInverted");
 				}
 				return r_FkDefaultInverted;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FussClassName == null)
 				{
-					r_FussClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "ussClassName");
+					r_FussClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "ussClassName");
 				}
 				return r_FussClassName;
 			}
@@ -350,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FlabelUssClassName == null)
 				{
-					r_FlabelUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "labelUssClassName");
+					r_FlabelUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "labelUssClassName");
 				}
 				return r_FlabelUssClassName;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FinputUssClassName == null)
 				{
-					r_FinputUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "inputUssClassName");
+					r_FinputUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "inputUssClassName");
 				}
 				return r_FinputUssClassName;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FhorizontalVariantUssClassName == null)
 				{
-					r_FhorizontalVariantUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "horizontalVariantUssClassName");
+					r_FhorizontalVariantUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "horizontalVariantUssClassName");
 				}
 				return r_FhorizontalVariantUssClassName;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FverticalVariantUssClassName == null)
 				{
-					r_FverticalVariantUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "verticalVariantUssClassName");
+					r_FverticalVariantUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "verticalVariantUssClassName");
 				}
 				return r_FverticalVariantUssClassName;
 			}
@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FdragContainerUssClassName == null)
 				{
-					r_FdragContainerUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "dragContainerUssClassName");
+					r_FdragContainerUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "dragContainerUssClassName");
 				}
 				return r_FdragContainerUssClassName;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FtrackerUssClassName == null)
 				{
-					r_FtrackerUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "trackerUssClassName");
+					r_FtrackerUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "trackerUssClassName");
 				}
 				return r_FtrackerUssClassName;
 			}
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FdraggerUssClassName == null)
 				{
-					r_FdraggerUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "draggerUssClassName");
+					r_FdraggerUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "draggerUssClassName");
 				}
 				return r_FdraggerUssClassName;
 			}
@@ -462,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FdraggerBorderUssClassName == null)
 				{
-					r_FdraggerBorderUssClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "draggerBorderUssClassName");
+					r_FdraggerBorderUssClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "draggerBorderUssClassName");
 				}
 				return r_FdraggerBorderUssClassName;
 			}
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FtextFieldClassName == null)
 				{
-					r_FtextFieldClassName = new(typeof(UnityEngine.UIElements.BaseSlider<>), "textFieldClassName");
+					r_FtextFieldClassName = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "textFieldClassName");
 				}
 				return r_FtextFieldClassName;
 			}
@@ -2510,7 +2510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetClosestPowerOfTen_Single == null)
 				{
-					r_MGetClosestPowerOfTen_Single = new(typeof(UnityEngine.UIElements.BaseSlider<>), "GetClosestPowerOfTen", 0, typeof(System.Single));
+					r_MGetClosestPowerOfTen_Single = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "GetClosestPowerOfTen", 0, typeof(System.Single));
 				}
 				return r_MGetClosestPowerOfTen_Single;
 			}
@@ -2526,7 +2526,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRoundToMultipleOf_Single_Single == null)
 				{
-					r_MRoundToMultipleOf_Single_Single = new(typeof(UnityEngine.UIElements.BaseSlider<>), "RoundToMultipleOf", 0, typeof(System.Single), typeof(System.Single));
+					r_MRoundToMultipleOf_Single_Single = new( ReflectionUtils.GetType("UnityEngine.UIElements.BaseSlider`1"), "RoundToMultipleOf", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_MRoundToMultipleOf_Single_Single;
 			}
@@ -2910,7 +2910,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MOnTextFieldValueChange_ChangeEvent_d_String_p_ == null)
 				{
-					r_MOnTextFieldValueChange_ChangeEvent_d_String_p_ = new(this, "OnTextFieldValueChange", 0, typeof(UnityEngine.UIElements.ChangeEvent<>).MakeGenericType(typeof(System.String)));
+					r_MOnTextFieldValueChange_ChangeEvent_d_String_p_ = new(this, "OnTextFieldValueChange", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ChangeEvent`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MOnTextFieldValueChange_ChangeEvent_d_String_p_;
 			}
@@ -4126,7 +4126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MElementAtTreePath_List_d_Int32_p_ == null)
 				{
-					r_MElementAtTreePath_List_d_Int32_p_ = new(this, "ElementAtTreePath", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MElementAtTreePath_List_d_Int32_p_ = new(this, "ElementAtTreePath", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MElementAtTreePath_List_d_Int32_p_;
 			}
@@ -4142,7 +4142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MFindElementInTree_VisualElement_List_d_Int32_p_ == null)
 				{
-					r_MFindElementInTree_VisualElement_List_d_Int32_p_ = new(this, "FindElementInTree", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MFindElementInTree_VisualElement_List_d_Int32_p_ = new(this, "FindElementInTree", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MFindElementInTree_VisualElement_List_d_Int32_p_;
 			}
@@ -4174,7 +4174,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSort_Comparison_d_VisualElement_p_ == null)
 				{
-					r_MSort_Comparison_d_VisualElement_p_ = new(this, "Sort", 0, typeof(System.Comparison<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_MSort_Comparison_d_VisualElement_p_ = new(this, "Sort", 0,  ReflectionUtils.GetType("System.Comparison`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
 				}
 				return r_MSort_Comparison_d_VisualElement_p_;
 			}
@@ -4302,7 +4302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ == null)
 				{
-					r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ = new(this, "GetFirstAncestorWhere", 0, typeof(System.Predicate<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ = new(this, "GetFirstAncestorWhere", 0,  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
 				}
 				return r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
 			}
@@ -4542,7 +4542,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown == null)
 				{
-					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "RegisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "RegisterCallback", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
 				}
 				return r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
 			}
@@ -4558,7 +4558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown == null)
 				{
-					r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown = new(this, "RegisterCallback", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), Type.MakeGenericMethodParameter(1), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown = new(this, "RegisterCallback", 2,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCallback`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), Type.MakeGenericMethodParameter(1), typeof(UnityEngine.UIElements.TrickleDown));
 				}
 				return r_MRegisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TUserArgsType_TrickleDown;
 			}
@@ -4574,7 +4574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown == null)
 				{
-					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown = new(this, "RegisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("UnityEngine.UIElements.InvokePolicy"), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown = new(this, "RegisterCallback", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("UnityEngine.UIElements.InvokePolicy"), typeof(UnityEngine.UIElements.TrickleDown));
 				}
 				return r_MRegisterCallback_GTEventType_EventCallback_d_TEventType_p__InvokePolicy_TrickleDown;
 			}
@@ -4590,7 +4590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown == null)
 				{
-					r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "UnregisterCallback", 1, typeof(UnityEngine.UIElements.EventCallback<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown = new(this, "UnregisterCallback", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(UnityEngine.UIElements.TrickleDown));
 				}
 				return r_MUnregisterCallback_GTEventType_EventCallback_d_TEventType_p__TrickleDown;
 			}
@@ -4606,7 +4606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown == null)
 				{
-					r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown = new(this, "UnregisterCallback", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown));
+					r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown = new(this, "UnregisterCallback", 2,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCallback`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown));
 				}
 				return r_MUnregisterCallback_GTEventType_GTUserArgsType_EventCallback_d_TEventType_TUserArgsType_p__TrickleDown;
 			}
@@ -4622,7 +4622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs == null)
 				{
-					r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs = new(this, "TryGetUserArgs", 2, typeof(UnityEngine.UIElements.EventCallback<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown), Type.MakeGenericMethodParameter(1).MakeByRefType());
+					r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs = new(this, "TryGetUserArgs", 2,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCallback`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)), typeof(UnityEngine.UIElements.TrickleDown), Type.MakeGenericMethodParameter(1).MakeByRefType());
 				}
 				return r_MTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs;
 			}

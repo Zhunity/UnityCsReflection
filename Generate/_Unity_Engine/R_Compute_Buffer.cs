@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetData_GT_List_d_T_p_ == null)
 				{
-					r_MSetData_GT_List_d_T_p_ = new(this, "SetData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetData_GT_List_d_T_p_ = new(this, "SetData", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetData_GT_List_d_T_p_;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetData_GT_NativeArray_d_T_p_ == null)
 				{
-					r_MSetData_GT_NativeArray_d_T_p_ = new(this, "SetData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetData_GT_NativeArray_d_T_p_ = new(this, "SetData", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetData_GT_NativeArray_d_T_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetData_GT_List_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetData_GT_List_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetData_GT_List_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetData_GT_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -350,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetData", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetData_GT_NativeArray_d_T_p__Int32_Int32_Int32;
 			}

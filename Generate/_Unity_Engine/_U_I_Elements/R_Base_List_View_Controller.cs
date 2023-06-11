@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRemoveItems_List_d_Int32_p_ == null)
 				{
-					r_MRemoveItems_List_d_Int32_p_ = new(this, "RemoveItems", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MRemoveItems_List_d_Int32_p_ = new(this, "RemoveItems", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MRemoveItems_List_d_Int32_p_;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRaiseItemsAdded_IEnumerable_d_Int32_p_ == null)
 				{
-					r_MRaiseItemsAdded_IEnumerable_d_Int32_p_ = new(this, "RaiseItemsAdded", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.Int32)));
+					r_MRaiseItemsAdded_IEnumerable_d_Int32_p_ = new(this, "RaiseItemsAdded", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MRaiseItemsAdded_IEnumerable_d_Int32_p_;
 			}
@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRaiseItemsRemoved_IEnumerable_d_Int32_p_ == null)
 				{
-					r_MRaiseItemsRemoved_IEnumerable_d_Int32_p_ = new(this, "RaiseItemsRemoved", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.Int32)));
+					r_MRaiseItemsRemoved_IEnumerable_d_Int32_p_ = new(this, "RaiseItemsRemoved", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MRaiseItemsRemoved_IEnumerable_d_Int32_p_;
 			}
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRemoveFromArray_Array_List_d_Int32_p_ == null)
 				{
-					r_MRemoveFromArray_Array_List_d_Int32_p_ = new(typeof(UnityEngine.UIElements.BaseListViewController), "RemoveFromArray", 0, typeof(System.Array), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Int32)));
+					r_MRemoveFromArray_Array_List_d_Int32_p_ = new(typeof(UnityEngine.UIElements.BaseListViewController), "RemoveFromArray", 0, typeof(System.Array),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Int32)));
 				}
 				return r_MRemoveFromArray_Array_List_d_Int32_p_;
 			}

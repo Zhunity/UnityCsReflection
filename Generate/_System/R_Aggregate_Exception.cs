@@ -350,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MHandle_Func_d_Exception_Boolean_p_ == null)
 				{
-					r_MHandle_Func_d_Exception_Boolean_p_ = new(this, "Handle", 0, typeof(System.Func<, >).MakeGenericType(typeof(System.Exception), typeof(System.Boolean)));
+					r_MHandle_Func_d_Exception_Boolean_p_ = new(this, "Handle", 0,  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Exception), typeof(System.Boolean)));
 				}
 				return r_MHandle_Func_d_Exception_Boolean_p_;
 			}

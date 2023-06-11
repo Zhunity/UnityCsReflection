@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.EventHandler<>).MakeGenericType(ReflectionUtils.GetType(typeof(TEventArgs)));
+                return  ReflectionUtils.GetType("System.EventHandler`1").MakeGenericType(typeof(TEventArgs));
             }
         }
 

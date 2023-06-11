@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddRange_IEnumerable_d_String_p_ == null)
 				{
-					r_MAddRange_IEnumerable_d_String_p_ = new(this, "AddRange", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MAddRange_IEnumerable_d_String_p_ = new(this, "AddRange", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MAddRange_IEnumerable_d_String_p_;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRebuild_IEnumerable_d_String_p_ == null)
 				{
-					r_MRebuild_IEnumerable_d_String_p_ = new(this, "Rebuild", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MRebuild_IEnumerable_d_String_p_ = new(this, "Rebuild", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MRebuild_IEnumerable_d_String_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRebuild_IEnumerable_d_Tuple_d_String_String_Boolean_p__p_ == null)
 				{
-					r_MRebuild_IEnumerable_d_Tuple_d_String_String_Boolean_p__p_ = new(this, "Rebuild", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.Tuple`3").MakeGenericType(typeof(System.String), typeof(System.String), typeof(System.Boolean))));
+					r_MRebuild_IEnumerable_d_Tuple_d_String_String_Boolean_p__p_ = new(this, "Rebuild", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.Tuple`3").MakeGenericType(typeof(System.String), typeof(System.String), typeof(System.Boolean))));
 				}
 				return r_MRebuild_IEnumerable_d_Tuple_d_String_String_Boolean_p__p_;
 			}

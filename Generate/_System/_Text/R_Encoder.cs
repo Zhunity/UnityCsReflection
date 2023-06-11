@@ -174,7 +174,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetByteCount_ReadOnlySpan_d_Char_p__Boolean == null)
 				{
-					r_MGetByteCount_ReadOnlySpan_d_Char_p__Boolean = new(this, "GetByteCount", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
+					r_MGetByteCount_ReadOnlySpan_d_Char_p__Boolean = new(this, "GetByteCount", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
 				}
 				return r_MGetByteCount_ReadOnlySpan_d_Char_p__Boolean;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean == null)
 				{
-					r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean = new(this, "GetBytes", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Boolean));
+					r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean = new(this, "GetBytes", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)), typeof(System.Boolean));
 				}
 				return r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean;
 			}
@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MConvert_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean_Out_Int32_Out_Int32_Out_Boolean == null)
 				{
-					r_MConvert_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean_Out_Int32_Out_Int32_Out_Boolean = new(this, "Convert", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)), typeof(System.Boolean), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
+					r_MConvert_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean_Out_Int32_Out_Int32_Out_Boolean = new(this, "Convert", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)), typeof(System.Boolean), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
 				}
 				return r_MConvert_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean_Out_Int32_Out_Int32_Out_Boolean;
 			}

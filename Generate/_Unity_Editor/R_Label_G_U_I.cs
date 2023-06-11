@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_ == null)
 				{
-					r_MGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_ = new(this, "GetLabelsForAssets", 0, typeof(UnityEngine.Object).MakeArrayType(), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)).MakeByRefType(), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)).MakeByRefType());
+					r_MGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_ = new(this, "GetLabelsForAssets", 0, typeof(UnityEngine.Object).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)).MakeByRefType(),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)).MakeByRefType());
 				}
 				return r_MGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_;
 			}

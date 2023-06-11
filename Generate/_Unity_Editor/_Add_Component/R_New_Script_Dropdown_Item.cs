@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 			{
 				if(r_MSortChildren_Comparison_d_AdvancedDropdownItem_p__Boolean == null)
 				{
-					r_MSortChildren_Comparison_d_AdvancedDropdownItem_p__Boolean = new(this, "SortChildren", 0, typeof(System.Comparison<>).MakeGenericType(typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem)), typeof(System.Boolean));
+					r_MSortChildren_Comparison_d_AdvancedDropdownItem_p__Boolean = new(this, "SortChildren", 0,  ReflectionUtils.GetType("System.Comparison`1").MakeGenericType(typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem)), typeof(System.Boolean));
 				}
 				return r_MSortChildren_Comparison_d_AdvancedDropdownItem_p__Boolean;
 			}

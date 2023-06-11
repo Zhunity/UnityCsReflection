@@ -2094,7 +2094,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_ == null)
 				{
-					r_MGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_ = new(this, "GetChars", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)), typeof(System.Span<>).MakeGenericType(typeof(System.Char)));
+					r_MGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_ = new(this, "GetChars", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MGetChars_ReadOnlySpan_d_Byte_p__Span_d_Char_p_;
 			}
@@ -2110,7 +2110,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetString_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_MGetString_ReadOnlySpan_d_Byte_p_ = new(this, "GetString", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_MGetString_ReadOnlySpan_d_Byte_p_ = new(this, "GetString", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MGetString_ReadOnlySpan_d_Byte_p_;
 			}
@@ -2414,7 +2414,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetCharCount_ReadOnlySpan_d_Byte_p_ == null)
 				{
-					r_MGetCharCount_ReadOnlySpan_d_Byte_p_ = new(this, "GetCharCount", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Byte)));
+					r_MGetCharCount_ReadOnlySpan_d_Byte_p_ = new(this, "GetCharCount", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MGetCharCount_ReadOnlySpan_d_Byte_p_;
 			}
@@ -2430,7 +2430,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetByteCount_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MGetByteCount_ReadOnlySpan_d_Char_p_ = new(this, "GetByteCount", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MGetByteCount_ReadOnlySpan_d_Char_p_ = new(this, "GetByteCount", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MGetByteCount_ReadOnlySpan_d_Char_p_;
 			}
@@ -2446,7 +2446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_ == null)
 				{
-					r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_ = new(this, "GetBytes", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)), typeof(System.Span<>).MakeGenericType(typeof(System.Byte)));
+					r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_ = new(this, "GetBytes", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Byte)));
 				}
 				return r_MGetBytes_ReadOnlySpan_d_Char_p__Span_d_Byte_p_;
 			}

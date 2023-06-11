@@ -1374,7 +1374,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_ == null)
 				{
-					r_MGetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_ = new(this, "GetMaybeNested", 0, typeof(System.Reflection.Emit.TypeBuilder), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("System.TypeName")));
+					r_MGetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_ = new(this, "GetMaybeNested", 0, typeof(System.Reflection.Emit.TypeBuilder),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("System.TypeName")));
 				}
 				return r_MGetMaybeNested_TypeBuilder_IEnumerable_d_TypeName_p_;
 			}
@@ -1630,7 +1630,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodToken_MethodInfo_IEnumerable_d_Type_p_ == null)
 				{
-					r_MGetMethodToken_MethodInfo_IEnumerable_d_Type_p_ = new(this, "GetMethodToken", 0, typeof(System.Reflection.MethodInfo), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.Type)));
+					r_MGetMethodToken_MethodInfo_IEnumerable_d_Type_p_ = new(this, "GetMethodToken", 0, typeof(System.Reflection.MethodInfo),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.Type)));
 				}
 				return r_MGetMethodToken_MethodInfo_IEnumerable_d_Type_p_;
 			}
@@ -1678,7 +1678,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetConstructorToken_ConstructorInfo_IEnumerable_d_Type_p_ == null)
 				{
-					r_MGetConstructorToken_ConstructorInfo_IEnumerable_d_Type_p_ = new(this, "GetConstructorToken", 0, typeof(System.Reflection.ConstructorInfo), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.Type)));
+					r_MGetConstructorToken_ConstructorInfo_IEnumerable_d_Type_p_ = new(this, "GetConstructorToken", 0, typeof(System.Reflection.ConstructorInfo),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.Type)));
 				}
 				return r_MGetConstructorToken_ConstructorInfo_IEnumerable_d_Type_p_;
 			}
@@ -1902,7 +1902,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetToken_MethodBase_IEnumerable_d_Type_p_ == null)
 				{
-					r_MGetToken_MethodBase_IEnumerable_d_Type_p_ = new(this, "GetToken", 0, typeof(System.Reflection.MethodBase), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.Type)));
+					r_MGetToken_MethodBase_IEnumerable_d_Type_p_ = new(this, "GetToken", 0, typeof(System.Reflection.MethodBase),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.Type)));
 				}
 				return r_MGetToken_MethodBase_IEnumerable_d_Type_p_;
 			}
@@ -2046,7 +2046,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p__Dictionary_d_MemberInfo_Int32_p__Boolean == null)
 				{
-					r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p__Dictionary_d_MemberInfo_Int32_p__Boolean = new(this, "FixupTokens", 0, typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.Int32), typeof(System.Int32)), typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.Int32), typeof(System.Reflection.MemberInfo)), typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.Reflection.MemberInfo), typeof(System.Int32)), typeof(System.Boolean));
+					r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p__Dictionary_d_MemberInfo_Int32_p__Boolean = new(this, "FixupTokens", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.Int32), typeof(System.Int32)),  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.Int32), typeof(System.Reflection.MemberInfo)),  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.Reflection.MemberInfo), typeof(System.Int32)), typeof(System.Boolean));
 				}
 				return r_MFixupTokens_Dictionary_d_Int32_Int32_p__Dictionary_d_Int32_MemberInfo_p__Dictionary_d_MemberInfo_Int32_p__Boolean;
 			}

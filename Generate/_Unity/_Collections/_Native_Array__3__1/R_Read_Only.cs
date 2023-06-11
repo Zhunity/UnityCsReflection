@@ -16,7 +16,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(typeof(T));
             }
         }
 
@@ -160,7 +160,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopyTo_NativeArray_d_T_p_ == null)
 				{
-					r_MCopyTo_NativeArray_d_T_p_ = new(this, "CopyTo", 0, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCopyTo_NativeArray_d_T_p_ = new(this, "CopyTo", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCopyTo_NativeArray_d_T_p_;
 			}

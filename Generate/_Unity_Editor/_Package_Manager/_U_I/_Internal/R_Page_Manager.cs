@@ -862,7 +862,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetPageFromTab_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MGetPageFromTab_Nullable_d_PackageFilterTab_p_ = new(this, "GetPageFromTab", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MGetPageFromTab_Nullable_d_PackageFilterTab_p_ = new(this, "GetPageFromTab", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MGetPageFromTab_Nullable_d_PackageFilterTab_p_;
 			}
@@ -878,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetPageFromTab_GT_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MGetPageFromTab_GT_Nullable_d_PackageFilterTab_p_ = new(this, "GetPageFromTab", 1, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MGetPageFromTab_GT_Nullable_d_PackageFilterTab_p_ = new(this, "GetPageFromTab", 1,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MGetPageFromTab_GT_Nullable_d_PackageFilterTab_p_;
 			}
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_ = new(this, "CreatePageFromTab", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_ = new(this, "CreatePageFromTab", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1118,7 +1118,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean == null)
 				{
-					r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "SetSelected", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
+					r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "SetSelected", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
 				}
 				return r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
 			}
@@ -1150,7 +1150,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean == null)
 				{
-					r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "AmendSelection", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
+					r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "AmendSelection", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
 				}
 				return r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
 			}
@@ -1166,7 +1166,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean == null)
 				{
-					r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "RemoveSelection", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
+					r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "RemoveSelection", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
 				}
 				return r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
 			}
@@ -1294,7 +1294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MFindTab_IEnumerable_d_IPackageVersion_p_ == null)
 				{
-					r_MFindTab_IEnumerable_d_IPackageVersion_p_ = new(this, "FindTab", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
+					r_MFindTab_IEnumerable_d_IPackageVersion_p_ = new(this, "FindTab", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
 				}
 				return r_MFindTab_IEnumerable_d_IPackageVersion_p_;
 			}
@@ -1454,7 +1454,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRefresh_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MRefresh_Nullable_d_PackageFilterTab_p_ = new(this, "Refresh", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MRefresh_Nullable_d_PackageFilterTab_p_ = new(this, "Refresh", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MRefresh_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1486,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MCancelRefresh_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MCancelRefresh_Nullable_d_PackageFilterTab_p_ = new(this, "CancelRefresh", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MCancelRefresh_Nullable_d_PackageFilterTab_p_ = new(this, "CancelRefresh", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MCancelRefresh_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1678,7 +1678,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddSubPage_PackageFilterTab_String_String_String_Int32_Func_d_IPackage_Boolean_p__Func_d_IPackage_String_p__Func_d_String_String_Int32_p_ == null)
 				{
-					r_MAddSubPage_PackageFilterTab_String_String_String_Int32_Func_d_IPackage_Boolean_p__Func_d_IPackage_String_p__Func_d_String_String_Int32_p_ = new(this, "AddSubPage", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"), typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.Boolean)), typeof(System.Func<, >).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.String)), typeof(System.Func<, , >).MakeGenericType(typeof(System.String), typeof(System.String), typeof(System.Int32)));
+					r_MAddSubPage_PackageFilterTab_String_String_String_Int32_Func_d_IPackage_Boolean_p__Func_d_IPackage_String_p__Func_d_String_String_Int32_p_ = new(this, "AddSubPage", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"), typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.Int32),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.Boolean)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.String)),  ReflectionUtils.GetType("System.Func`3").MakeGenericType(typeof(System.String), typeof(System.String), typeof(System.Int32)));
 				}
 				return r_MAddSubPage_PackageFilterTab_String_String_String_Int32_Func_d_IPackage_Boolean_p__Func_d_IPackage_String_p__Func_d_String_String_Int32_p_;
 			}
@@ -1854,7 +1854,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetRefreshTimestamp_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MGetRefreshTimestamp_Nullable_d_PackageFilterTab_p_ = new(this, "GetRefreshTimestamp", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MGetRefreshTimestamp_Nullable_d_PackageFilterTab_p_ = new(this, "GetRefreshTimestamp", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MGetRefreshTimestamp_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1870,7 +1870,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetRefreshError_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MGetRefreshError_Nullable_d_PackageFilterTab_p_ = new(this, "GetRefreshError", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MGetRefreshError_Nullable_d_PackageFilterTab_p_ = new(this, "GetRefreshError", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MGetRefreshError_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1886,7 +1886,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MIsRefreshInProgress_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MIsRefreshInProgress_Nullable_d_PackageFilterTab_p_ = new(this, "IsRefreshInProgress", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MIsRefreshInProgress_Nullable_d_PackageFilterTab_p_ = new(this, "IsRefreshInProgress", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MIsRefreshInProgress_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1902,7 +1902,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MIsInitialFetchingDone_Nullable_d_PackageFilterTab_p_ == null)
 				{
-					r_MIsInitialFetchingDone_Nullable_d_PackageFilterTab_p_ = new(this, "IsInitialFetchingDone", 0, typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MIsInitialFetchingDone_Nullable_d_PackageFilterTab_p_ = new(this, "IsInitialFetchingDone", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MIsInitialFetchingDone_Nullable_d_PackageFilterTab_p_;
 			}
@@ -1918,7 +1918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MSetPackagesUserUnlockedState_IEnumerable_d_String_p__Boolean == null)
 				{
-					r_MSetPackagesUserUnlockedState_IEnumerable_d_String_p__Boolean = new(this, "SetPackagesUserUnlockedState", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)), typeof(System.Boolean));
+					r_MSetPackagesUserUnlockedState_IEnumerable_d_String_p__Boolean = new(this, "SetPackagesUserUnlockedState", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)), typeof(System.Boolean));
 				}
 				return r_MSetPackagesUserUnlockedState_IEnumerable_d_String_p__Boolean;
 			}

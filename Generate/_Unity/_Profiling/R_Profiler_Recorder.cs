@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean == null)
 				{
-					r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean = new(this, "CopyTo", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
+					r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean = new(this, "CopyTo", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
 				}
 				return r_MCopyTo_List_d_ProfilerRecorderSample_p__Boolean;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean == null)
 				{
-					r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List", 0, typeof(Unity.Profiling.ProfilerRecorder), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
+					r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List", 0, typeof(Unity.Profiling.ProfilerRecorder),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
 				}
 				return r_MCopyTo_List_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
 			}
@@ -942,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean == null)
 				{
-					r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
+					r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean = new(typeof(Unity.Profiling.ProfilerRecorder), "CopyTo_List_Injected", 0, typeof(Unity.Profiling.ProfilerRecorder).MakeByRefType(),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(Unity.Profiling.ProfilerRecorderSample)), typeof(System.Boolean));
 				}
 				return r_MCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean;
 			}

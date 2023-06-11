@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -174,7 +174,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadback", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadback_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -350,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -462,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1, typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeArray", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -494,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -510,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -526,7 +526,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -558,7 +558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -574,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.TextureFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextureFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ == null)
 				{
-					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1, typeof(Unity.Collections.NativeSlice<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
+					r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_ = new(this, "RequestAsyncReadbackIntoNativeSlice", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeByRefType(), typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)));
 				}
 				return r_MRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_1", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_1", 0, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_1_ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_2", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_2", 0, typeof(UnityEngine.ComputeBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_2_ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_3", 0, typeof(UnityEngine.Texture), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_3", 0, typeof(UnityEngine.Texture),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_3_Texture_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -718,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_4", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_4", 0, typeof(UnityEngine.Texture), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_4_Texture_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -734,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_5", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_5", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_5_Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -750,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_6", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_6", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_6_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -766,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_7", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_7", 0, typeof(UnityEngine.Texture), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_7_Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -782,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_8", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_8", 0, typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_8_GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -798,7 +798,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer == null)
 				{
-					r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_9", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
+					r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer = new(this, "Internal_RequestAsyncReadback_9", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest)),  ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData").MakePointerType());
 				}
 				return r_MInternal_RequestAsyncReadback_9_GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p__AsyncRequestNativeArrayDataPointer;
 			}
@@ -3918,7 +3918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_ == null)
 				{
-					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_List_d_T_p_;
 			}
@@ -3934,7 +3934,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ == null)
 				{
-					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p_;
 			}
@@ -3966,7 +3966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -3982,7 +3982,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32;
 			}
@@ -4078,7 +4078,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_ == null)
 				{
-					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p_;
 			}
@@ -4094,7 +4094,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_ == null)
 				{
-					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_ = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p_;
 			}
@@ -4126,7 +4126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -4142,7 +4142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetBufferData", 1, typeof(UnityEngine.GraphicsBuffer),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetBufferData_GT_GraphicsBuffer_NativeArray_d_T_p__Int32_Int32_Int32;
 			}
@@ -6462,7 +6462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetGlobalFloatArray_String_List_d_Single_p_ == null)
 				{
-					r_MSetGlobalFloatArray_String_List_d_Single_p_ = new(this, "SetGlobalFloatArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MSetGlobalFloatArray_String_List_d_Single_p_ = new(this, "SetGlobalFloatArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MSetGlobalFloatArray_String_List_d_Single_p_;
 			}
@@ -6478,7 +6478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetGlobalFloatArray_Int32_List_d_Single_p_ == null)
 				{
-					r_MSetGlobalFloatArray_Int32_List_d_Single_p_ = new(this, "SetGlobalFloatArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.Single)));
+					r_MSetGlobalFloatArray_Int32_List_d_Single_p_ = new(this, "SetGlobalFloatArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.Single)));
 				}
 				return r_MSetGlobalFloatArray_Int32_List_d_Single_p_;
 			}
@@ -6510,7 +6510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetGlobalVectorArray_String_List_d_Vector4_p_ == null)
 				{
-					r_MSetGlobalVectorArray_String_List_d_Vector4_p_ = new(this, "SetGlobalVectorArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MSetGlobalVectorArray_String_List_d_Vector4_p_ = new(this, "SetGlobalVectorArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MSetGlobalVectorArray_String_List_d_Vector4_p_;
 			}
@@ -6526,7 +6526,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_ == null)
 				{
-					r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_ = new(this, "SetGlobalVectorArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector4)));
+					r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_ = new(this, "SetGlobalVectorArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector4)));
 				}
 				return r_MSetGlobalVectorArray_Int32_List_d_Vector4_p_;
 			}
@@ -6558,7 +6558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_ == null)
 				{
-					r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "SetGlobalMatrixArray", 0, typeof(System.String), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_ = new(this, "SetGlobalMatrixArray", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MSetGlobalMatrixArray_String_List_d_Matrix4x4_p_;
 			}
@@ -6574,7 +6574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_ == null)
 				{
-					r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "SetGlobalMatrixArray", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Matrix4x4)));
+					r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_ = new(this, "SetGlobalMatrixArray", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Matrix4x4)));
 				}
 				return r_MSetGlobalMatrixArray_Int32_List_d_Matrix4x4_p_;
 			}
@@ -7054,7 +7054,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_ == null)
 				{
-					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_ = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_ = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p_;
 			}
@@ -7070,7 +7070,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ == null)
 				{
-					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_ = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p_;
 			}
@@ -7102,7 +7102,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32 = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_List_d_T_p__Int32_Int32_Int32;
 			}
@@ -7118,7 +7118,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 == null)
 				{
-					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer), typeof(Unity.Collections.NativeArray<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32 = new(this, "SetComputeBufferData", 1, typeof(UnityEngine.ComputeBuffer),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetComputeBufferData_GT_ComputeBuffer_NativeArray_d_T_p__Int32_Int32_Int32;
 			}

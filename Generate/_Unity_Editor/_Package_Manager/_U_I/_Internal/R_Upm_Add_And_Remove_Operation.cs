@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddByIds_IEnumerable_d_String_p_ == null)
 				{
-					r_MAddByIds_IEnumerable_d_String_p_ = new(this, "AddByIds", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MAddByIds_IEnumerable_d_String_p_ = new(this, "AddByIds", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MAddByIds_IEnumerable_d_String_p_;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRemoveByNames_IEnumerable_d_String_p_ == null)
 				{
-					r_MRemoveByNames_IEnumerable_d_String_p_ = new(this, "RemoveByNames", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MRemoveByNames_IEnumerable_d_String_p_ = new(this, "RemoveByNames", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MRemoveByNames_IEnumerable_d_String_p_;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddAndResetDependencies_String_IEnumerable_d_String_p_ == null)
 				{
-					r_MAddAndResetDependencies_String_IEnumerable_d_String_p_ = new(this, "AddAndResetDependencies", 0, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MAddAndResetDependencies_String_IEnumerable_d_String_p_ = new(this, "AddAndResetDependencies", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MAddAndResetDependencies_String_IEnumerable_d_String_p_;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MResetDependencies_String_IEnumerable_d_String_p_ == null)
 				{
-					r_MResetDependencies_String_IEnumerable_d_String_p_ = new(this, "ResetDependencies", 0, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MResetDependencies_String_IEnumerable_d_String_p_ = new(this, "ResetDependencies", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MResetDependencies_String_IEnumerable_d_String_p_;
 			}

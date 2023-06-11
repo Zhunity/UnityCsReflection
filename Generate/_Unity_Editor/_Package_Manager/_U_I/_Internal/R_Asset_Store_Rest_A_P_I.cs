@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
-					r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetPurchases", 0, typeof(System.String), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetPurchases", 0, typeof(System.String),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
-					r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetCategories", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetCategories", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -462,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
-					r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetTaggings", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "GetTaggings", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MGetTaggings_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_ == null)
 				{
-					r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_ = new(this, "GetProductDetail", 0, typeof(System.Int64), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))));
+					r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_ = new(this, "GetProductDetail", 0, typeof(System.Int64),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))));
 				}
 				return r_MGetProductDetail_Int64_Action_d_Dictionary_d_String_Object_p__p_;
 			}
@@ -494,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_ == null)
 				{
-					r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_ = new(this, "GetDownloadDetail", 0, typeof(System.Int64), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")));
+					r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_ = new(this, "GetDownloadDetail", 0, typeof(System.Int64),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadInfo")));
 				}
 				return r_MGetDownloadDetail_Int64_Action_d_AssetStoreDownloadInfo_p_;
 			}
@@ -510,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_ == null)
 				{
-					r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_ = new(this, "GetProductUpdateDetail", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))));
+					r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_ = new(this, "GetProductUpdateDetail", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))));
 				}
 				return r_MGetProductUpdateDetail_IEnumerable_d_String_p__Action_d_Dictionary_d_String_Object_p__p_;
 			}
@@ -526,7 +526,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
-					r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "CheckTermsAndConditions", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "CheckTermsAndConditions", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MCheckTermsAndConditions_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
-					r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "HandleHttpRequest", 0,  ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient"), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "HandleHttpRequest", 0,  ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient"),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MHandleHttpRequest_IAsyncHTTPClient_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}
@@ -558,7 +558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ == null)
 				{
-					r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "HandleHttpRequest", 0, typeof(System.Func<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient")), typeof(System.Action<>).MakeGenericType(typeof(System.Collections.Generic.Dictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object))), typeof(System.Action<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_ = new(this, "HandleHttpRequest", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient")),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object))),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MHandleHttpRequest_Func_d_IAsyncHTTPClient_p__Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
 			}

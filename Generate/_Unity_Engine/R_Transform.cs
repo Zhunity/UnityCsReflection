@@ -1230,7 +1230,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
 				{
-					r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformDirections", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformDirections", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
 			}
@@ -1246,7 +1246,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTransformDirections_Span_d_Vector3_p_ == null)
 				{
-					r_MTransformDirections_Span_d_Vector3_p_ = new(this, "TransformDirections", 0, typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MTransformDirections_Span_d_Vector3_p_ = new(this, "TransformDirections", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MTransformDirections_Span_d_Vector3_p_;
 			}
@@ -1310,7 +1310,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
 				{
-					r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformDirections", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformDirections", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
 			}
@@ -1326,7 +1326,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverseTransformDirections_Span_d_Vector3_p_ == null)
 				{
-					r_MInverseTransformDirections_Span_d_Vector3_p_ = new(this, "InverseTransformDirections", 0, typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MInverseTransformDirections_Span_d_Vector3_p_ = new(this, "InverseTransformDirections", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MInverseTransformDirections_Span_d_Vector3_p_;
 			}
@@ -1390,7 +1390,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
 				{
-					r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformVectors", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformVectors", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
 			}
@@ -1406,7 +1406,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTransformVectors_Span_d_Vector3_p_ == null)
 				{
-					r_MTransformVectors_Span_d_Vector3_p_ = new(this, "TransformVectors", 0, typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MTransformVectors_Span_d_Vector3_p_ = new(this, "TransformVectors", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MTransformVectors_Span_d_Vector3_p_;
 			}
@@ -1470,7 +1470,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
 				{
-					r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformVectors", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformVectors", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
 			}
@@ -1486,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverseTransformVectors_Span_d_Vector3_p_ == null)
 				{
-					r_MInverseTransformVectors_Span_d_Vector3_p_ = new(this, "InverseTransformVectors", 0, typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MInverseTransformVectors_Span_d_Vector3_p_ = new(this, "InverseTransformVectors", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MInverseTransformVectors_Span_d_Vector3_p_;
 			}
@@ -1550,7 +1550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
 				{
-					r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformPoints", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformPoints", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
 			}
@@ -1566,7 +1566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTransformPoints_Span_d_Vector3_p_ == null)
 				{
-					r_MTransformPoints_Span_d_Vector3_p_ = new(this, "TransformPoints", 0, typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MTransformPoints_Span_d_Vector3_p_ = new(this, "TransformPoints", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MTransformPoints_Span_d_Vector3_p_;
 			}
@@ -1630,7 +1630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
 				{
-					r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformPoints", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(UnityEngine.Vector3)), typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformPoints", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
 			}
@@ -1646,7 +1646,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverseTransformPoints_Span_d_Vector3_p_ == null)
 				{
-					r_MInverseTransformPoints_Span_d_Vector3_p_ = new(this, "InverseTransformPoints", 0, typeof(System.Span<>).MakeGenericType(typeof(UnityEngine.Vector3)));
+					r_MInverseTransformPoints_Span_d_Vector3_p_ = new(this, "InverseTransformPoints", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
 				}
 				return r_MInverseTransformPoints_Span_d_Vector3_p_;
 			}
@@ -2686,7 +2686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ == null)
 				{
-					r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_;
 			}
@@ -2718,7 +2718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponentsInChildren_GT_List_d_T_p_ == null)
 				{
-					r_MGetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponentsInChildren_GT_List_d_T_p_;
 			}
@@ -2846,7 +2846,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ == null)
 				{
-					r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponentsInParent_GT_Boolean_List_d_T_p_;
 			}
@@ -2894,7 +2894,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponents_Type_List_d_Component_p_ == null)
 				{
-					r_MGetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
+					r_MGetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Component)));
 				}
 				return r_MGetComponents_Type_List_d_Component_p_;
 			}
@@ -2910,7 +2910,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponents_GT_List_d_T_p_ == null)
 				{
-					r_MGetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponents_GT_List_d_T_p_;
 			}

@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetPhysicsShape_Int32_List_d_Vector2_p_ == null)
 				{
-					r_MGetPhysicsShape_Int32_List_d_Vector2_p_ = new(this, "GetPhysicsShape", 0, typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_MGetPhysicsShape_Int32_List_d_Vector2_p_ = new(this, "GetPhysicsShape", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector2)));
 				}
 				return r_MGetPhysicsShape_Int32_List_d_Vector2_p_;
 			}
@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ == null)
 				{
-					r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ = new(typeof(UnityEngine.Sprite), "GetPhysicsShapeImpl", 0, typeof(UnityEngine.Sprite), typeof(System.Int32), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ = new(typeof(UnityEngine.Sprite), "GetPhysicsShapeImpl", 0, typeof(UnityEngine.Sprite), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector2)));
 				}
 				return r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOverridePhysicsShape_IList_d_Vector2Array_p_ == null)
 				{
-					r_MOverridePhysicsShape_IList_d_Vector2Array_p_ = new(this, "OverridePhysicsShape", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType(typeof(UnityEngine.Vector2).MakeArrayType()));
+					r_MOverridePhysicsShape_IList_d_Vector2Array_p_ = new(this, "OverridePhysicsShape", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType(typeof(UnityEngine.Vector2).MakeArrayType()));
 				}
 				return r_MOverridePhysicsShape_IList_d_Vector2Array_p_;
 			}

@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return typeof(System.ArraySegment<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_F__0__Empty__1__k__BackingField == null)
 				{
-					r_F__0__Empty__1__k__BackingField = new(typeof(System.ArraySegment<>), "<Empty>k__BackingField");
+					r_F__0__Empty__1__k__BackingField = new( ReflectionUtils.GetType("System.ArraySegment`1"), "<Empty>k__BackingField");
 				}
 				return r_F__0__Empty__1__k__BackingField;
 			}
@@ -110,7 +110,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new(typeof(System.ArraySegment<>), "Empty", -1);
+					r_PEmpty = new( ReflectionUtils.GetType("System.ArraySegment`1"), "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopyTo_ArraySegment_d_T_p_ == null)
 				{
-					r_MCopyTo_ArraySegment_d_T_p_ = new(this, "CopyTo", 0, typeof(System.ArraySegment<>));
+					r_MCopyTo_ArraySegment_d_T_p_ = new(this, "CopyTo", 0,  ReflectionUtils.GetType("System.ArraySegment`1"));
 				}
 				return r_MCopyTo_ArraySegment_d_T_p_;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MEquals_ArraySegment_d_T_p_ == null)
 				{
-					r_MEquals_ArraySegment_d_T_p_ = new(this, "Equals", 0, typeof(System.ArraySegment<>));
+					r_MEquals_ArraySegment_d_T_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("System.ArraySegment`1"));
 				}
 				return r_MEquals_ArraySegment_d_T_p_;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_ArraySegment_d_T_p__ArraySegment_d_T_p_ == null)
 				{
-					r_Mop_Equality_ArraySegment_d_T_p__ArraySegment_d_T_p_ = new(typeof(System.ArraySegment<>), "op_Equality", 0, typeof(System.ArraySegment<>), typeof(System.ArraySegment<>));
+					r_Mop_Equality_ArraySegment_d_T_p__ArraySegment_d_T_p_ = new( ReflectionUtils.GetType("System.ArraySegment`1"), "op_Equality", 0,  ReflectionUtils.GetType("System.ArraySegment`1"),  ReflectionUtils.GetType("System.ArraySegment`1"));
 				}
 				return r_Mop_Equality_ArraySegment_d_T_p__ArraySegment_d_T_p_;
 			}
@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_ArraySegment_d_T_p__ArraySegment_d_T_p_ == null)
 				{
-					r_Mop_Inequality_ArraySegment_d_T_p__ArraySegment_d_T_p_ = new(typeof(System.ArraySegment<>), "op_Inequality", 0, typeof(System.ArraySegment<>), typeof(System.ArraySegment<>));
+					r_Mop_Inequality_ArraySegment_d_T_p__ArraySegment_d_T_p_ = new( ReflectionUtils.GetType("System.ArraySegment`1"), "op_Inequality", 0,  ReflectionUtils.GetType("System.ArraySegment`1"),  ReflectionUtils.GetType("System.ArraySegment`1"));
 				}
 				return r_Mop_Inequality_ArraySegment_d_T_p__ArraySegment_d_T_p_;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_TArray == null)
 				{
-					r_Mop_Implicit_TArray = new(typeof(System.ArraySegment<>), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_Mop_Implicit_TArray = new( ReflectionUtils.GetType("System.ArraySegment`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_Mop_Implicit_TArray;
 			}

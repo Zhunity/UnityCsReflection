@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MAddIntPersistentListener_UnityAction_d_Int32_p__Int32 == null)
 				{
-					r_MAddIntPersistentListener_UnityAction_d_Int32_p__Int32 = new(this, "AddIntPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_MAddIntPersistentListener_UnityAction_d_Int32_p__Int32 = new(this, "AddIntPersistentListener", 0,  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
 				}
 				return r_MAddIntPersistentListener_UnityAction_d_Int32_p__Int32;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 == null)
 				{
-					r_MRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 = new(this, "RegisterIntPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
+					r_MRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32 = new(this, "RegisterIntPersistentListener", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.Int32)), typeof(System.Int32));
 				}
 				return r_MRegisterIntPersistentListener_Int32_UnityAction_d_Int32_p__Int32;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MAddFloatPersistentListener_UnityAction_d_Single_p__Single == null)
 				{
-					r_MAddFloatPersistentListener_UnityAction_d_Single_p__Single = new(this, "AddFloatPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Single)), typeof(System.Single));
+					r_MAddFloatPersistentListener_UnityAction_d_Single_p__Single = new(this, "AddFloatPersistentListener", 0,  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.Single)), typeof(System.Single));
 				}
 				return r_MAddFloatPersistentListener_UnityAction_d_Single_p__Single;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single == null)
 				{
-					r_MRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single = new(this, "RegisterFloatPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Single)), typeof(System.Single));
+					r_MRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single = new(this, "RegisterFloatPersistentListener", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.Single)), typeof(System.Single));
 				}
 				return r_MRegisterFloatPersistentListener_Int32_UnityAction_d_Single_p__Single;
 			}
@@ -718,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean == null)
 				{
-					r_MAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean = new(this, "AddBoolPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
+					r_MAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean = new(this, "AddBoolPersistentListener", 0,  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
 				}
 				return r_MAddBoolPersistentListener_UnityAction_d_Boolean_p__Boolean;
 			}
@@ -734,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean == null)
 				{
-					r_MRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean = new(this, "RegisterBoolPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
+					r_MRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean = new(this, "RegisterBoolPersistentListener", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.Boolean)), typeof(System.Boolean));
 				}
 				return r_MRegisterBoolPersistentListener_Int32_UnityAction_d_Boolean_p__Boolean;
 			}
@@ -750,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MAddStringPersistentListener_UnityAction_d_String_p__String == null)
 				{
-					r_MAddStringPersistentListener_UnityAction_d_String_p__String = new(this, "AddStringPersistentListener", 0, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.String)), typeof(System.String));
+					r_MAddStringPersistentListener_UnityAction_d_String_p__String = new(this, "AddStringPersistentListener", 0,  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.String)), typeof(System.String));
 				}
 				return r_MAddStringPersistentListener_UnityAction_d_String_p__String;
 			}
@@ -766,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String == null)
 				{
-					r_MRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String = new(this, "RegisterStringPersistentListener", 0, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(typeof(System.String)), typeof(System.String));
+					r_MRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String = new(this, "RegisterStringPersistentListener", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(typeof(System.String)), typeof(System.String));
 				}
 				return r_MRegisterStringPersistentListener_Int32_UnityAction_d_String_p__String;
 			}
@@ -782,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MAddObjectPersistentListener_GT_UnityAction_d_T_p__T == null)
 				{
-					r_MAddObjectPersistentListener_GT_UnityAction_d_T_p__T = new(this, "AddObjectPersistentListener", 1, typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
+					r_MAddObjectPersistentListener_GT_UnityAction_d_T_p__T = new(this, "AddObjectPersistentListener", 1,  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MAddObjectPersistentListener_GT_UnityAction_d_T_p__T;
 			}
@@ -798,7 +798,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T == null)
 				{
-					r_MRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T = new(this, "RegisterObjectPersistentListener", 1, typeof(System.Int32), typeof(UnityEngine.Events.UnityAction<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
+					r_MRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T = new(this, "RegisterObjectPersistentListener", 1, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.Events.UnityAction`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MRegisterObjectPersistentListener_GT_Int32_UnityAction_d_T_p__T;
 			}

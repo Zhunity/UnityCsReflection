@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MClearErrors_Predicate_d_UIError_p_ == null)
 				{
-					r_MClearErrors_Predicate_d_UIError_p_ = new(this, "ClearErrors", 0, typeof(System.Predicate<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
+					r_MClearErrors_Predicate_d_UIError_p_ = new(this, "ClearErrors", 0,  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError")));
 				}
 				return r_MClearErrors_Predicate_d_UIError_p_;
 			}

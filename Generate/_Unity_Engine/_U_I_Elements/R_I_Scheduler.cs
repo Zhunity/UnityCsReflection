@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MScheduleOnce_Action_d_TimerState_p__Int64 == null)
 				{
-					r_MScheduleOnce_Action_d_TimerState_p__Int64 = new(this, "ScheduleOnce", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64));
+					r_MScheduleOnce_Action_d_TimerState_p__Int64 = new(this, "ScheduleOnce", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64));
 				}
 				return r_MScheduleOnce_Action_d_TimerState_p__Int64;
 			}
@@ -62,7 +62,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_ == null)
 				{
-					r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_ = new(this, "ScheduleUntil", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64), typeof(System.Int64), typeof(System.Func<>).MakeGenericType(typeof(System.Boolean)));
+					r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_ = new(this, "ScheduleUntil", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64), typeof(System.Int64),  ReflectionUtils.GetType("System.Func`1").MakeGenericType(typeof(System.Boolean)));
 				}
 				return r_MScheduleUntil_Action_d_TimerState_p__Int64_Int64_Func_d_Boolean_p_;
 			}
@@ -78,7 +78,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64 == null)
 				{
-					r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64 = new(this, "ScheduleForDuration", 0, typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64), typeof(System.Int64), typeof(System.Int64));
+					r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64 = new(this, "ScheduleForDuration", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.UIElements.TimerState)), typeof(System.Int64), typeof(System.Int64), typeof(System.Int64));
 				}
 				return r_MScheduleForDuration_Action_d_TimerState_p__Int64_Int64_Int64;
 			}

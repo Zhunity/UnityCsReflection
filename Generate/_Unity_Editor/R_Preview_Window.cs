@@ -1630,7 +1630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MOnUpdateSupportedDataModes_List_d_DataMode_p_ == null)
 				{
-					r_MOnUpdateSupportedDataModes_List_d_DataMode_p_ = new(this, "OnUpdateSupportedDataModes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEditor.DataMode)));
+					r_MOnUpdateSupportedDataModes_List_d_DataMode_p_ = new(this, "OnUpdateSupportedDataModes", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.DataMode)));
 				}
 				return r_MOnUpdateSupportedDataModes_List_d_DataMode_p_;
 			}
@@ -1742,7 +1742,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MGetObjectsLocked_List_d_Object_p_ == null)
 				{
-					r_MGetObjectsLocked_List_d_Object_p_ = new(this, "GetObjectsLocked", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Object)));
+					r_MGetObjectsLocked_List_d_Object_p_ = new(this, "GetObjectsLocked", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Object)));
 				}
 				return r_MGetObjectsLocked_List_d_Object_p_;
 			}
@@ -1758,7 +1758,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MSetObjectsLocked_List_d_Object_p_ == null)
 				{
-					r_MSetObjectsLocked_List_d_Object_p_ = new(this, "SetObjectsLocked", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Object)));
+					r_MSetObjectsLocked_List_d_Object_p_ = new(this, "SetObjectsLocked", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Object)));
 				}
 				return r_MSetObjectsLocked_List_d_Object_p_;
 			}

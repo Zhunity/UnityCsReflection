@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MStartTracking_List_d_VisualElement_p_ == null)
 				{
-					r_MStartTracking_List_d_VisualElement_p_ = new(this, "StartTracking", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_MStartTracking_List_d_VisualElement_p_ = new(this, "StartTracking", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
 				}
 				return r_MStartTracking_List_d_VisualElement_p_;
 			}
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MStopTracking_List_d_VisualElement_p_ == null)
 				{
-					r_MStopTracking_List_d_VisualElement_p_ = new(this, "StopTracking", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+					r_MStopTracking_List_d_VisualElement_p_ = new(this, "StopTracking", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
 				}
 				return r_MStopTracking_List_d_VisualElement_p_;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MOnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ == null)
 				{
-					r_MOnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ = new(this, "OnStyleSheetAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(UnityEngine.UIElements.StyleSheet)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
+					r_MOnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_ = new(this, "OnStyleSheetAssetsImported", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(UnityEngine.UIElements.StyleSheet)),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MOnStyleSheetAssetsImported_HashSet_d_StyleSheet_p__HashSet_d_String_p_;
 			}
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MOnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ == null)
 				{
-					r_MOnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ = new(this, "OnVisualTreeAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
+					r_MOnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_ = new(this, "OnVisualTreeAssetsImported", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MOnVisualTreeAssetsImported_HashSet_d_VisualTreeAsset_p__HashSet_d_String_p_;
 			}

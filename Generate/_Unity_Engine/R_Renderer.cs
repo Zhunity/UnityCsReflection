@@ -1454,7 +1454,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetMaterials_List_d_Material_p_ == null)
 				{
-					r_MGetMaterials_List_d_Material_p_ = new(this, "GetMaterials", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Material)));
+					r_MGetMaterials_List_d_Material_p_ = new(this, "GetMaterials", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Material)));
 				}
 				return r_MGetMaterials_List_d_Material_p_;
 			}
@@ -1470,7 +1470,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetSharedMaterials_List_d_Material_p_ == null)
 				{
-					r_MSetSharedMaterials_List_d_Material_p_ = new(this, "SetSharedMaterials", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Material)));
+					r_MSetSharedMaterials_List_d_Material_p_ = new(this, "SetSharedMaterials", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Material)));
 				}
 				return r_MSetSharedMaterials_List_d_Material_p_;
 			}
@@ -1486,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetMaterials_List_d_Material_p_ == null)
 				{
-					r_MSetMaterials_List_d_Material_p_ = new(this, "SetMaterials", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Material)));
+					r_MSetMaterials_List_d_Material_p_ = new(this, "SetMaterials", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Material)));
 				}
 				return r_MSetMaterials_List_d_Material_p_;
 			}
@@ -1502,7 +1502,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetSharedMaterials_List_d_Material_p_ == null)
 				{
-					r_MGetSharedMaterials_List_d_Material_p_ = new(this, "GetSharedMaterials", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Material)));
+					r_MGetSharedMaterials_List_d_Material_p_ = new(this, "GetSharedMaterials", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Material)));
 				}
 				return r_MGetSharedMaterials_List_d_Material_p_;
 			}
@@ -1518,7 +1518,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetClosestReflectionProbes_List_d_ReflectionProbeBlendInfo_p_ == null)
 				{
-					r_MGetClosestReflectionProbes_List_d_ReflectionProbeBlendInfo_p_ = new(this, "GetClosestReflectionProbes", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Rendering.ReflectionProbeBlendInfo)));
+					r_MGetClosestReflectionProbes_List_d_ReflectionProbeBlendInfo_p_ = new(this, "GetClosestReflectionProbes", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Rendering.ReflectionProbeBlendInfo)));
 				}
 				return r_MGetClosestReflectionProbes_List_d_ReflectionProbeBlendInfo_p_;
 			}
@@ -1886,7 +1886,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ == null)
 				{
-					r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Boolean),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponentsInChildren_GT_Boolean_List_d_T_p_;
 			}
@@ -1918,7 +1918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponentsInChildren_GT_List_d_T_p_ == null)
 				{
-					r_MGetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInChildren_GT_List_d_T_p_ = new(this, "GetComponentsInChildren", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponentsInChildren_GT_List_d_T_p_;
 			}
@@ -2046,7 +2046,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ == null)
 				{
-					r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean), typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponentsInParent_GT_Boolean_List_d_T_p_ = new(this, "GetComponentsInParent", 1, typeof(System.Boolean),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponentsInParent_GT_Boolean_List_d_T_p_;
 			}
@@ -2094,7 +2094,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponents_Type_List_d_Component_p_ == null)
 				{
-					r_MGetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type), typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.Component)));
+					r_MGetComponents_Type_List_d_Component_p_ = new(this, "GetComponents", 0, typeof(System.Type),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Component)));
 				}
 				return r_MGetComponents_Type_List_d_Component_p_;
 			}
@@ -2110,7 +2110,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetComponents_GT_List_d_T_p_ == null)
 				{
-					r_MGetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1, typeof(System.Collections.Generic.List<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MGetComponents_GT_List_d_T_p_ = new(this, "GetComponents", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MGetComponents_GT_List_d_T_p_;
 			}

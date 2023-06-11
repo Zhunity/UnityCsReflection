@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MOnAssetBundleNameGUI_IEnumerable_d_Object_p_ == null)
 				{
-					r_MOnAssetBundleNameGUI_IEnumerable_d_Object_p_ = new(this, "OnAssetBundleNameGUI", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEngine.Object)));
+					r_MOnAssetBundleNameGUI_IEnumerable_d_Object_p_ = new(this, "OnAssetBundleNameGUI", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEngine.Object)));
 				}
 				return r_MOnAssetBundleNameGUI_IEnumerable_d_Object_p_;
 			}
@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MAssetBundleTextField_Rect_Int32_IEnumerable_d_Object_p__Boolean == null)
 				{
-					r_MAssetBundleTextField_Rect_Int32_IEnumerable_d_Object_p__Boolean = new(this, "AssetBundleTextField", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEngine.Object)), typeof(System.Boolean));
+					r_MAssetBundleTextField_Rect_Int32_IEnumerable_d_Object_p__Boolean = new(this, "AssetBundleTextField", 0, typeof(UnityEngine.Rect), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEngine.Object)), typeof(System.Boolean));
 				}
 				return r_MAssetBundleTextField_Rect_Int32_IEnumerable_d_Object_p__Boolean;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MAssetBundlePopup_Rect_Int32_IEnumerable_d_Object_p__Boolean == null)
 				{
-					r_MAssetBundlePopup_Rect_Int32_IEnumerable_d_Object_p__Boolean = new(this, "AssetBundlePopup", 0, typeof(UnityEngine.Rect), typeof(System.Int32), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEngine.Object)), typeof(System.Boolean));
+					r_MAssetBundlePopup_Rect_Int32_IEnumerable_d_Object_p__Boolean = new(this, "AssetBundlePopup", 0, typeof(UnityEngine.Rect), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEngine.Object)), typeof(System.Boolean));
 				}
 				return r_MAssetBundlePopup_Rect_Int32_IEnumerable_d_Object_p__Boolean;
 			}
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MFilterSelected_IEnumerable_d_String_p_ == null)
 				{
-					r_MFilterSelected_IEnumerable_d_String_p_ = new(this, "FilterSelected", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MFilterSelected_IEnumerable_d_String_p_ = new(this, "FilterSelected", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MFilterSelected_IEnumerable_d_String_p_;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean == null)
 				{
-					r_MGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean = new(this, "GetAssetBundlesFromAssets", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEngine.Object)), typeof(System.Boolean), typeof(System.Boolean).MakeByRefType());
+					r_MGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean = new(this, "GetAssetBundlesFromAssets", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEngine.Object)), typeof(System.Boolean), typeof(System.Boolean).MakeByRefType());
 				}
 				return r_MGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MSetAssetBundleForAssets_IEnumerable_d_Object_p__String_Boolean == null)
 				{
-					r_MSetAssetBundleForAssets_IEnumerable_d_Object_p__String_Boolean = new(this, "SetAssetBundleForAssets", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(UnityEngine.Object)), typeof(System.String), typeof(System.Boolean));
+					r_MSetAssetBundleForAssets_IEnumerable_d_Object_p__String_Boolean = new(this, "SetAssetBundleForAssets", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEngine.Object)), typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MSetAssetBundleForAssets_IEnumerable_d_Object_p__String_Boolean;
 			}

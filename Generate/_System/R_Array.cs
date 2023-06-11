@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_ == null)
 				{
-					r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_ = new(typeof(System.Array), "ConvertAll", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Converter<, >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
+					r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_ = new(typeof(System.Array), "ConvertAll", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Converter`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
 				}
 				return r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_;
 			}
@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MForEach_GT_TArray_Action_d_T_p_ == null)
 				{
-					r_MForEach_GT_TArray_Action_d_T_p_ = new(typeof(System.Array), "ForEach", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Action<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MForEach_GT_TArray_Action_d_T_p_ = new(typeof(System.Array), "ForEach", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MForEach_GT_TArray_Action_d_T_p_;
 			}
@@ -718,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_ == null)
 				{
-					r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_ = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Collections.Generic.IComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_ = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_;
 			}
@@ -750,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_ == null)
 				{
-					r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_ = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), Type.MakeGenericMethodParameter(0), typeof(System.Collections.Generic.IComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_ = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_;
 			}
@@ -1246,7 +1246,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_IComparer_d_T_p_ == null)
 				{
-					r_MSort_GT_TArray_IComparer_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Collections.Generic.IComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GT_TArray_IComparer_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GT_TArray_IComparer_d_T_p_;
 			}
@@ -1262,7 +1262,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_ == null)
 				{
-					r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.Generic.IComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_;
 			}
@@ -1278,7 +1278,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_Comparison_d_T_p_ == null)
 				{
-					r_MSort_GT_TArray_Comparison_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Comparison<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GT_TArray_Comparison_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Comparison`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GT_TArray_Comparison_d_T_p_;
 			}
@@ -1326,7 +1326,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_ == null)
 				{
-					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_ = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Collections.Generic.IComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_ = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_;
 			}
@@ -1342,7 +1342,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_ == null)
 				{
-					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_ = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.Generic.IComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_ = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_;
 			}
@@ -1358,7 +1358,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MExists_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MExists_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "Exists", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MExists_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "Exists", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MExists_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1406,7 +1406,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFind_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFind_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "Find", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFind_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "Find", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFind_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1422,7 +1422,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindAll_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindAll_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindAll_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindAll_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1438,7 +1438,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindIndex_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindIndex_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindIndex_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindIndex_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1454,7 +1454,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_;
 			}
@@ -1470,7 +1470,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_;
 			}
@@ -1486,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLast_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindLast_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindLast", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLast_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindLast", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLast_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1502,7 +1502,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLastIndex_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindLastIndex_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLastIndex_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLastIndex_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1518,7 +1518,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_;
 			}
@@ -1534,7 +1534,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_;
 			}
@@ -1550,7 +1550,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTrueForAll_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MTrueForAll_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "TrueForAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MTrueForAll_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "TrueForAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MTrueForAll_GT_TArray_Predicate_d_T_p_;
 			}

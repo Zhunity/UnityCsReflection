@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MCopyTo_Int32_Span_d_Char_p__Int32 == null)
 				{
-					r_MCopyTo_Int32_Span_d_Char_p__Int32 = new(this, "CopyTo", 0, typeof(System.Int32), typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32));
+					r_MCopyTo_Int32_Span_d_Char_p__Int32 = new(this, "CopyTo", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Char)), typeof(System.Int32));
 				}
 				return r_MCopyTo_Int32_Span_d_Char_p__Int32;
 			}
@@ -910,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MAppend_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MAppend_ReadOnlySpan_d_Char_p_ = new(this, "Append", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MAppend_ReadOnlySpan_d_Char_p_ = new(this, "Append", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MAppend_ReadOnlySpan_d_Char_p_;
 			}
@@ -942,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MAppendJoin_GT_String_IEnumerable_d_T_p_ == null)
 				{
-					r_MAppendJoin_GT_String_IEnumerable_d_T_p_ = new(this, "AppendJoin", 1, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAppendJoin_GT_String_IEnumerable_d_T_p_ = new(this, "AppendJoin", 1, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAppendJoin_GT_String_IEnumerable_d_T_p_;
 			}
@@ -990,7 +990,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MAppendJoin_GT_Char_IEnumerable_d_T_p_ == null)
 				{
-					r_MAppendJoin_GT_Char_IEnumerable_d_T_p_ = new(this, "AppendJoin", 1, typeof(System.Char), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAppendJoin_GT_Char_IEnumerable_d_T_p_ = new(this, "AppendJoin", 1, typeof(System.Char),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAppendJoin_GT_Char_IEnumerable_d_T_p_;
 			}
@@ -1022,7 +1022,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_ == null)
 				{
-					r_MAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_ = new(this, "AppendJoinCore", 1, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_ = new(this, "AppendJoinCore", 1, typeof(System.Char).MakePointerType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_;
 			}
@@ -1326,7 +1326,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MInsert_Int32_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MInsert_Int32_ReadOnlySpan_d_Char_p_ = new(this, "Insert", 0, typeof(System.Int32), typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MInsert_Int32_ReadOnlySpan_d_Char_p_ = new(this, "Insert", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MInsert_Int32_ReadOnlySpan_d_Char_p_;
 			}
@@ -1534,7 +1534,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MEquals_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MEquals_ReadOnlySpan_d_Char_p_ = new(this, "Equals", 0, typeof(System.ReadOnlySpan<>).MakeGenericType(typeof(System.Char)));
+					r_MEquals_ReadOnlySpan_d_Char_p_ = new(this, "Equals", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MEquals_ReadOnlySpan_d_Char_p_;
 			}
@@ -1694,7 +1694,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32 == null)
 				{
-					r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32 = new(typeof(System.Text.StringBuilder), "ThreadSafeCopy", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32), typeof(System.Span<>).MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32));
+					r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32 = new(typeof(System.Text.StringBuilder), "ThreadSafeCopy", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32;
 			}

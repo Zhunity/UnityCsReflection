@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
         {
             get
             {
-                return typeof(System.Threading.Tasks.TaskFactory<>).MakeGenericType(ReflectionUtils.GetType(typeof(TResult)));
+                return  ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1").MakeGenericType(typeof(TResult));
             }
         }
 
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_TResult_p_ == null)
 				{
-					r_MStartNew_Func_d_TResult_p_ = new(this, "StartNew", 0, typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MStartNew_Func_d_TResult_p_ = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MStartNew_Func_d_TResult_p_;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_TResult_p__CancellationToken == null)
 				{
-					r_MStartNew_Func_d_TResult_p__CancellationToken = new(this, "StartNew", 0, typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MStartNew_Func_d_TResult_p__CancellationToken = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MStartNew_Func_d_TResult_p__CancellationToken;
 			}
@@ -238,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_TResult_p__TaskCreationOptions == null)
 				{
-					r_MStartNew_Func_d_TResult_p__TaskCreationOptions = new(this, "StartNew", 0, typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MStartNew_Func_d_TResult_p__TaskCreationOptions = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MStartNew_Func_d_TResult_p__TaskCreationOptions;
 			}
@@ -254,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler == null)
 				{
-					r_MStartNew_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler = new(this, "StartNew", 0, typeof(System.Func<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MStartNew_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MStartNew_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler;
 			}
@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_Object_TResult_p__Object == null)
 				{
-					r_MStartNew_Func_d_Object_TResult_p__Object = new(this, "StartNew", 0, typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
+					r_MStartNew_Func_d_Object_TResult_p__Object = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
 				}
 				return r_MStartNew_Func_d_Object_TResult_p__Object;
 			}
@@ -286,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken == null)
 				{
-					r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken = new(this, "StartNew", 0, typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
+					r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken));
 				}
 				return r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken;
 			}
@@ -302,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_Object_TResult_p__Object_TaskCreationOptions == null)
 				{
-					r_MStartNew_Func_d_Object_TResult_p__Object_TaskCreationOptions = new(this, "StartNew", 0, typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MStartNew_Func_d_Object_TResult_p__Object_TaskCreationOptions = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MStartNew_Func_d_Object_TResult_p__Object_TaskCreationOptions;
 			}
@@ -318,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler == null)
 				{
-					r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler = new(this, "StartNew", 0, typeof(System.Func<, >).MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler = new(this, "StartNew", 0,  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Object), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MStartNew_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncCoreLogic_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Task_d_TResult_p__Boolean == null)
 				{
-					r_MFromAsyncCoreLogic_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Task_d_TResult_p__Boolean = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncCoreLogic", 0, typeof(System.IAsyncResult), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Action<>).MakeGenericType(typeof(System.IAsyncResult)), typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Boolean));
+					r_MFromAsyncCoreLogic_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Task_d_TResult_p__Boolean = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncCoreLogic", 0, typeof(System.IAsyncResult),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Boolean));
 				}
 				return r_MFromAsyncCoreLogic_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Task_d_TResult_p__Boolean;
 			}
@@ -350,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p_ == null)
 				{
-					r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p_ = new(this, "FromAsync", 0, typeof(System.IAsyncResult), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)));
+					r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p_ = new(this, "FromAsync", 0, typeof(System.IAsyncResult),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p_;
 			}
@@ -366,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions == null)
 				{
-					r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions = new(this, "FromAsync", 0, typeof(System.IAsyncResult), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions = new(this, "FromAsync", 0, typeof(System.IAsyncResult),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions;
 			}
@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler == null)
 				{
-					r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler = new(this, "FromAsync", 0, typeof(System.IAsyncResult), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler = new(this, "FromAsync", 0, typeof(System.IAsyncResult),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MFromAsync_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler;
 			}
@@ -398,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncImpl_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler == null)
 				{
-					r_MFromAsyncImpl_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncImpl", 0, typeof(System.IAsyncResult), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Action<>).MakeGenericType(typeof(System.IAsyncResult)), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MFromAsyncImpl_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncImpl", 0, typeof(System.IAsyncResult),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.IAsyncResult)), typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MFromAsyncImpl_IAsyncResult_Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler;
 			}
@@ -414,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object == null)
 				{
-					r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object = new(this, "FromAsync", 0, typeof(System.Func<, , >).MakeGenericType(typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
+					r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object = new(this, "FromAsync", 0,  ReflectionUtils.GetType("System.Func`3").MakeGenericType(typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Object));
 				}
 				return r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object;
 			}
@@ -430,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions == null)
 				{
-					r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions = new(this, "FromAsync", 0, typeof(System.Func<, , >).MakeGenericType(typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions = new(this, "FromAsync", 0,  ReflectionUtils.GetType("System.Func`3").MakeGenericType(typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions;
 			}
@@ -446,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncImpl_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions == null)
 				{
-					r_MFromAsyncImpl_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncImpl", 0, typeof(System.Func<, , >).MakeGenericType(typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Action<>).MakeGenericType(typeof(System.IAsyncResult)), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsyncImpl_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncImpl", 0,  ReflectionUtils.GetType("System.Func`3").MakeGenericType(typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.IAsyncResult)), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsyncImpl_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions;
 			}
@@ -462,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object == null)
 				{
-					r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object = new(this, "FromAsync", 1, typeof(System.Func<, , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), typeof(System.Object));
+					r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object = new(this, "FromAsync", 1,  ReflectionUtils.GetType("System.Func`4").MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), typeof(System.Object));
 				}
 				return r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object;
 			}
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions == null)
 				{
-					r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions = new(this, "FromAsync", 1, typeof(System.Func<, , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions = new(this, "FromAsync", 1,  ReflectionUtils.GetType("System.Func`4").MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions;
 			}
@@ -494,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncImpl_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions == null)
 				{
-					r_MFromAsyncImpl_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncImpl", 1, typeof(System.Func<, , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Action<>).MakeGenericType(typeof(System.IAsyncResult)), Type.MakeGenericMethodParameter(0), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsyncImpl_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncImpl", 1,  ReflectionUtils.GetType("System.Func`4").MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.IAsyncResult)), Type.MakeGenericMethodParameter(0), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsyncImpl_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions;
 			}
@@ -510,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object == null)
 				{
-					r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object = new(this, "FromAsync", 2, typeof(System.Func<, , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Object));
+					r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object = new(this, "FromAsync", 2,  ReflectionUtils.GetType("System.Func`5").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Object));
 				}
 				return r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object;
 			}
@@ -526,7 +526,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions == null)
 				{
-					r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions = new(this, "FromAsync", 2, typeof(System.Func<, , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions = new(this, "FromAsync", 2,  ReflectionUtils.GetType("System.Func`5").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions;
 			}
@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncImpl_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions == null)
 				{
-					r_MFromAsyncImpl_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncImpl", 2, typeof(System.Func<, , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Action<>).MakeGenericType(typeof(System.IAsyncResult)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsyncImpl_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncImpl", 2,  ReflectionUtils.GetType("System.Func`5").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.IAsyncResult)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsyncImpl_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions;
 			}
@@ -558,7 +558,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object == null)
 				{
-					r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object = new(this, "FromAsync", 3, typeof(System.Func<, , , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.Object));
+					r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object = new(this, "FromAsync", 3,  ReflectionUtils.GetType("System.Func`6").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.Object));
 				}
 				return r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object;
 			}
@@ -574,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions == null)
 				{
-					r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions = new(this, "FromAsync", 3, typeof(System.Func<, , , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions = new(this, "FromAsync", 3,  ReflectionUtils.GetType("System.Func`6").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions;
 			}
@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncImpl_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions == null)
 				{
-					r_MFromAsyncImpl_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncImpl", 3, typeof(System.Func<, , , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, >).MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)), typeof(System.Action<>).MakeGenericType(typeof(System.IAsyncResult)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MFromAsyncImpl_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncImpl", 3,  ReflectionUtils.GetType("System.Func`6").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.IAsyncResult)), Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), Type.MakeGenericMethodParameter(2), typeof(System.Object), typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MFromAsyncImpl_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions;
 			}
@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MFromAsyncTrim_GTInstance_GTArgs_TInstance_TArgs_Func_d_TInstance_TArgs_AsyncCallback_Object_IAsyncResult_p__Func_d_TInstance_IAsyncResult_TResult_p_ == null)
 				{
-					r_MFromAsyncTrim_GTInstance_GTArgs_TInstance_TArgs_Func_d_TInstance_TArgs_AsyncCallback_Object_IAsyncResult_p__Func_d_TInstance_IAsyncResult_TResult_p_ = new(typeof(System.Threading.Tasks.TaskFactory<>), "FromAsyncTrim", 2, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.Func<, , , , >).MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)), typeof(System.Func<, , >).MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)));
+					r_MFromAsyncTrim_GTInstance_GTArgs_TInstance_TArgs_Func_d_TInstance_TArgs_AsyncCallback_Object_IAsyncResult_p__Func_d_TInstance_IAsyncResult_TResult_p_ = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "FromAsyncTrim", 2, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1),  ReflectionUtils.GetType("System.Func`5").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1), typeof(System.AsyncCallback), typeof(System.Object), typeof(System.IAsyncResult)),  ReflectionUtils.GetType("System.Func`3").MakeGenericType(Type.MakeGenericMethodParameter(0), typeof(System.IAsyncResult), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFromAsyncTrim_GTInstance_GTArgs_TInstance_TArgs_Func_d_TInstance_TArgs_AsyncCallback_Object_IAsyncResult_p__Func_d_TInstance_IAsyncResult_TResult_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCreateCanceledTask_TaskContinuationOptions_CancellationToken == null)
 				{
-					r_MCreateCanceledTask_TaskContinuationOptions_CancellationToken = new(typeof(System.Threading.Tasks.TaskFactory<>), "CreateCanceledTask", 0, typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken));
+					r_MCreateCanceledTask_TaskContinuationOptions_CancellationToken = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "CreateCanceledTask", 0, typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken));
 				}
 				return r_MCreateCanceledTask_TaskContinuationOptions_CancellationToken;
 			}
@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p_ == null)
 				{
-					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p_ = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)));
+					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p_ = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p_;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken == null)
 				{
-					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions == null)
 				{
-					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
 				}
 				return r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAll", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAll_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_ == null)
 				{
-					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_ = new(this, "ContinueWhenAll", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)));
+					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_ = new(this, "ContinueWhenAll", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_;
 			}
@@ -718,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken == null)
 				{
-					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken = new(this, "ContinueWhenAll", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken = new(this, "ContinueWhenAll", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken;
 			}
@@ -734,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions == null)
 				{
-					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAll", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAll", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
 				}
 				return r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions;
 			}
@@ -750,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAll", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAll", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -766,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAllImpl", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAllImpl", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -782,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAllImpl", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType()), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAllImpl", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType()), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAllImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -798,7 +798,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAllImpl_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAllImpl_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAllImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAllImpl_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAllImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType(), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAllImpl_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -814,7 +814,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAllImpl_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAllImpl_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAllImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType()), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAllImpl_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAllImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Threading.Tasks.Task).MakeArrayType()), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAllImpl_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -830,7 +830,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p_ == null)
 				{
-					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p_ = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)));
+					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p_ = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p_;
 			}
@@ -846,7 +846,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken == null)
 				{
-					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken;
 			}
@@ -862,7 +862,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions == null)
 				{
-					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
 				}
 				return r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions;
 			}
@@ -878,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAny", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAny_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_ == null)
 				{
-					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_ = new(this, "ContinueWhenAny", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)));
+					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_ = new(this, "ContinueWhenAny", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_;
 			}
@@ -910,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken == null)
 				{
-					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken = new(this, "ContinueWhenAny", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
+					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken = new(this, "ContinueWhenAny", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken));
 				}
 				return r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken;
 			}
@@ -926,7 +926,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions == null)
 				{
-					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAny", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions = new(this, "ContinueWhenAny", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions));
 				}
 				return r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions;
 			}
@@ -942,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler == null)
 				{
-					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAny", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler = new(this, "ContinueWhenAny", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler;
 			}
@@ -958,7 +958,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAnyImpl_TaskArray_Action_d_Task_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAnyImpl_TaskArray_Action_d_Task_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAnyImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAnyImpl_TaskArray_Action_d_Task_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAnyImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Threading.Tasks.Task)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAnyImpl_TaskArray_Action_d_Task_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -974,7 +974,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAnyImpl_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAnyImpl_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAnyImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAnyImpl_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAnyImpl", 0, typeof(System.Threading.Tasks.Task).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Threading.Tasks.Task), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAnyImpl_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -990,7 +990,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAnyImpl", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Func<, >).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAnyImpl", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Func`2").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0)), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}
@@ -1006,7 +1006,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions_CancellationToken_TaskScheduler == null)
 				{
-					r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions_CancellationToken_TaskScheduler = new(typeof(System.Threading.Tasks.TaskFactory<>), "ContinueWhenAnyImpl", 1, typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(), typeof(System.Action<>).MakeGenericType(typeof(System.Threading.Tasks.Task<>).MakeGenericType(Type.MakeGenericMethodParameter(0))), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
+					r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions_CancellationToken_TaskScheduler = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskFactory`1"), "ContinueWhenAnyImpl", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0))), typeof(System.Threading.Tasks.TaskContinuationOptions), typeof(System.Threading.CancellationToken), typeof(System.Threading.Tasks.TaskScheduler));
 				}
 				return r_MContinueWhenAnyImpl_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions_CancellationToken_TaskScheduler;
 			}

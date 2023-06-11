@@ -174,7 +174,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRegister_Action_d_Object_p__Object == null)
 				{
-					r_MRegister_Action_d_Object_p__Object = new(this, "Register", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object));
+					r_MRegister_Action_d_Object_p__Object = new(this, "Register", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Object)), typeof(System.Object));
 				}
 				return r_MRegister_Action_d_Object_p__Object;
 			}
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRegister_Action_d_Object_p__Object_Boolean == null)
 				{
-					r_MRegister_Action_d_Object_p__Object_Boolean = new(this, "Register", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Boolean));
+					r_MRegister_Action_d_Object_p__Object_Boolean = new(this, "Register", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Boolean));
 				}
 				return r_MRegister_Action_d_Object_p__Object_Boolean;
 			}
@@ -206,7 +206,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MInternalRegisterWithoutEC_Action_d_Object_p__Object == null)
 				{
-					r_MInternalRegisterWithoutEC_Action_d_Object_p__Object = new(this, "InternalRegisterWithoutEC", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object));
+					r_MInternalRegisterWithoutEC_Action_d_Object_p__Object = new(this, "InternalRegisterWithoutEC", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Object)), typeof(System.Object));
 				}
 				return r_MInternalRegisterWithoutEC_Action_d_Object_p__Object;
 			}
@@ -222,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRegister_Action_d_Object_p__Object_Boolean_Boolean == null)
 				{
-					r_MRegister_Action_d_Object_p__Object_Boolean_Boolean = new(this, "Register", 0, typeof(System.Action<>).MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean));
+					r_MRegister_Action_d_Object_p__Object_Boolean_Boolean = new(this, "Register", 0,  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.Object)), typeof(System.Object), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MRegister_Action_d_Object_p__Object_Boolean_Boolean;
 			}

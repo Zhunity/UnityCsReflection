@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.ChangeEvent<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ChangeEvent`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_T_T == null)
 				{
-					r_MGetPooled_T_T = new(typeof(UnityEngine.UIElements.ChangeEvent<>), "GetPooled", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
+					r_MGetPooled_T_T = new( ReflectionUtils.GetType("UnityEngine.UIElements.ChangeEvent`1"), "GetPooled", 0, Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MGetPooled_T_T;
 			}

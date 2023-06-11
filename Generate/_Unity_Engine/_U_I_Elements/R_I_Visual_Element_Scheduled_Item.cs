@@ -158,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MUntil_Func_d_Boolean_p_ == null)
 				{
-					r_MUntil_Func_d_Boolean_p_ = new(this, "Until", 0, typeof(System.Func<>).MakeGenericType(typeof(System.Boolean)));
+					r_MUntil_Func_d_Boolean_p_ = new(this, "Until", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(typeof(System.Boolean)));
 				}
 				return r_MUntil_Func_d_Boolean_p_;
 			}

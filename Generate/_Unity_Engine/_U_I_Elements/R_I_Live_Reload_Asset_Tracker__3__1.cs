@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.ILiveReloadAssetTracker`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.ILiveReloadAssetTracker`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_ == null)
 				{
-					r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_ = new(this, "OnAssetsImported", 0, typeof(System.Collections.Generic.HashSet<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Collections.Generic.HashSet<>).MakeGenericType(typeof(System.String)));
+					r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_ = new(this, "OnAssetsImported", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_;
 			}

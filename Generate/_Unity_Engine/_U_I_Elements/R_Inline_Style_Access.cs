@@ -1902,7 +1902,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ == null)
 				{
-					r_MSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ = new(this, "SetStyleValue", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleEnum<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_ = new(this, "SetStyleValue", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleEnum`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetStyleValue_GT_StylePropertyId_StyleEnum_d_T_p_;
 			}
@@ -1966,7 +1966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ == null)
 				{
-					r_MSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ = new(this, "SetStyleValue", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleList<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_ = new(this, "SetStyleValue", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleList`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetStyleValue_GT_StylePropertyId_StyleList_d_T_p_;
 			}

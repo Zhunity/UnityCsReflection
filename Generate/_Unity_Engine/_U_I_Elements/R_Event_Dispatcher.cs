@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_ == null)
 				{
-					r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_ = new(typeof(UnityEngine.UIElements.EventDispatcher), "CreateForRuntime", 0, typeof(System.Collections.Generic.IList<>).MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy")));
+					r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_ = new(typeof(UnityEngine.UIElements.EventDispatcher), "CreateForRuntime", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy")));
 				}
 				return r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_;
 			}

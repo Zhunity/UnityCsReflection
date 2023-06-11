@@ -14,7 +14,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return typeof(System.Collections.Generic.HashSet<>).MakeGenericType(ReflectionUtils.GetType(typeof(T)));
+                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(T));
             }
         }
 
@@ -46,7 +46,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FLower31BitMask == null)
 				{
-					r_FLower31BitMask = new(typeof(System.Collections.Generic.HashSet<>), "Lower31BitMask");
+					r_FLower31BitMask = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "Lower31BitMask");
 				}
 				return r_FLower31BitMask;
 			}
@@ -62,7 +62,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FStackAllocThreshold == null)
 				{
-					r_FStackAllocThreshold = new(typeof(System.Collections.Generic.HashSet<>), "StackAllocThreshold");
+					r_FStackAllocThreshold = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "StackAllocThreshold");
 				}
 				return r_FStackAllocThreshold;
 			}
@@ -78,7 +78,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FShrinkThreshold == null)
 				{
-					r_FShrinkThreshold = new(typeof(System.Collections.Generic.HashSet<>), "ShrinkThreshold");
+					r_FShrinkThreshold = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "ShrinkThreshold");
 				}
 				return r_FShrinkThreshold;
 			}
@@ -94,7 +94,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FCapacityName == null)
 				{
-					r_FCapacityName = new(typeof(System.Collections.Generic.HashSet<>), "CapacityName");
+					r_FCapacityName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "CapacityName");
 				}
 				return r_FCapacityName;
 			}
@@ -110,7 +110,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FElementsName == null)
 				{
-					r_FElementsName = new(typeof(System.Collections.Generic.HashSet<>), "ElementsName");
+					r_FElementsName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "ElementsName");
 				}
 				return r_FElementsName;
 			}
@@ -126,7 +126,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FComparerName == null)
 				{
-					r_FComparerName = new(typeof(System.Collections.Generic.HashSet<>), "ComparerName");
+					r_FComparerName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "ComparerName");
 				}
 				return r_FComparerName;
 			}
@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FVersionName == null)
 				{
-					r_FVersionName = new(typeof(System.Collections.Generic.HashSet<>), "VersionName");
+					r_FVersionName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "VersionName");
 				}
 				return r_FVersionName;
 			}
@@ -334,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MCopyFrom_HashSet_d_T_p_ == null)
 				{
-					r_MCopyFrom_HashSet_d_T_p_ = new(this, "CopyFrom", 0, typeof(System.Collections.Generic.HashSet<>));
+					r_MCopyFrom_HashSet_d_T_p_ = new(this, "CopyFrom", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
 				}
 				return r_MCopyFrom_HashSet_d_T_p_;
 			}
@@ -542,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MUnionWith_IEnumerable_d_T_p_ == null)
 				{
-					r_MUnionWith_IEnumerable_d_T_p_ = new(this, "UnionWith", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MUnionWith_IEnumerable_d_T_p_ = new(this, "UnionWith", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MUnionWith_IEnumerable_d_T_p_;
 			}
@@ -558,7 +558,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIntersectWith_IEnumerable_d_T_p_ == null)
 				{
-					r_MIntersectWith_IEnumerable_d_T_p_ = new(this, "IntersectWith", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIntersectWith_IEnumerable_d_T_p_ = new(this, "IntersectWith", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIntersectWith_IEnumerable_d_T_p_;
 			}
@@ -574,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MExceptWith_IEnumerable_d_T_p_ == null)
 				{
-					r_MExceptWith_IEnumerable_d_T_p_ = new(this, "ExceptWith", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MExceptWith_IEnumerable_d_T_p_ = new(this, "ExceptWith", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MExceptWith_IEnumerable_d_T_p_;
 			}
@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MSymmetricExceptWith_IEnumerable_d_T_p_ == null)
 				{
-					r_MSymmetricExceptWith_IEnumerable_d_T_p_ = new(this, "SymmetricExceptWith", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSymmetricExceptWith_IEnumerable_d_T_p_ = new(this, "SymmetricExceptWith", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSymmetricExceptWith_IEnumerable_d_T_p_;
 			}
@@ -606,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIsSubsetOf_IEnumerable_d_T_p_ == null)
 				{
-					r_MIsSubsetOf_IEnumerable_d_T_p_ = new(this, "IsSubsetOf", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIsSubsetOf_IEnumerable_d_T_p_ = new(this, "IsSubsetOf", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIsSubsetOf_IEnumerable_d_T_p_;
 			}
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIsProperSubsetOf_IEnumerable_d_T_p_ == null)
 				{
-					r_MIsProperSubsetOf_IEnumerable_d_T_p_ = new(this, "IsProperSubsetOf", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIsProperSubsetOf_IEnumerable_d_T_p_ = new(this, "IsProperSubsetOf", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIsProperSubsetOf_IEnumerable_d_T_p_;
 			}
@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIsSupersetOf_IEnumerable_d_T_p_ == null)
 				{
-					r_MIsSupersetOf_IEnumerable_d_T_p_ = new(this, "IsSupersetOf", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIsSupersetOf_IEnumerable_d_T_p_ = new(this, "IsSupersetOf", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIsSupersetOf_IEnumerable_d_T_p_;
 			}
@@ -654,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIsProperSupersetOf_IEnumerable_d_T_p_ == null)
 				{
-					r_MIsProperSupersetOf_IEnumerable_d_T_p_ = new(this, "IsProperSupersetOf", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIsProperSupersetOf_IEnumerable_d_T_p_ = new(this, "IsProperSupersetOf", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIsProperSupersetOf_IEnumerable_d_T_p_;
 			}
@@ -670,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MOverlaps_IEnumerable_d_T_p_ == null)
 				{
-					r_MOverlaps_IEnumerable_d_T_p_ = new(this, "Overlaps", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MOverlaps_IEnumerable_d_T_p_ = new(this, "Overlaps", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MOverlaps_IEnumerable_d_T_p_;
 			}
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MSetEquals_IEnumerable_d_T_p_ == null)
 				{
-					r_MSetEquals_IEnumerable_d_T_p_ = new(this, "SetEquals", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSetEquals_IEnumerable_d_T_p_ = new(this, "SetEquals", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSetEquals_IEnumerable_d_T_p_;
 			}
@@ -734,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MRemoveWhere_Predicate_d_T_p_ == null)
 				{
-					r_MRemoveWhere_Predicate_d_T_p_ = new(this, "RemoveWhere", 0, typeof(System.Predicate<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MRemoveWhere_Predicate_d_T_p_ = new(this, "RemoveWhere", 0,  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MRemoveWhere_Predicate_d_T_p_;
 			}
@@ -782,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MCreateSetComparer == null)
 				{
-					r_MCreateSetComparer = new(typeof(System.Collections.Generic.HashSet<>), "CreateSetComparer", 0);
+					r_MCreateSetComparer = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "CreateSetComparer", 0);
 				}
 				return r_MCreateSetComparer;
 			}
@@ -878,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MContainsAllElements_IEnumerable_d_T_p_ == null)
 				{
-					r_MContainsAllElements_IEnumerable_d_T_p_ = new(this, "ContainsAllElements", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MContainsAllElements_IEnumerable_d_T_p_ = new(this, "ContainsAllElements", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MContainsAllElements_IEnumerable_d_T_p_;
 			}
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_ == null)
 				{
-					r_MIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_ = new(this, "IsSubsetOfHashSetWithSameEC", 0, typeof(System.Collections.Generic.HashSet<>));
+					r_MIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_ = new(this, "IsSubsetOfHashSetWithSameEC", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
 				}
 				return r_MIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_;
 			}
@@ -910,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIntersectWithHashSetWithSameEC_HashSet_d_T_p_ == null)
 				{
-					r_MIntersectWithHashSetWithSameEC_HashSet_d_T_p_ = new(this, "IntersectWithHashSetWithSameEC", 0, typeof(System.Collections.Generic.HashSet<>));
+					r_MIntersectWithHashSetWithSameEC_HashSet_d_T_p_ = new(this, "IntersectWithHashSetWithSameEC", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
 				}
 				return r_MIntersectWithHashSetWithSameEC_HashSet_d_T_p_;
 			}
@@ -926,7 +926,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MIntersectWithEnumerable_IEnumerable_d_T_p_ == null)
 				{
-					r_MIntersectWithEnumerable_IEnumerable_d_T_p_ = new(this, "IntersectWithEnumerable", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MIntersectWithEnumerable_IEnumerable_d_T_p_ = new(this, "IntersectWithEnumerable", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MIntersectWithEnumerable_IEnumerable_d_T_p_;
 			}
@@ -958,7 +958,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MSymmetricExceptWithUniqueHashSet_HashSet_d_T_p_ == null)
 				{
-					r_MSymmetricExceptWithUniqueHashSet_HashSet_d_T_p_ = new(this, "SymmetricExceptWithUniqueHashSet", 0, typeof(System.Collections.Generic.HashSet<>));
+					r_MSymmetricExceptWithUniqueHashSet_HashSet_d_T_p_ = new(this, "SymmetricExceptWithUniqueHashSet", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
 				}
 				return r_MSymmetricExceptWithUniqueHashSet_HashSet_d_T_p_;
 			}
@@ -974,7 +974,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MSymmetricExceptWithEnumerable_IEnumerable_d_T_p_ == null)
 				{
-					r_MSymmetricExceptWithEnumerable_IEnumerable_d_T_p_ = new(this, "SymmetricExceptWithEnumerable", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSymmetricExceptWithEnumerable_IEnumerable_d_T_p_ = new(this, "SymmetricExceptWithEnumerable", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSymmetricExceptWithEnumerable_IEnumerable_d_T_p_;
 			}
@@ -1006,7 +1006,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean == null)
 				{
-					r_MCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean = new(this, "CheckUniqueAndUnfoundElements", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Boolean));
+					r_MCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean = new(this, "CheckUniqueAndUnfoundElements", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Boolean));
 				}
 				return r_MCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean;
 			}
@@ -1022,7 +1022,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_ == null)
 				{
-					r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_ = new(typeof(System.Collections.Generic.HashSet<>), "HashSetEquals", 0, typeof(System.Collections.Generic.HashSet<>), typeof(System.Collections.Generic.HashSet<>), typeof(System.Collections.Generic.IEqualityComparer<>).MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_ = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "HashSetEquals", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.IEqualityComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_;
 			}
@@ -1038,7 +1038,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_ == null)
 				{
-					r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_ = new(typeof(System.Collections.Generic.HashSet<>), "AreEqualityComparersEqual", 0, typeof(System.Collections.Generic.HashSet<>), typeof(System.Collections.Generic.HashSet<>));
+					r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_ = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "AreEqualityComparersEqual", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
 				}
 				return r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_;
 			}

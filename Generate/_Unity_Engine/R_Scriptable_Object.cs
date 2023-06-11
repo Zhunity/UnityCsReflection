@@ -142,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateInstance_Type_Action_d_ScriptableObject_p_ == null)
 				{
-					r_MCreateInstance_Type_Action_d_ScriptableObject_p_ = new(typeof(UnityEngine.ScriptableObject), "CreateInstance", 0, typeof(System.Type), typeof(System.Action<>).MakeGenericType(typeof(UnityEngine.ScriptableObject)));
+					r_MCreateInstance_Type_Action_d_ScriptableObject_p_ = new(typeof(UnityEngine.ScriptableObject), "CreateInstance", 0, typeof(System.Type),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.ScriptableObject)));
 				}
 				return r_MCreateInstance_Type_Action_d_ScriptableObject_p_;
 			}

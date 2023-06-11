@@ -382,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MLocalizeVisualElement_VisualElement_Func_d_String_String_p_ == null)
 				{
-					r_MLocalizeVisualElement_VisualElement_Func_d_String_String_p_ = new(this, "LocalizeVisualElement", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Func<, >).MakeGenericType(typeof(System.String), typeof(System.String)));
+					r_MLocalizeVisualElement_VisualElement_Func_d_String_String_p_ = new(this, "LocalizeVisualElement", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.String), typeof(System.String)));
 				}
 				return r_MLocalizeVisualElement_VisualElement_Func_d_String_String_p_;
 			}

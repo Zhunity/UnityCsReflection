@@ -942,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MOnProcessAddResult_IOperation_Request_d_PackageInfo_p_ == null)
 				{
-					r_MOnProcessAddResult_IOperation_Request_d_PackageInfo_p_ = new(this, "OnProcessAddResult", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"), typeof(UnityEditor.PackageManager.Requests.Request<>).MakeGenericType(typeof(UnityEditor.PackageManager.PackageInfo)));
+					r_MOnProcessAddResult_IOperation_Request_d_PackageInfo_p_ = new(this, "OnProcessAddResult", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"),  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.Request`1").MakeGenericType(typeof(UnityEditor.PackageManager.PackageInfo)));
 				}
 				return r_MOnProcessAddResult_IOperation_Request_d_PackageInfo_p_;
 			}
@@ -1006,7 +1006,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddByIds_IEnumerable_d_String_p_ == null)
 				{
-					r_MAddByIds_IEnumerable_d_String_p_ = new(this, "AddByIds", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MAddByIds_IEnumerable_d_String_p_ = new(this, "AddByIds", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MAddByIds_IEnumerable_d_String_p_;
 			}
@@ -1022,7 +1022,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MRemoveByNames_IEnumerable_d_String_p_ == null)
 				{
-					r_MRemoveByNames_IEnumerable_d_String_p_ = new(this, "RemoveByNames", 0, typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MRemoveByNames_IEnumerable_d_String_p_ = new(this, "RemoveByNames", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MRemoveByNames_IEnumerable_d_String_p_;
 			}
@@ -1038,7 +1038,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MAddAndResetDependencies_String_IEnumerable_d_String_p_ == null)
 				{
-					r_MAddAndResetDependencies_String_IEnumerable_d_String_p_ = new(this, "AddAndResetDependencies", 0, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MAddAndResetDependencies_String_IEnumerable_d_String_p_ = new(this, "AddAndResetDependencies", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MAddAndResetDependencies_String_IEnumerable_d_String_p_;
 			}
@@ -1054,7 +1054,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MResetDependencies_String_IEnumerable_d_String_p_ == null)
 				{
-					r_MResetDependencies_String_IEnumerable_d_String_p_ = new(this, "ResetDependencies", 0, typeof(System.String), typeof(System.Collections.Generic.IEnumerable<>).MakeGenericType(typeof(System.String)));
+					r_MResetDependencies_String_IEnumerable_d_String_p_ = new(this, "ResetDependencies", 0, typeof(System.String),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MResetDependencies_String_IEnumerable_d_String_p_;
 			}
@@ -1086,7 +1086,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MOnProcessAddAndRemoveResult_Request_d_PackageCollection_p_ == null)
 				{
-					r_MOnProcessAddAndRemoveResult_Request_d_PackageCollection_p_ = new(this, "OnProcessAddAndRemoveResult", 0, typeof(UnityEditor.PackageManager.Requests.Request<>).MakeGenericType(typeof(UnityEditor.PackageManager.PackageCollection)));
+					r_MOnProcessAddAndRemoveResult_Request_d_PackageCollection_p_ = new(this, "OnProcessAddAndRemoveResult", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.Requests.Request`1").MakeGenericType(typeof(UnityEditor.PackageManager.PackageCollection)));
 				}
 				return r_MOnProcessAddAndRemoveResult_Request_d_PackageCollection_p_;
 			}

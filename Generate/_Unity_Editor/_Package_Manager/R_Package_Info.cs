@@ -1214,7 +1214,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MGetForAssemblyFilePaths_List_d_String_p_ == null)
 				{
-					r_MGetForAssemblyFilePaths_List_d_String_p_ = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetForAssemblyFilePaths", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)));
+					r_MGetForAssemblyFilePaths_List_d_String_p_ = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetForAssemblyFilePaths", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MGetForAssemblyFilePaths_List_d_String_p_;
 			}

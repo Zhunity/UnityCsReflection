@@ -766,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_MReadListEasingFunction_List_d_EasingFunction_p__Int32 == null)
 				{
-					r_MReadListEasingFunction_List_d_EasingFunction_p__Int32 = new(this, "ReadListEasingFunction", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.EasingFunction)), typeof(System.Int32));
+					r_MReadListEasingFunction_List_d_EasingFunction_p__Int32 = new(this, "ReadListEasingFunction", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.UIElements.EasingFunction)), typeof(System.Int32));
 				}
 				return r_MReadListEasingFunction_List_d_EasingFunction_p__Int32;
 			}
@@ -782,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_MReadListTimeValue_List_d_TimeValue_p__Int32 == null)
 				{
-					r_MReadListTimeValue_List_d_TimeValue_p__Int32 = new(this, "ReadListTimeValue", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.TimeValue)), typeof(System.Int32));
+					r_MReadListTimeValue_List_d_TimeValue_p__Int32 = new(this, "ReadListTimeValue", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.UIElements.TimeValue)), typeof(System.Int32));
 				}
 				return r_MReadListTimeValue_List_d_TimeValue_p__Int32;
 			}
@@ -798,7 +798,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_MReadListStylePropertyName_List_d_StylePropertyName_p__Int32 == null)
 				{
-					r_MReadListStylePropertyName_List_d_StylePropertyName_p__Int32 = new(this, "ReadListStylePropertyName", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(UnityEngine.UIElements.StylePropertyName)), typeof(System.Int32));
+					r_MReadListStylePropertyName_List_d_StylePropertyName_p__Int32 = new(this, "ReadListStylePropertyName", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.UIElements.StylePropertyName)), typeof(System.Int32));
 				}
 				return r_MReadListStylePropertyName_List_d_StylePropertyName_p__Int32;
 			}
@@ -814,7 +814,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_MReadListString_List_d_String_p__Int32 == null)
 				{
-					r_MReadListString_List_d_String_p__Int32 = new(this, "ReadListString", 0, typeof(System.Collections.Generic.List<>).MakeGenericType(typeof(System.String)), typeof(System.Int32));
+					r_MReadListString_List_d_String_p__Int32 = new(this, "ReadListString", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)), typeof(System.Int32));
 				}
 				return r_MReadListString_List_d_String_p__Int32;
 			}

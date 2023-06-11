@@ -942,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String == null)
 				{
-					r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "SelectPackageAndFilterStatic", 0, typeof(System.String), typeof(System.Nullable<>).MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")), typeof(System.Boolean), typeof(System.String));
+					r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "SelectPackageAndFilterStatic", 0, typeof(System.String),  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")), typeof(System.Boolean), typeof(System.String));
 				}
 				return r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String;
 			}

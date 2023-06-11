@@ -270,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 			{
 				if(r_MDrawSearchField_Boolean_String_Action_d_String_p_ == null)
 				{
-					r_MDrawSearchField_Boolean_String_Action_d_String_p_ = new(this, "DrawSearchField", 0, typeof(System.Boolean), typeof(System.String), typeof(System.Action<>).MakeGenericType(typeof(System.String)));
+					r_MDrawSearchField_Boolean_String_Action_d_String_p_ = new(this, "DrawSearchField", 0, typeof(System.Boolean), typeof(System.String),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MDrawSearchField_Boolean_String_Action_d_String_p_;
 			}

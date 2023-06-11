@@ -638,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetPurchasesCallback_IDictionary_d_String_Object_p__Int64 == null)
 				{
-					r_MGetPurchasesCallback_IDictionary_d_String_Object_p__Int64 = new(this, "GetPurchasesCallback", 0, typeof(System.Collections.Generic.IDictionary<, >).MakeGenericType(typeof(System.String), typeof(System.Object)), typeof(System.Int64));
+					r_MGetPurchasesCallback_IDictionary_d_String_Object_p__Int64 = new(this, "GetPurchasesCallback", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)), typeof(System.Int64));
 				}
 				return r_MGetPurchasesCallback_IDictionary_d_String_Object_p__Int64;
 			}
