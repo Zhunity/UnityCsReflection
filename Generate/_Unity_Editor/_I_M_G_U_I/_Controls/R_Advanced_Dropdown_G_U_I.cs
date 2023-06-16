@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownGUI
 	/// </summary>
     public partial class RAdvancedDropdownGUI : RMember //
@@ -590,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@controlRect};
             var ___result = RMCalculateSearchRect_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@controlRect = (UnityEngine.Rect)___parameters[0];
+			@controlRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }

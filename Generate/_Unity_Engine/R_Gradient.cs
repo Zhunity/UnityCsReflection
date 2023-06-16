@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Gradient
 	/// </summary>
     public partial class RGradient : RMember //
@@ -480,7 +480,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@time, @ret};
             var ___result = RMEvaluate_Injected_Single_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             
         }
@@ -493,7 +493,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_constantColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
 
             
         }
@@ -505,7 +505,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_constantColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Color)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
 
             
         }

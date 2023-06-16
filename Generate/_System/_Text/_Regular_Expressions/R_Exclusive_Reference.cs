@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Text.RegularExpressions.ExclusiveReference
 	/// </summary>
     public partial class RExclusiveReference : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RHvak.REditor.RRefleaction
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Hvak.Editor.Refleaction.BTest
 	/// </summary>
     public partial class RBTest : RMember //

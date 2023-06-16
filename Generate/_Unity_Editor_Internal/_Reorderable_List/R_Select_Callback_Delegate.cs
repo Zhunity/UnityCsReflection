@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditorInternal.ReorderableList+SelectCallbackDelegate
 	/// </summary>
     public partial class RSelectCallbackDelegate : RMember //

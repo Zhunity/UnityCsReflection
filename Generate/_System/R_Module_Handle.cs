@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.ModuleHandle
 	/// </summary>
     public partial class RModuleHandle : RMember //
@@ -430,8 +430,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@peKind, @machine};
             var ___result = RMGetPEKind_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
-			@peKind = (System.Reflection.PortableExecutableKinds)___parameters[0];
-			@machine = (System.Reflection.ImageFileMachine)___parameters[1];
+			@peKind = ReflectionUtils.Convert<System.Reflection.PortableExecutableKinds>(___parameters[0]);
+			@machine = ReflectionUtils.Convert<System.Reflection.ImageFileMachine>(___parameters[1]);
 
             
         }

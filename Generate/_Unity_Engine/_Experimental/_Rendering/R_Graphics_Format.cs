@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Experimental.Rendering.GraphicsFormat
 	/// </summary>
     public partial class RGraphicsFormat : RMember //

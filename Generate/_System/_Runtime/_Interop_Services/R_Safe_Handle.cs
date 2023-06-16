@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.InteropServices.SafeHandle
 	/// </summary>
     public partial class RSafeHandle : RMember //
@@ -548,7 +548,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@success};
             var ___result = RMDangerousAddRef_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			@success = (System.Boolean)___parameters[0];
+			@success = ReflectionUtils.Convert<System.Boolean>(___parameters[0]);
 
             
         }

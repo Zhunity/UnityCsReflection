@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.Internal.AssetDatabaseProxy
 	/// </summary>
     public partial class RAssetDatabaseProxy : RMember //
@@ -266,8 +266,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@path, @rootFolder, @immutable};
             var ___result = RMGetAssetFolderInfo_String_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@rootFolder = (System.Boolean)___parameters[1];
-			@immutable = (System.Boolean)___parameters[2];
+			@rootFolder = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			@immutable = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

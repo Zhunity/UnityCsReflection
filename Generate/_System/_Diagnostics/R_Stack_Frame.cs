@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Diagnostics.StackFrame
 	/// </summary>
     public partial class RStackFrame : RMember //
@@ -482,12 +482,12 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@skip, @needFileInfo, @method, @iloffset, @native_offset, @file, @line, @column};
             var ___result = RMget_frame_info_Int32_Boolean_Out_MethodBase_Out_Int32_Out_Int32_Out_String_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@method = (System.Reflection.MethodBase)___parameters[2];
-			@iloffset = (System.Int32)___parameters[3];
-			@native_offset = (System.Int32)___parameters[4];
-			@file = (System.String)___parameters[5];
-			@line = (System.Int32)___parameters[6];
-			@column = (System.Int32)___parameters[7];
+			@method = ReflectionUtils.Convert<System.Reflection.MethodBase>(___parameters[2]);
+			@iloffset = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			@native_offset = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
+			@file = ReflectionUtils.Convert<System.String>(___parameters[5]);
+			@line = ReflectionUtils.Convert<System.Int32>(___parameters[6]);
+			@column = ReflectionUtils.Convert<System.Int32>(___parameters[7]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.Implementation.ClipMethod
 	/// </summary>
     public partial class RClipMethod : RMember //

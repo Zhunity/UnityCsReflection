@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TouchScreenKeyboard
 	/// </summary>
     public partial class RTouchScreenKeyboard : RMember //
@@ -765,7 +765,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arguments.Value, @text, @textPlaceholder};
             var ___result = RMTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String.Invoke(___genericsType, ___parameters);
-			@arguments = new Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments(___parameters[0]);
+			@arguments = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -900,8 +900,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @length};
             var ___result = RMGetSelection_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@start = (System.Int32)___parameters[0];
-			@length = (System.Int32)___parameters[1];
+			@start = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			@length = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -925,7 +925,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_area_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rect)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }

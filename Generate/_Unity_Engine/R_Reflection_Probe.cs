@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.ReflectionProbe
 	/// </summary>
     public partial class RReflectionProbe : RMember //
@@ -2128,7 +2128,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_size_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 
             
         }
@@ -2140,7 +2140,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_size_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector3)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 
             
         }
@@ -2153,7 +2153,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_center_Injected_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector3)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 
             
         }
@@ -2165,7 +2165,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_center_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector3)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 
             
         }
@@ -2178,7 +2178,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 
             
         }
@@ -2191,7 +2191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_backgroundColor_Injected_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
 
             
         }
@@ -2203,7 +2203,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Color)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
 
             
         }
@@ -2216,7 +2216,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_textureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 
             
         }
@@ -2229,7 +2229,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_defaultTextureHDRDecodeValues_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 
             
         }
@@ -2275,7 +2275,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
             var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
-			@component = (UnityEngine.Component)___parameters[1];
+			@component = ReflectionUtils.Convert<UnityEngine.Component>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2288,7 +2288,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
             var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
-			@component = (T)___parameters[0];
+			@component = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

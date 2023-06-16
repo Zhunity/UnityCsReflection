@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.RuntimeEventInfo
 	/// </summary>
     public partial class RRuntimeEventInfo : RMember //
@@ -813,7 +813,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ev.Value, @info.Value};
             var ___result = RMget_event_info_RuntimeEventInfo_Out_MonoEventInfo.Invoke(___genericsType, ___parameters);
-			@info = new Hvak.Editor.Refleaction.RSystem.RReflection.RMonoEventInfo(___parameters[1]);
+			@info = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RMonoEventInfo>(___parameters[1]);
 
             
         }

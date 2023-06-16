@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.Cryptography.X509Certificates.X509Certificate
 	/// </summary>
     public partial class RX509Certificate : RMember //
@@ -1298,7 +1298,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@hashAlgorithm, @destination.Value, @bytesWritten};
             var ___result = RMTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[2];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

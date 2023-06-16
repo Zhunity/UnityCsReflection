@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Hash128
 	/// </summary>
     public partial class RHash128 : RMember //
@@ -872,7 +872,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @hash};
             var ___result = RMComputeFromString_String_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			@hash = (UnityEngine.Hash128)___parameters[1];
+			@hash = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[1]);
 
             
         }
@@ -884,7 +884,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @start, @count, @elemSize, @hash};
             var ___result = RMComputeFromPtr_IntPtr_Int32_Int32_Int32_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			@hash = (UnityEngine.Hash128)___parameters[4];
+			@hash = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[4]);
 
             
         }
@@ -896,7 +896,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @start, @count, @elemSize, @hash};
             var ___result = RMComputeFromArray_Array_Int32_Int32_Int32_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			@hash = (UnityEngine.Hash128)___parameters[4];
+			@hash = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[4]);
 
             
         }
@@ -985,7 +985,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@val.Value};
             var ___result = RMCompute_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@val = new Hvak.Editor.Refleaction.RType(___parameters[0]);
+			@val = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
@@ -1107,7 +1107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@val.Value};
             var ___result = RMAppend_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@val = new Hvak.Editor.Refleaction.RType(___parameters[0]);
+			@val = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[0]);
 
             
         }
@@ -1251,10 +1251,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@h0, @h1, @h2, @h3};
             var ___result = RMShortEnd_Ref_UInt64_Ref_UInt64_Ref_UInt64_Ref_UInt64.Invoke(___genericsType, ___parameters);
-			@h0 = (System.UInt64)___parameters[0];
-			@h1 = (System.UInt64)___parameters[1];
-			@h2 = (System.UInt64)___parameters[2];
-			@h3 = (System.UInt64)___parameters[3];
+			@h0 = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
+			@h1 = ReflectionUtils.Convert<System.UInt64>(___parameters[1]);
+			@h2 = ReflectionUtils.Convert<System.UInt64>(___parameters[2]);
+			@h3 = ReflectionUtils.Convert<System.UInt64>(___parameters[3]);
 
             
         }
@@ -1266,7 +1266,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@x, @k};
             var ___result = RMRot64_Ref_UInt64_Int32.Invoke(___genericsType, ___parameters);
-			@x = (System.UInt64)___parameters[0];
+			@x = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
 
             
         }
@@ -1279,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@hashString, @ret};
             var ___result = RMParse_Injected_String_Out_Hash128.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Hash128)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[1]);
 
             
         }
@@ -1291,7 +1291,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@hash};
             var ___result = RMHash128ToStringImpl_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			@hash = (UnityEngine.Hash128)___parameters[0];
+			@hash = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }

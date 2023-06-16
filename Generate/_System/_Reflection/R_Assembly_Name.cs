@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.AssemblyName
 	/// </summary>
     public partial class RAssemblyName : RMember //
@@ -943,9 +943,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @aname.Value, @is_version_definited, @is_token_defined};
             var ___result = RMParseAssemblyName_IntPtr_Out_MonoAssemblyName_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@aname = new Hvak.Editor.Refleaction.RMono.RMonoAssemblyName(___parameters[1]);
-			@is_version_definited = (System.Boolean)___parameters[2];
-			@is_token_defined = (System.Boolean)___parameters[3];
+			@aname = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RMonoAssemblyName>(___parameters[1]);
+			@is_version_definited = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			@is_token_defined = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1123,7 +1123,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RMSystem__2__Runtime__2__InteropServices__2___AssemblyName__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             
         }

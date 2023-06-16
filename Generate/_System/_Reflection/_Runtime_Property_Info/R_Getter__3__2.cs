@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.RuntimePropertyInfo+Getter`2
 	/// </summary>
     public partial class RGetter<T, R> : RMember //

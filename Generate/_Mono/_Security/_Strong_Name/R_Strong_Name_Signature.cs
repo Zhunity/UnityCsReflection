@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Mono.Security.StrongName+StrongNameSignature
 	/// </summary>
     public partial class RStrongNameSignature : RMember //

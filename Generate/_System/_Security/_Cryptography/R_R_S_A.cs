@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.Cryptography.RSA
 	/// </summary>
     public partial class RRSA : RMember //
@@ -1333,7 +1333,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value, @destination.Value, @padding, @bytesWritten};
             var ___result = RMTryDecrypt_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__RSAEncryptionPadding_Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[3];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1346,7 +1346,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value, @destination.Value, @padding, @bytesWritten};
             var ___result = RMTryEncrypt_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__RSAEncryptionPadding_Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[3];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1359,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @bytesWritten};
             var ___result = RMTryHashData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[3];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1372,7 +1372,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@hash.Value, @destination.Value, @hashAlgorithm, @padding, @bytesWritten};
             var ___result = RMTrySignHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_RSASignaturePadding_Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[4];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1385,7 +1385,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value, @destination.Value, @hashAlgorithm, @padding, @bytesWritten};
             var ___result = RMTrySignData_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__HashAlgorithmName_RSASignaturePadding_Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[4];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1442,7 +1442,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @bytesRead};
             var ___result = RMImportRSAPrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesRead = (System.Int32)___parameters[1];
+			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -1455,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @bytesRead};
             var ___result = RMImportRSAPublicKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesRead = (System.Int32)___parameters[1];
+			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -1468,7 +1468,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @bytesWritten};
             var ___result = RMTryExportRSAPrivateKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[1];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1481,7 +1481,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @bytesWritten};
             var ___result = RMTryExportRSAPublicKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[1];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1571,7 +1571,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@passwordBytes.Value, @source.Value, @bytesRead};
             var ___result = RMImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesRead = (System.Int32)___parameters[2];
+			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }
@@ -1584,7 +1584,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@password.Value, @source.Value, @bytesRead};
             var ___result = RMImportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesRead = (System.Int32)___parameters[2];
+			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }
@@ -1597,7 +1597,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @bytesRead};
             var ___result = RMImportPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesRead = (System.Int32)___parameters[1];
+			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -1610,7 +1610,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @bytesRead};
             var ___result = RMImportSubjectPublicKeyInfo_ReadOnlySpan_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesRead = (System.Int32)___parameters[1];
+			@bytesRead = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -1623,7 +1623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@passwordBytes.Value, @pbeParameters, @destination.Value, @bytesWritten};
             var ___result = RMTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Byte_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[3];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1636,7 +1636,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@password.Value, @pbeParameters, @destination.Value, @bytesWritten};
             var ___result = RMTryExportEncryptedPkcs8PrivateKey_ReadOnlySpan_d_Char_p__PbeParameters_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[3];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1649,7 +1649,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @bytesWritten};
             var ___result = RMTryExportPkcs8PrivateKey_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[1];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1662,7 +1662,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @bytesWritten};
             var ___result = RMTryExportSubjectPublicKeyInfo_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[1];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.Emit.GenericTypeParameterBuilder
 	/// </summary>
     public partial class RGenericTypeParameterBuilder : RMember //
@@ -5029,7 +5029,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RMInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			@rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = ReflectionUtils.Convert<System.Type>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }

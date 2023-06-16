@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.VisualTreeAsset
 	/// </summary>
     public partial class RVisualTreeAsset : RMember //
@@ -1245,8 +1245,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @firstElementIndex, @elementAddedCount};
             var ___result = RMCloneTree_VisualElement_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@firstElementIndex = (System.Int32)___parameters[1];
-			@elementAddedCount = (System.Int32)___parameters[2];
+			@firstElementIndex = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			@elementAddedCount = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }
@@ -1314,7 +1314,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@insertionPointId, @slotName};
             var ___result = RMTryGetSlotInsertionPoint_Int32_Out_String.Invoke(___genericsType, ___parameters);
-			@slotName = (System.String)___parameters[1];
+			@slotName = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1436,7 +1436,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
             var ___result = RM__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0.Invoke(___genericsType, ___parameters);
-			@_______ = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0(___parameters[0]);
+			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.AccessControl.RawAcl
 	/// </summary>
     public partial class RRawAcl : RMember //
@@ -472,8 +472,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @isDacl, @sdFlags, @pos};
             var ___result = RMParseSddlForm_String_Boolean_Ref_ControlFlags_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
-			@pos = (System.Int32)___parameters[3];
+			@sdFlags = ReflectionUtils.Convert<System.Security.AccessControl.ControlFlags>(___parameters[2]);
+			@pos = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Security.AccessControl.RawAcl>(___result);
         }
@@ -485,8 +485,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @isDacl, @sdFlags, @pos};
             var ___result = RMParseFlags_String_Boolean_Ref_ControlFlags_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
-			@pos = (System.Int32)___parameters[3];
+			@sdFlags = ReflectionUtils.Convert<System.Security.AccessControl.ControlFlags>(___parameters[2]);
+			@pos = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             
         }

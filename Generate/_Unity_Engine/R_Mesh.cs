@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Mesh
 	/// </summary>
     public partial class RMesh : RMember //
@@ -8017,7 +8017,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret};
             var ___result = RMGetVertexAttribute_Injected_Int32_Out_VertexAttributeDescriptor.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rendering.VertexAttributeDescriptor)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeDescriptor>(___parameters[1]);
 
             
         }
@@ -8030,7 +8030,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret.Value};
             var ___result = RMGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape.Invoke(___genericsType, ___parameters);
-			@ret = new Hvak.Editor.Refleaction.RUnityEngine.RBlendShape(___parameters[1]);
+			@ret = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RBlendShape>(___parameters[1]);
 
             
         }
@@ -8043,7 +8043,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index.Value, @ret};
             var ___result = RMGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
 
             
         }
@@ -8055,7 +8055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @desc, @flags};
             var ___result = RMSetSubMesh_Injected_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
-			@desc = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[1];
+			@desc = ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___parameters[1]);
 
             
         }
@@ -8068,7 +8068,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret};
             var ___result = RMGetSubMesh_Injected_Int32_Out_SubMeshDescriptor.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___parameters[1]);
 
             
         }
@@ -8081,7 +8081,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 
             
         }
@@ -8093,7 +8093,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_bounds_Injected_Ref_Bounds.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Bounds)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 
             
         }

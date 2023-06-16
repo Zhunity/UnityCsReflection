@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.RenderChain
 	/// </summary>
     public partial class RRenderChain : RMember //
@@ -1829,7 +1829,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rtp.Value, @renderChain.Value, @rnd.Value, @camera, @sameDistanceSortPriority};
             var ___result = RMOnRegisterIntermediateRendererMat_BaseRuntimePanel_RenderChain_Ref_RenderNodeData_Camera_Int32.Invoke(___genericsType, ___parameters);
-			@rnd = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData(___parameters[2]);
+			@rnd = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData>(___parameters[2]);
 
             
         }

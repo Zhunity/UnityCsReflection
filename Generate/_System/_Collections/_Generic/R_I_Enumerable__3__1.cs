@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.IEnumerable`1
 	/// </summary>
     public partial class RIEnumerable<T> : RMember //

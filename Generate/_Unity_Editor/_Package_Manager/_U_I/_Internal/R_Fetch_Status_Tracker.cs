@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.Internal.FetchStatusTracker
 	/// </summary>
     public partial class RFetchStatusTracker : RMember //

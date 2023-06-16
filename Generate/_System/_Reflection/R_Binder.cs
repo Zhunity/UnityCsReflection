@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.Binder
 	/// </summary>
     public partial class RBinder : RMember //
@@ -264,8 +264,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingAttr, @match, @args, @modifiers, @culture, @names, @state};
             var ___result = RMBindToMethod_BindingFlags_MethodBaseArray_Ref_ObjectArray_ParameterModifierArray_CultureInfo_StringArray_Out_Object.Invoke(___genericsType, ___parameters);
-			@args = (System.Object[])___parameters[2];
-			@state = (System.Object)___parameters[6];
+			@args = ReflectionUtils.Convert<System.Object[]>(___parameters[2]);
+			@state = ReflectionUtils.Convert<System.Object>(___parameters[6]);
 
             return ReflectionUtils.Convert<System.Reflection.MethodBase>(___result);
         }
@@ -288,7 +288,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@args, @state};
             var ___result = RMReorderArgumentArray_Ref_ObjectArray_Object.Invoke(___genericsType, ___parameters);
-			@args = (System.Object[])___parameters[0];
+			@args = ReflectionUtils.Convert<System.Object[]>(___parameters[0]);
 
             
         }

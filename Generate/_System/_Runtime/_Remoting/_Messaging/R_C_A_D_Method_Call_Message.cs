@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.Remoting.Messaging.CADMethodCallMessage
 	/// </summary>
     public partial class RCADMethodCallMessage : RMember //
@@ -472,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arg, @args};
             var ___result = RMMarshalArgument_Object_Ref_ArrayList.Invoke(___genericsType, ___parameters);
-			@args = (System.Collections.ArrayList)___parameters[1];
+			@args = ReflectionUtils.Convert<System.Collections.ArrayList>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -495,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@arguments, @args};
             var ___result = RMMarshalArguments_ObjectArray_Ref_ArrayList.Invoke(___genericsType, ___parameters);
-			@args = (System.Collections.ArrayList)___parameters[1];
+			@args = ReflectionUtils.Convert<System.Collections.ArrayList>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Object[]>(___result);
         }
@@ -518,7 +518,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@msg, @serializeList};
             var ___result = RMSaveLogicalCallContext_IMethodMessage_Ref_ArrayList.Invoke(___genericsType, ___parameters);
-			@serializeList = (System.Collections.ArrayList)___parameters[1];
+			@serializeList = ReflectionUtils.Convert<System.Collections.ArrayList>(___parameters[1]);
 
             
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle
 	/// </summary>
     public partial class RAtomicSafetyHandle : RMember //
@@ -1374,7 +1374,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @enabled};
             var ___result = RMSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1397,7 +1397,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMPrepareUndisposable_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1409,7 +1409,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMUseSecondaryVersion_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1718,7 +1718,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @staticSafetyId};
             var ___result = RMSetStaticSafetyId_Ref_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1731,7 +1731,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@safety, @allocator};
             var ___result = RMCreateHandle_Out_AtomicSafetyHandle_Allocator.Invoke(___genericsType, ___parameters);
-			@safety = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@safety = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1743,7 +1743,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@safety};
             var ___result = RMDisposeHandle_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@safety = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@safety = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1756,7 +1756,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMCreate_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1769,7 +1769,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetTempUnsafePtrSliceHandle_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1782,7 +1782,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetTempMemoryHandle_Injected_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1794,7 +1794,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMIsTempMemoryHandle_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1806,7 +1806,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMRelease_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1818,7 +1818,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @allowWriting};
             var ___result = RMSetAllowSecondaryVersionWriting_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1830,7 +1830,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @value};
             var ___result = RMSetBumpSecondaryVersionOnScheduleWrite_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1842,7 +1842,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @allowReadWriteAccess};
             var ___result = RMSetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1854,7 +1854,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetAllowReadOrWriteAccess_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1866,7 +1866,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @isNestedContainer};
             var ___result = RMSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1878,7 +1878,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetNestedContainer_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1890,7 +1890,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1902,7 +1902,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
         }
@@ -1914,7 +1914,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMEnforceAllBufferJobsHaveCompletedAndRelease_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
         }
@@ -1926,7 +1926,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMEnforceAllBufferJobsHaveCompletedAndDisableReadWrite_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.EnforceJobResult>(___result);
         }
@@ -1938,7 +1938,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMCheckReadAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1950,7 +1950,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMCheckWriteAndThrowNoEarlyOut_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1962,7 +1962,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMCheckDeallocateAndThrow_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1974,7 +1974,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMCheckGetSecondaryDataPointerAndThrow_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1986,7 +1986,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @maxCount, @output};
             var ___result = RMGetReaderArray_Injected_Ref_AtomicSafetyHandle_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -1999,8 +1999,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @ret};
             var ___result = RMGetWriter_Injected_Ref_AtomicSafetyHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
-			@ret = (Unity.Jobs.JobHandle)___parameters[1];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 
             
         }
@@ -2012,7 +2012,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @readerIndex};
             var ___result = RMGetReaderName_Injected_Ref_AtomicSafetyHandle_Int32.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
@@ -2024,7 +2024,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetWriterName_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }

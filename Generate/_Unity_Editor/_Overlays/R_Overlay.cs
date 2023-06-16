@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Overlays.Overlay
 	/// </summary>
     public partial class ROverlay : RMember //
@@ -2695,7 +2695,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @snapOffset};
             var ___result = RMFloatingToSnapPosition_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@snapOffset = (UnityEngine.Vector2)___parameters[1];
+			@snapOffset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -2709,8 +2709,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @snapCorner.Value, @snapOffset};
             var ___result = RMFloatingToSnapPosition_Vector2_Out_SnapCorner_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@snapCorner = new Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner(___parameters[1]);
-			@snapOffset = (UnityEngine.Vector2)___parameters[2];
+			@snapCorner = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner>(___parameters[1]);
+			@snapOffset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 
             
         }

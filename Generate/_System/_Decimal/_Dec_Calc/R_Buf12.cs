@@ -10,7 +10,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Decimal+DecCalc+Buf12
 	/// </summary>
     public partial class RBuf12 : RMember //

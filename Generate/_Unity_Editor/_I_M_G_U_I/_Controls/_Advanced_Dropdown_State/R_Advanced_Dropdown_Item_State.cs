@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownState+AdvancedDropdownItemState
 	/// </summary>
     public partial class RAdvancedDropdownItemState : RMember //

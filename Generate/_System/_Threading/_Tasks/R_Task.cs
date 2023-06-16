@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.Tasks.Task
 	/// </summary>
     public partial class RTask : RMember //
@@ -3748,7 +3748,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newBits, @illegalBits, @oldFlags};
             var ___result = RMAtomicStateUpdate_Int32_Int32_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@oldFlags = (System.Int32)___parameters[2];
+			@oldFlags = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -4675,8 +4675,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@continuationOptions, @creationOptions, @internalOptions.Value};
             var ___result = RMCreationOptionsFromContinuationOptions_TaskContinuationOptions_Out_TaskCreationOptions_Out_InternalTaskOptions.Invoke(___genericsType, ___parameters);
-			@creationOptions = (System.Threading.Tasks.TaskCreationOptions)___parameters[1];
-			@internalOptions = new Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions(___parameters[2]);
+			@creationOptions = ReflectionUtils.Convert<System.Threading.Tasks.TaskCreationOptions>(___parameters[1]);
+			@internalOptions = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RInternalTaskOptions>(___parameters[2]);
 
             
         }
@@ -4809,7 +4809,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@item, @list.Value, @initSize};
             var ___result = RMAddToList_GT_T_Ref_LowLevelListWithIList_d_T_p__Int32.Invoke(___genericsType, ___parameters);
-			@list = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<Hvak.Editor.Refleaction.RType>(___parameters[1]);
+			@list = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<Hvak.Editor.Refleaction.RType>>(___parameters[1]);
 
             
         }
@@ -4832,7 +4832,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@exceptions.Value, @t};
             var ___result = RMAddExceptionsForCompletedTask_Ref_LowLevelListWithIList_d_Exception_p__Task.Invoke(___genericsType, ___parameters);
-			@exceptions = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<Hvak.Editor.Refleaction.RSystem.RException>(___parameters[0]);
+			@exceptions = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RLowLevelListWithIList<Hvak.Editor.Refleaction.RSystem.RException>>(___parameters[0]);
 
             
         }
@@ -5306,7 +5306,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@currentTaskSlot};
             var ___result = RMExecuteWithThreadLocal_Ref_Task.Invoke(___genericsType, ___parameters);
-			@currentTaskSlot = (System.Threading.Tasks.Task)___parameters[0];
+			@currentTaskSlot = ReflectionUtils.Convert<System.Threading.Tasks.Task>(___parameters[0]);
 
             
         }

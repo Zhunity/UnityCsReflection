@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.Emit.SignatureHelper
 	/// </summary>
     public partial class RSignatureHelper : RMember //
@@ -869,7 +869,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @t};
             var ___result = RMAppendArray_Ref_TypeArray_Type.Invoke(___genericsType, ___parameters);
-			@array = (System.Type[])___parameters[0];
+			@array = ReflectionUtils.Convert<System.Type[]>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -881,7 +881,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@array, @t, @pos};
             var ___result = RMAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32.Invoke(___genericsType, ___parameters);
-			@array = (System.Type[][])___parameters[0];
+			@array = ReflectionUtils.Convert<System.Type[][]>(___parameters[0]);
 
             
         }
@@ -1092,7 +1092,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RMSystem__2__Runtime__2__InteropServices__2___SignatureHelper__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             
         }

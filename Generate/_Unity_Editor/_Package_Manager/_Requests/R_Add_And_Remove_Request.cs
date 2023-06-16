@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.Requests.AddAndRemoveRequest
 	/// </summary>
     public partial class RAddAndRemoveRequest : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs
 	/// </summary>
     public partial class RFirstChanceExceptionEventArgs : RMember //

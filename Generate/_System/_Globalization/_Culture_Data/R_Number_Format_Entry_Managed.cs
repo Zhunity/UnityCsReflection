@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Globalization.CultureData+NumberFormatEntryManaged
 	/// </summary>
     public partial class RNumberFormatEntryManaged : RMember //

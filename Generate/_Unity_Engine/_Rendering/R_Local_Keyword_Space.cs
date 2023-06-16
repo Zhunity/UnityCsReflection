@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.LocalKeywordSpace
 	/// </summary>
     public partial class RLocalKeywordSpace : RMember //
@@ -506,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetKeywords_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
         }
@@ -518,7 +518,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetKeywordNames_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String[]>(___result);
         }
@@ -530,7 +530,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetKeywordCount_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.UInt32>(___result);
         }
@@ -543,8 +543,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @name, @ret};
             var ___result = RMGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
-			@ret = (UnityEngine.Rendering.LocalKeyword)___parameters[2];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[2]);
 
             
         }

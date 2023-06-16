@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TextCore.Text.TextSettings+FontReferenceMap
 	/// </summary>
     public partial class RFontReferenceMap : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.Stack`1
 	/// </summary>
     public partial class RStack<T> : RMember //
@@ -624,7 +624,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMTryPeek_Out_T.Invoke(___genericsType, ___parameters);
-			@result = (T)___parameters[0];
+			@result = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -648,7 +648,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMTryPop_Out_T.Invoke(___genericsType, ___parameters);
-			@result = (T)___parameters[0];
+			@result = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

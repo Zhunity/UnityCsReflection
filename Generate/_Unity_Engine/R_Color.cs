@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Color
 	/// </summary>
     public partial class RColor : RMember //
@@ -1046,9 +1046,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rgbColor, @H, @S, @V};
             var ___result = RMRGBToHSV_Color_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
-			@H = (System.Single)___parameters[1];
-			@S = (System.Single)___parameters[2];
-			@V = (System.Single)___parameters[3];
+			@H = ReflectionUtils.Convert<System.Single>(___parameters[1]);
+			@S = ReflectionUtils.Convert<System.Single>(___parameters[2]);
+			@V = ReflectionUtils.Convert<System.Single>(___parameters[3]);
 
             
         }
@@ -1063,9 +1063,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@offset, @dominantcolor, @colorone, @colortwo, @H, @S, @V};
             var ___result = RMRGBToHSVHelper_Single_Single_Single_Single_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
-			@H = (System.Single)___parameters[4];
-			@S = (System.Single)___parameters[5];
-			@V = (System.Single)___parameters[6];
+			@H = ReflectionUtils.Convert<System.Single>(___parameters[4]);
+			@S = ReflectionUtils.Convert<System.Single>(___parameters[5]);
+			@V = ReflectionUtils.Convert<System.Single>(___parameters[6]);
 
             
         }

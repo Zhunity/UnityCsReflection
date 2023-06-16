@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Mesh+MeshData
 	/// </summary>
     public partial class RMeshData : RMember //
@@ -1594,7 +1594,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@self, @index, @ret};
             var ___result = RMGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[2];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___parameters[2]);
 
             
         }
@@ -1606,7 +1606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@self, @index, @desc, @flags};
             var ___result = RMSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags.Invoke(___genericsType, ___parameters);
-			@desc = (UnityEngine.Rendering.SubMeshDescriptor)___parameters[2];
+			@desc = ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___parameters[2]);
 
             
         }

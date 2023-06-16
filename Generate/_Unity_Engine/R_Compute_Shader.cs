@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.ComputeShader
 	/// </summary>
     public partial class RComputeShader : RMember //
@@ -1632,9 +1632,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@kernelIndex, @x, @y, @z};
             var ___result = RMGetKernelThreadGroupSizes_Int32_Out_UInt32_Out_UInt32_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@x = (System.UInt32)___parameters[1];
-			@y = (System.UInt32)___parameters[2];
-			@z = (System.UInt32)___parameters[3];
+			@x = ReflectionUtils.Convert<System.UInt32>(___parameters[1]);
+			@y = ReflectionUtils.Convert<System.UInt32>(___parameters[2]);
+			@z = ReflectionUtils.Convert<System.UInt32>(___parameters[3]);
 
             
         }
@@ -2163,7 +2163,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RMSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Vector4)___parameters[1];
+			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[1]);
 
             
         }
@@ -2175,7 +2175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RMSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Matrix4x4)___parameters[1];
+			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -2188,7 +2188,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_keywordSpace_Injected_Out_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 
             
         }
@@ -2200,7 +2200,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMEnableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             
         }
@@ -2212,7 +2212,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMDisableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             
         }
@@ -2224,7 +2224,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RMSetLocalKeyword_Injected_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             
         }
@@ -2236,7 +2236,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMIsLocalKeywordEnabled_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

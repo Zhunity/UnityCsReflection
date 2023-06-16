@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.CancellationCallbackCoreWorkArguments
 	/// </summary>
     public partial class RCancellationCallbackCoreWorkArguments : RMember //

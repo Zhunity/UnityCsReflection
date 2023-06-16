@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.NativePagedList`1
 	/// </summary>
     public partial class RNativePagedList<T> : RMember // where T : struct
@@ -348,7 +348,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data.Value};
             var ___result = RMAdd_Ref_T.Invoke(___genericsType, ___parameters);
-			@data = new Hvak.Editor.Refleaction.RType(___parameters[0]);
+			@data = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[0]);
 
             
         }

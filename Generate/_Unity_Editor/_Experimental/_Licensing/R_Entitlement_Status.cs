@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Experimental.Licensing.EntitlementStatus
 	/// </summary>
     public partial class REntitlementStatus : RMember //

@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Hashtable+bucket
 	/// </summary>
     public partial class Rbucket : RMember //

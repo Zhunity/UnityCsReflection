@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.Principal.WellKnownSidType
 	/// </summary>
     public partial class RWellKnownSidType : RMember //

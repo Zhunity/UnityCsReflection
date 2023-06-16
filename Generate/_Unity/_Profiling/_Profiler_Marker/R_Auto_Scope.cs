@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Profiling.ProfilerMarker+AutoScope
 	/// </summary>
     public partial class RAutoScope : RMember //

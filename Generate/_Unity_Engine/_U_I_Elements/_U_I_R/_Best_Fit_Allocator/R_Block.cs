@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.BestFitAllocator+Block
 	/// </summary>
     public partial class RBlock : RMember //

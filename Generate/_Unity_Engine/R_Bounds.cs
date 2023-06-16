@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Bounds
 	/// </summary>
     public partial class RBounds : RMember //
@@ -721,7 +721,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @distance};
             var ___result = RMIntersectRay_Ray_Out_Single.Invoke(___genericsType, ___parameters);
-			@distance = (System.Single)___parameters[1];
+			@distance = ReflectionUtils.Convert<System.Single>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -789,7 +789,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @bounds, @dist};
             var ___result = RMIntersectRayAABB_Ray_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
-			@dist = (System.Single)___parameters[2];
+			@dist = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -812,8 +812,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @point};
             var ___result = RMContains_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Bounds)___parameters[0];
-			@point = (UnityEngine.Vector3)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
+			@point = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -825,8 +825,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @point};
             var ___result = RMSqrDistance_Injected_Ref_Bounds_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Bounds)___parameters[0];
-			@point = (UnityEngine.Vector3)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
+			@point = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Single>(___result);
         }
@@ -839,9 +839,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @bounds, @dist};
             var ___result = RMIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
-			@ray = (UnityEngine.Ray)___parameters[0];
-			@bounds = (UnityEngine.Bounds)___parameters[1];
-			@dist = (System.Single)___parameters[2];
+			@ray = ReflectionUtils.Convert<UnityEngine.Ray>(___parameters[0]);
+			@bounds = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[1]);
+			@dist = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -854,9 +854,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @point, @ret};
             var ___result = RMClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Bounds)___parameters[0];
-			@point = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Vector3)___parameters[2];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
+			@point = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 
             
         }

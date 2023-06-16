@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.HashSet`1+Slot
 	/// </summary>
     public partial class RSlot : RMember //

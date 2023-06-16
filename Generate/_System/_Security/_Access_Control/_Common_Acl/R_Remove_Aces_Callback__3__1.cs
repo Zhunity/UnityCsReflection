@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.AccessControl.CommonAcl+RemoveAcesCallback`1
 	/// </summary>
     public partial class RRemoveAcesCallback<T> : RMember //

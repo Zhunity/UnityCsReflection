@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.LocalKeyword
 	/// </summary>
     public partial class RLocalKeyword : RMember //
@@ -662,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@kw};
             var ___result = RMIsDynamic_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@kw = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -674,7 +674,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@kw};
             var ___result = RMIsOverridable_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@kw = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -686,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spaceInfo, @keyword};
             var ___result = RMGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
-			@spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@spaceInfo = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rendering.ShaderKeywordType>(___result);
         }
@@ -698,7 +698,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spaceInfo, @keyword};
             var ___result = RMIsValid_Injected_Ref_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
-			@spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
+			@spaceInfo = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeywordSpace>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

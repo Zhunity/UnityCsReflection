@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.RenderChain+RenderNodeData
 	/// </summary>
     public partial class RRenderNodeData : RMember //

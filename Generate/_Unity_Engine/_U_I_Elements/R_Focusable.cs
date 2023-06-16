@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.Focusable
 	/// </summary>
     public partial class RFocusable : RMember //
@@ -860,7 +860,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
             var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
             var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
-			@userData = (TCallbackArgs)___parameters[2];
+			@userData = ReflectionUtils.Convert<TCallbackArgs>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

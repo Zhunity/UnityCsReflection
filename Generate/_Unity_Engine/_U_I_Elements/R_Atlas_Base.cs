@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.AtlasBase
 	/// </summary>
     public partial class RAtlasBase : RMember //
@@ -366,8 +366,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctx, @src, @atlas.Value, @atlasRect};
             var ___result = RMTryGetAtlas_VisualElement_Texture2D_Out_TextureId_Out_RectInt.Invoke(___genericsType, ___parameters);
-			@atlas = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___parameters[2]);
-			@atlasRect = (UnityEngine.RectInt)___parameters[3];
+			@atlas = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___parameters[2]);
+			@atlasRect = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

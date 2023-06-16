@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Overlays.OverlayDropZoneBase+VisualMode
 	/// </summary>
     public partial class RVisualMode : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.UIRenderDevice
 	/// </summary>
     public partial class RUIRenderDevice : RMember //
@@ -1574,9 +1574,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
             var ___result = RMAllocate_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
-			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[2]);
-			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[3]);
-			@indexOffset = (System.UInt16)___parameters[4];
+			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[2]);
+			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[3]);
+			@indexOffset = ReflectionUtils.Convert<System.UInt16>(___parameters[4]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle>(___result);
         }
@@ -1589,7 +1589,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value, @vertexCount, @vertexData.Value};
             var ___result = RMUpdate_MeshHandle_UInt32_Out_NativeSlice_d_Vertex_p_.Invoke(___genericsType, ___parameters);
-			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[2]);
+			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[2]);
 
             
         }
@@ -1604,9 +1604,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset};
             var ___result = RMUpdate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16.Invoke(___genericsType, ___parameters);
-			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
-			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
-			@indexOffset = (System.UInt16)___parameters[5];
+			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[3]);
+			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[4]);
+			@indexOffset = ReflectionUtils.Convert<System.UInt16>(___parameters[5]);
 
             
         }
@@ -1640,8 +1640,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@page.Value, @vertexCount, @indexCount, @va.Value, @ia.Value, @shortLived};
             var ___result = RMTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean.Invoke(___genericsType, ___parameters);
-			@va = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[3]);
-			@ia = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc(___parameters[4]);
+			@va = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc>(___parameters[3]);
+			@ia = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1655,8 +1655,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@meshHandle.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @shortLived};
             var ___result = RMAllocate_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Boolean.Invoke(___genericsType, ___parameters);
-			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
-			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
+			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[3]);
+			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[4]);
 
             
         }
@@ -1672,10 +1672,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh.Value, @vertexCount, @indexCount, @vertexData.Value, @indexData.Value, @indexOffset, @allocToUpdate.Value, @copyBackIndices};
             var ___result = RMUpdateAfterGPUUsedData_MeshHandle_UInt32_UInt32_Out_NativeSlice_d_Vertex_p__Out_NativeSlice_d_UInt16_p__Out_UInt16_Out_AllocToUpdate_Boolean.Invoke(___genericsType, ___parameters);
-			@vertexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>(___parameters[3]);
-			@indexData = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>(___parameters[4]);
-			@indexOffset = (System.UInt16)___parameters[5];
-			@allocToUpdate = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate(___parameters[6]);
+			@vertexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex>>(___parameters[3]);
+			@indexData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RSystem.RUInt16>>(___parameters[4]);
+			@indexOffset = ReflectionUtils.Convert<System.UInt16>(___parameters[5]);
+			@allocToUpdate = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>(___parameters[6]);
 
             
         }
@@ -1720,7 +1720,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @st.Value};
             var ___result = RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
-			@st = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[4]);
+			@st = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState>(___parameters[4]);
 
             
         }
@@ -1732,7 +1732,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@st.Value, @allowMaterialChange};
             var ___result = RMApplyBatchState_Ref_EvaluationState_Boolean.Invoke(___genericsType, ___parameters);
-			@st = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState(___parameters[0]);
+			@st = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState>(___parameters[0]);
 
             
         }
@@ -1744,7 +1744,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@head.Value, @initialMat, @defaultMat, @gradientSettings, @shaderInfo, @pixelsPerPoint, @transforms.Value, @clipRects.Value, @stateMatProps, @allowMaterialChange, @immediateException};
             var ___result = RMEvaluateChain_RenderChainCommand_Material_Material_Texture_Texture_Single_NativeSlice_d_Transform3x4_p__NativeSlice_d_Vector4_p__MaterialPropertyBlock_Boolean_Ref_Exception.Invoke(___genericsType, ___parameters);
-			@immediateException = (System.Exception)___parameters[10];
+			@immediateException = ReflectionUtils.Convert<System.Exception>(___parameters[10]);
 
             
         }
@@ -1767,8 +1767,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ranges.Value, @rangesReady, @rangesStart, @rangesCount, @curPage.Value};
             var ___result = RMKickRanges_DrawBufferRangePointer_Ref_Int32_Ref_Int32_Int32_Page.Invoke(___genericsType, ___parameters);
-			@rangesReady = (System.Int32)___parameters[1];
-			@rangesStart = (System.Int32)___parameters[2];
+			@rangesReady = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			@rangesStart = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }

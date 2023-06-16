@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Diagnostics.StackTrace+TraceFormat
 	/// </summary>
     public partial class RTraceFormat : RMember //

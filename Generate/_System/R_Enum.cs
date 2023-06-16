@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Enum
 	/// </summary>
     public partial class REnum : RMember //
@@ -1243,8 +1243,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType.Value, @values, @names};
             var ___result = RMGetEnumValuesAndNames_RuntimeType_Out_UInt64Array_Out_StringArray.Invoke(___genericsType, ___parameters);
-			@values = (System.UInt64[])___parameters[1];
-			@names = (System.String[])___parameters[2];
+			@values = ReflectionUtils.Convert<System.UInt64[]>(___parameters[1]);
+			@names = ReflectionUtils.Convert<System.String[]>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1268,7 +1268,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(TEnum)};
             var ___parameters = new object[]{@value, @result.Value};
             var ___result = RMTryParse_GTEnum_String_Out_TEnum.Invoke(___genericsType, ___parameters);
-			@result = new Hvak.Editor.Refleaction.RType(___parameters[1]);
+			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1281,7 +1281,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(TEnum)};
             var ___parameters = new object[]{@value, @ignoreCase, @result.Value};
             var ___result = RMTryParse_GTEnum_String_Boolean_Out_TEnum.Invoke(___genericsType, ___parameters);
-			@result = new Hvak.Editor.Refleaction.RType(___parameters[2]);
+			@result = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1315,7 +1315,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType, @value, @ignoreCase, @parseResult.Value};
             var ___result = RMTryParseEnum_Type_String_Boolean_Ref_EnumResult.Invoke(___genericsType, ___parameters);
-			@parseResult = new Hvak.Editor.Refleaction.RSystem.REnum.REnumResult(___parameters[3]);
+			@parseResult = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.REnum.REnumResult>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1867,7 +1867,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType, @value, @ignoreCase, @result};
             var ___result = RMTryParse_Type_String_Boolean_Out_Object.Invoke(___genericsType, ___parameters);
-			@result = (System.Object)___parameters[3];
+			@result = ReflectionUtils.Convert<System.Object>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1880,7 +1880,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType, @value, @result};
             var ___result = RMTryParse_Type_String_Out_Object.Invoke(___genericsType, ___parameters);
-			@result = (System.Object)___parameters[2];
+			@result = ReflectionUtils.Convert<System.Object>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

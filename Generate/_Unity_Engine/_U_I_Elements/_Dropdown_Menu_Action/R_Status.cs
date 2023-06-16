@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.DropdownMenuAction+Status
 	/// </summary>
     public partial class RStatus : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.ValueType
 	/// </summary>
     public partial class RValueType : RMember //
@@ -205,7 +205,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o1, @o2, @fields};
             var ___result = RMInternalEquals_Object_Object_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			@fields = (System.Object[])___parameters[2];
+			@fields = ReflectionUtils.Convert<System.Object[]>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -240,7 +240,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@o, @fields};
             var ___result = RMInternalGetHashCode_Object_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			@fields = (System.Object[])___parameters[1];
+			@fields = ReflectionUtils.Convert<System.Object[]>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }

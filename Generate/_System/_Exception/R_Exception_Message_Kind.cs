@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Exception+ExceptionMessageKind
 	/// </summary>
     public partial class RExceptionMessageKind : RMember //

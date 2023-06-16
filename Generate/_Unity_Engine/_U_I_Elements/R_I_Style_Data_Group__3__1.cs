@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.IStyleDataGroup`1
 	/// </summary>
     public partial class RIStyleDataGroup<T> : RMember //
@@ -87,7 +87,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other};
             var ___result = RMCopyFrom_Ref_T.Invoke(___genericsType, ___parameters);
-			@other = (T)___parameters[0];
+			@other = ReflectionUtils.Convert<T>(___parameters[0]);
 
             
         }

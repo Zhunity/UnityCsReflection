@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.AnimationCurve
 	/// </summary>
     public partial class RAnimationCurve : RMember //
@@ -776,7 +776,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key};
             var ___result = RMAddKey_Internal_Injected_Ref_Keyframe.Invoke(___genericsType, ___parameters);
-			@key = (UnityEngine.Keyframe)___parameters[0];
+			@key = ReflectionUtils.Convert<UnityEngine.Keyframe>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -788,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @key};
             var ___result = RMMoveKey_Injected_Int32_Ref_Keyframe.Invoke(___genericsType, ___parameters);
-			@key = (UnityEngine.Keyframe)___parameters[1];
+			@key = ReflectionUtils.Convert<UnityEngine.Keyframe>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -801,7 +801,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @ret};
             var ___result = RMGetKey_Injected_Int32_Out_Keyframe.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Keyframe)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Keyframe>(___parameters[1]);
 
             
         }

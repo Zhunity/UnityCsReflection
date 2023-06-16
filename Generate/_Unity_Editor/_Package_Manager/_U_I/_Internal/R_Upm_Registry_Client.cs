@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.Internal.UpmRegistryClient
 	/// </summary>
     public partial class RUpmRegistryClient : RMember //
@@ -703,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@operation.Value};
             var ___result = RMCreateOperation_GT_Ref_T.Invoke(___genericsType, ___parameters);
-			@operation = new Hvak.Editor.Refleaction.RType(___parameters[0]);
+			@operation = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___parameters[0]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
         }

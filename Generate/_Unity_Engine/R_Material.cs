@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Material
 	/// </summary>
     public partial class RMaterial : RMember //
@@ -5419,9 +5419,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
             var ___result = RMGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isOverriden = (System.Boolean)___parameters[1];
-			@isLockedInChildren = (System.Boolean)___parameters[2];
-			@isLockedByAncestor = (System.Boolean)___parameters[3];
+			@isOverriden = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			@isLockedInChildren = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			@isLockedByAncestor = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
 
             
         }
@@ -5502,9 +5502,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@property.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
             var ___result = RMGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isOverriden = (System.Boolean)___parameters[1];
-			@isLockedInChildren = (System.Boolean)___parameters[2];
-			@isLockedByAncestor = (System.Boolean)___parameters[3];
+			@isOverriden = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			@isLockedInChildren = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			@isLockedByAncestor = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
 
             
         }
@@ -5552,9 +5552,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propertyName.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
             var ___result = RMGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isOverriden = (System.Boolean)___parameters[1];
-			@isLockedInChildren = (System.Boolean)___parameters[2];
-			@isLockedByAncestor = (System.Boolean)___parameters[3];
+			@isOverriden = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			@isLockedInChildren = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			@isLockedByAncestor = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
 
             
         }
@@ -6545,7 +6545,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMEnableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             
         }
@@ -6557,7 +6557,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMDisableLocalKeyword_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             
         }
@@ -6569,7 +6569,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RMSetLocalKeyword_Injected_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             
         }
@@ -6581,7 +6581,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMIsLocalKeywordEnabled_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -6593,7 +6593,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RMSetColorImpl_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Color)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             
         }
@@ -6605,7 +6605,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @value};
             var ___result = RMSetMatrixImpl_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Matrix4x4)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -6618,7 +6618,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RMGetColorImpl_Injected_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             
         }
@@ -6631,7 +6631,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RMGetMatrixImpl_Injected_Int32_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -6644,7 +6644,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RMGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.GraphicsBufferHandle)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[1]);
 
             
         }
@@ -6657,7 +6657,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RMGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.GraphicsBufferHandle)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[1]);
 
             
         }
@@ -6670,7 +6670,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @ret};
             var ___result = RMGetTextureScaleAndOffsetImpl_Injected_Int32_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[1]);
 
             
         }
@@ -6682,7 +6682,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @offset};
             var ___result = RMSetTextureOffsetImpl_Injected_Int32_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@offset = (UnityEngine.Vector2)___parameters[1];
+			@offset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -6694,7 +6694,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @scale};
             var ___result = RMSetTextureScaleImpl_Injected_Int32_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@scale = (UnityEngine.Vector2)___parameters[1];
+			@scale = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }

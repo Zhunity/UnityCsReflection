@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.AccessControl.GenericAce
 	/// </summary>
     public partial class RGenericAce : RMember //
@@ -660,7 +660,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @pos};
             var ___result = RMCreateFromSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@pos = (System.Int32)___parameters[1];
+			@pos = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Security.AccessControl.GenericAce>(___result);
         }

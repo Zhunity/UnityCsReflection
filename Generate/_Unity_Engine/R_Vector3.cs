@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Vector3
 	/// </summary>
     public partial class RVector3 : RMember //
@@ -1394,8 +1394,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b};
             var ___result = RMOrthoNormalize2_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Vector3)___parameters[0];
-			@b = (UnityEngine.Vector3)___parameters[1];
+			@a = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             
         }
@@ -1407,8 +1407,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@normal, @tangent};
             var ___result = RMOrthoNormalize_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@normal = (UnityEngine.Vector3)___parameters[0];
-			@tangent = (UnityEngine.Vector3)___parameters[1];
+			@normal = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@tangent = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             
         }
@@ -1420,9 +1420,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @c};
             var ___result = RMOrthoNormalize3_Ref_Vector3_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Vector3)___parameters[0];
-			@b = (UnityEngine.Vector3)___parameters[1];
-			@c = (UnityEngine.Vector3)___parameters[2];
+			@a = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@c = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 
             
         }
@@ -1434,9 +1434,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@normal, @tangent, @binormal};
             var ___result = RMOrthoNormalize_Ref_Vector3_Ref_Vector3_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@normal = (UnityEngine.Vector3)___parameters[0];
-			@tangent = (UnityEngine.Vector3)___parameters[1];
-			@binormal = (UnityEngine.Vector3)___parameters[2];
+			@normal = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@tangent = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@binormal = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 
             
         }
@@ -1492,7 +1492,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime, @maxSpeed};
             var ___result = RMSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single.Invoke(___genericsType, ___parameters);
-			@currentVelocity = (UnityEngine.Vector3)___parameters[2];
+			@currentVelocity = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
@@ -1504,7 +1504,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime};
             var ___result = RMSmoothDamp_Vector3_Vector3_Ref_Vector3_Single.Invoke(___genericsType, ___parameters);
-			@currentVelocity = (UnityEngine.Vector3)___parameters[2];
+			@currentVelocity = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
@@ -1516,7 +1516,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @currentVelocity, @smoothTime, @maxSpeed, @deltaTime};
             var ___result = RMSmoothDamp_Vector3_Vector3_Ref_Vector3_Single_Single_Single.Invoke(___genericsType, ___parameters);
-			@currentVelocity = (UnityEngine.Vector3)___parameters[2];
+			@currentVelocity = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
@@ -1903,9 +1903,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RMSlerp_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Vector3)___parameters[0];
-			@b = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Vector3)___parameters[3];
+			@a = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[3]);
 
             
         }
@@ -1918,9 +1918,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RMSlerpUnclamped_Injected_Ref_Vector3_Ref_Vector3_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Vector3)___parameters[0];
-			@b = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Vector3)___parameters[3];
+			@a = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[3]);
 
             
         }
@@ -1933,9 +1933,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@current, @target, @maxRadiansDelta, @maxMagnitudeDelta, @ret};
             var ___result = RMRotateTowards_Injected_Ref_Vector3_Ref_Vector3_Single_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@current = (UnityEngine.Vector3)___parameters[0];
-			@target = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Vector3)___parameters[4];
+			@current = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@target = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[4]);
 
             
         }

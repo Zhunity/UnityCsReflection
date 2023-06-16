@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Microsoft.Win32.SafeHandles.SafeWaitHandle
 	/// </summary>
     public partial class RSafeWaitHandle : RMember //
@@ -420,7 +420,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@success};
             var ___result = RMDangerousAddRef_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			@success = (System.Boolean)___parameters[0];
+			@success = ReflectionUtils.Convert<System.Boolean>(___parameters[0]);
 
             
         }

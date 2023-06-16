@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.ReadOnlyMemory`1
 	/// </summary>
     public partial class RReadOnlyMemory<T> : RMember //
@@ -616,8 +616,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@start, @length};
             var ___result = RMGetObjectStartLength_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@start = (System.Int32)___parameters[0];
-			@length = (System.Int32)___parameters[1];
+			@start = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			@length = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

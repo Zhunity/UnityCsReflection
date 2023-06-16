@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Object
 	/// </summary>
     public partial class RObject : RMember //
@@ -2034,8 +2034,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @pos, @rot};
             var ___result = RMInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
-			@pos = (UnityEngine.Vector3)___parameters[1];
-			@rot = (UnityEngine.Quaternion)___parameters[2];
+			@pos = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@rot = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
@@ -2047,8 +2047,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @parent, @pos, @rot};
             var ___result = RMInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion.Invoke(___genericsType, ___parameters);
-			@pos = (UnityEngine.Vector3)___parameters[2];
-			@rot = (UnityEngine.Quaternion)___parameters[3];
+			@pos = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
+			@rot = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }

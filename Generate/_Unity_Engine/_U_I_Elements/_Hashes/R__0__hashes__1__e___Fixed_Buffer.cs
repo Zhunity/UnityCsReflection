@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.Hashes+<hashes>e__FixedBuffer
 	/// </summary>
     public partial class R__0__hashes__1__e__FixedBuffer : RMember //

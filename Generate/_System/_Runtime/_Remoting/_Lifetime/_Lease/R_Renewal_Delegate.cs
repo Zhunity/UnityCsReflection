@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.Remoting.Lifetime.Lease+RenewalDelegate
 	/// </summary>
     public partial class RRenewalDelegate : RMember //

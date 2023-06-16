@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.KeyboardNavigationManipulator
 	/// </summary>
     public partial class RKeyboardNavigationManipulator : RMember //
@@ -377,7 +377,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
             var ___result = RM__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0.Invoke(___genericsType, ___parameters);
-			@_______ = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0(___parameters[0]);
+			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
         }

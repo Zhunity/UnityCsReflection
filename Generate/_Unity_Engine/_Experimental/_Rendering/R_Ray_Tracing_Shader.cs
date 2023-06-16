@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Experimental.Rendering.RayTracingShader
 	/// </summary>
     public partial class RRayTracingShader : RMember //
@@ -1289,7 +1289,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RMSetVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Vector4)___parameters[1];
+			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[1]);
 
             
         }
@@ -1301,7 +1301,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @val};
             var ___result = RMSetMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Matrix4x4)___parameters[1];
+			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }

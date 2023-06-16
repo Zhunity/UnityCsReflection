@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.Page+DataSet`1
 	/// </summary>
     public partial class RDataSet<T> : RMember // where T : struct

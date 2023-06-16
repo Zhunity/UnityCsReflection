@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.RendererList
 	/// </summary>
     public partial class RRendererList : RMember //
@@ -252,7 +252,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMget_isValid_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.RendererList)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.RendererList>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

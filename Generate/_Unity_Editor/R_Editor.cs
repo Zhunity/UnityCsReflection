@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Editor
 	/// </summary>
     public partial class REditor : RMember //
@@ -2190,7 +2190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObject, @context, @editorType, @previousEditor};
             var ___result = RMCreateCachedEditorWithContext_Object_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			@previousEditor = (UnityEditor.Editor)___parameters[3];
+			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[3]);
 
             
         }
@@ -2202,7 +2202,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObjects, @context, @editorType, @previousEditor};
             var ___result = RMCreateCachedEditorWithContext_ObjectArray_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			@previousEditor = (UnityEditor.Editor)___parameters[3];
+			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[3]);
 
             
         }
@@ -2214,7 +2214,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObject, @editorType, @previousEditor};
             var ___result = RMCreateCachedEditor_Object_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			@previousEditor = (UnityEditor.Editor)___parameters[2];
+			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[2]);
 
             
         }
@@ -2226,7 +2226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetObjects, @editorType, @previousEditor};
             var ___result = RMCreateCachedEditor_ObjectArray_Type_Ref_Editor.Invoke(___genericsType, ___parameters);
-			@previousEditor = (UnityEditor.Editor)___parameters[2];
+			@previousEditor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[2]);
 
             
         }
@@ -2415,7 +2415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@isDirty, @isVisible, @height};
             var ___result = RMGetOptimizedGUIBlock_Boolean_Boolean_Out_Single.Invoke(___genericsType, ___parameters);
-			@height = (System.Single)___parameters[2];
+			@height = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2713,7 +2713,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @editor};
             var ___result = RMDrawFoldoutInspector_Object_Ref_Editor.Invoke(___genericsType, ___parameters);
-			@editor = (UnityEditor.Editor)___parameters[1];
+			@editor = ReflectionUtils.Convert<UnityEditor.Editor>(___parameters[1]);
 
             
         }
@@ -2979,7 +2979,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetCurrentMousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }

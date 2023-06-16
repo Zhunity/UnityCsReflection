@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.Cryptography.HashAlgorithm
 	/// </summary>
     public partial class RHashAlgorithm : RMember //
@@ -622,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source.Value, @destination.Value, @bytesWritten};
             var ___result = RMTryComputeHash_ReadOnlySpan_d_Byte_p__Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[2];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -778,7 +778,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @bytesWritten};
             var ___result = RMTryHashFinal_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@bytesWritten = (System.Int32)___parameters[1];
+			@bytesWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

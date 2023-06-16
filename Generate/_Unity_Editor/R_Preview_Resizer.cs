@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PreviewResizer
 	/// </summary>
     public partial class RPreviewResizer : RMember //
@@ -671,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded};
             var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			@expanded = (System.Boolean)___parameters[5];
+			@expanded = ReflectionUtils.Convert<System.Boolean>(___parameters[5]);
 
             return ReflectionUtils.Convert<System.Single>(___result);
         }
@@ -683,7 +683,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @position, @value, @min, @max, @expanded, @localFrame};
             var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-			@expanded = (System.Boolean)___parameters[5];
+			@expanded = ReflectionUtils.Convert<System.Boolean>(___parameters[5]);
 
             return ReflectionUtils.Convert<System.Single>(___result);
         }

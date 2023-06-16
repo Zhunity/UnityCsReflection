@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Decimal
 	/// </summary>
     public partial class RDecimal : RMember //
@@ -2028,7 +2028,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RMAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@d = (System.Decimal)___parameters[0];
+			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___result);
         }
@@ -2040,7 +2040,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMDecDivMod1E9_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@value = (System.Decimal)___parameters[0];
+			@value = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.UInt32>(___result);
         }
@@ -2096,7 +2096,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RMAbs_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@d = (System.Decimal)___parameters[0];
+			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Decimal>(___result);
         }
@@ -2274,7 +2274,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
-			@charsWritten = (System.Int32)___parameters[1];
+			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2342,7 +2342,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParse_String_Out_Decimal.Invoke(___genericsType, ___parameters);
-			@result = (System.Decimal)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2355,7 +2355,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Decimal.Invoke(___genericsType, ___parameters);
-			@result = (System.Decimal)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2368,7 +2368,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @style, @provider, @result};
             var ___result = RMTryParse_String_NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
-			@result = (System.Decimal)___parameters[3];
+			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2381,7 +2381,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @style, @provider, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
-			@result = (System.Decimal)___parameters[3];
+			@result = ReflectionUtils.Convert<System.Decimal>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2426,8 +2426,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMMax_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@d1 = (System.Decimal)___parameters[0];
-			@d2 = (System.Decimal)___parameters[1];
+			@d1 = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
+			@d2 = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Decimal>(___result);
         }
@@ -2439,8 +2439,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMMin_Ref_Decimal_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@d1 = (System.Decimal)___parameters[0];
-			@d2 = (System.Decimal)___parameters[1];
+			@d1 = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
+			@d2 = ReflectionUtils.Convert<System.Decimal>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Decimal>(___result);
         }
@@ -2529,7 +2529,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d, @decimals, @mode};
             var ___result = RMRound_Ref_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
-			@d = (System.Decimal)___parameters[0];
+			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Decimal>(___result);
         }
@@ -2541,7 +2541,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RMSign_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@d = (System.Decimal)___parameters[0];
+			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -2685,7 +2685,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@d};
             var ___result = RMTruncate_Ref_Decimal.Invoke(___genericsType, ___parameters);
-			@d = (System.Decimal)___parameters[0];
+			@d = ReflectionUtils.Convert<System.Decimal>(___parameters[0]);
 
             
         }

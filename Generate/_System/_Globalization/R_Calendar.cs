@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Globalization.Calendar
 	/// </summary>
     public partial class RCalendar : RMember //
@@ -2273,7 +2273,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era, @result};
             var ___result = RMTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[8];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[8]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

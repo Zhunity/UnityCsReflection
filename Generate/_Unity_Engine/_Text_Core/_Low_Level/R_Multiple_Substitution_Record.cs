@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TextCore.LowLevel.MultipleSubstitutionRecord
 	/// </summary>
     public partial class RMultipleSubstitutionRecord : RMember //

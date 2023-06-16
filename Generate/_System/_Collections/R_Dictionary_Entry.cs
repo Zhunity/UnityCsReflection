@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.DictionaryEntry
 	/// </summary>
     public partial class RDictionaryEntry : RMember //
@@ -222,8 +222,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RMDeconstruct_Out_Object_Out_Object.Invoke(___genericsType, ___parameters);
-			@key = (System.Object)___parameters[0];
-			@value = (System.Object)___parameters[1];
+			@key = ReflectionUtils.Convert<System.Object>(___parameters[0]);
+			@value = ReflectionUtils.Convert<System.Object>(___parameters[1]);
 
             
         }

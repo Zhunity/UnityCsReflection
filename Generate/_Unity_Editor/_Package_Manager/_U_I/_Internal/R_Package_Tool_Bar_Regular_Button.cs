@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.Internal.PackageToolBarRegularButton
 	/// </summary>
     public partial class RPackageToolBarRegularButton : RMember //
@@ -544,8 +544,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@version.Value, @text, @tooltip};
             var ___result = RMGetActionState_IPackageVersion_Out_String_Out_String.Invoke(___genericsType, ___parameters);
-			@text = (System.String)___parameters[1];
-			@tooltip = (System.String)___parameters[2];
+			@text = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			@tooltip = ReflectionUtils.Convert<System.String>(___parameters[2]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageActionState>(___result);
         }

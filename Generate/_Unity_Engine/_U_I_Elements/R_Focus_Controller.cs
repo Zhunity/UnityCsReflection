@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.FocusController
 	/// </summary>
     public partial class RFocusController : RMember //
@@ -916,7 +916,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @effectiveTarget};
             var ___result = RMGetFocusableParentForPointerEvent_Focusable_Out_Focusable.Invoke(___genericsType, ___parameters);
-			@effectiveTarget = (UnityEngine.UIElements.Focusable)___parameters[1];
+			@effectiveTarget = ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

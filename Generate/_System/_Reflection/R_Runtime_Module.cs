@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.RuntimeModule
 	/// </summary>
     public partial class RRuntimeModule : RMember //
@@ -1441,8 +1441,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@peKind, @machine};
             var ___result = RMGetPEKind_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
-			@peKind = (System.Reflection.PortableExecutableKinds)___parameters[0];
-			@machine = (System.Reflection.ImageFileMachine)___parameters[1];
+			@peKind = ReflectionUtils.Convert<System.Reflection.PortableExecutableKinds>(___parameters[0]);
+			@machine = ReflectionUtils.Convert<System.Reflection.ImageFileMachine>(___parameters[1]);
 
             
         }
@@ -1763,7 +1763,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -1776,7 +1776,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -1789,7 +1789,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -1802,7 +1802,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @error.Value};
             var ___result = RMResolveStringToken_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
+			@error = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
@@ -1815,7 +1815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @token, @type_args, @method_args, @error.Value};
             var ___result = RMResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
+			@error = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Reflection.MemberInfo>(___result);
         }
@@ -1828,7 +1828,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @metadataToken, @error.Value};
             var ___result = RMResolveSignature_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
-			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
+			@error = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
@@ -1842,8 +1842,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@module, @peKind, @machine};
             var ___result = RMGetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine.Invoke(___genericsType, ___parameters);
-			@peKind = (System.Reflection.PortableExecutableKinds)___parameters[1];
-			@machine = (System.Reflection.ImageFileMachine)___parameters[2];
+			@peKind = ReflectionUtils.Convert<System.Reflection.PortableExecutableKinds>(___parameters[1]);
+			@machine = ReflectionUtils.Convert<System.Reflection.ImageFileMachine>(___parameters[2]);
 
             
         }

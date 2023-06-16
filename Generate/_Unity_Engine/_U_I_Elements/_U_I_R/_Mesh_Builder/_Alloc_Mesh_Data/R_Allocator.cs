@@ -10,7 +10,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator
 	/// </summary>
     public partial class RAllocator : RMember //
@@ -400,7 +400,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
             var ___result = RMInvoke_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
-			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
+			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
@@ -412,7 +412,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value, @callback, @object};
             var ___result = RMBeginInvoke_UInt32_UInt32_Ref_AllocMeshData_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
+			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
@@ -424,7 +424,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocatorData.Value, @result};
             var ___result = RMEndInvoke_Ref_AllocMeshData_IAsyncResult.Invoke(___genericsType, ___parameters);
-			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[0]);
+			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }

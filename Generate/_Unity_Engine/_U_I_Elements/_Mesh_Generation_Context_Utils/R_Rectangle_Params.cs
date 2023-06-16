@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams
 	/// </summary>
     public partial class RRectangleParams : RMember //
@@ -811,8 +811,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @uv, @texture, @scaleMode, @rectOut, @uvOut};
             var ___result = RMAdjustUVsForScaleMode_Rect_Rect_Texture_ScaleMode_Out_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			@rectOut = (UnityEngine.Rect)___parameters[4];
-			@uvOut = (UnityEngine.Rect)___parameters[5];
+			@rectOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[4]);
+			@uvOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[5]);
 
             
         }
@@ -826,8 +826,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@containerRect, @srcRect, @spriteGeomRect, @sprite, @scaleMode, @rectOut, @uvOut};
             var ___result = RMAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			@rectOut = (UnityEngine.Rect)___parameters[5];
-			@uvOut = (UnityEngine.Rect)___parameters[6];
+			@rectOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[5]);
+			@uvOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[6]);
 
             
         }
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@containerRect, @subRect, @sprite, @scaleMode, @panelContext, @hasRadius, @slices, @useForRepeat};
             var ___result = RMMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
-			@slices = (UnityEngine.Vector4)___parameters[6];
+			@slices = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[6]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams>(___result);
         }

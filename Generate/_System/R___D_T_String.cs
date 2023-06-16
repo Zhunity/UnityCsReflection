@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.__DTString
 	/// </summary>
     public partial class R__DTString : RMember //
@@ -639,8 +639,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenType.Value, @tokenValue, @dtfi};
             var ___result = RMGetRegularToken_Out_TokenType_Out_Int32_DateTimeFormatInfo.Invoke(___genericsType, ___parameters);
-			@tokenType = new Hvak.Editor.Refleaction.RSystem.RTokenType(___parameters[0]);
-			@tokenValue = (System.Int32)___parameters[1];
+			@tokenType = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTokenType>(___parameters[0]);
+			@tokenValue = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -654,8 +654,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dtfi, @indexBeforeSeparator, @charBeforeSeparator};
             var ___result = RMGetSeparatorToken_DateTimeFormatInfo_Out_Int32_Out_Char.Invoke(___genericsType, ___parameters);
-			@indexBeforeSeparator = (System.Int32)___parameters[1];
-			@charBeforeSeparator = (System.Char)___parameters[2];
+			@indexBeforeSeparator = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			@charBeforeSeparator = ReflectionUtils.Convert<System.Char>(___parameters[2]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTokenType>(___result);
         }
@@ -678,7 +678,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @checkWordBoundary, @matchLength};
             var ___result = RMMatchSpecifiedWords_String_Boolean_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@matchLength = (System.Int32)___parameters[2];
+			@matchLength = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -712,7 +712,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@words, @maxMatchStrLen};
             var ___result = RMMatchLongestWords_StringArray_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@maxMatchStrLen = (System.Int32)___parameters[1];
+			@maxMatchStrLen = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }

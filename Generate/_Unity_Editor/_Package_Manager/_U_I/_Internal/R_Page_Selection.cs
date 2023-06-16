@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.Internal.PageSelection
 	/// </summary>
     public partial class RPageSelection : RMember //
@@ -602,7 +602,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@packageUniqueId, @value.Value};
             var ___result = RMTryGetValue_String_Out_PackageAndVersionIdPair.Invoke(___genericsType, ___parameters);
-			@value = new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair(___parameters[1]);
+			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

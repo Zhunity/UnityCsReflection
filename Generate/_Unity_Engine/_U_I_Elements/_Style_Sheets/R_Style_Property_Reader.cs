@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.StyleSheets.StylePropertyReader
 	/// </summary>
     public partial class RStylePropertyReader : RMember //
@@ -1535,8 +1535,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value, @isVertical, @isHorizontal};
             var ___result = RMReadTransformOriginEnum_StylePropertyValue_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isVertical = (System.Boolean)___parameters[1];
-			@isHorizontal = (System.Boolean)___parameters[2];
+			@isVertical = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			@isHorizontal = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___result);
         }
@@ -1582,7 +1582,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enumType.Value, @value.Value, @intValue};
             var ___result = RMTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32.Invoke(___genericsType, ___parameters);
-			@intValue = (System.Int32)___parameters[2];
+			@intValue = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1650,7 +1650,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@propertyValue.Value, @dpiScaling, @source.Value};
             var ___result = RMTryGetImageSourceFromValue_StylePropertyValue_Single_Out_ImageSource.Invoke(___genericsType, ___parameters);
-			@source = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RImageSource(___parameters[2]);
+			@source = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RImageSource>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

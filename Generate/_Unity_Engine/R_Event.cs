@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Event
 	/// </summary>
     public partial class REvent : RMember //
@@ -1198,7 +1198,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_mousePosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1210,7 +1210,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_mousePosition_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector2)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1223,7 +1223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_delta_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1235,7 +1235,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_delta_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector2)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1248,7 +1248,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_tilt_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1260,7 +1260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_tilt_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector2)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }

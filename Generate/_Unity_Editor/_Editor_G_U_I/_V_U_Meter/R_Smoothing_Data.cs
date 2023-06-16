@@ -10,7 +10,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.EditorGUI+VUMeter+SmoothingData
 	/// </summary>
     public partial class RSmoothingData : RMember //

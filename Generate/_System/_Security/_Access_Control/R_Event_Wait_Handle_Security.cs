@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.AccessControl.EventWaitHandleSecurity
 	/// </summary>
     public partial class REventWaitHandleSecurity : RMember //
@@ -1773,7 +1773,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RMModifyAccess_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@modified = (System.Boolean)___parameters[2];
+			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1841,7 +1841,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RMModifyAudit_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@modified = (System.Boolean)___parameters[2];
+			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1898,7 +1898,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RMModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@modified = (System.Boolean)___parameters[2];
+			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1911,7 +1911,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@modification, @rule, @modified};
             var ___result = RMModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@modified = (System.Boolean)___parameters[2];
+			@modified = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

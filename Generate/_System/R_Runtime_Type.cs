@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.RuntimeType
 	/// </summary>
     public partial class RRuntimeType : RMember //
@@ -5068,7 +5068,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName, @throwOnError, @ignoreCase, @reflectionOnly, @stackMark.Value};
             var ___result = RMGetType_String_Boolean_Boolean_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[4]);
+			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[4]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType>(___result);
         }
@@ -5104,8 +5104,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fullname, @name, @ns};
             var ___result = RMSplitName_String_Out_String_Out_String.Invoke(___genericsType, ___parameters);
-			@name = (System.String)___parameters[1];
-			@ns = (System.String)___parameters[2];
+			@name = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			@ns = ReflectionUtils.Convert<System.String>(___parameters[2]);
 
             
         }
@@ -5131,10 +5131,10 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingFlags, @name, @allowPrefixLookup, @prefixLookup, @ignoreCase, @listType.Value};
             var ___result = RMFilterHelper_BindingFlags_Ref_String_Boolean_Out_Boolean_Out_Boolean_Out_MemberListType.Invoke(___genericsType, ___parameters);
-			@name = (System.String)___parameters[1];
-			@prefixLookup = (System.Boolean)___parameters[3];
-			@ignoreCase = (System.Boolean)___parameters[4];
-			@listType = new Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType(___parameters[5]);
+			@name = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			@prefixLookup = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
+			@ignoreCase = ReflectionUtils.Convert<System.Boolean>(___parameters[4]);
+			@listType = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType>(___parameters[5]);
 
             
         }
@@ -5148,9 +5148,9 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingFlags, @name, @ignoreCase, @listType.Value};
             var ___result = RMFilterHelper_BindingFlags_Ref_String_Out_Boolean_Out_MemberListType.Invoke(___genericsType, ___parameters);
-			@name = (System.String)___parameters[1];
-			@ignoreCase = (System.Boolean)___parameters[2];
-			@listType = new Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType(___parameters[3]);
+			@name = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			@ignoreCase = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
+			@listType = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntimeType.RMemberListType>(___parameters[3]);
 
             
         }
@@ -5976,7 +5976,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@bindingAttr, @binder, @args, @culture, @activationAttributes, @stackMark.Value};
             var ___result = RMCreateInstanceImpl_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[5]);
+			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[5]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -5999,7 +5999,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@publicOnly, @skipCheckThis, @fillCache, @wrapExceptions, @stackMark.Value};
             var ___result = RMCreateInstanceDefaultCtor_Boolean_Boolean_Boolean_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[4]);
+			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -6132,7 +6132,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value, @failed};
             var ___result = RMTryConvertToType_Object_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			@failed = (System.Boolean)___parameters[1];
+			@failed = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -6355,8 +6355,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @iface, @targets, @methods};
             var ___result = RMGetInterfaceMapData_Type_Type_Out_MethodInfoArray_Out_MethodInfoArray.Invoke(___genericsType, ___parameters);
-			@targets = (System.Reflection.MethodInfo[])___parameters[2];
-			@methods = (System.Reflection.MethodInfo[])___parameters[3];
+			@targets = ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___parameters[2]);
+			@methods = ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___parameters[3]);
 
             
         }
@@ -6381,8 +6381,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@packing, @size};
             var ___result = RMGetPacking_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@packing = (System.Int32)___parameters[0];
-			@size = (System.Int32)___parameters[1];
+			@packing = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			@size = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -7263,7 +7263,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RMInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			@rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = ReflectionUtils.Convert<System.Type>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }

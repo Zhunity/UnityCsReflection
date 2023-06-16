@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.ILiveReloadAssetTracker`1
 	/// </summary>
     public partial class RILiveReloadAssetTracker<T> : RMember // where T : UnityEngine.ScriptableObject

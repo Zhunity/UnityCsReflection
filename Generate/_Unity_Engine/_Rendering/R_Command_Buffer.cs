@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.CommandBuffer
 	/// </summary>
     public partial class RCommandBuffer : RMember //
@@ -8102,7 +8102,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8114,7 +8114,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8126,7 +8126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8138,7 +8138,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8150,7 +8150,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8162,7 +8162,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8174,7 +8174,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8186,7 +8186,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8198,7 +8198,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8210,7 +8210,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8222,7 +8222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeArray_GT_Ref_NativeArray_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8234,7 +8234,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8246,7 +8246,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__ComputeBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8258,7 +8258,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8270,7 +8270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @size, @offset, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__GraphicsBuffer_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8282,7 +8282,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8294,7 +8294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8306,7 +8306,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8318,7 +8318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8330,7 +8330,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8342,7 +8342,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_TextureFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8354,7 +8354,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@output.Value, @src, @mipIndex, @x, @width, @y, @height, @z, @depth, @dstFormat, @callback};
             var ___result = RMRequestAsyncReadbackIntoNativeSlice_GT_Ref_NativeSlice_d_T_p__Texture_Int32_Int32_Int32_Int32_Int32_Int32_Int32_GraphicsFormat_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@output = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@output = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }
@@ -8630,7 +8630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @rt, @mipLevel, @element};
             var ___result = RMInternal_SetComputeTextureParam_ComputeShader_Int32_Int32_Ref_RenderTargetIdentifier_Int32_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[3];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[3]);
 
             
         }
@@ -8774,7 +8774,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayTracingShader, @nameID, @rt};
             var ___result = RMInternal_SetRayTracingTextureParam_RayTracingShader_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[2]);
 
             
         }
@@ -9171,7 +9171,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @rt};
             var ___result = RMSetRandomWriteTarget_Texture_Int32_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -9249,8 +9249,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @srcElement, @srcMip, @srcX, @srcY, @srcWidth, @srcHeight, @dst, @dstElement, @dstMip, @dstX, @dstY, @mode};
             var ___result = RMCopyTexture_Internal_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32_Int32_Ref_RenderTargetIdentifier_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@src = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			@dst = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[7];
+			@src = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
+			@dst = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[7]);
 
             
         }
@@ -9262,7 +9262,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RMBlit_Texture_Texture_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -9274,8 +9274,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RMBlit_Identifier_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Vector2_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@source = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
+			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -10090,7 +10090,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @rt, @element};
             var ___result = RMSetGlobalTexture_Impl_Int32_Ref_RenderTargetIdentifier_RenderTextureSubElement.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -10124,7 +10124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@shadowmap, @mode};
             var ___result = RMSetShadowSamplingMode_Impl_Ref_RenderTargetIdentifier_ShadowSamplingMode.Invoke(___genericsType, ___parameters);
-			@shadowmap = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@shadowmap = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 
             
         }
@@ -10279,8 +10279,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@callback, @command, @source, @dest, @commandParam, @commandFlags};
             var ___result = RMIssuePluginCustomBlitInternal_IntPtr_UInt32_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-			@source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
-			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[3];
+			@source = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[2]);
+			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[3]);
 
             
         }
@@ -12833,8 +12833,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@src, @srcElement, @dst, @dstElement};
             var ___result = RMConvertTexture_Internal_Injected_Ref_RenderTargetIdentifier_Int32_Ref_RenderTargetIdentifier_Int32.Invoke(___genericsType, ___parameters);
-			@src = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			@dst = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[2];
+			@src = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
+			@dst = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[2]);
 
             
         }
@@ -12846,7 +12846,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @nameID, @val};
             var ___result = RMSetComputeVectorParam_Injected_ComputeShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Vector4)___parameters[2];
+			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[2]);
 
             
         }
@@ -12858,7 +12858,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @nameID, @val};
             var ___result = RMSetComputeMatrixParam_Injected_ComputeShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Matrix4x4)___parameters[2];
+			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
 
             
         }
@@ -12870,7 +12870,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @bufferHandle};
             var ___result = RMInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@bufferHandle = (UnityEngine.GraphicsBufferHandle)___parameters[3];
+			@bufferHandle = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[3]);
 
             
         }
@@ -12882,7 +12882,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
             var ___result = RMInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Vector4)___parameters[2];
+			@val = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[2]);
 
             
         }
@@ -12894,7 +12894,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rayTracingShader, @nameID, @val};
             var ___result = RMInternal_SetRayTracingMatrixParam_Injected_RayTracingShader_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@val = (UnityEngine.Matrix4x4)___parameters[2];
+			@val = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
 
             
         }
@@ -12906,7 +12906,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@accelerationStructure, @relativeOrigin};
             var ___result = RMInternal_BuildRayTracingAccelerationStructure_Injected_RayTracingAccelerationStructure_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@relativeOrigin = (UnityEngine.Vector3)___parameters[1];
+			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             
         }
@@ -12918,7 +12918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rt};
             var ___result = RMInternal_GenerateMips_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 
             
         }
@@ -12930,7 +12930,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mesh, @matrix, @material, @submeshIndex, @shaderPass, @properties};
             var ___result = RMInternal_DrawMesh_Injected_Mesh_Ref_Matrix4x4_Material_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -12942,7 +12942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rendererList};
             var ___result = RMInternal_DrawRendererList_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
-			@rendererList = (UnityEngine.Rendering.RendererList)___parameters[0];
+			@rendererList = ReflectionUtils.Convert<UnityEngine.Rendering.RendererList>(___parameters[0]);
 
             
         }
@@ -12954,7 +12954,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @vertexCount, @instanceCount, @properties};
             var ___result = RMInternal_DrawProcedural_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -12966,7 +12966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @indexCount, @instanceCount, @properties};
             var ___result = RMInternal_DrawProceduralIndexed_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_Int32_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -12978,7 +12978,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RMInternal_DrawProceduralIndirect_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -12990,7 +12990,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RMInternal_DrawProceduralIndexedIndirect_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_ComputeBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -13002,7 +13002,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RMInternal_DrawProceduralIndirectGraphicsBuffer_Injected_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -13014,7 +13014,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@indexBuffer, @matrix, @material, @shaderPass, @topology, @bufferWithArgs, @argsOffset, @properties};
             var ___result = RMInternal_DrawProceduralIndexedIndirectGraphicsBuffer_Injected_GraphicsBuffer_Ref_Matrix4x4_Material_Int32_MeshTopology_GraphicsBuffer_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -13026,7 +13026,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@normalizedCamViewport};
             var ___result = RMInternal_DrawOcclusionMesh_Injected_Ref_RectInt.Invoke(___genericsType, ___parameters);
-			@normalizedCamViewport = (UnityEngine.RectInt)___parameters[0];
+			@normalizedCamViewport = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[0]);
 
             
         }
@@ -13038,7 +13038,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pixelRect};
             var ___result = RMSetViewport_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@pixelRect = (UnityEngine.Rect)___parameters[0];
+			@pixelRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -13050,7 +13050,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@scissor};
             var ___result = RMEnableScissorRect_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@scissor = (UnityEngine.Rect)___parameters[0];
+			@scissor = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -13062,9 +13062,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RMBlit_Texture_Injected_Texture_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
-			@scale = (UnityEngine.Vector2)___parameters[4];
-			@offset = (UnityEngine.Vector2)___parameters[5];
+			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
+			@scale = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[4]);
+			@offset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[5]);
 
             
         }
@@ -13076,10 +13076,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @dest, @mat, @pass, @scale, @offset, @sourceDepthSlice, @destDepthSlice};
             var ___result = RMBlit_Identifier_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_Material_Int32_Ref_Vector2_Ref_Vector2_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@source = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
-			@scale = (UnityEngine.Vector2)___parameters[4];
-			@offset = (UnityEngine.Vector2)___parameters[5];
+			@source = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
+			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
+			@scale = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[4]);
+			@offset = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[5]);
 
             
         }
@@ -13091,7 +13091,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @desc, @filter};
             var ___result = RMGetTemporaryRTWithDescriptor_Injected_Int32_Ref_RenderTextureDescriptor_FilterMode.Invoke(___genericsType, ___parameters);
-			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[1];
+			@desc = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[1]);
 
             
         }
@@ -13103,7 +13103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@clearFlags, @backgroundColor, @depth, @stencil};
             var ___result = RMClearRenderTarget_Injected_RTClearFlags_Ref_Color_Single_UInt32.Invoke(___genericsType, ___parameters);
-			@backgroundColor = (UnityEngine.Color)___parameters[1];
+			@backgroundColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             
         }
@@ -13115,7 +13115,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @value};
             var ___result = RMSetGlobalVector_Injected_Int32_Ref_Vector4.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector4)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[1]);
 
             
         }
@@ -13127,7 +13127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @value};
             var ___result = RMSetGlobalColor_Injected_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Color)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             
         }
@@ -13139,7 +13139,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nameID, @value};
             var ___result = RMSetGlobalMatrix_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Matrix4x4)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -13151,7 +13151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMEnableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.GlobalKeyword>(___parameters[0]);
 
             
         }
@@ -13163,7 +13163,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@material, @keyword};
             var ___result = RMEnableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
 
             
         }
@@ -13175,7 +13175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @keyword};
             var ___result = RMEnableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
 
             
         }
@@ -13187,7 +13187,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword};
             var ___result = RMDisableGlobalKeyword_Injected_Ref_GlobalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.GlobalKeyword>(___parameters[0]);
 
             
         }
@@ -13199,7 +13199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@material, @keyword};
             var ___result = RMDisableMaterialKeyword_Injected_Material_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
 
             
         }
@@ -13211,7 +13211,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @keyword};
             var ___result = RMDisableComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
 
             
         }
@@ -13223,7 +13223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@keyword, @value};
             var ___result = RMSetGlobalKeyword_Injected_Ref_GlobalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.GlobalKeyword)___parameters[0];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.GlobalKeyword>(___parameters[0]);
 
             
         }
@@ -13235,7 +13235,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@material, @keyword, @value};
             var ___result = RMSetMaterialKeyword_Injected_Material_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
 
             
         }
@@ -13247,7 +13247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @keyword, @value};
             var ___result = RMSetComputeKeyword_Injected_ComputeShader_Ref_LocalKeyword_Boolean.Invoke(___genericsType, ___parameters);
-			@keyword = (UnityEngine.Rendering.LocalKeyword)___parameters[1];
+			@keyword = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[1]);
 
             
         }
@@ -13259,7 +13259,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@view};
             var ___result = RMSetViewMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@view = (UnityEngine.Matrix4x4)___parameters[0];
+			@view = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -13271,7 +13271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@proj};
             var ___result = RMSetProjectionMatrix_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@proj = (UnityEngine.Matrix4x4)___parameters[0];
+			@proj = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -13283,8 +13283,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@view, @proj};
             var ___result = RMSetViewProjectionMatrices_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@view = (UnityEngine.Matrix4x4)___parameters[0];
-			@proj = (UnityEngine.Matrix4x4)___parameters[1];
+			@view = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@proj = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -13296,7 +13296,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@dest};
             var ___result = RMIncrementUpdateCount_Injected_Ref_RenderTargetIdentifier.Invoke(___genericsType, ___parameters);
-			@dest = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@dest = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 
             
         }
@@ -13308,7 +13308,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rt, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction};
             var ___result = RMSetRenderTargetSingle_Internal_Injected_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 
             
         }
@@ -13320,8 +13320,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @flags};
             var ___result = RMSetRenderTargetColorDepth_Internal_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
-			@color = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@color = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
+			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -13333,7 +13333,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @flags};
             var ___result = RMSetRenderTargetMulti_Internal_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_RenderTargetFlags.Invoke(___genericsType, ___parameters);
-			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -13345,8 +13345,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color, @depth, @colorLoadAction, @colorStoreAction, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
             var ___result = RMSetRenderTargetColorDepthSubtarget_Injected_Ref_RenderTargetIdentifier_Ref_RenderTargetIdentifier_RenderBufferLoadAction_RenderBufferStoreAction_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-			@color = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
-			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@color = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
+			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -13358,7 +13358,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@colors, @depth, @colorLoadActions, @colorStoreActions, @depthLoadAction, @depthStoreAction, @mipLevel, @cubemapFace, @depthSlice};
             var ___result = RMSetRenderTargetMultiSubtarget_Injected_RenderTargetIdentifierArray_Ref_RenderTargetIdentifier_RenderBufferLoadActionArray_RenderBufferStoreActionArray_RenderBufferLoadAction_RenderBufferStoreAction_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-			@depth = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[1];
+			@depth = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[1]);
 
             
         }
@@ -13370,7 +13370,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rt, @resolver, @slice, @x, @width, @y, @height, @mip};
             var ___result = RMInternal_ProcessVTFeedback_Injected_Ref_RenderTargetIdentifier_IntPtr_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@rt = (UnityEngine.Rendering.RenderTargetIdentifier)___parameters[0];
+			@rt = ReflectionUtils.Convert<UnityEngine.Rendering.RenderTargetIdentifier>(___parameters[0]);
 
             
         }

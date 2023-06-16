@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings
 	/// </summary>
     public partial class RRASSettings : RMember //

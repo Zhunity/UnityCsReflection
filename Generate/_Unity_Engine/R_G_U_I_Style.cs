@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.GUIStyle
 	/// </summary>
     public partial class RGUIStyle : RMember //
@@ -2639,8 +2639,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@content, @minWidth, @maxWidth};
             var ___result = RMCalcMinMaxWidth_GUIContent_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
-			@minWidth = (System.Single)___parameters[1];
-			@maxWidth = (System.Single)___parameters[2];
+			@minWidth = ReflectionUtils.Convert<System.Single>(___parameters[1]);
+			@maxWidth = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 
             
         }
@@ -2664,7 +2664,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_contentOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2676,7 +2676,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_contentOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector2)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2689,7 +2689,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_clipOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2701,7 +2701,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_clipOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector2)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2714,7 +2714,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_Internal_clipOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2726,7 +2726,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_Internal_clipOffset_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Vector2)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2738,7 +2738,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
             var ___result = RMInternal_Draw_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-			@screenRect = (UnityEngine.Rect)___parameters[0];
+			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -2750,7 +2750,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @content, @controlID, @on};
             var ___result = RMInternal_Draw2_Injected_Ref_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@position = (UnityEngine.Rect)___parameters[0];
+			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -2762,8 +2762,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @content, @pos, @cursorColor};
             var ___result = RMInternal_DrawCursor_Injected_Ref_Rect_GUIContent_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			@position = (UnityEngine.Rect)___parameters[0];
-			@cursorColor = (UnityEngine.Color)___parameters[3];
+			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@cursorColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[3]);
 
             
         }
@@ -2775,9 +2775,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor};
             var ___result = RMInternal_DrawWithTextSelection_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color.Invoke(___genericsType, ___parameters);
-			@screenRect = (UnityEngine.Rect)___parameters[0];
-			@cursorColor = (UnityEngine.Color)___parameters[9];
-			@selectionColor = (UnityEngine.Color)___parameters[10];
+			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@cursorColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[9]);
+			@selectionColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[10]);
 
             
         }
@@ -2790,8 +2790,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @content, @cursorStringIndex, @ret};
             var ___result = RMInternal_GetCursorPixelPosition_Injected_Ref_Rect_GUIContent_Int32_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@position = (UnityEngine.Rect)___parameters[0];
-			@ret = (UnityEngine.Vector2)___parameters[3];
+			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[3]);
 
             
         }
@@ -2803,8 +2803,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
             var ___result = RMInternal_GetCursorStringIndex_Injected_Ref_Rect_GUIContent_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@position = (UnityEngine.Rect)___parameters[0];
-			@cursorPixelPosition = (UnityEngine.Vector2)___parameters[2];
+			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@cursorPixelPosition = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -2816,7 +2816,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@localPosition, @mContent, @selectIndex, @cursorIndex};
             var ___result = RMInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@localPosition = (UnityEngine.Rect)___parameters[0];
+			@localPosition = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
@@ -2828,7 +2828,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@localPosition, @mContent};
             var ___result = RMInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent.Invoke(___genericsType, ___parameters);
-			@localPosition = (UnityEngine.Rect)___parameters[0];
+			@localPosition = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
         }
@@ -2841,7 +2841,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@content, @ret};
             var ___result = RMInternal_CalcSize_Injected_GUIContent_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -2854,8 +2854,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@content, @maxSize, @ret};
             var ___result = RMInternal_CalcSizeWithConstraints_Injected_GUIContent_Ref_Vector2_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@maxSize = (UnityEngine.Vector2)___parameters[1];
-			@ret = (UnityEngine.Vector2)___parameters[2];
+			@maxSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 
             
         }
@@ -2868,7 +2868,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@content, @ret};
             var ___result = RMInternal_CalcMinMaxWidth_Injected_GUIContent_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -2880,7 +2880,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @content, @controlID, @on};
             var ___result = RMInternal_DrawPrefixLabel_Injected_Ref_Rect_GUIContent_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@position = (UnityEngine.Rect)___parameters[0];
+			@position = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -2892,10 +2892,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@screenRect, @content, @isHover, @isActive, @on, @hasKeyboardFocus, @hasTextInput, @drawSelectionAsComposition, @cursorFirst, @cursorLast, @cursorColor, @selectionColor, @imageColor, @textOffsetX, @textOffsetY, @imageTopOffset, @imageLeftOffset, @overflowX, @overflowY};
             var ___result = RMInternal_DrawContent_Injected_Ref_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean_Boolean_Boolean_Int32_Int32_Ref_Color_Ref_Color_Ref_Color_Single_Single_Single_Single_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-			@screenRect = (UnityEngine.Rect)___parameters[0];
-			@cursorColor = (UnityEngine.Color)___parameters[10];
-			@selectionColor = (UnityEngine.Color)___parameters[11];
-			@imageColor = (UnityEngine.Color)___parameters[12];
+			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@cursorColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[10]);
+			@selectionColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[11]);
+			@imageColor = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[12]);
 
             
         }
@@ -2907,7 +2907,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tooltip, @screenRect};
             var ___result = RMSetMouseTooltip_Injected_String_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@screenRect = (UnityEngine.Rect)___parameters[1];
+			@screenRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 
             
         }

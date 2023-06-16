@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.SphericalHarmonicsL2
 	/// </summary>
     public partial class RSphericalHarmonicsL2 : RMember //
@@ -888,7 +888,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sh, @direction, @color};
             var ___result = RMAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color.Invoke(___genericsType, ___parameters);
-			@sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@sh = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
 
             
         }
@@ -911,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sh, @directions, @results};
             var ___result = RMEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray.Invoke(___genericsType, ___parameters);
-			@sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@sh = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
 
             
         }
@@ -1011,7 +1011,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMSetZero_Injected_Ref_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
 
             
         }
@@ -1023,8 +1023,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @color};
             var ___result = RMAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
-			@color = (UnityEngine.Color)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
+			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             
         }
@@ -1036,9 +1036,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sh, @direction, @color};
             var ___result = RMAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color.Invoke(___genericsType, ___parameters);
-			@sh = (UnityEngine.Rendering.SphericalHarmonicsL2)___parameters[0];
-			@direction = (UnityEngine.Vector3)___parameters[1];
-			@color = (UnityEngine.Color)___parameters[2];
+			@sh = ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___parameters[0]);
+			@direction = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[2]);
 
             
         }

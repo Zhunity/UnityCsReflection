@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.EventInfo+StaticAddEvent`1
 	/// </summary>
     public partial class RStaticAddEvent<D> : RMember //

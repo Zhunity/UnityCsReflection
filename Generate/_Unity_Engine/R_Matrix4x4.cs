@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Matrix4x4
 	/// </summary>
     public partial class RMatrix4x4 : RMember //
@@ -1503,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result};
             var ___result = RMInverse3DAffine_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@result = (UnityEngine.Matrix4x4)___parameters[1];
+			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1835,8 +1835,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @ret};
             var ___result = RMGetRotation_Injected_Ref_Matrix4x4_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Matrix4x4)___parameters[0];
-			@ret = (UnityEngine.Quaternion)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 
             
         }
@@ -1849,8 +1849,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @ret};
             var ___result = RMGetLossyScale_Injected_Ref_Matrix4x4_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Matrix4x4)___parameters[0];
-			@ret = (UnityEngine.Vector3)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             
         }
@@ -1862,7 +1862,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMIsIdentity_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Matrix4x4)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1874,7 +1874,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetDeterminant_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Matrix4x4)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Single>(___result);
         }
@@ -1887,8 +1887,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @ret};
             var ___result = RMDecomposeProjection_Injected_Ref_Matrix4x4_Out_FrustumPlanes.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Matrix4x4)___parameters[0];
-			@ret = (UnityEngine.FrustumPlanes)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.FrustumPlanes>(___parameters[1]);
 
             
         }
@@ -1900,7 +1900,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMValidTRS_Injected_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Matrix4x4)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1913,10 +1913,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pos, @q, @s, @ret};
             var ___result = RMTRS_Injected_Ref_Vector3_Ref_Quaternion_Ref_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@pos = (UnityEngine.Vector3)___parameters[0];
-			@q = (UnityEngine.Quaternion)___parameters[1];
-			@s = (UnityEngine.Vector3)___parameters[2];
-			@ret = (UnityEngine.Matrix4x4)___parameters[3];
+			@pos = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@q = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
+			@s = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
 
             
         }
@@ -1928,8 +1928,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @result};
             var ___result = RMInverse3DAffine_Injected_Ref_Matrix4x4_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@input = (UnityEngine.Matrix4x4)___parameters[0];
-			@result = (UnityEngine.Matrix4x4)___parameters[1];
+			@input = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1942,8 +1942,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@m, @ret};
             var ___result = RMInverse_Injected_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@m = (UnityEngine.Matrix4x4)___parameters[0];
-			@ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@m = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -1956,8 +1956,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@m, @ret};
             var ___result = RMTranspose_Injected_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@m = (UnityEngine.Matrix4x4)___parameters[0];
-			@ret = (UnityEngine.Matrix4x4)___parameters[1];
+			@m = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -1970,7 +1970,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar, @ret};
             var ___result = RMOrtho_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Matrix4x4)___parameters[6];
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[6]);
 
             
         }
@@ -1983,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fov, @aspect, @zNear, @zFar, @ret};
             var ___result = RMPerspective_Injected_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Matrix4x4)___parameters[4];
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[4]);
 
             
         }
@@ -1996,10 +1996,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to, @up, @ret};
             var ___result = RMLookAt_Injected_Ref_Vector3_Ref_Vector3_Ref_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.Vector3)___parameters[0];
-			@to = (UnityEngine.Vector3)___parameters[1];
-			@up = (UnityEngine.Vector3)___parameters[2];
-			@ret = (UnityEngine.Matrix4x4)___parameters[3];
+			@from = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@up = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[2]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
 
             
         }
@@ -2012,7 +2012,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@left, @right, @bottom, @top, @zNear, @zFar, @ret};
             var ___result = RMFrustum_Injected_Single_Single_Single_Single_Single_Single_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Matrix4x4)___parameters[6];
+			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[6]);
 
             
         }

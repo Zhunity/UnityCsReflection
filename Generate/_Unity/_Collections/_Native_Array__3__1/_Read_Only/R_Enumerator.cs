@@ -10,7 +10,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Collections.NativeArray`1+ReadOnly+Enumerator
 	/// </summary>
     public partial class REnumerator : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.Tasks.Task`1
 	/// </summary>
     public partial class RTask<TResult> : RMember //
@@ -2739,7 +2739,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newBits, @illegalBits, @oldFlags};
             var ___result = RMAtomicStateUpdate_Int32_Int32_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@oldFlags = (System.Int32)___parameters[2];
+			@oldFlags = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

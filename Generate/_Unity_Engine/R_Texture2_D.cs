@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Texture2D
 	/// </summary>
     public partial class RTexture2D : RMember //
@@ -3103,7 +3103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @color};
             var ___result = RMSetPixelImpl_Injected_Int32_Int32_Int32_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			@color = (UnityEngine.Color)___parameters[4];
+			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
 
             
         }
@@ -3116,7 +3116,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @ret};
             var ___result = RMGetPixelImpl_Injected_Int32_Int32_Int32_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[4];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
 
             
         }
@@ -3129,7 +3129,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @u, @v, @ret};
             var ___result = RMGetPixelBilinearImpl_Injected_Int32_Int32_Single_Single_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[4];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
 
             
         }
@@ -3141,7 +3141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@source, @destX, @destY, @recalculateMipMaps};
             var ___result = RMReadPixelsImpl_Injected_Ref_Rect_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@source = (UnityEngine.Rect)___parameters[0];
+			@source = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -3154,7 +3154,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tex, @ret};
             var ___result = RMGetSafetyHandle_Injected_Texture2D_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
 
             
         }
@@ -3167,7 +3167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mipLevel, @ret};
             var ___result = RMGetSafetyHandleForSlice_Injected_Int32_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
 
             
         }

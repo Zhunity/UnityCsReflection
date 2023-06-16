@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.GUISlideGroup
 	/// </summary>
     public partial class RGUISlideGroup : RMember //
@@ -383,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @r, @changed};
             var ___result = RMGetRect_Int32_Rect_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@changed = (System.Boolean)___parameters[2];
+			@changed = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }

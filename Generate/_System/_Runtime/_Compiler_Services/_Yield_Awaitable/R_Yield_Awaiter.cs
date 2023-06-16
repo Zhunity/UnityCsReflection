@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter
 	/// </summary>
     public partial class RYieldAwaiter : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.BasicNode`1
 	/// </summary>
     public partial class RBasicNode<T> : RMember //
@@ -204,7 +204,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@first.Value};
             var ___result = RMAppendTo_Ref_BasicNode_d_T_p_.Invoke(___genericsType, ___parameters);
-			@first = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>(___parameters[0]);
+			@first = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>>(___parameters[0]);
 
             
         }

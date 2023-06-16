@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Object
 	/// </summary>
     public partial class RObject : RMember //
@@ -319,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@typeName, @fieldName, @val};
             var ___result = RMFieldGetter_String_String_Ref_Object.Invoke(___genericsType, ___parameters);
-			@val = (System.Object)___parameters[2];
+			@val = ReflectionUtils.Convert<System.Object>(___parameters[2]);
 
             
         }

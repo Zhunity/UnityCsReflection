@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Boolean
 	/// </summary>
     public partial class RBoolean : RMember //
@@ -702,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten};
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
-			@charsWritten = (System.Int32)___parameters[1];
+			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -781,7 +781,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value, @result};
             var ___result = RMTryParse_String_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@result = (System.Boolean)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -794,7 +794,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value.Value, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Boolean.Invoke(___genericsType, ___parameters);
-			@result = (System.Boolean)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

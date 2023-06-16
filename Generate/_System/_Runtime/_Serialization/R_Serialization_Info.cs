@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.Serialization.SerializationInfo
 	/// </summary>
     public partial class RSerializationInfo : RMember //
@@ -1488,7 +1488,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @foundType};
             var ___result = RMGetElement_String_Out_Type.Invoke(___genericsType, ___parameters);
-			@foundType = (System.Type)___parameters[1];
+			@foundType = ReflectionUtils.Convert<System.Type>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -1501,7 +1501,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @foundType};
             var ___result = RMGetElementNoThrow_String_Out_Type.Invoke(___genericsType, ___parameters);
-			@foundType = (System.Type)___parameters[1];
+			@foundType = ReflectionUtils.Convert<System.Type>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

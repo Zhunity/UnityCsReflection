@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Diagnostics.StackTrace
 	/// </summary>
     public partial class RStackTrace : RMember //
@@ -468,7 +468,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sb, @separator, @isAsync};
             var ___result = RMAddFrames_StringBuilder_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isAsync = (System.Boolean)___parameters[2];
+			@isAsync = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -482,8 +482,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sb, @mi, @needsNewLine, @skipped, @isAsync};
             var ___result = RMGetFullNameForStackTrace_StringBuilder_MethodBase_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@skipped = (System.Boolean)___parameters[3];
-			@isAsync = (System.Boolean)___parameters[4];
+			@skipped = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
+			@isAsync = ReflectionUtils.Convert<System.Boolean>(___parameters[4]);
 
             
         }
@@ -495,8 +495,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@method, @declaringType};
             var ___result = RMConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type.Invoke(___genericsType, ___parameters);
-			@method = (System.Reflection.MethodBase)___parameters[0];
-			@declaringType = (System.Type)___parameters[1];
+			@method = ReflectionUtils.Convert<System.Reflection.MethodBase>(___parameters[0]);
+			@declaringType = ReflectionUtils.Convert<System.Type>(___parameters[1]);
 
             
         }

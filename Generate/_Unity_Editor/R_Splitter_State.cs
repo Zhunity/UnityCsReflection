@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.SplitterState
 	/// </summary>
     public partial class RSplitterState : RMember //
@@ -795,7 +795,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@oldArray, @newArray};
             var ___result = RMConvertOldArray_Int32Array_Ref_SingleArray.Invoke(___genericsType, ___parameters);
-			@newArray = (System.Single[])___parameters[1];
+			@newArray = ReflectionUtils.Convert<System.Single[]>(___parameters[1]);
 
             
         }

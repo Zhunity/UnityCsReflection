@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.RenderChainCommand
 	/// </summary>
     public partial class RRenderChainCommand : RMember //
@@ -455,7 +455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@drawParams.Value, @pixelsPerPoint, @immediateException};
             var ___result = RMExecuteNonDrawMesh_DrawParams_Single_Ref_Exception.Invoke(___genericsType, ___parameters);
-			@immediateException = (System.Exception)___parameters[2];
+			@immediateException = ReflectionUtils.Convert<System.Exception>(___parameters[2]);
 
             
         }

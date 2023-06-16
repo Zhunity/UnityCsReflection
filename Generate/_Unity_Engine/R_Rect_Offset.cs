@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.RectOffset
 	/// </summary>
     public partial class RRectOffset : RMember //
@@ -512,8 +512,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @ret};
             var ___result = RMAdd_Injected_Ref_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[0];
-			@ret = (UnityEngine.Rect)___parameters[1];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 
             
         }
@@ -526,8 +526,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @ret};
             var ___result = RMRemove_Injected_Ref_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[0];
-			@ret = (UnityEngine.Rect)___parameters[1];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 
             
         }

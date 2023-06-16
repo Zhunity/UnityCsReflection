@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.ListViewDragger
 	/// </summary>
     public partial class RListViewDragger : RMember //
@@ -685,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pointerPosition, @dragPosition.Value};
             var ___result = RMGetVisualMode_Vector3_Ref_DragPosition.Invoke(___genericsType, ___parameters);
-			@dragPosition = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition(___parameters[1]);
+			@dragPosition = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition>(___parameters[1]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode>(___result);
         }
@@ -730,7 +730,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pointerPosition, @dragPosition.Value};
             var ___result = RMTryGetDragPosition_Vector2_Ref_DragPosition.Invoke(___genericsType, ___parameters);
-			@dragPosition = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition(___parameters[1]);
+			@dragPosition = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

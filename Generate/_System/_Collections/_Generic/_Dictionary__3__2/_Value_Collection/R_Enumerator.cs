@@ -10,7 +10,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.Dictionary`2+ValueCollection+Enumerator
 	/// </summary>
     public partial class REnumerator : RMember //

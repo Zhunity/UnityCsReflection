@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.Principal.SecurityIdentifier
 	/// </summary>
     public partial class RSecurityIdentifier : RMember //
@@ -738,7 +738,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sddlForm, @pos};
             var ___result = RMParseSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@pos = (System.Int32)___parameters[1];
+			@pos = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Security.Principal.SecurityIdentifier>(___result);
         }
@@ -762,7 +762,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParseAuthority_String_Out_UInt64.Invoke(___genericsType, ___parameters);
-			@result = (System.UInt64)___parameters[1];
+			@result = ReflectionUtils.Convert<System.UInt64>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -775,7 +775,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParseSubAuthority_String_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@result = (System.UInt32)___parameters[1];
+			@result = ReflectionUtils.Convert<System.UInt32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

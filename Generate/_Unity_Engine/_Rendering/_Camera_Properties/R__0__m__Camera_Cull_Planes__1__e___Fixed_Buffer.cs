@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.CameraProperties+<m_CameraCullPlanes>e__FixedBuffer
 	/// </summary>
     public partial class R__0__m_CameraCullPlanes__1__e__FixedBuffer : RMember //

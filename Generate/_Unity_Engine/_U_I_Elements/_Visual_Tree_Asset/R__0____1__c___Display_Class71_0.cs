@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0
 	/// </summary>
     public partial class R__0____1__c__DisplayClass71_0 : RMember //

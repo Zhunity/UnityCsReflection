@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.Tasks.Sources.IValueTaskSource`1
 	/// </summary>
     public partial class RIValueTaskSource<TResult> : RMember //

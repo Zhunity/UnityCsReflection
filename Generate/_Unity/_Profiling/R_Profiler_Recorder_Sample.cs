@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Profiling.ProfilerRecorderSample
 	/// </summary>
     public partial class RProfilerRecorderSample : RMember //

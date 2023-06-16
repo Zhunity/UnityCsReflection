@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.ContextCallback`1
 	/// </summary>
     public partial class RContextCallback<TState> : RMember //
@@ -396,7 +396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state};
             var ___result = RMInvoke_Ref_TState.Invoke(___genericsType, ___parameters);
-			@state = (TState)___parameters[0];
+			@state = ReflectionUtils.Convert<TState>(___parameters[0]);
 
             
         }
@@ -408,7 +408,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state, @callback, @object};
             var ___result = RMBeginInvoke_Ref_TState_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-			@state = (TState)___parameters[0];
+			@state = ReflectionUtils.Convert<TState>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
@@ -420,7 +420,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@state, @result};
             var ___result = RMEndInvoke_Ref_TState_IAsyncResult.Invoke(___genericsType, ___parameters);
-			@state = (TState)___parameters[0];
+			@state = ReflectionUtils.Convert<TState>(___parameters[0]);
 
             
         }

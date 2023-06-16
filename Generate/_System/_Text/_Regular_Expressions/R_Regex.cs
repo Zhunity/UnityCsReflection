@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Text.RegularExpressions.Regex
 	/// </summary>
     public partial class RRegex : RMember //
@@ -1598,7 +1598,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @entry.Value};
             var ___result = RMTryGetCacheValue_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
-			@entry = new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
+			@entry = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1611,7 +1611,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key.Value, @entry.Value};
             var ___result = RMTryGetCacheValueSmall_CachedCodeEntryKey_Out_CachedCodeEntry.Invoke(___genericsType, ___parameters);
-			@entry = new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry(___parameters[1]);
+			@entry = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegex.RCachedCodeEntry>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

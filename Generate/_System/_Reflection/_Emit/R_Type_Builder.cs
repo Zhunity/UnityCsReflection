@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.Emit.TypeBuilder
 	/// </summary>
     public partial class RTypeBuilder : RMember //
@@ -5059,7 +5059,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RMSystem__2__Runtime__2__InteropServices__2___TypeBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             
         }
@@ -6237,7 +6237,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destType, @value, @destValue};
             var ___result = RMSetConstantValue_Type_Object_Ref_Object.Invoke(___genericsType, ___parameters);
-			@destValue = (System.Object)___parameters[2];
+			@destValue = ReflectionUtils.Convert<System.Object>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -7063,7 +7063,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rootCauseForFailure};
             var ___result = RMInternalGetNameIfAvailable_Ref_Type.Invoke(___genericsType, ___parameters);
-			@rootCauseForFailure = (System.Type)___parameters[0];
+			@rootCauseForFailure = ReflectionUtils.Convert<System.Type>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.TimeSpan
 	/// </summary>
     public partial class RTimeSpan : RMember //
@@ -1981,7 +1981,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParse_String_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[1];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1994,7 +1994,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[1];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2007,7 +2007,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @formatProvider, @result};
             var ___result = RMTryParse_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[2];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2020,7 +2020,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @formatProvider, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[2];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2033,7 +2033,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format, @formatProvider, @result};
             var ___result = RMTryParseExact_String_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[3];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2046,7 +2046,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @result};
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[3];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2059,7 +2059,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @formats, @formatProvider, @result};
             var ___result = RMTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[3];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2072,7 +2072,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @result};
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[3];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2085,7 +2085,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @format, @formatProvider, @styles, @result};
             var ___result = RMTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[4];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2098,7 +2098,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles, @result};
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[4];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2111,7 +2111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input, @formats, @formatProvider, @styles, @result};
             var ___result = RMTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[4];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2124,7 +2124,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles, @result};
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
-			@result = (System.TimeSpan)___parameters[4];
+			@result = ReflectionUtils.Convert<System.TimeSpan>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2170,7 +2170,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @formatProvider};
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
-			@charsWritten = (System.Int32)___parameters[1];
+			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

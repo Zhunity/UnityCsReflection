@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.WeakReference`1
 	/// </summary>
     public partial class RWeakReference<T> : RMember // where T : class
@@ -243,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target};
             var ___result = RMTryGetTarget_Out_T.Invoke(___genericsType, ___parameters);
-			@target = (T)___parameters[0];
+			@target = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

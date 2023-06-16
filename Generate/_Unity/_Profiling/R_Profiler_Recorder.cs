@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Profiling.ProfilerRecorder
 	/// </summary>
     public partial class RProfilerRecorder : RMember //
@@ -1399,8 +1399,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@statHandle, @maxSampleCount, @options, @ret};
             var ___result = RMCreate_Injected_Ref_ProfilerRecorderHandle_Int32_ProfilerRecorderOptions_Out_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@statHandle = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[0];
-			@ret = (Unity.Profiling.ProfilerRecorder)___parameters[3];
+			@statHandle = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[3]);
 
             
         }
@@ -1412,7 +1412,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @options.Value};
             var ___result = RMControl_Injected_Ref_ProfilerRecorder_ControlOptions.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             
         }
@@ -1424,7 +1424,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetValueUnitType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<Unity.Profiling.ProfilerMarkerDataUnit>(___result);
         }
@@ -1436,7 +1436,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetValueDataType_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<Unity.Profiling.LowLevel.ProfilerMarkerDataType>(___result);
         }
@@ -1448,7 +1448,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetCurrentValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int64>(___result);
         }
@@ -1460,7 +1460,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetCurrentValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Double>(___result);
         }
@@ -1472,7 +1472,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetLastValue_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int64>(___result);
         }
@@ -1484,7 +1484,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetLastValueAsDouble_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Double>(___result);
         }
@@ -1496,7 +1496,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @countOptions.Value};
             var ___result = RMGetCount_Injected_Ref_ProfilerRecorder_CountOptions.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -1508,7 +1508,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetValid_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1520,7 +1520,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetWrapped_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1532,7 +1532,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetRunning_Injected_Ref_ProfilerRecorder.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1545,8 +1545,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @index, @ret};
             var ___result = RMGetSampleInternal_Injected_Ref_ProfilerRecorder_Int32_Out_ProfilerRecorderSample.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
-			@ret = (Unity.Profiling.ProfilerRecorderSample)___parameters[2];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorderSample>(___parameters[2]);
 
             
         }
@@ -1558,7 +1558,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @outSamples, @reset};
             var ___result = RMCopyTo_List_Injected_Ref_ProfilerRecorder_List_d_ProfilerRecorderSample_p__Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             
         }
@@ -1570,7 +1570,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, Pointer.Box(@outSamples, typeof(Unity.Profiling.ProfilerRecorderSample)), @outSamplesSize, @reset};
             var ___result = RMCopyTo_Pointer_Injected_Ref_ProfilerRecorder_ProfilerRecorderSamplePointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.ProfilerRecorder)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.ProfilerRecorder>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }

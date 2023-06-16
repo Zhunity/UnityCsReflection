@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Quaternion
 	/// </summary>
     public partial class RQuaternion : RMember //
@@ -1318,8 +1318,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@q, @axis, @angle};
             var ___result = RMInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
-			@axis = (UnityEngine.Vector3)___parameters[1];
-			@angle = (System.Single)___parameters[2];
+			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@angle = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 
             
         }
@@ -1509,8 +1509,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@angle, @axis};
             var ___result = RMToAngleAxis_Out_Single_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@angle = (System.Single)___parameters[0];
-			@axis = (UnityEngine.Vector3)___parameters[1];
+			@angle = ReflectionUtils.Convert<System.Single>(___parameters[0]);
+			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             
         }
@@ -1711,8 +1711,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@axis, @angle};
             var ___result = RMToAxisAngle_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
-			@axis = (UnityEngine.Vector3)___parameters[0];
-			@angle = (System.Single)___parameters[1];
+			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@angle = ReflectionUtils.Convert<System.Single>(___parameters[1]);
 
             
         }
@@ -1791,9 +1791,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@fromDirection, @toDirection, @ret};
             var ___result = RMFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@fromDirection = (UnityEngine.Vector3)___parameters[0];
-			@toDirection = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[2];
+			@fromDirection = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@toDirection = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
 
             
         }
@@ -1806,8 +1806,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rotation, @ret};
             var ___result = RMInverse_Injected_Ref_Quaternion_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@rotation = (UnityEngine.Quaternion)___parameters[0];
-			@ret = (UnityEngine.Quaternion)___parameters[1];
+			@rotation = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 
             
         }
@@ -1820,9 +1820,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RMSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Quaternion)___parameters[0];
-			@b = (UnityEngine.Quaternion)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
 
             
         }
@@ -1835,9 +1835,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RMSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Quaternion)___parameters[0];
-			@b = (UnityEngine.Quaternion)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
 
             
         }
@@ -1850,9 +1850,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RMLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Quaternion)___parameters[0];
-			@b = (UnityEngine.Quaternion)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
 
             
         }
@@ -1865,9 +1865,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b, @t, @ret};
             var ___result = RMLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@a = (UnityEngine.Quaternion)___parameters[0];
-			@b = (UnityEngine.Quaternion)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[3];
+			@a = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@b = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[3]);
 
             
         }
@@ -1880,8 +1880,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@euler, @ret};
             var ___result = RMInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@euler = (UnityEngine.Vector3)___parameters[0];
-			@ret = (UnityEngine.Quaternion)___parameters[1];
+			@euler = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 
             
         }
@@ -1894,8 +1894,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rotation, @ret};
             var ___result = RMInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3.Invoke(___genericsType, ___parameters);
-			@rotation = (UnityEngine.Quaternion)___parameters[0];
-			@ret = (UnityEngine.Vector3)___parameters[1];
+			@rotation = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
 
             
         }
@@ -1909,9 +1909,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@q, @axis, @angle};
             var ___result = RMInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single.Invoke(___genericsType, ___parameters);
-			@q = (UnityEngine.Quaternion)___parameters[0];
-			@axis = (UnityEngine.Vector3)___parameters[1];
-			@angle = (System.Single)___parameters[2];
+			@q = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[0]);
+			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@angle = ReflectionUtils.Convert<System.Single>(___parameters[2]);
 
             
         }
@@ -1924,8 +1924,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@angle, @axis, @ret};
             var ___result = RMAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@axis = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[2];
+			@axis = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
 
             
         }
@@ -1938,9 +1938,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@forward, @upwards, @ret};
             var ___result = RMLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@forward = (UnityEngine.Vector3)___parameters[0];
-			@upwards = (UnityEngine.Vector3)___parameters[1];
-			@ret = (UnityEngine.Quaternion)___parameters[2];
+			@forward = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+			@upwards = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[2]);
 
             
         }

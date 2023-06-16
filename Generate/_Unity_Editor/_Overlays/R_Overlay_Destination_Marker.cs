@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Overlays.OverlayDestinationMarker
 	/// </summary>
     public partial class ROverlayDestinationMarker : RMember //
@@ -3618,8 +3618,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
             var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.Length)___parameters[1];
-			@to = (UnityEngine.UIElements.Length)___parameters[2];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[1]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3631,8 +3631,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.TransformOrigin)___parameters[0];
-			@to = (UnityEngine.UIElements.TransformOrigin)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3644,8 +3644,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.Translate)___parameters[0];
-			@to = (UnityEngine.UIElements.Translate)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3657,8 +3657,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.BackgroundPosition)___parameters[0];
-			@to = (UnityEngine.UIElements.BackgroundPosition)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3670,8 +3670,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.BackgroundSize)___parameters[0];
-			@to = (UnityEngine.UIElements.BackgroundSize)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -4068,7 +4068,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newStyle.Value};
             var ___result = RMSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@newStyle = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
+			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
 
             
         }
@@ -4268,7 +4268,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nextParent};
             var ___result = RMGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
-			@nextParent = (UnityEngine.UIElements.VisualElement)___parameters[0];
+			@nextParent = ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -4655,7 +4655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@result = (UnityEngine.Matrix4x4)___parameters[0];
+			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -4789,7 +4789,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
             var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
             var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
-			@userData = (TCallbackArgs)___parameters[2];
+			@userData = ReflectionUtils.Convert<TCallbackArgs>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

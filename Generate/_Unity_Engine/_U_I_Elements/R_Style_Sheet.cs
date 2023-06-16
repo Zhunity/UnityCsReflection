@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.StyleSheet
 	/// </summary>
     public partial class RStyleSheet : RMember //
@@ -1053,7 +1053,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@list, @type.Value, @handle.Value, @value};
             var ___result = RMTryCheckAccess_GT_TArray_StyleValueType_StyleValueHandle_Out_T.Invoke(___genericsType, ___parameters);
-			@value = (T)___parameters[3];
+			@value = ReflectionUtils.Convert<T>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1143,7 +1143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadFloat_StyleValueHandle_Out_Single.Invoke(___genericsType, ___parameters);
-			@value = (System.Single)___parameters[1];
+			@value = ReflectionUtils.Convert<System.Single>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1167,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value.Value};
             var ___result = RMTryReadDimension_StyleValueHandle_Out_Dimension.Invoke(___genericsType, ___parameters);
-			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension(___parameters[1]);
+			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RDimension>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1191,7 +1191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadColor_StyleValueHandle_Out_Color.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Color)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1215,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadString_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			@value = (System.String)___parameters[1];
+			@value = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1239,7 +1239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadEnum_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			@value = (System.String)___parameters[1];
+			@value = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1263,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadVariable_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			@value = (System.String)___parameters[1];
+			@value = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1287,7 +1287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadResourcePath_StyleValueHandle_Out_String.Invoke(___genericsType, ___parameters);
-			@value = (System.String)___parameters[1];
+			@value = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1322,7 +1322,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle.Value, @value};
             var ___result = RMTryReadAssetReference_StyleValueHandle_Out_Object.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Object)___parameters[1];
+			@value = ReflectionUtils.Convert<UnityEngine.Object>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

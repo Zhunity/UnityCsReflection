@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.GraphicsBuffer
 	/// </summary>
     public partial class RGraphicsBuffer : RMember //
@@ -1349,7 +1349,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_bufferHandle_Injected_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.GraphicsBufferHandle)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[0]);
 
             
         }

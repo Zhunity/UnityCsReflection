@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Guid+GuidParseThrowStyle
 	/// </summary>
     public partial class RGuidParseThrowStyle : RMember //

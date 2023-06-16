@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.SecurityElement+SecurityAttribute
 	/// </summary>
     public partial class RSecurityAttribute : RMember //

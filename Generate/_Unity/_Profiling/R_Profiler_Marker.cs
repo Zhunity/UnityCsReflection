@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Profiling.ProfilerMarker
 	/// </summary>
     public partial class RProfilerMarker : RMember //
@@ -285,7 +285,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name};
             var ___result = RMGetName_Ref_String.Invoke(___genericsType, ___parameters);
-			@name = (System.String)___parameters[0];
+			@name = ReflectionUtils.Convert<System.String>(___parameters[0]);
 
             
         }

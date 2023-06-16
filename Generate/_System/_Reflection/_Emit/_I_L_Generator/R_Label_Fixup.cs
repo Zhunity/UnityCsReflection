@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.Emit.ILGenerator+LabelFixup
 	/// </summary>
     public partial class RLabelFixup : RMember //

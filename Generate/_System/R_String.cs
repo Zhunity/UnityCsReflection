@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.String
 	/// </summary>
     public partial class RString : RMember //
@@ -5197,7 +5197,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@separators.Value, @sepListBuilder.Value};
             var ___result = RMMakeSeparatorList_ReadOnlySpan_d_Char_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
-			@sepListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
+			@sepListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[1]);
 
             
         }
@@ -5209,7 +5209,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@separator, @sepListBuilder.Value};
             var ___result = RMMakeSeparatorList_String_Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
-			@sepListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
+			@sepListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[1]);
 
             
         }
@@ -5221,8 +5221,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@separators, @sepListBuilder.Value, @lengthListBuilder.Value};
             var ___result = RMMakeSeparatorList_StringArray_Ref_ValueListBuilder_d_Int32_p__Ref_ValueListBuilder_d_Int32_p_.Invoke(___genericsType, ___parameters);
-			@sepListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[1]);
-			@lengthListBuilder = new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>(___parameters[2]);
+			@sepListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[1]);
+			@lengthListBuilder = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RValueListBuilder<Hvak.Editor.Refleaction.RSystem.RInt32>>(___parameters[2]);
 
             
         }

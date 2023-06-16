@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.PackageManagerWindow
 	/// </summary>
     public partial class RPackageManagerWindow : RMember //
@@ -2843,7 +2843,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id, @match};
             var ___result = RMTryGetOverlay_String_Out_Overlay.Invoke(___genericsType, ___parameters);
-			@match = (UnityEditor.Overlays.Overlay)___parameters[1];
+			@match = ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

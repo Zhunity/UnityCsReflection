@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.BitmapAllocator32
 	/// </summary>
     public partial class RBitmapAllocator32 : RMember //
@@ -410,8 +410,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@page, @x, @y};
             var ___result = RMGetAllocPageAtlasLocation_Int32_Out_UInt16_Out_UInt16.Invoke(___genericsType, ___parameters);
-			@x = (System.UInt16)___parameters[1];
-			@y = (System.UInt16)___parameters[2];
+			@x = ReflectionUtils.Convert<System.UInt16>(___parameters[1]);
+			@y = ReflectionUtils.Convert<System.UInt16>(___parameters[2]);
 
             
         }

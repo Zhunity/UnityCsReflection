@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.AssetBundleNameGUI
 	/// </summary>
     public partial class RAssetBundleNameGUI : RMember //
@@ -415,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assets, @isVariant, @isMixed};
             var ___result = RMGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isMixed = (System.Boolean)___parameters[2];
+			@isMixed = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.String>>(___result);
         }

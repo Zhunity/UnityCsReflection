@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Collections.LowLevel.Unsafe.DisposeSentinel+Dummy
 	/// </summary>
     public partial class RDummy : RMember //

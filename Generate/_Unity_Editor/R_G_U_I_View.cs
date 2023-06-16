@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.GUIView
 	/// </summary>
     public partial class RGUIView : RMember //
@@ -2671,9 +2671,9 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @clippedRect, @targetSize};
             var ___result = RMSetInternalGameViewDimensions_Injected_Ref_Rect_Ref_Rect_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[0];
-			@clippedRect = (UnityEngine.Rect)___parameters[1];
-			@targetSize = (UnityEngine.Vector2)___parameters[2];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@clippedRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
+			@targetSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 
             
         }
@@ -2685,7 +2685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@targetSize};
             var ___result = RMSetMainPlayModeViewSize_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@targetSize = (UnityEngine.Vector2)___parameters[0];
+			@targetSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2697,7 +2697,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@displayId, @targetSize};
             var ___result = RMSetDisplayViewSize_Injected_Int32_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@targetSize = (UnityEngine.Vector2)___parameters[1];
+			@targetSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -2710,7 +2710,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@displayId, @ret};
             var ___result = RMGetDisplayViewSize_Injected_Int32_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[1];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -2722,7 +2722,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rd, @rect};
             var ___result = RMGrabPixels_Injected_RenderTexture_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[1];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 
             
         }
@@ -2734,7 +2734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@hotRegionRect};
             var ___result = RMMarkHotRegion_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@hotRegionRect = (UnityEngine.Rect)___parameters[0];
+			@hotRegionRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -2746,7 +2746,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@windowPosition};
             var ___result = RMInternal_SetPosition_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@windowPosition = (UnityEngine.Rect)___parameters[0];
+			@windowPosition = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Sprite
 	/// </summary>
     public partial class RSprite : RMember //
@@ -1458,7 +1458,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetTextureRect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rect)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -1471,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetTextureRectOffset_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1484,7 +1484,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetInnerUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 
             
         }
@@ -1497,7 +1497,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetOuterUVs_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 
             
         }
@@ -1510,7 +1510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetPadding_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 
             
         }
@@ -1522,8 +1522,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
             var ___result = RMCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[0];
-			@pivot = (UnityEngine.Vector2)___parameters[1];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@pivot = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
@@ -1535,9 +1535,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTexture};
             var ___result = RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[1];
-			@pivot = (UnityEngine.Vector2)___parameters[2];
-			@border = (UnityEngine.Vector4)___parameters[6];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
+			@pivot = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
+			@border = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[6]);
 
             return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
@@ -1550,7 +1550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_bounds_Injected_Out_Bounds.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Bounds)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Bounds>(___parameters[0]);
 
             
         }
@@ -1563,7 +1563,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_rect_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rect)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -1576,7 +1576,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_border_Injected_Out_Vector4.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector4)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[0]);
 
             
         }
@@ -1589,7 +1589,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_pivot_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }

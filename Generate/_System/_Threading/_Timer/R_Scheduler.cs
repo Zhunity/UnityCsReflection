@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.Timer+Scheduler
 	/// </summary>
     public partial class RScheduler : RMember //

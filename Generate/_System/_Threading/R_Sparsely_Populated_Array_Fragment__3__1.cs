@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.SparselyPopulatedArrayFragment`1
 	/// </summary>
     public partial class RSparselyPopulatedArrayFragment<T> : RMember // where T : class

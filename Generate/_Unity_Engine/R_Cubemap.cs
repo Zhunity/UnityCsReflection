@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Cubemap
 	/// </summary>
     public partial class RCubemap : RMember //
@@ -1692,7 +1692,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @color};
             var ___result = RMSetPixelImpl_Injected_Int32_Int32_Int32_Int32_Ref_Color.Invoke(___genericsType, ___parameters);
-			@color = (UnityEngine.Color)___parameters[4];
+			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
 
             
         }
@@ -1705,7 +1705,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@image, @mip, @x, @y, @ret};
             var ___result = RMGetPixelImpl_Injected_Int32_Int32_Int32_Int32_Out_Color.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Color)___parameters[4];
+			@ret = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[4]);
 
             
         }
@@ -1718,7 +1718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mipLevel, @face, @ret};
             var ___result = RMGetSafetyHandleForSlice_Injected_Int32_Int32_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[2];
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[2]);
 
             
         }

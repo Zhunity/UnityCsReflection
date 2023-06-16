@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.SecurityElement
 	/// </summary>
     public partial class RSecurityElement : RMember //
@@ -849,7 +849,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @level};
             var ___result = RMToXml_Ref_StringBuilder_Int32.Invoke(___genericsType, ___parameters);
-			@s = (System.Text.StringBuilder)___parameters[0];
+			@s = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
 
             
         }

@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.RuntimeType+ListBuilder`1
 	/// </summary>
     public partial class RListBuilder<T> : RMember // where T : class

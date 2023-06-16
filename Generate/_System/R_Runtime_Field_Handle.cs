@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.RuntimeFieldHandle
 	/// </summary>
     public partial class RRuntimeFieldHandle : RMember //
@@ -404,7 +404,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@field.Value, @obj, @value, @fieldType.Value, @fieldAttr, @declaringType.Value, @domainInitialized};
             var ___result = RMSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			@domainInitialized = (System.Boolean)___parameters[6];
+			@domainInitialized = ReflectionUtils.Convert<System.Boolean>(___parameters[6]);
 
             
         }

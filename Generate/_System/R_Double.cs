@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Double
 	/// </summary>
     public partial class RDouble : RMember //
@@ -1274,7 +1274,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
-			@charsWritten = (System.Int32)___parameters[1];
+			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1342,7 +1342,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParse_String_Out_Double.Invoke(___genericsType, ___parameters);
-			@result = (System.Double)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Double>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1355,7 +1355,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Double.Invoke(___genericsType, ___parameters);
-			@result = (System.Double)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Double>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1368,7 +1368,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @style, @provider, @result};
             var ___result = RMTryParse_String_NumberStyles_IFormatProvider_Out_Double.Invoke(___genericsType, ___parameters);
-			@result = (System.Double)___parameters[3];
+			@result = ReflectionUtils.Convert<System.Double>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1381,7 +1381,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @style, @provider, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Double.Invoke(___genericsType, ___parameters);
-			@result = (System.Double)___parameters[3];
+			@result = ReflectionUtils.Convert<System.Double>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1394,7 +1394,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @style, @info, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_NumberFormatInfo_Out_Double.Invoke(___genericsType, ___parameters);
-			@result = (System.Double)___parameters[3];
+			@result = ReflectionUtils.Convert<System.Double>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

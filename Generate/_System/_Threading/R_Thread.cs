@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.Thread
 	/// </summary>
     public partial class RThread : RMember //
@@ -2504,7 +2504,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stackMark.Value};
             var ___result = RMStart_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
+			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[0]);
 
             
         }
@@ -2913,7 +2913,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RMSystem__2__Runtime__2__InteropServices__2___Thread__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             
         }
@@ -3024,7 +3024,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@thread};
             var ___result = RMGetCurrentThread_icall_Ref_Thread.Invoke(___genericsType, ___parameters);
-			@thread = (System.Threading.Thread)___parameters[0];
+			@thread = ReflectionUtils.Convert<System.Threading.Thread>(___parameters[0]);
 
             
         }
@@ -3190,7 +3190,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@principal, @stackMark.Value};
             var ___result = RMStartInternal_Object_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
-			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[1]);
+			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[1]);
 
             
         }
@@ -3235,7 +3235,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Byte.Invoke(___genericsType, ___parameters);
-			@address = (System.Byte)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Byte>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Byte>(___result);
         }
@@ -3247,7 +3247,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Double.Invoke(___genericsType, ___parameters);
-			@address = (System.Double)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Double>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Double>(___result);
         }
@@ -3259,7 +3259,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Int16.Invoke(___genericsType, ___parameters);
-			@address = (System.Int16)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Int16>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int16>(___result);
         }
@@ -3271,7 +3271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@address = (System.Int32)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -3283,7 +3283,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Int64.Invoke(___genericsType, ___parameters);
-			@address = (System.Int64)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Int64>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int64>(___result);
         }
@@ -3295,7 +3295,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_IntPtr.Invoke(___genericsType, ___parameters);
-			@address = (System.IntPtr)___parameters[0];
+			@address = ReflectionUtils.Convert<System.IntPtr>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -3307,7 +3307,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Object.Invoke(___genericsType, ___parameters);
-			@address = (System.Object)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Object>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -3319,7 +3319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_SByte.Invoke(___genericsType, ___parameters);
-			@address = (System.SByte)___parameters[0];
+			@address = ReflectionUtils.Convert<System.SByte>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.SByte>(___result);
         }
@@ -3331,7 +3331,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_Single.Invoke(___genericsType, ___parameters);
-			@address = (System.Single)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Single>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Single>(___result);
         }
@@ -3343,7 +3343,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_UInt16.Invoke(___genericsType, ___parameters);
-			@address = (System.UInt16)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UInt16>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.UInt16>(___result);
         }
@@ -3355,7 +3355,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_UInt32.Invoke(___genericsType, ___parameters);
-			@address = (System.UInt32)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.UInt32>(___result);
         }
@@ -3367,7 +3367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_UInt64.Invoke(___genericsType, ___parameters);
-			@address = (System.UInt64)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.UInt64>(___result);
         }
@@ -3379,7 +3379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address};
             var ___result = RMVolatileRead_Ref_UIntPtr.Invoke(___genericsType, ___parameters);
-			@address = (System.UIntPtr)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UIntPtr>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.UIntPtr>(___result);
         }
@@ -3391,7 +3391,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Byte_Byte.Invoke(___genericsType, ___parameters);
-			@address = (System.Byte)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Byte>(___parameters[0]);
 
             
         }
@@ -3403,7 +3403,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Double_Double.Invoke(___genericsType, ___parameters);
-			@address = (System.Double)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Double>(___parameters[0]);
 
             
         }
@@ -3415,7 +3415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Int16_Int16.Invoke(___genericsType, ___parameters);
-			@address = (System.Int16)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Int16>(___parameters[0]);
 
             
         }
@@ -3427,7 +3427,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@address = (System.Int32)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 
             
         }
@@ -3439,7 +3439,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Int64_Int64.Invoke(___genericsType, ___parameters);
-			@address = (System.Int64)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Int64>(___parameters[0]);
 
             
         }
@@ -3451,7 +3451,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
-			@address = (System.IntPtr)___parameters[0];
+			@address = ReflectionUtils.Convert<System.IntPtr>(___parameters[0]);
 
             
         }
@@ -3463,7 +3463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Object_Object.Invoke(___genericsType, ___parameters);
-			@address = (System.Object)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Object>(___parameters[0]);
 
             
         }
@@ -3475,7 +3475,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_SByte_SByte.Invoke(___genericsType, ___parameters);
-			@address = (System.SByte)___parameters[0];
+			@address = ReflectionUtils.Convert<System.SByte>(___parameters[0]);
 
             
         }
@@ -3487,7 +3487,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_Single_Single.Invoke(___genericsType, ___parameters);
-			@address = (System.Single)___parameters[0];
+			@address = ReflectionUtils.Convert<System.Single>(___parameters[0]);
 
             
         }
@@ -3499,7 +3499,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_UInt16_UInt16.Invoke(___genericsType, ___parameters);
-			@address = (System.UInt16)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UInt16>(___parameters[0]);
 
             
         }
@@ -3511,7 +3511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-			@address = (System.UInt32)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             
         }
@@ -3523,7 +3523,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_UInt64_UInt64.Invoke(___genericsType, ___parameters);
-			@address = (System.UInt64)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UInt64>(___parameters[0]);
 
             
         }
@@ -3535,7 +3535,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@address, @value};
             var ___result = RMVolatileWrite_Ref_UIntPtr_UIntPtr.Invoke(___genericsType, ___parameters);
-			@address = (System.UIntPtr)___parameters[0];
+			@address = ReflectionUtils.Convert<System.UIntPtr>(___parameters[0]);
 
             
         }
@@ -3670,8 +3670,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@threads, @stack_frames};
             var ___result = RMGetStackTraces_Out_ThreadArray_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			@threads = (System.Threading.Thread[])___parameters[0];
-			@stack_frames = (System.Object[])___parameters[1];
+			@threads = ReflectionUtils.Convert<System.Threading.Thread[]>(___parameters[0]);
+			@stack_frames = ReflectionUtils.Convert<System.Object[]>(___parameters[1]);
 
             
         }

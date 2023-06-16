@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.RenderTexture
 	/// </summary>
     public partial class RRenderTexture : RMember //
@@ -2478,7 +2478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetColorBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.RenderBuffer)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             
         }
@@ -2491,7 +2491,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetDepthBuffer_Injected_Out_RenderBuffer.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.RenderBuffer)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             
         }
@@ -2503,7 +2503,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desc};
             var ___result = RMSetRenderTextureDescriptor_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
+			@desc = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[0]);
 
             
         }
@@ -2516,7 +2516,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMGetDescriptor_Injected_Out_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.RenderTextureDescriptor)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[0]);
 
             
         }
@@ -2528,7 +2528,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desc};
             var ___result = RMGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
-			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
+			@desc = ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.PermissionSet
 	/// </summary>
     public partial class RPermissionSet : RMember //
@@ -1297,7 +1297,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @position};
             var ___result = RMReadEncodedInt_ByteArray_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@position = (System.Int32)___parameters[1];
+			@position = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -1309,7 +1309,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @position};
             var ___result = RMProcessAttribute_ByteArray_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@position = (System.Int32)___parameters[1];
+			@position = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }

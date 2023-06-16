@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxParser
 	/// </summary>
     public partial class RStyleSyntaxParser : RMember //
@@ -543,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenizer.Value, @multiplier.Value};
             var ___result = RMParseMultiplier_StyleSyntaxTokenizer_Ref_ExpressionMultiplier.Invoke(___genericsType, ___parameters);
-			@multiplier = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier(___parameters[1]);
+			@multiplier = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax.RExpressionMultiplier>(___parameters[1]);
 
             
         }
@@ -557,8 +557,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RSyntax
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@tokenizer.Value, @min, @max};
             var ___result = RMParseRanges_StyleSyntaxTokenizer_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@min = (System.Int32)___parameters[1];
-			@max = (System.Int32)___parameters[2];
+			@min = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			@max = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }

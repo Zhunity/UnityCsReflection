@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.BaseShaderInfoStorage
 	/// </summary>
     public partial class RBaseShaderInfoStorage : RMember //
@@ -333,7 +333,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@width, @height, @uvs};
             var ___result = RMAllocateRect_Int32_Int32_Out_RectInt.Invoke(___genericsType, ___parameters);
-			@uvs = (UnityEngine.RectInt)___parameters[2];
+			@uvs = ReflectionUtils.Convert<UnityEngine.RectInt>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Connect.UnityOAuth+AuthCodeResponse
 	/// </summary>
     public partial class RAuthCodeResponse : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Globalization.TextInfo
 	/// </summary>
     public partial class RTextInfo : RMember //
@@ -1364,8 +1364,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
             var ___result = RMAddNonLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@result = (System.Text.StringBuilder)___parameters[0];
-			@input = (System.String)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
+			@input = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -1377,8 +1377,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result, @input, @inputIndex, @charLen};
             var ___result = RMAddTitlecaseLetter_Ref_StringBuilder_Ref_String_Int32_Int32.Invoke(___genericsType, ___parameters);
-			@result = (System.Text.StringBuilder)___parameters[0];
-			@input = (System.String)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
+			@input = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }

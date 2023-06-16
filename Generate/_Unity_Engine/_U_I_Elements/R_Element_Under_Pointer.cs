@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.ElementUnderPointer
 	/// </summary>
     public partial class RElementUnderPointer : RMember //
@@ -366,8 +366,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pointerId, @pickPosition, @isTemporary};
             var ___result = RMGetTopElementUnderPointer_Int32_Out_Vector2_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@pickPosition = (UnityEngine.Vector2)___parameters[1];
-			@isTemporary = (System.Boolean)___parameters[2];
+			@pickPosition = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
+			@isTemporary = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }

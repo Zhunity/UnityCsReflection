@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Hashtable
 	/// </summary>
     public partial class RHashtable : RMember //
@@ -1102,8 +1102,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @hashsize, @seed, @incr};
             var ___result = RMInitHash_Object_Int32_Out_UInt32_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@seed = (System.UInt32)___parameters[2];
-			@incr = (System.UInt32)___parameters[3];
+			@seed = ReflectionUtils.Convert<System.UInt32>(___parameters[2]);
+			@incr = ReflectionUtils.Convert<System.UInt32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.UInt32>(___result);
         }

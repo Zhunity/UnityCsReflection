@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.MonoBehaviour
 	/// </summary>
     public partial class RMonoBehaviour : RMember //
@@ -2077,7 +2077,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @component};
             var ___result = RMTryGetComponent_Type_Out_Component.Invoke(___genericsType, ___parameters);
-			@component = (UnityEngine.Component)___parameters[1];
+			@component = ReflectionUtils.Convert<UnityEngine.Component>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2090,7 +2090,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@component};
             var ___result = RMTryGetComponent_GT_Out_T.Invoke(___genericsType, ___parameters);
-			@component = (T)___parameters[0];
+			@component = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

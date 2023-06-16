@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.LayoutData
 	/// </summary>
     public partial class RLayoutData : RMember //
@@ -759,7 +759,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCopyFrom_Ref_LayoutData.Invoke(___genericsType, ___parameters);
-			@other = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLayoutData(___parameters[0]);
+			@other = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLayoutData>(___parameters[0]);
 
             
         }

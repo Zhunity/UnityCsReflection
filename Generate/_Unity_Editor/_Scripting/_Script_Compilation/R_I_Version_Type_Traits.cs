@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits
 	/// </summary>
     public partial class RIVersionTypeTraits : RMember //

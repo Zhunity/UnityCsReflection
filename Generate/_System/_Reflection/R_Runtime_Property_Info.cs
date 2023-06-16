@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.RuntimePropertyInfo
 	/// </summary>
     public partial class RRuntimePropertyInfo : RMember //
@@ -1116,7 +1116,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@prop.Value, @info.Value, @req_info.Value};
             var ___result = RMget_property_info_RuntimePropertyInfo_Ref_MonoPropertyInfo_PInfo.Invoke(___genericsType, ___parameters);
-			@info = new Hvak.Editor.Refleaction.RSystem.RReflection.RMonoPropertyInfo(___parameters[1]);
+			@info = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RMonoPropertyInfo>(___parameters[1]);
 
             
         }

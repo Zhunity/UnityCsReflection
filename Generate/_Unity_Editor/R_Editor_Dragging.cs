@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.EditorDragging
 	/// </summary>
     public partial class REditorDragging : RMember //
@@ -478,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@editors, @evt, @targetIndex};
             var ___result = RMHandleDragPerformEvent_EditorArray_Event_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@targetIndex = (System.Int32)___parameters[2];
+			@targetIndex = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
 	/// </summary>
     public partial class RUIRVEShaderInfoAllocator : RMember //
@@ -1116,7 +1116,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocator.Value, @alloc.Value};
             var ___result = RMAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
-			@allocator = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
+			@allocator = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
         }
@@ -1139,7 +1139,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@allocator.Value, @defAlloc.Value, @atlasRect};
             var ___result = RMAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
-			@allocator = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
+			@allocator = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

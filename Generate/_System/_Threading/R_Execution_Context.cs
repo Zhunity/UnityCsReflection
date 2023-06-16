@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Threading.ExecutionContext
 	/// </summary>
     public partial class RExecutionContext : RMember //
@@ -868,7 +868,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {typeof(TState)};
             var ___parameters = new object[]{@executionContext, @callback.Value, @state};
             var ___result = RMRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState.Invoke(___genericsType, ___parameters);
-			@state = (TState)___parameters[2];
+			@state = ReflectionUtils.Convert<TState>(___parameters[2]);
 
             
         }
@@ -880,7 +880,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {typeof(TState)};
             var ___parameters = new object[]{@executionContext, @callback.Value, @state, @preserveSyncCtx};
             var ___result = RMRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean.Invoke(___genericsType, ___parameters);
-			@state = (TState)___parameters[2];
+			@state = ReflectionUtils.Convert<TState>(___parameters[2]);
 
             
         }
@@ -892,7 +892,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ecsw.Value};
             var ___result = RMEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
-			@ecsw = new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___parameters[0]);
+			@ecsw = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___parameters[0]);
 
             
         }
@@ -904,7 +904,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@currentThread, @knownNullWindowsIdentity, @ecsw.Value};
             var ___result = RMEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher.Invoke(___genericsType, ___parameters);
-			@ecsw = new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___parameters[2]);
+			@ecsw = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___parameters[2]);
 
             
         }
@@ -1004,7 +1004,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@stackMark.Value, @options.Value};
             var ___result = RMCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
-			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
+			@stackMark = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.BaseRuntimePanel
 	/// </summary>
     public partial class RBaseRuntimePanel : RMember //
@@ -1871,8 +1871,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@screenPosition, @screenDelta, @panelPosition, @panelDelta, @allowOutside};
             var ___result = RMScreenToPanel_Vector2_Vector2_Out_Vector2_Out_Vector2_Boolean.Invoke(___genericsType, ___parameters);
-			@panelPosition = (UnityEngine.Vector2)___parameters[2];
-			@panelDelta = (UnityEngine.Vector2)___parameters[3];
+			@panelPosition = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
+			@panelDelta = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Collections.NativeArray`1
 	/// </summary>
     public partial class RNativeArray<T> : RMember // where T : struct
@@ -1260,7 +1260,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMInitStaticSafetyId_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[0];
+			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             
         }
@@ -1284,7 +1284,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@length, @allocator, @array.Value};
             var ___result = RMAllocate_Int32_Allocator_Out_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
-			@array = new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___parameters[2]);
+			@array = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___parameters[2]);
 
             
         }

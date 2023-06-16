@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Rendering.AsyncGPUReadbackRequest
 	/// </summary>
     public partial class RAsyncGPUReadbackRequest : RMember //
@@ -870,7 +870,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMUpdate_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             
         }
@@ -882,7 +882,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMWaitForCompletion_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             
         }
@@ -894,7 +894,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMIsDone_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -906,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMHasError_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -918,7 +918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetLayerCount_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -930,7 +930,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetLayerDataSize_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -942,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetWidth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -954,7 +954,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetHeight_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -966,7 +966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetDepth_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -978,7 +978,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMCreateSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             
         }
@@ -991,8 +991,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @ret};
             var ___result = RMGetSafetyHandle_Injected_Ref_AsyncGPUReadbackRequest_Out_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
-			@ret = (Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)___parameters[1];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[1]);
 
             
         }
@@ -1004,7 +1004,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @callback};
             var ___result = RMSetScriptingCallback_Injected_Ref_AsyncGPUReadbackRequest_Action_d_AsyncGPUReadbackRequest_p_.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             
         }
@@ -1016,7 +1016,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @layer};
             var ___result = RMGetDataRaw_Injected_Ref_AsyncGPUReadbackRequest_Int32.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.Rendering.AsyncGPUReadbackRequest)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }

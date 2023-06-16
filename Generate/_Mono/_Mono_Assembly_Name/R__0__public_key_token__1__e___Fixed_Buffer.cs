@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RMono
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Mono.MonoAssemblyName+<public_key_token>e__FixedBuffer
 	/// </summary>
     public partial class R__0__public_key_token__1__e__FixedBuffer : RMember //

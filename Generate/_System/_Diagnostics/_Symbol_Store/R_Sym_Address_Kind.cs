@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Diagnostics.SymbolStore.SymAddressKind
 	/// </summary>
     public partial class RSymAddressKind : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TextCore.Text.TextInfo
 	/// </summary>
     public partial class RTextInfo : RMember //
@@ -552,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array, @size};
             var ___result = RMResize_GT_Ref_TArray_Int32.Invoke(___genericsType, ___parameters);
-			@array = (T[])___parameters[0];
+			@array = ReflectionUtils.Convert<T[]>(___parameters[0]);
 
             
         }
@@ -564,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array, @size, @isBlockAllocated};
             var ___result = RMResize_GT_Ref_TArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@array = (T[])___parameters[0];
+			@array = ReflectionUtils.Convert<T[]>(___parameters[0]);
 
             
         }

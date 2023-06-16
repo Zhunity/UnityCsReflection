@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Text.StringBuilder
 	/// </summary>
     public partial class RStringBuilder : RMember //
@@ -2797,8 +2797,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@chunk, @indexInChunk, Pointer.Box(@value, typeof(System.Char)), @count};
             var ___result = RMReplaceInPlaceAtChunk_Ref_StringBuilder_Ref_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
-			@chunk = (System.Text.StringBuilder)___parameters[0];
-			@indexInChunk = (System.Int32)___parameters[1];
+			@chunk = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[0]);
+			@indexInChunk = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             
         }
@@ -2878,8 +2878,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @count, @chunk, @indexInChunk, @doNotMoveFollowingChars};
             var ___result = RMMakeRoom_Int32_Int32_Out_StringBuilder_Out_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@chunk = (System.Text.StringBuilder)___parameters[2];
-			@indexInChunk = (System.Int32)___parameters[3];
+			@chunk = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[2]);
+			@indexInChunk = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             
         }
@@ -2893,8 +2893,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@startIndex, @count, @chunk, @indexInChunk};
             var ___result = RMRemove_Int32_Int32_Out_StringBuilder_Out_Int32.Invoke(___genericsType, ___parameters);
-			@chunk = (System.Text.StringBuilder)___parameters[2];
-			@indexInChunk = (System.Int32)___parameters[3];
+			@chunk = ReflectionUtils.Convert<System.Text.StringBuilder>(___parameters[2]);
+			@indexInChunk = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             
         }

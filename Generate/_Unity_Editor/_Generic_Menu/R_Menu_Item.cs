@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.GenericMenu+MenuItem
 	/// </summary>
     public partial class RMenuItem : RMember //

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.Queue`1
 	/// </summary>
     public partial class RQueue<T> : RMember //
@@ -677,7 +677,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMTryDequeue_Out_T.Invoke(___genericsType, ___parameters);
-			@result = (T)___parameters[0];
+			@result = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -701,7 +701,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMTryPeek_Out_T.Invoke(___genericsType, ___parameters);
-			@result = (T)___parameters[0];
+			@result = ReflectionUtils.Convert<T>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -746,7 +746,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMMoveNext_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@index = (System.Int32)___parameters[0];
+			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 
             
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.VisualElement
 	/// </summary>
     public partial class RVisualElement : RMember //
@@ -7582,8 +7582,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
             var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.Length)___parameters[1];
-			@to = (UnityEngine.UIElements.Length)___parameters[2];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[1]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -7595,8 +7595,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.TransformOrigin)___parameters[0];
-			@to = (UnityEngine.UIElements.TransformOrigin)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -7608,8 +7608,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.Translate)___parameters[0];
-			@to = (UnityEngine.UIElements.Translate)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -7621,8 +7621,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.BackgroundPosition)___parameters[0];
-			@to = (UnityEngine.UIElements.BackgroundPosition)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -7634,8 +7634,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@from, @to};
             var ___result = RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
-			@from = (UnityEngine.UIElements.BackgroundSize)___parameters[0];
-			@to = (UnityEngine.UIElements.BackgroundSize)___parameters[1];
+			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[0]);
+			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -8208,7 +8208,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newStyle.Value};
             var ___result = RMSetComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@newStyle = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
+			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
 
             
         }
@@ -8375,7 +8375,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RMTryGetPropertyInternal_PropertyName_Out_Object.Invoke(___genericsType, ___parameters);
-			@value = (System.Object)___parameters[1];
+			@value = ReflectionUtils.Convert<System.Object>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -8784,7 +8784,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@nextParent};
             var ___result = RMGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
-			@nextParent = (UnityEngine.UIElements.VisualElement)___parameters[0];
+			@nextParent = ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -9193,7 +9193,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@result};
             var ___result = RMGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@result = (UnityEngine.Matrix4x4)___parameters[0];
+			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -9227,7 +9227,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect};
             var ___result = RMTransformAlignedRectToParentSpace_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[0];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -9239,7 +9239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @rect};
             var ___result = RMCalculateConservativeRect_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
@@ -9251,8 +9251,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@matrix, @rect};
             var ___result = RMTransformAlignedRect_Ref_Matrix4x4_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[0];
-			@rect = (UnityEngine.Rect)___parameters[1];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 
             
         }
@@ -9264,7 +9264,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rect};
             var ___result = RMOrderMinMaxRect_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@rect = (UnityEngine.Rect)___parameters[0];
+			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -9276,7 +9276,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @point};
             var ___result = RMMultiplyMatrix44Point2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
-			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
@@ -9288,7 +9288,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @vector};
             var ___result = RMMultiplyVector2_Ref_Matrix4x4_Vector2.Invoke(___genericsType, ___parameters);
-			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
@@ -9300,7 +9300,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @r};
             var ___result = RMMultiplyMatrix44Rect2_Ref_Matrix4x4_Rect.Invoke(___genericsType, ___parameters);
-			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
@@ -9313,9 +9313,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @rhs, @res};
             var ___result = RMMultiplyMatrix34_Ref_Matrix4x4_Ref_Matrix4x4_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
-			@rhs = (UnityEngine.Matrix4x4)___parameters[1];
-			@res = (UnityEngine.Matrix4x4)___parameters[2];
+			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@rhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
+			@res = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
 
             
         }
@@ -9328,8 +9328,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @rhs, @res};
             var ___result = RMTranslateMatrix34_Ref_Matrix4x4_Vector3_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
-			@res = (UnityEngine.Matrix4x4)___parameters[2];
+			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
+			@res = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[2]);
 
             
         }
@@ -9341,7 +9341,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMTranslateMatrix34InPlace_Ref_Matrix4x4_Vector3.Invoke(___genericsType, ___parameters);
-			@lhs = (UnityEngine.Matrix4x4)___parameters[0];
+			@lhs = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
 
             
         }
@@ -9574,7 +9574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {typeof(TEventType), typeof(TCallbackArgs)};
             var ___parameters = new object[]{@callback, @useTrickleDown, @userData};
             var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
-			@userData = (TCallbackArgs)___parameters[2];
+			@userData = ReflectionUtils.Convert<TCallbackArgs>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

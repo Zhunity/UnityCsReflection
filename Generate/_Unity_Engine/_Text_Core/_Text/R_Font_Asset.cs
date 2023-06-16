@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TextCore.Text.FontAsset
 	/// </summary>
     public partial class RFontAsset : RMember //
@@ -3244,7 +3244,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@text, @missingCharacters};
             var ___result = RMHasCharacters_String_Out_List_d_Char_p_.Invoke(___genericsType, ___parameters);
-			@missingCharacters = (System.Collections.Generic.List<System.Char>)___parameters[1];
+			@missingCharacters = ReflectionUtils.Convert<System.Collections.Generic.List<System.Char>>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3257,7 +3257,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@text, @missingCharacters, @searchFallbacks, @tryAddCharacter};
             var ___result = RMHasCharacters_String_Out_UInt32Array_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-			@missingCharacters = (System.UInt32[])___parameters[1];
+			@missingCharacters = ReflectionUtils.Convert<System.UInt32[]>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3380,7 +3380,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicodes, @missingUnicodes, @includeFontFeatures};
             var ___result = RMTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
-			@missingUnicodes = (System.UInt32[])___parameters[1];
+			@missingUnicodes = ReflectionUtils.Convert<System.UInt32[]>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3404,7 +3404,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@characters, @missingCharacters, @includeFontFeatures};
             var ___result = RMTryAddCharacters_String_Out_String_Boolean.Invoke(___genericsType, ___parameters);
-			@missingCharacters = (System.String)___parameters[1];
+			@missingCharacters = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3417,7 +3417,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@glyphIndex, @glyph};
             var ___result = RMTryAddGlyphInternal_UInt32_Out_Glyph.Invoke(___genericsType, ___parameters);
-			@glyph = (UnityEngine.TextCore.Glyph)___parameters[1];
+			@glyph = ReflectionUtils.Convert<UnityEngine.TextCore.Glyph>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3430,7 +3430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
             var ___result = RMTryAddCharacterInternal_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
-			@character = (UnityEngine.TextCore.Text.Character)___parameters[1];
+			@character = ReflectionUtils.Convert<UnityEngine.TextCore.Text.Character>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3443,7 +3443,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@unicode, @character, @shouldGetFontFeatures};
             var ___result = RMTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
-			@character = (UnityEngine.TextCore.Text.Character)___parameters[1];
+			@character = ReflectionUtils.Convert<UnityEngine.TextCore.Text.Character>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3543,7 +3543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@srcList, @dstArray};
             var ___result = RMCopyListDataToArray_GT_List_d_T_p__Ref_TArray.Invoke(___genericsType, ___parameters);
-			@dstArray = (T[])___parameters[1];
+			@dstArray = ReflectionUtils.Convert<T[]>(___parameters[1]);
 
             
         }

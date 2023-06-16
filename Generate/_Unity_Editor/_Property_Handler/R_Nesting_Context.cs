@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PropertyHandler+NestingContext
 	/// </summary>
     public partial class RNestingContext : RMember //

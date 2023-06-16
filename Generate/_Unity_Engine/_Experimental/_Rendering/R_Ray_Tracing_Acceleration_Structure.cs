@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure
 	/// </summary>
     public partial class RRayTracingAccelerationStructure : RMember //
@@ -1121,7 +1121,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cullingConfig};
             var ___result = RMCullInstances_Ref_RayTracingInstanceCullingConfig.Invoke(___genericsType, ___parameters);
-			@cullingConfig = (UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig)___parameters[0];
+			@cullingConfig = ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults>(___result);
         }
@@ -1144,7 +1144,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@desc.Value};
             var ___result = RMCreate_Injected_Ref_RASSettings.Invoke(___genericsType, ___parameters);
-			@desc = new Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings(___parameters[0]);
+			@desc = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -1156,7 +1156,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeOrigin};
             var ___result = RMUpdate_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@relativeOrigin = (UnityEngine.Vector3)___parameters[0];
+			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 
             
         }
@@ -1168,7 +1168,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@relativeOrigin};
             var ___result = RMBuild_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@relativeOrigin = (UnityEngine.Vector3)___parameters[0];
+			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
 
             
         }
@@ -1180,7 +1180,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
             var ___result = RMAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
-			@instanceTransform = (UnityEngine.Matrix4x4)___parameters[3];
+			@instanceTransform = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
 
             
         }
@@ -1192,7 +1192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aabbBuffer, @aabbCount, @dynamicData, @matrix, @material, @opaqueMaterial, @properties, @mask, @id};
             var ___result = RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[3];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -1204,7 +1204,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@instanceID, @matrix};
             var ___result = RMUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@matrix = (UnityEngine.Matrix4x4)___parameters[1];
+			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
 
             
         }
@@ -1217,8 +1217,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@cullingConfig, @ret};
             var ___result = RMCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults.Invoke(___genericsType, ___parameters);
-			@cullingConfig = (UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig)___parameters[0];
-			@ret = (UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults)___parameters[1];
+			@cullingConfig = ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults>(___parameters[1]);
 
             
         }

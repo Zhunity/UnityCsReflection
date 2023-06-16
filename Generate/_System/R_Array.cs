@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Array
 	/// </summary>
     public partial class RArray : RMember //
@@ -2642,7 +2642,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@array, @newSize};
             var ___result = RMResize_GT_Ref_TArray_Int32.Invoke(___genericsType, ___parameters);
-			@array = (T[])___parameters[0];
+			@array = ReflectionUtils.Convert<T[]>(___parameters[0]);
 
             
         }
@@ -3744,8 +3744,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@self, @pos, @value};
             var ___result = RMGetGenericValue_icall_GT_Ref_Array_Int32_Out_T.Invoke(___genericsType, ___parameters);
-			@self = (System.Array)___parameters[0];
-			@value = (T)___parameters[2];
+			@self = ReflectionUtils.Convert<System.Array>(___parameters[0]);
+			@value = ReflectionUtils.Convert<T>(___parameters[2]);
 
             
         }
@@ -3757,8 +3757,8 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@self, @pos, @value};
             var ___result = RMSetGenericValue_icall_GT_Ref_Array_Int32_Ref_T.Invoke(___genericsType, ___parameters);
-			@self = (System.Array)___parameters[0];
-			@value = (T)___parameters[2];
+			@self = ReflectionUtils.Convert<System.Array>(___parameters[0]);
+			@value = ReflectionUtils.Convert<T>(___parameters[2]);
 
             
         }
@@ -3771,7 +3771,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@pos, @value};
             var ___result = RMGetGenericValueImpl_GT_Int32_Out_T.Invoke(___genericsType, ___parameters);
-			@value = (T)___parameters[1];
+			@value = ReflectionUtils.Convert<T>(___parameters[1]);
 
             
         }
@@ -3783,7 +3783,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@pos, @value};
             var ___result = RMSetGenericValueImpl_GT_Int32_Ref_T.Invoke(___genericsType, ___parameters);
-			@value = (T)___parameters[1];
+			@value = ReflectionUtils.Convert<T>(___parameters[1]);
 
             
         }

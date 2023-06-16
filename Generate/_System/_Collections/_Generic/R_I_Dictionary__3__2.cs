@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.IDictionary`2
 	/// </summary>
     public partial class RIDictionary<TKey, TValue> : RMember //
@@ -190,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			@value = (TValue)___parameters[1];
+			@value = ReflectionUtils.Convert<TValue>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

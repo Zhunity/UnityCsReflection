@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.PackageManager.UI.Sample+ImportOptions
 	/// </summary>
     public partial class RImportOptions : RMember //

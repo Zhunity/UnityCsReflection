@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Globalization.CultureData
 	/// </summary>
     public partial class RCultureData : RMember //
@@ -1762,7 +1762,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @nfe.Value};
             var ___result = RMfill_number_data_Int32_Ref_NumberFormatEntryManaged.Invoke(___genericsType, ___parameters);
-			@nfe = new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged(___parameters[1]);
+			@nfe = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData.RNumberFormatEntryManaged>(___parameters[1]);
 
             return (System.Byte*)Pointer.Unbox(___result);
         }

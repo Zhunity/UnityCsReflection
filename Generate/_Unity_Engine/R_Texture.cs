@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Texture
 	/// </summary>
     public partial class RTexture : RMember //
@@ -1272,7 +1272,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_texelSize_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -1285,7 +1285,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_imageContentsHash_Injected_Out_Hash128.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Hash128)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
 
             
         }
@@ -1297,7 +1297,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_imageContentsHash_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Hash128)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Hash128>(___parameters[0]);
 
             
         }

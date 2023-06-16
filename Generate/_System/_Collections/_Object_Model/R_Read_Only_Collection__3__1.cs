@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.ObjectModel.ReadOnlyCollection`1
 	/// </summary>
     public partial class RReadOnlyCollection<T> : RMember //

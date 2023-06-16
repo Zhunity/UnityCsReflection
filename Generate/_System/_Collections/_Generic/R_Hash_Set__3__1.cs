@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Collections.Generic.HashSet`1
 	/// </summary>
     public partial class RHashSet<T> : RMember //
@@ -1297,7 +1297,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@equalValue, @actualValue};
             var ___result = RMTryGetValue_T_Out_T.Invoke(___genericsType, ___parameters);
-			@actualValue = (T)___parameters[1];
+			@actualValue = ReflectionUtils.Convert<T>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1618,7 +1618,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value, @location};
             var ___result = RMAddOrGetLocation_T_Out_Int32.Invoke(___genericsType, ___parameters);
-			@location = (System.Int32)___parameters[1];
+			@location = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

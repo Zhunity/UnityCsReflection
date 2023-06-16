@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.UIElements.ToolbarMenu+Variant
 	/// </summary>
     public partial class RVariant : RMember //

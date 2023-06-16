@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Globalization.DateTimeFormatInfo
 	/// </summary>
     public partial class RDateTimeFormatInfo : RMember //
@@ -3506,8 +3506,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@year, @month, @parsedMonthName};
             var ___result = RMYearMonthAdjustment_Ref_Int32_Ref_Int32_Boolean.Invoke(___genericsType, ___parameters);
-			@year = (System.Int32)___parameters[0];
-			@month = (System.Int32)___parameters[1];
+			@year = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			@month = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3563,7 +3563,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@temp.Value, @useDateSepAsIgnorableSymbol};
             var ___result = RMPopulateSpecialTokenHashTable_TokenHashValueArray_Ref_Boolean.Invoke(___genericsType, ___parameters);
-			@useDateSepAsIgnorableSymbol = (System.Boolean)___parameters[1];
+			@useDateSepAsIgnorableSymbol = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
 
             
         }
@@ -3599,9 +3599,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@str.Value, @badFormat, @number};
             var ___result = RMTryParseHebrewNumber_Ref___DTString_Out_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			@str = new Hvak.Editor.Refleaction.RSystem.R__DTString(___parameters[0]);
-			@badFormat = (System.Boolean)___parameters[1];
-			@number = (System.Int32)___parameters[2];
+			@str = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.R__DTString>(___parameters[0]);
+			@badFormat = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
+			@number = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3637,9 +3637,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@TokenMask.Value, @tokenType.Value, @tokenValue, @str.Value};
             var ___result = RMTokenize_TokenType_Out_TokenType_Out_Int32_Ref___DTString.Invoke(___genericsType, ___parameters);
-			@tokenType = new Hvak.Editor.Refleaction.RSystem.RTokenType(___parameters[1]);
-			@tokenValue = (System.Int32)___parameters[2];
-			@str = new Hvak.Editor.Refleaction.RSystem.R__DTString(___parameters[3]);
+			@tokenType = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTokenType>(___parameters[1]);
+			@tokenValue = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
+			@str = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.R__DTString>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

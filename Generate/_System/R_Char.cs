@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Char
 	/// </summary>
     public partial class RChar : RMember //
@@ -1649,7 +1649,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParse_String_Out_Char.Invoke(___genericsType, ___parameters);
-			@result = (System.Char)___parameters[1];
+			@result = ReflectionUtils.Convert<System.Char>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

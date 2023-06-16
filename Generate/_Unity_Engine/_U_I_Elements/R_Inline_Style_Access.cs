@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.InlineStyleAccess
 	/// </summary>
     public partial class RInlineStyleAccess : RMember //
@@ -2669,7 +2669,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computedStyle.Value};
             var ___result = RMApplyInlineStyles_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@computedStyle = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[0]);
+			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
 
             
         }
@@ -2703,7 +2703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.Invoke(___genericsType, ___parameters);
-			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged(___parameters[1]);
+			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3023,7 +3023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @newStyle.Value};
             var ___result = RMApplyFromComputedStyle_StylePropertyId_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@newStyle = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle(___parameters[1]);
+			@newStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
 
             
         }
@@ -3035,7 +3035,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineCursor_Ref_StyleCursor.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleCursor)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleCursor>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3047,7 +3047,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineTextShadow_Ref_StyleTextShadow.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleTextShadow)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleTextShadow>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3059,7 +3059,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineTransformOrigin_Ref_StyleTransformOrigin.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleTransformOrigin)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleTransformOrigin>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3071,7 +3071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineTranslate_Ref_StyleTranslate.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleTranslate)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleTranslate>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3083,7 +3083,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineRotate_Ref_StyleRotate.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleRotate)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleRotate>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3095,7 +3095,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineScale_Ref_StyleScale.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleScale)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleScale>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3107,7 +3107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMTryGetInlineBackgroundSize_Ref_StyleBackgroundSize.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.UIElements.StyleBackgroundSize)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundSize>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3218,7 +3218,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
-			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
+			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

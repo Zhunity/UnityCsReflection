@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler
 	/// </summary>
     public partial class RSearchMatchItemHandler : RMember //
@@ -399,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item, @words, @didMatchStart};
             var ___result = RMInvoke_In_AdvancedDropdownItem_In_StringArray_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@didMatchStart = (System.Boolean)___parameters[2];
+			@didMatchStart = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -412,7 +412,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item, @words, @didMatchStart, @callback, @object};
             var ___result = RMBeginInvoke_In_AdvancedDropdownItem_In_StringArray_Out_Boolean_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
-			@didMatchStart = (System.Boolean)___parameters[2];
+			@didMatchStart = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
@@ -425,7 +425,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item, @words, @didMatchStart, @result};
             var ___result = RMEndInvoke_In_AdvancedDropdownItem_In_StringArray_Out_Boolean_IAsyncResult.Invoke(___genericsType, ___parameters);
-			@didMatchStart = (System.Boolean)___parameters[2];
+			@didMatchStart = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

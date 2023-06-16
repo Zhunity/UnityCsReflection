@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RJobs
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Jobs.JobHandle
 	/// </summary>
     public partial class RJobHandle : RMember //
@@ -599,8 +599,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job0, @job1};
             var ___result = RMCompleteAll_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
-			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
+			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 
             
         }
@@ -612,9 +612,9 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job0, @job1, @job2};
             var ___result = RMCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
-			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
-			@job2 = (Unity.Jobs.JobHandle)___parameters[2];
+			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
+			@job2 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
 
             
         }
@@ -648,7 +648,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job};
             var ___result = RMScheduleBatchedJobsAndComplete_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@job = (Unity.Jobs.JobHandle)___parameters[0];
+			@job = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 
             
         }
@@ -660,7 +660,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job};
             var ___result = RMScheduleBatchedJobsAndIsCompleted_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@job = (Unity.Jobs.JobHandle)___parameters[0];
+			@job = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -727,8 +727,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job0, @job1};
             var ___result = RMCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
-			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
+			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 
             return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
@@ -740,9 +740,9 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job0, @job1, @job2};
             var ___result = RMCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
-			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
-			@job2 = (Unity.Jobs.JobHandle)___parameters[2];
+			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
+			@job2 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
 
             return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
@@ -832,9 +832,9 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job0, @job1, @ret};
             var ___result = RMCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
-			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
-			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
-			@ret = (Unity.Jobs.JobHandle)___parameters[2];
+			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
+			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
 
             
         }
@@ -847,10 +847,10 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job0, @job1, @job2, @ret};
             var ___result = RMCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle.Invoke(___genericsType, ___parameters);
-			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
-			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
-			@job2 = (Unity.Jobs.JobHandle)___parameters[2];
-			@ret = (Unity.Jobs.JobHandle)___parameters[3];
+			@job0 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@job1 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
+			@job2 = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
+			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[3]);
 
             
         }
@@ -863,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count, @ret};
             var ___result = RMCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle.Invoke(___genericsType, ___parameters);
-			@ret = (Unity.Jobs.JobHandle)___parameters[2];
+			@ret = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[2]);
 
             
         }
@@ -875,8 +875,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@jobHandle, @dependsOn};
             var ___result = RMCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle.Invoke(___genericsType, ___parameters);
-			@jobHandle = (Unity.Jobs.JobHandle)___parameters[0];
-			@dependsOn = (Unity.Jobs.JobHandle)___parameters[1];
+			@jobHandle = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[0]);
+			@dependsOn = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

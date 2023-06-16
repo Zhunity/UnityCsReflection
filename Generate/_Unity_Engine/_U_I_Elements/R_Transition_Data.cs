@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.TransitionData
 	/// </summary>
     public partial class RTransitionData : RMember //
@@ -295,7 +295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCopyFrom_Ref_TransitionData.Invoke(___genericsType, ___parameters);
-			@other = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData(___parameters[0]);
+			@other = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTransitionData>(___parameters[0]);
 
             
         }

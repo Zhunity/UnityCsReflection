@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.ContainerWindow
 	/// </summary>
     public partial class RContainerWindow : RMember //
@@ -2662,7 +2662,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMget_position_Injected_Out_Rect.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Rect)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -2674,7 +2674,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_position_Injected_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@value = (UnityEngine.Rect)___parameters[0];
+			@value = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
 
             
         }
@@ -2687,8 +2687,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@r, @forceCompletelyVisible, @useMouseScreen, @ret};
             var ___result = RMFitWindowRectToScreen_Injected_Ref_Rect_Boolean_Boolean_Out_Rect.Invoke(___genericsType, ___parameters);
-			@r = (UnityEngine.Rect)___parameters[0];
-			@ret = (UnityEngine.Rect)___parameters[3];
+			@r = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[3]);
 
             
         }
@@ -2700,8 +2700,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@minSize, @maxSize};
             var ___result = RMInternal_SetMinMaxSizes_Injected_Ref_Vector2_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@minSize = (UnityEngine.Vector2)___parameters[0];
-			@maxSize = (UnityEngine.Vector2)___parameters[1];
+			@minSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
+			@maxSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[1]);
 
             
         }
@@ -2713,9 +2713,9 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@r, @showMode, @minSize, @maxSize};
             var ___result = RMInternal_Show_Injected_Ref_Rect_Int32_Ref_Vector2_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@r = (UnityEngine.Rect)___parameters[0];
-			@minSize = (UnityEngine.Vector2)___parameters[2];
-			@maxSize = (UnityEngine.Vector2)___parameters[3];
+			@r = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@minSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
+			@maxSize = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[3]);
 
             
         }
@@ -2727,7 +2727,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@color};
             var ___result = RMSetBackgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
-			@color = (UnityEngine.Color)___parameters[0];
+			@color = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
 
             
         }
@@ -2740,7 +2740,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ret};
             var ___result = RMInternal_GetTopleftScreenPosition_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = (UnityEngine.Vector2)___parameters[0];
+			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -2753,8 +2753,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@defaultRect, @forceCompletelyVisible, @useMouseScreen, @ret};
             var ___result = RMFitRectToScreen_Injected_Ref_Rect_Boolean_Boolean_Out_Rect.Invoke(___genericsType, ___parameters);
-			@defaultRect = (UnityEngine.Rect)___parameters[0];
-			@ret = (UnityEngine.Rect)___parameters[3];
+			@defaultRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[3]);
 
             
         }

@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TextEditor+DblClickSnapping
 	/// </summary>
     public partial class RDblClickSnapping : RMember //

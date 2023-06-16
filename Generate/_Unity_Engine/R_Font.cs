@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Font
 	/// </summary>
     public partial class RFont : RMember //
@@ -801,7 +801,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ch, @info, @size, @style};
             var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle.Invoke(___genericsType, ___parameters);
-			@info = (UnityEngine.CharacterInfo)___parameters[1];
+			@info = ReflectionUtils.Convert<UnityEngine.CharacterInfo>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -814,7 +814,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ch, @info, @size};
             var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32.Invoke(___genericsType, ___parameters);
-			@info = (UnityEngine.CharacterInfo)___parameters[1];
+			@info = ReflectionUtils.Convert<UnityEngine.CharacterInfo>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -827,7 +827,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ch, @info};
             var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo.Invoke(___genericsType, ___parameters);
-			@info = (UnityEngine.CharacterInfo)___parameters[1];
+			@info = ReflectionUtils.Convert<UnityEngine.CharacterInfo>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

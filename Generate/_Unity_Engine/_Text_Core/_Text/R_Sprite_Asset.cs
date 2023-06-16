@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.TextCore.Text.SpriteAsset
 	/// </summary>
     public partial class RSpriteAsset : RMember //
@@ -900,7 +900,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spriteAsset, @unicode, @includeFallbacks, @spriteIndex};
             var ___result = RMSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			@spriteIndex = (System.Int32)___parameters[3];
+			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
@@ -913,7 +913,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spriteAssets, @unicode, @includeFallbacks, @spriteIndex};
             var ___result = RMSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			@spriteIndex = (System.Int32)___parameters[3];
+			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
@@ -926,7 +926,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spriteAsset, @unicode, @includeFallbacks, @spriteIndex};
             var ___result = RMSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			@spriteIndex = (System.Int32)___parameters[3];
+			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
@@ -939,7 +939,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spriteAsset, @hashCode, @includeFallbacks, @spriteIndex, @textSettings};
             var ___result = RMSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings.Invoke(___genericsType, ___parameters);
-			@spriteIndex = (System.Int32)___parameters[3];
+			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
@@ -952,7 +952,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spriteAssets, @hashCode, @searchFallbacks, @spriteIndex};
             var ___result = RMSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			@spriteIndex = (System.Int32)___parameters[3];
+			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
@@ -965,7 +965,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@spriteAsset, @hashCode, @searchFallbacks, @spriteIndex};
             var ___result = RMSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
-			@spriteIndex = (System.Int32)___parameters[3];
+			@spriteIndex = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }

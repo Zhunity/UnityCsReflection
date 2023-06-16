@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.RuntimeMethodInfo
 	/// </summary>
     public partial class RRuntimeMethodInfo : RMember //
@@ -1775,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @parameters, @exc};
             var ___result = RMInternalInvoke_Object_ObjectArray_Out_Exception.Invoke(___genericsType, ___parameters);
-			@exc = (System.Exception)___parameters[2];
+			@exc = ReflectionUtils.Convert<System.Exception>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }
@@ -1845,9 +1845,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@flags.Value, @entryPoint, @dllName};
             var ___result = RMGetPInvoke_Out_PInvokeAttributes_Out_String_Out_String.Invoke(___genericsType, ___parameters);
-			@flags = new Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes(___parameters[0]);
-			@entryPoint = (System.String)___parameters[1];
-			@dllName = (System.String)___parameters[2];
+			@flags = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RPInvokeAttributes>(___parameters[0]);
+			@entryPoint = ReflectionUtils.Convert<System.String>(___parameters[1]);
+			@dllName = ReflectionUtils.Convert<System.String>(___parameters[2]);
 
             
         }

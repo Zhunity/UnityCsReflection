@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.StyleValueCollection
 	/// </summary>
     public partial class RStyleValueCollection : RMember //
@@ -431,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
-			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
+			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

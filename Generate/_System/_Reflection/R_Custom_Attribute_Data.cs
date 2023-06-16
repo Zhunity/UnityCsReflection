@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.CustomAttributeData
 	/// </summary>
     public partial class RCustomAttributeData : RMember //
@@ -398,8 +398,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ctor, @assembly, @data, @data_length, @ctorArgs, @namedArgs};
             var ___result = RMResolveArgumentsInternal_ConstructorInfo_Assembly_IntPtr_UInt32_Out_ObjectArray_Out_ObjectArray.Invoke(___genericsType, ___parameters);
-			@ctorArgs = (System.Object[])___parameters[4];
-			@namedArgs = (System.Object[])___parameters[5];
+			@ctorArgs = ReflectionUtils.Convert<System.Object[]>(___parameters[4]);
+			@namedArgs = ReflectionUtils.Convert<System.Object[]>(___parameters[5]);
 
             
         }

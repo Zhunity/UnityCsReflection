@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.Remoting.Contexts.ContextCallbackObject
 	/// </summary>
     public partial class RContextCallbackObject : RMember //
@@ -264,7 +264,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @IsClient};
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@IsClient = (System.Boolean)___parameters[1];
+			@IsClient = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
         }

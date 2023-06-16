@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.Emit.CustomAttributeBuilder
 	/// </summary>
     public partial class RCustomAttributeBuilder : RMember //
@@ -611,7 +611,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@pcTInfo};
             var ___result = RMSystem__2__Runtime__2__InteropServices__2___CustomAttributeBuilder__2__GetTypeInfoCount_Out_UInt32.Invoke(___genericsType, ___parameters);
-			@pcTInfo = (System.UInt32)___parameters[0];
+			@pcTInfo = ReflectionUtils.Convert<System.UInt32>(___parameters[0]);
 
             
         }
@@ -701,7 +701,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @pos, @rpos};
             var ___result = RMdecode_len_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@rpos = (System.Int32)___parameters[2];
+			@rpos = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -725,7 +725,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@data, @pos, @rpos};
             var ___result = RMdecode_string_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@rpos = (System.Int32)___parameters[2];
+			@rpos = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
@@ -771,7 +771,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@t, @data, @pos, @rpos};
             var ___result = RMdecode_cattr_value_Type_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@rpos = (System.Int32)___parameters[3];
+			@rpos = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

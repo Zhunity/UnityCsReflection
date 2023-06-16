@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.StyleVariableResolver
 	/// </summary>
     public partial class RStyleVariableResolver : RMember //
@@ -552,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMResolveVarFunction_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@index = (System.Int32)___parameters[0];
+			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -564,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index, @argc, @varName};
             var ___result = RMResolveVarFunction_Ref_Int32_Int32_String.Invoke(___genericsType, ___parameters);
-			@index = (System.Int32)___parameters[0];
+			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
         }
@@ -598,7 +598,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMResolveFallback_Ref_Int32.Invoke(___genericsType, ___parameters);
-			@index = (System.Int32)___parameters[0];
+			@index = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariableResolver.RResult>(___result);
         }
@@ -612,9 +612,9 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@sheet, @handles.Value, @index, @argCount, @variableName};
             var ___result = RMParseVarFunction_StyleSheet_StyleValueHandleArray_Ref_Int32_Out_Int32_Out_String.Invoke(___genericsType, ___parameters);
-			@index = (System.Int32)___parameters[2];
-			@argCount = (System.Int32)___parameters[3];
-			@variableName = (System.String)___parameters[4];
+			@index = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
+			@argCount = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			@variableName = ReflectionUtils.Convert<System.String>(___parameters[4]);
 
             
         }

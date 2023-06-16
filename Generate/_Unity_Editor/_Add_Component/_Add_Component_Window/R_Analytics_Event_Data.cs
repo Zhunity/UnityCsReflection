@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.AddComponent.AddComponentWindow+AnalyticsEventData
 	/// </summary>
     public partial class RAnalyticsEventData : RMember //

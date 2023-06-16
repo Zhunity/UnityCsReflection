@@ -8,7 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 {
 	
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.SceneManagement.Scene+LoadingState
 	/// </summary>
     public partial class RLoadingState : RMember //

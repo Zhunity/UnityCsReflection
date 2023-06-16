@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.Implementation.UIRStylePainter
 	/// </summary>
     public partial class RUIRStylePainter : RMember //
@@ -1143,7 +1143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
             var ___result = RMAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
-			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
+			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
@@ -1155,7 +1155,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
             var ___result = RMAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
-			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
+			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
@@ -1226,10 +1226,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @flags.Value, @outUVRegion, @outIsAtlas, @outTextureId.Value, @outAddFlags.Value};
             var ___result = RMTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags.Invoke(___genericsType, ___parameters);
-			@outUVRegion = (UnityEngine.Rect)___parameters[2];
-			@outIsAtlas = (System.Boolean)___parameters[3];
-			@outTextureId = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___parameters[4]);
-			@outAddFlags = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags(___parameters[5]);
+			@outUVRegion = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[2]);
+			@outIsAtlas = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
+			@outTextureId = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___parameters[4]);
+			@outAddFlags = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags>(___parameters[5]);
 
             
         }
@@ -1430,8 +1430,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@vi, @settingIndexOffset, @texture.Value};
             var ___result = RMRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId.Invoke(___genericsType, ___parameters);
-			@settingIndexOffset = (System.Int32)___parameters[1];
-			@texture = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId(___parameters[2]);
+			@settingIndexOffset = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			@texture = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___parameters[2]);
 
             
         }
@@ -1456,8 +1456,8 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rectParams.Value, @isUsingGradients, @svgTexture.Value, @settingIndexOffset, @finalVertexCount, @finalIndexCount};
             var ___result = RMMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@finalVertexCount = (System.Int32)___parameters[4];
-			@finalIndexCount = (System.Int32)___parameters[5];
+			@finalVertexCount = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
+			@finalIndexCount = ReflectionUtils.Convert<System.Int32>(___parameters[5]);
 
             
         }

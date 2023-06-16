@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Runtime.CompilerServices.ConditionalWeakTable`2
 	/// </summary>
     public partial class RConditionalWeakTable<TKey, TValue> : RMember // where TKey : class where TValue : class
@@ -570,7 +570,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			@value = (TValue)___parameters[1];
+			@value = ReflectionUtils.Convert<TValue>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -605,7 +605,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@key, @value};
             var ___result = RMFindEquivalentKeyUnsafe_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
-			@value = (TValue)___parameters[1];
+			@value = ReflectionUtils.Convert<TValue>(___parameters[1]);
 
             return ReflectionUtils.Convert<TKey>(___result);
         }

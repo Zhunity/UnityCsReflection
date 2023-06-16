@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle
 	/// </summary>
     public partial class RProfilerRecorderHandle : RMember //
@@ -496,8 +496,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@category, @name, @ret};
             var ___result = RMGetByName_Injected_Ref_ProfilerCategory_String_Out_ProfilerRecorderHandle.Invoke(___genericsType, ___parameters);
-			@category = (Unity.Profiling.ProfilerCategory)___parameters[0];
-			@ret = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[2];
+			@category = ReflectionUtils.Convert<Unity.Profiling.ProfilerCategory>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>(___parameters[2]);
 
             
         }
@@ -510,8 +510,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Byte)), @nameLen, @ret};
             var ___result = RMGetByName__Unmanaged_Injected_Ref_ProfilerCategory_BytePointer_Int32_Out_ProfilerRecorderHandle.Invoke(___genericsType, ___parameters);
-			@category = (Unity.Profiling.ProfilerCategory)___parameters[0];
-			@ret = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[3];
+			@category = ReflectionUtils.Convert<Unity.Profiling.ProfilerCategory>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>(___parameters[3]);
 
             
         }
@@ -524,8 +524,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@category, Pointer.Box(@name, typeof(System.Char)), @nameLen, @ret};
             var ___result = RMGetByName_Unsafe_Injected_Ref_ProfilerCategory_CharPointer_Int32_Out_ProfilerRecorderHandle.Invoke(___genericsType, ___parameters);
-			@category = (Unity.Profiling.ProfilerCategory)___parameters[0];
-			@ret = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[3];
+			@category = ReflectionUtils.Convert<Unity.Profiling.ProfilerCategory>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>(___parameters[3]);
 
             
         }
@@ -538,8 +538,8 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle, @ret};
             var ___result = RMGetDescriptionInternal_Injected_Ref_ProfilerRecorderHandle_Out_ProfilerRecorderDescription.Invoke(___genericsType, ___parameters);
-			@handle = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle)___parameters[0];
-			@ret = (Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription)___parameters[1];
+			@handle = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderHandle>(___parameters[0]);
+			@ret = ReflectionUtils.Convert<Unity.Profiling.LowLevel.Unsafe.ProfilerRecorderDescription>(___parameters[1]);
 
             
         }

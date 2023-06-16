@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Text.Encoder
 	/// </summary>
     public partial class REncoder : RMember //
@@ -460,9 +460,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@chars, @charIndex, @charCount, @bytes, @byteIndex, @byteCount, @flush, @charsUsed, @bytesUsed, @completed};
             var ___result = RMConvert_CharArray_Int32_Int32_ByteArray_Int32_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@charsUsed = (System.Int32)___parameters[7];
-			@bytesUsed = (System.Int32)___parameters[8];
-			@completed = (System.Boolean)___parameters[9];
+			@charsUsed = ReflectionUtils.Convert<System.Int32>(___parameters[7]);
+			@bytesUsed = ReflectionUtils.Convert<System.Int32>(___parameters[8]);
+			@completed = ReflectionUtils.Convert<System.Boolean>(___parameters[9]);
 
             
         }
@@ -477,9 +477,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{Pointer.Box(@chars, typeof(System.Char)), @charCount, Pointer.Box(@bytes, typeof(System.Byte)), @byteCount, @flush, @charsUsed, @bytesUsed, @completed};
             var ___result = RMConvert_CharPointer_Int32_BytePointer_Int32_Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@charsUsed = (System.Int32)___parameters[5];
-			@bytesUsed = (System.Int32)___parameters[6];
-			@completed = (System.Boolean)___parameters[7];
+			@charsUsed = ReflectionUtils.Convert<System.Int32>(___parameters[5]);
+			@bytesUsed = ReflectionUtils.Convert<System.Int32>(___parameters[6]);
+			@completed = ReflectionUtils.Convert<System.Boolean>(___parameters[7]);
 
             
         }
@@ -494,9 +494,9 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@chars.Value, @bytes.Value, @flush, @charsUsed, @bytesUsed, @completed};
             var ___result = RMConvert_ReadOnlySpan_d_Char_p__Span_d_Byte_p__Boolean_Out_Int32_Out_Int32_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@charsUsed = (System.Int32)___parameters[3];
-			@bytesUsed = (System.Int32)___parameters[4];
-			@completed = (System.Boolean)___parameters[5];
+			@charsUsed = ReflectionUtils.Convert<System.Int32>(___parameters[3]);
+			@bytesUsed = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
+			@completed = ReflectionUtils.Convert<System.Boolean>(___parameters[5]);
 
             
         }

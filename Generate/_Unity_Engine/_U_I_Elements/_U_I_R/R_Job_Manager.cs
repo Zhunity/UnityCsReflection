@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.UIElements.UIR.JobManager
 	/// </summary>
     public partial class RJobManager : RMember //
@@ -364,7 +364,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RMAdd_Ref_NudgeJobData.Invoke(___genericsType, ___parameters);
-			@job = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData(___parameters[0]);
+			@job = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RNudgeJobData>(___parameters[0]);
 
             
         }
@@ -376,7 +376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RMAdd_Ref_ConvertMeshJobData.Invoke(___genericsType, ___parameters);
-			@job = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData(___parameters[0]);
+			@job = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RConvertMeshJobData>(___parameters[0]);
 
             
         }
@@ -388,7 +388,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@job.Value};
             var ___result = RMAdd_Ref_CopyClosingMeshJobData.Invoke(___genericsType, ___parameters);
-			@job = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData(___parameters[0]);
+			@job = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RCopyClosingMeshJobData>(___parameters[0]);
 
             
         }

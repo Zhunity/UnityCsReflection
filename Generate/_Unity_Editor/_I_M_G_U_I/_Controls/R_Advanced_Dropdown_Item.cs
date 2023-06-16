@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem
 	/// </summary>
     public partial class RAdvancedDropdownItem : RMember //

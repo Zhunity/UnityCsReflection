@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Reflection.RuntimeConstructorInfo
 	/// </summary>
     public partial class RRuntimeConstructorInfo : RMember //
@@ -1301,7 +1301,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj, @parameters, @exc};
             var ___result = RMInternalInvoke_Object_ObjectArray_Out_Exception.Invoke(___genericsType, ___parameters);
-			@exc = (System.Exception)___parameters[2];
+			@exc = ReflectionUtils.Convert<System.Exception>(___parameters[2]);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

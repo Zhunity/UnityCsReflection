@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.AggregateException
 	/// </summary>
     public partial class RAggregateException : RMember //
@@ -703,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@restrictedErrorObject};
             var ___result = RMTryGetRestrictedLanguageErrorObject_Out_Object.Invoke(___genericsType, ___parameters);
-			@restrictedErrorObject = (System.Object)___parameters[0];
+			@restrictedErrorObject = ReflectionUtils.Convert<System.Object>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

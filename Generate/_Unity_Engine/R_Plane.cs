@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.Plane
 	/// </summary>
     public partial class RPlane : RMember //
@@ -528,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ray, @enter};
             var ___result = RMRaycast_Ray_Out_Single.Invoke(___genericsType, ___parameters);
-			@enter = (System.Single)___parameters[1];
+			@enter = ReflectionUtils.Convert<System.Single>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Configuration.Assemblies.AssemblyVersionCompatibility
 	/// </summary>
     public partial class RAssemblyVersionCompatibility : RMember //

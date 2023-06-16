@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEngine.RenderBuffer
 	/// </summary>
     public partial class RRenderBuffer : RMember //
@@ -419,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @action};
             var ___result = RMSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             
         }
@@ -431,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self, @action};
             var ___result = RMSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             
         }
@@ -443,7 +443,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetLoadAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
         }
@@ -455,7 +455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetStoreAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
         }
@@ -467,7 +467,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_unity_self};
             var ___result = RMGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
-			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
+			@_unity_self = ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }

@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// UnityEditor.LabelGUI
 	/// </summary>
     public partial class RLabelGUI : RMember //
@@ -556,8 +556,8 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assets, @all, @partial};
             var ___result = RMGetLabelsForAssets_ObjectArray_Out_List_d_String_p__Out_List_d_String_p_.Invoke(___genericsType, ___parameters);
-			@all = (System.Collections.Generic.List<System.String>)___parameters[1];
-			@partial = (System.Collections.Generic.List<System.String>)___parameters[2];
+			@all = ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___parameters[1]);
+			@partial = ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___parameters[2]);
 
             
         }

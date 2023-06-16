@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.DateTime
 	/// </summary>
     public partial class RDateTime : RMember //
@@ -3081,9 +3081,9 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@year, @month, @day};
             var ___result = RMGetDatePart_Out_Int32_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@year = (System.Int32)___parameters[0];
-			@month = (System.Int32)___parameters[1];
-			@day = (System.Int32)___parameters[2];
+			@year = ReflectionUtils.Convert<System.Int32>(___parameters[0]);
+			@month = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
+			@day = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
 
             
         }
@@ -3404,7 +3404,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@destination.Value, @charsWritten, @format.Value, @provider};
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
-			@charsWritten = (System.Int32)___parameters[1];
+			@charsWritten = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3428,7 +3428,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @result};
             var ___result = RMTryParse_String_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[1];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3441,7 +3441,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[1];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3454,7 +3454,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @provider, @styles, @result};
             var ___result = RMTryParse_String_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[3];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3467,7 +3467,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @provider, @styles, @result};
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[3];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[3]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3480,7 +3480,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @format, @provider, @style, @result};
             var ___result = RMTryParseExact_String_String_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[4];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3493,7 +3493,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @format.Value, @provider, @style, @result};
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[4];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3506,7 +3506,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s, @formats, @provider, @style, @result};
             var ___result = RMTryParseExact_String_StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[4];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3519,7 +3519,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@s.Value, @formats, @provider, @style, @result};
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_DateTimeStyles_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[4];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[4]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3851,7 +3851,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @result};
             var ___result = RMTryCreate_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
-			@result = (System.DateTime)___parameters[7];
+			@result = ReflectionUtils.Convert<System.DateTime>(___parameters[7]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

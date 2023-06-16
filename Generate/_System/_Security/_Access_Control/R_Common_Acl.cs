@@ -6,7 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
-    /// https://github.com/Zhunity/UnityCsReflection
+    /// https://github.com/Zhunity/CsReflectionFramework/tree/main
 	/// System.Security.AccessControl.CommonAcl
 	/// </summary>
     public partial class RCommonAcl : RMember //
@@ -1042,8 +1042,8 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ace, @type, @inheritedType};
             var ___result = RMGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid.Invoke(___genericsType, ___parameters);
-			@type = (System.Guid)___parameters[1];
-			@inheritedType = (System.Guid)___parameters[2];
+			@type = ReflectionUtils.Convert<System.Guid>(___parameters[1]);
+			@inheritedType = ReflectionUtils.Convert<System.Guid>(___parameters[2]);
 
             
         }
