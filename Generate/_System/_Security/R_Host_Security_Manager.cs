@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.HostSecurityManager
 	/// </summary>
     public partial class RHostSecurityManager : RMember //
@@ -300,7 +301,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@applicationEvidence, @activatorEvidence, @context};
             var ___result = RMDetermineApplicationTrust_Evidence_Evidence_TrustManagerContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.ApplicationTrust)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.ApplicationTrust>(___result);
         }
 
 
@@ -311,7 +312,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@inputEvidence};
             var ___result = RMProvideAppDomainEvidence_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.Evidence)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
         }
 
 
@@ -322,7 +323,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@loadedAssembly, @inputEvidence};
             var ___result = RMProvideAssemblyEvidence_Assembly_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.Evidence)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.Evidence>(___result);
         }
 
 
@@ -333,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@evidence};
             var ___result = RMResolvePolicy_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.PermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
         }
 
 
@@ -344,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@evidenceType};
             var ___result = RMGenerateAppDomainEvidence_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.EvidenceBase)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.EvidenceBase>(___result);
         }
 
 
@@ -355,7 +356,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@evidenceType, @assembly};
             var ___result = RMGenerateAssemblyEvidence_Type_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.EvidenceBase)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.EvidenceBase>(___result);
         }
 
 
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetHostSuppliedAppDomainEvidenceTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.Type[])___result;
+            return ReflectionUtils.Convert<System.Type[]>(___result);
         }
 
 
@@ -377,7 +378,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@assembly};
             var ___result = RMGetHostSuppliedAssemblyEvidenceTypes_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (System.Type[])___result;
+            return ReflectionUtils.Convert<System.Type[]>(___result);
         }
 
 
@@ -388,7 +389,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -410,7 +411,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -421,7 +422,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -432,7 +433,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -443,7 +444,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

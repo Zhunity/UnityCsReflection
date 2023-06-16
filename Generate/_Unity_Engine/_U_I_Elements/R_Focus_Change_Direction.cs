@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.FocusChangeDirection
 	/// </summary>
     public partial class RFocusChangeDirection : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_F__0__unspecified__1__k__BackingField == null)
 				{
-					r_F__0__unspecified__1__k__BackingField = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "<unspecified>k__BackingField");
+					r_F__0__unspecified__1__k__BackingField = new(Type, "<unspecified>k__BackingField");
 				}
 				return r_F__0__unspecified__1__k__BackingField;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_F__0__none__1__k__BackingField == null)
 				{
-					r_F__0__none__1__k__BackingField = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "<none>k__BackingField");
+					r_F__0__none__1__k__BackingField = new(Type, "<none>k__BackingField");
 				}
 				return r_F__0__none__1__k__BackingField;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_F__0__lastValue__1__k__BackingField == null)
 				{
-					r_F__0__lastValue__1__k__BackingField = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "<lastValue>k__BackingField");
+					r_F__0__lastValue__1__k__BackingField = new(Type, "<lastValue>k__BackingField");
 				}
 				return r_F__0__lastValue__1__k__BackingField;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Punspecified == null)
 				{
-					r_Punspecified = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "unspecified", -1);
+					r_Punspecified = new(Type, "unspecified", -1);
 				}
 				return r_Punspecified;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Pnone == null)
 				{
-					r_Pnone = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "none", -1);
+					r_Pnone = new(Type, "none", -1);
 				}
 				return r_Pnone;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PlastValue == null)
 				{
-					r_PlastValue = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "lastValue", -1);
+					r_PlastValue = new(Type, "lastValue", -1);
 				}
 				return r_PlastValue;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Implicit_FocusChangeDirection == null)
 				{
-					r_Mop_Implicit_FocusChangeDirection = new(typeof(UnityEngine.UIElements.FocusChangeDirection), "op_Implicit", 0, typeof(UnityEngine.UIElements.FocusChangeDirection));
+					r_Mop_Implicit_FocusChangeDirection = new(Type, "op_Implicit", 0, typeof(UnityEngine.UIElements.FocusChangeDirection));
 				}
 				return r_Mop_Implicit_FocusChangeDirection;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@fcd};
             var ___result = RMop_Implicit_FocusChangeDirection.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

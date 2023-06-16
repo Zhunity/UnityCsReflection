@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Quaternion
 	/// </summary>
     public partial class RQuaternion : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FidentityQuaternion == null)
 				{
-					r_FidentityQuaternion = new(typeof(UnityEngine.Quaternion), "identityQuaternion");
+					r_FidentityQuaternion = new(Type, "identityQuaternion");
 				}
 				return r_FidentityQuaternion;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FkEpsilon == null)
 				{
-					r_FkEpsilon = new(typeof(UnityEngine.Quaternion), "kEpsilon");
+					r_FkEpsilon = new(Type, "kEpsilon");
 				}
 				return r_FkEpsilon;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pidentity == null)
 				{
-					r_Pidentity = new(typeof(UnityEngine.Quaternion), "identity", -1);
+					r_Pidentity = new(Type, "identity", -1);
 				}
 				return r_Pidentity;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFromToRotation_Vector3_Vector3 == null)
 				{
-					r_MFromToRotation_Vector3_Vector3 = new(typeof(UnityEngine.Quaternion), "FromToRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_MFromToRotation_Vector3_Vector3 = new(Type, "FromToRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 				}
 				return r_MFromToRotation_Vector3_Vector3;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverse_Quaternion == null)
 				{
-					r_MInverse_Quaternion = new(typeof(UnityEngine.Quaternion), "Inverse", 0, typeof(UnityEngine.Quaternion));
+					r_MInverse_Quaternion = new(Type, "Inverse", 0, typeof(UnityEngine.Quaternion));
 				}
 				return r_MInverse_Quaternion;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSlerp_Quaternion_Quaternion_Single == null)
 				{
-					r_MSlerp_Quaternion_Quaternion_Single = new(typeof(UnityEngine.Quaternion), "Slerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_MSlerp_Quaternion_Quaternion_Single = new(Type, "Slerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
 				}
 				return r_MSlerp_Quaternion_Quaternion_Single;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSlerpUnclamped_Quaternion_Quaternion_Single == null)
 				{
-					r_MSlerpUnclamped_Quaternion_Quaternion_Single = new(typeof(UnityEngine.Quaternion), "SlerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_MSlerpUnclamped_Quaternion_Quaternion_Single = new(Type, "SlerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
 				}
 				return r_MSlerpUnclamped_Quaternion_Quaternion_Single;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLerp_Quaternion_Quaternion_Single == null)
 				{
-					r_MLerp_Quaternion_Quaternion_Single = new(typeof(UnityEngine.Quaternion), "Lerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_MLerp_Quaternion_Quaternion_Single = new(Type, "Lerp", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
 				}
 				return r_MLerp_Quaternion_Quaternion_Single;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLerpUnclamped_Quaternion_Quaternion_Single == null)
 				{
-					r_MLerpUnclamped_Quaternion_Quaternion_Single = new(typeof(UnityEngine.Quaternion), "LerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_MLerpUnclamped_Quaternion_Quaternion_Single = new(Type, "LerpUnclamped", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
 				}
 				return r_MLerpUnclamped_Quaternion_Quaternion_Single;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_FromEulerRad_Vector3 == null)
 				{
-					r_MInternal_FromEulerRad_Vector3 = new(typeof(UnityEngine.Quaternion), "Internal_FromEulerRad", 0, typeof(UnityEngine.Vector3));
+					r_MInternal_FromEulerRad_Vector3 = new(Type, "Internal_FromEulerRad", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MInternal_FromEulerRad_Vector3;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_ToEulerRad_Quaternion == null)
 				{
-					r_MInternal_ToEulerRad_Quaternion = new(typeof(UnityEngine.Quaternion), "Internal_ToEulerRad", 0, typeof(UnityEngine.Quaternion));
+					r_MInternal_ToEulerRad_Quaternion = new(Type, "Internal_ToEulerRad", 0, typeof(UnityEngine.Quaternion));
 				}
 				return r_MInternal_ToEulerRad_Quaternion;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single == null)
 				{
-					r_MInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single = new(typeof(UnityEngine.Quaternion), "Internal_ToAxisAngleRad", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_MInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single = new(Type, "Internal_ToAxisAngleRad", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
 				}
 				return r_MInternal_ToAxisAngleRad_Quaternion_Out_Vector3_Out_Single;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MAngleAxis_Single_Vector3 == null)
 				{
-					r_MAngleAxis_Single_Vector3 = new(typeof(UnityEngine.Quaternion), "AngleAxis", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
+					r_MAngleAxis_Single_Vector3 = new(Type, "AngleAxis", 0, typeof(System.Single), typeof(UnityEngine.Vector3));
 				}
 				return r_MAngleAxis_Single_Vector3;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLookRotation_Vector3_Vector3 == null)
 				{
-					r_MLookRotation_Vector3_Vector3 = new(typeof(UnityEngine.Quaternion), "LookRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_MLookRotation_Vector3_Vector3 = new(Type, "LookRotation", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 				}
 				return r_MLookRotation_Vector3_Vector3;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLookRotation_Vector3 == null)
 				{
-					r_MLookRotation_Vector3 = new(typeof(UnityEngine.Quaternion), "LookRotation", 0, typeof(UnityEngine.Vector3));
+					r_MLookRotation_Vector3 = new(Type, "LookRotation", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MLookRotation_Vector3;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Multiply_Quaternion_Quaternion == null)
 				{
-					r_Mop_Multiply_Quaternion_Quaternion = new(typeof(UnityEngine.Quaternion), "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_Mop_Multiply_Quaternion_Quaternion = new(Type, "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
 				}
 				return r_Mop_Multiply_Quaternion_Quaternion;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Multiply_Quaternion_Vector3 == null)
 				{
-					r_Mop_Multiply_Quaternion_Vector3 = new(typeof(UnityEngine.Quaternion), "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
+					r_Mop_Multiply_Quaternion_Vector3 = new(Type, "op_Multiply", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Vector3));
 				}
 				return r_Mop_Multiply_Quaternion_Vector3;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsEqualUsingDot_Single == null)
 				{
-					r_MIsEqualUsingDot_Single = new(typeof(UnityEngine.Quaternion), "IsEqualUsingDot", 0, typeof(System.Single));
+					r_MIsEqualUsingDot_Single = new(Type, "IsEqualUsingDot", 0, typeof(System.Single));
 				}
 				return r_MIsEqualUsingDot_Single;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_Quaternion_Quaternion == null)
 				{
-					r_Mop_Equality_Quaternion_Quaternion = new(typeof(UnityEngine.Quaternion), "op_Equality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_Mop_Equality_Quaternion_Quaternion = new(Type, "op_Equality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
 				}
 				return r_Mop_Equality_Quaternion_Quaternion;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_Quaternion_Quaternion == null)
 				{
-					r_Mop_Inequality_Quaternion_Quaternion = new(typeof(UnityEngine.Quaternion), "op_Inequality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_Mop_Inequality_Quaternion_Quaternion = new(Type, "op_Inequality", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
 				}
 				return r_Mop_Inequality_Quaternion_Quaternion;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDot_Quaternion_Quaternion == null)
 				{
-					r_MDot_Quaternion_Quaternion = new(typeof(UnityEngine.Quaternion), "Dot", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_MDot_Quaternion_Quaternion = new(Type, "Dot", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
 				}
 				return r_MDot_Quaternion_Quaternion;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MAngle_Quaternion_Quaternion == null)
 				{
-					r_MAngle_Quaternion_Quaternion = new(typeof(UnityEngine.Quaternion), "Angle", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
+					r_MAngle_Quaternion_Quaternion = new(Type, "Angle", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion));
 				}
 				return r_MAngle_Quaternion_Quaternion;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_MakePositive_Vector3 == null)
 				{
-					r_MInternal_MakePositive_Vector3 = new(typeof(UnityEngine.Quaternion), "Internal_MakePositive", 0, typeof(UnityEngine.Vector3));
+					r_MInternal_MakePositive_Vector3 = new(Type, "Internal_MakePositive", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MInternal_MakePositive_Vector3;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEuler_Single_Single_Single == null)
 				{
-					r_MEuler_Single_Single_Single = new(typeof(UnityEngine.Quaternion), "Euler", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MEuler_Single_Single_Single = new(Type, "Euler", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MEuler_Single_Single_Single;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEuler_Vector3 == null)
 				{
-					r_MEuler_Vector3 = new(typeof(UnityEngine.Quaternion), "Euler", 0, typeof(UnityEngine.Vector3));
+					r_MEuler_Vector3 = new(Type, "Euler", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MEuler_Vector3;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MRotateTowards_Quaternion_Quaternion_Single == null)
 				{
-					r_MRotateTowards_Quaternion_Quaternion_Single = new(typeof(UnityEngine.Quaternion), "RotateTowards", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
+					r_MRotateTowards_Quaternion_Quaternion_Single = new(Type, "RotateTowards", 0, typeof(UnityEngine.Quaternion), typeof(UnityEngine.Quaternion), typeof(System.Single));
 				}
 				return r_MRotateTowards_Quaternion_Quaternion_Single;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MNormalize_Quaternion == null)
 				{
-					r_MNormalize_Quaternion = new(typeof(UnityEngine.Quaternion), "Normalize", 0, typeof(UnityEngine.Quaternion));
+					r_MNormalize_Quaternion = new(Type, "Normalize", 0, typeof(UnityEngine.Quaternion));
 				}
 				return r_MNormalize_Quaternion;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEulerRotation_Single_Single_Single == null)
 				{
-					r_MEulerRotation_Single_Single_Single = new(typeof(UnityEngine.Quaternion), "EulerRotation", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MEulerRotation_Single_Single_Single = new(Type, "EulerRotation", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MEulerRotation_Single_Single_Single;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEulerRotation_Vector3 == null)
 				{
-					r_MEulerRotation_Vector3 = new(typeof(UnityEngine.Quaternion), "EulerRotation", 0, typeof(UnityEngine.Vector3));
+					r_MEulerRotation_Vector3 = new(Type, "EulerRotation", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MEulerRotation_Vector3;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEulerAngles_Single_Single_Single == null)
 				{
-					r_MEulerAngles_Single_Single_Single = new(typeof(UnityEngine.Quaternion), "EulerAngles", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MEulerAngles_Single_Single_Single = new(Type, "EulerAngles", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MEulerAngles_Single_Single_Single;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEulerAngles_Vector3 == null)
 				{
-					r_MEulerAngles_Vector3 = new(typeof(UnityEngine.Quaternion), "EulerAngles", 0, typeof(UnityEngine.Vector3));
+					r_MEulerAngles_Vector3 = new(Type, "EulerAngles", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MEulerAngles_Vector3;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MToEulerAngles_Quaternion == null)
 				{
-					r_MToEulerAngles_Quaternion = new(typeof(UnityEngine.Quaternion), "ToEulerAngles", 0, typeof(UnityEngine.Quaternion));
+					r_MToEulerAngles_Quaternion = new(Type, "ToEulerAngles", 0, typeof(UnityEngine.Quaternion));
 				}
 				return r_MToEulerAngles_Quaternion;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MAxisAngle_Vector3_Single == null)
 				{
-					r_MAxisAngle_Vector3_Single = new(typeof(UnityEngine.Quaternion), "AxisAngle", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
+					r_MAxisAngle_Vector3_Single = new(Type, "AxisAngle", 0, typeof(UnityEngine.Vector3), typeof(System.Single));
 				}
 				return r_MAxisAngle_Vector3_Single;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion == null)
 				{
-					r_MFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "FromToRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new(Type, "FromToRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MFromToRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInverse_Injected_Ref_Quaternion_Out_Quaternion == null)
 				{
-					r_MInverse_Injected_Ref_Quaternion_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "Inverse_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MInverse_Injected_Ref_Quaternion_Out_Quaternion = new(Type, "Inverse_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MInverse_Injected_Ref_Quaternion_Out_Quaternion;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
 				{
-					r_MSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "Slerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(Type, "Slerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MSlerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
 				{
-					r_MSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(Type, "SlerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MSlerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
 				{
-					r_MLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "Lerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(Type, "Lerp_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MLerp_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion == null)
 				{
-					r_MLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "LerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion = new(Type, "LerpUnclamped_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MLerpUnclamped_Injected_Ref_Quaternion_Ref_Quaternion_Single_Out_Quaternion;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion == null)
 				{
-					r_MInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "Internal_FromEulerRad_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion = new(Type, "Internal_FromEulerRad_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MInternal_FromEulerRad_Injected_Ref_Vector3_Out_Quaternion;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3 == null)
 				{
-					r_MInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3 = new(typeof(UnityEngine.Quaternion), "Internal_ToEulerRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3 = new(Type, "Internal_ToEulerRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
 				}
 				return r_MInternal_ToEulerRad_Injected_Ref_Quaternion_Out_Vector3;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single == null)
 				{
-					r_MInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single = new(typeof(UnityEngine.Quaternion), "Internal_ToAxisAngleRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_MInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single = new(Type, "Internal_ToAxisAngleRad_Injected", 0, typeof(UnityEngine.Quaternion).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(System.Single).MakeByRefType());
 				}
 				return r_MInternal_ToAxisAngleRad_Injected_Ref_Quaternion_Out_Vector3_Out_Single;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion == null)
 				{
-					r_MAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "AngleAxis_Injected", 0, typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion = new(Type, "AngleAxis_Injected", 0, typeof(System.Single), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MAngleAxis_Injected_Single_Ref_Vector3_Out_Quaternion;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion == null)
 				{
-					r_MLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new(typeof(UnityEngine.Quaternion), "LookRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion = new(Type, "LookRotation_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MLookRotation_Injected_Ref_Vector3_Ref_Vector3_Out_Quaternion;
 			}
@@ -1228,7 +1229,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@fromDirection, @toDirection};
             var ___result = RMFromToRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1239,7 +1240,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rotation};
             var ___result = RMInverse_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1250,7 +1251,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b, @t};
             var ___result = RMSlerp_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1261,7 +1262,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b, @t};
             var ___result = RMSlerpUnclamped_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1272,7 +1273,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b, @t};
             var ___result = RMLerp_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1283,7 +1284,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b, @t};
             var ___result = RMLerpUnclamped_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@euler};
             var ___result = RMInternal_FromEulerRad_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1305,7 +1306,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rotation};
             var ___result = RMInternal_ToEulerRad_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1331,7 +1332,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@angle, @axis};
             var ___result = RMAngleAxis_Single_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@forward, @upwards};
             var ___result = RMLookRotation_Vector3_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1353,7 +1354,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@forward};
             var ___result = RMLookRotation_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1375,7 +1376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Multiply_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1386,7 +1387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rotation, @point};
             var ___result = RMop_Multiply_Quaternion_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1397,7 +1398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@dot};
             var ___result = RMIsEqualUsingDot_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1408,7 +1409,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1419,7 +1420,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1430,7 +1431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMDot_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1463,7 +1464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMAngle_Quaternion_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1474,7 +1475,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@euler};
             var ___result = RMInternal_MakePositive_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1485,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y, @z};
             var ___result = RMEuler_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1496,7 +1497,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@euler};
             var ___result = RMEuler_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1533,7 +1534,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@from, @to, @maxDegreesDelta};
             var ___result = RMRotateTowards_Quaternion_Quaternion_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1544,7 +1545,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@q};
             var ___result = RMNormalize_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1577,7 +1578,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1588,7 +1589,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1599,7 +1600,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1610,7 +1611,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1621,7 +1622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1632,7 +1633,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y, @z};
             var ___result = RMEulerRotation_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1643,7 +1644,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@euler};
             var ___result = RMEulerRotation_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1676,7 +1677,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToEuler.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1687,7 +1688,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y, @z};
             var ___result = RMEulerAngles_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1698,7 +1699,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@euler};
             var ___result = RMEulerAngles_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1746,7 +1747,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rotation};
             var ___result = RMToEulerAngles_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1757,7 +1758,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToEulerAngles.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1779,7 +1780,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@axis, @angle};
             var ___result = RMAxisAngle_Vector3_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Quaternion)___result;
+            return ReflectionUtils.Convert<UnityEngine.Quaternion>(___result);
         }
 
 
@@ -1963,7 +1964,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1974,7 +1975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

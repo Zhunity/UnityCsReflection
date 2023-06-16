@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.IO.FileStream
 	/// </summary>
     public partial class RFileStream : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_FDefaultBufferSize == null)
 				{
-					r_FDefaultBufferSize = new(typeof(System.IO.FileStream), "DefaultBufferSize");
+					r_FDefaultBufferSize = new(Type, "DefaultBufferSize");
 				}
 				return r_FDefaultBufferSize;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_Fbuf_recycle == null)
 				{
-					r_Fbuf_recycle = new(typeof(System.IO.FileStream), "buf_recycle");
+					r_Fbuf_recycle = new(Type, "buf_recycle");
 				}
 				return r_Fbuf_recycle;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_Fbuf_recycle_lock == null)
 				{
-					r_Fbuf_recycle_lock = new(typeof(System.IO.FileStream), "buf_recycle_lock");
+					r_Fbuf_recycle_lock = new(Type, "buf_recycle_lock");
 				}
 				return r_Fbuf_recycle_lock;
 			}
@@ -1634,7 +1635,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMReadByte.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1656,7 +1657,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@array, @offset, @count};
             var ___result = RMRead_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1667,7 +1668,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@dest, @offset, @count};
             var ___result = RMReadInternal_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
             var ___result = RMBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -1689,7 +1690,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@asyncResult};
             var ___result = RMEndRead_IAsyncResult.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1722,7 +1723,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@array, @offset, @numBytes, @userCallback, @stateObject};
             var ___result = RMBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -1744,7 +1745,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@offset, @origin};
             var ___result = RMSeek_Int64_SeekOrigin.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -1832,7 +1833,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMGetAccessControl.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.FileSecurity)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.FileSecurity>(___result);
         }
 
 
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@cancellationToken};
             var ___result = RMFlushAsync_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1865,7 +1866,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
             var ___result = RMReadAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Int32>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Int32>>(___result);
         }
 
 
@@ -1876,7 +1877,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count, @cancellationToken};
             var ___result = RMWriteAsync_ByteArray_Int32_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1887,7 +1888,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@dest, @dest_offset, @count};
             var ___result = RMReadSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1898,7 +1899,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@src, @src_offset, @count};
             var ___result = RMWriteSegment_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1942,7 +1943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@safeHandle, @buf, @offset, @count};
             var ___result = RMReadData_SafeHandle_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1964,7 +1965,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@filename};
             var ___result = RMGetSecureFileName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1975,7 +1976,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@filename, @full};
             var ___result = RMGetSecureFileName_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1986,7 +1987,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMEnsureAsyncActiveSemaphoreInitialized.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.SemaphoreSlim)___result;
+            return ReflectionUtils.Convert<System.Threading.SemaphoreSlim>(___result);
         }
 
 
@@ -1997,7 +1998,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@destination};
             var ___result = RMCopyToAsync_Stream.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2008,7 +2009,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@destination, @bufferSize};
             var ___result = RMCopyToAsync_Stream_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2019,7 +2020,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@destination, @cancellationToken};
             var ___result = RMCopyToAsync_Stream_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@destination, @bufferSize, @cancellationToken};
             var ___result = RMCopyToAsync_Stream_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2085,7 +2086,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMFlushAsync.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2096,7 +2097,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMCreateWaitHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.WaitHandle)___result;
+            return ReflectionUtils.Convert<System.Threading.WaitHandle>(___result);
         }
 
 
@@ -2107,7 +2108,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
             var ___result = RMBeginReadInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -2118,7 +2119,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count};
             var ___result = RMReadAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Int32>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Int32>>(___result);
         }
 
 
@@ -2129,7 +2130,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @cancellationToken};
             var ___result = RMReadAsync_Memory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.ValueTask<System.Int32>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask<System.Int32>>(___result);
         }
 
 
@@ -2140,7 +2141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state, @serializeAsynchronously, @apm};
             var ___result = RMBeginWriteInternal_ByteArray_Int32_Int32_AsyncCallback_Object_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -2151,7 +2152,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count};
             var ___result = RMWriteAsync_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2162,7 +2163,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @cancellationToken};
             var ___result = RMWriteAsync_ReadOnlyMemory_d_Byte_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.ValueTask)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
         }
 
 
@@ -2173,7 +2174,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer.Value};
             var ___result = RMRead_Span_d_Byte_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
             var ___result = RMBlockingBeginRead_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -2217,7 +2218,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@buffer, @offset, @count, @callback, @state};
             var ___result = RMBlockingBeginWrite_ByteArray_Int32_Int32_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -2228,7 +2229,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.ValueTask)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
         }
 
 
@@ -2241,7 +2242,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
         }
 
 
@@ -2252,7 +2253,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@requestedType};
             var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjRef)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
         }
 
 
@@ -2263,7 +2264,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2274,7 +2275,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2285,7 +2286,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@cloneIdentity};
             var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.MarshalByRefObject)___result;
+            return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
         }
 
 
@@ -2296,7 +2297,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2307,7 +2308,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2329,7 +2330,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2340,7 +2341,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

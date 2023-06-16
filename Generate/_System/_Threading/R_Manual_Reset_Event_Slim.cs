@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.ManualResetEventSlim
 	/// </summary>
     public partial class RManualResetEventSlim : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FDEFAULT_SPIN_SP == null)
 				{
-					r_FDEFAULT_SPIN_SP = new(typeof(System.Threading.ManualResetEventSlim), "DEFAULT_SPIN_SP");
+					r_FDEFAULT_SPIN_SP = new(Type, "DEFAULT_SPIN_SP");
 				}
 				return r_FDEFAULT_SPIN_SP;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FSignalledState_BitMask == null)
 				{
-					r_FSignalledState_BitMask = new(typeof(System.Threading.ManualResetEventSlim), "SignalledState_BitMask");
+					r_FSignalledState_BitMask = new(Type, "SignalledState_BitMask");
 				}
 				return r_FSignalledState_BitMask;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FSignalledState_ShiftCount == null)
 				{
-					r_FSignalledState_ShiftCount = new(typeof(System.Threading.ManualResetEventSlim), "SignalledState_ShiftCount");
+					r_FSignalledState_ShiftCount = new(Type, "SignalledState_ShiftCount");
 				}
 				return r_FSignalledState_ShiftCount;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FDispose_BitMask == null)
 				{
-					r_FDispose_BitMask = new(typeof(System.Threading.ManualResetEventSlim), "Dispose_BitMask");
+					r_FDispose_BitMask = new(Type, "Dispose_BitMask");
 				}
 				return r_FDispose_BitMask;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FSpinCountState_BitMask == null)
 				{
-					r_FSpinCountState_BitMask = new(typeof(System.Threading.ManualResetEventSlim), "SpinCountState_BitMask");
+					r_FSpinCountState_BitMask = new(Type, "SpinCountState_BitMask");
 				}
 				return r_FSpinCountState_BitMask;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FSpinCountState_ShiftCount == null)
 				{
-					r_FSpinCountState_ShiftCount = new(typeof(System.Threading.ManualResetEventSlim), "SpinCountState_ShiftCount");
+					r_FSpinCountState_ShiftCount = new(Type, "SpinCountState_ShiftCount");
 				}
 				return r_FSpinCountState_ShiftCount;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FSpinCountState_MaxValue == null)
 				{
-					r_FSpinCountState_MaxValue = new(typeof(System.Threading.ManualResetEventSlim), "SpinCountState_MaxValue");
+					r_FSpinCountState_MaxValue = new(Type, "SpinCountState_MaxValue");
 				}
 				return r_FSpinCountState_MaxValue;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FNumWaitersState_BitMask == null)
 				{
-					r_FNumWaitersState_BitMask = new(typeof(System.Threading.ManualResetEventSlim), "NumWaitersState_BitMask");
+					r_FNumWaitersState_BitMask = new(Type, "NumWaitersState_BitMask");
 				}
 				return r_FNumWaitersState_BitMask;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FNumWaitersState_ShiftCount == null)
 				{
-					r_FNumWaitersState_ShiftCount = new(typeof(System.Threading.ManualResetEventSlim), "NumWaitersState_ShiftCount");
+					r_FNumWaitersState_ShiftCount = new(Type, "NumWaitersState_ShiftCount");
 				}
 				return r_FNumWaitersState_ShiftCount;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FNumWaitersState_MaxValue == null)
 				{
-					r_FNumWaitersState_MaxValue = new(typeof(System.Threading.ManualResetEventSlim), "NumWaitersState_MaxValue");
+					r_FNumWaitersState_MaxValue = new(Type, "NumWaitersState_MaxValue");
 				}
 				return r_FNumWaitersState_MaxValue;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cancellationTokenCallback == null)
 				{
-					r_Fs_cancellationTokenCallback = new(typeof(System.Threading.ManualResetEventSlim), "s_cancellationTokenCallback");
+					r_Fs_cancellationTokenCallback = new(Type, "s_cancellationTokenCallback");
 				}
 				return r_Fs_cancellationTokenCallback;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MCancellationTokenCallback_Object == null)
 				{
-					r_MCancellationTokenCallback_Object = new(typeof(System.Threading.ManualResetEventSlim), "CancellationTokenCallback", 0, typeof(System.Object));
+					r_MCancellationTokenCallback_Object = new(Type, "CancellationTokenCallback", 0, typeof(System.Object));
 				}
 				return r_MCancellationTokenCallback_Object;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MExtractStatePortionAndShiftRight_Int32_Int32_Int32 == null)
 				{
-					r_MExtractStatePortionAndShiftRight_Int32_Int32_Int32 = new(typeof(System.Threading.ManualResetEventSlim), "ExtractStatePortionAndShiftRight", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MExtractStatePortionAndShiftRight_Int32_Int32_Int32 = new(Type, "ExtractStatePortionAndShiftRight", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MExtractStatePortionAndShiftRight_Int32_Int32_Int32;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MExtractStatePortion_Int32_Int32 == null)
 				{
-					r_MExtractStatePortion_Int32_Int32 = new(typeof(System.Threading.ManualResetEventSlim), "ExtractStatePortion", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MExtractStatePortion_Int32_Int32 = new(Type, "ExtractStatePortion", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MExtractStatePortion_Int32_Int32;
 			}
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMLazyInitializeEvent.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -820,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout};
             var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -831,7 +832,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout, @cancellationToken};
             var ___result = RMWait_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -842,7 +843,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout};
             var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -853,7 +854,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
             var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -919,7 +920,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@state, @mask, @rightBitShiftCount};
             var ___result = RMExtractStatePortionAndShiftRight_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -930,7 +931,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@state, @mask};
             var ___result = RMExtractStatePortion_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -941,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -963,7 +964,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -985,7 +986,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -996,7 +997,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

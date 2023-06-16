@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
 	/// </summary>
     public partial class RUIRVEShaderInfoAllocator : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FidentityTransformTexel == null)
 				{
-					r_FidentityTransformTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformTexel");
+					r_FidentityTransformTexel = new(Type, "identityTransformTexel");
 				}
 				return r_FidentityTransformTexel;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FinfiniteClipRectTexel == null)
 				{
-					r_FinfiniteClipRectTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRectTexel");
+					r_FinfiniteClipRectTexel = new(Type, "infiniteClipRectTexel");
 				}
 				return r_FinfiniteClipRectTexel;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FfullOpacityTexel == null)
 				{
-					r_FfullOpacityTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacityTexel");
+					r_FfullOpacityTexel = new(Type, "fullOpacityTexel");
 				}
 				return r_FfullOpacityTexel;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FclearColorTexel == null)
 				{
-					r_FclearColorTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColorTexel");
+					r_FclearColorTexel = new(Type, "clearColorTexel");
 				}
 				return r_FclearColorTexel;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FdefaultTextCoreSettingsTexel == null)
 				{
-					r_FdefaultTextCoreSettingsTexel = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettingsTexel");
+					r_FdefaultTextCoreSettingsTexel = new(Type, "defaultTextCoreSettingsTexel");
 				}
 				return r_FdefaultTextCoreSettingsTexel;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FidentityTransformValue == null)
 				{
-					r_FidentityTransformValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformValue");
+					r_FidentityTransformValue = new(Type, "identityTransformValue");
 				}
 				return r_FidentityTransformValue;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FidentityTransformRow0Value == null)
 				{
-					r_FidentityTransformRow0Value = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow0Value");
+					r_FidentityTransformRow0Value = new(Type, "identityTransformRow0Value");
 				}
 				return r_FidentityTransformRow0Value;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FidentityTransformRow1Value == null)
 				{
-					r_FidentityTransformRow1Value = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow1Value");
+					r_FidentityTransformRow1Value = new(Type, "identityTransformRow1Value");
 				}
 				return r_FidentityTransformRow1Value;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FidentityTransformRow2Value == null)
 				{
-					r_FidentityTransformRow2Value = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransformRow2Value");
+					r_FidentityTransformRow2Value = new(Type, "identityTransformRow2Value");
 				}
 				return r_FidentityTransformRow2Value;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FinfiniteClipRectValue == null)
 				{
-					r_FinfiniteClipRectValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRectValue");
+					r_FinfiniteClipRectValue = new(Type, "infiniteClipRectValue");
 				}
 				return r_FinfiniteClipRectValue;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FfullOpacityValue == null)
 				{
-					r_FfullOpacityValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacityValue");
+					r_FfullOpacityValue = new(Type, "fullOpacityValue");
 				}
 				return r_FfullOpacityValue;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FclearColorValue == null)
 				{
-					r_FclearColorValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColorValue");
+					r_FclearColorValue = new(Type, "clearColorValue");
 				}
 				return r_FclearColorValue;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FdefaultTextCoreSettingsValue == null)
 				{
-					r_FdefaultTextCoreSettingsValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettingsValue");
+					r_FdefaultTextCoreSettingsValue = new(Type, "defaultTextCoreSettingsValue");
 				}
 				return r_FdefaultTextCoreSettingsValue;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FidentityTransform == null)
 				{
-					r_FidentityTransform = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "identityTransform");
+					r_FidentityTransform = new(Type, "identityTransform");
 				}
 				return r_FidentityTransform;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FinfiniteClipRect == null)
 				{
-					r_FinfiniteClipRect = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "infiniteClipRect");
+					r_FinfiniteClipRect = new(Type, "infiniteClipRect");
 				}
 				return r_FinfiniteClipRect;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FfullOpacity == null)
 				{
-					r_FfullOpacity = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "fullOpacity");
+					r_FfullOpacity = new(Type, "fullOpacity");
 				}
 				return r_FfullOpacity;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FclearColor == null)
 				{
-					r_FclearColor = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "clearColor");
+					r_FclearColor = new(Type, "clearColor");
 				}
 				return r_FclearColor;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FdefaultTextCoreSettings == null)
 				{
-					r_FdefaultTextCoreSettings = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "defaultTextCoreSettings");
+					r_FdefaultTextCoreSettings = new(Type, "defaultTextCoreSettings");
 				}
 				return r_FdefaultTextCoreSettings;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_PpageWidth == null)
 				{
-					r_PpageWidth = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "pageWidth", -1);
+					r_PpageWidth = new(Type, "pageWidth", -1);
 				}
 				return r_PpageWidth;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_PpageHeight == null)
 				{
-					r_PpageHeight = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "pageHeight", -1);
+					r_PpageHeight = new(Type, "pageHeight", -1);
 				}
 				return r_PpageHeight;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc == null)
 				{
-					r_MAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToTexelCoord", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_MAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc = new(Type, "AllocToTexelCoord", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 				}
 				return r_MAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MAllocToConstantBufferIndex_BMPAlloc == null)
 				{
-					r_MAllocToConstantBufferIndex_BMPAlloc = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AllocToConstantBufferIndex", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
+					r_MAllocToConstantBufferIndex_BMPAlloc = new(Type, "AllocToConstantBufferIndex", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"));
 				}
 				return r_MAllocToConstantBufferIndex_BMPAlloc;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt == null)
 				{
-					r_MAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator"), "AtlasRectMatchesPage", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.RectInt));
+					r_MAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt = new(Type, "AtlasRectMatchesPage", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.RectInt));
 				}
 				return r_MAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt;
 			}
@@ -1117,7 +1118,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___result = RMAllocToTexelCoord_Ref_BitmapAllocator32_BMPAlloc.Invoke(___genericsType, ___parameters);
 			@allocator = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
 
-            return (UnityEngine.Vector2Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
         }
 
 
@@ -1128,7 +1129,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@alloc.Value};
             var ___result = RMAllocToConstantBufferIndex_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1140,7 +1141,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___result = RMAtlasRectMatchesPage_Ref_BitmapAllocator32_BMPAlloc_RectInt.Invoke(___genericsType, ___parameters);
 			@allocator = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBitmapAllocator32(___parameters[0]);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1195,7 +1196,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMAllocTransform.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
         }
 
 
@@ -1206,7 +1207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMAllocClipRect.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
         }
 
 
@@ -1217,7 +1218,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMAllocOpacity.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
         }
 
 
@@ -1228,7 +1229,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMAllocColor.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
         }
 
 
@@ -1239,7 +1240,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@settings.Value};
             var ___result = RMAllocTextCoreSettings_TextCoreSettings.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
         }
 
 
@@ -1360,7 +1361,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@alloc.Value};
             var ___result = RMTransformAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -1371,7 +1372,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@alloc.Value};
             var ___result = RMClipRectAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -1382,7 +1383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@alloc.Value};
             var ___result = RMOpacityAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -1393,7 +1394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@alloc.Value};
             var ___result = RMColorAllocToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -1404,7 +1405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@alloc.Value};
             var ___result = RMTextCoreSettingsToVertexData_BMPAlloc.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -1415,7 +1416,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1426,7 +1427,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1437,7 +1438,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1459,7 +1460,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.UIR.Implementation.UIRStylePainter
 	/// </summary>
     public partial class RUIRStylePainter : RMember //
@@ -1132,7 +1133,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{};
             var ___result = RMGetPooledMeshWriteData.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -1144,7 +1145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___result = RMAllocRawVertsIndices_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
 			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -1156,7 +1157,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___result = RMAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
 			@allocatorData = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData(___parameters[2]);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -1200,7 +1201,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{@vertexCount, @indexCount, @texture.Value, @material, @flags.Value};
             var ___result = RMAddGradientsEntry_Int32_Int32_TextureId_Material_MeshFlags.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -1211,7 +1212,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
             var ___result = RMDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{@vertices, @indices};
             var ___result = RMAdjustSpriteWinding_Vector2Array_UInt16Array.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16[])___result;
+            return ReflectionUtils.Convert<System.UInt16[]>(___result);
         }
 
 
@@ -1513,7 +1514,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1535,7 +1536,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1546,7 +1547,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1557,7 +1558,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1568,7 +1569,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

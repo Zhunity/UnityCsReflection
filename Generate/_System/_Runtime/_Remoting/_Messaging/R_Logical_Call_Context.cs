@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.Messaging.LogicalCallContext
 	/// </summary>
     public partial class RLogicalCallContext : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			{
 				if(r_Fs_callContextType == null)
 				{
-					r_Fs_callContextType = new(typeof(System.Runtime.Remoting.Messaging.LogicalCallContext), "s_callContextType");
+					r_Fs_callContextType = new(Type, "s_callContextType");
 				}
 				return r_Fs_callContextType;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			{
 				if(r_Fs_CorrelationMgrSlotName == null)
 				{
-					r_Fs_CorrelationMgrSlotName = new(typeof(System.Runtime.Remoting.Messaging.LogicalCallContext), "s_CorrelationMgrSlotName");
+					r_Fs_CorrelationMgrSlotName = new(Type, "s_CorrelationMgrSlotName");
 				}
 				return r_Fs_CorrelationMgrSlotName;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 			{
 				if(r_MGetPropertyKeyForHeader_Header == null)
 				{
-					r_MGetPropertyKeyForHeader_Header = new(typeof(System.Runtime.Remoting.Messaging.LogicalCallContext), "GetPropertyKeyForHeader", 0, typeof(System.Runtime.Remoting.Messaging.Header));
+					r_MGetPropertyKeyForHeader_Header = new(Type, "GetPropertyKeyForHeader", 0, typeof(System.Runtime.Remoting.Messaging.Header));
 				}
 				return r_MGetPropertyKeyForHeader_Header;
 			}
@@ -615,7 +616,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -648,7 +649,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{@name};
             var ___result = RMGetData_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMInternalGetOutgoingHeaders.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.Header[])___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.Header[]>(___result);
         }
 
 
@@ -692,7 +693,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMInternalGetHeaders.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.Header[])___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.Header[]>(___result);
         }
 
 
@@ -703,7 +704,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMRemovePrincipalIfNotSerializable.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Principal.IPrincipal)___result;
+            return ReflectionUtils.Convert<System.Security.Principal.IPrincipal>(___result);
         }
 
 
@@ -725,7 +726,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{@header};
             var ___result = RMGetPropertyKeyForHeader_Header.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -747,7 +748,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -769,7 +770,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -780,7 +781,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -791,7 +792,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -802,7 +803,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

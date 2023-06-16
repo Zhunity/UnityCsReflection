@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.UIR.BasicNodePool`1
 	/// </summary>
     public partial class RBasicNodePool<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MReset_BasicNode_d_T_p_ == null)
 				{
-					r_MReset_BasicNode_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1"), "Reset", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MReset_BasicNode_d_T_p_ = new(Type, "Reset", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNode`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MReset_BasicNode_d_T_p_;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MCreate == null)
 				{
-					r_MCreate = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BasicNodePool`1"), "Create", 0);
+					r_MCreate = new(Type, "Create", 0);
 				}
 				return r_MCreate;
 			}
@@ -247,7 +248,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMCreate.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -269,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGet.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -291,7 +292,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -313,7 +314,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -324,7 +325,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -335,7 +336,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -346,7 +347,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

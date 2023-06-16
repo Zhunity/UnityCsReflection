@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Diagnostics.SymbolStore.ISymbolDocumentWriter
 	/// </summary>
     public partial class RISymbolDocumentWriter : RMember //

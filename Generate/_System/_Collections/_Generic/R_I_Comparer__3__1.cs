@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.Generic.IComparer`1
 	/// </summary>
     public partial class RIComparer<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -60,7 +61,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@x, @y};
             var ___result = RMCompare_T_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

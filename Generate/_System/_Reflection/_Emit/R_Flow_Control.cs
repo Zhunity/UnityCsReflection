@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.FlowControl
 	/// </summary>
     public partial class RFlowControl : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FBranch == null)
 				{
-					r_FBranch = new(typeof(System.Reflection.Emit.FlowControl), "Branch");
+					r_FBranch = new(Type, "Branch");
 				}
 				return r_FBranch;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FBreak == null)
 				{
-					r_FBreak = new(typeof(System.Reflection.Emit.FlowControl), "Break");
+					r_FBreak = new(Type, "Break");
 				}
 				return r_FBreak;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FCall == null)
 				{
-					r_FCall = new(typeof(System.Reflection.Emit.FlowControl), "Call");
+					r_FCall = new(Type, "Call");
 				}
 				return r_FCall;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FCond_Branch == null)
 				{
-					r_FCond_Branch = new(typeof(System.Reflection.Emit.FlowControl), "Cond_Branch");
+					r_FCond_Branch = new(Type, "Cond_Branch");
 				}
 				return r_FCond_Branch;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FMeta == null)
 				{
-					r_FMeta = new(typeof(System.Reflection.Emit.FlowControl), "Meta");
+					r_FMeta = new(Type, "Meta");
 				}
 				return r_FMeta;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FNext == null)
 				{
-					r_FNext = new(typeof(System.Reflection.Emit.FlowControl), "Next");
+					r_FNext = new(Type, "Next");
 				}
 				return r_FNext;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FPhi == null)
 				{
-					r_FPhi = new(typeof(System.Reflection.Emit.FlowControl), "Phi");
+					r_FPhi = new(Type, "Phi");
 				}
 				return r_FPhi;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FReturn == null)
 				{
-					r_FReturn = new(typeof(System.Reflection.Emit.FlowControl), "Return");
+					r_FReturn = new(Type, "Return");
 				}
 				return r_FReturn;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FThrow == null)
 				{
-					r_FThrow = new(typeof(System.Reflection.Emit.FlowControl), "Throw");
+					r_FThrow = new(Type, "Throw");
 				}
 				return r_FThrow;
 			}
@@ -412,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -423,7 +424,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -434,7 +435,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -456,7 +457,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -467,7 +468,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -489,7 +490,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -500,7 +501,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -511,7 +512,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -533,7 +534,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -544,7 +545,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

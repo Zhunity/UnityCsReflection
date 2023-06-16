@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.AnimationCurve
 	/// </summary>
     public partial class RAnimationCurve : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Destroy_IntPtr == null)
 				{
-					r_MInternal_Destroy_IntPtr = new(typeof(UnityEngine.AnimationCurve), "Internal_Destroy", 0, typeof(System.IntPtr));
+					r_MInternal_Destroy_IntPtr = new(Type, "Internal_Destroy", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_Destroy_IntPtr;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Create_KeyframeArray == null)
 				{
-					r_MInternal_Create_KeyframeArray = new(typeof(UnityEngine.AnimationCurve), "Internal_Create", 0, typeof(UnityEngine.Keyframe).MakeArrayType());
+					r_MInternal_Create_KeyframeArray = new(Type, "Internal_Create", 0, typeof(UnityEngine.Keyframe).MakeArrayType());
 				}
 				return r_MInternal_Create_KeyframeArray;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MConstant_Single_Single_Single == null)
 				{
-					r_MConstant_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "Constant", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MConstant_Single_Single_Single = new(Type, "Constant", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MConstant_Single_Single_Single;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLinear_Single_Single_Single_Single == null)
 				{
-					r_MLinear_Single_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "Linear", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MLinear_Single_Single_Single_Single = new(Type, "Linear", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MLinear_Single_Single_Single_Single;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MEaseInOut_Single_Single_Single_Single == null)
 				{
-					r_MEaseInOut_Single_Single_Single_Single = new(typeof(UnityEngine.AnimationCurve), "EaseInOut", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MEaseInOut_Single_Single_Single_Single = new(Type, "EaseInOut", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MEaseInOut_Single_Single_Single_Single;
 			}
@@ -567,7 +568,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@keys};
             var ___result = RMInternal_Create_KeyframeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -578,7 +579,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMInternal_Equals_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -600,7 +601,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@time};
             var ___result = RMEvaluate_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -611,7 +612,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@time, @value};
             var ___result = RMAddKey_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@key};
             var ___result = RMAddKey_Keyframe.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -633,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@key};
             var ___result = RMAddKey_Internal_Keyframe.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -644,7 +645,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@index, @key};
             var ___result = RMMoveKey_Int32_Keyframe.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -677,7 +678,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@index};
             var ___result = RMGetKey_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Keyframe)___result;
+            return ReflectionUtils.Convert<UnityEngine.Keyframe>(___result);
         }
 
 
@@ -688,7 +689,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetKeys.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Keyframe[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Keyframe[]>(___result);
         }
 
 
@@ -710,7 +711,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@timeStart, @timeEnd, @value};
             var ___result = RMConstant_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.AnimationCurve)___result;
+            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
         }
 
 
@@ -721,7 +722,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@timeStart, @valueStart, @timeEnd, @valueEnd};
             var ___result = RMLinear_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.AnimationCurve)___result;
+            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
         }
 
 
@@ -732,7 +733,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@timeStart, @valueStart, @timeEnd, @valueEnd};
             var ___result = RMEaseInOut_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.AnimationCurve)___result;
+            return ReflectionUtils.Convert<UnityEngine.AnimationCurve>(___result);
         }
 
 
@@ -743,7 +744,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_AnimationCurve.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -777,7 +778,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMAddKey_Internal_Injected_Ref_Keyframe.Invoke(___genericsType, ___parameters);
 			@key = (UnityEngine.Keyframe)___parameters[0];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -789,7 +790,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMMoveKey_Injected_Int32_Ref_Keyframe.Invoke(___genericsType, ___parameters);
 			@key = (UnityEngine.Keyframe)___parameters[1];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -813,7 +814,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -824,7 +825,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -835,7 +836,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

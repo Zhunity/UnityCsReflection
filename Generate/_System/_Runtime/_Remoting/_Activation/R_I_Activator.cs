@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.Activation.IActivator
 	/// </summary>
     public partial class RIActivator : RMember //
@@ -92,7 +93,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RActivation
             var ___parameters = new object[]{@msg};
             var ___result = RMActivate_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Activation.IConstructionReturnMessage)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Activation.IConstructionReturnMessage>(___result);
         }
 
 

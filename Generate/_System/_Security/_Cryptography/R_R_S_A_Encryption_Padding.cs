@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Cryptography.RSAEncryptionPadding
 	/// </summary>
     public partial class RRSAEncryptionPadding : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Fs_pkcs1 == null)
 				{
-					r_Fs_pkcs1 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "s_pkcs1");
+					r_Fs_pkcs1 = new(Type, "s_pkcs1");
 				}
 				return r_Fs_pkcs1;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Fs_oaepSHA1 == null)
 				{
-					r_Fs_oaepSHA1 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "s_oaepSHA1");
+					r_Fs_oaepSHA1 = new(Type, "s_oaepSHA1");
 				}
 				return r_Fs_oaepSHA1;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Fs_oaepSHA256 == null)
 				{
-					r_Fs_oaepSHA256 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "s_oaepSHA256");
+					r_Fs_oaepSHA256 = new(Type, "s_oaepSHA256");
 				}
 				return r_Fs_oaepSHA256;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Fs_oaepSHA384 == null)
 				{
-					r_Fs_oaepSHA384 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "s_oaepSHA384");
+					r_Fs_oaepSHA384 = new(Type, "s_oaepSHA384");
 				}
 				return r_Fs_oaepSHA384;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Fs_oaepSHA512 == null)
 				{
-					r_Fs_oaepSHA512 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "s_oaepSHA512");
+					r_Fs_oaepSHA512 = new(Type, "s_oaepSHA512");
 				}
 				return r_Fs_oaepSHA512;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_PPkcs1 == null)
 				{
-					r_PPkcs1 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "Pkcs1", -1);
+					r_PPkcs1 = new(Type, "Pkcs1", -1);
 				}
 				return r_PPkcs1;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_POaepSHA1 == null)
 				{
-					r_POaepSHA1 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "OaepSHA1", -1);
+					r_POaepSHA1 = new(Type, "OaepSHA1", -1);
 				}
 				return r_POaepSHA1;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_POaepSHA256 == null)
 				{
-					r_POaepSHA256 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "OaepSHA256", -1);
+					r_POaepSHA256 = new(Type, "OaepSHA256", -1);
 				}
 				return r_POaepSHA256;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_POaepSHA384 == null)
 				{
-					r_POaepSHA384 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "OaepSHA384", -1);
+					r_POaepSHA384 = new(Type, "OaepSHA384", -1);
 				}
 				return r_POaepSHA384;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_POaepSHA512 == null)
 				{
-					r_POaepSHA512 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "OaepSHA512", -1);
+					r_POaepSHA512 = new(Type, "OaepSHA512", -1);
 				}
 				return r_POaepSHA512;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_MCreateOaep_HashAlgorithmName == null)
 				{
-					r_MCreateOaep_HashAlgorithmName = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "CreateOaep", 0, typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_MCreateOaep_HashAlgorithmName = new(Type, "CreateOaep", 0, typeof(System.Security.Cryptography.HashAlgorithmName));
 				}
 				return r_MCreateOaep_HashAlgorithmName;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_MCombineHashCodes_Int32_Int32 == null)
 				{
-					r_MCombineHashCodes_Int32_Int32 = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MCombineHashCodes_Int32_Int32 = new(Type, "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCombineHashCodes_Int32_Int32;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Mop_Equality_RSAEncryptionPadding_RSAEncryptionPadding == null)
 				{
-					r_Mop_Equality_RSAEncryptionPadding_RSAEncryptionPadding = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "op_Equality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
+					r_Mop_Equality_RSAEncryptionPadding_RSAEncryptionPadding = new(Type, "op_Equality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
 				}
 				return r_Mop_Equality_RSAEncryptionPadding_RSAEncryptionPadding;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Mop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding == null)
 				{
-					r_Mop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding = new(typeof(System.Security.Cryptography.RSAEncryptionPadding), "op_Inequality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
+					r_Mop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding = new(Type, "op_Inequality", 0, typeof(System.Security.Cryptography.RSAEncryptionPadding), typeof(System.Security.Cryptography.RSAEncryptionPadding));
 				}
 				return r_Mop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding;
 			}
@@ -444,7 +445,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@hashAlgorithm};
             var ___result = RMCreateOaep_HashAlgorithmName.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Cryptography.RSAEncryptionPadding)___result;
+            return ReflectionUtils.Convert<System.Security.Cryptography.RSAEncryptionPadding>(___result);
         }
 
 
@@ -455,7 +456,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -466,7 +467,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@h1, @h2};
             var ___result = RMCombineHashCodes_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -477,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -488,7 +489,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_RSAEncryptionPadding.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -499,7 +500,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_RSAEncryptionPadding_RSAEncryptionPadding.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_RSAEncryptionPadding_RSAEncryptionPadding.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -521,7 +522,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -543,7 +544,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -554,7 +555,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

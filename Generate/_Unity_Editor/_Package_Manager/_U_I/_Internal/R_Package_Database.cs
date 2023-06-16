@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.PackageDatabase
 	/// </summary>
     public partial class RPackageDatabase : RMember //
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_EmptyList == null)
 				{
-					r_Fk_EmptyList = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDatabase"), "k_EmptyList");
+					r_Fk_EmptyList = new(Type, "k_EmptyList");
 				}
 				return r_Fk_EmptyList;
 			}
@@ -1655,7 +1656,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value};
             var ___result = RMIsUninstallInProgress_IPackage.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1666,7 +1667,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@version.Value};
             var ___result = RMIsInstallInProgress_IPackageVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1677,7 +1678,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@uniqueId};
             var ___result = RMGetPackage_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
         }
 
 
@@ -1688,7 +1689,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@version.Value};
             var ___result = RMGetPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
         }
 
 
@@ -1714,7 +1715,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@idOrName};
             var ___result = RMGetPackageByIdOrName_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
         }
 
 
@@ -1785,7 +1786,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@version.Value, @directDependenciesOnly};
             var ___result = RMGetReverseDependencies_IPackageVersion_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>>(___result);
         }
 
 
@@ -1796,7 +1797,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@version.Value};
             var ___result = RMGetFeaturesThatUseThisPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>>(___result);
         }
 
 
@@ -1807,7 +1808,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@version.Value, @rootDependenciesOnly.Value};
             var ___result = RMGetCustomizedDependencies_IPackageVersion_Nullable_d_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>>(___result);
         }
 
 
@@ -1818,7 +1819,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@version.Value};
             var ___result = RMGetSamples_IPackageVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample>>(___result);
         }
 
 
@@ -1829,7 +1830,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageId};
             var ___result = RMGetPackageInFeatureVersion_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
         }
 
 
@@ -2194,7 +2195,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMInstallFromPath_String_Out_String.Invoke(___genericsType, ___parameters);
 			@tempPackageId = (System.String)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2282,7 +2283,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@onTosAccepted, @onError.Value};
             var ___result = RMCheckTermOfServiceAgreement_Action_Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2293,7 +2294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value};
             var ___result = RMDownload_IPackage.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2304,7 +2305,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packages.Value};
             var ___result = RMDownload_IEnumerable_d_IPackage_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2381,7 +2382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2403,7 +2404,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2414,7 +2415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2425,7 +2426,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2436,7 +2437,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

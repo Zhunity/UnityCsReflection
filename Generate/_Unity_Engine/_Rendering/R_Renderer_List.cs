@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.RendererList
 	/// </summary>
     public partial class RRendererList : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FnullRendererList == null)
 				{
-					r_FnullRendererList = new(typeof(UnityEngine.Rendering.RendererList), "nullRendererList");
+					r_FnullRendererList = new(Type, "nullRendererList");
 				}
 				return r_FnullRendererList;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mget_isValid_Injected_Ref_RendererList == null)
 				{
-					r_Mget_isValid_Injected_Ref_RendererList = new(typeof(UnityEngine.Rendering.RendererList), "get_isValid_Injected", 0, typeof(UnityEngine.Rendering.RendererList).MakeByRefType());
+					r_Mget_isValid_Injected_Ref_RendererList = new(Type, "get_isValid_Injected", 0, typeof(UnityEngine.Rendering.RendererList).MakeByRefType());
 				}
 				return r_Mget_isValid_Injected_Ref_RendererList;
 			}
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMget_isValid_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.Rendering.RendererList)___parameters[0];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -275,7 +276,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -308,7 +309,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -319,7 +320,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

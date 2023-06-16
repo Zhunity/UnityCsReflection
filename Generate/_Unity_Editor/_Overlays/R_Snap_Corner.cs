@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.Overlays.SnapCorner
 	/// </summary>
     public partial class RSnapCorner : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_FTopLeft == null)
 				{
-					r_FTopLeft = new( ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner"), "TopLeft");
+					r_FTopLeft = new(Type, "TopLeft");
 				}
 				return r_FTopLeft;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_FTopRight == null)
 				{
-					r_FTopRight = new( ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner"), "TopRight");
+					r_FTopRight = new(Type, "TopRight");
 				}
 				return r_FTopRight;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_FBottomLeft == null)
 				{
-					r_FBottomLeft = new( ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner"), "BottomLeft");
+					r_FBottomLeft = new(Type, "BottomLeft");
 				}
 				return r_FBottomLeft;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_FBottomRight == null)
 				{
-					r_FBottomRight = new( ReflectionUtils.GetType("UnityEditor.Overlays.SnapCorner"), "BottomRight");
+					r_FBottomRight = new(Type, "BottomRight");
 				}
 				return r_FBottomRight;
 			}
@@ -332,7 +333,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -343,7 +344,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -354,7 +355,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -365,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -376,7 +377,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -387,7 +388,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -409,7 +410,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -420,7 +421,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -431,7 +432,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -453,7 +454,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -464,7 +465,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

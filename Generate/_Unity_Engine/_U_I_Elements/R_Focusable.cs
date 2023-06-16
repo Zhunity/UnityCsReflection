@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Focusable
 	/// </summary>
     public partial class RFocusable : RMember //
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetFirstFocusableChild_VisualElement == null)
 				{
-					r_MGetFirstFocusableChild_VisualElement = new(typeof(UnityEngine.UIElements.Focusable), "GetFirstFocusableChild", 0, typeof(UnityEngine.UIElements.VisualElement));
+					r_MGetFirstFocusableChild_VisualElement = new(Type, "GetFirstFocusableChild", 0, typeof(UnityEngine.UIElements.VisualElement));
 				}
 				return r_MGetFirstFocusableChild_VisualElement;
 			}
@@ -749,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetFocusDelegate.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Focusable)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
         }
 
 
@@ -760,7 +761,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@ve};
             var ___result = RMGetFirstFocusableChild_VisualElement.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Focusable)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
         }
 
 
@@ -861,7 +862,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMTryGetUserArgs_GTEventType_GTCallbackArgs_EventCallback_d_TEventType_TCallbackArgs_p__TrickleDown_Out_TCallbackArgs.Invoke(___genericsType, ___parameters);
 			@userData = (TCallbackArgs)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -949,7 +950,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMHasTrickleDownHandlers.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -960,7 +961,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMHasBubbleUpHandlers.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -993,7 +994,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1015,7 +1016,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1026,7 +1027,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1037,7 +1038,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1048,7 +1049,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

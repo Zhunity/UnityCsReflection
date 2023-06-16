@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.ParamsArray
 	/// </summary>
     public partial class RParamsArray : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fs_oneArgArray == null)
 				{
-					r_Fs_oneArgArray = new( ReflectionUtils.GetType("System.ParamsArray"), "s_oneArgArray");
+					r_Fs_oneArgArray = new(Type, "s_oneArgArray");
 				}
 				return r_Fs_oneArgArray;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fs_twoArgArray == null)
 				{
-					r_Fs_twoArgArray = new( ReflectionUtils.GetType("System.ParamsArray"), "s_twoArgArray");
+					r_Fs_twoArgArray = new(Type, "s_twoArgArray");
 				}
 				return r_Fs_twoArgArray;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fs_threeArgArray == null)
 				{
-					r_Fs_threeArgArray = new( ReflectionUtils.GetType("System.ParamsArray"), "s_threeArgArray");
+					r_Fs_threeArgArray = new(Type, "s_threeArgArray");
 				}
 				return r_Fs_threeArgArray;
 			}
@@ -300,7 +301,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index};
             var ___result = RMGetAtSlow_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -311,7 +312,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -322,7 +323,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -333,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -355,7 +356,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

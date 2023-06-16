@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.NumberFormatInfo
 	/// </summary>
     public partial class RNumberFormatInfo : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FinvariantInfo == null)
 				{
-					r_FinvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "invariantInfo");
+					r_FinvariantInfo = new(Type, "invariantInfo");
 				}
 				return r_FinvariantInfo;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FInvalidNumberStyles == null)
 				{
-					r_FInvalidNumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "InvalidNumberStyles");
+					r_FInvalidNumberStyles = new(Type, "InvalidNumberStyles");
 				}
 				return r_FInvalidNumberStyles;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PInvariantInfo == null)
 				{
-					r_PInvariantInfo = new(typeof(System.Globalization.NumberFormatInfo), "InvariantInfo", -1);
+					r_PInvariantInfo = new(Type, "InvariantInfo", -1);
 				}
 				return r_PInvariantInfo;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PCurrentInfo == null)
 				{
-					r_PCurrentInfo = new(typeof(System.Globalization.NumberFormatInfo), "CurrentInfo", -1);
+					r_PCurrentInfo = new(Type, "CurrentInfo", -1);
 				}
 				return r_PCurrentInfo;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MVerifyDecimalSeparator_String_String == null)
 				{
-					r_MVerifyDecimalSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
+					r_MVerifyDecimalSeparator_String_String = new(Type, "VerifyDecimalSeparator", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MVerifyDecimalSeparator_String_String;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MVerifyGroupSeparator_String_String == null)
 				{
-					r_MVerifyGroupSeparator_String_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
+					r_MVerifyGroupSeparator_String_String = new(Type, "VerifyGroupSeparator", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MVerifyGroupSeparator_String_String;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MVerifyNativeDigits_StringArray_String == null)
 				{
-					r_MVerifyNativeDigits_StringArray_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
+					r_MVerifyNativeDigits_StringArray_String = new(Type, "VerifyNativeDigits", 0, typeof(System.String).MakeArrayType(), typeof(System.String));
 				}
 				return r_MVerifyNativeDigits_StringArray_String;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MVerifyDigitSubstitution_DigitShapes_String == null)
 				{
-					r_MVerifyDigitSubstitution_DigitShapes_String = new(typeof(System.Globalization.NumberFormatInfo), "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
+					r_MVerifyDigitSubstitution_DigitShapes_String = new(Type, "VerifyDigitSubstitution", 0, typeof(System.Globalization.DigitShapes), typeof(System.String));
 				}
 				return r_MVerifyDigitSubstitution_DigitShapes_String;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetInstance_IFormatProvider == null)
 				{
-					r_MGetInstance_IFormatProvider = new(typeof(System.Globalization.NumberFormatInfo), "GetInstance", 0, typeof(System.IFormatProvider));
+					r_MGetInstance_IFormatProvider = new(Type, "GetInstance", 0, typeof(System.IFormatProvider));
 				}
 				return r_MGetInstance_IFormatProvider;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCheckGroupSize_String_Int32Array == null)
 				{
-					r_MCheckGroupSize_String_Int32Array = new(typeof(System.Globalization.NumberFormatInfo), "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
+					r_MCheckGroupSize_String_Int32Array = new(Type, "CheckGroupSize", 0, typeof(System.String), typeof(System.Int32).MakeArrayType());
 				}
 				return r_MCheckGroupSize_String_Int32Array;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MReadOnly_NumberFormatInfo == null)
 				{
-					r_MReadOnly_NumberFormatInfo = new(typeof(System.Globalization.NumberFormatInfo), "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
+					r_MReadOnly_NumberFormatInfo = new(Type, "ReadOnly", 0, typeof(System.Globalization.NumberFormatInfo));
 				}
 				return r_MReadOnly_NumberFormatInfo;
 			}
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MValidateParseStyleInteger_NumberStyles == null)
 				{
-					r_MValidateParseStyleInteger_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
+					r_MValidateParseStyleInteger_NumberStyles = new(Type, "ValidateParseStyleInteger", 0, typeof(System.Globalization.NumberStyles));
 				}
 				return r_MValidateParseStyleInteger_NumberStyles;
 			}
@@ -1326,7 +1327,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MValidateParseStyleFloatingPoint_NumberStyles == null)
 				{
-					r_MValidateParseStyleFloatingPoint_NumberStyles = new(typeof(System.Globalization.NumberFormatInfo), "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
+					r_MValidateParseStyleFloatingPoint_NumberStyles = new(Type, "ValidateParseStyleFloatingPoint", 0, typeof(System.Globalization.NumberStyles));
 				}
 				return r_MValidateParseStyleFloatingPoint_NumberStyles;
 			}
@@ -1524,7 +1525,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@formatProvider};
             var ___result = RMGetInstance_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.NumberFormatInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.NumberFormatInfo>(___result);
         }
 
 
@@ -1535,7 +1536,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1557,7 +1558,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@formatType};
             var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1568,7 +1569,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@nfi};
             var ___result = RMReadOnly_NumberFormatInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.NumberFormatInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.NumberFormatInfo>(___result);
         }
 
 
@@ -1601,7 +1602,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1623,7 +1624,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1634,7 +1635,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1645,7 +1646,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1656,7 +1657,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

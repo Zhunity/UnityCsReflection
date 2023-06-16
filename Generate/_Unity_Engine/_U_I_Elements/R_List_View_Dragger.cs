@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.ListViewDragger
 	/// </summary>
     public partial class RListViewDragger : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fk_AutoScrollAreaSize == null)
 				{
-					r_Fk_AutoScrollAreaSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.ListViewDragger"), "k_AutoScrollAreaSize");
+					r_Fk_AutoScrollAreaSize = new(Type, "k_AutoScrollAreaSize");
 				}
 				return r_Fk_AutoScrollAreaSize;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fk_BetweenElementsAreaSize == null)
 				{
-					r_Fk_BetweenElementsAreaSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.ListViewDragger"), "k_BetweenElementsAreaSize");
+					r_Fk_BetweenElementsAreaSize = new(Type, "k_BetweenElementsAreaSize");
 				}
 				return r_Fk_BetweenElementsAreaSize;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fk_PanSpeed == null)
 				{
-					r_Fk_PanSpeed = new( ReflectionUtils.GetType("UnityEngine.UIElements.ListViewDragger"), "k_PanSpeed");
+					r_Fk_PanSpeed = new(Type, "k_PanSpeed");
 				}
 				return r_Fk_PanSpeed;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fk_DragHoverBarHeight == null)
 				{
-					r_Fk_DragHoverBarHeight = new( ReflectionUtils.GetType("UnityEngine.UIElements.ListViewDragger"), "k_DragHoverBarHeight");
+					r_Fk_DragHoverBarHeight = new(Type, "k_DragHoverBarHeight");
 				}
 				return r_Fk_DragHoverBarHeight;
 			}
@@ -652,7 +653,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerPosition};
             var ___result = RMCanStartDrag_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -663,7 +664,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerPosition};
             var ___result = RMStartDrag_Vector3.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStartDragArgs>(___result);
         }
 
 
@@ -674,7 +675,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerPosition};
             var ___result = RMUpdateDrag_Vector3.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode>(___result);
         }
 
 
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMGetVisualMode_Vector3_Ref_DragPosition.Invoke(___genericsType, ___parameters);
 			@dragPosition = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition(___parameters[1]);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode>(___result);
         }
 
 
@@ -731,7 +732,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMTryGetDragPosition_Vector2_Ref_DragPosition.Invoke(___genericsType, ___parameters);
 			@dragPosition = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListViewDragger.RDragPosition(___parameters[1]);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -742,7 +743,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@dragPosition.Value};
             var ___result = RMMakeDragAndDropArgs_DragPosition.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListDragAndDropArgs(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RListDragAndDropArgs>(___result);
         }
 
 
@@ -786,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerPosition};
             var ___result = RMGetRecycledItem_Vector3.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem>(___result);
         }
 
 
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -852,7 +853,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -863,7 +864,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -874,7 +875,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -885,7 +886,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

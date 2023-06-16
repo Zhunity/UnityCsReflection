@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.Overlays.Overlay
 	/// </summary>
     public partial class ROverlay : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_UxmlPath == null)
 				{
-					r_Fk_UxmlPath = new(typeof(UnityEditor.Overlays.Overlay), "k_UxmlPath");
+					r_Fk_UxmlPath = new(Type, "k_UxmlPath");
 				}
 				return r_Fk_UxmlPath;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_FussClassName == null)
 				{
-					r_FussClassName = new(typeof(UnityEditor.Overlays.Overlay), "ussClassName");
+					r_FussClassName = new(Type, "ussClassName");
 				}
 				return r_FussClassName;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_Highlight == null)
 				{
-					r_Fk_Highlight = new(typeof(UnityEditor.Overlays.Overlay), "k_Highlight");
+					r_Fk_Highlight = new(Type, "k_Highlight");
 				}
 				return r_Fk_Highlight;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_Floating == null)
 				{
-					r_Fk_Floating = new(typeof(UnityEditor.Overlays.Overlay), "k_Floating");
+					r_Fk_Floating = new(Type, "k_Floating");
 				}
 				return r_Fk_Floating;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_FheaderTitle == null)
 				{
-					r_FheaderTitle = new(typeof(UnityEditor.Overlays.Overlay), "headerTitle");
+					r_FheaderTitle = new(Type, "headerTitle");
 				}
 				return r_FheaderTitle;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_Collapsed == null)
 				{
-					r_Fk_Collapsed = new(typeof(UnityEditor.Overlays.Overlay), "k_Collapsed");
+					r_Fk_Collapsed = new(Type, "k_Collapsed");
 				}
 				return r_Fk_Collapsed;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_Header == null)
 				{
-					r_Fk_Header = new(typeof(UnityEditor.Overlays.Overlay), "k_Header");
+					r_Fk_Header = new(Type, "k_Header");
 				}
 				return r_Fk_Header;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_Expanded == null)
 				{
-					r_Fk_Expanded = new(typeof(UnityEditor.Overlays.Overlay), "k_Expanded");
+					r_Fk_Expanded = new(Type, "k_Expanded");
 				}
 				return r_Fk_Expanded;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_CollapsedContent == null)
 				{
-					r_Fk_CollapsedContent = new(typeof(UnityEditor.Overlays.Overlay), "k_CollapsedContent");
+					r_Fk_CollapsedContent = new(Type, "k_CollapsedContent");
 				}
 				return r_Fk_CollapsedContent;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_CollapsedIconButton == null)
 				{
-					r_Fk_CollapsedIconButton = new(typeof(UnityEditor.Overlays.Overlay), "k_CollapsedIconButton");
+					r_Fk_CollapsedIconButton = new(Type, "k_CollapsedIconButton");
 				}
 				return r_Fk_CollapsedIconButton;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_ToolbarHorizontalLayout == null)
 				{
-					r_Fk_ToolbarHorizontalLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_ToolbarHorizontalLayout");
+					r_Fk_ToolbarHorizontalLayout = new(Type, "k_ToolbarHorizontalLayout");
 				}
 				return r_Fk_ToolbarHorizontalLayout;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_ToolbarVerticalLayout == null)
 				{
-					r_Fk_ToolbarVerticalLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_ToolbarVerticalLayout");
+					r_Fk_ToolbarVerticalLayout = new(Type, "k_ToolbarVerticalLayout");
 				}
 				return r_Fk_ToolbarVerticalLayout;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fk_PanelLayout == null)
 				{
-					r_Fk_PanelLayout = new(typeof(UnityEditor.Overlays.Overlay), "k_PanelLayout");
+					r_Fk_PanelLayout = new(Type, "k_PanelLayout");
 				}
 				return r_Fk_PanelLayout;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_Fs_TreeAsset == null)
 				{
-					r_Fs_TreeAsset = new(typeof(UnityEditor.Overlays.Overlay), "s_TreeAsset");
+					r_Fs_TreeAsset = new(Type, "s_TreeAsset");
 				}
 				return r_Fs_TreeAsset;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_PtreeAsset == null)
 				{
-					r_PtreeAsset = new(typeof(UnityEditor.Overlays.Overlay), "treeAsset", -1);
+					r_PtreeAsset = new(Type, "treeAsset", -1);
 				}
 				return r_PtreeAsset;
 			}
@@ -1582,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_MGetEventTypeErrorMessage_String == null)
 				{
-					r_MGetEventTypeErrorMessage_String = new(typeof(UnityEditor.Overlays.Overlay), "GetEventTypeErrorMessage", 0, typeof(System.String));
+					r_MGetEventTypeErrorMessage_String = new(Type, "GetEventTypeErrorMessage", 0, typeof(System.String));
 				}
 				return r_MGetEventTypeErrorMessage_String;
 			}
@@ -1822,7 +1823,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 			{
 				if(r_MGetMenuItemState_Boolean == null)
 				{
-					r_MGetMenuItemState_Boolean = new(typeof(UnityEditor.Overlays.Overlay), "GetMenuItemState", 0, typeof(System.Boolean));
+					r_MGetMenuItemState_Boolean = new(Type, "GetMenuItemState", 0, typeof(System.Boolean));
 				}
 				return r_MGetMenuItemState_Boolean;
 			}
@@ -2364,7 +2365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@errorEvent};
             var ___result = RMGetEventTypeErrorMessage_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2386,7 +2387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@requested};
             var ___result = RMCanCreateRequestedLayout_Layout.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2397,7 +2398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetBestLayoutForState.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.Overlays.Layout)___result;
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Layout>(___result);
         }
 
 
@@ -2419,7 +2420,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMShouldUseSizeValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2430,7 +2431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@min, @max};
             var ___result = RMIsSizeAuto_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2452,7 +2453,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@requestedLayout};
             var ___result = RMCreateContent_Layout.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.VisualElement)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 
@@ -2463,7 +2464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMCreatePanelContent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.VisualElement)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 
@@ -2529,7 +2530,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@isChecked};
             var ___result = RMGetMenuItemState_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus>(___result);
         }
 
 
@@ -2606,7 +2607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@container.Value, @section.Value};
             var ___result = RMDockAt_OverlayContainer_OverlayContainerSection.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2617,7 +2618,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@container.Value, @section.Value, @index};
             var ___result = RMDockAt_OverlayContainer_OverlayContainerSection_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2628,7 +2629,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@target};
             var ___result = RMDockBefore_Overlay.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2639,7 +2640,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@target};
             var ___result = RMDockAfter_Overlay.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2683,7 +2684,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@corner.Value, @snapPosition};
             var ___result = RMSnapToFloatingPosition_SnapCorner_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2843,7 +2844,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2865,7 +2866,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2876,7 +2877,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2887,7 +2888,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2898,7 +2899,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

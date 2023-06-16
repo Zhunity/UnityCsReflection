@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.EventType
 	/// </summary>
     public partial class REventType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouseDown == null)
 				{
-					r_FMouseDown = new(typeof(UnityEngine.EventType), "MouseDown");
+					r_FMouseDown = new(Type, "MouseDown");
 				}
 				return r_FMouseDown;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouseUp == null)
 				{
-					r_FMouseUp = new(typeof(UnityEngine.EventType), "MouseUp");
+					r_FMouseUp = new(Type, "MouseUp");
 				}
 				return r_FMouseUp;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouseMove == null)
 				{
-					r_FMouseMove = new(typeof(UnityEngine.EventType), "MouseMove");
+					r_FMouseMove = new(Type, "MouseMove");
 				}
 				return r_FMouseMove;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouseDrag == null)
 				{
-					r_FMouseDrag = new(typeof(UnityEngine.EventType), "MouseDrag");
+					r_FMouseDrag = new(Type, "MouseDrag");
 				}
 				return r_FMouseDrag;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeyDown == null)
 				{
-					r_FKeyDown = new(typeof(UnityEngine.EventType), "KeyDown");
+					r_FKeyDown = new(Type, "KeyDown");
 				}
 				return r_FKeyDown;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeyUp == null)
 				{
-					r_FKeyUp = new(typeof(UnityEngine.EventType), "KeyUp");
+					r_FKeyUp = new(Type, "KeyUp");
 				}
 				return r_FKeyUp;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FScrollWheel == null)
 				{
-					r_FScrollWheel = new(typeof(UnityEngine.EventType), "ScrollWheel");
+					r_FScrollWheel = new(Type, "ScrollWheel");
 				}
 				return r_FScrollWheel;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRepaint == null)
 				{
-					r_FRepaint = new(typeof(UnityEngine.EventType), "Repaint");
+					r_FRepaint = new(Type, "Repaint");
 				}
 				return r_FRepaint;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLayout == null)
 				{
-					r_FLayout = new(typeof(UnityEngine.EventType), "Layout");
+					r_FLayout = new(Type, "Layout");
 				}
 				return r_FLayout;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDragUpdated == null)
 				{
-					r_FDragUpdated = new(typeof(UnityEngine.EventType), "DragUpdated");
+					r_FDragUpdated = new(Type, "DragUpdated");
 				}
 				return r_FDragUpdated;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDragPerform == null)
 				{
-					r_FDragPerform = new(typeof(UnityEngine.EventType), "DragPerform");
+					r_FDragPerform = new(Type, "DragPerform");
 				}
 				return r_FDragPerform;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDragExited == null)
 				{
-					r_FDragExited = new(typeof(UnityEngine.EventType), "DragExited");
+					r_FDragExited = new(Type, "DragExited");
 				}
 				return r_FDragExited;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FIgnore == null)
 				{
-					r_FIgnore = new(typeof(UnityEngine.EventType), "Ignore");
+					r_FIgnore = new(Type, "Ignore");
 				}
 				return r_FIgnore;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FUsed == null)
 				{
-					r_FUsed = new(typeof(UnityEngine.EventType), "Used");
+					r_FUsed = new(Type, "Used");
 				}
 				return r_FUsed;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FValidateCommand == null)
 				{
-					r_FValidateCommand = new(typeof(UnityEngine.EventType), "ValidateCommand");
+					r_FValidateCommand = new(Type, "ValidateCommand");
 				}
 				return r_FValidateCommand;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FExecuteCommand == null)
 				{
-					r_FExecuteCommand = new(typeof(UnityEngine.EventType), "ExecuteCommand");
+					r_FExecuteCommand = new(Type, "ExecuteCommand");
 				}
 				return r_FExecuteCommand;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FContextClick == null)
 				{
-					r_FContextClick = new(typeof(UnityEngine.EventType), "ContextClick");
+					r_FContextClick = new(Type, "ContextClick");
 				}
 				return r_FContextClick;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouseEnterWindow == null)
 				{
-					r_FMouseEnterWindow = new(typeof(UnityEngine.EventType), "MouseEnterWindow");
+					r_FMouseEnterWindow = new(Type, "MouseEnterWindow");
 				}
 				return r_FMouseEnterWindow;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouseLeaveWindow == null)
 				{
-					r_FMouseLeaveWindow = new(typeof(UnityEngine.EventType), "MouseLeaveWindow");
+					r_FMouseLeaveWindow = new(Type, "MouseLeaveWindow");
 				}
 				return r_FMouseLeaveWindow;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTouchDown == null)
 				{
-					r_FTouchDown = new(typeof(UnityEngine.EventType), "TouchDown");
+					r_FTouchDown = new(Type, "TouchDown");
 				}
 				return r_FTouchDown;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTouchUp == null)
 				{
-					r_FTouchUp = new(typeof(UnityEngine.EventType), "TouchUp");
+					r_FTouchUp = new(Type, "TouchUp");
 				}
 				return r_FTouchUp;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTouchMove == null)
 				{
-					r_FTouchMove = new(typeof(UnityEngine.EventType), "TouchMove");
+					r_FTouchMove = new(Type, "TouchMove");
 				}
 				return r_FTouchMove;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTouchEnter == null)
 				{
-					r_FTouchEnter = new(typeof(UnityEngine.EventType), "TouchEnter");
+					r_FTouchEnter = new(Type, "TouchEnter");
 				}
 				return r_FTouchEnter;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTouchLeave == null)
 				{
-					r_FTouchLeave = new(typeof(UnityEngine.EventType), "TouchLeave");
+					r_FTouchLeave = new(Type, "TouchLeave");
 				}
 				return r_FTouchLeave;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTouchStationary == null)
 				{
-					r_FTouchStationary = new(typeof(UnityEngine.EventType), "TouchStationary");
+					r_FTouchStationary = new(Type, "TouchStationary");
 				}
 				return r_FTouchStationary;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FmouseDown == null)
 				{
-					r_FmouseDown = new(typeof(UnityEngine.EventType), "mouseDown");
+					r_FmouseDown = new(Type, "mouseDown");
 				}
 				return r_FmouseDown;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FmouseUp == null)
 				{
-					r_FmouseUp = new(typeof(UnityEngine.EventType), "mouseUp");
+					r_FmouseUp = new(Type, "mouseUp");
 				}
 				return r_FmouseUp;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FmouseMove == null)
 				{
-					r_FmouseMove = new(typeof(UnityEngine.EventType), "mouseMove");
+					r_FmouseMove = new(Type, "mouseMove");
 				}
 				return r_FmouseMove;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FmouseDrag == null)
 				{
-					r_FmouseDrag = new(typeof(UnityEngine.EventType), "mouseDrag");
+					r_FmouseDrag = new(Type, "mouseDrag");
 				}
 				return r_FmouseDrag;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FkeyDown == null)
 				{
-					r_FkeyDown = new(typeof(UnityEngine.EventType), "keyDown");
+					r_FkeyDown = new(Type, "keyDown");
 				}
 				return r_FkeyDown;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FkeyUp == null)
 				{
-					r_FkeyUp = new(typeof(UnityEngine.EventType), "keyUp");
+					r_FkeyUp = new(Type, "keyUp");
 				}
 				return r_FkeyUp;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FscrollWheel == null)
 				{
-					r_FscrollWheel = new(typeof(UnityEngine.EventType), "scrollWheel");
+					r_FscrollWheel = new(Type, "scrollWheel");
 				}
 				return r_FscrollWheel;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Frepaint == null)
 				{
-					r_Frepaint = new(typeof(UnityEngine.EventType), "repaint");
+					r_Frepaint = new(Type, "repaint");
 				}
 				return r_Frepaint;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Flayout == null)
 				{
-					r_Flayout = new(typeof(UnityEngine.EventType), "layout");
+					r_Flayout = new(Type, "layout");
 				}
 				return r_Flayout;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FdragUpdated == null)
 				{
-					r_FdragUpdated = new(typeof(UnityEngine.EventType), "dragUpdated");
+					r_FdragUpdated = new(Type, "dragUpdated");
 				}
 				return r_FdragUpdated;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FdragPerform == null)
 				{
-					r_FdragPerform = new(typeof(UnityEngine.EventType), "dragPerform");
+					r_FdragPerform = new(Type, "dragPerform");
 				}
 				return r_FdragPerform;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fignore == null)
 				{
-					r_Fignore = new(typeof(UnityEngine.EventType), "ignore");
+					r_Fignore = new(Type, "ignore");
 				}
 				return r_Fignore;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fused == null)
 				{
-					r_Fused = new(typeof(UnityEngine.EventType), "used");
+					r_Fused = new(Type, "used");
 				}
 				return r_Fused;
 			}
@@ -876,7 +877,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -887,7 +888,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -898,7 +899,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -909,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -920,7 +921,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -931,7 +932,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -953,7 +954,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -964,7 +965,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -975,7 +976,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -997,7 +998,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1008,7 +1009,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

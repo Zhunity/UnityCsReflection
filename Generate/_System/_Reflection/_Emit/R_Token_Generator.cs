@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.TokenGenerator
 	/// </summary>
     public partial class RTokenGenerator : RMember //
@@ -108,7 +109,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@str};
             var ___result = RMGetToken_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -119,7 +120,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@member, @create_open_instance};
             var ___result = RMGetToken_MemberInfo_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -130,7 +131,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@method, @opt_param_types};
             var ___result = RMGetToken_MethodBase_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -141,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@helper};
             var ___result = RMGetToken_SignatureHelper.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

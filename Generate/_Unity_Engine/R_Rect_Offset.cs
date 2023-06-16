@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.RectOffset
 	/// </summary>
     public partial class RRectOffset : RMember //
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternalCreate == null)
 				{
-					r_MInternalCreate = new(typeof(UnityEngine.RectOffset), "InternalCreate", 0);
+					r_MInternalCreate = new(Type, "InternalCreate", 0);
 				}
 				return r_MInternalCreate;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternalDestroy_IntPtr == null)
 				{
-					r_MInternalDestroy_IntPtr = new(typeof(UnityEngine.RectOffset), "InternalDestroy", 0, typeof(System.IntPtr));
+					r_MInternalDestroy_IntPtr = new(Type, "InternalDestroy", 0, typeof(System.IntPtr));
 				}
 				return r_MInternalDestroy_IntPtr;
 			}
@@ -423,7 +424,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -434,7 +435,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -467,7 +468,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMInternalCreate.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -489,7 +490,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rect};
             var ___result = RMAdd_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -500,7 +501,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rect};
             var ___result = RMRemove_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -539,7 +540,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -550,7 +551,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -561,7 +562,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -572,7 +573,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.TaskContinuation
 	/// </summary>
     public partial class RTaskContinuation : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MInlineIfPossibleOrElseQueue_Task_Boolean == null)
 				{
-					r_MInlineIfPossibleOrElseQueue_Task_Boolean = new( ReflectionUtils.GetType("System.Threading.Tasks.TaskContinuation"), "InlineIfPossibleOrElseQueue", 0, typeof(System.Threading.Tasks.Task), typeof(System.Boolean));
+					r_MInlineIfPossibleOrElseQueue_Task_Boolean = new(Type, "InlineIfPossibleOrElseQueue", 0, typeof(System.Threading.Tasks.Task), typeof(System.Boolean));
 				}
 				return r_MInlineIfPossibleOrElseQueue_Task_Boolean;
 			}
@@ -210,7 +211,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetDelegateContinuationsForDebugger.Invoke(___genericsType, ___parameters);
 
-            return (System.Delegate[])___result;
+            return ReflectionUtils.Convert<System.Delegate[]>(___result);
         }
 
 
@@ -221,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -243,7 +244,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -265,7 +266,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -276,7 +277,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.GUIStyleState
 	/// </summary>
     public partial class RGUIStyleState : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInit == null)
 				{
-					r_MInit = new(typeof(UnityEngine.GUIStyleState), "Init", 0);
+					r_MInit = new(Type, "Init", 0);
 				}
 				return r_MInit;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr == null)
 				{
-					r_MProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr = new(typeof(UnityEngine.GUIStyleState), "ProduceGUIStyleStateFromDeserialization", 0, typeof(UnityEngine.GUIStyle), typeof(System.IntPtr));
+					r_MProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr = new(Type, "ProduceGUIStyleStateFromDeserialization", 0, typeof(UnityEngine.GUIStyle), typeof(System.IntPtr));
 				}
 				return r_MProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetGUIStyleState_GUIStyle_IntPtr == null)
 				{
-					r_MGetGUIStyleState_GUIStyle_IntPtr = new(typeof(UnityEngine.GUIStyleState), "GetGUIStyleState", 0, typeof(UnityEngine.GUIStyle), typeof(System.IntPtr));
+					r_MGetGUIStyleState_GUIStyle_IntPtr = new(Type, "GetGUIStyleState", 0, typeof(UnityEngine.GUIStyle), typeof(System.IntPtr));
 				}
 				return r_MGetGUIStyleState_GUIStyle_IntPtr;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMInit.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@sourceStyle, @source};
             var ___result = RMProduceGUIStyleStateFromDeserialization_GUIStyle_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIStyleState)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIStyleState>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@sourceStyle, @source};
             var ___result = RMGetGUIStyleState_GUIStyle_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIStyleState)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIStyleState>(___result);
         }
 
 
@@ -396,7 +397,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -407,7 +408,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -418,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -429,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -440,7 +441,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

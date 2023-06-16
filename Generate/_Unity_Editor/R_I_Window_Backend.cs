@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.IWindowBackend
 	/// </summary>
     public partial class RIWindowBackend : RMember //
@@ -166,7 +167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			@tooltip = (System.String)___parameters[1];
 			@screenRectPosition = (UnityEngine.Rect)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

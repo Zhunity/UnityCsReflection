@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Yoga.YogaNode
 	/// </summary>
     public partial class RYogaNode : RMember //
@@ -1774,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_MMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode == null)
 				{
-					r_MMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), "MeasureInternal", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"));
+					r_MMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode = new(Type, "MeasureInternal", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"));
 				}
 				return r_MMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
 			}
@@ -1790,7 +1791,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_MBaselineInternal_YogaNode_Single_Single == null)
 				{
-					r_MBaselineInternal_YogaNode_Single_Single = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), "BaselineInternal", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single), typeof(System.Single));
+					r_MBaselineInternal_YogaNode_Single_Single = new(Type, "BaselineInternal", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MBaselineInternal_YogaNode_Single_Single;
 			}
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_MGetInstanceCount == null)
 				{
-					r_MGetInstanceCount = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), "GetInstanceCount", 0);
+					r_MGetInstanceCount = new(Type, "GetInstanceCount", 0);
 				}
 				return r_MGetInstanceCount;
 			}
@@ -2062,7 +2063,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@f1, @f2};
             var ___result = RMValuesEqual_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2128,7 +2129,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@node.Value};
             var ___result = RMIndexOf_YogaNode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2172,7 +2173,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@node.Value, @width, @widthMode.Value, @height, @heightMode.Value};
             var ___result = RMMeasureInternal_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
         }
 
 
@@ -2183,7 +2184,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@node.Value, @width, @height};
             var ___result = RMBaselineInternal_YogaNode_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2194,7 +2195,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@options.Value};
             var ___result = RMPrint_YogaPrintOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2205,7 +2206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode>>(___result);
         }
 
 
@@ -2216,7 +2217,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -2227,7 +2228,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2271,7 +2272,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2282,7 +2283,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2293,7 +2294,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2304,7 +2305,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2315,7 +2316,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

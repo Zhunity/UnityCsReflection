@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.UIR.BitmapAllocator32
 	/// </summary>
     public partial class RBitmapAllocator32 : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FkPageWidth == null)
 				{
-					r_FkPageWidth = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32"), "kPageWidth");
+					r_FkPageWidth = new(Type, "kPageWidth");
 				}
 				return r_FkPageWidth;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_MCountTrailingZeroes_UInt32 == null)
 				{
-					r_MCountTrailingZeroes_UInt32 = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BitmapAllocator32"), "CountTrailingZeroes", 0, typeof(System.UInt32));
+					r_MCountTrailingZeroes_UInt32 = new(Type, "CountTrailingZeroes", 0, typeof(System.UInt32));
 				}
 				return r_MCountTrailingZeroes_UInt32;
 			}
@@ -386,7 +387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@storage.Value};
             var ___result = RMAllocate_BaseShaderInfoStorage.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc>(___result);
         }
 
 
@@ -423,7 +424,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@val};
             var ___result = RMCountTrailingZeroes_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -434,7 +435,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -456,7 +457,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -489,7 +490,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

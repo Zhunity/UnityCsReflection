@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Configuration.Assemblies.AssemblyHashAlgorithm
 	/// </summary>
     public partial class RAssemblyHashAlgorithm : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			{
 				if(r_FMD5 == null)
 				{
-					r_FMD5 = new(typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), "MD5");
+					r_FMD5 = new(Type, "MD5");
 				}
 				return r_FMD5;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			{
 				if(r_FSHA1 == null)
 				{
-					r_FSHA1 = new(typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), "SHA1");
+					r_FSHA1 = new(Type, "SHA1");
 				}
 				return r_FSHA1;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			{
 				if(r_FSHA256 == null)
 				{
-					r_FSHA256 = new(typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), "SHA256");
+					r_FSHA256 = new(Type, "SHA256");
 				}
 				return r_FSHA256;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			{
 				if(r_FSHA384 == null)
 				{
-					r_FSHA384 = new(typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), "SHA384");
+					r_FSHA384 = new(Type, "SHA384");
 				}
 				return r_FSHA384;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
 			{
 				if(r_FSHA512 == null)
 				{
-					r_FSHA512 = new(typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), "SHA512");
+					r_FSHA512 = new(Type, "SHA512");
 				}
 				return r_FSHA512;
 			}
@@ -364,7 +365,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -375,7 +376,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -386,7 +387,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -397,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -419,7 +420,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -441,7 +442,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -452,7 +453,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -463,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -485,7 +486,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -496,7 +497,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RConfiguration.RAssemblies
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

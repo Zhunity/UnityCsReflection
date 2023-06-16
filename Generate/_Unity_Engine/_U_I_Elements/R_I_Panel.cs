@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.IPanel
 	/// </summary>
     public partial class RIPanel : RMember //
@@ -156,7 +157,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@point};
             var ___result = RMPick_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.VisualElement)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 
@@ -167,7 +168,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@point, @picked};
             var ___result = RMPickAll_Vector2_List_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.VisualElement)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 

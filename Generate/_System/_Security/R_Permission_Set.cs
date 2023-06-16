@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.PermissionSet
 	/// </summary>
     public partial class RPermissionSet : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_FtagName == null)
 				{
-					r_FtagName = new(typeof(System.Security.PermissionSet), "tagName");
+					r_FtagName = new(Type, "tagName");
 				}
 				return r_FtagName;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Fversion == null)
 				{
-					r_Fversion = new(typeof(System.Security.PermissionSet), "version");
+					r_Fversion = new(Type, "version");
 				}
 				return r_Fversion;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_FpsUnrestricted == null)
 				{
-					r_FpsUnrestricted = new(typeof(System.Security.PermissionSet), "psUnrestricted");
+					r_FpsUnrestricted = new(Type, "psUnrestricted");
 				}
 				return r_FpsUnrestricted;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Faction == null)
 				{
-					r_Faction = new(typeof(System.Security.PermissionSet), "action");
+					r_Faction = new(Type, "action");
 				}
 				return r_Faction;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MConvertPermissionSet_String_ByteArray_String == null)
 				{
-					r_MConvertPermissionSet_String_ByteArray_String = new(typeof(System.Security.PermissionSet), "ConvertPermissionSet", 0, typeof(System.String), typeof(System.Byte).MakeArrayType(), typeof(System.String));
+					r_MConvertPermissionSet_String_ByteArray_String = new(Type, "ConvertPermissionSet", 0, typeof(System.String), typeof(System.Byte).MakeArrayType(), typeof(System.String));
 				}
 				return r_MConvertPermissionSet_String_ByteArray_String;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MRevertAssert == null)
 				{
-					r_MRevertAssert = new(typeof(System.Security.PermissionSet), "RevertAssert", 0);
+					r_MRevertAssert = new(Type, "RevertAssert", 0);
 				}
 				return r_MRevertAssert;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MCreateFromBinaryFormat_ByteArray == null)
 				{
-					r_MCreateFromBinaryFormat_ByteArray = new(typeof(System.Security.PermissionSet), "CreateFromBinaryFormat", 0, typeof(System.Byte).MakeArrayType());
+					r_MCreateFromBinaryFormat_ByteArray = new(Type, "CreateFromBinaryFormat", 0, typeof(System.Byte).MakeArrayType());
 				}
 				return r_MCreateFromBinaryFormat_ByteArray;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MReadEncodedInt_ByteArray_Ref_Int32 == null)
 				{
-					r_MReadEncodedInt_ByteArray_Ref_Int32 = new(typeof(System.Security.PermissionSet), "ReadEncodedInt", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
+					r_MReadEncodedInt_ByteArray_Ref_Int32 = new(Type, "ReadEncodedInt", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MReadEncodedInt_ByteArray_Ref_Int32;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MProcessAttribute_ByteArray_Ref_Int32 == null)
 				{
-					r_MProcessAttribute_ByteArray_Ref_Int32 = new(typeof(System.Security.PermissionSet), "ProcessAttribute", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
+					r_MProcessAttribute_ByteArray_Ref_Int32 = new(Type, "ProcessAttribute", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MProcessAttribute_ByteArray_Ref_Int32;
 			}
@@ -956,7 +957,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@perm};
             var ___result = RMAddPermission_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -989,7 +990,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.PermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
         }
 
 
@@ -1055,7 +1056,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -1066,7 +1067,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@target};
             var ___result = RMIsSubsetOf_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1088,7 +1089,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMContainsNonCodeAccessPermissions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1099,7 +1100,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@inFormat, @inData, @outFormat};
             var ___result = RMConvertPermissionSet_String_ByteArray_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1110,7 +1111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@permClass};
             var ___result = RMGetPermission_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1121,7 +1122,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@other};
             var ___result = RMIntersect_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.PermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
         }
 
 
@@ -1143,7 +1144,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMIsEmpty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1154,7 +1155,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMIsUnrestricted.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1165,7 +1166,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@permClass};
             var ___result = RMRemovePermission_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1176,7 +1177,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@perm};
             var ___result = RMSetPermission_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1187,7 +1188,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMToXml.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.SecurityElement)___result;
+            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
         }
 
 
@@ -1209,7 +1210,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@other};
             var ___result = RMUnion_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.PermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
         }
 
 
@@ -1231,7 +1232,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1242,7 +1243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1275,7 +1276,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMAllIgnored.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1286,7 +1287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@data};
             var ___result = RMCreateFromBinaryFormat_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.PermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.PermissionSet>(___result);
         }
 
 
@@ -1298,7 +1299,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___result = RMReadEncodedInt_ByteArray_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@position = (System.Int32)___parameters[1];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___result = RMProcessAttribute_ByteArray_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@position = (System.Int32)___parameters[1];
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1321,7 +1322,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@perm};
             var ___result = RMAddPermissionImpl_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1332,7 +1333,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetEnumeratorImpl.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -1343,7 +1344,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@permClass};
             var ___result = RMGetPermissionImpl_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1354,7 +1355,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@permClass};
             var ___result = RMRemovePermissionImpl_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1365,7 +1366,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@perm};
             var ___result = RMSetPermissionImpl_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -1387,7 +1388,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1398,7 +1399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

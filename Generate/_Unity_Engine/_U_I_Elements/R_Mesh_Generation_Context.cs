@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.MeshGenerationContext
 	/// </summary>
     public partial class RMeshGenerationContext : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_AllocateMarker == null)
 				{
-					r_Fs_AllocateMarker = new(typeof(UnityEngine.UIElements.MeshGenerationContext), "s_AllocateMarker");
+					r_Fs_AllocateMarker = new(Type, "s_AllocateMarker");
 				}
 				return r_Fs_AllocateMarker;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_DrawVectorImageMarker == null)
 				{
-					r_Fs_DrawVectorImageMarker = new(typeof(UnityEngine.UIElements.MeshGenerationContext), "s_DrawVectorImageMarker");
+					r_Fs_DrawVectorImageMarker = new(Type, "s_DrawVectorImageMarker");
 				}
 				return r_Fs_DrawVectorImageMarker;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@vertexCount, @indexCount, @texture};
             var ___result = RMAllocate_Int32_Int32_Texture.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
             var ___result = RMAllocate_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

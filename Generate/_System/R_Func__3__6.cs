@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Func`6
 	/// </summary>
     public partial class RFunc<T1, T2, T3, T4, T5, TResult> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Func`6").MakeGenericType(typeof(T1), typeof(T2), typeof(T3), typeof(T4), typeof(T5), typeof(TResult));
+                return  ReflectionUtils.GetType("System.Func`6").MakeGenericType(ReflectionUtils.GetType(typeof(T1)), ReflectionUtils.GetType(typeof(T2)), ReflectionUtils.GetType(typeof(T3)), ReflectionUtils.GetType(typeof(T4)), ReflectionUtils.GetType(typeof(T5)), ReflectionUtils.GetType(typeof(TResult)));
             }
         }
 
@@ -396,7 +397,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@arg1, @arg2, @arg3, @arg4, @arg5};
             var ___result = RMInvoke_T1_T2_T3_T4_T5.Invoke(___genericsType, ___parameters);
 
-            return (TResult)___result;
+            return ReflectionUtils.Convert<TResult>(___result);
         }
 
 
@@ -407,7 +408,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@arg1, @arg2, @arg3, @arg4, @arg5, @callback, @object};
             var ___result = RMBeginInvoke_T1_T2_T3_T4_T5_AsyncCallback_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.IAsyncResult)___result;
+            return ReflectionUtils.Convert<System.IAsyncResult>(___result);
         }
 
 
@@ -418,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@result};
             var ___result = RMEndInvoke_IAsyncResult.Invoke(___genericsType, ___parameters);
 
-            return (TResult)___result;
+            return ReflectionUtils.Convert<TResult>(___result);
         }
 
 
@@ -440,7 +441,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@args};
             var ___result = RMDynamicInvokeImpl_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -451,7 +452,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -473,7 +474,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetMethodImpl.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
         }
 
 
@@ -484,7 +485,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetInvocationList.Invoke(___genericsType, ___parameters);
 
-            return (System.Delegate[])___result;
+            return ReflectionUtils.Convert<System.Delegate[]>(___result);
         }
 
 
@@ -495,7 +496,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@follow};
             var ___result = RMCombineImpl_Delegate.Invoke(___genericsType, ___parameters);
 
-            return (System.Delegate)___result;
+            return ReflectionUtils.Convert<System.Delegate>(___result);
         }
 
 
@@ -506,7 +507,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMRemoveImpl_Delegate.Invoke(___genericsType, ___parameters);
 
-            return (System.Delegate)___result;
+            return ReflectionUtils.Convert<System.Delegate>(___result);
         }
 
 
@@ -517,7 +518,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetNativeFunctionPointer.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -528,7 +529,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@args};
             var ___result = RMDynamicInvoke_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -539,7 +540,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -550,7 +551,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsTransparentProxy.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -572,7 +573,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -583,7 +584,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -594,7 +595,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.RegularExpressions.Match
 	/// </summary>
     public partial class RMatch : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_F__0__Empty__1__k__BackingField == null)
 				{
-					r_F__0__Empty__1__k__BackingField = new(typeof(System.Text.RegularExpressions.Match), "<Empty>k__BackingField");
+					r_F__0__Empty__1__k__BackingField = new(Type, "<Empty>k__BackingField");
 				}
 				return r_F__0__Empty__1__k__BackingField;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new(typeof(System.Text.RegularExpressions.Match), "Empty", -1);
+					r_PEmpty = new(Type, "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_MSynchronized_Match == null)
 				{
-					r_MSynchronized_Match = new(typeof(System.Text.RegularExpressions.Match), "Synchronized", 0, typeof(System.Text.RegularExpressions.Match));
+					r_MSynchronized_Match = new(Type, "Synchronized", 0, typeof(System.Text.RegularExpressions.Match));
 				}
 				return r_MSynchronized_Match;
 			}
@@ -743,7 +744,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMNextMatch.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.RegularExpressions.Match)___result;
+            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
         }
 
 
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@replacement};
             var ___result = RMResult_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@groupnum};
             var ___result = RMGroupToStringImpl_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
         }
 
 
@@ -776,7 +777,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMLastGroupToStringImpl.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
         }
 
 
@@ -787,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@inner};
             var ___result = RMSynchronized_Match.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.RegularExpressions.Match)___result;
+            return ReflectionUtils.Convert<System.Text.RegularExpressions.Match>(___result);
         }
 
 
@@ -831,7 +832,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@cap};
             var ___result = RMIsMatched_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -842,7 +843,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@cap};
             var ___result = RMMatchIndex_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -853,7 +854,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@cap};
             var ___result = RMMatchLength_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -875,7 +876,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -886,7 +887,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetLeftSubstring.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
         }
 
 
@@ -897,7 +898,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetRightSubstring.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RChar>>(___result);
         }
 
 
@@ -908,7 +909,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -930,7 +931,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -941,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -952,7 +953,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

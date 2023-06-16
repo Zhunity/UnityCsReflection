@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.AddComponent.NewScriptDropdownItem
 	/// </summary>
     public partial class RNewScriptDropdownItem : RMember //
@@ -748,7 +749,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMCanCreate.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -759,7 +760,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMGetError.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -781,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMInvalidTargetPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -792,7 +793,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMTargetPath.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -803,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMTargetDir.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMClassNameIsInvalid.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -825,7 +826,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{@className};
             var ___result = RMClassExists_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -836,7 +837,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMClassAlreadyExists.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -847,7 +848,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMGetTemplatePath.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -869,7 +870,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{@o};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -880,7 +881,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -913,7 +914,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -935,7 +936,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMIsSeparator.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -957,7 +958,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -979,7 +980,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

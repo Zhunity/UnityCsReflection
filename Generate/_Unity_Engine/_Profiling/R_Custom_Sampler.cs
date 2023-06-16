@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Profiling.CustomSampler
 	/// </summary>
     public partial class RCustomSampler : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 			{
 				if(r_Fs_InvalidCustomSampler == null)
 				{
-					r_Fs_InvalidCustomSampler = new(typeof(UnityEngine.Profiling.CustomSampler), "s_InvalidCustomSampler");
+					r_Fs_InvalidCustomSampler = new(Type, "s_InvalidCustomSampler");
 				}
 				return r_Fs_InvalidCustomSampler;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
 			{
 				if(r_MCreate_String_Boolean == null)
 				{
-					r_MCreate_String_Boolean = new(typeof(UnityEngine.Profiling.CustomSampler), "Create", 0, typeof(System.String), typeof(System.Boolean));
+					r_MCreate_String_Boolean = new(Type, "Create", 0, typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MCreate_String_Boolean;
 			}
@@ -284,7 +285,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{@name, @collectGpuData};
             var ___result = RMCreate_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Profiling.CustomSampler)___result;
+            return ReflectionUtils.Convert<UnityEngine.Profiling.CustomSampler>(___result);
         }
 
 
@@ -328,7 +329,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMGetRecorder.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Profiling.Recorder)___result;
+            return ReflectionUtils.Convert<UnityEngine.Profiling.Recorder>(___result);
         }
 
 
@@ -339,7 +340,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -361,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -372,7 +373,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -383,7 +384,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -394,7 +395,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

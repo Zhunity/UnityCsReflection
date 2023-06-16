@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PropertyHandler+NestingContext
 	/// </summary>
     public partial class RNestingContext : RMember //
@@ -96,7 +97,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MGet_PropertyHandler_Int32 == null)
 				{
-					r_MGet_PropertyHandler_Int32 = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler+NestingContext"), "Get", 0,  ReflectionUtils.GetType("UnityEditor.PropertyHandler"), typeof(System.Int32));
+					r_MGet_PropertyHandler_Int32 = new(Type, "Get", 0,  ReflectionUtils.GetType("UnityEditor.PropertyHandler"), typeof(System.Int32));
 				}
 				return r_MGet_PropertyHandler_Int32;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@handler.Value, @nestingLevel};
             var ___result = RMGet_PropertyHandler_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
         }
 
 
@@ -298,7 +299,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -309,7 +310,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -320,7 +321,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -342,7 +343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -353,7 +354,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.IRemotingTypeInfo
 	/// </summary>
     public partial class RIRemotingTypeInfo : RMember //
@@ -76,7 +77,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{@fromType, @o};
             var ___result = RMCanCastTo_Type_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Unity.Profiling.ProfilerCategory
 	/// </summary>
     public partial class RProfilerCategory : RMember //
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PRender == null)
 				{
-					r_PRender = new(typeof(Unity.Profiling.ProfilerCategory), "Render", -1);
+					r_PRender = new(Type, "Render", -1);
 				}
 				return r_PRender;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PScripts == null)
 				{
-					r_PScripts = new(typeof(Unity.Profiling.ProfilerCategory), "Scripts", -1);
+					r_PScripts = new(Type, "Scripts", -1);
 				}
 				return r_PScripts;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PGui == null)
 				{
-					r_PGui = new(typeof(Unity.Profiling.ProfilerCategory), "Gui", -1);
+					r_PGui = new(Type, "Gui", -1);
 				}
 				return r_PGui;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PPhysics == null)
 				{
-					r_PPhysics = new(typeof(Unity.Profiling.ProfilerCategory), "Physics", -1);
+					r_PPhysics = new(Type, "Physics", -1);
 				}
 				return r_PPhysics;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PPhysics2D == null)
 				{
-					r_PPhysics2D = new(typeof(Unity.Profiling.ProfilerCategory), "Physics2D", -1);
+					r_PPhysics2D = new(Type, "Physics2D", -1);
 				}
 				return r_PPhysics2D;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PAnimation == null)
 				{
-					r_PAnimation = new(typeof(Unity.Profiling.ProfilerCategory), "Animation", -1);
+					r_PAnimation = new(Type, "Animation", -1);
 				}
 				return r_PAnimation;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PAi == null)
 				{
-					r_PAi = new(typeof(Unity.Profiling.ProfilerCategory), "Ai", -1);
+					r_PAi = new(Type, "Ai", -1);
 				}
 				return r_PAi;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PAudio == null)
 				{
-					r_PAudio = new(typeof(Unity.Profiling.ProfilerCategory), "Audio", -1);
+					r_PAudio = new(Type, "Audio", -1);
 				}
 				return r_PAudio;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PVideo == null)
 				{
-					r_PVideo = new(typeof(Unity.Profiling.ProfilerCategory), "Video", -1);
+					r_PVideo = new(Type, "Video", -1);
 				}
 				return r_PVideo;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PParticles == null)
 				{
-					r_PParticles = new(typeof(Unity.Profiling.ProfilerCategory), "Particles", -1);
+					r_PParticles = new(Type, "Particles", -1);
 				}
 				return r_PParticles;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PLighting == null)
 				{
-					r_PLighting = new(typeof(Unity.Profiling.ProfilerCategory), "Lighting", -1);
+					r_PLighting = new(Type, "Lighting", -1);
 				}
 				return r_PLighting;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PNetwork == null)
 				{
-					r_PNetwork = new(typeof(Unity.Profiling.ProfilerCategory), "Network", -1);
+					r_PNetwork = new(Type, "Network", -1);
 				}
 				return r_PNetwork;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PLoading == null)
 				{
-					r_PLoading = new(typeof(Unity.Profiling.ProfilerCategory), "Loading", -1);
+					r_PLoading = new(Type, "Loading", -1);
 				}
 				return r_PLoading;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PVr == null)
 				{
-					r_PVr = new(typeof(Unity.Profiling.ProfilerCategory), "Vr", -1);
+					r_PVr = new(Type, "Vr", -1);
 				}
 				return r_PVr;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PInput == null)
 				{
-					r_PInput = new(typeof(Unity.Profiling.ProfilerCategory), "Input", -1);
+					r_PInput = new(Type, "Input", -1);
 				}
 				return r_PInput;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PMemory == null)
 				{
-					r_PMemory = new(typeof(Unity.Profiling.ProfilerCategory), "Memory", -1);
+					r_PMemory = new(Type, "Memory", -1);
 				}
 				return r_PMemory;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PVirtualTexturing == null)
 				{
-					r_PVirtualTexturing = new(typeof(Unity.Profiling.ProfilerCategory), "VirtualTexturing", -1);
+					r_PVirtualTexturing = new(Type, "VirtualTexturing", -1);
 				}
 				return r_PVirtualTexturing;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PFileIO == null)
 				{
-					r_PFileIO = new(typeof(Unity.Profiling.ProfilerCategory), "FileIO", -1);
+					r_PFileIO = new(Type, "FileIO", -1);
 				}
 				return r_PFileIO;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PInternal == null)
 				{
-					r_PInternal = new(typeof(Unity.Profiling.ProfilerCategory), "Internal", -1);
+					r_PInternal = new(Type, "Internal", -1);
 				}
 				return r_PInternal;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PAny == null)
 				{
-					r_PAny = new(typeof(Unity.Profiling.ProfilerCategory), "Any", -1);
+					r_PAny = new(Type, "Any", -1);
 				}
 				return r_PAny;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_PGPU == null)
 				{
-					r_PGPU = new(typeof(Unity.Profiling.ProfilerCategory), "GPU", -1);
+					r_PGPU = new(Type, "GPU", -1);
 				}
 				return r_PGPU;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 			{
 				if(r_Mop_Implicit_ProfilerCategory == null)
 				{
-					r_Mop_Implicit_ProfilerCategory = new(typeof(Unity.Profiling.ProfilerCategory), "op_Implicit", 0, typeof(Unity.Profiling.ProfilerCategory));
+					r_Mop_Implicit_ProfilerCategory = new(Type, "op_Implicit", 0, typeof(Unity.Profiling.ProfilerCategory));
 				}
 				return r_Mop_Implicit_ProfilerCategory;
 			}
@@ -540,7 +541,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___parameters = new object[]{@category};
             var ___result = RMop_Implicit_ProfilerCategory.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -595,7 +596,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

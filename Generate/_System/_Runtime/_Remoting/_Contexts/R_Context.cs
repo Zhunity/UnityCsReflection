@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.Contexts.Context
 	/// </summary>
     public partial class RContext : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_Flocal_slots == null)
 				{
-					r_Flocal_slots = new(typeof(System.Runtime.Remoting.Contexts.Context), "local_slots");
+					r_Flocal_slots = new(Type, "local_slots");
 				}
 				return r_Flocal_slots;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_Fdefault_server_context_sink == null)
 				{
-					r_Fdefault_server_context_sink = new(typeof(System.Runtime.Remoting.Contexts.Context), "default_server_context_sink");
+					r_Fdefault_server_context_sink = new(Type, "default_server_context_sink");
 				}
 				return r_Fdefault_server_context_sink;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_Fglobal_count == null)
 				{
-					r_Fglobal_count = new(typeof(System.Runtime.Remoting.Contexts.Context), "global_count");
+					r_Fglobal_count = new(Type, "global_count");
 				}
 				return r_Fglobal_count;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_F_localDataStoreMgr == null)
 				{
-					r_F_localDataStoreMgr = new(typeof(System.Runtime.Remoting.Contexts.Context), "_localDataStoreMgr");
+					r_F_localDataStoreMgr = new(Type, "_localDataStoreMgr");
 				}
 				return r_F_localDataStoreMgr;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_Fglobal_dynamic_properties == null)
 				{
-					r_Fglobal_dynamic_properties = new(typeof(System.Runtime.Remoting.Contexts.Context), "global_dynamic_properties");
+					r_Fglobal_dynamic_properties = new(Type, "global_dynamic_properties");
 				}
 				return r_Fglobal_dynamic_properties;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_PDefaultContext == null)
 				{
-					r_PDefaultContext = new(typeof(System.Runtime.Remoting.Contexts.Context), "DefaultContext", -1);
+					r_PDefaultContext = new(Type, "DefaultContext", -1);
 				}
 				return r_PDefaultContext;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_PHasGlobalDynamicSinks == null)
 				{
-					r_PHasGlobalDynamicSinks = new(typeof(System.Runtime.Remoting.Contexts.Context), "HasGlobalDynamicSinks", -1);
+					r_PHasGlobalDynamicSinks = new(Type, "HasGlobalDynamicSinks", -1);
 				}
 				return r_PHasGlobalDynamicSinks;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MRegisterContext_Context == null)
 				{
-					r_MRegisterContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "RegisterContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MRegisterContext_Context = new(Type, "RegisterContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MRegisterContext_Context;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MReleaseContext_Context == null)
 				{
-					r_MReleaseContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "ReleaseContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MReleaseContext_Context = new(Type, "ReleaseContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MReleaseContext_Context;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context == null)
 				{
-					r_MRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context = new(Type, "RegisterDynamicProperty", 0, typeof(System.Runtime.Remoting.Contexts.IDynamicProperty), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MUnregisterDynamicProperty_String_ContextBoundObject_Context == null)
 				{
-					r_MUnregisterDynamicProperty_String_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "UnregisterDynamicProperty", 0, typeof(System.String), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MUnregisterDynamicProperty_String_ContextBoundObject_Context = new(Type, "UnregisterDynamicProperty", 0, typeof(System.String), typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MUnregisterDynamicProperty_String_ContextBoundObject_Context;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MGetDynamicPropertyCollection_ContextBoundObject_Context == null)
 				{
-					r_MGetDynamicPropertyCollection_ContextBoundObject_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetDynamicPropertyCollection", 0, typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MGetDynamicPropertyCollection_ContextBoundObject_Context = new(Type, "GetDynamicPropertyCollection", 0, typeof(System.ContextBoundObject), typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MGetDynamicPropertyCollection_ContextBoundObject_Context;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean == null)
 				{
-					r_MNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean = new(typeof(System.Runtime.Remoting.Contexts.Context), "NotifyGlobalDynamicSinks", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
+					r_MNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean = new(Type, "NotifyGlobalDynamicSinks", 0, typeof(System.Boolean), typeof(System.Runtime.Remoting.Messaging.IMessage), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MNotifyGlobalDynamicSinks_Boolean_IMessage_Boolean_Boolean;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MSwitchToContext_Context == null)
 				{
-					r_MSwitchToContext_Context = new(typeof(System.Runtime.Remoting.Contexts.Context), "SwitchToContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MSwitchToContext_Context = new(Type, "SwitchToContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MSwitchToContext_Context;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MCreateNewContext_IConstructionCallMessage == null)
 				{
-					r_MCreateNewContext_IConstructionCallMessage = new(typeof(System.Runtime.Remoting.Contexts.Context), "CreateNewContext", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
+					r_MCreateNewContext_IConstructionCallMessage = new(Type, "CreateNewContext", 0, typeof(System.Runtime.Remoting.Activation.IConstructionCallMessage));
 				}
 				return r_MCreateNewContext_IConstructionCallMessage;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MAllocateDataSlot == null)
 				{
-					r_MAllocateDataSlot = new(typeof(System.Runtime.Remoting.Contexts.Context), "AllocateDataSlot", 0);
+					r_MAllocateDataSlot = new(Type, "AllocateDataSlot", 0);
 				}
 				return r_MAllocateDataSlot;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MAllocateNamedDataSlot_String == null)
 				{
-					r_MAllocateNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "AllocateNamedDataSlot", 0, typeof(System.String));
+					r_MAllocateNamedDataSlot_String = new(Type, "AllocateNamedDataSlot", 0, typeof(System.String));
 				}
 				return r_MAllocateNamedDataSlot_String;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MFreeNamedDataSlot_String == null)
 				{
-					r_MFreeNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "FreeNamedDataSlot", 0, typeof(System.String));
+					r_MFreeNamedDataSlot_String = new(Type, "FreeNamedDataSlot", 0, typeof(System.String));
 				}
 				return r_MFreeNamedDataSlot_String;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MGetNamedDataSlot_String == null)
 				{
-					r_MGetNamedDataSlot_String = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetNamedDataSlot", 0, typeof(System.String));
+					r_MGetNamedDataSlot_String = new(Type, "GetNamedDataSlot", 0, typeof(System.String));
 				}
 				return r_MGetNamedDataSlot_String;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MGetData_LocalDataStoreSlot == null)
 				{
-					r_MGetData_LocalDataStoreSlot = new(typeof(System.Runtime.Remoting.Contexts.Context), "GetData", 0, typeof(System.LocalDataStoreSlot));
+					r_MGetData_LocalDataStoreSlot = new(Type, "GetData", 0, typeof(System.LocalDataStoreSlot));
 				}
 				return r_MGetData_LocalDataStoreSlot;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 			{
 				if(r_MSetData_LocalDataStoreSlot_Object == null)
 				{
-					r_MSetData_LocalDataStoreSlot_Object = new(typeof(System.Runtime.Remoting.Contexts.Context), "SetData", 0, typeof(System.LocalDataStoreSlot), typeof(System.Object));
+					r_MSetData_LocalDataStoreSlot_Object = new(Type, "SetData", 0, typeof(System.LocalDataStoreSlot), typeof(System.Object));
 				}
 				return r_MSetData_LocalDataStoreSlot_Object;
 			}
@@ -925,7 +926,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@prop, @obj, @ctx};
             var ___result = RMRegisterDynamicProperty_IDynamicProperty_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -936,7 +937,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@name, @obj, @ctx};
             var ___result = RMUnregisterDynamicProperty_String_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -947,7 +948,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@obj, @ctx};
             var ___result = RMGetDynamicPropertyCollection_ContextBoundObject_Context.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts.RDynamicPropertyCollection>(___result);
         }
 
 
@@ -980,7 +981,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@name};
             var ___result = RMGetProperty_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Contexts.IContextProperty)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.IContextProperty>(___result);
         }
 
 
@@ -1013,7 +1014,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1024,7 +1025,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMGetServerContextSinkChain.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.IMessageSink)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
         }
 
 
@@ -1035,7 +1036,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMGetClientContextSinkChain.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.IMessageSink)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
         }
 
 
@@ -1046,7 +1047,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@obj, @forceInternalExecute};
             var ___result = RMCreateServerObjectSinkChain_MarshalByRefObject_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.IMessageSink)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
         }
 
 
@@ -1057,7 +1058,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@serverObject};
             var ___result = RMCreateEnvoySink_MarshalByRefObject.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.IMessageSink)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageSink>(___result);
         }
 
 
@@ -1068,7 +1069,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@newContext};
             var ___result = RMSwitchToContext_Context.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Contexts.Context)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
         }
 
 
@@ -1079,7 +1080,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@msg};
             var ___result = RMCreateNewContext_IConstructionCallMessage.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Contexts.Context)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
         }
 
 
@@ -1101,7 +1102,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -1112,7 +1113,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@name};
             var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@name};
             var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -1145,7 +1146,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@slot};
             var ___result = RMGetData_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1167,7 +1168,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1178,7 +1179,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1189,7 +1190,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1200,7 +1201,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

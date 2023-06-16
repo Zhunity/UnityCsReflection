@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Cryptography.KeySizes
 	/// </summary>
     public partial class RKeySizes : RMember //
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_MIsLegalKeySize_KeySizesArray_Int32 == null)
 				{
-					r_MIsLegalKeySize_KeySizesArray_Int32 = new(typeof(System.Security.Cryptography.KeySizes), "IsLegalKeySize", 0, typeof(System.Security.Cryptography.KeySizes).MakeArrayType(), typeof(System.Int32));
+					r_MIsLegalKeySize_KeySizesArray_Int32 = new(Type, "IsLegalKeySize", 0, typeof(System.Security.Cryptography.KeySizes).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MIsLegalKeySize_KeySizesArray_Int32;
 			}
@@ -268,7 +269,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@keySize};
             var ___result = RMIsLegal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -279,7 +280,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@legalKeys, @size};
             var ___result = RMIsLegalKeySize_KeySizesArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -290,7 +291,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -312,7 +313,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -323,7 +324,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -345,7 +346,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Principal.IdentityReference
 	/// </summary>
     public partial class RIdentityReference : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_Mop_Equality_IdentityReference_IdentityReference == null)
 				{
-					r_Mop_Equality_IdentityReference_IdentityReference = new(typeof(System.Security.Principal.IdentityReference), "op_Equality", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Security.Principal.IdentityReference));
+					r_Mop_Equality_IdentityReference_IdentityReference = new(Type, "op_Equality", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Security.Principal.IdentityReference));
 				}
 				return r_Mop_Equality_IdentityReference_IdentityReference;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_Mop_Inequality_IdentityReference_IdentityReference == null)
 				{
-					r_Mop_Inequality_IdentityReference_IdentityReference = new(typeof(System.Security.Principal.IdentityReference), "op_Inequality", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Security.Principal.IdentityReference));
+					r_Mop_Inequality_IdentityReference_IdentityReference = new(Type, "op_Inequality", 0, typeof(System.Security.Principal.IdentityReference), typeof(System.Security.Principal.IdentityReference));
 				}
 				return r_Mop_Inequality_IdentityReference_IdentityReference;
 			}
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -242,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@targetType};
             var ___result = RMIsValidTargetType_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@targetType};
             var ___result = RMTranslate_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Principal.IdentityReference)___result;
+            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
         }
 
 
@@ -275,7 +276,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_IdentityReference_IdentityReference.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_IdentityReference_IdentityReference.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -308,7 +309,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -319,7 +320,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

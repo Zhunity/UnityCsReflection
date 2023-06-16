@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.UIElements.SerializableJsonDictionary
 	/// </summary>
     public partial class RSerializableJsonDictionary : RMember //
@@ -407,7 +408,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{@key};
             var ___result = RMGet_GT_String.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -418,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{@key};
             var ___result = RMGetScriptable_GT_String.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -440,7 +441,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{@key};
             var ___result = RMContainsKey_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -473,7 +474,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{@i};
             var ___result = RM__0__OnAfterDeserialize__1__b__9_0_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -484,7 +485,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{@i};
             var ___result = RM__0__OnAfterDeserialize__1__b__9_1_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -506,7 +507,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -517,7 +518,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -528,7 +529,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -539,7 +540,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -561,7 +562,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -572,7 +573,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

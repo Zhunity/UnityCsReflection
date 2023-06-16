@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.SynchronizationContext
 	/// </summary>
     public partial class RSynchronizationContext : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cachedPreparedType1 == null)
 				{
-					r_Fs_cachedPreparedType1 = new(typeof(System.Threading.SynchronizationContext), "s_cachedPreparedType1");
+					r_Fs_cachedPreparedType1 = new(Type, "s_cachedPreparedType1");
 				}
 				return r_Fs_cachedPreparedType1;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cachedPreparedType2 == null)
 				{
-					r_Fs_cachedPreparedType2 = new(typeof(System.Threading.SynchronizationContext), "s_cachedPreparedType2");
+					r_Fs_cachedPreparedType2 = new(Type, "s_cachedPreparedType2");
 				}
 				return r_Fs_cachedPreparedType2;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cachedPreparedType3 == null)
 				{
-					r_Fs_cachedPreparedType3 = new(typeof(System.Threading.SynchronizationContext), "s_cachedPreparedType3");
+					r_Fs_cachedPreparedType3 = new(Type, "s_cachedPreparedType3");
 				}
 				return r_Fs_cachedPreparedType3;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cachedPreparedType4 == null)
 				{
-					r_Fs_cachedPreparedType4 = new(typeof(System.Threading.SynchronizationContext), "s_cachedPreparedType4");
+					r_Fs_cachedPreparedType4 = new(Type, "s_cachedPreparedType4");
 				}
 				return r_Fs_cachedPreparedType4;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cachedPreparedType5 == null)
 				{
-					r_Fs_cachedPreparedType5 = new(typeof(System.Threading.SynchronizationContext), "s_cachedPreparedType5");
+					r_Fs_cachedPreparedType5 = new(Type, "s_cachedPreparedType5");
 				}
 				return r_Fs_cachedPreparedType5;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrent == null)
 				{
-					r_PCurrent = new(typeof(System.Threading.SynchronizationContext), "Current", -1);
+					r_PCurrent = new(Type, "Current", -1);
 				}
 				return r_PCurrent;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrentNoFlow == null)
 				{
-					r_PCurrentNoFlow = new(typeof(System.Threading.SynchronizationContext), "CurrentNoFlow", -1);
+					r_PCurrentNoFlow = new(Type, "CurrentNoFlow", -1);
 				}
 				return r_PCurrentNoFlow;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrentExplicit == null)
 				{
-					r_PCurrentExplicit = new(typeof(System.Threading.SynchronizationContext), "CurrentExplicit", -1);
+					r_PCurrentExplicit = new(Type, "CurrentExplicit", -1);
 				}
 				return r_PCurrentExplicit;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitHelper_IntPtrArray_Boolean_Int32 == null)
 				{
-					r_MWaitHelper_IntPtrArray_Boolean_Int32 = new(typeof(System.Threading.SynchronizationContext), "WaitHelper", 0, typeof(System.IntPtr).MakeArrayType(), typeof(System.Boolean), typeof(System.Int32));
+					r_MWaitHelper_IntPtrArray_Boolean_Int32 = new(Type, "WaitHelper", 0, typeof(System.IntPtr).MakeArrayType(), typeof(System.Boolean), typeof(System.Int32));
 				}
 				return r_MWaitHelper_IntPtrArray_Boolean_Int32;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetSynchronizationContext_SynchronizationContext == null)
 				{
-					r_MSetSynchronizationContext_SynchronizationContext = new(typeof(System.Threading.SynchronizationContext), "SetSynchronizationContext", 0, typeof(System.Threading.SynchronizationContext));
+					r_MSetSynchronizationContext_SynchronizationContext = new(Type, "SetSynchronizationContext", 0, typeof(System.Threading.SynchronizationContext));
 				}
 				return r_MSetSynchronizationContext_SynchronizationContext;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetThreadLocalContext == null)
 				{
-					r_MGetThreadLocalContext = new(typeof(System.Threading.SynchronizationContext), "GetThreadLocalContext", 0);
+					r_MGetThreadLocalContext = new(Type, "GetThreadLocalContext", 0);
 				}
 				return r_MGetThreadLocalContext;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32 == null)
 				{
-					r_MInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32 = new(typeof(System.Threading.SynchronizationContext), "InvokeWaitMethodHelper", 0, typeof(System.Threading.SynchronizationContext), typeof(System.IntPtr).MakeArrayType(), typeof(System.Boolean), typeof(System.Int32));
+					r_MInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32 = new(Type, "InvokeWaitMethodHelper", 0, typeof(System.Threading.SynchronizationContext), typeof(System.IntPtr).MakeArrayType(), typeof(System.Boolean), typeof(System.Int32));
 				}
 				return r_MInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32;
 			}
@@ -487,7 +488,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMIsWaitNotificationRequired.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @waitAll, @millisecondsTimeout};
             var ___result = RMWait_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -553,7 +554,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @waitAll, @millisecondsTimeout};
             var ___result = RMWaitHelper_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -575,7 +576,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetThreadLocalContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.SynchronizationContext)___result;
+            return ReflectionUtils.Convert<System.Threading.SynchronizationContext>(___result);
         }
 
 
@@ -586,7 +587,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.SynchronizationContext)___result;
+            return ReflectionUtils.Convert<System.Threading.SynchronizationContext>(___result);
         }
 
 
@@ -597,7 +598,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@syncContext, @waitHandles, @waitAll, @millisecondsTimeout};
             var ___result = RMInvokeWaitMethodHelper_SynchronizationContext_IntPtrArray_Boolean_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -608,7 +609,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -630,7 +631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -641,7 +642,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -652,7 +653,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -663,7 +664,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.Sources.IValueTaskSource`1
 	/// </summary>
     public partial class RIValueTaskSource<TResult> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Threading.Tasks.Sources.IValueTaskSource`1").MakeGenericType(typeof(TResult));
+                return  ReflectionUtils.GetType("System.Threading.Tasks.Sources.IValueTaskSource`1").MakeGenericType(ReflectionUtils.GetType(typeof(TResult)));
             }
         }
 
@@ -92,7 +93,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
             var ___parameters = new object[]{@token};
             var ___result = RMGetStatus_Int16.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Sources.ValueTaskSourceStatus)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Sources.ValueTaskSourceStatus>(___result);
         }
 
 
@@ -114,7 +115,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
             var ___parameters = new object[]{@token};
             var ___result = RMGetResult_Int16.Invoke(___genericsType, ___parameters);
 
-            return (TResult)___result;
+            return ReflectionUtils.Convert<TResult>(___result);
         }
 
 

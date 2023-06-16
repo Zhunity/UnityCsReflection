@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue
 	/// </summary>
     public partial class RAssetStoreCallQueue : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_CheckUpdateChunkSize == null)
 				{
-					r_Fk_CheckUpdateChunkSize = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue"), "k_CheckUpdateChunkSize");
+					r_Fk_CheckUpdateChunkSize = new(Type, "k_CheckUpdateChunkSize");
 				}
 				return r_Fk_CheckUpdateChunkSize;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_FetchDetailsCountPerUpdate == null)
 				{
-					r_Fk_FetchDetailsCountPerUpdate = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue"), "k_FetchDetailsCountPerUpdate");
+					r_Fk_FetchDetailsCountPerUpdate = new(Type, "k_FetchDetailsCountPerUpdate");
 				}
 				return r_Fk_FetchDetailsCountPerUpdate;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_MaxFetchDetailsCount == null)
 				{
-					r_Fk_MaxFetchDetailsCount = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCallQueue"), "k_MaxFetchDetailsCount");
+					r_Fk_MaxFetchDetailsCount = new(Type, "k_MaxFetchDetailsCount");
 				}
 				return r_Fk_MaxFetchDetailsCount;
 			}
@@ -1069,7 +1070,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@info.Value};
             var ___result = RM__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1091,7 +1092,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@info.Value};
             var ___result = RM__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1124,7 +1125,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1135,7 +1136,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1146,7 +1147,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1157,7 +1158,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

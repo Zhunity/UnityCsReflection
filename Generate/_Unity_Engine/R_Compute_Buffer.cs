@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.ComputeBuffer
 	/// </summary>
     public partial class RComputeBuffer : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode == null)
 				{
-					r_MInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode = new(typeof(UnityEngine.ComputeBuffer), "InitBuffer", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.ComputeBufferType), typeof(UnityEngine.ComputeBufferMode));
+					r_MInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode = new(Type, "InitBuffer", 0, typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.ComputeBufferType), typeof(UnityEngine.ComputeBufferMode));
 				}
 				return r_MInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroyBuffer_ComputeBuffer == null)
 				{
-					r_MDestroyBuffer_ComputeBuffer = new(typeof(UnityEngine.ComputeBuffer), "DestroyBuffer", 0, typeof(UnityEngine.ComputeBuffer));
+					r_MDestroyBuffer_ComputeBuffer = new(Type, "DestroyBuffer", 0, typeof(UnityEngine.ComputeBuffer));
 				}
 				return r_MDestroyBuffer_ComputeBuffer;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsValidBuffer_ComputeBuffer == null)
 				{
-					r_MIsValidBuffer_ComputeBuffer = new(typeof(UnityEngine.ComputeBuffer), "IsValidBuffer", 0, typeof(UnityEngine.ComputeBuffer));
+					r_MIsValidBuffer_ComputeBuffer = new(Type, "IsValidBuffer", 0, typeof(UnityEngine.ComputeBuffer));
 				}
 				return r_MIsValidBuffer_ComputeBuffer;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCopyCount_ComputeBuffer_ComputeBuffer_Int32 == null)
 				{
-					r_MCopyCount_ComputeBuffer_ComputeBuffer_Int32 = new(typeof(UnityEngine.ComputeBuffer), "CopyCount", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
+					r_MCopyCount_ComputeBuffer_ComputeBuffer_Int32 = new(Type, "CopyCount", 0, typeof(UnityEngine.ComputeBuffer), typeof(UnityEngine.ComputeBuffer), typeof(System.Int32));
 				}
 				return r_MCopyCount_ComputeBuffer_ComputeBuffer_Int32;
 			}
@@ -717,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@count, @stride, @type, @usage};
             var ___result = RMInitBuffer_Int32_Int32_ComputeBufferType_ComputeBufferMode.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@buf};
             var ___result = RMIsValidBuffer_ComputeBuffer.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -761,7 +762,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -904,7 +905,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@computeBufferStartIndex, @count};
             var ___result = RMBeginWrite_GT_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -970,7 +971,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeBufferPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1003,7 +1004,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1014,7 +1015,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1025,7 +1026,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1036,7 +1037,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1047,7 +1048,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

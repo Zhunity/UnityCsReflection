@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.ShaderTagId
 	/// </summary>
     public partial class RShaderTagId : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fnone == null)
 				{
-					r_Fnone = new(typeof(UnityEngine.Rendering.ShaderTagId), "none");
+					r_Fnone = new(Type, "none");
 				}
 				return r_Fnone;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_ShaderTagId_ShaderTagId == null)
 				{
-					r_Mop_Equality_ShaderTagId_ShaderTagId = new(typeof(UnityEngine.Rendering.ShaderTagId), "op_Equality", 0, typeof(UnityEngine.Rendering.ShaderTagId), typeof(UnityEngine.Rendering.ShaderTagId));
+					r_Mop_Equality_ShaderTagId_ShaderTagId = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.ShaderTagId), typeof(UnityEngine.Rendering.ShaderTagId));
 				}
 				return r_Mop_Equality_ShaderTagId_ShaderTagId;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_ShaderTagId_ShaderTagId == null)
 				{
-					r_Mop_Inequality_ShaderTagId_ShaderTagId = new(typeof(UnityEngine.Rendering.ShaderTagId), "op_Inequality", 0, typeof(UnityEngine.Rendering.ShaderTagId), typeof(UnityEngine.Rendering.ShaderTagId));
+					r_Mop_Inequality_ShaderTagId_ShaderTagId = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.ShaderTagId), typeof(UnityEngine.Rendering.ShaderTagId));
 				}
 				return r_Mop_Inequality_ShaderTagId_ShaderTagId;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Explicit_String == null)
 				{
-					r_Mop_Explicit_String = new(typeof(UnityEngine.Rendering.ShaderTagId), "op_Explicit", 0, typeof(System.String));
+					r_Mop_Explicit_String = new(Type, "op_Explicit", 0, typeof(System.String));
 				}
 				return r_Mop_Explicit_String;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Explicit_ShaderTagId == null)
 				{
-					r_Mop_Explicit_ShaderTagId = new(typeof(UnityEngine.Rendering.ShaderTagId), "op_Explicit", 0, typeof(UnityEngine.Rendering.ShaderTagId));
+					r_Mop_Explicit_ShaderTagId = new(Type, "op_Explicit", 0, typeof(UnityEngine.Rendering.ShaderTagId));
 				}
 				return r_Mop_Explicit_ShaderTagId;
 			}
@@ -284,7 +285,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -295,7 +296,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_ShaderTagId.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -306,7 +307,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -317,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@tag1, @tag2};
             var ___result = RMop_Equality_ShaderTagId_ShaderTagId.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -328,7 +329,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@tag1, @tag2};
             var ___result = RMop_Inequality_ShaderTagId_ShaderTagId.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -339,7 +340,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@name};
             var ___result = RMop_Explicit_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.ShaderTagId)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.ShaderTagId>(___result);
         }
 
 
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@tagId};
             var ___result = RMop_Explicit_ShaderTagId.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -361,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -383,7 +384,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -394,7 +395,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

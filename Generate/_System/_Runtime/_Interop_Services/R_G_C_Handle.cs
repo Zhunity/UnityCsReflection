@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.InteropServices.GCHandle
 	/// </summary>
     public partial class RGCHandle : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MAlloc_Object == null)
 				{
-					r_MAlloc_Object = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object));
+					r_MAlloc_Object = new(Type, "Alloc", 0, typeof(System.Object));
 				}
 				return r_MAlloc_Object;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MAlloc_Object_GCHandleType == null)
 				{
-					r_MAlloc_Object_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "Alloc", 0, typeof(System.Object), typeof(System.Runtime.InteropServices.GCHandleType));
+					r_MAlloc_Object_GCHandleType = new(Type, "Alloc", 0, typeof(System.Object), typeof(System.Runtime.InteropServices.GCHandleType));
 				}
 				return r_MAlloc_Object_GCHandleType;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_Mop_Explicit_GCHandle == null)
 				{
-					r_Mop_Explicit_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.Runtime.InteropServices.GCHandle));
+					r_Mop_Explicit_GCHandle = new(Type, "op_Explicit", 0, typeof(System.Runtime.InteropServices.GCHandle));
 				}
 				return r_Mop_Explicit_GCHandle;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_Mop_Explicit_IntPtr == null)
 				{
-					r_Mop_Explicit_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Explicit", 0, typeof(System.IntPtr));
+					r_Mop_Explicit_IntPtr = new(Type, "op_Explicit", 0, typeof(System.IntPtr));
 				}
 				return r_Mop_Explicit_IntPtr;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MCheckCurrentDomain_IntPtr == null)
 				{
-					r_MCheckCurrentDomain_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "CheckCurrentDomain", 0, typeof(System.IntPtr));
+					r_MCheckCurrentDomain_IntPtr = new(Type, "CheckCurrentDomain", 0, typeof(System.IntPtr));
 				}
 				return r_MCheckCurrentDomain_IntPtr;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MGetTarget_IntPtr == null)
 				{
-					r_MGetTarget_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTarget", 0, typeof(System.IntPtr));
+					r_MGetTarget_IntPtr = new(Type, "GetTarget", 0, typeof(System.IntPtr));
 				}
 				return r_MGetTarget_IntPtr;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MGetTargetHandle_Object_IntPtr_GCHandleType == null)
 				{
-					r_MGetTargetHandle_Object_IntPtr_GCHandleType = new(typeof(System.Runtime.InteropServices.GCHandle), "GetTargetHandle", 0, typeof(System.Object), typeof(System.IntPtr), typeof(System.Runtime.InteropServices.GCHandleType));
+					r_MGetTargetHandle_Object_IntPtr_GCHandleType = new(Type, "GetTargetHandle", 0, typeof(System.Object), typeof(System.IntPtr), typeof(System.Runtime.InteropServices.GCHandleType));
 				}
 				return r_MGetTargetHandle_Object_IntPtr_GCHandleType;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MFreeHandle_IntPtr == null)
 				{
-					r_MFreeHandle_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FreeHandle", 0, typeof(System.IntPtr));
+					r_MFreeHandle_IntPtr = new(Type, "FreeHandle", 0, typeof(System.IntPtr));
 				}
 				return r_MFreeHandle_IntPtr;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MGetAddrOfPinnedObject_IntPtr == null)
 				{
-					r_MGetAddrOfPinnedObject_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "GetAddrOfPinnedObject", 0, typeof(System.IntPtr));
+					r_MGetAddrOfPinnedObject_IntPtr = new(Type, "GetAddrOfPinnedObject", 0, typeof(System.IntPtr));
 				}
 				return r_MGetAddrOfPinnedObject_IntPtr;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_Mop_Equality_GCHandle_GCHandle == null)
 				{
-					r_Mop_Equality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Equality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
+					r_Mop_Equality_GCHandle_GCHandle = new(Type, "op_Equality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
 				}
 				return r_Mop_Equality_GCHandle_GCHandle;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_Mop_Inequality_GCHandle_GCHandle == null)
 				{
-					r_Mop_Inequality_GCHandle_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "op_Inequality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
+					r_Mop_Inequality_GCHandle_GCHandle = new(Type, "op_Inequality", 0, typeof(System.Runtime.InteropServices.GCHandle), typeof(System.Runtime.InteropServices.GCHandle));
 				}
 				return r_Mop_Inequality_GCHandle_GCHandle;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MFromIntPtr_IntPtr == null)
 				{
-					r_MFromIntPtr_IntPtr = new(typeof(System.Runtime.InteropServices.GCHandle), "FromIntPtr", 0, typeof(System.IntPtr));
+					r_MFromIntPtr_IntPtr = new(Type, "FromIntPtr", 0, typeof(System.IntPtr));
 				}
 				return r_MFromIntPtr_IntPtr;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MToIntPtr_GCHandle == null)
 				{
-					r_MToIntPtr_GCHandle = new(typeof(System.Runtime.InteropServices.GCHandle), "ToIntPtr", 0, typeof(System.Runtime.InteropServices.GCHandle));
+					r_MToIntPtr_GCHandle = new(Type, "ToIntPtr", 0, typeof(System.Runtime.InteropServices.GCHandle));
 				}
 				return r_MToIntPtr_GCHandle;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMAddrOfPinnedObject.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@value};
             var ___result = RMAlloc_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.InteropServices.GCHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.InteropServices.GCHandle>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@value, @type};
             var ___result = RMAlloc_Object_GCHandleType.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.InteropServices.GCHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.InteropServices.GCHandle>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_GCHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.InteropServices.GCHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.InteropServices.GCHandle>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@handle};
             var ___result = RMCheckCurrentDomain_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@handle};
             var ___result = RMGetTarget_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@obj, @handle, @type};
             var ___result = RMGetTargetHandle_Object_IntPtr_GCHandleType.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -538,7 +539,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@handle};
             var ___result = RMGetAddrOfPinnedObject_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -549,7 +550,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Equality_GCHandle_GCHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Inequality_GCHandle_GCHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -571,7 +572,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -582,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -593,7 +594,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@value};
             var ___result = RMFromIntPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.InteropServices.GCHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.InteropServices.GCHandle>(___result);
         }
 
 
@@ -604,7 +605,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@value};
             var ___result = RMToIntPtr_GCHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -615,7 +616,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -637,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -648,7 +649,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

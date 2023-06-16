@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditorInternal.ReorderableListWrapper
 	/// </summary>
     public partial class RReorderableListWrapper : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_Fs_ToolTipRect == null)
 				{
-					r_Fs_ToolTipRect = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableListWrapper"), "s_ToolTipRect");
+					r_Fs_ToolTipRect = new(Type, "s_ToolTipRect");
 				}
 				return r_Fs_ToolTipRect;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MGetPropertyIdentifier_SerializedProperty == null)
 				{
-					r_MGetPropertyIdentifier_SerializedProperty = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableListWrapper"), "GetPropertyIdentifier", 0, typeof(UnityEditor.SerializedProperty));
+					r_MGetPropertyIdentifier_SerializedProperty = new(Type, "GetPropertyIdentifier", 0, typeof(UnityEditor.SerializedProperty));
 				}
 				return r_MGetPropertyIdentifier_SerializedProperty;
 			}
@@ -412,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@serializedProperty};
             var ___result = RMGetPropertyIdentifier_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@list};
             var ___result = RM__0__Init__1__b__15_0_ReorderableList.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -489,7 +490,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@list};
             var ___result = RM__0__Init__1__b__15_1_ReorderableList.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -500,7 +501,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -522,7 +523,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -533,7 +534,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -544,7 +545,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -555,7 +556,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

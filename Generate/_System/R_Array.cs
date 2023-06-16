@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Array
 	/// </summary>
     public partial class RArray : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstance_Type_Int64Array == null)
 				{
-					r_MCreateInstance_Type_Int64Array = new(typeof(System.Array), "CreateInstance", 0, typeof(System.Type), typeof(System.Int64).MakeArrayType());
+					r_MCreateInstance_Type_Int64Array = new(Type, "CreateInstance", 0, typeof(System.Type), typeof(System.Int64).MakeArrayType());
 				}
 				return r_MCreateInstance_Type_Int64Array;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MAsReadOnly_GT_TArray == null)
 				{
-					r_MAsReadOnly_GT_TArray = new(typeof(System.Array), "AsReadOnly", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MAsReadOnly_GT_TArray = new(Type, "AsReadOnly", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MAsReadOnly_GT_TArray;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MResize_GT_Ref_TArray_Int32 == null)
 				{
-					r_MResize_GT_Ref_TArray_Int32 = new(typeof(System.Array), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
+					r_MResize_GT_Ref_TArray_Int32 = new(Type, "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
 				}
 				return r_MResize_GT_Ref_TArray_Int32;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCombineHashCodes_Int32_Int32 == null)
 				{
-					r_MCombineHashCodes_Int32_Int32 = new(typeof(System.Array), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MCombineHashCodes_Int32_Int32 = new(Type, "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCombineHashCodes_Int32_Int32;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_Array_Object == null)
 				{
-					r_MBinarySearch_Array_Object = new(typeof(System.Array), "BinarySearch", 0, typeof(System.Array), typeof(System.Object));
+					r_MBinarySearch_Array_Object = new(Type, "BinarySearch", 0, typeof(System.Array), typeof(System.Object));
 				}
 				return r_MBinarySearch_Array_Object;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_ == null)
 				{
-					r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_ = new(typeof(System.Array), "ConvertAll", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Converter`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
+					r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_ = new(Type, "ConvertAll", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Converter`2").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(1)));
 				}
 				return r_MConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopy_Array_Array_Int64 == null)
 				{
-					r_MCopy_Array_Array_Int64 = new(typeof(System.Array), "Copy", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int64));
+					r_MCopy_Array_Array_Int64 = new(Type, "Copy", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int64));
 				}
 				return r_MCopy_Array_Array_Int64;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopy_Array_Int64_Array_Int64_Int64 == null)
 				{
-					r_MCopy_Array_Int64_Array_Int64_Int64 = new(typeof(System.Array), "Copy", 0, typeof(System.Array), typeof(System.Int64), typeof(System.Array), typeof(System.Int64), typeof(System.Int64));
+					r_MCopy_Array_Int64_Array_Int64_Int64 = new(Type, "Copy", 0, typeof(System.Array), typeof(System.Int64), typeof(System.Array), typeof(System.Int64), typeof(System.Int64));
 				}
 				return r_MCopy_Array_Int64_Array_Int64_Int64;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MForEach_GT_TArray_Action_d_T_p_ == null)
 				{
-					r_MForEach_GT_TArray_Action_d_T_p_ = new(typeof(System.Array), "ForEach", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MForEach_GT_TArray_Action_d_T_p_ = new(Type, "ForEach", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MForEach_GT_TArray_Action_d_T_p_;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_Array_Int32_Int32_Object == null)
 				{
-					r_MBinarySearch_Array_Int32_Int32_Object = new(typeof(System.Array), "BinarySearch", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Object));
+					r_MBinarySearch_Array_Int32_Int32_Object = new(Type, "BinarySearch", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Object));
 				}
 				return r_MBinarySearch_Array_Int32_Int32_Object;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_Array_Object_IComparer == null)
 				{
-					r_MBinarySearch_Array_Object_IComparer = new(typeof(System.Array), "BinarySearch", 0, typeof(System.Array), typeof(System.Object), typeof(System.Collections.IComparer));
+					r_MBinarySearch_Array_Object_IComparer = new(Type, "BinarySearch", 0, typeof(System.Array), typeof(System.Object), typeof(System.Collections.IComparer));
 				}
 				return r_MBinarySearch_Array_Object_IComparer;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_Array_Int32_Int32_Object_IComparer == null)
 				{
-					r_MBinarySearch_Array_Int32_Int32_Object_IComparer = new(typeof(System.Array), "BinarySearch", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Object), typeof(System.Collections.IComparer));
+					r_MBinarySearch_Array_Int32_Int32_Object_IComparer = new(Type, "BinarySearch", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Object), typeof(System.Collections.IComparer));
 				}
 				return r_MBinarySearch_Array_Int32_Int32_Object_IComparer;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetMedian_Int32_Int32 == null)
 				{
-					r_MGetMedian_Int32_Int32 = new(typeof(System.Array), "GetMedian", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MGetMedian_Int32_Int32 = new(Type, "GetMedian", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MGetMedian_Int32_Int32;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_GT_TArray_T == null)
 				{
-					r_MBinarySearch_GT_TArray_T = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
+					r_MBinarySearch_GT_TArray_T = new(Type, "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MBinarySearch_GT_TArray_T;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_ == null)
 				{
-					r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_ = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_ = new(Type, "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MBinarySearch_GT_TArray_T_IComparer_d_T_p_;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_GT_TArray_Int32_Int32_T == null)
 				{
-					r_MBinarySearch_GT_TArray_Int32_Int32_T = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), Type.MakeGenericMethodParameter(0));
+					r_MBinarySearch_GT_TArray_Int32_Int32_T = new(Type, "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MBinarySearch_GT_TArray_Int32_Int32_T;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_ == null)
 				{
-					r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_ = new(typeof(System.Array), "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_ = new(Type, "BinarySearch", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32), Type.MakeGenericMethodParameter(0),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOf_Array_Object == null)
 				{
-					r_MIndexOf_Array_Object = new(typeof(System.Array), "IndexOf", 0, typeof(System.Array), typeof(System.Object));
+					r_MIndexOf_Array_Object = new(Type, "IndexOf", 0, typeof(System.Array), typeof(System.Object));
 				}
 				return r_MIndexOf_Array_Object;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOf_Array_Object_Int32 == null)
 				{
-					r_MIndexOf_Array_Object_Int32 = new(typeof(System.Array), "IndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32));
+					r_MIndexOf_Array_Object_Int32 = new(Type, "IndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32));
 				}
 				return r_MIndexOf_Array_Object_Int32;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOf_Array_Object_Int32_Int32 == null)
 				{
-					r_MIndexOf_Array_Object_Int32_Int32 = new(typeof(System.Array), "IndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32), typeof(System.Int32));
+					r_MIndexOf_Array_Object_Int32_Int32 = new(Type, "IndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MIndexOf_Array_Object_Int32_Int32;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOf_GT_TArray_T == null)
 				{
-					r_MIndexOf_GT_TArray_T = new(typeof(System.Array), "IndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
+					r_MIndexOf_GT_TArray_T = new(Type, "IndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MIndexOf_GT_TArray_T;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOf_GT_TArray_T_Int32 == null)
 				{
-					r_MIndexOf_GT_TArray_T_Int32 = new(typeof(System.Array), "IndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32));
+					r_MIndexOf_GT_TArray_T_Int32 = new(Type, "IndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32));
 				}
 				return r_MIndexOf_GT_TArray_T_Int32;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOf_GT_TArray_T_Int32_Int32 == null)
 				{
-					r_MIndexOf_GT_TArray_T_Int32_Int32 = new(typeof(System.Array), "IndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
+					r_MIndexOf_GT_TArray_T_Int32_Int32 = new(Type, "IndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MIndexOf_GT_TArray_T_Int32_Int32;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOf_Array_Object == null)
 				{
-					r_MLastIndexOf_Array_Object = new(typeof(System.Array), "LastIndexOf", 0, typeof(System.Array), typeof(System.Object));
+					r_MLastIndexOf_Array_Object = new(Type, "LastIndexOf", 0, typeof(System.Array), typeof(System.Object));
 				}
 				return r_MLastIndexOf_Array_Object;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOf_Array_Object_Int32 == null)
 				{
-					r_MLastIndexOf_Array_Object_Int32 = new(typeof(System.Array), "LastIndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32));
+					r_MLastIndexOf_Array_Object_Int32 = new(Type, "LastIndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32));
 				}
 				return r_MLastIndexOf_Array_Object_Int32;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOf_Array_Object_Int32_Int32 == null)
 				{
-					r_MLastIndexOf_Array_Object_Int32_Int32 = new(typeof(System.Array), "LastIndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32), typeof(System.Int32));
+					r_MLastIndexOf_Array_Object_Int32_Int32 = new(Type, "LastIndexOf", 0, typeof(System.Array), typeof(System.Object), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MLastIndexOf_Array_Object_Int32_Int32;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOf_GT_TArray_T == null)
 				{
-					r_MLastIndexOf_GT_TArray_T = new(typeof(System.Array), "LastIndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
+					r_MLastIndexOf_GT_TArray_T = new(Type, "LastIndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MLastIndexOf_GT_TArray_T;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOf_GT_TArray_T_Int32 == null)
 				{
-					r_MLastIndexOf_GT_TArray_T_Int32 = new(typeof(System.Array), "LastIndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32));
+					r_MLastIndexOf_GT_TArray_T_Int32 = new(Type, "LastIndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32));
 				}
 				return r_MLastIndexOf_GT_TArray_T_Int32;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOf_GT_TArray_T_Int32_Int32 == null)
 				{
-					r_MLastIndexOf_GT_TArray_T_Int32_Int32 = new(typeof(System.Array), "LastIndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
+					r_MLastIndexOf_GT_TArray_T_Int32_Int32 = new(Type, "LastIndexOf", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MLastIndexOf_GT_TArray_T_Int32_Int32;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReverse_Array == null)
 				{
-					r_MReverse_Array = new(typeof(System.Array), "Reverse", 0, typeof(System.Array));
+					r_MReverse_Array = new(Type, "Reverse", 0, typeof(System.Array));
 				}
 				return r_MReverse_Array;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReverse_Array_Int32_Int32 == null)
 				{
-					r_MReverse_Array_Int32_Int32 = new(typeof(System.Array), "Reverse", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MReverse_Array_Int32_Int32 = new(Type, "Reverse", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MReverse_Array_Int32_Int32;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReverse_GT_TArray == null)
 				{
-					r_MReverse_GT_TArray = new(typeof(System.Array), "Reverse", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MReverse_GT_TArray = new(Type, "Reverse", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MReverse_GT_TArray;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReverse_GT_TArray_Int32_Int32 == null)
 				{
-					r_MReverse_GT_TArray_Int32_Int32 = new(typeof(System.Array), "Reverse", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MReverse_GT_TArray_Int32_Int32 = new(Type, "Reverse", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MReverse_GT_TArray_Int32_Int32;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array == null)
 				{
-					r_MSort_Array = new(typeof(System.Array), "Sort", 0, typeof(System.Array));
+					r_MSort_Array = new(Type, "Sort", 0, typeof(System.Array));
 				}
 				return r_MSort_Array;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_Int32_Int32 == null)
 				{
-					r_MSort_Array_Int32_Int32 = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MSort_Array_Int32_Int32 = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSort_Array_Int32_Int32;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_IComparer == null)
 				{
-					r_MSort_Array_IComparer = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Collections.IComparer));
+					r_MSort_Array_IComparer = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Collections.IComparer));
 				}
 				return r_MSort_Array_IComparer;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_Int32_Int32_IComparer == null)
 				{
-					r_MSort_Array_Int32_Int32_IComparer = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.IComparer));
+					r_MSort_Array_Int32_Int32_IComparer = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.IComparer));
 				}
 				return r_MSort_Array_Int32_Int32_IComparer;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_Array == null)
 				{
-					r_MSort_Array_Array = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Array));
+					r_MSort_Array_Array = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Array));
 				}
 				return r_MSort_Array_Array;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_Array_IComparer == null)
 				{
-					r_MSort_Array_Array_IComparer = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Array), typeof(System.Collections.IComparer));
+					r_MSort_Array_Array_IComparer = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Array), typeof(System.Collections.IComparer));
 				}
 				return r_MSort_Array_Array_IComparer;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_Array_Int32_Int32 == null)
 				{
-					r_MSort_Array_Array_Int32_Int32 = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MSort_Array_Array_Int32_Int32 = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSort_Array_Array_Int32_Int32;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_Array_Array_Int32_Int32_IComparer == null)
 				{
-					r_MSort_Array_Array_Int32_Int32_IComparer = new(typeof(System.Array), "Sort", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.IComparer));
+					r_MSort_Array_Array_Int32_Int32_IComparer = new(Type, "Sort", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.IComparer));
 				}
 				return r_MSort_Array_Array_Int32_Int32_IComparer;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray == null)
 				{
-					r_MSort_GT_TArray = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MSort_GT_TArray = new(Type, "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MSort_GT_TArray;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_Int32_Int32 == null)
 				{
-					r_MSort_GT_TArray_Int32_Int32 = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MSort_GT_TArray_Int32_Int32 = new(Type, "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSort_GT_TArray_Int32_Int32;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_IComparer_d_T_p_ == null)
 				{
-					r_MSort_GT_TArray_IComparer_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GT_TArray_IComparer_d_T_p_ = new(Type, "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GT_TArray_IComparer_d_T_p_;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_ == null)
 				{
-					r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_ = new(Type, "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GT_TArray_Int32_Int32_IComparer_d_T_p_;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GT_TArray_Comparison_d_T_p_ == null)
 				{
-					r_MSort_GT_TArray_Comparison_d_T_p_ = new(typeof(System.Array), "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Comparison`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GT_TArray_Comparison_d_T_p_ = new(Type, "Sort", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Comparison`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GT_TArray_Comparison_d_T_p_;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GTKey_GTValue_TKeyArray_TValueArray == null)
 				{
-					r_MSort_GTKey_GTValue_TKeyArray_TValueArray = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType());
+					r_MSort_GTKey_GTValue_TKeyArray_TValueArray = new(Type, "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType());
 				}
 				return r_MSort_GTKey_GTValue_TKeyArray_TValueArray;
 			}
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32 == null)
 				{
-					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32 = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32 = new(Type, "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32;
 			}
@@ -1326,7 +1327,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_ == null)
 				{
-					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_ = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_ = new(Type, "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GTKey_GTValue_TKeyArray_TValueArray_IComparer_d_TKey_p_;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_ == null)
 				{
-					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_ = new(typeof(System.Array), "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_ = new(Type, "Sort", 2, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(1).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.IComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MSort_GTKey_GTValue_TKeyArray_TValueArray_Int32_Int32_IComparer_d_TKey_p_;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MExists_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MExists_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "Exists", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MExists_GT_TArray_Predicate_d_T_p_ = new(Type, "Exists", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MExists_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFill_GT_TArray_T == null)
 				{
-					r_MFill_GT_TArray_T = new(typeof(System.Array), "Fill", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
+					r_MFill_GT_TArray_T = new(Type, "Fill", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MFill_GT_TArray_T;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFill_GT_TArray_T_Int32_Int32 == null)
 				{
-					r_MFill_GT_TArray_T_Int32_Int32 = new(typeof(System.Array), "Fill", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
+					r_MFill_GT_TArray_T_Int32_Int32 = new(Type, "Fill", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MFill_GT_TArray_T_Int32_Int32;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFind_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFind_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "Find", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFind_GT_TArray_Predicate_d_T_p_ = new(Type, "Find", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFind_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindAll_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindAll_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindAll_GT_TArray_Predicate_d_T_p_ = new(Type, "FindAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindAll_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindIndex_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindIndex_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindIndex_GT_TArray_Predicate_d_T_p_ = new(Type, "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindIndex_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(Type, "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindIndex_GT_TArray_Int32_Predicate_d_T_p_;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(Type, "FindIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_;
 			}
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLast_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindLast_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindLast", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLast_GT_TArray_Predicate_d_T_p_ = new(Type, "FindLast", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLast_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLastIndex_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MFindLastIndex_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLastIndex_GT_TArray_Predicate_d_T_p_ = new(Type, "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLastIndex_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_ = new(Type, "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ == null)
 				{
-					r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(typeof(System.Array), "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_ = new(Type, "FindLastIndex", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTrueForAll_GT_TArray_Predicate_d_T_p_ == null)
 				{
-					r_MTrueForAll_GT_TArray_Predicate_d_T_p_ = new(typeof(System.Array), "TrueForAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MTrueForAll_GT_TArray_Predicate_d_T_p_ = new(Type, "TrueForAll", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MTrueForAll_GT_TArray_Predicate_d_T_p_;
 			}
@@ -1838,7 +1839,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetGenericValue_icall_GT_Ref_Array_Int32_Out_T == null)
 				{
-					r_MGetGenericValue_icall_GT_Ref_Array_Int32_Out_T = new(typeof(System.Array), "GetGenericValue_icall", 1, typeof(System.Array).MakeByRefType(), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_MGetGenericValue_icall_GT_Ref_Array_Int32_Out_T = new(Type, "GetGenericValue_icall", 1, typeof(System.Array).MakeByRefType(), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeByRefType());
 				}
 				return r_MGetGenericValue_icall_GT_Ref_Array_Int32_Out_T;
 			}
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSetGenericValue_icall_GT_Ref_Array_Int32_Ref_T == null)
 				{
-					r_MSetGenericValue_icall_GT_Ref_Array_Int32_Ref_T = new(typeof(System.Array), "SetGenericValue_icall", 1, typeof(System.Array).MakeByRefType(), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_MSetGenericValue_icall_GT_Ref_Array_Int32_Ref_T = new(Type, "SetGenericValue_icall", 1, typeof(System.Array).MakeByRefType(), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeByRefType());
 				}
 				return r_MSetGenericValue_icall_GT_Ref_Array_Int32_Ref_T;
 			}
@@ -2014,7 +2015,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFastCopy_Array_Int32_Array_Int32_Int32 == null)
 				{
-					r_MFastCopy_Array_Int32_Array_Int32_Int32 = new(typeof(System.Array), "FastCopy", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MFastCopy_Array_Int32_Array_Int32_Int32 = new(Type, "FastCopy", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MFastCopy_Array_Int32_Array_Int32_Int32;
 			}
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstanceImpl_Type_Int32Array_Int32Array == null)
 				{
-					r_MCreateInstanceImpl_Type_Int32Array_Int32Array = new(typeof(System.Array), "CreateInstanceImpl", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
+					r_MCreateInstanceImpl_Type_Int32Array_Int32Array = new(Type, "CreateInstanceImpl", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
 				}
 				return r_MCreateInstanceImpl_Type_Int32Array_Int32Array;
 			}
@@ -2158,7 +2159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnsafeCreateInstance_Type_Int32Array_Int32Array == null)
 				{
-					r_MUnsafeCreateInstance_Type_Int32Array_Int32Array = new(typeof(System.Array), "UnsafeCreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
+					r_MUnsafeCreateInstance_Type_Int32Array_Int32Array = new(Type, "UnsafeCreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
 				}
 				return r_MUnsafeCreateInstance_Type_Int32Array_Int32Array;
 			}
@@ -2174,7 +2175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnsafeCreateInstance_Type_Int32_Int32 == null)
 				{
-					r_MUnsafeCreateInstance_Type_Int32_Int32 = new(typeof(System.Array), "UnsafeCreateInstance", 0, typeof(System.Type), typeof(System.Int32), typeof(System.Int32));
+					r_MUnsafeCreateInstance_Type_Int32_Int32 = new(Type, "UnsafeCreateInstance", 0, typeof(System.Type), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MUnsafeCreateInstance_Type_Int32_Int32;
 			}
@@ -2190,7 +2191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnsafeCreateInstance_Type_Int32Array == null)
 				{
-					r_MUnsafeCreateInstance_Type_Int32Array = new(typeof(System.Array), "UnsafeCreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType());
+					r_MUnsafeCreateInstance_Type_Int32Array = new(Type, "UnsafeCreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType());
 				}
 				return r_MUnsafeCreateInstance_Type_Int32Array;
 			}
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstance_Type_Int32 == null)
 				{
-					r_MCreateInstance_Type_Int32 = new(typeof(System.Array), "CreateInstance", 0, typeof(System.Type), typeof(System.Int32));
+					r_MCreateInstance_Type_Int32 = new(Type, "CreateInstance", 0, typeof(System.Type), typeof(System.Int32));
 				}
 				return r_MCreateInstance_Type_Int32;
 			}
@@ -2222,7 +2223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstance_Type_Int32_Int32 == null)
 				{
-					r_MCreateInstance_Type_Int32_Int32 = new(typeof(System.Array), "CreateInstance", 0, typeof(System.Type), typeof(System.Int32), typeof(System.Int32));
+					r_MCreateInstance_Type_Int32_Int32 = new(Type, "CreateInstance", 0, typeof(System.Type), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCreateInstance_Type_Int32_Int32;
 			}
@@ -2238,7 +2239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstance_Type_Int32_Int32_Int32 == null)
 				{
-					r_MCreateInstance_Type_Int32_Int32_Int32 = new(typeof(System.Array), "CreateInstance", 0, typeof(System.Type), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MCreateInstance_Type_Int32_Int32_Int32 = new(Type, "CreateInstance", 0, typeof(System.Type), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCreateInstance_Type_Int32_Int32_Int32;
 			}
@@ -2254,7 +2255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstance_Type_Int32Array == null)
 				{
-					r_MCreateInstance_Type_Int32Array = new(typeof(System.Array), "CreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType());
+					r_MCreateInstance_Type_Int32Array = new(Type, "CreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType());
 				}
 				return r_MCreateInstance_Type_Int32Array;
 			}
@@ -2270,7 +2271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateInstance_Type_Int32Array_Int32Array == null)
 				{
-					r_MCreateInstance_Type_Int32Array_Int32Array = new(typeof(System.Array), "CreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
+					r_MCreateInstance_Type_Int32Array_Int32Array = new(Type, "CreateInstance", 0, typeof(System.Type), typeof(System.Int32).MakeArrayType(), typeof(System.Int32).MakeArrayType());
 				}
 				return r_MCreateInstance_Type_Int32Array_Int32Array;
 			}
@@ -2286,7 +2287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MClear_Array_Int32_Int32 == null)
 				{
-					r_MClear_Array_Int32_Int32 = new(typeof(System.Array), "Clear", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MClear_Array_Int32_Int32 = new(Type, "Clear", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MClear_Array_Int32_Int32;
 			}
@@ -2302,7 +2303,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MClearInternal_Array_Int32_Int32 == null)
 				{
-					r_MClearInternal_Array_Int32_Int32 = new(typeof(System.Array), "ClearInternal", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MClearInternal_Array_Int32_Int32 = new(Type, "ClearInternal", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MClearInternal_Array_Int32_Int32;
 			}
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopy_Array_Array_Int32 == null)
 				{
-					r_MCopy_Array_Array_Int32 = new(typeof(System.Array), "Copy", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32));
+					r_MCopy_Array_Array_Int32 = new(Type, "Copy", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32));
 				}
 				return r_MCopy_Array_Array_Int32;
 			}
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCopy_Array_Int32_Array_Int32_Int32 == null)
 				{
-					r_MCopy_Array_Int32_Array_Int32_Int32 = new(typeof(System.Array), "Copy", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MCopy_Array_Int32_Array_Int32_Int32 = new(Type, "Copy", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopy_Array_Int32_Array_Int32_Int32;
 			}
@@ -2350,7 +2351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateArrayTypeMismatchException == null)
 				{
-					r_MCreateArrayTypeMismatchException = new(typeof(System.Array), "CreateArrayTypeMismatchException", 0);
+					r_MCreateArrayTypeMismatchException = new(Type, "CreateArrayTypeMismatchException", 0);
 				}
 				return r_MCreateArrayTypeMismatchException;
 			}
@@ -2366,7 +2367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCanAssignArrayElement_Type_Type == null)
 				{
-					r_MCanAssignArrayElement_Type_Type = new(typeof(System.Array), "CanAssignArrayElement", 0, typeof(System.Type), typeof(System.Type));
+					r_MCanAssignArrayElement_Type_Type = new(Type, "CanAssignArrayElement", 0, typeof(System.Type), typeof(System.Type));
 				}
 				return r_MCanAssignArrayElement_Type_Type;
 			}
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MConstrainedCopy_Array_Int32_Array_Int32_Int32 == null)
 				{
-					r_MConstrainedCopy_Array_Int32_Array_Int32_Int32 = new(typeof(System.Array), "ConstrainedCopy", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
+					r_MConstrainedCopy_Array_Int32_Array_Int32_Int32 = new(Type, "ConstrainedCopy", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Array), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MConstrainedCopy_Array_Int32_Array_Int32_Int32;
 			}
@@ -2398,7 +2399,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MEmpty_GT == null)
 				{
-					r_MEmpty_GT = new(typeof(System.Array), "Empty", 1);
+					r_MEmpty_GT = new(Type, "Empty", 1);
 				}
 				return r_MEmpty_GT;
 			}
@@ -2430,7 +2431,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIndexOfImpl_GT_TArray_T_Int32_Int32 == null)
 				{
-					r_MIndexOfImpl_GT_TArray_T_Int32_Int32 = new(typeof(System.Array), "IndexOfImpl", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
+					r_MIndexOfImpl_GT_TArray_T_Int32_Int32 = new(Type, "IndexOfImpl", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MIndexOfImpl_GT_TArray_T_Int32_Int32;
 			}
@@ -2446,7 +2447,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MLastIndexOfImpl_GT_TArray_T_Int32_Int32 == null)
 				{
-					r_MLastIndexOfImpl_GT_TArray_T_Int32_Int32 = new(typeof(System.Array), "LastIndexOfImpl", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
+					r_MLastIndexOfImpl_GT_TArray_T_Int32_Int32 = new(Type, "LastIndexOfImpl", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MLastIndexOfImpl_GT_TArray_T_Int32_Int32;
 			}
@@ -2462,7 +2463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSortImpl_Array_Array_Int32_Int32_IComparer == null)
 				{
-					r_MSortImpl_Array_Array_Int32_Int32_IComparer = new(typeof(System.Array), "SortImpl", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.IComparer));
+					r_MSortImpl_Array_Array_Int32_Int32_IComparer = new(Type, "SortImpl", 0, typeof(System.Array), typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Collections.IComparer));
 				}
 				return r_MSortImpl_Array_Array_Int32_Int32_IComparer;
 			}
@@ -2478,7 +2479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnsafeLoad_GT_TArray_Int32 == null)
 				{
-					r_MUnsafeLoad_GT_TArray_Int32 = new(typeof(System.Array), "UnsafeLoad", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
+					r_MUnsafeLoad_GT_TArray_Int32 = new(Type, "UnsafeLoad", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MUnsafeLoad_GT_TArray_Int32;
 			}
@@ -2494,7 +2495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnsafeStore_GT_TArray_Int32_T == null)
 				{
-					r_MUnsafeStore_GT_TArray_Int32_T = new(typeof(System.Array), "UnsafeStore", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), Type.MakeGenericMethodParameter(0));
+					r_MUnsafeStore_GT_TArray_Int32_T = new(Type, "UnsafeStore", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), Type.MakeGenericMethodParameter(0));
 				}
 				return r_MUnsafeStore_GT_TArray_Int32_T;
 			}
@@ -2510,7 +2511,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnsafeMov_GS_GR_S == null)
 				{
-					r_MUnsafeMov_GS_GR_S = new(typeof(System.Array), "UnsafeMov", 2, Type.MakeGenericMethodParameter(0));
+					r_MUnsafeMov_GS_GR_S = new(Type, "UnsafeMov", 2, Type.MakeGenericMethodParameter(0));
 				}
 				return r_MUnsafeMov_GS_GR_S;
 			}
@@ -2620,7 +2621,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @lengths};
             var ___result = RMCreateInstance_Type_Int64Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -2631,7 +2632,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array};
             var ___result = RMAsReadOnly_GT_TArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.ObjectModel.ReadOnlyCollection<T>)___result;
+            return ReflectionUtils.Convert<System.Collections.ObjectModel.ReadOnlyCollection<T>>(___result);
         }
 
 
@@ -2654,7 +2655,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__IList__2__Add_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2665,7 +2666,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__IList__2__Contains_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2687,7 +2688,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__IList__2__IndexOf_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2742,7 +2743,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2753,7 +2754,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@other, @comparer};
             var ___result = RMSystem__2__Collections__2__IStructuralComparable__2__CompareTo_Object_IComparer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2764,7 +2765,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@other, @comparer};
             var ___result = RMSystem__2__Collections__2__IStructuralEquatable__2__Equals_Object_IEqualityComparer.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2775,7 +2776,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@h1, @h2};
             var ___result = RMCombineHashCodes_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2786,7 +2787,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@comparer};
             var ___result = RMSystem__2__Collections__2__IStructuralEquatable__2__GetHashCode_IEqualityComparer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2797,7 +2798,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value};
             var ___result = RMBinarySearch_Array_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2808,7 +2809,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @converter};
             var ___result = RMConvertAll_GTInput_GTOutput_TInputArray_Converter_d_TInput_TOutput_p_.Invoke(___genericsType, ___parameters);
 
-            return (TOutput[])___result;
+            return ReflectionUtils.Convert<TOutput[]>(___result);
         }
 
 
@@ -2863,7 +2864,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@dimension};
             var ___result = RMGetLongLength_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2874,7 +2875,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index};
             var ___result = RMGetValue_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2885,7 +2886,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index1, @index2};
             var ___result = RMGetValue_Int64_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2896,7 +2897,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index1, @index2, @index3};
             var ___result = RMGetValue_Int64_Int64_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2907,7 +2908,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@indices};
             var ___result = RMGetValue_Int64Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2918,7 +2919,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @index, @length, @value};
             var ___result = RMBinarySearch_Array_Int32_Int32_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2929,7 +2930,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @comparer};
             var ___result = RMBinarySearch_Array_Object_IComparer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2940,7 +2941,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @index, @length, @value, @comparer};
             var ___result = RMBinarySearch_Array_Int32_Int32_Object_IComparer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2951,7 +2952,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@low, @hi};
             var ___result = RMGetMedian_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2962,7 +2963,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value};
             var ___result = RMBinarySearch_GT_TArray_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2973,7 +2974,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @comparer};
             var ___result = RMBinarySearch_GT_TArray_T_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2984,7 +2985,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @index, @length, @value};
             var ___result = RMBinarySearch_GT_TArray_Int32_Int32_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2995,7 +2996,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @index, @length, @value, @comparer};
             var ___result = RMBinarySearch_GT_TArray_Int32_Int32_T_IComparer_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3006,7 +3007,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value};
             var ___result = RMIndexOf_Array_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3017,7 +3018,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex};
             var ___result = RMIndexOf_Array_Object_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3028,7 +3029,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex, @count};
             var ___result = RMIndexOf_Array_Object_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3039,7 +3040,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value};
             var ___result = RMIndexOf_GT_TArray_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3050,7 +3051,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex};
             var ___result = RMIndexOf_GT_TArray_T_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3061,7 +3062,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex, @count};
             var ___result = RMIndexOf_GT_TArray_T_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3072,7 +3073,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value};
             var ___result = RMLastIndexOf_Array_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3083,7 +3084,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex};
             var ___result = RMLastIndexOf_Array_Object_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3094,7 +3095,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex, @count};
             var ___result = RMLastIndexOf_Array_Object_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3105,7 +3106,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value};
             var ___result = RMLastIndexOf_GT_TArray_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3116,7 +3117,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex};
             var ___result = RMLastIndexOf_GT_TArray_T_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3127,7 +3128,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex, @count};
             var ___result = RMLastIndexOf_GT_TArray_T_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3413,7 +3414,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMExists_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3446,7 +3447,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMFind_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -3457,7 +3458,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMFindAll_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -3468,7 +3469,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMFindIndex_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3479,7 +3480,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @startIndex, @match};
             var ___result = RMFindIndex_GT_TArray_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3490,7 +3491,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @startIndex, @count, @match};
             var ___result = RMFindIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3501,7 +3502,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMFindLast_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -3512,7 +3513,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMFindLastIndex_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3523,7 +3524,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @startIndex, @match};
             var ___result = RMFindLastIndex_GT_TArray_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3534,7 +3535,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @startIndex, @count, @match};
             var ___result = RMFindLastIndex_GT_TArray_Int32_Int32_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3545,7 +3546,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @match};
             var ___result = RMTrueForAll_GT_TArray_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3556,7 +3557,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -3567,7 +3568,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalArray__ICollection_get_Count.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3578,7 +3579,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalArray__ICollection_get_IsReadOnly.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3589,7 +3590,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetRawSzArrayData.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -3600,7 +3601,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalArray__IEnumerable_GetEnumerator_GT.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerator<T>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
         }
 
 
@@ -3633,7 +3634,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@item};
             var ___result = RMInternalArray__ICollection_Remove_GT_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3644,7 +3645,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@item};
             var ___result = RMInternalArray__ICollection_Contains_GT_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3666,7 +3667,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index};
             var ___result = RMInternalArray__IReadOnlyList_get_Item_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -3677,7 +3678,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalArray__IReadOnlyCollection_get_Count.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3710,7 +3711,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@item};
             var ___result = RMInternalArray__IndexOf_GT_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3721,7 +3722,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index};
             var ___result = RMInternalArray__get_Item_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -3795,7 +3796,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetRank.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3806,7 +3807,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@dimension};
             var ___result = RMGetLength_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3817,7 +3818,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@dimension};
             var ___result = RMGetLowerBound_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3828,7 +3829,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@indices};
             var ___result = RMGetValue_Int32Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3850,7 +3851,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@pos};
             var ___result = RMGetValueImpl_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3872,7 +3873,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@source, @source_idx, @dest, @dest_idx, @length};
             var ___result = RMFastCopy_Array_Int32_Array_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3883,7 +3884,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @lengths, @bounds};
             var ___result = RMCreateInstanceImpl_Type_Int32Array_Int32Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -3894,7 +3895,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@dimension};
             var ___result = RMGetUpperBound_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3905,7 +3906,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index};
             var ___result = RMGetValue_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3916,7 +3917,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index1, @index2};
             var ___result = RMGetValue_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3927,7 +3928,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@index1, @index2, @index3};
             var ___result = RMGetValue_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3971,7 +3972,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @lengths, @lowerBounds};
             var ___result = RMUnsafeCreateInstance_Type_Int32Array_Int32Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -3982,7 +3983,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @length1, @length2};
             var ___result = RMUnsafeCreateInstance_Type_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -3993,7 +3994,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @lengths};
             var ___result = RMUnsafeCreateInstance_Type_Int32Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -4004,7 +4005,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @length};
             var ___result = RMCreateInstance_Type_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -4015,7 +4016,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @length1, @length2};
             var ___result = RMCreateInstance_Type_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -4026,7 +4027,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @length1, @length2, @length3};
             var ___result = RMCreateInstance_Type_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -4037,7 +4038,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @lengths};
             var ___result = RMCreateInstance_Type_Int32Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -4048,7 +4049,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@elementType, @lengths, @lowerBounds};
             var ___result = RMCreateInstance_Type_Int32Array_Int32Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -4103,7 +4104,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMCreateArrayTypeMismatchException.Invoke(___genericsType, ___parameters);
 
-            return (System.ArrayTypeMismatchException)___result;
+            return ReflectionUtils.Convert<System.ArrayTypeMismatchException>(___result);
         }
 
 
@@ -4114,7 +4115,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@source, @target};
             var ___result = RMCanAssignArrayElement_Type_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -4136,7 +4137,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMEmpty_GT.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -4158,7 +4159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex, @count};
             var ___result = RMIndexOfImpl_GT_TArray_T_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4169,7 +4170,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @value, @startIndex, @count};
             var ___result = RMLastIndexOfImpl_GT_TArray_T_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4191,7 +4192,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array, @index};
             var ___result = RMUnsafeLoad_GT_TArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -4213,7 +4214,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@instance};
             var ___result = RMUnsafeMov_GS_GR_S.Invoke(___genericsType, ___parameters);
 
-            return (R)___result;
+            return ReflectionUtils.Convert<R>(___result);
         }
 
 
@@ -4224,7 +4225,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -4246,7 +4247,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4257,7 +4258,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -4268,7 +4269,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -4279,7 +4280,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

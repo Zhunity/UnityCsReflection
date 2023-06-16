@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.BoneWeight1
 	/// </summary>
     public partial class RBoneWeight1 : RMember //
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_BoneWeight1_BoneWeight1 == null)
 				{
-					r_Mop_Equality_BoneWeight1_BoneWeight1 = new(typeof(UnityEngine.BoneWeight1), "op_Equality", 0, typeof(UnityEngine.BoneWeight1), typeof(UnityEngine.BoneWeight1));
+					r_Mop_Equality_BoneWeight1_BoneWeight1 = new(Type, "op_Equality", 0, typeof(UnityEngine.BoneWeight1), typeof(UnityEngine.BoneWeight1));
 				}
 				return r_Mop_Equality_BoneWeight1_BoneWeight1;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_BoneWeight1_BoneWeight1 == null)
 				{
-					r_Mop_Inequality_BoneWeight1_BoneWeight1 = new(typeof(UnityEngine.BoneWeight1), "op_Inequality", 0, typeof(UnityEngine.BoneWeight1), typeof(UnityEngine.BoneWeight1));
+					r_Mop_Inequality_BoneWeight1_BoneWeight1 = new(Type, "op_Inequality", 0, typeof(UnityEngine.BoneWeight1), typeof(UnityEngine.BoneWeight1));
 				}
 				return r_Mop_Inequality_BoneWeight1_BoneWeight1;
 			}
@@ -252,7 +253,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -263,7 +264,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_BoneWeight1.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -274,7 +275,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -285,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_BoneWeight1_BoneWeight1.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -296,7 +297,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_BoneWeight1_BoneWeight1.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -307,7 +308,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -329,7 +330,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -340,7 +341,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

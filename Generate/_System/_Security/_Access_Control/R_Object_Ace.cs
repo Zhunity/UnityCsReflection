@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.ObjectAce
 	/// </summary>
     public partial class RObjectAce : RMember //
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_MMaxOpaqueLength_Boolean == null)
 				{
-					r_MMaxOpaqueLength_Boolean = new(typeof(System.Security.AccessControl.ObjectAce), "MaxOpaqueLength", 0, typeof(System.Boolean));
+					r_MMaxOpaqueLength_Boolean = new(Type, "MaxOpaqueLength", 0, typeof(System.Boolean));
 				}
 				return r_MMaxOpaqueLength_Boolean;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_MConvertType_AceQualifier_Boolean == null)
 				{
-					r_MConvertType_AceQualifier_Boolean = new(typeof(System.Security.AccessControl.ObjectAce), "ConvertType", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Boolean));
+					r_MConvertType_AceQualifier_Boolean = new(Type, "ConvertType", 0, typeof(System.Security.AccessControl.AceQualifier), typeof(System.Boolean));
 				}
 				return r_MConvertType_AceQualifier_Boolean;
 			}
@@ -615,7 +616,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@isCallback};
             var ___result = RMMaxOpaqueLength_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -626,7 +627,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -637,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@qualifier, @isCallback};
             var ___result = RMConvertType_AceQualifier_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AceType)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AceType>(___result);
         }
 
 
@@ -659,7 +660,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@buffer, @offset};
             var ___result = RMReadGuid_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Guid)___result;
+            return ReflectionUtils.Convert<System.Guid>(___result);
         }
 
 
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetOpaque.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -692,7 +693,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.GenericAce)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.GenericAce>(___result);
         }
 
 
@@ -703,7 +704,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -714,7 +715,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -736,7 +737,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -747,7 +748,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -758,7 +759,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

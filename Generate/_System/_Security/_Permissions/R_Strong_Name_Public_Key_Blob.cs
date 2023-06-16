@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Permissions.StrongNamePublicKeyBlob
 	/// </summary>
     public partial class RStrongNamePublicKeyBlob : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 			{
 				if(r_MFromString_String == null)
 				{
-					r_MFromString_String = new(typeof(System.Security.Permissions.StrongNamePublicKeyBlob), "FromString", 0, typeof(System.String));
+					r_MFromString_String = new(Type, "FromString", 0, typeof(System.String));
 				}
 				return r_MFromString_String;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
 			{
 				if(r_MCharToByte_Char == null)
 				{
-					r_MCharToByte_Char = new(typeof(System.Security.Permissions.StrongNamePublicKeyBlob), "CharToByte", 0, typeof(System.Char));
+					r_MCharToByte_Char = new(Type, "CharToByte", 0, typeof(System.Char));
 				}
 				return r_MCharToByte_Char;
 			}
@@ -188,7 +189,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{@s};
             var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Permissions.StrongNamePublicKeyBlob)___result;
+            return ReflectionUtils.Convert<System.Security.Permissions.StrongNamePublicKeyBlob>(___result);
         }
 
 
@@ -199,7 +200,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{@c};
             var ___result = RMCharToByte_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -210,7 +211,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -221,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -232,7 +233,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -265,7 +266,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPermissions
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.EditorDragging
 	/// </summary>
     public partial class REditorDragging : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fk_DraggingModeKey == null)
 				{
-					r_Fk_DraggingModeKey = new( ReflectionUtils.GetType("UnityEditor.EditorDragging"), "k_DraggingModeKey");
+					r_Fk_DraggingModeKey = new(Type, "k_DraggingModeKey");
 				}
 				return r_Fk_DraggingModeKey;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MDraggingOverRect_Rect == null)
 				{
-					r_MDraggingOverRect_Rect = new( ReflectionUtils.GetType("UnityEditor.EditorDragging"), "DraggingOverRect", 0, typeof(UnityEngine.Rect));
+					r_MDraggingOverRect_Rect = new(Type, "DraggingOverRect", 0, typeof(UnityEngine.Rect));
 				}
 				return r_MDraggingOverRect_Rect;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MGetMarkerRect_Rect == null)
 				{
-					r_MGetMarkerRect_Rect = new( ReflectionUtils.GetType("UnityEditor.EditorDragging"), "GetMarkerRect", 0, typeof(UnityEngine.Rect));
+					r_MGetMarkerRect_Rect = new(Type, "GetMarkerRect", 0, typeof(UnityEngine.Rect));
 				}
 				return r_MGetMarkerRect_Rect;
 			}
@@ -467,7 +468,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@rect};
             var ___result = RMDraggingOverRect_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -490,7 +491,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@contentRect};
             var ___result = RMGetTargetRect_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -501,7 +502,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@targetRect};
             var ___result = RMGetMarkerRect_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -512,7 +513,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@sourceComponents, @targetComponents, @copy, @validateOnly};
             var ___result = RMMoveOrCopyComponents_ComponentArray_ComponentArray_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -523,7 +524,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -545,7 +546,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -556,7 +557,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -567,7 +568,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -578,7 +579,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

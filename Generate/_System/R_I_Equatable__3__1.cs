@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.IEquatable`1
 	/// </summary>
     public partial class RIEquatable<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.IEquatable`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.IEquatable`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -60,7 +61,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

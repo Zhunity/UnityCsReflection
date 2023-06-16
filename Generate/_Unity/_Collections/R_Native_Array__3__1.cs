@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Unity.Collections.NativeArray`1
 	/// </summary>
     public partial class RNativeArray<T> : RMember // where T : struct
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Fs_staticSafetyId == null)
 				{
-					r_Fs_staticSafetyId = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "s_staticSafetyId");
+					r_Fs_staticSafetyId = new(Type, "s_staticSafetyId");
 				}
 				return r_Fs_staticSafetyId;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MInitStaticSafetyId_Ref_AtomicSafetyHandle == null)
 				{
-					r_MInitStaticSafetyId_Ref_AtomicSafetyHandle = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "InitStaticSafetyId", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
+					r_MInitStaticSafetyId_Ref_AtomicSafetyHandle = new(Type, "InitStaticSafetyId", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
 				}
 				return r_MInitStaticSafetyId_Ref_AtomicSafetyHandle;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCheckAllocateArguments_Int32_Allocator == null)
 				{
-					r_MCheckAllocateArguments_Int32_Allocator = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CheckAllocateArguments", 0, typeof(System.Int32), typeof(Unity.Collections.Allocator));
+					r_MCheckAllocateArguments_Int32_Allocator = new(Type, "CheckAllocateArguments", 0, typeof(System.Int32), typeof(Unity.Collections.Allocator));
 				}
 				return r_MCheckAllocateArguments_Int32_Allocator;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MAllocate_Int32_Allocator_Out_NativeArray_d_T_p_ == null)
 				{
-					r_MAllocate_Int32_Allocator_Out_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Allocate", 0, typeof(System.Int32), typeof(Unity.Collections.Allocator),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeByRefType());
+					r_MAllocate_Int32_Allocator_Out_NativeArray_d_T_p_ = new(Type, "Allocate", 0, typeof(System.Int32), typeof(Unity.Collections.Allocator),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeByRefType());
 				}
 				return r_MAllocate_Int32_Allocator_Out_NativeArray_d_T_p_;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MInitNestedNativeContainer_AtomicSafetyHandle == null)
 				{
-					r_MInitNestedNativeContainer_AtomicSafetyHandle = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "InitNestedNativeContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
+					r_MInitNestedNativeContainer_AtomicSafetyHandle = new(Type, "InitNestedNativeContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
 				}
 				return r_MInitNestedNativeContainer_AtomicSafetyHandle;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MIsUnmanagedAndThrow == null)
 				{
-					r_MIsUnmanagedAndThrow = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "IsUnmanagedAndThrow", 0);
+					r_MIsUnmanagedAndThrow = new(Type, "IsUnmanagedAndThrow", 0);
 				}
 				return r_MIsUnmanagedAndThrow;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_ == null)
 				{
-					r_Mop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "op_Equality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
+					r_Mop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_ = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
 				}
 				return r_Mop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_ == null)
 				{
-					r_Mop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "op_Inequality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
+					r_Mop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_ = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
 				}
 				return r_Mop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p_ == null)
 				{
-					r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
+					r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p_ = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
 				}
 				return r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p_;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_ReadOnly_NativeArray_d_T_p_ == null)
 				{
-					r_MCopy_ReadOnly_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
+					r_MCopy_ReadOnly_NativeArray_d_T_p_ = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
 				}
 				return r_MCopy_ReadOnly_NativeArray_d_T_p_;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_TArray_NativeArray_d_T_p_ == null)
 				{
-					r_MCopy_TArray_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
+					r_MCopy_TArray_NativeArray_d_T_p_ = new(Type, "Copy", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"));
 				}
 				return r_MCopy_TArray_NativeArray_d_T_p_;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_NativeArray_d_T_p__TArray == null)
 				{
-					r_MCopy_NativeArray_d_T_p__TArray = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MCopy_NativeArray_d_T_p__TArray = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MCopy_NativeArray_d_T_p__TArray;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_ReadOnly_TArray == null)
 				{
-					r_MCopy_ReadOnly_TArray = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MCopy_ReadOnly_TArray = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MCopy_ReadOnly_TArray;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p__Int32 == null)
 				{
-					r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p__Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32));
+					r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p__Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32));
 				}
 				return r_MCopy_NativeArray_d_T_p__NativeArray_d_T_p__Int32;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_ReadOnly_NativeArray_d_T_p__Int32 == null)
 				{
-					r_MCopy_ReadOnly_NativeArray_d_T_p__Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32));
+					r_MCopy_ReadOnly_NativeArray_d_T_p__Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32));
 				}
 				return r_MCopy_ReadOnly_NativeArray_d_T_p__Int32;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_TArray_NativeArray_d_T_p__Int32 == null)
 				{
-					r_MCopy_TArray_NativeArray_d_T_p__Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32));
+					r_MCopy_TArray_NativeArray_d_T_p__Int32 = new(Type, "Copy", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32));
 				}
 				return r_MCopy_TArray_NativeArray_d_T_p__Int32;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_NativeArray_d_T_p__TArray_Int32 == null)
 				{
-					r_MCopy_NativeArray_d_T_p__TArray_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
+					r_MCopy_NativeArray_d_T_p__TArray_Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MCopy_NativeArray_d_T_p__TArray_Int32;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_ReadOnly_TArray_Int32 == null)
 				{
-					r_MCopy_ReadOnly_TArray_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
+					r_MCopy_ReadOnly_TArray_Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MCopy_ReadOnly_TArray_Int32;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCopy_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
+					r_MCopy_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopy_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCopy_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
+					r_MCopy_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopy_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_TArray_Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCopy_TArray_Int32_NativeArray_d_T_p__Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
+					r_MCopy_TArray_Int32_NativeArray_d_T_p__Int32_Int32 = new(Type, "Copy", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopy_TArray_Int32_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_NativeArray_d_T_p__Int32_TArray_Int32_Int32 == null)
 				{
-					r_MCopy_NativeArray_d_T_p__Int32_TArray_Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MCopy_NativeArray_d_T_p__Int32_TArray_Int32_Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopy_NativeArray_d_T_p__Int32_TArray_Int32_Int32;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopy_ReadOnly_Int32_TArray_Int32_Int32 == null)
 				{
-					r_MCopy_ReadOnly_Int32_TArray_Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MCopy_ReadOnly_Int32_TArray_Int32_Int32 = new(Type, "Copy", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopy_ReadOnly_Int32_TArray_Int32_Int32;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopySafe_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCopySafe_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
+					r_MCopySafe_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32 = new(Type, "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopySafe_NativeArray_d_T_p__Int32_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopySafe_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCopySafe_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
+					r_MCopySafe_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32 = new(Type, "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopySafe_ReadOnly_Int32_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopySafe_TArray_Int32_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCopySafe_TArray_Int32_NativeArray_d_T_p__Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CopySafe", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
+					r_MCopySafe_TArray_Int32_NativeArray_d_T_p__Int32_Int32 = new(Type, "CopySafe", 0, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopySafe_TArray_Int32_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopySafe_NativeArray_d_T_p__Int32_TArray_Int32_Int32 == null)
 				{
-					r_MCopySafe_NativeArray_d_T_p__Int32_TArray_Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MCopySafe_NativeArray_d_T_p__Int32_TArray_Int32_Int32 = new(Type, "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopySafe_NativeArray_d_T_p__Int32_TArray_Int32_Int32;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCopySafe_ReadOnly_Int32_TArray_Int32_Int32 == null)
 				{
-					r_MCopySafe_ReadOnly_Int32_TArray_Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MCopySafe_ReadOnly_Int32_TArray_Int32_Int32 = new(Type, "CopySafe", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCopySafe_ReadOnly_Int32_TArray_Int32_Int32;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCheckCopyPtr_TArray == null)
 				{
-					r_MCheckCopyPtr_TArray = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CheckCopyPtr", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MCheckCopyPtr_TArray = new(Type, "CheckCopyPtr", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MCheckCopyPtr_TArray;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCheckCopyLengths_Int32_Int32 == null)
 				{
-					r_MCheckCopyLengths_Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CheckCopyLengths", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MCheckCopyLengths_Int32_Int32 = new(Type, "CheckCopyLengths", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCheckCopyLengths_Int32_Int32;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCheckCopyArguments_Int32_Int32_Int32_Int32_Int32 == null)
 				{
-					r_MCheckCopyArguments_Int32_Int32_Int32_Int32_Int32 = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CheckCopyArguments", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MCheckCopyArguments_Int32_Int32_Int32_Int32_Int32 = new(Type, "CheckCopyArguments", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCheckCopyArguments_Int32_Int32_Int32_Int32_Int32;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_MCheckReinterpretSize_GU == null)
 				{
-					r_MCheckReinterpretSize_GU = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "CheckReinterpretSize", 1);
+					r_MCheckReinterpretSize_GU = new(Type, "CheckReinterpretSize", 1);
 				}
 				return r_MCheckReinterpretSize_GU;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Implicit_In_NativeArray_d_T_p_ == null)
 				{
-					r_Mop_Implicit_In_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeArray`1"), "op_Implicit", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeByRefType());
+					r_Mop_Implicit_In_NativeArray_d_T_p_ = new(Type, "op_Implicit", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeByRefType());
 				}
 				return r_Mop_Implicit_In_NativeArray_d_T_p_;
 			}
@@ -1351,7 +1352,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@inputDeps};
             var ___result = RMDispose_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1428,7 +1429,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
         }
 
 
@@ -1439,7 +1440,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1450,7 +1451,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -1461,7 +1462,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@other.Value};
             var ___result = RMEquals_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1472,7 +1473,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1483,7 +1484,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1494,7 +1495,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Equality_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1505,7 +1506,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Inequality_NativeArray_d_T_p__NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1791,7 +1792,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@sourceIndex};
             var ___result = RMReinterpretLoad_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RType(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -1813,7 +1814,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@length};
             var ___result = RMInternalReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1835,7 +1836,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMReinterpret_GU.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1857,7 +1858,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@expectedTypeSize};
             var ___result = RMReinterpret_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1879,7 +1880,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@start, @length};
             var ___result = RMGetSubArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1890,7 +1891,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMAsReadOnly.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly>(___result);
         }
 
 
@@ -1901,7 +1902,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMAsSpan.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1912,7 +1913,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMAsReadOnlySpan.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1923,7 +1924,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@source.Value};
             var ___result = RMop_Implicit_In_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1934,7 +1935,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1956,7 +1957,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1967,7 +1968,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

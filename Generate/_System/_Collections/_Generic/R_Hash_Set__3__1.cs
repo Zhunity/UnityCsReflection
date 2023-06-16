@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.Generic.HashSet`1
 	/// </summary>
     public partial class RHashSet<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FLower31BitMask == null)
 				{
-					r_FLower31BitMask = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "Lower31BitMask");
+					r_FLower31BitMask = new(Type, "Lower31BitMask");
 				}
 				return r_FLower31BitMask;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FStackAllocThreshold == null)
 				{
-					r_FStackAllocThreshold = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "StackAllocThreshold");
+					r_FStackAllocThreshold = new(Type, "StackAllocThreshold");
 				}
 				return r_FStackAllocThreshold;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FShrinkThreshold == null)
 				{
-					r_FShrinkThreshold = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "ShrinkThreshold");
+					r_FShrinkThreshold = new(Type, "ShrinkThreshold");
 				}
 				return r_FShrinkThreshold;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FCapacityName == null)
 				{
-					r_FCapacityName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "CapacityName");
+					r_FCapacityName = new(Type, "CapacityName");
 				}
 				return r_FCapacityName;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FElementsName == null)
 				{
-					r_FElementsName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "ElementsName");
+					r_FElementsName = new(Type, "ElementsName");
 				}
 				return r_FElementsName;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FComparerName == null)
 				{
-					r_FComparerName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "ComparerName");
+					r_FComparerName = new(Type, "ComparerName");
 				}
 				return r_FComparerName;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_FVersionName == null)
 				{
-					r_FVersionName = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "VersionName");
+					r_FVersionName = new(Type, "VersionName");
 				}
 				return r_FVersionName;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MCreateSetComparer == null)
 				{
-					r_MCreateSetComparer = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "CreateSetComparer", 0);
+					r_MCreateSetComparer = new(Type, "CreateSetComparer", 0);
 				}
 				return r_MCreateSetComparer;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_ == null)
 				{
-					r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_ = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "HashSetEquals", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.IEqualityComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_ = new(Type, "HashSetEquals", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.IEqualityComparer`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 			{
 				if(r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_ == null)
 				{
-					r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_ = new( ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"), "AreEqualityComparersEqual", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
+					r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_ = new(Type, "AreEqualityComparersEqual", 0,  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"),  ReflectionUtils.GetType("System.Collections.Generic.HashSet`1"));
 				}
 				return r_MAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_;
 			}
@@ -1197,7 +1198,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@item};
             var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1219,7 +1220,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@item};
             var ___result = RMRemove_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
         }
 
 
@@ -1241,7 +1242,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerator<T>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
         }
 
 
@@ -1252,7 +1253,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -1285,7 +1286,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@item};
             var ___result = RMAdd_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1298,7 +1299,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___result = RMTryGetValue_T_Out_T.Invoke(___genericsType, ___parameters);
 			@actualValue = (T)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1353,7 +1354,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMIsSubsetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1364,7 +1365,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMIsProperSubsetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1375,7 +1376,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMIsSupersetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1386,7 +1387,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMIsProperSupersetOf_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1397,7 +1398,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMOverlaps_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1408,7 +1409,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMSetEquals_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1441,7 +1442,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@match};
             var ___result = RMRemoveWhere_Predicate_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1452,7 +1453,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@capacity};
             var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1474,7 +1475,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMCreateSetComparer.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEqualityComparer<System.Collections.Generic.HashSet<T>>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEqualityComparer<System.Collections.Generic.HashSet<T>>>(___result);
         }
 
 
@@ -1485,7 +1486,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@capacity};
             var ___result = RMInitialize_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@value};
             var ___result = RMAddIfNotPresent_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1540,7 +1541,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMContainsAllElements_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1551,7 +1552,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other};
             var ___result = RMIsSubsetOfHashSetWithSameEC_HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1584,7 +1585,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@item};
             var ___result = RMInternalIndexOf_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1619,7 +1620,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___result = RMAddOrGetLocation_T_Out_Int32.Invoke(___genericsType, ___parameters);
 			@location = (System.Int32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@other, @returnIfUnfound};
             var ___result = RMCheckUniqueAndUnfoundElements_IEnumerable_d_T_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RType>.RElementCount>(___result);
         }
 
 
@@ -1641,7 +1642,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@set1, @set2, @comparer};
             var ___result = RMHashSetEquals_HashSet_d_T_p__HashSet_d_T_p__IEqualityComparer_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1652,7 +1653,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@set1, @set2};
             var ___result = RMAreEqualityComparersEqual_HashSet_d_T_p__HashSet_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1663,7 +1664,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@item};
             var ___result = RMInternalGetHashCode_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1674,7 +1675,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1696,7 +1697,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1707,7 +1708,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1718,7 +1719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1729,7 +1730,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

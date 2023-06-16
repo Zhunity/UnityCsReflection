@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Cryptography.HashAlgorithmName
 	/// </summary>
     public partial class RHashAlgorithmName : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_PMD5 == null)
 				{
-					r_PMD5 = new(typeof(System.Security.Cryptography.HashAlgorithmName), "MD5", -1);
+					r_PMD5 = new(Type, "MD5", -1);
 				}
 				return r_PMD5;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_PSHA1 == null)
 				{
-					r_PSHA1 = new(typeof(System.Security.Cryptography.HashAlgorithmName), "SHA1", -1);
+					r_PSHA1 = new(Type, "SHA1", -1);
 				}
 				return r_PSHA1;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_PSHA256 == null)
 				{
-					r_PSHA256 = new(typeof(System.Security.Cryptography.HashAlgorithmName), "SHA256", -1);
+					r_PSHA256 = new(Type, "SHA256", -1);
 				}
 				return r_PSHA256;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_PSHA384 == null)
 				{
-					r_PSHA384 = new(typeof(System.Security.Cryptography.HashAlgorithmName), "SHA384", -1);
+					r_PSHA384 = new(Type, "SHA384", -1);
 				}
 				return r_PSHA384;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_PSHA512 == null)
 				{
-					r_PSHA512 = new(typeof(System.Security.Cryptography.HashAlgorithmName), "SHA512", -1);
+					r_PSHA512 = new(Type, "SHA512", -1);
 				}
 				return r_PSHA512;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Mop_Equality_HashAlgorithmName_HashAlgorithmName == null)
 				{
-					r_Mop_Equality_HashAlgorithmName_HashAlgorithmName = new(typeof(System.Security.Cryptography.HashAlgorithmName), "op_Equality", 0, typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_Mop_Equality_HashAlgorithmName_HashAlgorithmName = new(Type, "op_Equality", 0, typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Security.Cryptography.HashAlgorithmName));
 				}
 				return r_Mop_Equality_HashAlgorithmName_HashAlgorithmName;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
 			{
 				if(r_Mop_Inequality_HashAlgorithmName_HashAlgorithmName == null)
 				{
-					r_Mop_Inequality_HashAlgorithmName_HashAlgorithmName = new(typeof(System.Security.Cryptography.HashAlgorithmName), "op_Inequality", 0, typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Security.Cryptography.HashAlgorithmName));
+					r_Mop_Inequality_HashAlgorithmName_HashAlgorithmName = new(Type, "op_Inequality", 0, typeof(System.Security.Cryptography.HashAlgorithmName), typeof(System.Security.Cryptography.HashAlgorithmName));
 				}
 				return r_Mop_Inequality_HashAlgorithmName_HashAlgorithmName;
 			}
@@ -300,7 +301,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -311,7 +312,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -322,7 +323,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_HashAlgorithmName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -333,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -344,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_HashAlgorithmName_HashAlgorithmName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -355,7 +356,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_HashAlgorithmName_HashAlgorithmName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -377,7 +378,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -388,7 +389,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.IList
 	/// </summary>
     public partial class RIList : RMember //
@@ -204,7 +205,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@value};
             var ___result = RMAdd_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -215,7 +216,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@value};
             var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -237,7 +238,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@value};
             var ___result = RMIndexOf_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

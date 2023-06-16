@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.CameraEvent
 	/// </summary>
     public partial class RCameraEvent : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeDepthTexture == null)
 				{
-					r_FBeforeDepthTexture = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeDepthTexture");
+					r_FBeforeDepthTexture = new(Type, "BeforeDepthTexture");
 				}
 				return r_FBeforeDepthTexture;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterDepthTexture == null)
 				{
-					r_FAfterDepthTexture = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterDepthTexture");
+					r_FAfterDepthTexture = new(Type, "AfterDepthTexture");
 				}
 				return r_FAfterDepthTexture;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeDepthNormalsTexture == null)
 				{
-					r_FBeforeDepthNormalsTexture = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeDepthNormalsTexture");
+					r_FBeforeDepthNormalsTexture = new(Type, "BeforeDepthNormalsTexture");
 				}
 				return r_FBeforeDepthNormalsTexture;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterDepthNormalsTexture == null)
 				{
-					r_FAfterDepthNormalsTexture = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterDepthNormalsTexture");
+					r_FAfterDepthNormalsTexture = new(Type, "AfterDepthNormalsTexture");
 				}
 				return r_FAfterDepthNormalsTexture;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeGBuffer == null)
 				{
-					r_FBeforeGBuffer = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeGBuffer");
+					r_FBeforeGBuffer = new(Type, "BeforeGBuffer");
 				}
 				return r_FBeforeGBuffer;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterGBuffer == null)
 				{
-					r_FAfterGBuffer = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterGBuffer");
+					r_FAfterGBuffer = new(Type, "AfterGBuffer");
 				}
 				return r_FAfterGBuffer;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeLighting == null)
 				{
-					r_FBeforeLighting = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeLighting");
+					r_FBeforeLighting = new(Type, "BeforeLighting");
 				}
 				return r_FBeforeLighting;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterLighting == null)
 				{
-					r_FAfterLighting = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterLighting");
+					r_FAfterLighting = new(Type, "AfterLighting");
 				}
 				return r_FAfterLighting;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeFinalPass == null)
 				{
-					r_FBeforeFinalPass = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeFinalPass");
+					r_FBeforeFinalPass = new(Type, "BeforeFinalPass");
 				}
 				return r_FBeforeFinalPass;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterFinalPass == null)
 				{
-					r_FAfterFinalPass = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterFinalPass");
+					r_FAfterFinalPass = new(Type, "AfterFinalPass");
 				}
 				return r_FAfterFinalPass;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeForwardOpaque == null)
 				{
-					r_FBeforeForwardOpaque = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeForwardOpaque");
+					r_FBeforeForwardOpaque = new(Type, "BeforeForwardOpaque");
 				}
 				return r_FBeforeForwardOpaque;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterForwardOpaque == null)
 				{
-					r_FAfterForwardOpaque = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterForwardOpaque");
+					r_FAfterForwardOpaque = new(Type, "AfterForwardOpaque");
 				}
 				return r_FAfterForwardOpaque;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeImageEffectsOpaque == null)
 				{
-					r_FBeforeImageEffectsOpaque = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeImageEffectsOpaque");
+					r_FBeforeImageEffectsOpaque = new(Type, "BeforeImageEffectsOpaque");
 				}
 				return r_FBeforeImageEffectsOpaque;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterImageEffectsOpaque == null)
 				{
-					r_FAfterImageEffectsOpaque = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterImageEffectsOpaque");
+					r_FAfterImageEffectsOpaque = new(Type, "AfterImageEffectsOpaque");
 				}
 				return r_FAfterImageEffectsOpaque;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeSkybox == null)
 				{
-					r_FBeforeSkybox = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeSkybox");
+					r_FBeforeSkybox = new(Type, "BeforeSkybox");
 				}
 				return r_FBeforeSkybox;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterSkybox == null)
 				{
-					r_FAfterSkybox = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterSkybox");
+					r_FAfterSkybox = new(Type, "AfterSkybox");
 				}
 				return r_FAfterSkybox;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeForwardAlpha == null)
 				{
-					r_FBeforeForwardAlpha = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeForwardAlpha");
+					r_FBeforeForwardAlpha = new(Type, "BeforeForwardAlpha");
 				}
 				return r_FBeforeForwardAlpha;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterForwardAlpha == null)
 				{
-					r_FAfterForwardAlpha = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterForwardAlpha");
+					r_FAfterForwardAlpha = new(Type, "AfterForwardAlpha");
 				}
 				return r_FAfterForwardAlpha;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeImageEffects == null)
 				{
-					r_FBeforeImageEffects = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeImageEffects");
+					r_FBeforeImageEffects = new(Type, "BeforeImageEffects");
 				}
 				return r_FBeforeImageEffects;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterImageEffects == null)
 				{
-					r_FAfterImageEffects = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterImageEffects");
+					r_FAfterImageEffects = new(Type, "AfterImageEffects");
 				}
 				return r_FAfterImageEffects;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterEverything == null)
 				{
-					r_FAfterEverything = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterEverything");
+					r_FAfterEverything = new(Type, "AfterEverything");
 				}
 				return r_FAfterEverything;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeReflections == null)
 				{
-					r_FBeforeReflections = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeReflections");
+					r_FBeforeReflections = new(Type, "BeforeReflections");
 				}
 				return r_FBeforeReflections;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterReflections == null)
 				{
-					r_FAfterReflections = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterReflections");
+					r_FAfterReflections = new(Type, "AfterReflections");
 				}
 				return r_FAfterReflections;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FBeforeHaloAndLensFlares == null)
 				{
-					r_FBeforeHaloAndLensFlares = new(typeof(UnityEngine.Rendering.CameraEvent), "BeforeHaloAndLensFlares");
+					r_FBeforeHaloAndLensFlares = new(Type, "BeforeHaloAndLensFlares");
 				}
 				return r_FBeforeHaloAndLensFlares;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FAfterHaloAndLensFlares == null)
 				{
-					r_FAfterHaloAndLensFlares = new(typeof(UnityEngine.Rendering.CameraEvent), "AfterHaloAndLensFlares");
+					r_FAfterHaloAndLensFlares = new(Type, "AfterHaloAndLensFlares");
 				}
 				return r_FAfterHaloAndLensFlares;
 			}
@@ -668,7 +669,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -679,7 +680,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -690,7 +691,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -701,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -712,7 +713,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -723,7 +724,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -745,7 +746,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -756,7 +757,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -767,7 +768,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -789,7 +790,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -800,7 +801,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

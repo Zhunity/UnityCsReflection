@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.Offset
 	/// </summary>
     public partial class ROffset : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_ZeroOffset == null)
 				{
-					r_Fk_ZeroOffset = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "k_ZeroOffset");
+					r_Fk_ZeroOffset = new(Type, "k_ZeroOffset");
 				}
 				return r_Fk_ZeroOffset;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Pzero == null)
 				{
-					r_Pzero = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "zero", -1);
+					r_Pzero = new(Type, "zero", -1);
 				}
 				return r_Pzero;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Mop_Equality_Offset_Offset == null)
 				{
-					r_Mop_Equality_Offset_Offset = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
+					r_Mop_Equality_Offset_Offset = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
 				}
 				return r_Mop_Equality_Offset_Offset;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Mop_Inequality_Offset_Offset == null)
 				{
-					r_Mop_Inequality_Offset_Offset = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
+					r_Mop_Inequality_Offset_Offset = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"));
 				}
 				return r_Mop_Inequality_Offset_Offset;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Mop_Multiply_Offset_Single == null)
 				{
-					r_Mop_Multiply_Offset_Single = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), "op_Multiply", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), typeof(System.Single));
+					r_Mop_Multiply_Offset_Single = new(Type, "op_Multiply", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.Offset"), typeof(System.Single));
 				}
 				return r_Mop_Multiply_Offset_Single;
 			}
@@ -396,7 +397,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@lhs.Value, @rhs.Value};
             var ___result = RMop_Equality_Offset_Offset.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -407,7 +408,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@lhs.Value, @rhs.Value};
             var ___result = RMop_Inequality_Offset_Offset.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -418,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@a.Value, @b};
             var ___result = RMop_Multiply_Offset_Single.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.ROffset>(___result);
         }
 
 
@@ -429,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -440,7 +441,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -451,7 +452,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@other.Value};
             var ___result = RMEquals_Offset.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -484,7 +485,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -495,7 +496,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

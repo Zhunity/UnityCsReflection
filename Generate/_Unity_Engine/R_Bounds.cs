@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Bounds
 	/// </summary>
     public partial class RBounds : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_Bounds_Bounds == null)
 				{
-					r_Mop_Equality_Bounds_Bounds = new(typeof(UnityEngine.Bounds), "op_Equality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
+					r_Mop_Equality_Bounds_Bounds = new(Type, "op_Equality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
 				}
 				return r_Mop_Equality_Bounds_Bounds;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_Bounds_Bounds == null)
 				{
-					r_Mop_Inequality_Bounds_Bounds = new(typeof(UnityEngine.Bounds), "op_Inequality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
+					r_Mop_Inequality_Bounds_Bounds = new(Type, "op_Inequality", 0, typeof(UnityEngine.Bounds), typeof(UnityEngine.Bounds));
 				}
 				return r_Mop_Inequality_Bounds_Bounds;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIntersectRayAABB_Ray_Bounds_Out_Single == null)
 				{
-					r_MIntersectRayAABB_Ray_Bounds_Out_Single = new(typeof(UnityEngine.Bounds), "IntersectRayAABB", 0, typeof(UnityEngine.Ray), typeof(UnityEngine.Bounds), typeof(System.Single).MakeByRefType());
+					r_MIntersectRayAABB_Ray_Bounds_Out_Single = new(Type, "IntersectRayAABB", 0, typeof(UnityEngine.Ray), typeof(UnityEngine.Bounds), typeof(System.Single).MakeByRefType());
 				}
 				return r_MIntersectRayAABB_Ray_Bounds_Out_Single;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MContains_Injected_Ref_Bounds_Ref_Vector3 == null)
 				{
-					r_MContains_Injected_Ref_Bounds_Ref_Vector3 = new(typeof(UnityEngine.Bounds), "Contains_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MContains_Injected_Ref_Bounds_Ref_Vector3 = new(Type, "Contains_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
 				}
 				return r_MContains_Injected_Ref_Bounds_Ref_Vector3;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSqrDistance_Injected_Ref_Bounds_Ref_Vector3 == null)
 				{
-					r_MSqrDistance_Injected_Ref_Bounds_Ref_Vector3 = new(typeof(UnityEngine.Bounds), "SqrDistance_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MSqrDistance_Injected_Ref_Bounds_Ref_Vector3 = new(Type, "SqrDistance_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
 				}
 				return r_MSqrDistance_Injected_Ref_Bounds_Ref_Vector3;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single == null)
 				{
-					r_MIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single = new(typeof(UnityEngine.Bounds), "IntersectRayAABB_Injected", 0, typeof(UnityEngine.Ray).MakeByRefType(), typeof(UnityEngine.Bounds).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_MIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single = new(Type, "IntersectRayAABB_Injected", 0, typeof(UnityEngine.Ray).MakeByRefType(), typeof(UnityEngine.Bounds).MakeByRefType(), typeof(System.Single).MakeByRefType());
 				}
 				return r_MIntersectRayAABB_Injected_Ref_Ray_Ref_Bounds_Out_Single;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 == null)
 				{
-					r_MClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 = new(typeof(UnityEngine.Bounds), "ClosestPoint_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
+					r_MClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3 = new(Type, "ClosestPoint_Injected", 0, typeof(UnityEngine.Bounds).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType());
 				}
 				return r_MClosestPoint_Injected_Ref_Bounds_Ref_Vector3_Out_Vector3;
 			}
@@ -588,7 +589,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -599,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -610,7 +611,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Bounds.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -621,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Bounds_Bounds.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -632,7 +633,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Bounds_Bounds.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -698,7 +699,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@bounds};
             var ___result = RMIntersects_Bounds.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -709,7 +710,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@ray};
             var ___result = RMIntersectRay_Ray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -722,7 +723,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMIntersectRay_Ray_Out_Single.Invoke(___genericsType, ___parameters);
 			@distance = (System.Single)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -733,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -744,7 +745,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -755,7 +756,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@point};
             var ___result = RMContains_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -777,7 +778,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@point};
             var ___result = RMSqrDistance_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -790,7 +791,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMIntersectRayAABB_Ray_Bounds_Out_Single.Invoke(___genericsType, ___parameters);
 			@dist = (System.Single)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -801,7 +802,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@point};
             var ___result = RMClosestPoint_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@_unity_self = (UnityEngine.Bounds)___parameters[0];
 			@point = (UnityEngine.Vector3)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -827,7 +828,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@_unity_self = (UnityEngine.Bounds)___parameters[0];
 			@point = (UnityEngine.Vector3)___parameters[1];
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -842,7 +843,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@bounds = (UnityEngine.Bounds)___parameters[1];
 			@dist = (System.Single)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -879,7 +880,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -890,7 +891,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

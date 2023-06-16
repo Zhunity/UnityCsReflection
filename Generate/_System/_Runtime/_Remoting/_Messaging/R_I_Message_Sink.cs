@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.Messaging.IMessageSink
 	/// </summary>
     public partial class RIMessageSink : RMember //
@@ -92,7 +93,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{@msg};
             var ___result = RMSyncProcessMessage_IMessage.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.IMessage)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessage>(___result);
         }
 
 
@@ -103,7 +104,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RMessaging
             var ___parameters = new object[]{@msg, @replySink};
             var ___result = RMAsyncProcessMessage_IMessage_IMessageSink.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Messaging.IMessageCtrl)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Messaging.IMessageCtrl>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.TokenType
 	/// </summary>
     public partial class RTokenType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FNumberToken == null)
 				{
-					r_FNumberToken = new( ReflectionUtils.GetType("System.TokenType"), "NumberToken");
+					r_FNumberToken = new(Type, "NumberToken");
 				}
 				return r_FNumberToken;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FYearNumberToken == null)
 				{
-					r_FYearNumberToken = new( ReflectionUtils.GetType("System.TokenType"), "YearNumberToken");
+					r_FYearNumberToken = new(Type, "YearNumberToken");
 				}
 				return r_FYearNumberToken;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FAm == null)
 				{
-					r_FAm = new( ReflectionUtils.GetType("System.TokenType"), "Am");
+					r_FAm = new(Type, "Am");
 				}
 				return r_FAm;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FPm == null)
 				{
-					r_FPm = new( ReflectionUtils.GetType("System.TokenType"), "Pm");
+					r_FPm = new(Type, "Pm");
 				}
 				return r_FPm;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMonthToken == null)
 				{
-					r_FMonthToken = new( ReflectionUtils.GetType("System.TokenType"), "MonthToken");
+					r_FMonthToken = new(Type, "MonthToken");
 				}
 				return r_FMonthToken;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FEndOfString == null)
 				{
-					r_FEndOfString = new( ReflectionUtils.GetType("System.TokenType"), "EndOfString");
+					r_FEndOfString = new(Type, "EndOfString");
 				}
 				return r_FEndOfString;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FDayOfWeekToken == null)
 				{
-					r_FDayOfWeekToken = new( ReflectionUtils.GetType("System.TokenType"), "DayOfWeekToken");
+					r_FDayOfWeekToken = new(Type, "DayOfWeekToken");
 				}
 				return r_FDayOfWeekToken;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTimeZoneToken == null)
 				{
-					r_FTimeZoneToken = new( ReflectionUtils.GetType("System.TokenType"), "TimeZoneToken");
+					r_FTimeZoneToken = new(Type, "TimeZoneToken");
 				}
 				return r_FTimeZoneToken;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FEraToken == null)
 				{
-					r_FEraToken = new( ReflectionUtils.GetType("System.TokenType"), "EraToken");
+					r_FEraToken = new(Type, "EraToken");
 				}
 				return r_FEraToken;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FDateWordToken == null)
 				{
-					r_FDateWordToken = new( ReflectionUtils.GetType("System.TokenType"), "DateWordToken");
+					r_FDateWordToken = new(Type, "DateWordToken");
 				}
 				return r_FDateWordToken;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FUnknownToken == null)
 				{
-					r_FUnknownToken = new( ReflectionUtils.GetType("System.TokenType"), "UnknownToken");
+					r_FUnknownToken = new(Type, "UnknownToken");
 				}
 				return r_FUnknownToken;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FHebrewNumber == null)
 				{
-					r_FHebrewNumber = new( ReflectionUtils.GetType("System.TokenType"), "HebrewNumber");
+					r_FHebrewNumber = new(Type, "HebrewNumber");
 				}
 				return r_FHebrewNumber;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FJapaneseEraToken == null)
 				{
-					r_FJapaneseEraToken = new( ReflectionUtils.GetType("System.TokenType"), "JapaneseEraToken");
+					r_FJapaneseEraToken = new(Type, "JapaneseEraToken");
 				}
 				return r_FJapaneseEraToken;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTEraToken == null)
 				{
-					r_FTEraToken = new( ReflectionUtils.GetType("System.TokenType"), "TEraToken");
+					r_FTEraToken = new(Type, "TEraToken");
 				}
 				return r_FTEraToken;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FIgnorableSymbol == null)
 				{
-					r_FIgnorableSymbol = new( ReflectionUtils.GetType("System.TokenType"), "IgnorableSymbol");
+					r_FIgnorableSymbol = new(Type, "IgnorableSymbol");
 				}
 				return r_FIgnorableSymbol;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_Unk == null)
 				{
-					r_FSEP_Unk = new( ReflectionUtils.GetType("System.TokenType"), "SEP_Unk");
+					r_FSEP_Unk = new(Type, "SEP_Unk");
 				}
 				return r_FSEP_Unk;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_End == null)
 				{
-					r_FSEP_End = new( ReflectionUtils.GetType("System.TokenType"), "SEP_End");
+					r_FSEP_End = new(Type, "SEP_End");
 				}
 				return r_FSEP_End;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_Space == null)
 				{
-					r_FSEP_Space = new( ReflectionUtils.GetType("System.TokenType"), "SEP_Space");
+					r_FSEP_Space = new(Type, "SEP_Space");
 				}
 				return r_FSEP_Space;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_Am == null)
 				{
-					r_FSEP_Am = new( ReflectionUtils.GetType("System.TokenType"), "SEP_Am");
+					r_FSEP_Am = new(Type, "SEP_Am");
 				}
 				return r_FSEP_Am;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_Pm == null)
 				{
-					r_FSEP_Pm = new( ReflectionUtils.GetType("System.TokenType"), "SEP_Pm");
+					r_FSEP_Pm = new(Type, "SEP_Pm");
 				}
 				return r_FSEP_Pm;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_Date == null)
 				{
-					r_FSEP_Date = new( ReflectionUtils.GetType("System.TokenType"), "SEP_Date");
+					r_FSEP_Date = new(Type, "SEP_Date");
 				}
 				return r_FSEP_Date;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_Time == null)
 				{
-					r_FSEP_Time = new( ReflectionUtils.GetType("System.TokenType"), "SEP_Time");
+					r_FSEP_Time = new(Type, "SEP_Time");
 				}
 				return r_FSEP_Time;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_YearSuff == null)
 				{
-					r_FSEP_YearSuff = new( ReflectionUtils.GetType("System.TokenType"), "SEP_YearSuff");
+					r_FSEP_YearSuff = new(Type, "SEP_YearSuff");
 				}
 				return r_FSEP_YearSuff;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_MonthSuff == null)
 				{
-					r_FSEP_MonthSuff = new( ReflectionUtils.GetType("System.TokenType"), "SEP_MonthSuff");
+					r_FSEP_MonthSuff = new(Type, "SEP_MonthSuff");
 				}
 				return r_FSEP_MonthSuff;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_DaySuff == null)
 				{
-					r_FSEP_DaySuff = new( ReflectionUtils.GetType("System.TokenType"), "SEP_DaySuff");
+					r_FSEP_DaySuff = new(Type, "SEP_DaySuff");
 				}
 				return r_FSEP_DaySuff;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_HourSuff == null)
 				{
-					r_FSEP_HourSuff = new( ReflectionUtils.GetType("System.TokenType"), "SEP_HourSuff");
+					r_FSEP_HourSuff = new(Type, "SEP_HourSuff");
 				}
 				return r_FSEP_HourSuff;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_MinuteSuff == null)
 				{
-					r_FSEP_MinuteSuff = new( ReflectionUtils.GetType("System.TokenType"), "SEP_MinuteSuff");
+					r_FSEP_MinuteSuff = new(Type, "SEP_MinuteSuff");
 				}
 				return r_FSEP_MinuteSuff;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_SecondSuff == null)
 				{
-					r_FSEP_SecondSuff = new( ReflectionUtils.GetType("System.TokenType"), "SEP_SecondSuff");
+					r_FSEP_SecondSuff = new(Type, "SEP_SecondSuff");
 				}
 				return r_FSEP_SecondSuff;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_LocalTimeMark == null)
 				{
-					r_FSEP_LocalTimeMark = new( ReflectionUtils.GetType("System.TokenType"), "SEP_LocalTimeMark");
+					r_FSEP_LocalTimeMark = new(Type, "SEP_LocalTimeMark");
 				}
 				return r_FSEP_LocalTimeMark;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSEP_DateOrOffset == null)
 				{
-					r_FSEP_DateOrOffset = new( ReflectionUtils.GetType("System.TokenType"), "SEP_DateOrOffset");
+					r_FSEP_DateOrOffset = new(Type, "SEP_DateOrOffset");
 				}
 				return r_FSEP_DateOrOffset;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FRegularTokenMask == null)
 				{
-					r_FRegularTokenMask = new( ReflectionUtils.GetType("System.TokenType"), "RegularTokenMask");
+					r_FRegularTokenMask = new(Type, "RegularTokenMask");
 				}
 				return r_FRegularTokenMask;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSeparatorTokenMask == null)
 				{
-					r_FSeparatorTokenMask = new( ReflectionUtils.GetType("System.TokenType"), "SeparatorTokenMask");
+					r_FSeparatorTokenMask = new(Type, "SeparatorTokenMask");
 				}
 				return r_FSeparatorTokenMask;
 			}
@@ -780,7 +781,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -791,7 +792,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -802,7 +803,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -813,7 +814,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -824,7 +825,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -835,7 +836,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -857,7 +858,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -868,7 +869,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -879,7 +880,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -901,7 +902,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -912,7 +913,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

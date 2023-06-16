@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Mesh+MeshData
 	/// </summary>
     public partial class RMeshData : RMember //
@@ -144,7 +145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MHasVertexAttribute_IntPtr_VertexAttribute == null)
 				{
-					r_MHasVertexAttribute_IntPtr_VertexAttribute = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "HasVertexAttribute", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
+					r_MHasVertexAttribute_IntPtr_VertexAttribute = new(Type, "HasVertexAttribute", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
 				}
 				return r_MHasVertexAttribute_IntPtr_VertexAttribute;
 			}
@@ -160,7 +161,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexAttributeDimension_IntPtr_VertexAttribute == null)
 				{
-					r_MGetVertexAttributeDimension_IntPtr_VertexAttribute = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexAttributeDimension", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
+					r_MGetVertexAttributeDimension_IntPtr_VertexAttribute = new(Type, "GetVertexAttributeDimension", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
 				}
 				return r_MGetVertexAttributeDimension_IntPtr_VertexAttribute;
 			}
@@ -176,7 +177,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexAttributeFormat_IntPtr_VertexAttribute == null)
 				{
-					r_MGetVertexAttributeFormat_IntPtr_VertexAttribute = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexAttributeFormat", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
+					r_MGetVertexAttributeFormat_IntPtr_VertexAttribute = new(Type, "GetVertexAttributeFormat", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
 				}
 				return r_MGetVertexAttributeFormat_IntPtr_VertexAttribute;
 			}
@@ -192,7 +193,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexAttributeStream_IntPtr_VertexAttribute == null)
 				{
-					r_MGetVertexAttributeStream_IntPtr_VertexAttribute = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexAttributeStream", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
+					r_MGetVertexAttributeStream_IntPtr_VertexAttribute = new(Type, "GetVertexAttributeStream", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
 				}
 				return r_MGetVertexAttributeStream_IntPtr_VertexAttribute;
 			}
@@ -208,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexAttributeOffset_IntPtr_VertexAttribute == null)
 				{
-					r_MGetVertexAttributeOffset_IntPtr_VertexAttribute = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexAttributeOffset", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
+					r_MGetVertexAttributeOffset_IntPtr_VertexAttribute = new(Type, "GetVertexAttributeOffset", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute));
 				}
 				return r_MGetVertexAttributeOffset_IntPtr_VertexAttribute;
 			}
@@ -224,7 +225,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexCount_IntPtr == null)
 				{
-					r_MGetVertexCount_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexCount", 0, typeof(System.IntPtr));
+					r_MGetVertexCount_IntPtr = new(Type, "GetVertexCount", 0, typeof(System.IntPtr));
 				}
 				return r_MGetVertexCount_IntPtr;
 			}
@@ -240,7 +241,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexBufferCount_IntPtr == null)
 				{
-					r_MGetVertexBufferCount_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexBufferCount", 0, typeof(System.IntPtr));
+					r_MGetVertexBufferCount_IntPtr = new(Type, "GetVertexBufferCount", 0, typeof(System.IntPtr));
 				}
 				return r_MGetVertexBufferCount_IntPtr;
 			}
@@ -256,7 +257,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexDataPtr_IntPtr_Int32 == null)
 				{
-					r_MGetVertexDataPtr_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexDataPtr", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MGetVertexDataPtr_IntPtr_Int32 = new(Type, "GetVertexDataPtr", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MGetVertexDataPtr_IntPtr_Int32;
 			}
@@ -272,7 +273,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexDataSize_IntPtr_Int32 == null)
 				{
-					r_MGetVertexDataSize_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexDataSize", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MGetVertexDataSize_IntPtr_Int32 = new(Type, "GetVertexDataSize", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MGetVertexDataSize_IntPtr_Int32;
 			}
@@ -288,7 +289,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetVertexBufferStride_IntPtr_Int32 == null)
 				{
-					r_MGetVertexBufferStride_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetVertexBufferStride", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MGetVertexBufferStride_IntPtr_Int32 = new(Type, "GetVertexBufferStride", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MGetVertexBufferStride_IntPtr_Int32;
 			}
@@ -304,7 +305,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCopyAttributeIntoPtr_IntPtr_VertexAttribute_VertexAttributeFormat_Int32_IntPtr == null)
 				{
-					r_MCopyAttributeIntoPtr_IntPtr_VertexAttribute_VertexAttributeFormat_Int32_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "CopyAttributeIntoPtr", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.IntPtr));
+					r_MCopyAttributeIntoPtr_IntPtr_VertexAttribute_VertexAttributeFormat_Int32_IntPtr = new(Type, "CopyAttributeIntoPtr", 0, typeof(System.IntPtr), typeof(UnityEngine.Rendering.VertexAttribute), typeof(UnityEngine.Rendering.VertexAttributeFormat), typeof(System.Int32), typeof(System.IntPtr));
 				}
 				return r_MCopyAttributeIntoPtr_IntPtr_VertexAttribute_VertexAttributeFormat_Int32_IntPtr;
 			}
@@ -320,7 +321,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCopyIndicesIntoPtr_IntPtr_Int32_Boolean_Int32_IntPtr == null)
 				{
-					r_MCopyIndicesIntoPtr_IntPtr_Int32_Boolean_Int32_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "CopyIndicesIntoPtr", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32), typeof(System.IntPtr));
+					r_MCopyIndicesIntoPtr_IntPtr_Int32_Boolean_Int32_IntPtr = new(Type, "CopyIndicesIntoPtr", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32), typeof(System.IntPtr));
 				}
 				return r_MCopyIndicesIntoPtr_IntPtr_Int32_Boolean_Int32_IntPtr;
 			}
@@ -336,7 +337,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetIndexFormat_IntPtr == null)
 				{
-					r_MGetIndexFormat_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetIndexFormat", 0, typeof(System.IntPtr));
+					r_MGetIndexFormat_IntPtr = new(Type, "GetIndexFormat", 0, typeof(System.IntPtr));
 				}
 				return r_MGetIndexFormat_IntPtr;
 			}
@@ -352,7 +353,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetIndexCount_IntPtr_Int32 == null)
 				{
-					r_MGetIndexCount_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetIndexCount", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MGetIndexCount_IntPtr_Int32 = new(Type, "GetIndexCount", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MGetIndexCount_IntPtr_Int32;
 			}
@@ -368,7 +369,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetIndexDataPtr_IntPtr == null)
 				{
-					r_MGetIndexDataPtr_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetIndexDataPtr", 0, typeof(System.IntPtr));
+					r_MGetIndexDataPtr_IntPtr = new(Type, "GetIndexDataPtr", 0, typeof(System.IntPtr));
 				}
 				return r_MGetIndexDataPtr_IntPtr;
 			}
@@ -384,7 +385,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetIndexDataSize_IntPtr == null)
 				{
-					r_MGetIndexDataSize_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetIndexDataSize", 0, typeof(System.IntPtr));
+					r_MGetIndexDataSize_IntPtr = new(Type, "GetIndexDataSize", 0, typeof(System.IntPtr));
 				}
 				return r_MGetIndexDataSize_IntPtr;
 			}
@@ -400,7 +401,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetSubMeshCount_IntPtr == null)
 				{
-					r_MGetSubMeshCount_IntPtr = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetSubMeshCount", 0, typeof(System.IntPtr));
+					r_MGetSubMeshCount_IntPtr = new(Type, "GetSubMeshCount", 0, typeof(System.IntPtr));
 				}
 				return r_MGetSubMeshCount_IntPtr;
 			}
@@ -416,7 +417,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetSubMesh_IntPtr_Int32 == null)
 				{
-					r_MGetSubMesh_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetSubMesh", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MGetSubMesh_IntPtr_Int32 = new(Type, "GetSubMesh", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MGetSubMesh_IntPtr_Int32;
 			}
@@ -432,7 +433,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetVertexBufferParamsFromPtr_IntPtr_Int32_IntPtr_Int32 == null)
 				{
-					r_MSetVertexBufferParamsFromPtr_IntPtr_Int32_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "SetVertexBufferParamsFromPtr", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
+					r_MSetVertexBufferParamsFromPtr_IntPtr_Int32_IntPtr_Int32 = new(Type, "SetVertexBufferParamsFromPtr", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MSetVertexBufferParamsFromPtr_IntPtr_Int32_IntPtr_Int32;
 			}
@@ -448,7 +449,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetVertexBufferParamsFromArray_IntPtr_Int32_VertexAttributeDescriptorArray == null)
 				{
-					r_MSetVertexBufferParamsFromArray_IntPtr_Int32_VertexAttributeDescriptorArray = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "SetVertexBufferParamsFromArray", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
+					r_MSetVertexBufferParamsFromArray_IntPtr_Int32_VertexAttributeDescriptorArray = new(Type, "SetVertexBufferParamsFromArray", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.VertexAttributeDescriptor).MakeArrayType());
 				}
 				return r_MSetVertexBufferParamsFromArray_IntPtr_Int32_VertexAttributeDescriptorArray;
 			}
@@ -464,7 +465,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetIndexBufferParamsImpl_IntPtr_Int32_IndexFormat == null)
 				{
-					r_MSetIndexBufferParamsImpl_IntPtr_Int32_IndexFormat = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "SetIndexBufferParamsImpl", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.IndexFormat));
+					r_MSetIndexBufferParamsImpl_IntPtr_Int32_IndexFormat = new(Type, "SetIndexBufferParamsImpl", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.IndexFormat));
 				}
 				return r_MSetIndexBufferParamsImpl_IntPtr_Int32_IndexFormat;
 			}
@@ -480,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetSubMeshCount_IntPtr_Int32 == null)
 				{
-					r_MSetSubMeshCount_IntPtr_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "SetSubMeshCount", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MSetSubMeshCount_IntPtr_Int32 = new(Type, "SetSubMeshCount", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MSetSubMeshCount_IntPtr_Int32;
 			}
@@ -496,7 +497,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetSubMeshImpl_IntPtr_Int32_SubMeshDescriptor_MeshUpdateFlags == null)
 				{
-					r_MSetSubMeshImpl_IntPtr_Int32_SubMeshDescriptor_MeshUpdateFlags = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "SetSubMeshImpl", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_MSetSubMeshImpl_IntPtr_Int32_SubMeshDescriptor_MeshUpdateFlags = new(Type, "SetSubMeshImpl", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor), typeof(UnityEngine.Rendering.MeshUpdateFlags));
 				}
 				return r_MSetSubMeshImpl_IntPtr_Int32_SubMeshDescriptor_MeshUpdateFlags;
 			}
@@ -928,7 +929,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor == null)
 				{
-					r_MGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "GetSubMesh_Injected", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType());
+					r_MGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor = new(Type, "GetSubMesh_Injected", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType());
 				}
 				return r_MGetSubMesh_Injected_IntPtr_Int32_Out_SubMeshDescriptor;
 			}
@@ -944,7 +945,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags == null)
 				{
-					r_MSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshData"), "SetSubMeshImpl_Injected", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_MSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags = new(Type, "SetSubMeshImpl_Injected", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.SubMeshDescriptor).MakeByRefType(), typeof(UnityEngine.Rendering.MeshUpdateFlags));
 				}
 				return r_MSetSubMeshImpl_Injected_IntPtr_Int32_Ref_SubMeshDescriptor_MeshUpdateFlags;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @attr};
             var ___result = RMHasVertexAttribute_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1065,7 +1066,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @attr};
             var ___result = RMGetVertexAttributeDimension_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1076,7 +1077,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @attr};
             var ___result = RMGetVertexAttributeFormat_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.VertexAttributeFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeFormat>(___result);
         }
 
 
@@ -1087,7 +1088,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @attr};
             var ___result = RMGetVertexAttributeStream_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1098,7 +1099,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @attr};
             var ___result = RMGetVertexAttributeOffset_IntPtr_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1109,7 +1110,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMGetVertexCount_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1120,7 +1121,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMGetVertexBufferCount_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1131,7 +1132,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @stream};
             var ___result = RMGetVertexDataPtr_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1142,7 +1143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @stream};
             var ___result = RMGetVertexDataSize_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1153,7 +1154,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @stream};
             var ___result = RMGetVertexBufferStride_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1186,7 +1187,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMGetIndexFormat_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.IndexFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.IndexFormat>(___result);
         }
 
 
@@ -1197,7 +1198,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @submesh};
             var ___result = RMGetIndexCount_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1208,7 +1209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMGetIndexDataPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1219,7 +1220,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMGetIndexDataSize_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMGetSubMeshCount_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1241,7 +1242,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @index};
             var ___result = RMGetSubMesh_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.SubMeshDescriptor)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___result);
         }
 
 
@@ -1307,7 +1308,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@stream};
             var ___result = RMGetVertexBufferStride_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1318,7 +1319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@attr};
             var ___result = RMHasVertexAttribute_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1329,7 +1330,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@attr};
             var ___result = RMGetVertexAttributeDimension_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1340,7 +1341,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@attr};
             var ___result = RMGetVertexAttributeFormat_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.VertexAttributeFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.VertexAttributeFormat>(___result);
         }
 
 
@@ -1351,7 +1352,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@attr};
             var ___result = RMGetVertexAttributeStream_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1362,7 +1363,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@attr};
             var ___result = RMGetVertexAttributeOffset_VertexAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1461,7 +1462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@stream};
             var ___result = RMGetVertexData_GT_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1538,7 +1539,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetIndexData_GT.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -1549,7 +1550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@index};
             var ___result = RMGetSubMesh_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.SubMeshDescriptor)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.SubMeshDescriptor>(___result);
         }
 
 
@@ -1618,7 +1619,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1629,7 +1630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1640,7 +1641,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1673,7 +1674,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

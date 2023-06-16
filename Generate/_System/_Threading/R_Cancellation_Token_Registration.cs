@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.CancellationTokenRegistration
 	/// </summary>
     public partial class RCancellationTokenRegistration : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Mop_Equality_CancellationTokenRegistration_CancellationTokenRegistration == null)
 				{
-					r_Mop_Equality_CancellationTokenRegistration_CancellationTokenRegistration = new(typeof(System.Threading.CancellationTokenRegistration), "op_Equality", 0, typeof(System.Threading.CancellationTokenRegistration), typeof(System.Threading.CancellationTokenRegistration));
+					r_Mop_Equality_CancellationTokenRegistration_CancellationTokenRegistration = new(Type, "op_Equality", 0, typeof(System.Threading.CancellationTokenRegistration), typeof(System.Threading.CancellationTokenRegistration));
 				}
 				return r_Mop_Equality_CancellationTokenRegistration_CancellationTokenRegistration;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Mop_Inequality_CancellationTokenRegistration_CancellationTokenRegistration == null)
 				{
-					r_Mop_Inequality_CancellationTokenRegistration_CancellationTokenRegistration = new(typeof(System.Threading.CancellationTokenRegistration), "op_Inequality", 0, typeof(System.Threading.CancellationTokenRegistration), typeof(System.Threading.CancellationTokenRegistration));
+					r_Mop_Inequality_CancellationTokenRegistration_CancellationTokenRegistration = new(Type, "op_Inequality", 0, typeof(System.Threading.CancellationTokenRegistration), typeof(System.Threading.CancellationTokenRegistration));
 				}
 				return r_Mop_Inequality_CancellationTokenRegistration_CancellationTokenRegistration;
 			}
@@ -284,7 +285,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMUnregister.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -306,7 +307,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_CancellationTokenRegistration_CancellationTokenRegistration.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -317,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_CancellationTokenRegistration_CancellationTokenRegistration.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -328,7 +329,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -339,7 +340,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_CancellationTokenRegistration.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -361,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.ValueTask)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
         }
 
 
@@ -372,7 +373,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -394,7 +395,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -405,7 +406,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

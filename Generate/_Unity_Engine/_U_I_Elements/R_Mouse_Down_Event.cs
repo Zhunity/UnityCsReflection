@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.MouseDownEvent
 	/// </summary>
     public partial class RMouseDownEvent : RMember //
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Event == null)
 				{
-					r_MGetPooled_Event = new(typeof(UnityEngine.UIElements.MouseDownEvent), "GetPooled", 0, typeof(UnityEngine.Event));
+					r_MGetPooled_Event = new(Type, "GetPooled", 0, typeof(UnityEngine.Event));
 				}
 				return r_MGetPooled_Event;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MMakeFromPointerEvent_IPointerEvent == null)
 				{
-					r_MMakeFromPointerEvent_IPointerEvent = new(typeof(UnityEngine.UIElements.MouseDownEvent), "MakeFromPointerEvent", 0, typeof(UnityEngine.UIElements.IPointerEvent));
+					r_MMakeFromPointerEvent_IPointerEvent = new(Type, "MakeFromPointerEvent", 0, typeof(UnityEngine.UIElements.IPointerEvent));
 				}
 				return r_MMakeFromPointerEvent_IPointerEvent;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_PointerDownEvent == null)
 				{
-					r_MGetPooled_PointerDownEvent = new(typeof(UnityEngine.UIElements.MouseDownEvent), "GetPooled", 0, typeof(UnityEngine.UIElements.PointerDownEvent));
+					r_MGetPooled_PointerDownEvent = new(Type, "GetPooled", 0, typeof(UnityEngine.UIElements.PointerDownEvent));
 				}
 				return r_MGetPooled_PointerDownEvent;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_PointerMoveEvent == null)
 				{
-					r_MGetPooled_PointerMoveEvent = new(typeof(UnityEngine.UIElements.MouseDownEvent), "GetPooled", 0, typeof(UnityEngine.UIElements.PointerMoveEvent));
+					r_MGetPooled_PointerMoveEvent = new(Type, "GetPooled", 0, typeof(UnityEngine.UIElements.PointerMoveEvent));
 				}
 				return r_MGetPooled_PointerMoveEvent;
 			}
@@ -1122,7 +1123,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@systemEvent};
             var ___result = RMGetPooled_Event.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MouseDownEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MouseDownEvent>(___result);
         }
 
 
@@ -1133,7 +1134,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerEvent};
             var ___result = RMMakeFromPointerEvent_IPointerEvent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MouseDownEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MouseDownEvent>(___result);
         }
 
 
@@ -1144,7 +1145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerEvent};
             var ___result = RMGetPooled_PointerDownEvent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MouseDownEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MouseDownEvent>(___result);
         }
 
 
@@ -1155,7 +1156,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@pointerEvent};
             var ___result = RMGetPooled_PointerMoveEvent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MouseDownEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MouseDownEvent>(___result);
         }
 
 
@@ -1243,7 +1244,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@h};
             var ___result = RMSkip_IEventHandler.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1298,7 +1299,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1320,7 +1321,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1331,7 +1332,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1353,7 +1354,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

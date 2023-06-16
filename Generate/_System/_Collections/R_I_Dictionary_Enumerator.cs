@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.IDictionaryEnumerator
 	/// </summary>
     public partial class RIDictionaryEnumerator : RMember //

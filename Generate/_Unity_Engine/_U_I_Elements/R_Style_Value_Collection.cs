@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.StyleValueCollection
 	/// </summary>
     public partial class RStyleValueCollection : RMember //
@@ -332,7 +333,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleLength_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleLength)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleLength>(___result);
         }
 
 
@@ -343,7 +344,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleFloat_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleFloat)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFloat>(___result);
         }
 
 
@@ -354,7 +355,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleInt_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleInt)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleInt>(___result);
         }
 
 
@@ -365,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleColor_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleColor)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleColor>(___result);
         }
 
 
@@ -376,7 +377,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleBackground)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackground>(___result);
         }
 
 
@@ -387,7 +388,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleBackgroundPosition_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleBackgroundPosition)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundPosition>(___result);
         }
 
 
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleBackgroundRepeat_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleBackgroundRepeat)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundRepeat>(___result);
         }
 
 
@@ -409,7 +410,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleFont_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleFont)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFont>(___result);
         }
 
 
@@ -420,7 +421,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value};
             var ___result = RMGetStyleFontDefinition_StylePropertyId.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleFontDefinition)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleFontDefinition>(___result);
         }
 
 
@@ -432,7 +433,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMTryGetStyleValue_StylePropertyId_Ref_StyleValue.Invoke(___genericsType, ___parameters);
 			@value = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue(___parameters[1]);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -454,7 +455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -476,7 +477,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -487,7 +488,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -498,7 +499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -509,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

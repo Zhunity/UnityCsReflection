@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.ExecutionContext
 	/// </summary>
     public partial class RExecutionContext : RMember //
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_dummyDefaultEC == null)
 				{
-					r_Fs_dummyDefaultEC = new(typeof(System.Threading.ExecutionContext), "s_dummyDefaultEC");
+					r_Fs_dummyDefaultEC = new(Type, "s_dummyDefaultEC");
 				}
 				return r_Fs_dummyDefaultEC;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FDefault == null)
 				{
-					r_FDefault = new(typeof(System.Threading.ExecutionContext), "Default");
+					r_FDefault = new(Type, "Default");
 				}
 				return r_FDefault;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PPreAllocatedDefault == null)
 				{
-					r_PPreAllocatedDefault = new(typeof(System.Threading.ExecutionContext), "PreAllocatedDefault", -1);
+					r_PPreAllocatedDefault = new(Type, "PreAllocatedDefault", -1);
 				}
 				return r_PPreAllocatedDefault;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetLocalValue_IAsyncLocal == null)
 				{
-					r_MGetLocalValue_IAsyncLocal = new(typeof(System.Threading.ExecutionContext), "GetLocalValue", 0,  ReflectionUtils.GetType("System.Threading.IAsyncLocal"));
+					r_MGetLocalValue_IAsyncLocal = new(Type, "GetLocalValue", 0,  ReflectionUtils.GetType("System.Threading.IAsyncLocal"));
 				}
 				return r_MGetLocalValue_IAsyncLocal;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetLocalValue_IAsyncLocal_Object_Boolean == null)
 				{
-					r_MSetLocalValue_IAsyncLocal_Object_Boolean = new(typeof(System.Threading.ExecutionContext), "SetLocalValue", 0,  ReflectionUtils.GetType("System.Threading.IAsyncLocal"), typeof(System.Object), typeof(System.Boolean));
+					r_MSetLocalValue_IAsyncLocal_Object_Boolean = new(Type, "SetLocalValue", 0,  ReflectionUtils.GetType("System.Threading.IAsyncLocal"), typeof(System.Object), typeof(System.Boolean));
 				}
 				return r_MSetLocalValue_IAsyncLocal_Object_Boolean;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MOnAsyncLocalContextChanged_ExecutionContext_ExecutionContext == null)
 				{
-					r_MOnAsyncLocalContextChanged_ExecutionContext_ExecutionContext = new(typeof(System.Threading.ExecutionContext), "OnAsyncLocalContextChanged", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ExecutionContext));
+					r_MOnAsyncLocalContextChanged_ExecutionContext_ExecutionContext = new(Type, "OnAsyncLocalContextChanged", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ExecutionContext));
 				}
 				return r_MOnAsyncLocalContextChanged_ExecutionContext_ExecutionContext;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRun_ExecutionContext_ContextCallback_Object == null)
 				{
-					r_MRun_ExecutionContext_ContextCallback_Object = new(typeof(System.Threading.ExecutionContext), "Run", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object));
+					r_MRun_ExecutionContext_ContextCallback_Object = new(Type, "Run", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object));
 				}
 				return r_MRun_ExecutionContext_ContextCallback_Object;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRun_ExecutionContext_ContextCallback_Object_Boolean == null)
 				{
-					r_MRun_ExecutionContext_ContextCallback_Object_Boolean = new(typeof(System.Threading.ExecutionContext), "Run", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object), typeof(System.Boolean));
+					r_MRun_ExecutionContext_ContextCallback_Object_Boolean = new(Type, "Run", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object), typeof(System.Boolean));
 				}
 				return r_MRun_ExecutionContext_ContextCallback_Object_Boolean;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRunInternal_ExecutionContext_ContextCallback_Object == null)
 				{
-					r_MRunInternal_ExecutionContext_ContextCallback_Object = new(typeof(System.Threading.ExecutionContext), "RunInternal", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object));
+					r_MRunInternal_ExecutionContext_ContextCallback_Object = new(Type, "RunInternal", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object));
 				}
 				return r_MRunInternal_ExecutionContext_ContextCallback_Object;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRunInternal_ExecutionContext_ContextCallback_Object_Boolean == null)
 				{
-					r_MRunInternal_ExecutionContext_ContextCallback_Object_Boolean = new(typeof(System.Threading.ExecutionContext), "RunInternal", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object), typeof(System.Boolean));
+					r_MRunInternal_ExecutionContext_ContextCallback_Object_Boolean = new(Type, "RunInternal", 0, typeof(System.Threading.ExecutionContext), typeof(System.Threading.ContextCallback), typeof(System.Object), typeof(System.Boolean));
 				}
 				return r_MRunInternal_ExecutionContext_ContextCallback_Object_Boolean;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState == null)
 				{
-					r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState = new(typeof(System.Threading.ExecutionContext), "RunInternal", 1, typeof(System.Threading.ExecutionContext),  ReflectionUtils.GetType("System.Threading.ContextCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState = new(Type, "RunInternal", 1, typeof(System.Threading.ExecutionContext),  ReflectionUtils.GetType("System.Threading.ContextCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeByRefType());
 				}
 				return r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean == null)
 				{
-					r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean = new(typeof(System.Threading.ExecutionContext), "RunInternal", 1, typeof(System.Threading.ExecutionContext),  ReflectionUtils.GetType("System.Threading.ContextCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeByRefType(), typeof(System.Boolean));
+					r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean = new(Type, "RunInternal", 1, typeof(System.Threading.ExecutionContext),  ReflectionUtils.GetType("System.Threading.ContextCallback`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), Type.MakeGenericMethodParameter(0).MakeByRefType(), typeof(System.Boolean));
 				}
 				return r_MRunInternal_GTState_ExecutionContext_ContextCallback_d_TState_p__Ref_TState_Boolean;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher == null)
 				{
-					r_MEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher = new(typeof(System.Threading.ExecutionContext), "EstablishCopyOnWriteScope", 0,  ReflectionUtils.GetType("System.Threading.ExecutionContextSwitcher").MakeByRefType());
+					r_MEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher = new(Type, "EstablishCopyOnWriteScope", 0,  ReflectionUtils.GetType("System.Threading.ExecutionContextSwitcher").MakeByRefType());
 				}
 				return r_MEstablishCopyOnWriteScope_Ref_ExecutionContextSwitcher;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher == null)
 				{
-					r_MEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher = new(typeof(System.Threading.ExecutionContext), "EstablishCopyOnWriteScope", 0, typeof(System.Threading.Thread), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.ExecutionContextSwitcher").MakeByRefType());
+					r_MEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher = new(Type, "EstablishCopyOnWriteScope", 0, typeof(System.Threading.Thread), typeof(System.Boolean),  ReflectionUtils.GetType("System.Threading.ExecutionContextSwitcher").MakeByRefType());
 				}
 				return r_MEstablishCopyOnWriteScope_Thread_Boolean_Ref_ExecutionContextSwitcher;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetExecutionContext_ExecutionContext_Boolean == null)
 				{
-					r_MSetExecutionContext_ExecutionContext_Boolean = new(typeof(System.Threading.ExecutionContext), "SetExecutionContext", 0, typeof(System.Threading.ExecutionContext), typeof(System.Boolean));
+					r_MSetExecutionContext_ExecutionContext_Boolean = new(Type, "SetExecutionContext", 0, typeof(System.Threading.ExecutionContext), typeof(System.Boolean));
 				}
 				return r_MSetExecutionContext_ExecutionContext_Boolean;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSuppressFlow == null)
 				{
-					r_MSuppressFlow = new(typeof(System.Threading.ExecutionContext), "SuppressFlow", 0);
+					r_MSuppressFlow = new(Type, "SuppressFlow", 0);
 				}
 				return r_MSuppressFlow;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRestoreFlow == null)
 				{
-					r_MRestoreFlow = new(typeof(System.Threading.ExecutionContext), "RestoreFlow", 0);
+					r_MRestoreFlow = new(Type, "RestoreFlow", 0);
 				}
 				return r_MRestoreFlow;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MIsFlowSuppressed == null)
 				{
-					r_MIsFlowSuppressed = new(typeof(System.Threading.ExecutionContext), "IsFlowSuppressed", 0);
+					r_MIsFlowSuppressed = new(Type, "IsFlowSuppressed", 0);
 				}
 				return r_MIsFlowSuppressed;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MCapture == null)
 				{
-					r_MCapture = new(typeof(System.Threading.ExecutionContext), "Capture", 0);
+					r_MCapture = new(Type, "Capture", 0);
 				}
 				return r_MCapture;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MFastCapture == null)
 				{
-					r_MFastCapture = new(typeof(System.Threading.ExecutionContext), "FastCapture", 0);
+					r_MFastCapture = new(Type, "FastCapture", 0);
 				}
 				return r_MFastCapture;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MCapture_Ref_StackCrawlMark_CaptureOptions == null)
 				{
-					r_MCapture_Ref_StackCrawlMark_CaptureOptions = new(typeof(System.Threading.ExecutionContext), "Capture", 0,  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(),  ReflectionUtils.GetType("System.Threading.ExecutionContext+CaptureOptions"));
+					r_MCapture_Ref_StackCrawlMark_CaptureOptions = new(Type, "Capture", 0,  ReflectionUtils.GetType("System.Threading.StackCrawlMark").MakeByRefType(),  ReflectionUtils.GetType("System.Threading.ExecutionContext+CaptureOptions"));
 				}
 				return r_MCapture_Ref_StackCrawlMark_CaptureOptions;
 			}
@@ -780,7 +781,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@local.Value};
             var ___result = RMGetLocalValue_IAsyncLocal.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -916,7 +917,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@executionContext, @preserveSyncCtx};
             var ___result = RMSetExecutionContext_ExecutionContext_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContextSwitcher>(___result);
         }
 
 
@@ -927,7 +928,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ExecutionContext)___result;
+            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }
 
 
@@ -938,7 +939,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCreateMutableCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ExecutionContext)___result;
+            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }
 
 
@@ -949,7 +950,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMSuppressFlow.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.AsyncFlowControl)___result;
+            return ReflectionUtils.Convert<System.Threading.AsyncFlowControl>(___result);
         }
 
 
@@ -971,7 +972,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMIsFlowSuppressed.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -982,7 +983,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCapture.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ExecutionContext)___result;
+            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }
 
 
@@ -993,7 +994,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMFastCapture.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ExecutionContext)___result;
+            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }
 
 
@@ -1005,7 +1006,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMCapture_Ref_StackCrawlMark_CaptureOptions.Invoke(___genericsType, ___parameters);
 			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[0]);
 
-            return (System.Threading.ExecutionContext)___result;
+            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }
 
 
@@ -1027,7 +1028,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@ignoreSyncCtx};
             var ___result = RMIsDefaultFTContext_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1060,7 +1061,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1071,7 +1072,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1082,7 +1083,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1093,7 +1094,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

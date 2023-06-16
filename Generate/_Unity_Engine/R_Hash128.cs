@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Hash128
 	/// </summary>
     public partial class RHash128 : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FkConst == null)
 				{
-					r_FkConst = new(typeof(UnityEngine.Hash128), "kConst");
+					r_FkConst = new(Type, "kConst");
 				}
 				return r_FkConst;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MParse_String == null)
 				{
-					r_MParse_String = new(typeof(UnityEngine.Hash128), "Parse", 0, typeof(System.String));
+					r_MParse_String = new(Type, "Parse", 0, typeof(System.String));
 				}
 				return r_MParse_String;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MHash128ToStringImpl_Hash128 == null)
 				{
-					r_MHash128ToStringImpl_Hash128 = new(typeof(UnityEngine.Hash128), "Hash128ToStringImpl", 0, typeof(UnityEngine.Hash128));
+					r_MHash128ToStringImpl_Hash128 = new(Type, "Hash128ToStringImpl", 0, typeof(UnityEngine.Hash128));
 				}
 				return r_MHash128ToStringImpl_Hash128;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MComputeFromString_String_Ref_Hash128 == null)
 				{
-					r_MComputeFromString_String_Ref_Hash128 = new(typeof(UnityEngine.Hash128), "ComputeFromString", 0, typeof(System.String), typeof(UnityEngine.Hash128).MakeByRefType());
+					r_MComputeFromString_String_Ref_Hash128 = new(Type, "ComputeFromString", 0, typeof(System.String), typeof(UnityEngine.Hash128).MakeByRefType());
 				}
 				return r_MComputeFromString_String_Ref_Hash128;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MComputeFromPtr_IntPtr_Int32_Int32_Int32_Ref_Hash128 == null)
 				{
-					r_MComputeFromPtr_IntPtr_Int32_Int32_Int32_Ref_Hash128 = new(typeof(UnityEngine.Hash128), "ComputeFromPtr", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Hash128).MakeByRefType());
+					r_MComputeFromPtr_IntPtr_Int32_Int32_Int32_Ref_Hash128 = new(Type, "ComputeFromPtr", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Hash128).MakeByRefType());
 				}
 				return r_MComputeFromPtr_IntPtr_Int32_Int32_Int32_Ref_Hash128;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MComputeFromArray_Array_Int32_Int32_Int32_Ref_Hash128 == null)
 				{
-					r_MComputeFromArray_Array_Int32_Int32_Int32_Ref_Hash128 = new(typeof(UnityEngine.Hash128), "ComputeFromArray", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Hash128).MakeByRefType());
+					r_MComputeFromArray_Array_Int32_Int32_Int32_Ref_Hash128 = new(Type, "ComputeFromArray", 0, typeof(System.Array), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Hash128).MakeByRefType());
 				}
 				return r_MComputeFromArray_Array_Int32_Int32_Int32_Ref_Hash128;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_String == null)
 				{
-					r_MCompute_String = new(typeof(UnityEngine.Hash128), "Compute", 0, typeof(System.String));
+					r_MCompute_String = new(Type, "Compute", 0, typeof(System.String));
 				}
 				return r_MCompute_String;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_NativeArray_d_T_p_ == null)
 				{
-					r_MCompute_GT_NativeArray_d_T_p_ = new(typeof(UnityEngine.Hash128), "Compute", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCompute_GT_NativeArray_d_T_p_ = new(Type, "Compute", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCompute_GT_NativeArray_d_T_p_;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_NativeArray_d_T_p__Int32_Int32 == null)
 				{
-					r_MCompute_GT_NativeArray_d_T_p__Int32_Int32 = new(typeof(UnityEngine.Hash128), "Compute", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_MCompute_GT_NativeArray_d_T_p__Int32_Int32 = new(Type, "Compute", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCompute_GT_NativeArray_d_T_p__Int32_Int32;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_TArray == null)
 				{
-					r_MCompute_GT_TArray = new(typeof(UnityEngine.Hash128), "Compute", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_MCompute_GT_TArray = new(Type, "Compute", 1, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_MCompute_GT_TArray;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_TArray_Int32_Int32 == null)
 				{
-					r_MCompute_GT_TArray_Int32_Int32 = new(typeof(UnityEngine.Hash128), "Compute", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MCompute_GT_TArray_Int32_Int32 = new(Type, "Compute", 1, Type.MakeGenericMethodParameter(0).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCompute_GT_TArray_Int32_Int32;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_List_d_T_p_ == null)
 				{
-					r_MCompute_GT_List_d_T_p_ = new(typeof(UnityEngine.Hash128), "Compute", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCompute_GT_List_d_T_p_ = new(Type, "Compute", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCompute_GT_List_d_T_p_;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_List_d_T_p__Int32_Int32 == null)
 				{
-					r_MCompute_GT_List_d_T_p__Int32_Int32 = new(typeof(UnityEngine.Hash128), "Compute", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
+					r_MCompute_GT_List_d_T_p__Int32_Int32 = new(Type, "Compute", 1,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(Type.MakeGenericMethodParameter(0)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCompute_GT_List_d_T_p__Int32_Int32;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_GT_Ref_T == null)
 				{
-					r_MCompute_GT_Ref_T = new(typeof(UnityEngine.Hash128), "Compute", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
+					r_MCompute_GT_Ref_T = new(Type, "Compute", 1, Type.MakeGenericMethodParameter(0).MakeByRefType());
 				}
 				return r_MCompute_GT_Ref_T;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_Int32 == null)
 				{
-					r_MCompute_Int32 = new(typeof(UnityEngine.Hash128), "Compute", 0, typeof(System.Int32));
+					r_MCompute_Int32 = new(Type, "Compute", 0, typeof(System.Int32));
 				}
 				return r_MCompute_Int32;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_Single == null)
 				{
-					r_MCompute_Single = new(typeof(UnityEngine.Hash128), "Compute", 0, typeof(System.Single));
+					r_MCompute_Single = new(Type, "Compute", 0, typeof(System.Single));
 				}
 				return r_MCompute_Single;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompute_VoidPointer_UInt64 == null)
 				{
-					r_MCompute_VoidPointer_UInt64 = new(typeof(UnityEngine.Hash128), "Compute", 0, typeof(void).MakePointerType(), typeof(System.UInt64));
+					r_MCompute_VoidPointer_UInt64 = new(Type, "Compute", 0, typeof(void).MakePointerType(), typeof(System.UInt64));
 				}
 				return r_MCompute_VoidPointer_UInt64;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_Hash128_Hash128 == null)
 				{
-					r_Mop_Equality_Hash128_Hash128 = new(typeof(UnityEngine.Hash128), "op_Equality", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
+					r_Mop_Equality_Hash128_Hash128 = new(Type, "op_Equality", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
 				}
 				return r_Mop_Equality_Hash128_Hash128;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_Hash128_Hash128 == null)
 				{
-					r_Mop_Inequality_Hash128_Hash128 = new(typeof(UnityEngine.Hash128), "op_Inequality", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
+					r_Mop_Inequality_Hash128_Hash128 = new(Type, "op_Inequality", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
 				}
 				return r_Mop_Inequality_Hash128_Hash128;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_LessThan_Hash128_Hash128 == null)
 				{
-					r_Mop_LessThan_Hash128_Hash128 = new(typeof(UnityEngine.Hash128), "op_LessThan", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
+					r_Mop_LessThan_Hash128_Hash128 = new(Type, "op_LessThan", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
 				}
 				return r_Mop_LessThan_Hash128_Hash128;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_GreaterThan_Hash128_Hash128 == null)
 				{
-					r_Mop_GreaterThan_Hash128_Hash128 = new(typeof(UnityEngine.Hash128), "op_GreaterThan", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
+					r_Mop_GreaterThan_Hash128_Hash128 = new(Type, "op_GreaterThan", 0, typeof(UnityEngine.Hash128), typeof(UnityEngine.Hash128));
 				}
 				return r_Mop_GreaterThan_Hash128_Hash128;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MShortEnd_Ref_UInt64_Ref_UInt64_Ref_UInt64_Ref_UInt64 == null)
 				{
-					r_MShortEnd_Ref_UInt64_Ref_UInt64_Ref_UInt64_Ref_UInt64 = new(typeof(UnityEngine.Hash128), "ShortEnd", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64).MakeByRefType());
+					r_MShortEnd_Ref_UInt64_Ref_UInt64_Ref_UInt64_Ref_UInt64 = new(Type, "ShortEnd", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64).MakeByRefType());
 				}
 				return r_MShortEnd_Ref_UInt64_Ref_UInt64_Ref_UInt64_Ref_UInt64;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MRot64_Ref_UInt64_Int32 == null)
 				{
-					r_MRot64_Ref_UInt64_Int32 = new(typeof(UnityEngine.Hash128), "Rot64", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.Int32));
+					r_MRot64_Ref_UInt64_Int32 = new(Type, "Rot64", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.Int32));
 				}
 				return r_MRot64_Ref_UInt64_Int32;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MParse_Injected_String_Out_Hash128 == null)
 				{
-					r_MParse_Injected_String_Out_Hash128 = new(typeof(UnityEngine.Hash128), "Parse_Injected", 0, typeof(System.String), typeof(UnityEngine.Hash128).MakeByRefType());
+					r_MParse_Injected_String_Out_Hash128 = new(Type, "Parse_Injected", 0, typeof(System.String), typeof(UnityEngine.Hash128).MakeByRefType());
 				}
 				return r_MParse_Injected_String_Out_Hash128;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MHash128ToStringImpl_Injected_Ref_Hash128 == null)
 				{
-					r_MHash128ToStringImpl_Injected_Ref_Hash128 = new(typeof(UnityEngine.Hash128), "Hash128ToStringImpl_Injected", 0, typeof(UnityEngine.Hash128).MakeByRefType());
+					r_MHash128ToStringImpl_Injected_Ref_Hash128 = new(Type, "Hash128ToStringImpl_Injected", 0, typeof(UnityEngine.Hash128).MakeByRefType());
 				}
 				return r_MHash128ToStringImpl_Injected_Ref_Hash128;
 			}
@@ -828,7 +829,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rhs};
             var ___result = RMCompareTo_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -839,7 +840,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -850,7 +851,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@hashString};
             var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -861,7 +862,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@hash};
             var ___result = RMHash128ToStringImpl_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -908,7 +909,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data};
             var ___result = RMCompute_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -919,7 +920,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data.Value};
             var ___result = RMCompute_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -930,7 +931,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RMCompute_GT_NativeArray_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -941,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data.Value};
             var ___result = RMCompute_GT_TArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -952,7 +953,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RMCompute_GT_TArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -963,7 +964,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data.Value};
             var ___result = RMCompute_GT_List_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data.Value, @start, @count};
             var ___result = RMCompute_GT_List_d_T_p__Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -986,7 +987,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMCompute_GT_Ref_T.Invoke(___genericsType, ___parameters);
 			@val = new Hvak.Editor.Refleaction.RType(___parameters[0]);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -997,7 +998,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@val};
             var ___result = RMCompute_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -1008,7 +1009,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@val};
             var ___result = RMCompute_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -1019,7 +1020,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{Pointer.Box(@data, typeof(void)), @size};
             var ___result = RMCompute_VoidPointer_UInt64.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Hash128)___result;
+            return ReflectionUtils.Convert<UnityEngine.Hash128>(___result);
         }
 
 
@@ -1152,7 +1153,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1163,7 +1164,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1174,7 +1175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1185,7 +1186,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1196,7 +1197,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@hash1, @hash2};
             var ___result = RMop_Equality_Hash128_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1207,7 +1208,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@hash1, @hash2};
             var ___result = RMop_Inequality_Hash128_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1218,7 +1219,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y};
             var ___result = RMop_LessThan_Hash128_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1229,7 +1230,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y};
             var ___result = RMop_GreaterThan_Hash128_Hash128.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1292,7 +1293,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMHash128ToStringImpl_Injected_Ref_Hash128.Invoke(___genericsType, ___parameters);
 			@hash = (UnityEngine.Hash128)___parameters[0];
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1314,7 +1315,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1325,7 +1326,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

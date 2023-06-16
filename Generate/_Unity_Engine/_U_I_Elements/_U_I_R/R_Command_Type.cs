@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.UIR.CommandType
 	/// </summary>
     public partial class RCommandType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FDraw == null)
 				{
-					r_FDraw = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "Draw");
+					r_FDraw = new(Type, "Draw");
 				}
 				return r_FDraw;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FImmediateCull == null)
 				{
-					r_FImmediateCull = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "ImmediateCull");
+					r_FImmediateCull = new(Type, "ImmediateCull");
 				}
 				return r_FImmediateCull;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FImmediate == null)
 				{
-					r_FImmediate = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "Immediate");
+					r_FImmediate = new(Type, "Immediate");
 				}
 				return r_FImmediate;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPushView == null)
 				{
-					r_FPushView = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PushView");
+					r_FPushView = new(Type, "PushView");
 				}
 				return r_FPushView;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPopView == null)
 				{
-					r_FPopView = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PopView");
+					r_FPopView = new(Type, "PopView");
 				}
 				return r_FPopView;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPushScissor == null)
 				{
-					r_FPushScissor = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PushScissor");
+					r_FPushScissor = new(Type, "PushScissor");
 				}
 				return r_FPushScissor;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPopScissor == null)
 				{
-					r_FPopScissor = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PopScissor");
+					r_FPopScissor = new(Type, "PopScissor");
 				}
 				return r_FPopScissor;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPushRenderTexture == null)
 				{
-					r_FPushRenderTexture = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PushRenderTexture");
+					r_FPushRenderTexture = new(Type, "PushRenderTexture");
 				}
 				return r_FPushRenderTexture;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPopRenderTexture == null)
 				{
-					r_FPopRenderTexture = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PopRenderTexture");
+					r_FPopRenderTexture = new(Type, "PopRenderTexture");
 				}
 				return r_FPopRenderTexture;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FBlitToPreviousRT == null)
 				{
-					r_FBlitToPreviousRT = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "BlitToPreviousRT");
+					r_FBlitToPreviousRT = new(Type, "BlitToPreviousRT");
 				}
 				return r_FBlitToPreviousRT;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPushDefaultMaterial == null)
 				{
-					r_FPushDefaultMaterial = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PushDefaultMaterial");
+					r_FPushDefaultMaterial = new(Type, "PushDefaultMaterial");
 				}
 				return r_FPushDefaultMaterial;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FPopDefaultMaterial == null)
 				{
-					r_FPopDefaultMaterial = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.CommandType"), "PopDefaultMaterial");
+					r_FPopDefaultMaterial = new(Type, "PopDefaultMaterial");
 				}
 				return r_FPopDefaultMaterial;
 			}
@@ -460,7 +461,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -493,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -504,7 +505,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -515,7 +516,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -537,7 +538,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -548,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -559,7 +560,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -581,7 +582,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -592,7 +593,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

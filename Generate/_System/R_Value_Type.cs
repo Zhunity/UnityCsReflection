@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.ValueType
 	/// </summary>
     public partial class RValueType : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalEquals_Object_Object_Out_ObjectArray == null)
 				{
-					r_MInternalEquals_Object_Object_Out_ObjectArray = new(typeof(System.ValueType), "InternalEquals", 0, typeof(System.Object), typeof(System.Object), typeof(System.Object).MakeArrayType().MakeByRefType());
+					r_MInternalEquals_Object_Object_Out_ObjectArray = new(Type, "InternalEquals", 0, typeof(System.Object), typeof(System.Object), typeof(System.Object).MakeArrayType().MakeByRefType());
 				}
 				return r_MInternalEquals_Object_Object_Out_ObjectArray;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MDefaultEquals_Object_Object == null)
 				{
-					r_MDefaultEquals_Object_Object = new(typeof(System.ValueType), "DefaultEquals", 0, typeof(System.Object), typeof(System.Object));
+					r_MDefaultEquals_Object_Object = new(Type, "DefaultEquals", 0, typeof(System.Object), typeof(System.Object));
 				}
 				return r_MDefaultEquals_Object_Object;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalGetHashCode_Object_Out_ObjectArray == null)
 				{
-					r_MInternalGetHashCode_Object_Out_ObjectArray = new(typeof(System.ValueType), "InternalGetHashCode", 0, typeof(System.Object), typeof(System.Object).MakeArrayType().MakeByRefType());
+					r_MInternalGetHashCode_Object_Out_ObjectArray = new(Type, "InternalGetHashCode", 0, typeof(System.Object), typeof(System.Object).MakeArrayType().MakeByRefType());
 				}
 				return r_MInternalGetHashCode_Object_Out_ObjectArray;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetHashCodeOfPtr_IntPtr == null)
 				{
-					r_MGetHashCodeOfPtr_IntPtr = new(typeof(System.ValueType), "GetHashCodeOfPtr", 0, typeof(System.IntPtr));
+					r_MGetHashCodeOfPtr_IntPtr = new(Type, "GetHashCodeOfPtr", 0, typeof(System.IntPtr));
 				}
 				return r_MGetHashCodeOfPtr_IntPtr;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMInternalEquals_Object_Object_Out_ObjectArray.Invoke(___genericsType, ___parameters);
 			@fields = (System.Object[])___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -217,7 +218,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@o1, @o2};
             var ___result = RMDefaultEquals_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -228,7 +229,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -241,7 +242,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMInternalGetHashCode_Object_Out_ObjectArray.Invoke(___genericsType, ___parameters);
 			@fields = (System.Object[])___parameters[1];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -252,7 +253,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -263,7 +264,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@ptr};
             var ___result = RMGetHashCodeOfPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -274,7 +275,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -296,7 +297,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -307,7 +308,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

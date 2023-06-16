@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.CommandBuffer
 	/// </summary>
     public partial class RCommandBuffer : RMember //
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInitBuffer == null)
 				{
-					r_MInitBuffer = new(typeof(UnityEngine.Rendering.CommandBuffer), "InitBuffer", 0);
+					r_MInitBuffer = new(Type, "InitBuffer", 0);
 				}
 				return r_MInitBuffer;
 			}
@@ -8498,7 +8499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMInitBuffer.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -8509,7 +8510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@fenceType, @stage};
             var ___result = RMCreateGPUFence_Internal_GraphicsFenceType_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -9980,7 +9981,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@requiredFlags, @invalidFlags};
             var ___result = RMValidateAgainstExecutionFlags_CommandBufferExecutionFlags_CommandBufferExecutionFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -10875,7 +10876,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMCreateAsyncGraphicsFence.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
         }
 
 
@@ -10886,7 +10887,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@stage};
             var ___result = RMCreateAsyncGraphicsFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
         }
 
 
@@ -10897,7 +10898,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@fenceType, @stage};
             var ___result = RMCreateGraphicsFence_GraphicsFenceType_SynchronisationStageFlags.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
         }
 
 
@@ -12712,7 +12713,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@stage};
             var ___result = RMCreateGPUFence_SynchronisationStage.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
         }
 
 
@@ -12723,7 +12724,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMCreateGPUFence.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.GraphicsFence)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.GraphicsFence>(___result);
         }
 
 
@@ -13382,7 +13383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -13393,7 +13394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -13404,7 +13405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -13415,7 +13416,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -13426,7 +13427,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

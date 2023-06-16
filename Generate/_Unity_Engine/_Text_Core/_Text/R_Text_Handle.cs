@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.TextHandle
 	/// </summary>
     public partial class RTextHandle : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fm_LayoutTextInfo == null)
 				{
-					r_Fm_LayoutTextInfo = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "m_LayoutTextInfo");
+					r_Fm_LayoutTextInfo = new(Type, "m_LayoutTextInfo");
 				}
 				return r_Fm_LayoutTextInfo;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_LayoutSettings == null)
 				{
-					r_Fs_LayoutSettings = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "s_LayoutSettings");
+					r_Fs_LayoutSettings = new(Type, "s_LayoutSettings");
 				}
 				return r_Fs_LayoutSettings;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_PlayoutTextInfo == null)
 				{
-					r_PlayoutTextInfo = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "layoutTextInfo", -1);
+					r_PlayoutTextInfo = new(Type, "layoutTextInfo", -1);
 				}
 				return r_PlayoutTextInfo;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MPointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3 == null)
 				{
-					r_MPointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3 = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "PointIntersectRectangle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_MPointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3 = new(Type, "PointIntersectRectangle", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 				}
 				return r_MPointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MDistanceToLine_Vector3_Vector3_Vector3 == null)
 				{
-					r_MDistanceToLine_Vector3_Vector3_Vector3 = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextHandle"), "DistanceToLine", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
+					r_MDistanceToLine_Vector3_Vector3_Vector3 = new(Type, "DistanceToLine", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 				}
 				return r_MDistanceToLine_Vector3_Vector3_Vector3;
 			}
@@ -716,7 +717,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMIsTextInfoAllocated.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -738,7 +739,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMIsDirty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -749,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@index, @inverseYAxis};
             var ___result = RMGetCursorPositionFromStringIndexUsingCharacterHeight_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -760,7 +761,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@index, @useXAdvance, @inverseYAxis};
             var ___result = RMGetCursorPositionFromStringIndexUsingLineHeight_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -771,7 +772,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@position, @inverseYAxis};
             var ___result = RMGetCursorIndexFromPosition_Vector2_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@originalPos};
             var ___result = RMLineDownCharacterPosition_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -793,7 +794,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@originalPos};
             var ___result = RMLineUpCharacterPosition_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -804,7 +805,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@cursorIndex};
             var ___result = RMFindWordIndex_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -815,7 +816,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@position};
             var ___result = RMFindNearestLine_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -826,7 +827,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@position, @line, @visibleOnly};
             var ___result = RMFindNearestCharacterOnLine_Vector2_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -837,7 +838,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@position, @inverseYAxis};
             var ___result = RMFindIntersectingLink_Vector3_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -848,7 +849,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@m, @a, @b, @c, @d};
             var ___result = RMPointIntersectRectangle_Vector3_Vector3_Vector3_Vector3_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -859,7 +860,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@a, @b, @point};
             var ___result = RMDistanceToLine_Vector3_Vector3_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -870,7 +871,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@index};
             var ___result = RMGetLineNumber_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -881,7 +882,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@lineNumber};
             var ___result = RMGetLineHeight_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -892,7 +893,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@index};
             var ___result = RMGetLineHeightFromCharacterIndex_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -903,7 +904,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@index};
             var ___result = RMGetCharacterHeightFromIndex_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -914,7 +915,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMIsElided.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -925,7 +926,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@startIndex, @length};
             var ___result = RMSubstring_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -936,7 +937,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@value, @startIndex};
             var ___result = RMIndexOf_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -947,7 +948,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@value, @startIndex};
             var ___result = RMLastIndexOf_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@tgs.Value};
             var ___result = RMComputeTextWidth_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -969,7 +970,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@tgs.Value};
             var ___result = RMComputeTextHeight_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -991,7 +992,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@newText};
             var ___result = RMUpdate_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo>(___result);
         }
 
 
@@ -1002,7 +1003,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@tgs.Value};
             var ___result = RMUpdate_TextGenerationSettings.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo>(___result);
         }
 
 
@@ -1013,7 +1014,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1035,7 +1036,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1046,7 +1047,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1057,7 +1058,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1068,7 +1069,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

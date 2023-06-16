@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.GUIContent
 	/// </summary>
     public partial class RGUIContent : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Text == null)
 				{
-					r_Fs_Text = new(typeof(UnityEngine.GUIContent), "s_Text");
+					r_Fs_Text = new(Type, "s_Text");
 				}
 				return r_Fs_Text;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Image == null)
 				{
-					r_Fs_Image = new(typeof(UnityEngine.GUIContent), "s_Image");
+					r_Fs_Image = new(Type, "s_Image");
 				}
 				return r_Fs_Image;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_TextImage == null)
 				{
-					r_Fs_TextImage = new(typeof(UnityEngine.GUIContent), "s_TextImage");
+					r_Fs_TextImage = new(Type, "s_TextImage");
 				}
 				return r_Fs_TextImage;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fnone == null)
 				{
-					r_Fnone = new(typeof(UnityEngine.GUIContent), "none");
+					r_Fnone = new(Type, "none");
 				}
 				return r_Fnone;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_String == null)
 				{
-					r_MTemp_String = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(System.String));
+					r_MTemp_String = new(Type, "Temp", 0, typeof(System.String));
 				}
 				return r_MTemp_String;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_String_String == null)
 				{
-					r_MTemp_String_String = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(System.String), typeof(System.String));
+					r_MTemp_String_String = new(Type, "Temp", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MTemp_String_String;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_Texture == null)
 				{
-					r_MTemp_Texture = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(UnityEngine.Texture));
+					r_MTemp_Texture = new(Type, "Temp", 0, typeof(UnityEngine.Texture));
 				}
 				return r_MTemp_Texture;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_Texture_String == null)
 				{
-					r_MTemp_Texture_String = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(UnityEngine.Texture), typeof(System.String));
+					r_MTemp_Texture_String = new(Type, "Temp", 0, typeof(UnityEngine.Texture), typeof(System.String));
 				}
 				return r_MTemp_Texture_String;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_String_Texture == null)
 				{
-					r_MTemp_String_Texture = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(System.String), typeof(UnityEngine.Texture));
+					r_MTemp_String_Texture = new(Type, "Temp", 0, typeof(System.String), typeof(UnityEngine.Texture));
 				}
 				return r_MTemp_String_Texture;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MClearStaticCache == null)
 				{
-					r_MClearStaticCache = new(typeof(UnityEngine.GUIContent), "ClearStaticCache", 0);
+					r_MClearStaticCache = new(Type, "ClearStaticCache", 0);
 				}
 				return r_MClearStaticCache;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_StringArray == null)
 				{
-					r_MTemp_StringArray = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(System.String).MakeArrayType());
+					r_MTemp_StringArray = new(Type, "Temp", 0, typeof(System.String).MakeArrayType());
 				}
 				return r_MTemp_StringArray;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTemp_TextureArray == null)
 				{
-					r_MTemp_TextureArray = new(typeof(UnityEngine.GUIContent), "Temp", 0, typeof(UnityEngine.Texture).MakeArrayType());
+					r_MTemp_TextureArray = new(Type, "Temp", 0, typeof(UnityEngine.Texture).MakeArrayType());
 				}
 				return r_MTemp_TextureArray;
 			}
@@ -476,7 +477,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@t};
             var ___result = RMTemp_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -487,7 +488,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@t, @tooltip};
             var ___result = RMTemp_String_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -498,7 +499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@i};
             var ___result = RMTemp_Texture.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -509,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@i, @tooltip};
             var ___result = RMTemp_Texture_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -520,7 +521,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@t, @i};
             var ___result = RMTemp_String_Texture.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texts};
             var ___result = RMTemp_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent[])___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent[]>(___result);
         }
 
 
@@ -553,7 +554,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@images};
             var ___result = RMTemp_TextureArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent[])___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent[]>(___result);
         }
 
 
@@ -564,7 +565,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -575,7 +576,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -597,7 +598,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -608,7 +609,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -619,7 +620,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

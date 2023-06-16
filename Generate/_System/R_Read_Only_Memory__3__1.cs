@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.ReadOnlyMemory`1
 	/// </summary>
     public partial class RReadOnlyMemory<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.ReadOnlyMemory`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.ReadOnlyMemory`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FRemoveFlagsBitMask == null)
 				{
-					r_FRemoveFlagsBitMask = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "RemoveFlagsBitMask");
+					r_FRemoveFlagsBitMask = new(Type, "RemoveFlagsBitMask");
 				}
 				return r_FRemoveFlagsBitMask;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "Empty", -1);
+					r_PEmpty = new(Type, "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_TArray == null)
 				{
-					r_Mop_Implicit_TArray = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_Mop_Implicit_TArray = new(Type, "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_Mop_Implicit_TArray;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_ArraySegment_d_T_p_ == null)
 				{
-					r_Mop_Implicit_ArraySegment_d_T_p_ = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "op_Implicit", 0,  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Mop_Implicit_ArraySegment_d_T_p_ = new(Type, "op_Implicit", 0,  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_Mop_Implicit_ArraySegment_d_T_p_;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCombineHashCodes_Int32_Int32 == null)
 				{
-					r_MCombineHashCodes_Int32_Int32 = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MCombineHashCodes_Int32_Int32 = new(Type, "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCombineHashCodes_Int32_Int32;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCombineHashCodes_Int32_Int32_Int32 == null)
 				{
-					r_MCombineHashCodes_Int32_Int32_Int32 = new( ReflectionUtils.GetType("System.ReadOnlyMemory`1"), "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MCombineHashCodes_Int32_Int32_Int32 = new(Type, "CombineHashCodes", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCombineHashCodes_Int32_Int32_Int32;
 			}
@@ -460,7 +461,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array};
             var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
 
-            return (System.ReadOnlyMemory<T>)___result;
+            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
         }
 
 
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@segment};
             var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.ReadOnlyMemory<T>)___result;
+            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
         }
 
 
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -493,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@start};
             var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.ReadOnlyMemory<T>)___result;
+            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
         }
 
 
@@ -504,7 +505,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@start, @length};
             var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.ReadOnlyMemory<T>)___result;
+            return ReflectionUtils.Convert<System.ReadOnlyMemory<T>>(___result);
         }
 
 
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@destination};
             var ___result = RMTryCopyTo_Memory_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -537,7 +538,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMPin.Invoke(___genericsType, ___parameters);
 
-            return (System.Buffers.MemoryHandle)___result;
+            return ReflectionUtils.Convert<System.Buffers.MemoryHandle>(___result);
         }
 
 
@@ -548,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -559,7 +560,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -570,7 +571,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_ReadOnlyMemory_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -581,7 +582,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -592,7 +593,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMCombineHashCodes_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -603,7 +604,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@h1, @h2, @h3};
             var ___result = RMCombineHashCodes_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -618,7 +619,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			@start = (System.Int32)___parameters[0];
 			@length = (System.Int32)___parameters[1];
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -640,7 +641,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -651,7 +652,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.EncoderFallback
 	/// </summary>
     public partial class REncoderFallback : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_Fs_replacementFallback == null)
 				{
-					r_Fs_replacementFallback = new(typeof(System.Text.EncoderFallback), "s_replacementFallback");
+					r_Fs_replacementFallback = new(Type, "s_replacementFallback");
 				}
 				return r_Fs_replacementFallback;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_Fs_exceptionFallback == null)
 				{
-					r_Fs_exceptionFallback = new(typeof(System.Text.EncoderFallback), "s_exceptionFallback");
+					r_Fs_exceptionFallback = new(Type, "s_exceptionFallback");
 				}
 				return r_Fs_exceptionFallback;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_PReplacementFallback == null)
 				{
-					r_PReplacementFallback = new(typeof(System.Text.EncoderFallback), "ReplacementFallback", -1);
+					r_PReplacementFallback = new(Type, "ReplacementFallback", -1);
 				}
 				return r_PReplacementFallback;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_PExceptionFallback == null)
 				{
-					r_PExceptionFallback = new(typeof(System.Text.EncoderFallback), "ExceptionFallback", -1);
+					r_PExceptionFallback = new(Type, "ExceptionFallback", -1);
 				}
 				return r_PExceptionFallback;
 			}
@@ -236,7 +237,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMCreateFallbackBuffer.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.EncoderFallbackBuffer)___result;
+            return ReflectionUtils.Convert<System.Text.EncoderFallbackBuffer>(___result);
         }
 
 
@@ -247,7 +248,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -269,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -280,7 +281,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -291,7 +292,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

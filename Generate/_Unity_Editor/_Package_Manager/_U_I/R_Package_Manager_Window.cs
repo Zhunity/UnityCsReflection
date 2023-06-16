@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.PackageManagerWindow
 	/// </summary>
     public partial class RPackageManagerWindow : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_EonPackageManagerReady == null)
 				{
-					r_EonPackageManagerReady = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "onPackageManagerReady");
+					r_EonPackageManagerReady = new(Type, "onPackageManagerReady");
 				}
 				return r_EonPackageManagerReady;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_F__0__instance__1__k__BackingField == null)
 				{
-					r_F__0__instance__1__k__BackingField = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "<instance>k__BackingField");
+					r_F__0__instance__1__k__BackingField = new(Type, "<instance>k__BackingField");
 				}
 				return r_F__0__instance__1__k__BackingField;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_Fk_UpmUrl == null)
 				{
-					r_Fk_UpmUrl = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "k_UpmUrl");
+					r_Fk_UpmUrl = new(Type, "k_UpmUrl");
 				}
 				return r_Fk_UpmUrl;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_FonPackageManagerReady == null)
 				{
-					r_FonPackageManagerReady = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "onPackageManagerReady");
+					r_FonPackageManagerReady = new(Type, "onPackageManagerReady");
 				}
 				return r_FonPackageManagerReady;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_Pinstance == null)
 				{
-					r_Pinstance = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "instance", -1);
+					r_Pinstance = new(Type, "instance", -1);
 				}
 				return r_Pinstance;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOpenURL_String == null)
 				{
-					r_MOpenURL_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OpenURL", 0, typeof(System.String));
+					r_MOpenURL_String = new(Type, "OpenURL", 0, typeof(System.String));
 				}
 				return r_MOpenURL_String;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOpenAddPackageByName_String == null)
 				{
-					r_MOpenAddPackageByName_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OpenAddPackageByName", 0, typeof(System.String));
+					r_MOpenAddPackageByName_String = new(Type, "OpenAddPackageByName", 0, typeof(System.String));
 				}
 				return r_MOpenAddPackageByName_String;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOpenPackageManager_String == null)
 				{
-					r_MOpenPackageManager_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OpenPackageManager", 0, typeof(System.String));
+					r_MOpenPackageManager_String = new(Type, "OpenPackageManager", 0, typeof(System.String));
 				}
 				return r_MOpenPackageManager_String;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOpenPackageManagerOnFilter_String == null)
 				{
-					r_MOpenPackageManagerOnFilter_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OpenPackageManagerOnFilter", 0, typeof(System.String));
+					r_MOpenPackageManagerOnFilter_String = new(Type, "OpenPackageManagerOnFilter", 0, typeof(System.String));
 				}
 				return r_MOpenPackageManagerOnFilter_String;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOnPackageManagerResolve == null)
 				{
-					r_MOnPackageManagerResolve = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OnPackageManagerResolve", 0);
+					r_MOnPackageManagerResolve = new(Type, "OnPackageManagerResolve", 0);
 				}
 				return r_MOnPackageManagerResolve;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MEditorInitializedInSafeMode == null)
 				{
-					r_MEditorInitializedInSafeMode = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "EditorInitializedInSafeMode", 0);
+					r_MEditorInitializedInSafeMode = new(Type, "EditorInitializedInSafeMode", 0);
 				}
 				return r_MEditorInitializedInSafeMode;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOnEditorFinishLoadingProject == null)
 				{
-					r_MOnEditorFinishLoadingProject = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OnEditorFinishLoadingProject", 0);
+					r_MOnEditorFinishLoadingProject = new(Type, "OnEditorFinishLoadingProject", 0);
 				}
 				return r_MOnEditorFinishLoadingProject;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MOnRegisteredPackages_PackageRegistrationEventArgs == null)
 				{
-					r_MOnRegisteredPackages_PackageRegistrationEventArgs = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "OnRegisteredPackages", 0, typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs));
+					r_MOnRegisteredPackages_PackageRegistrationEventArgs = new(Type, "OnRegisteredPackages", 0, typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs));
 				}
 				return r_MOnRegisteredPackages_PackageRegistrationEventArgs;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MSelectFilterSubPageStatic_String == null)
 				{
-					r_MSelectFilterSubPageStatic_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "SelectFilterSubPageStatic", 0, typeof(System.String));
+					r_MSelectFilterSubPageStatic_String = new(Type, "SelectFilterSubPageStatic", 0, typeof(System.String));
 				}
 				return r_MSelectFilterSubPageStatic_String;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String == null)
 				{
-					r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "SelectPackageAndFilterStatic", 0, typeof(System.String),  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")), typeof(System.Boolean), typeof(System.String));
+					r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String = new(Type, "SelectPackageAndFilterStatic", 0, typeof(System.String),  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")), typeof(System.Boolean), typeof(System.String));
 				}
 				return r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MCloseAll == null)
 				{
-					r_MCloseAll = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "CloseAll", 0);
+					r_MCloseAll = new(Type, "CloseAll", 0);
 				}
 				return r_MCloseAll;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MCheckInnerException_GT_TargetInvocationException == null)
 				{
-					r_MCheckInnerException_GT_TargetInvocationException = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.PackageManagerWindow"), "CheckInnerException", 1, typeof(System.Reflection.TargetInvocationException));
+					r_MCheckInnerException_GT_TargetInvocationException = new(Type, "CheckInnerException", 1, typeof(System.Reflection.TargetInvocationException));
 				}
 				return r_MCheckInnerException_GT_TargetInvocationException;
 			}
@@ -2248,7 +2249,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RDataModeController(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RDataModeController>(___result);
         }
 
 
@@ -2270,7 +2271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetViewDataDictionary.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RISerializableJsonDictionary>(___result);
         }
 
 
@@ -2358,7 +2359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetLocalizedTitleContent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -2424,7 +2425,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMCanMaximize.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2435,7 +2436,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetNumTabs.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2446,7 +2447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMShowNextTabIfPossible.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2468,7 +2469,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMIsSelectedTab.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2611,7 +2612,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@buttonRect, @windowSize, @locationPriorityOrder.Value};
             var ___result = RMShowAsDropDownFitToScreen_Rect_Vector2_PopupLocationArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -2776,7 +2777,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@displayId};
             var ___result = RMGetDisplayViewSize_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2798,7 +2799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@e};
             var ___result = RMSendEvent_Event.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2831,7 +2832,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetExtraPaneTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerable<System.Type>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.Type>>(___result);
         }
 
 
@@ -2844,7 +2845,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___result = RMTryGetOverlay_String_Out_Overlay.Invoke(___genericsType, ___parameters);
 			@match = (UnityEditor.Overlays.Overlay)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2888,7 +2889,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2899,7 +2900,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2910,7 +2911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2921,7 +2922,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2943,7 +2944,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2954,7 +2955,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

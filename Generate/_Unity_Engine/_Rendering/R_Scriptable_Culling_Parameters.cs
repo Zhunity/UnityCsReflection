@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.ScriptableCullingParameters
 	/// </summary>
     public partial class RScriptableCullingParameters : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fk_MaximumCullingPlaneCount == null)
 				{
-					r_Fk_MaximumCullingPlaneCount = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "k_MaximumCullingPlaneCount");
+					r_Fk_MaximumCullingPlaneCount = new(Type, "k_MaximumCullingPlaneCount");
 				}
 				return r_Fk_MaximumCullingPlaneCount;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FmaximumCullingPlaneCount == null)
 				{
-					r_FmaximumCullingPlaneCount = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "maximumCullingPlaneCount");
+					r_FmaximumCullingPlaneCount = new(Type, "maximumCullingPlaneCount");
 				}
 				return r_FmaximumCullingPlaneCount;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fk_LayerCount == null)
 				{
-					r_Fk_LayerCount = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "k_LayerCount");
+					r_Fk_LayerCount = new(Type, "k_LayerCount");
 				}
 				return r_Fk_LayerCount;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_FlayerCount == null)
 				{
-					r_FlayerCount = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "layerCount");
+					r_FlayerCount = new(Type, "layerCount");
 				}
 				return r_FlayerCount;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fk_CullingJobCountLowerLimit == null)
 				{
-					r_Fk_CullingJobCountLowerLimit = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "k_CullingJobCountLowerLimit");
+					r_Fk_CullingJobCountLowerLimit = new(Type, "k_CullingJobCountLowerLimit");
 				}
 				return r_Fk_CullingJobCountLowerLimit;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fk_CullingJobCountUpperLimit == null)
 				{
-					r_Fk_CullingJobCountUpperLimit = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "k_CullingJobCountUpperLimit");
+					r_Fk_CullingJobCountUpperLimit = new(Type, "k_CullingJobCountUpperLimit");
 				}
 				return r_Fk_CullingJobCountUpperLimit;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_PcullingJobsLowerLimit == null)
 				{
-					r_PcullingJobsLowerLimit = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "cullingJobsLowerLimit", -1);
+					r_PcullingJobsLowerLimit = new(Type, "cullingJobsLowerLimit", -1);
 				}
 				return r_PcullingJobsLowerLimit;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_PcullingJobsUpperLimit == null)
 				{
-					r_PcullingJobsUpperLimit = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "cullingJobsUpperLimit", -1);
+					r_PcullingJobsUpperLimit = new(Type, "cullingJobsUpperLimit", -1);
 				}
 				return r_PcullingJobsUpperLimit;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_ScriptableCullingParameters_ScriptableCullingParameters == null)
 				{
-					r_Mop_Equality_ScriptableCullingParameters_ScriptableCullingParameters = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "op_Equality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
+					r_Mop_Equality_ScriptableCullingParameters_ScriptableCullingParameters = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
 				}
 				return r_Mop_Equality_ScriptableCullingParameters_ScriptableCullingParameters;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters == null)
 				{
-					r_Mop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters = new(typeof(UnityEngine.Rendering.ScriptableCullingParameters), "op_Inequality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
+					r_Mop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.ScriptableCullingParameters), typeof(UnityEngine.Rendering.ScriptableCullingParameters));
 				}
 				return r_Mop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters;
 			}
@@ -1068,7 +1069,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@layerIndex};
             var ___result = RMGetLayerCullingDistance_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1090,7 +1091,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@index};
             var ___result = RMGetCullingPlane_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Plane)___result;
+            return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
         }
 
 
@@ -1112,7 +1113,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1123,7 +1124,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1145,7 +1146,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_ScriptableCullingParameters_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1156,7 +1157,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_ScriptableCullingParameters_ScriptableCullingParameters.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1167,7 +1168,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1189,7 +1190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1200,7 +1201,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

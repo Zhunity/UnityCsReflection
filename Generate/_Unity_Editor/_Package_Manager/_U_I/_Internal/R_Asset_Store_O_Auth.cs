@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth
 	/// </summary>
     public partial class RAssetStoreOAuth : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_OAuthUri == null)
 				{
-					r_Fk_OAuthUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth"), "k_OAuthUri");
+					r_Fk_OAuthUri = new(Type, "k_OAuthUri");
 				}
 				return r_Fk_OAuthUri;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_TokenInfoUri == null)
 				{
-					r_Fk_TokenInfoUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth"), "k_TokenInfoUri");
+					r_Fk_TokenInfoUri = new(Type, "k_TokenInfoUri");
 				}
 				return r_Fk_TokenInfoUri;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_UserInfoUri == null)
 				{
-					r_Fk_UserInfoUri = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth"), "k_UserInfoUri");
+					r_Fk_UserInfoUri = new(Type, "k_UserInfoUri");
 				}
 				return r_Fk_UserInfoUri;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_ServiceId == null)
 				{
-					r_Fk_ServiceId = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreOAuth"), "k_ServiceId");
+					r_Fk_ServiceId = new(Type, "k_ServiceId");
 				}
 				return r_Fk_ServiceId;
 			}
@@ -1009,7 +1010,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1031,7 +1032,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1042,7 +1043,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1053,7 +1054,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1064,7 +1065,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules
 	/// </summary>
     public partial class RUnicodeLineBreakingRules : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_Instance == null)
 				{
-					r_Fs_Instance = new(typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules), "s_Instance");
+					r_Fs_Instance = new(Type, "s_Instance");
 				}
 				return r_Fs_Instance;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_LeadingCharactersLookup == null)
 				{
-					r_Fs_LeadingCharactersLookup = new(typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules), "s_LeadingCharactersLookup");
+					r_Fs_LeadingCharactersLookup = new(Type, "s_LeadingCharactersLookup");
 				}
 				return r_Fs_LeadingCharactersLookup;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_FollowingCharactersLookup == null)
 				{
-					r_Fs_FollowingCharactersLookup = new(typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules), "s_FollowingCharactersLookup");
+					r_Fs_FollowingCharactersLookup = new(Type, "s_FollowingCharactersLookup");
 				}
 				return r_Fs_FollowingCharactersLookup;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MLoadLineBreakingRules == null)
 				{
-					r_MLoadLineBreakingRules = new(typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules), "LoadLineBreakingRules", 0);
+					r_MLoadLineBreakingRules = new(Type, "LoadLineBreakingRules", 0);
 				}
 				return r_MLoadLineBreakingRules;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MLoadLineBreakingRules_TextAsset_TextAsset == null)
 				{
-					r_MLoadLineBreakingRules_TextAsset_TextAsset = new(typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules), "LoadLineBreakingRules", 0, typeof(UnityEngine.TextAsset), typeof(UnityEngine.TextAsset));
+					r_MLoadLineBreakingRules_TextAsset_TextAsset = new(Type, "LoadLineBreakingRules", 0, typeof(UnityEngine.TextAsset), typeof(UnityEngine.TextAsset));
 				}
 				return r_MLoadLineBreakingRules_TextAsset_TextAsset;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MGetCharacters_TextAsset == null)
 				{
-					r_MGetCharacters_TextAsset = new(typeof(UnityEngine.TextCore.Text.UnicodeLineBreakingRules), "GetCharacters", 0, typeof(UnityEngine.TextAsset));
+					r_MGetCharacters_TextAsset = new(Type, "GetCharacters", 0, typeof(UnityEngine.TextAsset));
 				}
 				return r_MGetCharacters_TextAsset;
 			}
@@ -418,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@file};
             var ___result = RMGetCharacters_TextAsset.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.HashSet<System.UInt32>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.HashSet<System.UInt32>>(___result);
         }
 
 
@@ -429,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -451,7 +452,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -473,7 +474,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -484,7 +485,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

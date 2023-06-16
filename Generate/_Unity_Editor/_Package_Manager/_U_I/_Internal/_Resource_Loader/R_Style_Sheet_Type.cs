@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType
 	/// </summary>
     public partial class RStyleSheetType : RMember //
@@ -64,7 +65,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_FPackageManagerCommon == null)
 				{
-					r_FPackageManagerCommon = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), "PackageManagerCommon");
+					r_FPackageManagerCommon = new(Type, "PackageManagerCommon");
 				}
 				return r_FPackageManagerCommon;
 			}
@@ -80,7 +81,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_FPackageManagerWindow == null)
 				{
-					r_FPackageManagerWindow = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), "PackageManagerWindow");
+					r_FPackageManagerWindow = new(Type, "PackageManagerWindow");
 				}
 				return r_FPackageManagerWindow;
 			}
@@ -96,7 +97,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_FInputDropdown == null)
 				{
-					r_FInputDropdown = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), "InputDropdown");
+					r_FInputDropdown = new(Type, "InputDropdown");
 				}
 				return r_FInputDropdown;
 			}
@@ -112,7 +113,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_FFiltersDropdown == null)
 				{
-					r_FFiltersDropdown = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), "FiltersDropdown");
+					r_FFiltersDropdown = new(Type, "FiltersDropdown");
 				}
 				return r_FFiltersDropdown;
 			}
@@ -128,7 +129,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_FInProgressDropdown == null)
 				{
-					r_FInProgressDropdown = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), "InProgressDropdown");
+					r_FInProgressDropdown = new(Type, "InProgressDropdown");
 				}
 				return r_FInProgressDropdown;
 			}
@@ -144,7 +145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_FCount == null)
 				{
-					r_FCount = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), "Count");
+					r_FCount = new(Type, "Count");
 				}
 				return r_FCount;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -377,7 +378,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -388,7 +389,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -399,7 +400,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -410,7 +411,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -421,7 +422,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -432,7 +433,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -443,7 +444,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -454,7 +455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -465,7 +466,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -487,7 +488,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -498,7 +499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

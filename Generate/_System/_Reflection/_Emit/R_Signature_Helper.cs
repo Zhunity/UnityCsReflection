@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.SignatureHelper
 	/// </summary>
     public partial class RSignatureHelper : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetFieldSigHelper_Module == null)
 				{
-					r_MGetFieldSigHelper_Module = new(typeof(System.Reflection.Emit.SignatureHelper), "GetFieldSigHelper", 0, typeof(System.Reflection.Module));
+					r_MGetFieldSigHelper_Module = new(Type, "GetFieldSigHelper", 0, typeof(System.Reflection.Module));
 				}
 				return r_MGetFieldSigHelper_Module;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetLocalVarSigHelper_Module == null)
 				{
-					r_MGetLocalVarSigHelper_Module = new(typeof(System.Reflection.Emit.SignatureHelper), "GetLocalVarSigHelper", 0, typeof(System.Reflection.Module));
+					r_MGetLocalVarSigHelper_Module = new(Type, "GetLocalVarSigHelper", 0, typeof(System.Reflection.Module));
 				}
 				return r_MGetLocalVarSigHelper_Module;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetLocalVarSigHelper == null)
 				{
-					r_MGetLocalVarSigHelper = new(typeof(System.Reflection.Emit.SignatureHelper), "GetLocalVarSigHelper", 0);
+					r_MGetLocalVarSigHelper = new(Type, "GetLocalVarSigHelper", 0);
 				}
 				return r_MGetLocalVarSigHelper;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodSigHelper_CallingConventions_Type == null)
 				{
-					r_MGetMethodSigHelper_CallingConventions_Type = new(typeof(System.Reflection.Emit.SignatureHelper), "GetMethodSigHelper", 0, typeof(System.Reflection.CallingConventions), typeof(System.Type));
+					r_MGetMethodSigHelper_CallingConventions_Type = new(Type, "GetMethodSigHelper", 0, typeof(System.Reflection.CallingConventions), typeof(System.Type));
 				}
 				return r_MGetMethodSigHelper_CallingConventions_Type;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodSigHelper_CallingConvention_Type == null)
 				{
-					r_MGetMethodSigHelper_CallingConvention_Type = new(typeof(System.Reflection.Emit.SignatureHelper), "GetMethodSigHelper", 0, typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Type));
+					r_MGetMethodSigHelper_CallingConvention_Type = new(Type, "GetMethodSigHelper", 0, typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Type));
 				}
 				return r_MGetMethodSigHelper_CallingConvention_Type;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodSigHelper_Module_CallingConventions_Type == null)
 				{
-					r_MGetMethodSigHelper_Module_CallingConventions_Type = new(typeof(System.Reflection.Emit.SignatureHelper), "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Reflection.CallingConventions), typeof(System.Type));
+					r_MGetMethodSigHelper_Module_CallingConventions_Type = new(Type, "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Reflection.CallingConventions), typeof(System.Type));
 				}
 				return r_MGetMethodSigHelper_Module_CallingConventions_Type;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodSigHelper_Module_CallingConvention_Type == null)
 				{
-					r_MGetMethodSigHelper_Module_CallingConvention_Type = new(typeof(System.Reflection.Emit.SignatureHelper), "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Type));
+					r_MGetMethodSigHelper_Module_CallingConvention_Type = new(Type, "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Type));
 				}
 				return r_MGetMethodSigHelper_Module_CallingConvention_Type;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodSigHelper_Module_Type_TypeArray == null)
 				{
-					r_MGetMethodSigHelper_Module_Type_TypeArray = new(typeof(System.Reflection.Emit.SignatureHelper), "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Type), typeof(System.Type).MakeArrayType());
+					r_MGetMethodSigHelper_Module_Type_TypeArray = new(Type, "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Type), typeof(System.Type).MakeArrayType());
 				}
 				return r_MGetMethodSigHelper_Module_Type_TypeArray;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetPropertySigHelper_Module_Type_TypeArray == null)
 				{
-					r_MGetPropertySigHelper_Module_Type_TypeArray = new(typeof(System.Reflection.Emit.SignatureHelper), "GetPropertySigHelper", 0, typeof(System.Reflection.Module), typeof(System.Type), typeof(System.Type).MakeArrayType());
+					r_MGetPropertySigHelper_Module_Type_TypeArray = new(Type, "GetPropertySigHelper", 0, typeof(System.Reflection.Module), typeof(System.Type), typeof(System.Type).MakeArrayType());
 				}
 				return r_MGetPropertySigHelper_Module_Type_TypeArray;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray == null)
 				{
-					r_MGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(typeof(System.Reflection.Emit.SignatureHelper), "GetPropertySigHelper", 0, typeof(System.Reflection.Module), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
+					r_MGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(Type, "GetPropertySigHelper", 0, typeof(System.Reflection.Module), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
 				}
 				return r_MGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray == null)
 				{
-					r_MGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(typeof(System.Reflection.Emit.SignatureHelper), "GetPropertySigHelper", 0, typeof(System.Reflection.Module), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
+					r_MGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray = new(Type, "GetPropertySigHelper", 0, typeof(System.Reflection.Module), typeof(System.Reflection.CallingConventions), typeof(System.Type), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
 				}
 				return r_MGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MAppendArray_Ref_TypeArray_Type == null)
 				{
-					r_MAppendArray_Ref_TypeArray_Type = new(typeof(System.Reflection.Emit.SignatureHelper), "AppendArray", 0, typeof(System.Type).MakeArrayType().MakeByRefType(), typeof(System.Type));
+					r_MAppendArray_Ref_TypeArray_Type = new(Type, "AppendArray", 0, typeof(System.Type).MakeArrayType().MakeByRefType(), typeof(System.Type));
 				}
 				return r_MAppendArray_Ref_TypeArray_Type;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32 == null)
 				{
-					r_MAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32 = new(typeof(System.Reflection.Emit.SignatureHelper), "AppendArrayAt", 0, typeof(System.Type).MakeArrayType().MakeArrayType().MakeByRefType(), typeof(System.Type).MakeArrayType(), typeof(System.Int32));
+					r_MAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32 = new(Type, "AppendArrayAt", 0, typeof(System.Type).MakeArrayType().MakeArrayType().MakeByRefType(), typeof(System.Type).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MAppendArrayAt_Ref_TypeArrayArray_TypeArray_Int32;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MValidateParameterModifiers_String_TypeArray == null)
 				{
-					r_MValidateParameterModifiers_String_TypeArray = new(typeof(System.Reflection.Emit.SignatureHelper), "ValidateParameterModifiers", 0, typeof(System.String), typeof(System.Type).MakeArrayType());
+					r_MValidateParameterModifiers_String_TypeArray = new(Type, "ValidateParameterModifiers", 0, typeof(System.String), typeof(System.Type).MakeArrayType());
 				}
 				return r_MValidateParameterModifiers_String_TypeArray;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MValidateCustomModifier_Int32_TypeArrayArray_String == null)
 				{
-					r_MValidateCustomModifier_Int32_TypeArrayArray_String = new(typeof(System.Reflection.Emit.SignatureHelper), "ValidateCustomModifier", 0, typeof(System.Int32), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.String));
+					r_MValidateCustomModifier_Int32_TypeArrayArray_String = new(Type, "ValidateCustomModifier", 0, typeof(System.Int32), typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.String));
 				}
 				return r_MValidateCustomModifier_Int32_TypeArrayArray_String;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MMissingFeature == null)
 				{
-					r_MMissingFeature = new(typeof(System.Reflection.Emit.SignatureHelper), "MissingFeature", 0);
+					r_MMissingFeature = new(Type, "MissingFeature", 0);
 				}
 				return r_MMissingFeature;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MCompareOK_TypeArrayArray_TypeArrayArray == null)
 				{
-					r_MCompareOK_TypeArrayArray_TypeArrayArray = new(typeof(System.Reflection.Emit.SignatureHelper), "CompareOK", 0, typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
+					r_MCompareOK_TypeArrayArray_TypeArrayArray = new(Type, "CompareOK", 0, typeof(System.Type).MakeArrayType().MakeArrayType(), typeof(System.Type).MakeArrayType().MakeArrayType());
 				}
 				return r_MCompareOK_TypeArrayArray_TypeArrayArray;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray == null)
 				{
-					r_MGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray = new(typeof(System.Reflection.Emit.SignatureHelper), "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Reflection.CallingConventions), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Type), typeof(System.Type).MakeArrayType());
+					r_MGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray = new(Type, "GetMethodSigHelper", 0, typeof(System.Reflection.Module), typeof(System.Reflection.CallingConventions), typeof(System.Runtime.InteropServices.CallingConvention), typeof(System.Type), typeof(System.Type).MakeArrayType());
 				}
 				return r_MGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray;
 			}
@@ -748,7 +749,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod};
             var ___result = RMGetFieldSigHelper_Module.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -759,7 +760,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod};
             var ___result = RMGetLocalVarSigHelper_Module.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -770,7 +771,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetLocalVarSigHelper.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -781,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@callingConvention, @returnType};
             var ___result = RMGetMethodSigHelper_CallingConventions_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -792,7 +793,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@unmanagedCallingConvention, @returnType};
             var ___result = RMGetMethodSigHelper_CallingConvention_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -803,7 +804,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @callingConvention, @returnType};
             var ___result = RMGetMethodSigHelper_Module_CallingConventions_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @unmanagedCallConv, @returnType};
             var ___result = RMGetMethodSigHelper_Module_CallingConvention_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -825,7 +826,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @returnType, @parameterTypes};
             var ___result = RMGetMethodSigHelper_Module_Type_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -836,7 +837,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @returnType, @parameterTypes};
             var ___result = RMGetPropertySigHelper_Module_Type_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -847,7 +848,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @returnType, @requiredReturnTypeCustomModifiers, @optionalReturnTypeCustomModifiers, @parameterTypes, @requiredParameterTypeCustomModifiers, @optionalParameterTypeCustomModifiers};
             var ___result = RMGetPropertySigHelper_Module_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -858,7 +859,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @callingConvention, @returnType, @requiredReturnTypeCustomModifiers, @optionalReturnTypeCustomModifiers, @parameterTypes, @requiredParameterTypeCustomModifiers, @optionalParameterTypeCustomModifiers};
             var ___result = RMGetPropertySigHelper_Module_CallingConventions_Type_TypeArray_TypeArray_TypeArray_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -870,7 +871,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___result = RMAppendArray_Ref_TypeArray_Type.Invoke(___genericsType, ___parameters);
 			@array = (System.Type[])___parameters[0];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -915,7 +916,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMissingFeature.Invoke(___genericsType, ___parameters);
 
-            return (System.Exception)___result;
+            return ReflectionUtils.Convert<System.Exception>(___result);
         }
 
 
@@ -981,7 +982,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@one, @two};
             var ___result = RMCompareOK_TypeArrayArray_TypeArrayArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -992,7 +993,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1003,7 +1004,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1014,7 +1015,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMget_signature_local.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1025,7 +1026,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMget_signature_field.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1036,7 +1037,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetSignature.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1047,7 +1048,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1058,7 +1059,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@mod, @callingConvention, @unmanagedCallingConvention, @returnType, @parameters};
             var ___result = RMGetMethodSigHelper_Module_CallingConventions_CallingConvention_Type_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.SignatureHelper)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.SignatureHelper>(___result);
         }
 
 
@@ -1126,7 +1127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1137,7 +1138,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

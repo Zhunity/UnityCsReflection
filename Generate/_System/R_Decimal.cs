@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Decimal
 	/// </summary>
     public partial class RDecimal : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSignMask == null)
 				{
-					r_FSignMask = new(typeof(System.Decimal), "SignMask");
+					r_FSignMask = new(Type, "SignMask");
 				}
 				return r_FSignMask;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FScaleMask == null)
 				{
-					r_FScaleMask = new(typeof(System.Decimal), "ScaleMask");
+					r_FScaleMask = new(Type, "ScaleMask");
 				}
 				return r_FScaleMask;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FScaleShift == null)
 				{
-					r_FScaleShift = new(typeof(System.Decimal), "ScaleShift");
+					r_FScaleShift = new(Type, "ScaleShift");
 				}
 				return r_FScaleShift;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FZero == null)
 				{
-					r_FZero = new(typeof(System.Decimal), "Zero");
+					r_FZero = new(Type, "Zero");
 				}
 				return r_FZero;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FOne == null)
 				{
-					r_FOne = new(typeof(System.Decimal), "One");
+					r_FOne = new(Type, "One");
 				}
 				return r_FOne;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinusOne == null)
 				{
-					r_FMinusOne = new(typeof(System.Decimal), "MinusOne");
+					r_FMinusOne = new(Type, "MinusOne");
 				}
 				return r_FMinusOne;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMaxValue == null)
 				{
-					r_FMaxValue = new(typeof(System.Decimal), "MaxValue");
+					r_FMaxValue = new(Type, "MaxValue");
 				}
 				return r_FMaxValue;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinValue == null)
 				{
-					r_FMinValue = new(typeof(System.Decimal), "MinValue");
+					r_FMinValue = new(Type, "MinValue");
 				}
 				return r_FMinValue;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MAsMutable_Ref_Decimal == null)
 				{
-					r_MAsMutable_Ref_Decimal = new(typeof(System.Decimal), "AsMutable", 0, typeof(System.Decimal).MakeByRefType());
+					r_MAsMutable_Ref_Decimal = new(Type, "AsMutable", 0, typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MAsMutable_Ref_Decimal;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MDecDivMod1E9_Ref_Decimal == null)
 				{
-					r_MDecDivMod1E9_Ref_Decimal = new(typeof(System.Decimal), "DecDivMod1E9", 0, typeof(System.Decimal).MakeByRefType());
+					r_MDecDivMod1E9_Ref_Decimal = new(Type, "DecDivMod1E9", 0, typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MDecDivMod1E9_Ref_Decimal;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromOACurrency_Int64 == null)
 				{
-					r_MFromOACurrency_Int64 = new(typeof(System.Decimal), "FromOACurrency", 0, typeof(System.Int64));
+					r_MFromOACurrency_Int64 = new(Type, "FromOACurrency", 0, typeof(System.Int64));
 				}
 				return r_MFromOACurrency_Int64;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToOACurrency_Decimal == null)
 				{
-					r_MToOACurrency_Decimal = new(typeof(System.Decimal), "ToOACurrency", 0, typeof(System.Decimal));
+					r_MToOACurrency_Decimal = new(Type, "ToOACurrency", 0, typeof(System.Decimal));
 				}
 				return r_MToOACurrency_Decimal;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsValid_Int32 == null)
 				{
-					r_MIsValid_Int32 = new(typeof(System.Decimal), "IsValid", 0, typeof(System.Int32));
+					r_MIsValid_Int32 = new(Type, "IsValid", 0, typeof(System.Int32));
 				}
 				return r_MIsValid_Int32;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MAbs_Ref_Decimal == null)
 				{
-					r_MAbs_Ref_Decimal = new(typeof(System.Decimal), "Abs", 0, typeof(System.Decimal).MakeByRefType());
+					r_MAbs_Ref_Decimal = new(Type, "Abs", 0, typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MAbs_Ref_Decimal;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MAdd_Decimal_Decimal == null)
 				{
-					r_MAdd_Decimal_Decimal = new(typeof(System.Decimal), "Add", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MAdd_Decimal_Decimal = new(Type, "Add", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MAdd_Decimal_Decimal;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCeiling_Decimal == null)
 				{
-					r_MCeiling_Decimal = new(typeof(System.Decimal), "Ceiling", 0, typeof(System.Decimal));
+					r_MCeiling_Decimal = new(Type, "Ceiling", 0, typeof(System.Decimal));
 				}
 				return r_MCeiling_Decimal;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCompare_Decimal_Decimal == null)
 				{
-					r_MCompare_Decimal_Decimal = new(typeof(System.Decimal), "Compare", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MCompare_Decimal_Decimal = new(Type, "Compare", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MCompare_Decimal_Decimal;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MDivide_Decimal_Decimal == null)
 				{
-					r_MDivide_Decimal_Decimal = new(typeof(System.Decimal), "Divide", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MDivide_Decimal_Decimal = new(Type, "Divide", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MDivide_Decimal_Decimal;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MEquals_Decimal_Decimal == null)
 				{
-					r_MEquals_Decimal_Decimal = new(typeof(System.Decimal), "Equals", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MEquals_Decimal_Decimal = new(Type, "Equals", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MEquals_Decimal_Decimal;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFloor_Decimal == null)
 				{
-					r_MFloor_Decimal = new(typeof(System.Decimal), "Floor", 0, typeof(System.Decimal));
+					r_MFloor_Decimal = new(Type, "Floor", 0, typeof(System.Decimal));
 				}
 				return r_MFloor_Decimal;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String == null)
 				{
-					r_MParse_String = new(typeof(System.Decimal), "Parse", 0, typeof(System.String));
+					r_MParse_String = new(Type, "Parse", 0, typeof(System.String));
 				}
 				return r_MParse_String;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_NumberStyles == null)
 				{
-					r_MParse_String_NumberStyles = new(typeof(System.Decimal), "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles));
+					r_MParse_String_NumberStyles = new(Type, "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles));
 				}
 				return r_MParse_String_NumberStyles;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_IFormatProvider == null)
 				{
-					r_MParse_String_IFormatProvider = new(typeof(System.Decimal), "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_MParse_String_IFormatProvider = new(Type, "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
 				}
 				return r_MParse_String_IFormatProvider;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_NumberStyles_IFormatProvider == null)
 				{
-					r_MParse_String_NumberStyles_IFormatProvider = new(typeof(System.Decimal), "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
+					r_MParse_String_NumberStyles_IFormatProvider = new(Type, "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
 				}
 				return r_MParse_String_NumberStyles_IFormatProvider;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider == null)
 				{
-					r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider = new(typeof(System.Decimal), "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
+					r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider = new(Type, "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
 				}
 				return r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_Out_Decimal == null)
 				{
-					r_MTryParse_String_Out_Decimal = new(typeof(System.Decimal), "TryParse", 0, typeof(System.String), typeof(System.Decimal).MakeByRefType());
+					r_MTryParse_String_Out_Decimal = new(Type, "TryParse", 0, typeof(System.String), typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MTryParse_String_Out_Decimal;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__Out_Decimal == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Decimal = new(typeof(System.Decimal), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Decimal).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Decimal = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__Out_Decimal;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_NumberStyles_IFormatProvider_Out_Decimal == null)
 				{
-					r_MTryParse_String_NumberStyles_IFormatProvider_Out_Decimal = new(typeof(System.Decimal), "TryParse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Decimal).MakeByRefType());
+					r_MTryParse_String_NumberStyles_IFormatProvider_Out_Decimal = new(Type, "TryParse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MTryParse_String_NumberStyles_IFormatProvider_Out_Decimal;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal = new(typeof(System.Decimal), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Decimal).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetBits_Decimal == null)
 				{
-					r_MGetBits_Decimal = new(typeof(System.Decimal), "GetBits", 0, typeof(System.Decimal));
+					r_MGetBits_Decimal = new(Type, "GetBits", 0, typeof(System.Decimal));
 				}
 				return r_MGetBits_Decimal;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetBytes_In_Decimal_ByteArray == null)
 				{
-					r_MGetBytes_In_Decimal_ByteArray = new(typeof(System.Decimal), "GetBytes", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Byte).MakeArrayType());
+					r_MGetBytes_In_Decimal_ByteArray = new(Type, "GetBytes", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Byte).MakeArrayType());
 				}
 				return r_MGetBytes_In_Decimal_ByteArray;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToDecimal_ByteArray == null)
 				{
-					r_MToDecimal_ByteArray = new(typeof(System.Decimal), "ToDecimal", 0, typeof(System.Byte).MakeArrayType());
+					r_MToDecimal_ByteArray = new(Type, "ToDecimal", 0, typeof(System.Byte).MakeArrayType());
 				}
 				return r_MToDecimal_ByteArray;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MMax_Ref_Decimal_Ref_Decimal == null)
 				{
-					r_MMax_Ref_Decimal_Ref_Decimal = new(typeof(System.Decimal), "Max", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
+					r_MMax_Ref_Decimal_Ref_Decimal = new(Type, "Max", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MMax_Ref_Decimal_Ref_Decimal;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MMin_Ref_Decimal_Ref_Decimal == null)
 				{
-					r_MMin_Ref_Decimal_Ref_Decimal = new(typeof(System.Decimal), "Min", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
+					r_MMin_Ref_Decimal_Ref_Decimal = new(Type, "Min", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MMin_Ref_Decimal_Ref_Decimal;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MRemainder_Decimal_Decimal == null)
 				{
-					r_MRemainder_Decimal_Decimal = new(typeof(System.Decimal), "Remainder", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MRemainder_Decimal_Decimal = new(Type, "Remainder", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MRemainder_Decimal_Decimal;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MMultiply_Decimal_Decimal == null)
 				{
-					r_MMultiply_Decimal_Decimal = new(typeof(System.Decimal), "Multiply", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MMultiply_Decimal_Decimal = new(Type, "Multiply", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MMultiply_Decimal_Decimal;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MNegate_Decimal == null)
 				{
-					r_MNegate_Decimal = new(typeof(System.Decimal), "Negate", 0, typeof(System.Decimal));
+					r_MNegate_Decimal = new(Type, "Negate", 0, typeof(System.Decimal));
 				}
 				return r_MNegate_Decimal;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MRound_Decimal == null)
 				{
-					r_MRound_Decimal = new(typeof(System.Decimal), "Round", 0, typeof(System.Decimal));
+					r_MRound_Decimal = new(Type, "Round", 0, typeof(System.Decimal));
 				}
 				return r_MRound_Decimal;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MRound_Decimal_Int32 == null)
 				{
-					r_MRound_Decimal_Int32 = new(typeof(System.Decimal), "Round", 0, typeof(System.Decimal), typeof(System.Int32));
+					r_MRound_Decimal_Int32 = new(Type, "Round", 0, typeof(System.Decimal), typeof(System.Int32));
 				}
 				return r_MRound_Decimal_Int32;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MRound_Decimal_MidpointRounding == null)
 				{
-					r_MRound_Decimal_MidpointRounding = new(typeof(System.Decimal), "Round", 0, typeof(System.Decimal), typeof(System.MidpointRounding));
+					r_MRound_Decimal_MidpointRounding = new(Type, "Round", 0, typeof(System.Decimal), typeof(System.MidpointRounding));
 				}
 				return r_MRound_Decimal_MidpointRounding;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MRound_Decimal_Int32_MidpointRounding == null)
 				{
-					r_MRound_Decimal_Int32_MidpointRounding = new(typeof(System.Decimal), "Round", 0, typeof(System.Decimal), typeof(System.Int32), typeof(System.MidpointRounding));
+					r_MRound_Decimal_Int32_MidpointRounding = new(Type, "Round", 0, typeof(System.Decimal), typeof(System.Int32), typeof(System.MidpointRounding));
 				}
 				return r_MRound_Decimal_Int32_MidpointRounding;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MRound_Ref_Decimal_Int32_MidpointRounding == null)
 				{
-					r_MRound_Ref_Decimal_Int32_MidpointRounding = new(typeof(System.Decimal), "Round", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Int32), typeof(System.MidpointRounding));
+					r_MRound_Ref_Decimal_Int32_MidpointRounding = new(Type, "Round", 0, typeof(System.Decimal).MakeByRefType(), typeof(System.Int32), typeof(System.MidpointRounding));
 				}
 				return r_MRound_Ref_Decimal_Int32_MidpointRounding;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSign_Ref_Decimal == null)
 				{
-					r_MSign_Ref_Decimal = new(typeof(System.Decimal), "Sign", 0, typeof(System.Decimal).MakeByRefType());
+					r_MSign_Ref_Decimal = new(Type, "Sign", 0, typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MSign_Ref_Decimal;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSubtract_Decimal_Decimal == null)
 				{
-					r_MSubtract_Decimal_Decimal = new(typeof(System.Decimal), "Subtract", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_MSubtract_Decimal_Decimal = new(Type, "Subtract", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_MSubtract_Decimal_Decimal;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToByte_Decimal == null)
 				{
-					r_MToByte_Decimal = new(typeof(System.Decimal), "ToByte", 0, typeof(System.Decimal));
+					r_MToByte_Decimal = new(Type, "ToByte", 0, typeof(System.Decimal));
 				}
 				return r_MToByte_Decimal;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToSByte_Decimal == null)
 				{
-					r_MToSByte_Decimal = new(typeof(System.Decimal), "ToSByte", 0, typeof(System.Decimal));
+					r_MToSByte_Decimal = new(Type, "ToSByte", 0, typeof(System.Decimal));
 				}
 				return r_MToSByte_Decimal;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToInt16_Decimal == null)
 				{
-					r_MToInt16_Decimal = new(typeof(System.Decimal), "ToInt16", 0, typeof(System.Decimal));
+					r_MToInt16_Decimal = new(Type, "ToInt16", 0, typeof(System.Decimal));
 				}
 				return r_MToInt16_Decimal;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToDouble_Decimal == null)
 				{
-					r_MToDouble_Decimal = new(typeof(System.Decimal), "ToDouble", 0, typeof(System.Decimal));
+					r_MToDouble_Decimal = new(Type, "ToDouble", 0, typeof(System.Decimal));
 				}
 				return r_MToDouble_Decimal;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToInt32_Decimal == null)
 				{
-					r_MToInt32_Decimal = new(typeof(System.Decimal), "ToInt32", 0, typeof(System.Decimal));
+					r_MToInt32_Decimal = new(Type, "ToInt32", 0, typeof(System.Decimal));
 				}
 				return r_MToInt32_Decimal;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToInt64_Decimal == null)
 				{
-					r_MToInt64_Decimal = new(typeof(System.Decimal), "ToInt64", 0, typeof(System.Decimal));
+					r_MToInt64_Decimal = new(Type, "ToInt64", 0, typeof(System.Decimal));
 				}
 				return r_MToInt64_Decimal;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToUInt16_Decimal == null)
 				{
-					r_MToUInt16_Decimal = new(typeof(System.Decimal), "ToUInt16", 0, typeof(System.Decimal));
+					r_MToUInt16_Decimal = new(Type, "ToUInt16", 0, typeof(System.Decimal));
 				}
 				return r_MToUInt16_Decimal;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToUInt32_Decimal == null)
 				{
-					r_MToUInt32_Decimal = new(typeof(System.Decimal), "ToUInt32", 0, typeof(System.Decimal));
+					r_MToUInt32_Decimal = new(Type, "ToUInt32", 0, typeof(System.Decimal));
 				}
 				return r_MToUInt32_Decimal;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToUInt64_Decimal == null)
 				{
-					r_MToUInt64_Decimal = new(typeof(System.Decimal), "ToUInt64", 0, typeof(System.Decimal));
+					r_MToUInt64_Decimal = new(Type, "ToUInt64", 0, typeof(System.Decimal));
 				}
 				return r_MToUInt64_Decimal;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToSingle_Decimal == null)
 				{
-					r_MToSingle_Decimal = new(typeof(System.Decimal), "ToSingle", 0, typeof(System.Decimal));
+					r_MToSingle_Decimal = new(Type, "ToSingle", 0, typeof(System.Decimal));
 				}
 				return r_MToSingle_Decimal;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTruncate_Decimal == null)
 				{
-					r_MTruncate_Decimal = new(typeof(System.Decimal), "Truncate", 0, typeof(System.Decimal));
+					r_MTruncate_Decimal = new(Type, "Truncate", 0, typeof(System.Decimal));
 				}
 				return r_MTruncate_Decimal;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTruncate_Ref_Decimal == null)
 				{
-					r_MTruncate_Ref_Decimal = new(typeof(System.Decimal), "Truncate", 0, typeof(System.Decimal).MakeByRefType());
+					r_MTruncate_Ref_Decimal = new(Type, "Truncate", 0, typeof(System.Decimal).MakeByRefType());
 				}
 				return r_MTruncate_Ref_Decimal;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_Byte == null)
 				{
-					r_Mop_Implicit_Byte = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.Byte));
+					r_Mop_Implicit_Byte = new(Type, "op_Implicit", 0, typeof(System.Byte));
 				}
 				return r_Mop_Implicit_Byte;
 			}
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_SByte == null)
 				{
-					r_Mop_Implicit_SByte = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.SByte));
+					r_Mop_Implicit_SByte = new(Type, "op_Implicit", 0, typeof(System.SByte));
 				}
 				return r_Mop_Implicit_SByte;
 			}
@@ -1326,7 +1327,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_Int16 == null)
 				{
-					r_Mop_Implicit_Int16 = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.Int16));
+					r_Mop_Implicit_Int16 = new(Type, "op_Implicit", 0, typeof(System.Int16));
 				}
 				return r_Mop_Implicit_Int16;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_UInt16 == null)
 				{
-					r_Mop_Implicit_UInt16 = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.UInt16));
+					r_Mop_Implicit_UInt16 = new(Type, "op_Implicit", 0, typeof(System.UInt16));
 				}
 				return r_Mop_Implicit_UInt16;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_Char == null)
 				{
-					r_Mop_Implicit_Char = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.Char));
+					r_Mop_Implicit_Char = new(Type, "op_Implicit", 0, typeof(System.Char));
 				}
 				return r_Mop_Implicit_Char;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_Int32 == null)
 				{
-					r_Mop_Implicit_Int32 = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.Int32));
+					r_Mop_Implicit_Int32 = new(Type, "op_Implicit", 0, typeof(System.Int32));
 				}
 				return r_Mop_Implicit_Int32;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_UInt32 == null)
 				{
-					r_Mop_Implicit_UInt32 = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.UInt32));
+					r_Mop_Implicit_UInt32 = new(Type, "op_Implicit", 0, typeof(System.UInt32));
 				}
 				return r_Mop_Implicit_UInt32;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_Int64 == null)
 				{
-					r_Mop_Implicit_Int64 = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.Int64));
+					r_Mop_Implicit_Int64 = new(Type, "op_Implicit", 0, typeof(System.Int64));
 				}
 				return r_Mop_Implicit_Int64;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_UInt64 == null)
 				{
-					r_Mop_Implicit_UInt64 = new(typeof(System.Decimal), "op_Implicit", 0, typeof(System.UInt64));
+					r_Mop_Implicit_UInt64 = new(Type, "op_Implicit", 0, typeof(System.UInt64));
 				}
 				return r_Mop_Implicit_UInt64;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Single == null)
 				{
-					r_Mop_Explicit_Single = new(typeof(System.Decimal), "op_Explicit", 0, typeof(System.Single));
+					r_Mop_Explicit_Single = new(Type, "op_Explicit", 0, typeof(System.Single));
 				}
 				return r_Mop_Explicit_Single;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Double == null)
 				{
-					r_Mop_Explicit_Double = new(typeof(System.Decimal), "op_Explicit", 0, typeof(System.Double));
+					r_Mop_Explicit_Double = new(Type, "op_Explicit", 0, typeof(System.Double));
 				}
 				return r_Mop_Explicit_Double;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Decimal == null)
 				{
-					r_Mop_Explicit_Decimal = new(typeof(System.Decimal), "op_Explicit", 0, typeof(System.Decimal));
+					r_Mop_Explicit_Decimal = new(Type, "op_Explicit", 0, typeof(System.Decimal));
 				}
 				return r_Mop_Explicit_Decimal;
 			}
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_UnaryPlus_Decimal == null)
 				{
-					r_Mop_UnaryPlus_Decimal = new(typeof(System.Decimal), "op_UnaryPlus", 0, typeof(System.Decimal));
+					r_Mop_UnaryPlus_Decimal = new(Type, "op_UnaryPlus", 0, typeof(System.Decimal));
 				}
 				return r_Mop_UnaryPlus_Decimal;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_UnaryNegation_Decimal == null)
 				{
-					r_Mop_UnaryNegation_Decimal = new(typeof(System.Decimal), "op_UnaryNegation", 0, typeof(System.Decimal));
+					r_Mop_UnaryNegation_Decimal = new(Type, "op_UnaryNegation", 0, typeof(System.Decimal));
 				}
 				return r_Mop_UnaryNegation_Decimal;
 			}
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Increment_Decimal == null)
 				{
-					r_Mop_Increment_Decimal = new(typeof(System.Decimal), "op_Increment", 0, typeof(System.Decimal));
+					r_Mop_Increment_Decimal = new(Type, "op_Increment", 0, typeof(System.Decimal));
 				}
 				return r_Mop_Increment_Decimal;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Decrement_Decimal == null)
 				{
-					r_Mop_Decrement_Decimal = new(typeof(System.Decimal), "op_Decrement", 0, typeof(System.Decimal));
+					r_Mop_Decrement_Decimal = new(Type, "op_Decrement", 0, typeof(System.Decimal));
 				}
 				return r_Mop_Decrement_Decimal;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Addition_Decimal_Decimal == null)
 				{
-					r_Mop_Addition_Decimal_Decimal = new(typeof(System.Decimal), "op_Addition", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Addition_Decimal_Decimal = new(Type, "op_Addition", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Addition_Decimal_Decimal;
 			}
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Subtraction_Decimal_Decimal == null)
 				{
-					r_Mop_Subtraction_Decimal_Decimal = new(typeof(System.Decimal), "op_Subtraction", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Subtraction_Decimal_Decimal = new(Type, "op_Subtraction", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Subtraction_Decimal_Decimal;
 			}
@@ -1582,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Multiply_Decimal_Decimal == null)
 				{
-					r_Mop_Multiply_Decimal_Decimal = new(typeof(System.Decimal), "op_Multiply", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Multiply_Decimal_Decimal = new(Type, "op_Multiply", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Multiply_Decimal_Decimal;
 			}
@@ -1598,7 +1599,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Division_Decimal_Decimal == null)
 				{
-					r_Mop_Division_Decimal_Decimal = new(typeof(System.Decimal), "op_Division", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Division_Decimal_Decimal = new(Type, "op_Division", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Division_Decimal_Decimal;
 			}
@@ -1614,7 +1615,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Modulus_Decimal_Decimal == null)
 				{
-					r_Mop_Modulus_Decimal_Decimal = new(typeof(System.Decimal), "op_Modulus", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Modulus_Decimal_Decimal = new(Type, "op_Modulus", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Modulus_Decimal_Decimal;
 			}
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_Decimal_Decimal == null)
 				{
-					r_Mop_Equality_Decimal_Decimal = new(typeof(System.Decimal), "op_Equality", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Equality_Decimal_Decimal = new(Type, "op_Equality", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Equality_Decimal_Decimal;
 			}
@@ -1646,7 +1647,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_Decimal_Decimal == null)
 				{
-					r_Mop_Inequality_Decimal_Decimal = new(typeof(System.Decimal), "op_Inequality", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_Inequality_Decimal_Decimal = new(Type, "op_Inequality", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_Inequality_Decimal_Decimal;
 			}
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThan_Decimal_Decimal == null)
 				{
-					r_Mop_LessThan_Decimal_Decimal = new(typeof(System.Decimal), "op_LessThan", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_LessThan_Decimal_Decimal = new(Type, "op_LessThan", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_LessThan_Decimal_Decimal;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThanOrEqual_Decimal_Decimal == null)
 				{
-					r_Mop_LessThanOrEqual_Decimal_Decimal = new(typeof(System.Decimal), "op_LessThanOrEqual", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_LessThanOrEqual_Decimal_Decimal = new(Type, "op_LessThanOrEqual", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_LessThanOrEqual_Decimal_Decimal;
 			}
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThan_Decimal_Decimal == null)
 				{
-					r_Mop_GreaterThan_Decimal_Decimal = new(typeof(System.Decimal), "op_GreaterThan", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_GreaterThan_Decimal_Decimal = new(Type, "op_GreaterThan", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_GreaterThan_Decimal_Decimal;
 			}
@@ -1710,7 +1711,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThanOrEqual_Decimal_Decimal == null)
 				{
-					r_Mop_GreaterThanOrEqual_Decimal_Decimal = new(typeof(System.Decimal), "op_GreaterThanOrEqual", 0, typeof(System.Decimal), typeof(System.Decimal));
+					r_Mop_GreaterThanOrEqual_Decimal_Decimal = new(Type, "op_GreaterThanOrEqual", 0, typeof(System.Decimal), typeof(System.Decimal));
 				}
 				return r_Mop_GreaterThanOrEqual_Decimal_Decimal;
 			}
@@ -2029,7 +2030,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMAsMutable_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = (System.Decimal)___parameters[0];
 
-            return new Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RDecimal.RDecCalc>(___result);
         }
 
 
@@ -2041,7 +2042,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMDecDivMod1E9_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@value = (System.Decimal)___parameters[0];
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -2052,7 +2053,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@cy};
             var ___result = RMFromOACurrency_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2063,7 +2064,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMToOACurrency_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2074,7 +2075,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@flags};
             var ___result = RMIsValid_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2097,7 +2098,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMAbs_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = (System.Decimal)___parameters[0];
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2108,7 +2109,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMAdd_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2119,7 +2120,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMCeiling_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2130,7 +2131,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMCompare_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2141,7 +2142,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2152,7 +2153,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2163,7 +2164,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMDivide_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2174,7 +2175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2185,7 +2186,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMEquals_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2196,7 +2197,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2207,7 +2208,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMEquals_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2218,7 +2219,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMFloor_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2229,7 +2230,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2240,7 +2241,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2251,7 +2252,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2262,7 +2263,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2275,7 +2276,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2286,7 +2287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s};
             var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2297,7 +2298,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s, @style};
             var ___result = RMParse_String_NumberStyles.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2308,7 +2309,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s, @provider};
             var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2319,7 +2320,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s, @style, @provider};
             var ___result = RMParse_String_NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2330,7 +2331,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s.Value, @style, @provider};
             var ___result = RMParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2343,7 +2344,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = (System.Decimal)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2356,7 +2357,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = (System.Decimal)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2369,7 +2370,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = (System.Decimal)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Decimal.Invoke(___genericsType, ___parameters);
 			@result = (System.Decimal)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2393,7 +2394,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMGetBits_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32[])___result;
+            return ReflectionUtils.Convert<System.Int32[]>(___result);
         }
 
 
@@ -2415,7 +2416,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@buffer};
             var ___result = RMToDecimal_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2428,7 +2429,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			@d1 = (System.Decimal)___parameters[0];
 			@d2 = (System.Decimal)___parameters[1];
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2441,7 +2442,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			@d1 = (System.Decimal)___parameters[0];
 			@d2 = (System.Decimal)___parameters[1];
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2452,7 +2453,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMRemainder_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2463,7 +2464,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMMultiply_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2474,7 +2475,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMNegate_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2485,7 +2486,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMRound_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2496,7 +2497,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d, @decimals};
             var ___result = RMRound_Decimal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2507,7 +2508,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d, @mode};
             var ___result = RMRound_Decimal_MidpointRounding.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2518,7 +2519,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d, @decimals, @mode};
             var ___result = RMRound_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2530,7 +2531,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMRound_Ref_Decimal_Int32_MidpointRounding.Invoke(___genericsType, ___parameters);
 			@d = (System.Decimal)___parameters[0];
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2542,7 +2543,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMSign_Ref_Decimal.Invoke(___genericsType, ___parameters);
 			@d = (System.Decimal)___parameters[0];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2553,7 +2554,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMSubtract_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2564,7 +2565,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMToByte_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -2575,7 +2576,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMToSByte_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.SByte)___result;
+            return ReflectionUtils.Convert<System.SByte>(___result);
         }
 
 
@@ -2586,7 +2587,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMToInt16_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int16)___result;
+            return ReflectionUtils.Convert<System.Int16>(___result);
         }
 
 
@@ -2597,7 +2598,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMToDouble_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -2608,7 +2609,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMToInt32_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2619,7 +2620,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMToInt64_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2630,7 +2631,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMToUInt16_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -2641,7 +2642,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMToUInt32_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -2652,7 +2653,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMToUInt64_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -2663,7 +2664,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMToSingle_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2674,7 +2675,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMTruncate_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2697,7 +2698,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_Byte.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2708,7 +2709,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_SByte.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2719,7 +2720,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_Int16.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2730,7 +2731,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_UInt16.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2741,7 +2742,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2752,7 +2753,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2763,7 +2764,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2774,7 +2775,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2785,7 +2786,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_UInt64.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2796,7 +2797,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2807,7 +2808,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2818,7 +2819,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -2829,7 +2830,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMop_UnaryPlus_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2840,7 +2841,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMop_UnaryNegation_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2851,7 +2852,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMop_Increment_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2862,7 +2863,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d};
             var ___result = RMop_Decrement_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2873,7 +2874,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Addition_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2884,7 +2885,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Subtraction_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2895,7 +2896,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Multiply_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2906,7 +2907,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Division_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2917,7 +2918,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Modulus_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -2928,7 +2929,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Equality_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2939,7 +2940,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_Inequality_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2950,7 +2951,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_LessThan_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2961,7 +2962,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_LessThanOrEqual_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2972,7 +2973,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_GreaterThan_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2983,7 +2984,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@d1, @d2};
             var ___result = RMop_GreaterThanOrEqual_Decimal_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2994,7 +2995,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -3005,7 +3006,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3016,7 +3017,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -3027,7 +3028,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.SByte)___result;
+            return ReflectionUtils.Convert<System.SByte>(___result);
         }
 
 
@@ -3038,7 +3039,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -3049,7 +3050,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Int16)___result;
+            return ReflectionUtils.Convert<System.Int16>(___result);
         }
 
 
@@ -3060,7 +3061,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -3071,7 +3072,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3082,7 +3083,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -3093,7 +3094,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -3104,7 +3105,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -3115,7 +3116,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -3126,7 +3127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -3137,7 +3138,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -3148,7 +3149,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -3159,7 +3160,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@type, @provider};
             var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3181,7 +3182,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -3192,7 +3193,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

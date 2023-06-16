@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.IVisualElementScheduledItem
 	/// </summary>
     public partial class RIVisualElementScheduledItem : RMember //
@@ -221,7 +222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@delayMs};
             var ___result = RMStartingIn_Int64.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IVisualElementScheduledItem)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
         }
 
 
@@ -232,7 +233,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@intervalMs};
             var ___result = RMEvery_Int64.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IVisualElementScheduledItem)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
         }
 
 
@@ -243,7 +244,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@stopCondition};
             var ___result = RMUntil_Func_d_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IVisualElementScheduledItem)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
         }
 
 
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@durationMs};
             var ___result = RMForDuration_Int64.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IVisualElementScheduledItem)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
         }
 
 

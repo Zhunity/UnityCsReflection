@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Diagnostics.SymbolStore.ISymbolWriter
 	/// </summary>
     public partial class RISymbolWriter : RMember //
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@url, @language, @languageVendor, @documentType};
             var ___result = RMDefineDocument_String_Guid_Guid_Guid.Invoke(___genericsType, ___parameters);
 
-            return (System.Diagnostics.SymbolStore.ISymbolDocumentWriter)___result;
+            return ReflectionUtils.Convert<System.Diagnostics.SymbolStore.ISymbolDocumentWriter>(___result);
         }
 
 
@@ -507,7 +508,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@startOffset};
             var ___result = RMOpenScope_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

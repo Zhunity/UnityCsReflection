@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.ILGenerator
 	/// </summary>
     public partial class RILGenerator : RMember //
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FdefaultFixupSize == null)
 				{
-					r_FdefaultFixupSize = new(typeof(System.Reflection.Emit.ILGenerator), "defaultFixupSize");
+					r_FdefaultFixupSize = new(Type, "defaultFixupSize");
 				}
 				return r_FdefaultFixupSize;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FdefaultLabelsSize == null)
 				{
-					r_FdefaultLabelsSize = new(typeof(System.Reflection.Emit.ILGenerator), "defaultLabelsSize");
+					r_FdefaultLabelsSize = new(Type, "defaultLabelsSize");
 				}
 				return r_FdefaultLabelsSize;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FdefaultExceptionStackSize == null)
 				{
-					r_FdefaultExceptionStackSize = new(typeof(System.Reflection.Emit.ILGenerator), "defaultExceptionStackSize");
+					r_FdefaultExceptionStackSize = new(Type, "defaultExceptionStackSize");
 				}
 				return r_FdefaultExceptionStackSize;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mtarget_len_OpCode == null)
 				{
-					r_Mtarget_len_OpCode = new(typeof(System.Reflection.Emit.ILGenerator), "target_len", 0, typeof(System.Reflection.Emit.OpCode));
+					r_Mtarget_len_OpCode = new(Type, "target_len", 0, typeof(System.Reflection.Emit.OpCode));
 				}
 				return r_Mtarget_len_OpCode;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MMono_GetCurrentOffset_ILGenerator == null)
 				{
-					r_MMono_GetCurrentOffset_ILGenerator = new(typeof(System.Reflection.Emit.ILGenerator), "Mono_GetCurrentOffset", 0, typeof(System.Reflection.Emit.ILGenerator));
+					r_MMono_GetCurrentOffset_ILGenerator = new(Type, "Mono_GetCurrentOffset", 0, typeof(System.Reflection.Emit.ILGenerator));
 				}
 				return r_MMono_GetCurrentOffset_ILGenerator;
 			}
@@ -1542,7 +1543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@opcode};
             var ___result = RMtarget_len_OpCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1586,7 +1587,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMBeginExceptionBlock.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.Label)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.Label>(___result);
         }
 
 
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@localType};
             var ___result = RMDeclareLocal_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.LocalBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.LocalBuilder>(___result);
         }
 
 
@@ -1641,7 +1642,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@localType, @pinned};
             var ___result = RMDeclareLocal_Type_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.LocalBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.LocalBuilder>(___result);
         }
 
 
@@ -1652,7 +1653,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMDefineLabel.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.Label)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.Label>(___result);
         }
 
 
@@ -2081,7 +2082,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@ig};
             var ___result = RMMono_GetCurrentOffset_ILGenerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2092,7 +2093,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2114,7 +2115,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2125,7 +2126,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2136,7 +2137,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2147,7 +2148,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

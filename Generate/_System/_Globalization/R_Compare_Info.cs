@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.CompareInfo
 	/// </summary>
     public partial class RCompareInfo : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FValidIndexMaskOffFlags == null)
 				{
-					r_FValidIndexMaskOffFlags = new(typeof(System.Globalization.CompareInfo), "ValidIndexMaskOffFlags");
+					r_FValidIndexMaskOffFlags = new(Type, "ValidIndexMaskOffFlags");
 				}
 				return r_FValidIndexMaskOffFlags;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FValidCompareMaskOffFlags == null)
 				{
-					r_FValidCompareMaskOffFlags = new(typeof(System.Globalization.CompareInfo), "ValidCompareMaskOffFlags");
+					r_FValidCompareMaskOffFlags = new(Type, "ValidCompareMaskOffFlags");
 				}
 				return r_FValidCompareMaskOffFlags;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FValidHashCodeOfStringMaskOffFlags == null)
 				{
-					r_FValidHashCodeOfStringMaskOffFlags = new(typeof(System.Globalization.CompareInfo), "ValidHashCodeOfStringMaskOffFlags");
+					r_FValidHashCodeOfStringMaskOffFlags = new(Type, "ValidHashCodeOfStringMaskOffFlags");
 				}
 				return r_FValidHashCodeOfStringMaskOffFlags;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FValidSortkeyCtorMaskOffFlags == null)
 				{
-					r_FValidSortkeyCtorMaskOffFlags = new(typeof(System.Globalization.CompareInfo), "ValidSortkeyCtorMaskOffFlags");
+					r_FValidSortkeyCtorMaskOffFlags = new(Type, "ValidSortkeyCtorMaskOffFlags");
 				}
 				return r_FValidSortkeyCtorMaskOffFlags;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FInvariant == null)
 				{
-					r_FInvariant = new(typeof(System.Globalization.CompareInfo), "Invariant");
+					r_FInvariant = new(Type, "Invariant");
 				}
 				return r_FInvariant;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fcollators == null)
 				{
-					r_Fcollators = new(typeof(System.Globalization.CompareInfo), "collators");
+					r_Fcollators = new(Type, "collators");
 				}
 				return r_Fcollators;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FmanagedCollation == null)
 				{
-					r_FmanagedCollation = new(typeof(System.Globalization.CompareInfo), "managedCollation");
+					r_FmanagedCollation = new(Type, "managedCollation");
 				}
 				return r_FmanagedCollation;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FmanagedCollationChecked == null)
 				{
-					r_FmanagedCollationChecked = new(typeof(System.Globalization.CompareInfo), "managedCollationChecked");
+					r_FmanagedCollationChecked = new(Type, "managedCollationChecked");
 				}
 				return r_FmanagedCollationChecked;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PUseManagedCollation == null)
 				{
-					r_PUseManagedCollation = new(typeof(System.Globalization.CompareInfo), "UseManagedCollation", -1);
+					r_PUseManagedCollation = new(Type, "UseManagedCollation", -1);
 				}
 				return r_PUseManagedCollation;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MInvariantIndexOf_String_String_Int32_Int32_Boolean == null)
 				{
-					r_MInvariantIndexOf_String_String_Int32_Int32_Boolean = new(typeof(System.Globalization.CompareInfo), "InvariantIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
+					r_MInvariantIndexOf_String_String_Int32_Int32_Boolean = new(Type, "InvariantIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MInvariantIndexOf_String_String_Int32_Int32_Boolean;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MInvariantIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean == null)
 				{
-					r_MInvariantIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean = new(typeof(System.Globalization.CompareInfo), "InvariantIndexOf", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
+					r_MInvariantIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean = new(Type, "InvariantIndexOf", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
 				}
 				return r_MInvariantIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MInvariantLastIndexOf_String_String_Int32_Int32_Boolean == null)
 				{
-					r_MInvariantLastIndexOf_String_String_Int32_Int32_Boolean = new(typeof(System.Globalization.CompareInfo), "InvariantLastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
+					r_MInvariantLastIndexOf_String_String_Int32_Int32_Boolean = new(Type, "InvariantLastIndexOf", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MInvariantLastIndexOf_String_String_Int32_Int32_Boolean;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MInvariantFindString_CharPointer_Int32_CharPointer_Int32_Boolean_Boolean == null)
 				{
-					r_MInvariantFindString_CharPointer_Int32_CharPointer_Int32_Boolean_Boolean = new(typeof(System.Globalization.CompareInfo), "InvariantFindString", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MInvariantFindString_CharPointer_Int32_CharPointer_Int32_Boolean_Boolean = new(Type, "InvariantFindString", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MInvariantFindString_CharPointer_Int32_CharPointer_Int32_Boolean_Boolean;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MInvariantToUpper_Char == null)
 				{
-					r_MInvariantToUpper_Char = new(typeof(System.Globalization.CompareInfo), "InvariantToUpper", 0, typeof(System.Char));
+					r_MInvariantToUpper_Char = new(Type, "InvariantToUpper", 0, typeof(System.Char));
 				}
 				return r_MInvariantToUpper_Char;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCompareInfo_Int32_Assembly == null)
 				{
-					r_MGetCompareInfo_Int32_Assembly = new(typeof(System.Globalization.CompareInfo), "GetCompareInfo", 0, typeof(System.Int32), typeof(System.Reflection.Assembly));
+					r_MGetCompareInfo_Int32_Assembly = new(Type, "GetCompareInfo", 0, typeof(System.Int32), typeof(System.Reflection.Assembly));
 				}
 				return r_MGetCompareInfo_Int32_Assembly;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCompareInfo_String_Assembly == null)
 				{
-					r_MGetCompareInfo_String_Assembly = new(typeof(System.Globalization.CompareInfo), "GetCompareInfo", 0, typeof(System.String), typeof(System.Reflection.Assembly));
+					r_MGetCompareInfo_String_Assembly = new(Type, "GetCompareInfo", 0, typeof(System.String), typeof(System.Reflection.Assembly));
 				}
 				return r_MGetCompareInfo_String_Assembly;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCompareInfo_Int32 == null)
 				{
-					r_MGetCompareInfo_Int32 = new(typeof(System.Globalization.CompareInfo), "GetCompareInfo", 0, typeof(System.Int32));
+					r_MGetCompareInfo_Int32 = new(Type, "GetCompareInfo", 0, typeof(System.Int32));
 				}
 				return r_MGetCompareInfo_Int32;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCompareInfo_String == null)
 				{
-					r_MGetCompareInfo_String = new(typeof(System.Globalization.CompareInfo), "GetCompareInfo", 0, typeof(System.String));
+					r_MGetCompareInfo_String = new(Type, "GetCompareInfo", 0, typeof(System.String));
 				}
 				return r_MGetCompareInfo_String;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MIsSortable_Char == null)
 				{
-					r_MIsSortable_Char = new(typeof(System.Globalization.CompareInfo), "IsSortable", 0, typeof(System.Char));
+					r_MIsSortable_Char = new(Type, "IsSortable", 0, typeof(System.Char));
 				}
 				return r_MIsSortable_Char;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MIsSortable_String == null)
 				{
-					r_MIsSortable_String = new(typeof(System.Globalization.CompareInfo), "IsSortable", 0, typeof(System.String));
+					r_MIsSortable_String = new(Type, "IsSortable", 0, typeof(System.String));
 				}
 				return r_MIsSortable_String;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCompareOrdinalIgnoreCase_String_Int32_Int32_String_Int32_Int32 == null)
 				{
-					r_MCompareOrdinalIgnoreCase_String_Int32_Int32_String_Int32_Int32 = new(typeof(System.Globalization.CompareInfo), "CompareOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_MCompareOrdinalIgnoreCase_String_Int32_Int32_String_Int32_Int32 = new(Type, "CompareOrdinalIgnoreCase", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCompareOrdinalIgnoreCase_String_Int32_Int32_String_Int32_Int32;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCompareOrdinalIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MCompareOrdinalIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(typeof(System.Globalization.CompareInfo), "CompareOrdinalIgnoreCase", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
+					r_MCompareOrdinalIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_ = new(Type, "CompareOrdinalIgnoreCase", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MCompareOrdinalIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetIgnoreCaseHash_String == null)
 				{
-					r_MGetIgnoreCaseHash_String = new(typeof(System.Globalization.CompareInfo), "GetIgnoreCaseHash", 0, typeof(System.String));
+					r_MGetIgnoreCaseHash_String = new(Type, "GetIgnoreCaseHash", 0, typeof(System.String));
 				}
 				return r_MGetIgnoreCaseHash_String;
 			}
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Minternal_compare_icall_CharPointer_Int32_CharPointer_Int32_CompareOptions == null)
 				{
-					r_Minternal_compare_icall_CharPointer_Int32_CharPointer_Int32_CompareOptions = new(typeof(System.Globalization.CompareInfo), "internal_compare_icall", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_Minternal_compare_icall_CharPointer_Int32_CharPointer_Int32_CompareOptions = new(Type, "internal_compare_icall", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
 				}
 				return r_Minternal_compare_icall_CharPointer_Int32_CharPointer_Int32_CompareOptions;
 			}
@@ -1582,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Minternal_compare_String_Int32_Int32_String_Int32_Int32_CompareOptions == null)
 				{
-					r_Minternal_compare_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(typeof(System.Globalization.CompareInfo), "internal_compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
+					r_Minternal_compare_String_Int32_Int32_String_Int32_Int32_CompareOptions = new(Type, "internal_compare", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Globalization.CompareOptions));
 				}
 				return r_Minternal_compare_String_Int32_Int32_String_Int32_Int32_CompareOptions;
 			}
@@ -1598,7 +1599,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Minternal_index_icall_CharPointer_Int32_Int32_CharPointer_Int32_Boolean == null)
 				{
-					r_Minternal_index_icall_CharPointer_Int32_Int32_CharPointer_Int32_Boolean = new(typeof(System.Globalization.CompareInfo), "internal_index_icall", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
+					r_Minternal_index_icall_CharPointer_Int32_Int32_CharPointer_Int32_Boolean = new(Type, "internal_index_icall", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_Minternal_index_icall_CharPointer_Int32_Int32_CharPointer_Int32_Boolean;
 			}
@@ -1614,7 +1615,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Minternal_index_String_Int32_Int32_String_Boolean == null)
 				{
-					r_Minternal_index_String_Int32_Int32_String_Boolean = new(typeof(System.Globalization.CompareInfo), "internal_index", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Boolean));
+					r_Minternal_index_String_Int32_Int32_String_Boolean = new(Type, "internal_index", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Boolean));
 				}
 				return r_Minternal_index_String_Int32_Int32_String_Boolean;
 			}
@@ -1646,7 +1647,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCompareStringOrdinalIgnoreCase_CharPointer_Int32_CharPointer_Int32 == null)
 				{
-					r_MCompareStringOrdinalIgnoreCase_CharPointer_Int32_CharPointer_Int32 = new(typeof(System.Globalization.CompareInfo), "CompareStringOrdinalIgnoreCase", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32));
+					r_MCompareStringOrdinalIgnoreCase_CharPointer_Int32_CharPointer_Int32 = new(Type, "CompareStringOrdinalIgnoreCase", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32), typeof(System.Char).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MCompareStringOrdinalIgnoreCase_CharPointer_Int32_CharPointer_Int32;
 			}
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MIndexOfOrdinalCore_String_String_Int32_Int32_Boolean == null)
 				{
-					r_MIndexOfOrdinalCore_String_String_Int32_Int32_Boolean = new(typeof(System.Globalization.CompareInfo), "IndexOfOrdinalCore", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
+					r_MIndexOfOrdinalCore_String_String_Int32_Int32_Boolean = new(Type, "IndexOfOrdinalCore", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MIndexOfOrdinalCore_String_String_Int32_Int32_Boolean;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MLastIndexOfOrdinalCore_String_String_Int32_Int32_Boolean == null)
 				{
-					r_MLastIndexOfOrdinalCore_String_String_Int32_Int32_Boolean = new(typeof(System.Globalization.CompareInfo), "LastIndexOfOrdinalCore", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
+					r_MLastIndexOfOrdinalCore_String_String_Int32_Int32_Boolean = new(Type, "LastIndexOfOrdinalCore", 0, typeof(System.String), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MLastIndexOfOrdinalCore_String_String_Int32_Int32_Boolean;
 			}
@@ -1790,7 +1791,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MIsSortable_CharPointer_Int32 == null)
 				{
-					r_MIsSortable_CharPointer_Int32 = new(typeof(System.Globalization.CompareInfo), "IsSortable", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32));
+					r_MIsSortable_CharPointer_Int32 = new(Type, "IsSortable", 0, typeof(System.Char).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MIsSortable_CharPointer_Int32;
 			}
@@ -1964,7 +1965,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @ignoreCase};
             var ___result = RMInvariantIndexOf_String_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1975,7 +1976,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @value.Value, @ignoreCase};
             var ___result = RMInvariantIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1986,7 +1987,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @ignoreCase};
             var ___result = RMInvariantLastIndexOf_String_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1997,7 +1998,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@source, typeof(System.Char)), @sourceCount, Pointer.Box(@value, typeof(System.Char)), @valueCount, @ignoreCase, @start};
             var ___result = RMInvariantFindString_CharPointer_Int32_CharPointer_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2008,7 +2009,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@c};
             var ___result = RMInvariantToUpper_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -2019,7 +2020,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMInvariantCreateSortKey_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.SortKey)___result;
+            return ReflectionUtils.Convert<System.Globalization.SortKey>(___result);
         }
 
 
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@culture, @assembly};
             var ___result = RMGetCompareInfo_Int32_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CompareInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CompareInfo>(___result);
         }
 
 
@@ -2041,7 +2042,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name, @assembly};
             var ___result = RMGetCompareInfo_String_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CompareInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CompareInfo>(___result);
         }
 
 
@@ -2052,7 +2053,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@culture};
             var ___result = RMGetCompareInfo_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CompareInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CompareInfo>(___result);
         }
 
 
@@ -2063,7 +2064,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMGetCompareInfo_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CompareInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CompareInfo>(___result);
         }
 
 
@@ -2074,7 +2075,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@ch};
             var ___result = RMIsSortable_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2085,7 +2086,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@text};
             var ___result = RMIsSortable_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2151,7 +2152,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1, @string2};
             var ___result = RMCompare_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2162,7 +2163,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1, @string2, @options};
             var ___result = RMCompare_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2173,7 +2174,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1.Value, @string2, @options};
             var ___result = RMCompare_ReadOnlySpan_d_Char_p__String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2184,7 +2185,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1.Value, @string2.Value};
             var ___result = RMCompareOptionNone_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2195,7 +2196,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1.Value, @string2.Value};
             var ___result = RMCompareOptionIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1, @offset1, @length1, @string2, @offset2, @length2};
             var ___result = RMCompare_String_Int32_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2217,7 +2218,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1, @offset1, @string2, @offset2, @options};
             var ___result = RMCompare_String_Int32_String_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2228,7 +2229,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1, @offset1, @string2, @offset2};
             var ___result = RMCompare_String_Int32_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2239,7 +2240,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1, @offset1, @length1, @string2, @offset2, @length2, @options};
             var ___result = RMCompare_String_Int32_Int32_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2250,7 +2251,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@strA, @indexA, @lengthA, @strB, @indexB, @lengthB};
             var ___result = RMCompareOrdinalIgnoreCase_String_Int32_Int32_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2261,7 +2262,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@strA.Value, @strB.Value};
             var ___result = RMCompareOrdinalIgnoreCase_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2272,7 +2273,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @prefix, @options};
             var ___result = RMIsPrefix_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2283,7 +2284,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @prefix.Value, @options};
             var ___result = RMIsPrefix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2294,7 +2295,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @prefix};
             var ___result = RMIsPrefix_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2305,7 +2306,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @suffix, @options};
             var ___result = RMIsSuffix_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2316,7 +2317,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @suffix.Value, @options};
             var ___result = RMIsSuffix_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2327,7 +2328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @suffix};
             var ___result = RMIsSuffix_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2338,7 +2339,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value};
             var ___result = RMIndexOf_String_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2349,7 +2350,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value};
             var ___result = RMIndexOf_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2360,7 +2361,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @options};
             var ___result = RMIndexOf_String_Char_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2371,7 +2372,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @options};
             var ___result = RMIndexOf_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex};
             var ___result = RMIndexOf_String_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2393,7 +2394,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex};
             var ___result = RMIndexOf_String_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2404,7 +2405,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @options};
             var ___result = RMIndexOf_String_Char_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2415,7 +2416,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @options};
             var ___result = RMIndexOf_String_String_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2426,7 +2427,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count};
             var ___result = RMIndexOf_String_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2437,7 +2438,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count};
             var ___result = RMIndexOf_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2448,7 +2449,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @options};
             var ___result = RMIndexOf_String_Char_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2459,7 +2460,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @options};
             var ___result = RMIndexOf_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2470,7 +2471,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @value.Value, @ignoreCase};
             var ___result = RMIndexOfOrdinal_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2481,7 +2482,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @value.Value, @options};
             var ___result = RMIndexOf_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2492,7 +2493,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @options, Pointer.Box(@matchLengthPtr, typeof(System.Int32))};
             var ___result = RMIndexOf_String_String_Int32_Int32_CompareOptions_Int32Pointer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2503,7 +2504,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @ignoreCase};
             var ___result = RMIndexOfOrdinal_String_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2514,7 +2515,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value};
             var ___result = RMLastIndexOf_String_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2525,7 +2526,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value};
             var ___result = RMLastIndexOf_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2536,7 +2537,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @options};
             var ___result = RMLastIndexOf_String_Char_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2547,7 +2548,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @options};
             var ___result = RMLastIndexOf_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2558,7 +2559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex};
             var ___result = RMLastIndexOf_String_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2569,7 +2570,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex};
             var ___result = RMLastIndexOf_String_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2580,7 +2581,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @options};
             var ___result = RMLastIndexOf_String_Char_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2591,7 +2592,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @options};
             var ___result = RMLastIndexOf_String_String_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2602,7 +2603,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count};
             var ___result = RMLastIndexOf_String_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2613,7 +2614,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count};
             var ___result = RMLastIndexOf_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2624,7 +2625,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @options};
             var ___result = RMLastIndexOf_String_Char_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2635,7 +2636,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @options};
             var ___result = RMLastIndexOf_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2646,7 +2647,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @ignoreCase};
             var ___result = RMLastIndexOfOrdinal_String_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2657,7 +2658,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMGetSortKey_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.SortKey)___result;
+            return ReflectionUtils.Convert<System.Globalization.SortKey>(___result);
         }
 
 
@@ -2668,7 +2669,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source};
             var ___result = RMGetSortKey_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.SortKey)___result;
+            return ReflectionUtils.Convert<System.Globalization.SortKey>(___result);
         }
 
 
@@ -2679,7 +2680,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@value};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2690,7 +2691,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2701,7 +2702,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source};
             var ___result = RMGetIgnoreCaseHash_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2712,7 +2713,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMGetHashCodeOfString_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2723,7 +2724,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMGetHashCode_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2734,7 +2735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2745,7 +2746,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetCollator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RISimpleCollator>(___result);
         }
 
 
@@ -2756,7 +2757,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMCreateSortKeyCore_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.SortKey)___result;
+            return ReflectionUtils.Convert<System.Globalization.SortKey>(___result);
         }
 
 
@@ -2767,7 +2768,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@s1, @sindex, @count, @s2, @opt, @first};
             var ___result = RMinternal_index_switch_String_Int32_Int32_String_CompareOptions_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2778,7 +2779,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@str1, @offset1, @length1, @str2, @offset2, @length2, @options};
             var ___result = RMinternal_compare_switch_String_Int32_Int32_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2789,7 +2790,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@str1, @offset1, @length1, @str2, @offset2, @length2, @options};
             var ___result = RMinternal_compare_managed_String_Int32_Int32_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2800,7 +2801,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@s, @sindex, @count, @c, @opt, @first};
             var ___result = RMinternal_index_managed_String_Int32_Int32_Char_CompareOptions_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2811,7 +2812,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@s1, @sindex, @count, @s2, @opt, @first};
             var ___result = RMinternal_index_managed_String_Int32_Int32_String_CompareOptions_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2822,7 +2823,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@str1, typeof(System.Char)), @length1, Pointer.Box(@str2, typeof(System.Char)), @length2, @options};
             var ___result = RMinternal_compare_icall_CharPointer_Int32_CharPointer_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2833,7 +2834,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@str1, @offset1, @length1, @str2, @offset2, @length2, @options};
             var ___result = RMinternal_compare_String_Int32_Int32_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2844,7 +2845,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@source, typeof(System.Char)), @sindex, @count, Pointer.Box(@value, typeof(System.Char)), @value_length, @first};
             var ___result = RMinternal_index_icall_CharPointer_Int32_Int32_CharPointer_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2855,7 +2856,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @sindex, @count, @value, @first};
             var ___result = RMinternal_index_String_Int32_Int32_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2877,7 +2878,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@pString1, typeof(System.Char)), @length1, Pointer.Box(@pString2, typeof(System.Char)), @length2};
             var ___result = RMCompareStringOrdinalIgnoreCase_CharPointer_Int32_CharPointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2888,7 +2889,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @ignoreCase};
             var ___result = RMIndexOfOrdinalCore_String_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2899,7 +2900,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @value, @startIndex, @count, @ignoreCase};
             var ___result = RMLastIndexOfOrdinalCore_String_String_Int32_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2910,7 +2911,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @target, @startIndex, @count, @options};
             var ___result = RMLastIndexOfCore_String_String_Int32_Int32_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2921,7 +2922,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @target, @startIndex, @count, @options, Pointer.Box(@matchLengthPtr, typeof(System.Int32))};
             var ___result = RMIndexOfCore_String_String_Int32_Int32_CompareOptions_Int32Pointer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2932,7 +2933,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @target.Value, @options, Pointer.Box(@matchLengthPtr, typeof(System.Int32))};
             var ___result = RMIndexOfCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions_Int32Pointer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2943,7 +2944,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @value.Value, @ignoreCase};
             var ___result = RMIndexOfOrdinalCore_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2954,7 +2955,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1.Value, @string2, @options};
             var ___result = RMCompareString_ReadOnlySpan_d_Char_p__String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2965,7 +2966,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@string1.Value, @string2.Value, @options};
             var ___result = RMCompareString_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2976,7 +2977,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@text, typeof(System.Char)), @length};
             var ___result = RMIsSortable_CharPointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2987,7 +2988,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMCreateSortKey_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.SortKey)___result;
+            return ReflectionUtils.Convert<System.Globalization.SortKey>(___result);
         }
 
 
@@ -2998,7 +2999,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @prefix, @options};
             var ___result = RMStartsWith_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3009,7 +3010,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @prefix.Value, @options};
             var ___result = RMStartsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3020,7 +3021,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @suffix, @options};
             var ___result = RMEndsWith_String_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3031,7 +3032,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source.Value, @suffix.Value, @options};
             var ___result = RMEndsWith_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3042,7 +3043,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@source, @options};
             var ___result = RMGetHashCodeOfStringCore_String_CompareOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3053,7 +3054,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetSortVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.SortVersion)___result;
+            return ReflectionUtils.Convert<System.Globalization.SortVersion>(___result);
         }
 
 
@@ -3075,7 +3076,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -3086,7 +3087,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

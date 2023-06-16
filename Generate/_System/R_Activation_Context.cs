@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.ActivationContext
 	/// </summary>
     public partial class RActivationContext : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreatePartialActivationContext_ApplicationIdentity == null)
 				{
-					r_MCreatePartialActivationContext_ApplicationIdentity = new(typeof(System.ActivationContext), "CreatePartialActivationContext", 0, typeof(System.ApplicationIdentity));
+					r_MCreatePartialActivationContext_ApplicationIdentity = new(Type, "CreatePartialActivationContext", 0, typeof(System.ApplicationIdentity));
 				}
 				return r_MCreatePartialActivationContext_ApplicationIdentity;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreatePartialActivationContext_ApplicationIdentity_StringArray == null)
 				{
-					r_MCreatePartialActivationContext_ApplicationIdentity_StringArray = new(typeof(System.ActivationContext), "CreatePartialActivationContext", 0, typeof(System.ApplicationIdentity), typeof(System.String).MakeArrayType());
+					r_MCreatePartialActivationContext_ApplicationIdentity_StringArray = new(Type, "CreatePartialActivationContext", 0, typeof(System.ApplicationIdentity), typeof(System.String).MakeArrayType());
 				}
 				return r_MCreatePartialActivationContext_ApplicationIdentity_StringArray;
 			}
@@ -343,7 +344,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@identity};
             var ___result = RMCreatePartialActivationContext_ApplicationIdentity.Invoke(___genericsType, ___parameters);
 
-            return (System.ActivationContext)___result;
+            return ReflectionUtils.Convert<System.ActivationContext>(___result);
         }
 
 
@@ -354,7 +355,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@identity, @manifestPaths};
             var ___result = RMCreatePartialActivationContext_ApplicationIdentity_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.ActivationContext)___result;
+            return ReflectionUtils.Convert<System.ActivationContext>(___result);
         }
 
 
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -409,7 +410,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -420,7 +421,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -431,7 +432,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -442,7 +443,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

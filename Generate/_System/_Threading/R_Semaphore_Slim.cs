@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.SemaphoreSlim
 	/// </summary>
     public partial class RSemaphoreSlim : RMember //
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_trueTask == null)
 				{
-					r_Fs_trueTask = new(typeof(System.Threading.SemaphoreSlim), "s_trueTask");
+					r_Fs_trueTask = new(Type, "s_trueTask");
 				}
 				return r_Fs_trueTask;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_falseTask == null)
 				{
-					r_Fs_falseTask = new(typeof(System.Threading.SemaphoreSlim), "s_falseTask");
+					r_Fs_falseTask = new(Type, "s_falseTask");
 				}
 				return r_Fs_falseTask;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FNO_MAXIMUM == null)
 				{
-					r_FNO_MAXIMUM = new(typeof(System.Threading.SemaphoreSlim), "NO_MAXIMUM");
+					r_FNO_MAXIMUM = new(Type, "NO_MAXIMUM");
 				}
 				return r_FNO_MAXIMUM;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_cancellationTokenCanceledEventHandler == null)
 				{
-					r_Fs_cancellationTokenCanceledEventHandler = new(typeof(System.Threading.SemaphoreSlim), "s_cancellationTokenCanceledEventHandler");
+					r_Fs_cancellationTokenCanceledEventHandler = new(Type, "s_cancellationTokenCanceledEventHandler");
 				}
 				return r_Fs_cancellationTokenCanceledEventHandler;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MQueueWaiterTask_TaskNode == null)
 				{
-					r_MQueueWaiterTask_TaskNode = new(typeof(System.Threading.SemaphoreSlim), "QueueWaiterTask", 0,  ReflectionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"));
+					r_MQueueWaiterTask_TaskNode = new(Type, "QueueWaiterTask", 0,  ReflectionUtils.GetType("System.Threading.SemaphoreSlim+TaskNode"));
 				}
 				return r_MQueueWaiterTask_TaskNode;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MCancellationTokenCanceledEventHandler_Object == null)
 				{
-					r_MCancellationTokenCanceledEventHandler_Object = new(typeof(System.Threading.SemaphoreSlim), "CancellationTokenCanceledEventHandler", 0, typeof(System.Object));
+					r_MCancellationTokenCanceledEventHandler_Object = new(Type, "CancellationTokenCanceledEventHandler", 0, typeof(System.Object));
 				}
 				return r_MCancellationTokenCanceledEventHandler_Object;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetResourceString_String == null)
 				{
-					r_MGetResourceString_String = new(typeof(System.Threading.SemaphoreSlim), "GetResourceString", 0, typeof(System.String));
+					r_MGetResourceString_String = new(Type, "GetResourceString", 0, typeof(System.String));
 				}
 				return r_MGetResourceString_String;
 			}
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout};
             var ___result = RMWait_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout, @cancellationToken};
             var ___result = RMWait_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -776,7 +777,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout};
             var ___result = RMWait_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -787,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
             var ___result = RMWait_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout, @startTime, @cancellationToken};
             var ___result = RMWaitUntilCountOrTimeout_Int32_UInt32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -809,7 +810,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMWaitAsync.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -820,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@cancellationToken};
             var ___result = RMWaitAsync_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -831,7 +832,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout};
             var ___result = RMWaitAsync_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Boolean>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
         }
 
 
@@ -842,7 +843,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout};
             var ___result = RMWaitAsync_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Boolean>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
         }
 
 
@@ -853,7 +854,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout, @cancellationToken};
             var ___result = RMWaitAsync_TimeSpan_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Boolean>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
         }
 
 
@@ -864,7 +865,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout, @cancellationToken};
             var ___result = RMWaitAsync_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Boolean>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
         }
 
 
@@ -875,7 +876,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCreateAndAddAsyncWaiter.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RSemaphoreSlim.RTaskNode>(___result);
         }
 
 
@@ -886,7 +887,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@task.Value};
             var ___result = RMRemoveAsyncWaiter_TaskNode.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -897,7 +898,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@asyncWaiter.Value, @millisecondsTimeout, @cancellationToken};
             var ___result = RMWaitUntilCountOrTimeoutAsync_TaskNode_Int32_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Boolean>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Boolean>>(___result);
         }
 
 
@@ -908,7 +909,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMRelease.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -919,7 +920,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@releaseCount};
             var ___result = RMRelease_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -985,7 +986,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@str};
             var ___result = RMGetResourceString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -996,7 +997,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1018,7 +1019,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1029,7 +1030,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1040,7 +1041,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1051,7 +1052,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

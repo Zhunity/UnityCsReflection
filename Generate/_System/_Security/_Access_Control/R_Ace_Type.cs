@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.AceType
 	/// </summary>
     public partial class RAceType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessAllowed == null)
 				{
-					r_FAccessAllowed = new(typeof(System.Security.AccessControl.AceType), "AccessAllowed");
+					r_FAccessAllowed = new(Type, "AccessAllowed");
 				}
 				return r_FAccessAllowed;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessDenied == null)
 				{
-					r_FAccessDenied = new(typeof(System.Security.AccessControl.AceType), "AccessDenied");
+					r_FAccessDenied = new(Type, "AccessDenied");
 				}
 				return r_FAccessDenied;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAudit == null)
 				{
-					r_FSystemAudit = new(typeof(System.Security.AccessControl.AceType), "SystemAudit");
+					r_FSystemAudit = new(Type, "SystemAudit");
 				}
 				return r_FSystemAudit;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAlarm == null)
 				{
-					r_FSystemAlarm = new(typeof(System.Security.AccessControl.AceType), "SystemAlarm");
+					r_FSystemAlarm = new(Type, "SystemAlarm");
 				}
 				return r_FSystemAlarm;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessAllowedCompound == null)
 				{
-					r_FAccessAllowedCompound = new(typeof(System.Security.AccessControl.AceType), "AccessAllowedCompound");
+					r_FAccessAllowedCompound = new(Type, "AccessAllowedCompound");
 				}
 				return r_FAccessAllowedCompound;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessAllowedObject == null)
 				{
-					r_FAccessAllowedObject = new(typeof(System.Security.AccessControl.AceType), "AccessAllowedObject");
+					r_FAccessAllowedObject = new(Type, "AccessAllowedObject");
 				}
 				return r_FAccessAllowedObject;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessDeniedObject == null)
 				{
-					r_FAccessDeniedObject = new(typeof(System.Security.AccessControl.AceType), "AccessDeniedObject");
+					r_FAccessDeniedObject = new(Type, "AccessDeniedObject");
 				}
 				return r_FAccessDeniedObject;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAuditObject == null)
 				{
-					r_FSystemAuditObject = new(typeof(System.Security.AccessControl.AceType), "SystemAuditObject");
+					r_FSystemAuditObject = new(Type, "SystemAuditObject");
 				}
 				return r_FSystemAuditObject;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAlarmObject == null)
 				{
-					r_FSystemAlarmObject = new(typeof(System.Security.AccessControl.AceType), "SystemAlarmObject");
+					r_FSystemAlarmObject = new(Type, "SystemAlarmObject");
 				}
 				return r_FSystemAlarmObject;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessAllowedCallback == null)
 				{
-					r_FAccessAllowedCallback = new(typeof(System.Security.AccessControl.AceType), "AccessAllowedCallback");
+					r_FAccessAllowedCallback = new(Type, "AccessAllowedCallback");
 				}
 				return r_FAccessAllowedCallback;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessDeniedCallback == null)
 				{
-					r_FAccessDeniedCallback = new(typeof(System.Security.AccessControl.AceType), "AccessDeniedCallback");
+					r_FAccessDeniedCallback = new(Type, "AccessDeniedCallback");
 				}
 				return r_FAccessDeniedCallback;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessAllowedCallbackObject == null)
 				{
-					r_FAccessAllowedCallbackObject = new(typeof(System.Security.AccessControl.AceType), "AccessAllowedCallbackObject");
+					r_FAccessAllowedCallbackObject = new(Type, "AccessAllowedCallbackObject");
 				}
 				return r_FAccessAllowedCallbackObject;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAccessDeniedCallbackObject == null)
 				{
-					r_FAccessDeniedCallbackObject = new(typeof(System.Security.AccessControl.AceType), "AccessDeniedCallbackObject");
+					r_FAccessDeniedCallbackObject = new(Type, "AccessDeniedCallbackObject");
 				}
 				return r_FAccessDeniedCallbackObject;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAuditCallback == null)
 				{
-					r_FSystemAuditCallback = new(typeof(System.Security.AccessControl.AceType), "SystemAuditCallback");
+					r_FSystemAuditCallback = new(Type, "SystemAuditCallback");
 				}
 				return r_FSystemAuditCallback;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAlarmCallback == null)
 				{
-					r_FSystemAlarmCallback = new(typeof(System.Security.AccessControl.AceType), "SystemAlarmCallback");
+					r_FSystemAlarmCallback = new(Type, "SystemAlarmCallback");
 				}
 				return r_FSystemAlarmCallback;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAuditCallbackObject == null)
 				{
-					r_FSystemAuditCallbackObject = new(typeof(System.Security.AccessControl.AceType), "SystemAuditCallbackObject");
+					r_FSystemAuditCallbackObject = new(Type, "SystemAuditCallbackObject");
 				}
 				return r_FSystemAuditCallbackObject;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAlarmCallbackObject == null)
 				{
-					r_FSystemAlarmCallbackObject = new(typeof(System.Security.AccessControl.AceType), "SystemAlarmCallbackObject");
+					r_FSystemAlarmCallbackObject = new(Type, "SystemAlarmCallbackObject");
 				}
 				return r_FSystemAlarmCallbackObject;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FMaxDefinedAceType == null)
 				{
-					r_FMaxDefinedAceType = new(typeof(System.Security.AccessControl.AceType), "MaxDefinedAceType");
+					r_FMaxDefinedAceType = new(Type, "MaxDefinedAceType");
 				}
 				return r_FMaxDefinedAceType;
 			}
@@ -556,7 +557,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -567,7 +568,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -578,7 +579,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -589,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -600,7 +601,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -611,7 +612,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -633,7 +634,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -644,7 +645,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -655,7 +656,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -677,7 +678,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -688,7 +689,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

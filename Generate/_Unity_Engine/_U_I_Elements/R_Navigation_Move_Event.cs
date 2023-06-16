@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.NavigationMoveEvent
 	/// </summary>
     public partial class RNavigationMoveEvent : RMember //
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MDetermineMoveDirection_Single_Single_Single == null)
 				{
-					r_MDetermineMoveDirection_Single_Single_Single = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "DetermineMoveDirection", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MDetermineMoveDirection_Single_Single_Single = new(Type, "DetermineMoveDirection", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MDetermineMoveDirection_Single_Single_Single;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Vector2_EventModifiers == null)
 				{
-					r_MGetPooled_Vector2_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Vector2_EventModifiers = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.EventModifiers));
 				}
 				return r_MGetPooled_Vector2_EventModifiers;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers == null)
 				{
-					r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
 				}
 				return r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Direction_EventModifiers == null)
 				{
-					r_MGetPooled_Direction_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Direction_EventModifiers = new(Type, "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"), typeof(UnityEngine.EventModifiers));
 				}
 				return r_MGetPooled_Direction_EventModifiers;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Direction_NavigationDeviceType_EventModifiers == null)
 				{
-					r_MGetPooled_Direction_NavigationDeviceType_EventModifiers = new(typeof(UnityEngine.UIElements.NavigationMoveEvent), "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Direction_NavigationDeviceType_EventModifiers = new(Type, "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
 				}
 				return r_MGetPooled_Direction_NavigationDeviceType_EventModifiers;
 			}
@@ -1100,7 +1101,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@x, @y, @deadZone};
             var ___result = RMDetermineMoveDirection_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection>(___result);
         }
 
 
@@ -1111,7 +1112,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@moveVector, @modifiers};
             var ___result = RMGetPooled_Vector2_EventModifiers.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
         }
 
 
@@ -1122,7 +1123,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@moveVector, @deviceType.Value, @modifiers};
             var ___result = RMGetPooled_Vector2_NavigationDeviceType_EventModifiers.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
         }
 
 
@@ -1133,7 +1134,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@direction.Value, @modifiers};
             var ___result = RMGetPooled_Direction_EventModifiers.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
         }
 
 
@@ -1144,7 +1145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@direction.Value, @deviceType.Value, @modifiers};
             var ___result = RMGetPooled_Direction_NavigationDeviceType_EventModifiers.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.NavigationMoveEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
         }
 
 
@@ -1254,7 +1255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@h};
             var ___result = RMSkip_IEventHandler.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1309,7 +1310,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1331,7 +1332,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1353,7 +1354,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1364,7 +1365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

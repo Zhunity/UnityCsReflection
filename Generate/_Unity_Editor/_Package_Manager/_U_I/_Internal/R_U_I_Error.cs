@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.UIError
 	/// </summary>
     public partial class RUIError : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_EntitlementErrorMessage == null)
 				{
-					r_Fk_EntitlementErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_EntitlementErrorMessage");
+					r_Fk_EntitlementErrorMessage = new(Type, "k_EntitlementErrorMessage");
 				}
 				return r_Fk_EntitlementErrorMessage;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_InvalidSignatureWarningMessage == null)
 				{
-					r_Fk_InvalidSignatureWarningMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_InvalidSignatureWarningMessage");
+					r_Fk_InvalidSignatureWarningMessage = new(Type, "k_InvalidSignatureWarningMessage");
 				}
 				return r_Fk_InvalidSignatureWarningMessage;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_UnsignedUnityPackageWarningMessage == null)
 				{
-					r_Fk_UnsignedUnityPackageWarningMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_UnsignedUnityPackageWarningMessage");
+					r_Fk_UnsignedUnityPackageWarningMessage = new(Type, "k_UnsignedUnityPackageWarningMessage");
 				}
 				return r_Fk_UnsignedUnityPackageWarningMessage;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_ReadMoreDocsUrl == null)
 				{
-					r_Fk_ReadMoreDocsUrl = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_ReadMoreDocsUrl");
+					r_Fk_ReadMoreDocsUrl = new(Type, "k_ReadMoreDocsUrl");
 				}
 				return r_Fk_ReadMoreDocsUrl;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_EntitlementError == null)
 				{
-					r_Fk_EntitlementError = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_EntitlementError");
+					r_Fk_EntitlementError = new(Type, "k_EntitlementError");
 				}
 				return r_Fk_EntitlementError;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_EntitlementWarning == null)
 				{
-					r_Fk_EntitlementWarning = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_EntitlementWarning");
+					r_Fk_EntitlementWarning = new(Type, "k_EntitlementWarning");
 				}
 				return r_Fk_EntitlementWarning;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_InvalidSignatureWarning == null)
 				{
-					r_Fk_InvalidSignatureWarning = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_InvalidSignatureWarning");
+					r_Fk_InvalidSignatureWarning = new(Type, "k_InvalidSignatureWarning");
 				}
 				return r_Fk_InvalidSignatureWarning;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_UnsignedUnityPackageWarning == null)
 				{
-					r_Fk_UnsignedUnityPackageWarning = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"), "k_UnsignedUnityPackageWarning");
+					r_Fk_UnsignedUnityPackageWarning = new(Type, "k_UnsignedUnityPackageWarning");
 				}
 				return r_Fk_UnsignedUnityPackageWarning;
 			}
@@ -444,7 +445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@attribute.Value};
             var ___result = RMHasAttribute_Attribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -455,7 +456,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -477,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -488,7 +489,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -499,7 +500,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

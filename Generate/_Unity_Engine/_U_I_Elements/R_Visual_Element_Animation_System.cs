@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.VisualElementAnimationSystem
 	/// </summary>
     public partial class RVisualElementAnimationSystem : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_Description == null)
 				{
-					r_Fs_Description = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_Description");
+					r_Fs_Description = new(Type, "s_Description");
 				}
 				return r_Fs_Description;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_ProfilerMarker == null)
 				{
-					r_Fs_ProfilerMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_ProfilerMarker");
+					r_Fs_ProfilerMarker = new(Type, "s_ProfilerMarker");
 				}
 				return r_Fs_ProfilerMarker;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_StylePropertyAnimationDescription == null)
 				{
-					r_Fs_StylePropertyAnimationDescription = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_StylePropertyAnimationDescription");
+					r_Fs_StylePropertyAnimationDescription = new(Type, "s_StylePropertyAnimationDescription");
 				}
 				return r_Fs_StylePropertyAnimationDescription;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_StylePropertyAnimationProfilerMarker == null)
 				{
-					r_Fs_StylePropertyAnimationProfilerMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "s_StylePropertyAnimationProfilerMarker");
+					r_Fs_StylePropertyAnimationProfilerMarker = new(Type, "s_StylePropertyAnimationProfilerMarker");
 				}
 				return r_Fs_StylePropertyAnimationProfilerMarker;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PstylePropertyAnimationProfilerMarker == null)
 				{
-					r_PstylePropertyAnimationProfilerMarker = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElementAnimationSystem"), "stylePropertyAnimationProfilerMarker", -1);
+					r_PstylePropertyAnimationProfilerMarker = new(Type, "stylePropertyAnimationProfilerMarker", -1);
 				}
 				return r_PstylePropertyAnimationProfilerMarker;
 			}
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMCurrentTimeMs.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -607,7 +608,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -629,7 +630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -640,7 +641,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -651,7 +652,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -662,7 +663,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.ActiveEditorTracker
 	/// </summary>
     public partial class RActiveEditorTracker : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_EeditorTrackerRebuilt == null)
 				{
-					r_EeditorTrackerRebuilt = new(typeof(UnityEditor.ActiveEditorTracker), "editorTrackerRebuilt");
+					r_EeditorTrackerRebuilt = new(Type, "editorTrackerRebuilt");
 				}
 				return r_EeditorTrackerRebuilt;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FeditorTrackerRebuilt == null)
 				{
-					r_FeditorTrackerRebuilt = new(typeof(UnityEditor.ActiveEditorTracker), "editorTrackerRebuilt");
+					r_FeditorTrackerRebuilt = new(Type, "editorTrackerRebuilt");
 				}
 				return r_FeditorTrackerRebuilt;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_PdelayFlushDirtyRebuild == null)
 				{
-					r_PdelayFlushDirtyRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "delayFlushDirtyRebuild", -1);
+					r_PdelayFlushDirtyRebuild = new(Type, "delayFlushDirtyRebuild", -1);
 				}
 				return r_PdelayFlushDirtyRebuild;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_PsharedTracker == null)
 				{
-					r_PsharedTracker = new(typeof(UnityEditor.ActiveEditorTracker), "sharedTracker", -1);
+					r_PsharedTracker = new(Type, "sharedTracker", -1);
 				}
 				return r_PsharedTracker;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_Create_ActiveEditorTracker == null)
 				{
-					r_MInternal_Create_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Create", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_Create_ActiveEditorTracker = new(Type, "Internal_Create", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_Create_ActiveEditorTracker;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_Dispose_ActiveEditorTracker == null)
 				{
-					r_MInternal_Dispose_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Dispose", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_Dispose_ActiveEditorTracker = new(Type, "Internal_Dispose", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_Dispose_ActiveEditorTracker;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_Destroy_ActiveEditorTracker == null)
 				{
-					r_MInternal_Destroy_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_Destroy", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_Destroy_ActiveEditorTracker = new(Type, "Internal_Destroy", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_Destroy_ActiveEditorTracker;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetActiveEditors_ActiveEditorTracker == null)
 				{
-					r_MInternal_GetActiveEditors_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetActiveEditors", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_GetActiveEditors_ActiveEditorTracker = new(Type, "Internal_GetActiveEditors", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_GetActiveEditors_ActiveEditorTracker;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray == null)
 				{
-					r_MInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetActiveEditorsNonAlloc", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.Editor).MakeArrayType());
+					r_MInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray = new(Type, "Internal_GetActiveEditorsNonAlloc", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.Editor).MakeArrayType());
 				}
 				return r_MInternal_GetActiveEditorsNonAlloc_ActiveEditorTracker_EditorArray;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object == null)
 				{
-					r_MInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
+					r_MInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(Type, "Internal_GetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
 				}
 				return r_MInternal_GetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object == null)
 				{
-					r_MInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
+					r_MInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object = new(Type, "Internal_SetObjectsLockedByThisTrackerInternal", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Object));
 				}
 				return r_MInternal_SetObjectsLockedByThisTrackerInternal_ActiveEditorTracker_Object;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetVisible_ActiveEditorTracker_Int32 == null)
 				{
-					r_MInternal_GetVisible_ActiveEditorTracker_Int32 = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32));
+					r_MInternal_GetVisible_ActiveEditorTracker_Int32 = new(Type, "Internal_GetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32));
 				}
 				return r_MInternal_GetVisible_ActiveEditorTracker_Int32;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_SetVisible_ActiveEditorTracker_Int32_Int32 == null)
 				{
-					r_MInternal_SetVisible_ActiveEditorTracker_Int32_Int32 = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Int32));
+					r_MInternal_SetVisible_ActiveEditorTracker_Int32_Int32 = new(Type, "Internal_SetVisible", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MInternal_SetVisible_ActiveEditorTracker_Int32_Int32;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetIsDirty_ActiveEditorTracker == null)
 				{
-					r_MInternal_GetIsDirty_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetIsDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_GetIsDirty_ActiveEditorTracker = new(Type, "Internal_GetIsDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_GetIsDirty_ActiveEditorTracker;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_ClearDirty_ActiveEditorTracker == null)
 				{
-					r_MInternal_ClearDirty_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_ClearDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_ClearDirty_ActiveEditorTracker = new(Type, "Internal_ClearDirty", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_ClearDirty_ActiveEditorTracker;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetIsLocked_ActiveEditorTracker == null)
 				{
-					r_MInternal_GetIsLocked_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_GetIsLocked_ActiveEditorTracker = new(Type, "Internal_GetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_GetIsLocked_ActiveEditorTracker;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_SetIsLocked_ActiveEditorTracker_Boolean == null)
 				{
-					r_MInternal_SetIsLocked_ActiveEditorTracker_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Boolean));
+					r_MInternal_SetIsLocked_ActiveEditorTracker_Boolean = new(Type, "Internal_SetIsLocked", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Boolean));
 				}
 				return r_MInternal_SetIsLocked_ActiveEditorTracker_Boolean;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_HasUnsavedChanges_ActiveEditorTracker == null)
 				{
-					r_MInternal_HasUnsavedChanges_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_HasUnsavedChanges", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_HasUnsavedChanges_ActiveEditorTracker = new(Type, "Internal_HasUnsavedChanges", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_HasUnsavedChanges_ActiveEditorTracker;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean == null)
 				{
-					r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_UnsavedChangesStateChanged", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Boolean));
+					r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean = new(Type, "Internal_UnsavedChangesStateChanged", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetDelayFlushDirtyRebuild == null)
 				{
-					r_MInternal_GetDelayFlushDirtyRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetDelayFlushDirtyRebuild", 0);
+					r_MInternal_GetDelayFlushDirtyRebuild = new(Type, "Internal_GetDelayFlushDirtyRebuild", 0);
 				}
 				return r_MInternal_GetDelayFlushDirtyRebuild;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_SetDelayFlushDirtyRebuild_Boolean == null)
 				{
-					r_MInternal_SetDelayFlushDirtyRebuild_Boolean = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetDelayFlushDirtyRebuild", 0, typeof(System.Boolean));
+					r_MInternal_SetDelayFlushDirtyRebuild_Boolean = new(Type, "Internal_SetDelayFlushDirtyRebuild", 0, typeof(System.Boolean));
 				}
 				return r_MInternal_SetDelayFlushDirtyRebuild_Boolean;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetInspectorMode_ActiveEditorTracker == null)
 				{
-					r_MInternal_GetInspectorMode_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_GetInspectorMode_ActiveEditorTracker = new(Type, "Internal_GetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_GetInspectorMode_ActiveEditorTracker;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode == null)
 				{
-					r_MInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.InspectorMode));
+					r_MInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode = new(Type, "Internal_SetInspectorMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.InspectorMode));
 				}
 				return r_MInternal_SetInspectorMode_ActiveEditorTracker_InspectorMode;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker == null)
 				{
-					r_MInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetHasComponentsWhichCannotBeMultiEdited", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker = new(Type, "Internal_GetHasComponentsWhichCannotBeMultiEdited", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_RebuildIfNecessary_ActiveEditorTracker == null)
 				{
-					r_MInternal_RebuildIfNecessary_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_RebuildIfNecessary", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_RebuildIfNecessary_ActiveEditorTracker = new(Type, "Internal_RebuildIfNecessary", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_RebuildIfNecessary_ActiveEditorTracker;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_RebuildAllIfNecessary == null)
 				{
-					r_MInternal_RebuildAllIfNecessary = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_RebuildAllIfNecessary", 0);
+					r_MInternal_RebuildAllIfNecessary = new(Type, "Internal_RebuildAllIfNecessary", 0);
 				}
 				return r_MInternal_RebuildAllIfNecessary;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MRebuildAllIfNecessary == null)
 				{
-					r_MRebuildAllIfNecessary = new(typeof(UnityEditor.ActiveEditorTracker), "RebuildAllIfNecessary", 0);
+					r_MRebuildAllIfNecessary = new(Type, "RebuildAllIfNecessary", 0);
 				}
 				return r_MRebuildAllIfNecessary;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_ForceRebuild_ActiveEditorTracker == null)
 				{
-					r_MInternal_ForceRebuild_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_ForceRebuild", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_ForceRebuild_ActiveEditorTracker = new(Type, "Internal_ForceRebuild", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_ForceRebuild_ActiveEditorTracker;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker == null)
 				{
-					r_MInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_VerifyModifiedMonoBehaviours", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker = new(Type, "Internal_VerifyModifiedMonoBehaviours", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_VerifyModifiedMonoBehaviours_ActiveEditorTracker;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_GetDataMode_ActiveEditorTracker == null)
 				{
-					r_MInternal_GetDataMode_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_GetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MInternal_GetDataMode_ActiveEditorTracker = new(Type, "Internal_GetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MInternal_GetDataMode_ActiveEditorTracker;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_SetDataMode_ActiveEditorTracker_DataMode == null)
 				{
-					r_MInternal_SetDataMode_ActiveEditorTracker_DataMode = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_SetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.DataMode));
+					r_MInternal_SetDataMode_ActiveEditorTracker_DataMode = new(Type, "Internal_SetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.DataMode));
 				}
 				return r_MInternal_SetDataMode_ActiveEditorTracker_DataMode;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MMakeCustomEditor_Object == null)
 				{
-					r_MMakeCustomEditor_Object = new(typeof(UnityEditor.ActiveEditorTracker), "MakeCustomEditor", 0, typeof(UnityEngine.Object));
+					r_MMakeCustomEditor_Object = new(Type, "MakeCustomEditor", 0, typeof(UnityEngine.Object));
 				}
 				return r_MMakeCustomEditor_Object;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MHasCustomEditor_Object == null)
 				{
-					r_MHasCustomEditor_Object = new(typeof(UnityEditor.ActiveEditorTracker), "HasCustomEditor", 0, typeof(UnityEngine.Object));
+					r_MHasCustomEditor_Object = new(Type, "HasCustomEditor", 0, typeof(UnityEngine.Object));
 				}
 				return r_MHasCustomEditor_Object;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MSetupSharedTracker_ActiveEditorTracker == null)
 				{
-					r_MSetupSharedTracker_ActiveEditorTracker = new(typeof(UnityEditor.ActiveEditorTracker), "SetupSharedTracker", 0, typeof(UnityEditor.ActiveEditorTracker));
+					r_MSetupSharedTracker_ActiveEditorTracker = new(Type, "SetupSharedTracker", 0, typeof(UnityEditor.ActiveEditorTracker));
 				}
 				return r_MSetupSharedTracker_ActiveEditorTracker;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInternal_OnTrackerRebuild == null)
 				{
-					r_MInternal_OnTrackerRebuild = new(typeof(UnityEditor.ActiveEditorTracker), "Internal_OnTrackerRebuild", 0);
+					r_MInternal_OnTrackerRebuild = new(Type, "Internal_OnTrackerRebuild", 0);
 				}
 				return r_MInternal_OnTrackerRebuild;
 			}
@@ -1031,7 +1032,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1042,7 +1043,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1097,7 +1098,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_GetActiveEditors_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (System.Array)___result;
+            return ReflectionUtils.Convert<System.Array>(___result);
         }
 
 
@@ -1185,7 +1186,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self, @index};
             var ___result = RMInternal_GetVisible_ActiveEditorTracker_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1196,7 +1197,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@index};
             var ___result = RMGetVisible_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1229,7 +1230,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_GetIsDirty_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_GetIsLocked_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1284,7 +1285,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@activeEditorTracker};
             var ___result = RMInternal_HasUnsavedChanges_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1317,7 +1318,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMInternal_GetDelayFlushDirtyRebuild.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1339,7 +1340,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_GetInspectorMode_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.InspectorMode)___result;
+            return ReflectionUtils.Convert<UnityEditor.InspectorMode>(___result);
         }
 
 
@@ -1361,7 +1362,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_GetHasComponentsWhichCannotBeMultiEdited_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1460,7 +1461,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_GetDataMode_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.DataMode)___result;
+            return ReflectionUtils.Convert<UnityEditor.DataMode>(___result);
         }
 
 
@@ -1482,7 +1483,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMMakeCustomEditor_Object.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.Editor)___result;
+            return ReflectionUtils.Convert<UnityEditor.Editor>(___result);
         }
 
 
@@ -1493,7 +1494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMHasCustomEditor_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1526,7 +1527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1537,7 +1538,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1548,7 +1549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

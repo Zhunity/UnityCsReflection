@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.RuntimeFieldHandle
 	/// </summary>
     public partial class RRuntimeFieldHandle : RMember //
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_RuntimeFieldHandle_RuntimeFieldHandle == null)
 				{
-					r_Mop_Equality_RuntimeFieldHandle_RuntimeFieldHandle = new(typeof(System.RuntimeFieldHandle), "op_Equality", 0, typeof(System.RuntimeFieldHandle), typeof(System.RuntimeFieldHandle));
+					r_Mop_Equality_RuntimeFieldHandle_RuntimeFieldHandle = new(Type, "op_Equality", 0, typeof(System.RuntimeFieldHandle), typeof(System.RuntimeFieldHandle));
 				}
 				return r_Mop_Equality_RuntimeFieldHandle_RuntimeFieldHandle;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle == null)
 				{
-					r_Mop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle = new(typeof(System.RuntimeFieldHandle), "op_Inequality", 0, typeof(System.RuntimeFieldHandle), typeof(System.RuntimeFieldHandle));
+					r_Mop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle = new(Type, "op_Inequality", 0, typeof(System.RuntimeFieldHandle), typeof(System.RuntimeFieldHandle));
 				}
 				return r_Mop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSetValueInternal_FieldInfo_Object_Object == null)
 				{
-					r_MSetValueInternal_FieldInfo_Object_Object = new(typeof(System.RuntimeFieldHandle), "SetValueInternal", 0, typeof(System.Reflection.FieldInfo), typeof(System.Object), typeof(System.Object));
+					r_MSetValueInternal_FieldInfo_Object_Object = new(Type, "SetValueInternal", 0, typeof(System.Reflection.FieldInfo), typeof(System.Object), typeof(System.Object));
 				}
 				return r_MSetValueInternal_FieldInfo_Object_Object;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean == null)
 				{
-					r_MSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean = new(typeof(System.RuntimeFieldHandle), "SetValue", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"), typeof(System.Object), typeof(System.Object),  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Reflection.FieldAttributes),  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Boolean).MakeByRefType());
+					r_MSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean = new(Type, "SetValue", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"), typeof(System.Object), typeof(System.Object),  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Reflection.FieldAttributes),  ReflectionUtils.GetType("System.RuntimeType"), typeof(System.Boolean).MakeByRefType());
 				}
 				return r_MSetValue_RuntimeFieldInfo_Object_Object_RuntimeType_FieldAttributes_RuntimeType_Ref_Boolean;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType == null)
 				{
-					r_MGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType = new(typeof(System.RuntimeFieldHandle), "GetValueDirect", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"),  ReflectionUtils.GetType("System.RuntimeType"), typeof(void).MakePointerType(),  ReflectionUtils.GetType("System.RuntimeType"));
+					r_MGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType = new(Type, "GetValueDirect", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"),  ReflectionUtils.GetType("System.RuntimeType"), typeof(void).MakePointerType(),  ReflectionUtils.GetType("System.RuntimeType"));
 				}
 				return r_MGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType == null)
 				{
-					r_MSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType = new(typeof(System.RuntimeFieldHandle), "SetValueDirect", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"),  ReflectionUtils.GetType("System.RuntimeType"), typeof(void).MakePointerType(), typeof(System.Object),  ReflectionUtils.GetType("System.RuntimeType"));
+					r_MSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType = new(Type, "SetValueDirect", 0,  ReflectionUtils.GetType("System.Reflection.RuntimeFieldInfo"),  ReflectionUtils.GetType("System.RuntimeType"), typeof(void).MakePointerType(), typeof(System.Object),  ReflectionUtils.GetType("System.RuntimeType"));
 				}
 				return r_MSetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_Object_RuntimeType;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsNullHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@handle};
             var ___result = RMEquals_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_RuntimeFieldHandle_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_RuntimeFieldHandle_RuntimeFieldHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -416,7 +417,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@field.Value, @fieldType.Value, Pointer.Box(@pTypedRef, typeof(void)), @contextType.Value};
             var ___result = RMGetValueDirect_RuntimeFieldInfo_RuntimeType_VoidPointer_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -438,7 +439,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -460,7 +461,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

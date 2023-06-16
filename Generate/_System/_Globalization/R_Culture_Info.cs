@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.CultureInfo
 	/// </summary>
     public partial class RCultureInfo : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Finvariant_culture_info == null)
 				{
-					r_Finvariant_culture_info = new(typeof(System.Globalization.CultureInfo), "invariant_culture_info");
+					r_Finvariant_culture_info = new(Type, "invariant_culture_info");
 				}
 				return r_Finvariant_culture_info;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fshared_table_lock == null)
 				{
-					r_Fshared_table_lock = new(typeof(System.Globalization.CultureInfo), "shared_table_lock");
+					r_Fshared_table_lock = new(Type, "shared_table_lock");
 				}
 				return r_Fshared_table_lock;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fdefault_current_culture == null)
 				{
-					r_Fdefault_current_culture = new(typeof(System.Globalization.CultureInfo), "default_current_culture");
+					r_Fdefault_current_culture = new(Type, "default_current_culture");
 				}
 				return r_Fdefault_current_culture;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FInvariantCultureId == null)
 				{
-					r_FInvariantCultureId = new(typeof(System.Globalization.CultureInfo), "InvariantCultureId");
+					r_FInvariantCultureId = new(Type, "InvariantCultureId");
 				}
 				return r_FInvariantCultureId;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCalendarTypeBits == null)
 				{
-					r_FCalendarTypeBits = new(typeof(System.Globalization.CultureInfo), "CalendarTypeBits");
+					r_FCalendarTypeBits = new(Type, "CalendarTypeBits");
 				}
 				return r_FCalendarTypeBits;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FLOCALE_INVARIANT == null)
 				{
-					r_FLOCALE_INVARIANT = new(typeof(System.Globalization.CultureInfo), "LOCALE_INVARIANT");
+					r_FLOCALE_INVARIANT = new(Type, "LOCALE_INVARIANT");
 				}
 				return r_FLOCALE_INVARIANT;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FMSG_READONLY == null)
 				{
-					r_FMSG_READONLY = new(typeof(System.Globalization.CultureInfo), "MSG_READONLY");
+					r_FMSG_READONLY = new(Type, "MSG_READONLY");
 				}
 				return r_FMSG_READONLY;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fs_DefaultThreadCurrentUICulture == null)
 				{
-					r_Fs_DefaultThreadCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "s_DefaultThreadCurrentUICulture");
+					r_Fs_DefaultThreadCurrentUICulture = new(Type, "s_DefaultThreadCurrentUICulture");
 				}
 				return r_Fs_DefaultThreadCurrentUICulture;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fs_DefaultThreadCurrentCulture == null)
 				{
-					r_Fs_DefaultThreadCurrentCulture = new(typeof(System.Globalization.CultureInfo), "s_DefaultThreadCurrentCulture");
+					r_Fs_DefaultThreadCurrentCulture = new(Type, "s_DefaultThreadCurrentCulture");
 				}
 				return r_Fs_DefaultThreadCurrentCulture;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fshared_by_number == null)
 				{
-					r_Fshared_by_number = new(typeof(System.Globalization.CultureInfo), "shared_by_number");
+					r_Fshared_by_number = new(Type, "shared_by_number");
 				}
 				return r_Fshared_by_number;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fshared_by_name == null)
 				{
-					r_Fshared_by_name = new(typeof(System.Globalization.CultureInfo), "shared_by_name");
+					r_Fshared_by_name = new(Type, "shared_by_name");
 				}
 				return r_Fshared_by_name;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fs_UserPreferredCultureInfoInAppX == null)
 				{
-					r_Fs_UserPreferredCultureInfoInAppX = new(typeof(System.Globalization.CultureInfo), "s_UserPreferredCultureInfoInAppX");
+					r_Fs_UserPreferredCultureInfoInAppX = new(Type, "s_UserPreferredCultureInfoInAppX");
 				}
 				return r_Fs_UserPreferredCultureInfoInAppX;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FIsTaiwanSku == null)
 				{
-					r_FIsTaiwanSku = new(typeof(System.Globalization.CultureInfo), "IsTaiwanSku");
+					r_FIsTaiwanSku = new(Type, "IsTaiwanSku");
 				}
 				return r_FIsTaiwanSku;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PInvariantCulture == null)
 				{
-					r_PInvariantCulture = new(typeof(System.Globalization.CultureInfo), "InvariantCulture", -1);
+					r_PInvariantCulture = new(Type, "InvariantCulture", -1);
 				}
 				return r_PInvariantCulture;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PCurrentCulture == null)
 				{
-					r_PCurrentCulture = new(typeof(System.Globalization.CultureInfo), "CurrentCulture", -1);
+					r_PCurrentCulture = new(Type, "CurrentCulture", -1);
 				}
 				return r_PCurrentCulture;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PCurrentUICulture == null)
 				{
-					r_PCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "CurrentUICulture", -1);
+					r_PCurrentUICulture = new(Type, "CurrentUICulture", -1);
 				}
 				return r_PCurrentUICulture;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PInstalledUICulture == null)
 				{
-					r_PInstalledUICulture = new(typeof(System.Globalization.CultureInfo), "InstalledUICulture", -1);
+					r_PInstalledUICulture = new(Type, "InstalledUICulture", -1);
 				}
 				return r_PInstalledUICulture;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PDefaultThreadCurrentCulture == null)
 				{
-					r_PDefaultThreadCurrentCulture = new(typeof(System.Globalization.CultureInfo), "DefaultThreadCurrentCulture", -1);
+					r_PDefaultThreadCurrentCulture = new(Type, "DefaultThreadCurrentCulture", -1);
 				}
 				return r_PDefaultThreadCurrentCulture;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PDefaultThreadCurrentUICulture == null)
 				{
-					r_PDefaultThreadCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "DefaultThreadCurrentUICulture", -1);
+					r_PDefaultThreadCurrentUICulture = new(Type, "DefaultThreadCurrentUICulture", -1);
 				}
 				return r_PDefaultThreadCurrentUICulture;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PUserDefaultUICulture == null)
 				{
-					r_PUserDefaultUICulture = new(typeof(System.Globalization.CultureInfo), "UserDefaultUICulture", -1);
+					r_PUserDefaultUICulture = new(Type, "UserDefaultUICulture", -1);
 				}
 				return r_PUserDefaultUICulture;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PUserDefaultCulture == null)
 				{
-					r_PUserDefaultCulture = new(typeof(System.Globalization.CultureInfo), "UserDefaultCulture", -1);
+					r_PUserDefaultCulture = new(Type, "UserDefaultCulture", -1);
 				}
 				return r_PUserDefaultCulture;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MConstructCurrentCulture == null)
 				{
-					r_MConstructCurrentCulture = new(typeof(System.Globalization.CultureInfo), "ConstructCurrentCulture", 0);
+					r_MConstructCurrentCulture = new(Type, "ConstructCurrentCulture", 0);
 				}
 				return r_MConstructCurrentCulture;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MConstructCurrentUICulture == null)
 				{
-					r_MConstructCurrentUICulture = new(typeof(System.Globalization.CultureInfo), "ConstructCurrentUICulture", 0);
+					r_MConstructCurrentUICulture = new(Type, "ConstructCurrentUICulture", 0);
 				}
 				return r_MConstructCurrentUICulture;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultures_CultureTypes == null)
 				{
-					r_MGetCultures_CultureTypes = new(typeof(System.Globalization.CultureInfo), "GetCultures", 0, typeof(System.Globalization.CultureTypes));
+					r_MGetCultures_CultureTypes = new(Type, "GetCultures", 0, typeof(System.Globalization.CultureTypes));
 				}
 				return r_MGetCultures_CultureTypes;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MReadOnly_CultureInfo == null)
 				{
-					r_MReadOnly_CultureInfo = new(typeof(System.Globalization.CultureInfo), "ReadOnly", 0, typeof(System.Globalization.CultureInfo));
+					r_MReadOnly_CultureInfo = new(Type, "ReadOnly", 0, typeof(System.Globalization.CultureInfo));
 				}
 				return r_MReadOnly_CultureInfo;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Mget_current_locale_name == null)
 				{
-					r_Mget_current_locale_name = new(typeof(System.Globalization.CultureInfo), "get_current_locale_name", 0);
+					r_Mget_current_locale_name = new(Type, "get_current_locale_name", 0);
 				}
 				return r_Mget_current_locale_name;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Minternal_get_cultures_Boolean_Boolean_Boolean == null)
 				{
-					r_Minternal_get_cultures_Boolean_Boolean_Boolean = new(typeof(System.Globalization.CultureInfo), "internal_get_cultures", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_Minternal_get_cultures_Boolean_Boolean_Boolean = new(Type, "internal_get_cultures", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_Minternal_get_cultures_Boolean_Boolean_Boolean;
 			}
@@ -1598,7 +1599,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Minsert_into_shared_tables_CultureInfo == null)
 				{
-					r_Minsert_into_shared_tables_CultureInfo = new(typeof(System.Globalization.CultureInfo), "insert_into_shared_tables", 0, typeof(System.Globalization.CultureInfo));
+					r_Minsert_into_shared_tables_CultureInfo = new(Type, "insert_into_shared_tables", 0, typeof(System.Globalization.CultureInfo));
 				}
 				return r_Minsert_into_shared_tables_CultureInfo;
 			}
@@ -1614,7 +1615,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureInfo_Int32 == null)
 				{
-					r_MGetCultureInfo_Int32 = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.Int32));
+					r_MGetCultureInfo_Int32 = new(Type, "GetCultureInfo", 0, typeof(System.Int32));
 				}
 				return r_MGetCultureInfo_Int32;
 			}
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureInfo_String == null)
 				{
-					r_MGetCultureInfo_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.String));
+					r_MGetCultureInfo_String = new(Type, "GetCultureInfo", 0, typeof(System.String));
 				}
 				return r_MGetCultureInfo_String;
 			}
@@ -1646,7 +1647,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureInfo_String_String == null)
 				{
-					r_MGetCultureInfo_String_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfo", 0, typeof(System.String), typeof(System.String));
+					r_MGetCultureInfo_String_String = new(Type, "GetCultureInfo", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MGetCultureInfo_String_String;
 			}
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureInfoByIetfLanguageTag_String == null)
 				{
-					r_MGetCultureInfoByIetfLanguageTag_String = new(typeof(System.Globalization.CultureInfo), "GetCultureInfoByIetfLanguageTag", 0, typeof(System.String));
+					r_MGetCultureInfoByIetfLanguageTag_String = new(Type, "GetCultureInfoByIetfLanguageTag", 0, typeof(System.String));
 				}
 				return r_MGetCultureInfoByIetfLanguageTag_String;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCreateCulture_String_Boolean == null)
 				{
-					r_MCreateCulture_String_Boolean = new(typeof(System.Globalization.CultureInfo), "CreateCulture", 0, typeof(System.String), typeof(System.Boolean));
+					r_MCreateCulture_String_Boolean = new(Type, "CreateCulture", 0, typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MCreateCulture_String_Boolean;
 			}
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCreateSpecificCulture_String == null)
 				{
-					r_MCreateSpecificCulture_String = new(typeof(System.Globalization.CultureInfo), "CreateSpecificCulture", 0, typeof(System.String));
+					r_MCreateSpecificCulture_String = new(Type, "CreateSpecificCulture", 0, typeof(System.String));
 				}
 				return r_MCreateSpecificCulture_String;
 			}
@@ -1726,7 +1727,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCreateSpecificCultureFromNeutral_String == null)
 				{
-					r_MCreateSpecificCultureFromNeutral_String = new(typeof(System.Globalization.CultureInfo), "CreateSpecificCultureFromNeutral", 0, typeof(System.String));
+					r_MCreateSpecificCultureFromNeutral_String = new(Type, "CreateSpecificCultureFromNeutral", 0, typeof(System.String));
 				}
 				return r_MCreateSpecificCultureFromNeutral_String;
 			}
@@ -1742,7 +1743,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCreateCalendar_Int32 == null)
 				{
-					r_MCreateCalendar_Int32 = new(typeof(System.Globalization.CultureInfo), "CreateCalendar", 0, typeof(System.Int32));
+					r_MCreateCalendar_Int32 = new(Type, "CreateCalendar", 0, typeof(System.Int32));
 				}
 				return r_MCreateCalendar_Int32;
 			}
@@ -1758,7 +1759,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCreateNotFoundException_String == null)
 				{
-					r_MCreateNotFoundException_String = new(typeof(System.Globalization.CultureInfo), "CreateNotFoundException", 0, typeof(System.String));
+					r_MCreateNotFoundException_String = new(Type, "CreateNotFoundException", 0, typeof(System.String));
 				}
 				return r_MCreateNotFoundException_String;
 			}
@@ -1774,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate == null)
 				{
-					r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate = new(typeof(System.Globalization.CultureInfo), "InitializeUserPreferredCultureInfoInAppX", 0,  ReflectionUtils.GetType("System.Globalization.CultureInfo+OnCultureInfoChangedDelegate"));
+					r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate = new(Type, "InitializeUserPreferredCultureInfoInAppX", 0,  ReflectionUtils.GetType("System.Globalization.CultureInfo+OnCultureInfoChangedDelegate"));
 				}
 				return r_MInitializeUserPreferredCultureInfoInAppX_OnCultureInfoChangedDelegate;
 			}
@@ -1790,7 +1791,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MSetUserPreferredCultureInfoInAppX_String == null)
 				{
-					r_MSetUserPreferredCultureInfoInAppX_String = new(typeof(System.Globalization.CultureInfo), "SetUserPreferredCultureInfoInAppX", 0, typeof(System.String));
+					r_MSetUserPreferredCultureInfoInAppX_String = new(Type, "SetUserPreferredCultureInfoInAppX", 0, typeof(System.String));
 				}
 				return r_MSetUserPreferredCultureInfoInAppX_String;
 			}
@@ -1806,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MOnCultureInfoChangedInAppX_String == null)
 				{
-					r_MOnCultureInfoChangedInAppX_String = new(typeof(System.Globalization.CultureInfo), "OnCultureInfoChangedInAppX", 0, typeof(System.String));
+					r_MOnCultureInfoChangedInAppX_String = new(Type, "OnCultureInfoChangedInAppX", 0, typeof(System.String));
 				}
 				return r_MOnCultureInfoChangedInAppX_String;
 			}
@@ -1822,7 +1823,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureInfoForUserPreferredLanguageInAppX == null)
 				{
-					r_MGetCultureInfoForUserPreferredLanguageInAppX = new(typeof(System.Globalization.CultureInfo), "GetCultureInfoForUserPreferredLanguageInAppX", 0);
+					r_MGetCultureInfoForUserPreferredLanguageInAppX = new(Type, "GetCultureInfoForUserPreferredLanguageInAppX", 0);
 				}
 				return r_MGetCultureInfoForUserPreferredLanguageInAppX;
 			}
@@ -1838,7 +1839,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo == null)
 				{
-					r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo = new(typeof(System.Globalization.CultureInfo), "SetCultureInfoForUserPreferredLanguageInAppX", 0, typeof(System.Globalization.CultureInfo));
+					r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo = new(Type, "SetCultureInfoForUserPreferredLanguageInAppX", 0, typeof(System.Globalization.CultureInfo));
 				}
 				return r_MSetCultureInfoForUserPreferredLanguageInAppX_CultureInfo;
 			}
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCheckDomainSafetyObject_Object_Object == null)
 				{
-					r_MCheckDomainSafetyObject_Object_Object = new(typeof(System.Globalization.CultureInfo), "CheckDomainSafetyObject", 0, typeof(System.Object), typeof(System.Object));
+					r_MCheckDomainSafetyObject_Object_Object = new(Type, "CheckDomainSafetyObject", 0, typeof(System.Object), typeof(System.Object));
 				}
 				return r_MCheckDomainSafetyObject_Object_Object;
 			}
@@ -1870,7 +1871,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MVerifyCultureName_String_Boolean == null)
 				{
-					r_MVerifyCultureName_String_Boolean = new(typeof(System.Globalization.CultureInfo), "VerifyCultureName", 0, typeof(System.String), typeof(System.Boolean));
+					r_MVerifyCultureName_String_Boolean = new(Type, "VerifyCultureName", 0, typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MVerifyCultureName_String_Boolean;
 			}
@@ -1886,7 +1887,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MVerifyCultureName_CultureInfo_Boolean == null)
 				{
-					r_MVerifyCultureName_CultureInfo_Boolean = new(typeof(System.Globalization.CultureInfo), "VerifyCultureName", 0, typeof(System.Globalization.CultureInfo), typeof(System.Boolean));
+					r_MVerifyCultureName_CultureInfo_Boolean = new(Type, "VerifyCultureName", 0, typeof(System.Globalization.CultureInfo), typeof(System.Boolean));
 				}
 				return r_MVerifyCultureName_CultureInfo_Boolean;
 			}
@@ -1948,7 +1949,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMConstructCurrentCulture.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -1959,7 +1960,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMConstructCurrentUICulture.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -1970,7 +1971,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetConsoleFallbackUICulture.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -1992,7 +1993,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2003,7 +2004,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@value};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2014,7 +2015,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@types};
             var ___result = RMGetCultures_CultureTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo[])___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo[]>(___result);
         }
 
 
@@ -2025,7 +2026,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetTextInfoData.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.RData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureInfo.RData>(___result);
         }
 
 
@@ -2036,7 +2037,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2047,7 +2048,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@ci};
             var ___result = RMReadOnly_CultureInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2058,7 +2059,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2080,7 +2081,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@formatType};
             var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2102,7 +2103,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@lcid};
             var ___result = RMconstruct_internal_locale_from_lcid_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2113,7 +2114,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMconstruct_internal_locale_from_name_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2124,7 +2125,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMget_current_locale_name.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2135,7 +2136,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@neutral, @specific, @installed};
             var ___result = RMinternal_get_cultures_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo[])___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo[]>(___result);
         }
 
 
@@ -2157,7 +2158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@readOnly};
             var ___result = RMCreateTextInfo_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.TextInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.TextInfo>(___result);
         }
 
 
@@ -2179,7 +2180,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@culture};
             var ___result = RMGetCultureInfo_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2190,7 +2191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMGetCultureInfo_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2201,7 +2202,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name, @altName};
             var ___result = RMGetCultureInfo_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2212,7 +2213,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMGetCultureInfoByIetfLanguageTag_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2223,7 +2224,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name, @reference};
             var ___result = RMCreateCulture_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2234,7 +2235,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMCreateSpecificCulture_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2245,7 +2246,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMConstructLocaleFromName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2256,7 +2257,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMCreateSpecificCultureFromNeutral_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2267,7 +2268,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarType};
             var ___result = RMCreateCalendar_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.Calendar)___result;
+            return ReflectionUtils.Convert<System.Globalization.Calendar>(___result);
         }
 
 
@@ -2278,7 +2279,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@name};
             var ___result = RMCreateNotFoundException_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Exception)___result;
+            return ReflectionUtils.Convert<System.Exception>(___result);
         }
 
 
@@ -2322,7 +2323,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetCultureInfoForUserPreferredLanguageInAppX.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2355,7 +2356,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@cultureName, @throwException};
             var ___result = RMVerifyCultureName_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2366,7 +2367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@culture, @throwException};
             var ___result = RMVerifyCultureName_CultureInfo_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2388,7 +2389,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2399,7 +2400,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

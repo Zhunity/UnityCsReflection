@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.TimeSpan
 	/// </summary>
     public partial class RTimeSpan : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTicksPerMillisecond == null)
 				{
-					r_FTicksPerMillisecond = new(typeof(System.TimeSpan), "TicksPerMillisecond");
+					r_FTicksPerMillisecond = new(Type, "TicksPerMillisecond");
 				}
 				return r_FTicksPerMillisecond;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMillisecondsPerTick == null)
 				{
-					r_FMillisecondsPerTick = new(typeof(System.TimeSpan), "MillisecondsPerTick");
+					r_FMillisecondsPerTick = new(Type, "MillisecondsPerTick");
 				}
 				return r_FMillisecondsPerTick;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTicksPerSecond == null)
 				{
-					r_FTicksPerSecond = new(typeof(System.TimeSpan), "TicksPerSecond");
+					r_FTicksPerSecond = new(Type, "TicksPerSecond");
 				}
 				return r_FTicksPerSecond;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSecondsPerTick == null)
 				{
-					r_FSecondsPerTick = new(typeof(System.TimeSpan), "SecondsPerTick");
+					r_FSecondsPerTick = new(Type, "SecondsPerTick");
 				}
 				return r_FSecondsPerTick;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTicksPerMinute == null)
 				{
-					r_FTicksPerMinute = new(typeof(System.TimeSpan), "TicksPerMinute");
+					r_FTicksPerMinute = new(Type, "TicksPerMinute");
 				}
 				return r_FTicksPerMinute;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinutesPerTick == null)
 				{
-					r_FMinutesPerTick = new(typeof(System.TimeSpan), "MinutesPerTick");
+					r_FMinutesPerTick = new(Type, "MinutesPerTick");
 				}
 				return r_FMinutesPerTick;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTicksPerHour == null)
 				{
-					r_FTicksPerHour = new(typeof(System.TimeSpan), "TicksPerHour");
+					r_FTicksPerHour = new(Type, "TicksPerHour");
 				}
 				return r_FTicksPerHour;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FHoursPerTick == null)
 				{
-					r_FHoursPerTick = new(typeof(System.TimeSpan), "HoursPerTick");
+					r_FHoursPerTick = new(Type, "HoursPerTick");
 				}
 				return r_FHoursPerTick;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTicksPerDay == null)
 				{
-					r_FTicksPerDay = new(typeof(System.TimeSpan), "TicksPerDay");
+					r_FTicksPerDay = new(Type, "TicksPerDay");
 				}
 				return r_FTicksPerDay;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FDaysPerTick == null)
 				{
-					r_FDaysPerTick = new(typeof(System.TimeSpan), "DaysPerTick");
+					r_FDaysPerTick = new(Type, "DaysPerTick");
 				}
 				return r_FDaysPerTick;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMillisPerSecond == null)
 				{
-					r_FMillisPerSecond = new(typeof(System.TimeSpan), "MillisPerSecond");
+					r_FMillisPerSecond = new(Type, "MillisPerSecond");
 				}
 				return r_FMillisPerSecond;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMillisPerMinute == null)
 				{
-					r_FMillisPerMinute = new(typeof(System.TimeSpan), "MillisPerMinute");
+					r_FMillisPerMinute = new(Type, "MillisPerMinute");
 				}
 				return r_FMillisPerMinute;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMillisPerHour == null)
 				{
-					r_FMillisPerHour = new(typeof(System.TimeSpan), "MillisPerHour");
+					r_FMillisPerHour = new(Type, "MillisPerHour");
 				}
 				return r_FMillisPerHour;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMillisPerDay == null)
 				{
-					r_FMillisPerDay = new(typeof(System.TimeSpan), "MillisPerDay");
+					r_FMillisPerDay = new(Type, "MillisPerDay");
 				}
 				return r_FMillisPerDay;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMaxSeconds == null)
 				{
-					r_FMaxSeconds = new(typeof(System.TimeSpan), "MaxSeconds");
+					r_FMaxSeconds = new(Type, "MaxSeconds");
 				}
 				return r_FMaxSeconds;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinSeconds == null)
 				{
-					r_FMinSeconds = new(typeof(System.TimeSpan), "MinSeconds");
+					r_FMinSeconds = new(Type, "MinSeconds");
 				}
 				return r_FMinSeconds;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMaxMilliSeconds == null)
 				{
-					r_FMaxMilliSeconds = new(typeof(System.TimeSpan), "MaxMilliSeconds");
+					r_FMaxMilliSeconds = new(Type, "MaxMilliSeconds");
 				}
 				return r_FMaxMilliSeconds;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinMilliSeconds == null)
 				{
-					r_FMinMilliSeconds = new(typeof(System.TimeSpan), "MinMilliSeconds");
+					r_FMinMilliSeconds = new(Type, "MinMilliSeconds");
 				}
 				return r_FMinMilliSeconds;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FTicksPerTenthSecond == null)
 				{
-					r_FTicksPerTenthSecond = new(typeof(System.TimeSpan), "TicksPerTenthSecond");
+					r_FTicksPerTenthSecond = new(Type, "TicksPerTenthSecond");
 				}
 				return r_FTicksPerTenthSecond;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FZero == null)
 				{
-					r_FZero = new(typeof(System.TimeSpan), "Zero");
+					r_FZero = new(Type, "Zero");
 				}
 				return r_FZero;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMaxValue == null)
 				{
-					r_FMaxValue = new(typeof(System.TimeSpan), "MaxValue");
+					r_FMaxValue = new(Type, "MaxValue");
 				}
 				return r_FMaxValue;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinValue == null)
 				{
-					r_FMinValue = new(typeof(System.TimeSpan), "MinValue");
+					r_FMinValue = new(Type, "MinValue");
 				}
 				return r_FMinValue;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCompare_TimeSpan_TimeSpan == null)
 				{
-					r_MCompare_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "Compare", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_MCompare_TimeSpan_TimeSpan = new(Type, "Compare", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_MCompare_TimeSpan_TimeSpan;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromDays_Double == null)
 				{
-					r_MFromDays_Double = new(typeof(System.TimeSpan), "FromDays", 0, typeof(System.Double));
+					r_MFromDays_Double = new(Type, "FromDays", 0, typeof(System.Double));
 				}
 				return r_MFromDays_Double;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MEquals_TimeSpan_TimeSpan == null)
 				{
-					r_MEquals_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "Equals", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_MEquals_TimeSpan_TimeSpan = new(Type, "Equals", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_MEquals_TimeSpan_TimeSpan;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromHours_Double == null)
 				{
-					r_MFromHours_Double = new(typeof(System.TimeSpan), "FromHours", 0, typeof(System.Double));
+					r_MFromHours_Double = new(Type, "FromHours", 0, typeof(System.Double));
 				}
 				return r_MFromHours_Double;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInterval_Double_Int32 == null)
 				{
-					r_MInterval_Double_Int32 = new(typeof(System.TimeSpan), "Interval", 0, typeof(System.Double), typeof(System.Int32));
+					r_MInterval_Double_Int32 = new(Type, "Interval", 0, typeof(System.Double), typeof(System.Int32));
 				}
 				return r_MInterval_Double_Int32;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromMilliseconds_Double == null)
 				{
-					r_MFromMilliseconds_Double = new(typeof(System.TimeSpan), "FromMilliseconds", 0, typeof(System.Double));
+					r_MFromMilliseconds_Double = new(Type, "FromMilliseconds", 0, typeof(System.Double));
 				}
 				return r_MFromMilliseconds_Double;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromMinutes_Double == null)
 				{
-					r_MFromMinutes_Double = new(typeof(System.TimeSpan), "FromMinutes", 0, typeof(System.Double));
+					r_MFromMinutes_Double = new(Type, "FromMinutes", 0, typeof(System.Double));
 				}
 				return r_MFromMinutes_Double;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromSeconds_Double == null)
 				{
-					r_MFromSeconds_Double = new(typeof(System.TimeSpan), "FromSeconds", 0, typeof(System.Double));
+					r_MFromSeconds_Double = new(Type, "FromSeconds", 0, typeof(System.Double));
 				}
 				return r_MFromSeconds_Double;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MFromTicks_Int64 == null)
 				{
-					r_MFromTicks_Int64 = new(typeof(System.TimeSpan), "FromTicks", 0, typeof(System.Int64));
+					r_MFromTicks_Int64 = new(Type, "FromTicks", 0, typeof(System.Int64));
 				}
 				return r_MFromTicks_Int64;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTimeToTicks_Int32_Int32_Int32 == null)
 				{
-					r_MTimeToTicks_Int32_Int32_Int32 = new(typeof(System.TimeSpan), "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MTimeToTicks_Int32_Int32_Int32 = new(Type, "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MTimeToTicks_Int32_Int32_Int32;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MValidateStyles_TimeSpanStyles_String == null)
 				{
-					r_MValidateStyles_TimeSpanStyles_String = new(typeof(System.TimeSpan), "ValidateStyles", 0, typeof(System.Globalization.TimeSpanStyles), typeof(System.String));
+					r_MValidateStyles_TimeSpanStyles_String = new(Type, "ValidateStyles", 0, typeof(System.Globalization.TimeSpanStyles), typeof(System.String));
 				}
 				return r_MValidateStyles_TimeSpanStyles_String;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String == null)
 				{
-					r_MParse_String = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.String));
+					r_MParse_String = new(Type, "Parse", 0, typeof(System.String));
 				}
 				return r_MParse_String;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_IFormatProvider == null)
 				{
-					r_MParse_String_IFormatProvider = new(typeof(System.TimeSpan), "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_MParse_String_IFormatProvider = new(Type, "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
 				}
 				return r_MParse_String_IFormatProvider;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_ReadOnlySpan_d_Char_p__IFormatProvider == null)
 				{
-					r_MParse_ReadOnlySpan_d_Char_p__IFormatProvider = new(typeof(System.TimeSpan), "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
+					r_MParse_ReadOnlySpan_d_Char_p__IFormatProvider = new(Type, "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider));
 				}
 				return r_MParse_ReadOnlySpan_d_Char_p__IFormatProvider;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseExact_String_String_IFormatProvider == null)
 				{
-					r_MParseExact_String_String_IFormatProvider = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider));
+					r_MParseExact_String_String_IFormatProvider = new(Type, "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider));
 				}
 				return r_MParseExact_String_String_IFormatProvider;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseExact_String_StringArray_IFormatProvider == null)
 				{
-					r_MParseExact_String_StringArray_IFormatProvider = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider));
+					r_MParseExact_String_StringArray_IFormatProvider = new(Type, "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider));
 				}
 				return r_MParseExact_String_StringArray_IFormatProvider;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseExact_String_String_IFormatProvider_TimeSpanStyles == null)
 				{
-					r_MParseExact_String_String_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_MParseExact_String_String_IFormatProvider_TimeSpanStyles = new(Type, "ParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
 				}
 				return r_MParseExact_String_String_IFormatProvider_TimeSpanStyles;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles == null)
 				{
-					r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles = new(Type, "ParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
 				}
 				return r_MParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseExact_String_StringArray_IFormatProvider_TimeSpanStyles == null)
 				{
-					r_MParseExact_String_StringArray_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_MParseExact_String_StringArray_IFormatProvider_TimeSpanStyles = new(Type, "ParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
 				}
 				return r_MParseExact_String_StringArray_IFormatProvider_TimeSpanStyles;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles == null)
 				{
-					r_MParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles = new(typeof(System.TimeSpan), "ParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
+					r_MParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles = new(Type, "ParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles));
 				}
 				return r_MParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_Out_TimeSpan == null)
 				{
-					r_MTryParse_String_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.String), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParse_String_Out_TimeSpan = new(Type, "TryParse", 0, typeof(System.String), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParse_String_Out_TimeSpan;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_MTryParse_String_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0, typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParse_String_IFormatProvider_Out_TimeSpan = new(Type, "TryParse", 0, typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParse_String_IFormatProvider_Out_TimeSpan;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_String_String_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_String_String_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_String_String_IFormatProvider_Out_TimeSpan = new(Type, "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_String_String_IFormatProvider_Out_TimeSpan;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan = new(Type, "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan = new(Type, "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan = new(Type, "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(Type, "TryParseExact", 0, typeof(System.String), typeof(System.String), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(Type, "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(Type, "TryParseExact", 0, typeof(System.String), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan == null)
 				{
-					r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(typeof(System.TimeSpan), "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
+					r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan = new(Type, "TryParseExact", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String).MakeArrayType(), typeof(System.IFormatProvider), typeof(System.Globalization.TimeSpanStyles), typeof(System.TimeSpan).MakeByRefType());
 				}
 				return r_MTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_UnaryNegation_TimeSpan == null)
 				{
-					r_Mop_UnaryNegation_TimeSpan = new(typeof(System.TimeSpan), "op_UnaryNegation", 0, typeof(System.TimeSpan));
+					r_Mop_UnaryNegation_TimeSpan = new(Type, "op_UnaryNegation", 0, typeof(System.TimeSpan));
 				}
 				return r_Mop_UnaryNegation_TimeSpan;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Subtraction_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_Subtraction_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Subtraction", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_Subtraction_TimeSpan_TimeSpan = new(Type, "op_Subtraction", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_Subtraction_TimeSpan_TimeSpan;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_UnaryPlus_TimeSpan == null)
 				{
-					r_Mop_UnaryPlus_TimeSpan = new(typeof(System.TimeSpan), "op_UnaryPlus", 0, typeof(System.TimeSpan));
+					r_Mop_UnaryPlus_TimeSpan = new(Type, "op_UnaryPlus", 0, typeof(System.TimeSpan));
 				}
 				return r_Mop_UnaryPlus_TimeSpan;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Addition_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_Addition_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Addition", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_Addition_TimeSpan_TimeSpan = new(Type, "op_Addition", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_Addition_TimeSpan_TimeSpan;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Multiply_TimeSpan_Double == null)
 				{
-					r_Mop_Multiply_TimeSpan_Double = new(typeof(System.TimeSpan), "op_Multiply", 0, typeof(System.TimeSpan), typeof(System.Double));
+					r_Mop_Multiply_TimeSpan_Double = new(Type, "op_Multiply", 0, typeof(System.TimeSpan), typeof(System.Double));
 				}
 				return r_Mop_Multiply_TimeSpan_Double;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Multiply_Double_TimeSpan == null)
 				{
-					r_Mop_Multiply_Double_TimeSpan = new(typeof(System.TimeSpan), "op_Multiply", 0, typeof(System.Double), typeof(System.TimeSpan));
+					r_Mop_Multiply_Double_TimeSpan = new(Type, "op_Multiply", 0, typeof(System.Double), typeof(System.TimeSpan));
 				}
 				return r_Mop_Multiply_Double_TimeSpan;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Division_TimeSpan_Double == null)
 				{
-					r_Mop_Division_TimeSpan_Double = new(typeof(System.TimeSpan), "op_Division", 0, typeof(System.TimeSpan), typeof(System.Double));
+					r_Mop_Division_TimeSpan_Double = new(Type, "op_Division", 0, typeof(System.TimeSpan), typeof(System.Double));
 				}
 				return r_Mop_Division_TimeSpan_Double;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Division_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_Division_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Division", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_Division_TimeSpan_TimeSpan = new(Type, "op_Division", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_Division_TimeSpan_TimeSpan;
 			}
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_Equality_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Equality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_Equality_TimeSpan_TimeSpan = new(Type, "op_Equality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_Equality_TimeSpan_TimeSpan;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_Inequality_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_Inequality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_Inequality_TimeSpan_TimeSpan = new(Type, "op_Inequality", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_Inequality_TimeSpan_TimeSpan;
 			}
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThan_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_LessThan_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_LessThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_LessThan_TimeSpan_TimeSpan = new(Type, "op_LessThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_LessThan_TimeSpan_TimeSpan;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThanOrEqual_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_LessThanOrEqual_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_LessThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_LessThanOrEqual_TimeSpan_TimeSpan = new(Type, "op_LessThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_LessThanOrEqual_TimeSpan_TimeSpan;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThan_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_GreaterThan_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_GreaterThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_GreaterThan_TimeSpan_TimeSpan = new(Type, "op_GreaterThan", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_GreaterThan_TimeSpan_TimeSpan;
 			}
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThanOrEqual_TimeSpan_TimeSpan == null)
 				{
-					r_Mop_GreaterThanOrEqual_TimeSpan_TimeSpan = new(typeof(System.TimeSpan), "op_GreaterThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
+					r_Mop_GreaterThanOrEqual_TimeSpan_TimeSpan = new(Type, "op_GreaterThanOrEqual", 0, typeof(System.TimeSpan), typeof(System.TimeSpan));
 				}
 				return r_Mop_GreaterThanOrEqual_TimeSpan_TimeSpan;
 			}
@@ -1628,7 +1629,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@ts};
             var ___result = RMAdd_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1639,7 +1640,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMCompare_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1650,7 +1651,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1661,7 +1662,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1672,7 +1673,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMFromDays_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1683,7 +1684,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMDuration.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1705,7 +1706,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1716,7 +1717,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMEquals_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1727,7 +1728,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1738,7 +1739,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMFromHours_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1749,7 +1750,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value, @scale};
             var ___result = RMInterval_Double_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1760,7 +1761,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMFromMilliseconds_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1771,7 +1772,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMFromMinutes_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1782,7 +1783,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMNegate.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1793,7 +1794,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMFromSeconds_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1804,7 +1805,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@ts};
             var ___result = RMSubtract_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1815,7 +1816,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@factor};
             var ___result = RMMultiply_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1826,7 +1827,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@divisor};
             var ___result = RMDivide_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1837,7 +1838,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@ts};
             var ___result = RMDivide_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -1848,7 +1849,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMFromTicks_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1859,7 +1860,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@hour, @minute, @second};
             var ___result = RMTimeToTicks_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -1881,7 +1882,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s};
             var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1892,7 +1893,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input, @formatProvider};
             var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1903,7 +1904,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input.Value, @formatProvider};
             var ___result = RMParse_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1914,7 +1915,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input, @format, @formatProvider};
             var ___result = RMParseExact_String_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1925,7 +1926,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input, @formats, @formatProvider};
             var ___result = RMParseExact_String_StringArray_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1936,7 +1937,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input, @format, @formatProvider, @styles};
             var ___result = RMParseExact_String_String_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1947,7 +1948,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input.Value, @format.Value, @formatProvider, @styles};
             var ___result = RMParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1958,7 +1959,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input, @formats, @formatProvider, @styles};
             var ___result = RMParseExact_String_StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1969,7 +1970,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input.Value, @formats, @formatProvider, @styles};
             var ___result = RMParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -1982,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1995,7 +1996,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2008,7 +2009,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2021,7 +2022,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2034,7 +2035,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_String_String_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2047,7 +2048,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2060,7 +2061,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_String_StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2073,7 +2074,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2086,7 +2087,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_String_String_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[4];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2099,7 +2100,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__ReadOnlySpan_d_Char_p__IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[4];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2112,7 +2113,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_String_StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[4];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2125,7 +2126,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseExact_ReadOnlySpan_d_Char_p__StringArray_IFormatProvider_TimeSpanStyles_Out_TimeSpan.Invoke(___genericsType, ___parameters);
 			@result = (System.TimeSpan)___parameters[4];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2136,7 +2137,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2147,7 +2148,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2158,7 +2159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2171,7 +2172,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2182,7 +2183,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t};
             var ___result = RMop_UnaryNegation_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2193,7 +2194,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_Subtraction_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2204,7 +2205,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t};
             var ___result = RMop_UnaryPlus_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2215,7 +2216,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_Addition_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2226,7 +2227,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@timeSpan, @factor};
             var ___result = RMop_Multiply_TimeSpan_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2237,7 +2238,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@factor, @timeSpan};
             var ___result = RMop_Multiply_Double_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2248,7 +2249,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@timeSpan, @divisor};
             var ___result = RMop_Division_TimeSpan_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 
@@ -2259,7 +2260,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_Division_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -2270,7 +2271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_Equality_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2281,7 +2282,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_Inequality_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2292,7 +2293,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_LessThan_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2303,7 +2304,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_LessThanOrEqual_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2314,7 +2315,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_GreaterThan_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2325,7 +2326,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@t1, @t2};
             var ___result = RMop_GreaterThanOrEqual_TimeSpan_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2347,7 +2348,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2358,7 +2359,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.UpmCache
 	/// </summary>
     public partial class RUpmCache : RMember //
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_ == null)
 				{
-					r_MFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_ = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmCache"), "FindUpdatedPackageInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)),  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)));
+					r_MFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_ = new(Type, "FindUpdatedPackageInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)),  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)));
 				}
 				return r_MFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MIsDifferent_PackageInfo_PackageInfo == null)
 				{
-					r_MIsDifferent_PackageInfo_PackageInfo = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmCache"), "IsDifferent", 0, typeof(UnityEditor.PackageManager.PackageInfo), typeof(UnityEditor.PackageManager.PackageInfo));
+					r_MIsDifferent_PackageInfo_PackageInfo = new(Type, "IsDifferent", 0, typeof(UnityEditor.PackageManager.PackageInfo), typeof(UnityEditor.PackageManager.PackageInfo));
 				}
 				return r_MIsDifferent_PackageInfo_PackageInfo;
 			}
@@ -972,7 +973,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@oldInfos, @newInfos};
             var ___result = RMFindUpdatedPackageInfos_Dictionary_d_String_PackageInfo_p__Dictionary_d_String_PackageInfo_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>>(___result);
         }
 
 
@@ -983,7 +984,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@p1, @p2};
             var ___result = RMIsDifferent_PackageInfo_PackageInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -994,7 +995,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageUniqueId};
             var ___result = RMIsLoadAllVersions_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1060,7 +1061,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName};
             var ___result = RMGetExtraPackageInfos_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo>>(___result);
         }
 
 
@@ -1082,7 +1083,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName};
             var ___result = RMIsPackageInstalled_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1093,7 +1094,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName};
             var ___result = RMGetInstalledPackageInfo_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1104,7 +1105,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageId};
             var ___result = RMGetInstalledPackageInfoById_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1137,7 +1138,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName};
             var ___result = RMGetSearchPackageInfo_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1148,7 +1149,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName, @isInstalled, @version};
             var ___result = RMGetBestMatchPackageInfo_String_Boolean_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1170,7 +1171,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName};
             var ___result = RMGetProductSearchPackageInfo_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1203,7 +1204,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageInfo};
             var ___result = RMParseUpmReserved_PackageInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.Dictionary<System.String, System.Object>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, System.Object>>(___result);
         }
 
 
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageName};
             var ___result = RMGetProductIdByName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1225,7 +1226,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@productId};
             var ___result = RMGetNameByProductId_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1258,7 +1259,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@info};
             var ___result = RM__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1269,7 +1270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1291,7 +1292,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1302,7 +1303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1313,7 +1314,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1324,7 +1325,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

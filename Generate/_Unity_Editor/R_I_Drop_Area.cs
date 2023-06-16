@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.IDropArea
 	/// </summary>
     public partial class RIDropArea : RMember //
@@ -76,7 +77,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@w, @screenPos};
             var ___result = RMDragOver_EditorWindow_Vector2.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RDropInfo(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RDropInfo>(___result);
         }
 
 
@@ -87,7 +88,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@w, @dropInfo.Value, @screenPos};
             var ___result = RMPerformDrop_EditorWindow_DropInfo_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

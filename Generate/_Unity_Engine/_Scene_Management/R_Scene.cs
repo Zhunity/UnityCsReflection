@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.SceneManagement.Scene
 	/// </summary>
     public partial class RScene : RMember //
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MIsValidInternal_Int32 == null)
 				{
-					r_MIsValidInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "IsValidInternal", 0, typeof(System.Int32));
+					r_MIsValidInternal_Int32 = new(Type, "IsValidInternal", 0, typeof(System.Int32));
 				}
 				return r_MIsValidInternal_Int32;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetPathInternal_Int32 == null)
 				{
-					r_MGetPathInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetPathInternal", 0, typeof(System.Int32));
+					r_MGetPathInternal_Int32 = new(Type, "GetPathInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetPathInternal_Int32;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MSetPathAndGUIDInternal_Int32_String_String == null)
 				{
-					r_MSetPathAndGUIDInternal_Int32_String_String = new(typeof(UnityEngine.SceneManagement.Scene), "SetPathAndGUIDInternal", 0, typeof(System.Int32), typeof(System.String), typeof(System.String));
+					r_MSetPathAndGUIDInternal_Int32_String_String = new(Type, "SetPathAndGUIDInternal", 0, typeof(System.Int32), typeof(System.String), typeof(System.String));
 				}
 				return r_MSetPathAndGUIDInternal_Int32_String_String;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetNameInternal_Int32 == null)
 				{
-					r_MGetNameInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetNameInternal", 0, typeof(System.Int32));
+					r_MGetNameInternal_Int32 = new(Type, "GetNameInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetNameInternal_Int32;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MSetNameInternal_Int32_String == null)
 				{
-					r_MSetNameInternal_Int32_String = new(typeof(UnityEngine.SceneManagement.Scene), "SetNameInternal", 0, typeof(System.Int32), typeof(System.String));
+					r_MSetNameInternal_Int32_String = new(Type, "SetNameInternal", 0, typeof(System.Int32), typeof(System.String));
 				}
 				return r_MSetNameInternal_Int32_String;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetGUIDInternal_Int32 == null)
 				{
-					r_MGetGUIDInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetGUIDInternal", 0, typeof(System.Int32));
+					r_MGetGUIDInternal_Int32 = new(Type, "GetGUIDInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetGUIDInternal_Int32;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MIsSubScene_Int32 == null)
 				{
-					r_MIsSubScene_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "IsSubScene", 0, typeof(System.Int32));
+					r_MIsSubScene_Int32 = new(Type, "IsSubScene", 0, typeof(System.Int32));
 				}
 				return r_MIsSubScene_Int32;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MSetIsSubScene_Int32_Boolean == null)
 				{
-					r_MSetIsSubScene_Int32_Boolean = new(typeof(UnityEngine.SceneManagement.Scene), "SetIsSubScene", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_MSetIsSubScene_Int32_Boolean = new(Type, "SetIsSubScene", 0, typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MSetIsSubScene_Int32_Boolean;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetIsLoadedInternal_Int32 == null)
 				{
-					r_MGetIsLoadedInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetIsLoadedInternal", 0, typeof(System.Int32));
+					r_MGetIsLoadedInternal_Int32 = new(Type, "GetIsLoadedInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetIsLoadedInternal_Int32;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetLoadingStateInternal_Int32 == null)
 				{
-					r_MGetLoadingStateInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetLoadingStateInternal", 0, typeof(System.Int32));
+					r_MGetLoadingStateInternal_Int32 = new(Type, "GetLoadingStateInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetLoadingStateInternal_Int32;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetIsDirtyInternal_Int32 == null)
 				{
-					r_MGetIsDirtyInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetIsDirtyInternal", 0, typeof(System.Int32));
+					r_MGetIsDirtyInternal_Int32 = new(Type, "GetIsDirtyInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetIsDirtyInternal_Int32;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetDirtyID_Int32 == null)
 				{
-					r_MGetDirtyID_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetDirtyID", 0, typeof(System.Int32));
+					r_MGetDirtyID_Int32 = new(Type, "GetDirtyID", 0, typeof(System.Int32));
 				}
 				return r_MGetDirtyID_Int32;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetBuildIndexInternal_Int32 == null)
 				{
-					r_MGetBuildIndexInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetBuildIndexInternal", 0, typeof(System.Int32));
+					r_MGetBuildIndexInternal_Int32 = new(Type, "GetBuildIndexInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetBuildIndexInternal_Int32;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetRootCountInternal_Int32 == null)
 				{
-					r_MGetRootCountInternal_Int32 = new(typeof(UnityEngine.SceneManagement.Scene), "GetRootCountInternal", 0, typeof(System.Int32));
+					r_MGetRootCountInternal_Int32 = new(Type, "GetRootCountInternal", 0, typeof(System.Int32));
 				}
 				return r_MGetRootCountInternal_Int32;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_MGetRootGameObjectsInternal_Int32_Object == null)
 				{
-					r_MGetRootGameObjectsInternal_Int32_Object = new(typeof(UnityEngine.SceneManagement.Scene), "GetRootGameObjectsInternal", 0, typeof(System.Int32), typeof(System.Object));
+					r_MGetRootGameObjectsInternal_Int32_Object = new(Type, "GetRootGameObjectsInternal", 0, typeof(System.Int32), typeof(System.Object));
 				}
 				return r_MGetRootGameObjectsInternal_Int32_Object;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_Mop_Equality_Scene_Scene == null)
 				{
-					r_Mop_Equality_Scene_Scene = new(typeof(UnityEngine.SceneManagement.Scene), "op_Equality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
+					r_Mop_Equality_Scene_Scene = new(Type, "op_Equality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
 				}
 				return r_Mop_Equality_Scene_Scene;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 			{
 				if(r_Mop_Inequality_Scene_Scene == null)
 				{
-					r_Mop_Inequality_Scene_Scene = new(typeof(UnityEngine.SceneManagement.Scene), "op_Inequality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
+					r_Mop_Inequality_Scene_Scene = new(Type, "op_Inequality", 0, typeof(UnityEngine.SceneManagement.Scene), typeof(UnityEngine.SceneManagement.Scene));
 				}
 				return r_Mop_Inequality_Scene_Scene;
 			}
@@ -668,7 +669,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMIsValidInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -679,7 +680,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetPathInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -701,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetNameInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -723,7 +724,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetGUIDInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMIsSubScene_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -756,7 +757,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetIsLoadedInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -767,7 +768,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetLoadingStateInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement.RScene.RLoadingState>(___result);
         }
 
 
@@ -778,7 +779,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetIsDirtyInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -789,7 +790,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetDirtyID_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -800,7 +801,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetBuildIndexInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -811,7 +812,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@sceneHandle};
             var ___result = RMGetRootCountInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -833,7 +834,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{};
             var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -844,7 +845,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{};
             var ___result = RMGetRootGameObjects.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GameObject[])___result;
+            return ReflectionUtils.Convert<UnityEngine.GameObject[]>(___result);
         }
 
 
@@ -866,7 +867,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Scene_Scene.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -877,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Scene_Scene.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -888,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -899,7 +900,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -921,7 +922,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -943,7 +944,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -954,7 +955,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

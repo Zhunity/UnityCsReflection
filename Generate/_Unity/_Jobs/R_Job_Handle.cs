@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RJobs
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Unity.Jobs.JobHandle
 	/// </summary>
     public partial class RJobHandle : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCompleteAll_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_MCompleteAll_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCompleteAll_Ref_JobHandle_Ref_JobHandle = new(Type, "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCompleteAll_Ref_JobHandle_Ref_JobHandle;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_MCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(Type, "CompleteAll", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCompleteAll_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCompleteAll_NativeArray_d_JobHandle_p_ == null)
 				{
-					r_MCompleteAll_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CompleteAll", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_MCompleteAll_NativeArray_d_JobHandle_p_ = new(Type, "CompleteAll", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
 				}
 				return r_MCompleteAll_NativeArray_d_JobHandle_p_;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MScheduleBatchedJobs == null)
 				{
-					r_MScheduleBatchedJobs = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobs", 0);
+					r_MScheduleBatchedJobs = new(Type, "ScheduleBatchedJobs", 0);
 				}
 				return r_MScheduleBatchedJobs;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MScheduleBatchedJobsAndComplete_Ref_JobHandle == null)
 				{
-					r_MScheduleBatchedJobsAndComplete_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndComplete", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MScheduleBatchedJobsAndComplete_Ref_JobHandle = new(Type, "ScheduleBatchedJobsAndComplete", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MScheduleBatchedJobsAndComplete_Ref_JobHandle;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MScheduleBatchedJobsAndIsCompleted_Ref_JobHandle == null)
 				{
-					r_MScheduleBatchedJobsAndIsCompleted_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndIsCompleted", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MScheduleBatchedJobsAndIsCompleted_Ref_JobHandle = new(Type, "ScheduleBatchedJobsAndIsCompleted", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MScheduleBatchedJobsAndIsCompleted_Ref_JobHandle;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 == null)
 				{
-					r_MScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 = new(typeof(Unity.Jobs.JobHandle), "ScheduleBatchedJobsAndCompleteAll", 0, typeof(void).MakePointerType(), typeof(System.Int32));
+					r_MScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32 = new(Type, "ScheduleBatchedJobsAndCompleteAll", 0, typeof(void).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MScheduleBatchedJobsAndCompleteAll_VoidPointer_Int32;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependencies_JobHandle_JobHandle == null)
 				{
-					r_MCombineDependencies_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_MCombineDependencies_JobHandle_JobHandle = new(Type, "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
 				}
 				return r_MCombineDependencies_JobHandle_JobHandle;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependencies_JobHandle_JobHandle_JobHandle == null)
 				{
-					r_MCombineDependencies_JobHandle_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_MCombineDependencies_JobHandle_JobHandle_JobHandle = new(Type, "CombineDependencies", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
 				}
 				return r_MCombineDependencies_JobHandle_JobHandle_JobHandle;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependencies_NativeArray_d_JobHandle_p_ == null)
 				{
-					r_MCombineDependencies_NativeArray_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_MCombineDependencies_NativeArray_d_JobHandle_p_ = new(Type, "CombineDependencies", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
 				}
 				return r_MCombineDependencies_NativeArray_d_JobHandle_p_;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependencies_NativeSlice_d_JobHandle_p_ == null)
 				{
-					r_MCombineDependencies_NativeSlice_d_JobHandle_p_ = new(typeof(Unity.Jobs.JobHandle), "CombineDependencies", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
+					r_MCombineDependencies_NativeSlice_d_JobHandle_p_ = new(Type, "CombineDependencies", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(Unity.Jobs.JobHandle)));
 				}
 				return r_MCombineDependencies_NativeSlice_d_JobHandle_p_;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_MCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal2", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle = new(Type, "CombineDependenciesInternal2", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCombineDependenciesInternal2_Ref_JobHandle_Ref_JobHandle;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_MCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal3", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle = new(Type, "CombineDependenciesInternal3", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCombineDependenciesInternal3_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependenciesInternalPtr_VoidPointer_Int32 == null)
 				{
-					r_MCombineDependenciesInternalPtr_VoidPointer_Int32 = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternalPtr", 0, typeof(void).MakePointerType(), typeof(System.Int32));
+					r_MCombineDependenciesInternalPtr_VoidPointer_Int32 = new(Type, "CombineDependenciesInternalPtr", 0, typeof(void).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MCombineDependenciesInternalPtr_VoidPointer_Int32;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle == null)
 				{
-					r_MCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CheckFenceIsDependencyOrDidSyncFence", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_MCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle = new(Type, "CheckFenceIsDependencyOrDidSyncFence", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
 				}
 				return r_MCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_Mop_Equality_JobHandle_JobHandle == null)
 				{
-					r_Mop_Equality_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "op_Equality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_Mop_Equality_JobHandle_JobHandle = new(Type, "op_Equality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
 				}
 				return r_Mop_Equality_JobHandle_JobHandle;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_Mop_Inequality_JobHandle_JobHandle == null)
 				{
-					r_Mop_Inequality_JobHandle_JobHandle = new(typeof(Unity.Jobs.JobHandle), "op_Inequality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
+					r_Mop_Inequality_JobHandle_JobHandle = new(Type, "op_Inequality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
 				}
 				return r_Mop_Inequality_JobHandle_JobHandle;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle == null)
 				{
-					r_MCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal2_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(Type, "CombineDependenciesInternal2_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle == null)
 				{
-					r_MCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternal3_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle = new(Type, "CombineDependenciesInternal3_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCombineDependenciesInternal3_Injected_Ref_JobHandle_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle == null)
 				{
-					r_MCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CombineDependenciesInternalPtr_Injected", 0, typeof(void).MakePointerType(), typeof(System.Int32), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle = new(Type, "CombineDependenciesInternalPtr_Injected", 0, typeof(void).MakePointerType(), typeof(System.Int32), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCombineDependenciesInternalPtr_Injected_VoidPointer_Int32_Out_JobHandle;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			{
 				if(r_MCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle == null)
 				{
-					r_MCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle = new(typeof(Unity.Jobs.JobHandle), "CheckFenceIsDependencyOrDidSyncFence_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
+					r_MCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle = new(Type, "CheckFenceIsDependencyOrDidSyncFence_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle;
 			}
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___result = RMScheduleBatchedJobsAndIsCompleted_Ref_JobHandle.Invoke(___genericsType, ___parameters);
 			@job = (Unity.Jobs.JobHandle)___parameters[0];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -683,7 +684,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@job0, @job1};
             var ___result = RMCombineDependencies_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -694,7 +695,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@job0, @job1, @job2};
             var ___result = RMCombineDependencies_JobHandle_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -705,7 +706,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@jobs.Value};
             var ___result = RMCombineDependencies_NativeArray_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -716,7 +717,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@jobs.Value};
             var ___result = RMCombineDependencies_NativeSlice_d_JobHandle_p_.Invoke(___genericsType, ___parameters);
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -729,7 +730,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			@job0 = (Unity.Jobs.JobHandle)___parameters[0];
 			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -743,7 +744,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			@job1 = (Unity.Jobs.JobHandle)___parameters[1];
 			@job2 = (Unity.Jobs.JobHandle)___parameters[2];
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{Pointer.Box(@jobs, typeof(void)), @count};
             var ___result = RMCombineDependenciesInternalPtr_VoidPointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return (Unity.Jobs.JobHandle)___result;
+            return ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@jobHandle, @dependsOn};
             var ___result = RMCheckFenceIsDependencyOrDidSyncFence_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -776,7 +777,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -787,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Equality_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -809,7 +810,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Inequality_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -820,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -877,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			@jobHandle = (Unity.Jobs.JobHandle)___parameters[0];
 			@dependsOn = (Unity.Jobs.JobHandle)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -888,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -921,7 +922,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

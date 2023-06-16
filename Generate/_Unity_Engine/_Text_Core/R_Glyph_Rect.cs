@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.GlyphRect
 	/// </summary>
     public partial class RGlyphRect : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			{
 				if(r_Fs_ZeroGlyphRect == null)
 				{
-					r_Fs_ZeroGlyphRect = new(typeof(UnityEngine.TextCore.GlyphRect), "s_ZeroGlyphRect");
+					r_Fs_ZeroGlyphRect = new(Type, "s_ZeroGlyphRect");
 				}
 				return r_Fs_ZeroGlyphRect;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			{
 				if(r_Pzero == null)
 				{
-					r_Pzero = new(typeof(UnityEngine.TextCore.GlyphRect), "zero", -1);
+					r_Pzero = new(Type, "zero", -1);
 				}
 				return r_Pzero;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			{
 				if(r_Mop_Equality_GlyphRect_GlyphRect == null)
 				{
-					r_Mop_Equality_GlyphRect_GlyphRect = new(typeof(UnityEngine.TextCore.GlyphRect), "op_Equality", 0, typeof(UnityEngine.TextCore.GlyphRect), typeof(UnityEngine.TextCore.GlyphRect));
+					r_Mop_Equality_GlyphRect_GlyphRect = new(Type, "op_Equality", 0, typeof(UnityEngine.TextCore.GlyphRect), typeof(UnityEngine.TextCore.GlyphRect));
 				}
 				return r_Mop_Equality_GlyphRect_GlyphRect;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 			{
 				if(r_Mop_Inequality_GlyphRect_GlyphRect == null)
 				{
-					r_Mop_Inequality_GlyphRect_GlyphRect = new(typeof(UnityEngine.TextCore.GlyphRect), "op_Inequality", 0, typeof(UnityEngine.TextCore.GlyphRect), typeof(UnityEngine.TextCore.GlyphRect));
+					r_Mop_Inequality_GlyphRect_GlyphRect = new(Type, "op_Inequality", 0, typeof(UnityEngine.TextCore.GlyphRect), typeof(UnityEngine.TextCore.GlyphRect));
 				}
 				return r_Mop_Inequality_GlyphRect_GlyphRect;
 			}
@@ -348,7 +349,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -359,7 +360,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -370,7 +371,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_GlyphRect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -381,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_GlyphRect_GlyphRect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -392,7 +393,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_GlyphRect_GlyphRect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -403,7 +404,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -425,7 +426,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -436,7 +437,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

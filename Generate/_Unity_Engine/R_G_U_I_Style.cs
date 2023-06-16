@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.GUIStyle
 	/// </summary>
     public partial class RGUIStyle : RMember //
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FonDraw == null)
 				{
-					r_FonDraw = new(typeof(UnityEngine.GUIStyle), "onDraw");
+					r_FonDraw = new(Type, "onDraw");
 				}
 				return r_FonDraw;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FshowKeyboardFocus == null)
 				{
-					r_FshowKeyboardFocus = new(typeof(UnityEngine.GUIStyle), "showKeyboardFocus");
+					r_FshowKeyboardFocus = new(Type, "showKeyboardFocus");
 				}
 				return r_FshowKeyboardFocus;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_None == null)
 				{
-					r_Fs_None = new(typeof(UnityEngine.GUIStyle), "s_None");
+					r_Fs_None = new(Type, "s_None");
 				}
 				return r_Fs_None;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pnone == null)
 				{
-					r_Pnone = new(typeof(UnityEngine.GUIStyle), "none", -1);
+					r_Pnone = new(Type, "none", -1);
 				}
 				return r_Pnone;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Create_GUIStyle == null)
 				{
-					r_MInternal_Create_GUIStyle = new(typeof(UnityEngine.GUIStyle), "Internal_Create", 0, typeof(UnityEngine.GUIStyle));
+					r_MInternal_Create_GUIStyle = new(Type, "Internal_Create", 0, typeof(UnityEngine.GUIStyle));
 				}
 				return r_MInternal_Create_GUIStyle;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Copy_GUIStyle_GUIStyle == null)
 				{
-					r_MInternal_Copy_GUIStyle_GUIStyle = new(typeof(UnityEngine.GUIStyle), "Internal_Copy", 0, typeof(UnityEngine.GUIStyle), typeof(UnityEngine.GUIStyle));
+					r_MInternal_Copy_GUIStyle_GUIStyle = new(Type, "Internal_Copy", 0, typeof(UnityEngine.GUIStyle), typeof(UnityEngine.GUIStyle));
 				}
 				return r_MInternal_Copy_GUIStyle_GUIStyle;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Destroy_IntPtr == null)
 				{
-					r_MInternal_Destroy_IntPtr = new(typeof(UnityEngine.GUIStyle), "Internal_Destroy", 0, typeof(System.IntPtr));
+					r_MInternal_Destroy_IntPtr = new(Type, "Internal_Destroy", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_Destroy_IntPtr;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_GetLineHeight_IntPtr == null)
 				{
-					r_MInternal_GetLineHeight_IntPtr = new(typeof(UnityEngine.GUIStyle), "Internal_GetLineHeight", 0, typeof(System.IntPtr));
+					r_MInternal_GetLineHeight_IntPtr = new(Type, "Internal_GetLineHeight", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_GetLineHeight_IntPtr;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetMouseTooltip_String_Rect == null)
 				{
-					r_MSetMouseTooltip_String_Rect = new(typeof(UnityEngine.GUIStyle), "SetMouseTooltip", 0, typeof(System.String), typeof(UnityEngine.Rect));
+					r_MSetMouseTooltip_String_Rect = new(Type, "SetMouseTooltip", 0, typeof(System.String), typeof(UnityEngine.Rect));
 				}
 				return r_MSetMouseTooltip_String_Rect;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsTooltipActive_String == null)
 				{
-					r_MIsTooltipActive_String = new(typeof(UnityEngine.GUIStyle), "IsTooltipActive", 0, typeof(System.String));
+					r_MIsTooltipActive_String = new(Type, "IsTooltipActive", 0, typeof(System.String));
 				}
 				return r_MIsTooltipActive_String;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_GetCursorFlashOffset == null)
 				{
-					r_MInternal_GetCursorFlashOffset = new(typeof(UnityEngine.GUIStyle), "Internal_GetCursorFlashOffset", 0);
+					r_MInternal_GetCursorFlashOffset = new(Type, "Internal_GetCursorFlashOffset", 0);
 				}
 				return r_MInternal_GetCursorFlashOffset;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetDefaultFont_Font == null)
 				{
-					r_MSetDefaultFont_Font = new(typeof(UnityEngine.GUIStyle), "SetDefaultFont", 0, typeof(UnityEngine.Font));
+					r_MSetDefaultFont_Font = new(Type, "SetDefaultFont", 0, typeof(UnityEngine.Font));
 				}
 				return r_MSetDefaultFont_Font;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCleanupRoots == null)
 				{
-					r_MCleanupRoots = new(typeof(UnityEngine.GUIStyle), "CleanupRoots", 0);
+					r_MCleanupRoots = new(Type, "CleanupRoots", 0);
 				}
 				return r_MCleanupRoots;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_String == null)
 				{
-					r_Mop_Implicit_String = new(typeof(UnityEngine.GUIStyle), "op_Implicit", 0, typeof(System.String));
+					r_Mop_Implicit_String = new(Type, "op_Implicit", 0, typeof(System.String));
 				}
 				return r_Mop_Implicit_String;
 			}
@@ -1998,7 +1999,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetMouseTooltip_Injected_String_Ref_Rect == null)
 				{
-					r_MSetMouseTooltip_Injected_String_Ref_Rect = new(typeof(UnityEngine.GUIStyle), "SetMouseTooltip_Injected", 0, typeof(System.String), typeof(UnityEngine.Rect).MakeByRefType());
+					r_MSetMouseTooltip_Injected_String_Ref_Rect = new(Type, "SetMouseTooltip_Injected", 0, typeof(System.String), typeof(UnityEngine.Rect).MakeByRefType());
 				}
 				return r_MSetMouseTooltip_Injected_String_Ref_Rect;
 			}
@@ -2076,7 +2077,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self};
             var ___result = RMInternal_Create_GUIStyle.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -2087,7 +2088,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@self, @other};
             var ___result = RMInternal_Copy_GUIStyle_GUIStyle.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -2109,7 +2110,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@idx};
             var ___result = RMGetStyleStatePtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -2131,7 +2132,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@idx};
             var ___result = RMGetRectOffsetPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -2153,7 +2154,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@target};
             var ___result = RMInternal_GetLineHeight_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2208,7 +2209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@position, @content, @cursorStringIndex};
             var ___result = RMInternal_GetCursorPixelPosition_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2219,7 +2220,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
             var ___result = RMInternal_GetCursorStringIndex_Rect_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2230,7 +2231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@localPosition, @mContent, @selectIndex, @cursorIndex};
             var ___result = RMInternal_GetSelectedRenderedText_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2241,7 +2242,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@localPosition, @mContent};
             var ___result = RMInternal_GetHyperlinksRect_Rect_GUIContent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
         }
 
 
@@ -2252,7 +2253,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @width};
             var ___result = RMInternal_GetNumCharactersThatFitWithinWidth_String_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2263,7 +2264,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content};
             var ___result = RMInternal_CalcSize_GUIContent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2274,7 +2275,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content, @maxSize};
             var ___result = RMInternal_CalcSizeWithConstraints_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2285,7 +2286,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content, @width};
             var ___result = RMInternal_CalcHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2296,7 +2297,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content};
             var ___result = RMInternal_CalcMinMaxWidth_GUIContent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2340,7 +2341,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@tooltip};
             var ___result = RMIsTooltipActive_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2351,7 +2352,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMInternal_GetCursorFlashOffset.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2549,7 +2550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@str};
             var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIStyle)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIStyle>(___result);
         }
 
 
@@ -2560,7 +2561,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@position, @content, @cursorStringIndex};
             var ___result = RMGetCursorPixelPosition_Rect_GUIContent_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2571,7 +2572,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@position, @content, @cursorPixelPosition};
             var ___result = RMGetCursorStringIndex_Rect_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2582,7 +2583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @width};
             var ___result = RMGetNumCharactersThatFitWithinWidth_String_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2593,7 +2594,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content};
             var ___result = RMCalcSize_GUIContent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2604,7 +2605,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content, @constraints};
             var ___result = RMCalcSizeWithConstraints_GUIContent_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2615,7 +2616,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@contentSize};
             var ___result = RMCalcScreenSize_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2626,7 +2627,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@content, @width};
             var ___result = RMCalcHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2652,7 +2653,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2805,7 +2806,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@position = (UnityEngine.Rect)___parameters[0];
 			@cursorPixelPosition = (UnityEngine.Vector2)___parameters[2];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2817,7 +2818,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMInternal_GetSelectedRenderedText_Injected_Ref_Rect_GUIContent_Int32_Int32.Invoke(___genericsType, ___parameters);
 			@localPosition = (UnityEngine.Rect)___parameters[0];
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2829,7 +2830,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMInternal_GetHyperlinksRect_Injected_Ref_Rect_GUIContent.Invoke(___genericsType, ___parameters);
 			@localPosition = (UnityEngine.Rect)___parameters[0];
 
-            return (UnityEngine.Rect[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect[]>(___result);
         }
 
 
@@ -2919,7 +2920,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2930,7 +2931,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2941,7 +2942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2952,7 +2953,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

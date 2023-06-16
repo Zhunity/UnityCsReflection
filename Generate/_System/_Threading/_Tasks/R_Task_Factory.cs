@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.TaskFactory
 	/// </summary>
     public partial class RTaskFactory : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCheckCreationOptions_TaskCreationOptions == null)
 				{
-					r_MCheckCreationOptions_TaskCreationOptions = new(typeof(System.Threading.Tasks.TaskFactory), "CheckCreationOptions", 0, typeof(System.Threading.Tasks.TaskCreationOptions));
+					r_MCheckCreationOptions_TaskCreationOptions = new(Type, "CheckCreationOptions", 0, typeof(System.Threading.Tasks.TaskCreationOptions));
 				}
 				return r_MCheckCreationOptions_TaskCreationOptions;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCheckFromAsyncOptions_TaskCreationOptions_Boolean == null)
 				{
-					r_MCheckFromAsyncOptions_TaskCreationOptions_Boolean = new(typeof(System.Threading.Tasks.TaskFactory), "CheckFromAsyncOptions", 0, typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Boolean));
+					r_MCheckFromAsyncOptions_TaskCreationOptions_Boolean = new(Type, "CheckFromAsyncOptions", 0, typeof(System.Threading.Tasks.TaskCreationOptions), typeof(System.Boolean));
 				}
 				return r_MCheckFromAsyncOptions_TaskCreationOptions_Boolean;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCommonCWAllLogic_TaskArray == null)
 				{
-					r_MCommonCWAllLogic_TaskArray = new(typeof(System.Threading.Tasks.TaskFactory), "CommonCWAllLogic", 0, typeof(System.Threading.Tasks.Task).MakeArrayType());
+					r_MCommonCWAllLogic_TaskArray = new(Type, "CommonCWAllLogic", 0, typeof(System.Threading.Tasks.Task).MakeArrayType());
 				}
 				return r_MCommonCWAllLogic_TaskArray;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCommonCWAllLogic_GT_Task_d_T_p_Array == null)
 				{
-					r_MCommonCWAllLogic_GT_Task_d_T_p_Array = new(typeof(System.Threading.Tasks.TaskFactory), "CommonCWAllLogic", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType());
+					r_MCommonCWAllLogic_GT_Task_d_T_p_Array = new(Type, "CommonCWAllLogic", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType());
 				}
 				return r_MCommonCWAllLogic_GT_Task_d_T_p_Array;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCommonCWAnyLogic_IList_d_Task_p_ == null)
 				{
-					r_MCommonCWAnyLogic_IList_d_Task_p_ = new(typeof(System.Threading.Tasks.TaskFactory), "CommonCWAnyLogic", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType(typeof(System.Threading.Tasks.Task)));
+					r_MCommonCWAnyLogic_IList_d_Task_p_ = new(Type, "CommonCWAnyLogic", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType(typeof(System.Threading.Tasks.Task)));
 				}
 				return r_MCommonCWAnyLogic_IList_d_Task_p_;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCheckMultiContinuationTasksAndCopy_TaskArray == null)
 				{
-					r_MCheckMultiContinuationTasksAndCopy_TaskArray = new(typeof(System.Threading.Tasks.TaskFactory), "CheckMultiContinuationTasksAndCopy", 0, typeof(System.Threading.Tasks.Task).MakeArrayType());
+					r_MCheckMultiContinuationTasksAndCopy_TaskArray = new(Type, "CheckMultiContinuationTasksAndCopy", 0, typeof(System.Threading.Tasks.Task).MakeArrayType());
 				}
 				return r_MCheckMultiContinuationTasksAndCopy_TaskArray;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array == null)
 				{
-					r_MCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array = new(typeof(System.Threading.Tasks.TaskFactory), "CheckMultiContinuationTasksAndCopy", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType());
+					r_MCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array = new(Type, "CheckMultiContinuationTasksAndCopy", 1,  ReflectionUtils.GetType("System.Threading.Tasks.Task`1").MakeGenericType(Type.MakeGenericMethodParameter(0)).MakeArrayType());
 				}
 				return r_MCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_MCheckMultiTaskContinuationOptions_TaskContinuationOptions == null)
 				{
-					r_MCheckMultiTaskContinuationOptions_TaskContinuationOptions = new(typeof(System.Threading.Tasks.TaskFactory), "CheckMultiTaskContinuationOptions", 0, typeof(System.Threading.Tasks.TaskContinuationOptions));
+					r_MCheckMultiTaskContinuationOptions_TaskContinuationOptions = new(Type, "CheckMultiTaskContinuationOptions", 0, typeof(System.Threading.Tasks.TaskContinuationOptions));
 				}
 				return r_MCheckMultiTaskContinuationOptions_TaskContinuationOptions;
 			}
@@ -1564,7 +1565,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@currTask};
             var ___result = RMGetDefaultScheduler_Task.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.TaskScheduler)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.TaskScheduler>(___result);
         }
 
 
@@ -1586,7 +1587,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action};
             var ___result = RMStartNew_Action.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1597,7 +1598,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @cancellationToken};
             var ___result = RMStartNew_Action_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1608,7 +1609,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @creationOptions};
             var ___result = RMStartNew_Action_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1619,7 +1620,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @scheduler};
             var ___result = RMStartNew_Action_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @cancellationToken, @creationOptions, @internalOptions.Value, @scheduler};
             var ___result = RMStartNew_Action_CancellationToken_TaskCreationOptions_InternalTaskOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1641,7 +1642,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @state};
             var ___result = RMStartNew_Action_d_Object_p__Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1652,7 +1653,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @state, @cancellationToken};
             var ___result = RMStartNew_Action_d_Object_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1663,7 +1664,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @state, @creationOptions};
             var ___result = RMStartNew_Action_d_Object_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1674,7 +1675,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@action, @state, @cancellationToken, @creationOptions, @scheduler};
             var ___result = RMStartNew_Action_d_Object_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1685,7 +1686,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function};
             var ___result = RMStartNew_GTResult_Func_d_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1696,7 +1697,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @cancellationToken};
             var ___result = RMStartNew_GTResult_Func_d_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1707,7 +1708,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @creationOptions};
             var ___result = RMStartNew_GTResult_Func_d_TResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1718,7 +1719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @cancellationToken, @creationOptions, @scheduler};
             var ___result = RMStartNew_GTResult_Func_d_TResult_p__CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1729,7 +1730,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @state};
             var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1740,7 +1741,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @state, @cancellationToken};
             var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1751,7 +1752,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @state, @creationOptions};
             var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1762,7 +1763,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@function, @state, @cancellationToken, @creationOptions, @scheduler};
             var ___result = RMStartNew_GTResult_Func_d_Object_TResult_p__Object_CancellationToken_TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1773,7 +1774,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@asyncResult, @endMethod};
             var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1784,7 +1785,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions};
             var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1795,7 +1796,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions, @scheduler};
             var ___result = RMFromAsync_IAsyncResult_Action_d_IAsyncResult_p__TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1806,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @state};
             var ___result = RMFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1817,7 +1818,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @state, @creationOptions};
             var ___result = RMFromAsync_Func_d_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1828,7 +1829,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state};
             var ___result = RMFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1839,7 +1840,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state, @creationOptions};
             var ___result = RMFromAsync_GTArg1_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1850,7 +1851,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state};
             var ___result = RMFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1861,7 +1862,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state, @creationOptions};
             var ___result = RMFromAsync_GTArg1_GTArg2_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1872,7 +1873,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state};
             var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1883,7 +1884,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state, @creationOptions};
             var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Action_d_IAsyncResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -1894,7 +1895,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@asyncResult, @endMethod};
             var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1905,7 +1906,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions};
             var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1916,7 +1917,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@asyncResult, @endMethod, @creationOptions, @scheduler};
             var ___result = RMFromAsync_GTResult_IAsyncResult_Func_d_IAsyncResult_TResult_p__TaskCreationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1927,7 +1928,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @state};
             var ___result = RMFromAsync_GTResult_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1938,7 +1939,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @state, @creationOptions};
             var ___result = RMFromAsync_GTResult_Func_d_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1949,7 +1950,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state};
             var ___result = RMFromAsync_GTArg1_GTResult_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1960,7 +1961,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @state, @creationOptions};
             var ___result = RMFromAsync_GTArg1_GTResult_Func_d_TArg1_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1971,7 +1972,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state};
             var ___result = RMFromAsync_GTArg1_GTArg2_GTResult_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1982,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @state, @creationOptions};
             var ___result = RMFromAsync_GTArg1_GTArg2_GTResult_Func_d_TArg1_TArg2_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -1993,7 +1994,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state};
             var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_GTResult_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2004,7 +2005,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@beginMethod, @endMethod, @arg1, @arg2, @arg3, @state, @creationOptions};
             var ___result = RMFromAsync_GTArg1_GTArg2_GTArg3_GTResult_Func_d_TArg1_TArg2_TArg3_AsyncCallback_Object_IAsyncResult_p__Func_d_IAsyncResult_TResult_p__TArg1_TArg2_TArg3_Object_TaskCreationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2026,7 +2027,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasksCopy};
             var ___result = RMCommonCWAllLogic_TaskArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Threading.Tasks.Task[]>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task[]>>(___result);
         }
 
 
@@ -2037,7 +2038,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasksCopy};
             var ___result = RMCommonCWAllLogic_GT_Task_d_T_p_Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task<T>[]>>(___result);
         }
 
 
@@ -2048,7 +2049,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction};
             var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2059,7 +2060,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
             var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2070,7 +2071,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
             var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2081,7 +2082,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAll_TaskArray_Action_d_TaskArray_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2092,7 +2093,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction};
             var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2103,7 +2104,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
             var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2114,7 +2115,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
             var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2125,7 +2126,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAll_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p_Array_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2136,7 +2137,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction};
             var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2147,7 +2148,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
             var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2158,7 +2159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
             var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2169,7 +2170,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAll_GTResult_TaskArray_Func_d_TaskArray_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2180,7 +2181,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction};
             var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2191,7 +2192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
             var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2202,7 +2203,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
             var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2213,7 +2214,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAll_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p_Array_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2224,7 +2225,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks};
             var ___result = RMCommonCWAnyLogic_IList_d_Task_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<System.Threading.Tasks.Task>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<System.Threading.Tasks.Task>>(___result);
         }
 
 
@@ -2235,7 +2236,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction};
             var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2246,7 +2247,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
             var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2257,7 +2258,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
             var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2268,7 +2269,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAny_TaskArray_Action_d_Task_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2279,7 +2280,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction};
             var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2290,7 +2291,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
             var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2301,7 +2302,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
             var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2312,7 +2313,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAny_GTResult_TaskArray_Func_d_Task_TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2323,7 +2324,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction};
             var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken};
             var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2345,7 +2346,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @continuationOptions};
             var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2356,7 +2357,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationFunction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAny_GTAntecedentResult_GTResult_Task_d_TAntecedentResult_p_Array_Func_d_Task_d_TAntecedentResult_p__TResult_p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -2367,7 +2368,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction};
             var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2378,7 +2379,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken};
             var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__CancellationToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2389,7 +2390,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @continuationOptions};
             var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__TaskContinuationOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2400,7 +2401,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks, @continuationAction, @cancellationToken, @continuationOptions, @scheduler};
             var ___result = RMContinueWhenAny_GTAntecedentResult_Task_d_TAntecedentResult_p_Array_Action_d_Task_d_TAntecedentResult_p__p__CancellationToken_TaskContinuationOptions_TaskScheduler.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task>(___result);
         }
 
 
@@ -2411,7 +2412,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks};
             var ___result = RMCheckMultiContinuationTasksAndCopy_TaskArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task[])___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task[]>(___result);
         }
 
 
@@ -2422,7 +2423,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@tasks};
             var ___result = RMCheckMultiContinuationTasksAndCopy_GTResult_Task_d_TResult_p_Array.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>[])___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>[]>(___result);
         }
 
 
@@ -2444,7 +2445,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2466,7 +2467,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2477,7 +2478,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2488,7 +2489,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2499,7 +2500,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

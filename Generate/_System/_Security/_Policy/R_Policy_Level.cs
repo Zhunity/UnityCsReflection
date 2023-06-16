@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Policy.PolicyLevel
 	/// </summary>
     public partial class RPolicyLevel : RMember //
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 			{
 				if(r_MCreateAppDomainLevel == null)
 				{
-					r_MCreateAppDomainLevel = new(typeof(System.Security.Policy.PolicyLevel), "CreateAppDomainLevel", 0);
+					r_MCreateAppDomainLevel = new(Type, "CreateAppDomainLevel", 0);
 				}
 				return r_MCreateAppDomainLevel;
 			}
@@ -786,7 +787,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@xml};
             var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.SecurityElement)___result;
+            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
         }
 
 
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@name, @pSet};
             var ___result = RMChangeNamedPermissionSet_String_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.NamedPermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
         }
 
 
@@ -841,7 +842,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMCreateAppDomainLevel.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.PolicyLevel)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.PolicyLevel>(___result);
         }
 
 
@@ -863,7 +864,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@name};
             var ___result = RMGetNamedPermissionSet_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.NamedPermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
         }
 
 
@@ -907,7 +908,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@permSet};
             var ___result = RMRemoveNamedPermissionSet_NamedPermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.NamedPermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
         }
 
 
@@ -918,7 +919,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@name};
             var ___result = RMRemoveNamedPermissionSet_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.NamedPermissionSet)___result;
+            return ReflectionUtils.Convert<System.Security.NamedPermissionSet>(___result);
         }
 
 
@@ -940,7 +941,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@evidence};
             var ___result = RMResolve_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.PolicyStatement)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.PolicyStatement>(___result);
         }
 
 
@@ -951,7 +952,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@evidence};
             var ___result = RMResolveMatchingCodeGroups_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.CodeGroup)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.CodeGroup>(___result);
         }
 
 
@@ -962,7 +963,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMToXml.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.SecurityElement)___result;
+            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
         }
 
 
@@ -1017,7 +1018,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@className};
             var ___result = RMResolveClassName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1028,7 +1029,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@a};
             var ___result = RMIsFullTrustAssembly_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1039,7 +1040,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1061,7 +1062,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1072,7 +1073,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1083,7 +1084,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1094,7 +1095,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

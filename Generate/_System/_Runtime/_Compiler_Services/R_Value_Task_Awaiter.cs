@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.CompilerServices.ValueTaskAwaiter
 	/// </summary>
     public partial class RValueTaskAwaiter : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_Fs_invokeActionDelegate == null)
 				{
-					r_Fs_invokeActionDelegate = new(typeof(System.Runtime.CompilerServices.ValueTaskAwaiter), "s_invokeActionDelegate");
+					r_Fs_invokeActionDelegate = new(Type, "s_invokeActionDelegate");
 				}
 				return r_Fs_invokeActionDelegate;
 			}
@@ -269,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -280,7 +281,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -291,7 +292,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -313,7 +314,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -324,7 +325,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

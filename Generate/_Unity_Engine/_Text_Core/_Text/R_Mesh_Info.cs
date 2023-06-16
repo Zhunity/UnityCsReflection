@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.MeshInfo
 	/// </summary>
     public partial class RMeshInfo : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_DefaultColor == null)
 				{
-					r_Fk_DefaultColor = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultColor");
+					r_Fk_DefaultColor = new(Type, "k_DefaultColor");
 				}
 				return r_Fk_DefaultColor;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_DefaultNormal == null)
 				{
-					r_Fk_DefaultNormal = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultNormal");
+					r_Fk_DefaultNormal = new(Type, "k_DefaultNormal");
 				}
 				return r_Fk_DefaultNormal;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_DefaultTangent == null)
 				{
-					r_Fk_DefaultTangent = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultTangent");
+					r_Fk_DefaultTangent = new(Type, "k_DefaultTangent");
 				}
 				return r_Fk_DefaultTangent;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_DefaultBounds == null)
 				{
-					r_Fk_DefaultBounds = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.MeshInfo"), "k_DefaultBounds");
+					r_Fk_DefaultBounds = new(Type, "k_DefaultBounds");
 				}
 				return r_Fk_DefaultBounds;
 			}
@@ -553,7 +554,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -564,7 +565,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -575,7 +576,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -597,7 +598,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -608,7 +609,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

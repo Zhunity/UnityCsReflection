@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.DateTimeStyles
 	/// </summary>
     public partial class RDateTimeStyles : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(System.Globalization.DateTimeStyles), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAllowLeadingWhite == null)
 				{
-					r_FAllowLeadingWhite = new(typeof(System.Globalization.DateTimeStyles), "AllowLeadingWhite");
+					r_FAllowLeadingWhite = new(Type, "AllowLeadingWhite");
 				}
 				return r_FAllowLeadingWhite;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAllowTrailingWhite == null)
 				{
-					r_FAllowTrailingWhite = new(typeof(System.Globalization.DateTimeStyles), "AllowTrailingWhite");
+					r_FAllowTrailingWhite = new(Type, "AllowTrailingWhite");
 				}
 				return r_FAllowTrailingWhite;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAllowInnerWhite == null)
 				{
-					r_FAllowInnerWhite = new(typeof(System.Globalization.DateTimeStyles), "AllowInnerWhite");
+					r_FAllowInnerWhite = new(Type, "AllowInnerWhite");
 				}
 				return r_FAllowInnerWhite;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAllowWhiteSpaces == null)
 				{
-					r_FAllowWhiteSpaces = new(typeof(System.Globalization.DateTimeStyles), "AllowWhiteSpaces");
+					r_FAllowWhiteSpaces = new(Type, "AllowWhiteSpaces");
 				}
 				return r_FAllowWhiteSpaces;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FNoCurrentDateDefault == null)
 				{
-					r_FNoCurrentDateDefault = new(typeof(System.Globalization.DateTimeStyles), "NoCurrentDateDefault");
+					r_FNoCurrentDateDefault = new(Type, "NoCurrentDateDefault");
 				}
 				return r_FNoCurrentDateDefault;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAdjustToUniversal == null)
 				{
-					r_FAdjustToUniversal = new(typeof(System.Globalization.DateTimeStyles), "AdjustToUniversal");
+					r_FAdjustToUniversal = new(Type, "AdjustToUniversal");
 				}
 				return r_FAdjustToUniversal;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAssumeLocal == null)
 				{
-					r_FAssumeLocal = new(typeof(System.Globalization.DateTimeStyles), "AssumeLocal");
+					r_FAssumeLocal = new(Type, "AssumeLocal");
 				}
 				return r_FAssumeLocal;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FAssumeUniversal == null)
 				{
-					r_FAssumeUniversal = new(typeof(System.Globalization.DateTimeStyles), "AssumeUniversal");
+					r_FAssumeUniversal = new(Type, "AssumeUniversal");
 				}
 				return r_FAssumeUniversal;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FRoundtripKind == null)
 				{
-					r_FRoundtripKind = new(typeof(System.Globalization.DateTimeStyles), "RoundtripKind");
+					r_FRoundtripKind = new(Type, "RoundtripKind");
 				}
 				return r_FRoundtripKind;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -549,7 +550,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

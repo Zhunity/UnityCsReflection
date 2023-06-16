@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.Generic.IDictionary`2
 	/// </summary>
     public partial class RIDictionary<TKey, TValue> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(TKey), typeof(TValue));
+                return  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(ReflectionUtils.GetType(typeof(TKey)), ReflectionUtils.GetType(typeof(TValue)));
             }
         }
 
@@ -156,7 +157,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@key};
             var ___result = RMContainsKey_TKey.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -178,7 +179,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{@key};
             var ___result = RMRemove_TKey.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -191,7 +192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
 			@value = (TValue)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.DropdownMenuAction
 	/// </summary>
     public partial class RDropdownMenuAction : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MAlwaysEnabled_DropdownMenuAction == null)
 				{
-					r_MAlwaysEnabled_DropdownMenuAction = new(typeof(UnityEngine.UIElements.DropdownMenuAction), "AlwaysEnabled", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_MAlwaysEnabled_DropdownMenuAction = new(Type, "AlwaysEnabled", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
 				return r_MAlwaysEnabled_DropdownMenuAction;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MAlwaysDisabled_DropdownMenuAction == null)
 				{
-					r_MAlwaysDisabled_DropdownMenuAction = new(typeof(UnityEngine.UIElements.DropdownMenuAction), "AlwaysDisabled", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_MAlwaysDisabled_DropdownMenuAction = new(Type, "AlwaysDisabled", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
 				return r_MAlwaysDisabled_DropdownMenuAction;
 			}
@@ -364,7 +365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@a};
             var ___result = RMAlwaysEnabled_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus>(___result);
         }
 
 
@@ -375,7 +376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@a};
             var ___result = RMAlwaysDisabled_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDropdownMenuAction.RStatus>(___result);
         }
 
 
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -441,7 +442,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -452,7 +453,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -463,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

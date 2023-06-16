@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.TypedReference
 	/// </summary>
     public partial class RTypedReference : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MMakeTypedReference_Object_FieldInfoArray == null)
 				{
-					r_MMakeTypedReference_Object_FieldInfoArray = new(typeof(System.TypedReference), "MakeTypedReference", 0, typeof(System.Object), typeof(System.Reflection.FieldInfo).MakeArrayType());
+					r_MMakeTypedReference_Object_FieldInfoArray = new(Type, "MakeTypedReference", 0, typeof(System.Object), typeof(System.Reflection.FieldInfo).MakeArrayType());
 				}
 				return r_MMakeTypedReference_Object_FieldInfoArray;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType == null)
 				{
-					r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType = new(typeof(System.TypedReference), "InternalMakeTypedReference", 0, typeof(void).MakePointerType(), typeof(System.Object), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.RuntimeType"));
+					r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType = new(Type, "InternalMakeTypedReference", 0, typeof(void).MakePointerType(), typeof(System.Object), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.RuntimeType"));
 				}
 				return r_MInternalMakeTypedReference_VoidPointer_Object_IntPtrArray_RuntimeType;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MToObject_TypedReference == null)
 				{
-					r_MToObject_TypedReference = new(typeof(System.TypedReference), "ToObject", 0, typeof(System.TypedReference));
+					r_MToObject_TypedReference = new(Type, "ToObject", 0, typeof(System.TypedReference));
 				}
 				return r_MToObject_TypedReference;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalToObject_VoidPointer == null)
 				{
-					r_MInternalToObject_VoidPointer = new(typeof(System.TypedReference), "InternalToObject", 0, typeof(void).MakePointerType());
+					r_MInternalToObject_VoidPointer = new(Type, "InternalToObject", 0, typeof(void).MakePointerType());
 				}
 				return r_MInternalToObject_VoidPointer;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetTargetType_TypedReference == null)
 				{
-					r_MGetTargetType_TypedReference = new(typeof(System.TypedReference), "GetTargetType", 0, typeof(System.TypedReference));
+					r_MGetTargetType_TypedReference = new(Type, "GetTargetType", 0, typeof(System.TypedReference));
 				}
 				return r_MGetTargetType_TypedReference;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTargetTypeToken_TypedReference == null)
 				{
-					r_MTargetTypeToken_TypedReference = new(typeof(System.TypedReference), "TargetTypeToken", 0, typeof(System.TypedReference));
+					r_MTargetTypeToken_TypedReference = new(Type, "TargetTypeToken", 0, typeof(System.TypedReference));
 				}
 				return r_MTargetTypeToken_TypedReference;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSetTypedReference_TypedReference_Object == null)
 				{
-					r_MSetTypedReference_TypedReference_Object = new(typeof(System.TypedReference), "SetTypedReference", 0, typeof(System.TypedReference), typeof(System.Object));
+					r_MSetTypedReference_TypedReference_Object = new(Type, "SetTypedReference", 0, typeof(System.TypedReference), typeof(System.Object));
 				}
 				return r_MSetTypedReference_TypedReference_Object;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@target, @flds};
             var ___result = RMMakeTypedReference_Object_FieldInfoArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RTypedReference(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RTypedReference>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value.Value};
             var ___result = RMToObject_TypedReference.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{Pointer.Box(@value, typeof(void))};
             var ___result = RMInternalToObject_VoidPointer.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value.Value};
             var ___result = RMGetTargetType_TypedReference.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value.Value};
             var ___result = RMTargetTypeToken_TypedReference.Invoke(___genericsType, ___parameters);
 
-            return (System.RuntimeTypeHandle)___result;
+            return ReflectionUtils.Convert<System.RuntimeTypeHandle>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -437,7 +438,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -448,7 +449,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

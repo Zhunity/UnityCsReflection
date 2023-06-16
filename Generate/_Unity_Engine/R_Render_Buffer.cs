@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.RenderBuffer
 	/// </summary>
     public partial class RRenderBuffer : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction == null)
 				{
-					r_MSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction = new(typeof(UnityEngine.RenderBuffer), "SetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction));
+					r_MSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction = new(Type, "SetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferLoadAction));
 				}
 				return r_MSetLoadAction_Injected_Ref_RenderBuffer_RenderBufferLoadAction;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction == null)
 				{
-					r_MSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction = new(typeof(UnityEngine.RenderBuffer), "SetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
+					r_MSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction = new(Type, "SetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType(), typeof(UnityEngine.Rendering.RenderBufferStoreAction));
 				}
 				return r_MSetStoreAction_Injected_Ref_RenderBuffer_RenderBufferStoreAction;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetLoadAction_Injected_Ref_RenderBuffer == null)
 				{
-					r_MGetLoadAction_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_MGetLoadAction_Injected_Ref_RenderBuffer = new(Type, "GetLoadAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
 				}
 				return r_MGetLoadAction_Injected_Ref_RenderBuffer;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetStoreAction_Injected_Ref_RenderBuffer == null)
 				{
-					r_MGetStoreAction_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_MGetStoreAction_Injected_Ref_RenderBuffer = new(Type, "GetStoreAction_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
 				}
 				return r_MGetStoreAction_Injected_Ref_RenderBuffer;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer == null)
 				{
-					r_MGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer = new(typeof(UnityEngine.RenderBuffer), "GetNativeRenderBufferPtr_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
+					r_MGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer = new(Type, "GetNativeRenderBufferPtr_Injected", 0, typeof(UnityEngine.RenderBuffer).MakeByRefType());
 				}
 				return r_MGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer;
 			}
@@ -386,7 +387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetLoadAction.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.RenderBufferLoadAction)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
         }
 
 
@@ -397,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetStoreAction.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.RenderBufferStoreAction)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
         }
 
 
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeRenderBufferPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -444,7 +445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetLoadAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
-            return (UnityEngine.Rendering.RenderBufferLoadAction)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferLoadAction>(___result);
         }
 
 
@@ -456,7 +457,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetStoreAction_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
-            return (UnityEngine.Rendering.RenderBufferStoreAction)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.RenderBufferStoreAction>(___result);
         }
 
 
@@ -468,7 +469,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetNativeRenderBufferPtr_Injected_Ref_RenderBuffer.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.RenderBuffer)___parameters[0];
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -479,7 +480,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -490,7 +491,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -501,7 +502,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -523,7 +524,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -534,7 +535,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

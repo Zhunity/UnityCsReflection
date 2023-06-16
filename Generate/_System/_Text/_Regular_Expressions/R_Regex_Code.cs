@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.RegularExpressions.RegexCode
 	/// </summary>
     public partial class RRegexCode : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FOnerep == null)
 				{
-					r_FOnerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onerep");
+					r_FOnerep = new(Type, "Onerep");
 				}
 				return r_FOnerep;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNotonerep == null)
 				{
-					r_FNotonerep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonerep");
+					r_FNotonerep = new(Type, "Notonerep");
 				}
 				return r_FNotonerep;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSetrep == null)
 				{
-					r_FSetrep = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setrep");
+					r_FSetrep = new(Type, "Setrep");
 				}
 				return r_FSetrep;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FOneloop == null)
 				{
-					r_FOneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Oneloop");
+					r_FOneloop = new(Type, "Oneloop");
 				}
 				return r_FOneloop;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNotoneloop == null)
 				{
-					r_FNotoneloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notoneloop");
+					r_FNotoneloop = new(Type, "Notoneloop");
 				}
 				return r_FNotoneloop;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSetloop == null)
 				{
-					r_FSetloop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setloop");
+					r_FSetloop = new(Type, "Setloop");
 				}
 				return r_FSetloop;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FOnelazy == null)
 				{
-					r_FOnelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Onelazy");
+					r_FOnelazy = new(Type, "Onelazy");
 				}
 				return r_FOnelazy;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNotonelazy == null)
 				{
-					r_FNotonelazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notonelazy");
+					r_FNotonelazy = new(Type, "Notonelazy");
 				}
 				return r_FNotonelazy;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSetlazy == null)
 				{
-					r_FSetlazy = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setlazy");
+					r_FSetlazy = new(Type, "Setlazy");
 				}
 				return r_FSetlazy;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FOne == null)
 				{
-					r_FOne = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "One");
+					r_FOne = new(Type, "One");
 				}
 				return r_FOne;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNotone == null)
 				{
-					r_FNotone = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Notone");
+					r_FNotone = new(Type, "Notone");
 				}
 				return r_FNotone;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSet == null)
 				{
-					r_FSet = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Set");
+					r_FSet = new(Type, "Set");
 				}
 				return r_FSet;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FMulti == null)
 				{
-					r_FMulti = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Multi");
+					r_FMulti = new(Type, "Multi");
 				}
 				return r_FMulti;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FRef == null)
 				{
-					r_FRef = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ref");
+					r_FRef = new(Type, "Ref");
 				}
 				return r_FRef;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBol == null)
 				{
-					r_FBol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Bol");
+					r_FBol = new(Type, "Bol");
 				}
 				return r_FBol;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FEol == null)
 				{
-					r_FEol = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Eol");
+					r_FEol = new(Type, "Eol");
 				}
 				return r_FEol;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBoundary == null)
 				{
-					r_FBoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Boundary");
+					r_FBoundary = new(Type, "Boundary");
 				}
 				return r_FBoundary;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNonboundary == null)
 				{
-					r_FNonboundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nonboundary");
+					r_FNonboundary = new(Type, "Nonboundary");
 				}
 				return r_FNonboundary;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBeginning == null)
 				{
-					r_FBeginning = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Beginning");
+					r_FBeginning = new(Type, "Beginning");
 				}
 				return r_FBeginning;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FStart == null)
 				{
-					r_FStart = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Start");
+					r_FStart = new(Type, "Start");
 				}
 				return r_FStart;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FEndZ == null)
 				{
-					r_FEndZ = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "EndZ");
+					r_FEndZ = new(Type, "EndZ");
 				}
 				return r_FEndZ;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FEnd == null)
 				{
-					r_FEnd = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "End");
+					r_FEnd = new(Type, "End");
 				}
 				return r_FEnd;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNothing == null)
 				{
-					r_FNothing = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nothing");
+					r_FNothing = new(Type, "Nothing");
 				}
 				return r_FNothing;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FLazybranch == null)
 				{
-					r_FLazybranch = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranch");
+					r_FLazybranch = new(Type, "Lazybranch");
 				}
 				return r_FLazybranch;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBranchmark == null)
 				{
-					r_FBranchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchmark");
+					r_FBranchmark = new(Type, "Branchmark");
 				}
 				return r_FBranchmark;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FLazybranchmark == null)
 				{
-					r_FLazybranchmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchmark");
+					r_FLazybranchmark = new(Type, "Lazybranchmark");
 				}
 				return r_FLazybranchmark;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNullcount == null)
 				{
-					r_FNullcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullcount");
+					r_FNullcount = new(Type, "Nullcount");
 				}
 				return r_FNullcount;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSetcount == null)
 				{
-					r_FSetcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setcount");
+					r_FSetcount = new(Type, "Setcount");
 				}
 				return r_FSetcount;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBranchcount == null)
 				{
-					r_FBranchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Branchcount");
+					r_FBranchcount = new(Type, "Branchcount");
 				}
 				return r_FBranchcount;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FLazybranchcount == null)
 				{
-					r_FLazybranchcount = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Lazybranchcount");
+					r_FLazybranchcount = new(Type, "Lazybranchcount");
 				}
 				return r_FLazybranchcount;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNullmark == null)
 				{
-					r_FNullmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Nullmark");
+					r_FNullmark = new(Type, "Nullmark");
 				}
 				return r_FNullmark;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSetmark == null)
 				{
-					r_FSetmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setmark");
+					r_FSetmark = new(Type, "Setmark");
 				}
 				return r_FSetmark;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FCapturemark == null)
 				{
-					r_FCapturemark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Capturemark");
+					r_FCapturemark = new(Type, "Capturemark");
 				}
 				return r_FCapturemark;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FGetmark == null)
 				{
-					r_FGetmark = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Getmark");
+					r_FGetmark = new(Type, "Getmark");
 				}
 				return r_FGetmark;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSetjump == null)
 				{
-					r_FSetjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Setjump");
+					r_FSetjump = new(Type, "Setjump");
 				}
 				return r_FSetjump;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBackjump == null)
 				{
-					r_FBackjump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Backjump");
+					r_FBackjump = new(Type, "Backjump");
 				}
 				return r_FBackjump;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FForejump == null)
 				{
-					r_FForejump = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Forejump");
+					r_FForejump = new(Type, "Forejump");
 				}
 				return r_FForejump;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FTestref == null)
 				{
-					r_FTestref = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Testref");
+					r_FTestref = new(Type, "Testref");
 				}
 				return r_FTestref;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FGoto == null)
 				{
-					r_FGoto = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Goto");
+					r_FGoto = new(Type, "Goto");
 				}
 				return r_FGoto;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FPrune == null)
 				{
-					r_FPrune = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Prune");
+					r_FPrune = new(Type, "Prune");
 				}
 				return r_FPrune;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FStop == null)
 				{
-					r_FStop = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Stop");
+					r_FStop = new(Type, "Stop");
 				}
 				return r_FStop;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FECMABoundary == null)
 				{
-					r_FECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "ECMABoundary");
+					r_FECMABoundary = new(Type, "ECMABoundary");
 				}
 				return r_FECMABoundary;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FNonECMABoundary == null)
 				{
-					r_FNonECMABoundary = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "NonECMABoundary");
+					r_FNonECMABoundary = new(Type, "NonECMABoundary");
 				}
 				return r_FNonECMABoundary;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FMask == null)
 				{
-					r_FMask = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Mask");
+					r_FMask = new(Type, "Mask");
 				}
 				return r_FMask;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FRtl == null)
 				{
-					r_FRtl = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Rtl");
+					r_FRtl = new(Type, "Rtl");
 				}
 				return r_FRtl;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBack == null)
 				{
-					r_FBack = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back");
+					r_FBack = new(Type, "Back");
 				}
 				return r_FBack;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FBack2 == null)
 				{
-					r_FBack2 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Back2");
+					r_FBack2 = new(Type, "Back2");
 				}
 				return r_FBack2;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FCi == null)
 				{
-					r_FCi = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "Ci");
+					r_FCi = new(Type, "Ci");
 				}
 				return r_FCi;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_MOpcodeBacktracks_Int32 == null)
 				{
-					r_MOpcodeBacktracks_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeBacktracks", 0, typeof(System.Int32));
+					r_MOpcodeBacktracks_Int32 = new(Type, "OpcodeBacktracks", 0, typeof(System.Int32));
 				}
 				return r_MOpcodeBacktracks_Int32;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_MOpcodeSize_Int32 == null)
 				{
-					r_MOpcodeSize_Int32 = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexCode"), "OpcodeSize", 0, typeof(System.Int32));
+					r_MOpcodeSize_Int32 = new(Type, "OpcodeSize", 0, typeof(System.Int32));
 				}
 				return r_MOpcodeSize_Int32;
 			}
@@ -1084,7 +1085,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@Op};
             var ___result = RMOpcodeBacktracks_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1095,7 +1096,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@opcode};
             var ___result = RMOpcodeSize_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1106,7 +1107,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1128,7 +1129,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1139,7 +1140,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1161,7 +1162,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

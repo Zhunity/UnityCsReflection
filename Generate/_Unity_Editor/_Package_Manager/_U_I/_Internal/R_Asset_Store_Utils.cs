@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreUtils
 	/// </summary>
     public partial class RAssetStoreUtils : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_InvalidJSONErrorMessage == null)
 				{
-					r_Fk_InvalidJSONErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"), "k_InvalidJSONErrorMessage");
+					r_Fk_InvalidJSONErrorMessage = new(Type, "k_InvalidJSONErrorMessage");
 				}
 				return r_Fk_InvalidJSONErrorMessage;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_ServerErrorMessage == null)
 				{
-					r_Fk_ServerErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"), "k_ServerErrorMessage");
+					r_Fk_ServerErrorMessage = new(Type, "k_ServerErrorMessage");
 				}
 				return r_Fk_ServerErrorMessage;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MParseResponseAsDictionary_IAsyncHTTPClient == null)
 				{
-					r_MParseResponseAsDictionary_IAsyncHTTPClient = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"), "ParseResponseAsDictionary", 0,  ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient"));
+					r_MParseResponseAsDictionary_IAsyncHTTPClient = new(Type, "ParseResponseAsDictionary", 0,  ReflectionUtils.GetType("UnityEditor.IAsyncHTTPClient"));
 				}
 				return r_MParseResponseAsDictionary_IAsyncHTTPClient;
 			}
@@ -375,7 +376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@request.Value};
             var ___result = RMParseResponseAsDictionary_IAsyncHTTPClient.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.Dictionary<System.String, System.Object>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.String, System.Object>>(___result);
         }
 
 
@@ -386,7 +387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@publisher, @category};
             var ___result = RMBuildBaseDownloadPath_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -397,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@basePath, @packageName};
             var ___result = RMBuildFinalDownloadPath_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -419,7 +420,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@id, @url, @destination, @key};
             var ___result = RMCheckDownload_String_String_StringArray_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@destination};
             var ___result = RMAbortDownload_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -463,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetLocalPackageList.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageInfo[]>(___result);
         }
 
 
@@ -474,7 +475,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -496,7 +497,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -507,7 +508,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -518,7 +519,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -529,7 +530,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

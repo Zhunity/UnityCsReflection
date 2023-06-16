@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure
 	/// </summary>
     public partial class RRayTracingAccelerationStructure : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			{
 				if(r_MCreate_RASSettings == null)
 				{
-					r_MCreate_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create", 0,  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings"));
+					r_MCreate_RASSettings = new(Type, "Create", 0,  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings"));
 				}
 				return r_MCreate_RASSettings;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			{
 				if(r_MDestroy_RayTracingAccelerationStructure == null)
 				{
-					r_MDestroy_RayTracingAccelerationStructure = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Destroy", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
+					r_MDestroy_RayTracingAccelerationStructure = new(Type, "Destroy", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure));
 				}
 				return r_MDestroy_RayTracingAccelerationStructure;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 			{
 				if(r_MCreate_Injected_Ref_RASSettings == null)
 				{
-					r_MCreate_Injected_Ref_RASSettings = new(typeof(UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure), "Create_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings").MakeByRefType());
+					r_MCreate_Injected_Ref_RASSettings = new(Type, "Create_Injected", 0,  ReflectionUtils.GetType("UnityEngine.Experimental.Rendering.RayTracingAccelerationStructure+RASSettings").MakeByRefType());
 				}
 				return r_MCreate_Injected_Ref_RASSettings;
 			}
@@ -813,7 +814,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{@desc.Value};
             var ___result = RMCreate_RASSettings.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -868,7 +869,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{@aabbBuffer, @aabbCount, @dynamicData, @matrix, @material, @opaqueMaterial, @properties, @mask, @id};
             var ___result = RMAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1000,7 +1001,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{@aabbBuffer, @aabbCount, @dynamicData, @matrix, @material, @opaqueMaterial, @properties, @mask, @id};
             var ___result = RMAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1088,7 +1089,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetSize.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1099,7 +1100,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -1122,7 +1123,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___result = RMCullInstances_Ref_RayTracingInstanceCullingConfig.Invoke(___genericsType, ___parameters);
 			@cullingConfig = (UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig)___parameters[0];
 
-            return (UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults)___result;
+            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults>(___result);
         }
 
 
@@ -1145,7 +1146,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___result = RMCreate_Injected_Ref_RASSettings.Invoke(___genericsType, ___parameters);
 			@desc = new Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RRayTracingAccelerationStructure.RRASSettings(___parameters[0]);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1193,7 +1194,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___result = RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
 			@matrix = (UnityEngine.Matrix4x4)___parameters[3];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1241,7 +1242,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1252,7 +1253,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1263,7 +1264,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1274,7 +1275,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

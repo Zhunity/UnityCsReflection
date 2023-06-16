@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RMono.RSecurity
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Mono.Security.StrongName
 	/// </summary>
     public partial class RStrongName : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_FlockObject == null)
 				{
-					r_FlockObject = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "lockObject");
+					r_FlockObject = new(Type, "lockObject");
 				}
 				return r_FlockObject;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_Finitialized == null)
 				{
-					r_Finitialized = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "initialized");
+					r_Finitialized = new(Type, "initialized");
 				}
 				return r_Finitialized;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_MGetHashAlgorithm_String == null)
 				{
-					r_MGetHashAlgorithm_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "GetHashAlgorithm", 0, typeof(System.String));
+					r_MGetHashAlgorithm_String = new(Type, "GetHashAlgorithm", 0, typeof(System.String));
 				}
 				return r_MGetHashAlgorithm_String;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_MError_String == null)
 				{
-					r_MError_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Error", 0, typeof(System.String));
+					r_MError_String = new(Type, "Error", 0, typeof(System.String));
 				}
 				return r_MError_String;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_MReadMore_Stream_ByteArray_Int32 == null)
 				{
-					r_MReadMore_Stream_ByteArray_Int32 = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "ReadMore", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
+					r_MReadMore_Stream_ByteArray_Int32 = new(Type, "ReadMore", 0, typeof(System.IO.Stream), typeof(System.Byte).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MReadMore_Stream_ByteArray_Int32;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_MIsAssemblyStrongnamed_String == null)
 				{
-					r_MIsAssemblyStrongnamed_String = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "IsAssemblyStrongnamed", 0, typeof(System.String));
+					r_MIsAssemblyStrongnamed_String = new(Type, "IsAssemblyStrongnamed", 0, typeof(System.String));
 				}
 				return r_MIsAssemblyStrongnamed_String;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray == null)
 				{
-					r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray = new(Type, "VerifySignature", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
 				}
 				return r_MVerifySignature_ByteArray_Int32_ByteArray_ByteArray;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
 			{
 				if(r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray == null)
 				{
-					r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray = new( ReflectionUtils.GetType("Mono.Security.StrongName"), "Verify", 0, typeof(System.Security.Cryptography.RSA), typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray = new(Type, "Verify", 0, typeof(System.Security.Cryptography.RSA), typeof(System.Configuration.Assemblies.AssemblyHashAlgorithm), typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
 				}
 				return r_MVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray;
 			}
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@algorithm};
             var ___result = RMGetHashAlgorithm_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Cryptography.HashAlgorithm)___result;
+            return ReflectionUtils.Convert<System.Security.Cryptography.HashAlgorithm>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetBytes.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@r, @sections, @headers};
             var ___result = RMRVAtoPosition_UInt32_Int32_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -584,7 +585,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@a};
             var ___result = RMError_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature>(___result);
         }
 
 
@@ -595,7 +596,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@stream, @a, @newSize};
             var ___result = RMReadMore_Stream_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@stream, @options.Value};
             var ___result = RMStrongHash_Stream_StrongNameOptions.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RMono.RSecurity.RStrongName.RStrongNameSignature>(___result);
         }
 
 
@@ -617,7 +618,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@fileName};
             var ___result = RMHash_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -628,7 +629,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@fileName};
             var ___result = RMSign_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -639,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@fileName};
             var ___result = RMVerify_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -650,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@stream};
             var ___result = RMVerify_Stream.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@assemblyName};
             var ___result = RMIsAssemblyStrongnamed_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -672,7 +673,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@publicKey, @algorithm, @hash, @signature};
             var ___result = RMVerifySignature_ByteArray_Int32_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -683,7 +684,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@rsa, @algorithm, @hash, @signature};
             var ___result = RMVerify_RSA_AssemblyHashAlgorithm_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -694,7 +695,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -716,7 +717,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -727,7 +728,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -738,7 +739,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -749,7 +750,7 @@ namespace Hvak.Editor.Refleaction.RMono.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

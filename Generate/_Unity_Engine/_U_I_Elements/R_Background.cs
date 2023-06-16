@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Background
 	/// </summary>
     public partial class RBackground : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PallowedAssetTypes == null)
 				{
-					r_PallowedAssetTypes = new(typeof(UnityEngine.UIElements.Background), "allowedAssetTypes", -1);
+					r_PallowedAssetTypes = new(Type, "allowedAssetTypes", -1);
 				}
 				return r_PallowedAssetTypes;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MFromTexture2D_Texture2D == null)
 				{
-					r_MFromTexture2D_Texture2D = new(typeof(UnityEngine.UIElements.Background), "FromTexture2D", 0, typeof(UnityEngine.Texture2D));
+					r_MFromTexture2D_Texture2D = new(Type, "FromTexture2D", 0, typeof(UnityEngine.Texture2D));
 				}
 				return r_MFromTexture2D_Texture2D;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MFromRenderTexture_RenderTexture == null)
 				{
-					r_MFromRenderTexture_RenderTexture = new(typeof(UnityEngine.UIElements.Background), "FromRenderTexture", 0, typeof(UnityEngine.RenderTexture));
+					r_MFromRenderTexture_RenderTexture = new(Type, "FromRenderTexture", 0, typeof(UnityEngine.RenderTexture));
 				}
 				return r_MFromRenderTexture_RenderTexture;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MFromSprite_Sprite == null)
 				{
-					r_MFromSprite_Sprite = new(typeof(UnityEngine.UIElements.Background), "FromSprite", 0, typeof(UnityEngine.Sprite));
+					r_MFromSprite_Sprite = new(Type, "FromSprite", 0, typeof(UnityEngine.Sprite));
 				}
 				return r_MFromSprite_Sprite;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MFromVectorImage_VectorImage == null)
 				{
-					r_MFromVectorImage_VectorImage = new(typeof(UnityEngine.UIElements.Background), "FromVectorImage", 0, typeof(UnityEngine.UIElements.VectorImage));
+					r_MFromVectorImage_VectorImage = new(Type, "FromVectorImage", 0, typeof(UnityEngine.UIElements.VectorImage));
 				}
 				return r_MFromVectorImage_VectorImage;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MFromObject_Object == null)
 				{
-					r_MFromObject_Object = new(typeof(UnityEngine.UIElements.Background), "FromObject", 0, typeof(System.Object));
+					r_MFromObject_Object = new(Type, "FromObject", 0, typeof(System.Object));
 				}
 				return r_MFromObject_Object;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_Background_Background == null)
 				{
-					r_Mop_Equality_Background_Background = new(typeof(UnityEngine.UIElements.Background), "op_Equality", 0, typeof(UnityEngine.UIElements.Background), typeof(UnityEngine.UIElements.Background));
+					r_Mop_Equality_Background_Background = new(Type, "op_Equality", 0, typeof(UnityEngine.UIElements.Background), typeof(UnityEngine.UIElements.Background));
 				}
 				return r_Mop_Equality_Background_Background;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_Background_Background == null)
 				{
-					r_Mop_Inequality_Background_Background = new(typeof(UnityEngine.UIElements.Background), "op_Inequality", 0, typeof(UnityEngine.UIElements.Background), typeof(UnityEngine.UIElements.Background));
+					r_Mop_Inequality_Background_Background = new(Type, "op_Inequality", 0, typeof(UnityEngine.UIElements.Background), typeof(UnityEngine.UIElements.Background));
 				}
 				return r_Mop_Inequality_Background_Background;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Implicit_Texture2D == null)
 				{
-					r_Mop_Implicit_Texture2D = new(typeof(UnityEngine.UIElements.Background), "op_Implicit", 0, typeof(UnityEngine.Texture2D));
+					r_Mop_Implicit_Texture2D = new(Type, "op_Implicit", 0, typeof(UnityEngine.Texture2D));
 				}
 				return r_Mop_Implicit_Texture2D;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@t};
             var ___result = RMFromTexture2D_Texture2D.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Background)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@rt};
             var ___result = RMFromRenderTexture_RenderTexture.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Background)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@s};
             var ___result = RMFromSprite_Sprite.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Background)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@vi};
             var ___result = RMFromVectorImage_VectorImage.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Background)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMFromObject_Object.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Background)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Background_Background.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Background_Background.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@v};
             var ___result = RMop_Implicit_Texture2D.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Background)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Background.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -538,7 +539,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -549,7 +550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -571,7 +572,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -582,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

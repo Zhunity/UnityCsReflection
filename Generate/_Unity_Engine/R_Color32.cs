@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Color32
 	/// </summary>
     public partial class RColor32 : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_Color == null)
 				{
-					r_Mop_Implicit_Color = new(typeof(UnityEngine.Color32), "op_Implicit", 0, typeof(UnityEngine.Color));
+					r_Mop_Implicit_Color = new(Type, "op_Implicit", 0, typeof(UnityEngine.Color));
 				}
 				return r_Mop_Implicit_Color;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_Color32 == null)
 				{
-					r_Mop_Implicit_Color32 = new(typeof(UnityEngine.Color32), "op_Implicit", 0, typeof(UnityEngine.Color32));
+					r_Mop_Implicit_Color32 = new(Type, "op_Implicit", 0, typeof(UnityEngine.Color32));
 				}
 				return r_Mop_Implicit_Color32;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLerp_Color32_Color32_Single == null)
 				{
-					r_MLerp_Color32_Color32_Single = new(typeof(UnityEngine.Color32), "Lerp", 0, typeof(UnityEngine.Color32), typeof(UnityEngine.Color32), typeof(System.Single));
+					r_MLerp_Color32_Color32_Single = new(Type, "Lerp", 0, typeof(UnityEngine.Color32), typeof(UnityEngine.Color32), typeof(System.Single));
 				}
 				return r_MLerp_Color32_Color32_Single;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MLerpUnclamped_Color32_Color32_Single == null)
 				{
-					r_MLerpUnclamped_Color32_Color32_Single = new(typeof(UnityEngine.Color32), "LerpUnclamped", 0, typeof(UnityEngine.Color32), typeof(UnityEngine.Color32), typeof(System.Single));
+					r_MLerpUnclamped_Color32_Color32_Single = new(Type, "LerpUnclamped", 0, typeof(UnityEngine.Color32), typeof(UnityEngine.Color32), typeof(System.Single));
 				}
 				return r_MLerpUnclamped_Color32_Color32_Single;
 			}
@@ -348,7 +349,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@c};
             var ___result = RMop_Implicit_Color.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -359,7 +360,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@c};
             var ___result = RMop_Implicit_Color32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color>(___result);
         }
 
 
@@ -370,7 +371,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b, @t};
             var ___result = RMLerp_Color32_Color32_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -381,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b, @t};
             var ___result = RMLerpUnclamped_Color32_Color32_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Color32)___result;
+            return ReflectionUtils.Convert<UnityEngine.Color32>(___result);
         }
 
 
@@ -392,7 +393,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMInternalEquals_Color32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -403,7 +404,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -425,7 +426,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -436,7 +437,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -447,7 +448,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -469,7 +470,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -480,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

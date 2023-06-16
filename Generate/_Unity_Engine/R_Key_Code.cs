@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.KeyCode
 	/// </summary>
     public partial class RKeyCode : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(UnityEngine.KeyCode), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FBackspace == null)
 				{
-					r_FBackspace = new(typeof(UnityEngine.KeyCode), "Backspace");
+					r_FBackspace = new(Type, "Backspace");
 				}
 				return r_FBackspace;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDelete == null)
 				{
-					r_FDelete = new(typeof(UnityEngine.KeyCode), "Delete");
+					r_FDelete = new(Type, "Delete");
 				}
 				return r_FDelete;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTab == null)
 				{
-					r_FTab = new(typeof(UnityEngine.KeyCode), "Tab");
+					r_FTab = new(Type, "Tab");
 				}
 				return r_FTab;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FClear == null)
 				{
-					r_FClear = new(typeof(UnityEngine.KeyCode), "Clear");
+					r_FClear = new(Type, "Clear");
 				}
 				return r_FClear;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FReturn == null)
 				{
-					r_FReturn = new(typeof(UnityEngine.KeyCode), "Return");
+					r_FReturn = new(Type, "Return");
 				}
 				return r_FReturn;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPause == null)
 				{
-					r_FPause = new(typeof(UnityEngine.KeyCode), "Pause");
+					r_FPause = new(Type, "Pause");
 				}
 				return r_FPause;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FEscape == null)
 				{
-					r_FEscape = new(typeof(UnityEngine.KeyCode), "Escape");
+					r_FEscape = new(Type, "Escape");
 				}
 				return r_FEscape;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FSpace == null)
 				{
-					r_FSpace = new(typeof(UnityEngine.KeyCode), "Space");
+					r_FSpace = new(Type, "Space");
 				}
 				return r_FSpace;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad0 == null)
 				{
-					r_FKeypad0 = new(typeof(UnityEngine.KeyCode), "Keypad0");
+					r_FKeypad0 = new(Type, "Keypad0");
 				}
 				return r_FKeypad0;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad1 == null)
 				{
-					r_FKeypad1 = new(typeof(UnityEngine.KeyCode), "Keypad1");
+					r_FKeypad1 = new(Type, "Keypad1");
 				}
 				return r_FKeypad1;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad2 == null)
 				{
-					r_FKeypad2 = new(typeof(UnityEngine.KeyCode), "Keypad2");
+					r_FKeypad2 = new(Type, "Keypad2");
 				}
 				return r_FKeypad2;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad3 == null)
 				{
-					r_FKeypad3 = new(typeof(UnityEngine.KeyCode), "Keypad3");
+					r_FKeypad3 = new(Type, "Keypad3");
 				}
 				return r_FKeypad3;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad4 == null)
 				{
-					r_FKeypad4 = new(typeof(UnityEngine.KeyCode), "Keypad4");
+					r_FKeypad4 = new(Type, "Keypad4");
 				}
 				return r_FKeypad4;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad5 == null)
 				{
-					r_FKeypad5 = new(typeof(UnityEngine.KeyCode), "Keypad5");
+					r_FKeypad5 = new(Type, "Keypad5");
 				}
 				return r_FKeypad5;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad6 == null)
 				{
-					r_FKeypad6 = new(typeof(UnityEngine.KeyCode), "Keypad6");
+					r_FKeypad6 = new(Type, "Keypad6");
 				}
 				return r_FKeypad6;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad7 == null)
 				{
-					r_FKeypad7 = new(typeof(UnityEngine.KeyCode), "Keypad7");
+					r_FKeypad7 = new(Type, "Keypad7");
 				}
 				return r_FKeypad7;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad8 == null)
 				{
-					r_FKeypad8 = new(typeof(UnityEngine.KeyCode), "Keypad8");
+					r_FKeypad8 = new(Type, "Keypad8");
 				}
 				return r_FKeypad8;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypad9 == null)
 				{
-					r_FKeypad9 = new(typeof(UnityEngine.KeyCode), "Keypad9");
+					r_FKeypad9 = new(Type, "Keypad9");
 				}
 				return r_FKeypad9;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadPeriod == null)
 				{
-					r_FKeypadPeriod = new(typeof(UnityEngine.KeyCode), "KeypadPeriod");
+					r_FKeypadPeriod = new(Type, "KeypadPeriod");
 				}
 				return r_FKeypadPeriod;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadDivide == null)
 				{
-					r_FKeypadDivide = new(typeof(UnityEngine.KeyCode), "KeypadDivide");
+					r_FKeypadDivide = new(Type, "KeypadDivide");
 				}
 				return r_FKeypadDivide;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadMultiply == null)
 				{
-					r_FKeypadMultiply = new(typeof(UnityEngine.KeyCode), "KeypadMultiply");
+					r_FKeypadMultiply = new(Type, "KeypadMultiply");
 				}
 				return r_FKeypadMultiply;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadMinus == null)
 				{
-					r_FKeypadMinus = new(typeof(UnityEngine.KeyCode), "KeypadMinus");
+					r_FKeypadMinus = new(Type, "KeypadMinus");
 				}
 				return r_FKeypadMinus;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadPlus == null)
 				{
-					r_FKeypadPlus = new(typeof(UnityEngine.KeyCode), "KeypadPlus");
+					r_FKeypadPlus = new(Type, "KeypadPlus");
 				}
 				return r_FKeypadPlus;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadEnter == null)
 				{
-					r_FKeypadEnter = new(typeof(UnityEngine.KeyCode), "KeypadEnter");
+					r_FKeypadEnter = new(Type, "KeypadEnter");
 				}
 				return r_FKeypadEnter;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FKeypadEquals == null)
 				{
-					r_FKeypadEquals = new(typeof(UnityEngine.KeyCode), "KeypadEquals");
+					r_FKeypadEquals = new(Type, "KeypadEquals");
 				}
 				return r_FKeypadEquals;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FUpArrow == null)
 				{
-					r_FUpArrow = new(typeof(UnityEngine.KeyCode), "UpArrow");
+					r_FUpArrow = new(Type, "UpArrow");
 				}
 				return r_FUpArrow;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDownArrow == null)
 				{
-					r_FDownArrow = new(typeof(UnityEngine.KeyCode), "DownArrow");
+					r_FDownArrow = new(Type, "DownArrow");
 				}
 				return r_FDownArrow;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightArrow == null)
 				{
-					r_FRightArrow = new(typeof(UnityEngine.KeyCode), "RightArrow");
+					r_FRightArrow = new(Type, "RightArrow");
 				}
 				return r_FRightArrow;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftArrow == null)
 				{
-					r_FLeftArrow = new(typeof(UnityEngine.KeyCode), "LeftArrow");
+					r_FLeftArrow = new(Type, "LeftArrow");
 				}
 				return r_FLeftArrow;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FInsert == null)
 				{
-					r_FInsert = new(typeof(UnityEngine.KeyCode), "Insert");
+					r_FInsert = new(Type, "Insert");
 				}
 				return r_FInsert;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FHome == null)
 				{
-					r_FHome = new(typeof(UnityEngine.KeyCode), "Home");
+					r_FHome = new(Type, "Home");
 				}
 				return r_FHome;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FEnd == null)
 				{
-					r_FEnd = new(typeof(UnityEngine.KeyCode), "End");
+					r_FEnd = new(Type, "End");
 				}
 				return r_FEnd;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPageUp == null)
 				{
-					r_FPageUp = new(typeof(UnityEngine.KeyCode), "PageUp");
+					r_FPageUp = new(Type, "PageUp");
 				}
 				return r_FPageUp;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPageDown == null)
 				{
-					r_FPageDown = new(typeof(UnityEngine.KeyCode), "PageDown");
+					r_FPageDown = new(Type, "PageDown");
 				}
 				return r_FPageDown;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF1 == null)
 				{
-					r_FF1 = new(typeof(UnityEngine.KeyCode), "F1");
+					r_FF1 = new(Type, "F1");
 				}
 				return r_FF1;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF2 == null)
 				{
-					r_FF2 = new(typeof(UnityEngine.KeyCode), "F2");
+					r_FF2 = new(Type, "F2");
 				}
 				return r_FF2;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF3 == null)
 				{
-					r_FF3 = new(typeof(UnityEngine.KeyCode), "F3");
+					r_FF3 = new(Type, "F3");
 				}
 				return r_FF3;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF4 == null)
 				{
-					r_FF4 = new(typeof(UnityEngine.KeyCode), "F4");
+					r_FF4 = new(Type, "F4");
 				}
 				return r_FF4;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF5 == null)
 				{
-					r_FF5 = new(typeof(UnityEngine.KeyCode), "F5");
+					r_FF5 = new(Type, "F5");
 				}
 				return r_FF5;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF6 == null)
 				{
-					r_FF6 = new(typeof(UnityEngine.KeyCode), "F6");
+					r_FF6 = new(Type, "F6");
 				}
 				return r_FF6;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF7 == null)
 				{
-					r_FF7 = new(typeof(UnityEngine.KeyCode), "F7");
+					r_FF7 = new(Type, "F7");
 				}
 				return r_FF7;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF8 == null)
 				{
-					r_FF8 = new(typeof(UnityEngine.KeyCode), "F8");
+					r_FF8 = new(Type, "F8");
 				}
 				return r_FF8;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF9 == null)
 				{
-					r_FF9 = new(typeof(UnityEngine.KeyCode), "F9");
+					r_FF9 = new(Type, "F9");
 				}
 				return r_FF9;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF10 == null)
 				{
-					r_FF10 = new(typeof(UnityEngine.KeyCode), "F10");
+					r_FF10 = new(Type, "F10");
 				}
 				return r_FF10;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF11 == null)
 				{
-					r_FF11 = new(typeof(UnityEngine.KeyCode), "F11");
+					r_FF11 = new(Type, "F11");
 				}
 				return r_FF11;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF12 == null)
 				{
-					r_FF12 = new(typeof(UnityEngine.KeyCode), "F12");
+					r_FF12 = new(Type, "F12");
 				}
 				return r_FF12;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF13 == null)
 				{
-					r_FF13 = new(typeof(UnityEngine.KeyCode), "F13");
+					r_FF13 = new(Type, "F13");
 				}
 				return r_FF13;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF14 == null)
 				{
-					r_FF14 = new(typeof(UnityEngine.KeyCode), "F14");
+					r_FF14 = new(Type, "F14");
 				}
 				return r_FF14;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF15 == null)
 				{
-					r_FF15 = new(typeof(UnityEngine.KeyCode), "F15");
+					r_FF15 = new(Type, "F15");
 				}
 				return r_FF15;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha0 == null)
 				{
-					r_FAlpha0 = new(typeof(UnityEngine.KeyCode), "Alpha0");
+					r_FAlpha0 = new(Type, "Alpha0");
 				}
 				return r_FAlpha0;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha1 == null)
 				{
-					r_FAlpha1 = new(typeof(UnityEngine.KeyCode), "Alpha1");
+					r_FAlpha1 = new(Type, "Alpha1");
 				}
 				return r_FAlpha1;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha2 == null)
 				{
-					r_FAlpha2 = new(typeof(UnityEngine.KeyCode), "Alpha2");
+					r_FAlpha2 = new(Type, "Alpha2");
 				}
 				return r_FAlpha2;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha3 == null)
 				{
-					r_FAlpha3 = new(typeof(UnityEngine.KeyCode), "Alpha3");
+					r_FAlpha3 = new(Type, "Alpha3");
 				}
 				return r_FAlpha3;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha4 == null)
 				{
-					r_FAlpha4 = new(typeof(UnityEngine.KeyCode), "Alpha4");
+					r_FAlpha4 = new(Type, "Alpha4");
 				}
 				return r_FAlpha4;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha5 == null)
 				{
-					r_FAlpha5 = new(typeof(UnityEngine.KeyCode), "Alpha5");
+					r_FAlpha5 = new(Type, "Alpha5");
 				}
 				return r_FAlpha5;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha6 == null)
 				{
-					r_FAlpha6 = new(typeof(UnityEngine.KeyCode), "Alpha6");
+					r_FAlpha6 = new(Type, "Alpha6");
 				}
 				return r_FAlpha6;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha7 == null)
 				{
-					r_FAlpha7 = new(typeof(UnityEngine.KeyCode), "Alpha7");
+					r_FAlpha7 = new(Type, "Alpha7");
 				}
 				return r_FAlpha7;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha8 == null)
 				{
-					r_FAlpha8 = new(typeof(UnityEngine.KeyCode), "Alpha8");
+					r_FAlpha8 = new(Type, "Alpha8");
 				}
 				return r_FAlpha8;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAlpha9 == null)
 				{
-					r_FAlpha9 = new(typeof(UnityEngine.KeyCode), "Alpha9");
+					r_FAlpha9 = new(Type, "Alpha9");
 				}
 				return r_FAlpha9;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FExclaim == null)
 				{
-					r_FExclaim = new(typeof(UnityEngine.KeyCode), "Exclaim");
+					r_FExclaim = new(Type, "Exclaim");
 				}
 				return r_FExclaim;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDoubleQuote == null)
 				{
-					r_FDoubleQuote = new(typeof(UnityEngine.KeyCode), "DoubleQuote");
+					r_FDoubleQuote = new(Type, "DoubleQuote");
 				}
 				return r_FDoubleQuote;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FHash == null)
 				{
-					r_FHash = new(typeof(UnityEngine.KeyCode), "Hash");
+					r_FHash = new(Type, "Hash");
 				}
 				return r_FHash;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDollar == null)
 				{
-					r_FDollar = new(typeof(UnityEngine.KeyCode), "Dollar");
+					r_FDollar = new(Type, "Dollar");
 				}
 				return r_FDollar;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPercent == null)
 				{
-					r_FPercent = new(typeof(UnityEngine.KeyCode), "Percent");
+					r_FPercent = new(Type, "Percent");
 				}
 				return r_FPercent;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAmpersand == null)
 				{
-					r_FAmpersand = new(typeof(UnityEngine.KeyCode), "Ampersand");
+					r_FAmpersand = new(Type, "Ampersand");
 				}
 				return r_FAmpersand;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FQuote == null)
 				{
-					r_FQuote = new(typeof(UnityEngine.KeyCode), "Quote");
+					r_FQuote = new(Type, "Quote");
 				}
 				return r_FQuote;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftParen == null)
 				{
-					r_FLeftParen = new(typeof(UnityEngine.KeyCode), "LeftParen");
+					r_FLeftParen = new(Type, "LeftParen");
 				}
 				return r_FLeftParen;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightParen == null)
 				{
-					r_FRightParen = new(typeof(UnityEngine.KeyCode), "RightParen");
+					r_FRightParen = new(Type, "RightParen");
 				}
 				return r_FRightParen;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAsterisk == null)
 				{
-					r_FAsterisk = new(typeof(UnityEngine.KeyCode), "Asterisk");
+					r_FAsterisk = new(Type, "Asterisk");
 				}
 				return r_FAsterisk;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPlus == null)
 				{
-					r_FPlus = new(typeof(UnityEngine.KeyCode), "Plus");
+					r_FPlus = new(Type, "Plus");
 				}
 				return r_FPlus;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FComma == null)
 				{
-					r_FComma = new(typeof(UnityEngine.KeyCode), "Comma");
+					r_FComma = new(Type, "Comma");
 				}
 				return r_FComma;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMinus == null)
 				{
-					r_FMinus = new(typeof(UnityEngine.KeyCode), "Minus");
+					r_FMinus = new(Type, "Minus");
 				}
 				return r_FMinus;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPeriod == null)
 				{
-					r_FPeriod = new(typeof(UnityEngine.KeyCode), "Period");
+					r_FPeriod = new(Type, "Period");
 				}
 				return r_FPeriod;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FSlash == null)
 				{
-					r_FSlash = new(typeof(UnityEngine.KeyCode), "Slash");
+					r_FSlash = new(Type, "Slash");
 				}
 				return r_FSlash;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FColon == null)
 				{
-					r_FColon = new(typeof(UnityEngine.KeyCode), "Colon");
+					r_FColon = new(Type, "Colon");
 				}
 				return r_FColon;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FSemicolon == null)
 				{
-					r_FSemicolon = new(typeof(UnityEngine.KeyCode), "Semicolon");
+					r_FSemicolon = new(Type, "Semicolon");
 				}
 				return r_FSemicolon;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLess == null)
 				{
-					r_FLess = new(typeof(UnityEngine.KeyCode), "Less");
+					r_FLess = new(Type, "Less");
 				}
 				return r_FLess;
 			}
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FEquals == null)
 				{
-					r_FEquals = new(typeof(UnityEngine.KeyCode), "Equals");
+					r_FEquals = new(Type, "Equals");
 				}
 				return r_FEquals;
 			}
@@ -1326,7 +1327,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FGreater == null)
 				{
-					r_FGreater = new(typeof(UnityEngine.KeyCode), "Greater");
+					r_FGreater = new(Type, "Greater");
 				}
 				return r_FGreater;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FQuestion == null)
 				{
-					r_FQuestion = new(typeof(UnityEngine.KeyCode), "Question");
+					r_FQuestion = new(Type, "Question");
 				}
 				return r_FQuestion;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAt == null)
 				{
-					r_FAt = new(typeof(UnityEngine.KeyCode), "At");
+					r_FAt = new(Type, "At");
 				}
 				return r_FAt;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftBracket == null)
 				{
-					r_FLeftBracket = new(typeof(UnityEngine.KeyCode), "LeftBracket");
+					r_FLeftBracket = new(Type, "LeftBracket");
 				}
 				return r_FLeftBracket;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FBackslash == null)
 				{
-					r_FBackslash = new(typeof(UnityEngine.KeyCode), "Backslash");
+					r_FBackslash = new(Type, "Backslash");
 				}
 				return r_FBackslash;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightBracket == null)
 				{
-					r_FRightBracket = new(typeof(UnityEngine.KeyCode), "RightBracket");
+					r_FRightBracket = new(Type, "RightBracket");
 				}
 				return r_FRightBracket;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FCaret == null)
 				{
-					r_FCaret = new(typeof(UnityEngine.KeyCode), "Caret");
+					r_FCaret = new(Type, "Caret");
 				}
 				return r_FCaret;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FUnderscore == null)
 				{
-					r_FUnderscore = new(typeof(UnityEngine.KeyCode), "Underscore");
+					r_FUnderscore = new(Type, "Underscore");
 				}
 				return r_FUnderscore;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FBackQuote == null)
 				{
-					r_FBackQuote = new(typeof(UnityEngine.KeyCode), "BackQuote");
+					r_FBackQuote = new(Type, "BackQuote");
 				}
 				return r_FBackQuote;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FA == null)
 				{
-					r_FA = new(typeof(UnityEngine.KeyCode), "A");
+					r_FA = new(Type, "A");
 				}
 				return r_FA;
 			}
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FB == null)
 				{
-					r_FB = new(typeof(UnityEngine.KeyCode), "B");
+					r_FB = new(Type, "B");
 				}
 				return r_FB;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FC == null)
 				{
-					r_FC = new(typeof(UnityEngine.KeyCode), "C");
+					r_FC = new(Type, "C");
 				}
 				return r_FC;
 			}
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FD == null)
 				{
-					r_FD = new(typeof(UnityEngine.KeyCode), "D");
+					r_FD = new(Type, "D");
 				}
 				return r_FD;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FE == null)
 				{
-					r_FE = new(typeof(UnityEngine.KeyCode), "E");
+					r_FE = new(Type, "E");
 				}
 				return r_FE;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FF == null)
 				{
-					r_FF = new(typeof(UnityEngine.KeyCode), "F");
+					r_FF = new(Type, "F");
 				}
 				return r_FF;
 			}
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FG == null)
 				{
-					r_FG = new(typeof(UnityEngine.KeyCode), "G");
+					r_FG = new(Type, "G");
 				}
 				return r_FG;
 			}
@@ -1582,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FH == null)
 				{
-					r_FH = new(typeof(UnityEngine.KeyCode), "H");
+					r_FH = new(Type, "H");
 				}
 				return r_FH;
 			}
@@ -1598,7 +1599,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FI == null)
 				{
-					r_FI = new(typeof(UnityEngine.KeyCode), "I");
+					r_FI = new(Type, "I");
 				}
 				return r_FI;
 			}
@@ -1614,7 +1615,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJ == null)
 				{
-					r_FJ = new(typeof(UnityEngine.KeyCode), "J");
+					r_FJ = new(Type, "J");
 				}
 				return r_FJ;
 			}
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FK == null)
 				{
-					r_FK = new(typeof(UnityEngine.KeyCode), "K");
+					r_FK = new(Type, "K");
 				}
 				return r_FK;
 			}
@@ -1646,7 +1647,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FL == null)
 				{
-					r_FL = new(typeof(UnityEngine.KeyCode), "L");
+					r_FL = new(Type, "L");
 				}
 				return r_FL;
 			}
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FM == null)
 				{
-					r_FM = new(typeof(UnityEngine.KeyCode), "M");
+					r_FM = new(Type, "M");
 				}
 				return r_FM;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FN == null)
 				{
-					r_FN = new(typeof(UnityEngine.KeyCode), "N");
+					r_FN = new(Type, "N");
 				}
 				return r_FN;
 			}
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FO == null)
 				{
-					r_FO = new(typeof(UnityEngine.KeyCode), "O");
+					r_FO = new(Type, "O");
 				}
 				return r_FO;
 			}
@@ -1710,7 +1711,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FP == null)
 				{
-					r_FP = new(typeof(UnityEngine.KeyCode), "P");
+					r_FP = new(Type, "P");
 				}
 				return r_FP;
 			}
@@ -1726,7 +1727,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FQ == null)
 				{
-					r_FQ = new(typeof(UnityEngine.KeyCode), "Q");
+					r_FQ = new(Type, "Q");
 				}
 				return r_FQ;
 			}
@@ -1742,7 +1743,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FR == null)
 				{
-					r_FR = new(typeof(UnityEngine.KeyCode), "R");
+					r_FR = new(Type, "R");
 				}
 				return r_FR;
 			}
@@ -1758,7 +1759,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FS == null)
 				{
-					r_FS = new(typeof(UnityEngine.KeyCode), "S");
+					r_FS = new(Type, "S");
 				}
 				return r_FS;
 			}
@@ -1774,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FT == null)
 				{
-					r_FT = new(typeof(UnityEngine.KeyCode), "T");
+					r_FT = new(Type, "T");
 				}
 				return r_FT;
 			}
@@ -1790,7 +1791,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FU == null)
 				{
-					r_FU = new(typeof(UnityEngine.KeyCode), "U");
+					r_FU = new(Type, "U");
 				}
 				return r_FU;
 			}
@@ -1806,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FV == null)
 				{
-					r_FV = new(typeof(UnityEngine.KeyCode), "V");
+					r_FV = new(Type, "V");
 				}
 				return r_FV;
 			}
@@ -1822,7 +1823,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FW == null)
 				{
-					r_FW = new(typeof(UnityEngine.KeyCode), "W");
+					r_FW = new(Type, "W");
 				}
 				return r_FW;
 			}
@@ -1838,7 +1839,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FX == null)
 				{
-					r_FX = new(typeof(UnityEngine.KeyCode), "X");
+					r_FX = new(Type, "X");
 				}
 				return r_FX;
 			}
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FY == null)
 				{
-					r_FY = new(typeof(UnityEngine.KeyCode), "Y");
+					r_FY = new(Type, "Y");
 				}
 				return r_FY;
 			}
@@ -1870,7 +1871,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FZ == null)
 				{
-					r_FZ = new(typeof(UnityEngine.KeyCode), "Z");
+					r_FZ = new(Type, "Z");
 				}
 				return r_FZ;
 			}
@@ -1886,7 +1887,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftCurlyBracket == null)
 				{
-					r_FLeftCurlyBracket = new(typeof(UnityEngine.KeyCode), "LeftCurlyBracket");
+					r_FLeftCurlyBracket = new(Type, "LeftCurlyBracket");
 				}
 				return r_FLeftCurlyBracket;
 			}
@@ -1902,7 +1903,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPipe == null)
 				{
-					r_FPipe = new(typeof(UnityEngine.KeyCode), "Pipe");
+					r_FPipe = new(Type, "Pipe");
 				}
 				return r_FPipe;
 			}
@@ -1918,7 +1919,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightCurlyBracket == null)
 				{
-					r_FRightCurlyBracket = new(typeof(UnityEngine.KeyCode), "RightCurlyBracket");
+					r_FRightCurlyBracket = new(Type, "RightCurlyBracket");
 				}
 				return r_FRightCurlyBracket;
 			}
@@ -1934,7 +1935,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FTilde == null)
 				{
-					r_FTilde = new(typeof(UnityEngine.KeyCode), "Tilde");
+					r_FTilde = new(Type, "Tilde");
 				}
 				return r_FTilde;
 			}
@@ -1950,7 +1951,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FNumlock == null)
 				{
-					r_FNumlock = new(typeof(UnityEngine.KeyCode), "Numlock");
+					r_FNumlock = new(Type, "Numlock");
 				}
 				return r_FNumlock;
 			}
@@ -1966,7 +1967,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FCapsLock == null)
 				{
-					r_FCapsLock = new(typeof(UnityEngine.KeyCode), "CapsLock");
+					r_FCapsLock = new(Type, "CapsLock");
 				}
 				return r_FCapsLock;
 			}
@@ -1982,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FScrollLock == null)
 				{
-					r_FScrollLock = new(typeof(UnityEngine.KeyCode), "ScrollLock");
+					r_FScrollLock = new(Type, "ScrollLock");
 				}
 				return r_FScrollLock;
 			}
@@ -1998,7 +1999,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightShift == null)
 				{
-					r_FRightShift = new(typeof(UnityEngine.KeyCode), "RightShift");
+					r_FRightShift = new(Type, "RightShift");
 				}
 				return r_FRightShift;
 			}
@@ -2014,7 +2015,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftShift == null)
 				{
-					r_FLeftShift = new(typeof(UnityEngine.KeyCode), "LeftShift");
+					r_FLeftShift = new(Type, "LeftShift");
 				}
 				return r_FLeftShift;
 			}
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightControl == null)
 				{
-					r_FRightControl = new(typeof(UnityEngine.KeyCode), "RightControl");
+					r_FRightControl = new(Type, "RightControl");
 				}
 				return r_FRightControl;
 			}
@@ -2046,7 +2047,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftControl == null)
 				{
-					r_FLeftControl = new(typeof(UnityEngine.KeyCode), "LeftControl");
+					r_FLeftControl = new(Type, "LeftControl");
 				}
 				return r_FLeftControl;
 			}
@@ -2062,7 +2063,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightAlt == null)
 				{
-					r_FRightAlt = new(typeof(UnityEngine.KeyCode), "RightAlt");
+					r_FRightAlt = new(Type, "RightAlt");
 				}
 				return r_FRightAlt;
 			}
@@ -2078,7 +2079,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftAlt == null)
 				{
-					r_FLeftAlt = new(typeof(UnityEngine.KeyCode), "LeftAlt");
+					r_FLeftAlt = new(Type, "LeftAlt");
 				}
 				return r_FLeftAlt;
 			}
@@ -2094,7 +2095,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftMeta == null)
 				{
-					r_FLeftMeta = new(typeof(UnityEngine.KeyCode), "LeftMeta");
+					r_FLeftMeta = new(Type, "LeftMeta");
 				}
 				return r_FLeftMeta;
 			}
@@ -2110,7 +2111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftCommand == null)
 				{
-					r_FLeftCommand = new(typeof(UnityEngine.KeyCode), "LeftCommand");
+					r_FLeftCommand = new(Type, "LeftCommand");
 				}
 				return r_FLeftCommand;
 			}
@@ -2126,7 +2127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftApple == null)
 				{
-					r_FLeftApple = new(typeof(UnityEngine.KeyCode), "LeftApple");
+					r_FLeftApple = new(Type, "LeftApple");
 				}
 				return r_FLeftApple;
 			}
@@ -2142,7 +2143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FLeftWindows == null)
 				{
-					r_FLeftWindows = new(typeof(UnityEngine.KeyCode), "LeftWindows");
+					r_FLeftWindows = new(Type, "LeftWindows");
 				}
 				return r_FLeftWindows;
 			}
@@ -2158,7 +2159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightMeta == null)
 				{
-					r_FRightMeta = new(typeof(UnityEngine.KeyCode), "RightMeta");
+					r_FRightMeta = new(Type, "RightMeta");
 				}
 				return r_FRightMeta;
 			}
@@ -2174,7 +2175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightCommand == null)
 				{
-					r_FRightCommand = new(typeof(UnityEngine.KeyCode), "RightCommand");
+					r_FRightCommand = new(Type, "RightCommand");
 				}
 				return r_FRightCommand;
 			}
@@ -2190,7 +2191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightApple == null)
 				{
-					r_FRightApple = new(typeof(UnityEngine.KeyCode), "RightApple");
+					r_FRightApple = new(Type, "RightApple");
 				}
 				return r_FRightApple;
 			}
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FRightWindows == null)
 				{
-					r_FRightWindows = new(typeof(UnityEngine.KeyCode), "RightWindows");
+					r_FRightWindows = new(Type, "RightWindows");
 				}
 				return r_FRightWindows;
 			}
@@ -2222,7 +2223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FAltGr == null)
 				{
-					r_FAltGr = new(typeof(UnityEngine.KeyCode), "AltGr");
+					r_FAltGr = new(Type, "AltGr");
 				}
 				return r_FAltGr;
 			}
@@ -2238,7 +2239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FHelp == null)
 				{
-					r_FHelp = new(typeof(UnityEngine.KeyCode), "Help");
+					r_FHelp = new(Type, "Help");
 				}
 				return r_FHelp;
 			}
@@ -2254,7 +2255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPrint == null)
 				{
-					r_FPrint = new(typeof(UnityEngine.KeyCode), "Print");
+					r_FPrint = new(Type, "Print");
 				}
 				return r_FPrint;
 			}
@@ -2270,7 +2271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FSysReq == null)
 				{
-					r_FSysReq = new(typeof(UnityEngine.KeyCode), "SysReq");
+					r_FSysReq = new(Type, "SysReq");
 				}
 				return r_FSysReq;
 			}
@@ -2286,7 +2287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FBreak == null)
 				{
-					r_FBreak = new(typeof(UnityEngine.KeyCode), "Break");
+					r_FBreak = new(Type, "Break");
 				}
 				return r_FBreak;
 			}
@@ -2302,7 +2303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMenu == null)
 				{
-					r_FMenu = new(typeof(UnityEngine.KeyCode), "Menu");
+					r_FMenu = new(Type, "Menu");
 				}
 				return r_FMenu;
 			}
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse0 == null)
 				{
-					r_FMouse0 = new(typeof(UnityEngine.KeyCode), "Mouse0");
+					r_FMouse0 = new(Type, "Mouse0");
 				}
 				return r_FMouse0;
 			}
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse1 == null)
 				{
-					r_FMouse1 = new(typeof(UnityEngine.KeyCode), "Mouse1");
+					r_FMouse1 = new(Type, "Mouse1");
 				}
 				return r_FMouse1;
 			}
@@ -2350,7 +2351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse2 == null)
 				{
-					r_FMouse2 = new(typeof(UnityEngine.KeyCode), "Mouse2");
+					r_FMouse2 = new(Type, "Mouse2");
 				}
 				return r_FMouse2;
 			}
@@ -2366,7 +2367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse3 == null)
 				{
-					r_FMouse3 = new(typeof(UnityEngine.KeyCode), "Mouse3");
+					r_FMouse3 = new(Type, "Mouse3");
 				}
 				return r_FMouse3;
 			}
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse4 == null)
 				{
-					r_FMouse4 = new(typeof(UnityEngine.KeyCode), "Mouse4");
+					r_FMouse4 = new(Type, "Mouse4");
 				}
 				return r_FMouse4;
 			}
@@ -2398,7 +2399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse5 == null)
 				{
-					r_FMouse5 = new(typeof(UnityEngine.KeyCode), "Mouse5");
+					r_FMouse5 = new(Type, "Mouse5");
 				}
 				return r_FMouse5;
 			}
@@ -2414,7 +2415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMouse6 == null)
 				{
-					r_FMouse6 = new(typeof(UnityEngine.KeyCode), "Mouse6");
+					r_FMouse6 = new(Type, "Mouse6");
 				}
 				return r_FMouse6;
 			}
@@ -2430,7 +2431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton0 == null)
 				{
-					r_FJoystickButton0 = new(typeof(UnityEngine.KeyCode), "JoystickButton0");
+					r_FJoystickButton0 = new(Type, "JoystickButton0");
 				}
 				return r_FJoystickButton0;
 			}
@@ -2446,7 +2447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton1 == null)
 				{
-					r_FJoystickButton1 = new(typeof(UnityEngine.KeyCode), "JoystickButton1");
+					r_FJoystickButton1 = new(Type, "JoystickButton1");
 				}
 				return r_FJoystickButton1;
 			}
@@ -2462,7 +2463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton2 == null)
 				{
-					r_FJoystickButton2 = new(typeof(UnityEngine.KeyCode), "JoystickButton2");
+					r_FJoystickButton2 = new(Type, "JoystickButton2");
 				}
 				return r_FJoystickButton2;
 			}
@@ -2478,7 +2479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton3 == null)
 				{
-					r_FJoystickButton3 = new(typeof(UnityEngine.KeyCode), "JoystickButton3");
+					r_FJoystickButton3 = new(Type, "JoystickButton3");
 				}
 				return r_FJoystickButton3;
 			}
@@ -2494,7 +2495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton4 == null)
 				{
-					r_FJoystickButton4 = new(typeof(UnityEngine.KeyCode), "JoystickButton4");
+					r_FJoystickButton4 = new(Type, "JoystickButton4");
 				}
 				return r_FJoystickButton4;
 			}
@@ -2510,7 +2511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton5 == null)
 				{
-					r_FJoystickButton5 = new(typeof(UnityEngine.KeyCode), "JoystickButton5");
+					r_FJoystickButton5 = new(Type, "JoystickButton5");
 				}
 				return r_FJoystickButton5;
 			}
@@ -2526,7 +2527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton6 == null)
 				{
-					r_FJoystickButton6 = new(typeof(UnityEngine.KeyCode), "JoystickButton6");
+					r_FJoystickButton6 = new(Type, "JoystickButton6");
 				}
 				return r_FJoystickButton6;
 			}
@@ -2542,7 +2543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton7 == null)
 				{
-					r_FJoystickButton7 = new(typeof(UnityEngine.KeyCode), "JoystickButton7");
+					r_FJoystickButton7 = new(Type, "JoystickButton7");
 				}
 				return r_FJoystickButton7;
 			}
@@ -2558,7 +2559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton8 == null)
 				{
-					r_FJoystickButton8 = new(typeof(UnityEngine.KeyCode), "JoystickButton8");
+					r_FJoystickButton8 = new(Type, "JoystickButton8");
 				}
 				return r_FJoystickButton8;
 			}
@@ -2574,7 +2575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton9 == null)
 				{
-					r_FJoystickButton9 = new(typeof(UnityEngine.KeyCode), "JoystickButton9");
+					r_FJoystickButton9 = new(Type, "JoystickButton9");
 				}
 				return r_FJoystickButton9;
 			}
@@ -2590,7 +2591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton10 == null)
 				{
-					r_FJoystickButton10 = new(typeof(UnityEngine.KeyCode), "JoystickButton10");
+					r_FJoystickButton10 = new(Type, "JoystickButton10");
 				}
 				return r_FJoystickButton10;
 			}
@@ -2606,7 +2607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton11 == null)
 				{
-					r_FJoystickButton11 = new(typeof(UnityEngine.KeyCode), "JoystickButton11");
+					r_FJoystickButton11 = new(Type, "JoystickButton11");
 				}
 				return r_FJoystickButton11;
 			}
@@ -2622,7 +2623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton12 == null)
 				{
-					r_FJoystickButton12 = new(typeof(UnityEngine.KeyCode), "JoystickButton12");
+					r_FJoystickButton12 = new(Type, "JoystickButton12");
 				}
 				return r_FJoystickButton12;
 			}
@@ -2638,7 +2639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton13 == null)
 				{
-					r_FJoystickButton13 = new(typeof(UnityEngine.KeyCode), "JoystickButton13");
+					r_FJoystickButton13 = new(Type, "JoystickButton13");
 				}
 				return r_FJoystickButton13;
 			}
@@ -2654,7 +2655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton14 == null)
 				{
-					r_FJoystickButton14 = new(typeof(UnityEngine.KeyCode), "JoystickButton14");
+					r_FJoystickButton14 = new(Type, "JoystickButton14");
 				}
 				return r_FJoystickButton14;
 			}
@@ -2670,7 +2671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton15 == null)
 				{
-					r_FJoystickButton15 = new(typeof(UnityEngine.KeyCode), "JoystickButton15");
+					r_FJoystickButton15 = new(Type, "JoystickButton15");
 				}
 				return r_FJoystickButton15;
 			}
@@ -2686,7 +2687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton16 == null)
 				{
-					r_FJoystickButton16 = new(typeof(UnityEngine.KeyCode), "JoystickButton16");
+					r_FJoystickButton16 = new(Type, "JoystickButton16");
 				}
 				return r_FJoystickButton16;
 			}
@@ -2702,7 +2703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton17 == null)
 				{
-					r_FJoystickButton17 = new(typeof(UnityEngine.KeyCode), "JoystickButton17");
+					r_FJoystickButton17 = new(Type, "JoystickButton17");
 				}
 				return r_FJoystickButton17;
 			}
@@ -2718,7 +2719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton18 == null)
 				{
-					r_FJoystickButton18 = new(typeof(UnityEngine.KeyCode), "JoystickButton18");
+					r_FJoystickButton18 = new(Type, "JoystickButton18");
 				}
 				return r_FJoystickButton18;
 			}
@@ -2734,7 +2735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystickButton19 == null)
 				{
-					r_FJoystickButton19 = new(typeof(UnityEngine.KeyCode), "JoystickButton19");
+					r_FJoystickButton19 = new(Type, "JoystickButton19");
 				}
 				return r_FJoystickButton19;
 			}
@@ -2750,7 +2751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button0 == null)
 				{
-					r_FJoystick1Button0 = new(typeof(UnityEngine.KeyCode), "Joystick1Button0");
+					r_FJoystick1Button0 = new(Type, "Joystick1Button0");
 				}
 				return r_FJoystick1Button0;
 			}
@@ -2766,7 +2767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button1 == null)
 				{
-					r_FJoystick1Button1 = new(typeof(UnityEngine.KeyCode), "Joystick1Button1");
+					r_FJoystick1Button1 = new(Type, "Joystick1Button1");
 				}
 				return r_FJoystick1Button1;
 			}
@@ -2782,7 +2783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button2 == null)
 				{
-					r_FJoystick1Button2 = new(typeof(UnityEngine.KeyCode), "Joystick1Button2");
+					r_FJoystick1Button2 = new(Type, "Joystick1Button2");
 				}
 				return r_FJoystick1Button2;
 			}
@@ -2798,7 +2799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button3 == null)
 				{
-					r_FJoystick1Button3 = new(typeof(UnityEngine.KeyCode), "Joystick1Button3");
+					r_FJoystick1Button3 = new(Type, "Joystick1Button3");
 				}
 				return r_FJoystick1Button3;
 			}
@@ -2814,7 +2815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button4 == null)
 				{
-					r_FJoystick1Button4 = new(typeof(UnityEngine.KeyCode), "Joystick1Button4");
+					r_FJoystick1Button4 = new(Type, "Joystick1Button4");
 				}
 				return r_FJoystick1Button4;
 			}
@@ -2830,7 +2831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button5 == null)
 				{
-					r_FJoystick1Button5 = new(typeof(UnityEngine.KeyCode), "Joystick1Button5");
+					r_FJoystick1Button5 = new(Type, "Joystick1Button5");
 				}
 				return r_FJoystick1Button5;
 			}
@@ -2846,7 +2847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button6 == null)
 				{
-					r_FJoystick1Button6 = new(typeof(UnityEngine.KeyCode), "Joystick1Button6");
+					r_FJoystick1Button6 = new(Type, "Joystick1Button6");
 				}
 				return r_FJoystick1Button6;
 			}
@@ -2862,7 +2863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button7 == null)
 				{
-					r_FJoystick1Button7 = new(typeof(UnityEngine.KeyCode), "Joystick1Button7");
+					r_FJoystick1Button7 = new(Type, "Joystick1Button7");
 				}
 				return r_FJoystick1Button7;
 			}
@@ -2878,7 +2879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button8 == null)
 				{
-					r_FJoystick1Button8 = new(typeof(UnityEngine.KeyCode), "Joystick1Button8");
+					r_FJoystick1Button8 = new(Type, "Joystick1Button8");
 				}
 				return r_FJoystick1Button8;
 			}
@@ -2894,7 +2895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button9 == null)
 				{
-					r_FJoystick1Button9 = new(typeof(UnityEngine.KeyCode), "Joystick1Button9");
+					r_FJoystick1Button9 = new(Type, "Joystick1Button9");
 				}
 				return r_FJoystick1Button9;
 			}
@@ -2910,7 +2911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button10 == null)
 				{
-					r_FJoystick1Button10 = new(typeof(UnityEngine.KeyCode), "Joystick1Button10");
+					r_FJoystick1Button10 = new(Type, "Joystick1Button10");
 				}
 				return r_FJoystick1Button10;
 			}
@@ -2926,7 +2927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button11 == null)
 				{
-					r_FJoystick1Button11 = new(typeof(UnityEngine.KeyCode), "Joystick1Button11");
+					r_FJoystick1Button11 = new(Type, "Joystick1Button11");
 				}
 				return r_FJoystick1Button11;
 			}
@@ -2942,7 +2943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button12 == null)
 				{
-					r_FJoystick1Button12 = new(typeof(UnityEngine.KeyCode), "Joystick1Button12");
+					r_FJoystick1Button12 = new(Type, "Joystick1Button12");
 				}
 				return r_FJoystick1Button12;
 			}
@@ -2958,7 +2959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button13 == null)
 				{
-					r_FJoystick1Button13 = new(typeof(UnityEngine.KeyCode), "Joystick1Button13");
+					r_FJoystick1Button13 = new(Type, "Joystick1Button13");
 				}
 				return r_FJoystick1Button13;
 			}
@@ -2974,7 +2975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button14 == null)
 				{
-					r_FJoystick1Button14 = new(typeof(UnityEngine.KeyCode), "Joystick1Button14");
+					r_FJoystick1Button14 = new(Type, "Joystick1Button14");
 				}
 				return r_FJoystick1Button14;
 			}
@@ -2990,7 +2991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button15 == null)
 				{
-					r_FJoystick1Button15 = new(typeof(UnityEngine.KeyCode), "Joystick1Button15");
+					r_FJoystick1Button15 = new(Type, "Joystick1Button15");
 				}
 				return r_FJoystick1Button15;
 			}
@@ -3006,7 +3007,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button16 == null)
 				{
-					r_FJoystick1Button16 = new(typeof(UnityEngine.KeyCode), "Joystick1Button16");
+					r_FJoystick1Button16 = new(Type, "Joystick1Button16");
 				}
 				return r_FJoystick1Button16;
 			}
@@ -3022,7 +3023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button17 == null)
 				{
-					r_FJoystick1Button17 = new(typeof(UnityEngine.KeyCode), "Joystick1Button17");
+					r_FJoystick1Button17 = new(Type, "Joystick1Button17");
 				}
 				return r_FJoystick1Button17;
 			}
@@ -3038,7 +3039,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button18 == null)
 				{
-					r_FJoystick1Button18 = new(typeof(UnityEngine.KeyCode), "Joystick1Button18");
+					r_FJoystick1Button18 = new(Type, "Joystick1Button18");
 				}
 				return r_FJoystick1Button18;
 			}
@@ -3054,7 +3055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick1Button19 == null)
 				{
-					r_FJoystick1Button19 = new(typeof(UnityEngine.KeyCode), "Joystick1Button19");
+					r_FJoystick1Button19 = new(Type, "Joystick1Button19");
 				}
 				return r_FJoystick1Button19;
 			}
@@ -3070,7 +3071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button0 == null)
 				{
-					r_FJoystick2Button0 = new(typeof(UnityEngine.KeyCode), "Joystick2Button0");
+					r_FJoystick2Button0 = new(Type, "Joystick2Button0");
 				}
 				return r_FJoystick2Button0;
 			}
@@ -3086,7 +3087,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button1 == null)
 				{
-					r_FJoystick2Button1 = new(typeof(UnityEngine.KeyCode), "Joystick2Button1");
+					r_FJoystick2Button1 = new(Type, "Joystick2Button1");
 				}
 				return r_FJoystick2Button1;
 			}
@@ -3102,7 +3103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button2 == null)
 				{
-					r_FJoystick2Button2 = new(typeof(UnityEngine.KeyCode), "Joystick2Button2");
+					r_FJoystick2Button2 = new(Type, "Joystick2Button2");
 				}
 				return r_FJoystick2Button2;
 			}
@@ -3118,7 +3119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button3 == null)
 				{
-					r_FJoystick2Button3 = new(typeof(UnityEngine.KeyCode), "Joystick2Button3");
+					r_FJoystick2Button3 = new(Type, "Joystick2Button3");
 				}
 				return r_FJoystick2Button3;
 			}
@@ -3134,7 +3135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button4 == null)
 				{
-					r_FJoystick2Button4 = new(typeof(UnityEngine.KeyCode), "Joystick2Button4");
+					r_FJoystick2Button4 = new(Type, "Joystick2Button4");
 				}
 				return r_FJoystick2Button4;
 			}
@@ -3150,7 +3151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button5 == null)
 				{
-					r_FJoystick2Button5 = new(typeof(UnityEngine.KeyCode), "Joystick2Button5");
+					r_FJoystick2Button5 = new(Type, "Joystick2Button5");
 				}
 				return r_FJoystick2Button5;
 			}
@@ -3166,7 +3167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button6 == null)
 				{
-					r_FJoystick2Button6 = new(typeof(UnityEngine.KeyCode), "Joystick2Button6");
+					r_FJoystick2Button6 = new(Type, "Joystick2Button6");
 				}
 				return r_FJoystick2Button6;
 			}
@@ -3182,7 +3183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button7 == null)
 				{
-					r_FJoystick2Button7 = new(typeof(UnityEngine.KeyCode), "Joystick2Button7");
+					r_FJoystick2Button7 = new(Type, "Joystick2Button7");
 				}
 				return r_FJoystick2Button7;
 			}
@@ -3198,7 +3199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button8 == null)
 				{
-					r_FJoystick2Button8 = new(typeof(UnityEngine.KeyCode), "Joystick2Button8");
+					r_FJoystick2Button8 = new(Type, "Joystick2Button8");
 				}
 				return r_FJoystick2Button8;
 			}
@@ -3214,7 +3215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button9 == null)
 				{
-					r_FJoystick2Button9 = new(typeof(UnityEngine.KeyCode), "Joystick2Button9");
+					r_FJoystick2Button9 = new(Type, "Joystick2Button9");
 				}
 				return r_FJoystick2Button9;
 			}
@@ -3230,7 +3231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button10 == null)
 				{
-					r_FJoystick2Button10 = new(typeof(UnityEngine.KeyCode), "Joystick2Button10");
+					r_FJoystick2Button10 = new(Type, "Joystick2Button10");
 				}
 				return r_FJoystick2Button10;
 			}
@@ -3246,7 +3247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button11 == null)
 				{
-					r_FJoystick2Button11 = new(typeof(UnityEngine.KeyCode), "Joystick2Button11");
+					r_FJoystick2Button11 = new(Type, "Joystick2Button11");
 				}
 				return r_FJoystick2Button11;
 			}
@@ -3262,7 +3263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button12 == null)
 				{
-					r_FJoystick2Button12 = new(typeof(UnityEngine.KeyCode), "Joystick2Button12");
+					r_FJoystick2Button12 = new(Type, "Joystick2Button12");
 				}
 				return r_FJoystick2Button12;
 			}
@@ -3278,7 +3279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button13 == null)
 				{
-					r_FJoystick2Button13 = new(typeof(UnityEngine.KeyCode), "Joystick2Button13");
+					r_FJoystick2Button13 = new(Type, "Joystick2Button13");
 				}
 				return r_FJoystick2Button13;
 			}
@@ -3294,7 +3295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button14 == null)
 				{
-					r_FJoystick2Button14 = new(typeof(UnityEngine.KeyCode), "Joystick2Button14");
+					r_FJoystick2Button14 = new(Type, "Joystick2Button14");
 				}
 				return r_FJoystick2Button14;
 			}
@@ -3310,7 +3311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button15 == null)
 				{
-					r_FJoystick2Button15 = new(typeof(UnityEngine.KeyCode), "Joystick2Button15");
+					r_FJoystick2Button15 = new(Type, "Joystick2Button15");
 				}
 				return r_FJoystick2Button15;
 			}
@@ -3326,7 +3327,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button16 == null)
 				{
-					r_FJoystick2Button16 = new(typeof(UnityEngine.KeyCode), "Joystick2Button16");
+					r_FJoystick2Button16 = new(Type, "Joystick2Button16");
 				}
 				return r_FJoystick2Button16;
 			}
@@ -3342,7 +3343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button17 == null)
 				{
-					r_FJoystick2Button17 = new(typeof(UnityEngine.KeyCode), "Joystick2Button17");
+					r_FJoystick2Button17 = new(Type, "Joystick2Button17");
 				}
 				return r_FJoystick2Button17;
 			}
@@ -3358,7 +3359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button18 == null)
 				{
-					r_FJoystick2Button18 = new(typeof(UnityEngine.KeyCode), "Joystick2Button18");
+					r_FJoystick2Button18 = new(Type, "Joystick2Button18");
 				}
 				return r_FJoystick2Button18;
 			}
@@ -3374,7 +3375,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick2Button19 == null)
 				{
-					r_FJoystick2Button19 = new(typeof(UnityEngine.KeyCode), "Joystick2Button19");
+					r_FJoystick2Button19 = new(Type, "Joystick2Button19");
 				}
 				return r_FJoystick2Button19;
 			}
@@ -3390,7 +3391,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button0 == null)
 				{
-					r_FJoystick3Button0 = new(typeof(UnityEngine.KeyCode), "Joystick3Button0");
+					r_FJoystick3Button0 = new(Type, "Joystick3Button0");
 				}
 				return r_FJoystick3Button0;
 			}
@@ -3406,7 +3407,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button1 == null)
 				{
-					r_FJoystick3Button1 = new(typeof(UnityEngine.KeyCode), "Joystick3Button1");
+					r_FJoystick3Button1 = new(Type, "Joystick3Button1");
 				}
 				return r_FJoystick3Button1;
 			}
@@ -3422,7 +3423,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button2 == null)
 				{
-					r_FJoystick3Button2 = new(typeof(UnityEngine.KeyCode), "Joystick3Button2");
+					r_FJoystick3Button2 = new(Type, "Joystick3Button2");
 				}
 				return r_FJoystick3Button2;
 			}
@@ -3438,7 +3439,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button3 == null)
 				{
-					r_FJoystick3Button3 = new(typeof(UnityEngine.KeyCode), "Joystick3Button3");
+					r_FJoystick3Button3 = new(Type, "Joystick3Button3");
 				}
 				return r_FJoystick3Button3;
 			}
@@ -3454,7 +3455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button4 == null)
 				{
-					r_FJoystick3Button4 = new(typeof(UnityEngine.KeyCode), "Joystick3Button4");
+					r_FJoystick3Button4 = new(Type, "Joystick3Button4");
 				}
 				return r_FJoystick3Button4;
 			}
@@ -3470,7 +3471,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button5 == null)
 				{
-					r_FJoystick3Button5 = new(typeof(UnityEngine.KeyCode), "Joystick3Button5");
+					r_FJoystick3Button5 = new(Type, "Joystick3Button5");
 				}
 				return r_FJoystick3Button5;
 			}
@@ -3486,7 +3487,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button6 == null)
 				{
-					r_FJoystick3Button6 = new(typeof(UnityEngine.KeyCode), "Joystick3Button6");
+					r_FJoystick3Button6 = new(Type, "Joystick3Button6");
 				}
 				return r_FJoystick3Button6;
 			}
@@ -3502,7 +3503,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button7 == null)
 				{
-					r_FJoystick3Button7 = new(typeof(UnityEngine.KeyCode), "Joystick3Button7");
+					r_FJoystick3Button7 = new(Type, "Joystick3Button7");
 				}
 				return r_FJoystick3Button7;
 			}
@@ -3518,7 +3519,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button8 == null)
 				{
-					r_FJoystick3Button8 = new(typeof(UnityEngine.KeyCode), "Joystick3Button8");
+					r_FJoystick3Button8 = new(Type, "Joystick3Button8");
 				}
 				return r_FJoystick3Button8;
 			}
@@ -3534,7 +3535,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button9 == null)
 				{
-					r_FJoystick3Button9 = new(typeof(UnityEngine.KeyCode), "Joystick3Button9");
+					r_FJoystick3Button9 = new(Type, "Joystick3Button9");
 				}
 				return r_FJoystick3Button9;
 			}
@@ -3550,7 +3551,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button10 == null)
 				{
-					r_FJoystick3Button10 = new(typeof(UnityEngine.KeyCode), "Joystick3Button10");
+					r_FJoystick3Button10 = new(Type, "Joystick3Button10");
 				}
 				return r_FJoystick3Button10;
 			}
@@ -3566,7 +3567,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button11 == null)
 				{
-					r_FJoystick3Button11 = new(typeof(UnityEngine.KeyCode), "Joystick3Button11");
+					r_FJoystick3Button11 = new(Type, "Joystick3Button11");
 				}
 				return r_FJoystick3Button11;
 			}
@@ -3582,7 +3583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button12 == null)
 				{
-					r_FJoystick3Button12 = new(typeof(UnityEngine.KeyCode), "Joystick3Button12");
+					r_FJoystick3Button12 = new(Type, "Joystick3Button12");
 				}
 				return r_FJoystick3Button12;
 			}
@@ -3598,7 +3599,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button13 == null)
 				{
-					r_FJoystick3Button13 = new(typeof(UnityEngine.KeyCode), "Joystick3Button13");
+					r_FJoystick3Button13 = new(Type, "Joystick3Button13");
 				}
 				return r_FJoystick3Button13;
 			}
@@ -3614,7 +3615,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button14 == null)
 				{
-					r_FJoystick3Button14 = new(typeof(UnityEngine.KeyCode), "Joystick3Button14");
+					r_FJoystick3Button14 = new(Type, "Joystick3Button14");
 				}
 				return r_FJoystick3Button14;
 			}
@@ -3630,7 +3631,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button15 == null)
 				{
-					r_FJoystick3Button15 = new(typeof(UnityEngine.KeyCode), "Joystick3Button15");
+					r_FJoystick3Button15 = new(Type, "Joystick3Button15");
 				}
 				return r_FJoystick3Button15;
 			}
@@ -3646,7 +3647,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button16 == null)
 				{
-					r_FJoystick3Button16 = new(typeof(UnityEngine.KeyCode), "Joystick3Button16");
+					r_FJoystick3Button16 = new(Type, "Joystick3Button16");
 				}
 				return r_FJoystick3Button16;
 			}
@@ -3662,7 +3663,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button17 == null)
 				{
-					r_FJoystick3Button17 = new(typeof(UnityEngine.KeyCode), "Joystick3Button17");
+					r_FJoystick3Button17 = new(Type, "Joystick3Button17");
 				}
 				return r_FJoystick3Button17;
 			}
@@ -3678,7 +3679,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button18 == null)
 				{
-					r_FJoystick3Button18 = new(typeof(UnityEngine.KeyCode), "Joystick3Button18");
+					r_FJoystick3Button18 = new(Type, "Joystick3Button18");
 				}
 				return r_FJoystick3Button18;
 			}
@@ -3694,7 +3695,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick3Button19 == null)
 				{
-					r_FJoystick3Button19 = new(typeof(UnityEngine.KeyCode), "Joystick3Button19");
+					r_FJoystick3Button19 = new(Type, "Joystick3Button19");
 				}
 				return r_FJoystick3Button19;
 			}
@@ -3710,7 +3711,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button0 == null)
 				{
-					r_FJoystick4Button0 = new(typeof(UnityEngine.KeyCode), "Joystick4Button0");
+					r_FJoystick4Button0 = new(Type, "Joystick4Button0");
 				}
 				return r_FJoystick4Button0;
 			}
@@ -3726,7 +3727,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button1 == null)
 				{
-					r_FJoystick4Button1 = new(typeof(UnityEngine.KeyCode), "Joystick4Button1");
+					r_FJoystick4Button1 = new(Type, "Joystick4Button1");
 				}
 				return r_FJoystick4Button1;
 			}
@@ -3742,7 +3743,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button2 == null)
 				{
-					r_FJoystick4Button2 = new(typeof(UnityEngine.KeyCode), "Joystick4Button2");
+					r_FJoystick4Button2 = new(Type, "Joystick4Button2");
 				}
 				return r_FJoystick4Button2;
 			}
@@ -3758,7 +3759,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button3 == null)
 				{
-					r_FJoystick4Button3 = new(typeof(UnityEngine.KeyCode), "Joystick4Button3");
+					r_FJoystick4Button3 = new(Type, "Joystick4Button3");
 				}
 				return r_FJoystick4Button3;
 			}
@@ -3774,7 +3775,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button4 == null)
 				{
-					r_FJoystick4Button4 = new(typeof(UnityEngine.KeyCode), "Joystick4Button4");
+					r_FJoystick4Button4 = new(Type, "Joystick4Button4");
 				}
 				return r_FJoystick4Button4;
 			}
@@ -3790,7 +3791,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button5 == null)
 				{
-					r_FJoystick4Button5 = new(typeof(UnityEngine.KeyCode), "Joystick4Button5");
+					r_FJoystick4Button5 = new(Type, "Joystick4Button5");
 				}
 				return r_FJoystick4Button5;
 			}
@@ -3806,7 +3807,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button6 == null)
 				{
-					r_FJoystick4Button6 = new(typeof(UnityEngine.KeyCode), "Joystick4Button6");
+					r_FJoystick4Button6 = new(Type, "Joystick4Button6");
 				}
 				return r_FJoystick4Button6;
 			}
@@ -3822,7 +3823,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button7 == null)
 				{
-					r_FJoystick4Button7 = new(typeof(UnityEngine.KeyCode), "Joystick4Button7");
+					r_FJoystick4Button7 = new(Type, "Joystick4Button7");
 				}
 				return r_FJoystick4Button7;
 			}
@@ -3838,7 +3839,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button8 == null)
 				{
-					r_FJoystick4Button8 = new(typeof(UnityEngine.KeyCode), "Joystick4Button8");
+					r_FJoystick4Button8 = new(Type, "Joystick4Button8");
 				}
 				return r_FJoystick4Button8;
 			}
@@ -3854,7 +3855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button9 == null)
 				{
-					r_FJoystick4Button9 = new(typeof(UnityEngine.KeyCode), "Joystick4Button9");
+					r_FJoystick4Button9 = new(Type, "Joystick4Button9");
 				}
 				return r_FJoystick4Button9;
 			}
@@ -3870,7 +3871,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button10 == null)
 				{
-					r_FJoystick4Button10 = new(typeof(UnityEngine.KeyCode), "Joystick4Button10");
+					r_FJoystick4Button10 = new(Type, "Joystick4Button10");
 				}
 				return r_FJoystick4Button10;
 			}
@@ -3886,7 +3887,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button11 == null)
 				{
-					r_FJoystick4Button11 = new(typeof(UnityEngine.KeyCode), "Joystick4Button11");
+					r_FJoystick4Button11 = new(Type, "Joystick4Button11");
 				}
 				return r_FJoystick4Button11;
 			}
@@ -3902,7 +3903,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button12 == null)
 				{
-					r_FJoystick4Button12 = new(typeof(UnityEngine.KeyCode), "Joystick4Button12");
+					r_FJoystick4Button12 = new(Type, "Joystick4Button12");
 				}
 				return r_FJoystick4Button12;
 			}
@@ -3918,7 +3919,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button13 == null)
 				{
-					r_FJoystick4Button13 = new(typeof(UnityEngine.KeyCode), "Joystick4Button13");
+					r_FJoystick4Button13 = new(Type, "Joystick4Button13");
 				}
 				return r_FJoystick4Button13;
 			}
@@ -3934,7 +3935,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button14 == null)
 				{
-					r_FJoystick4Button14 = new(typeof(UnityEngine.KeyCode), "Joystick4Button14");
+					r_FJoystick4Button14 = new(Type, "Joystick4Button14");
 				}
 				return r_FJoystick4Button14;
 			}
@@ -3950,7 +3951,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button15 == null)
 				{
-					r_FJoystick4Button15 = new(typeof(UnityEngine.KeyCode), "Joystick4Button15");
+					r_FJoystick4Button15 = new(Type, "Joystick4Button15");
 				}
 				return r_FJoystick4Button15;
 			}
@@ -3966,7 +3967,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button16 == null)
 				{
-					r_FJoystick4Button16 = new(typeof(UnityEngine.KeyCode), "Joystick4Button16");
+					r_FJoystick4Button16 = new(Type, "Joystick4Button16");
 				}
 				return r_FJoystick4Button16;
 			}
@@ -3982,7 +3983,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button17 == null)
 				{
-					r_FJoystick4Button17 = new(typeof(UnityEngine.KeyCode), "Joystick4Button17");
+					r_FJoystick4Button17 = new(Type, "Joystick4Button17");
 				}
 				return r_FJoystick4Button17;
 			}
@@ -3998,7 +3999,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button18 == null)
 				{
-					r_FJoystick4Button18 = new(typeof(UnityEngine.KeyCode), "Joystick4Button18");
+					r_FJoystick4Button18 = new(Type, "Joystick4Button18");
 				}
 				return r_FJoystick4Button18;
 			}
@@ -4014,7 +4015,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick4Button19 == null)
 				{
-					r_FJoystick4Button19 = new(typeof(UnityEngine.KeyCode), "Joystick4Button19");
+					r_FJoystick4Button19 = new(Type, "Joystick4Button19");
 				}
 				return r_FJoystick4Button19;
 			}
@@ -4030,7 +4031,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button0 == null)
 				{
-					r_FJoystick5Button0 = new(typeof(UnityEngine.KeyCode), "Joystick5Button0");
+					r_FJoystick5Button0 = new(Type, "Joystick5Button0");
 				}
 				return r_FJoystick5Button0;
 			}
@@ -4046,7 +4047,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button1 == null)
 				{
-					r_FJoystick5Button1 = new(typeof(UnityEngine.KeyCode), "Joystick5Button1");
+					r_FJoystick5Button1 = new(Type, "Joystick5Button1");
 				}
 				return r_FJoystick5Button1;
 			}
@@ -4062,7 +4063,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button2 == null)
 				{
-					r_FJoystick5Button2 = new(typeof(UnityEngine.KeyCode), "Joystick5Button2");
+					r_FJoystick5Button2 = new(Type, "Joystick5Button2");
 				}
 				return r_FJoystick5Button2;
 			}
@@ -4078,7 +4079,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button3 == null)
 				{
-					r_FJoystick5Button3 = new(typeof(UnityEngine.KeyCode), "Joystick5Button3");
+					r_FJoystick5Button3 = new(Type, "Joystick5Button3");
 				}
 				return r_FJoystick5Button3;
 			}
@@ -4094,7 +4095,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button4 == null)
 				{
-					r_FJoystick5Button4 = new(typeof(UnityEngine.KeyCode), "Joystick5Button4");
+					r_FJoystick5Button4 = new(Type, "Joystick5Button4");
 				}
 				return r_FJoystick5Button4;
 			}
@@ -4110,7 +4111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button5 == null)
 				{
-					r_FJoystick5Button5 = new(typeof(UnityEngine.KeyCode), "Joystick5Button5");
+					r_FJoystick5Button5 = new(Type, "Joystick5Button5");
 				}
 				return r_FJoystick5Button5;
 			}
@@ -4126,7 +4127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button6 == null)
 				{
-					r_FJoystick5Button6 = new(typeof(UnityEngine.KeyCode), "Joystick5Button6");
+					r_FJoystick5Button6 = new(Type, "Joystick5Button6");
 				}
 				return r_FJoystick5Button6;
 			}
@@ -4142,7 +4143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button7 == null)
 				{
-					r_FJoystick5Button7 = new(typeof(UnityEngine.KeyCode), "Joystick5Button7");
+					r_FJoystick5Button7 = new(Type, "Joystick5Button7");
 				}
 				return r_FJoystick5Button7;
 			}
@@ -4158,7 +4159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button8 == null)
 				{
-					r_FJoystick5Button8 = new(typeof(UnityEngine.KeyCode), "Joystick5Button8");
+					r_FJoystick5Button8 = new(Type, "Joystick5Button8");
 				}
 				return r_FJoystick5Button8;
 			}
@@ -4174,7 +4175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button9 == null)
 				{
-					r_FJoystick5Button9 = new(typeof(UnityEngine.KeyCode), "Joystick5Button9");
+					r_FJoystick5Button9 = new(Type, "Joystick5Button9");
 				}
 				return r_FJoystick5Button9;
 			}
@@ -4190,7 +4191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button10 == null)
 				{
-					r_FJoystick5Button10 = new(typeof(UnityEngine.KeyCode), "Joystick5Button10");
+					r_FJoystick5Button10 = new(Type, "Joystick5Button10");
 				}
 				return r_FJoystick5Button10;
 			}
@@ -4206,7 +4207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button11 == null)
 				{
-					r_FJoystick5Button11 = new(typeof(UnityEngine.KeyCode), "Joystick5Button11");
+					r_FJoystick5Button11 = new(Type, "Joystick5Button11");
 				}
 				return r_FJoystick5Button11;
 			}
@@ -4222,7 +4223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button12 == null)
 				{
-					r_FJoystick5Button12 = new(typeof(UnityEngine.KeyCode), "Joystick5Button12");
+					r_FJoystick5Button12 = new(Type, "Joystick5Button12");
 				}
 				return r_FJoystick5Button12;
 			}
@@ -4238,7 +4239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button13 == null)
 				{
-					r_FJoystick5Button13 = new(typeof(UnityEngine.KeyCode), "Joystick5Button13");
+					r_FJoystick5Button13 = new(Type, "Joystick5Button13");
 				}
 				return r_FJoystick5Button13;
 			}
@@ -4254,7 +4255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button14 == null)
 				{
-					r_FJoystick5Button14 = new(typeof(UnityEngine.KeyCode), "Joystick5Button14");
+					r_FJoystick5Button14 = new(Type, "Joystick5Button14");
 				}
 				return r_FJoystick5Button14;
 			}
@@ -4270,7 +4271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button15 == null)
 				{
-					r_FJoystick5Button15 = new(typeof(UnityEngine.KeyCode), "Joystick5Button15");
+					r_FJoystick5Button15 = new(Type, "Joystick5Button15");
 				}
 				return r_FJoystick5Button15;
 			}
@@ -4286,7 +4287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button16 == null)
 				{
-					r_FJoystick5Button16 = new(typeof(UnityEngine.KeyCode), "Joystick5Button16");
+					r_FJoystick5Button16 = new(Type, "Joystick5Button16");
 				}
 				return r_FJoystick5Button16;
 			}
@@ -4302,7 +4303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button17 == null)
 				{
-					r_FJoystick5Button17 = new(typeof(UnityEngine.KeyCode), "Joystick5Button17");
+					r_FJoystick5Button17 = new(Type, "Joystick5Button17");
 				}
 				return r_FJoystick5Button17;
 			}
@@ -4318,7 +4319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button18 == null)
 				{
-					r_FJoystick5Button18 = new(typeof(UnityEngine.KeyCode), "Joystick5Button18");
+					r_FJoystick5Button18 = new(Type, "Joystick5Button18");
 				}
 				return r_FJoystick5Button18;
 			}
@@ -4334,7 +4335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick5Button19 == null)
 				{
-					r_FJoystick5Button19 = new(typeof(UnityEngine.KeyCode), "Joystick5Button19");
+					r_FJoystick5Button19 = new(Type, "Joystick5Button19");
 				}
 				return r_FJoystick5Button19;
 			}
@@ -4350,7 +4351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button0 == null)
 				{
-					r_FJoystick6Button0 = new(typeof(UnityEngine.KeyCode), "Joystick6Button0");
+					r_FJoystick6Button0 = new(Type, "Joystick6Button0");
 				}
 				return r_FJoystick6Button0;
 			}
@@ -4366,7 +4367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button1 == null)
 				{
-					r_FJoystick6Button1 = new(typeof(UnityEngine.KeyCode), "Joystick6Button1");
+					r_FJoystick6Button1 = new(Type, "Joystick6Button1");
 				}
 				return r_FJoystick6Button1;
 			}
@@ -4382,7 +4383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button2 == null)
 				{
-					r_FJoystick6Button2 = new(typeof(UnityEngine.KeyCode), "Joystick6Button2");
+					r_FJoystick6Button2 = new(Type, "Joystick6Button2");
 				}
 				return r_FJoystick6Button2;
 			}
@@ -4398,7 +4399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button3 == null)
 				{
-					r_FJoystick6Button3 = new(typeof(UnityEngine.KeyCode), "Joystick6Button3");
+					r_FJoystick6Button3 = new(Type, "Joystick6Button3");
 				}
 				return r_FJoystick6Button3;
 			}
@@ -4414,7 +4415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button4 == null)
 				{
-					r_FJoystick6Button4 = new(typeof(UnityEngine.KeyCode), "Joystick6Button4");
+					r_FJoystick6Button4 = new(Type, "Joystick6Button4");
 				}
 				return r_FJoystick6Button4;
 			}
@@ -4430,7 +4431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button5 == null)
 				{
-					r_FJoystick6Button5 = new(typeof(UnityEngine.KeyCode), "Joystick6Button5");
+					r_FJoystick6Button5 = new(Type, "Joystick6Button5");
 				}
 				return r_FJoystick6Button5;
 			}
@@ -4446,7 +4447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button6 == null)
 				{
-					r_FJoystick6Button6 = new(typeof(UnityEngine.KeyCode), "Joystick6Button6");
+					r_FJoystick6Button6 = new(Type, "Joystick6Button6");
 				}
 				return r_FJoystick6Button6;
 			}
@@ -4462,7 +4463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button7 == null)
 				{
-					r_FJoystick6Button7 = new(typeof(UnityEngine.KeyCode), "Joystick6Button7");
+					r_FJoystick6Button7 = new(Type, "Joystick6Button7");
 				}
 				return r_FJoystick6Button7;
 			}
@@ -4478,7 +4479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button8 == null)
 				{
-					r_FJoystick6Button8 = new(typeof(UnityEngine.KeyCode), "Joystick6Button8");
+					r_FJoystick6Button8 = new(Type, "Joystick6Button8");
 				}
 				return r_FJoystick6Button8;
 			}
@@ -4494,7 +4495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button9 == null)
 				{
-					r_FJoystick6Button9 = new(typeof(UnityEngine.KeyCode), "Joystick6Button9");
+					r_FJoystick6Button9 = new(Type, "Joystick6Button9");
 				}
 				return r_FJoystick6Button9;
 			}
@@ -4510,7 +4511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button10 == null)
 				{
-					r_FJoystick6Button10 = new(typeof(UnityEngine.KeyCode), "Joystick6Button10");
+					r_FJoystick6Button10 = new(Type, "Joystick6Button10");
 				}
 				return r_FJoystick6Button10;
 			}
@@ -4526,7 +4527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button11 == null)
 				{
-					r_FJoystick6Button11 = new(typeof(UnityEngine.KeyCode), "Joystick6Button11");
+					r_FJoystick6Button11 = new(Type, "Joystick6Button11");
 				}
 				return r_FJoystick6Button11;
 			}
@@ -4542,7 +4543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button12 == null)
 				{
-					r_FJoystick6Button12 = new(typeof(UnityEngine.KeyCode), "Joystick6Button12");
+					r_FJoystick6Button12 = new(Type, "Joystick6Button12");
 				}
 				return r_FJoystick6Button12;
 			}
@@ -4558,7 +4559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button13 == null)
 				{
-					r_FJoystick6Button13 = new(typeof(UnityEngine.KeyCode), "Joystick6Button13");
+					r_FJoystick6Button13 = new(Type, "Joystick6Button13");
 				}
 				return r_FJoystick6Button13;
 			}
@@ -4574,7 +4575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button14 == null)
 				{
-					r_FJoystick6Button14 = new(typeof(UnityEngine.KeyCode), "Joystick6Button14");
+					r_FJoystick6Button14 = new(Type, "Joystick6Button14");
 				}
 				return r_FJoystick6Button14;
 			}
@@ -4590,7 +4591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button15 == null)
 				{
-					r_FJoystick6Button15 = new(typeof(UnityEngine.KeyCode), "Joystick6Button15");
+					r_FJoystick6Button15 = new(Type, "Joystick6Button15");
 				}
 				return r_FJoystick6Button15;
 			}
@@ -4606,7 +4607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button16 == null)
 				{
-					r_FJoystick6Button16 = new(typeof(UnityEngine.KeyCode), "Joystick6Button16");
+					r_FJoystick6Button16 = new(Type, "Joystick6Button16");
 				}
 				return r_FJoystick6Button16;
 			}
@@ -4622,7 +4623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button17 == null)
 				{
-					r_FJoystick6Button17 = new(typeof(UnityEngine.KeyCode), "Joystick6Button17");
+					r_FJoystick6Button17 = new(Type, "Joystick6Button17");
 				}
 				return r_FJoystick6Button17;
 			}
@@ -4638,7 +4639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button18 == null)
 				{
-					r_FJoystick6Button18 = new(typeof(UnityEngine.KeyCode), "Joystick6Button18");
+					r_FJoystick6Button18 = new(Type, "Joystick6Button18");
 				}
 				return r_FJoystick6Button18;
 			}
@@ -4654,7 +4655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick6Button19 == null)
 				{
-					r_FJoystick6Button19 = new(typeof(UnityEngine.KeyCode), "Joystick6Button19");
+					r_FJoystick6Button19 = new(Type, "Joystick6Button19");
 				}
 				return r_FJoystick6Button19;
 			}
@@ -4670,7 +4671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button0 == null)
 				{
-					r_FJoystick7Button0 = new(typeof(UnityEngine.KeyCode), "Joystick7Button0");
+					r_FJoystick7Button0 = new(Type, "Joystick7Button0");
 				}
 				return r_FJoystick7Button0;
 			}
@@ -4686,7 +4687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button1 == null)
 				{
-					r_FJoystick7Button1 = new(typeof(UnityEngine.KeyCode), "Joystick7Button1");
+					r_FJoystick7Button1 = new(Type, "Joystick7Button1");
 				}
 				return r_FJoystick7Button1;
 			}
@@ -4702,7 +4703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button2 == null)
 				{
-					r_FJoystick7Button2 = new(typeof(UnityEngine.KeyCode), "Joystick7Button2");
+					r_FJoystick7Button2 = new(Type, "Joystick7Button2");
 				}
 				return r_FJoystick7Button2;
 			}
@@ -4718,7 +4719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button3 == null)
 				{
-					r_FJoystick7Button3 = new(typeof(UnityEngine.KeyCode), "Joystick7Button3");
+					r_FJoystick7Button3 = new(Type, "Joystick7Button3");
 				}
 				return r_FJoystick7Button3;
 			}
@@ -4734,7 +4735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button4 == null)
 				{
-					r_FJoystick7Button4 = new(typeof(UnityEngine.KeyCode), "Joystick7Button4");
+					r_FJoystick7Button4 = new(Type, "Joystick7Button4");
 				}
 				return r_FJoystick7Button4;
 			}
@@ -4750,7 +4751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button5 == null)
 				{
-					r_FJoystick7Button5 = new(typeof(UnityEngine.KeyCode), "Joystick7Button5");
+					r_FJoystick7Button5 = new(Type, "Joystick7Button5");
 				}
 				return r_FJoystick7Button5;
 			}
@@ -4766,7 +4767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button6 == null)
 				{
-					r_FJoystick7Button6 = new(typeof(UnityEngine.KeyCode), "Joystick7Button6");
+					r_FJoystick7Button6 = new(Type, "Joystick7Button6");
 				}
 				return r_FJoystick7Button6;
 			}
@@ -4782,7 +4783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button7 == null)
 				{
-					r_FJoystick7Button7 = new(typeof(UnityEngine.KeyCode), "Joystick7Button7");
+					r_FJoystick7Button7 = new(Type, "Joystick7Button7");
 				}
 				return r_FJoystick7Button7;
 			}
@@ -4798,7 +4799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button8 == null)
 				{
-					r_FJoystick7Button8 = new(typeof(UnityEngine.KeyCode), "Joystick7Button8");
+					r_FJoystick7Button8 = new(Type, "Joystick7Button8");
 				}
 				return r_FJoystick7Button8;
 			}
@@ -4814,7 +4815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button9 == null)
 				{
-					r_FJoystick7Button9 = new(typeof(UnityEngine.KeyCode), "Joystick7Button9");
+					r_FJoystick7Button9 = new(Type, "Joystick7Button9");
 				}
 				return r_FJoystick7Button9;
 			}
@@ -4830,7 +4831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button10 == null)
 				{
-					r_FJoystick7Button10 = new(typeof(UnityEngine.KeyCode), "Joystick7Button10");
+					r_FJoystick7Button10 = new(Type, "Joystick7Button10");
 				}
 				return r_FJoystick7Button10;
 			}
@@ -4846,7 +4847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button11 == null)
 				{
-					r_FJoystick7Button11 = new(typeof(UnityEngine.KeyCode), "Joystick7Button11");
+					r_FJoystick7Button11 = new(Type, "Joystick7Button11");
 				}
 				return r_FJoystick7Button11;
 			}
@@ -4862,7 +4863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button12 == null)
 				{
-					r_FJoystick7Button12 = new(typeof(UnityEngine.KeyCode), "Joystick7Button12");
+					r_FJoystick7Button12 = new(Type, "Joystick7Button12");
 				}
 				return r_FJoystick7Button12;
 			}
@@ -4878,7 +4879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button13 == null)
 				{
-					r_FJoystick7Button13 = new(typeof(UnityEngine.KeyCode), "Joystick7Button13");
+					r_FJoystick7Button13 = new(Type, "Joystick7Button13");
 				}
 				return r_FJoystick7Button13;
 			}
@@ -4894,7 +4895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button14 == null)
 				{
-					r_FJoystick7Button14 = new(typeof(UnityEngine.KeyCode), "Joystick7Button14");
+					r_FJoystick7Button14 = new(Type, "Joystick7Button14");
 				}
 				return r_FJoystick7Button14;
 			}
@@ -4910,7 +4911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button15 == null)
 				{
-					r_FJoystick7Button15 = new(typeof(UnityEngine.KeyCode), "Joystick7Button15");
+					r_FJoystick7Button15 = new(Type, "Joystick7Button15");
 				}
 				return r_FJoystick7Button15;
 			}
@@ -4926,7 +4927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button16 == null)
 				{
-					r_FJoystick7Button16 = new(typeof(UnityEngine.KeyCode), "Joystick7Button16");
+					r_FJoystick7Button16 = new(Type, "Joystick7Button16");
 				}
 				return r_FJoystick7Button16;
 			}
@@ -4942,7 +4943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button17 == null)
 				{
-					r_FJoystick7Button17 = new(typeof(UnityEngine.KeyCode), "Joystick7Button17");
+					r_FJoystick7Button17 = new(Type, "Joystick7Button17");
 				}
 				return r_FJoystick7Button17;
 			}
@@ -4958,7 +4959,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button18 == null)
 				{
-					r_FJoystick7Button18 = new(typeof(UnityEngine.KeyCode), "Joystick7Button18");
+					r_FJoystick7Button18 = new(Type, "Joystick7Button18");
 				}
 				return r_FJoystick7Button18;
 			}
@@ -4974,7 +4975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick7Button19 == null)
 				{
-					r_FJoystick7Button19 = new(typeof(UnityEngine.KeyCode), "Joystick7Button19");
+					r_FJoystick7Button19 = new(Type, "Joystick7Button19");
 				}
 				return r_FJoystick7Button19;
 			}
@@ -4990,7 +4991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button0 == null)
 				{
-					r_FJoystick8Button0 = new(typeof(UnityEngine.KeyCode), "Joystick8Button0");
+					r_FJoystick8Button0 = new(Type, "Joystick8Button0");
 				}
 				return r_FJoystick8Button0;
 			}
@@ -5006,7 +5007,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button1 == null)
 				{
-					r_FJoystick8Button1 = new(typeof(UnityEngine.KeyCode), "Joystick8Button1");
+					r_FJoystick8Button1 = new(Type, "Joystick8Button1");
 				}
 				return r_FJoystick8Button1;
 			}
@@ -5022,7 +5023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button2 == null)
 				{
-					r_FJoystick8Button2 = new(typeof(UnityEngine.KeyCode), "Joystick8Button2");
+					r_FJoystick8Button2 = new(Type, "Joystick8Button2");
 				}
 				return r_FJoystick8Button2;
 			}
@@ -5038,7 +5039,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button3 == null)
 				{
-					r_FJoystick8Button3 = new(typeof(UnityEngine.KeyCode), "Joystick8Button3");
+					r_FJoystick8Button3 = new(Type, "Joystick8Button3");
 				}
 				return r_FJoystick8Button3;
 			}
@@ -5054,7 +5055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button4 == null)
 				{
-					r_FJoystick8Button4 = new(typeof(UnityEngine.KeyCode), "Joystick8Button4");
+					r_FJoystick8Button4 = new(Type, "Joystick8Button4");
 				}
 				return r_FJoystick8Button4;
 			}
@@ -5070,7 +5071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button5 == null)
 				{
-					r_FJoystick8Button5 = new(typeof(UnityEngine.KeyCode), "Joystick8Button5");
+					r_FJoystick8Button5 = new(Type, "Joystick8Button5");
 				}
 				return r_FJoystick8Button5;
 			}
@@ -5086,7 +5087,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button6 == null)
 				{
-					r_FJoystick8Button6 = new(typeof(UnityEngine.KeyCode), "Joystick8Button6");
+					r_FJoystick8Button6 = new(Type, "Joystick8Button6");
 				}
 				return r_FJoystick8Button6;
 			}
@@ -5102,7 +5103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button7 == null)
 				{
-					r_FJoystick8Button7 = new(typeof(UnityEngine.KeyCode), "Joystick8Button7");
+					r_FJoystick8Button7 = new(Type, "Joystick8Button7");
 				}
 				return r_FJoystick8Button7;
 			}
@@ -5118,7 +5119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button8 == null)
 				{
-					r_FJoystick8Button8 = new(typeof(UnityEngine.KeyCode), "Joystick8Button8");
+					r_FJoystick8Button8 = new(Type, "Joystick8Button8");
 				}
 				return r_FJoystick8Button8;
 			}
@@ -5134,7 +5135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button9 == null)
 				{
-					r_FJoystick8Button9 = new(typeof(UnityEngine.KeyCode), "Joystick8Button9");
+					r_FJoystick8Button9 = new(Type, "Joystick8Button9");
 				}
 				return r_FJoystick8Button9;
 			}
@@ -5150,7 +5151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button10 == null)
 				{
-					r_FJoystick8Button10 = new(typeof(UnityEngine.KeyCode), "Joystick8Button10");
+					r_FJoystick8Button10 = new(Type, "Joystick8Button10");
 				}
 				return r_FJoystick8Button10;
 			}
@@ -5166,7 +5167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button11 == null)
 				{
-					r_FJoystick8Button11 = new(typeof(UnityEngine.KeyCode), "Joystick8Button11");
+					r_FJoystick8Button11 = new(Type, "Joystick8Button11");
 				}
 				return r_FJoystick8Button11;
 			}
@@ -5182,7 +5183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button12 == null)
 				{
-					r_FJoystick8Button12 = new(typeof(UnityEngine.KeyCode), "Joystick8Button12");
+					r_FJoystick8Button12 = new(Type, "Joystick8Button12");
 				}
 				return r_FJoystick8Button12;
 			}
@@ -5198,7 +5199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button13 == null)
 				{
-					r_FJoystick8Button13 = new(typeof(UnityEngine.KeyCode), "Joystick8Button13");
+					r_FJoystick8Button13 = new(Type, "Joystick8Button13");
 				}
 				return r_FJoystick8Button13;
 			}
@@ -5214,7 +5215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button14 == null)
 				{
-					r_FJoystick8Button14 = new(typeof(UnityEngine.KeyCode), "Joystick8Button14");
+					r_FJoystick8Button14 = new(Type, "Joystick8Button14");
 				}
 				return r_FJoystick8Button14;
 			}
@@ -5230,7 +5231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button15 == null)
 				{
-					r_FJoystick8Button15 = new(typeof(UnityEngine.KeyCode), "Joystick8Button15");
+					r_FJoystick8Button15 = new(Type, "Joystick8Button15");
 				}
 				return r_FJoystick8Button15;
 			}
@@ -5246,7 +5247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button16 == null)
 				{
-					r_FJoystick8Button16 = new(typeof(UnityEngine.KeyCode), "Joystick8Button16");
+					r_FJoystick8Button16 = new(Type, "Joystick8Button16");
 				}
 				return r_FJoystick8Button16;
 			}
@@ -5262,7 +5263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button17 == null)
 				{
-					r_FJoystick8Button17 = new(typeof(UnityEngine.KeyCode), "Joystick8Button17");
+					r_FJoystick8Button17 = new(Type, "Joystick8Button17");
 				}
 				return r_FJoystick8Button17;
 			}
@@ -5278,7 +5279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button18 == null)
 				{
-					r_FJoystick8Button18 = new(typeof(UnityEngine.KeyCode), "Joystick8Button18");
+					r_FJoystick8Button18 = new(Type, "Joystick8Button18");
 				}
 				return r_FJoystick8Button18;
 			}
@@ -5294,7 +5295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FJoystick8Button19 == null)
 				{
-					r_FJoystick8Button19 = new(typeof(UnityEngine.KeyCode), "Joystick8Button19");
+					r_FJoystick8Button19 = new(Type, "Joystick8Button19");
 				}
 				return r_FJoystick8Button19;
 			}
@@ -5516,7 +5517,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -5527,7 +5528,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -5538,7 +5539,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -5549,7 +5550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -5560,7 +5561,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -5571,7 +5572,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -5582,7 +5583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -5593,7 +5594,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -5604,7 +5605,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -5615,7 +5616,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -5637,7 +5638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -5648,7 +5649,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

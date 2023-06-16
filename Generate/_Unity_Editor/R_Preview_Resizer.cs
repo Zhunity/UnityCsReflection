@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PreviewResizer
 	/// </summary>
     public partial class RPreviewResizer : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_DraggedPreviewSize == null)
 				{
-					r_Fs_DraggedPreviewSize = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_DraggedPreviewSize");
+					r_Fs_DraggedPreviewSize = new(Type, "s_DraggedPreviewSize");
 				}
 				return r_Fs_DraggedPreviewSize;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_CachedPreviewSizeWhileDragging == null)
 				{
-					r_Fs_CachedPreviewSizeWhileDragging = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_CachedPreviewSizeWhileDragging");
+					r_Fs_CachedPreviewSizeWhileDragging = new(Type, "s_CachedPreviewSizeWhileDragging");
 				}
 				return r_Fs_CachedPreviewSizeWhileDragging;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_MouseDownLocation == null)
 				{
-					r_Fs_MouseDownLocation = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDownLocation");
+					r_Fs_MouseDownLocation = new(Type, "s_MouseDownLocation");
 				}
 				return r_Fs_MouseDownLocation;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_MouseDownValue == null)
 				{
-					r_Fs_MouseDownValue = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDownValue");
+					r_Fs_MouseDownValue = new(Type, "s_MouseDownValue");
 				}
 				return r_Fs_MouseDownValue;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_MouseDragged == null)
 				{
-					r_Fs_MouseDragged = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "s_MouseDragged");
+					r_Fs_MouseDragged = new(Type, "s_MouseDragged");
 				}
 				return r_Fs_MouseDragged;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean == null)
 				{
-					r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType());
+					r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean = new(Type, "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType());
 				}
 				return r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean == null)
 				{
-					r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean = new( ReflectionUtils.GetType("UnityEditor.PreviewResizer"), "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean));
+					r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean = new(Type, "PixelPreciseCollapsibleSlider", 0, typeof(System.Int32), typeof(UnityEngine.Rect), typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean));
 				}
 				return r_MPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean;
 			}
@@ -583,7 +584,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight};
             var ___result = RMResizeHandle_Rect_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -594,7 +595,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight, @dragRect};
             var ___result = RMResizeHandle_Rect_Single_Single_Single_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -605,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@windowPosition, @minSize, @minRemainingSize, @resizerHeight, @dragRect, @isExpanded};
             var ___result = RMSetExpanded_Rect_Single_Single_Single_Rect_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -616,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetExpanded.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -627,7 +628,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetPreviewSize.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetExpandedBeforeDragging.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -672,7 +673,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean.Invoke(___genericsType, ___parameters);
 			@expanded = (System.Boolean)___parameters[5];
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -684,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMPixelPreciseCollapsibleSlider_Int32_Rect_Single_Single_Single_Ref_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@expanded = (System.Boolean)___parameters[5];
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -706,7 +707,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -728,7 +729,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -739,7 +740,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -761,7 +762,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

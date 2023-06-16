@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.Stack
 	/// </summary>
     public partial class RStack : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_F_defaultCapacity == null)
 				{
-					r_F_defaultCapacity = new(typeof(System.Collections.Stack), "_defaultCapacity");
+					r_F_defaultCapacity = new(Type, "_defaultCapacity");
 				}
 				return r_F_defaultCapacity;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_MSynchronized_Stack == null)
 				{
-					r_MSynchronized_Stack = new(typeof(System.Collections.Stack), "Synchronized", 0, typeof(System.Collections.Stack));
+					r_MSynchronized_Stack = new(Type, "Synchronized", 0, typeof(System.Collections.Stack));
 				}
 				return r_MSynchronized_Stack;
 			}
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@obj};
             var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMPeek.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMPop.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@stack};
             var ___result = RMSynchronized_Stack.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Stack)___result;
+            return ReflectionUtils.Convert<System.Collections.Stack>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object[])___result;
+            return ReflectionUtils.Convert<System.Object[]>(___result);
         }
 
 
@@ -538,7 +539,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -571,7 +572,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -582,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -593,7 +594,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

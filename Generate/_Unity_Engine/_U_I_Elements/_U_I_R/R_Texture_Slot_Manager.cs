@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.UIR.TextureSlotManager
 	/// </summary>
     public partial class RTextureSlotManager : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Fk_SlotCount == null)
 				{
-					r_Fk_SlotCount = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "k_SlotCount");
+					r_Fk_SlotCount = new(Type, "k_SlotCount");
 				}
 				return r_Fk_SlotCount;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_Fk_SlotSize == null)
 				{
-					r_Fk_SlotSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "k_SlotSize");
+					r_Fk_SlotSize = new(Type, "k_SlotSize");
 				}
 				return r_Fk_SlotSize;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FslotIds == null)
 				{
-					r_FslotIds = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "slotIds");
+					r_FslotIds = new(Type, "slotIds");
 				}
 				return r_FslotIds;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 			{
 				if(r_FtextureTableId == null)
 				{
-					r_FtextureTableId = new( ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextureSlotManager"), "textureTableId");
+					r_FtextureTableId = new(Type, "textureTableId");
 				}
 				return r_FtextureTableId;
 			}
@@ -466,7 +467,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@id.Value};
             var ___result = RMIndexOf_TextureId.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -488,7 +489,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMFindOldestSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -521,7 +522,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -543,7 +544,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -554,7 +555,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -565,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -576,7 +577,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

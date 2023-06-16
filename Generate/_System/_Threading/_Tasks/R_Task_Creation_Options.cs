@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.TaskCreationOptions
 	/// </summary>
     public partial class RTaskCreationOptions : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(System.Threading.Tasks.TaskCreationOptions), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FPreferFairness == null)
 				{
-					r_FPreferFairness = new(typeof(System.Threading.Tasks.TaskCreationOptions), "PreferFairness");
+					r_FPreferFairness = new(Type, "PreferFairness");
 				}
 				return r_FPreferFairness;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FLongRunning == null)
 				{
-					r_FLongRunning = new(typeof(System.Threading.Tasks.TaskCreationOptions), "LongRunning");
+					r_FLongRunning = new(Type, "LongRunning");
 				}
 				return r_FLongRunning;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FAttachedToParent == null)
 				{
-					r_FAttachedToParent = new(typeof(System.Threading.Tasks.TaskCreationOptions), "AttachedToParent");
+					r_FAttachedToParent = new(Type, "AttachedToParent");
 				}
 				return r_FAttachedToParent;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FDenyChildAttach == null)
 				{
-					r_FDenyChildAttach = new(typeof(System.Threading.Tasks.TaskCreationOptions), "DenyChildAttach");
+					r_FDenyChildAttach = new(Type, "DenyChildAttach");
 				}
 				return r_FDenyChildAttach;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FHideScheduler == null)
 				{
-					r_FHideScheduler = new(typeof(System.Threading.Tasks.TaskCreationOptions), "HideScheduler");
+					r_FHideScheduler = new(Type, "HideScheduler");
 				}
 				return r_FHideScheduler;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FRunContinuationsAsynchronously == null)
 				{
-					r_FRunContinuationsAsynchronously = new(typeof(System.Threading.Tasks.TaskCreationOptions), "RunContinuationsAsynchronously");
+					r_FRunContinuationsAsynchronously = new(Type, "RunContinuationsAsynchronously");
 				}
 				return r_FRunContinuationsAsynchronously;
 			}
@@ -380,7 +381,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -391,7 +392,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -402,7 +403,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -413,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -424,7 +425,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -435,7 +436,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -457,7 +458,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -468,7 +469,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -479,7 +480,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -501,7 +502,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -512,7 +513,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

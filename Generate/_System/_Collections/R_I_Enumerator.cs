@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.IEnumerator
 	/// </summary>
     public partial class RIEnumerator : RMember //
@@ -92,7 +93,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMMoveNext.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

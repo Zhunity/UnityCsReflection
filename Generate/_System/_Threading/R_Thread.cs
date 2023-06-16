@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Thread
 	/// </summary>
     public partial class RThread : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_LocalDataStoreMgr == null)
 				{
-					r_Fs_LocalDataStoreMgr = new(typeof(System.Threading.Thread), "s_LocalDataStoreMgr");
+					r_Fs_LocalDataStoreMgr = new(Type, "s_LocalDataStoreMgr");
 				}
 				return r_Fs_LocalDataStoreMgr;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_LocalDataStore == null)
 				{
-					r_Fs_LocalDataStore = new(typeof(System.Threading.Thread), "s_LocalDataStore");
+					r_Fs_LocalDataStore = new(Type, "s_LocalDataStore");
 				}
 				return r_Fs_LocalDataStore;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fm_CurrentCulture == null)
 				{
-					r_Fm_CurrentCulture = new(typeof(System.Threading.Thread), "m_CurrentCulture");
+					r_Fm_CurrentCulture = new(Type, "m_CurrentCulture");
 				}
 				return r_Fm_CurrentCulture;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fm_CurrentUICulture == null)
 				{
-					r_Fm_CurrentUICulture = new(typeof(System.Threading.Thread), "m_CurrentUICulture");
+					r_Fm_CurrentUICulture = new(Type, "m_CurrentUICulture");
 				}
 				return r_Fm_CurrentUICulture;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_asyncLocalCurrentCulture == null)
 				{
-					r_Fs_asyncLocalCurrentCulture = new(typeof(System.Threading.Thread), "s_asyncLocalCurrentCulture");
+					r_Fs_asyncLocalCurrentCulture = new(Type, "s_asyncLocalCurrentCulture");
 				}
 				return r_Fs_asyncLocalCurrentCulture;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fs_asyncLocalCurrentUICulture == null)
 				{
-					r_Fs_asyncLocalCurrentUICulture = new(typeof(System.Threading.Thread), "s_asyncLocalCurrentUICulture");
+					r_Fs_asyncLocalCurrentUICulture = new(Type, "s_asyncLocalCurrentUICulture");
 				}
 				return r_Fs_asyncLocalCurrentUICulture;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Fcurrent_thread == null)
 				{
-					r_Fcurrent_thread = new(typeof(System.Threading.Thread), "current_thread");
+					r_Fcurrent_thread = new(Type, "current_thread");
 				}
 				return r_Fcurrent_thread;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PLocalDataStoreManager == null)
 				{
-					r_PLocalDataStoreManager = new(typeof(System.Threading.Thread), "LocalDataStoreManager", -1);
+					r_PLocalDataStoreManager = new(Type, "LocalDataStoreManager", -1);
 				}
 				return r_PLocalDataStoreManager;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrentContext == null)
 				{
-					r_PCurrentContext = new(typeof(System.Threading.Thread), "CurrentContext", -1);
+					r_PCurrentContext = new(Type, "CurrentContext", -1);
 				}
 				return r_PCurrentContext;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrentPrincipal == null)
 				{
-					r_PCurrentPrincipal = new(typeof(System.Threading.Thread), "CurrentPrincipal", -1);
+					r_PCurrentPrincipal = new(Type, "CurrentPrincipal", -1);
 				}
 				return r_PCurrentPrincipal;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrentThread == null)
 				{
-					r_PCurrentThread = new(typeof(System.Threading.Thread), "CurrentThread", -1);
+					r_PCurrentThread = new(Type, "CurrentThread", -1);
 				}
 				return r_PCurrentThread;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PCurrentThreadId == null)
 				{
-					r_PCurrentThreadId = new(typeof(System.Threading.Thread), "CurrentThreadId", -1);
+					r_PCurrentThreadId = new(Type, "CurrentThreadId", -1);
 				}
 				return r_PCurrentThreadId;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ == null)
 				{
-					r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(typeof(System.Threading.Thread), "AsyncLocalSetCurrentCulture", 0,  ReflectionUtils.GetType("System.Threading.AsyncLocalValueChangedArgs`1").MakeGenericType(typeof(System.Globalization.CultureInfo)));
+					r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(Type, "AsyncLocalSetCurrentCulture", 0,  ReflectionUtils.GetType("System.Threading.AsyncLocalValueChangedArgs`1").MakeGenericType(typeof(System.Globalization.CultureInfo)));
 				}
 				return r_MAsyncLocalSetCurrentCulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ == null)
 				{
-					r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(typeof(System.Threading.Thread), "AsyncLocalSetCurrentUICulture", 0,  ReflectionUtils.GetType("System.Threading.AsyncLocalValueChangedArgs`1").MakeGenericType(typeof(System.Globalization.CultureInfo)));
+					r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_ = new(Type, "AsyncLocalSetCurrentUICulture", 0,  ReflectionUtils.GetType("System.Threading.AsyncLocalValueChangedArgs`1").MakeGenericType(typeof(System.Globalization.CultureInfo)));
 				}
 				return r_MAsyncLocalSetCurrentUICulture_AsyncLocalValueChangedArgs_d_CultureInfo_p_;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MResetAbort == null)
 				{
-					r_MResetAbort = new(typeof(System.Threading.Thread), "ResetAbort", 0);
+					r_MResetAbort = new(Type, "ResetAbort", 0);
 				}
 				return r_MResetAbort;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSleepInternal_Int32 == null)
 				{
-					r_MSleepInternal_Int32 = new(typeof(System.Threading.Thread), "SleepInternal", 0, typeof(System.Int32));
+					r_MSleepInternal_Int32 = new(Type, "SleepInternal", 0, typeof(System.Int32));
 				}
 				return r_MSleepInternal_Int32;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSleep_Int32 == null)
 				{
-					r_MSleep_Int32 = new(typeof(System.Threading.Thread), "Sleep", 0, typeof(System.Int32));
+					r_MSleep_Int32 = new(Type, "Sleep", 0, typeof(System.Int32));
 				}
 				return r_MSleep_Int32;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSleep_TimeSpan == null)
 				{
-					r_MSleep_TimeSpan = new(typeof(System.Threading.Thread), "Sleep", 0, typeof(System.TimeSpan));
+					r_MSleep_TimeSpan = new(Type, "Sleep", 0, typeof(System.TimeSpan));
 				}
 				return r_MSleep_TimeSpan;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MYieldInternal == null)
 				{
-					r_MYieldInternal = new(typeof(System.Threading.Thread), "YieldInternal", 0);
+					r_MYieldInternal = new(Type, "YieldInternal", 0);
 				}
 				return r_MYieldInternal;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MYield == null)
 				{
-					r_MYield = new(typeof(System.Threading.Thread), "Yield", 0);
+					r_MYield = new(Type, "Yield", 0);
 				}
 				return r_MYield;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAllocateDataSlot == null)
 				{
-					r_MAllocateDataSlot = new(typeof(System.Threading.Thread), "AllocateDataSlot", 0);
+					r_MAllocateDataSlot = new(Type, "AllocateDataSlot", 0);
 				}
 				return r_MAllocateDataSlot;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAllocateNamedDataSlot_String == null)
 				{
-					r_MAllocateNamedDataSlot_String = new(typeof(System.Threading.Thread), "AllocateNamedDataSlot", 0, typeof(System.String));
+					r_MAllocateNamedDataSlot_String = new(Type, "AllocateNamedDataSlot", 0, typeof(System.String));
 				}
 				return r_MAllocateNamedDataSlot_String;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetNamedDataSlot_String == null)
 				{
-					r_MGetNamedDataSlot_String = new(typeof(System.Threading.Thread), "GetNamedDataSlot", 0, typeof(System.String));
+					r_MGetNamedDataSlot_String = new(Type, "GetNamedDataSlot", 0, typeof(System.String));
 				}
 				return r_MGetNamedDataSlot_String;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MFreeNamedDataSlot_String == null)
 				{
-					r_MFreeNamedDataSlot_String = new(typeof(System.Threading.Thread), "FreeNamedDataSlot", 0, typeof(System.String));
+					r_MFreeNamedDataSlot_String = new(Type, "FreeNamedDataSlot", 0, typeof(System.String));
 				}
 				return r_MFreeNamedDataSlot_String;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetData_LocalDataStoreSlot == null)
 				{
-					r_MGetData_LocalDataStoreSlot = new(typeof(System.Threading.Thread), "GetData", 0, typeof(System.LocalDataStoreSlot));
+					r_MGetData_LocalDataStoreSlot = new(Type, "GetData", 0, typeof(System.LocalDataStoreSlot));
 				}
 				return r_MGetData_LocalDataStoreSlot;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetData_LocalDataStoreSlot_Object == null)
 				{
-					r_MSetData_LocalDataStoreSlot_Object = new(typeof(System.Threading.Thread), "SetData", 0, typeof(System.LocalDataStoreSlot), typeof(System.Object));
+					r_MSetData_LocalDataStoreSlot_Object = new(Type, "SetData", 0, typeof(System.LocalDataStoreSlot), typeof(System.Object));
 				}
 				return r_MSetData_LocalDataStoreSlot_Object;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MnativeInitCultureAccessors == null)
 				{
-					r_MnativeInitCultureAccessors = new(typeof(System.Threading.Thread), "nativeInitCultureAccessors", 0);
+					r_MnativeInitCultureAccessors = new(Type, "nativeInitCultureAccessors", 0);
 				}
 				return r_MnativeInitCultureAccessors;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MMemoryBarrier == null)
 				{
-					r_MMemoryBarrier = new(typeof(System.Threading.Thread), "MemoryBarrier", 0);
+					r_MMemoryBarrier = new(Type, "MemoryBarrier", 0);
 				}
 				return r_MMemoryBarrier;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MByteArrayToRootDomain_ByteArray == null)
 				{
-					r_MByteArrayToRootDomain_ByteArray = new(typeof(System.Threading.Thread), "ByteArrayToRootDomain", 0, typeof(System.Byte).MakeArrayType());
+					r_MByteArrayToRootDomain_ByteArray = new(Type, "ByteArrayToRootDomain", 0, typeof(System.Byte).MakeArrayType());
 				}
 				return r_MByteArrayToRootDomain_ByteArray;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MByteArrayToCurrentDomain_ByteArray == null)
 				{
-					r_MByteArrayToCurrentDomain_ByteArray = new(typeof(System.Threading.Thread), "ByteArrayToCurrentDomain", 0, typeof(System.Byte).MakeArrayType());
+					r_MByteArrayToCurrentDomain_ByteArray = new(Type, "ByteArrayToCurrentDomain", 0, typeof(System.Byte).MakeArrayType());
 				}
 				return r_MByteArrayToCurrentDomain_ByteArray;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MDeserializePrincipal_Thread == null)
 				{
-					r_MDeserializePrincipal_Thread = new(typeof(System.Threading.Thread), "DeserializePrincipal", 0, typeof(System.Threading.Thread));
+					r_MDeserializePrincipal_Thread = new(Type, "DeserializePrincipal", 0, typeof(System.Threading.Thread));
 				}
 				return r_MDeserializePrincipal_Thread;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSerializePrincipal_Thread_IPrincipal == null)
 				{
-					r_MSerializePrincipal_Thread_IPrincipal = new(typeof(System.Threading.Thread), "SerializePrincipal", 0, typeof(System.Threading.Thread), typeof(System.Security.Principal.IPrincipal));
+					r_MSerializePrincipal_Thread_IPrincipal = new(Type, "SerializePrincipal", 0, typeof(System.Threading.Thread), typeof(System.Security.Principal.IPrincipal));
 				}
 				return r_MSerializePrincipal_Thread_IPrincipal;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetDomain == null)
 				{
-					r_MGetDomain = new(typeof(System.Threading.Thread), "GetDomain", 0);
+					r_MGetDomain = new(Type, "GetDomain", 0);
 				}
 				return r_MGetDomain;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetCurrentThread_icall_Ref_Thread == null)
 				{
-					r_MGetCurrentThread_icall_Ref_Thread = new(typeof(System.Threading.Thread), "GetCurrentThread_icall", 0, typeof(System.Threading.Thread).MakeByRefType());
+					r_MGetCurrentThread_icall_Ref_Thread = new(Type, "GetCurrentThread_icall", 0, typeof(System.Threading.Thread).MakeByRefType());
 				}
 				return r_MGetCurrentThread_icall_Ref_Thread;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetCurrentThread == null)
 				{
-					r_MGetCurrentThread = new(typeof(System.Threading.Thread), "GetCurrentThread", 0);
+					r_MGetCurrentThread = new(Type, "GetCurrentThread", 0);
 				}
 				return r_MGetCurrentThread;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetDomainID == null)
 				{
-					r_MGetDomainID = new(typeof(System.Threading.Thread), "GetDomainID", 0);
+					r_MGetDomainID = new(Type, "GetDomainID", 0);
 				}
 				return r_MGetDomainID;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetName_internal_InternalThread == null)
 				{
-					r_MGetName_internal_InternalThread = new(typeof(System.Threading.Thread), "GetName_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"));
+					r_MGetName_internal_InternalThread = new(Type, "GetName_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"));
 				}
 				return r_MGetName_internal_InternalThread;
 			}
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetName_icall_InternalThread_CharPointer_Int32 == null)
 				{
-					r_MSetName_icall_InternalThread_CharPointer_Int32 = new(typeof(System.Threading.Thread), "SetName_icall", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Char).MakePointerType(), typeof(System.Int32));
+					r_MSetName_icall_InternalThread_CharPointer_Int32 = new(Type, "SetName_icall", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Char).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MSetName_icall_InternalThread_CharPointer_Int32;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetName_internal_InternalThread_String == null)
 				{
-					r_MSetName_internal_InternalThread_String = new(typeof(System.Threading.Thread), "SetName_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.String));
+					r_MSetName_internal_InternalThread_String = new(Type, "SetName_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.String));
 				}
 				return r_MSetName_internal_InternalThread_String;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MAbort_internal_InternalThread_Object == null)
 				{
-					r_MAbort_internal_InternalThread_Object = new(typeof(System.Threading.Thread), "Abort_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Object));
+					r_MAbort_internal_InternalThread_Object = new(Type, "Abort_internal", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Object));
 				}
 				return r_MAbort_internal_InternalThread_Object;
 			}
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSpinWait_nop == null)
 				{
-					r_MSpinWait_nop = new(typeof(System.Threading.Thread), "SpinWait_nop", 0);
+					r_MSpinWait_nop = new(Type, "SpinWait_nop", 0);
 				}
 				return r_MSpinWait_nop;
 			}
@@ -1646,7 +1647,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSpinWait_Int32 == null)
 				{
-					r_MSpinWait_Int32 = new(typeof(System.Threading.Thread), "SpinWait", 0, typeof(System.Int32));
+					r_MSpinWait_Int32 = new(Type, "SpinWait", 0, typeof(System.Int32));
 				}
 				return r_MSpinWait_Int32;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSetState_InternalThread_ThreadState == null)
 				{
-					r_MSetState_InternalThread_ThreadState = new(typeof(System.Threading.Thread), "SetState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
+					r_MSetState_InternalThread_ThreadState = new(Type, "SetState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
 				}
 				return r_MSetState_InternalThread_ThreadState;
 			}
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MClrState_InternalThread_ThreadState == null)
 				{
-					r_MClrState_InternalThread_ThreadState = new(typeof(System.Threading.Thread), "ClrState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
+					r_MClrState_InternalThread_ThreadState = new(Type, "ClrState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"), typeof(System.Threading.ThreadState));
 				}
 				return r_MClrState_InternalThread_ThreadState;
 			}
@@ -1710,7 +1711,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetState_InternalThread == null)
 				{
-					r_MGetState_InternalThread = new(typeof(System.Threading.Thread), "GetState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"));
+					r_MGetState_InternalThread = new(Type, "GetState", 0,  ReflectionUtils.GetType("System.Threading.InternalThread"));
 				}
 				return r_MGetState_InternalThread;
 			}
@@ -1726,7 +1727,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Byte == null)
 				{
-					r_MVolatileRead_Ref_Byte = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Byte).MakeByRefType());
+					r_MVolatileRead_Ref_Byte = new(Type, "VolatileRead", 0, typeof(System.Byte).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Byte;
 			}
@@ -1742,7 +1743,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Double == null)
 				{
-					r_MVolatileRead_Ref_Double = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Double).MakeByRefType());
+					r_MVolatileRead_Ref_Double = new(Type, "VolatileRead", 0, typeof(System.Double).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Double;
 			}
@@ -1758,7 +1759,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Int16 == null)
 				{
-					r_MVolatileRead_Ref_Int16 = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Int16).MakeByRefType());
+					r_MVolatileRead_Ref_Int16 = new(Type, "VolatileRead", 0, typeof(System.Int16).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Int16;
 			}
@@ -1774,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Int32 == null)
 				{
-					r_MVolatileRead_Ref_Int32 = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Int32).MakeByRefType());
+					r_MVolatileRead_Ref_Int32 = new(Type, "VolatileRead", 0, typeof(System.Int32).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Int32;
 			}
@@ -1790,7 +1791,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Int64 == null)
 				{
-					r_MVolatileRead_Ref_Int64 = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Int64).MakeByRefType());
+					r_MVolatileRead_Ref_Int64 = new(Type, "VolatileRead", 0, typeof(System.Int64).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Int64;
 			}
@@ -1806,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_IntPtr == null)
 				{
-					r_MVolatileRead_Ref_IntPtr = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.IntPtr).MakeByRefType());
+					r_MVolatileRead_Ref_IntPtr = new(Type, "VolatileRead", 0, typeof(System.IntPtr).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_IntPtr;
 			}
@@ -1822,7 +1823,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Object == null)
 				{
-					r_MVolatileRead_Ref_Object = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Object).MakeByRefType());
+					r_MVolatileRead_Ref_Object = new(Type, "VolatileRead", 0, typeof(System.Object).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Object;
 			}
@@ -1838,7 +1839,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_SByte == null)
 				{
-					r_MVolatileRead_Ref_SByte = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.SByte).MakeByRefType());
+					r_MVolatileRead_Ref_SByte = new(Type, "VolatileRead", 0, typeof(System.SByte).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_SByte;
 			}
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_Single == null)
 				{
-					r_MVolatileRead_Ref_Single = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.Single).MakeByRefType());
+					r_MVolatileRead_Ref_Single = new(Type, "VolatileRead", 0, typeof(System.Single).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_Single;
 			}
@@ -1870,7 +1871,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_UInt16 == null)
 				{
-					r_MVolatileRead_Ref_UInt16 = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.UInt16).MakeByRefType());
+					r_MVolatileRead_Ref_UInt16 = new(Type, "VolatileRead", 0, typeof(System.UInt16).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_UInt16;
 			}
@@ -1886,7 +1887,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_UInt32 == null)
 				{
-					r_MVolatileRead_Ref_UInt32 = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.UInt32).MakeByRefType());
+					r_MVolatileRead_Ref_UInt32 = new(Type, "VolatileRead", 0, typeof(System.UInt32).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_UInt32;
 			}
@@ -1902,7 +1903,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_UInt64 == null)
 				{
-					r_MVolatileRead_Ref_UInt64 = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.UInt64).MakeByRefType());
+					r_MVolatileRead_Ref_UInt64 = new(Type, "VolatileRead", 0, typeof(System.UInt64).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_UInt64;
 			}
@@ -1918,7 +1919,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileRead_Ref_UIntPtr == null)
 				{
-					r_MVolatileRead_Ref_UIntPtr = new(typeof(System.Threading.Thread), "VolatileRead", 0, typeof(System.UIntPtr).MakeByRefType());
+					r_MVolatileRead_Ref_UIntPtr = new(Type, "VolatileRead", 0, typeof(System.UIntPtr).MakeByRefType());
 				}
 				return r_MVolatileRead_Ref_UIntPtr;
 			}
@@ -1934,7 +1935,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Byte_Byte == null)
 				{
-					r_MVolatileWrite_Ref_Byte_Byte = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Byte).MakeByRefType(), typeof(System.Byte));
+					r_MVolatileWrite_Ref_Byte_Byte = new(Type, "VolatileWrite", 0, typeof(System.Byte).MakeByRefType(), typeof(System.Byte));
 				}
 				return r_MVolatileWrite_Ref_Byte_Byte;
 			}
@@ -1950,7 +1951,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Double_Double == null)
 				{
-					r_MVolatileWrite_Ref_Double_Double = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Double).MakeByRefType(), typeof(System.Double));
+					r_MVolatileWrite_Ref_Double_Double = new(Type, "VolatileWrite", 0, typeof(System.Double).MakeByRefType(), typeof(System.Double));
 				}
 				return r_MVolatileWrite_Ref_Double_Double;
 			}
@@ -1966,7 +1967,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Int16_Int16 == null)
 				{
-					r_MVolatileWrite_Ref_Int16_Int16 = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Int16).MakeByRefType(), typeof(System.Int16));
+					r_MVolatileWrite_Ref_Int16_Int16 = new(Type, "VolatileWrite", 0, typeof(System.Int16).MakeByRefType(), typeof(System.Int16));
 				}
 				return r_MVolatileWrite_Ref_Int16_Int16;
 			}
@@ -1982,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Int32_Int32 == null)
 				{
-					r_MVolatileWrite_Ref_Int32_Int32 = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Int32).MakeByRefType(), typeof(System.Int32));
+					r_MVolatileWrite_Ref_Int32_Int32 = new(Type, "VolatileWrite", 0, typeof(System.Int32).MakeByRefType(), typeof(System.Int32));
 				}
 				return r_MVolatileWrite_Ref_Int32_Int32;
 			}
@@ -1998,7 +1999,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Int64_Int64 == null)
 				{
-					r_MVolatileWrite_Ref_Int64_Int64 = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Int64).MakeByRefType(), typeof(System.Int64));
+					r_MVolatileWrite_Ref_Int64_Int64 = new(Type, "VolatileWrite", 0, typeof(System.Int64).MakeByRefType(), typeof(System.Int64));
 				}
 				return r_MVolatileWrite_Ref_Int64_Int64;
 			}
@@ -2014,7 +2015,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_IntPtr_IntPtr == null)
 				{
-					r_MVolatileWrite_Ref_IntPtr_IntPtr = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.IntPtr).MakeByRefType(), typeof(System.IntPtr));
+					r_MVolatileWrite_Ref_IntPtr_IntPtr = new(Type, "VolatileWrite", 0, typeof(System.IntPtr).MakeByRefType(), typeof(System.IntPtr));
 				}
 				return r_MVolatileWrite_Ref_IntPtr_IntPtr;
 			}
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Object_Object == null)
 				{
-					r_MVolatileWrite_Ref_Object_Object = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Object).MakeByRefType(), typeof(System.Object));
+					r_MVolatileWrite_Ref_Object_Object = new(Type, "VolatileWrite", 0, typeof(System.Object).MakeByRefType(), typeof(System.Object));
 				}
 				return r_MVolatileWrite_Ref_Object_Object;
 			}
@@ -2046,7 +2047,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_SByte_SByte == null)
 				{
-					r_MVolatileWrite_Ref_SByte_SByte = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.SByte).MakeByRefType(), typeof(System.SByte));
+					r_MVolatileWrite_Ref_SByte_SByte = new(Type, "VolatileWrite", 0, typeof(System.SByte).MakeByRefType(), typeof(System.SByte));
 				}
 				return r_MVolatileWrite_Ref_SByte_SByte;
 			}
@@ -2062,7 +2063,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_Single_Single == null)
 				{
-					r_MVolatileWrite_Ref_Single_Single = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.Single).MakeByRefType(), typeof(System.Single));
+					r_MVolatileWrite_Ref_Single_Single = new(Type, "VolatileWrite", 0, typeof(System.Single).MakeByRefType(), typeof(System.Single));
 				}
 				return r_MVolatileWrite_Ref_Single_Single;
 			}
@@ -2078,7 +2079,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_UInt16_UInt16 == null)
 				{
-					r_MVolatileWrite_Ref_UInt16_UInt16 = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.UInt16).MakeByRefType(), typeof(System.UInt16));
+					r_MVolatileWrite_Ref_UInt16_UInt16 = new(Type, "VolatileWrite", 0, typeof(System.UInt16).MakeByRefType(), typeof(System.UInt16));
 				}
 				return r_MVolatileWrite_Ref_UInt16_UInt16;
 			}
@@ -2094,7 +2095,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_UInt32_UInt32 == null)
 				{
-					r_MVolatileWrite_Ref_UInt32_UInt32 = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
+					r_MVolatileWrite_Ref_UInt32_UInt32 = new(Type, "VolatileWrite", 0, typeof(System.UInt32).MakeByRefType(), typeof(System.UInt32));
 				}
 				return r_MVolatileWrite_Ref_UInt32_UInt32;
 			}
@@ -2110,7 +2111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_UInt64_UInt64 == null)
 				{
-					r_MVolatileWrite_Ref_UInt64_UInt64 = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64));
+					r_MVolatileWrite_Ref_UInt64_UInt64 = new(Type, "VolatileWrite", 0, typeof(System.UInt64).MakeByRefType(), typeof(System.UInt64));
 				}
 				return r_MVolatileWrite_Ref_UInt64_UInt64;
 			}
@@ -2126,7 +2127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MVolatileWrite_Ref_UIntPtr_UIntPtr == null)
 				{
-					r_MVolatileWrite_Ref_UIntPtr_UIntPtr = new(typeof(System.Threading.Thread), "VolatileWrite", 0, typeof(System.UIntPtr).MakeByRefType(), typeof(System.UIntPtr));
+					r_MVolatileWrite_Ref_UIntPtr_UIntPtr = new(Type, "VolatileWrite", 0, typeof(System.UIntPtr).MakeByRefType(), typeof(System.UIntPtr));
 				}
 				return r_MVolatileWrite_Ref_UIntPtr_UIntPtr;
 			}
@@ -2142,7 +2143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSystemMaxStackStize == null)
 				{
-					r_MSystemMaxStackStize = new(typeof(System.Threading.Thread), "SystemMaxStackStize", 0);
+					r_MSystemMaxStackStize = new(Type, "SystemMaxStackStize", 0);
 				}
 				return r_MSystemMaxStackStize;
 			}
@@ -2158,7 +2159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetProcessDefaultStackSize_Int32 == null)
 				{
-					r_MGetProcessDefaultStackSize_Int32 = new(typeof(System.Threading.Thread), "GetProcessDefaultStackSize", 0, typeof(System.Int32));
+					r_MGetProcessDefaultStackSize_Int32 = new(Type, "GetProcessDefaultStackSize", 0, typeof(System.Int32));
 				}
 				return r_MGetProcessDefaultStackSize_Int32;
 			}
@@ -2190,7 +2191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MBeginCriticalRegion == null)
 				{
-					r_MBeginCriticalRegion = new(typeof(System.Threading.Thread), "BeginCriticalRegion", 0);
+					r_MBeginCriticalRegion = new(Type, "BeginCriticalRegion", 0);
 				}
 				return r_MBeginCriticalRegion;
 			}
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MEndCriticalRegion == null)
 				{
-					r_MEndCriticalRegion = new(typeof(System.Threading.Thread), "EndCriticalRegion", 0);
+					r_MEndCriticalRegion = new(Type, "EndCriticalRegion", 0);
 				}
 				return r_MEndCriticalRegion;
 			}
@@ -2222,7 +2223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MBeginThreadAffinity == null)
 				{
-					r_MBeginThreadAffinity = new(typeof(System.Threading.Thread), "BeginThreadAffinity", 0);
+					r_MBeginThreadAffinity = new(Type, "BeginThreadAffinity", 0);
 				}
 				return r_MBeginThreadAffinity;
 			}
@@ -2238,7 +2239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MEndThreadAffinity == null)
 				{
-					r_MEndThreadAffinity = new(typeof(System.Threading.Thread), "EndThreadAffinity", 0);
+					r_MEndThreadAffinity = new(Type, "EndThreadAffinity", 0);
 				}
 				return r_MEndThreadAffinity;
 			}
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetStackTraces_Out_ThreadArray_Out_ObjectArray == null)
 				{
-					r_MGetStackTraces_Out_ThreadArray_Out_ObjectArray = new(typeof(System.Threading.Thread), "GetStackTraces", 0, typeof(System.Threading.Thread).MakeArrayType().MakeByRefType(), typeof(System.Object).MakeArrayType().MakeByRefType());
+					r_MGetStackTraces_Out_ThreadArray_Out_ObjectArray = new(Type, "GetStackTraces", 0, typeof(System.Threading.Thread).MakeArrayType().MakeByRefType(), typeof(System.Object).MakeArrayType().MakeByRefType());
 				}
 				return r_MGetStackTraces_Out_ThreadArray_Out_ObjectArray;
 			}
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MMono_GetStackTraces == null)
 				{
-					r_MMono_GetStackTraces = new(typeof(System.Threading.Thread), "Mono_GetStackTraces", 0);
+					r_MMono_GetStackTraces = new(Type, "Mono_GetStackTraces", 0);
 				}
 				return r_MMono_GetStackTraces;
 			}
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetCurrentProcessorId == null)
 				{
-					r_MGetCurrentProcessorId = new(typeof(System.Threading.Thread), "GetCurrentProcessorId", 0);
+					r_MGetCurrentProcessorId = new(Type, "GetCurrentProcessorId", 0);
 				}
 				return r_MGetCurrentProcessorId;
 			}
@@ -2516,7 +2517,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetExecutionContextReader.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RThreading.RExecutionContext.RReader>(___result);
         }
 
 
@@ -2527,7 +2528,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetMutableExecutionContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ExecutionContext)___result;
+            return ReflectionUtils.Convert<System.Threading.ExecutionContext>(___result);
         }
 
 
@@ -2571,7 +2572,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetCompressedStack.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.CompressedStack)___result;
+            return ReflectionUtils.Convert<System.Threading.CompressedStack>(___result);
         }
 
 
@@ -2670,7 +2671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetPriorityNative.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2692,7 +2693,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout};
             var ___result = RMJoinInternal_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2714,7 +2715,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout};
             var ___result = RMJoin_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2725,7 +2726,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout};
             var ___result = RMJoin_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2769,7 +2770,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMYieldInternal.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2780,7 +2781,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMYield.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2802,7 +2803,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -2813,7 +2814,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@name};
             var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -2824,7 +2825,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@name};
             var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -2846,7 +2847,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@slot};
             var ___result = RMGetData_LocalDataStoreSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2868,7 +2869,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetCurrentUICultureNoAppX.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2879,7 +2880,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetCurrentCultureNoAppX.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.CultureInfo)___result;
+            return ReflectionUtils.Convert<System.Globalization.CultureInfo>(___result);
         }
 
 
@@ -2969,7 +2970,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@arr};
             var ___result = RMByteArrayToRootDomain_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -2980,7 +2981,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@arr};
             var ___result = RMByteArrayToCurrentDomain_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -3013,7 +3014,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetDomain.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -3036,7 +3037,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetCurrentThread.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Thread)___result;
+            return ReflectionUtils.Convert<System.Threading.Thread>(___result);
         }
 
 
@@ -3047,7 +3048,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetDomainID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3058,7 +3059,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@start};
             var ___result = RMThread_internal_MulticastDelegate.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3080,7 +3081,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@thread.Value};
             var ___result = RMGetName_internal_InternalThread.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -3146,7 +3147,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetAbortExceptionState.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3224,7 +3225,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@thread.Value};
             var ___result = RMGetState_InternalThread.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ThreadState)___result;
+            return ReflectionUtils.Convert<System.Threading.ThreadState>(___result);
         }
 
 
@@ -3236,7 +3237,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Byte.Invoke(___genericsType, ___parameters);
 			@address = (System.Byte)___parameters[0];
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -3248,7 +3249,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Double.Invoke(___genericsType, ___parameters);
 			@address = (System.Double)___parameters[0];
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -3260,7 +3261,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Int16.Invoke(___genericsType, ___parameters);
 			@address = (System.Int16)___parameters[0];
 
-            return (System.Int16)___result;
+            return ReflectionUtils.Convert<System.Int16>(___result);
         }
 
 
@@ -3272,7 +3273,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@address = (System.Int32)___parameters[0];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3284,7 +3285,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Int64.Invoke(___genericsType, ___parameters);
 			@address = (System.Int64)___parameters[0];
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -3296,7 +3297,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_IntPtr.Invoke(___genericsType, ___parameters);
 			@address = (System.IntPtr)___parameters[0];
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -3308,7 +3309,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Object.Invoke(___genericsType, ___parameters);
 			@address = (System.Object)___parameters[0];
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3320,7 +3321,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_SByte.Invoke(___genericsType, ___parameters);
 			@address = (System.SByte)___parameters[0];
 
-            return (System.SByte)___result;
+            return ReflectionUtils.Convert<System.SByte>(___result);
         }
 
 
@@ -3332,7 +3333,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_Single.Invoke(___genericsType, ___parameters);
 			@address = (System.Single)___parameters[0];
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -3344,7 +3345,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_UInt16.Invoke(___genericsType, ___parameters);
 			@address = (System.UInt16)___parameters[0];
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -3356,7 +3357,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_UInt32.Invoke(___genericsType, ___parameters);
 			@address = (System.UInt32)___parameters[0];
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -3368,7 +3369,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_UInt64.Invoke(___genericsType, ___parameters);
 			@address = (System.UInt64)___parameters[0];
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -3380,7 +3381,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMVolatileRead_Ref_UIntPtr.Invoke(___genericsType, ___parameters);
 			@address = (System.UIntPtr)___parameters[0];
 
-            return (System.UIntPtr)___result;
+            return ReflectionUtils.Convert<System.UIntPtr>(___result);
         }
 
 
@@ -3547,7 +3548,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMSystemMaxStackStize.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3558,7 +3559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@maxStackSize};
             var ___result = RMGetProcessDefaultStackSize_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3624,7 +3625,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetApartmentState.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ApartmentState)___result;
+            return ReflectionUtils.Convert<System.Threading.ApartmentState>(___result);
         }
 
 
@@ -3646,7 +3647,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@state};
             var ___result = RMTrySetApartmentState_ApartmentState.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3657,7 +3658,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3683,7 +3684,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMono_GetStackTraces.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.Dictionary<System.Threading.Thread, System.Diagnostics.StackTrace>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.Dictionary<System.Threading.Thread, System.Diagnostics.StackTrace>>(___result);
         }
 
 
@@ -3705,7 +3706,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMValidateThreadState.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.ThreadState)___result;
+            return ReflectionUtils.Convert<System.Threading.ThreadState>(___result);
         }
 
 
@@ -3716,7 +3717,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetCurrentProcessorId.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3727,7 +3728,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3738,7 +3739,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -3749,7 +3750,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3760,7 +3761,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Object
 	/// </summary>
     public partial class RObject : RMember //
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FOffsetOfInstanceIDInCPlusPlusObject == null)
 				{
-					r_FOffsetOfInstanceIDInCPlusPlusObject = new(typeof(UnityEngine.Object), "OffsetOfInstanceIDInCPlusPlusObject");
+					r_FOffsetOfInstanceIDInCPlusPlusObject = new(Type, "OffsetOfInstanceIDInCPlusPlusObject");
 				}
 				return r_FOffsetOfInstanceIDInCPlusPlusObject;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FobjectIsNullMessage == null)
 				{
-					r_FobjectIsNullMessage = new(typeof(UnityEngine.Object), "objectIsNullMessage");
+					r_FobjectIsNullMessage = new(Type, "objectIsNullMessage");
 				}
 				return r_FobjectIsNullMessage;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FcloneDestroyedMessage == null)
 				{
-					r_FcloneDestroyedMessage = new(typeof(UnityEngine.Object), "cloneDestroyedMessage");
+					r_FcloneDestroyedMessage = new(Type, "cloneDestroyedMessage");
 				}
 				return r_FcloneDestroyedMessage;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_Object == null)
 				{
-					r_Mop_Implicit_Object = new(typeof(UnityEngine.Object), "op_Implicit", 0, typeof(UnityEngine.Object));
+					r_Mop_Implicit_Object = new(Type, "op_Implicit", 0, typeof(UnityEngine.Object));
 				}
 				return r_Mop_Implicit_Object;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCompareBaseObjects_Object_Object == null)
 				{
-					r_MCompareBaseObjects_Object_Object = new(typeof(UnityEngine.Object), "CompareBaseObjects", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
+					r_MCompareBaseObjects_Object_Object = new(Type, "CompareBaseObjects", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
 				}
 				return r_MCompareBaseObjects_Object_Object;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsNativeObjectAlive_Object == null)
 				{
-					r_MIsNativeObjectAlive_Object = new(typeof(UnityEngine.Object), "IsNativeObjectAlive", 0, typeof(UnityEngine.Object));
+					r_MIsNativeObjectAlive_Object = new(Type, "IsNativeObjectAlive", 0, typeof(UnityEngine.Object));
 				}
 				return r_MIsNativeObjectAlive_Object;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_Object_Vector3_Quaternion == null)
 				{
-					r_MInstantiate_Object_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_MInstantiate_Object_Vector3_Quaternion = new(Type, "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
 				}
 				return r_MInstantiate_Object_Vector3_Quaternion;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_Object_Vector3_Quaternion_Transform == null)
 				{
-					r_MInstantiate_Object_Vector3_Quaternion_Transform = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
+					r_MInstantiate_Object_Vector3_Quaternion_Transform = new(Type, "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
 				}
 				return r_MInstantiate_Object_Vector3_Quaternion_Transform;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_Object == null)
 				{
-					r_MInstantiate_Object = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object));
+					r_MInstantiate_Object = new(Type, "Instantiate", 0, typeof(UnityEngine.Object));
 				}
 				return r_MInstantiate_Object;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_Object_Transform == null)
 				{
-					r_MInstantiate_Object_Transform = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform));
+					r_MInstantiate_Object_Transform = new(Type, "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform));
 				}
 				return r_MInstantiate_Object_Transform;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_Object_Transform_Boolean == null)
 				{
-					r_MInstantiate_Object_Transform_Boolean = new(typeof(UnityEngine.Object), "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
+					r_MInstantiate_Object_Transform_Boolean = new(Type, "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
 				}
 				return r_MInstantiate_Object_Transform_Boolean;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_GT_T == null)
 				{
-					r_MInstantiate_GT_T = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0));
+					r_MInstantiate_GT_T = new(Type, "Instantiate", 1, Type.MakeGenericMethodParameter(0));
 				}
 				return r_MInstantiate_GT_T;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_GT_T_Vector3_Quaternion == null)
 				{
-					r_MInstantiate_GT_T_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_MInstantiate_GT_T_Vector3_Quaternion = new(Type, "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
 				}
 				return r_MInstantiate_GT_T_Vector3_Quaternion;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_GT_T_Vector3_Quaternion_Transform == null)
 				{
-					r_MInstantiate_GT_T_Vector3_Quaternion_Transform = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
+					r_MInstantiate_GT_T_Vector3_Quaternion_Transform = new(Type, "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion), typeof(UnityEngine.Transform));
 				}
 				return r_MInstantiate_GT_T_Vector3_Quaternion_Transform;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_GT_T_Transform == null)
 				{
-					r_MInstantiate_GT_T_Transform = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform));
+					r_MInstantiate_GT_T_Transform = new(Type, "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform));
 				}
 				return r_MInstantiate_GT_T_Transform;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInstantiate_GT_T_Transform_Boolean == null)
 				{
-					r_MInstantiate_GT_T_Transform_Boolean = new(typeof(UnityEngine.Object), "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform), typeof(System.Boolean));
+					r_MInstantiate_GT_T_Transform_Boolean = new(Type, "Instantiate", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform), typeof(System.Boolean));
 				}
 				return r_MInstantiate_GT_T_Transform_Boolean;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroy_Object_Single == null)
 				{
-					r_MDestroy_Object_Single = new(typeof(UnityEngine.Object), "Destroy", 0, typeof(UnityEngine.Object), typeof(System.Single));
+					r_MDestroy_Object_Single = new(Type, "Destroy", 0, typeof(UnityEngine.Object), typeof(System.Single));
 				}
 				return r_MDestroy_Object_Single;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroy_Object == null)
 				{
-					r_MDestroy_Object = new(typeof(UnityEngine.Object), "Destroy", 0, typeof(UnityEngine.Object));
+					r_MDestroy_Object = new(Type, "Destroy", 0, typeof(UnityEngine.Object));
 				}
 				return r_MDestroy_Object;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroyImmediate_Object_Boolean == null)
 				{
-					r_MDestroyImmediate_Object_Boolean = new(typeof(UnityEngine.Object), "DestroyImmediate", 0, typeof(UnityEngine.Object), typeof(System.Boolean));
+					r_MDestroyImmediate_Object_Boolean = new(Type, "DestroyImmediate", 0, typeof(UnityEngine.Object), typeof(System.Boolean));
 				}
 				return r_MDestroyImmediate_Object_Boolean;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroyImmediate_Object == null)
 				{
-					r_MDestroyImmediate_Object = new(typeof(UnityEngine.Object), "DestroyImmediate", 0, typeof(UnityEngine.Object));
+					r_MDestroyImmediate_Object = new(Type, "DestroyImmediate", 0, typeof(UnityEngine.Object));
 				}
 				return r_MDestroyImmediate_Object;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsOfType_Type == null)
 				{
-					r_MFindObjectsOfType_Type = new(typeof(UnityEngine.Object), "FindObjectsOfType", 0, typeof(System.Type));
+					r_MFindObjectsOfType_Type = new(Type, "FindObjectsOfType", 0, typeof(System.Type));
 				}
 				return r_MFindObjectsOfType_Type;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsOfType_Type_Boolean == null)
 				{
-					r_MFindObjectsOfType_Type_Boolean = new(typeof(UnityEngine.Object), "FindObjectsOfType", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MFindObjectsOfType_Type_Boolean = new(Type, "FindObjectsOfType", 0, typeof(System.Type), typeof(System.Boolean));
 				}
 				return r_MFindObjectsOfType_Type_Boolean;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsByType_Type_FindObjectsSortMode == null)
 				{
-					r_MFindObjectsByType_Type_FindObjectsSortMode = new(typeof(UnityEngine.Object), "FindObjectsByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsSortMode));
+					r_MFindObjectsByType_Type_FindObjectsSortMode = new(Type, "FindObjectsByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsSortMode));
 				}
 				return r_MFindObjectsByType_Type_FindObjectsSortMode;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode == null)
 				{
-					r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode = new(typeof(UnityEngine.Object), "FindObjectsByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive), typeof(UnityEngine.FindObjectsSortMode));
+					r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode = new(Type, "FindObjectsByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive), typeof(UnityEngine.FindObjectsSortMode));
 				}
 				return r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDontDestroyOnLoad_Object == null)
 				{
-					r_MDontDestroyOnLoad_Object = new(typeof(UnityEngine.Object), "DontDestroyOnLoad", 0, typeof(UnityEngine.Object));
+					r_MDontDestroyOnLoad_Object = new(Type, "DontDestroyOnLoad", 0, typeof(UnityEngine.Object));
 				}
 				return r_MDontDestroyOnLoad_Object;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroyObject_Object_Single == null)
 				{
-					r_MDestroyObject_Object_Single = new(typeof(UnityEngine.Object), "DestroyObject", 0, typeof(UnityEngine.Object), typeof(System.Single));
+					r_MDestroyObject_Object_Single = new(Type, "DestroyObject", 0, typeof(UnityEngine.Object), typeof(System.Single));
 				}
 				return r_MDestroyObject_Object_Single;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDestroyObject_Object == null)
 				{
-					r_MDestroyObject_Object = new(typeof(UnityEngine.Object), "DestroyObject", 0, typeof(UnityEngine.Object));
+					r_MDestroyObject_Object = new(Type, "DestroyObject", 0, typeof(UnityEngine.Object));
 				}
 				return r_MDestroyObject_Object;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindSceneObjectsOfType_Type == null)
 				{
-					r_MFindSceneObjectsOfType_Type = new(typeof(UnityEngine.Object), "FindSceneObjectsOfType", 0, typeof(System.Type));
+					r_MFindSceneObjectsOfType_Type = new(Type, "FindSceneObjectsOfType", 0, typeof(System.Type));
 				}
 				return r_MFindSceneObjectsOfType_Type;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsOfTypeIncludingAssets_Type == null)
 				{
-					r_MFindObjectsOfTypeIncludingAssets_Type = new(typeof(UnityEngine.Object), "FindObjectsOfTypeIncludingAssets", 0, typeof(System.Type));
+					r_MFindObjectsOfTypeIncludingAssets_Type = new(Type, "FindObjectsOfTypeIncludingAssets", 0, typeof(System.Type));
 				}
 				return r_MFindObjectsOfTypeIncludingAssets_Type;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsOfType_GT == null)
 				{
-					r_MFindObjectsOfType_GT = new(typeof(UnityEngine.Object), "FindObjectsOfType", 1);
+					r_MFindObjectsOfType_GT = new(Type, "FindObjectsOfType", 1);
 				}
 				return r_MFindObjectsOfType_GT;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsByType_GT_FindObjectsSortMode == null)
 				{
-					r_MFindObjectsByType_GT_FindObjectsSortMode = new(typeof(UnityEngine.Object), "FindObjectsByType", 1, typeof(UnityEngine.FindObjectsSortMode));
+					r_MFindObjectsByType_GT_FindObjectsSortMode = new(Type, "FindObjectsByType", 1, typeof(UnityEngine.FindObjectsSortMode));
 				}
 				return r_MFindObjectsByType_GT_FindObjectsSortMode;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsOfType_GT_Boolean == null)
 				{
-					r_MFindObjectsOfType_GT_Boolean = new(typeof(UnityEngine.Object), "FindObjectsOfType", 1, typeof(System.Boolean));
+					r_MFindObjectsOfType_GT_Boolean = new(Type, "FindObjectsOfType", 1, typeof(System.Boolean));
 				}
 				return r_MFindObjectsOfType_GT_Boolean;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode == null)
 				{
-					r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode = new(typeof(UnityEngine.Object), "FindObjectsByType", 1, typeof(UnityEngine.FindObjectsInactive), typeof(UnityEngine.FindObjectsSortMode));
+					r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode = new(Type, "FindObjectsByType", 1, typeof(UnityEngine.FindObjectsInactive), typeof(UnityEngine.FindObjectsSortMode));
 				}
 				return r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectOfType_GT == null)
 				{
-					r_MFindObjectOfType_GT = new(typeof(UnityEngine.Object), "FindObjectOfType", 1);
+					r_MFindObjectOfType_GT = new(Type, "FindObjectOfType", 1);
 				}
 				return r_MFindObjectOfType_GT;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectOfType_GT_Boolean == null)
 				{
-					r_MFindObjectOfType_GT_Boolean = new(typeof(UnityEngine.Object), "FindObjectOfType", 1, typeof(System.Boolean));
+					r_MFindObjectOfType_GT_Boolean = new(Type, "FindObjectOfType", 1, typeof(System.Boolean));
 				}
 				return r_MFindObjectOfType_GT_Boolean;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindFirstObjectByType_GT == null)
 				{
-					r_MFindFirstObjectByType_GT = new(typeof(UnityEngine.Object), "FindFirstObjectByType", 1);
+					r_MFindFirstObjectByType_GT = new(Type, "FindFirstObjectByType", 1);
 				}
 				return r_MFindFirstObjectByType_GT;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindAnyObjectByType_GT == null)
 				{
-					r_MFindAnyObjectByType_GT = new(typeof(UnityEngine.Object), "FindAnyObjectByType", 1);
+					r_MFindAnyObjectByType_GT = new(Type, "FindAnyObjectByType", 1);
 				}
 				return r_MFindAnyObjectByType_GT;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindFirstObjectByType_GT_FindObjectsInactive == null)
 				{
-					r_MFindFirstObjectByType_GT_FindObjectsInactive = new(typeof(UnityEngine.Object), "FindFirstObjectByType", 1, typeof(UnityEngine.FindObjectsInactive));
+					r_MFindFirstObjectByType_GT_FindObjectsInactive = new(Type, "FindFirstObjectByType", 1, typeof(UnityEngine.FindObjectsInactive));
 				}
 				return r_MFindFirstObjectByType_GT_FindObjectsInactive;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindAnyObjectByType_GT_FindObjectsInactive == null)
 				{
-					r_MFindAnyObjectByType_GT_FindObjectsInactive = new(typeof(UnityEngine.Object), "FindAnyObjectByType", 1, typeof(UnityEngine.FindObjectsInactive));
+					r_MFindAnyObjectByType_GT_FindObjectsInactive = new(Type, "FindAnyObjectByType", 1, typeof(UnityEngine.FindObjectsInactive));
 				}
 				return r_MFindAnyObjectByType_GT_FindObjectsInactive;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectsOfTypeAll_Type == null)
 				{
-					r_MFindObjectsOfTypeAll_Type = new(typeof(UnityEngine.Object), "FindObjectsOfTypeAll", 0, typeof(System.Type));
+					r_MFindObjectsOfTypeAll_Type = new(Type, "FindObjectsOfTypeAll", 0, typeof(System.Type));
 				}
 				return r_MFindObjectsOfTypeAll_Type;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCheckNullArgument_Object_String == null)
 				{
-					r_MCheckNullArgument_Object_String = new(typeof(UnityEngine.Object), "CheckNullArgument", 0, typeof(System.Object), typeof(System.String));
+					r_MCheckNullArgument_Object_String = new(Type, "CheckNullArgument", 0, typeof(System.Object), typeof(System.String));
 				}
 				return r_MCheckNullArgument_Object_String;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectOfType_Type == null)
 				{
-					r_MFindObjectOfType_Type = new(typeof(UnityEngine.Object), "FindObjectOfType", 0, typeof(System.Type));
+					r_MFindObjectOfType_Type = new(Type, "FindObjectOfType", 0, typeof(System.Type));
 				}
 				return r_MFindObjectOfType_Type;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindFirstObjectByType_Type == null)
 				{
-					r_MFindFirstObjectByType_Type = new(typeof(UnityEngine.Object), "FindFirstObjectByType", 0, typeof(System.Type));
+					r_MFindFirstObjectByType_Type = new(Type, "FindFirstObjectByType", 0, typeof(System.Type));
 				}
 				return r_MFindFirstObjectByType_Type;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindAnyObjectByType_Type == null)
 				{
-					r_MFindAnyObjectByType_Type = new(typeof(UnityEngine.Object), "FindAnyObjectByType", 0, typeof(System.Type));
+					r_MFindAnyObjectByType_Type = new(Type, "FindAnyObjectByType", 0, typeof(System.Type));
 				}
 				return r_MFindAnyObjectByType_Type;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectOfType_Type_Boolean == null)
 				{
-					r_MFindObjectOfType_Type_Boolean = new(typeof(UnityEngine.Object), "FindObjectOfType", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MFindObjectOfType_Type_Boolean = new(Type, "FindObjectOfType", 0, typeof(System.Type), typeof(System.Boolean));
 				}
 				return r_MFindObjectOfType_Type_Boolean;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindFirstObjectByType_Type_FindObjectsInactive == null)
 				{
-					r_MFindFirstObjectByType_Type_FindObjectsInactive = new(typeof(UnityEngine.Object), "FindFirstObjectByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive));
+					r_MFindFirstObjectByType_Type_FindObjectsInactive = new(Type, "FindFirstObjectByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive));
 				}
 				return r_MFindFirstObjectByType_Type_FindObjectsInactive;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindAnyObjectByType_Type_FindObjectsInactive == null)
 				{
-					r_MFindAnyObjectByType_Type_FindObjectsInactive = new(typeof(UnityEngine.Object), "FindAnyObjectByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive));
+					r_MFindAnyObjectByType_Type_FindObjectsInactive = new(Type, "FindAnyObjectByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive));
 				}
 				return r_MFindAnyObjectByType_Type_FindObjectsInactive;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_Object_Object == null)
 				{
-					r_Mop_Equality_Object_Object = new(typeof(UnityEngine.Object), "op_Equality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
+					r_Mop_Equality_Object_Object = new(Type, "op_Equality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
 				}
 				return r_Mop_Equality_Object_Object;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_Object_Object == null)
 				{
-					r_Mop_Inequality_Object_Object = new(typeof(UnityEngine.Object), "op_Inequality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
+					r_Mop_Inequality_Object_Object = new(Type, "op_Inequality", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Object));
 				}
 				return r_Mop_Inequality_Object_Object;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetOffsetOfInstanceIDInCPlusPlusObject == null)
 				{
-					r_MGetOffsetOfInstanceIDInCPlusPlusObject = new(typeof(UnityEngine.Object), "GetOffsetOfInstanceIDInCPlusPlusObject", 0);
+					r_MGetOffsetOfInstanceIDInCPlusPlusObject = new(Type, "GetOffsetOfInstanceIDInCPlusPlusObject", 0);
 				}
 				return r_MGetOffsetOfInstanceIDInCPlusPlusObject;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCurrentThreadIsMainThread == null)
 				{
-					r_MCurrentThreadIsMainThread = new(typeof(UnityEngine.Object), "CurrentThreadIsMainThread", 0);
+					r_MCurrentThreadIsMainThread = new(Type, "CurrentThreadIsMainThread", 0);
 				}
 				return r_MCurrentThreadIsMainThread;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_CloneSingle_Object == null)
 				{
-					r_MInternal_CloneSingle_Object = new(typeof(UnityEngine.Object), "Internal_CloneSingle", 0, typeof(UnityEngine.Object));
+					r_MInternal_CloneSingle_Object = new(Type, "Internal_CloneSingle", 0, typeof(UnityEngine.Object));
 				}
 				return r_MInternal_CloneSingle_Object;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_CloneSingleWithParent_Object_Transform_Boolean == null)
 				{
-					r_MInternal_CloneSingleWithParent_Object_Transform_Boolean = new(typeof(UnityEngine.Object), "Internal_CloneSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
+					r_MInternal_CloneSingleWithParent_Object_Transform_Boolean = new(Type, "Internal_CloneSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
 				}
 				return r_MInternal_CloneSingleWithParent_Object_Transform_Boolean;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_InstantiateSingle_Object_Vector3_Quaternion == null)
 				{
-					r_MInternal_InstantiateSingle_Object_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingle", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_MInternal_InstantiateSingle_Object_Vector3_Quaternion = new(Type, "Internal_InstantiateSingle", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
 				}
 				return r_MInternal_InstantiateSingle_Object_Vector3_Quaternion;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion == null)
 				{
-					r_MInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
+					r_MInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion = new(Type, "Internal_InstantiateSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
 				}
 				return r_MInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MToString_Object == null)
 				{
-					r_MToString_Object = new(typeof(UnityEngine.Object), "ToString", 0, typeof(UnityEngine.Object));
+					r_MToString_Object = new(Type, "ToString", 0, typeof(UnityEngine.Object));
 				}
 				return r_MToString_Object;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetName_Object == null)
 				{
-					r_MGetName_Object = new(typeof(UnityEngine.Object), "GetName", 0, typeof(UnityEngine.Object));
+					r_MGetName_Object = new(Type, "GetName", 0, typeof(UnityEngine.Object));
 				}
 				return r_MGetName_Object;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsPersistent_Object == null)
 				{
-					r_MIsPersistent_Object = new(typeof(UnityEngine.Object), "IsPersistent", 0, typeof(UnityEngine.Object));
+					r_MIsPersistent_Object = new(Type, "IsPersistent", 0, typeof(UnityEngine.Object));
 				}
 				return r_MIsPersistent_Object;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetName_Object_String == null)
 				{
-					r_MSetName_Object_String = new(typeof(UnityEngine.Object), "SetName", 0, typeof(UnityEngine.Object), typeof(System.String));
+					r_MSetName_Object_String = new(Type, "SetName", 0, typeof(UnityEngine.Object), typeof(System.String));
 				}
 				return r_MSetName_Object_String;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDoesObjectWithInstanceIDExist_Int32 == null)
 				{
-					r_MDoesObjectWithInstanceIDExist_Int32 = new(typeof(UnityEngine.Object), "DoesObjectWithInstanceIDExist", 0, typeof(System.Int32));
+					r_MDoesObjectWithInstanceIDExist_Int32 = new(Type, "DoesObjectWithInstanceIDExist", 0, typeof(System.Int32));
 				}
 				return r_MDoesObjectWithInstanceIDExist_Int32;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFindObjectFromInstanceID_Int32 == null)
 				{
-					r_MFindObjectFromInstanceID_Int32 = new(typeof(UnityEngine.Object), "FindObjectFromInstanceID", 0, typeof(System.Int32));
+					r_MFindObjectFromInstanceID_Int32 = new(Type, "FindObjectFromInstanceID", 0, typeof(System.Int32));
 				}
 				return r_MFindObjectFromInstanceID_Int32;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MForceLoadFromInstanceID_Int32 == null)
 				{
-					r_MForceLoadFromInstanceID_Int32 = new(typeof(UnityEngine.Object), "ForceLoadFromInstanceID", 0, typeof(System.Int32));
+					r_MForceLoadFromInstanceID_Int32 = new(Type, "ForceLoadFromInstanceID", 0, typeof(System.Int32));
 				}
 				return r_MForceLoadFromInstanceID_Int32;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateMissingReferenceObject_Int32 == null)
 				{
-					r_MCreateMissingReferenceObject_Int32 = new(typeof(UnityEngine.Object), "CreateMissingReferenceObject", 0, typeof(System.Int32));
+					r_MCreateMissingReferenceObject_Int32 = new(Type, "CreateMissingReferenceObject", 0, typeof(System.Int32));
 				}
 				return r_MCreateMissingReferenceObject_Int32;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion == null)
 				{
-					r_MInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingle_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion = new(Type, "Internal_InstantiateSingle_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MInternal_InstantiateSingle_Injected_Object_Ref_Vector3_Ref_Quaternion;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion == null)
 				{
-					r_MInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion = new(typeof(UnityEngine.Object), "Internal_InstantiateSingleWithParent_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
+					r_MInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion = new(Type, "Internal_InstantiateSingleWithParent_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
 				}
 				return r_MInternal_InstantiateSingleWithParent_Injected_Object_Transform_Ref_Vector3_Ref_Quaternion;
 			}
@@ -1308,7 +1309,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1319,7 +1320,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1330,7 +1331,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1341,7 +1342,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@exists};
             var ___result = RMop_Implicit_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1352,7 +1353,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMCompareBaseObjects_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@o};
             var ___result = RMIsNativeObjectAlive_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1385,7 +1386,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetCachedPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1396,7 +1397,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @position, @rotation};
             var ___result = RMInstantiate_Object_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1407,7 +1408,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @position, @rotation, @parent};
             var ___result = RMInstantiate_Object_Vector3_Quaternion_Transform.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1418,7 +1419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original};
             var ___result = RMInstantiate_Object.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1429,7 +1430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @parent};
             var ___result = RMInstantiate_Object_Transform.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1440,7 +1441,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @parent, @instantiateInWorldSpace};
             var ___result = RMInstantiate_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1451,7 +1452,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original};
             var ___result = RMInstantiate_GT_T.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1462,7 +1463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @position, @rotation};
             var ___result = RMInstantiate_GT_T_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1473,7 +1474,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @position, @rotation, @parent};
             var ___result = RMInstantiate_GT_T_Vector3_Quaternion_Transform.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1484,7 +1485,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @parent};
             var ___result = RMInstantiate_GT_T_Transform.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1495,7 +1496,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@original, @parent, @worldPositionStays};
             var ___result = RMInstantiate_GT_T_Transform_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindObjectsOfType_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1561,7 +1562,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @includeInactive};
             var ___result = RMFindObjectsOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1572,7 +1573,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @sortMode};
             var ___result = RMFindObjectsByType_Type_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1583,7 +1584,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @findObjectsInactive, @sortMode};
             var ___result = RMFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1627,7 +1628,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindSceneObjectsOfType_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1638,7 +1639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindObjectsOfTypeIncludingAssets_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1649,7 +1650,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMFindObjectsOfType_GT.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -1660,7 +1661,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@sortMode};
             var ___result = RMFindObjectsByType_GT_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -1671,7 +1672,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@includeInactive};
             var ___result = RMFindObjectsOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -1682,7 +1683,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@findObjectsInactive, @sortMode};
             var ___result = RMFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -1693,7 +1694,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMFindObjectOfType_GT.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1704,7 +1705,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@includeInactive};
             var ___result = RMFindObjectOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1715,7 +1716,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMFindFirstObjectByType_GT.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1726,7 +1727,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMFindAnyObjectByType_GT.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1737,7 +1738,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@findObjectsInactive};
             var ___result = RMFindFirstObjectByType_GT_FindObjectsInactive.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1748,7 +1749,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@findObjectsInactive};
             var ___result = RMFindAnyObjectByType_GT_FindObjectsInactive.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -1759,7 +1760,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindObjectsOfTypeAll_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -1781,7 +1782,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindObjectOfType_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1792,7 +1793,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindFirstObjectByType_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1803,7 +1804,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMFindAnyObjectByType_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1814,7 +1815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @includeInactive};
             var ___result = RMFindObjectOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1825,7 +1826,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @findObjectsInactive};
             var ___result = RMFindFirstObjectByType_Type_FindObjectsInactive.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1836,7 +1837,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @findObjectsInactive};
             var ___result = RMFindAnyObjectByType_Type_FindObjectsInactive.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1847,7 +1848,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1858,7 +1859,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y};
             var ___result = RMop_Equality_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1869,7 +1870,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@x, @y};
             var ___result = RMop_Inequality_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1880,7 +1881,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetOffsetOfInstanceIDInCPlusPlusObject.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1891,7 +1892,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMCurrentThreadIsMainThread.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1902,7 +1903,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data};
             var ___result = RMInternal_CloneSingle_Object.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1913,7 +1914,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data, @parent, @worldPositionStays};
             var ___result = RMInternal_CloneSingleWithParent_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1924,7 +1925,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data, @pos, @rot};
             var ___result = RMInternal_InstantiateSingle_Object_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1935,7 +1936,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@data, @parent, @pos, @rot};
             var ___result = RMInternal_InstantiateSingleWithParent_Object_Transform_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -1946,7 +1947,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMToString_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1957,7 +1958,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMGetName_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1968,7 +1969,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMIsPersistent_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1990,7 +1991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@instanceID};
             var ___result = RMDoesObjectWithInstanceIDExist_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2001,7 +2002,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@instanceID};
             var ___result = RMFindObjectFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -2012,7 +2013,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@instanceID};
             var ___result = RMForceLoadFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -2023,7 +2024,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@instanceID};
             var ___result = RMCreateMissingReferenceObject_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -2036,7 +2037,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@pos = (UnityEngine.Vector3)___parameters[1];
 			@rot = (UnityEngine.Quaternion)___parameters[2];
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -2049,7 +2050,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@pos = (UnityEngine.Vector3)___parameters[2];
 			@rot = (UnityEngine.Quaternion)___parameters[3];
 
-            return (UnityEngine.Object)___result;
+            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
 
 
@@ -2071,7 +2072,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2082,7 +2083,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

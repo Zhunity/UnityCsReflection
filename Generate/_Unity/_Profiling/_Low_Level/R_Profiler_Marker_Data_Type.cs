@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Unity.Profiling.LowLevel.ProfilerMarkerDataType
 	/// </summary>
     public partial class RProfilerMarkerDataType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FInstanceId == null)
 				{
-					r_FInstanceId = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "InstanceId");
+					r_FInstanceId = new(Type, "InstanceId");
 				}
 				return r_FInstanceId;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FInt32 == null)
 				{
-					r_FInt32 = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "Int32");
+					r_FInt32 = new(Type, "Int32");
 				}
 				return r_FInt32;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FUInt32 == null)
 				{
-					r_FUInt32 = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "UInt32");
+					r_FUInt32 = new(Type, "UInt32");
 				}
 				return r_FUInt32;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FInt64 == null)
 				{
-					r_FInt64 = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "Int64");
+					r_FInt64 = new(Type, "Int64");
 				}
 				return r_FInt64;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FUInt64 == null)
 				{
-					r_FUInt64 = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "UInt64");
+					r_FUInt64 = new(Type, "UInt64");
 				}
 				return r_FUInt64;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FFloat == null)
 				{
-					r_FFloat = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "Float");
+					r_FFloat = new(Type, "Float");
 				}
 				return r_FFloat;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FDouble == null)
 				{
-					r_FDouble = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "Double");
+					r_FDouble = new(Type, "Double");
 				}
 				return r_FDouble;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FString16 == null)
 				{
-					r_FString16 = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "String16");
+					r_FString16 = new(Type, "String16");
 				}
 				return r_FString16;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FBlob8 == null)
 				{
-					r_FBlob8 = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "Blob8");
+					r_FBlob8 = new(Type, "Blob8");
 				}
 				return r_FBlob8;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 			{
 				if(r_FGfxResourceId == null)
 				{
-					r_FGfxResourceId = new(typeof(Unity.Profiling.LowLevel.ProfilerMarkerDataType), "GfxResourceId");
+					r_FGfxResourceId = new(Type, "GfxResourceId");
 				}
 				return r_FGfxResourceId;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -549,7 +550,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

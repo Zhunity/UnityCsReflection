@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.LocalKeywordSpace
 	/// </summary>
     public partial class RLocalKeywordSpace : RMember //
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_LocalKeywordSpace_LocalKeywordSpace == null)
 				{
-					r_Mop_Equality_LocalKeywordSpace_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "op_Equality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
+					r_Mop_Equality_LocalKeywordSpace_LocalKeywordSpace = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
 				}
 				return r_Mop_Equality_LocalKeywordSpace_LocalKeywordSpace;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_LocalKeywordSpace_LocalKeywordSpace == null)
 				{
-					r_Mop_Inequality_LocalKeywordSpace_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "op_Inequality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
+					r_Mop_Inequality_LocalKeywordSpace_LocalKeywordSpace = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(UnityEngine.Rendering.LocalKeywordSpace));
 				}
 				return r_Mop_Inequality_LocalKeywordSpace_LocalKeywordSpace;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetKeywords_Injected_Ref_LocalKeywordSpace == null)
 				{
-					r_MGetKeywords_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywords_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
+					r_MGetKeywords_Injected_Ref_LocalKeywordSpace = new(Type, "GetKeywords_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
 				}
 				return r_MGetKeywords_Injected_Ref_LocalKeywordSpace;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetKeywordNames_Injected_Ref_LocalKeywordSpace == null)
 				{
-					r_MGetKeywordNames_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywordNames_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
+					r_MGetKeywordNames_Injected_Ref_LocalKeywordSpace = new(Type, "GetKeywordNames_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
 				}
 				return r_MGetKeywordNames_Injected_Ref_LocalKeywordSpace;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetKeywordCount_Injected_Ref_LocalKeywordSpace == null)
 				{
-					r_MGetKeywordCount_Injected_Ref_LocalKeywordSpace = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeywordCount_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
+					r_MGetKeywordCount_Injected_Ref_LocalKeywordSpace = new(Type, "GetKeywordCount_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType());
 				}
 				return r_MGetKeywordCount_Injected_Ref_LocalKeywordSpace;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword == null)
 				{
-					r_MGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeywordSpace), "GetKeyword_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.String), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
+					r_MGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword = new(Type, "GetKeyword_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.String), typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
 				}
 				return r_MGetKeyword_Injected_Ref_LocalKeywordSpace_String_Out_LocalKeyword;
 			}
@@ -396,7 +397,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetKeywords.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.LocalKeyword[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
         }
 
 
@@ -407,7 +408,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetKeywordNames.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -418,7 +419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetKeywordCount.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -429,7 +430,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@name};
             var ___result = RMGetKeyword_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.LocalKeyword)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___result);
         }
 
 
@@ -440,7 +441,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@name};
             var ___result = RMFindKeyword_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.LocalKeyword)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___result);
         }
 
 
@@ -451,7 +452,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@rhs};
             var ___result = RMEquals_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -473,7 +474,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_LocalKeywordSpace_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -484,7 +485,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_LocalKeywordSpace_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -495,7 +496,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -507,7 +508,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMGetKeywords_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
-            return (UnityEngine.Rendering.LocalKeyword[])___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword[]>(___result);
         }
 
 
@@ -519,7 +520,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMGetKeywordNames_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -531,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMGetKeywordCount_Injected_Ref_LocalKeywordSpace.Invoke(___genericsType, ___parameters);
 			@_unity_self = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -556,7 +557,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -578,7 +579,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -589,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.LocalKeyword
 	/// </summary>
     public partial class RLocalKeyword : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MIsDynamic_LocalKeyword == null)
 				{
-					r_MIsDynamic_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeyword), "IsDynamic", 0, typeof(UnityEngine.Rendering.LocalKeyword));
+					r_MIsDynamic_LocalKeyword = new(Type, "IsDynamic", 0, typeof(UnityEngine.Rendering.LocalKeyword));
 				}
 				return r_MIsDynamic_LocalKeyword;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MIsOverridable_LocalKeyword == null)
 				{
-					r_MIsOverridable_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeyword), "IsOverridable", 0, typeof(UnityEngine.Rendering.LocalKeyword));
+					r_MIsOverridable_LocalKeyword = new(Type, "IsOverridable", 0, typeof(UnityEngine.Rendering.LocalKeyword));
 				}
 				return r_MIsOverridable_LocalKeyword;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetShaderKeywordCount_Shader == null)
 				{
-					r_MGetShaderKeywordCount_Shader = new(typeof(UnityEngine.Rendering.LocalKeyword), "GetShaderKeywordCount", 0, typeof(UnityEngine.Shader));
+					r_MGetShaderKeywordCount_Shader = new(Type, "GetShaderKeywordCount", 0, typeof(UnityEngine.Shader));
 				}
 				return r_MGetShaderKeywordCount_Shader;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetShaderKeywordIndex_Shader_String == null)
 				{
-					r_MGetShaderKeywordIndex_Shader_String = new(typeof(UnityEngine.Rendering.LocalKeyword), "GetShaderKeywordIndex", 0, typeof(UnityEngine.Shader), typeof(System.String));
+					r_MGetShaderKeywordIndex_Shader_String = new(Type, "GetShaderKeywordIndex", 0, typeof(UnityEngine.Shader), typeof(System.String));
 				}
 				return r_MGetShaderKeywordIndex_Shader_String;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetComputeShaderKeywordCount_ComputeShader == null)
 				{
-					r_MGetComputeShaderKeywordCount_ComputeShader = new(typeof(UnityEngine.Rendering.LocalKeyword), "GetComputeShaderKeywordCount", 0, typeof(UnityEngine.ComputeShader));
+					r_MGetComputeShaderKeywordCount_ComputeShader = new(Type, "GetComputeShaderKeywordCount", 0, typeof(UnityEngine.ComputeShader));
 				}
 				return r_MGetComputeShaderKeywordCount_ComputeShader;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetComputeShaderKeywordIndex_ComputeShader_String == null)
 				{
-					r_MGetComputeShaderKeywordIndex_ComputeShader_String = new(typeof(UnityEngine.Rendering.LocalKeyword), "GetComputeShaderKeywordIndex", 0, typeof(UnityEngine.ComputeShader), typeof(System.String));
+					r_MGetComputeShaderKeywordIndex_ComputeShader_String = new(Type, "GetComputeShaderKeywordIndex", 0, typeof(UnityEngine.ComputeShader), typeof(System.String));
 				}
 				return r_MGetComputeShaderKeywordIndex_ComputeShader_String;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetKeywordType_LocalKeywordSpace_UInt32 == null)
 				{
-					r_MGetKeywordType_LocalKeywordSpace_UInt32 = new(typeof(UnityEngine.Rendering.LocalKeyword), "GetKeywordType", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(System.UInt32));
+					r_MGetKeywordType_LocalKeywordSpace_UInt32 = new(Type, "GetKeywordType", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(System.UInt32));
 				}
 				return r_MGetKeywordType_LocalKeywordSpace_UInt32;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MIsValid_LocalKeywordSpace_UInt32 == null)
 				{
-					r_MIsValid_LocalKeywordSpace_UInt32 = new(typeof(UnityEngine.Rendering.LocalKeyword), "IsValid", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(System.UInt32));
+					r_MIsValid_LocalKeywordSpace_UInt32 = new(Type, "IsValid", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace), typeof(System.UInt32));
 				}
 				return r_MIsValid_LocalKeywordSpace_UInt32;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_LocalKeyword_LocalKeyword == null)
 				{
-					r_Mop_Equality_LocalKeyword_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeyword), "op_Equality", 0, typeof(UnityEngine.Rendering.LocalKeyword), typeof(UnityEngine.Rendering.LocalKeyword));
+					r_Mop_Equality_LocalKeyword_LocalKeyword = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.LocalKeyword), typeof(UnityEngine.Rendering.LocalKeyword));
 				}
 				return r_Mop_Equality_LocalKeyword_LocalKeyword;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_LocalKeyword_LocalKeyword == null)
 				{
-					r_Mop_Inequality_LocalKeyword_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeyword), "op_Inequality", 0, typeof(UnityEngine.Rendering.LocalKeyword), typeof(UnityEngine.Rendering.LocalKeyword));
+					r_Mop_Inequality_LocalKeyword_LocalKeyword = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.LocalKeyword), typeof(UnityEngine.Rendering.LocalKeyword));
 				}
 				return r_Mop_Inequality_LocalKeyword_LocalKeyword;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MIsDynamic_Injected_Ref_LocalKeyword == null)
 				{
-					r_MIsDynamic_Injected_Ref_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeyword), "IsDynamic_Injected", 0, typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
+					r_MIsDynamic_Injected_Ref_LocalKeyword = new(Type, "IsDynamic_Injected", 0, typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
 				}
 				return r_MIsDynamic_Injected_Ref_LocalKeyword;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MIsOverridable_Injected_Ref_LocalKeyword == null)
 				{
-					r_MIsOverridable_Injected_Ref_LocalKeyword = new(typeof(UnityEngine.Rendering.LocalKeyword), "IsOverridable_Injected", 0, typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
+					r_MIsOverridable_Injected_Ref_LocalKeyword = new(Type, "IsOverridable_Injected", 0, typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
 				}
 				return r_MIsOverridable_Injected_Ref_LocalKeyword;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32 == null)
 				{
-					r_MGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32 = new(typeof(UnityEngine.Rendering.LocalKeyword), "GetKeywordType_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.UInt32));
+					r_MGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32 = new(Type, "GetKeywordType_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.UInt32));
 				}
 				return r_MGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MIsValid_Injected_Ref_LocalKeywordSpace_UInt32 == null)
 				{
-					r_MIsValid_Injected_Ref_LocalKeywordSpace_UInt32 = new(typeof(UnityEngine.Rendering.LocalKeyword), "IsValid_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.UInt32));
+					r_MIsValid_Injected_Ref_LocalKeywordSpace_UInt32 = new(Type, "IsValid_Injected", 0, typeof(UnityEngine.Rendering.LocalKeywordSpace).MakeByRefType(), typeof(System.UInt32));
 				}
 				return r_MIsValid_Injected_Ref_LocalKeywordSpace_UInt32;
 			}
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@kw};
             var ___result = RMIsDynamic_LocalKeyword.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -519,7 +520,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@kw};
             var ___result = RMIsOverridable_LocalKeyword.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -530,7 +531,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@shader};
             var ___result = RMGetShaderKeywordCount_Shader.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -541,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@shader, @keyword};
             var ___result = RMGetShaderKeywordIndex_Shader_String.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -552,7 +553,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@shader};
             var ___result = RMGetComputeShaderKeywordCount_ComputeShader.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -563,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@shader, @keyword};
             var ___result = RMGetComputeShaderKeywordIndex_ComputeShader_String.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@spaceInfo, @keyword};
             var ___result = RMGetKeywordType_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.ShaderKeywordType)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.ShaderKeywordType>(___result);
         }
 
 
@@ -585,7 +586,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@spaceInfo, @keyword};
             var ___result = RMIsValid_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -596,7 +597,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -607,7 +608,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -618,7 +619,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@rhs};
             var ___result = RMEquals_LocalKeyword.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -629,7 +630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_LocalKeyword_LocalKeyword.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -640,7 +641,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_LocalKeyword_LocalKeyword.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -651,7 +652,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -663,7 +664,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMIsDynamic_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -675,7 +676,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMIsOverridable_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
 			@kw = (UnityEngine.Rendering.LocalKeyword)___parameters[0];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -687,7 +688,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMGetKeywordType_Injected_Ref_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
 			@spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
-            return (UnityEngine.Rendering.ShaderKeywordType)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.ShaderKeywordType>(___result);
         }
 
 
@@ -699,7 +700,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMIsValid_Injected_Ref_LocalKeywordSpace_UInt32.Invoke(___genericsType, ___parameters);
 			@spaceInfo = (UnityEngine.Rendering.LocalKeywordSpace)___parameters[0];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -721,7 +722,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -732,7 +733,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

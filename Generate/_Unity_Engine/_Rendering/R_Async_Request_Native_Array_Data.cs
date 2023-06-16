@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.AsyncRequestNativeArrayData
 	/// </summary>
     public partial class RAsyncRequestNativeArrayData : RMember //
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MCreateAndCheckAccess_GT_NativeArray_d_T_p_ == null)
 				{
-					r_MCreateAndCheckAccess_GT_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData"), "CreateAndCheckAccess", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCreateAndCheckAccess_GT_NativeArray_d_T_p_ = new(Type, "CreateAndCheckAccess", 1,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCreateAndCheckAccess_GT_NativeArray_d_T_p_;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MCreateAndCheckAccess_GT_NativeSlice_d_T_p_ == null)
 				{
-					r_MCreateAndCheckAccess_GT_NativeSlice_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.Rendering.AsyncRequestNativeArrayData"), "CreateAndCheckAccess", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_MCreateAndCheckAccess_GT_NativeSlice_d_T_p_ = new(Type, "CreateAndCheckAccess", 1,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCreateAndCheckAccess_GT_NativeSlice_d_T_p_;
 			}
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@array.Value};
             var ___result = RMCreateAndCheckAccess_GT_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@array.Value};
             var ___result = RMCreateAndCheckAccess_GT_NativeSlice_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RRendering.RAsyncRequestNativeArrayData>(___result);
         }
 
 
@@ -242,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -297,7 +298,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

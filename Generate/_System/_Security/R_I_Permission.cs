@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.IPermission
 	/// </summary>
     public partial class RIPermission : RMember //
@@ -124,7 +125,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -146,7 +147,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@target};
             var ___result = RMIntersect_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 
@@ -157,7 +158,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@target};
             var ___result = RMIsSubsetOf_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -168,7 +169,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@target};
             var ___result = RMUnion_IPermission.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.IPermission)___result;
+            return ReflectionUtils.Convert<System.Security.IPermission>(___result);
         }
 
 

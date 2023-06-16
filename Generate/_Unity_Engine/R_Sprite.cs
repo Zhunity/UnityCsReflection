@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Sprite
 	/// </summary>
     public partial class RSprite : RMember //
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D == null)
 				{
-					r_MCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "CreateSpriteWithoutTextureScripting", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_MCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D = new(Type, "CreateSpriteWithoutTextureScripting", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
 				}
 				return r_MCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
 				{
-					r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "CreateSprite", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(Type, "CreateSprite", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
 				}
 				return r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ == null)
 				{
-					r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ = new(typeof(UnityEngine.Sprite), "GetPhysicsShapeImpl", 0, typeof(UnityEngine.Sprite), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector2)));
+					r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_ = new(Type, "GetPhysicsShapeImpl", 0, typeof(UnityEngine.Sprite), typeof(System.Int32),  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.Vector2)));
 				}
 				return r_MGetPhysicsShapeImpl_Sprite_Int32_List_d_Vector2_p_;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOverridePhysicsShapeCount_Sprite_Int32 == null)
 				{
-					r_MOverridePhysicsShapeCount_Sprite_Int32 = new(typeof(UnityEngine.Sprite), "OverridePhysicsShapeCount", 0, typeof(UnityEngine.Sprite), typeof(System.Int32));
+					r_MOverridePhysicsShapeCount_Sprite_Int32 = new(Type, "OverridePhysicsShapeCount", 0, typeof(UnityEngine.Sprite), typeof(System.Int32));
 				}
 				return r_MOverridePhysicsShapeCount_Sprite_Int32;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOverridePhysicsShape_Sprite_Vector2Array_Int32 == null)
 				{
-					r_MOverridePhysicsShape_Sprite_Vector2Array_Int32 = new(typeof(UnityEngine.Sprite), "OverridePhysicsShape", 0, typeof(UnityEngine.Sprite), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32));
+					r_MOverridePhysicsShape_Sprite_Vector2Array_Int32 = new(Type, "OverridePhysicsShape", 0, typeof(UnityEngine.Sprite), typeof(UnityEngine.Vector2).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MOverridePhysicsShape_Sprite_Vector2Array_Int32;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Rect_Vector2_Single_Texture2D == null)
 				{
-					r_MCreate_Rect_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_MCreate_Rect_Vector2_Single_Texture2D = new(Type, "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Texture2D));
 				}
 				return r_MCreate_Rect_Vector2_Single_Texture2D;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Rect_Vector2_Single == null)
 				{
-					r_MCreate_Rect_Vector2_Single = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
+					r_MCreate_Rect_Vector2_Single = new(Type, "Create", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
 				}
 				return r_MCreate_Rect_Vector2_Single;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean));
+					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean));
 				}
 				return r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
 				}
 				return r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4));
+					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4 = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4));
 				}
 				return r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType));
+					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType));
 				}
 				return r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2_Single_UInt32 == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32));
+					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32 = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32));
 				}
 				return r_MCreate_Texture2D_Rect_Vector2_Single_UInt32;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2_Single == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2_Single = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
+					r_MCreate_Texture2D_Rect_Vector2_Single = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single));
 				}
 				return r_MCreate_Texture2D_Rect_Vector2_Single;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreate_Texture2D_Rect_Vector2 == null)
 				{
-					r_MCreate_Texture2D_Rect_Vector2 = new(typeof(UnityEngine.Sprite), "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
+					r_MCreate_Texture2D_Rect_Vector2 = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
 				}
 				return r_MCreate_Texture2D_Rect_Vector2;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D == null)
 				{
-					r_MCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D = new(typeof(UnityEngine.Sprite), "CreateSpriteWithoutTextureScripting_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_MCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D = new(Type, "CreateSpriteWithoutTextureScripting_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(UnityEngine.Texture2D));
 				}
 				return r_MCreateSpriteWithoutTextureScripting_Injected_Ref_Rect_Ref_Vector2_Single_Texture2D;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray == null)
 				{
-					r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray = new(typeof(UnityEngine.Sprite), "CreateSprite_Injected", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray = new(Type, "CreateSprite_Injected", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
 				}
 				return r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
 			}
@@ -1116,7 +1117,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetPackingMode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1127,7 +1128,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetPackingRotation.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1138,7 +1139,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetPacked.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1149,7 +1150,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetTextureRect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -1160,7 +1161,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetTextureRectOffset.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -1171,7 +1172,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInnerUVs.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector4)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
         }
 
 
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetOuterUVs.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector4)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
         }
 
 
@@ -1193,7 +1194,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetPadding.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector4)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
         }
 
 
@@ -1204,7 +1205,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
             var ___result = RMCreateSpriteWithoutTextureScripting_Rect_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1215,7 +1216,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTexture};
             var ___result = RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1226,7 +1227,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@index};
             var ___result = RMGetSecondaryTexture_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Texture2D)___result;
+            return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
         }
 
 
@@ -1237,7 +1238,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetSecondaryTextureCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1248,7 +1249,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@secondaryTexture};
             var ___result = RMGetSecondaryTextures_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1259,7 +1260,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetPhysicsShapeCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1270,7 +1271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@shapeIdx};
             var ___result = RMGetPhysicsShapePointCount_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1281,7 +1282,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@shapeIdx};
             var ___result = RMInternal_GetPhysicsShapePointCount_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1292,7 +1293,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@shapeIdx, @physicsShape};
             var ___result = RMGetPhysicsShape_Int32_List_d_Vector2_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits, @texture};
             var ___result = RMCreate_Rect_Vector2_Single_Texture2D.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1369,7 +1370,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rect, @pivot, @pixelsToUnits};
             var ___result = RMCreate_Rect_Vector2_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1380,7 +1381,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1391,7 +1392,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTextures};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1402,7 +1403,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1413,7 +1414,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1424,7 +1425,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1435,7 +1436,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1446,7 +1447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@texture, @rect, @pivot};
             var ___result = RMCreate_Texture2D_Rect_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1524,7 +1525,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@rect = (UnityEngine.Rect)___parameters[0];
 			@pivot = (UnityEngine.Vector2)___parameters[1];
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1538,7 +1539,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@pivot = (UnityEngine.Vector2)___parameters[2];
 			@border = (UnityEngine.Vector4)___parameters[6];
 
-            return (UnityEngine.Sprite)___result;
+            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
 
 
@@ -1601,7 +1602,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1612,7 +1613,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1623,7 +1624,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1634,7 +1635,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1656,7 +1657,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1667,7 +1668,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

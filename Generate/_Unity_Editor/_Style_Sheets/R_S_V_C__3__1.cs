@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.StyleSheets.SVC`1
 	/// </summary>
     public partial class RSVC<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
 			{
 				if(r_Mop_Implicit_SVC_d_T_p_ == null)
 				{
-					r_Mop_Implicit_SVC_d_T_p_ = new( ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1"), "op_Implicit", 0,  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1"));
+					r_Mop_Implicit_SVC_d_T_p_ = new(Type, "op_Implicit", 0,  ReflectionUtils.GetType("UnityEditor.StyleSheets.SVC`1"));
 				}
 				return r_Mop_Implicit_SVC_d_T_p_;
 			}
@@ -300,7 +301,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{@sc.Value};
             var ___result = RMop_Implicit_SVC_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -311,7 +312,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{@defaultValue};
             var ___result = RMReadValue_T.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -322,7 +323,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RM__0____2__ctor__1__b__6_0.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -333,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -355,7 +356,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -377,7 +378,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -388,7 +389,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.CultureData
 	/// </summary>
     public partial class RCultureData : RMember //
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Fs_Invariant == null)
 				{
-					r_Fs_Invariant = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "s_Invariant");
+					r_Fs_Invariant = new(Type, "s_Invariant");
 				}
 				return r_Fs_Invariant;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_PInvariant == null)
 				{
-					r_PInvariant = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "Invariant", -1);
+					r_PInvariant = new(Type, "Invariant", -1);
 				}
 				return r_PInvariant;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureData_String_Boolean == null)
 				{
-					r_MGetCultureData_String_Boolean = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.String), typeof(System.Boolean));
+					r_MGetCultureData_String_Boolean = new(Type, "GetCultureData", 0, typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MGetCultureData_String_Boolean;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String == null)
 				{
-					r_MGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.String));
+					r_MGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String = new(Type, "GetCultureData", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Boolean), typeof(System.String));
 				}
 				return r_MGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetCultureData_Int32_Boolean == null)
 				{
-					r_MGetCultureData_Int32_Boolean = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetCultureData", 0, typeof(System.Int32), typeof(System.Boolean));
+					r_MGetCultureData_Int32_Boolean = new(Type, "GetCultureData", 0, typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MGetCultureData_Int32_Boolean;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetDateSeparator_String == null)
 				{
-					r_MGetDateSeparator_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetDateSeparator", 0, typeof(System.String));
+					r_MGetDateSeparator_String = new(Type, "GetDateSeparator", 0, typeof(System.String));
 				}
 				return r_MGetDateSeparator_String;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetSeparator_String_String == null)
 				{
-					r_MGetSeparator_String_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "GetSeparator", 0, typeof(System.String), typeof(System.String));
+					r_MGetSeparator_String_String = new(Type, "GetSeparator", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MGetSeparator_String_String;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MIndexOfTimePart_String_Int32_String == null)
 				{
-					r_MIndexOfTimePart_String_Int32_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "IndexOfTimePart", 0, typeof(System.String), typeof(System.Int32), typeof(System.String));
+					r_MIndexOfTimePart_String_Int32_String = new(Type, "IndexOfTimePart", 0, typeof(System.String), typeof(System.Int32), typeof(System.String));
 				}
 				return r_MIndexOfTimePart_String_Int32_String;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MUnescapeNlsString_String_Int32_Int32 == null)
 				{
-					r_MUnescapeNlsString_String_Int32_Int32 = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "UnescapeNlsString", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32));
+					r_MUnescapeNlsString_String_Int32_Int32 = new(Type, "UnescapeNlsString", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MUnescapeNlsString_String_Int32_Int32;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MReescapeWin32Strings_StringArray == null)
 				{
-					r_MReescapeWin32Strings_StringArray = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "ReescapeWin32Strings", 0, typeof(System.String).MakeArrayType());
+					r_MReescapeWin32Strings_StringArray = new(Type, "ReescapeWin32Strings", 0, typeof(System.String).MakeArrayType());
 				}
 				return r_MReescapeWin32Strings_StringArray;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MReescapeWin32String_String == null)
 				{
-					r_MReescapeWin32String_String = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "ReescapeWin32String", 0, typeof(System.String));
+					r_MReescapeWin32String_String = new(Type, "ReescapeWin32String", 0, typeof(System.String));
 				}
 				return r_MReescapeWin32String_String;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MIsCustomCultureId_Int32 == null)
 				{
-					r_MIsCustomCultureId_Int32 = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "IsCustomCultureId", 0, typeof(System.Int32));
+					r_MIsCustomCultureId_Int32 = new(Type, "IsCustomCultureId", 0, typeof(System.Int32));
 				}
 				return r_MIsCustomCultureId_Int32;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Mstrlen_BytePointer == null)
 				{
-					r_Mstrlen_BytePointer = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "strlen", 0, typeof(System.Byte).MakePointerType());
+					r_Mstrlen_BytePointer = new(Type, "strlen", 0, typeof(System.Byte).MakePointerType());
 				}
 				return r_Mstrlen_BytePointer;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Midx2string_BytePointer_Int32 == null)
 				{
-					r_Midx2string_BytePointer_Int32 = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "idx2string", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
+					r_Midx2string_BytePointer_Int32 = new(Type, "idx2string", 0, typeof(System.Byte).MakePointerType(), typeof(System.Int32));
 				}
 				return r_Midx2string_BytePointer_Int32;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_Mfill_number_data_Int32_Ref_NumberFormatEntryManaged == null)
 				{
-					r_Mfill_number_data_Int32_Ref_NumberFormatEntryManaged = new( ReflectionUtils.GetType("System.Globalization.CultureData"), "fill_number_data", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Globalization.CultureData+NumberFormatEntryManaged").MakeByRefType());
+					r_Mfill_number_data_Int32_Ref_NumberFormatEntryManaged = new(Type, "fill_number_data", 0, typeof(System.Int32),  ReflectionUtils.GetType("System.Globalization.CultureData+NumberFormatEntryManaged").MakeByRefType());
 				}
 				return r_Mfill_number_data_Int32_Ref_NumberFormatEntryManaged;
 			}
@@ -1388,7 +1389,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@cultureName, @useUserOverride};
             var ___result = RMGetCultureData_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData>(___result);
         }
 
 
@@ -1399,7 +1400,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@cultureName, @useUserOverride, @datetimeIndex, @calendarId, @numberIndex, @iso2lang, @ansiCodePage, @oemCodePage, @macCodePage, @ebcdicCodePage, @rightToLeft, @listSeparator};
             var ___result = RMGetCultureData_String_Boolean_Int32_Int32_Int32_String_Int32_Int32_Int32_Int32_Boolean_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData>(___result);
         }
 
 
@@ -1410,7 +1411,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@culture, @bUseUserOverride};
             var ___result = RMGetCultureData_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCultureData>(___result);
         }
 
 
@@ -1432,7 +1433,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMGetCalendar_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarData>(___result);
         }
 
 
@@ -1443,7 +1444,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetCalendarIds.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RGlobalization.RCalendarId>>(___result);
         }
 
 
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMCalendarName_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1465,7 +1466,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMEraNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1476,7 +1477,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMAbbrevEraNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1487,7 +1488,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMAbbreviatedEnglishEraNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1498,7 +1499,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMShortDates_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1509,7 +1510,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMLongDates_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1520,7 +1521,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMYearMonths_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1531,7 +1532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMDayNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1542,7 +1543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMAbbreviatedDayNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1553,7 +1554,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMSuperShortDayNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1564,7 +1565,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMMonthNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1575,7 +1576,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMGenitiveMonthNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1586,7 +1587,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMAbbreviatedMonthNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1597,7 +1598,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMAbbreviatedGenitiveMonthNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1608,7 +1609,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMLeapYearMonthNames_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1619,7 +1620,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMMonthDay_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendarId};
             var ___result = RMDateSeparator_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1641,7 +1642,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format};
             var ___result = RMGetDateSeparator_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1652,7 +1653,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format, @timeParts};
             var ___result = RMGetSeparator_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1663,7 +1664,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format, @startIndex, @timeParts};
             var ___result = RMIndexOfTimePart_String_Int32_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1674,7 +1675,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@str, @start, @end};
             var ___result = RMUnescapeNlsString_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1685,7 +1686,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@array};
             var ___result = RMReescapeWin32Strings_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1696,7 +1697,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@str};
             var ___result = RMReescapeWin32String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1707,7 +1708,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@cultureId};
             var ___result = RMIsCustomCultureId_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1718,7 +1719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@s, typeof(System.Byte))};
             var ___result = RMstrlen_BytePointer.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1729,7 +1730,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{Pointer.Box(@data, typeof(System.Byte)), @idx};
             var ___result = RMidx2string_BytePointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1740,7 +1741,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@gs0, @gs1};
             var ___result = RMcreate_group_sizes_array_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32[])___result;
+            return ReflectionUtils.Convert<System.Int32[]>(___result);
         }
 
 
@@ -1774,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1796,7 +1797,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1807,7 +1808,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1818,7 +1819,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1829,7 +1830,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

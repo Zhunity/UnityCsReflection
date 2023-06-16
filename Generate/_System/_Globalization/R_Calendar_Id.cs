@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.CalendarId
 	/// </summary>
     public partial class RCalendarId : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FUNINITIALIZED_VALUE == null)
 				{
-					r_FUNINITIALIZED_VALUE = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "UNINITIALIZED_VALUE");
+					r_FUNINITIALIZED_VALUE = new(Type, "UNINITIALIZED_VALUE");
 				}
 				return r_FUNINITIALIZED_VALUE;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FGREGORIAN == null)
 				{
-					r_FGREGORIAN = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "GREGORIAN");
+					r_FGREGORIAN = new(Type, "GREGORIAN");
 				}
 				return r_FGREGORIAN;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FGREGORIAN_US == null)
 				{
-					r_FGREGORIAN_US = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "GREGORIAN_US");
+					r_FGREGORIAN_US = new(Type, "GREGORIAN_US");
 				}
 				return r_FGREGORIAN_US;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FJAPAN == null)
 				{
-					r_FJAPAN = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "JAPAN");
+					r_FJAPAN = new(Type, "JAPAN");
 				}
 				return r_FJAPAN;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTAIWAN == null)
 				{
-					r_FTAIWAN = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "TAIWAN");
+					r_FTAIWAN = new(Type, "TAIWAN");
 				}
 				return r_FTAIWAN;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FKOREA == null)
 				{
-					r_FKOREA = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "KOREA");
+					r_FKOREA = new(Type, "KOREA");
 				}
 				return r_FKOREA;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FHIJRI == null)
 				{
-					r_FHIJRI = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "HIJRI");
+					r_FHIJRI = new(Type, "HIJRI");
 				}
 				return r_FHIJRI;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTHAI == null)
 				{
-					r_FTHAI = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "THAI");
+					r_FTHAI = new(Type, "THAI");
 				}
 				return r_FTHAI;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FHEBREW == null)
 				{
-					r_FHEBREW = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "HEBREW");
+					r_FHEBREW = new(Type, "HEBREW");
 				}
 				return r_FHEBREW;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FGREGORIAN_ME_FRENCH == null)
 				{
-					r_FGREGORIAN_ME_FRENCH = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "GREGORIAN_ME_FRENCH");
+					r_FGREGORIAN_ME_FRENCH = new(Type, "GREGORIAN_ME_FRENCH");
 				}
 				return r_FGREGORIAN_ME_FRENCH;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FGREGORIAN_ARABIC == null)
 				{
-					r_FGREGORIAN_ARABIC = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "GREGORIAN_ARABIC");
+					r_FGREGORIAN_ARABIC = new(Type, "GREGORIAN_ARABIC");
 				}
 				return r_FGREGORIAN_ARABIC;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FGREGORIAN_XLIT_ENGLISH == null)
 				{
-					r_FGREGORIAN_XLIT_ENGLISH = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "GREGORIAN_XLIT_ENGLISH");
+					r_FGREGORIAN_XLIT_ENGLISH = new(Type, "GREGORIAN_XLIT_ENGLISH");
 				}
 				return r_FGREGORIAN_XLIT_ENGLISH;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FGREGORIAN_XLIT_FRENCH == null)
 				{
-					r_FGREGORIAN_XLIT_FRENCH = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "GREGORIAN_XLIT_FRENCH");
+					r_FGREGORIAN_XLIT_FRENCH = new(Type, "GREGORIAN_XLIT_FRENCH");
 				}
 				return r_FGREGORIAN_XLIT_FRENCH;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FJULIAN == null)
 				{
-					r_FJULIAN = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "JULIAN");
+					r_FJULIAN = new(Type, "JULIAN");
 				}
 				return r_FJULIAN;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FJAPANESELUNISOLAR == null)
 				{
-					r_FJAPANESELUNISOLAR = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "JAPANESELUNISOLAR");
+					r_FJAPANESELUNISOLAR = new(Type, "JAPANESELUNISOLAR");
 				}
 				return r_FJAPANESELUNISOLAR;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCHINESELUNISOLAR == null)
 				{
-					r_FCHINESELUNISOLAR = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "CHINESELUNISOLAR");
+					r_FCHINESELUNISOLAR = new(Type, "CHINESELUNISOLAR");
 				}
 				return r_FCHINESELUNISOLAR;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FSAKA == null)
 				{
-					r_FSAKA = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "SAKA");
+					r_FSAKA = new(Type, "SAKA");
 				}
 				return r_FSAKA;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FLUNAR_ETO_CHN == null)
 				{
-					r_FLUNAR_ETO_CHN = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "LUNAR_ETO_CHN");
+					r_FLUNAR_ETO_CHN = new(Type, "LUNAR_ETO_CHN");
 				}
 				return r_FLUNAR_ETO_CHN;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FLUNAR_ETO_KOR == null)
 				{
-					r_FLUNAR_ETO_KOR = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "LUNAR_ETO_KOR");
+					r_FLUNAR_ETO_KOR = new(Type, "LUNAR_ETO_KOR");
 				}
 				return r_FLUNAR_ETO_KOR;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FLUNAR_ETO_ROKUYOU == null)
 				{
-					r_FLUNAR_ETO_ROKUYOU = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "LUNAR_ETO_ROKUYOU");
+					r_FLUNAR_ETO_ROKUYOU = new(Type, "LUNAR_ETO_ROKUYOU");
 				}
 				return r_FLUNAR_ETO_ROKUYOU;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FKOREANLUNISOLAR == null)
 				{
-					r_FKOREANLUNISOLAR = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "KOREANLUNISOLAR");
+					r_FKOREANLUNISOLAR = new(Type, "KOREANLUNISOLAR");
 				}
 				return r_FKOREANLUNISOLAR;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTAIWANLUNISOLAR == null)
 				{
-					r_FTAIWANLUNISOLAR = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "TAIWANLUNISOLAR");
+					r_FTAIWANLUNISOLAR = new(Type, "TAIWANLUNISOLAR");
 				}
 				return r_FTAIWANLUNISOLAR;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FPERSIAN == null)
 				{
-					r_FPERSIAN = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "PERSIAN");
+					r_FPERSIAN = new(Type, "PERSIAN");
 				}
 				return r_FPERSIAN;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FUMALQURA == null)
 				{
-					r_FUMALQURA = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "UMALQURA");
+					r_FUMALQURA = new(Type, "UMALQURA");
 				}
 				return r_FUMALQURA;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FLAST_CALENDAR == null)
 				{
-					r_FLAST_CALENDAR = new( ReflectionUtils.GetType("System.Globalization.CalendarId"), "LAST_CALENDAR");
+					r_FLAST_CALENDAR = new(Type, "LAST_CALENDAR");
 				}
 				return r_FLAST_CALENDAR;
 			}
@@ -668,7 +669,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -679,7 +680,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -690,7 +691,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -701,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -712,7 +713,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -723,7 +724,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -745,7 +746,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -756,7 +757,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -767,7 +768,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -789,7 +790,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -800,7 +801,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs
 	/// </summary>
     public partial class RPackageManagerPrefs : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_SkipRemoveConfirmationPrefs == null)
 				{
-					r_Fk_SkipRemoveConfirmationPrefs = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "k_SkipRemoveConfirmationPrefs");
+					r_Fk_SkipRemoveConfirmationPrefs = new(Type, "k_SkipRemoveConfirmationPrefs");
 				}
 				return r_Fk_SkipRemoveConfirmationPrefs;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_SkipMultiSelectRemoveConfirmationPrefs == null)
 				{
-					r_Fk_SkipMultiSelectRemoveConfirmationPrefs = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "k_SkipMultiSelectRemoveConfirmationPrefs");
+					r_Fk_SkipMultiSelectRemoveConfirmationPrefs = new(Type, "k_SkipMultiSelectRemoveConfirmationPrefs");
 				}
 				return r_Fk_SkipMultiSelectRemoveConfirmationPrefs;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_SkipDisableConfirmationPrefs == null)
 				{
-					r_Fk_SkipDisableConfirmationPrefs = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "k_SkipDisableConfirmationPrefs");
+					r_Fk_SkipDisableConfirmationPrefs = new(Type, "k_SkipDisableConfirmationPrefs");
 				}
 				return r_Fk_SkipDisableConfirmationPrefs;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_SplitterFlexGrowPrefs == null)
 				{
-					r_Fk_SplitterFlexGrowPrefs = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "k_SplitterFlexGrowPrefs");
+					r_Fk_SplitterFlexGrowPrefs = new(Type, "k_SplitterFlexGrowPrefs");
 				}
 				return r_Fk_SplitterFlexGrowPrefs;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_LastUsedFilterPrefsPrefix == null)
 				{
-					r_Fk_LastUsedFilterPrefsPrefix = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "k_LastUsedFilterPrefsPrefix");
+					r_Fk_LastUsedFilterPrefsPrefix = new(Type, "k_LastUsedFilterPrefsPrefix");
 				}
 				return r_Fk_LastUsedFilterPrefsPrefix;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_PprojectIdentifier == null)
 				{
-					r_PprojectIdentifier = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "projectIdentifier", -1);
+					r_PprojectIdentifier = new(Type, "projectIdentifier", -1);
 				}
 				return r_PprojectIdentifier;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_PlastUsedFilterForProjectPerfs == null)
 				{
-					r_PlastUsedFilterForProjectPerfs = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"), "lastUsedFilterForProjectPerfs", -1);
+					r_PlastUsedFilterForProjectPerfs = new(Type, "lastUsedFilterForProjectPerfs", -1);
 				}
 				return r_PlastUsedFilterForProjectPerfs;
 			}
@@ -700,7 +701,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@extensionTitle};
             var ___result = RMIsDetailsExtensionExpanded_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -733,7 +734,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@uniqueId};
             var ___result = RMIsVersionHistoryItemExpanded_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -755,7 +756,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -777,7 +778,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -788,7 +789,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -799,7 +800,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -810,7 +811,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

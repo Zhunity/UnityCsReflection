@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.CommonAcl
 	/// </summary>
     public partial class RCommonAcl : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_Fdefault_capacity == null)
 				{
-					r_Fdefault_capacity = new(typeof(System.Security.AccessControl.CommonAcl), "default_capacity");
+					r_Fdefault_capacity = new(Type, "default_capacity");
 				}
 				return r_Fdefault_capacity;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid == null)
 				{
-					r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid = new(typeof(System.Security.AccessControl.CommonAcl), "GetObjectAceTypeGuids", 0, typeof(System.Security.AccessControl.ObjectAce), typeof(System.Guid).MakeByRefType(), typeof(System.Guid).MakeByRefType());
+					r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid = new(Type, "GetObjectAceTypeGuids", 0, typeof(System.Security.AccessControl.ObjectAce), typeof(System.Guid).MakeByRefType(), typeof(System.Guid).MakeByRefType());
 				}
 				return r_MGetObjectAceTypeGuids_ObjectAce_Out_Guid_Out_Guid;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_MCopyAce_GenericAce == null)
 				{
-					r_MCopyAce_GenericAce = new(typeof(System.Security.AccessControl.CommonAcl), "CopyAce", 0, typeof(System.Security.AccessControl.GenericAce));
+					r_MCopyAce_GenericAce = new(Type, "CopyAce", 0, typeof(System.Security.AccessControl.GenericAce));
 				}
 				return r_MCopyAce_GenericAce;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@ace};
             var ___result = RMIsAceMeaningless_GenericAce.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -985,7 +986,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMTestCanonicity.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -996,7 +997,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetCanonicalExplicitDenyAceCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1007,7 +1008,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetCanonicalExplicitAceCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1029,7 +1030,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@ace1, @ace2};
             var ___result = RMMergeExplicitAcePair_GenericAce_GenericAce.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.GenericAce)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.GenericAce>(___result);
         }
 
 
@@ -1077,7 +1078,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@sdFlags, @isDacl};
             var ___result = RMGetSddlForm_ControlFlags_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1121,7 +1122,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags, @objectFlags, @objectType, @inheritedObjectType};
             var ___result = RMAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags_ObjectAceFlags_Guid_Guid.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.QualifiedAce)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.QualifiedAce>(___result);
         }
 
 
@@ -1132,7 +1133,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@aceQualifier, @sid, @accessMask, @inheritanceFlags, @propagationFlags, @auditFlags};
             var ___result = RMAddAceGetQualifiedAce_AceQualifier_SecurityIdentifier_Int32_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.QualifiedAce)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.QualifiedAce>(___result);
         }
 
 
@@ -1154,7 +1155,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@ace};
             var ___result = RMCopyAce_GenericAce.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.GenericAce)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.GenericAce>(___result);
         }
 
 
@@ -1165,7 +1166,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@aceQualifier};
             var ___result = RMGetAceInsertPosition_AceQualifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1176,7 +1177,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@inheritanceFlags, @propagationFlags, @auditFlags};
             var ___result = RMGetAceFlags_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AceFlags)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AceFlags>(___result);
         }
 
 
@@ -1253,7 +1254,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AceEnumerator)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AceEnumerator>(___result);
         }
 
 
@@ -1264,7 +1265,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1286,7 +1287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1297,7 +1298,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1308,7 +1309,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1319,7 +1320,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

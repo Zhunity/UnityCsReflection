@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.RawAcl
 	/// </summary>
     public partial class RRawAcl : RMember //
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_MParseSddlForm_String_Boolean_Ref_ControlFlags_Ref_Int32 == null)
 				{
-					r_MParseSddlForm_String_Boolean_Ref_ControlFlags_Ref_Int32 = new(typeof(System.Security.AccessControl.RawAcl), "ParseSddlForm", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Security.AccessControl.ControlFlags).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_MParseSddlForm_String_Boolean_Ref_ControlFlags_Ref_Int32 = new(Type, "ParseSddlForm", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Security.AccessControl.ControlFlags).MakeByRefType(), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MParseSddlForm_String_Boolean_Ref_ControlFlags_Ref_Int32;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_MParseFlags_String_Boolean_Ref_ControlFlags_Ref_Int32 == null)
 				{
-					r_MParseFlags_String_Boolean_Ref_ControlFlags_Ref_Int32 = new(typeof(System.Security.AccessControl.RawAcl), "ParseFlags", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Security.AccessControl.ControlFlags).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_MParseFlags_String_Boolean_Ref_ControlFlags_Ref_Int32 = new(Type, "ParseFlags", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Security.AccessControl.ControlFlags).MakeByRefType(), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MParseFlags_String_Boolean_Ref_ControlFlags_Ref_Int32;
 			}
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@sdFlags, @isDacl};
             var ___result = RMGetSddlForm_ControlFlags_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -474,7 +475,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			@sdFlags = (System.Security.AccessControl.ControlFlags)___parameters[2];
 			@pos = (System.Int32)___parameters[3];
 
-            return (System.Security.AccessControl.RawAcl)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.RawAcl>(___result);
         }
 
 
@@ -509,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@buffer, @offset};
             var ___result = RMReadUShort_ByteArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -531,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AceEnumerator)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AceEnumerator>(___result);
         }
 
 
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -564,7 +565,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -575,7 +576,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -586,7 +587,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -597,7 +598,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

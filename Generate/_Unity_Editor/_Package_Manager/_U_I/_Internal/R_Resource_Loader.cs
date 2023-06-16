@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.ResourceLoader
 	/// </summary>
     public partial class RResourceLoader : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_TemplateRoot == null)
 				{
-					r_Fk_TemplateRoot = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader"), "k_TemplateRoot");
+					r_Fk_TemplateRoot = new(Type, "k_TemplateRoot");
 				}
 				return r_Fk_TemplateRoot;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fs_ResolvedDarkStyleSheetIds == null)
 				{
-					r_Fs_ResolvedDarkStyleSheetIds = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader"), "s_ResolvedDarkStyleSheetIds");
+					r_Fs_ResolvedDarkStyleSheetIds = new(Type, "s_ResolvedDarkStyleSheetIds");
 				}
 				return r_Fs_ResolvedDarkStyleSheetIds;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fs_ResolvedLightStyleSheetIds == null)
 				{
-					r_Fs_ResolvedLightStyleSheetIds = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader"), "s_ResolvedLightStyleSheetIds");
+					r_Fs_ResolvedLightStyleSheetIds = new(Type, "s_ResolvedLightStyleSheetIds");
 				}
 				return r_Fs_ResolvedLightStyleSheetIds;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_PlightOrDarkTheme == null)
 				{
-					r_PlightOrDarkTheme = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader"), "lightOrDarkTheme", -1);
+					r_PlightOrDarkTheme = new(Type, "lightOrDarkTheme", -1);
 				}
 				return r_PlightOrDarkTheme;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_PresolvedStyleSheetIds == null)
 				{
-					r_PresolvedStyleSheetIds = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader"), "resolvedStyleSheetIds", -1);
+					r_PresolvedStyleSheetIds = new(Type, "resolvedStyleSheetIds", -1);
 				}
 				return r_PresolvedStyleSheetIds;
 			}
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@styleSheetType.Value};
             var ___result = RMFindResolvedStyleSheetFromType_StyleSheetType.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleSheet)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@styleSheetType.Value, @styleSheetPaths};
             var ___result = RMResolveStyleSheets_StyleSheetType_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleSheet)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
@@ -584,7 +585,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@styleSheetType.Value, @styleSheets};
             var ___result = RMResolveStyleSheets_StyleSheetType_StyleSheetArray.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleSheet)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@templateFilename, @shouldThrowException};
             var ___result = RMGetTemplate_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.VisualElement)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 
@@ -639,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@p};
             var ___result = RM__0__get_packageManagerWindowStyleSheet__1__b__17_0_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleSheet)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
@@ -650,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@p};
             var ___result = RM__0__ResolveStyleSheets__1__b__24_0_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.StyleSheet)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -683,7 +684,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -694,7 +695,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -705,7 +706,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -716,7 +717,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

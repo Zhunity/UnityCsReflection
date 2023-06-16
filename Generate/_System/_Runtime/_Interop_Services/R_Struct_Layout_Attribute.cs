@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.InteropServices.StructLayoutAttribute
 	/// </summary>
     public partial class RStructLayoutAttribute : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FDEFAULT_PACKING_SIZE == null)
 				{
-					r_FDEFAULT_PACKING_SIZE = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "DEFAULT_PACKING_SIZE");
+					r_FDEFAULT_PACKING_SIZE = new(Type, "DEFAULT_PACKING_SIZE");
 				}
 				return r_FDEFAULT_PACKING_SIZE;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MGetCustomAttribute_RuntimeType == null)
 				{
-					r_MGetCustomAttribute_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "GetCustomAttribute", 0,  ReflectionUtils.GetType("System.RuntimeType"));
+					r_MGetCustomAttribute_RuntimeType = new(Type, "GetCustomAttribute", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 				}
 				return r_MGetCustomAttribute_RuntimeType;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_MIsDefined_RuntimeType == null)
 				{
-					r_MIsDefined_RuntimeType = new(typeof(System.Runtime.InteropServices.StructLayoutAttribute), "IsDefined", 0,  ReflectionUtils.GetType("System.RuntimeType"));
+					r_MIsDefined_RuntimeType = new(Type, "IsDefined", 0,  ReflectionUtils.GetType("System.RuntimeType"));
 				}
 				return r_MIsDefined_RuntimeType;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@type.Value};
             var ___result = RMGetCustomAttribute_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.InteropServices.StructLayoutAttribute)___result;
+            return ReflectionUtils.Convert<System.Runtime.InteropServices.StructLayoutAttribute>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@type.Value};
             var ___result = RMIsDefined_RuntimeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@obj};
             var ___result = RMMatch_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMIsDefaultAttribute.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

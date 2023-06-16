@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Single
 	/// </summary>
     public partial class RSingle : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMinValue == null)
 				{
-					r_FMinValue = new(typeof(System.Single), "MinValue");
+					r_FMinValue = new(Type, "MinValue");
 				}
 				return r_FMinValue;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FEpsilon == null)
 				{
-					r_FEpsilon = new(typeof(System.Single), "Epsilon");
+					r_FEpsilon = new(Type, "Epsilon");
 				}
 				return r_FEpsilon;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FMaxValue == null)
 				{
-					r_FMaxValue = new(typeof(System.Single), "MaxValue");
+					r_FMaxValue = new(Type, "MaxValue");
 				}
 				return r_FMaxValue;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FPositiveInfinity == null)
 				{
-					r_FPositiveInfinity = new(typeof(System.Single), "PositiveInfinity");
+					r_FPositiveInfinity = new(Type, "PositiveInfinity");
 				}
 				return r_FPositiveInfinity;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FNegativeInfinity == null)
 				{
-					r_FNegativeInfinity = new(typeof(System.Single), "NegativeInfinity");
+					r_FNegativeInfinity = new(Type, "NegativeInfinity");
 				}
 				return r_FNegativeInfinity;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FNaN == null)
 				{
-					r_FNaN = new(typeof(System.Single), "NaN");
+					r_FNaN = new(Type, "NaN");
 				}
 				return r_FNaN;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FNegativeZero == null)
 				{
-					r_FNegativeZero = new(typeof(System.Single), "NegativeZero");
+					r_FNegativeZero = new(Type, "NegativeZero");
 				}
 				return r_FNegativeZero;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsFinite_Single == null)
 				{
-					r_MIsFinite_Single = new(typeof(System.Single), "IsFinite", 0, typeof(System.Single));
+					r_MIsFinite_Single = new(Type, "IsFinite", 0, typeof(System.Single));
 				}
 				return r_MIsFinite_Single;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsInfinity_Single == null)
 				{
-					r_MIsInfinity_Single = new(typeof(System.Single), "IsInfinity", 0, typeof(System.Single));
+					r_MIsInfinity_Single = new(Type, "IsInfinity", 0, typeof(System.Single));
 				}
 				return r_MIsInfinity_Single;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsNaN_Single == null)
 				{
-					r_MIsNaN_Single = new(typeof(System.Single), "IsNaN", 0, typeof(System.Single));
+					r_MIsNaN_Single = new(Type, "IsNaN", 0, typeof(System.Single));
 				}
 				return r_MIsNaN_Single;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsNegative_Single == null)
 				{
-					r_MIsNegative_Single = new(typeof(System.Single), "IsNegative", 0, typeof(System.Single));
+					r_MIsNegative_Single = new(Type, "IsNegative", 0, typeof(System.Single));
 				}
 				return r_MIsNegative_Single;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsNegativeInfinity_Single == null)
 				{
-					r_MIsNegativeInfinity_Single = new(typeof(System.Single), "IsNegativeInfinity", 0, typeof(System.Single));
+					r_MIsNegativeInfinity_Single = new(Type, "IsNegativeInfinity", 0, typeof(System.Single));
 				}
 				return r_MIsNegativeInfinity_Single;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsNormal_Single == null)
 				{
-					r_MIsNormal_Single = new(typeof(System.Single), "IsNormal", 0, typeof(System.Single));
+					r_MIsNormal_Single = new(Type, "IsNormal", 0, typeof(System.Single));
 				}
 				return r_MIsNormal_Single;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsPositiveInfinity_Single == null)
 				{
-					r_MIsPositiveInfinity_Single = new(typeof(System.Single), "IsPositiveInfinity", 0, typeof(System.Single));
+					r_MIsPositiveInfinity_Single = new(Type, "IsPositiveInfinity", 0, typeof(System.Single));
 				}
 				return r_MIsPositiveInfinity_Single;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsSubnormal_Single == null)
 				{
-					r_MIsSubnormal_Single = new(typeof(System.Single), "IsSubnormal", 0, typeof(System.Single));
+					r_MIsSubnormal_Single = new(Type, "IsSubnormal", 0, typeof(System.Single));
 				}
 				return r_MIsSubnormal_Single;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_Single_Single == null)
 				{
-					r_Mop_Equality_Single_Single = new(typeof(System.Single), "op_Equality", 0, typeof(System.Single), typeof(System.Single));
+					r_Mop_Equality_Single_Single = new(Type, "op_Equality", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_Mop_Equality_Single_Single;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_Single_Single == null)
 				{
-					r_Mop_Inequality_Single_Single = new(typeof(System.Single), "op_Inequality", 0, typeof(System.Single), typeof(System.Single));
+					r_Mop_Inequality_Single_Single = new(Type, "op_Inequality", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_Mop_Inequality_Single_Single;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThan_Single_Single == null)
 				{
-					r_Mop_LessThan_Single_Single = new(typeof(System.Single), "op_LessThan", 0, typeof(System.Single), typeof(System.Single));
+					r_Mop_LessThan_Single_Single = new(Type, "op_LessThan", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_Mop_LessThan_Single_Single;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThan_Single_Single == null)
 				{
-					r_Mop_GreaterThan_Single_Single = new(typeof(System.Single), "op_GreaterThan", 0, typeof(System.Single), typeof(System.Single));
+					r_Mop_GreaterThan_Single_Single = new(Type, "op_GreaterThan", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_Mop_GreaterThan_Single_Single;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThanOrEqual_Single_Single == null)
 				{
-					r_Mop_LessThanOrEqual_Single_Single = new(typeof(System.Single), "op_LessThanOrEqual", 0, typeof(System.Single), typeof(System.Single));
+					r_Mop_LessThanOrEqual_Single_Single = new(Type, "op_LessThanOrEqual", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_Mop_LessThanOrEqual_Single_Single;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThanOrEqual_Single_Single == null)
 				{
-					r_Mop_GreaterThanOrEqual_Single_Single = new(typeof(System.Single), "op_GreaterThanOrEqual", 0, typeof(System.Single), typeof(System.Single));
+					r_Mop_GreaterThanOrEqual_Single_Single = new(Type, "op_GreaterThanOrEqual", 0, typeof(System.Single), typeof(System.Single));
 				}
 				return r_Mop_GreaterThanOrEqual_Single_Single;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String == null)
 				{
-					r_MParse_String = new(typeof(System.Single), "Parse", 0, typeof(System.String));
+					r_MParse_String = new(Type, "Parse", 0, typeof(System.String));
 				}
 				return r_MParse_String;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_NumberStyles == null)
 				{
-					r_MParse_String_NumberStyles = new(typeof(System.Single), "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles));
+					r_MParse_String_NumberStyles = new(Type, "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles));
 				}
 				return r_MParse_String_NumberStyles;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_IFormatProvider == null)
 				{
-					r_MParse_String_IFormatProvider = new(typeof(System.Single), "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
+					r_MParse_String_IFormatProvider = new(Type, "Parse", 0, typeof(System.String), typeof(System.IFormatProvider));
 				}
 				return r_MParse_String_IFormatProvider;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String_NumberStyles_IFormatProvider == null)
 				{
-					r_MParse_String_NumberStyles_IFormatProvider = new(typeof(System.Single), "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
+					r_MParse_String_NumberStyles_IFormatProvider = new(Type, "Parse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
 				}
 				return r_MParse_String_NumberStyles_IFormatProvider;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider == null)
 				{
-					r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider = new(typeof(System.Single), "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
+					r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider = new(Type, "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider));
 				}
 				return r_MParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_Out_Single == null)
 				{
-					r_MTryParse_String_Out_Single = new(typeof(System.Single), "TryParse", 0, typeof(System.String), typeof(System.Single).MakeByRefType());
+					r_MTryParse_String_Out_Single = new(Type, "TryParse", 0, typeof(System.String), typeof(System.Single).MakeByRefType());
 				}
 				return r_MTryParse_String_Out_Single;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__Out_Single == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Single = new(typeof(System.Single), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Single).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Single = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Single).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__Out_Single;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_NumberStyles_IFormatProvider_Out_Single == null)
 				{
-					r_MTryParse_String_NumberStyles_IFormatProvider_Out_Single = new(typeof(System.Single), "TryParse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Single).MakeByRefType());
+					r_MTryParse_String_NumberStyles_IFormatProvider_Out_Single = new(Type, "TryParse", 0, typeof(System.String), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Single).MakeByRefType());
 				}
 				return r_MTryParse_String_NumberStyles_IFormatProvider_Out_Single;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Single == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Single = new(typeof(System.Single), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Single).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Single = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.IFormatProvider), typeof(System.Single).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Single;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_NumberFormatInfo_Out_Single == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_NumberFormatInfo_Out_Single = new(typeof(System.Single), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.Globalization.NumberFormatInfo), typeof(System.Single).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_NumberFormatInfo_Out_Single = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Globalization.NumberStyles), typeof(System.Globalization.NumberFormatInfo), typeof(System.Single).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__NumberStyles_NumberFormatInfo_Out_Single;
 			}
@@ -1020,7 +1021,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsFinite_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1031,7 +1032,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsInfinity_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1042,7 +1043,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsNaN_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1053,7 +1054,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsNegative_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1064,7 +1065,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsNegativeInfinity_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1075,7 +1076,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsNormal_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsPositiveInfinity_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1097,7 +1098,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@f};
             var ___result = RMIsSubnormal_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1108,7 +1109,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1119,7 +1120,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1130,7 +1131,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1141,7 +1142,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1152,7 +1153,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_LessThan_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1163,7 +1164,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_GreaterThan_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1174,7 +1175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_LessThanOrEqual_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1185,7 +1186,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_GreaterThanOrEqual_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1196,7 +1197,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1207,7 +1208,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1218,7 +1219,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1229,7 +1230,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1240,7 +1241,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1251,7 +1252,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1275,7 +1276,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1286,7 +1287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s};
             var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1297,7 +1298,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s, @style};
             var ___result = RMParse_String_NumberStyles.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1308,7 +1309,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s, @provider};
             var ___result = RMParse_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1319,7 +1320,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s, @style, @provider};
             var ___result = RMParse_String_NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1330,7 +1331,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@s.Value, @style, @provider};
             var ___result = RMParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1343,7 +1344,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_Out_Single.Invoke(___genericsType, ___parameters);
 			@result = (System.Single)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1356,7 +1357,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Single.Invoke(___genericsType, ___parameters);
 			@result = (System.Single)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1369,7 +1370,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_NumberStyles_IFormatProvider_Out_Single.Invoke(___genericsType, ___parameters);
 			@result = (System.Single)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1382,7 +1383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_IFormatProvider_Out_Single.Invoke(___genericsType, ___parameters);
 			@result = (System.Single)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1395,7 +1396,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__NumberStyles_NumberFormatInfo_Out_Single.Invoke(___genericsType, ___parameters);
 			@result = (System.Single)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -1417,7 +1418,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToBoolean_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1428,7 +1429,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToChar_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -1439,7 +1440,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToSByte_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.SByte)___result;
+            return ReflectionUtils.Convert<System.SByte>(___result);
         }
 
 
@@ -1450,7 +1451,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToByte_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -1461,7 +1462,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Int16)___result;
+            return ReflectionUtils.Convert<System.Int16>(___result);
         }
 
 
@@ -1472,7 +1473,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToUInt16_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -1483,7 +1484,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1494,7 +1495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToUInt32_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -1505,7 +1506,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -1516,7 +1517,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToUInt64_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1527,7 +1528,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToSingle_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1538,7 +1539,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToDouble_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -1549,7 +1550,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToDecimal_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -1560,7 +1561,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@provider};
             var ___result = RMSystem__2__IConvertible__2__ToDateTime_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1571,7 +1572,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@type, @provider};
             var ___result = RMSystem__2__IConvertible__2__ToType_Type_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1593,7 +1594,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1604,7 +1605,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

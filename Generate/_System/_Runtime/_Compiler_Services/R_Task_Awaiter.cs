@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.CompilerServices.TaskAwaiter
 	/// </summary>
     public partial class RTaskAwaiter : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MValidateEnd_Task == null)
 				{
-					r_MValidateEnd_Task = new(typeof(System.Runtime.CompilerServices.TaskAwaiter), "ValidateEnd", 0, typeof(System.Threading.Tasks.Task));
+					r_MValidateEnd_Task = new(Type, "ValidateEnd", 0, typeof(System.Threading.Tasks.Task));
 				}
 				return r_MValidateEnd_Task;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MHandleNonSuccessAndDebuggerNotification_Task == null)
 				{
-					r_MHandleNonSuccessAndDebuggerNotification_Task = new(typeof(System.Runtime.CompilerServices.TaskAwaiter), "HandleNonSuccessAndDebuggerNotification", 0, typeof(System.Threading.Tasks.Task));
+					r_MHandleNonSuccessAndDebuggerNotification_Task = new(Type, "HandleNonSuccessAndDebuggerNotification", 0, typeof(System.Threading.Tasks.Task));
 				}
 				return r_MHandleNonSuccessAndDebuggerNotification_Task;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MThrowForNonSuccess_Task == null)
 				{
-					r_MThrowForNonSuccess_Task = new(typeof(System.Runtime.CompilerServices.TaskAwaiter), "ThrowForNonSuccess", 0, typeof(System.Threading.Tasks.Task));
+					r_MThrowForNonSuccess_Task = new(Type, "ThrowForNonSuccess", 0, typeof(System.Threading.Tasks.Task));
 				}
 				return r_MThrowForNonSuccess_Task;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MOnCompletedInternal_Task_Action_Boolean_Boolean == null)
 				{
-					r_MOnCompletedInternal_Task_Action_Boolean_Boolean = new(typeof(System.Runtime.CompilerServices.TaskAwaiter), "OnCompletedInternal", 0, typeof(System.Threading.Tasks.Task), typeof(System.Action), typeof(System.Boolean), typeof(System.Boolean));
+					r_MOnCompletedInternal_Task_Action_Boolean_Boolean = new(Type, "OnCompletedInternal", 0, typeof(System.Threading.Tasks.Task), typeof(System.Action), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MOnCompletedInternal_Task_Action_Boolean_Boolean;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MOutputWaitEtwEvents_Task_Action == null)
 				{
-					r_MOutputWaitEtwEvents_Task_Action = new(typeof(System.Runtime.CompilerServices.TaskAwaiter), "OutputWaitEtwEvents", 0, typeof(System.Threading.Tasks.Task), typeof(System.Action));
+					r_MOutputWaitEtwEvents_Task_Action = new(Type, "OutputWaitEtwEvents", 0, typeof(System.Threading.Tasks.Task), typeof(System.Action));
 				}
 				return r_MOutputWaitEtwEvents_Task_Action;
 			}
@@ -377,7 +378,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@task, @continuation};
             var ___result = RMOutputWaitEtwEvents_Task_Action.Invoke(___genericsType, ___parameters);
 
-            return (System.Action)___result;
+            return ReflectionUtils.Convert<System.Action>(___result);
         }
 
 
@@ -388,7 +389,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -399,7 +400,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -410,7 +411,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -432,7 +433,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -443,7 +444,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

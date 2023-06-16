@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.CustomStyleProperty`1
 	/// </summary>
     public partial class RCustomStyleProperty<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ == null)
 				{
-					r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
+					r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
 				}
 				return r_Mop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ == null)
 				{
-					r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
+					r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_ = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"),  ReflectionUtils.GetType("UnityEngine.UIElements.CustomStyleProperty`1"));
 				}
 				return r_Mop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_;
 			}
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_CustomStyleProperty_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -242,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Equality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Inequality_CustomStyleProperty_d_T_p__CustomStyleProperty_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -275,7 +276,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -297,7 +298,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -308,7 +309,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

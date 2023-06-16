@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.SecurityElement
 	/// </summary>
     public partial class RSecurityElement : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Finvalid_tag_chars == null)
 				{
-					r_Finvalid_tag_chars = new(typeof(System.Security.SecurityElement), "invalid_tag_chars");
+					r_Finvalid_tag_chars = new(Type, "invalid_tag_chars");
 				}
 				return r_Finvalid_tag_chars;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Finvalid_text_chars == null)
 				{
-					r_Finvalid_text_chars = new(typeof(System.Security.SecurityElement), "invalid_text_chars");
+					r_Finvalid_text_chars = new(Type, "invalid_text_chars");
 				}
 				return r_Finvalid_text_chars;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Finvalid_attr_name_chars == null)
 				{
-					r_Finvalid_attr_name_chars = new(typeof(System.Security.SecurityElement), "invalid_attr_name_chars");
+					r_Finvalid_attr_name_chars = new(Type, "invalid_attr_name_chars");
 				}
 				return r_Finvalid_attr_name_chars;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Finvalid_attr_value_chars == null)
 				{
-					r_Finvalid_attr_value_chars = new(typeof(System.Security.SecurityElement), "invalid_attr_value_chars");
+					r_Finvalid_attr_value_chars = new(Type, "invalid_attr_value_chars");
 				}
 				return r_Finvalid_attr_value_chars;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_Finvalid_chars == null)
 				{
-					r_Finvalid_chars = new(typeof(System.Security.SecurityElement), "invalid_chars");
+					r_Finvalid_chars = new(Type, "invalid_chars");
 				}
 				return r_Finvalid_chars;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MEscape_String == null)
 				{
-					r_MEscape_String = new(typeof(System.Security.SecurityElement), "Escape", 0, typeof(System.String));
+					r_MEscape_String = new(Type, "Escape", 0, typeof(System.String));
 				}
 				return r_MEscape_String;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MUnescape_String == null)
 				{
-					r_MUnescape_String = new(typeof(System.Security.SecurityElement), "Unescape", 0, typeof(System.String));
+					r_MUnescape_String = new(Type, "Unescape", 0, typeof(System.String));
 				}
 				return r_MUnescape_String;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MFromString_String == null)
 				{
-					r_MFromString_String = new(typeof(System.Security.SecurityElement), "FromString", 0, typeof(System.String));
+					r_MFromString_String = new(Type, "FromString", 0, typeof(System.String));
 				}
 				return r_MFromString_String;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MIsValidAttributeName_String == null)
 				{
-					r_MIsValidAttributeName_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeName", 0, typeof(System.String));
+					r_MIsValidAttributeName_String = new(Type, "IsValidAttributeName", 0, typeof(System.String));
 				}
 				return r_MIsValidAttributeName_String;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MIsValidAttributeValue_String == null)
 				{
-					r_MIsValidAttributeValue_String = new(typeof(System.Security.SecurityElement), "IsValidAttributeValue", 0, typeof(System.String));
+					r_MIsValidAttributeValue_String = new(Type, "IsValidAttributeValue", 0, typeof(System.String));
 				}
 				return r_MIsValidAttributeValue_String;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MIsValidTag_String == null)
 				{
-					r_MIsValidTag_String = new(typeof(System.Security.SecurityElement), "IsValidTag", 0, typeof(System.String));
+					r_MIsValidTag_String = new(Type, "IsValidTag", 0, typeof(System.String));
 				}
 				return r_MIsValidTag_String;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
 			{
 				if(r_MIsValidText_String == null)
 				{
-					r_MIsValidText_String = new(typeof(System.Security.SecurityElement), "IsValidText", 0, typeof(System.String));
+					r_MIsValidText_String = new(Type, "IsValidText", 0, typeof(System.String));
 				}
 				return r_MIsValidText_String;
 			}
@@ -706,7 +707,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@name};
             var ___result = RMAttribute_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -717,7 +718,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.SecurityElement)___result;
+            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
         }
 
 
@@ -728,7 +729,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@other};
             var ___result = RMEqual_SecurityElement.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -739,7 +740,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@str};
             var ___result = RMEscape_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@str};
             var ___result = RMUnescape_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -761,7 +762,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@xml};
             var ___result = RMFromString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.SecurityElement)___result;
+            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
         }
 
 
@@ -772,7 +773,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@name};
             var ___result = RMIsValidAttributeName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -783,7 +784,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@value};
             var ___result = RMIsValidAttributeValue_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -794,7 +795,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@tag};
             var ___result = RMIsValidTag_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -805,7 +806,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@text};
             var ___result = RMIsValidText_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -816,7 +817,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@tag};
             var ___result = RMSearchForChildByTag_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.SecurityElement)___result;
+            return ReflectionUtils.Convert<System.Security.SecurityElement>(___result);
         }
 
 
@@ -827,7 +828,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@tag};
             var ___result = RMSearchForTextOfTag_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -838,7 +839,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -861,7 +862,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@name};
             var ___result = RMGetAttribute_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RSecurity.RSecurityElement.RSecurityAttribute>(___result);
         }
 
 
@@ -872,7 +873,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@strLocalName};
             var ___result = RMSearchForTextOfLocalName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -883,7 +884,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -905,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -916,7 +917,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -927,7 +928,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

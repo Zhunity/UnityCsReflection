@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.LowLevel.GlyphRenderMode
 	/// </summary>
     public partial class RGlyphRenderMode : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSMOOTH_HINTED == null)
 				{
-					r_FSMOOTH_HINTED = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SMOOTH_HINTED");
+					r_FSMOOTH_HINTED = new(Type, "SMOOTH_HINTED");
 				}
 				return r_FSMOOTH_HINTED;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSMOOTH == null)
 				{
-					r_FSMOOTH = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SMOOTH");
+					r_FSMOOTH = new(Type, "SMOOTH");
 				}
 				return r_FSMOOTH;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FCOLOR_HINTED == null)
 				{
-					r_FCOLOR_HINTED = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "COLOR_HINTED");
+					r_FCOLOR_HINTED = new(Type, "COLOR_HINTED");
 				}
 				return r_FCOLOR_HINTED;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FCOLOR == null)
 				{
-					r_FCOLOR = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "COLOR");
+					r_FCOLOR = new(Type, "COLOR");
 				}
 				return r_FCOLOR;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FRASTER_HINTED == null)
 				{
-					r_FRASTER_HINTED = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "RASTER_HINTED");
+					r_FRASTER_HINTED = new(Type, "RASTER_HINTED");
 				}
 				return r_FRASTER_HINTED;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FRASTER == null)
 				{
-					r_FRASTER = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "RASTER");
+					r_FRASTER = new(Type, "RASTER");
 				}
 				return r_FRASTER;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSDF == null)
 				{
-					r_FSDF = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SDF");
+					r_FSDF = new(Type, "SDF");
 				}
 				return r_FSDF;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSDF8 == null)
 				{
-					r_FSDF8 = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SDF8");
+					r_FSDF8 = new(Type, "SDF8");
 				}
 				return r_FSDF8;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSDF16 == null)
 				{
-					r_FSDF16 = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SDF16");
+					r_FSDF16 = new(Type, "SDF16");
 				}
 				return r_FSDF16;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSDF32 == null)
 				{
-					r_FSDF32 = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SDF32");
+					r_FSDF32 = new(Type, "SDF32");
 				}
 				return r_FSDF32;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSDFAA_HINTED == null)
 				{
-					r_FSDFAA_HINTED = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SDFAA_HINTED");
+					r_FSDFAA_HINTED = new(Type, "SDFAA_HINTED");
 				}
 				return r_FSDFAA_HINTED;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSDFAA == null)
 				{
-					r_FSDFAA = new(typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), "SDFAA");
+					r_FSDFAA = new(Type, "SDFAA");
 				}
 				return r_FSDFAA;
 			}
@@ -460,7 +461,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -493,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -504,7 +505,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -515,7 +516,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -537,7 +538,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -548,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -559,7 +560,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -581,7 +582,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -592,7 +593,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

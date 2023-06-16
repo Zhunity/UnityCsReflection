@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.ExceptionServices.ExceptionDispatchInfo
 	/// </summary>
     public partial class RExceptionDispatchInfo : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 			{
 				if(r_MCapture_Exception == null)
 				{
-					r_MCapture_Exception = new(typeof(System.Runtime.ExceptionServices.ExceptionDispatchInfo), "Capture", 0, typeof(System.Exception));
+					r_MCapture_Exception = new(Type, "Capture", 0, typeof(System.Exception));
 				}
 				return r_MCapture_Exception;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
 			{
 				if(r_MThrow_Exception == null)
 				{
-					r_MThrow_Exception = new(typeof(System.Runtime.ExceptionServices.ExceptionDispatchInfo), "Throw", 0, typeof(System.Exception));
+					r_MThrow_Exception = new(Type, "Throw", 0, typeof(System.Exception));
 				}
 				return r_MThrow_Exception;
 			}
@@ -252,7 +253,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
             var ___parameters = new object[]{@source};
             var ___result = RMCapture_Exception.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.ExceptionServices.ExceptionDispatchInfo)___result;
+            return ReflectionUtils.Convert<System.Runtime.ExceptionServices.ExceptionDispatchInfo>(___result);
         }
 
 
@@ -285,7 +286,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -307,7 +308,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -329,7 +330,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -340,7 +341,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RExceptionServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

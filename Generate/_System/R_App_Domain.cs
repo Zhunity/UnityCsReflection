@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.AppDomain
 	/// </summary>
     public partial class RAppDomain : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_F_process_guid == null)
 				{
-					r_F_process_guid = new(typeof(System.AppDomain), "_process_guid");
+					r_F_process_guid = new(Type, "_process_guid");
 				}
 				return r_F_process_guid;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Ftype_resolve_in_progress == null)
 				{
-					r_Ftype_resolve_in_progress = new(typeof(System.AppDomain), "type_resolve_in_progress");
+					r_Ftype_resolve_in_progress = new(Type, "type_resolve_in_progress");
 				}
 				return r_Ftype_resolve_in_progress;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fassembly_resolve_in_progress == null)
 				{
-					r_Fassembly_resolve_in_progress = new(typeof(System.AppDomain), "assembly_resolve_in_progress");
+					r_Fassembly_resolve_in_progress = new(Type, "assembly_resolve_in_progress");
 				}
 				return r_Fassembly_resolve_in_progress;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fassembly_resolve_in_progress_refonly == null)
 				{
-					r_Fassembly_resolve_in_progress_refonly = new(typeof(System.AppDomain), "assembly_resolve_in_progress_refonly");
+					r_Fassembly_resolve_in_progress_refonly = new(Type, "assembly_resolve_in_progress_refonly");
 				}
 				return r_Fassembly_resolve_in_progress_refonly;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_F_principal == null)
 				{
-					r_F_principal = new(typeof(System.AppDomain), "_principal");
+					r_F_principal = new(Type, "_principal");
 				}
 				return r_F_principal;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fdefault_domain == null)
 				{
-					r_Fdefault_domain = new(typeof(System.AppDomain), "default_domain");
+					r_Fdefault_domain = new(Type, "default_domain");
 				}
 				return r_Fdefault_domain;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PCurrentDomain == null)
 				{
-					r_PCurrentDomain = new(typeof(System.AppDomain), "CurrentDomain", -1);
+					r_PCurrentDomain = new(Type, "CurrentDomain", -1);
 				}
 				return r_PCurrentDomain;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PDefaultDomain == null)
 				{
-					r_PDefaultDomain = new(typeof(System.AppDomain), "DefaultDomain", -1);
+					r_PDefaultDomain = new(Type, "DefaultDomain", -1);
 				}
 				return r_PDefaultDomain;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PMonitoringIsEnabled == null)
 				{
-					r_PMonitoringIsEnabled = new(typeof(System.AppDomain), "MonitoringIsEnabled", -1);
+					r_PMonitoringIsEnabled = new(Type, "MonitoringIsEnabled", -1);
 				}
 				return r_PMonitoringIsEnabled;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PMonitoringSurvivedProcessMemorySize == null)
 				{
-					r_PMonitoringSurvivedProcessMemorySize = new(typeof(System.AppDomain), "MonitoringSurvivedProcessMemorySize", -1);
+					r_PMonitoringSurvivedProcessMemorySize = new(Type, "MonitoringSurvivedProcessMemorySize", -1);
 				}
 				return r_PMonitoringSurvivedProcessMemorySize;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsAppXModel == null)
 				{
-					r_MIsAppXModel = new(typeof(System.AppDomain), "IsAppXModel", 0);
+					r_MIsAppXModel = new(Type, "IsAppXModel", 0);
 				}
 				return r_MIsAppXModel;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsAppXDesignMode == null)
 				{
-					r_MIsAppXDesignMode = new(typeof(System.AppDomain), "IsAppXDesignMode", 0);
+					r_MIsAppXDesignMode = new(Type, "IsAppXDesignMode", 0);
 				}
 				return r_MIsAppXDesignMode;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCheckReflectionOnlyLoadSupported == null)
 				{
-					r_MCheckReflectionOnlyLoadSupported = new(typeof(System.AppDomain), "CheckReflectionOnlyLoadSupported", 0);
+					r_MCheckReflectionOnlyLoadSupported = new(Type, "CheckReflectionOnlyLoadSupported", 0);
 				}
 				return r_MCheckReflectionOnlyLoadSupported;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCheckLoadFromSupported == null)
 				{
-					r_MCheckLoadFromSupported = new(typeof(System.AppDomain), "CheckLoadFromSupported", 0);
+					r_MCheckLoadFromSupported = new(Type, "CheckLoadFromSupported", 0);
 				}
 				return r_MCheckLoadFromSupported;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MgetCurDomain == null)
 				{
-					r_MgetCurDomain = new(typeof(System.AppDomain), "getCurDomain", 0);
+					r_MgetCurDomain = new(Type, "getCurDomain", 0);
 				}
 				return r_MgetCurDomain;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MgetRootDomain == null)
 				{
-					r_MgetRootDomain = new(typeof(System.AppDomain), "getRootDomain", 0);
+					r_MgetRootDomain = new(Type, "getRootDomain", 0);
 				}
 				return r_MgetRootDomain;
 			}
@@ -2238,7 +2239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalSetDomainByID_Int32 == null)
 				{
-					r_MInternalSetDomainByID_Int32 = new(typeof(System.AppDomain), "InternalSetDomainByID", 0, typeof(System.Int32));
+					r_MInternalSetDomainByID_Int32 = new(Type, "InternalSetDomainByID", 0, typeof(System.Int32));
 				}
 				return r_MInternalSetDomainByID_Int32;
 			}
@@ -2254,7 +2255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalSetDomain_AppDomain == null)
 				{
-					r_MInternalSetDomain_AppDomain = new(typeof(System.AppDomain), "InternalSetDomain", 0, typeof(System.AppDomain));
+					r_MInternalSetDomain_AppDomain = new(Type, "InternalSetDomain", 0, typeof(System.AppDomain));
 				}
 				return r_MInternalSetDomain_AppDomain;
 			}
@@ -2270,7 +2271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalPushDomainRef_AppDomain == null)
 				{
-					r_MInternalPushDomainRef_AppDomain = new(typeof(System.AppDomain), "InternalPushDomainRef", 0, typeof(System.AppDomain));
+					r_MInternalPushDomainRef_AppDomain = new(Type, "InternalPushDomainRef", 0, typeof(System.AppDomain));
 				}
 				return r_MInternalPushDomainRef_AppDomain;
 			}
@@ -2286,7 +2287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalPushDomainRefByID_Int32 == null)
 				{
-					r_MInternalPushDomainRefByID_Int32 = new(typeof(System.AppDomain), "InternalPushDomainRefByID", 0, typeof(System.Int32));
+					r_MInternalPushDomainRefByID_Int32 = new(Type, "InternalPushDomainRefByID", 0, typeof(System.Int32));
 				}
 				return r_MInternalPushDomainRefByID_Int32;
 			}
@@ -2302,7 +2303,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalPopDomainRef == null)
 				{
-					r_MInternalPopDomainRef = new(typeof(System.AppDomain), "InternalPopDomainRef", 0);
+					r_MInternalPopDomainRef = new(Type, "InternalPopDomainRef", 0);
 				}
 				return r_MInternalPopDomainRef;
 			}
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalSetContext_Context == null)
 				{
-					r_MInternalSetContext_Context = new(typeof(System.AppDomain), "InternalSetContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
+					r_MInternalSetContext_Context = new(Type, "InternalSetContext", 0, typeof(System.Runtime.Remoting.Contexts.Context));
 				}
 				return r_MInternalSetContext_Context;
 			}
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalGetContext == null)
 				{
-					r_MInternalGetContext = new(typeof(System.AppDomain), "InternalGetContext", 0);
+					r_MInternalGetContext = new(Type, "InternalGetContext", 0);
 				}
 				return r_MInternalGetContext;
 			}
@@ -2350,7 +2351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalGetDefaultContext == null)
 				{
-					r_MInternalGetDefaultContext = new(typeof(System.AppDomain), "InternalGetDefaultContext", 0);
+					r_MInternalGetDefaultContext = new(Type, "InternalGetDefaultContext", 0);
 				}
 				return r_MInternalGetDefaultContext;
 			}
@@ -2366,7 +2367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalGetProcessGuid_String == null)
 				{
-					r_MInternalGetProcessGuid_String = new(typeof(System.AppDomain), "InternalGetProcessGuid", 0, typeof(System.String));
+					r_MInternalGetProcessGuid_String = new(Type, "InternalGetProcessGuid", 0, typeof(System.String));
 				}
 				return r_MInternalGetProcessGuid_String;
 			}
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInvokeInDomain_AppDomain_MethodInfo_Object_ObjectArray == null)
 				{
-					r_MInvokeInDomain_AppDomain_MethodInfo_Object_ObjectArray = new(typeof(System.AppDomain), "InvokeInDomain", 0, typeof(System.AppDomain), typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(System.Object).MakeArrayType());
+					r_MInvokeInDomain_AppDomain_MethodInfo_Object_ObjectArray = new(Type, "InvokeInDomain", 0, typeof(System.AppDomain), typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(System.Object).MakeArrayType());
 				}
 				return r_MInvokeInDomain_AppDomain_MethodInfo_Object_ObjectArray;
 			}
@@ -2398,7 +2399,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInvokeInDomainByID_Int32_MethodInfo_Object_ObjectArray == null)
 				{
-					r_MInvokeInDomainByID_Int32_MethodInfo_Object_ObjectArray = new(typeof(System.AppDomain), "InvokeInDomainByID", 0, typeof(System.Int32), typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(System.Object).MakeArrayType());
+					r_MInvokeInDomainByID_Int32_MethodInfo_Object_ObjectArray = new(Type, "InvokeInDomainByID", 0, typeof(System.Int32), typeof(System.Reflection.MethodInfo), typeof(System.Object), typeof(System.Object).MakeArrayType());
 				}
 				return r_MInvokeInDomainByID_Int32_MethodInfo_Object_ObjectArray;
 			}
@@ -2414,7 +2415,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetProcessGuid == null)
 				{
-					r_MGetProcessGuid = new(typeof(System.AppDomain), "GetProcessGuid", 0);
+					r_MGetProcessGuid = new(Type, "GetProcessGuid", 0);
 				}
 				return r_MGetProcessGuid;
 			}
@@ -2430,7 +2431,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomain_String == null)
 				{
-					r_MCreateDomain_String = new(typeof(System.AppDomain), "CreateDomain", 0, typeof(System.String));
+					r_MCreateDomain_String = new(Type, "CreateDomain", 0, typeof(System.String));
 				}
 				return r_MCreateDomain_String;
 			}
@@ -2446,7 +2447,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomain_String_Evidence == null)
 				{
-					r_MCreateDomain_String_Evidence = new(typeof(System.AppDomain), "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence));
+					r_MCreateDomain_String_Evidence = new(Type, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence));
 				}
 				return r_MCreateDomain_String_Evidence;
 			}
@@ -2462,7 +2463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_McreateDomain_String_AppDomainSetup == null)
 				{
-					r_McreateDomain_String_AppDomainSetup = new(typeof(System.AppDomain), "createDomain", 0, typeof(System.String), typeof(System.AppDomainSetup));
+					r_McreateDomain_String_AppDomainSetup = new(Type, "createDomain", 0, typeof(System.String), typeof(System.AppDomainSetup));
 				}
 				return r_McreateDomain_String_AppDomainSetup;
 			}
@@ -2478,7 +2479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomain_String_Evidence_AppDomainSetup == null)
 				{
-					r_MCreateDomain_String_Evidence_AppDomainSetup = new(typeof(System.AppDomain), "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup));
+					r_MCreateDomain_String_Evidence_AppDomainSetup = new(Type, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup));
 				}
 				return r_MCreateDomain_String_Evidence_AppDomainSetup;
 			}
@@ -2494,7 +2495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomain_String_Evidence_String_String_Boolean == null)
 				{
-					r_MCreateDomain_String_Evidence_String_String_Boolean = new(typeof(System.AppDomain), "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.String), typeof(System.String), typeof(System.Boolean));
+					r_MCreateDomain_String_Evidence_String_String_Boolean = new(Type, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.String), typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MCreateDomain_String_Evidence_String_String_Boolean;
 			}
@@ -2510,7 +2511,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomain_String_Evidence_AppDomainSetup_PermissionSet_StrongNameArray == null)
 				{
-					r_MCreateDomain_String_Evidence_AppDomainSetup_PermissionSet_StrongNameArray = new(typeof(System.AppDomain), "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup), typeof(System.Security.PermissionSet), typeof(System.Security.Policy.StrongName).MakeArrayType());
+					r_MCreateDomain_String_Evidence_AppDomainSetup_PermissionSet_StrongNameArray = new(Type, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.AppDomainSetup), typeof(System.Security.PermissionSet), typeof(System.Security.Policy.StrongName).MakeArrayType());
 				}
 				return r_MCreateDomain_String_Evidence_AppDomainSetup_PermissionSet_StrongNameArray;
 			}
@@ -2526,7 +2527,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomainSetup_String_String_Boolean == null)
 				{
-					r_MCreateDomainSetup_String_String_Boolean = new(typeof(System.AppDomain), "CreateDomainSetup", 0, typeof(System.String), typeof(System.String), typeof(System.Boolean));
+					r_MCreateDomainSetup_String_String_Boolean = new(Type, "CreateDomainSetup", 0, typeof(System.String), typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MCreateDomainSetup_String_String_Boolean;
 			}
@@ -2542,7 +2543,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalIsFinalizingForUnload_Int32 == null)
 				{
-					r_MInternalIsFinalizingForUnload_Int32 = new(typeof(System.AppDomain), "InternalIsFinalizingForUnload", 0, typeof(System.Int32));
+					r_MInternalIsFinalizingForUnload_Int32 = new(Type, "InternalIsFinalizingForUnload", 0, typeof(System.Int32));
 				}
 				return r_MInternalIsFinalizingForUnload_Int32;
 			}
@@ -2574,7 +2575,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalUnload_Int32 == null)
 				{
-					r_MInternalUnload_Int32 = new(typeof(System.AppDomain), "InternalUnload", 0, typeof(System.Int32));
+					r_MInternalUnload_Int32 = new(Type, "InternalUnload", 0, typeof(System.Int32));
 				}
 				return r_MInternalUnload_Int32;
 			}
@@ -2606,7 +2607,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnload_AppDomain == null)
 				{
-					r_MUnload_AppDomain = new(typeof(System.AppDomain), "Unload", 0, typeof(System.AppDomain));
+					r_MUnload_AppDomain = new(Type, "Unload", 0, typeof(System.AppDomain));
 				}
 				return r_MUnload_AppDomain;
 			}
@@ -2670,7 +2671,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetCurrentThreadId == null)
 				{
-					r_MGetCurrentThreadId = new(typeof(System.AppDomain), "GetCurrentThreadId", 0);
+					r_MGetCurrentThreadId = new(Type, "GetCurrentThreadId", 0);
 				}
 				return r_MGetCurrentThreadId;
 			}
@@ -2702,7 +2703,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MValidateAssemblyName_String == null)
 				{
-					r_MValidateAssemblyName_String = new(typeof(System.AppDomain), "ValidateAssemblyName", 0, typeof(System.String));
+					r_MValidateAssemblyName_String = new(Type, "ValidateAssemblyName", 0, typeof(System.String));
 				}
 				return r_MValidateAssemblyName_String;
 			}
@@ -2894,7 +2895,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MCreateDomain_String_Evidence_String_String_Boolean_AppDomainInitializer_StringArray == null)
 				{
-					r_MCreateDomain_String_Evidence_String_String_Boolean_AppDomainInitializer_StringArray = new(typeof(System.AppDomain), "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.String), typeof(System.String), typeof(System.Boolean), typeof(System.AppDomainInitializer), typeof(System.String).MakeArrayType());
+					r_MCreateDomain_String_Evidence_String_String_Boolean_AppDomainInitializer_StringArray = new(Type, "CreateDomain", 0, typeof(System.String), typeof(System.Security.Policy.Evidence), typeof(System.String), typeof(System.String), typeof(System.Boolean), typeof(System.AppDomainInitializer), typeof(System.String).MakeArrayType());
 				}
 				return r_MCreateDomain_String_Evidence_String_String_Boolean_AppDomainInitializer_StringArray;
 			}
@@ -3260,7 +3261,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsAppXModel.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3271,7 +3272,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsAppXDesignMode.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3304,7 +3305,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMgetSetup.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomainSetup)___result;
+            return ReflectionUtils.Convert<System.AppDomainSetup>(___result);
         }
 
 
@@ -3315,7 +3316,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMgetFriendlyName.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -3326,7 +3327,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMgetCurDomain.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -3337,7 +3338,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMgetRootDomain.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -3381,7 +3382,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName};
             var ___result = RMCreateComInstanceFrom_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3392,7 +3393,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @typeName, @hashValue, @hashAlgorithm};
             var ___result = RMCreateComInstanceFrom_String_String_ByteArray_AssemblyHashAlgorithm.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3403,7 +3404,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName};
             var ___result = RMInternalCreateInstanceWithNoSecurity_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3414,7 +3415,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes, @securityAttributes};
             var ___result = RMInternalCreateInstanceWithNoSecurity_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3425,7 +3426,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName};
             var ___result = RMInternalCreateInstanceFromWithNoSecurity_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3436,7 +3437,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes, @securityAttributes};
             var ___result = RMInternalCreateInstanceFromWithNoSecurity_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3447,7 +3448,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName};
             var ___result = RMCreateInstance_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3458,7 +3459,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @activationAttributes};
             var ___result = RMCreateInstance_String_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3469,7 +3470,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes, @securityAttributes};
             var ___result = RMCreateInstance_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3480,7 +3481,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName};
             var ___result = RMCreateInstanceAndUnwrap_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3491,7 +3492,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @activationAttributes};
             var ___result = RMCreateInstanceAndUnwrap_String_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3502,7 +3503,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes, @securityAttributes};
             var ___result = RMCreateInstanceAndUnwrap_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3513,7 +3514,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes};
             var ___result = RMCreateInstance_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3524,7 +3525,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes};
             var ___result = RMCreateInstanceAndUnwrap_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3535,7 +3536,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes};
             var ___result = RMCreateInstanceFrom_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3546,7 +3547,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes};
             var ___result = RMCreateInstanceFromAndUnwrap_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3557,7 +3558,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @typeName};
             var ___result = RMCreateInstanceFrom_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3568,7 +3569,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @typeName, @activationAttributes};
             var ___result = RMCreateInstanceFrom_String_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3579,7 +3580,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes, @securityAttributes};
             var ___result = RMCreateInstanceFrom_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjectHandle)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjectHandle>(___result);
         }
 
 
@@ -3590,7 +3591,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName};
             var ___result = RMCreateInstanceFromAndUnwrap_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3601,7 +3602,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @activationAttributes};
             var ___result = RMCreateInstanceFromAndUnwrap_String_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3612,7 +3613,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @typeName, @ignoreCase, @bindingAttr, @binder, @args, @culture, @activationAttributes, @securityAttributes};
             var ___result = RMCreateInstanceFromAndUnwrap_String_String_Boolean_BindingFlags_Binder_ObjectArray_CultureInfo_ObjectArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3623,7 +3624,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3634,7 +3635,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @evidence};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3645,7 +3646,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3656,7 +3657,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir, @evidence};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3667,7 +3668,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @requiredPermissions, @optionalPermissions, @refusedPermissions};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_PermissionSet_PermissionSet_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3678,7 +3679,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @evidence, @requiredPermissions, @optionalPermissions, @refusedPermissions};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_Evidence_PermissionSet_PermissionSet_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3689,7 +3690,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir, @requiredPermissions, @optionalPermissions, @refusedPermissions};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String_PermissionSet_PermissionSet_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3700,7 +3701,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir, @evidence, @requiredPermissions, @optionalPermissions, @refusedPermissions};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String_Evidence_PermissionSet_PermissionSet_PermissionSet.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3711,7 +3712,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir, @evidence, @requiredPermissions, @optionalPermissions, @refusedPermissions, @isSynchronized};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String_Evidence_PermissionSet_PermissionSet_PermissionSet_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3722,7 +3723,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir, @evidence, @requiredPermissions, @optionalPermissions, @refusedPermissions, @isSynchronized, @assemblyAttributes};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String_Evidence_PermissionSet_PermissionSet_PermissionSet_Boolean_IEnumerable_d_CustomAttributeBuilder_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3733,7 +3734,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @assemblyAttributes};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_IEnumerable_d_CustomAttributeBuilder_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3744,7 +3745,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @dir, @isSynchronized, @assemblyAttributes};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_String_Boolean_IEnumerable_d_CustomAttributeBuilder_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3755,7 +3756,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access, @assemblyAttributes, @securityContextSource};
             var ___result = RMDefineDynamicAssembly_AssemblyName_AssemblyBuilderAccess_IEnumerable_d_CustomAttributeBuilder_p__SecurityContextSource.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3766,7 +3767,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @access};
             var ___result = RMDefineInternalDynamicAssembly_AssemblyName_AssemblyBuilderAccess.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.AssemblyBuilder)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.AssemblyBuilder>(___result);
         }
 
 
@@ -3788,7 +3789,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile};
             var ___result = RMExecuteAssembly_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3799,7 +3800,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @assemblySecurity};
             var ___result = RMExecuteAssembly_String_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3810,7 +3811,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @assemblySecurity, @args};
             var ___result = RMExecuteAssembly_String_Evidence_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3821,7 +3822,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @assemblySecurity, @args, @hashValue, @hashAlgorithm};
             var ___result = RMExecuteAssembly_String_Evidence_StringArray_ByteArray_AssemblyHashAlgorithm.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3832,7 +3833,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @args};
             var ___result = RMExecuteAssembly_String_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3843,7 +3844,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyFile, @args, @hashValue, @hashAlgorithm};
             var ___result = RMExecuteAssembly_String_StringArray_ByteArray_AssemblyHashAlgorithm.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3854,7 +3855,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@a, @args};
             var ___result = RMExecuteAssemblyInternal_Assembly_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3865,7 +3866,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@a, @args};
             var ___result = RMExecuteAssembly_Assembly_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3876,7 +3877,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@refOnly};
             var ___result = RMGetAssemblies_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly[])___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly[]>(___result);
         }
 
 
@@ -3887,7 +3888,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetAssemblies.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly[])___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly[]>(___result);
         }
 
 
@@ -3898,7 +3899,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name};
             var ___result = RMGetData_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3909,7 +3910,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -3920,7 +3921,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -3932,7 +3933,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMLoadAssembly_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[3]);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -3943,7 +3944,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyRef};
             var ___result = RMLoad_AssemblyName.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -3955,7 +3956,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMLoadSatellite_AssemblyName_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[2]);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -3966,7 +3967,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyRef, @assemblySecurity};
             var ___result = RMLoad_AssemblyName_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -3977,7 +3978,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyString};
             var ___result = RMLoad_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -3988,7 +3989,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyString, @assemblySecurity};
             var ___result = RMLoad_String_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4000,7 +4001,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMLoad_String_Evidence_Boolean_Ref_StackCrawlMark.Invoke(___genericsType, ___parameters);
 			@stackMark = new Hvak.Editor.Refleaction.RSystem.RThreading.RStackCrawlMark(___parameters[3]);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4011,7 +4012,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@rawAssembly};
             var ___result = RMLoad_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4022,7 +4023,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@rawAssembly, @rawSymbolStore};
             var ___result = RMLoad_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4033,7 +4034,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@rawAssembly, @rawSymbolStore, @securityEvidence, @refonly};
             var ___result = RMLoadAssemblyRaw_ByteArray_ByteArray_Evidence_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4044,7 +4045,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@rawAssembly, @rawSymbolStore, @securityEvidence};
             var ___result = RMLoad_ByteArray_ByteArray_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4055,7 +4056,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@rawAssembly, @rawSymbolStore, @securityEvidence, @refonly};
             var ___result = RMLoad_ByteArray_ByteArray_Evidence_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4132,7 +4133,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@domain_id};
             var ___result = RMInternalSetDomainByID_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4143,7 +4144,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@context};
             var ___result = RMInternalSetDomain_AppDomain.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4187,7 +4188,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@context};
             var ___result = RMInternalSetContext_Context.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Contexts.Context)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
         }
 
 
@@ -4198,7 +4199,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalGetContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Contexts.Context)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
         }
 
 
@@ -4209,7 +4210,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalGetDefaultContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.Contexts.Context)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.Contexts.Context>(___result);
         }
 
 
@@ -4220,7 +4221,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@newguid};
             var ___result = RMInternalGetProcessGuid_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -4231,7 +4232,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@domain, @method, @obj, @args};
             var ___result = RMInvokeInDomain_AppDomain_MethodInfo_Object_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -4242,7 +4243,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@domain_id, @method, @obj, @args};
             var ___result = RMInvokeInDomainByID_Int32_MethodInfo_Object_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -4253,7 +4254,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetProcessGuid.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -4264,7 +4265,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName};
             var ___result = RMCreateDomain_String.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4275,7 +4276,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName, @securityInfo};
             var ___result = RMCreateDomain_String_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4286,7 +4287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName, @info};
             var ___result = RMcreateDomain_String_AppDomainSetup.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4297,7 +4298,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName, @securityInfo, @info};
             var ___result = RMCreateDomain_String_Evidence_AppDomainSetup.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4308,7 +4309,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName, @securityInfo, @appBasePath, @appRelativeSearchPath, @shadowCopyFiles};
             var ___result = RMCreateDomain_String_Evidence_String_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4319,7 +4320,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName, @securityInfo, @info, @grantSet, @fullTrustAssemblies};
             var ___result = RMCreateDomain_String_Evidence_AppDomainSetup_PermissionSet_StrongNameArray.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4330,7 +4331,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@appBasePath, @appRelativeSearchPath, @shadowCopyFiles};
             var ___result = RMCreateDomainSetup_String_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomainSetup)___result;
+            return ReflectionUtils.Convert<System.AppDomainSetup>(___result);
         }
 
 
@@ -4341,7 +4342,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@domain_id};
             var ___result = RMInternalIsFinalizingForUnload_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -4352,7 +4353,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsFinalizingForUnload.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -4374,7 +4375,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMgetDomainID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4429,7 +4430,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetCurrentThreadId.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4440,7 +4441,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -4473,7 +4474,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @requestingAssembly, @refonly};
             var ___result = RMDoAssemblyResolve_String_Assembly_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4484,7 +4485,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@tb};
             var ___result = RMDoTypeBuilderResolve_TypeBuilder.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4495,7 +4496,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name};
             var ___result = RMDoTypeResolve_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4506,7 +4507,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name, @requesting};
             var ___result = RMDoResourceResolve_String_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly)___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly>(___result);
         }
 
 
@@ -4550,7 +4551,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetMarshalledDomainObjRef.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -4576,7 +4577,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName};
             var ___result = RMApplyPolicy_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -4587,7 +4588,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@friendlyName, @securityInfo, @appBasePath, @appRelativeSearchPath, @shadowCopyFiles, @adInit, @adInitArgs};
             var ___result = RMCreateDomain_String_Evidence_String_String_Boolean_AppDomainInitializer_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.AppDomain)___result;
+            return ReflectionUtils.Convert<System.AppDomain>(___result);
         }
 
 
@@ -4598,7 +4599,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName};
             var ___result = RMExecuteAssemblyByName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4609,7 +4610,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @assemblySecurity};
             var ___result = RMExecuteAssemblyByName_String_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4620,7 +4621,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @assemblySecurity, @args};
             var ___result = RMExecuteAssemblyByName_String_Evidence_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4631,7 +4632,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @assemblySecurity, @args};
             var ___result = RMExecuteAssemblyByName_AssemblyName_Evidence_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4642,7 +4643,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @args};
             var ___result = RMExecuteAssemblyByName_String_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4653,7 +4654,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@assemblyName, @args};
             var ___result = RMExecuteAssemblyByName_AssemblyName_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4664,7 +4665,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsDefaultAppDomain.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -4675,7 +4676,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMReflectionOnlyGetAssemblies.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Assembly[])___result;
+            return ReflectionUtils.Convert<System.Reflection.Assembly[]>(___result);
         }
 
 
@@ -4732,7 +4733,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMIsCompatibilitySwitchSet_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RBoolean>>(___result);
         }
 
 
@@ -4756,7 +4757,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
         }
 
 
@@ -4767,7 +4768,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@requestedType};
             var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjRef)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
         }
 
 
@@ -4778,7 +4779,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -4789,7 +4790,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@cloneIdentity};
             var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.MarshalByRefObject)___result;
+            return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
         }
 
 
@@ -4800,7 +4801,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -4822,7 +4823,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4833,7 +4834,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

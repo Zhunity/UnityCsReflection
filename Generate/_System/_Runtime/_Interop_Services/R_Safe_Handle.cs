@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.InteropServices.SafeHandle
 	/// </summary>
     public partial class RSafeHandle : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FRefCount_Mask == null)
 				{
-					r_FRefCount_Mask = new(typeof(System.Runtime.InteropServices.SafeHandle), "RefCount_Mask");
+					r_FRefCount_Mask = new(Type, "RefCount_Mask");
 				}
 				return r_FRefCount_Mask;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FRefCount_One == null)
 				{
-					r_FRefCount_One = new(typeof(System.Runtime.InteropServices.SafeHandle), "RefCount_One");
+					r_FRefCount_One = new(Type, "RefCount_One");
 				}
 				return r_FRefCount_One;
 			}
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMDangerousGetHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMReleaseHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -604,7 +605,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -615,7 +616,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -626,7 +627,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -637,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -648,7 +649,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

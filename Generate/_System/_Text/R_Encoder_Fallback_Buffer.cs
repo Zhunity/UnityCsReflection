@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.EncoderFallbackBuffer
 	/// </summary>
     public partial class REncoderFallbackBuffer : RMember //
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FiMaxRecursion == null)
 				{
-					r_FiMaxRecursion = new(typeof(System.Text.EncoderFallbackBuffer), "iMaxRecursion");
+					r_FiMaxRecursion = new(Type, "iMaxRecursion");
 				}
 				return r_FiMaxRecursion;
 			}
@@ -444,7 +445,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@charUnknown, @index};
             var ___result = RMFallback_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -455,7 +456,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@charUnknownHigh, @charUnknownLow, @index};
             var ___result = RMFallback_Char_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -466,7 +467,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetNextChar.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -477,7 +478,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMMovePrevious.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -521,7 +522,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMInternalGetNextChar.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -532,7 +533,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@ch, Pointer.Box(@chars, typeof(System.Char))};
             var ___result = RMInternalFallback_Char_Ref_CharPointer.Invoke(___genericsType, ___parameters);
 			@chars = (System.Char*)Pointer.Unbox(___parameters[1]);
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -554,7 +555,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -576,7 +577,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -587,7 +588,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -598,7 +599,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -609,7 +610,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

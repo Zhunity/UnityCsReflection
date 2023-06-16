@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.SphericalHarmonicsL2
 	/// </summary>
     public partial class RSphericalHarmonicsL2 : RMember //
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color == null)
 				{
-					r_MAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddDirectionalLightInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3), typeof(UnityEngine.Color));
+					r_MAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color = new(Type, "AddDirectionalLightInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3), typeof(UnityEngine.Color));
 				}
 				return r_MAddDirectionalLightInternal_Ref_SphericalHarmonicsL2_Vector3_Color;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray == null)
 				{
-					r_MEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "EvaluateInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Color).MakeArrayType());
+					r_MEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray = new(Type, "EvaluateInternal", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Color).MakeArrayType());
 				}
 				return r_MEvaluateInternal_Ref_SphericalHarmonicsL2_Vector3Array_ColorArray;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Multiply_SphericalHarmonicsL2_Single == null)
 				{
-					r_Mop_Multiply_SphericalHarmonicsL2_Single = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Multiply", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(System.Single));
+					r_Mop_Multiply_SphericalHarmonicsL2_Single = new(Type, "op_Multiply", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(System.Single));
 				}
 				return r_Mop_Multiply_SphericalHarmonicsL2_Single;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Multiply_Single_SphericalHarmonicsL2 == null)
 				{
-					r_Mop_Multiply_Single_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_Mop_Multiply_Single_SphericalHarmonicsL2 = new(Type, "op_Multiply", 0, typeof(System.Single), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
 				}
 				return r_Mop_Multiply_Single_SphericalHarmonicsL2;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
 				{
-					r_Mop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Addition", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_Mop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(Type, "op_Addition", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
 				}
 				return r_Mop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
 				{
-					r_Mop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Equality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_Mop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
 				}
 				return r_Mop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 == null)
 				{
-					r_Mop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "op_Inequality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
+					r_Mop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2 = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2), typeof(UnityEngine.Rendering.SphericalHarmonicsL2));
 				}
 				return r_Mop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MSetZero_Injected_Ref_SphericalHarmonicsL2 == null)
 				{
-					r_MSetZero_Injected_Ref_SphericalHarmonicsL2 = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "SetZero_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType());
+					r_MSetZero_Injected_Ref_SphericalHarmonicsL2 = new(Type, "SetZero_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType());
 				}
 				return r_MSetZero_Injected_Ref_SphericalHarmonicsL2;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color == null)
 				{
-					r_MAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddAmbientLight_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
+					r_MAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color = new(Type, "AddAmbientLight_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
 				}
 				return r_MAddAmbientLight_Injected_Ref_SphericalHarmonicsL2_Ref_Color;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color == null)
 				{
-					r_MAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color = new(typeof(UnityEngine.Rendering.SphericalHarmonicsL2), "AddDirectionalLightInternal_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
+					r_MAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color = new(Type, "AddDirectionalLightInternal_Injected", 0, typeof(UnityEngine.Rendering.SphericalHarmonicsL2).MakeByRefType(), typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Color).MakeByRefType());
 				}
 				return r_MAddDirectionalLightInternal_Injected_Ref_SphericalHarmonicsL2_Ref_Vector3_Ref_Color;
 			}
@@ -923,7 +924,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -934,7 +935,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -945,7 +946,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -956,7 +957,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Multiply_SphericalHarmonicsL2_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.SphericalHarmonicsL2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
         }
 
 
@@ -967,7 +968,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Multiply_Single_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.SphericalHarmonicsL2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
         }
 
 
@@ -978,7 +979,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Addition_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.SphericalHarmonicsL2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.SphericalHarmonicsL2>(___result);
         }
 
 
@@ -989,7 +990,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1000,7 +1001,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_SphericalHarmonicsL2_SphericalHarmonicsL2.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1050,7 +1051,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1072,7 +1073,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1083,7 +1084,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

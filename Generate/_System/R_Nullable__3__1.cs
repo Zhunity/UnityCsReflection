@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Nullable`1
 	/// </summary>
     public partial class RNullable<T> : RMember // where T : struct
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_T == null)
 				{
-					r_Mop_Implicit_T = new( ReflectionUtils.GetType("System.Nullable`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0));
+					r_Mop_Implicit_T = new(Type, "op_Implicit", 0, Type.MakeGenericMethodParameter(0));
 				}
 				return r_Mop_Implicit_T;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Nullable_d_T_p_ == null)
 				{
-					r_Mop_Explicit_Nullable_d_T_p_ = new( ReflectionUtils.GetType("System.Nullable`1"), "op_Explicit", 0,  ReflectionUtils.GetType("System.Nullable`1"));
+					r_Mop_Explicit_Nullable_d_T_p_ = new(Type, "op_Explicit", 0,  ReflectionUtils.GetType("System.Nullable`1"));
 				}
 				return r_Mop_Explicit_Nullable_d_T_p_;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MBox_Nullable_d_T_p_ == null)
 				{
-					r_MBox_Nullable_d_T_p_ = new( ReflectionUtils.GetType("System.Nullable`1"), "Box", 0,  ReflectionUtils.GetType("System.Nullable`1"));
+					r_MBox_Nullable_d_T_p_ = new(Type, "Box", 0,  ReflectionUtils.GetType("System.Nullable`1"));
 				}
 				return r_MBox_Nullable_d_T_p_;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnbox_Object == null)
 				{
-					r_MUnbox_Object = new( ReflectionUtils.GetType("System.Nullable`1"), "Unbox", 0, typeof(System.Object));
+					r_MUnbox_Object = new(Type, "Unbox", 0, typeof(System.Object));
 				}
 				return r_MUnbox_Object;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MUnboxExact_Object == null)
 				{
-					r_MUnboxExact_Object = new( ReflectionUtils.GetType("System.Nullable`1"), "UnboxExact", 0, typeof(System.Object));
+					r_MUnboxExact_Object = new(Type, "UnboxExact", 0, typeof(System.Object));
 				}
 				return r_MUnboxExact_Object;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetValueOrDefault.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RType(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@defaultValue.Value};
             var ___result = RMGetValueOrDefault_T.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RType(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value.Value};
             var ___result = RMop_Implicit_T.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value.Value};
             var ___result = RMop_Explicit_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RType(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@o.Value};
             var ___result = RMBox_Nullable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@o};
             var ___result = RMUnbox_Object.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@o};
             var ___result = RMUnboxExact_Object.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -437,7 +438,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -448,7 +449,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

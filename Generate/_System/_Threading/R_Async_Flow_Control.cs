@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.AsyncFlowControl
 	/// </summary>
     public partial class RAsyncFlowControl : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Mop_Equality_AsyncFlowControl_AsyncFlowControl == null)
 				{
-					r_Mop_Equality_AsyncFlowControl_AsyncFlowControl = new(typeof(System.Threading.AsyncFlowControl), "op_Equality", 0, typeof(System.Threading.AsyncFlowControl), typeof(System.Threading.AsyncFlowControl));
+					r_Mop_Equality_AsyncFlowControl_AsyncFlowControl = new(Type, "op_Equality", 0, typeof(System.Threading.AsyncFlowControl), typeof(System.Threading.AsyncFlowControl));
 				}
 				return r_Mop_Equality_AsyncFlowControl_AsyncFlowControl;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Mop_Inequality_AsyncFlowControl_AsyncFlowControl == null)
 				{
-					r_Mop_Inequality_AsyncFlowControl_AsyncFlowControl = new(typeof(System.Threading.AsyncFlowControl), "op_Inequality", 0, typeof(System.Threading.AsyncFlowControl), typeof(System.Threading.AsyncFlowControl));
+					r_Mop_Inequality_AsyncFlowControl_AsyncFlowControl = new(Type, "op_Inequality", 0, typeof(System.Threading.AsyncFlowControl), typeof(System.Threading.AsyncFlowControl));
 				}
 				return r_Mop_Inequality_AsyncFlowControl_AsyncFlowControl;
 			}
@@ -317,7 +318,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -328,7 +329,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -339,7 +340,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_AsyncFlowControl.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Equality_AsyncFlowControl_AsyncFlowControl.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -361,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Inequality_AsyncFlowControl_AsyncFlowControl.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -372,7 +373,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -394,7 +395,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -405,7 +406,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

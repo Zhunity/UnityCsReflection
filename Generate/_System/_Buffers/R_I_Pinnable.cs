@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RBuffers
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Buffers.IPinnable
 	/// </summary>
     public partial class RIPinnable : RMember //
@@ -76,7 +77,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RBuffers
             var ___parameters = new object[]{@elementIndex};
             var ___result = RMPin_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Buffers.MemoryHandle)___result;
+            return ReflectionUtils.Convert<System.Buffers.MemoryHandle>(___result);
         }
 
 

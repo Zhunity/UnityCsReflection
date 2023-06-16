@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Microsoft.Win32.SafeHandles.SafePasswordHandle
 	/// </summary>
     public partial class RSafePasswordHandle : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
 			{
 				if(r_PInvalidHandle == null)
 				{
-					r_PInvalidHandle = new( ReflectionUtils.GetType("Microsoft.Win32.SafeHandles.SafePasswordHandle"), "InvalidHandle", -1);
+					r_PInvalidHandle = new(Type, "InvalidHandle", -1);
 				}
 				return r_PInvalidHandle;
 			}
@@ -412,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{@password};
             var ___result = RMCreateHandle_String.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -423,7 +424,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{@password};
             var ___result = RMCreateHandle_SecureString.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMReleaseHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -467,7 +468,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMMono_DangerousGetString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -500,7 +501,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMDangerousGetHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -567,7 +568,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -578,7 +579,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -589,7 +590,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -600,7 +601,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -611,7 +612,7 @@ namespace Hvak.Editor.Refleaction.RMicrosoft.RWin32.RSafeHandles
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

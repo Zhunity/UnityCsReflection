@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.FileSystemRights
 	/// </summary>
     public partial class RFileSystemRights : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FListDirectory == null)
 				{
-					r_FListDirectory = new(typeof(System.Security.AccessControl.FileSystemRights), "ListDirectory");
+					r_FListDirectory = new(Type, "ListDirectory");
 				}
 				return r_FListDirectory;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FReadData == null)
 				{
-					r_FReadData = new(typeof(System.Security.AccessControl.FileSystemRights), "ReadData");
+					r_FReadData = new(Type, "ReadData");
 				}
 				return r_FReadData;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FCreateFiles == null)
 				{
-					r_FCreateFiles = new(typeof(System.Security.AccessControl.FileSystemRights), "CreateFiles");
+					r_FCreateFiles = new(Type, "CreateFiles");
 				}
 				return r_FCreateFiles;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FWriteData == null)
 				{
-					r_FWriteData = new(typeof(System.Security.AccessControl.FileSystemRights), "WriteData");
+					r_FWriteData = new(Type, "WriteData");
 				}
 				return r_FWriteData;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FAppendData == null)
 				{
-					r_FAppendData = new(typeof(System.Security.AccessControl.FileSystemRights), "AppendData");
+					r_FAppendData = new(Type, "AppendData");
 				}
 				return r_FAppendData;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FCreateDirectories == null)
 				{
-					r_FCreateDirectories = new(typeof(System.Security.AccessControl.FileSystemRights), "CreateDirectories");
+					r_FCreateDirectories = new(Type, "CreateDirectories");
 				}
 				return r_FCreateDirectories;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FReadExtendedAttributes == null)
 				{
-					r_FReadExtendedAttributes = new(typeof(System.Security.AccessControl.FileSystemRights), "ReadExtendedAttributes");
+					r_FReadExtendedAttributes = new(Type, "ReadExtendedAttributes");
 				}
 				return r_FReadExtendedAttributes;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FWriteExtendedAttributes == null)
 				{
-					r_FWriteExtendedAttributes = new(typeof(System.Security.AccessControl.FileSystemRights), "WriteExtendedAttributes");
+					r_FWriteExtendedAttributes = new(Type, "WriteExtendedAttributes");
 				}
 				return r_FWriteExtendedAttributes;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FExecuteFile == null)
 				{
-					r_FExecuteFile = new(typeof(System.Security.AccessControl.FileSystemRights), "ExecuteFile");
+					r_FExecuteFile = new(Type, "ExecuteFile");
 				}
 				return r_FExecuteFile;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FTraverse == null)
 				{
-					r_FTraverse = new(typeof(System.Security.AccessControl.FileSystemRights), "Traverse");
+					r_FTraverse = new(Type, "Traverse");
 				}
 				return r_FTraverse;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDeleteSubdirectoriesAndFiles == null)
 				{
-					r_FDeleteSubdirectoriesAndFiles = new(typeof(System.Security.AccessControl.FileSystemRights), "DeleteSubdirectoriesAndFiles");
+					r_FDeleteSubdirectoriesAndFiles = new(Type, "DeleteSubdirectoriesAndFiles");
 				}
 				return r_FDeleteSubdirectoriesAndFiles;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FReadAttributes == null)
 				{
-					r_FReadAttributes = new(typeof(System.Security.AccessControl.FileSystemRights), "ReadAttributes");
+					r_FReadAttributes = new(Type, "ReadAttributes");
 				}
 				return r_FReadAttributes;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FWriteAttributes == null)
 				{
-					r_FWriteAttributes = new(typeof(System.Security.AccessControl.FileSystemRights), "WriteAttributes");
+					r_FWriteAttributes = new(Type, "WriteAttributes");
 				}
 				return r_FWriteAttributes;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FWrite == null)
 				{
-					r_FWrite = new(typeof(System.Security.AccessControl.FileSystemRights), "Write");
+					r_FWrite = new(Type, "Write");
 				}
 				return r_FWrite;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDelete == null)
 				{
-					r_FDelete = new(typeof(System.Security.AccessControl.FileSystemRights), "Delete");
+					r_FDelete = new(Type, "Delete");
 				}
 				return r_FDelete;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FReadPermissions == null)
 				{
-					r_FReadPermissions = new(typeof(System.Security.AccessControl.FileSystemRights), "ReadPermissions");
+					r_FReadPermissions = new(Type, "ReadPermissions");
 				}
 				return r_FReadPermissions;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FRead == null)
 				{
-					r_FRead = new(typeof(System.Security.AccessControl.FileSystemRights), "Read");
+					r_FRead = new(Type, "Read");
 				}
 				return r_FRead;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FReadAndExecute == null)
 				{
-					r_FReadAndExecute = new(typeof(System.Security.AccessControl.FileSystemRights), "ReadAndExecute");
+					r_FReadAndExecute = new(Type, "ReadAndExecute");
 				}
 				return r_FReadAndExecute;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FModify == null)
 				{
-					r_FModify = new(typeof(System.Security.AccessControl.FileSystemRights), "Modify");
+					r_FModify = new(Type, "Modify");
 				}
 				return r_FModify;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FChangePermissions == null)
 				{
-					r_FChangePermissions = new(typeof(System.Security.AccessControl.FileSystemRights), "ChangePermissions");
+					r_FChangePermissions = new(Type, "ChangePermissions");
 				}
 				return r_FChangePermissions;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FTakeOwnership == null)
 				{
-					r_FTakeOwnership = new(typeof(System.Security.AccessControl.FileSystemRights), "TakeOwnership");
+					r_FTakeOwnership = new(Type, "TakeOwnership");
 				}
 				return r_FTakeOwnership;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSynchronize == null)
 				{
-					r_FSynchronize = new(typeof(System.Security.AccessControl.FileSystemRights), "Synchronize");
+					r_FSynchronize = new(Type, "Synchronize");
 				}
 				return r_FSynchronize;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FFullControl == null)
 				{
-					r_FFullControl = new(typeof(System.Security.AccessControl.FileSystemRights), "FullControl");
+					r_FFullControl = new(Type, "FullControl");
 				}
 				return r_FFullControl;
 			}
@@ -636,7 +637,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -647,7 +648,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -658,7 +659,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -669,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -680,7 +681,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -691,7 +692,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -713,7 +714,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -724,7 +725,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -735,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -757,7 +758,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -768,7 +769,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

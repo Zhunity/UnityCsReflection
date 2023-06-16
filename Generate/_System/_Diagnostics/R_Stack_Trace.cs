@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Diagnostics.StackTrace
 	/// </summary>
     public partial class RStackTrace : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_FMETHODS_TO_SKIP == null)
 				{
-					r_FMETHODS_TO_SKIP = new(typeof(System.Diagnostics.StackTrace), "METHODS_TO_SKIP");
+					r_FMETHODS_TO_SKIP = new(Type, "METHODS_TO_SKIP");
 				}
 				return r_FMETHODS_TO_SKIP;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_Fprefix == null)
 				{
-					r_Fprefix = new(typeof(System.Diagnostics.StackTrace), "prefix");
+					r_Fprefix = new(Type, "prefix");
 				}
 				return r_Fprefix;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_FisAotidSet == null)
 				{
-					r_FisAotidSet = new(typeof(System.Diagnostics.StackTrace), "isAotidSet");
+					r_FisAotidSet = new(Type, "isAotidSet");
 				}
 				return r_FisAotidSet;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_Faotid == null)
 				{
-					r_Faotid = new(typeof(System.Diagnostics.StackTrace), "aotid");
+					r_Faotid = new(Type, "aotid");
 				}
 				return r_Faotid;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_Mget_trace_Exception_Int32_Boolean == null)
 				{
-					r_Mget_trace_Exception_Int32_Boolean = new(typeof(System.Diagnostics.StackTrace), "get_trace", 0, typeof(System.Exception), typeof(System.Int32), typeof(System.Boolean));
+					r_Mget_trace_Exception_Int32_Boolean = new(Type, "get_trace", 0, typeof(System.Exception), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_Mget_trace_Exception_Int32_Boolean;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_MGetAotId == null)
 				{
-					r_MGetAotId = new(typeof(System.Diagnostics.StackTrace), "GetAotId", 0);
+					r_MGetAotId = new(Type, "GetAotId", 0);
 				}
 				return r_MGetAotId;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
 			{
 				if(r_MConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type == null)
 				{
-					r_MConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type = new(typeof(System.Diagnostics.StackTrace), "ConvertAsyncStateMachineMethod", 0, typeof(System.Reflection.MethodBase).MakeByRefType(), typeof(System.Type).MakeByRefType());
+					r_MConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type = new(Type, "ConvertAsyncStateMachineMethod", 0, typeof(System.Reflection.MethodBase).MakeByRefType(), typeof(System.Type).MakeByRefType());
 				}
 				return r_MConvertAsyncStateMachineMethod_Ref_MethodBase_Ref_Type;
 			}
@@ -423,7 +424,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{@e, @skipFrames, @fNeedFileInfo};
             var ___result = RMget_trace_Exception_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Diagnostics.StackFrame[])___result;
+            return ReflectionUtils.Convert<System.Diagnostics.StackFrame[]>(___result);
         }
 
 
@@ -434,7 +435,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{@index};
             var ___result = RMGetFrame_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Diagnostics.StackFrame)___result;
+            return ReflectionUtils.Convert<System.Diagnostics.StackFrame>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{};
             var ___result = RMGetFrames.Invoke(___genericsType, ___parameters);
 
-            return (System.Diagnostics.StackFrame[])___result;
+            return ReflectionUtils.Convert<System.Diagnostics.StackFrame[]>(___result);
         }
 
 
@@ -456,7 +457,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{};
             var ___result = RMGetAotId.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -469,7 +470,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___result = RMAddFrames_StringBuilder_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@isAsync = (System.Boolean)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -519,7 +520,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{@traceFormat.Value};
             var ___result = RMToString_TraceFormat.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -530,7 +531,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -552,7 +553,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -563,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

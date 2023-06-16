@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.ReadOnlySpan`1
 	/// </summary>
     public partial class RReadOnlySpan<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem
         {
             get
             {
-                return  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new( ReflectionUtils.GetType("System.ReadOnlySpan`1"), "Empty", -1);
+					r_PEmpty = new(Type, "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_ == null)
 				{
-					r_Mop_Equality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_ = new( ReflectionUtils.GetType("System.ReadOnlySpan`1"), "op_Equality", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1"),  ReflectionUtils.GetType("System.ReadOnlySpan`1"));
+					r_Mop_Equality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_ = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1"),  ReflectionUtils.GetType("System.ReadOnlySpan`1"));
 				}
 				return r_Mop_Equality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_ == null)
 				{
-					r_Mop_Inequality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_ = new( ReflectionUtils.GetType("System.ReadOnlySpan`1"), "op_Inequality", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1"),  ReflectionUtils.GetType("System.ReadOnlySpan`1"));
+					r_Mop_Inequality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_ = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1"),  ReflectionUtils.GetType("System.ReadOnlySpan`1"));
 				}
 				return r_Mop_Inequality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_TArray == null)
 				{
-					r_Mop_Implicit_TArray = new( ReflectionUtils.GetType("System.ReadOnlySpan`1"), "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
+					r_Mop_Implicit_TArray = new(Type, "op_Implicit", 0, Type.MakeGenericMethodParameter(0).MakeArrayType());
 				}
 				return r_Mop_Implicit_TArray;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Implicit_ArraySegment_d_T_p_ == null)
 				{
-					r_Mop_Implicit_ArraySegment_d_T_p_ = new( ReflectionUtils.GetType("System.ReadOnlySpan`1"), "op_Implicit", 0,  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Mop_Implicit_ArraySegment_d_T_p_ = new(Type, "op_Implicit", 0,  ReflectionUtils.GetType("System.ArraySegment`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_Mop_Implicit_ArraySegment_d_T_p_;
 			}
@@ -412,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetPinnableReference.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -434,7 +435,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@destination.Value};
             var ___result = RMTryCopyTo_Span_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Equality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -456,7 +457,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -467,7 +468,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@start};
             var ___result = RMSlice_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@start, @length};
             var ___result = RMSlice_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -489,7 +490,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
-            return (T[])___result;
+            return ReflectionUtils.Convert<T[]>(___result);
         }
 
 
@@ -500,7 +501,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Inequality_ReadOnlySpan_d_T_p__ReadOnlySpan_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -511,7 +512,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -522,7 +523,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -533,7 +534,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@array};
             var ___result = RMop_Implicit_TArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -544,7 +545,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@segment};
             var ___result = RMop_Implicit_ArraySegment_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -555,7 +556,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
         }
 
 
@@ -577,7 +578,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -588,7 +589,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

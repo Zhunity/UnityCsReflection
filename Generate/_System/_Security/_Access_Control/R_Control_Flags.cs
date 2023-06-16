@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.ControlFlags
 	/// </summary>
     public partial class RControlFlags : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(System.Security.AccessControl.ControlFlags), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FOwnerDefaulted == null)
 				{
-					r_FOwnerDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "OwnerDefaulted");
+					r_FOwnerDefaulted = new(Type, "OwnerDefaulted");
 				}
 				return r_FOwnerDefaulted;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FGroupDefaulted == null)
 				{
-					r_FGroupDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "GroupDefaulted");
+					r_FGroupDefaulted = new(Type, "GroupDefaulted");
 				}
 				return r_FGroupDefaulted;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDiscretionaryAclPresent == null)
 				{
-					r_FDiscretionaryAclPresent = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclPresent");
+					r_FDiscretionaryAclPresent = new(Type, "DiscretionaryAclPresent");
 				}
 				return r_FDiscretionaryAclPresent;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDiscretionaryAclDefaulted == null)
 				{
-					r_FDiscretionaryAclDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclDefaulted");
+					r_FDiscretionaryAclDefaulted = new(Type, "DiscretionaryAclDefaulted");
 				}
 				return r_FDiscretionaryAclDefaulted;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAclPresent == null)
 				{
-					r_FSystemAclPresent = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclPresent");
+					r_FSystemAclPresent = new(Type, "SystemAclPresent");
 				}
 				return r_FSystemAclPresent;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAclDefaulted == null)
 				{
-					r_FSystemAclDefaulted = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclDefaulted");
+					r_FSystemAclDefaulted = new(Type, "SystemAclDefaulted");
 				}
 				return r_FSystemAclDefaulted;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDiscretionaryAclUntrusted == null)
 				{
-					r_FDiscretionaryAclUntrusted = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclUntrusted");
+					r_FDiscretionaryAclUntrusted = new(Type, "DiscretionaryAclUntrusted");
 				}
 				return r_FDiscretionaryAclUntrusted;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FServerSecurity == null)
 				{
-					r_FServerSecurity = new(typeof(System.Security.AccessControl.ControlFlags), "ServerSecurity");
+					r_FServerSecurity = new(Type, "ServerSecurity");
 				}
 				return r_FServerSecurity;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDiscretionaryAclAutoInheritRequired == null)
 				{
-					r_FDiscretionaryAclAutoInheritRequired = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclAutoInheritRequired");
+					r_FDiscretionaryAclAutoInheritRequired = new(Type, "DiscretionaryAclAutoInheritRequired");
 				}
 				return r_FDiscretionaryAclAutoInheritRequired;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAclAutoInheritRequired == null)
 				{
-					r_FSystemAclAutoInheritRequired = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclAutoInheritRequired");
+					r_FSystemAclAutoInheritRequired = new(Type, "SystemAclAutoInheritRequired");
 				}
 				return r_FSystemAclAutoInheritRequired;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDiscretionaryAclAutoInherited == null)
 				{
-					r_FDiscretionaryAclAutoInherited = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclAutoInherited");
+					r_FDiscretionaryAclAutoInherited = new(Type, "DiscretionaryAclAutoInherited");
 				}
 				return r_FDiscretionaryAclAutoInherited;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAclAutoInherited == null)
 				{
-					r_FSystemAclAutoInherited = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclAutoInherited");
+					r_FSystemAclAutoInherited = new(Type, "SystemAclAutoInherited");
 				}
 				return r_FSystemAclAutoInherited;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FDiscretionaryAclProtected == null)
 				{
-					r_FDiscretionaryAclProtected = new(typeof(System.Security.AccessControl.ControlFlags), "DiscretionaryAclProtected");
+					r_FDiscretionaryAclProtected = new(Type, "DiscretionaryAclProtected");
 				}
 				return r_FDiscretionaryAclProtected;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSystemAclProtected == null)
 				{
-					r_FSystemAclProtected = new(typeof(System.Security.AccessControl.ControlFlags), "SystemAclProtected");
+					r_FSystemAclProtected = new(Type, "SystemAclProtected");
 				}
 				return r_FSystemAclProtected;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FRMControlValid == null)
 				{
-					r_FRMControlValid = new(typeof(System.Security.AccessControl.ControlFlags), "RMControlValid");
+					r_FRMControlValid = new(Type, "RMControlValid");
 				}
 				return r_FRMControlValid;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 			{
 				if(r_FSelfRelative == null)
 				{
-					r_FSelfRelative = new(typeof(System.Security.AccessControl.ControlFlags), "SelfRelative");
+					r_FSelfRelative = new(Type, "SelfRelative");
 				}
 				return r_FSelfRelative;
 			}
@@ -540,7 +541,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -584,7 +585,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -595,7 +596,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -617,7 +618,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -628,7 +629,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -639,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -672,7 +673,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

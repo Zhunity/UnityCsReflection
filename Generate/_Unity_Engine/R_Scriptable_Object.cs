@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.ScriptableObject
 	/// </summary>
     public partial class RScriptableObject : RMember //
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateInstance_String == null)
 				{
-					r_MCreateInstance_String = new(typeof(UnityEngine.ScriptableObject), "CreateInstance", 0, typeof(System.String));
+					r_MCreateInstance_String = new(Type, "CreateInstance", 0, typeof(System.String));
 				}
 				return r_MCreateInstance_String;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateInstance_Type == null)
 				{
-					r_MCreateInstance_Type = new(typeof(UnityEngine.ScriptableObject), "CreateInstance", 0, typeof(System.Type));
+					r_MCreateInstance_Type = new(Type, "CreateInstance", 0, typeof(System.Type));
 				}
 				return r_MCreateInstance_Type;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateInstance_GT == null)
 				{
-					r_MCreateInstance_GT = new(typeof(UnityEngine.ScriptableObject), "CreateInstance", 1);
+					r_MCreateInstance_GT = new(Type, "CreateInstance", 1);
 				}
 				return r_MCreateInstance_GT;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateInstance_Type_Action_d_ScriptableObject_p_ == null)
 				{
-					r_MCreateInstance_Type_Action_d_ScriptableObject_p_ = new(typeof(UnityEngine.ScriptableObject), "CreateInstance", 0, typeof(System.Type),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.ScriptableObject)));
+					r_MCreateInstance_Type_Action_d_ScriptableObject_p_ = new(Type, "CreateInstance", 0, typeof(System.Type),  ReflectionUtils.GetType("System.Action`1").MakeGenericType(typeof(UnityEngine.ScriptableObject)));
 				}
 				return r_MCreateInstance_Type_Action_d_ScriptableObject_p_;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateScriptableObject_ScriptableObject == null)
 				{
-					r_MCreateScriptableObject_ScriptableObject = new(typeof(UnityEngine.ScriptableObject), "CreateScriptableObject", 0, typeof(UnityEngine.ScriptableObject));
+					r_MCreateScriptableObject_ScriptableObject = new(Type, "CreateScriptableObject", 0, typeof(UnityEngine.ScriptableObject));
 				}
 				return r_MCreateScriptableObject_ScriptableObject;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateScriptableObjectInstanceFromName_String == null)
 				{
-					r_MCreateScriptableObjectInstanceFromName_String = new(typeof(UnityEngine.ScriptableObject), "CreateScriptableObjectInstanceFromName", 0, typeof(System.String));
+					r_MCreateScriptableObjectInstanceFromName_String = new(Type, "CreateScriptableObjectInstanceFromName", 0, typeof(System.String));
 				}
 				return r_MCreateScriptableObjectInstanceFromName_String;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateScriptableObjectInstanceFromType_Type_Boolean == null)
 				{
-					r_MCreateScriptableObjectInstanceFromType_Type_Boolean = new(typeof(UnityEngine.ScriptableObject), "CreateScriptableObjectInstanceFromType", 0, typeof(System.Type), typeof(System.Boolean));
+					r_MCreateScriptableObjectInstanceFromType_Type_Boolean = new(Type, "CreateScriptableObjectInstanceFromType", 0, typeof(System.Type), typeof(System.Boolean));
 				}
 				return r_MCreateScriptableObjectInstanceFromType_Type_Boolean;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MResetAndApplyDefaultInstances_Object == null)
 				{
-					r_MResetAndApplyDefaultInstances_Object = new(typeof(UnityEngine.ScriptableObject), "ResetAndApplyDefaultInstances", 0, typeof(UnityEngine.Object));
+					r_MResetAndApplyDefaultInstances_Object = new(Type, "ResetAndApplyDefaultInstances", 0, typeof(UnityEngine.Object));
 				}
 				return r_MResetAndApplyDefaultInstances_Object;
 			}
@@ -343,7 +344,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@className};
             var ___result = RMCreateInstance_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.ScriptableObject)___result;
+            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
         }
 
 
@@ -354,7 +355,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type};
             var ___result = RMCreateInstance_Type.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.ScriptableObject)___result;
+            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
         }
 
 
@@ -365,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMCreateInstance_GT.Invoke(___genericsType, ___parameters);
 
-            return (T)___result;
+            return ReflectionUtils.Convert<T>(___result);
         }
 
 
@@ -376,7 +377,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @initialize};
             var ___result = RMCreateInstance_Type_Action_d_ScriptableObject_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.ScriptableObject)___result;
+            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
         }
 
 
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@className};
             var ___result = RMCreateScriptableObjectInstanceFromName_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.ScriptableObject)___result;
+            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
         }
 
 
@@ -409,7 +410,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@type, @applyDefaultsAndReset};
             var ___result = RMCreateScriptableObjectInstanceFromType_Type_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.ScriptableObject)___result;
+            return ReflectionUtils.Convert<UnityEngine.ScriptableObject>(___result);
         }
 
 
@@ -431,7 +432,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -442,7 +443,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -453,7 +454,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -464,7 +465,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -486,7 +487,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -497,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

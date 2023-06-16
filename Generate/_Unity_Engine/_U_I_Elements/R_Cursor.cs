@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Cursor
 	/// </summary>
     public partial class RCursor : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PallowedAssetTypes == null)
 				{
-					r_PallowedAssetTypes = new(typeof(UnityEngine.UIElements.Cursor), "allowedAssetTypes", -1);
+					r_PallowedAssetTypes = new(Type, "allowedAssetTypes", -1);
 				}
 				return r_PallowedAssetTypes;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_Cursor_Cursor == null)
 				{
-					r_Mop_Equality_Cursor_Cursor = new(typeof(UnityEngine.UIElements.Cursor), "op_Equality", 0, typeof(UnityEngine.UIElements.Cursor), typeof(UnityEngine.UIElements.Cursor));
+					r_Mop_Equality_Cursor_Cursor = new(Type, "op_Equality", 0, typeof(UnityEngine.UIElements.Cursor), typeof(UnityEngine.UIElements.Cursor));
 				}
 				return r_Mop_Equality_Cursor_Cursor;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_Cursor_Cursor == null)
 				{
-					r_Mop_Inequality_Cursor_Cursor = new(typeof(UnityEngine.UIElements.Cursor), "op_Inequality", 0, typeof(UnityEngine.UIElements.Cursor), typeof(UnityEngine.UIElements.Cursor));
+					r_Mop_Inequality_Cursor_Cursor = new(Type, "op_Inequality", 0, typeof(UnityEngine.UIElements.Cursor), typeof(UnityEngine.UIElements.Cursor));
 				}
 				return r_Mop_Inequality_Cursor_Cursor;
 			}
@@ -300,7 +301,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -311,7 +312,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Cursor.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -322,7 +323,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -333,7 +334,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@style1, @style2};
             var ___result = RMop_Equality_Cursor_Cursor.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -344,7 +345,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@style1, @style2};
             var ___result = RMop_Inequality_Cursor_Cursor.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -355,7 +356,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -377,7 +378,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -388,7 +389,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

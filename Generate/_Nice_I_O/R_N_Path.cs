@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RNiceIO
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// NiceIO.NPath
 	/// </summary>
     public partial class RNPath : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_Fk_IsCaseSensitiveFileSystem == null)
 				{
-					r_Fk_IsCaseSensitiveFileSystem = new( ReflectionUtils.GetType("NiceIO.NPath"), "k_IsCaseSensitiveFileSystem");
+					r_Fk_IsCaseSensitiveFileSystem = new(Type, "k_IsCaseSensitiveFileSystem");
 				}
 				return r_Fk_IsCaseSensitiveFileSystem;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_Fk_IsWindows == null)
 				{
-					r_Fk_IsWindows = new( ReflectionUtils.GetType("NiceIO.NPath"), "k_IsWindows");
+					r_Fk_IsWindows = new(Type, "k_IsWindows");
 				}
 				return r_Fk_IsWindows;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_FPathStringComparison == null)
 				{
-					r_FPathStringComparison = new( ReflectionUtils.GetType("NiceIO.NPath"), "PathStringComparison");
+					r_FPathStringComparison = new(Type, "PathStringComparison");
 				}
 				return r_FPathStringComparison;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_FMethodImplOptions_AggressiveInlining == null)
 				{
-					r_FMethodImplOptions_AggressiveInlining = new( ReflectionUtils.GetType("NiceIO.NPath"), "MethodImplOptions_AggressiveInlining");
+					r_FMethodImplOptions_AggressiveInlining = new(Type, "MethodImplOptions_AggressiveInlining");
 				}
 				return r_FMethodImplOptions_AggressiveInlining;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_PEmpty == null)
 				{
-					r_PEmpty = new( ReflectionUtils.GetType("NiceIO.NPath"), "Empty", -1);
+					r_PEmpty = new(Type, "Empty", -1);
 				}
 				return r_PEmpty;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_PCurrentDirectory == null)
 				{
-					r_PCurrentDirectory = new( ReflectionUtils.GetType("NiceIO.NPath"), "CurrentDirectory", -1);
+					r_PCurrentDirectory = new(Type, "CurrentDirectory", -1);
 				}
 				return r_PCurrentDirectory;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_PHomeDirectory == null)
 				{
-					r_PHomeDirectory = new( ReflectionUtils.GetType("NiceIO.NPath"), "HomeDirectory", -1);
+					r_PHomeDirectory = new(Type, "HomeDirectory", -1);
 				}
 				return r_PHomeDirectory;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_PSystemTemp == null)
 				{
-					r_PSystemTemp = new( ReflectionUtils.GetType("NiceIO.NPath"), "SystemTemp", -1);
+					r_PSystemTemp = new(Type, "SystemTemp", -1);
 				}
 				return r_PSystemTemp;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCalculateIsWindows == null)
 				{
-					r_MCalculateIsWindows = new( ReflectionUtils.GetType("NiceIO.NPath"), "CalculateIsWindows", 0);
+					r_MCalculateIsWindows = new(Type, "CalculateIsWindows", 0);
 				}
 				return r_MCalculateIsWindows;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCalculateIsWindows10 == null)
 				{
-					r_MCalculateIsWindows10 = new( ReflectionUtils.GetType("NiceIO.NPath"), "CalculateIsWindows10", 0);
+					r_MCalculateIsWindows10 = new(Type, "CalculateIsWindows10", 0);
 				}
 				return r_MCalculateIsWindows10;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MIsUNCPath_String == null)
 				{
-					r_MIsUNCPath_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "IsUNCPath", 0, typeof(System.String));
+					r_MIsUNCPath_String = new(Type, "IsUNCPath", 0, typeof(System.String));
 				}
 				return r_MIsUNCPath_String;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MConvertToForwardSlashPath_String == null)
 				{
-					r_MConvertToForwardSlashPath_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "ConvertToForwardSlashPath", 0, typeof(System.String));
+					r_MConvertToForwardSlashPath_String = new(Type, "ConvertToForwardSlashPath", 0, typeof(System.String));
 				}
 				return r_MConvertToForwardSlashPath_String;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MMakeCompletelyWellFormatted_String_Boolean == null)
 				{
-					r_MMakeCompletelyWellFormatted_String_Boolean = new( ReflectionUtils.GetType("NiceIO.NPath"), "MakeCompletelyWellFormatted", 0, typeof(System.String), typeof(System.Boolean));
+					r_MMakeCompletelyWellFormatted_String_Boolean = new(Type, "MakeCompletelyWellFormatted", 0, typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MMakeCompletelyWellFormatted_String_Boolean;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCollapseSingleDots_String == null)
 				{
-					r_MCollapseSingleDots_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CollapseSingleDots", 0, typeof(System.String));
+					r_MCollapseSingleDots_String = new(Type, "CollapseSingleDots", 0, typeof(System.String));
 				}
 				return r_MCollapseSingleDots_String;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCollapseDoubleSlashes_String == null)
 				{
-					r_MCollapseDoubleSlashes_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CollapseDoubleSlashes", 0, typeof(System.String));
+					r_MCollapseDoubleSlashes_String = new(Type, "CollapseDoubleSlashes", 0, typeof(System.String));
 				}
 				return r_MCollapseDoubleSlashes_String;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCollapseDoubleDots_String == null)
 				{
-					r_MCollapseDoubleDots_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CollapseDoubleDots", 0, typeof(System.String));
+					r_MCollapseDoubleDots_String = new(Type, "CollapseDoubleDots", 0, typeof(System.String));
 				}
 				return r_MCollapseDoubleDots_String;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MIsSlash_Char == null)
 				{
-					r_MIsSlash_Char = new( ReflectionUtils.GetType("NiceIO.NPath"), "IsSlash", 0, typeof(System.Char));
+					r_MIsSlash_Char = new(Type, "IsSlash", 0, typeof(System.Char));
 				}
 				return r_MIsSlash_Char;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_Mop_Equality_NPath_NPath == null)
 				{
-					r_Mop_Equality_NPath_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "op_Equality", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
+					r_Mop_Equality_NPath_NPath = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
 				}
 				return r_Mop_Equality_NPath_NPath;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_Mop_Inequality_NPath_NPath == null)
 				{
-					r_Mop_Inequality_NPath_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "op_Inequality", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
+					r_Mop_Inequality_NPath_NPath = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("NiceIO.NPath"),  ReflectionUtils.GetType("NiceIO.NPath"));
 				}
 				return r_Mop_Inequality_NPath_NPath;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MWithDot_String == null)
 				{
-					r_MWithDot_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "WithDot", 0, typeof(System.String));
+					r_MWithDot_String = new(Type, "WithDot", 0, typeof(System.String));
 				}
 				return r_MWithDot_String;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MCreateTempDirectory_String == null)
 				{
-					r_MCreateTempDirectory_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "CreateTempDirectory", 0, typeof(System.String));
+					r_MCreateTempDirectory_String = new(Type, "CreateTempDirectory", 0, typeof(System.String));
 				}
 				return r_MCreateTempDirectory_String;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MSetCurrentDirectory_NPath == null)
 				{
-					r_MSetCurrentDirectory_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "SetCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
+					r_MSetCurrentDirectory_NPath = new(Type, "SetCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
 				}
 				return r_MSetCurrentDirectory_NPath;
 			}
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MAlwaysTrue_NPath == null)
 				{
-					r_MAlwaysTrue_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "AlwaysTrue", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
+					r_MAlwaysTrue_NPath = new(Type, "AlwaysTrue", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
 				}
 				return r_MAlwaysTrue_NPath;
 			}
@@ -1582,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_Mop_Implicit_String == null)
 				{
-					r_Mop_Implicit_String = new( ReflectionUtils.GetType("NiceIO.NPath"), "op_Implicit", 0, typeof(System.String));
+					r_Mop_Implicit_String = new(Type, "op_Implicit", 0, typeof(System.String));
 				}
 				return r_Mop_Implicit_String;
 			}
@@ -1646,7 +1647,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MWithFileSystem_FileSystem == null)
 				{
-					r_MWithFileSystem_FileSystem = new( ReflectionUtils.GetType("NiceIO.NPath"), "WithFileSystem", 0,  ReflectionUtils.GetType("NiceIO.NPath+FileSystem"));
+					r_MWithFileSystem_FileSystem = new(Type, "WithFileSystem", 0,  ReflectionUtils.GetType("NiceIO.NPath+FileSystem"));
 				}
 				return r_MWithFileSystem_FileSystem;
 			}
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MWithFrozenCurrentDirectory_NPath == null)
 				{
-					r_MWithFrozenCurrentDirectory_NPath = new( ReflectionUtils.GetType("NiceIO.NPath"), "WithFrozenCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
+					r_MWithFrozenCurrentDirectory_NPath = new(Type, "WithFrozenCurrentDirectory", 0,  ReflectionUtils.GetType("NiceIO.NPath"));
 				}
 				return r_MWithFrozenCurrentDirectory_NPath;
 			}
@@ -1756,7 +1757,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMCalculateIsWindows.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1767,7 +1768,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMCalculateIsWindows10.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1778,7 +1779,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path};
             var ___result = RMIsUNCPath_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1789,7 +1790,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path};
             var ___result = RMConvertToForwardSlashPath_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1800,7 +1801,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path, @doubleDotsAreCollapsed};
             var ___result = RMMakeCompletelyWellFormatted_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1811,7 +1812,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path};
             var ___result = RMCollapseSingleDots_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1822,7 +1823,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path};
             var ___result = RMCollapseDoubleSlashes_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1833,7 +1834,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path};
             var ___result = RMCollapseDoubleDots_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1844,7 +1845,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@c};
             var ___result = RMIsSlash_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1855,7 +1856,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append};
             var ___result = RMCombine_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -1866,7 +1867,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append1, @append2};
             var ___result = RMCombine_String_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -1877,7 +1878,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append.Value};
             var ___result = RMCombine_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -1888,7 +1889,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append.Value};
             var ___result = RMCombine_NPathArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -1899,7 +1900,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMRelativeTo_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -1910,7 +1911,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@extension};
             var ___result = RMChangeExtension_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -1921,7 +1922,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@dir};
             var ___result = RMHasDirectory_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1932,7 +1933,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append.Value};
             var ___result = RMExists_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1943,7 +1944,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append.Value};
             var ___result = RMDirectoryExists_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1954,7 +1955,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append.Value};
             var ___result = RMFileExists_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1965,7 +1966,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@other.Value};
             var ___result = RMHasSameUNCServerName_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1976,7 +1977,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@other.Value};
             var ___result = RMHasSameDriveLetter_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1987,7 +1988,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@slashMode.Value};
             var ___result = RMInQuotes_SlashMode.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1998,7 +1999,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2009,7 +2010,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@slashMode.Value};
             var ___result = RMToString_SlashMode.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2020,7 +2021,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2031,7 +2032,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@p.Value};
             var ___result = RMEquals_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2042,7 +2043,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@a.Value, @b.Value};
             var ___result = RMop_Equality_NPath_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2053,7 +2054,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2064,7 +2065,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@obj};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2075,7 +2076,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@a.Value, @b.Value};
             var ___result = RMop_Inequality_NPath_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2086,7 +2087,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@extension};
             var ___result = RMHasExtension_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2097,7 +2098,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@extensions};
             var ___result = RMHasExtension_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2108,7 +2109,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@extension};
             var ___result = RMWithDot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2119,7 +2120,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@filter, @recurse};
             var ___result = RMFiles_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2130,7 +2131,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@recurse};
             var ___result = RMFiles_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2141,7 +2142,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@extensions, @recurse};
             var ___result = RMFiles_StringArray_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2152,7 +2153,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@filter, @recurse};
             var ___result = RMContents_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2163,7 +2164,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@recurse};
             var ___result = RMContents_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2174,7 +2175,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@filter, @recurse};
             var ___result = RMDirectories_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2185,7 +2186,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@recurse};
             var ___result = RMDirectories_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2196,7 +2197,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMCreateFile.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2207,7 +2208,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@file.Value};
             var ___result = RMCreateFile_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2218,7 +2219,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMCreateDirectory.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2229,7 +2230,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@directory.Value};
             var ___result = RMCreateDirectory_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2240,7 +2241,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@targetPath.Value, @targetIsFile};
             var ___result = RMCreateSymbolicLink_NPath_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2251,7 +2252,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@dest.Value};
             var ___result = RMCopy_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2262,7 +2263,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@dest.Value, @fileFilter.Value};
             var ___result = RMCopy_NPath_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2273,7 +2274,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@base.Value};
             var ___result = RMMakeAbsolute_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2284,7 +2285,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@destination.Value, @fileFilter.Value};
             var ___result = RMCopyWithDeterminedDestination_NPath_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2306,7 +2307,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@deleteMode.Value};
             var ___result = RMDeleteIfExists_DeleteMode.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2317,7 +2318,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMDeleteContents.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2328,7 +2329,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@prefix};
             var ___result = RMCreateTempDirectory_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2339,7 +2340,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@dest.Value};
             var ___result = RMMove_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2350,7 +2351,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@directory.Value};
             var ___result = RMSetCurrentDirectory_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.IDisposable)___result;
+            return ReflectionUtils.Convert<System.IDisposable>(___result);
         }
 
 
@@ -2372,7 +2373,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@append.Value};
             var ___result = RMEnsureDirectoryExists_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2383,7 +2384,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMEnsureParentDirectoryExists.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2394,7 +2395,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMFileMustExist.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2405,7 +2406,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMDirectoryMustExist.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2416,7 +2417,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@potentialBasePath.Value};
             var ___result = RMIsChildOf_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2427,7 +2428,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@potentialBasePath.Value};
             var ___result = RMIsSameAsOrChildOf_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2438,7 +2439,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@needle.Value};
             var ___result = RMParentContaining_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2449,7 +2450,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@contents};
             var ___result = RMWriteAllText_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2460,7 +2461,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@contents};
             var ___result = RMReplaceAllText_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2471,7 +2472,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@bytes};
             var ___result = RMWriteAllBytes_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2482,7 +2483,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMReadAllText.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2493,7 +2494,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMReadAllBytes.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -2504,7 +2505,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@contents};
             var ___result = RMWriteAllLines_StringArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2515,7 +2516,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMReadAllLines.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -2526,7 +2527,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@destination.Value, @recurse, @fileFilter.Value};
             var ___result = RMCopyFiles_NPath_Boolean_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2537,7 +2538,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@destination.Value, @recurse, @fileFilter.Value};
             var ___result = RMMoveFiles_NPath_Boolean_Func_d_NPath_Boolean_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -2548,7 +2549,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@p.Value};
             var ___result = RMAlwaysTrue_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2559,7 +2560,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@input};
             var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2570,7 +2571,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@lastWriteTimeUtc};
             var ___result = RMSetLastWriteTimeUtc_DateTime.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2581,7 +2582,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMGetLastWriteTimeUtc.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -2592,7 +2593,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMGetFileSize.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2603,7 +2604,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@fileSystem.Value};
             var ___result = RMWithFileSystem_FileSystem.Invoke(___genericsType, ___parameters);
 
-            return (System.IDisposable)___result;
+            return ReflectionUtils.Convert<System.IDisposable>(___result);
         }
 
 
@@ -2614,7 +2615,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMResolveWithFileSystem.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -2625,7 +2626,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@slashMode.Value};
             var ___result = RMInQuotesResolved_SlashMode.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2636,7 +2637,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@frozenCurrentDirectory.Value};
             var ___result = RMWithFrozenCurrentDirectory_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.IDisposable)___result;
+            return ReflectionUtils.Convert<System.IDisposable>(___result);
         }
 
 
@@ -2658,7 +2659,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2669,7 +2670,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

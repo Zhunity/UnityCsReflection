@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Angle
 	/// </summary>
     public partial class RAngle : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MDegrees_Single == null)
 				{
-					r_MDegrees_Single = new(typeof(UnityEngine.UIElements.Angle), "Degrees", 0, typeof(System.Single));
+					r_MDegrees_Single = new(Type, "Degrees", 0, typeof(System.Single));
 				}
 				return r_MDegrees_Single;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGradians_Single == null)
 				{
-					r_MGradians_Single = new(typeof(UnityEngine.UIElements.Angle), "Gradians", 0, typeof(System.Single));
+					r_MGradians_Single = new(Type, "Gradians", 0, typeof(System.Single));
 				}
 				return r_MGradians_Single;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MRadians_Single == null)
 				{
-					r_MRadians_Single = new(typeof(UnityEngine.UIElements.Angle), "Radians", 0, typeof(System.Single));
+					r_MRadians_Single = new(Type, "Radians", 0, typeof(System.Single));
 				}
 				return r_MRadians_Single;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MTurns_Single == null)
 				{
-					r_MTurns_Single = new(typeof(UnityEngine.UIElements.Angle), "Turns", 0, typeof(System.Single));
+					r_MTurns_Single = new(Type, "Turns", 0, typeof(System.Single));
 				}
 				return r_MTurns_Single;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MNone == null)
 				{
-					r_MNone = new(typeof(UnityEngine.UIElements.Angle), "None", 0);
+					r_MNone = new(Type, "None", 0);
 				}
 				return r_MNone;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Implicit_Single == null)
 				{
-					r_Mop_Implicit_Single = new(typeof(UnityEngine.UIElements.Angle), "op_Implicit", 0, typeof(System.Single));
+					r_Mop_Implicit_Single = new(Type, "op_Implicit", 0, typeof(System.Single));
 				}
 				return r_Mop_Implicit_Single;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_Angle_Angle == null)
 				{
-					r_Mop_Equality_Angle_Angle = new(typeof(UnityEngine.UIElements.Angle), "op_Equality", 0, typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.UIElements.Angle));
+					r_Mop_Equality_Angle_Angle = new(Type, "op_Equality", 0, typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.UIElements.Angle));
 				}
 				return r_Mop_Equality_Angle_Angle;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_Angle_Angle == null)
 				{
-					r_Mop_Inequality_Angle_Angle = new(typeof(UnityEngine.UIElements.Angle), "op_Inequality", 0, typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.UIElements.Angle));
+					r_Mop_Inequality_Angle_Angle = new(Type, "op_Inequality", 0, typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.UIElements.Angle));
 				}
 				return r_Mop_Inequality_Angle_Angle;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@value};
             var ___result = RMDegrees_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Angle)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@value};
             var ___result = RMGradians_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Angle)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@value};
             var ___result = RMRadians_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Angle)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
         }
 
 
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@value};
             var ___result = RMTurns_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Angle)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMNone.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Angle)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMIsNone.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToDegrees.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToGradians.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToRadians.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToTurns.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -538,7 +539,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@value};
             var ___result = RMop_Implicit_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Angle)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
         }
 
 
@@ -549,7 +550,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Angle_Angle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Angle_Angle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -571,7 +572,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Angle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -582,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -593,7 +594,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -604,7 +605,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -626,7 +627,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -637,7 +638,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

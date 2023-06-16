@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.PageManager
 	/// </summary>
     public partial class RPageManager : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_AssetStorePackageGroupName == null)
 				{
-					r_Fk_AssetStorePackageGroupName = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "k_AssetStorePackageGroupName");
+					r_Fk_AssetStorePackageGroupName = new(Type, "k_AssetStorePackageGroupName");
 				}
 				return r_Fk_AssetStorePackageGroupName;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_UnityPackageGroupName == null)
 				{
-					r_Fk_UnityPackageGroupName = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "k_UnityPackageGroupName");
+					r_Fk_UnityPackageGroupName = new(Type, "k_UnityPackageGroupName");
 				}
 				return r_Fk_UnityPackageGroupName;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_OtherPackageGroupName == null)
 				{
-					r_Fk_OtherPackageGroupName = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "k_OtherPackageGroupName");
+					r_Fk_OtherPackageGroupName = new(Type, "k_OtherPackageGroupName");
 				}
 				return r_Fk_OtherPackageGroupName;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_DefaultPageSize == null)
 				{
-					r_Fk_DefaultPageSize = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "k_DefaultPageSize");
+					r_Fk_DefaultPageSize = new(Type, "k_DefaultPageSize");
 				}
 				return r_Fk_DefaultPageSize;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_RefreshOptionsByTab == null)
 				{
-					r_Fk_RefreshOptionsByTab = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "k_RefreshOptionsByTab");
+					r_Fk_RefreshOptionsByTab = new(Type, "k_RefreshOptionsByTab");
 				}
 				return r_Fk_RefreshOptionsByTab;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MUpdateSearchTextOnPage_IPage_String == null)
 				{
-					r_MUpdateSearchTextOnPage_IPage_String = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "UpdateSearchTextOnPage", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPage"), typeof(System.String));
+					r_MUpdateSearchTextOnPage_IPage_String = new(Type, "UpdateSearchTextOnPage", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPage"), typeof(System.String));
 				}
 				return r_MUpdateSearchTextOnPage_IPage_String;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_MGetRefreshOptionsByTab_PackageFilterTab == null)
 				{
-					r_MGetRefreshOptionsByTab_PackageFilterTab = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "GetRefreshOptionsByTab", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"));
+					r_MGetRefreshOptionsByTab_PackageFilterTab = new(Type, "GetRefreshOptionsByTab", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"));
 				}
 				return r_MGetRefreshOptionsByTab_PackageFilterTab;
 			}
@@ -1950,7 +1951,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage == null)
 				{
-					r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "<InitializeSubPages>g__FilterAllPackages|110_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
+					r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage = new(Type, "<InitializeSubPages>g__FilterAllPackages|110_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
 				return r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage;
 			}
@@ -1966,7 +1967,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage == null)
 				{
-					r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "<InitializeSubPages>g__GroupPackagesAndFeatures|110_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
+					r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage = new(Type, "<InitializeSubPages>g__GroupPackagesAndFeatures|110_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
 				return r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage;
 			}
@@ -1982,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage == null)
 				{
-					r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"), "<InitializeSubPages>g__GroupPackagesWithAuthorAndFeatures|110_2", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
+					r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage = new(Type, "<InitializeSubPages>g__GroupPackagesWithAuthorAndFeatures|110_2", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
 				return r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage;
 			}
@@ -2125,7 +2126,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@pair.Value, @createIfNotFound};
             var ___result = RMGetPackageSelectionObject_PackageAndVersionIdPair_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject>(___result);
         }
 
 
@@ -2136,7 +2137,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value, @version.Value, @createIfNotFound};
             var ___result = RMGetPackageSelectionObject_IPackage_IPackageVersion_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject>(___result);
         }
 
 
@@ -2147,7 +2148,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMGetPageFromTab_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage>(___result);
         }
 
 
@@ -2158,7 +2159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMGetPageFromTab_GT_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RType(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RType>(___result);
         }
 
 
@@ -2169,7 +2170,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMCreatePageFromTab_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage>(___result);
         }
 
 
@@ -2268,7 +2269,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetCurrentPage.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage>(___result);
         }
 
 
@@ -2279,7 +2280,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMGetPage_PackageFilterTab.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage>(___result);
         }
 
 
@@ -2290,7 +2291,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetSelection.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection>(___result);
         }
 
 
@@ -2367,7 +2368,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMUpdateSelectionIfCurrentSelectionIsInvalid.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2411,7 +2412,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@groupName};
             var ___result = RMIsGroupExpanded_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2433,7 +2434,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value, @version.Value};
             var ___result = RMFindTab_IPackage_IPackageVersion.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab>(___result);
         }
 
 
@@ -2444,7 +2445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@packageVersions.Value};
             var ___result = RMFindTab_IEnumerable_d_IPackageVersion_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab>(___result);
         }
 
 
@@ -2532,7 +2533,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value};
             var ___result = RMGetVisualState_IPackage.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState>(___result);
         }
 
 
@@ -2543,7 +2544,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMGetRefreshOptionsByTab_PackageFilterTab.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions>(___result);
         }
 
 
@@ -2708,7 +2709,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value, @name, @displayName, @contentType, @priority, @filterFunction.Value, @groupNameFunction.Value, @compareGroupFunction};
             var ___result = RMAddSubPage_PackageFilterTab_String_String_String_Int32_Func_d_IPackage_Boolean_p__Func_d_IPackage_String_p__Func_d_String_String_Int32_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSubPage(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSubPage>(___result);
         }
 
 
@@ -2785,7 +2786,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@option.Value};
             var ___result = RMIsRefreshInProgress_RefreshOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2796,7 +2797,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@option.Value};
             var ___result = RMIsInitialFetchingDone_RefreshOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2807,7 +2808,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@option.Value};
             var ___result = RMGetRefreshTimestamp_RefreshOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2818,7 +2819,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@option.Value};
             var ___result = RMGetRefreshError_RefreshOptions.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError>(___result);
         }
 
 
@@ -2829,7 +2830,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMGetRefreshTimestamp_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2840,7 +2841,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMGetRefreshError_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError>(___result);
         }
 
 
@@ -2851,7 +2852,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMIsRefreshInProgress_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2862,7 +2863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@tab.Value};
             var ___result = RMIsInitialFetchingDone_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2884,7 +2885,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@s.Value};
             var ___result = RM__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject>(___result);
         }
 
 
@@ -2895,7 +2896,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value};
             var ___result = RM__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2906,7 +2907,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value};
             var ___result = RM__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2917,7 +2918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@package.Value};
             var ___result = RM__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2928,7 +2929,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2950,7 +2951,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2961,7 +2962,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2972,7 +2973,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2983,7 +2984,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.RegularExpressions.RegexReplacement
 	/// </summary>
     public partial class RRegexReplacement : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FSpecials == null)
 				{
-					r_FSpecials = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "Specials");
+					r_FSpecials = new(Type, "Specials");
 				}
 				return r_FSpecials;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FLeftPortion == null)
 				{
-					r_FLeftPortion = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "LeftPortion");
+					r_FLeftPortion = new(Type, "LeftPortion");
 				}
 				return r_FLeftPortion;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FRightPortion == null)
 				{
-					r_FRightPortion = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "RightPortion");
+					r_FRightPortion = new(Type, "RightPortion");
 				}
 				return r_FRightPortion;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FLastGroup == null)
 				{
-					r_FLastGroup = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "LastGroup");
+					r_FLastGroup = new(Type, "LastGroup");
 				}
 				return r_FLastGroup;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_FWholeString == null)
 				{
-					r_FWholeString = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "WholeString");
+					r_FWholeString = new(Type, "WholeString");
 				}
 				return r_FWholeString;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
 			{
 				if(r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions == null)
 				{
-					r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement"), "GetOrCreate", 0,  ReflectionUtils.GetType("System.WeakReference`1").MakeGenericType( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
+					r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions = new(Type, "GetOrCreate", 0,  ReflectionUtils.GetType("System.WeakReference`1").MakeGenericType( ReflectionUtils.GetType("System.Text.RegularExpressions.RegexReplacement")), typeof(System.String), typeof(System.Collections.Hashtable), typeof(System.Int32), typeof(System.Collections.Hashtable), typeof(System.Text.RegularExpressions.RegexOptions));
 				}
 				return r_MGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions;
 			}
@@ -364,7 +365,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@replRef.Value, @replacement, @caps, @capsize, @capnames, @roptions};
             var ___result = RMGetOrCreate_WeakReference_d_RegexReplacement_p__String_Hashtable_Int32_Hashtable_RegexOptions.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions.RRegexReplacement>(___result);
         }
 
 
@@ -397,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@match};
             var ___result = RMReplacement_Match.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@regex, @input, @count, @startat};
             var ___result = RMReplace_Regex_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -419,7 +420,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -441,7 +442,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -452,7 +453,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -463,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -474,7 +475,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText.RRegularExpressions
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

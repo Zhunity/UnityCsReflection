@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.CameraProperties
 	/// </summary>
     public partial class RCameraProperties : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fk_NumLayers == null)
 				{
-					r_Fk_NumLayers = new(typeof(UnityEngine.Rendering.CameraProperties), "k_NumLayers");
+					r_Fk_NumLayers = new(Type, "k_NumLayers");
 				}
 				return r_Fk_NumLayers;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Fk_PlaneCount == null)
 				{
-					r_Fk_PlaneCount = new(typeof(UnityEngine.Rendering.CameraProperties), "k_PlaneCount");
+					r_Fk_PlaneCount = new(Type, "k_PlaneCount");
 				}
 				return r_Fk_PlaneCount;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_CameraProperties_CameraProperties == null)
 				{
-					r_Mop_Equality_CameraProperties_CameraProperties = new(typeof(UnityEngine.Rendering.CameraProperties), "op_Equality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
+					r_Mop_Equality_CameraProperties_CameraProperties = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
 				}
 				return r_Mop_Equality_CameraProperties_CameraProperties;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_CameraProperties_CameraProperties == null)
 				{
-					r_Mop_Inequality_CameraProperties_CameraProperties = new(typeof(UnityEngine.Rendering.CameraProperties), "op_Inequality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
+					r_Mop_Inequality_CameraProperties_CameraProperties = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.CameraProperties), typeof(UnityEngine.Rendering.CameraProperties));
 				}
 				return r_Mop_Inequality_CameraProperties_CameraProperties;
 			}
@@ -796,7 +797,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@index};
             var ___result = RMGetShadowCullingPlane_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Plane)___result;
+            return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
         }
 
 
@@ -818,7 +819,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@index};
             var ___result = RMGetCameraCullingPlane_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Plane)___result;
+            return ReflectionUtils.Convert<UnityEngine.Plane>(___result);
         }
 
 
@@ -840,7 +841,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_CameraProperties.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -851,7 +852,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -873,7 +874,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_CameraProperties_CameraProperties.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -884,7 +885,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_CameraProperties_CameraProperties.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -895,7 +896,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -917,7 +918,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -928,7 +929,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

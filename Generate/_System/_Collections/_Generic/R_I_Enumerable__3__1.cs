@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.Generic.IEnumerable`1
 	/// </summary>
     public partial class RIEnumerable<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -60,7 +61,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerator<T>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
         }
 
 

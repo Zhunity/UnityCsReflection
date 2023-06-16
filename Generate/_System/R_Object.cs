@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Object
 	/// </summary>
     public partial class RObject : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MEquals_Object_Object == null)
 				{
-					r_MEquals_Object_Object = new(typeof(System.Object), "Equals", 0, typeof(System.Object), typeof(System.Object));
+					r_MEquals_Object_Object = new(Type, "Equals", 0, typeof(System.Object), typeof(System.Object));
 				}
 				return r_MEquals_Object_Object;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReferenceEquals_Object_Object == null)
 				{
-					r_MReferenceEquals_Object_Object = new(typeof(System.Object), "ReferenceEquals", 0, typeof(System.Object), typeof(System.Object));
+					r_MReferenceEquals_Object_Object = new(Type, "ReferenceEquals", 0, typeof(System.Object), typeof(System.Object));
 				}
 				return r_MReferenceEquals_Object_Object;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MInternalGetHashCode_Object == null)
 				{
-					r_MInternalGetHashCode_Object = new(typeof(System.Object), "InternalGetHashCode", 0, typeof(System.Object));
+					r_MInternalGetHashCode_Object = new(Type, "InternalGetHashCode", 0, typeof(System.Object));
 				}
 				return r_MInternalGetHashCode_Object;
 			}
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@objA, @objB};
             var ___result = RMEquals_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -275,7 +276,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -297,7 +298,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@objA, @objB};
             var ___result = RMReferenceEquals_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -308,7 +309,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@o};
             var ___result = RMInternalGetHashCode_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

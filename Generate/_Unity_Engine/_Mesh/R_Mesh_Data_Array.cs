@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Mesh+MeshDataArray
 	/// </summary>
     public partial class RMeshDataArray : RMember //
@@ -160,7 +161,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MAcquireReadOnlyMeshData_Mesh_IntPtrPointer == null)
 				{
-					r_MAcquireReadOnlyMeshData_Mesh_IntPtrPointer = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), "AcquireReadOnlyMeshData", 0, typeof(UnityEngine.Mesh), typeof(System.IntPtr).MakePointerType());
+					r_MAcquireReadOnlyMeshData_Mesh_IntPtrPointer = new(Type, "AcquireReadOnlyMeshData", 0, typeof(UnityEngine.Mesh), typeof(System.IntPtr).MakePointerType());
 				}
 				return r_MAcquireReadOnlyMeshData_Mesh_IntPtrPointer;
 			}
@@ -176,7 +177,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MAcquireReadOnlyMeshDatas_MeshArray_IntPtrPointer_Int32 == null)
 				{
-					r_MAcquireReadOnlyMeshDatas_MeshArray_IntPtrPointer_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), "AcquireReadOnlyMeshDatas", 0, typeof(UnityEngine.Mesh).MakeArrayType(), typeof(System.IntPtr).MakePointerType(), typeof(System.Int32));
+					r_MAcquireReadOnlyMeshDatas_MeshArray_IntPtrPointer_Int32 = new(Type, "AcquireReadOnlyMeshDatas", 0, typeof(UnityEngine.Mesh).MakeArrayType(), typeof(System.IntPtr).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MAcquireReadOnlyMeshDatas_MeshArray_IntPtrPointer_Int32;
 			}
@@ -192,7 +193,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MReleaseMeshDatas_IntPtrPointer_Int32 == null)
 				{
-					r_MReleaseMeshDatas_IntPtrPointer_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), "ReleaseMeshDatas", 0, typeof(System.IntPtr).MakePointerType(), typeof(System.Int32));
+					r_MReleaseMeshDatas_IntPtrPointer_Int32 = new(Type, "ReleaseMeshDatas", 0, typeof(System.IntPtr).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MReleaseMeshDatas_IntPtrPointer_Int32;
 			}
@@ -208,7 +209,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateNewMeshDatas_IntPtrPointer_Int32 == null)
 				{
-					r_MCreateNewMeshDatas_IntPtrPointer_Int32 = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), "CreateNewMeshDatas", 0, typeof(System.IntPtr).MakePointerType(), typeof(System.Int32));
+					r_MCreateNewMeshDatas_IntPtrPointer_Int32 = new(Type, "CreateNewMeshDatas", 0, typeof(System.IntPtr).MakePointerType(), typeof(System.Int32));
 				}
 				return r_MCreateNewMeshDatas_IntPtrPointer_Int32;
 			}
@@ -224,7 +225,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MApplyToMeshesImpl_MeshArray_IntPtrPointer_Int32_MeshUpdateFlags == null)
 				{
-					r_MApplyToMeshesImpl_MeshArray_IntPtrPointer_Int32_MeshUpdateFlags = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), "ApplyToMeshesImpl", 0, typeof(UnityEngine.Mesh).MakeArrayType(), typeof(System.IntPtr).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_MApplyToMeshesImpl_MeshArray_IntPtrPointer_Int32_MeshUpdateFlags = new(Type, "ApplyToMeshesImpl", 0, typeof(UnityEngine.Mesh).MakeArrayType(), typeof(System.IntPtr).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Rendering.MeshUpdateFlags));
 				}
 				return r_MApplyToMeshesImpl_MeshArray_IntPtrPointer_Int32_MeshUpdateFlags;
 			}
@@ -240,7 +241,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MApplyToMeshImpl_Mesh_IntPtr_MeshUpdateFlags == null)
 				{
-					r_MApplyToMeshImpl_Mesh_IntPtr_MeshUpdateFlags = new( ReflectionUtils.GetType("UnityEngine.Mesh+MeshDataArray"), "ApplyToMeshImpl", 0, typeof(UnityEngine.Mesh), typeof(System.IntPtr), typeof(UnityEngine.Rendering.MeshUpdateFlags));
+					r_MApplyToMeshImpl_Mesh_IntPtr_MeshUpdateFlags = new(Type, "ApplyToMeshImpl", 0, typeof(UnityEngine.Mesh), typeof(System.IntPtr), typeof(UnityEngine.Rendering.MeshUpdateFlags));
 				}
 				return r_MApplyToMeshImpl_Mesh_IntPtr_MeshUpdateFlags;
 			}
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -595,7 +596,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

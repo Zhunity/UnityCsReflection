@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.LocalDataStoreMgr
 	/// </summary>
     public partial class RLocalDataStoreMgr : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FInitialSlotTableSize == null)
 				{
-					r_FInitialSlotTableSize = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "InitialSlotTableSize");
+					r_FInitialSlotTableSize = new(Type, "InitialSlotTableSize");
 				}
 				return r_FInitialSlotTableSize;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FSlotTableDoubleThreshold == null)
 				{
-					r_FSlotTableDoubleThreshold = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "SlotTableDoubleThreshold");
+					r_FSlotTableDoubleThreshold = new(Type, "SlotTableDoubleThreshold");
 				}
 				return r_FSlotTableDoubleThreshold;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FLargeSlotTableSizeIncrease == null)
 				{
-					r_FLargeSlotTableSizeIncrease = new( ReflectionUtils.GetType("System.LocalDataStoreMgr"), "LargeSlotTableSizeIncrease");
+					r_FLargeSlotTableSizeIncrease = new(Type, "LargeSlotTableSizeIncrease");
 				}
 				return r_FLargeSlotTableSizeIncrease;
 			}
@@ -412,7 +413,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMCreateLocalDataStore.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RLocalDataStoreHolder>(___result);
         }
 
 
@@ -434,7 +435,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMAllocateDataSlot.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -445,7 +446,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name};
             var ___result = RMAllocateNamedDataSlot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -456,7 +457,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@name};
             var ___result = RMGetNamedDataSlot_String.Invoke(___genericsType, ___parameters);
 
-            return (System.LocalDataStoreSlot)___result;
+            return ReflectionUtils.Convert<System.LocalDataStoreSlot>(___result);
         }
 
 
@@ -500,7 +501,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetSlotTableLength.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -511,7 +512,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -533,7 +534,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -544,7 +545,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -555,7 +556,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -566,7 +567,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

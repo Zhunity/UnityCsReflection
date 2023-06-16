@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.KeyboardNavigationManipulator
 	/// </summary>
     public partial class RKeyboardNavigationManipulator : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0 == null)
 				{
-					r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0 = new(typeof(UnityEngine.UIElements.KeyboardNavigationManipulator), "<OnKeyDown>g__GetOperation|4_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.KeyboardNavigationManipulator+<>c__DisplayClass4_0").MakeByRefType());
+					r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0 = new(Type, "<OnKeyDown>g__GetOperation|4_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.KeyboardNavigationManipulator+<>c__DisplayClass4_0").MakeByRefType());
 				}
 				return r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0;
 			}
@@ -378,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RM__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0.Invoke(___genericsType, ___parameters);
 			@_______ = new Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0(___parameters[0]);
 
-            return (UnityEngine.UIElements.KeyboardNavigationOperation)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
         }
 
 
@@ -389,7 +390,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -411,7 +412,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -422,7 +423,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -433,7 +434,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -444,7 +445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

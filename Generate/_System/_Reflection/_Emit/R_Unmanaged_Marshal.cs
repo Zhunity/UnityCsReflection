@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.UnmanagedMarshal
 	/// </summary>
     public partial class RUnmanagedMarshal : RMember //
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineByValArray_Int32 == null)
 				{
-					r_MDefineByValArray_Int32 = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineByValArray", 0, typeof(System.Int32));
+					r_MDefineByValArray_Int32 = new(Type, "DefineByValArray", 0, typeof(System.Int32));
 				}
 				return r_MDefineByValArray_Int32;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineByValTStr_Int32 == null)
 				{
-					r_MDefineByValTStr_Int32 = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineByValTStr", 0, typeof(System.Int32));
+					r_MDefineByValTStr_Int32 = new(Type, "DefineByValTStr", 0, typeof(System.Int32));
 				}
 				return r_MDefineByValTStr_Int32;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineLPArray_UnmanagedType == null)
 				{
-					r_MDefineLPArray_UnmanagedType = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineLPArray", 0, typeof(System.Runtime.InteropServices.UnmanagedType));
+					r_MDefineLPArray_UnmanagedType = new(Type, "DefineLPArray", 0, typeof(System.Runtime.InteropServices.UnmanagedType));
 				}
 				return r_MDefineLPArray_UnmanagedType;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineSafeArray_UnmanagedType == null)
 				{
-					r_MDefineSafeArray_UnmanagedType = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineSafeArray", 0, typeof(System.Runtime.InteropServices.UnmanagedType));
+					r_MDefineSafeArray_UnmanagedType = new(Type, "DefineSafeArray", 0, typeof(System.Runtime.InteropServices.UnmanagedType));
 				}
 				return r_MDefineSafeArray_UnmanagedType;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineUnmanagedMarshal_UnmanagedType == null)
 				{
-					r_MDefineUnmanagedMarshal_UnmanagedType = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineUnmanagedMarshal", 0, typeof(System.Runtime.InteropServices.UnmanagedType));
+					r_MDefineUnmanagedMarshal_UnmanagedType = new(Type, "DefineUnmanagedMarshal", 0, typeof(System.Runtime.InteropServices.UnmanagedType));
 				}
 				return r_MDefineUnmanagedMarshal_UnmanagedType;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineCustom_Type_String_String_Guid == null)
 				{
-					r_MDefineCustom_Type_String_String_Guid = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineCustom", 0, typeof(System.Type), typeof(System.String), typeof(System.String), typeof(System.Guid));
+					r_MDefineCustom_Type_String_String_Guid = new(Type, "DefineCustom", 0, typeof(System.Type), typeof(System.String), typeof(System.String), typeof(System.Guid));
 				}
 				return r_MDefineCustom_Type_String_String_Guid;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MDefineLPArrayInternal_UnmanagedType_Int32_Int32 == null)
 				{
-					r_MDefineLPArrayInternal_UnmanagedType_Int32_Int32 = new(typeof(System.Reflection.Emit.UnmanagedMarshal), "DefineLPArrayInternal", 0, typeof(System.Runtime.InteropServices.UnmanagedType), typeof(System.Int32), typeof(System.Int32));
+					r_MDefineLPArrayInternal_UnmanagedType_Int32_Int32 = new(Type, "DefineLPArrayInternal", 0, typeof(System.Runtime.InteropServices.UnmanagedType), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MDefineLPArrayInternal_UnmanagedType_Int32_Int32;
 			}
@@ -460,7 +461,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@elemCount};
             var ___result = RMDefineByValArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@elemCount};
             var ___result = RMDefineByValTStr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@elemType};
             var ___result = RMDefineLPArray_UnmanagedType.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -493,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@elemType};
             var ___result = RMDefineSafeArray_UnmanagedType.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -504,7 +505,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@unmanagedType};
             var ___result = RMDefineUnmanagedMarshal_UnmanagedType.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -515,7 +516,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@typeref, @cookie, @mtype, @id};
             var ___result = RMDefineCustom_Type_String_String_Guid.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@elemType, @sizeConst, @sizeParamIndex};
             var ___result = RMDefineLPArrayInternal_UnmanagedType_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -537,7 +538,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -559,7 +560,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -570,7 +571,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -581,7 +582,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -592,7 +593,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

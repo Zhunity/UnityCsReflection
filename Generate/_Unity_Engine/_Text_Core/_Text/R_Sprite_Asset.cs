@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.SpriteAsset
 	/// </summary>
     public partial class RSpriteAsset : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_searchedSpriteAssets == null)
 				{
-					r_Fk_searchedSpriteAssets = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "k_searchedSpriteAssets");
+					r_Fk_searchedSpriteAssets = new(Type, "k_searchedSpriteAssets");
 				}
 				return r_Fk_searchedSpriteAssets;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 == null)
 				{
-					r_MSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32 = new(Type, "SearchForSpriteByUnicode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 == null)
 				{
-					r_MSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicodeInternal", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32 = new(Type, "SearchForSpriteByUnicodeInternal", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 == null)
 				{
-					r_MSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByUnicodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32 = new(Type, "SearchForSpriteByUnicodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings == null)
 				{
-					r_MSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType(), typeof(UnityEngine.TextCore.Text.TextSettings));
+					r_MSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings = new(Type, "SearchForSpriteByHashCode", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType(), typeof(UnityEngine.TextCore.Text.TextSettings));
 				}
 				return r_MSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 == null)
 				{
-					r_MSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCodeInternal", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32 = new(Type, "SearchForSpriteByHashCodeInternal", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.TextCore.Text.SpriteAsset)), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 == null)
 				{
-					r_MSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 = new(typeof(UnityEngine.TextCore.Text.SpriteAsset), "SearchForSpriteByHashCodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32 = new(Type, "SearchForSpriteByHashCodeInternal", 0, typeof(UnityEngine.TextCore.Text.SpriteAsset), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32;
 			}
@@ -866,7 +867,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@hashCode};
             var ___result = RMGetSpriteIndexFromHashcode_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -877,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@unicode};
             var ___result = RMGetSpriteIndexFromUnicode_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -888,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@name};
             var ___result = RMGetSpriteIndexFromName_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -901,7 +902,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMSearchForSpriteByUnicode_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = (System.Int32)___parameters[3];
 
-            return (UnityEngine.TextCore.Text.SpriteAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
 
 
@@ -914,7 +915,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMSearchForSpriteByUnicodeInternal_List_d_SpriteAsset_p__UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = (System.Int32)___parameters[3];
 
-            return (UnityEngine.TextCore.Text.SpriteAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
 
 
@@ -927,7 +928,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMSearchForSpriteByUnicodeInternal_SpriteAsset_UInt32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = (System.Int32)___parameters[3];
 
-            return (UnityEngine.TextCore.Text.SpriteAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
 
 
@@ -940,7 +941,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMSearchForSpriteByHashCode_SpriteAsset_Int32_Boolean_Out_Int32_TextSettings.Invoke(___genericsType, ___parameters);
 			@spriteIndex = (System.Int32)___parameters[3];
 
-            return (UnityEngine.TextCore.Text.SpriteAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
 
 
@@ -953,7 +954,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMSearchForSpriteByHashCodeInternal_List_d_SpriteAsset_p__Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = (System.Int32)___parameters[3];
 
-            return (UnityEngine.TextCore.Text.SpriteAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
 
 
@@ -966,7 +967,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMSearchForSpriteByHashCodeInternal_SpriteAsset_Int32_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@spriteIndex = (System.Int32)___parameters[3];
 
-            return (UnityEngine.TextCore.Text.SpriteAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.SpriteAsset>(___result);
         }
 
 
@@ -1021,7 +1022,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1032,7 +1033,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1043,7 +1044,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1076,7 +1077,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1087,7 +1088,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

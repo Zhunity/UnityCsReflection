@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Experimental.ITransitionAnimations
 	/// </summary>
     public partial class RITransitionAnimations : RMember //
@@ -364,7 +365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Single_Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
         }
 
 
@@ -375,7 +376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Rect_Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
         }
 
 
@@ -386,7 +387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Color_Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
         }
 
 
@@ -397,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Vector3_Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
         }
 
 
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Vector2_Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
         }
 
 
@@ -419,7 +420,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Quaternion_Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
         }
 
 
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@from, @to, @durationMs};
             var ___result = RMStart_StyleValues_StyleValues_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
         }
 
 
@@ -441,7 +442,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @durationMs};
             var ___result = RMStart_StyleValues_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.UIElements.Experimental.StyleValues>>(___result);
         }
 
 
@@ -452,7 +453,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Func_d_VisualElement_Single_p__Single_Int32_Action_d_VisualElement_Single_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
         }
 
 
@@ -463,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Func_d_VisualElement_Rect_p__Rect_Int32_Action_d_VisualElement_Rect_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
         }
 
 
@@ -474,7 +475,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Func_d_VisualElement_Color_p__Color_Int32_Action_d_VisualElement_Color_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Color>>(___result);
         }
 
 
@@ -485,7 +486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Func_d_VisualElement_Vector3_p__Vector3_Int32_Action_d_VisualElement_Vector3_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
         }
 
 
@@ -496,7 +497,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Func_d_VisualElement_Vector2_p__Vector2_Int32_Action_d_VisualElement_Vector2_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
         }
 
 
@@ -507,7 +508,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@fromValueGetter, @to, @durationMs, @onValueChanged};
             var ___result = RMStart_Func_d_VisualElement_Quaternion_p__Quaternion_Int32_Action_d_VisualElement_Quaternion_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
         }
 
 
@@ -518,7 +519,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @durationMs};
             var ___result = RMLayout_Rect_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Rect>>(___result);
         }
 
 
@@ -529,7 +530,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @durationMs};
             var ___result = RMTopLeft_Vector2_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
         }
 
 
@@ -540,7 +541,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @durationMs};
             var ___result = RMSize_Vector2_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector2>>(___result);
         }
 
 
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @duration};
             var ___result = RMScale_Single_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<System.Single>>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @duration};
             var ___result = RMPosition_Vector3_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Vector3>>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@to, @duration};
             var ___result = RMRotation_Quaternion_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<UnityEngine.Quaternion>>(___result);
         }
 
 

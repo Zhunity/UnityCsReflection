@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.EncodingProvider
 	/// </summary>
     public partial class REncodingProvider : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_Fs_InternalSyncObject == null)
 				{
-					r_Fs_InternalSyncObject = new(typeof(System.Text.EncodingProvider), "s_InternalSyncObject");
+					r_Fs_InternalSyncObject = new(Type, "s_InternalSyncObject");
 				}
 				return r_Fs_InternalSyncObject;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_Fs_providers == null)
 				{
-					r_Fs_providers = new(typeof(System.Text.EncodingProvider), "s_providers");
+					r_Fs_providers = new(Type, "s_providers");
 				}
 				return r_Fs_providers;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MAddProvider_EncodingProvider == null)
 				{
-					r_MAddProvider_EncodingProvider = new(typeof(System.Text.EncodingProvider), "AddProvider", 0, typeof(System.Text.EncodingProvider));
+					r_MAddProvider_EncodingProvider = new(Type, "AddProvider", 0, typeof(System.Text.EncodingProvider));
 				}
 				return r_MAddProvider_EncodingProvider;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetEncodingFromProvider_Int32 == null)
 				{
-					r_MGetEncodingFromProvider_Int32 = new(typeof(System.Text.EncodingProvider), "GetEncodingFromProvider", 0, typeof(System.Int32));
+					r_MGetEncodingFromProvider_Int32 = new(Type, "GetEncodingFromProvider", 0, typeof(System.Int32));
 				}
 				return r_MGetEncodingFromProvider_Int32;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetEncodingFromProvider_String == null)
 				{
-					r_MGetEncodingFromProvider_String = new(typeof(System.Text.EncodingProvider), "GetEncodingFromProvider", 0, typeof(System.String));
+					r_MGetEncodingFromProvider_String = new(Type, "GetEncodingFromProvider", 0, typeof(System.String));
 				}
 				return r_MGetEncodingFromProvider_String;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback == null)
 				{
-					r_MGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback = new(typeof(System.Text.EncodingProvider), "GetEncodingFromProvider", 0, typeof(System.Int32), typeof(System.Text.EncoderFallback), typeof(System.Text.DecoderFallback));
+					r_MGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback = new(Type, "GetEncodingFromProvider", 0, typeof(System.Int32), typeof(System.Text.EncoderFallback), typeof(System.Text.DecoderFallback));
 				}
 				return r_MGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MGetEncodingFromProvider_String_EncoderFallback_DecoderFallback == null)
 				{
-					r_MGetEncodingFromProvider_String_EncoderFallback_DecoderFallback = new(typeof(System.Text.EncodingProvider), "GetEncodingFromProvider", 0, typeof(System.String), typeof(System.Text.EncoderFallback), typeof(System.Text.DecoderFallback));
+					r_MGetEncodingFromProvider_String_EncoderFallback_DecoderFallback = new(Type, "GetEncodingFromProvider", 0, typeof(System.String), typeof(System.Text.EncoderFallback), typeof(System.Text.DecoderFallback));
 				}
 				return r_MGetEncodingFromProvider_String_EncoderFallback_DecoderFallback;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@name};
             var ___result = RMGetEncoding_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@codepage};
             var ___result = RMGetEncoding_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@name, @encoderFallback, @decoderFallback};
             var ___result = RMGetEncoding_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@codepage, @encoderFallback, @decoderFallback};
             var ___result = RMGetEncoding_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@codepage};
             var ___result = RMGetEncodingFromProvider_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@encodingName};
             var ___result = RMGetEncodingFromProvider_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@codepage, @enc, @dec};
             var ___result = RMGetEncodingFromProvider_Int32_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@encodingName, @enc, @dec};
             var ___result = RMGetEncodingFromProvider_String_EncoderFallback_DecoderFallback.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.Encoding)___result;
+            return ReflectionUtils.Convert<System.Text.Encoding>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -437,7 +438,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -448,7 +449,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -459,7 +460,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -470,7 +471,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

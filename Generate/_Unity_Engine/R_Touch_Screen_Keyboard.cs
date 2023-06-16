@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TouchScreenKeyboard
 	/// </summary>
     public partial class RTouchScreenKeyboard : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_F__0__disableInPlaceEditing__1__k__BackingField == null)
 				{
-					r_F__0__disableInPlaceEditing__1__k__BackingField = new(typeof(UnityEngine.TouchScreenKeyboard), "<disableInPlaceEditing>k__BackingField");
+					r_F__0__disableInPlaceEditing__1__k__BackingField = new(Type, "<disableInPlaceEditing>k__BackingField");
 				}
 				return r_F__0__disableInPlaceEditing__1__k__BackingField;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PisSupported == null)
 				{
-					r_PisSupported = new(typeof(UnityEngine.TouchScreenKeyboard), "isSupported", -1);
+					r_PisSupported = new(Type, "isSupported", -1);
 				}
 				return r_PisSupported;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PdisableInPlaceEditing == null)
 				{
-					r_PdisableInPlaceEditing = new(typeof(UnityEngine.TouchScreenKeyboard), "disableInPlaceEditing", -1);
+					r_PdisableInPlaceEditing = new(Type, "disableInPlaceEditing", -1);
 				}
 				return r_PdisableInPlaceEditing;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PisInPlaceEditingAllowed == null)
 				{
-					r_PisInPlaceEditingAllowed = new(typeof(UnityEngine.TouchScreenKeyboard), "isInPlaceEditingAllowed", -1);
+					r_PisInPlaceEditingAllowed = new(Type, "isInPlaceEditingAllowed", -1);
 				}
 				return r_PisInPlaceEditingAllowed;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PisRequiredToForceOpen == null)
 				{
-					r_PisRequiredToForceOpen = new(typeof(UnityEngine.TouchScreenKeyboard), "isRequiredToForceOpen", -1);
+					r_PisRequiredToForceOpen = new(Type, "isRequiredToForceOpen", -1);
 				}
 				return r_PisRequiredToForceOpen;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PhideInput == null)
 				{
-					r_PhideInput = new(typeof(UnityEngine.TouchScreenKeyboard), "hideInput", -1);
+					r_PhideInput = new(Type, "hideInput", -1);
 				}
 				return r_PhideInput;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Parea == null)
 				{
-					r_Parea = new(typeof(UnityEngine.TouchScreenKeyboard), "area", -1);
+					r_Parea = new(Type, "area", -1);
 				}
 				return r_Parea;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pvisible == null)
 				{
-					r_Pvisible = new(typeof(UnityEngine.TouchScreenKeyboard), "visible", -1);
+					r_Pvisible = new(Type, "visible", -1);
 				}
 				return r_Pvisible;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Destroy_IntPtr == null)
 				{
-					r_MInternal_Destroy_IntPtr = new(typeof(UnityEngine.TouchScreenKeyboard), "Internal_Destroy", 0, typeof(System.IntPtr));
+					r_MInternal_Destroy_IntPtr = new(Type, "Internal_Destroy", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_Destroy_IntPtr;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String == null)
 				{
-					r_MTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String = new(typeof(UnityEngine.TouchScreenKeyboard), "TouchScreenKeyboard_InternalConstructorHelper", 0,  ReflectionUtils.GetType("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments").MakeByRefType(), typeof(System.String), typeof(System.String));
+					r_MTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String = new(Type, "TouchScreenKeyboard_InternalConstructorHelper", 0,  ReflectionUtils.GetType("UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments").MakeByRefType(), typeof(System.String), typeof(System.String));
 				}
 				return r_MTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsRequiredToForceOpen == null)
 				{
-					r_MIsRequiredToForceOpen = new(typeof(UnityEngine.TouchScreenKeyboard), "IsRequiredToForceOpen", 0);
+					r_MIsRequiredToForceOpen = new(Type, "IsRequiredToForceOpen", 0);
 				}
 				return r_MIsRequiredToForceOpen;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32 == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32 = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.String), typeof(System.Int32));
+					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32 = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.String), typeof(System.Int32));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.String));
+					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.String));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean));
+					r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType_Boolean_Boolean;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType_Boolean == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType_Boolean = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean));
+					r_MOpen_String_TouchScreenKeyboardType_Boolean = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType), typeof(System.Boolean));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType_Boolean;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String_TouchScreenKeyboardType == null)
 				{
-					r_MOpen_String_TouchScreenKeyboardType = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType));
+					r_MOpen_String_TouchScreenKeyboardType = new(Type, "Open", 0, typeof(System.String), typeof(UnityEngine.TouchScreenKeyboardType));
 				}
 				return r_MOpen_String_TouchScreenKeyboardType;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOpen_String == null)
 				{
-					r_MOpen_String = new(typeof(UnityEngine.TouchScreenKeyboard), "Open", 0, typeof(System.String));
+					r_MOpen_String = new(Type, "Open", 0, typeof(System.String));
 				}
 				return r_MOpen_String;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetDone_IntPtr == null)
 				{
-					r_MGetDone_IntPtr = new(typeof(UnityEngine.TouchScreenKeyboard), "GetDone", 0, typeof(System.IntPtr));
+					r_MGetDone_IntPtr = new(Type, "GetDone", 0, typeof(System.IntPtr));
 				}
 				return r_MGetDone_IntPtr;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetWasCanceled_IntPtr == null)
 				{
-					r_MGetWasCanceled_IntPtr = new(typeof(UnityEngine.TouchScreenKeyboard), "GetWasCanceled", 0, typeof(System.IntPtr));
+					r_MGetWasCanceled_IntPtr = new(Type, "GetWasCanceled", 0, typeof(System.IntPtr));
 				}
 				return r_MGetWasCanceled_IntPtr;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetSelection_Out_Int32_Out_Int32 == null)
 				{
-					r_MGetSelection_Out_Int32_Out_Int32 = new(typeof(UnityEngine.TouchScreenKeyboard), "GetSelection", 0, typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
+					r_MGetSelection_Out_Int32_Out_Int32 = new(Type, "GetSelection", 0, typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MGetSelection_Out_Int32_Out_Int32;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetSelection_Int32_Int32 == null)
 				{
-					r_MSetSelection_Int32_Int32 = new(typeof(UnityEngine.TouchScreenKeyboard), "SetSelection", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MSetSelection_Int32_Int32 = new(Type, "SetSelection", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetSelection_Int32_Int32;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mget_area_Injected_Out_Rect == null)
 				{
-					r_Mget_area_Injected_Out_Rect = new(typeof(UnityEngine.TouchScreenKeyboard), "get_area_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
+					r_Mget_area_Injected_Out_Rect = new(Type, "get_area_Injected", 0, typeof(UnityEngine.Rect).MakeByRefType());
 				}
 				return r_Mget_area_Injected_Out_Rect;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMTouchScreenKeyboard_InternalConstructorHelper_Ref_TouchScreenKeyboard_InternalConstructorHelperArguments_String_String.Invoke(___genericsType, ___parameters);
 			@arguments = new Hvak.Editor.Refleaction.RUnityEngine.RTouchScreenKeyboard_InternalConstructorHelperArguments(___parameters[0]);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -777,7 +778,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMIsRequiredToForceOpen.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -788,7 +789,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert, @textPlaceholder, @characterLimit};
             var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -799,7 +800,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert, @textPlaceholder};
             var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -810,7 +811,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure, @alert};
             var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -821,7 +822,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline, @secure};
             var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -832,7 +833,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType, @autocorrection, @multiline};
             var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -843,7 +844,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType, @autocorrection};
             var ___result = RMOpen_String_TouchScreenKeyboardType_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -854,7 +855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text, @keyboardType};
             var ___result = RMOpen_String_TouchScreenKeyboardType.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -865,7 +866,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@text};
             var ___result = RMOpen_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TouchScreenKeyboard)___result;
+            return ReflectionUtils.Convert<UnityEngine.TouchScreenKeyboard>(___result);
         }
 
 
@@ -876,7 +877,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@ptr};
             var ___result = RMGetDone_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -887,7 +888,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@ptr};
             var ___result = RMGetWasCanceled_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -937,7 +938,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -948,7 +949,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -959,7 +960,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -970,7 +971,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -981,7 +982,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

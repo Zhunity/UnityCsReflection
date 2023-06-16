@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Timer+Scheduler
 	/// </summary>
     public partial class RScheduler : RMember //
@@ -48,7 +49,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_Finstance == null)
 				{
-					r_Finstance = new( ReflectionUtils.GetType("System.Threading.Timer+Scheduler"), "instance");
+					r_Finstance = new(Type, "instance");
 				}
 				return r_Finstance;
 			}
@@ -128,7 +129,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_PInstance == null)
 				{
-					r_PInstance = new( ReflectionUtils.GetType("System.Threading.Timer+Scheduler"), "Instance", -1);
+					r_PInstance = new(Type, "Instance", -1);
 				}
 				return r_PInstance;
 			}
@@ -256,7 +257,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MTimerCB_Object == null)
 				{
-					r_MTimerCB_Object = new( ReflectionUtils.GetType("System.Threading.Timer+Scheduler"), "TimerCB", 0, typeof(System.Object));
+					r_MTimerCB_Object = new(Type, "TimerCB", 0, typeof(System.Object));
 				}
 				return r_MTimerCB_Object;
 			}
@@ -497,7 +498,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMRunSchedulerLoop.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -530,7 +531,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -541,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -552,7 +553,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -563,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

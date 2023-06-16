@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.Hashtable
 	/// </summary>
     public partial class RHashtable : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FHashPrime == null)
 				{
-					r_FHashPrime = new(typeof(System.Collections.Hashtable), "HashPrime");
+					r_FHashPrime = new(Type, "HashPrime");
 				}
 				return r_FHashPrime;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FInitialSize == null)
 				{
-					r_FInitialSize = new(typeof(System.Collections.Hashtable), "InitialSize");
+					r_FInitialSize = new(Type, "InitialSize");
 				}
 				return r_FInitialSize;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FLoadFactorName == null)
 				{
-					r_FLoadFactorName = new(typeof(System.Collections.Hashtable), "LoadFactorName");
+					r_FLoadFactorName = new(Type, "LoadFactorName");
 				}
 				return r_FLoadFactorName;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FVersionName == null)
 				{
-					r_FVersionName = new(typeof(System.Collections.Hashtable), "VersionName");
+					r_FVersionName = new(Type, "VersionName");
 				}
 				return r_FVersionName;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FComparerName == null)
 				{
-					r_FComparerName = new(typeof(System.Collections.Hashtable), "ComparerName");
+					r_FComparerName = new(Type, "ComparerName");
 				}
 				return r_FComparerName;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FHashCodeProviderName == null)
 				{
-					r_FHashCodeProviderName = new(typeof(System.Collections.Hashtable), "HashCodeProviderName");
+					r_FHashCodeProviderName = new(Type, "HashCodeProviderName");
 				}
 				return r_FHashCodeProviderName;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FHashSizeName == null)
 				{
-					r_FHashSizeName = new(typeof(System.Collections.Hashtable), "HashSizeName");
+					r_FHashSizeName = new(Type, "HashSizeName");
 				}
 				return r_FHashSizeName;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FKeysName == null)
 				{
-					r_FKeysName = new(typeof(System.Collections.Hashtable), "KeysName");
+					r_FKeysName = new(Type, "KeysName");
 				}
 				return r_FKeysName;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FValuesName == null)
 				{
-					r_FValuesName = new(typeof(System.Collections.Hashtable), "ValuesName");
+					r_FValuesName = new(Type, "ValuesName");
 				}
 				return r_FValuesName;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_FKeyComparerName == null)
 				{
-					r_FKeyComparerName = new(typeof(System.Collections.Hashtable), "KeyComparerName");
+					r_FKeyComparerName = new(Type, "KeyComparerName");
 				}
 				return r_FKeyComparerName;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_Fs_serializationInfoTable == null)
 				{
-					r_Fs_serializationInfoTable = new(typeof(System.Collections.Hashtable), "s_serializationInfoTable");
+					r_Fs_serializationInfoTable = new(Type, "s_serializationInfoTable");
 				}
 				return r_Fs_serializationInfoTable;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_PSerializationInfoTable == null)
 				{
-					r_PSerializationInfoTable = new(typeof(System.Collections.Hashtable), "SerializationInfoTable", -1);
+					r_PSerializationInfoTable = new(Type, "SerializationInfoTable", -1);
 				}
 				return r_PSerializationInfoTable;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			{
 				if(r_MSynchronized_Hashtable == null)
 				{
-					r_MSynchronized_Hashtable = new(typeof(System.Collections.Hashtable), "Synchronized", 0, typeof(System.Collections.Hashtable));
+					r_MSynchronized_Hashtable = new(Type, "Synchronized", 0, typeof(System.Collections.Hashtable));
 				}
 				return r_MSynchronized_Hashtable;
 			}
@@ -1104,7 +1105,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
 			@seed = (System.UInt32)___parameters[2];
 			@incr = (System.UInt32)___parameters[3];
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -1137,7 +1138,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1148,7 +1149,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@key};
             var ___result = RMContains_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1159,7 +1160,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@key};
             var ___result = RMContainsKey_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1170,7 +1171,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@value};
             var ___result = RMContainsValue_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToKeyValuePairsArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RKeyValuePairs>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RSystem.RCollections.RKeyValuePairs>>(___result);
         }
 
 
@@ -1280,7 +1281,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -1291,7 +1292,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IDictionaryEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IDictionaryEnumerator>(___result);
         }
 
 
@@ -1302,7 +1303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@key};
             var ___result = RMGetHash_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1313,7 +1314,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@item, @key};
             var ___result = RMKeyEquals_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1357,7 +1358,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@table};
             var ___result = RMSynchronized_Hashtable.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Hashtable)___result;
+            return ReflectionUtils.Convert<System.Collections.Hashtable>(___result);
         }
 
 
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1412,7 +1413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1423,7 +1424,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1434,7 +1435,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1445,7 +1446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

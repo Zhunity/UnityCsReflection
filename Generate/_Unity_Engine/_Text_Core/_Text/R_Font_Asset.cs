@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.FontAsset
 	/// </summary>
     public partial class RFontAsset : RMember //
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FOnFontAssetTextureChanged == null)
 				{
-					r_FOnFontAssetTextureChanged = new(typeof(UnityEngine.TextCore.Text.FontAsset), "OnFontAssetTextureChanged");
+					r_FOnFontAssetTextureChanged = new(Type, "OnFontAssetTextureChanged");
 				}
 				return r_FOnFontAssetTextureChanged;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FRegisterResourceForUpdate == null)
 				{
-					r_FRegisterResourceForUpdate = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterResourceForUpdate");
+					r_FRegisterResourceForUpdate = new(Type, "RegisterResourceForUpdate");
 				}
 				return r_FRegisterResourceForUpdate;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FRegisterResourceForReimport == null)
 				{
-					r_FRegisterResourceForReimport = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterResourceForReimport");
+					r_FRegisterResourceForReimport = new(Type, "RegisterResourceForReimport");
 				}
 				return r_FRegisterResourceForReimport;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FSetAtlasTextureIsReadable == null)
 				{
-					r_FSetAtlasTextureIsReadable = new(typeof(UnityEngine.TextCore.Text.FontAsset), "SetAtlasTextureIsReadable");
+					r_FSetAtlasTextureIsReadable = new(Type, "SetAtlasTextureIsReadable");
 				}
 				return r_FSetAtlasTextureIsReadable;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FGetSourceFontRef == null)
 				{
-					r_FGetSourceFontRef = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetSourceFontRef");
+					r_FGetSourceFontRef = new(Type, "GetSourceFontRef");
 				}
 				return r_FGetSourceFontRef;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FSetSourceFontGUID == null)
 				{
-					r_FSetSourceFontGUID = new(typeof(UnityEngine.TextCore.Text.FontAsset), "SetSourceFontGUID");
+					r_FSetSourceFontGUID = new(Type, "SetSourceFontGUID");
 				}
 				return r_FSetSourceFontGUID;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_ReadFontAssetDefinitionMarker == null)
 				{
-					r_Fk_ReadFontAssetDefinitionMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_ReadFontAssetDefinitionMarker");
+					r_Fk_ReadFontAssetDefinitionMarker = new(Type, "k_ReadFontAssetDefinitionMarker");
 				}
 				return r_Fk_ReadFontAssetDefinitionMarker;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_AddSynthesizedCharactersMarker == null)
 				{
-					r_Fk_AddSynthesizedCharactersMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_AddSynthesizedCharactersMarker");
+					r_Fk_AddSynthesizedCharactersMarker = new(Type, "k_AddSynthesizedCharactersMarker");
 				}
 				return r_Fk_AddSynthesizedCharactersMarker;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_TryAddCharacterMarker == null)
 				{
-					r_Fk_TryAddCharacterMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddCharacterMarker");
+					r_Fk_TryAddCharacterMarker = new(Type, "k_TryAddCharacterMarker");
 				}
 				return r_Fk_TryAddCharacterMarker;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_TryAddCharactersMarker == null)
 				{
-					r_Fk_TryAddCharactersMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddCharactersMarker");
+					r_Fk_TryAddCharactersMarker = new(Type, "k_TryAddCharactersMarker");
 				}
 				return r_Fk_TryAddCharactersMarker;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_UpdateGlyphAdjustmentRecordsMarker == null)
 				{
-					r_Fk_UpdateGlyphAdjustmentRecordsMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateGlyphAdjustmentRecordsMarker");
+					r_Fk_UpdateGlyphAdjustmentRecordsMarker = new(Type, "k_UpdateGlyphAdjustmentRecordsMarker");
 				}
 				return r_Fk_UpdateGlyphAdjustmentRecordsMarker;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker == null)
 				{
-					r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateDiacriticalMarkAdjustmentRecordsMarker");
+					r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker = new(Type, "k_UpdateDiacriticalMarkAdjustmentRecordsMarker");
 				}
 				return r_Fk_UpdateDiacriticalMarkAdjustmentRecordsMarker;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_ClearFontAssetDataMarker == null)
 				{
-					r_Fk_ClearFontAssetDataMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_ClearFontAssetDataMarker");
+					r_Fk_ClearFontAssetDataMarker = new(Type, "k_ClearFontAssetDataMarker");
 				}
 				return r_Fk_ClearFontAssetDataMarker;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_UpdateFontAssetDataMarker == null)
 				{
-					r_Fk_UpdateFontAssetDataMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_UpdateFontAssetDataMarker");
+					r_Fk_UpdateFontAssetDataMarker = new(Type, "k_UpdateFontAssetDataMarker");
 				}
 				return r_Fk_UpdateFontAssetDataMarker;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_TryAddGlyphMarker == null)
 				{
-					r_Fk_TryAddGlyphMarker = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_TryAddGlyphMarker");
+					r_Fk_TryAddGlyphMarker = new(Type, "k_TryAddGlyphMarker");
 				}
 				return r_Fk_TryAddGlyphMarker;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_DefaultMaterialSuffix == null)
 				{
-					r_Fs_DefaultMaterialSuffix = new(typeof(UnityEngine.TextCore.Text.FontAsset), "s_DefaultMaterialSuffix");
+					r_Fs_DefaultMaterialSuffix = new(Type, "s_DefaultMaterialSuffix");
 				}
 				return r_Fs_DefaultMaterialSuffix;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_SearchedFontAssetLookup == null)
 				{
-					r_Fk_SearchedFontAssetLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_SearchedFontAssetLookup");
+					r_Fk_SearchedFontAssetLookup = new(Type, "k_SearchedFontAssetLookup");
 				}
 				return r_Fk_SearchedFontAssetLookup;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_FontAssets_FontFeaturesUpdateQueue == null)
 				{
-					r_Fk_FontAssets_FontFeaturesUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_FontFeaturesUpdateQueue");
+					r_Fk_FontAssets_FontFeaturesUpdateQueue = new(Type, "k_FontAssets_FontFeaturesUpdateQueue");
 				}
 				return r_Fk_FontAssets_FontFeaturesUpdateQueue;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_FontAssets_FontFeaturesUpdateQueueLookup == null)
 				{
-					r_Fk_FontAssets_FontFeaturesUpdateQueueLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_FontFeaturesUpdateQueueLookup");
+					r_Fk_FontAssets_FontFeaturesUpdateQueueLookup = new(Type, "k_FontAssets_FontFeaturesUpdateQueueLookup");
 				}
 				return r_Fk_FontAssets_FontFeaturesUpdateQueueLookup;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_FontAssets_AtlasTexturesUpdateQueue == null)
 				{
-					r_Fk_FontAssets_AtlasTexturesUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_AtlasTexturesUpdateQueue");
+					r_Fk_FontAssets_AtlasTexturesUpdateQueue = new(Type, "k_FontAssets_AtlasTexturesUpdateQueue");
 				}
 				return r_Fk_FontAssets_AtlasTexturesUpdateQueue;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup == null)
 				{
-					r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_FontAssets_AtlasTexturesUpdateQueueLookup");
+					r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup = new(Type, "k_FontAssets_AtlasTexturesUpdateQueueLookup");
 				}
 				return r_Fk_FontAssets_AtlasTexturesUpdateQueueLookup;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fk_GlyphIndexArray == null)
 				{
-					r_Fk_GlyphIndexArray = new(typeof(UnityEngine.TextCore.Text.FontAsset), "k_GlyphIndexArray");
+					r_Fk_GlyphIndexArray = new(Type, "k_GlyphIndexArray");
 				}
 				return r_Fk_GlyphIndexArray;
 			}
@@ -1806,7 +1807,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAsset_String_String_Int32 == null)
 				{
-					r_MCreateFontAsset_String_String_Int32 = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.String), typeof(System.Int32));
+					r_MCreateFontAsset_String_String_Int32 = new(Type, "CreateFontAsset", 0, typeof(System.String), typeof(System.String), typeof(System.Int32));
 				}
 				return r_MCreateFontAsset_String_String_Int32;
 			}
@@ -1822,7 +1823,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 == null)
 				{
-					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32));
+					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32 = new(Type, "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32;
 			}
@@ -1838,7 +1839,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(Type, "CreateFontAsset", 0, typeof(System.String), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
 				}
 				return r_MCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAsset_Font == null)
 				{
-					r_MCreateFontAsset_Font = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font));
+					r_MCreateFontAsset_Font = new(Type, "CreateFontAsset", 0, typeof(UnityEngine.Font));
 				}
 				return r_MCreateFontAsset_Font;
 			}
@@ -1870,7 +1871,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(Type, "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
 				}
 				return r_MCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
@@ -1886,7 +1887,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(Type, "CreateFontAsset", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
 				}
 				return r_MCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
@@ -1902,7 +1903,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean == null)
 				{
-					r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(typeof(UnityEngine.TextCore.Text.FontAsset), "CreateFontAssetInstance", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
+					r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean = new(Type, "CreateFontAssetInstance", 0, typeof(UnityEngine.Font), typeof(System.Int32), typeof(UnityEngine.TextCore.LowLevel.GlyphRenderMode), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.TextCore.Text.AtlasPopulationMode), typeof(System.Boolean));
 				}
 				return r_MCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean;
 			}
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MGetCharacters_FontAsset == null)
 				{
-					r_MGetCharacters_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetCharacters", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_MGetCharacters_FontAsset = new(Type, "GetCharacters", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
 				}
 				return r_MGetCharacters_FontAsset;
 			}
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MGetCharactersArray_FontAsset == null)
 				{
-					r_MGetCharactersArray_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "GetCharactersArray", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_MGetCharactersArray_FontAsset = new(Type, "GetCharactersArray", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
 				}
 				return r_MGetCharactersArray_FontAsset;
 			}
@@ -2366,7 +2367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MRegisterFontAssetForFontFeatureUpdate_FontAsset == null)
 				{
-					r_MRegisterFontAssetForFontFeatureUpdate_FontAsset = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterFontAssetForFontFeatureUpdate", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+					r_MRegisterFontAssetForFontFeatureUpdate_FontAsset = new(Type, "RegisterFontAssetForFontFeatureUpdate", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
 				}
 				return r_MRegisterFontAssetForFontFeatureUpdate_FontAsset;
 			}
@@ -2382,7 +2383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MUpdateFontFeaturesForFontAssetsInQueue == null)
 				{
-					r_MUpdateFontFeaturesForFontAssetsInQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateFontFeaturesForFontAssetsInQueue", 0);
+					r_MUpdateFontFeaturesForFontAssetsInQueue = new(Type, "UpdateFontFeaturesForFontAssetsInQueue", 0);
 				}
 				return r_MUpdateFontFeaturesForFontAssetsInQueue;
 			}
@@ -2398,7 +2399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MRegisterAtlasTextureForApply_Texture2D == null)
 				{
-					r_MRegisterAtlasTextureForApply_Texture2D = new(typeof(UnityEngine.TextCore.Text.FontAsset), "RegisterAtlasTextureForApply", 0, typeof(UnityEngine.Texture2D));
+					r_MRegisterAtlasTextureForApply_Texture2D = new(Type, "RegisterAtlasTextureForApply", 0, typeof(UnityEngine.Texture2D));
 				}
 				return r_MRegisterAtlasTextureForApply_Texture2D;
 			}
@@ -2414,7 +2415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MUpdateAtlasTexturesInQueue == null)
 				{
-					r_MUpdateAtlasTexturesInQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateAtlasTexturesInQueue", 0);
+					r_MUpdateAtlasTexturesInQueue = new(Type, "UpdateAtlasTexturesInQueue", 0);
 				}
 				return r_MUpdateAtlasTexturesInQueue;
 			}
@@ -2430,7 +2431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MUpdateFontAssetsInUpdateQueue == null)
 				{
-					r_MUpdateFontAssetsInUpdateQueue = new(typeof(UnityEngine.TextCore.Text.FontAsset), "UpdateFontAssetsInUpdateQueue", 0);
+					r_MUpdateFontAssetsInUpdateQueue = new(Type, "UpdateFontAssetsInUpdateQueue", 0);
 				}
 				return r_MUpdateFontAssetsInUpdateQueue;
 			}
@@ -2924,7 +2925,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@familyName, @styleName, @pointSize};
             var ___result = RMCreateFontAsset_String_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -2935,7 +2936,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@fontFilePath, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight};
             var ___result = RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -2946,7 +2947,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@fontFilePath, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
             var ___result = RMCreateFontAsset_String_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -2957,7 +2958,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@font};
             var ___result = RMCreateFontAsset_Font.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -2968,7 +2969,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@font, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
             var ___result = RMCreateFontAsset_Font_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -2979,7 +2980,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@font, @faceIndex, @samplingPointSize, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
             var ___result = RMCreateFontAsset_Font_Int32_Int32_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -2990,7 +2991,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@font, @atlasPadding, @renderMode, @atlasWidth, @atlasHeight, @atlasPopulationMode, @enableMultiAtlasSupport};
             var ___result = RMCreateFontAssetInstance_Font_Int32_GlyphRenderMode_Int32_Int32_AtlasPopulationMode_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.Text.FontAsset)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.Text.FontAsset>(___result);
         }
 
 
@@ -3155,7 +3156,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMLoadFontFace.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.LowLevel.FontEngineError)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.FontEngineError>(___result);
         }
 
 
@@ -3210,7 +3211,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@character};
             var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3221,7 +3222,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
             var ___result = RMHasCharacter_Char_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3232,7 +3233,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
             var ___result = RMHasCharacter_Internal_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3245,7 +3246,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMHasCharacters_String_Out_List_d_Char_p_.Invoke(___genericsType, ___parameters);
 			@missingCharacters = (System.Collections.Generic.List<System.Char>)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3258,7 +3259,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMHasCharacters_String_Out_UInt32Array_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 			@missingCharacters = (System.UInt32[])___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3269,7 +3270,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@text};
             var ___result = RMHasCharacters_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3280,7 +3281,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@fontAsset};
             var ___result = RMGetCharacters_FontAsset.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -3291,7 +3292,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@fontAsset};
             var ___result = RMGetCharactersArray_FontAsset.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32[])___result;
+            return ReflectionUtils.Convert<System.Int32[]>(___result);
         }
 
 
@@ -3302,7 +3303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@unicode};
             var ___result = RMGetGlyphIndex_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -3368,7 +3369,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@unicodes, @includeFontFeatures};
             var ___result = RMTryAddCharacters_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3381,7 +3382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMTryAddCharacters_UInt32Array_Out_UInt32Array_Boolean.Invoke(___genericsType, ___parameters);
 			@missingUnicodes = (System.UInt32[])___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3392,7 +3393,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@characters, @includeFontFeatures};
             var ___result = RMTryAddCharacters_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3405,7 +3406,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMTryAddCharacters_String_Out_String_Boolean.Invoke(___genericsType, ___parameters);
 			@missingCharacters = (System.String)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3418,7 +3419,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMTryAddGlyphInternal_UInt32_Out_Glyph.Invoke(___genericsType, ___parameters);
 			@glyph = (UnityEngine.TextCore.Glyph)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3431,7 +3432,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMTryAddCharacterInternal_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
 			@character = (UnityEngine.TextCore.Text.Character)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3444,7 +3445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMTryGetCharacter_and_QueueRenderToTexture_UInt32_Out_Character_Boolean.Invoke(___genericsType, ___parameters);
 			@character = (UnityEngine.TextCore.Text.Character)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3466,7 +3467,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMTryAddGlyphsToNewAtlasTexture.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3632,7 +3633,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3643,7 +3644,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -3654,7 +3655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -3665,7 +3666,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -3687,7 +3688,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -3698,7 +3699,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

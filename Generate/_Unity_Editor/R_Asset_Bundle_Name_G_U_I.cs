@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.AssetBundleNameGUI
 	/// </summary>
     public partial class RAssetBundleNameGUI : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FkAssetBundleName == null)
 				{
-					r_FkAssetBundleName = new( ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleName");
+					r_FkAssetBundleName = new(Type, "kAssetBundleName");
 				}
 				return r_FkAssetBundleName;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FkAssetBundleNameFieldIdHash == null)
 				{
-					r_FkAssetBundleNameFieldIdHash = new( ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleNameFieldIdHash");
+					r_FkAssetBundleNameFieldIdHash = new(Type, "kAssetBundleNameFieldIdHash");
 				}
 				return r_FkAssetBundleNameFieldIdHash;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_FkAssetBundleVariantFieldIdHash == null)
 				{
-					r_FkAssetBundleVariantFieldIdHash = new( ReflectionUtils.GetType("UnityEditor.AssetBundleNameGUI"), "kAssetBundleVariantFieldIdHash");
+					r_FkAssetBundleVariantFieldIdHash = new(Type, "kAssetBundleVariantFieldIdHash");
 				}
 				return r_FkAssetBundleVariantFieldIdHash;
 			}
@@ -416,7 +417,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMGetAssetBundlesFromAssets_IEnumerable_d_Object_p__Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@isMixed = (System.Boolean)___parameters[2];
 
-            return (System.Collections.Generic.IEnumerable<System.String>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<System.String>>(___result);
         }
 
 
@@ -438,7 +439,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -460,7 +461,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -493,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

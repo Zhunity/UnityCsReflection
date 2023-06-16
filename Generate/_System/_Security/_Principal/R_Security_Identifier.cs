@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Principal.SecurityIdentifier
 	/// </summary>
     public partial class RSecurityIdentifier : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FMaxBinaryLength == null)
 				{
-					r_FMaxBinaryLength = new(typeof(System.Security.Principal.SecurityIdentifier), "MaxBinaryLength");
+					r_FMaxBinaryLength = new(Type, "MaxBinaryLength");
 				}
 				return r_FMaxBinaryLength;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FMinBinaryLength == null)
 				{
-					r_FMinBinaryLength = new(typeof(System.Security.Principal.SecurityIdentifier), "MinBinaryLength");
+					r_FMinBinaryLength = new(Type, "MinBinaryLength");
 				}
 				return r_FMinBinaryLength;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_Mop_Equality_SecurityIdentifier_SecurityIdentifier == null)
 				{
-					r_Mop_Equality_SecurityIdentifier_SecurityIdentifier = new(typeof(System.Security.Principal.SecurityIdentifier), "op_Equality", 0, typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.Principal.SecurityIdentifier));
+					r_Mop_Equality_SecurityIdentifier_SecurityIdentifier = new(Type, "op_Equality", 0, typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.Principal.SecurityIdentifier));
 				}
 				return r_Mop_Equality_SecurityIdentifier_SecurityIdentifier;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_Mop_Inequality_SecurityIdentifier_SecurityIdentifier == null)
 				{
-					r_Mop_Inequality_SecurityIdentifier_SecurityIdentifier = new(typeof(System.Security.Principal.SecurityIdentifier), "op_Inequality", 0, typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.Principal.SecurityIdentifier));
+					r_Mop_Inequality_SecurityIdentifier_SecurityIdentifier = new(Type, "op_Inequality", 0, typeof(System.Security.Principal.SecurityIdentifier), typeof(System.Security.Principal.SecurityIdentifier));
 				}
 				return r_Mop_Inequality_SecurityIdentifier_SecurityIdentifier;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_MParseSddlForm_String_Ref_Int32 == null)
 				{
-					r_MParseSddlForm_String_Ref_Int32 = new(typeof(System.Security.Principal.SecurityIdentifier), "ParseSddlForm", 0, typeof(System.String), typeof(System.Int32).MakeByRefType());
+					r_MParseSddlForm_String_Ref_Int32 = new(Type, "ParseSddlForm", 0, typeof(System.String), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MParseSddlForm_String_Ref_Int32;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_MParseSddlForm_String == null)
 				{
-					r_MParseSddlForm_String = new(typeof(System.Security.Principal.SecurityIdentifier), "ParseSddlForm", 0, typeof(System.String));
+					r_MParseSddlForm_String = new(Type, "ParseSddlForm", 0, typeof(System.String));
 				}
 				return r_MParseSddlForm_String;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_MTryParseAuthority_String_Out_UInt64 == null)
 				{
-					r_MTryParseAuthority_String_Out_UInt64 = new(typeof(System.Security.Principal.SecurityIdentifier), "TryParseAuthority", 0, typeof(System.String), typeof(System.UInt64).MakeByRefType());
+					r_MTryParseAuthority_String_Out_UInt64 = new(Type, "TryParseAuthority", 0, typeof(System.String), typeof(System.UInt64).MakeByRefType());
 				}
 				return r_MTryParseAuthority_String_Out_UInt64;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_MTryParseSubAuthority_String_Out_UInt32 == null)
 				{
-					r_MTryParseSubAuthority_String_Out_UInt32 = new(typeof(System.Security.Principal.SecurityIdentifier), "TryParseSubAuthority", 0, typeof(System.String), typeof(System.UInt32).MakeByRefType());
+					r_MTryParseSubAuthority_String_Out_UInt32 = new(Type, "TryParseSubAuthority", 0, typeof(System.String), typeof(System.UInt32).MakeByRefType());
 				}
 				return r_MTryParseSubAuthority_String_Out_UInt32;
 			}
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetSidAuthority.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetSidSubAuthorityCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@index};
             var ___result = RMGetSidSubAuthority_Byte.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -584,7 +585,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@sid};
             var ___result = RMCompareTo_SecurityIdentifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -595,7 +596,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@sid};
             var ___result = RMEquals_SecurityIdentifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -628,7 +629,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -639,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMIsAccountSid.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -650,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@sid};
             var ___result = RMIsEqualDomainSid_SecurityIdentifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@targetType};
             var ___result = RMIsValidTargetType_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -672,7 +673,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@type};
             var ___result = RMIsWellKnown_WellKnownSidType.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -683,7 +684,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -694,7 +695,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@targetType};
             var ___result = RMTranslate_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Principal.IdentityReference)___result;
+            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
         }
 
 
@@ -705,7 +706,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_SecurityIdentifier_SecurityIdentifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -716,7 +717,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_SecurityIdentifier_SecurityIdentifier.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -727,7 +728,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetSddlForm.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -739,7 +740,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___result = RMParseSddlForm_String_Ref_Int32.Invoke(___genericsType, ___parameters);
 			@pos = (System.Int32)___parameters[1];
 
-            return (System.Security.Principal.SecurityIdentifier)___result;
+            return ReflectionUtils.Convert<System.Security.Principal.SecurityIdentifier>(___result);
         }
 
 
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@sddlForm};
             var ___result = RMParseSddlForm_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -763,7 +764,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___result = RMTryParseAuthority_String_Out_UInt64.Invoke(___genericsType, ___parameters);
 			@result = (System.UInt64)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -776,7 +777,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___result = RMTryParseSubAuthority_String_Out_UInt32.Invoke(___genericsType, ___parameters);
 			@result = (System.UInt32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -809,7 +810,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

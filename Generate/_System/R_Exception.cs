@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Exception
 	/// </summary>
     public partial class RException : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Fs_EDILock == null)
 				{
-					r_Fs_EDILock = new(typeof(System.Exception), "s_EDILock");
+					r_Fs_EDILock = new(Type, "s_EDILock");
 				}
 				return r_Fs_EDILock;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_F_COMPlusExceptionCode == null)
 				{
-					r_F_COMPlusExceptionCode = new(typeof(System.Exception), "_COMPlusExceptionCode");
+					r_F_COMPlusExceptionCode = new(Type, "_COMPlusExceptionCode");
 				}
 				return r_F_COMPlusExceptionCode;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MIsImmutableAgileException_Exception == null)
 				{
-					r_MIsImmutableAgileException_Exception = new(typeof(System.Exception), "IsImmutableAgileException", 0, typeof(System.Exception));
+					r_MIsImmutableAgileException_Exception = new(Type, "IsImmutableAgileException", 0, typeof(System.Exception));
 				}
 				return r_MIsImmutableAgileException_Exception;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MnIsTransient_Int32 == null)
 				{
-					r_MnIsTransient_Int32 = new(typeof(System.Exception), "nIsTransient", 0, typeof(System.Int32));
+					r_MnIsTransient_Int32 = new(Type, "nIsTransient", 0, typeof(System.Int32));
 				}
 				return r_MnIsTransient_Int32;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MGetMessageFromNativeResources_ExceptionMessageKind == null)
 				{
-					r_MGetMessageFromNativeResources_ExceptionMessageKind = new(typeof(System.Exception), "GetMessageFromNativeResources", 0,  ReflectionUtils.GetType("System.Exception+ExceptionMessageKind"));
+					r_MGetMessageFromNativeResources_ExceptionMessageKind = new(Type, "GetMessageFromNativeResources", 0,  ReflectionUtils.GetType("System.Exception+ExceptionMessageKind"));
 				}
 				return r_MGetMessageFromNativeResources_ExceptionMessageKind;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MReportUnhandledException_Exception == null)
 				{
-					r_MReportUnhandledException_Exception = new(typeof(System.Exception), "ReportUnhandledException", 0, typeof(System.Exception));
+					r_MReportUnhandledException_Exception = new(Type, "ReportUnhandledException", 0, typeof(System.Exception));
 				}
 				return r_MReportUnhandledException_Exception;
 			}
@@ -967,7 +968,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@e};
             var ___result = RMIsImmutableAgileException_Exception.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -991,7 +992,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryGetRestrictedLanguageErrorObject_Out_Object.Invoke(___genericsType, ___parameters);
 			@restrictedErrorObject = (System.Object)___parameters[0];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1002,7 +1003,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetClassName.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1013,7 +1014,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetBaseException.Invoke(___genericsType, ___parameters);
 
-            return (System.Exception)___result;
+            return ReflectionUtils.Convert<System.Exception>(___result);
         }
 
 
@@ -1024,7 +1025,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@needFileInfo};
             var ___result = RMGetStackTrace_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1046,7 +1047,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1057,7 +1058,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@needFileLineInfo, @needMessage};
             var ___result = RMToString_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1079,7 +1080,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMPrepForRemoting.Invoke(___genericsType, ___parameters);
 
-            return (System.Exception)___result;
+            return ReflectionUtils.Convert<System.Exception>(___result);
         }
 
 
@@ -1112,7 +1113,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@stackTrace, @isRemoteStackTrace};
             var ___result = RMStripFileInfo_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMInternalToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1145,7 +1146,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1156,7 +1157,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@hr};
             var ___result = RMnIsTransient_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1167,7 +1168,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@kind.Value};
             var ___result = RMGetMessageFromNativeResources_ExceptionMessageKind.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1200,7 +1201,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMFixRemotingException.Invoke(___genericsType, ___parameters);
 
-            return (System.Exception)___result;
+            return ReflectionUtils.Convert<System.Exception>(___result);
         }
 
 
@@ -1222,7 +1223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1244,7 +1245,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1255,7 +1256,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

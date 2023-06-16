@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.HighlightState
 	/// </summary>
     public partial class RHighlightState : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Mop_Equality_HighlightState_HighlightState == null)
 				{
-					r_Mop_Equality_HighlightState_HighlightState = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
+					r_Mop_Equality_HighlightState_HighlightState = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
 				}
 				return r_Mop_Equality_HighlightState_HighlightState;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Mop_Inequality_HighlightState_HighlightState == null)
 				{
-					r_Mop_Inequality_HighlightState_HighlightState = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
+					r_Mop_Inequality_HighlightState_HighlightState = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"),  ReflectionUtils.GetType("UnityEngine.TextCore.Text.HighlightState"));
 				}
 				return r_Mop_Inequality_HighlightState_HighlightState;
 			}
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@lhs.Value, @rhs.Value};
             var ___result = RMop_Equality_HighlightState_HighlightState.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@lhs.Value, @rhs.Value};
             var ___result = RMop_Inequality_HighlightState_HighlightState.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -242,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@other.Value};
             var ___result = RMEquals_HighlightState.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -275,7 +276,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -297,7 +298,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -308,7 +309,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

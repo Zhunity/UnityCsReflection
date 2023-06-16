@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.ObjRef
 	/// </summary>
     public partial class RObjRef : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 			{
 				if(r_FMarshalledObjectRef == null)
 				{
-					r_FMarshalledObjectRef = new(typeof(System.Runtime.Remoting.ObjRef), "MarshalledObjectRef");
+					r_FMarshalledObjectRef = new(Type, "MarshalledObjectRef");
 				}
 				return r_FMarshalledObjectRef;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
 			{
 				if(r_FWellKnowObjectRef == null)
 				{
-					r_FWellKnowObjectRef = new(typeof(System.Runtime.Remoting.ObjRef), "WellKnowObjectRef");
+					r_FWellKnowObjectRef = new(Type, "WellKnowObjectRef");
 				}
 				return r_FWellKnowObjectRef;
 			}
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{@domainId, @tInfo};
             var ___result = RMDeserializeInTheCurrentDomain_Int32_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjRef)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
         }
 
 
@@ -519,7 +520,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMSerializeType.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -530,7 +531,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMIsPossibleToCAD.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -552,7 +553,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{@context};
             var ___result = RMGetRealObject_StreamingContext.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -563,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMIsFromThisAppDomain.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMIsFromThisProcess.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -607,7 +608,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -629,7 +630,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -640,7 +641,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -651,7 +652,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -662,7 +663,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

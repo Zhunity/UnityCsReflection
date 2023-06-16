@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Texture
 	/// </summary>
     public partial class RTexture : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FGenerateAllMips == null)
 				{
-					r_FGenerateAllMips = new(typeof(UnityEngine.Texture), "GenerateAllMips");
+					r_FGenerateAllMips = new(Type, "GenerateAllMips");
 				}
 				return r_FGenerateAllMips;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PmasterTextureLimit == null)
 				{
-					r_PmasterTextureLimit = new(typeof(UnityEngine.Texture), "masterTextureLimit", -1);
+					r_PmasterTextureLimit = new(Type, "masterTextureLimit", -1);
 				}
 				return r_PmasterTextureLimit;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PglobalMipmapLimit == null)
 				{
-					r_PglobalMipmapLimit = new(typeof(UnityEngine.Texture), "globalMipmapLimit", -1);
+					r_PglobalMipmapLimit = new(Type, "globalMipmapLimit", -1);
 				}
 				return r_PglobalMipmapLimit;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PanisotropicFiltering == null)
 				{
-					r_PanisotropicFiltering = new(typeof(UnityEngine.Texture), "anisotropicFiltering", -1);
+					r_PanisotropicFiltering = new(Type, "anisotropicFiltering", -1);
 				}
 				return r_PanisotropicFiltering;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PtotalTextureMemory == null)
 				{
-					r_PtotalTextureMemory = new(typeof(UnityEngine.Texture), "totalTextureMemory", -1);
+					r_PtotalTextureMemory = new(Type, "totalTextureMemory", -1);
 				}
 				return r_PtotalTextureMemory;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PdesiredTextureMemory == null)
 				{
-					r_PdesiredTextureMemory = new(typeof(UnityEngine.Texture), "desiredTextureMemory", -1);
+					r_PdesiredTextureMemory = new(Type, "desiredTextureMemory", -1);
 				}
 				return r_PdesiredTextureMemory;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PtargetTextureMemory == null)
 				{
-					r_PtargetTextureMemory = new(typeof(UnityEngine.Texture), "targetTextureMemory", -1);
+					r_PtargetTextureMemory = new(Type, "targetTextureMemory", -1);
 				}
 				return r_PtargetTextureMemory;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PcurrentTextureMemory == null)
 				{
-					r_PcurrentTextureMemory = new(typeof(UnityEngine.Texture), "currentTextureMemory", -1);
+					r_PcurrentTextureMemory = new(Type, "currentTextureMemory", -1);
 				}
 				return r_PcurrentTextureMemory;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PnonStreamingTextureMemory == null)
 				{
-					r_PnonStreamingTextureMemory = new(typeof(UnityEngine.Texture), "nonStreamingTextureMemory", -1);
+					r_PnonStreamingTextureMemory = new(Type, "nonStreamingTextureMemory", -1);
 				}
 				return r_PnonStreamingTextureMemory;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingMipmapUploadCount == null)
 				{
-					r_PstreamingMipmapUploadCount = new(typeof(UnityEngine.Texture), "streamingMipmapUploadCount", -1);
+					r_PstreamingMipmapUploadCount = new(Type, "streamingMipmapUploadCount", -1);
 				}
 				return r_PstreamingMipmapUploadCount;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingRendererCount == null)
 				{
-					r_PstreamingRendererCount = new(typeof(UnityEngine.Texture), "streamingRendererCount", -1);
+					r_PstreamingRendererCount = new(Type, "streamingRendererCount", -1);
 				}
 				return r_PstreamingRendererCount;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingTextureCount == null)
 				{
-					r_PstreamingTextureCount = new(typeof(UnityEngine.Texture), "streamingTextureCount", -1);
+					r_PstreamingTextureCount = new(Type, "streamingTextureCount", -1);
 				}
 				return r_PstreamingTextureCount;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PnonStreamingTextureCount == null)
 				{
-					r_PnonStreamingTextureCount = new(typeof(UnityEngine.Texture), "nonStreamingTextureCount", -1);
+					r_PnonStreamingTextureCount = new(Type, "nonStreamingTextureCount", -1);
 				}
 				return r_PnonStreamingTextureCount;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingTexturePendingLoadCount == null)
 				{
-					r_PstreamingTexturePendingLoadCount = new(typeof(UnityEngine.Texture), "streamingTexturePendingLoadCount", -1);
+					r_PstreamingTexturePendingLoadCount = new(Type, "streamingTexturePendingLoadCount", -1);
 				}
 				return r_PstreamingTexturePendingLoadCount;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingTextureLoadingCount == null)
 				{
-					r_PstreamingTextureLoadingCount = new(typeof(UnityEngine.Texture), "streamingTextureLoadingCount", -1);
+					r_PstreamingTextureLoadingCount = new(Type, "streamingTextureLoadingCount", -1);
 				}
 				return r_PstreamingTextureLoadingCount;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingTextureForceLoadAll == null)
 				{
-					r_PstreamingTextureForceLoadAll = new(typeof(UnityEngine.Texture), "streamingTextureForceLoadAll", -1);
+					r_PstreamingTextureForceLoadAll = new(Type, "streamingTextureForceLoadAll", -1);
 				}
 				return r_PstreamingTextureForceLoadAll;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PstreamingTextureDiscardUnusedMips == null)
 				{
-					r_PstreamingTextureDiscardUnusedMips = new(typeof(UnityEngine.Texture), "streamingTextureDiscardUnusedMips", -1);
+					r_PstreamingTextureDiscardUnusedMips = new(Type, "streamingTextureDiscardUnusedMips", -1);
 				}
 				return r_PstreamingTextureDiscardUnusedMips;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_PallowThreadedTextureCreation == null)
 				{
-					r_PallowThreadedTextureCreation = new(typeof(UnityEngine.Texture), "allowThreadedTextureCreation", -1);
+					r_PallowThreadedTextureCreation = new(Type, "allowThreadedTextureCreation", -1);
 				}
 				return r_PallowThreadedTextureCreation;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32 == null)
 				{
-					r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32 = new(typeof(UnityEngine.Texture), "SetGlobalAnisotropicFilteringLimits", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32 = new(Type, "SetGlobalAnisotropicFilteringLimits", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetGlobalAnisotropicFilteringLimits_Int32_Int32;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetStreamingTextureMaterialDebugProperties == null)
 				{
-					r_MSetStreamingTextureMaterialDebugProperties = new(typeof(UnityEngine.Texture), "SetStreamingTextureMaterialDebugProperties", 0);
+					r_MSetStreamingTextureMaterialDebugProperties = new(Type, "SetStreamingTextureMaterialDebugProperties", 0);
 				}
 				return r_MSetStreamingTextureMaterialDebugProperties;
 			}
@@ -1095,7 +1096,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetDataWidth.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1106,7 +1107,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetDataHeight.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1117,7 +1118,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetDimension.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rendering.TextureDimension)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rendering.TextureDimension>(___result);
         }
 
 
@@ -1128,7 +1129,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1139,7 +1140,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1161,7 +1162,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMInternal_GetActiveTextureColorSpace.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1172,7 +1173,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMInternal_GetStoredColorSpace.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace>(___result);
         }
 
 
@@ -1194,7 +1195,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@mipLevel, @element};
             var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1205,7 +1206,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@mipLevel, @element};
             var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1216,7 +1217,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1227,7 +1228,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1238,7 +1239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @usage};
             var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1249,7 +1250,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@t};
             var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UnityException)___result;
+            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
         }
 
 
@@ -1260,7 +1261,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMCreateNativeArrayLengthOverflowException.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UnityException)___result;
+            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
         }
 
 
@@ -1309,7 +1310,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1320,7 +1321,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1331,7 +1332,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1364,7 +1365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1375,7 +1376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

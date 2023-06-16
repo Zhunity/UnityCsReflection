@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.Requests.SearchRequest
 	/// </summary>
     public partial class RSearchRequest : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 			{
 				if(r_MGetOperationData_Int64 == null)
 				{
-					r_MGetOperationData_Int64 = new(typeof(UnityEditor.PackageManager.Requests.SearchRequest), "GetOperationData", 0, typeof(System.Int64));
+					r_MGetOperationData_Int64 = new(Type, "GetOperationData", 0, typeof(System.Int64));
 				}
 				return r_MGetOperationData_Int64;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{@operationId};
             var ___result = RMGetOperationData_Int64.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{};
             var ___result = RMGetResult.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

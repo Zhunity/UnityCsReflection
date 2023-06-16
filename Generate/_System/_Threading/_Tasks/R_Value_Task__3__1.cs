@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.ValueTask`1
 	/// </summary>
     public partial class RValueTask<TResult> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1").MakeGenericType(typeof(TResult));
+                return  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1").MakeGenericType(ReflectionUtils.GetType(typeof(TResult)));
             }
         }
 
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_Fs_canceledTask == null)
 				{
-					r_Fs_canceledTask = new( ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"), "s_canceledTask");
+					r_Fs_canceledTask = new(Type, "s_canceledTask");
 				}
 				return r_Fs_canceledTask;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ == null)
 				{
-					r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new( ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"), "op_Equality", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"),  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
+					r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"),  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
 				}
 				return r_Mop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ == null)
 				{
-					r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new( ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"), "op_Inequality", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"),  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
+					r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_ = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"),  ReflectionUtils.GetType("System.Threading.Tasks.ValueTask`1"));
 				}
 				return r_Mop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_ValueTask_d_TResult_p__ValueTask_d_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMAsTask.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMPreserve.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.ValueTask<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask<TResult>>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@t};
             var ___result = RMGetTaskForValueTaskSource_IValueTaskSource_d_TResult_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Task<TResult>)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Task<TResult>>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetAwaiter.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>)___result;
+            return ReflectionUtils.Convert<System.Runtime.CompilerServices.ValueTaskAwaiter<TResult>>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@continueOnCapturedContext};
             var ___result = RMConfigureAwait_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>)___result;
+            return ReflectionUtils.Convert<System.Runtime.CompilerServices.ConfiguredValueTaskAwaitable<TResult>>(___result);
         }
 
 
@@ -538,7 +539,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -571,7 +572,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

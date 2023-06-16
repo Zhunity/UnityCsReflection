@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation
 	/// </summary>
     public partial class RAssetStoreDownloadOperation : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_DownloadErrorMessage == null)
 				{
-					r_Fk_DownloadErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation"), "k_DownloadErrorMessage");
+					r_Fk_DownloadErrorMessage = new(Type, "k_DownloadErrorMessage");
 				}
 				return r_Fk_DownloadErrorMessage;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_AbortErrorMessage == null)
 				{
-					r_Fk_AbortErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation"), "k_AbortErrorMessage");
+					r_Fk_AbortErrorMessage = new(Type, "k_AbortErrorMessage");
 				}
 				return r_Fk_AbortErrorMessage;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_AssetStoreDownloadPrefix == null)
 				{
-					r_Fk_AssetStoreDownloadPrefix = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation"), "k_AssetStoreDownloadPrefix");
+					r_Fk_AssetStoreDownloadPrefix = new(Type, "k_AssetStoreDownloadPrefix");
 				}
 				return r_Fk_AssetStoreDownloadPrefix;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_ForbiddenErrorMessage == null)
 				{
-					r_Fk_ForbiddenErrorMessage = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation"), "k_ForbiddenErrorMessage");
+					r_Fk_ForbiddenErrorMessage = new(Type, "k_ForbiddenErrorMessage");
 				}
 				return r_Fk_ForbiddenErrorMessage;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			{
 				if(r_Fk_ConsoleLogPrefix == null)
 				{
-					r_Fk_ConsoleLogPrefix = new( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadOperation"), "k_ConsoleLogPrefix");
+					r_Fk_ConsoleLogPrefix = new(Type, "k_ConsoleLogPrefix");
 				}
 				return r_Fk_ConsoleLogPrefix;
 			}
@@ -1001,7 +1002,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1023,7 +1024,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1034,7 +1035,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1045,7 +1046,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1056,7 +1057,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

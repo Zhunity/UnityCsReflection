@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Serialization.SerializationInfo
 	/// </summary>
     public partial class RSerializationInfo : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_FdefaultSize == null)
 				{
-					r_FdefaultSize = new(typeof(System.Runtime.Serialization.SerializationInfo), "defaultSize");
+					r_FdefaultSize = new(Type, "defaultSize");
 				}
 				return r_FdefaultSize;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_Fs_mscorlibAssemblySimpleName == null)
 				{
-					r_Fs_mscorlibAssemblySimpleName = new(typeof(System.Runtime.Serialization.SerializationInfo), "s_mscorlibAssemblySimpleName");
+					r_Fs_mscorlibAssemblySimpleName = new(Type, "s_mscorlibAssemblySimpleName");
 				}
 				return r_Fs_mscorlibAssemblySimpleName;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_Fs_mscorlibFileName == null)
 				{
-					r_Fs_mscorlibFileName = new(typeof(System.Runtime.Serialization.SerializationInfo), "s_mscorlibFileName");
+					r_Fs_mscorlibFileName = new(Type, "s_mscorlibFileName");
 				}
 				return r_Fs_mscorlibFileName;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_MCompare_ByteArray_ByteArray == null)
 				{
-					r_MCompare_ByteArray_ByteArray = new(typeof(System.Runtime.Serialization.SerializationInfo), "Compare", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
+					r_MCompare_ByteArray_ByteArray = new(Type, "Compare", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Byte).MakeArrayType());
 				}
 				return r_MCompare_ByteArray_ByteArray;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_MDemandForUnsafeAssemblyNameAssignments_String_String == null)
 				{
-					r_MDemandForUnsafeAssemblyNameAssignments_String_String = new(typeof(System.Runtime.Serialization.SerializationInfo), "DemandForUnsafeAssemblyNameAssignments", 0, typeof(System.String), typeof(System.String));
+					r_MDemandForUnsafeAssemblyNameAssignments_String_String = new(Type, "DemandForUnsafeAssemblyNameAssignments", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MDemandForUnsafeAssemblyNameAssignments_String_String;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 			{
 				if(r_MIsAssemblyNameAssignmentSafe_String_String == null)
 				{
-					r_MIsAssemblyNameAssignmentSafe_String_String = new(typeof(System.Runtime.Serialization.SerializationInfo), "IsAssemblyNameAssignmentSafe", 0, typeof(System.String), typeof(System.String));
+					r_MIsAssemblyNameAssignmentSafe_String_String = new(Type, "IsAssemblyNameAssignmentSafe", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MIsAssemblyNameAssignmentSafe_String_String;
 			}
@@ -1223,7 +1224,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@a, @b};
             var ___result = RMCompare_ByteArray_ByteArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1245,7 +1246,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@originalAssemblyName, @newAssemblyName};
             var ___result = RMIsAssemblyNameAssignmentSafe_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1256,7 +1257,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Serialization.SerializationInfoEnumerator)___result;
+            return ReflectionUtils.Convert<System.Runtime.Serialization.SerializationInfoEnumerator>(___result);
         }
 
 
@@ -1476,7 +1477,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMFindElement_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1489,7 +1490,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___result = RMGetElement_String_Out_Type.Invoke(___genericsType, ___parameters);
 			@foundType = (System.Type)___parameters[1];
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___result = RMGetElementNoThrow_String_Out_Type.Invoke(___genericsType, ___parameters);
 			@foundType = (System.Type)___parameters[1];
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1513,7 +1514,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name, @type};
             var ___result = RMGetValue_String_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1524,7 +1525,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name, @type};
             var ___result = RMGetValueNoThrow_String_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1535,7 +1536,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetBoolean_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1546,7 +1547,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetChar_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -1557,7 +1558,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetSByte_String.Invoke(___genericsType, ___parameters);
 
-            return (System.SByte)___result;
+            return ReflectionUtils.Convert<System.SByte>(___result);
         }
 
 
@@ -1568,7 +1569,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetByte_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -1579,7 +1580,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetInt16_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int16)___result;
+            return ReflectionUtils.Convert<System.Int16>(___result);
         }
 
 
@@ -1590,7 +1591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetUInt16_String.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -1601,7 +1602,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetInt32_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1612,7 +1613,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetUInt32_String.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -1623,7 +1624,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetInt64_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -1634,7 +1635,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetUInt64_String.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -1645,7 +1646,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetSingle_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -1656,7 +1657,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetDouble_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -1667,7 +1668,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetDecimal_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetDateTime_String.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1689,7 +1690,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@name};
             var ___result = RMGetString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1700,7 +1701,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1722,7 +1723,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1733,7 +1734,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1744,7 +1745,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1755,7 +1756,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

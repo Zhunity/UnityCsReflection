@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.IFocusRing
 	/// </summary>
     public partial class RIFocusRing : RMember //
@@ -76,7 +77,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@currentFocusable, @e};
             var ___result = RMGetFocusChangeDirection_Focusable_EventBase.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.FocusChangeDirection)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.FocusChangeDirection>(___result);
         }
 
 
@@ -87,7 +88,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@currentFocusable, @direction};
             var ___result = RMGetNextFocusable_Focusable_FocusChangeDirection.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Focusable)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
         }
 
 

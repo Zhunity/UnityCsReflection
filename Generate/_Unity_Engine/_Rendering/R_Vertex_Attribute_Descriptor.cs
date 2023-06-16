@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rendering.VertexAttributeDescriptor
 	/// </summary>
     public partial class RVertexAttributeDescriptor : RMember //
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Equality_VertexAttributeDescriptor_VertexAttributeDescriptor == null)
 				{
-					r_Mop_Equality_VertexAttributeDescriptor_VertexAttributeDescriptor = new(typeof(UnityEngine.Rendering.VertexAttributeDescriptor), "op_Equality", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor), typeof(UnityEngine.Rendering.VertexAttributeDescriptor));
+					r_Mop_Equality_VertexAttributeDescriptor_VertexAttributeDescriptor = new(Type, "op_Equality", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor), typeof(UnityEngine.Rendering.VertexAttributeDescriptor));
 				}
 				return r_Mop_Equality_VertexAttributeDescriptor_VertexAttributeDescriptor;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_Mop_Inequality_VertexAttributeDescriptor_VertexAttributeDescriptor == null)
 				{
-					r_Mop_Inequality_VertexAttributeDescriptor_VertexAttributeDescriptor = new(typeof(UnityEngine.Rendering.VertexAttributeDescriptor), "op_Inequality", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor), typeof(UnityEngine.Rendering.VertexAttributeDescriptor));
+					r_Mop_Inequality_VertexAttributeDescriptor_VertexAttributeDescriptor = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rendering.VertexAttributeDescriptor), typeof(UnityEngine.Rendering.VertexAttributeDescriptor));
 				}
 				return r_Mop_Inequality_VertexAttributeDescriptor_VertexAttributeDescriptor;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_VertexAttributeDescriptor.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_VertexAttributeDescriptor_VertexAttributeDescriptor.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_VertexAttributeDescriptor_VertexAttributeDescriptor.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

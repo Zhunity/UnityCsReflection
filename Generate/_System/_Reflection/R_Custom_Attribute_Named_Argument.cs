@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.CustomAttributeNamedArgument
 	/// </summary>
     public partial class RCustomAttributeNamedArgument : RMember //
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_Mop_Equality_CustomAttributeNamedArgument_CustomAttributeNamedArgument == null)
 				{
-					r_Mop_Equality_CustomAttributeNamedArgument_CustomAttributeNamedArgument = new(typeof(System.Reflection.CustomAttributeNamedArgument), "op_Equality", 0, typeof(System.Reflection.CustomAttributeNamedArgument), typeof(System.Reflection.CustomAttributeNamedArgument));
+					r_Mop_Equality_CustomAttributeNamedArgument_CustomAttributeNamedArgument = new(Type, "op_Equality", 0, typeof(System.Reflection.CustomAttributeNamedArgument), typeof(System.Reflection.CustomAttributeNamedArgument));
 				}
 				return r_Mop_Equality_CustomAttributeNamedArgument_CustomAttributeNamedArgument;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_Mop_Inequality_CustomAttributeNamedArgument_CustomAttributeNamedArgument == null)
 				{
-					r_Mop_Inequality_CustomAttributeNamedArgument_CustomAttributeNamedArgument = new(typeof(System.Reflection.CustomAttributeNamedArgument), "op_Inequality", 0, typeof(System.Reflection.CustomAttributeNamedArgument), typeof(System.Reflection.CustomAttributeNamedArgument));
+					r_Mop_Inequality_CustomAttributeNamedArgument_CustomAttributeNamedArgument = new(Type, "op_Inequality", 0, typeof(System.Reflection.CustomAttributeNamedArgument), typeof(System.Reflection.CustomAttributeNamedArgument));
 				}
 				return r_Mop_Inequality_CustomAttributeNamedArgument_CustomAttributeNamedArgument;
 			}
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Equality_CustomAttributeNamedArgument_CustomAttributeNamedArgument.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@left, @right};
             var ___result = RMop_Inequality_CustomAttributeNamedArgument_CustomAttributeNamedArgument.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

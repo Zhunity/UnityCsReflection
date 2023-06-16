@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Experimental.IValueAnimationUpdate
 	/// </summary>
     public partial class RIValueAnimationUpdate : RMember //

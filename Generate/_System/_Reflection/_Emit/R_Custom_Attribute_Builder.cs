@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.CustomAttributeBuilder
 	/// </summary>
     public partial class RCustomAttributeBuilder : RMember //
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetBlob_Assembly_ConstructorInfo_ObjectArray_PropertyInfoArray_ObjectArray_FieldInfoArray_ObjectArray == null)
 				{
-					r_MGetBlob_Assembly_ConstructorInfo_ObjectArray_PropertyInfoArray_ObjectArray_FieldInfoArray_ObjectArray = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "GetBlob", 0, typeof(System.Reflection.Assembly), typeof(System.Reflection.ConstructorInfo), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.PropertyInfo).MakeArrayType(), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.FieldInfo).MakeArrayType(), typeof(System.Object).MakeArrayType());
+					r_MGetBlob_Assembly_ConstructorInfo_ObjectArray_PropertyInfoArray_ObjectArray_FieldInfoArray_ObjectArray = new(Type, "GetBlob", 0, typeof(System.Reflection.Assembly), typeof(System.Reflection.ConstructorInfo), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.PropertyInfo).MakeArrayType(), typeof(System.Object).MakeArrayType(), typeof(System.Reflection.FieldInfo).MakeArrayType(), typeof(System.Object).MakeArrayType());
 				}
 				return r_MGetBlob_Assembly_ConstructorInfo_ObjectArray_PropertyInfoArray_ObjectArray_FieldInfoArray_ObjectArray;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MIsValidValue_Type_Object == null)
 				{
-					r_MIsValidValue_Type_Object = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "IsValidValue", 0, typeof(System.Type), typeof(System.Object));
+					r_MIsValidValue_Type_Object = new(Type, "IsValidValue", 0, typeof(System.Type), typeof(System.Object));
 				}
 				return r_MIsValidValue_Type_Object;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mdecode_len_ByteArray_Int32_Out_Int32 == null)
 				{
-					r_Mdecode_len_ByteArray_Int32_Out_Int32 = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "decode_len", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
+					r_Mdecode_len_ByteArray_Int32_Out_Int32 = new(Type, "decode_len", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
 				}
 				return r_Mdecode_len_ByteArray_Int32_Out_Int32;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mstring_from_bytes_ByteArray_Int32_Int32 == null)
 				{
-					r_Mstring_from_bytes_ByteArray_Int32_Int32 = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "string_from_bytes", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_Mstring_from_bytes_ByteArray_Int32_Int32 = new(Type, "string_from_bytes", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_Mstring_from_bytes_ByteArray_Int32_Int32;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mdecode_string_ByteArray_Int32_Out_Int32 == null)
 				{
-					r_Mdecode_string_ByteArray_Int32_Out_Int32 = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "decode_string", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
+					r_Mdecode_string_ByteArray_Int32_Out_Int32 = new(Type, "decode_string", 0, typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
 				}
 				return r_Mdecode_string_ByteArray_Int32_Out_Int32;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mget_umarshal_CustomAttributeBuilder_Boolean == null)
 				{
-					r_Mget_umarshal_CustomAttributeBuilder_Boolean = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "get_umarshal", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder), typeof(System.Boolean));
+					r_Mget_umarshal_CustomAttributeBuilder_Boolean = new(Type, "get_umarshal", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder), typeof(System.Boolean));
 				}
 				return r_Mget_umarshal_CustomAttributeBuilder_Boolean;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MelementTypeToType_Int32 == null)
 				{
-					r_MelementTypeToType_Int32 = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "elementTypeToType", 0, typeof(System.Int32));
+					r_MelementTypeToType_Int32 = new(Type, "elementTypeToType", 0, typeof(System.Int32));
 				}
 				return r_MelementTypeToType_Int32;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mdecode_cattr_value_Type_ByteArray_Int32_Out_Int32 == null)
 				{
-					r_Mdecode_cattr_value_Type_ByteArray_Int32_Out_Int32 = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "decode_cattr_value", 0, typeof(System.Type), typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
+					r_Mdecode_cattr_value_Type_ByteArray_Int32_Out_Int32 = new(Type, "decode_cattr_value", 0, typeof(System.Type), typeof(System.Byte).MakeArrayType(), typeof(System.Int32), typeof(System.Int32).MakeByRefType());
 				}
 				return r_Mdecode_cattr_value_Type_ByteArray_Int32_Out_Int32;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mdecode_cattr_CustomAttributeBuilder == null)
 				{
-					r_Mdecode_cattr_CustomAttributeBuilder = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "decode_cattr", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder));
+					r_Mdecode_cattr_CustomAttributeBuilder = new(Type, "decode_cattr", 0, typeof(System.Reflection.Emit.CustomAttributeBuilder));
 				}
 				return r_Mdecode_cattr_CustomAttributeBuilder;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_MGetParameters_ConstructorInfo == null)
 				{
-					r_MGetParameters_ConstructorInfo = new(typeof(System.Reflection.Emit.CustomAttributeBuilder), "GetParameters", 0, typeof(System.Reflection.ConstructorInfo));
+					r_MGetParameters_ConstructorInfo = new(Type, "GetParameters", 0, typeof(System.Reflection.ConstructorInfo));
 				}
 				return r_MGetParameters_ConstructorInfo;
 			}
@@ -634,7 +635,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@asmb, @con, @constructorArgs, @namedProperties, @propertyValues, @namedFields, @fieldValues};
             var ___result = RMGetBlob_Assembly_ConstructorInfo_ObjectArray_PropertyInfoArray_ObjectArray_FieldInfoArray_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -645,7 +646,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMInvoke.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -656,7 +657,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@t};
             var ___result = RMIsValidType_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -667,7 +668,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@o, @paramType};
             var ___result = RMIsValidParam_Object_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -678,7 +679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@type, @value};
             var ___result = RMIsValidValue_Type_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___result = RMdecode_len_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@rpos = (System.Int32)___parameters[2];
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -713,7 +714,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@data, @pos, @len};
             var ___result = RMstring_from_bytes_ByteArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -726,7 +727,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___result = RMdecode_string_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@rpos = (System.Int32)___parameters[2];
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -737,7 +738,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMstring_arg.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -748,7 +749,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@customBuilder, @is_field};
             var ___result = RMget_umarshal_CustomAttributeBuilder_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.Emit.UnmanagedMarshal)___result;
+            return ReflectionUtils.Convert<System.Reflection.Emit.UnmanagedMarshal>(___result);
         }
 
 
@@ -759,7 +760,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@elementType};
             var ___result = RMelementTypeToType_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -772,7 +773,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___result = RMdecode_cattr_value_Type_ByteArray_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@rpos = (System.Int32)___parameters[3];
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -783,7 +784,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@customBuilder};
             var ___result = RMdecode_cattr_CustomAttributeBuilder.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RCustomAttributeBuilder.RCustomAttributeInfo(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.REmit.RCustomAttributeBuilder.RCustomAttributeInfo>(___result);
         }
 
 
@@ -794,7 +795,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@ctor};
             var ___result = RMGetParameters_ConstructorInfo.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.ParameterInfo[])___result;
+            return ReflectionUtils.Convert<System.Reflection.ParameterInfo[]>(___result);
         }
 
 
@@ -805,7 +806,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -827,7 +828,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -838,7 +839,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -849,7 +850,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -860,7 +861,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

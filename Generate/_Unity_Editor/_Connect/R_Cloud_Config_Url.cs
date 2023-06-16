@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.Connect.CloudConfigUrl
 	/// </summary>
     public partial class RCloudConfigUrl : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudCore == null)
 				{
-					r_FCloudCore = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudCore");
+					r_FCloudCore = new(Type, "CloudCore");
 				}
 				return r_FCloudCore;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudCollab == null)
 				{
-					r_FCloudCollab = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudCollab");
+					r_FCloudCollab = new(Type, "CloudCollab");
 				}
 				return r_FCloudCollab;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudWebauth == null)
 				{
-					r_FCloudWebauth = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudWebauth");
+					r_FCloudWebauth = new(Type, "CloudWebauth");
 				}
 				return r_FCloudWebauth;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudLogin == null)
 				{
-					r_FCloudLogin = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudLogin");
+					r_FCloudLogin = new(Type, "CloudLogin");
 				}
 				return r_FCloudLogin;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudLicense == null)
 				{
-					r_FCloudLicense = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudLicense");
+					r_FCloudLicense = new(Type, "CloudLicense");
 				}
 				return r_FCloudLicense;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudActivation == null)
 				{
-					r_FCloudActivation = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudActivation");
+					r_FCloudActivation = new(Type, "CloudActivation");
 				}
 				return r_FCloudActivation;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudIdentity == null)
 				{
-					r_FCloudIdentity = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudIdentity");
+					r_FCloudIdentity = new(Type, "CloudIdentity");
 				}
 				return r_FCloudIdentity;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudPortal == null)
 				{
-					r_FCloudPortal = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudPortal");
+					r_FCloudPortal = new(Type, "CloudPortal");
 				}
 				return r_FCloudPortal;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudPerfEvents == null)
 				{
-					r_FCloudPerfEvents = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudPerfEvents");
+					r_FCloudPerfEvents = new(Type, "CloudPerfEvents");
 				}
 				return r_FCloudPerfEvents;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudAdsDashboard == null)
 				{
-					r_FCloudAdsDashboard = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudAdsDashboard");
+					r_FCloudAdsDashboard = new(Type, "CloudAdsDashboard");
 				}
 				return r_FCloudAdsDashboard;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudServicesDashboard == null)
 				{
-					r_FCloudServicesDashboard = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudServicesDashboard");
+					r_FCloudServicesDashboard = new(Type, "CloudServicesDashboard");
 				}
 				return r_FCloudServicesDashboard;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudPackagesApi == null)
 				{
-					r_FCloudPackagesApi = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudPackagesApi");
+					r_FCloudPackagesApi = new(Type, "CloudPackagesApi");
 				}
 				return r_FCloudPackagesApi;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudPackagesKey == null)
 				{
-					r_FCloudPackagesKey = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudPackagesKey");
+					r_FCloudPackagesKey = new(Type, "CloudPackagesKey");
 				}
 				return r_FCloudPackagesKey;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
 			{
 				if(r_FCloudAssetStoreUrl == null)
 				{
-					r_FCloudAssetStoreUrl = new( ReflectionUtils.GetType("UnityEditor.Connect.CloudConfigUrl"), "CloudAssetStoreUrl");
+					r_FCloudAssetStoreUrl = new(Type, "CloudAssetStoreUrl");
 				}
 				return r_FCloudAssetStoreUrl;
 			}
@@ -492,7 +493,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -503,7 +504,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -514,7 +515,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -525,7 +526,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -536,7 +537,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -547,7 +548,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -569,7 +570,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -580,7 +581,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -591,7 +592,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -613,7 +614,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -624,7 +625,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RConnect
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

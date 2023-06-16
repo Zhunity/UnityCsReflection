@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Text.StringBuilder
 	/// </summary>
     public partial class RStringBuilder : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FDefaultCapacity == null)
 				{
-					r_FDefaultCapacity = new(typeof(System.Text.StringBuilder), "DefaultCapacity");
+					r_FDefaultCapacity = new(Type, "DefaultCapacity");
 				}
 				return r_FDefaultCapacity;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FCapacityField == null)
 				{
-					r_FCapacityField = new(typeof(System.Text.StringBuilder), "CapacityField");
+					r_FCapacityField = new(Type, "CapacityField");
 				}
 				return r_FCapacityField;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FMaxCapacityField == null)
 				{
-					r_FMaxCapacityField = new(typeof(System.Text.StringBuilder), "MaxCapacityField");
+					r_FMaxCapacityField = new(Type, "MaxCapacityField");
 				}
 				return r_FMaxCapacityField;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FStringValueField == null)
 				{
-					r_FStringValueField = new(typeof(System.Text.StringBuilder), "StringValueField");
+					r_FStringValueField = new(Type, "StringValueField");
 				}
 				return r_FStringValueField;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FThreadIDField == null)
 				{
-					r_FThreadIDField = new(typeof(System.Text.StringBuilder), "ThreadIDField");
+					r_FThreadIDField = new(Type, "ThreadIDField");
 				}
 				return r_FThreadIDField;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FMaxChunkSize == null)
 				{
-					r_FMaxChunkSize = new(typeof(System.Text.StringBuilder), "MaxChunkSize");
+					r_FMaxChunkSize = new(Type, "MaxChunkSize");
 				}
 				return r_FMaxChunkSize;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FIndexLimit == null)
 				{
-					r_FIndexLimit = new(typeof(System.Text.StringBuilder), "IndexLimit");
+					r_FIndexLimit = new(Type, "IndexLimit");
 				}
 				return r_FIndexLimit;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_FWidthLimit == null)
 				{
-					r_FWidthLimit = new(typeof(System.Text.StringBuilder), "WidthLimit");
+					r_FWidthLimit = new(Type, "WidthLimit");
 				}
 				return r_FWidthLimit;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MFormatError == null)
 				{
-					r_MFormatError = new(typeof(System.Text.StringBuilder), "FormatError", 0);
+					r_MFormatError = new(Type, "FormatError", 0);
 				}
 				return r_MFormatError;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MThreadSafeCopy_CharPointer_CharArray_Int32_Int32 == null)
 				{
-					r_MThreadSafeCopy_CharPointer_CharArray_Int32_Int32 = new(typeof(System.Text.StringBuilder), "ThreadSafeCopy", 0, typeof(System.Char).MakePointerType(), typeof(System.Char).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
+					r_MThreadSafeCopy_CharPointer_CharArray_Int32_Int32 = new(Type, "ThreadSafeCopy", 0, typeof(System.Char).MakePointerType(), typeof(System.Char).MakeArrayType(), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MThreadSafeCopy_CharPointer_CharArray_Int32_Int32;
 			}
@@ -1694,7 +1695,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
 			{
 				if(r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32 == null)
 				{
-					r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32 = new(typeof(System.Text.StringBuilder), "ThreadSafeCopy", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32));
+					r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32 = new(Type, "ThreadSafeCopy", 0, typeof(System.Char).MakeArrayType(), typeof(System.Int32),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(System.Char)), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MThreadSafeCopy_CharArray_Int32_Span_d_Char_p__Int32_Int32;
 			}
@@ -1906,7 +1907,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@capacity};
             var ___result = RMEnsureCapacity_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1917,7 +1918,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1928,7 +1929,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@startIndex, @length};
             var ___result = RMToString_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1939,7 +1940,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMClear.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -1950,7 +1951,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value, @repeatCount};
             var ___result = RMAppend_Char_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -1961,7 +1962,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value, @startIndex, @charCount};
             var ___result = RMAppend_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -1972,7 +1973,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -1994,7 +1995,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value, @startIndex, @count};
             var ___result = RMAppend_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2005,7 +2006,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_StringBuilder.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2016,7 +2017,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value, @startIndex, @count};
             var ___result = RMAppend_StringBuilder_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2027,7 +2028,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value, @startIndex, @count};
             var ___result = RMAppendCore_StringBuilder_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2038,7 +2039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMAppendLine.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2049,7 +2050,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppendLine_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2082,7 +2083,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value, @count};
             var ___result = RMInsert_Int32_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2093,7 +2094,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@startIndex, @length};
             var ___result = RMRemove_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2104,7 +2105,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2115,7 +2116,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2126,7 +2127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_SByte.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2137,7 +2138,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Byte.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2148,7 +2149,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Int16.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2159,7 +2160,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2170,7 +2171,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2181,7 +2182,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2192,7 +2193,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2203,7 +2204,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2214,7 +2215,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_UInt16.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2225,7 +2226,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2236,7 +2237,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_UInt64.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2247,7 +2248,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppendSpanFormattable_GT_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2258,7 +2259,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2269,7 +2270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value};
             var ___result = RMAppend_CharArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2280,7 +2281,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@value.Value};
             var ___result = RMAppend_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2291,7 +2292,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@separator, @values};
             var ___result = RMAppendJoin_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2302,7 +2303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@separator, @values};
             var ___result = RMAppendJoin_GT_String_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2313,7 +2314,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@separator, @values};
             var ___result = RMAppendJoin_String_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2324,7 +2325,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@separator, @values};
             var ___result = RMAppendJoin_Char_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2335,7 +2336,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@separator, @values};
             var ___result = RMAppendJoin_GT_Char_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2346,7 +2347,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@separator, @values};
             var ___result = RMAppendJoin_Char_StringArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2357,7 +2358,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
             var ___result = RMAppendJoinCore_GT_CharPointer_Int32_IEnumerable_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2368,7 +2369,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{Pointer.Box(@separator, typeof(System.Char)), @separatorLength, @values};
             var ___result = RMAppendJoinCore_GT_CharPointer_Int32_TArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2379,7 +2380,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2390,7 +2391,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2401,7 +2402,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_SByte.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2412,7 +2413,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Byte.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2423,7 +2424,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Int16.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2434,7 +2435,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2445,7 +2446,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_CharArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2456,7 +2457,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value, @startIndex, @charCount};
             var ___result = RMInsert_Int32_CharArray_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2467,7 +2468,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2478,7 +2479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2489,7 +2490,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2500,7 +2501,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2511,7 +2512,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Decimal.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2522,7 +2523,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_UInt16.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2533,7 +2534,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_UInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2544,7 +2545,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_UInt64.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2555,7 +2556,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value};
             var ___result = RMInsert_Int32_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2566,7 +2567,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index, @value.Value};
             var ___result = RMInsert_Int32_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2577,7 +2578,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@format, @arg0};
             var ___result = RMAppendFormat_String_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2588,7 +2589,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@format, @arg0, @arg1};
             var ___result = RMAppendFormat_String_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2599,7 +2600,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@format, @arg0, @arg1, @arg2};
             var ___result = RMAppendFormat_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2610,7 +2611,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@format, @args};
             var ___result = RMAppendFormat_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2621,7 +2622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@provider, @format, @arg0};
             var ___result = RMAppendFormat_IFormatProvider_String_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2632,7 +2633,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@provider, @format, @arg0, @arg1};
             var ___result = RMAppendFormat_IFormatProvider_String_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2643,7 +2644,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@provider, @format, @arg0, @arg1, @arg2};
             var ___result = RMAppendFormat_IFormatProvider_String_Object_Object_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2654,7 +2655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@provider, @format, @args};
             var ___result = RMAppendFormat_IFormatProvider_String_ObjectArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2676,7 +2677,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@provider, @format, @args.Value};
             var ___result = RMAppendFormatHelper_IFormatProvider_String_ParamsArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2687,7 +2688,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@oldValue, @newValue};
             var ___result = RMReplace_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2698,7 +2699,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@sb};
             var ___result = RMEquals_StringBuilder.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2709,7 +2710,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@span.Value};
             var ___result = RMEquals_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2720,7 +2721,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@oldValue, @newValue, @startIndex, @count};
             var ___result = RMReplace_String_String_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2731,7 +2732,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@oldChar, @newChar};
             var ___result = RMReplace_Char_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2742,7 +2743,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@oldChar, @newChar, @startIndex, @count};
             var ___result = RMReplace_Char_Char_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2753,7 +2754,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{Pointer.Box(@value, typeof(System.Char)), @valueCount};
             var ___result = RMAppend_CharPointer_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2786,7 +2787,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@chunk, @indexInChunk, @count, @value};
             var ___result = RMStartsWith_StringBuilder_Int32_Int32_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2832,7 +2833,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@index};
             var ___result = RMFindChunkForIndex_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2843,7 +2844,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@byteIndex};
             var ___result = RMFindChunkForByte_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2854,7 +2855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@chunk};
             var ___result = RMNext_StringBuilder.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -2906,7 +2907,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2928,7 +2929,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2939,7 +2940,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2950,7 +2951,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

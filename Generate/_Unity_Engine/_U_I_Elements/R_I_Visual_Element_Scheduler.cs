@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.IVisualElementScheduler
 	/// </summary>
     public partial class RIVisualElementScheduler : RMember //
@@ -76,7 +77,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@timerUpdateEvent};
             var ___result = RMExecute_Action_d_TimerState_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IVisualElementScheduledItem)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
         }
 
 
@@ -87,7 +88,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@updateEvent};
             var ___result = RMExecute_Action.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IVisualElementScheduledItem)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IVisualElementScheduledItem>(___result);
         }
 
 

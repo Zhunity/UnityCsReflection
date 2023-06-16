@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Principal.WellKnownSidType
 	/// </summary>
     public partial class RWellKnownSidType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FNullSid == null)
 				{
-					r_FNullSid = new(typeof(System.Security.Principal.WellKnownSidType), "NullSid");
+					r_FNullSid = new(Type, "NullSid");
 				}
 				return r_FNullSid;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWorldSid == null)
 				{
-					r_FWorldSid = new(typeof(System.Security.Principal.WellKnownSidType), "WorldSid");
+					r_FWorldSid = new(Type, "WorldSid");
 				}
 				return r_FWorldSid;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FLocalSid == null)
 				{
-					r_FLocalSid = new(typeof(System.Security.Principal.WellKnownSidType), "LocalSid");
+					r_FLocalSid = new(Type, "LocalSid");
 				}
 				return r_FLocalSid;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FCreatorOwnerSid == null)
 				{
-					r_FCreatorOwnerSid = new(typeof(System.Security.Principal.WellKnownSidType), "CreatorOwnerSid");
+					r_FCreatorOwnerSid = new(Type, "CreatorOwnerSid");
 				}
 				return r_FCreatorOwnerSid;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FCreatorGroupSid == null)
 				{
-					r_FCreatorGroupSid = new(typeof(System.Security.Principal.WellKnownSidType), "CreatorGroupSid");
+					r_FCreatorGroupSid = new(Type, "CreatorGroupSid");
 				}
 				return r_FCreatorGroupSid;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FCreatorOwnerServerSid == null)
 				{
-					r_FCreatorOwnerServerSid = new(typeof(System.Security.Principal.WellKnownSidType), "CreatorOwnerServerSid");
+					r_FCreatorOwnerServerSid = new(Type, "CreatorOwnerServerSid");
 				}
 				return r_FCreatorOwnerServerSid;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FCreatorGroupServerSid == null)
 				{
-					r_FCreatorGroupServerSid = new(typeof(System.Security.Principal.WellKnownSidType), "CreatorGroupServerSid");
+					r_FCreatorGroupServerSid = new(Type, "CreatorGroupServerSid");
 				}
 				return r_FCreatorGroupServerSid;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FNTAuthoritySid == null)
 				{
-					r_FNTAuthoritySid = new(typeof(System.Security.Principal.WellKnownSidType), "NTAuthoritySid");
+					r_FNTAuthoritySid = new(Type, "NTAuthoritySid");
 				}
 				return r_FNTAuthoritySid;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FDialupSid == null)
 				{
-					r_FDialupSid = new(typeof(System.Security.Principal.WellKnownSidType), "DialupSid");
+					r_FDialupSid = new(Type, "DialupSid");
 				}
 				return r_FDialupSid;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FNetworkSid == null)
 				{
-					r_FNetworkSid = new(typeof(System.Security.Principal.WellKnownSidType), "NetworkSid");
+					r_FNetworkSid = new(Type, "NetworkSid");
 				}
 				return r_FNetworkSid;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBatchSid == null)
 				{
-					r_FBatchSid = new(typeof(System.Security.Principal.WellKnownSidType), "BatchSid");
+					r_FBatchSid = new(Type, "BatchSid");
 				}
 				return r_FBatchSid;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FInteractiveSid == null)
 				{
-					r_FInteractiveSid = new(typeof(System.Security.Principal.WellKnownSidType), "InteractiveSid");
+					r_FInteractiveSid = new(Type, "InteractiveSid");
 				}
 				return r_FInteractiveSid;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FServiceSid == null)
 				{
-					r_FServiceSid = new(typeof(System.Security.Principal.WellKnownSidType), "ServiceSid");
+					r_FServiceSid = new(Type, "ServiceSid");
 				}
 				return r_FServiceSid;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAnonymousSid == null)
 				{
-					r_FAnonymousSid = new(typeof(System.Security.Principal.WellKnownSidType), "AnonymousSid");
+					r_FAnonymousSid = new(Type, "AnonymousSid");
 				}
 				return r_FAnonymousSid;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FProxySid == null)
 				{
-					r_FProxySid = new(typeof(System.Security.Principal.WellKnownSidType), "ProxySid");
+					r_FProxySid = new(Type, "ProxySid");
 				}
 				return r_FProxySid;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FEnterpriseControllersSid == null)
 				{
-					r_FEnterpriseControllersSid = new(typeof(System.Security.Principal.WellKnownSidType), "EnterpriseControllersSid");
+					r_FEnterpriseControllersSid = new(Type, "EnterpriseControllersSid");
 				}
 				return r_FEnterpriseControllersSid;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FSelfSid == null)
 				{
-					r_FSelfSid = new(typeof(System.Security.Principal.WellKnownSidType), "SelfSid");
+					r_FSelfSid = new(Type, "SelfSid");
 				}
 				return r_FSelfSid;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAuthenticatedUserSid == null)
 				{
-					r_FAuthenticatedUserSid = new(typeof(System.Security.Principal.WellKnownSidType), "AuthenticatedUserSid");
+					r_FAuthenticatedUserSid = new(Type, "AuthenticatedUserSid");
 				}
 				return r_FAuthenticatedUserSid;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FRestrictedCodeSid == null)
 				{
-					r_FRestrictedCodeSid = new(typeof(System.Security.Principal.WellKnownSidType), "RestrictedCodeSid");
+					r_FRestrictedCodeSid = new(Type, "RestrictedCodeSid");
 				}
 				return r_FRestrictedCodeSid;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FTerminalServerSid == null)
 				{
-					r_FTerminalServerSid = new(typeof(System.Security.Principal.WellKnownSidType), "TerminalServerSid");
+					r_FTerminalServerSid = new(Type, "TerminalServerSid");
 				}
 				return r_FTerminalServerSid;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FRemoteLogonIdSid == null)
 				{
-					r_FRemoteLogonIdSid = new(typeof(System.Security.Principal.WellKnownSidType), "RemoteLogonIdSid");
+					r_FRemoteLogonIdSid = new(Type, "RemoteLogonIdSid");
 				}
 				return r_FRemoteLogonIdSid;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FLogonIdsSid == null)
 				{
-					r_FLogonIdsSid = new(typeof(System.Security.Principal.WellKnownSidType), "LogonIdsSid");
+					r_FLogonIdsSid = new(Type, "LogonIdsSid");
 				}
 				return r_FLogonIdsSid;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FLocalSystemSid == null)
 				{
-					r_FLocalSystemSid = new(typeof(System.Security.Principal.WellKnownSidType), "LocalSystemSid");
+					r_FLocalSystemSid = new(Type, "LocalSystemSid");
 				}
 				return r_FLocalSystemSid;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FLocalServiceSid == null)
 				{
-					r_FLocalServiceSid = new(typeof(System.Security.Principal.WellKnownSidType), "LocalServiceSid");
+					r_FLocalServiceSid = new(Type, "LocalServiceSid");
 				}
 				return r_FLocalServiceSid;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FNetworkServiceSid == null)
 				{
-					r_FNetworkServiceSid = new(typeof(System.Security.Principal.WellKnownSidType), "NetworkServiceSid");
+					r_FNetworkServiceSid = new(Type, "NetworkServiceSid");
 				}
 				return r_FNetworkServiceSid;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinDomainSid == null)
 				{
-					r_FBuiltinDomainSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinDomainSid");
+					r_FBuiltinDomainSid = new(Type, "BuiltinDomainSid");
 				}
 				return r_FBuiltinDomainSid;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinAdministratorsSid == null)
 				{
-					r_FBuiltinAdministratorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinAdministratorsSid");
+					r_FBuiltinAdministratorsSid = new(Type, "BuiltinAdministratorsSid");
 				}
 				return r_FBuiltinAdministratorsSid;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinUsersSid == null)
 				{
-					r_FBuiltinUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinUsersSid");
+					r_FBuiltinUsersSid = new(Type, "BuiltinUsersSid");
 				}
 				return r_FBuiltinUsersSid;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinGuestsSid == null)
 				{
-					r_FBuiltinGuestsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinGuestsSid");
+					r_FBuiltinGuestsSid = new(Type, "BuiltinGuestsSid");
 				}
 				return r_FBuiltinGuestsSid;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinPowerUsersSid == null)
 				{
-					r_FBuiltinPowerUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinPowerUsersSid");
+					r_FBuiltinPowerUsersSid = new(Type, "BuiltinPowerUsersSid");
 				}
 				return r_FBuiltinPowerUsersSid;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinAccountOperatorsSid == null)
 				{
-					r_FBuiltinAccountOperatorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinAccountOperatorsSid");
+					r_FBuiltinAccountOperatorsSid = new(Type, "BuiltinAccountOperatorsSid");
 				}
 				return r_FBuiltinAccountOperatorsSid;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinSystemOperatorsSid == null)
 				{
-					r_FBuiltinSystemOperatorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinSystemOperatorsSid");
+					r_FBuiltinSystemOperatorsSid = new(Type, "BuiltinSystemOperatorsSid");
 				}
 				return r_FBuiltinSystemOperatorsSid;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinPrintOperatorsSid == null)
 				{
-					r_FBuiltinPrintOperatorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinPrintOperatorsSid");
+					r_FBuiltinPrintOperatorsSid = new(Type, "BuiltinPrintOperatorsSid");
 				}
 				return r_FBuiltinPrintOperatorsSid;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinBackupOperatorsSid == null)
 				{
-					r_FBuiltinBackupOperatorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinBackupOperatorsSid");
+					r_FBuiltinBackupOperatorsSid = new(Type, "BuiltinBackupOperatorsSid");
 				}
 				return r_FBuiltinBackupOperatorsSid;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinReplicatorSid == null)
 				{
-					r_FBuiltinReplicatorSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinReplicatorSid");
+					r_FBuiltinReplicatorSid = new(Type, "BuiltinReplicatorSid");
 				}
 				return r_FBuiltinReplicatorSid;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinPreWindows2000CompatibleAccessSid == null)
 				{
-					r_FBuiltinPreWindows2000CompatibleAccessSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinPreWindows2000CompatibleAccessSid");
+					r_FBuiltinPreWindows2000CompatibleAccessSid = new(Type, "BuiltinPreWindows2000CompatibleAccessSid");
 				}
 				return r_FBuiltinPreWindows2000CompatibleAccessSid;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinRemoteDesktopUsersSid == null)
 				{
-					r_FBuiltinRemoteDesktopUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinRemoteDesktopUsersSid");
+					r_FBuiltinRemoteDesktopUsersSid = new(Type, "BuiltinRemoteDesktopUsersSid");
 				}
 				return r_FBuiltinRemoteDesktopUsersSid;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinNetworkConfigurationOperatorsSid == null)
 				{
-					r_FBuiltinNetworkConfigurationOperatorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinNetworkConfigurationOperatorsSid");
+					r_FBuiltinNetworkConfigurationOperatorsSid = new(Type, "BuiltinNetworkConfigurationOperatorsSid");
 				}
 				return r_FBuiltinNetworkConfigurationOperatorsSid;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountAdministratorSid == null)
 				{
-					r_FAccountAdministratorSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountAdministratorSid");
+					r_FAccountAdministratorSid = new(Type, "AccountAdministratorSid");
 				}
 				return r_FAccountAdministratorSid;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountGuestSid == null)
 				{
-					r_FAccountGuestSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountGuestSid");
+					r_FAccountGuestSid = new(Type, "AccountGuestSid");
 				}
 				return r_FAccountGuestSid;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountKrbtgtSid == null)
 				{
-					r_FAccountKrbtgtSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountKrbtgtSid");
+					r_FAccountKrbtgtSid = new(Type, "AccountKrbtgtSid");
 				}
 				return r_FAccountKrbtgtSid;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountDomainAdminsSid == null)
 				{
-					r_FAccountDomainAdminsSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountDomainAdminsSid");
+					r_FAccountDomainAdminsSid = new(Type, "AccountDomainAdminsSid");
 				}
 				return r_FAccountDomainAdminsSid;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountDomainUsersSid == null)
 				{
-					r_FAccountDomainUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountDomainUsersSid");
+					r_FAccountDomainUsersSid = new(Type, "AccountDomainUsersSid");
 				}
 				return r_FAccountDomainUsersSid;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountDomainGuestsSid == null)
 				{
-					r_FAccountDomainGuestsSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountDomainGuestsSid");
+					r_FAccountDomainGuestsSid = new(Type, "AccountDomainGuestsSid");
 				}
 				return r_FAccountDomainGuestsSid;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountComputersSid == null)
 				{
-					r_FAccountComputersSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountComputersSid");
+					r_FAccountComputersSid = new(Type, "AccountComputersSid");
 				}
 				return r_FAccountComputersSid;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountControllersSid == null)
 				{
-					r_FAccountControllersSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountControllersSid");
+					r_FAccountControllersSid = new(Type, "AccountControllersSid");
 				}
 				return r_FAccountControllersSid;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountCertAdminsSid == null)
 				{
-					r_FAccountCertAdminsSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountCertAdminsSid");
+					r_FAccountCertAdminsSid = new(Type, "AccountCertAdminsSid");
 				}
 				return r_FAccountCertAdminsSid;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountSchemaAdminsSid == null)
 				{
-					r_FAccountSchemaAdminsSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountSchemaAdminsSid");
+					r_FAccountSchemaAdminsSid = new(Type, "AccountSchemaAdminsSid");
 				}
 				return r_FAccountSchemaAdminsSid;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountEnterpriseAdminsSid == null)
 				{
-					r_FAccountEnterpriseAdminsSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountEnterpriseAdminsSid");
+					r_FAccountEnterpriseAdminsSid = new(Type, "AccountEnterpriseAdminsSid");
 				}
 				return r_FAccountEnterpriseAdminsSid;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountPolicyAdminsSid == null)
 				{
-					r_FAccountPolicyAdminsSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountPolicyAdminsSid");
+					r_FAccountPolicyAdminsSid = new(Type, "AccountPolicyAdminsSid");
 				}
 				return r_FAccountPolicyAdminsSid;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FAccountRasAndIasServersSid == null)
 				{
-					r_FAccountRasAndIasServersSid = new(typeof(System.Security.Principal.WellKnownSidType), "AccountRasAndIasServersSid");
+					r_FAccountRasAndIasServersSid = new(Type, "AccountRasAndIasServersSid");
 				}
 				return r_FAccountRasAndIasServersSid;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FNtlmAuthenticationSid == null)
 				{
-					r_FNtlmAuthenticationSid = new(typeof(System.Security.Principal.WellKnownSidType), "NtlmAuthenticationSid");
+					r_FNtlmAuthenticationSid = new(Type, "NtlmAuthenticationSid");
 				}
 				return r_FNtlmAuthenticationSid;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FDigestAuthenticationSid == null)
 				{
-					r_FDigestAuthenticationSid = new(typeof(System.Security.Principal.WellKnownSidType), "DigestAuthenticationSid");
+					r_FDigestAuthenticationSid = new(Type, "DigestAuthenticationSid");
 				}
 				return r_FDigestAuthenticationSid;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FSChannelAuthenticationSid == null)
 				{
-					r_FSChannelAuthenticationSid = new(typeof(System.Security.Principal.WellKnownSidType), "SChannelAuthenticationSid");
+					r_FSChannelAuthenticationSid = new(Type, "SChannelAuthenticationSid");
 				}
 				return r_FSChannelAuthenticationSid;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FThisOrganizationSid == null)
 				{
-					r_FThisOrganizationSid = new(typeof(System.Security.Principal.WellKnownSidType), "ThisOrganizationSid");
+					r_FThisOrganizationSid = new(Type, "ThisOrganizationSid");
 				}
 				return r_FThisOrganizationSid;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FOtherOrganizationSid == null)
 				{
-					r_FOtherOrganizationSid = new(typeof(System.Security.Principal.WellKnownSidType), "OtherOrganizationSid");
+					r_FOtherOrganizationSid = new(Type, "OtherOrganizationSid");
 				}
 				return r_FOtherOrganizationSid;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinIncomingForestTrustBuildersSid == null)
 				{
-					r_FBuiltinIncomingForestTrustBuildersSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinIncomingForestTrustBuildersSid");
+					r_FBuiltinIncomingForestTrustBuildersSid = new(Type, "BuiltinIncomingForestTrustBuildersSid");
 				}
 				return r_FBuiltinIncomingForestTrustBuildersSid;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinPerformanceMonitoringUsersSid == null)
 				{
-					r_FBuiltinPerformanceMonitoringUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinPerformanceMonitoringUsersSid");
+					r_FBuiltinPerformanceMonitoringUsersSid = new(Type, "BuiltinPerformanceMonitoringUsersSid");
 				}
 				return r_FBuiltinPerformanceMonitoringUsersSid;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinPerformanceLoggingUsersSid == null)
 				{
-					r_FBuiltinPerformanceLoggingUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinPerformanceLoggingUsersSid");
+					r_FBuiltinPerformanceLoggingUsersSid = new(Type, "BuiltinPerformanceLoggingUsersSid");
 				}
 				return r_FBuiltinPerformanceLoggingUsersSid;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FBuiltinAuthorizationAccessSid == null)
 				{
-					r_FBuiltinAuthorizationAccessSid = new(typeof(System.Security.Principal.WellKnownSidType), "BuiltinAuthorizationAccessSid");
+					r_FBuiltinAuthorizationAccessSid = new(Type, "BuiltinAuthorizationAccessSid");
 				}
 				return r_FBuiltinAuthorizationAccessSid;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinTerminalServerLicenseServersSid == null)
 				{
-					r_FWinBuiltinTerminalServerLicenseServersSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinTerminalServerLicenseServersSid");
+					r_FWinBuiltinTerminalServerLicenseServersSid = new(Type, "WinBuiltinTerminalServerLicenseServersSid");
 				}
 				return r_FWinBuiltinTerminalServerLicenseServersSid;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FMaxDefined == null)
 				{
-					r_FMaxDefined = new(typeof(System.Security.Principal.WellKnownSidType), "MaxDefined");
+					r_FMaxDefined = new(Type, "MaxDefined");
 				}
 				return r_FMaxDefined;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinDCOMUsersSid == null)
 				{
-					r_FWinBuiltinDCOMUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinDCOMUsersSid");
+					r_FWinBuiltinDCOMUsersSid = new(Type, "WinBuiltinDCOMUsersSid");
 				}
 				return r_FWinBuiltinDCOMUsersSid;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinIUsersSid == null)
 				{
-					r_FWinBuiltinIUsersSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinIUsersSid");
+					r_FWinBuiltinIUsersSid = new(Type, "WinBuiltinIUsersSid");
 				}
 				return r_FWinBuiltinIUsersSid;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinIUserSid == null)
 				{
-					r_FWinIUserSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinIUserSid");
+					r_FWinIUserSid = new(Type, "WinIUserSid");
 				}
 				return r_FWinIUserSid;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinCryptoOperatorsSid == null)
 				{
-					r_FWinBuiltinCryptoOperatorsSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinCryptoOperatorsSid");
+					r_FWinBuiltinCryptoOperatorsSid = new(Type, "WinBuiltinCryptoOperatorsSid");
 				}
 				return r_FWinBuiltinCryptoOperatorsSid;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinUntrustedLabelSid == null)
 				{
-					r_FWinUntrustedLabelSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinUntrustedLabelSid");
+					r_FWinUntrustedLabelSid = new(Type, "WinUntrustedLabelSid");
 				}
 				return r_FWinUntrustedLabelSid;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinLowLabelSid == null)
 				{
-					r_FWinLowLabelSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinLowLabelSid");
+					r_FWinLowLabelSid = new(Type, "WinLowLabelSid");
 				}
 				return r_FWinLowLabelSid;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinMediumLabelSid == null)
 				{
-					r_FWinMediumLabelSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinMediumLabelSid");
+					r_FWinMediumLabelSid = new(Type, "WinMediumLabelSid");
 				}
 				return r_FWinMediumLabelSid;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinHighLabelSid == null)
 				{
-					r_FWinHighLabelSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinHighLabelSid");
+					r_FWinHighLabelSid = new(Type, "WinHighLabelSid");
 				}
 				return r_FWinHighLabelSid;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinSystemLabelSid == null)
 				{
-					r_FWinSystemLabelSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinSystemLabelSid");
+					r_FWinSystemLabelSid = new(Type, "WinSystemLabelSid");
 				}
 				return r_FWinSystemLabelSid;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinWriteRestrictedCodeSid == null)
 				{
-					r_FWinWriteRestrictedCodeSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinWriteRestrictedCodeSid");
+					r_FWinWriteRestrictedCodeSid = new(Type, "WinWriteRestrictedCodeSid");
 				}
 				return r_FWinWriteRestrictedCodeSid;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCreatorOwnerRightsSid == null)
 				{
-					r_FWinCreatorOwnerRightsSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCreatorOwnerRightsSid");
+					r_FWinCreatorOwnerRightsSid = new(Type, "WinCreatorOwnerRightsSid");
 				}
 				return r_FWinCreatorOwnerRightsSid;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCacheablePrincipalsGroupSid == null)
 				{
-					r_FWinCacheablePrincipalsGroupSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCacheablePrincipalsGroupSid");
+					r_FWinCacheablePrincipalsGroupSid = new(Type, "WinCacheablePrincipalsGroupSid");
 				}
 				return r_FWinCacheablePrincipalsGroupSid;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinNonCacheablePrincipalsGroupSid == null)
 				{
-					r_FWinNonCacheablePrincipalsGroupSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinNonCacheablePrincipalsGroupSid");
+					r_FWinNonCacheablePrincipalsGroupSid = new(Type, "WinNonCacheablePrincipalsGroupSid");
 				}
 				return r_FWinNonCacheablePrincipalsGroupSid;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinEnterpriseReadonlyControllersSid == null)
 				{
-					r_FWinEnterpriseReadonlyControllersSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinEnterpriseReadonlyControllersSid");
+					r_FWinEnterpriseReadonlyControllersSid = new(Type, "WinEnterpriseReadonlyControllersSid");
 				}
 				return r_FWinEnterpriseReadonlyControllersSid;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinAccountReadonlyControllersSid == null)
 				{
-					r_FWinAccountReadonlyControllersSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinAccountReadonlyControllersSid");
+					r_FWinAccountReadonlyControllersSid = new(Type, "WinAccountReadonlyControllersSid");
 				}
 				return r_FWinAccountReadonlyControllersSid;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinEventLogReadersGroup == null)
 				{
-					r_FWinBuiltinEventLogReadersGroup = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinEventLogReadersGroup");
+					r_FWinBuiltinEventLogReadersGroup = new(Type, "WinBuiltinEventLogReadersGroup");
 				}
 				return r_FWinBuiltinEventLogReadersGroup;
 			}
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinNewEnterpriseReadonlyControllersSid == null)
 				{
-					r_FWinNewEnterpriseReadonlyControllersSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinNewEnterpriseReadonlyControllersSid");
+					r_FWinNewEnterpriseReadonlyControllersSid = new(Type, "WinNewEnterpriseReadonlyControllersSid");
 				}
 				return r_FWinNewEnterpriseReadonlyControllersSid;
 			}
@@ -1326,7 +1327,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinCertSvcDComAccessGroup == null)
 				{
-					r_FWinBuiltinCertSvcDComAccessGroup = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinCertSvcDComAccessGroup");
+					r_FWinBuiltinCertSvcDComAccessGroup = new(Type, "WinBuiltinCertSvcDComAccessGroup");
 				}
 				return r_FWinBuiltinCertSvcDComAccessGroup;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinMediumPlusLabelSid == null)
 				{
-					r_FWinMediumPlusLabelSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinMediumPlusLabelSid");
+					r_FWinMediumPlusLabelSid = new(Type, "WinMediumPlusLabelSid");
 				}
 				return r_FWinMediumPlusLabelSid;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinLocalLogonSid == null)
 				{
-					r_FWinLocalLogonSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinLocalLogonSid");
+					r_FWinLocalLogonSid = new(Type, "WinLocalLogonSid");
 				}
 				return r_FWinLocalLogonSid;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinConsoleLogonSid == null)
 				{
-					r_FWinConsoleLogonSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinConsoleLogonSid");
+					r_FWinConsoleLogonSid = new(Type, "WinConsoleLogonSid");
 				}
 				return r_FWinConsoleLogonSid;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinThisOrganizationCertificateSid == null)
 				{
-					r_FWinThisOrganizationCertificateSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinThisOrganizationCertificateSid");
+					r_FWinThisOrganizationCertificateSid = new(Type, "WinThisOrganizationCertificateSid");
 				}
 				return r_FWinThisOrganizationCertificateSid;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinApplicationPackageAuthoritySid == null)
 				{
-					r_FWinApplicationPackageAuthoritySid = new(typeof(System.Security.Principal.WellKnownSidType), "WinApplicationPackageAuthoritySid");
+					r_FWinApplicationPackageAuthoritySid = new(Type, "WinApplicationPackageAuthoritySid");
 				}
 				return r_FWinApplicationPackageAuthoritySid;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinBuiltinAnyPackageSid == null)
 				{
-					r_FWinBuiltinAnyPackageSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinBuiltinAnyPackageSid");
+					r_FWinBuiltinAnyPackageSid = new(Type, "WinBuiltinAnyPackageSid");
 				}
 				return r_FWinBuiltinAnyPackageSid;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityInternetClientSid == null)
 				{
-					r_FWinCapabilityInternetClientSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityInternetClientSid");
+					r_FWinCapabilityInternetClientSid = new(Type, "WinCapabilityInternetClientSid");
 				}
 				return r_FWinCapabilityInternetClientSid;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityInternetClientServerSid == null)
 				{
-					r_FWinCapabilityInternetClientServerSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityInternetClientServerSid");
+					r_FWinCapabilityInternetClientServerSid = new(Type, "WinCapabilityInternetClientServerSid");
 				}
 				return r_FWinCapabilityInternetClientServerSid;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityPrivateNetworkClientServerSid == null)
 				{
-					r_FWinCapabilityPrivateNetworkClientServerSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityPrivateNetworkClientServerSid");
+					r_FWinCapabilityPrivateNetworkClientServerSid = new(Type, "WinCapabilityPrivateNetworkClientServerSid");
 				}
 				return r_FWinCapabilityPrivateNetworkClientServerSid;
 			}
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityPicturesLibrarySid == null)
 				{
-					r_FWinCapabilityPicturesLibrarySid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityPicturesLibrarySid");
+					r_FWinCapabilityPicturesLibrarySid = new(Type, "WinCapabilityPicturesLibrarySid");
 				}
 				return r_FWinCapabilityPicturesLibrarySid;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityVideosLibrarySid == null)
 				{
-					r_FWinCapabilityVideosLibrarySid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityVideosLibrarySid");
+					r_FWinCapabilityVideosLibrarySid = new(Type, "WinCapabilityVideosLibrarySid");
 				}
 				return r_FWinCapabilityVideosLibrarySid;
 			}
@@ -1518,7 +1519,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityMusicLibrarySid == null)
 				{
-					r_FWinCapabilityMusicLibrarySid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityMusicLibrarySid");
+					r_FWinCapabilityMusicLibrarySid = new(Type, "WinCapabilityMusicLibrarySid");
 				}
 				return r_FWinCapabilityMusicLibrarySid;
 			}
@@ -1534,7 +1535,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityDocumentsLibrarySid == null)
 				{
-					r_FWinCapabilityDocumentsLibrarySid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityDocumentsLibrarySid");
+					r_FWinCapabilityDocumentsLibrarySid = new(Type, "WinCapabilityDocumentsLibrarySid");
 				}
 				return r_FWinCapabilityDocumentsLibrarySid;
 			}
@@ -1550,7 +1551,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilitySharedUserCertificatesSid == null)
 				{
-					r_FWinCapabilitySharedUserCertificatesSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilitySharedUserCertificatesSid");
+					r_FWinCapabilitySharedUserCertificatesSid = new(Type, "WinCapabilitySharedUserCertificatesSid");
 				}
 				return r_FWinCapabilitySharedUserCertificatesSid;
 			}
@@ -1566,7 +1567,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityEnterpriseAuthenticationSid == null)
 				{
-					r_FWinCapabilityEnterpriseAuthenticationSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityEnterpriseAuthenticationSid");
+					r_FWinCapabilityEnterpriseAuthenticationSid = new(Type, "WinCapabilityEnterpriseAuthenticationSid");
 				}
 				return r_FWinCapabilityEnterpriseAuthenticationSid;
 			}
@@ -1582,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 			{
 				if(r_FWinCapabilityRemovableStorageSid == null)
 				{
-					r_FWinCapabilityRemovableStorageSid = new(typeof(System.Security.Principal.WellKnownSidType), "WinCapabilityRemovableStorageSid");
+					r_FWinCapabilityRemovableStorageSid = new(Type, "WinCapabilityRemovableStorageSid");
 				}
 				return r_FWinCapabilityRemovableStorageSid;
 			}
@@ -1804,7 +1805,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1815,7 +1816,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1826,7 +1827,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1837,7 +1838,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1848,7 +1849,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1859,7 +1860,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1870,7 +1871,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1881,7 +1882,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1892,7 +1893,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1903,7 +1904,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -1925,7 +1926,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1936,7 +1937,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// NiceIO.NPath+FileSystem
 	/// </summary>
     public partial class RFileSystem : RMember //
@@ -48,7 +49,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_F_active == null)
 				{
-					r_F_active = new( ReflectionUtils.GetType("NiceIO.NPath+FileSystem"), "_active");
+					r_F_active = new(Type, "_active");
 				}
 				return r_F_active;
 			}
@@ -64,7 +65,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_PActive == null)
 				{
-					r_PActive = new( ReflectionUtils.GetType("NiceIO.NPath+FileSystem"), "Active", -1);
+					r_PActive = new(Type, "Active", -1);
 				}
 				return r_PActive;
 			}
@@ -80,7 +81,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
 			{
 				if(r_MMakeFileSystemForCurrentMachine == null)
 				{
-					r_MMakeFileSystemForCurrentMachine = new( ReflectionUtils.GetType("NiceIO.NPath+FileSystem"), "MakeFileSystemForCurrentMachine", 0);
+					r_MMakeFileSystemForCurrentMachine = new(Type, "MakeFileSystemForCurrentMachine", 0);
 				}
 				return r_MMakeFileSystemForCurrentMachine;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMMakeFileSystemForCurrentMachine.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath.RFileSystem>(___result);
         }
 
 
@@ -644,7 +645,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value, @filter, @searchOptions};
             var ___result = RMDirectory_GetFiles_NPath_String_SearchOption.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -655,7 +656,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMDirectory_Exists_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -666,7 +667,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_Exists_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -732,7 +733,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_ReadAllText_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_ReadAllBytes_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_ReadAllLines_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -787,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_GetLastWriteTimeUtc_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_GetSize_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -820,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMFile_GetAttributes_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.IO.FileAttributes)___result;
+            return ReflectionUtils.Convert<System.IO.FileAttributes>(___result);
         }
 
 
@@ -864,7 +865,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMDirectory_GetCurrentDirectory.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -886,7 +887,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value, @filter, @searchOptions};
             var ___result = RMDirectory_GetDirectories_NPath_String_SearchOption.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RNiceIO.RNPath>>(___result);
         }
 
 
@@ -897,7 +898,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMResolve_NPath.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RNiceIO.RNPath(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RNiceIO.RNPath>(___result);
         }
 
 
@@ -908,7 +909,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@path.Value};
             var ___result = RMIsSymbolicLink_NPath.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -930,7 +931,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -952,7 +953,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -963,7 +964,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -985,7 +986,7 @@ namespace Hvak.Editor.Refleaction.RNiceIO
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Rect
 	/// </summary>
     public partial class RRect : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pzero == null)
 				{
-					r_Pzero = new(typeof(UnityEngine.Rect), "zero", -1);
+					r_Pzero = new(Type, "zero", -1);
 				}
 				return r_Pzero;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MMinMaxRect_Single_Single_Single_Single == null)
 				{
-					r_MMinMaxRect_Single_Single_Single_Single = new(typeof(UnityEngine.Rect), "MinMaxRect", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
+					r_MMinMaxRect_Single_Single_Single_Single = new(Type, "MinMaxRect", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MMinMaxRect_Single_Single_Single_Single;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MOrderMinMax_Rect == null)
 				{
-					r_MOrderMinMax_Rect = new(typeof(UnityEngine.Rect), "OrderMinMax", 0, typeof(UnityEngine.Rect));
+					r_MOrderMinMax_Rect = new(Type, "OrderMinMax", 0, typeof(UnityEngine.Rect));
 				}
 				return r_MOrderMinMax_Rect;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MNormalizedToPoint_Rect_Vector2 == null)
 				{
-					r_MNormalizedToPoint_Rect_Vector2 = new(typeof(UnityEngine.Rect), "NormalizedToPoint", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
+					r_MNormalizedToPoint_Rect_Vector2 = new(Type, "NormalizedToPoint", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
 				}
 				return r_MNormalizedToPoint_Rect_Vector2;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MPointToNormalized_Rect_Vector2 == null)
 				{
-					r_MPointToNormalized_Rect_Vector2 = new(typeof(UnityEngine.Rect), "PointToNormalized", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
+					r_MPointToNormalized_Rect_Vector2 = new(Type, "PointToNormalized", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2));
 				}
 				return r_MPointToNormalized_Rect_Vector2;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_Rect_Rect == null)
 				{
-					r_Mop_Inequality_Rect_Rect = new(typeof(UnityEngine.Rect), "op_Inequality", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
+					r_Mop_Inequality_Rect_Rect = new(Type, "op_Inequality", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
 				}
 				return r_Mop_Inequality_Rect_Rect;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_Rect_Rect == null)
 				{
-					r_Mop_Equality_Rect_Rect = new(typeof(UnityEngine.Rect), "op_Equality", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
+					r_Mop_Equality_Rect_Rect = new(Type, "op_Equality", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
 				}
 				return r_Mop_Equality_Rect_Rect;
 			}
@@ -732,7 +733,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@xmin, @ymin, @xmax, @ymax};
             var ___result = RMMinMaxRect_Single_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@point};
             var ___result = RMContains_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@point};
             var ___result = RMContains_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -776,7 +777,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@point, @allowInverse};
             var ___result = RMContains_Vector3_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -787,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rect};
             var ___result = RMOrderMinMax_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMOverlaps_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -809,7 +810,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other, @allowInverse};
             var ___result = RMOverlaps_Rect_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -820,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rectangle, @normalizedRectCoordinates};
             var ___result = RMNormalizedToPoint_Rect_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -831,7 +832,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rectangle, @point};
             var ___result = RMPointToNormalized_Rect_Vector2.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -842,7 +843,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Rect_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -853,7 +854,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Rect_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -864,7 +865,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -875,7 +876,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -886,7 +887,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -897,7 +898,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -908,7 +909,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -919,7 +920,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -941,7 +942,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -952,7 +953,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

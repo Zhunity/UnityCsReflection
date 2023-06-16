@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.LowLevel.GlyphValueRecord
 	/// </summary>
     public partial class RGlyphValueRecord : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_Mop_Addition_GlyphValueRecord_GlyphValueRecord == null)
 				{
-					r_Mop_Addition_GlyphValueRecord_GlyphValueRecord = new(typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), "op_Addition", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord));
+					r_Mop_Addition_GlyphValueRecord_GlyphValueRecord = new(Type, "op_Addition", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord));
 				}
 				return r_Mop_Addition_GlyphValueRecord_GlyphValueRecord;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_Mop_Multiply_GlyphValueRecord_Single == null)
 				{
-					r_Mop_Multiply_GlyphValueRecord_Single = new(typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), "op_Multiply", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(System.Single));
+					r_Mop_Multiply_GlyphValueRecord_Single = new(Type, "op_Multiply", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(System.Single));
 				}
 				return r_Mop_Multiply_GlyphValueRecord_Single;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_Mop_Equality_GlyphValueRecord_GlyphValueRecord == null)
 				{
-					r_Mop_Equality_GlyphValueRecord_GlyphValueRecord = new(typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), "op_Equality", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord));
+					r_Mop_Equality_GlyphValueRecord_GlyphValueRecord = new(Type, "op_Equality", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord));
 				}
 				return r_Mop_Equality_GlyphValueRecord_GlyphValueRecord;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_Mop_Inequality_GlyphValueRecord_GlyphValueRecord == null)
 				{
-					r_Mop_Inequality_GlyphValueRecord_GlyphValueRecord = new(typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), "op_Inequality", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord));
+					r_Mop_Inequality_GlyphValueRecord_GlyphValueRecord = new(Type, "op_Inequality", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord));
 				}
 				return r_Mop_Inequality_GlyphValueRecord_GlyphValueRecord;
 			}
@@ -348,7 +349,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Addition_GlyphValueRecord_GlyphValueRecord.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.LowLevel.GlyphValueRecord)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.GlyphValueRecord>(___result);
         }
 
 
@@ -359,7 +360,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@a, @emScale};
             var ___result = RMop_Multiply_GlyphValueRecord_Single.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.TextCore.LowLevel.GlyphValueRecord)___result;
+            return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.GlyphValueRecord>(___result);
         }
 
 
@@ -370,7 +371,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -381,7 +382,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -392,7 +393,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_GlyphValueRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -403,7 +404,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_GlyphValueRecord_GlyphValueRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_GlyphValueRecord_GlyphValueRecord.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -425,7 +426,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -447,7 +448,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -458,7 +459,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

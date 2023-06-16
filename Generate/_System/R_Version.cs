@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Version
 	/// </summary>
     public partial class RVersion : RMember //
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_String == null)
 				{
-					r_MParse_String = new(typeof(System.Version), "Parse", 0, typeof(System.String));
+					r_MParse_String = new(Type, "Parse", 0, typeof(System.String));
 				}
 				return r_MParse_String;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParse_ReadOnlySpan_d_Char_p_ == null)
 				{
-					r_MParse_ReadOnlySpan_d_Char_p_ = new(typeof(System.Version), "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
+					r_MParse_ReadOnlySpan_d_Char_p_ = new(Type, "Parse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)));
 				}
 				return r_MParse_ReadOnlySpan_d_Char_p_;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_String_Out_Version == null)
 				{
-					r_MTryParse_String_Out_Version = new(typeof(System.Version), "TryParse", 0, typeof(System.String), typeof(System.Version).MakeByRefType());
+					r_MTryParse_String_Out_Version = new(Type, "TryParse", 0, typeof(System.String), typeof(System.Version).MakeByRefType());
 				}
 				return r_MTryParse_String_Out_Version;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParse_ReadOnlySpan_d_Char_p__Out_Version == null)
 				{
-					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Version = new(typeof(System.Version), "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Version).MakeByRefType());
+					r_MTryParse_ReadOnlySpan_d_Char_p__Out_Version = new(Type, "TryParse", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Version).MakeByRefType());
 				}
 				return r_MTryParse_ReadOnlySpan_d_Char_p__Out_Version;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MParseVersion_ReadOnlySpan_d_Char_p__Boolean == null)
 				{
-					r_MParseVersion_ReadOnlySpan_d_Char_p__Boolean = new(typeof(System.Version), "ParseVersion", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
+					r_MParseVersion_ReadOnlySpan_d_Char_p__Boolean = new(Type, "ParseVersion", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.Boolean));
 				}
 				return r_MParseVersion_ReadOnlySpan_d_Char_p__Boolean;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32 == null)
 				{
-					r_MTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32 = new(typeof(System.Version), "TryParseComponent", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
+					r_MTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32 = new(Type, "TryParseComponent", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Char)), typeof(System.String), typeof(System.Boolean), typeof(System.Int32).MakeByRefType());
 				}
 				return r_MTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_Version_Version == null)
 				{
-					r_Mop_Equality_Version_Version = new(typeof(System.Version), "op_Equality", 0, typeof(System.Version), typeof(System.Version));
+					r_Mop_Equality_Version_Version = new(Type, "op_Equality", 0, typeof(System.Version), typeof(System.Version));
 				}
 				return r_Mop_Equality_Version_Version;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_Version_Version == null)
 				{
-					r_Mop_Inequality_Version_Version = new(typeof(System.Version), "op_Inequality", 0, typeof(System.Version), typeof(System.Version));
+					r_Mop_Inequality_Version_Version = new(Type, "op_Inequality", 0, typeof(System.Version), typeof(System.Version));
 				}
 				return r_Mop_Inequality_Version_Version;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThan_Version_Version == null)
 				{
-					r_Mop_LessThan_Version_Version = new(typeof(System.Version), "op_LessThan", 0, typeof(System.Version), typeof(System.Version));
+					r_Mop_LessThan_Version_Version = new(Type, "op_LessThan", 0, typeof(System.Version), typeof(System.Version));
 				}
 				return r_Mop_LessThan_Version_Version;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_LessThanOrEqual_Version_Version == null)
 				{
-					r_Mop_LessThanOrEqual_Version_Version = new(typeof(System.Version), "op_LessThanOrEqual", 0, typeof(System.Version), typeof(System.Version));
+					r_Mop_LessThanOrEqual_Version_Version = new(Type, "op_LessThanOrEqual", 0, typeof(System.Version), typeof(System.Version));
 				}
 				return r_Mop_LessThanOrEqual_Version_Version;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThan_Version_Version == null)
 				{
-					r_Mop_GreaterThan_Version_Version = new(typeof(System.Version), "op_GreaterThan", 0, typeof(System.Version), typeof(System.Version));
+					r_Mop_GreaterThan_Version_Version = new(Type, "op_GreaterThan", 0, typeof(System.Version), typeof(System.Version));
 				}
 				return r_Mop_GreaterThan_Version_Version;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_GreaterThanOrEqual_Version_Version == null)
 				{
-					r_Mop_GreaterThanOrEqual_Version_Version = new(typeof(System.Version), "op_GreaterThanOrEqual", 0, typeof(System.Version), typeof(System.Version));
+					r_Mop_GreaterThanOrEqual_Version_Version = new(Type, "op_GreaterThanOrEqual", 0, typeof(System.Version), typeof(System.Version));
 				}
 				return r_Mop_GreaterThanOrEqual_Version_Version;
 			}
@@ -652,7 +653,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -663,7 +664,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@version};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -674,7 +675,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMCompareTo_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -685,7 +686,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -696,7 +697,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -707,7 +708,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -729,7 +730,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@fieldCount};
             var ___result = RMToString_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -742,7 +743,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryFormat_Span_d_Char_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -755,7 +756,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryFormat_Span_d_Char_p__Int32_Out_Int32.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -768,7 +769,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMSystem__2__ISpanFormattable__2__TryFormat_Span_d_Char_p__Out_Int32_ReadOnlySpan_d_Char_p__IFormatProvider.Invoke(___genericsType, ___parameters);
 			@charsWritten = (System.Int32)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -779,7 +780,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@fieldCount};
             var ___result = RMToCachedStringBuilder_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Text.StringBuilder)___result;
+            return ReflectionUtils.Convert<System.Text.StringBuilder>(___result);
         }
 
 
@@ -790,7 +791,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input};
             var ___result = RMParse_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Version)___result;
+            return ReflectionUtils.Convert<System.Version>(___result);
         }
 
 
@@ -801,7 +802,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input.Value};
             var ___result = RMParse_ReadOnlySpan_d_Char_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Version)___result;
+            return ReflectionUtils.Convert<System.Version>(___result);
         }
 
 
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_String_Out_Version.Invoke(___genericsType, ___parameters);
 			@result = (System.Version)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -827,7 +828,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParse_ReadOnlySpan_d_Char_p__Out_Version.Invoke(___genericsType, ___parameters);
 			@result = (System.Version)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -838,7 +839,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@input.Value, @throwOnFailure};
             var ___result = RMParseVersion_ReadOnlySpan_d_Char_p__Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Version)___result;
+            return ReflectionUtils.Convert<System.Version>(___result);
         }
 
 
@@ -851,7 +852,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___result = RMTryParseComponent_ReadOnlySpan_d_Char_p__String_Boolean_Out_Int32.Invoke(___genericsType, ___parameters);
 			@parsedComponent = (System.Int32)___parameters[3];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@v1, @v2};
             var ___result = RMop_Equality_Version_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -873,7 +874,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@v1, @v2};
             var ___result = RMop_Inequality_Version_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -884,7 +885,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@v1, @v2};
             var ___result = RMop_LessThan_Version_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -895,7 +896,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@v1, @v2};
             var ___result = RMop_LessThanOrEqual_Version_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -906,7 +907,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@v1, @v2};
             var ___result = RMop_GreaterThan_Version_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -917,7 +918,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@v1, @v2};
             var ___result = RMop_GreaterThanOrEqual_Version_Version.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -939,7 +940,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -950,7 +951,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

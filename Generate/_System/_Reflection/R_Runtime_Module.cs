@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.RuntimeModule
 	/// </summary>
     public partial class RRuntimeModule : RMember //
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveField_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_MResolveField_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveField", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_MResolveField_Module_IntPtr_Int32_TypeArray_TypeArray = new(Type, "ResolveField", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 				}
 				return r_MResolveField_Module_IntPtr_Int32_TypeArray_TypeArray;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_MResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMember", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_MResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray = new(Type, "ResolveMember", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 				}
 				return r_MResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_MResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMethod", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_MResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray = new(Type, "ResolveMethod", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 				}
 				return r_MResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveString_Module_IntPtr_Int32 == null)
 				{
-					r_MResolveString_Module_IntPtr_Int32 = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveString", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
+					r_MResolveString_Module_IntPtr_Int32 = new(Type, "ResolveString", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MResolveString_Module_IntPtr_Int32;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveType_Module_IntPtr_Int32_TypeArray_TypeArray == null)
 				{
-					r_MResolveType_Module_IntPtr_Int32_TypeArray_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveType", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
+					r_MResolveType_Module_IntPtr_Int32_TypeArray_TypeArray = new(Type, "ResolveType", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32), typeof(System.Type).MakeArrayType(), typeof(System.Type).MakeArrayType());
 				}
 				return r_MResolveType_Module_IntPtr_Int32_TypeArray_TypeArray;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveSignature_Module_IntPtr_Int32 == null)
 				{
-					r_MResolveSignature_Module_IntPtr_Int32 = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveSignature", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
+					r_MResolveSignature_Module_IntPtr_Int32 = new(Type, "ResolveSignature", 0, typeof(System.Reflection.Module), typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MResolveSignature_Module_IntPtr_Int32;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_Mresolve_token_exception_String_Int32_ResolveTokenError_String == null)
 				{
-					r_Mresolve_token_exception_String_Int32_ResolveTokenError_String = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "resolve_token_exception", 0, typeof(System.String), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError"), typeof(System.String));
+					r_Mresolve_token_exception_String_Int32_ResolveTokenError_String = new(Type, "resolve_token_exception", 0, typeof(System.String), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError"), typeof(System.String));
 				}
 				return r_Mresolve_token_exception_String_Int32_ResolveTokenError_String;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_Mptrs_from_types_TypeArray == null)
 				{
-					r_Mptrs_from_types_TypeArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ptrs_from_types", 0, typeof(System.Type).MakeArrayType());
+					r_Mptrs_from_types_TypeArray = new(Type, "ptrs_from_types", 0, typeof(System.Type).MakeArrayType());
 				}
 				return r_Mptrs_from_types_TypeArray;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_Mget_MetadataToken_Module == null)
 				{
-					r_Mget_MetadataToken_Module = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "get_MetadataToken", 0, typeof(System.Reflection.Module));
+					r_Mget_MetadataToken_Module = new(Type, "get_MetadataToken", 0, typeof(System.Reflection.Module));
 				}
 				return r_Mget_MetadataToken_Module;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MGetMDStreamVersion_IntPtr == null)
 				{
-					r_MGetMDStreamVersion_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetMDStreamVersion", 0, typeof(System.IntPtr));
+					r_MGetMDStreamVersion_IntPtr = new(Type, "GetMDStreamVersion", 0, typeof(System.IntPtr));
 				}
 				return r_MGetMDStreamVersion_IntPtr;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MInternalGetTypes_IntPtr == null)
 				{
-					r_MInternalGetTypes_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "InternalGetTypes", 0, typeof(System.IntPtr));
+					r_MInternalGetTypes_IntPtr = new(Type, "InternalGetTypes", 0, typeof(System.IntPtr));
 				}
 				return r_MInternalGetTypes_IntPtr;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MGetHINSTANCE_IntPtr == null)
 				{
-					r_MGetHINSTANCE_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetHINSTANCE", 0, typeof(System.IntPtr));
+					r_MGetHINSTANCE_IntPtr = new(Type, "GetHINSTANCE", 0, typeof(System.IntPtr));
 				}
 				return r_MGetHINSTANCE_IntPtr;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MGetGuidInternal_IntPtr_ByteArray == null)
 				{
-					r_MGetGuidInternal_IntPtr_ByteArray = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetGuidInternal", 0, typeof(System.IntPtr), typeof(System.Byte).MakeArrayType());
+					r_MGetGuidInternal_IntPtr_ByteArray = new(Type, "GetGuidInternal", 0, typeof(System.IntPtr), typeof(System.Byte).MakeArrayType());
 				}
 				return r_MGetGuidInternal_IntPtr_ByteArray;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MGetGlobalType_IntPtr == null)
 				{
-					r_MGetGlobalType_IntPtr = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetGlobalType", 0, typeof(System.IntPtr));
+					r_MGetGlobalType_IntPtr = new(Type, "GetGlobalType", 0, typeof(System.IntPtr));
 				}
 				return r_MGetGlobalType_IntPtr;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_MResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveTypeToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_MResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new(Type, "ResolveTypeToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 				}
 				return r_MResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_MResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMethodToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_MResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new(Type, "ResolveMethodToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 				}
 				return r_MResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_MResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveFieldToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_MResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new(Type, "ResolveFieldToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 				}
 				return r_MResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveStringToken_IntPtr_Int32_Out_ResolveTokenError == null)
 				{
-					r_MResolveStringToken_IntPtr_Int32_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveStringToken", 0, typeof(System.IntPtr), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_MResolveStringToken_IntPtr_Int32_Out_ResolveTokenError = new(Type, "ResolveStringToken", 0, typeof(System.IntPtr), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 				}
 				return r_MResolveStringToken_IntPtr_Int32_Out_ResolveTokenError;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError == null)
 				{
-					r_MResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveMemberToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_MResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError = new(Type, "ResolveMemberToken", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr).MakeArrayType(), typeof(System.IntPtr).MakeArrayType(),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 				}
 				return r_MResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MResolveSignature_IntPtr_Int32_Out_ResolveTokenError == null)
 				{
-					r_MResolveSignature_IntPtr_Int32_Out_ResolveTokenError = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "ResolveSignature", 0, typeof(System.IntPtr), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
+					r_MResolveSignature_IntPtr_Int32_Out_ResolveTokenError = new(Type, "ResolveSignature", 0, typeof(System.IntPtr), typeof(System.Int32),  ReflectionUtils.GetType("System.Reflection.ResolveTokenError").MakeByRefType());
 				}
 				return r_MResolveSignature_IntPtr_Int32_Out_ResolveTokenError;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_MGetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine == null)
 				{
-					r_MGetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine = new( ReflectionUtils.GetType("System.Reflection.RuntimeModule"), "GetPEKind", 0, typeof(System.IntPtr), typeof(System.Reflection.PortableExecutableKinds).MakeByRefType(), typeof(System.Reflection.ImageFileMachine).MakeByRefType());
+					r_MGetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine = new(Type, "GetPEKind", 0, typeof(System.IntPtr), typeof(System.Reflection.PortableExecutableKinds).MakeByRefType(), typeof(System.Reflection.ImageFileMachine).MakeByRefType());
 				}
 				return r_MGetPEKind_IntPtr_Out_PortableExecutableKinds_Out_ImageFileMachine;
 			}
@@ -1340,7 +1341,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMIsResource.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1351,7 +1352,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@filter, @filterCriteria};
             var ___result = RMFindTypes_TypeFilter_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Type[])___result;
+            return ReflectionUtils.Convert<System.Type[]>(___result);
         }
 
 
@@ -1362,7 +1363,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@inherit};
             var ___result = RMGetCustomAttributes_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object[])___result;
+            return ReflectionUtils.Convert<System.Object[]>(___result);
         }
 
 
@@ -1373,7 +1374,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@attributeType, @inherit};
             var ___result = RMGetCustomAttributes_Type_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Object[])___result;
+            return ReflectionUtils.Convert<System.Object[]>(___result);
         }
 
 
@@ -1384,7 +1385,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name, @bindingAttr};
             var ___result = RMGetField_String_BindingFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
         }
 
 
@@ -1395,7 +1396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@bindingFlags};
             var ___result = RMGetFields_BindingFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo[])___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo[]>(___result);
         }
 
 
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name, @bindingAttr, @binder, @callConvention, @types, @modifiers};
             var ___result = RMGetMethodImpl_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
         }
 
 
@@ -1417,7 +1418,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@bindingFlags};
             var ___result = RMGetMethods_BindingFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo[])___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
         }
 
 
@@ -1428,7 +1429,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetModuleHandleImpl.Invoke(___genericsType, ___parameters);
 
-            return (System.ModuleHandle)___result;
+            return ReflectionUtils.Convert<System.ModuleHandle>(___result);
         }
 
 
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@className, @throwOnError, @ignoreCase};
             var ___result = RMGetType_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1465,7 +1466,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@attributeType, @inherit};
             var ___result = RMIsDefined_Type_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1476,7 +1477,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveField_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
         }
 
 
@@ -1487,7 +1488,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module, @monoModule, @metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveField_Module_IntPtr_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
         }
 
 
@@ -1498,7 +1499,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveMember_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MemberInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MemberInfo>(___result);
         }
 
 
@@ -1509,7 +1510,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module, @monoModule, @metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveMember_Module_IntPtr_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MemberInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MemberInfo>(___result);
         }
 
 
@@ -1520,7 +1521,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveMethod_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodBase)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodBase>(___result);
         }
 
 
@@ -1531,7 +1532,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module, @monoModule, @metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveMethod_Module_IntPtr_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodBase)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodBase>(___result);
         }
 
 
@@ -1542,7 +1543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken};
             var ___result = RMResolveString_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1553,7 +1554,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module, @monoModule, @metadataToken};
             var ___result = RMResolveString_Module_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1564,7 +1565,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveType_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1575,7 +1576,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module, @monoModule, @metadataToken, @genericTypeArguments, @genericMethodArguments};
             var ___result = RMResolveType_Module_IntPtr_Int32_TypeArray_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1586,7 +1587,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken};
             var ___result = RMResolveSignature_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1597,7 +1598,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module, @monoModule, @metadataToken};
             var ___result = RMResolveSignature_Module_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1619,7 +1620,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetSignerCertificate.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Cryptography.X509Certificates.X509Certificate)___result;
+            return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
         }
 
 
@@ -1630,7 +1631,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.Type[])___result;
+            return ReflectionUtils.Convert<System.Type[]>(___result);
         }
 
 
@@ -1641,7 +1642,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetCustomAttributesData.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IList<System.Reflection.CustomAttributeData>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IList<System.Reflection.CustomAttributeData>>(___result);
         }
 
 
@@ -1652,7 +1653,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetRuntimeAssembly.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReflection.RRuntimeAssembly>(___result);
         }
 
 
@@ -1663,7 +1664,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetModuleVersionId.Invoke(___genericsType, ___parameters);
 
-            return (System.Guid)___result;
+            return ReflectionUtils.Convert<System.Guid>(___result);
         }
 
 
@@ -1674,7 +1675,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name, @metadataToken, @error.Value, @tokenType};
             var ___result = RMresolve_token_exception_String_Int32_ResolveTokenError_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Exception)___result;
+            return ReflectionUtils.Convert<System.Exception>(___result);
         }
 
 
@@ -1685,7 +1686,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@types};
             var ___result = RMptrs_from_types_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr[])___result;
+            return ReflectionUtils.Convert<System.IntPtr[]>(___result);
         }
 
 
@@ -1696,7 +1697,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module};
             var ___result = RMget_MetadataToken_Module.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1707,7 +1708,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module};
             var ___result = RMGetMDStreamVersion_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1718,7 +1719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module};
             var ___result = RMInternalGetTypes_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Type[])___result;
+            return ReflectionUtils.Convert<System.Type[]>(___result);
         }
 
 
@@ -1729,7 +1730,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module};
             var ___result = RMGetHINSTANCE_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1751,7 +1752,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@module};
             var ___result = RMGetGlobalType_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1764,7 +1765,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___result = RMResolveTypeToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
 			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1777,7 +1778,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___result = RMResolveMethodToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
 			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1790,7 +1791,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___result = RMResolveFieldToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
 			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -1803,7 +1804,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___result = RMResolveStringToken_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
 			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1816,7 +1817,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___result = RMResolveMemberToken_IntPtr_Int32_IntPtrArray_IntPtrArray_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
 			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[4]);
 
-            return (System.Reflection.MemberInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MemberInfo>(___result);
         }
 
 
@@ -1829,7 +1830,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___result = RMResolveSignature_IntPtr_Int32_Out_ResolveTokenError.Invoke(___genericsType, ___parameters);
 			@error = new Hvak.Editor.Refleaction.RSystem.RReflection.RResolveTokenError(___parameters[2]);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1855,7 +1856,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name};
             var ___result = RMGetMethod_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
         }
 
 
@@ -1866,7 +1867,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name, @types};
             var ___result = RMGetMethod_String_TypeArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
         }
 
 
@@ -1877,7 +1878,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name, @bindingAttr, @binder, @callConvention, @types, @modifiers};
             var ___result = RMGetMethod_String_BindingFlags_Binder_CallingConventions_TypeArray_ParameterModifierArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo>(___result);
         }
 
 
@@ -1888,7 +1889,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetMethods.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodInfo[])___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodInfo[]>(___result);
         }
 
 
@@ -1899,7 +1900,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@name};
             var ___result = RMGetField_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
         }
 
 
@@ -1910,7 +1911,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetFields.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo[])___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo[]>(___result);
         }
 
 
@@ -1921,7 +1922,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@className};
             var ___result = RMGetType_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1932,7 +1933,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@className, @ignoreCase};
             var ___result = RMGetType_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1943,7 +1944,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken};
             var ___result = RMResolveField_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.FieldInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.FieldInfo>(___result);
         }
 
 
@@ -1954,7 +1955,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken};
             var ___result = RMResolveMember_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MemberInfo)___result;
+            return ReflectionUtils.Convert<System.Reflection.MemberInfo>(___result);
         }
 
 
@@ -1965,7 +1966,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken};
             var ___result = RMResolveMethod_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Reflection.MethodBase)___result;
+            return ReflectionUtils.Convert<System.Reflection.MethodBase>(___result);
         }
 
 
@@ -1976,7 +1977,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@metadataToken};
             var ___result = RMResolveType_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1987,7 +1988,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@o};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1998,7 +1999,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2009,7 +2010,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2031,7 +2032,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2042,7 +2043,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

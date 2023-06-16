@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Painter2D
 	/// </summary>
     public partial class RPainter2D : RMember //
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_F__0__isPainterActive__1__k__BackingField == null)
 				{
-					r_F__0__isPainterActive__1__k__BackingField = new(typeof(UnityEngine.UIElements.Painter2D), "<isPainterActive>k__BackingField");
+					r_F__0__isPainterActive__1__k__BackingField = new(Type, "<isPainterActive>k__BackingField");
 				}
 				return r_F__0__isPainterActive__1__k__BackingField;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_MaxArcRadius == null)
 				{
-					r_Fs_MaxArcRadius = new(typeof(UnityEngine.UIElements.Painter2D), "s_MaxArcRadius");
+					r_Fs_MaxArcRadius = new(Type, "s_MaxArcRadius");
 				}
 				return r_Fs_MaxArcRadius;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_StrokeMarker == null)
 				{
-					r_Fs_StrokeMarker = new(typeof(UnityEngine.UIElements.Painter2D), "s_StrokeMarker");
+					r_Fs_StrokeMarker = new(Type, "s_StrokeMarker");
 				}
 				return r_Fs_StrokeMarker;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_FillMarker == null)
 				{
-					r_Fs_FillMarker = new(typeof(UnityEngine.UIElements.Painter2D), "s_FillMarker");
+					r_Fs_FillMarker = new(Type, "s_FillMarker");
 				}
 				return r_Fs_FillMarker;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PisPainterActive == null)
 				{
-					r_PisPainterActive = new(typeof(UnityEngine.UIElements.Painter2D), "isPainterActive", -1);
+					r_PisPainterActive = new(Type, "isPainterActive", -1);
 				}
 				return r_PisPainterActive;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PmaxArcRadius == null)
 				{
-					r_PmaxArcRadius = new(typeof(UnityEngine.UIElements.Painter2D), "maxArcRadius", -1);
+					r_PmaxArcRadius = new(Type, "maxArcRadius", -1);
 				}
 				return r_PmaxArcRadius;
 			}
@@ -711,7 +712,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@vertexCount, @indexCount};
             var ___result = RMAllocate_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 
@@ -755,7 +756,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMValidateState.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -876,7 +877,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@vectorImage};
             var ___result = RMSaveToVectorImage_VectorImage.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -887,7 +888,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -909,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -920,7 +921,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -931,7 +932,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

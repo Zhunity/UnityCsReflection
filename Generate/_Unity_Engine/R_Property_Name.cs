@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.PropertyName
 	/// </summary>
     public partial class RPropertyName : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MIsNullOrEmpty_PropertyName == null)
 				{
-					r_MIsNullOrEmpty_PropertyName = new(typeof(UnityEngine.PropertyName), "IsNullOrEmpty", 0, typeof(UnityEngine.PropertyName));
+					r_MIsNullOrEmpty_PropertyName = new(Type, "IsNullOrEmpty", 0, typeof(UnityEngine.PropertyName));
 				}
 				return r_MIsNullOrEmpty_PropertyName;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_PropertyName_PropertyName == null)
 				{
-					r_Mop_Equality_PropertyName_PropertyName = new(typeof(UnityEngine.PropertyName), "op_Equality", 0, typeof(UnityEngine.PropertyName), typeof(UnityEngine.PropertyName));
+					r_Mop_Equality_PropertyName_PropertyName = new(Type, "op_Equality", 0, typeof(UnityEngine.PropertyName), typeof(UnityEngine.PropertyName));
 				}
 				return r_Mop_Equality_PropertyName_PropertyName;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_PropertyName_PropertyName == null)
 				{
-					r_Mop_Inequality_PropertyName_PropertyName = new(typeof(UnityEngine.PropertyName), "op_Inequality", 0, typeof(UnityEngine.PropertyName), typeof(UnityEngine.PropertyName));
+					r_Mop_Inequality_PropertyName_PropertyName = new(Type, "op_Inequality", 0, typeof(UnityEngine.PropertyName), typeof(UnityEngine.PropertyName));
 				}
 				return r_Mop_Inequality_PropertyName_PropertyName;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_String == null)
 				{
-					r_Mop_Implicit_String = new(typeof(UnityEngine.PropertyName), "op_Implicit", 0, typeof(System.String));
+					r_Mop_Implicit_String = new(Type, "op_Implicit", 0, typeof(System.String));
 				}
 				return r_Mop_Implicit_String;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_Int32 == null)
 				{
-					r_Mop_Implicit_Int32 = new(typeof(UnityEngine.PropertyName), "op_Implicit", 0, typeof(System.Int32));
+					r_Mop_Implicit_Int32 = new(Type, "op_Implicit", 0, typeof(System.Int32));
 				}
 				return r_Mop_Implicit_Int32;
 			}
@@ -268,7 +269,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@prop};
             var ___result = RMIsNullOrEmpty_PropertyName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -279,7 +280,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_PropertyName_PropertyName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -290,7 +291,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_PropertyName_PropertyName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -301,7 +302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -312,7 +313,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -323,7 +324,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_PropertyName.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@name};
             var ___result = RMop_Implicit_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.PropertyName)___result;
+            return ReflectionUtils.Convert<UnityEngine.PropertyName>(___result);
         }
 
 
@@ -345,7 +346,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@id};
             var ___result = RMop_Implicit_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.PropertyName)___result;
+            return ReflectionUtils.Convert<UnityEngine.PropertyName>(___result);
         }
 
 
@@ -356,7 +357,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -378,7 +379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -389,7 +390,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

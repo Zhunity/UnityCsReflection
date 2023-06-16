@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter
 	/// </summary>
     public partial class RYieldAwaiter : RMember //
@@ -48,7 +49,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_Fs_waitCallbackRunAction == null)
 				{
-					r_Fs_waitCallbackRunAction = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "s_waitCallbackRunAction");
+					r_Fs_waitCallbackRunAction = new(Type, "s_waitCallbackRunAction");
 				}
 				return r_Fs_waitCallbackRunAction;
 			}
@@ -64,7 +65,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_Fs_sendOrPostCallbackRunAction == null)
 				{
-					r_Fs_sendOrPostCallbackRunAction = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "s_sendOrPostCallbackRunAction");
+					r_Fs_sendOrPostCallbackRunAction = new(Type, "s_sendOrPostCallbackRunAction");
 				}
 				return r_Fs_sendOrPostCallbackRunAction;
 			}
@@ -128,7 +129,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MQueueContinuation_Action_Boolean == null)
 				{
-					r_MQueueContinuation_Action_Boolean = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "QueueContinuation", 0, typeof(System.Action), typeof(System.Boolean));
+					r_MQueueContinuation_Action_Boolean = new(Type, "QueueContinuation", 0, typeof(System.Action), typeof(System.Boolean));
 				}
 				return r_MQueueContinuation_Action_Boolean;
 			}
@@ -144,7 +145,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_MRunAction_Object == null)
 				{
-					r_MRunAction_Object = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.YieldAwaitable+YieldAwaiter"), "RunAction", 0, typeof(System.Object));
+					r_MRunAction_Object = new(Type, "RunAction", 0, typeof(System.Object));
 				}
 				return r_MRunAction_Object;
 			}
@@ -325,7 +326,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -336,7 +337,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -347,7 +348,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -369,7 +370,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -380,7 +381,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

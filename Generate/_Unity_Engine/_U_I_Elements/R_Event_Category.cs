@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.EventCategory
 	/// </summary>
     public partial class REventCategory : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FDefault == null)
 				{
-					r_FDefault = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Default");
+					r_FDefault = new(Type, "Default");
 				}
 				return r_FDefault;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FPointer == null)
 				{
-					r_FPointer = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Pointer");
+					r_FPointer = new(Type, "Pointer");
 				}
 				return r_FPointer;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FPointerMove == null)
 				{
-					r_FPointerMove = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "PointerMove");
+					r_FPointerMove = new(Type, "PointerMove");
 				}
 				return r_FPointerMove;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FEnterLeave == null)
 				{
-					r_FEnterLeave = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "EnterLeave");
+					r_FEnterLeave = new(Type, "EnterLeave");
 				}
 				return r_FEnterLeave;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FEnterLeaveWindow == null)
 				{
-					r_FEnterLeaveWindow = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "EnterLeaveWindow");
+					r_FEnterLeaveWindow = new(Type, "EnterLeaveWindow");
 				}
 				return r_FEnterLeaveWindow;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FKeyboard == null)
 				{
-					r_FKeyboard = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Keyboard");
+					r_FKeyboard = new(Type, "Keyboard");
 				}
 				return r_FKeyboard;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FGeometry == null)
 				{
-					r_FGeometry = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Geometry");
+					r_FGeometry = new(Type, "Geometry");
 				}
 				return r_FGeometry;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FStyle == null)
 				{
-					r_FStyle = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Style");
+					r_FStyle = new(Type, "Style");
 				}
 				return r_FStyle;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FChangeValue == null)
 				{
-					r_FChangeValue = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "ChangeValue");
+					r_FChangeValue = new(Type, "ChangeValue");
 				}
 				return r_FChangeValue;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FBind == null)
 				{
-					r_FBind = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Bind");
+					r_FBind = new(Type, "Bind");
 				}
 				return r_FBind;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FFocus == null)
 				{
-					r_FFocus = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Focus");
+					r_FFocus = new(Type, "Focus");
 				}
 				return r_FFocus;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FChangePanel == null)
 				{
-					r_FChangePanel = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "ChangePanel");
+					r_FChangePanel = new(Type, "ChangePanel");
 				}
 				return r_FChangePanel;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FStyleTransition == null)
 				{
-					r_FStyleTransition = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "StyleTransition");
+					r_FStyleTransition = new(Type, "StyleTransition");
 				}
 				return r_FStyleTransition;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FNavigation == null)
 				{
-					r_FNavigation = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Navigation");
+					r_FNavigation = new(Type, "Navigation");
 				}
 				return r_FNavigation;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FCommand == null)
 				{
-					r_FCommand = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Command");
+					r_FCommand = new(Type, "Command");
 				}
 				return r_FCommand;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FTooltip == null)
 				{
-					r_FTooltip = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "Tooltip");
+					r_FTooltip = new(Type, "Tooltip");
 				}
 				return r_FTooltip;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_FIMGUI == null)
 				{
-					r_FIMGUI = new( ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"), "IMGUI");
+					r_FIMGUI = new(Type, "IMGUI");
 				}
 				return r_FIMGUI;
 			}
@@ -540,7 +541,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -551,7 +552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -562,7 +563,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -573,7 +574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -584,7 +585,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -595,7 +596,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -617,7 +618,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -628,7 +629,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -639,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -672,7 +673,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.PackageRegistrationEventArgs
 	/// </summary>
     public partial class RPackageRegistrationEventArgs : RMember //
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MInternal_GetAddedPackages_IntPtr == null)
 				{
-					r_MInternal_GetAddedPackages_IntPtr = new(typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs), "Internal_GetAddedPackages", 0, typeof(System.IntPtr));
+					r_MInternal_GetAddedPackages_IntPtr = new(Type, "Internal_GetAddedPackages", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_GetAddedPackages_IntPtr;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MInternal_GetRemovedPackages_IntPtr == null)
 				{
-					r_MInternal_GetRemovedPackages_IntPtr = new(typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs), "Internal_GetRemovedPackages", 0, typeof(System.IntPtr));
+					r_MInternal_GetRemovedPackages_IntPtr = new(Type, "Internal_GetRemovedPackages", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_GetRemovedPackages_IntPtr;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MInternal_GetChangedFromPackages_IntPtr == null)
 				{
-					r_MInternal_GetChangedFromPackages_IntPtr = new(typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs), "Internal_GetChangedFromPackages", 0, typeof(System.IntPtr));
+					r_MInternal_GetChangedFromPackages_IntPtr = new(Type, "Internal_GetChangedFromPackages", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_GetChangedFromPackages_IntPtr;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MInternal_GetChangedToPackages_IntPtr == null)
 				{
-					r_MInternal_GetChangedToPackages_IntPtr = new(typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs), "Internal_GetChangedToPackages", 0, typeof(System.IntPtr));
+					r_MInternal_GetChangedToPackages_IntPtr = new(Type, "Internal_GetChangedToPackages", 0, typeof(System.IntPtr));
 				}
 				return r_MInternal_GetChangedToPackages_IntPtr;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MInstantiateFromNative_IntPtr == null)
 				{
-					r_MInstantiateFromNative_IntPtr = new(typeof(UnityEditor.PackageManager.PackageRegistrationEventArgs), "InstantiateFromNative", 0, typeof(System.IntPtr));
+					r_MInstantiateFromNative_IntPtr = new(Type, "InstantiateFromNative", 0, typeof(System.IntPtr));
 				}
 				return r_MInstantiateFromNative_IntPtr;
 			}
@@ -364,7 +365,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@nativeHandle};
             var ___result = RMInternal_GetAddedPackages_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -375,7 +376,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@nativeHandle};
             var ___result = RMInternal_GetRemovedPackages_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -386,7 +387,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@nativeHandle};
             var ___result = RMInternal_GetChangedFromPackages_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -397,7 +398,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@nativeHandle};
             var ___result = RMInternal_GetChangedToPackages_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -408,7 +409,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@nativeHandle};
             var ___result = RMInstantiateFromNative_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageRegistrationEventArgs)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageRegistrationEventArgs>(___result);
         }
 
 
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -452,7 +453,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -463,7 +464,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -474,7 +475,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -485,7 +486,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

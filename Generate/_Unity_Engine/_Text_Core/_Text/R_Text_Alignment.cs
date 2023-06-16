@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.TextAlignment
 	/// </summary>
     public partial class RTextAlignment : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FTopLeft == null)
 				{
-					r_FTopLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopLeft");
+					r_FTopLeft = new(Type, "TopLeft");
 				}
 				return r_FTopLeft;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FTopCenter == null)
 				{
-					r_FTopCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopCenter");
+					r_FTopCenter = new(Type, "TopCenter");
 				}
 				return r_FTopCenter;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FTopRight == null)
 				{
-					r_FTopRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopRight");
+					r_FTopRight = new(Type, "TopRight");
 				}
 				return r_FTopRight;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FTopJustified == null)
 				{
-					r_FTopJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopJustified");
+					r_FTopJustified = new(Type, "TopJustified");
 				}
 				return r_FTopJustified;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FTopFlush == null)
 				{
-					r_FTopFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopFlush");
+					r_FTopFlush = new(Type, "TopFlush");
 				}
 				return r_FTopFlush;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FTopGeoAligned == null)
 				{
-					r_FTopGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "TopGeoAligned");
+					r_FTopGeoAligned = new(Type, "TopGeoAligned");
 				}
 				return r_FTopGeoAligned;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMiddleLeft == null)
 				{
-					r_FMiddleLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleLeft");
+					r_FMiddleLeft = new(Type, "MiddleLeft");
 				}
 				return r_FMiddleLeft;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMiddleCenter == null)
 				{
-					r_FMiddleCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleCenter");
+					r_FMiddleCenter = new(Type, "MiddleCenter");
 				}
 				return r_FMiddleCenter;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMiddleRight == null)
 				{
-					r_FMiddleRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleRight");
+					r_FMiddleRight = new(Type, "MiddleRight");
 				}
 				return r_FMiddleRight;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMiddleJustified == null)
 				{
-					r_FMiddleJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleJustified");
+					r_FMiddleJustified = new(Type, "MiddleJustified");
 				}
 				return r_FMiddleJustified;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMiddleFlush == null)
 				{
-					r_FMiddleFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleFlush");
+					r_FMiddleFlush = new(Type, "MiddleFlush");
 				}
 				return r_FMiddleFlush;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMiddleGeoAligned == null)
 				{
-					r_FMiddleGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MiddleGeoAligned");
+					r_FMiddleGeoAligned = new(Type, "MiddleGeoAligned");
 				}
 				return r_FMiddleGeoAligned;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBottomLeft == null)
 				{
-					r_FBottomLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomLeft");
+					r_FBottomLeft = new(Type, "BottomLeft");
 				}
 				return r_FBottomLeft;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBottomCenter == null)
 				{
-					r_FBottomCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomCenter");
+					r_FBottomCenter = new(Type, "BottomCenter");
 				}
 				return r_FBottomCenter;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBottomRight == null)
 				{
-					r_FBottomRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomRight");
+					r_FBottomRight = new(Type, "BottomRight");
 				}
 				return r_FBottomRight;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBottomJustified == null)
 				{
-					r_FBottomJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomJustified");
+					r_FBottomJustified = new(Type, "BottomJustified");
 				}
 				return r_FBottomJustified;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBottomFlush == null)
 				{
-					r_FBottomFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomFlush");
+					r_FBottomFlush = new(Type, "BottomFlush");
 				}
 				return r_FBottomFlush;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBottomGeoAligned == null)
 				{
-					r_FBottomGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BottomGeoAligned");
+					r_FBottomGeoAligned = new(Type, "BottomGeoAligned");
 				}
 				return r_FBottomGeoAligned;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBaselineLeft == null)
 				{
-					r_FBaselineLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineLeft");
+					r_FBaselineLeft = new(Type, "BaselineLeft");
 				}
 				return r_FBaselineLeft;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBaselineCenter == null)
 				{
-					r_FBaselineCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineCenter");
+					r_FBaselineCenter = new(Type, "BaselineCenter");
 				}
 				return r_FBaselineCenter;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBaselineRight == null)
 				{
-					r_FBaselineRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineRight");
+					r_FBaselineRight = new(Type, "BaselineRight");
 				}
 				return r_FBaselineRight;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBaselineJustified == null)
 				{
-					r_FBaselineJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineJustified");
+					r_FBaselineJustified = new(Type, "BaselineJustified");
 				}
 				return r_FBaselineJustified;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBaselineFlush == null)
 				{
-					r_FBaselineFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineFlush");
+					r_FBaselineFlush = new(Type, "BaselineFlush");
 				}
 				return r_FBaselineFlush;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FBaselineGeoAligned == null)
 				{
-					r_FBaselineGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "BaselineGeoAligned");
+					r_FBaselineGeoAligned = new(Type, "BaselineGeoAligned");
 				}
 				return r_FBaselineGeoAligned;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMidlineLeft == null)
 				{
-					r_FMidlineLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineLeft");
+					r_FMidlineLeft = new(Type, "MidlineLeft");
 				}
 				return r_FMidlineLeft;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMidlineCenter == null)
 				{
-					r_FMidlineCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineCenter");
+					r_FMidlineCenter = new(Type, "MidlineCenter");
 				}
 				return r_FMidlineCenter;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMidlineRight == null)
 				{
-					r_FMidlineRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineRight");
+					r_FMidlineRight = new(Type, "MidlineRight");
 				}
 				return r_FMidlineRight;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMidlineJustified == null)
 				{
-					r_FMidlineJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineJustified");
+					r_FMidlineJustified = new(Type, "MidlineJustified");
 				}
 				return r_FMidlineJustified;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMidlineFlush == null)
 				{
-					r_FMidlineFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineFlush");
+					r_FMidlineFlush = new(Type, "MidlineFlush");
 				}
 				return r_FMidlineFlush;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FMidlineGeoAligned == null)
 				{
-					r_FMidlineGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "MidlineGeoAligned");
+					r_FMidlineGeoAligned = new(Type, "MidlineGeoAligned");
 				}
 				return r_FMidlineGeoAligned;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FCaplineLeft == null)
 				{
-					r_FCaplineLeft = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineLeft");
+					r_FCaplineLeft = new(Type, "CaplineLeft");
 				}
 				return r_FCaplineLeft;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FCaplineCenter == null)
 				{
-					r_FCaplineCenter = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineCenter");
+					r_FCaplineCenter = new(Type, "CaplineCenter");
 				}
 				return r_FCaplineCenter;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FCaplineRight == null)
 				{
-					r_FCaplineRight = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineRight");
+					r_FCaplineRight = new(Type, "CaplineRight");
 				}
 				return r_FCaplineRight;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FCaplineJustified == null)
 				{
-					r_FCaplineJustified = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineJustified");
+					r_FCaplineJustified = new(Type, "CaplineJustified");
 				}
 				return r_FCaplineJustified;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FCaplineFlush == null)
 				{
-					r_FCaplineFlush = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineFlush");
+					r_FCaplineFlush = new(Type, "CaplineFlush");
 				}
 				return r_FCaplineFlush;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_FCaplineGeoAligned == null)
 				{
-					r_FCaplineGeoAligned = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextAlignment"), "CaplineGeoAligned");
+					r_FCaplineGeoAligned = new(Type, "CaplineGeoAligned");
 				}
 				return r_FCaplineGeoAligned;
 			}
@@ -844,7 +845,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -855,7 +856,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -866,7 +867,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -877,7 +878,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -888,7 +889,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -899,7 +900,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -921,7 +922,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -932,7 +933,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -943,7 +944,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -965,7 +966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -976,7 +977,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

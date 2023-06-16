@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.ContextualMenuPopulateEvent
 	/// </summary>
     public partial class RContextualMenuPopulateEvent : RMember //
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_EventBase_DropdownMenu_IEventHandler_ContextualMenuManager == null)
 				{
-					r_MGetPooled_EventBase_DropdownMenu_IEventHandler_ContextualMenuManager = new(typeof(UnityEngine.UIElements.ContextualMenuPopulateEvent), "GetPooled", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.DropdownMenu), typeof(UnityEngine.UIElements.IEventHandler), typeof(UnityEngine.UIElements.ContextualMenuManager));
+					r_MGetPooled_EventBase_DropdownMenu_IEventHandler_ContextualMenuManager = new(Type, "GetPooled", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.UIElements.DropdownMenu), typeof(UnityEngine.UIElements.IEventHandler), typeof(UnityEngine.UIElements.ContextualMenuManager));
 				}
 				return r_MGetPooled_EventBase_DropdownMenu_IEventHandler_ContextualMenuManager;
 			}
@@ -1132,7 +1133,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@triggerEvent, @menu, @target, @menuManager};
             var ___result = RMGetPooled_EventBase_DropdownMenu_IEventHandler_ContextualMenuManager.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.ContextualMenuPopulateEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.ContextualMenuPopulateEvent>(___result);
         }
 
 
@@ -1242,7 +1243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@h};
             var ___result = RMSkip_IEventHandler.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1297,7 +1298,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1319,7 +1320,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1330,7 +1331,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1341,7 +1342,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1352,7 +1353,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

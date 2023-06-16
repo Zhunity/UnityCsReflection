@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.Scripting.ScriptCompilation.IVersionTypeTraits
 	/// </summary>
     public partial class RIVersionTypeTraits : RMember //
@@ -92,7 +93,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@c, @strict};
             var ___result = RMIsAllowedFirstCharacter_Char_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -103,7 +104,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@c, @strict};
             var ___result = RMIsAllowedLastCharacter_Char_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -114,7 +115,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@c};
             var ___result = RMIsAllowedCharacter_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

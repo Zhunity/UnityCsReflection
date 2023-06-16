@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Vector3Int
 	/// </summary>
     public partial class RVector3Int : RMember //
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Zero == null)
 				{
-					r_Fs_Zero = new(typeof(UnityEngine.Vector3Int), "s_Zero");
+					r_Fs_Zero = new(Type, "s_Zero");
 				}
 				return r_Fs_Zero;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_One == null)
 				{
-					r_Fs_One = new(typeof(UnityEngine.Vector3Int), "s_One");
+					r_Fs_One = new(Type, "s_One");
 				}
 				return r_Fs_One;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Up == null)
 				{
-					r_Fs_Up = new(typeof(UnityEngine.Vector3Int), "s_Up");
+					r_Fs_Up = new(Type, "s_Up");
 				}
 				return r_Fs_Up;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Down == null)
 				{
-					r_Fs_Down = new(typeof(UnityEngine.Vector3Int), "s_Down");
+					r_Fs_Down = new(Type, "s_Down");
 				}
 				return r_Fs_Down;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Left == null)
 				{
-					r_Fs_Left = new(typeof(UnityEngine.Vector3Int), "s_Left");
+					r_Fs_Left = new(Type, "s_Left");
 				}
 				return r_Fs_Left;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Right == null)
 				{
-					r_Fs_Right = new(typeof(UnityEngine.Vector3Int), "s_Right");
+					r_Fs_Right = new(Type, "s_Right");
 				}
 				return r_Fs_Right;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Forward == null)
 				{
-					r_Fs_Forward = new(typeof(UnityEngine.Vector3Int), "s_Forward");
+					r_Fs_Forward = new(Type, "s_Forward");
 				}
 				return r_Fs_Forward;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Fs_Back == null)
 				{
-					r_Fs_Back = new(typeof(UnityEngine.Vector3Int), "s_Back");
+					r_Fs_Back = new(Type, "s_Back");
 				}
 				return r_Fs_Back;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pzero == null)
 				{
-					r_Pzero = new(typeof(UnityEngine.Vector3Int), "zero", -1);
+					r_Pzero = new(Type, "zero", -1);
 				}
 				return r_Pzero;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pone == null)
 				{
-					r_Pone = new(typeof(UnityEngine.Vector3Int), "one", -1);
+					r_Pone = new(Type, "one", -1);
 				}
 				return r_Pone;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pup == null)
 				{
-					r_Pup = new(typeof(UnityEngine.Vector3Int), "up", -1);
+					r_Pup = new(Type, "up", -1);
 				}
 				return r_Pup;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pdown == null)
 				{
-					r_Pdown = new(typeof(UnityEngine.Vector3Int), "down", -1);
+					r_Pdown = new(Type, "down", -1);
 				}
 				return r_Pdown;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pleft == null)
 				{
-					r_Pleft = new(typeof(UnityEngine.Vector3Int), "left", -1);
+					r_Pleft = new(Type, "left", -1);
 				}
 				return r_Pleft;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pright == null)
 				{
-					r_Pright = new(typeof(UnityEngine.Vector3Int), "right", -1);
+					r_Pright = new(Type, "right", -1);
 				}
 				return r_Pright;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pforward == null)
 				{
-					r_Pforward = new(typeof(UnityEngine.Vector3Int), "forward", -1);
+					r_Pforward = new(Type, "forward", -1);
 				}
 				return r_Pforward;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pback == null)
 				{
-					r_Pback = new(typeof(UnityEngine.Vector3Int), "back", -1);
+					r_Pback = new(Type, "back", -1);
 				}
 				return r_Pback;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MDistance_Vector3Int_Vector3Int == null)
 				{
-					r_MDistance_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "Distance", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_MDistance_Vector3Int_Vector3Int = new(Type, "Distance", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_MDistance_Vector3Int_Vector3Int;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MMin_Vector3Int_Vector3Int == null)
 				{
-					r_MMin_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "Min", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_MMin_Vector3Int_Vector3Int = new(Type, "Min", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_MMin_Vector3Int_Vector3Int;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MMax_Vector3Int_Vector3Int == null)
 				{
-					r_MMax_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "Max", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_MMax_Vector3Int_Vector3Int = new(Type, "Max", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_MMax_Vector3Int_Vector3Int;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MScale_Vector3Int_Vector3Int == null)
 				{
-					r_MScale_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "Scale", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_MScale_Vector3Int_Vector3Int = new(Type, "Scale", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_MScale_Vector3Int_Vector3Int;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Implicit_Vector3Int == null)
 				{
-					r_Mop_Implicit_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Implicit", 0, typeof(UnityEngine.Vector3Int));
+					r_Mop_Implicit_Vector3Int = new(Type, "op_Implicit", 0, typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Implicit_Vector3Int;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Explicit_Vector3Int == null)
 				{
-					r_Mop_Explicit_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Explicit", 0, typeof(UnityEngine.Vector3Int));
+					r_Mop_Explicit_Vector3Int = new(Type, "op_Explicit", 0, typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Explicit_Vector3Int;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MFloorToInt_Vector3 == null)
 				{
-					r_MFloorToInt_Vector3 = new(typeof(UnityEngine.Vector3Int), "FloorToInt", 0, typeof(UnityEngine.Vector3));
+					r_MFloorToInt_Vector3 = new(Type, "FloorToInt", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MFloorToInt_Vector3;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCeilToInt_Vector3 == null)
 				{
-					r_MCeilToInt_Vector3 = new(typeof(UnityEngine.Vector3Int), "CeilToInt", 0, typeof(UnityEngine.Vector3));
+					r_MCeilToInt_Vector3 = new(Type, "CeilToInt", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MCeilToInt_Vector3;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MRoundToInt_Vector3 == null)
 				{
-					r_MRoundToInt_Vector3 = new(typeof(UnityEngine.Vector3Int), "RoundToInt", 0, typeof(UnityEngine.Vector3));
+					r_MRoundToInt_Vector3 = new(Type, "RoundToInt", 0, typeof(UnityEngine.Vector3));
 				}
 				return r_MRoundToInt_Vector3;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Addition_Vector3Int_Vector3Int == null)
 				{
-					r_Mop_Addition_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Addition", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_Mop_Addition_Vector3Int_Vector3Int = new(Type, "op_Addition", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Addition_Vector3Int_Vector3Int;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Subtraction_Vector3Int_Vector3Int == null)
 				{
-					r_Mop_Subtraction_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Subtraction", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_Mop_Subtraction_Vector3Int_Vector3Int = new(Type, "op_Subtraction", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Subtraction_Vector3Int_Vector3Int;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Multiply_Vector3Int_Vector3Int == null)
 				{
-					r_Mop_Multiply_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Multiply", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_Mop_Multiply_Vector3Int_Vector3Int = new(Type, "op_Multiply", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Multiply_Vector3Int_Vector3Int;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_UnaryNegation_Vector3Int == null)
 				{
-					r_Mop_UnaryNegation_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_UnaryNegation", 0, typeof(UnityEngine.Vector3Int));
+					r_Mop_UnaryNegation_Vector3Int = new(Type, "op_UnaryNegation", 0, typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_UnaryNegation_Vector3Int;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Multiply_Vector3Int_Int32 == null)
 				{
-					r_Mop_Multiply_Vector3Int_Int32 = new(typeof(UnityEngine.Vector3Int), "op_Multiply", 0, typeof(UnityEngine.Vector3Int), typeof(System.Int32));
+					r_Mop_Multiply_Vector3Int_Int32 = new(Type, "op_Multiply", 0, typeof(UnityEngine.Vector3Int), typeof(System.Int32));
 				}
 				return r_Mop_Multiply_Vector3Int_Int32;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Multiply_Int32_Vector3Int == null)
 				{
-					r_Mop_Multiply_Int32_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Multiply", 0, typeof(System.Int32), typeof(UnityEngine.Vector3Int));
+					r_Mop_Multiply_Int32_Vector3Int = new(Type, "op_Multiply", 0, typeof(System.Int32), typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Multiply_Int32_Vector3Int;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Division_Vector3Int_Int32 == null)
 				{
-					r_Mop_Division_Vector3Int_Int32 = new(typeof(UnityEngine.Vector3Int), "op_Division", 0, typeof(UnityEngine.Vector3Int), typeof(System.Int32));
+					r_Mop_Division_Vector3Int_Int32 = new(Type, "op_Division", 0, typeof(UnityEngine.Vector3Int), typeof(System.Int32));
 				}
 				return r_Mop_Division_Vector3Int_Int32;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Equality_Vector3Int_Vector3Int == null)
 				{
-					r_Mop_Equality_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Equality", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_Mop_Equality_Vector3Int_Vector3Int = new(Type, "op_Equality", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Equality_Vector3Int_Vector3Int;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Mop_Inequality_Vector3Int_Vector3Int == null)
 				{
-					r_Mop_Inequality_Vector3Int_Vector3Int = new(typeof(UnityEngine.Vector3Int), "op_Inequality", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
+					r_Mop_Inequality_Vector3Int_Vector3Int = new(Type, "op_Inequality", 0, typeof(UnityEngine.Vector3Int), typeof(UnityEngine.Vector3Int));
 				}
 				return r_Mop_Inequality_Vector3Int_Vector3Int;
 			}
@@ -935,7 +936,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMDistance_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -946,7 +947,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMMin_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -957,7 +958,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMMax_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -968,7 +969,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMScale_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1001,7 +1002,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@v};
             var ___result = RMop_Implicit_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -1012,7 +1013,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@v};
             var ___result = RMop_Explicit_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2Int>(___result);
         }
 
 
@@ -1023,7 +1024,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@v};
             var ___result = RMFloorToInt_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1034,7 +1035,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@v};
             var ___result = RMCeilToInt_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1045,7 +1046,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@v};
             var ___result = RMRoundToInt_Vector3.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1056,7 +1057,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Addition_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1067,7 +1068,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Subtraction_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1078,7 +1079,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Multiply_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1089,7 +1090,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a};
             var ___result = RMop_UnaryNegation_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1100,7 +1101,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Multiply_Vector3Int_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1111,7 +1112,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Multiply_Int32_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1122,7 +1123,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Division_Vector3Int_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector3Int)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector3Int>(___result);
         }
 
 
@@ -1133,7 +1134,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Equality_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1144,7 +1145,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@lhs, @rhs};
             var ___result = RMop_Inequality_Vector3Int_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1155,7 +1156,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Vector3Int.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1177,7 +1178,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1188,7 +1189,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1199,7 +1200,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1210,7 +1211,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @formatProvider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1232,7 +1233,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1243,7 +1244,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

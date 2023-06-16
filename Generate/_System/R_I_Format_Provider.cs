@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.IFormatProvider
 	/// </summary>
     public partial class RIFormatProvider : RMember //
@@ -60,7 +61,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@formatType};
             var ___result = RMGetFormat_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditorInternal.ReorderableList+Defaults
 	/// </summary>
     public partial class RDefaults : RMember //
@@ -224,7 +225,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_Fpadding == null)
 				{
-					r_Fpadding = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "padding");
+					r_Fpadding = new(Type, "padding");
 				}
 				return r_Fpadding;
 			}
@@ -240,7 +241,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FdragHandleWidth == null)
 				{
-					r_FdragHandleWidth = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "dragHandleWidth");
+					r_FdragHandleWidth = new(Type, "dragHandleWidth");
 				}
 				return r_FdragHandleWidth;
 			}
@@ -256,7 +257,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FpropertyDrawerPadding == null)
 				{
-					r_FpropertyDrawerPadding = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "propertyDrawerPadding");
+					r_FpropertyDrawerPadding = new(Type, "propertyDrawerPadding");
 				}
 				return r_FpropertyDrawerPadding;
 			}
@@ -272,7 +273,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FminHeaderHeight == null)
 				{
-					r_FminHeaderHeight = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "minHeaderHeight");
+					r_FminHeaderHeight = new(Type, "minHeaderHeight");
 				}
 				return r_FminHeaderHeight;
 			}
@@ -288,7 +289,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FelementPadding == null)
 				{
-					r_FelementPadding = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "elementPadding");
+					r_FelementPadding = new(Type, "elementPadding");
 				}
 				return r_FelementPadding;
 			}
@@ -304,7 +305,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_Fs_ListIsEmpty == null)
 				{
-					r_Fs_ListIsEmpty = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "s_ListIsEmpty");
+					r_Fs_ListIsEmpty = new(Type, "s_ListIsEmpty");
 				}
 				return r_Fs_ListIsEmpty;
 			}
@@ -320,7 +321,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FundoAdd == null)
 				{
-					r_FundoAdd = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "undoAdd");
+					r_FundoAdd = new(Type, "undoAdd");
 				}
 				return r_FundoAdd;
 			}
@@ -336,7 +337,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FundoRemove == null)
 				{
-					r_FundoRemove = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "undoRemove");
+					r_FundoRemove = new(Type, "undoRemove");
 				}
 				return r_FundoRemove;
 			}
@@ -352,7 +353,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FundoMove == null)
 				{
-					r_FundoMove = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "undoMove");
+					r_FundoMove = new(Type, "undoMove");
 				}
 				return r_FundoMove;
 			}
@@ -368,7 +369,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FinfinityRect == null)
 				{
-					r_FinfinityRect = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "infinityRect");
+					r_FinfinityRect = new(Type, "infinityRect");
 				}
 				return r_FinfinityRect;
 			}
@@ -416,7 +417,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MElementPadding_Single == null)
 				{
-					r_MElementPadding_Single = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "ElementPadding", 0, typeof(System.Single));
+					r_MElementPadding_Single = new(Type, "ElementPadding", 0, typeof(System.Single));
 				}
 				return r_MElementPadding_Single;
 			}
@@ -432,7 +433,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MOverMaxMultiEditLimit_Int32 == null)
 				{
-					r_MOverMaxMultiEditLimit_Int32 = new( ReflectionUtils.GetType("UnityEditorInternal.ReorderableList+Defaults"), "OverMaxMultiEditLimit", 0, typeof(System.Int32));
+					r_MOverMaxMultiEditLimit_Int32 = new(Type, "OverMaxMultiEditLimit", 0, typeof(System.Int32));
 				}
 				return r_MOverMaxMultiEditLimit_Int32;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@prop};
             var ___result = RMArrayCountInPropertyPath_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -745,7 +746,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@r, @prop};
             var ___result = RMFieldLabelSize_Rect_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -756,7 +757,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@height};
             var ___result = RMElementPadding_Single.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -767,7 +768,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@maxMultiEditElementCount};
             var ___result = RMOverMaxMultiEditLimit_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.GUIContent)___result;
+            return ReflectionUtils.Convert<UnityEngine.GUIContent>(___result);
         }
 
 
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -932,7 +933,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -943,7 +944,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -954,7 +955,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -965,7 +966,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

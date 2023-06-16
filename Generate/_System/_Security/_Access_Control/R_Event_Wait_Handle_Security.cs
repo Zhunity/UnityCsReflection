@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.AccessControl.EventWaitHandleSecurity
 	/// </summary>
     public partial class REventWaitHandleSecurity : RMember //
@@ -1420,7 +1421,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@identityReference, @accessMask, @isInherited, @inheritanceFlags, @propagationFlags, @type};
             var ___result = RMAccessRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AccessControlType.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AccessRule)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AccessRule>(___result);
         }
 
 
@@ -1442,7 +1443,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@rule};
             var ___result = RMRemoveAccessRule_EventWaitHandleAccessRule.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1497,7 +1498,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@identityReference, @accessMask, @isInherited, @inheritanceFlags, @propagationFlags, @flags};
             var ___result = RMAuditRuleFactory_IdentityReference_Int32_Boolean_InheritanceFlags_PropagationFlags_AuditFlags.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AuditRule)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AuditRule>(___result);
         }
 
 
@@ -1519,7 +1520,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@rule};
             var ___result = RMRemoveAuditRule_EventWaitHandleAuditRule.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1640,7 +1641,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@handle, @includeSections};
             var ___result = RMInternalGet_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1651,7 +1652,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@name, @includeSections};
             var ___result = RMInternalGet_String_AccessControlSections.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@handle, @includeSections};
             var ___result = RMInternalSet_SafeHandle_AccessControlSections.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1673,7 +1674,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@name, @includeSections};
             var ___result = RMInternalSet_String_AccessControlSections.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1684,7 +1685,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
             var ___result = RMGetAccessRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AuthorizationRuleCollection)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
         }
 
 
@@ -1695,7 +1696,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
             var ___result = RMGetAuditRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AuthorizationRuleCollection)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
         }
 
 
@@ -1717,7 +1718,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@rule};
             var ___result = RMRemoveAccessRule_AccessRule.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1774,7 +1775,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___result = RMModifyAccess_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = (System.Boolean)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1796,7 +1797,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@rule};
             var ___result = RMRemoveAuditRule_AuditRule.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1842,7 +1843,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___result = RMModifyAudit_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = (System.Boolean)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1853,7 +1854,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@targetType};
             var ___result = RMGetGroup_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Principal.IdentityReference)___result;
+            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
         }
 
 
@@ -1864,7 +1865,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@targetType};
             var ___result = RMGetOwner_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Principal.IdentityReference)___result;
+            return ReflectionUtils.Convert<System.Security.Principal.IdentityReference>(___result);
         }
 
 
@@ -1875,7 +1876,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetSecurityDescriptorBinaryForm.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1886,7 +1887,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@includeSections};
             var ___result = RMGetSecurityDescriptorSddlForm_AccessControlSections.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1899,7 +1900,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___result = RMModifyAccessRule_AccessControlModification_AccessRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = (System.Boolean)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1912,7 +1913,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___result = RMModifyAuditRule_AccessControlModification_AuditRule_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@modified = (System.Boolean)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2088,7 +2089,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
             var ___result = RMInternalGetAccessRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AuthorizationRuleCollection)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
         }
 
 
@@ -2099,7 +2100,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@ace, @targetType, @type};
             var ___result = RMInternalAccessRuleFactory_QualifiedAce_Type_AccessControlType.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AccessRule)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AccessRule>(___result);
         }
 
 
@@ -2110,7 +2111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@includeExplicit, @includeInherited, @targetType};
             var ___result = RMInternalGetAuditRules_Boolean_Boolean_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AuthorizationRuleCollection)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AuthorizationRuleCollection>(___result);
         }
 
 
@@ -2121,7 +2122,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@ace, @targetType};
             var ___result = RMInternalAuditRuleFactory_QualifiedAce_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.AccessControl.AuditRule)___result;
+            return ReflectionUtils.Convert<System.Security.AccessControl.AuditRule>(___result);
         }
 
 
@@ -2132,7 +2133,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2154,7 +2155,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2165,7 +2166,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2176,7 +2177,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2187,7 +2188,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RAccessControl
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

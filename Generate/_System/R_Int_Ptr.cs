@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.IntPtr
 	/// </summary>
     public partial class RIntPtr : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_FZero == null)
 				{
-					r_FZero = new(typeof(System.IntPtr), "Zero");
+					r_FZero = new(Type, "Zero");
 				}
 				return r_FZero;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_PSize == null)
 				{
-					r_PSize = new(typeof(System.IntPtr), "Size", -1);
+					r_PSize = new(Type, "Size", -1);
 				}
 				return r_PSize;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Equality_IntPtr_IntPtr == null)
 				{
-					r_Mop_Equality_IntPtr_IntPtr = new(typeof(System.IntPtr), "op_Equality", 0, typeof(System.IntPtr), typeof(System.IntPtr));
+					r_Mop_Equality_IntPtr_IntPtr = new(Type, "op_Equality", 0, typeof(System.IntPtr), typeof(System.IntPtr));
 				}
 				return r_Mop_Equality_IntPtr_IntPtr;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Inequality_IntPtr_IntPtr == null)
 				{
-					r_Mop_Inequality_IntPtr_IntPtr = new(typeof(System.IntPtr), "op_Inequality", 0, typeof(System.IntPtr), typeof(System.IntPtr));
+					r_Mop_Inequality_IntPtr_IntPtr = new(Type, "op_Inequality", 0, typeof(System.IntPtr), typeof(System.IntPtr));
 				}
 				return r_Mop_Inequality_IntPtr_IntPtr;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Int32 == null)
 				{
-					r_Mop_Explicit_Int32 = new(typeof(System.IntPtr), "op_Explicit", 0, typeof(System.Int32));
+					r_Mop_Explicit_Int32 = new(Type, "op_Explicit", 0, typeof(System.Int32));
 				}
 				return r_Mop_Explicit_Int32;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_Int64 == null)
 				{
-					r_Mop_Explicit_Int64 = new(typeof(System.IntPtr), "op_Explicit", 0, typeof(System.Int64));
+					r_Mop_Explicit_Int64 = new(Type, "op_Explicit", 0, typeof(System.Int64));
 				}
 				return r_Mop_Explicit_Int64;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_VoidPointer == null)
 				{
-					r_Mop_Explicit_VoidPointer = new(typeof(System.IntPtr), "op_Explicit", 0, typeof(void).MakePointerType());
+					r_Mop_Explicit_VoidPointer = new(Type, "op_Explicit", 0, typeof(void).MakePointerType());
 				}
 				return r_Mop_Explicit_VoidPointer;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Explicit_IntPtr == null)
 				{
-					r_Mop_Explicit_IntPtr = new(typeof(System.IntPtr), "op_Explicit", 0, typeof(System.IntPtr));
+					r_Mop_Explicit_IntPtr = new(Type, "op_Explicit", 0, typeof(System.IntPtr));
 				}
 				return r_Mop_Explicit_IntPtr;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MAdd_IntPtr_Int32 == null)
 				{
-					r_MAdd_IntPtr_Int32 = new(typeof(System.IntPtr), "Add", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MAdd_IntPtr_Int32 = new(Type, "Add", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MAdd_IntPtr_Int32;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_MSubtract_IntPtr_Int32 == null)
 				{
-					r_MSubtract_IntPtr_Int32 = new(typeof(System.IntPtr), "Subtract", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_MSubtract_IntPtr_Int32 = new(Type, "Subtract", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MSubtract_IntPtr_Int32;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Addition_IntPtr_Int32 == null)
 				{
-					r_Mop_Addition_IntPtr_Int32 = new(typeof(System.IntPtr), "op_Addition", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_Mop_Addition_IntPtr_Int32 = new(Type, "op_Addition", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_Mop_Addition_IntPtr_Int32;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem
 			{
 				if(r_Mop_Subtraction_IntPtr_Int32 == null)
 				{
-					r_Mop_Subtraction_IntPtr_Int32 = new(typeof(System.IntPtr), "op_Subtraction", 0, typeof(System.IntPtr), typeof(System.Int32));
+					r_Mop_Subtraction_IntPtr_Int32 = new(Type, "op_Subtraction", 0, typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_Mop_Subtraction_IntPtr_Int32;
 			}
@@ -471,7 +472,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -482,7 +483,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -493,7 +494,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToInt32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -504,7 +505,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToInt64.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -537,7 +538,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -548,7 +549,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value1, @value2};
             var ___result = RMop_Equality_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -559,7 +560,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value1, @value2};
             var ___result = RMop_Inequality_IntPtr_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -570,7 +571,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -581,7 +582,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_Int64.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -592,7 +593,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{Pointer.Box(@value, typeof(void))};
             var ___result = RMop_Explicit_VoidPointer.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -603,7 +604,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@value};
             var ___result = RMop_Explicit_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -614,7 +615,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@pointer, @offset};
             var ___result = RMAdd_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -625,7 +626,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@pointer, @offset};
             var ___result = RMSubtract_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -636,7 +637,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@pointer, @offset};
             var ___result = RMop_Addition_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -647,7 +648,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@pointer, @offset};
             var ___result = RMop_Subtraction_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -658,7 +659,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMIsNull.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -669,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{@other};
             var ___result = RMSystem__2__IEquatable__0__System__2__IntPtr__1____2__Equals_IntPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -691,7 +692,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.LowLevel.FontEngineError
 	/// </summary>
     public partial class RFontEngineError : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FSuccess == null)
 				{
-					r_FSuccess = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Success");
+					r_FSuccess = new(Type, "Success");
 				}
 				return r_FSuccess;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_File_Path == null)
 				{
-					r_FInvalid_File_Path = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_File_Path");
+					r_FInvalid_File_Path = new(Type, "Invalid_File_Path");
 				}
 				return r_FInvalid_File_Path;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_File_Format == null)
 				{
-					r_FInvalid_File_Format = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_File_Format");
+					r_FInvalid_File_Format = new(Type, "Invalid_File_Format");
 				}
 				return r_FInvalid_File_Format;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_File_Structure == null)
 				{
-					r_FInvalid_File_Structure = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_File_Structure");
+					r_FInvalid_File_Structure = new(Type, "Invalid_File_Structure");
 				}
 				return r_FInvalid_File_Structure;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_File == null)
 				{
-					r_FInvalid_File = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_File");
+					r_FInvalid_File = new(Type, "Invalid_File");
 				}
 				return r_FInvalid_File;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Table == null)
 				{
-					r_FInvalid_Table = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Table");
+					r_FInvalid_Table = new(Type, "Invalid_Table");
 				}
 				return r_FInvalid_Table;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Glyph_Index == null)
 				{
-					r_FInvalid_Glyph_Index = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Glyph_Index");
+					r_FInvalid_Glyph_Index = new(Type, "Invalid_Glyph_Index");
 				}
 				return r_FInvalid_Glyph_Index;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Character_Code == null)
 				{
-					r_FInvalid_Character_Code = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Character_Code");
+					r_FInvalid_Character_Code = new(Type, "Invalid_Character_Code");
 				}
 				return r_FInvalid_Character_Code;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Pixel_Size == null)
 				{
-					r_FInvalid_Pixel_Size = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Pixel_Size");
+					r_FInvalid_Pixel_Size = new(Type, "Invalid_Pixel_Size");
 				}
 				return r_FInvalid_Pixel_Size;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Library == null)
 				{
-					r_FInvalid_Library = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Library");
+					r_FInvalid_Library = new(Type, "Invalid_Library");
 				}
 				return r_FInvalid_Library;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Face == null)
 				{
-					r_FInvalid_Face = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Face");
+					r_FInvalid_Face = new(Type, "Invalid_Face");
 				}
 				return r_FInvalid_Face;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_Library_or_Face == null)
 				{
-					r_FInvalid_Library_or_Face = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_Library_or_Face");
+					r_FInvalid_Library_or_Face = new(Type, "Invalid_Library_or_Face");
 				}
 				return r_FInvalid_Library_or_Face;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FAtlas_Generation_Cancelled == null)
 				{
-					r_FAtlas_Generation_Cancelled = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Atlas_Generation_Cancelled");
+					r_FAtlas_Generation_Cancelled = new(Type, "Atlas_Generation_Cancelled");
 				}
 				return r_FAtlas_Generation_Cancelled;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FInvalid_SharedTextureData == null)
 				{
-					r_FInvalid_SharedTextureData = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "Invalid_SharedTextureData");
+					r_FInvalid_SharedTextureData = new(Type, "Invalid_SharedTextureData");
 				}
 				return r_FInvalid_SharedTextureData;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 			{
 				if(r_FOpenTypeLayoutLookup_Mismatch == null)
 				{
-					r_FOpenTypeLayoutLookup_Mismatch = new(typeof(UnityEngine.TextCore.LowLevel.FontEngineError), "OpenTypeLayoutLookup_Mismatch");
+					r_FOpenTypeLayoutLookup_Mismatch = new(Type, "OpenTypeLayoutLookup_Mismatch");
 				}
 				return r_FOpenTypeLayoutLookup_Mismatch;
 			}
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -519,7 +520,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -530,7 +531,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -541,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -552,7 +553,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -563,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -585,7 +586,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -596,7 +597,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -607,7 +608,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -629,7 +630,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -640,7 +641,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

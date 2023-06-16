@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.Experimental.ValueAnimation`1
 	/// </summary>
     public partial class RValueAnimation<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_Fk_DefaultDurationMs == null)
 				{
-					r_Fk_DefaultDurationMs = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "k_DefaultDurationMs");
+					r_Fk_DefaultDurationMs = new(Type, "k_DefaultDurationMs");
 				}
 				return r_Fk_DefaultDurationMs;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_Fk_DefaultMaxPoolSize == null)
 				{
-					r_Fk_DefaultMaxPoolSize = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "k_DefaultMaxPoolSize");
+					r_Fk_DefaultMaxPoolSize = new(Type, "k_DefaultMaxPoolSize");
 				}
 				return r_Fk_DefaultMaxPoolSize;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_FsObjectPool == null)
 				{
-					r_FsObjectPool = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "sObjectPool");
+					r_FsObjectPool = new(Type, "sObjectPool");
 				}
 				return r_FsObjectPool;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
 			{
 				if(r_MCreate_VisualElement_Func_d_T_T_Single_T_p_ == null)
 				{
-					r_MCreate_VisualElement_Func_d_T_T_Single_T_p_ = new( ReflectionUtils.GetType("UnityEngine.UIElements.Experimental.ValueAnimation`1"), "Create", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("System.Func`4").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0), typeof(System.Single), Type.MakeGenericMethodParameter(0)));
+					r_MCreate_VisualElement_Func_d_T_T_Single_T_p_ = new(Type, "Create", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("System.Func`4").MakeGenericType(Type.MakeGenericMethodParameter(0), Type.MakeGenericMethodParameter(0), typeof(System.Single), Type.MakeGenericMethodParameter(0)));
 				}
 				return r_MCreate_VisualElement_Func_d_T_T_Single_T_p_;
 			}
@@ -911,7 +912,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@e, @interpolator};
             var ___result = RMCreate_VisualElement_Func_d_T_T_Single_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<T>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<T>>(___result);
         }
 
 
@@ -922,7 +923,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@easing};
             var ___result = RMEase_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<T>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<T>>(___result);
         }
 
 
@@ -933,7 +934,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@callback};
             var ___result = RMOnCompleted_Action.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<T>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<T>>(___result);
         }
 
 
@@ -944,7 +945,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{};
             var ___result = RMKeepAlive.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.Experimental.ValueAnimation<T>)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Experimental.ValueAnimation<T>>(___result);
         }
 
 
@@ -955,7 +956,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -977,7 +978,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -988,7 +989,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -999,7 +1000,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1010,7 +1011,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RExperimental
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

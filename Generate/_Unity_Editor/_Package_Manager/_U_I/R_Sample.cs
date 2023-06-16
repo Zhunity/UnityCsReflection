@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.Sample
 	/// </summary>
     public partial class RSample : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_Fk_CopySamplesFilesTitle == null)
 				{
-					r_Fk_CopySamplesFilesTitle = new(typeof(UnityEditor.PackageManager.UI.Sample), "k_CopySamplesFilesTitle");
+					r_Fk_CopySamplesFilesTitle = new(Type, "k_CopySamplesFilesTitle");
 				}
 				return r_Fk_CopySamplesFilesTitle;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MFindByPackage_PackageInfo_UpmCache_IOProxy_AssetDatabaseProxy == null)
 				{
-					r_MFindByPackage_PackageInfo_UpmCache_IOProxy_AssetDatabaseProxy = new(typeof(UnityEditor.PackageManager.UI.Sample), "FindByPackage", 0, typeof(UnityEditor.PackageManager.PackageInfo),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetDatabaseProxy"));
+					r_MFindByPackage_PackageInfo_UpmCache_IOProxy_AssetDatabaseProxy = new(Type, "FindByPackage", 0, typeof(UnityEditor.PackageManager.PackageInfo),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetDatabaseProxy"));
 				}
 				return r_MFindByPackage_PackageInfo_UpmCache_IOProxy_AssetDatabaseProxy;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 			{
 				if(r_MFindByPackage_String_String == null)
 				{
-					r_MFindByPackage_String_String = new(typeof(UnityEditor.PackageManager.UI.Sample), "FindByPackage", 0, typeof(System.String), typeof(System.String));
+					r_MFindByPackage_String_String = new(Type, "FindByPackage", 0, typeof(System.String), typeof(System.String));
 				}
 				return r_MFindByPackage_String_String;
 			}
@@ -476,7 +477,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@package, @upmCache.Value, @ioProxy.Value, @assetDatabaseProxy.Value};
             var ___result = RMFindByPackage_PackageInfo_UpmCache_IOProxy_AssetDatabaseProxy.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample>>(___result);
         }
 
 
@@ -487,7 +488,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@packageName, @packageVersion};
             var ___result = RMFindByPackage_String_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEditor.PackageManager.UI.Sample>>(___result);
         }
 
 
@@ -498,7 +499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@options.Value};
             var ___result = RMImport_ImportOptions.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -509,7 +510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -520,7 +521,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -531,7 +532,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -553,7 +554,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -564,7 +565,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

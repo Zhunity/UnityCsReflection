@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.IPropertyView
 	/// </summary>
     public partial class RIPropertyView : RMember //
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@headerOnGUI, @v};
             var ___result = RMCreateIMGUIContainer_Action_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.IMGUIContainer)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.IMGUIContainer>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@editors, @editorIndex, @target};
             var ___result = RMWasEditorVisible_EditorArray_Int32_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -242,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@editors, @editorIndex};
             var ___result = RMShouldCullEditor_EditorArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

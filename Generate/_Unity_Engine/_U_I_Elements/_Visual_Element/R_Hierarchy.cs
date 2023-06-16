@@ -8,6 +8,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.VisualElement+Hierarchy
 	/// </summary>
     public partial class RHierarchy : RMember //
@@ -48,7 +49,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fk_InvalidHierarchyChangeMsg == null)
 				{
-					r_Fk_InvalidHierarchyChangeMsg = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "k_InvalidHierarchyChangeMsg");
+					r_Fk_InvalidHierarchyChangeMsg = new(Type, "k_InvalidHierarchyChangeMsg");
 				}
 				return r_Fk_InvalidHierarchyChangeMsg;
 			}
@@ -480,7 +481,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Equality_Hierarchy_Hierarchy == null)
 				{
-					r_Mop_Equality_Hierarchy_Hierarchy = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
+					r_Mop_Equality_Hierarchy_Hierarchy = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
 				}
 				return r_Mop_Equality_Hierarchy_Hierarchy;
 			}
@@ -496,7 +497,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Mop_Inequality_Hierarchy_Hierarchy == null)
 				{
-					r_Mop_Inequality_Hierarchy_Hierarchy = new( ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
+					r_Mop_Inequality_Hierarchy_Hierarchy = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"),  ReflectionUtils.GetType("UnityEngine.UIElements.VisualElement+Hierarchy"));
 				}
 				return r_Mop_Inequality_Hierarchy_Hierarchy;
 			}
@@ -684,7 +685,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@element};
             var ___result = RMIndexOf_VisualElement.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -695,7 +696,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@index};
             var ___result = RMElementAt_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.VisualElement)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 
@@ -706,7 +707,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMChildren.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualElement>>(___result);
         }
 
 
@@ -772,7 +773,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@other.Value};
             var ___result = RMEquals_Hierarchy.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -783,7 +784,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -794,7 +795,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -805,7 +806,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@x.Value, @y.Value};
             var ___result = RMop_Equality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -816,7 +817,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@x.Value, @y.Value};
             var ___result = RMop_Inequality_Hierarchy_Hierarchy.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -827,7 +828,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -849,7 +850,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -860,7 +861,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

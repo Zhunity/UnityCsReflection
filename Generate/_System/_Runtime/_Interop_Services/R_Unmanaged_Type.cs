@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.InteropServices.UnmanagedType
 	/// </summary>
     public partial class RUnmanagedType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FBool == null)
 				{
-					r_FBool = new(typeof(System.Runtime.InteropServices.UnmanagedType), "Bool");
+					r_FBool = new(Type, "Bool");
 				}
 				return r_FBool;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FI1 == null)
 				{
-					r_FI1 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "I1");
+					r_FI1 = new(Type, "I1");
 				}
 				return r_FI1;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FU1 == null)
 				{
-					r_FU1 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "U1");
+					r_FU1 = new(Type, "U1");
 				}
 				return r_FU1;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FI2 == null)
 				{
-					r_FI2 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "I2");
+					r_FI2 = new(Type, "I2");
 				}
 				return r_FI2;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FU2 == null)
 				{
-					r_FU2 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "U2");
+					r_FU2 = new(Type, "U2");
 				}
 				return r_FU2;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FI4 == null)
 				{
-					r_FI4 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "I4");
+					r_FI4 = new(Type, "I4");
 				}
 				return r_FI4;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FU4 == null)
 				{
-					r_FU4 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "U4");
+					r_FU4 = new(Type, "U4");
 				}
 				return r_FU4;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FI8 == null)
 				{
-					r_FI8 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "I8");
+					r_FI8 = new(Type, "I8");
 				}
 				return r_FI8;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FU8 == null)
 				{
-					r_FU8 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "U8");
+					r_FU8 = new(Type, "U8");
 				}
 				return r_FU8;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FR4 == null)
 				{
-					r_FR4 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "R4");
+					r_FR4 = new(Type, "R4");
 				}
 				return r_FR4;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FR8 == null)
 				{
-					r_FR8 = new(typeof(System.Runtime.InteropServices.UnmanagedType), "R8");
+					r_FR8 = new(Type, "R8");
 				}
 				return r_FR8;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FCurrency == null)
 				{
-					r_FCurrency = new(typeof(System.Runtime.InteropServices.UnmanagedType), "Currency");
+					r_FCurrency = new(Type, "Currency");
 				}
 				return r_FCurrency;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FBStr == null)
 				{
-					r_FBStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "BStr");
+					r_FBStr = new(Type, "BStr");
 				}
 				return r_FBStr;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FLPStr == null)
 				{
-					r_FLPStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "LPStr");
+					r_FLPStr = new(Type, "LPStr");
 				}
 				return r_FLPStr;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FLPWStr == null)
 				{
-					r_FLPWStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "LPWStr");
+					r_FLPWStr = new(Type, "LPWStr");
 				}
 				return r_FLPWStr;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FLPTStr == null)
 				{
-					r_FLPTStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "LPTStr");
+					r_FLPTStr = new(Type, "LPTStr");
 				}
 				return r_FLPTStr;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FByValTStr == null)
 				{
-					r_FByValTStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "ByValTStr");
+					r_FByValTStr = new(Type, "ByValTStr");
 				}
 				return r_FByValTStr;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FIUnknown == null)
 				{
-					r_FIUnknown = new(typeof(System.Runtime.InteropServices.UnmanagedType), "IUnknown");
+					r_FIUnknown = new(Type, "IUnknown");
 				}
 				return r_FIUnknown;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FIDispatch == null)
 				{
-					r_FIDispatch = new(typeof(System.Runtime.InteropServices.UnmanagedType), "IDispatch");
+					r_FIDispatch = new(Type, "IDispatch");
 				}
 				return r_FIDispatch;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FStruct == null)
 				{
-					r_FStruct = new(typeof(System.Runtime.InteropServices.UnmanagedType), "Struct");
+					r_FStruct = new(Type, "Struct");
 				}
 				return r_FStruct;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FInterface == null)
 				{
-					r_FInterface = new(typeof(System.Runtime.InteropServices.UnmanagedType), "Interface");
+					r_FInterface = new(Type, "Interface");
 				}
 				return r_FInterface;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FSafeArray == null)
 				{
-					r_FSafeArray = new(typeof(System.Runtime.InteropServices.UnmanagedType), "SafeArray");
+					r_FSafeArray = new(Type, "SafeArray");
 				}
 				return r_FSafeArray;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FByValArray == null)
 				{
-					r_FByValArray = new(typeof(System.Runtime.InteropServices.UnmanagedType), "ByValArray");
+					r_FByValArray = new(Type, "ByValArray");
 				}
 				return r_FByValArray;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FSysInt == null)
 				{
-					r_FSysInt = new(typeof(System.Runtime.InteropServices.UnmanagedType), "SysInt");
+					r_FSysInt = new(Type, "SysInt");
 				}
 				return r_FSysInt;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FSysUInt == null)
 				{
-					r_FSysUInt = new(typeof(System.Runtime.InteropServices.UnmanagedType), "SysUInt");
+					r_FSysUInt = new(Type, "SysUInt");
 				}
 				return r_FSysUInt;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FVBByRefStr == null)
 				{
-					r_FVBByRefStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "VBByRefStr");
+					r_FVBByRefStr = new(Type, "VBByRefStr");
 				}
 				return r_FVBByRefStr;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FAnsiBStr == null)
 				{
-					r_FAnsiBStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "AnsiBStr");
+					r_FAnsiBStr = new(Type, "AnsiBStr");
 				}
 				return r_FAnsiBStr;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FTBStr == null)
 				{
-					r_FTBStr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "TBStr");
+					r_FTBStr = new(Type, "TBStr");
 				}
 				return r_FTBStr;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FVariantBool == null)
 				{
-					r_FVariantBool = new(typeof(System.Runtime.InteropServices.UnmanagedType), "VariantBool");
+					r_FVariantBool = new(Type, "VariantBool");
 				}
 				return r_FVariantBool;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FFunctionPtr == null)
 				{
-					r_FFunctionPtr = new(typeof(System.Runtime.InteropServices.UnmanagedType), "FunctionPtr");
+					r_FFunctionPtr = new(Type, "FunctionPtr");
 				}
 				return r_FFunctionPtr;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FAsAny == null)
 				{
-					r_FAsAny = new(typeof(System.Runtime.InteropServices.UnmanagedType), "AsAny");
+					r_FAsAny = new(Type, "AsAny");
 				}
 				return r_FAsAny;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FLPArray == null)
 				{
-					r_FLPArray = new(typeof(System.Runtime.InteropServices.UnmanagedType), "LPArray");
+					r_FLPArray = new(Type, "LPArray");
 				}
 				return r_FLPArray;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FLPStruct == null)
 				{
-					r_FLPStruct = new(typeof(System.Runtime.InteropServices.UnmanagedType), "LPStruct");
+					r_FLPStruct = new(Type, "LPStruct");
 				}
 				return r_FLPStruct;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FCustomMarshaler == null)
 				{
-					r_FCustomMarshaler = new(typeof(System.Runtime.InteropServices.UnmanagedType), "CustomMarshaler");
+					r_FCustomMarshaler = new(Type, "CustomMarshaler");
 				}
 				return r_FCustomMarshaler;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FError == null)
 				{
-					r_FError = new(typeof(System.Runtime.InteropServices.UnmanagedType), "Error");
+					r_FError = new(Type, "Error");
 				}
 				return r_FError;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FIInspectable == null)
 				{
-					r_FIInspectable = new(typeof(System.Runtime.InteropServices.UnmanagedType), "IInspectable");
+					r_FIInspectable = new(Type, "IInspectable");
 				}
 				return r_FIInspectable;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FHString == null)
 				{
-					r_FHString = new(typeof(System.Runtime.InteropServices.UnmanagedType), "HString");
+					r_FHString = new(Type, "HString");
 				}
 				return r_FHString;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
 			{
 				if(r_FLPUTF8Str == null)
 				{
-					r_FLPUTF8Str = new(typeof(System.Runtime.InteropServices.UnmanagedType), "LPUTF8Str");
+					r_FLPUTF8Str = new(Type, "LPUTF8Str");
 				}
 				return r_FLPUTF8Str;
 			}
@@ -876,7 +877,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -887,7 +888,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -898,7 +899,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -909,7 +910,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -920,7 +921,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -931,7 +932,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -953,7 +954,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -964,7 +965,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -975,7 +976,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -997,7 +998,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1008,7 +1009,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RInteropServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

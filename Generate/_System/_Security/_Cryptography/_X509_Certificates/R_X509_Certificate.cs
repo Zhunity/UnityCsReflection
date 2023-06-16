@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certificates
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Cryptography.X509Certificates.X509Certificate
 	/// </summary>
     public partial class RX509Certificate : RMember //
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			{
 				if(r_FKeyStorageFlagsAll == null)
 				{
-					r_FKeyStorageFlagsAll = new(typeof(System.Security.Cryptography.X509Certificates.X509Certificate), "KeyStorageFlagsAll");
+					r_FKeyStorageFlagsAll = new(Type, "KeyStorageFlagsAll");
 				}
 				return r_FKeyStorageFlagsAll;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			{
 				if(r_MCreateFromCertFile_String == null)
 				{
-					r_MCreateFromCertFile_String = new(typeof(System.Security.Cryptography.X509Certificates.X509Certificate), "CreateFromCertFile", 0, typeof(System.String));
+					r_MCreateFromCertFile_String = new(Type, "CreateFromCertFile", 0, typeof(System.String));
 				}
 				return r_MCreateFromCertFile_String;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			{
 				if(r_MCreateFromSignedFile_String == null)
 				{
-					r_MCreateFromSignedFile_String = new(typeof(System.Security.Cryptography.X509Certificates.X509Certificate), "CreateFromSignedFile", 0, typeof(System.String));
+					r_MCreateFromSignedFile_String = new(Type, "CreateFromSignedFile", 0, typeof(System.String));
 				}
 				return r_MCreateFromSignedFile_String;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			{
 				if(r_MFormatDate_DateTime == null)
 				{
-					r_MFormatDate_DateTime = new(typeof(System.Security.Cryptography.X509Certificates.X509Certificate), "FormatDate", 0, typeof(System.DateTime));
+					r_MFormatDate_DateTime = new(Type, "FormatDate", 0, typeof(System.DateTime));
 				}
 				return r_MFormatDate_DateTime;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
 			{
 				if(r_MValidateKeyStorageFlags_X509KeyStorageFlags == null)
 				{
-					r_MValidateKeyStorageFlags_X509KeyStorageFlags = new(typeof(System.Security.Cryptography.X509Certificates.X509Certificate), "ValidateKeyStorageFlags", 0, typeof(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags));
+					r_MValidateKeyStorageFlags_X509KeyStorageFlags = new(Type, "ValidateKeyStorageFlags", 0, typeof(System.Security.Cryptography.X509Certificates.X509KeyStorageFlags));
 				}
 				return r_MValidateKeyStorageFlags_X509KeyStorageFlags;
 			}
@@ -1143,7 +1144,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@filename};
             var ___result = RMCreateFromCertFile_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Cryptography.X509Certificates.X509Certificate)___result;
+            return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
         }
 
 
@@ -1154,7 +1155,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@filename};
             var ___result = RMCreateFromSignedFile_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Cryptography.X509Certificates.X509Certificate)___result;
+            return ReflectionUtils.Convert<System.Security.Cryptography.X509Certificates.X509Certificate>(___result);
         }
 
 
@@ -1209,7 +1210,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1220,7 +1221,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_X509Certificate.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1231,7 +1232,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@contentType};
             var ___result = RMExport_X509ContentType.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1242,7 +1243,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@contentType, @password};
             var ___result = RMExport_X509ContentType_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1253,7 +1254,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@contentType, @password};
             var ___result = RMExport_X509ContentType_SecureString.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1264,7 +1265,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetRawCertDataString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1275,7 +1276,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetCertHash.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1286,7 +1287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@hashAlgorithm};
             var ___result = RMGetCertHash_HashAlgorithmName.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1299,7 +1300,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___result = RMTryGetCertHash_HashAlgorithmName_Span_d_Byte_p__Out_Int32.Invoke(___genericsType, ___parameters);
 			@bytesWritten = (System.Int32)___parameters[2];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetCertHashString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1321,7 +1322,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@hashAlgorithm};
             var ___result = RMGetCertHashString_HashAlgorithmName.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1332,7 +1333,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetRawCertHash.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1343,7 +1344,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetEffectiveDateString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1354,7 +1355,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetExpirationDateString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1365,7 +1366,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetFormat.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1376,7 +1377,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetPublicKeyString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1387,7 +1388,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetRawCertData.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1398,7 +1399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1409,7 +1410,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetKeyAlgorithm.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1420,7 +1421,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetKeyAlgorithmParameters.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1431,7 +1432,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetKeyAlgorithmParametersString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1442,7 +1443,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetPublicKey.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1453,7 +1454,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetSerialNumber.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1464,7 +1465,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetSerialNumberString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1475,7 +1476,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetRawSerialNumber.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte[])___result;
+            return ReflectionUtils.Convert<System.Byte[]>(___result);
         }
 
 
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetName.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1497,7 +1498,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetIssuerName.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1508,7 +1509,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1519,7 +1520,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@fVerbose};
             var ___result = RMToString_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1596,7 +1597,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetNotAfter.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1607,7 +1608,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetNotBefore.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1618,7 +1619,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{@date};
             var ___result = RMFormatDate_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1684,7 +1685,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1695,7 +1696,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RCryptography.RX509Certifica
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

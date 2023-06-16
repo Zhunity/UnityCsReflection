@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Diagnostics.SymbolStore.SymAddressKind
 	/// </summary>
     public partial class RSymAddressKind : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FILOffset == null)
 				{
-					r_FILOffset = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "ILOffset");
+					r_FILOffset = new(Type, "ILOffset");
 				}
 				return r_FILOffset;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeRVA == null)
 				{
-					r_FNativeRVA = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeRVA");
+					r_FNativeRVA = new(Type, "NativeRVA");
 				}
 				return r_FNativeRVA;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeRegister == null)
 				{
-					r_FNativeRegister = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeRegister");
+					r_FNativeRegister = new(Type, "NativeRegister");
 				}
 				return r_FNativeRegister;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeRegisterRelative == null)
 				{
-					r_FNativeRegisterRelative = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeRegisterRelative");
+					r_FNativeRegisterRelative = new(Type, "NativeRegisterRelative");
 				}
 				return r_FNativeRegisterRelative;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeOffset == null)
 				{
-					r_FNativeOffset = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeOffset");
+					r_FNativeOffset = new(Type, "NativeOffset");
 				}
 				return r_FNativeOffset;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeRegisterRegister == null)
 				{
-					r_FNativeRegisterRegister = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeRegisterRegister");
+					r_FNativeRegisterRegister = new(Type, "NativeRegisterRegister");
 				}
 				return r_FNativeRegisterRegister;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeRegisterStack == null)
 				{
-					r_FNativeRegisterStack = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeRegisterStack");
+					r_FNativeRegisterStack = new(Type, "NativeRegisterStack");
 				}
 				return r_FNativeRegisterStack;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeStackRegister == null)
 				{
-					r_FNativeStackRegister = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeStackRegister");
+					r_FNativeStackRegister = new(Type, "NativeStackRegister");
 				}
 				return r_FNativeStackRegister;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FBitField == null)
 				{
-					r_FBitField = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "BitField");
+					r_FBitField = new(Type, "BitField");
 				}
 				return r_FBitField;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
 			{
 				if(r_FNativeSectionOffset == null)
 				{
-					r_FNativeSectionOffset = new(typeof(System.Diagnostics.SymbolStore.SymAddressKind), "NativeSectionOffset");
+					r_FNativeSectionOffset = new(Type, "NativeSectionOffset");
 				}
 				return r_FNativeSectionOffset;
 			}
@@ -428,7 +429,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -439,7 +440,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -450,7 +451,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -461,7 +462,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -472,7 +473,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -483,7 +484,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -505,7 +506,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -516,7 +517,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -527,7 +528,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -549,7 +550,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -560,7 +561,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RDiagnostics.RSymbolStore
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

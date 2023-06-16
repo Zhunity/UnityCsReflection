@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.StyleSheets.StyleEnumType
 	/// </summary>
     public partial class RStyleEnumType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FAlign == null)
 				{
-					r_FAlign = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Align");
+					r_FAlign = new(Type, "Align");
 				}
 				return r_FAlign;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FBackgroundPositionKeyword == null)
 				{
-					r_FBackgroundPositionKeyword = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "BackgroundPositionKeyword");
+					r_FBackgroundPositionKeyword = new(Type, "BackgroundPositionKeyword");
 				}
 				return r_FBackgroundPositionKeyword;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FBackgroundSizeType == null)
 				{
-					r_FBackgroundSizeType = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "BackgroundSizeType");
+					r_FBackgroundSizeType = new(Type, "BackgroundSizeType");
 				}
 				return r_FBackgroundSizeType;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FDisplayStyle == null)
 				{
-					r_FDisplayStyle = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "DisplayStyle");
+					r_FDisplayStyle = new(Type, "DisplayStyle");
 				}
 				return r_FDisplayStyle;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FEasingMode == null)
 				{
-					r_FEasingMode = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "EasingMode");
+					r_FEasingMode = new(Type, "EasingMode");
 				}
 				return r_FEasingMode;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FFlexDirection == null)
 				{
-					r_FFlexDirection = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "FlexDirection");
+					r_FFlexDirection = new(Type, "FlexDirection");
 				}
 				return r_FFlexDirection;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FFontStyle == null)
 				{
-					r_FFontStyle = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "FontStyle");
+					r_FFontStyle = new(Type, "FontStyle");
 				}
 				return r_FFontStyle;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FJustify == null)
 				{
-					r_FJustify = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Justify");
+					r_FJustify = new(Type, "Justify");
 				}
 				return r_FJustify;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FOverflow == null)
 				{
-					r_FOverflow = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Overflow");
+					r_FOverflow = new(Type, "Overflow");
 				}
 				return r_FOverflow;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FOverflowClipBox == null)
 				{
-					r_FOverflowClipBox = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "OverflowClipBox");
+					r_FOverflowClipBox = new(Type, "OverflowClipBox");
 				}
 				return r_FOverflowClipBox;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FOverflowInternal == null)
 				{
-					r_FOverflowInternal = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "OverflowInternal");
+					r_FOverflowInternal = new(Type, "OverflowInternal");
 				}
 				return r_FOverflowInternal;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FPosition == null)
 				{
-					r_FPosition = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Position");
+					r_FPosition = new(Type, "Position");
 				}
 				return r_FPosition;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FRepeat == null)
 				{
-					r_FRepeat = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Repeat");
+					r_FRepeat = new(Type, "Repeat");
 				}
 				return r_FRepeat;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FRepeatXY == null)
 				{
-					r_FRepeatXY = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "RepeatXY");
+					r_FRepeatXY = new(Type, "RepeatXY");
 				}
 				return r_FRepeatXY;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FScaleMode == null)
 				{
-					r_FScaleMode = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "ScaleMode");
+					r_FScaleMode = new(Type, "ScaleMode");
 				}
 				return r_FScaleMode;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FTextAnchor == null)
 				{
-					r_FTextAnchor = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "TextAnchor");
+					r_FTextAnchor = new(Type, "TextAnchor");
 				}
 				return r_FTextAnchor;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FTextOverflow == null)
 				{
-					r_FTextOverflow = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "TextOverflow");
+					r_FTextOverflow = new(Type, "TextOverflow");
 				}
 				return r_FTextOverflow;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FTextOverflowPosition == null)
 				{
-					r_FTextOverflowPosition = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "TextOverflowPosition");
+					r_FTextOverflowPosition = new(Type, "TextOverflowPosition");
 				}
 				return r_FTextOverflowPosition;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FTransformOriginOffset == null)
 				{
-					r_FTransformOriginOffset = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "TransformOriginOffset");
+					r_FTransformOriginOffset = new(Type, "TransformOriginOffset");
 				}
 				return r_FTransformOriginOffset;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FVisibility == null)
 				{
-					r_FVisibility = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Visibility");
+					r_FVisibility = new(Type, "Visibility");
 				}
 				return r_FVisibility;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FWhiteSpace == null)
 				{
-					r_FWhiteSpace = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "WhiteSpace");
+					r_FWhiteSpace = new(Type, "WhiteSpace");
 				}
 				return r_FWhiteSpace;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 			{
 				if(r_FWrap == null)
 				{
-					r_FWrap = new( ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"), "Wrap");
+					r_FWrap = new(Type, "Wrap");
 				}
 				return r_FWrap;
 			}
@@ -620,7 +621,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -631,7 +632,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -642,7 +643,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -653,7 +654,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -664,7 +665,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -675,7 +676,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -697,7 +698,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -708,7 +709,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -719,7 +720,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -741,7 +742,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -752,7 +753,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

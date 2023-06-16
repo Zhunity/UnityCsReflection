@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditorInternal.ReorderableList
 	/// </summary>
     public partial class RReorderableList : RMember //
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_Fm_OutdatedProperties == null)
 				{
-					r_Fm_OutdatedProperties = new(typeof(UnityEditorInternal.ReorderableList), "m_OutdatedProperties");
+					r_Fm_OutdatedProperties = new(Type, "m_OutdatedProperties");
 				}
 				return r_Fm_OutdatedProperties;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_Fs_Defaults == null)
 				{
-					r_Fs_Defaults = new(typeof(UnityEditorInternal.ReorderableList), "s_Defaults");
+					r_Fs_Defaults = new(Type, "s_Defaults");
 				}
 				return r_Fs_Defaults;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_Fs_Instances == null)
 				{
-					r_Fs_Instances = new(typeof(UnityEditorInternal.ReorderableList), "s_Instances");
+					r_Fs_Instances = new(Type, "s_Instances");
 				}
 				return r_Fs_Instances;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_FkListElementBottomPadding == null)
 				{
-					r_FkListElementBottomPadding = new(typeof(UnityEditorInternal.ReorderableList), "kListElementBottomPadding");
+					r_FkListElementBottomPadding = new(Type, "kListElementBottomPadding");
 				}
 				return r_FkListElementBottomPadding;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_PdefaultBehaviours == null)
 				{
-					r_PdefaultBehaviours = new(typeof(UnityEditorInternal.ReorderableList), "defaultBehaviours", -1);
+					r_PdefaultBehaviours = new(Type, "defaultBehaviours", -1);
 				}
 				return r_PdefaultBehaviours;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MGetParentListPath_String == null)
 				{
-					r_MGetParentListPath_String = new(typeof(UnityEditorInternal.ReorderableList), "GetParentListPath", 0, typeof(System.String));
+					r_MGetParentListPath_String = new(Type, "GetParentListPath", 0, typeof(System.String));
 				}
 				return r_MGetParentListPath_String;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MInvalidateParentCaches_String == null)
 				{
-					r_MInvalidateParentCaches_String = new(typeof(UnityEditorInternal.ReorderableList), "InvalidateParentCaches", 0, typeof(System.String));
+					r_MInvalidateParentCaches_String = new(Type, "InvalidateParentCaches", 0, typeof(System.String));
 				}
 				return r_MInvalidateParentCaches_String;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MInvalidateExistingListCaches == null)
 				{
-					r_MInvalidateExistingListCaches = new(typeof(UnityEditorInternal.ReorderableList), "InvalidateExistingListCaches", 0);
+					r_MInvalidateExistingListCaches = new(Type, "InvalidateExistingListCaches", 0);
 				}
 				return r_MInvalidateExistingListCaches;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 			{
 				if(r_MGetReorderableListFromSerializedProperty_SerializedProperty == null)
 				{
-					r_MGetReorderableListFromSerializedProperty_SerializedProperty = new(typeof(UnityEditorInternal.ReorderableList), "GetReorderableListFromSerializedProperty", 0, typeof(UnityEditor.SerializedProperty));
+					r_MGetReorderableListFromSerializedProperty_SerializedProperty = new(Type, "GetReorderableListFromSerializedProperty", 0, typeof(UnityEditor.SerializedProperty));
 				}
 				return r_MGetReorderableListFromSerializedProperty_SerializedProperty;
 			}
@@ -1820,7 +1821,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@propertyPath};
             var ___result = RMGetParentListPath_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1842,7 +1843,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMCheckForChildInvalidation.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1875,7 +1876,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@prop};
             var ___result = RMGetReorderableListFromSerializedProperty_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditorInternal.ReorderableList)___result;
+            return ReflectionUtils.Convert<UnityEditorInternal.ReorderableList>(___result);
         }
 
 
@@ -1975,7 +1976,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@index};
             var ___result = RMIsSelected_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1997,7 +1998,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@rect};
             var ___result = RMGetContentRect_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -2008,7 +2009,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@index};
             var ___result = RMGetElementYOffset_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2019,7 +2020,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@index, @skipIndex};
             var ___result = RMGetElementYOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@index};
             var ___result = RMGetElementHeight_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2041,7 +2042,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@index, @listRect};
             var ___result = RMGetRowRect_Int32_Rect.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Rect)___result;
+            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
         }
 
 
@@ -2085,7 +2086,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHeight.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2096,7 +2097,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetListElementHeight.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2151,7 +2152,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@listRect};
             var ___result = RMIsMouseInsideActiveElement_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2173,7 +2174,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@listRect};
             var ___result = RMGetClampedDragPosition_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -2184,7 +2185,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@listRect};
             var ___result = RMCalculateRowIndex_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2195,7 +2196,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@localY, @skipActiveElement};
             var ___result = RMGetRowIndex_Single_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMIsDragging.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2239,7 +2240,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMHasKeyboardControl.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2250,7 +2251,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@e};
             var ___result = RM__0__CheckForChildInvalidation__1__b__58_0_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2261,7 +2262,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@i};
             var ___result = RM__0__DoDraggingAndSelection__1__b__130_0_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2272,7 +2273,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2294,7 +2295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2305,7 +2306,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2316,7 +2317,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2327,7 +2328,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

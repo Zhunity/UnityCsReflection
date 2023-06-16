@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.Scripting.ScriptCompilation.SemVersion
 	/// </summary>
     public partial class RSemVersion : RMember //
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_F__0__VersionTypeTraits__1__k__BackingField == null)
 				{
-					r_F__0__VersionTypeTraits__1__k__BackingField = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "<VersionTypeTraits>k__BackingField");
+					r_F__0__VersionTypeTraits__1__k__BackingField = new(Type, "<VersionTypeTraits>k__BackingField");
 				}
 				return r_F__0__VersionTypeTraits__1__k__BackingField;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_PVersionTypeTraits == null)
 				{
-					r_PVersionTypeTraits = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "VersionTypeTraits", -1);
+					r_PVersionTypeTraits = new(Type, "VersionTypeTraits", -1);
 				}
 				return r_PVersionTypeTraits;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_MCompare_SemVersion_SemVersion == null)
 				{
-					r_MCompare_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "Compare", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_MCompare_SemVersion_SemVersion = new(Type, "Compare", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_MCompare_SemVersion_SemVersion;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_Mop_Equality_SemVersion_SemVersion == null)
 				{
-					r_Mop_Equality_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "op_Equality", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_Mop_Equality_SemVersion_SemVersion = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_Mop_Equality_SemVersion_SemVersion;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_Mop_Inequality_SemVersion_SemVersion == null)
 				{
-					r_Mop_Inequality_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "op_Inequality", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_Mop_Inequality_SemVersion_SemVersion = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_Mop_Inequality_SemVersion_SemVersion;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_Mop_GreaterThan_SemVersion_SemVersion == null)
 				{
-					r_Mop_GreaterThan_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "op_GreaterThan", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_Mop_GreaterThan_SemVersion_SemVersion = new(Type, "op_GreaterThan", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_Mop_GreaterThan_SemVersion_SemVersion;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_Mop_GreaterThanOrEqual_SemVersion_SemVersion == null)
 				{
-					r_Mop_GreaterThanOrEqual_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "op_GreaterThanOrEqual", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_Mop_GreaterThanOrEqual_SemVersion_SemVersion = new(Type, "op_GreaterThanOrEqual", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_Mop_GreaterThanOrEqual_SemVersion_SemVersion;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_Mop_LessThan_SemVersion_SemVersion == null)
 				{
-					r_Mop_LessThan_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "op_LessThan", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_Mop_LessThan_SemVersion_SemVersion = new(Type, "op_LessThan", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_Mop_LessThan_SemVersion_SemVersion;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_Mop_LessThanOrEqual_SemVersion_SemVersion == null)
 				{
-					r_Mop_LessThanOrEqual_SemVersion_SemVersion = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "op_LessThanOrEqual", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
+					r_Mop_LessThanOrEqual_SemVersion_SemVersion = new(Type, "op_LessThanOrEqual", 0,  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"),  ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"));
 				}
 				return r_Mop_LessThanOrEqual_SemVersion_SemVersion;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
 			{
 				if(r_MCompareExtension_String_String_Boolean == null)
 				{
-					r_MCompareExtension_String_String_Boolean = new( ReflectionUtils.GetType("UnityEditor.Scripting.ScriptCompilation.SemVersion"), "CompareExtension", 0, typeof(System.String), typeof(System.String), typeof(System.Boolean));
+					r_MCompareExtension_String_String_Boolean = new(Type, "CompareExtension", 0, typeof(System.String), typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MCompareExtension_String_String_Boolean;
 			}
@@ -572,7 +573,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@versionA.Value, @versionB.Value};
             var ___result = RMCompare_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -583,7 +584,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Equality_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -594,7 +595,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Inequality_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -605,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_GreaterThan_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -616,7 +617,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_GreaterThanOrEqual_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -627,7 +628,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_LessThan_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_LessThanOrEqual_SemVersion_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -649,7 +650,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@obj};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -660,7 +661,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@other.Value};
             var ___result = RMCompareTo_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -671,7 +672,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@current, @other, @lower};
             var ___result = RMCompareExtension_String_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -682,7 +683,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@other.Value};
             var ___result = RMEquals_SemVersion.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -693,7 +694,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -704,7 +705,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -715,7 +716,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -726,7 +727,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{@version, @strict};
             var ___result = RMParse_String_Boolean.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RSemVersion>(___result);
         }
 
 
@@ -737,7 +738,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{};
             var ___result = RMGetVersionTypeTraits.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RIVersionTypeTraits(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation.RIVersionTypeTraits>(___result);
         }
 
 
@@ -759,7 +760,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -770,7 +771,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RScripting.RScriptCompilation
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

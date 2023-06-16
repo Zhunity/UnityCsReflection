@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.Lifetime.ILease
 	/// </summary>
     public partial class RILease : RMember //
@@ -210,7 +211,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RLifetime
             var ___parameters = new object[]{@renewalTime};
             var ___result = RMRenew_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.TimeSpan)___result;
+            return ReflectionUtils.Convert<System.TimeSpan>(___result);
         }
 
 

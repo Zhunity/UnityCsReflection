@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Globalization.Calendar
 	/// </summary>
     public partial class RCalendar : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTicksPerMillisecond == null)
 				{
-					r_FTicksPerMillisecond = new(typeof(System.Globalization.Calendar), "TicksPerMillisecond");
+					r_FTicksPerMillisecond = new(Type, "TicksPerMillisecond");
 				}
 				return r_FTicksPerMillisecond;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTicksPerSecond == null)
 				{
-					r_FTicksPerSecond = new(typeof(System.Globalization.Calendar), "TicksPerSecond");
+					r_FTicksPerSecond = new(Type, "TicksPerSecond");
 				}
 				return r_FTicksPerSecond;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTicksPerMinute == null)
 				{
-					r_FTicksPerMinute = new(typeof(System.Globalization.Calendar), "TicksPerMinute");
+					r_FTicksPerMinute = new(Type, "TicksPerMinute");
 				}
 				return r_FTicksPerMinute;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTicksPerHour == null)
 				{
-					r_FTicksPerHour = new(typeof(System.Globalization.Calendar), "TicksPerHour");
+					r_FTicksPerHour = new(Type, "TicksPerHour");
 				}
 				return r_FTicksPerHour;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FTicksPerDay == null)
 				{
-					r_FTicksPerDay = new(typeof(System.Globalization.Calendar), "TicksPerDay");
+					r_FTicksPerDay = new(Type, "TicksPerDay");
 				}
 				return r_FTicksPerDay;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FMillisPerSecond == null)
 				{
-					r_FMillisPerSecond = new(typeof(System.Globalization.Calendar), "MillisPerSecond");
+					r_FMillisPerSecond = new(Type, "MillisPerSecond");
 				}
 				return r_FMillisPerSecond;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FMillisPerMinute == null)
 				{
-					r_FMillisPerMinute = new(typeof(System.Globalization.Calendar), "MillisPerMinute");
+					r_FMillisPerMinute = new(Type, "MillisPerMinute");
 				}
 				return r_FMillisPerMinute;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FMillisPerHour == null)
 				{
-					r_FMillisPerHour = new(typeof(System.Globalization.Calendar), "MillisPerHour");
+					r_FMillisPerHour = new(Type, "MillisPerHour");
 				}
 				return r_FMillisPerHour;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FMillisPerDay == null)
 				{
-					r_FMillisPerDay = new(typeof(System.Globalization.Calendar), "MillisPerDay");
+					r_FMillisPerDay = new(Type, "MillisPerDay");
 				}
 				return r_FMillisPerDay;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FDaysPerYear == null)
 				{
-					r_FDaysPerYear = new(typeof(System.Globalization.Calendar), "DaysPerYear");
+					r_FDaysPerYear = new(Type, "DaysPerYear");
 				}
 				return r_FDaysPerYear;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FDaysPer4Years == null)
 				{
-					r_FDaysPer4Years = new(typeof(System.Globalization.Calendar), "DaysPer4Years");
+					r_FDaysPer4Years = new(Type, "DaysPer4Years");
 				}
 				return r_FDaysPer4Years;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FDaysPer100Years == null)
 				{
-					r_FDaysPer100Years = new(typeof(System.Globalization.Calendar), "DaysPer100Years");
+					r_FDaysPer100Years = new(Type, "DaysPer100Years");
 				}
 				return r_FDaysPer100Years;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FDaysPer400Years == null)
 				{
-					r_FDaysPer400Years = new(typeof(System.Globalization.Calendar), "DaysPer400Years");
+					r_FDaysPer400Years = new(Type, "DaysPer400Years");
 				}
 				return r_FDaysPer400Years;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FDaysTo10000 == null)
 				{
-					r_FDaysTo10000 = new(typeof(System.Globalization.Calendar), "DaysTo10000");
+					r_FDaysTo10000 = new(Type, "DaysTo10000");
 				}
 				return r_FDaysTo10000;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FMaxMillis == null)
 				{
-					r_FMaxMillis = new(typeof(System.Globalization.Calendar), "MaxMillis");
+					r_FMaxMillis = new(Type, "MaxMillis");
 				}
 				return r_FMaxMillis;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_GREGORIAN == null)
 				{
-					r_FCAL_GREGORIAN = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN");
+					r_FCAL_GREGORIAN = new(Type, "CAL_GREGORIAN");
 				}
 				return r_FCAL_GREGORIAN;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_GREGORIAN_US == null)
 				{
-					r_FCAL_GREGORIAN_US = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_US");
+					r_FCAL_GREGORIAN_US = new(Type, "CAL_GREGORIAN_US");
 				}
 				return r_FCAL_GREGORIAN_US;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_JAPAN == null)
 				{
-					r_FCAL_JAPAN = new(typeof(System.Globalization.Calendar), "CAL_JAPAN");
+					r_FCAL_JAPAN = new(Type, "CAL_JAPAN");
 				}
 				return r_FCAL_JAPAN;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_TAIWAN == null)
 				{
-					r_FCAL_TAIWAN = new(typeof(System.Globalization.Calendar), "CAL_TAIWAN");
+					r_FCAL_TAIWAN = new(Type, "CAL_TAIWAN");
 				}
 				return r_FCAL_TAIWAN;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_KOREA == null)
 				{
-					r_FCAL_KOREA = new(typeof(System.Globalization.Calendar), "CAL_KOREA");
+					r_FCAL_KOREA = new(Type, "CAL_KOREA");
 				}
 				return r_FCAL_KOREA;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_HIJRI == null)
 				{
-					r_FCAL_HIJRI = new(typeof(System.Globalization.Calendar), "CAL_HIJRI");
+					r_FCAL_HIJRI = new(Type, "CAL_HIJRI");
 				}
 				return r_FCAL_HIJRI;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_THAI == null)
 				{
-					r_FCAL_THAI = new(typeof(System.Globalization.Calendar), "CAL_THAI");
+					r_FCAL_THAI = new(Type, "CAL_THAI");
 				}
 				return r_FCAL_THAI;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_HEBREW == null)
 				{
-					r_FCAL_HEBREW = new(typeof(System.Globalization.Calendar), "CAL_HEBREW");
+					r_FCAL_HEBREW = new(Type, "CAL_HEBREW");
 				}
 				return r_FCAL_HEBREW;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_GREGORIAN_ME_FRENCH == null)
 				{
-					r_FCAL_GREGORIAN_ME_FRENCH = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_ME_FRENCH");
+					r_FCAL_GREGORIAN_ME_FRENCH = new(Type, "CAL_GREGORIAN_ME_FRENCH");
 				}
 				return r_FCAL_GREGORIAN_ME_FRENCH;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_GREGORIAN_ARABIC == null)
 				{
-					r_FCAL_GREGORIAN_ARABIC = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_ARABIC");
+					r_FCAL_GREGORIAN_ARABIC = new(Type, "CAL_GREGORIAN_ARABIC");
 				}
 				return r_FCAL_GREGORIAN_ARABIC;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_GREGORIAN_XLIT_ENGLISH == null)
 				{
-					r_FCAL_GREGORIAN_XLIT_ENGLISH = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_XLIT_ENGLISH");
+					r_FCAL_GREGORIAN_XLIT_ENGLISH = new(Type, "CAL_GREGORIAN_XLIT_ENGLISH");
 				}
 				return r_FCAL_GREGORIAN_XLIT_ENGLISH;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_GREGORIAN_XLIT_FRENCH == null)
 				{
-					r_FCAL_GREGORIAN_XLIT_FRENCH = new(typeof(System.Globalization.Calendar), "CAL_GREGORIAN_XLIT_FRENCH");
+					r_FCAL_GREGORIAN_XLIT_FRENCH = new(Type, "CAL_GREGORIAN_XLIT_FRENCH");
 				}
 				return r_FCAL_GREGORIAN_XLIT_FRENCH;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_JULIAN == null)
 				{
-					r_FCAL_JULIAN = new(typeof(System.Globalization.Calendar), "CAL_JULIAN");
+					r_FCAL_JULIAN = new(Type, "CAL_JULIAN");
 				}
 				return r_FCAL_JULIAN;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_JAPANESELUNISOLAR == null)
 				{
-					r_FCAL_JAPANESELUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_JAPANESELUNISOLAR");
+					r_FCAL_JAPANESELUNISOLAR = new(Type, "CAL_JAPANESELUNISOLAR");
 				}
 				return r_FCAL_JAPANESELUNISOLAR;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_CHINESELUNISOLAR == null)
 				{
-					r_FCAL_CHINESELUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_CHINESELUNISOLAR");
+					r_FCAL_CHINESELUNISOLAR = new(Type, "CAL_CHINESELUNISOLAR");
 				}
 				return r_FCAL_CHINESELUNISOLAR;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_SAKA == null)
 				{
-					r_FCAL_SAKA = new(typeof(System.Globalization.Calendar), "CAL_SAKA");
+					r_FCAL_SAKA = new(Type, "CAL_SAKA");
 				}
 				return r_FCAL_SAKA;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_LUNAR_ETO_CHN == null)
 				{
-					r_FCAL_LUNAR_ETO_CHN = new(typeof(System.Globalization.Calendar), "CAL_LUNAR_ETO_CHN");
+					r_FCAL_LUNAR_ETO_CHN = new(Type, "CAL_LUNAR_ETO_CHN");
 				}
 				return r_FCAL_LUNAR_ETO_CHN;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_LUNAR_ETO_KOR == null)
 				{
-					r_FCAL_LUNAR_ETO_KOR = new(typeof(System.Globalization.Calendar), "CAL_LUNAR_ETO_KOR");
+					r_FCAL_LUNAR_ETO_KOR = new(Type, "CAL_LUNAR_ETO_KOR");
 				}
 				return r_FCAL_LUNAR_ETO_KOR;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_LUNAR_ETO_ROKUYOU == null)
 				{
-					r_FCAL_LUNAR_ETO_ROKUYOU = new(typeof(System.Globalization.Calendar), "CAL_LUNAR_ETO_ROKUYOU");
+					r_FCAL_LUNAR_ETO_ROKUYOU = new(Type, "CAL_LUNAR_ETO_ROKUYOU");
 				}
 				return r_FCAL_LUNAR_ETO_ROKUYOU;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_KOREANLUNISOLAR == null)
 				{
-					r_FCAL_KOREANLUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_KOREANLUNISOLAR");
+					r_FCAL_KOREANLUNISOLAR = new(Type, "CAL_KOREANLUNISOLAR");
 				}
 				return r_FCAL_KOREANLUNISOLAR;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_TAIWANLUNISOLAR == null)
 				{
-					r_FCAL_TAIWANLUNISOLAR = new(typeof(System.Globalization.Calendar), "CAL_TAIWANLUNISOLAR");
+					r_FCAL_TAIWANLUNISOLAR = new(Type, "CAL_TAIWANLUNISOLAR");
 				}
 				return r_FCAL_TAIWANLUNISOLAR;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_PERSIAN == null)
 				{
-					r_FCAL_PERSIAN = new(typeof(System.Globalization.Calendar), "CAL_PERSIAN");
+					r_FCAL_PERSIAN = new(Type, "CAL_PERSIAN");
 				}
 				return r_FCAL_PERSIAN;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCAL_UMALQURA == null)
 				{
-					r_FCAL_UMALQURA = new(typeof(System.Globalization.Calendar), "CAL_UMALQURA");
+					r_FCAL_UMALQURA = new(Type, "CAL_UMALQURA");
 				}
 				return r_FCAL_UMALQURA;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_FCurrentEra == null)
 				{
-					r_FCurrentEra = new(typeof(System.Globalization.Calendar), "CurrentEra");
+					r_FCurrentEra = new(Type, "CurrentEra");
 				}
 				return r_FCurrentEra;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MReadOnly_Calendar == null)
 				{
-					r_MReadOnly_Calendar = new(typeof(System.Globalization.Calendar), "ReadOnly", 0, typeof(System.Globalization.Calendar));
+					r_MReadOnly_Calendar = new(Type, "ReadOnly", 0, typeof(System.Globalization.Calendar));
 				}
 				return r_MReadOnly_Calendar;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MCheckAddResult_Int64_DateTime_DateTime == null)
 				{
-					r_MCheckAddResult_Int64_DateTime_DateTime = new(typeof(System.Globalization.Calendar), "CheckAddResult", 0, typeof(System.Int64), typeof(System.DateTime), typeof(System.DateTime));
+					r_MCheckAddResult_Int64_DateTime_DateTime = new(Type, "CheckAddResult", 0, typeof(System.Int64), typeof(System.DateTime), typeof(System.DateTime));
 				}
 				return r_MCheckAddResult_Int64_DateTime_DateTime;
 			}
@@ -1662,7 +1663,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MTimeToTicks_Int32_Int32_Int32_Int32 == null)
 				{
-					r_MTimeToTicks_Int32_Int32_Int32_Int32 = new(typeof(System.Globalization.Calendar), "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MTimeToTicks_Int32_Int32_Int32_Int32 = new(Type, "TimeToTicks", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MTimeToTicks_Int32_Int32_Int32_Int32;
 			}
@@ -1678,7 +1679,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
 			{
 				if(r_MGetSystemTwoDigitYearSetting_Int32_Int32 == null)
 				{
-					r_MGetSystemTwoDigitYearSetting_Int32_Int32 = new(typeof(System.Globalization.Calendar), "GetSystemTwoDigitYearSetting", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MGetSystemTwoDigitYearSetting_Int32_Int32 = new(Type, "GetSystemTwoDigitYearSetting", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MGetSystemTwoDigitYearSetting_Int32_Int32;
 			}
@@ -1788,7 +1789,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1799,7 +1800,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@calendar};
             var ___result = RMReadOnly_Calendar.Invoke(___genericsType, ___parameters);
 
-            return (System.Globalization.Calendar)___result;
+            return ReflectionUtils.Convert<System.Globalization.Calendar>(___result);
         }
 
 
@@ -1843,7 +1844,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @value, @scale};
             var ___result = RMAdd_DateTime_Double_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1854,7 +1855,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @milliseconds};
             var ___result = RMAddMilliseconds_DateTime_Double.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1865,7 +1866,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @days};
             var ___result = RMAddDays_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1876,7 +1877,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @hours};
             var ___result = RMAddHours_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1887,7 +1888,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @minutes};
             var ___result = RMAddMinutes_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1898,7 +1899,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @months};
             var ___result = RMAddMonths_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1909,7 +1910,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @seconds};
             var ___result = RMAddSeconds_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1920,7 +1921,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @weeks};
             var ___result = RMAddWeeks_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1931,7 +1932,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @years};
             var ___result = RMAddYears_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -1942,7 +1943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetDayOfMonth_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1953,7 +1954,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetDayOfWeek_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.DayOfWeek)___result;
+            return ReflectionUtils.Convert<System.DayOfWeek>(___result);
         }
 
 
@@ -1964,7 +1965,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetDayOfYear_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1975,7 +1976,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month};
             var ___result = RMGetDaysInMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1986,7 +1987,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @era};
             var ___result = RMGetDaysInMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1997,7 +1998,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year};
             var ___result = RMGetDaysInYear_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2008,7 +2009,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @era};
             var ___result = RMGetDaysInYear_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2019,7 +2020,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetEra_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2030,7 +2031,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetHour_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2041,7 +2042,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetMilliseconds_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -2052,7 +2053,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetMinute_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2063,7 +2064,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetMonth_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2074,7 +2075,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year};
             var ___result = RMGetMonthsInYear_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2085,7 +2086,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @era};
             var ___result = RMGetMonthsInYear_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2096,7 +2097,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetSecond_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2107,7 +2108,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @firstDayOfWeek};
             var ___result = RMGetFirstDayWeekOfYear_DateTime_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2118,7 +2119,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @firstDayOfWeek, @fullDays};
             var ___result = RMGetWeekOfYearFullDays_DateTime_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2129,7 +2130,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@firstDayOfWeek, @minimumDaysInFirstWeek};
             var ___result = RMGetWeekOfYearOfMinSupportedDateTime_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2140,7 +2141,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time, @rule, @firstDayOfWeek};
             var ___result = RMGetWeekOfYear_DateTime_CalendarWeekRule_DayOfWeek.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2151,7 +2152,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@time};
             var ___result = RMGetYear_DateTime.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2162,7 +2163,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @day};
             var ___result = RMIsLeapDay_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2173,7 +2174,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @day, @era};
             var ___result = RMIsLeapDay_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2184,7 +2185,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month};
             var ___result = RMIsLeapMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2195,7 +2196,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @era};
             var ___result = RMIsLeapMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2206,7 +2207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year};
             var ___result = RMGetLeapMonth_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2217,7 +2218,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @era};
             var ___result = RMGetLeapMonth_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2228,7 +2229,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year};
             var ___result = RMIsLeapYear_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2239,7 +2240,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @era};
             var ___result = RMIsLeapYear_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2250,7 +2251,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond};
             var ___result = RMToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -2261,7 +2262,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @day, @hour, @minute, @second, @millisecond, @era};
             var ___result = RMToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -2274,7 +2275,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___result = RMTryToDateTime_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Int32_Out_DateTime.Invoke(___genericsType, ___parameters);
 			@result = (System.DateTime)___parameters[8];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2285,7 +2286,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @era};
             var ___result = RMIsValidYear_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2296,7 +2297,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @era};
             var ___result = RMIsValidMonth_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2307,7 +2308,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year, @month, @day, @era};
             var ___result = RMIsValidDay_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2318,7 +2319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@year};
             var ___result = RMToFourDigitYear_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2329,7 +2330,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@hour, @minute, @second, @millisecond};
             var ___result = RMTimeToTicks_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -2340,7 +2341,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@CalID, @defaultYearValue};
             var ___result = RMGetSystemTwoDigitYearSetting_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2351,7 +2352,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2373,7 +2374,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2384,7 +2385,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2395,7 +2396,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -2406,7 +2407,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RGlobalization
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

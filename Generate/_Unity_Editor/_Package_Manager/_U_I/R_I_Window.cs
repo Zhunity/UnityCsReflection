@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.UI.IWindow
 	/// </summary>
     public partial class RIWindow : RMember //
@@ -167,7 +168,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMAddDetailsExtension.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIDetailsExtension(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIDetailsExtension>(___result);
         }
 
 
@@ -178,7 +179,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMAddPackageActionMenu.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionMenu(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionMenu>(___result);
         }
 
 
@@ -189,7 +190,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___parameters = new object[]{};
             var ___result = RMAddPackageActionButton.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionButton(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageActionButton>(___result);
         }
 
 

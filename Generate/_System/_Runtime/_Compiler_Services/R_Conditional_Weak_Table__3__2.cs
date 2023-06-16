@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.CompilerServices.ConditionalWeakTable`2
 	/// </summary>
     public partial class RConditionalWeakTable<TKey, TValue> : RMember // where TKey : class where TValue : class
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2").MakeGenericType(typeof(TKey), typeof(TValue));
+                return  ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2").MakeGenericType(ReflectionUtils.GetType(typeof(TKey)), ReflectionUtils.GetType(typeof(TValue)));
             }
         }
 
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FINITIAL_SIZE == null)
 				{
-					r_FINITIAL_SIZE = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "INITIAL_SIZE");
+					r_FINITIAL_SIZE = new(Type, "INITIAL_SIZE");
 				}
 				return r_FINITIAL_SIZE;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FLOAD_FACTOR == null)
 				{
-					r_FLOAD_FACTOR = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "LOAD_FACTOR");
+					r_FLOAD_FACTOR = new(Type, "LOAD_FACTOR");
 				}
 				return r_FLOAD_FACTOR;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FCOMPACT_FACTOR == null)
 				{
-					r_FCOMPACT_FACTOR = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "COMPACT_FACTOR");
+					r_FCOMPACT_FACTOR = new(Type, "COMPACT_FACTOR");
 				}
 				return r_FCOMPACT_FACTOR;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
 			{
 				if(r_FEXPAND_FACTOR == null)
 				{
-					r_FEXPAND_FACTOR = new( ReflectionUtils.GetType("System.Runtime.CompilerServices.ConditionalWeakTable`2"), "EXPAND_FACTOR");
+					r_FEXPAND_FACTOR = new(Type, "EXPAND_FACTOR");
 				}
 				return r_FEXPAND_FACTOR;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@key};
             var ___result = RMRemove_TKey.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -571,7 +572,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___result = RMTryGetValue_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
 			@value = (TValue)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -582,7 +583,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@key};
             var ___result = RMGetOrCreateValue_TKey.Invoke(___genericsType, ___parameters);
 
-            return (TValue)___result;
+            return ReflectionUtils.Convert<TValue>(___result);
         }
 
 
@@ -593,7 +594,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@key, @createValueCallback.Value};
             var ___result = RMGetValue_TKey_CreateValueCallback.Invoke(___genericsType, ___parameters);
 
-            return (TValue)___result;
+            return ReflectionUtils.Convert<TValue>(___result);
         }
 
 
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___result = RMFindEquivalentKeyUnsafe_TKey_Out_TValue.Invoke(___genericsType, ___parameters);
 			@value = (TValue)___parameters[1];
 
-            return (TKey)___result;
+            return ReflectionUtils.Convert<TKey>(___result);
         }
 
 
@@ -628,7 +629,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__System__2__Collections__2__Generic__2__KeyValuePair__0__TKey__4__TValue__1____1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey, TValue>>>(___result);
         }
 
 
@@ -639,7 +640,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -650,7 +651,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -661,7 +662,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -672,7 +673,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -683,7 +684,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -694,7 +695,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RCompilerServices
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

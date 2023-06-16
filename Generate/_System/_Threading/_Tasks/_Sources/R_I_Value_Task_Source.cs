@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.Sources.IValueTaskSource
 	/// </summary>
     public partial class RIValueTaskSource : RMember //
@@ -92,7 +93,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks.RSources
             var ___parameters = new object[]{@token};
             var ___result = RMGetStatus_Int16.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.Sources.ValueTaskSourceStatus)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.Sources.ValueTaskSourceStatus>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PropertyHandler
 	/// </summary>
     public partial class RPropertyHandler : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_reorderableLists == null)
 				{
-					r_Fs_reorderableLists = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_reorderableLists");
+					r_Fs_reorderableLists = new(Type, "s_reorderableLists");
 				}
 				return r_Fs_reorderableLists;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_LastInspectionTarget == null)
 				{
-					r_Fs_LastInspectionTarget = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_LastInspectionTarget");
+					r_Fs_LastInspectionTarget = new(Type, "s_LastInspectionTarget");
 				}
 				return r_Fs_LastInspectionTarget;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_LastInspectorNumComponents == null)
 				{
-					r_Fs_LastInspectorNumComponents = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_LastInspectorNumComponents");
+					r_Fs_LastInspectorNumComponents = new(Type, "s_LastInspectorNumComponents");
 				}
 				return r_Fs_LastInspectorNumComponents;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_Fs_CachedComponents == null)
 				{
-					r_Fs_CachedComponents = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "s_CachedComponents");
+					r_Fs_CachedComponents = new(Type, "s_CachedComponents");
 				}
 				return r_Fs_CachedComponents;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MOnUndoRedo_In_UndoRedoInfo == null)
 				{
-					r_MOnUndoRedo_In_UndoRedoInfo = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "OnUndoRedo", 0, typeof(UnityEditor.UndoRedoInfo).MakeByRefType());
+					r_MOnUndoRedo_In_UndoRedoInfo = new(Type, "OnUndoRedo", 0, typeof(UnityEditor.UndoRedoInfo).MakeByRefType());
 				}
 				return r_MOnUndoRedo_In_UndoRedoInfo;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MClearCache == null)
 				{
-					r_MClearCache = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "ClearCache", 0);
+					r_MClearCache = new(Type, "ClearCache", 0);
 				}
 				return r_MClearCache;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MInvalidateListCacheIncludingChildren_SerializedProperty == null)
 				{
-					r_MInvalidateListCacheIncludingChildren_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "InvalidateListCacheIncludingChildren", 0, typeof(UnityEditor.SerializedProperty));
+					r_MInvalidateListCacheIncludingChildren_SerializedProperty = new(Type, "InvalidateListCacheIncludingChildren", 0, typeof(UnityEditor.SerializedProperty));
 				}
 				return r_MInvalidateListCacheIncludingChildren_SerializedProperty;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MIsNonStringArray_SerializedProperty == null)
 				{
-					r_MIsNonStringArray_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "IsNonStringArray", 0, typeof(UnityEditor.SerializedProperty));
+					r_MIsNonStringArray_SerializedProperty = new(Type, "IsNonStringArray", 0, typeof(UnityEditor.SerializedProperty));
 				}
 				return r_MIsNonStringArray_SerializedProperty;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MIsArrayReorderable_SerializedProperty == null)
 				{
-					r_MIsArrayReorderable_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "IsArrayReorderable", 0, typeof(UnityEditor.SerializedProperty));
+					r_MIsArrayReorderable_SerializedProperty = new(Type, "IsArrayReorderable", 0, typeof(UnityEditor.SerializedProperty));
 				}
 				return r_MIsArrayReorderable_SerializedProperty;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MUseReorderabelListControl_SerializedProperty == null)
 				{
-					r_MUseReorderabelListControl_SerializedProperty = new( ReflectionUtils.GetType("UnityEditor.PropertyHandler"), "UseReorderabelListControl", 0, typeof(UnityEditor.SerializedProperty));
+					r_MUseReorderabelListControl_SerializedProperty = new(Type, "UseReorderabelListControl", 0, typeof(UnityEditor.SerializedProperty));
 				}
 				return r_MUseReorderabelListControl_SerializedProperty;
 			}
@@ -739,7 +740,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@position, @property, @label, @includeChildren};
             var ___result = RMOnGUI_Rect_SerializedProperty_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@position, @property, @label, @includeChildren, @visibleArea};
             var ___result = RMOnGUI_Rect_SerializedProperty_GUIContent_Boolean_Rect.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -761,7 +762,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@property, @label, @includeChildren, @options};
             var ___result = RMOnGUILayout_SerializedProperty_GUIContent_Boolean_GUILayoutOptionArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -772,7 +773,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@property, @label, @includeChildren};
             var ___result = RMGetHeight_SerializedProperty_GUIContent_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -783,7 +784,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@property};
             var ___result = RMCanCacheInspectorGUI_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -827,7 +828,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@property};
             var ___result = RMIsNonStringArray_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -838,7 +839,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@property};
             var ___result = RMIsArrayReorderable_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -849,7 +850,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@property};
             var ___result = RMUseReorderabelListControl_SerializedProperty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -860,7 +861,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@nestingLevel};
             var ___result = RMApplyNestingContext_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
         }
 
 
@@ -871,7 +872,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMIncrementNestingContext.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
         }
 
 
@@ -882,7 +883,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -904,7 +905,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -915,7 +916,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -937,7 +938,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

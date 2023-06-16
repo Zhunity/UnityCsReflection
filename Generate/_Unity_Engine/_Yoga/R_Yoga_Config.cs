@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Yoga.YogaConfig
 	/// </summary>
     public partial class RYogaConfig : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_FDefault == null)
 				{
-					r_FDefault = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "Default");
+					r_FDefault = new(Type, "Default");
 				}
 				return r_FDefault;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_MGetInstanceCount == null)
 				{
-					r_MGetInstanceCount = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "GetInstanceCount", 0);
+					r_MGetInstanceCount = new(Type, "GetInstanceCount", 0);
 				}
 				return r_MGetInstanceCount;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
 			{
 				if(r_MSetDefaultLogger_Logger == null)
 				{
-					r_MSetDefaultLogger_Logger = new( ReflectionUtils.GetType("UnityEngine.Yoga.YogaConfig"), "SetDefaultLogger", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.Logger"));
+					r_MSetDefaultLogger_Logger = new(Type, "SetDefaultLogger", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.Logger"));
 				}
 				return r_MSetDefaultLogger_Logger;
 			}
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@feature.Value};
             var ___result = RMIsExperimentalFeatureEnabled_YogaExperimentalFeature.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RYoga
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

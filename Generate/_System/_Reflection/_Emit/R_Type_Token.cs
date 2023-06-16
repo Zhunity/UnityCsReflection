@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.Emit.TypeToken
 	/// </summary>
     public partial class RTypeToken : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_FEmpty == null)
 				{
-					r_FEmpty = new(typeof(System.Reflection.Emit.TypeToken), "Empty");
+					r_FEmpty = new(Type, "Empty");
 				}
 				return r_FEmpty;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mop_Equality_TypeToken_TypeToken == null)
 				{
-					r_Mop_Equality_TypeToken_TypeToken = new(typeof(System.Reflection.Emit.TypeToken), "op_Equality", 0, typeof(System.Reflection.Emit.TypeToken), typeof(System.Reflection.Emit.TypeToken));
+					r_Mop_Equality_TypeToken_TypeToken = new(Type, "op_Equality", 0, typeof(System.Reflection.Emit.TypeToken), typeof(System.Reflection.Emit.TypeToken));
 				}
 				return r_Mop_Equality_TypeToken_TypeToken;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
 			{
 				if(r_Mop_Inequality_TypeToken_TypeToken == null)
 				{
-					r_Mop_Inequality_TypeToken_TypeToken = new(typeof(System.Reflection.Emit.TypeToken), "op_Inequality", 0, typeof(System.Reflection.Emit.TypeToken), typeof(System.Reflection.Emit.TypeToken));
+					r_Mop_Inequality_TypeToken_TypeToken = new(Type, "op_Inequality", 0, typeof(System.Reflection.Emit.TypeToken), typeof(System.Reflection.Emit.TypeToken));
 				}
 				return r_Mop_Inequality_TypeToken_TypeToken;
 			}
@@ -236,7 +237,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -247,7 +248,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_TypeToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -258,7 +259,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Equality_TypeToken_TypeToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -269,7 +270,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Inequality_TypeToken_TypeToken.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -280,7 +281,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -291,7 +292,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -313,7 +314,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -324,7 +325,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection.REmit
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

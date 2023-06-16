@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Serialization.IFormatterConverter
 	/// </summary>
     public partial class RIFormatterConverter : RMember //
@@ -316,7 +317,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value, @type};
             var ___result = RMConvert_Object_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -327,7 +328,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value, @typeCode};
             var ___result = RMConvert_Object_TypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -338,7 +339,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToBoolean_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -349,7 +350,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToChar_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Char)___result;
+            return ReflectionUtils.Convert<System.Char>(___result);
         }
 
 
@@ -360,7 +361,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToSByte_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.SByte)___result;
+            return ReflectionUtils.Convert<System.SByte>(___result);
         }
 
 
@@ -371,7 +372,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToByte_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Byte)___result;
+            return ReflectionUtils.Convert<System.Byte>(___result);
         }
 
 
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToInt16_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int16)___result;
+            return ReflectionUtils.Convert<System.Int16>(___result);
         }
 
 
@@ -393,7 +394,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToUInt16_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt16)___result;
+            return ReflectionUtils.Convert<System.UInt16>(___result);
         }
 
 
@@ -404,7 +405,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToInt32_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -415,7 +416,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToUInt32_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt32)___result;
+            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 
@@ -426,7 +427,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToInt64_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -437,7 +438,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToUInt64_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -448,7 +449,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToSingle_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Single)___result;
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 
@@ -459,7 +460,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToDouble_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Double)___result;
+            return ReflectionUtils.Convert<System.Double>(___result);
         }
 
 
@@ -470,7 +471,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToDecimal_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Decimal)___result;
+            return ReflectionUtils.Convert<System.Decimal>(___result);
         }
 
 
@@ -481,7 +482,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToDateTime_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.DateTime)___result;
+            return ReflectionUtils.Convert<System.DateTime>(___result);
         }
 
 
@@ -492,7 +493,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RSerialization
             var ___parameters = new object[]{@value};
             var ___result = RMToString_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

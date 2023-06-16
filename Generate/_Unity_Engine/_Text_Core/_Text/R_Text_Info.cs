@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextCore.Text.TextInfo
 	/// </summary>
     public partial class RTextInfo : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_InfinityVectorPositive == null)
 				{
-					r_Fs_InfinityVectorPositive = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "s_InfinityVectorPositive");
+					r_Fs_InfinityVectorPositive = new(Type, "s_InfinityVectorPositive");
 				}
 				return r_Fs_InfinityVectorPositive;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_Fs_InfinityVectorNegative == null)
 				{
-					r_Fs_InfinityVectorNegative = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "s_InfinityVectorNegative");
+					r_Fs_InfinityVectorNegative = new(Type, "s_InfinityVectorNegative");
 				}
 				return r_Fs_InfinityVectorNegative;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MResize_GT_Ref_TArray_Int32 == null)
 				{
-					r_MResize_GT_Ref_TArray_Int32 = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
+					r_MResize_GT_Ref_TArray_Int32 = new(Type, "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32));
 				}
 				return r_MResize_GT_Ref_TArray_Int32;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 			{
 				if(r_MResize_GT_Ref_TArray_Int32_Boolean == null)
 				{
-					r_MResize_GT_Ref_TArray_Int32_Boolean = new( ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
+					r_MResize_GT_Ref_TArray_Int32_Boolean = new(Type, "Resize", 1, Type.MakeGenericMethodParameter(0).MakeArrayType().MakeByRefType(), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MResize_GT_Ref_TArray_Int32_Boolean;
 			}
@@ -576,7 +577,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -598,7 +599,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -609,7 +610,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -620,7 +621,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -631,7 +632,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

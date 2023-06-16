@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.WheelEvent
 	/// </summary>
     public partial class RWheelEvent : RMember //
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Event == null)
 				{
-					r_MGetPooled_Event = new(typeof(UnityEngine.UIElements.WheelEvent), "GetPooled", 0, typeof(UnityEngine.Event));
+					r_MGetPooled_Event = new(Type, "GetPooled", 0, typeof(UnityEngine.Event));
 				}
 				return r_MGetPooled_Event;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Vector3_Vector3_EventModifiers == null)
 				{
-					r_MGetPooled_Vector3_Vector3_EventModifiers = new(typeof(UnityEngine.UIElements.WheelEvent), "GetPooled", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Vector3_Vector3_EventModifiers = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.EventModifiers));
 				}
 				return r_MGetPooled_Vector3_Vector3_EventModifiers;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MGetPooled_Vector3_IPointerEvent == null)
 				{
-					r_MGetPooled_Vector3_IPointerEvent = new(typeof(UnityEngine.UIElements.WheelEvent), "GetPooled", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.UIElements.IPointerEvent));
+					r_MGetPooled_Vector3_IPointerEvent = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.UIElements.IPointerEvent));
 				}
 				return r_MGetPooled_Vector3_IPointerEvent;
 			}
@@ -1116,7 +1117,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@systemEvent};
             var ___result = RMGetPooled_Event.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.WheelEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.WheelEvent>(___result);
         }
 
 
@@ -1127,7 +1128,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@delta, @mousePosition, @modifiers};
             var ___result = RMGetPooled_Vector3_Vector3_EventModifiers.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.WheelEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.WheelEvent>(___result);
         }
 
 
@@ -1138,7 +1139,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@delta, @pointerEvent};
             var ___result = RMGetPooled_Vector3_IPointerEvent.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.WheelEvent)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.WheelEvent>(___result);
         }
 
 
@@ -1248,7 +1249,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@h};
             var ___result = RMSkip_IEventHandler.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1303,7 +1304,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1325,7 +1326,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1336,7 +1337,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1347,7 +1348,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

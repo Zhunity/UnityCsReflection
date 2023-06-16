@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RReflection
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Reflection.CorElementType
 	/// </summary>
     public partial class RCorElementType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FEnd == null)
 				{
-					r_FEnd = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "End");
+					r_FEnd = new(Type, "End");
 				}
 				return r_FEnd;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FVoid == null)
 				{
-					r_FVoid = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Void");
+					r_FVoid = new(Type, "Void");
 				}
 				return r_FVoid;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FBoolean == null)
 				{
-					r_FBoolean = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Boolean");
+					r_FBoolean = new(Type, "Boolean");
 				}
 				return r_FBoolean;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FChar == null)
 				{
-					r_FChar = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Char");
+					r_FChar = new(Type, "Char");
 				}
 				return r_FChar;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FI1 == null)
 				{
-					r_FI1 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "I1");
+					r_FI1 = new(Type, "I1");
 				}
 				return r_FI1;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FU1 == null)
 				{
-					r_FU1 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "U1");
+					r_FU1 = new(Type, "U1");
 				}
 				return r_FU1;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FI2 == null)
 				{
-					r_FI2 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "I2");
+					r_FI2 = new(Type, "I2");
 				}
 				return r_FI2;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FU2 == null)
 				{
-					r_FU2 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "U2");
+					r_FU2 = new(Type, "U2");
 				}
 				return r_FU2;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FI4 == null)
 				{
-					r_FI4 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "I4");
+					r_FI4 = new(Type, "I4");
 				}
 				return r_FI4;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FU4 == null)
 				{
-					r_FU4 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "U4");
+					r_FU4 = new(Type, "U4");
 				}
 				return r_FU4;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FI8 == null)
 				{
-					r_FI8 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "I8");
+					r_FI8 = new(Type, "I8");
 				}
 				return r_FI8;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FU8 == null)
 				{
-					r_FU8 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "U8");
+					r_FU8 = new(Type, "U8");
 				}
 				return r_FU8;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FR4 == null)
 				{
-					r_FR4 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "R4");
+					r_FR4 = new(Type, "R4");
 				}
 				return r_FR4;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FR8 == null)
 				{
-					r_FR8 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "R8");
+					r_FR8 = new(Type, "R8");
 				}
 				return r_FR8;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FString == null)
 				{
-					r_FString = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "String");
+					r_FString = new(Type, "String");
 				}
 				return r_FString;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FPtr == null)
 				{
-					r_FPtr = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Ptr");
+					r_FPtr = new(Type, "Ptr");
 				}
 				return r_FPtr;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FByRef == null)
 				{
-					r_FByRef = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ByRef");
+					r_FByRef = new(Type, "ByRef");
 				}
 				return r_FByRef;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FValueType == null)
 				{
-					r_FValueType = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ValueType");
+					r_FValueType = new(Type, "ValueType");
 				}
 				return r_FValueType;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FClass == null)
 				{
-					r_FClass = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Class");
+					r_FClass = new(Type, "Class");
 				}
 				return r_FClass;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FVar == null)
 				{
-					r_FVar = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Var");
+					r_FVar = new(Type, "Var");
 				}
 				return r_FVar;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FArray == null)
 				{
-					r_FArray = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Array");
+					r_FArray = new(Type, "Array");
 				}
 				return r_FArray;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FGenericInst == null)
 				{
-					r_FGenericInst = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "GenericInst");
+					r_FGenericInst = new(Type, "GenericInst");
 				}
 				return r_FGenericInst;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FTypedByRef == null)
 				{
-					r_FTypedByRef = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "TypedByRef");
+					r_FTypedByRef = new(Type, "TypedByRef");
 				}
 				return r_FTypedByRef;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FI == null)
 				{
-					r_FI = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "I");
+					r_FI = new(Type, "I");
 				}
 				return r_FI;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FU == null)
 				{
-					r_FU = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "U");
+					r_FU = new(Type, "U");
 				}
 				return r_FU;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FFnPtr == null)
 				{
-					r_FFnPtr = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "FnPtr");
+					r_FFnPtr = new(Type, "FnPtr");
 				}
 				return r_FFnPtr;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FObject == null)
 				{
-					r_FObject = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Object");
+					r_FObject = new(Type, "Object");
 				}
 				return r_FObject;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FSzArray == null)
 				{
-					r_FSzArray = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "SzArray");
+					r_FSzArray = new(Type, "SzArray");
 				}
 				return r_FSzArray;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FMVar == null)
 				{
-					r_FMVar = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "MVar");
+					r_FMVar = new(Type, "MVar");
 				}
 				return r_FMVar;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FCModReqd == null)
 				{
-					r_FCModReqd = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "CModReqd");
+					r_FCModReqd = new(Type, "CModReqd");
 				}
 				return r_FCModReqd;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FCModOpt == null)
 				{
-					r_FCModOpt = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "CModOpt");
+					r_FCModOpt = new(Type, "CModOpt");
 				}
 				return r_FCModOpt;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FInternal == null)
 				{
-					r_FInternal = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Internal");
+					r_FInternal = new(Type, "Internal");
 				}
 				return r_FInternal;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FMax == null)
 				{
-					r_FMax = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Max");
+					r_FMax = new(Type, "Max");
 				}
 				return r_FMax;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FModifier == null)
 				{
-					r_FModifier = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Modifier");
+					r_FModifier = new(Type, "Modifier");
 				}
 				return r_FModifier;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FSentinel == null)
 				{
-					r_FSentinel = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Sentinel");
+					r_FSentinel = new(Type, "Sentinel");
 				}
 				return r_FSentinel;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FPinned == null)
 				{
-					r_FPinned = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "Pinned");
+					r_FPinned = new(Type, "Pinned");
 				}
 				return r_FPinned;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_END == null)
 				{
-					r_FELEMENT_TYPE_END = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_END");
+					r_FELEMENT_TYPE_END = new(Type, "ELEMENT_TYPE_END");
 				}
 				return r_FELEMENT_TYPE_END;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_VOID == null)
 				{
-					r_FELEMENT_TYPE_VOID = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_VOID");
+					r_FELEMENT_TYPE_VOID = new(Type, "ELEMENT_TYPE_VOID");
 				}
 				return r_FELEMENT_TYPE_VOID;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_BOOLEAN == null)
 				{
-					r_FELEMENT_TYPE_BOOLEAN = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_BOOLEAN");
+					r_FELEMENT_TYPE_BOOLEAN = new(Type, "ELEMENT_TYPE_BOOLEAN");
 				}
 				return r_FELEMENT_TYPE_BOOLEAN;
 			}
@@ -686,7 +687,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_CHAR == null)
 				{
-					r_FELEMENT_TYPE_CHAR = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_CHAR");
+					r_FELEMENT_TYPE_CHAR = new(Type, "ELEMENT_TYPE_CHAR");
 				}
 				return r_FELEMENT_TYPE_CHAR;
 			}
@@ -702,7 +703,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_I1 == null)
 				{
-					r_FELEMENT_TYPE_I1 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_I1");
+					r_FELEMENT_TYPE_I1 = new(Type, "ELEMENT_TYPE_I1");
 				}
 				return r_FELEMENT_TYPE_I1;
 			}
@@ -718,7 +719,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_U1 == null)
 				{
-					r_FELEMENT_TYPE_U1 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_U1");
+					r_FELEMENT_TYPE_U1 = new(Type, "ELEMENT_TYPE_U1");
 				}
 				return r_FELEMENT_TYPE_U1;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_I2 == null)
 				{
-					r_FELEMENT_TYPE_I2 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_I2");
+					r_FELEMENT_TYPE_I2 = new(Type, "ELEMENT_TYPE_I2");
 				}
 				return r_FELEMENT_TYPE_I2;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_U2 == null)
 				{
-					r_FELEMENT_TYPE_U2 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_U2");
+					r_FELEMENT_TYPE_U2 = new(Type, "ELEMENT_TYPE_U2");
 				}
 				return r_FELEMENT_TYPE_U2;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_I4 == null)
 				{
-					r_FELEMENT_TYPE_I4 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_I4");
+					r_FELEMENT_TYPE_I4 = new(Type, "ELEMENT_TYPE_I4");
 				}
 				return r_FELEMENT_TYPE_I4;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_U4 == null)
 				{
-					r_FELEMENT_TYPE_U4 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_U4");
+					r_FELEMENT_TYPE_U4 = new(Type, "ELEMENT_TYPE_U4");
 				}
 				return r_FELEMENT_TYPE_U4;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_I8 == null)
 				{
-					r_FELEMENT_TYPE_I8 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_I8");
+					r_FELEMENT_TYPE_I8 = new(Type, "ELEMENT_TYPE_I8");
 				}
 				return r_FELEMENT_TYPE_I8;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_U8 == null)
 				{
-					r_FELEMENT_TYPE_U8 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_U8");
+					r_FELEMENT_TYPE_U8 = new(Type, "ELEMENT_TYPE_U8");
 				}
 				return r_FELEMENT_TYPE_U8;
 			}
@@ -830,7 +831,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_R4 == null)
 				{
-					r_FELEMENT_TYPE_R4 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_R4");
+					r_FELEMENT_TYPE_R4 = new(Type, "ELEMENT_TYPE_R4");
 				}
 				return r_FELEMENT_TYPE_R4;
 			}
@@ -846,7 +847,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_R8 == null)
 				{
-					r_FELEMENT_TYPE_R8 = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_R8");
+					r_FELEMENT_TYPE_R8 = new(Type, "ELEMENT_TYPE_R8");
 				}
 				return r_FELEMENT_TYPE_R8;
 			}
@@ -862,7 +863,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_STRING == null)
 				{
-					r_FELEMENT_TYPE_STRING = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_STRING");
+					r_FELEMENT_TYPE_STRING = new(Type, "ELEMENT_TYPE_STRING");
 				}
 				return r_FELEMENT_TYPE_STRING;
 			}
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_PTR == null)
 				{
-					r_FELEMENT_TYPE_PTR = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_PTR");
+					r_FELEMENT_TYPE_PTR = new(Type, "ELEMENT_TYPE_PTR");
 				}
 				return r_FELEMENT_TYPE_PTR;
 			}
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_BYREF == null)
 				{
-					r_FELEMENT_TYPE_BYREF = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_BYREF");
+					r_FELEMENT_TYPE_BYREF = new(Type, "ELEMENT_TYPE_BYREF");
 				}
 				return r_FELEMENT_TYPE_BYREF;
 			}
@@ -910,7 +911,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_VALUETYPE == null)
 				{
-					r_FELEMENT_TYPE_VALUETYPE = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_VALUETYPE");
+					r_FELEMENT_TYPE_VALUETYPE = new(Type, "ELEMENT_TYPE_VALUETYPE");
 				}
 				return r_FELEMENT_TYPE_VALUETYPE;
 			}
@@ -926,7 +927,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_CLASS == null)
 				{
-					r_FELEMENT_TYPE_CLASS = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_CLASS");
+					r_FELEMENT_TYPE_CLASS = new(Type, "ELEMENT_TYPE_CLASS");
 				}
 				return r_FELEMENT_TYPE_CLASS;
 			}
@@ -942,7 +943,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_VAR == null)
 				{
-					r_FELEMENT_TYPE_VAR = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_VAR");
+					r_FELEMENT_TYPE_VAR = new(Type, "ELEMENT_TYPE_VAR");
 				}
 				return r_FELEMENT_TYPE_VAR;
 			}
@@ -958,7 +959,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_ARRAY == null)
 				{
-					r_FELEMENT_TYPE_ARRAY = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_ARRAY");
+					r_FELEMENT_TYPE_ARRAY = new(Type, "ELEMENT_TYPE_ARRAY");
 				}
 				return r_FELEMENT_TYPE_ARRAY;
 			}
@@ -974,7 +975,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_GENERICINST == null)
 				{
-					r_FELEMENT_TYPE_GENERICINST = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_GENERICINST");
+					r_FELEMENT_TYPE_GENERICINST = new(Type, "ELEMENT_TYPE_GENERICINST");
 				}
 				return r_FELEMENT_TYPE_GENERICINST;
 			}
@@ -990,7 +991,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_TYPEDBYREF == null)
 				{
-					r_FELEMENT_TYPE_TYPEDBYREF = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_TYPEDBYREF");
+					r_FELEMENT_TYPE_TYPEDBYREF = new(Type, "ELEMENT_TYPE_TYPEDBYREF");
 				}
 				return r_FELEMENT_TYPE_TYPEDBYREF;
 			}
@@ -1006,7 +1007,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_I == null)
 				{
-					r_FELEMENT_TYPE_I = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_I");
+					r_FELEMENT_TYPE_I = new(Type, "ELEMENT_TYPE_I");
 				}
 				return r_FELEMENT_TYPE_I;
 			}
@@ -1022,7 +1023,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_U == null)
 				{
-					r_FELEMENT_TYPE_U = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_U");
+					r_FELEMENT_TYPE_U = new(Type, "ELEMENT_TYPE_U");
 				}
 				return r_FELEMENT_TYPE_U;
 			}
@@ -1038,7 +1039,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_FNPTR == null)
 				{
-					r_FELEMENT_TYPE_FNPTR = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_FNPTR");
+					r_FELEMENT_TYPE_FNPTR = new(Type, "ELEMENT_TYPE_FNPTR");
 				}
 				return r_FELEMENT_TYPE_FNPTR;
 			}
@@ -1054,7 +1055,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_OBJECT == null)
 				{
-					r_FELEMENT_TYPE_OBJECT = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_OBJECT");
+					r_FELEMENT_TYPE_OBJECT = new(Type, "ELEMENT_TYPE_OBJECT");
 				}
 				return r_FELEMENT_TYPE_OBJECT;
 			}
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_SZARRAY == null)
 				{
-					r_FELEMENT_TYPE_SZARRAY = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_SZARRAY");
+					r_FELEMENT_TYPE_SZARRAY = new(Type, "ELEMENT_TYPE_SZARRAY");
 				}
 				return r_FELEMENT_TYPE_SZARRAY;
 			}
@@ -1086,7 +1087,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_MVAR == null)
 				{
-					r_FELEMENT_TYPE_MVAR = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_MVAR");
+					r_FELEMENT_TYPE_MVAR = new(Type, "ELEMENT_TYPE_MVAR");
 				}
 				return r_FELEMENT_TYPE_MVAR;
 			}
@@ -1102,7 +1103,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_CMOD_REQD == null)
 				{
-					r_FELEMENT_TYPE_CMOD_REQD = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_CMOD_REQD");
+					r_FELEMENT_TYPE_CMOD_REQD = new(Type, "ELEMENT_TYPE_CMOD_REQD");
 				}
 				return r_FELEMENT_TYPE_CMOD_REQD;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_CMOD_OPT == null)
 				{
-					r_FELEMENT_TYPE_CMOD_OPT = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_CMOD_OPT");
+					r_FELEMENT_TYPE_CMOD_OPT = new(Type, "ELEMENT_TYPE_CMOD_OPT");
 				}
 				return r_FELEMENT_TYPE_CMOD_OPT;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_INTERNAL == null)
 				{
-					r_FELEMENT_TYPE_INTERNAL = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_INTERNAL");
+					r_FELEMENT_TYPE_INTERNAL = new(Type, "ELEMENT_TYPE_INTERNAL");
 				}
 				return r_FELEMENT_TYPE_INTERNAL;
 			}
@@ -1150,7 +1151,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_MAX == null)
 				{
-					r_FELEMENT_TYPE_MAX = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_MAX");
+					r_FELEMENT_TYPE_MAX = new(Type, "ELEMENT_TYPE_MAX");
 				}
 				return r_FELEMENT_TYPE_MAX;
 			}
@@ -1166,7 +1167,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_MODIFIER == null)
 				{
-					r_FELEMENT_TYPE_MODIFIER = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_MODIFIER");
+					r_FELEMENT_TYPE_MODIFIER = new(Type, "ELEMENT_TYPE_MODIFIER");
 				}
 				return r_FELEMENT_TYPE_MODIFIER;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_SENTINEL == null)
 				{
-					r_FELEMENT_TYPE_SENTINEL = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_SENTINEL");
+					r_FELEMENT_TYPE_SENTINEL = new(Type, "ELEMENT_TYPE_SENTINEL");
 				}
 				return r_FELEMENT_TYPE_SENTINEL;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
 			{
 				if(r_FELEMENT_TYPE_PINNED == null)
 				{
-					r_FELEMENT_TYPE_PINNED = new( ReflectionUtils.GetType("System.Reflection.CorElementType"), "ELEMENT_TYPE_PINNED");
+					r_FELEMENT_TYPE_PINNED = new(Type, "ELEMENT_TYPE_PINNED");
 				}
 				return r_FELEMENT_TYPE_PINNED;
 			}
@@ -1420,7 +1421,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1431,7 +1432,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1442,7 +1443,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1453,7 +1454,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1464,7 +1465,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1475,7 +1476,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1497,7 +1498,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -1508,7 +1509,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1519,7 +1520,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -1541,7 +1542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1552,7 +1553,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RReflection
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

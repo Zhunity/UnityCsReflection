@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.WaitHandle
 	/// </summary>
     public partial class RWaitHandle : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FWaitTimeout == null)
 				{
-					r_FWaitTimeout = new(typeof(System.Threading.WaitHandle), "WaitTimeout");
+					r_FWaitTimeout = new(Type, "WaitTimeout");
 				}
 				return r_FWaitTimeout;
 			}
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FMAX_WAITHANDLES == null)
 				{
-					r_FMAX_WAITHANDLES = new(typeof(System.Threading.WaitHandle), "MAX_WAITHANDLES");
+					r_FMAX_WAITHANDLES = new(Type, "MAX_WAITHANDLES");
 				}
 				return r_FMAX_WAITHANDLES;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FWAIT_OBJECT_0 == null)
 				{
-					r_FWAIT_OBJECT_0 = new(typeof(System.Threading.WaitHandle), "WAIT_OBJECT_0");
+					r_FWAIT_OBJECT_0 = new(Type, "WAIT_OBJECT_0");
 				}
 				return r_FWAIT_OBJECT_0;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FWAIT_ABANDONED == null)
 				{
-					r_FWAIT_ABANDONED = new(typeof(System.Threading.WaitHandle), "WAIT_ABANDONED");
+					r_FWAIT_ABANDONED = new(Type, "WAIT_ABANDONED");
 				}
 				return r_FWAIT_ABANDONED;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FWAIT_FAILED == null)
 				{
-					r_FWAIT_FAILED = new(typeof(System.Threading.WaitHandle), "WAIT_FAILED");
+					r_FWAIT_FAILED = new(Type, "WAIT_FAILED");
 				}
 				return r_FWAIT_FAILED;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FERROR_TOO_MANY_POSTS == null)
 				{
-					r_FERROR_TOO_MANY_POSTS = new(typeof(System.Threading.WaitHandle), "ERROR_TOO_MANY_POSTS");
+					r_FERROR_TOO_MANY_POSTS = new(Type, "ERROR_TOO_MANY_POSTS");
 				}
 				return r_FERROR_TOO_MANY_POSTS;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FERROR_NOT_OWNED_BY_CALLER == null)
 				{
-					r_FERROR_NOT_OWNED_BY_CALLER = new(typeof(System.Threading.WaitHandle), "ERROR_NOT_OWNED_BY_CALLER");
+					r_FERROR_NOT_OWNED_BY_CALLER = new(Type, "ERROR_NOT_OWNED_BY_CALLER");
 				}
 				return r_FERROR_NOT_OWNED_BY_CALLER;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FInvalidHandle == null)
 				{
-					r_FInvalidHandle = new(typeof(System.Threading.WaitHandle), "InvalidHandle");
+					r_FInvalidHandle = new(Type, "InvalidHandle");
 				}
 				return r_FInvalidHandle;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_FMaxWaitHandles == null)
 				{
-					r_FMaxWaitHandles = new(typeof(System.Threading.WaitHandle), "MaxWaitHandles");
+					r_FMaxWaitHandles = new(Type, "MaxWaitHandles");
 				}
 				return r_FMaxWaitHandles;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MInternalWaitOne_SafeHandle_Int64_Boolean_Boolean == null)
 				{
-					r_MInternalWaitOne_SafeHandle_Int64_Boolean_Boolean = new(typeof(System.Threading.WaitHandle), "InternalWaitOne", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Int64), typeof(System.Boolean), typeof(System.Boolean));
+					r_MInternalWaitOne_SafeHandle_Int64_Boolean_Boolean = new(Type, "InternalWaitOne", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.Int64), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MInternalWaitOne_SafeHandle_Int64_Boolean_Boolean;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAll_WaitHandleArray_Int32_Boolean == null)
 				{
-					r_MWaitAll_WaitHandleArray_Int32_Boolean = new(typeof(System.Threading.WaitHandle), "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_MWaitAll_WaitHandleArray_Int32_Boolean = new(Type, "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MWaitAll_WaitHandleArray_Int32_Boolean;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAll_WaitHandleArray_TimeSpan_Boolean == null)
 				{
-					r_MWaitAll_WaitHandleArray_TimeSpan_Boolean = new(typeof(System.Threading.WaitHandle), "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan), typeof(System.Boolean));
+					r_MWaitAll_WaitHandleArray_TimeSpan_Boolean = new(Type, "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan), typeof(System.Boolean));
 				}
 				return r_MWaitAll_WaitHandleArray_TimeSpan_Boolean;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAll_WaitHandleArray == null)
 				{
-					r_MWaitAll_WaitHandleArray = new(typeof(System.Threading.WaitHandle), "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType());
+					r_MWaitAll_WaitHandleArray = new(Type, "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType());
 				}
 				return r_MWaitAll_WaitHandleArray;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAll_WaitHandleArray_Int32 == null)
 				{
-					r_MWaitAll_WaitHandleArray_Int32 = new(typeof(System.Threading.WaitHandle), "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32));
+					r_MWaitAll_WaitHandleArray_Int32 = new(Type, "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MWaitAll_WaitHandleArray_Int32;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAll_WaitHandleArray_TimeSpan == null)
 				{
-					r_MWaitAll_WaitHandleArray_TimeSpan = new(typeof(System.Threading.WaitHandle), "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan));
+					r_MWaitAll_WaitHandleArray_TimeSpan = new(Type, "WaitAll", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan));
 				}
 				return r_MWaitAll_WaitHandleArray_TimeSpan;
 			}
@@ -526,7 +527,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAny_WaitHandleArray_Int32_Boolean == null)
 				{
-					r_MWaitAny_WaitHandleArray_Int32_Boolean = new(typeof(System.Threading.WaitHandle), "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
+					r_MWaitAny_WaitHandleArray_Int32_Boolean = new(Type, "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MWaitAny_WaitHandleArray_Int32_Boolean;
 			}
@@ -542,7 +543,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAny_WaitHandleArray_TimeSpan_Boolean == null)
 				{
-					r_MWaitAny_WaitHandleArray_TimeSpan_Boolean = new(typeof(System.Threading.WaitHandle), "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan), typeof(System.Boolean));
+					r_MWaitAny_WaitHandleArray_TimeSpan_Boolean = new(Type, "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan), typeof(System.Boolean));
 				}
 				return r_MWaitAny_WaitHandleArray_TimeSpan_Boolean;
 			}
@@ -558,7 +559,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAny_WaitHandleArray_TimeSpan == null)
 				{
-					r_MWaitAny_WaitHandleArray_TimeSpan = new(typeof(System.Threading.WaitHandle), "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan));
+					r_MWaitAny_WaitHandleArray_TimeSpan = new(Type, "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.TimeSpan));
 				}
 				return r_MWaitAny_WaitHandleArray_TimeSpan;
 			}
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAny_WaitHandleArray == null)
 				{
-					r_MWaitAny_WaitHandleArray = new(typeof(System.Threading.WaitHandle), "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType());
+					r_MWaitAny_WaitHandleArray = new(Type, "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType());
 				}
 				return r_MWaitAny_WaitHandleArray;
 			}
@@ -590,7 +591,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitAny_WaitHandleArray_Int32 == null)
 				{
-					r_MWaitAny_WaitHandleArray_Int32 = new(typeof(System.Threading.WaitHandle), "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32));
+					r_MWaitAny_WaitHandleArray_Int32 = new(Type, "WaitAny", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MWaitAny_WaitHandleArray_Int32;
 			}
@@ -606,7 +607,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSignalAndWait_WaitHandle_WaitHandle == null)
 				{
-					r_MSignalAndWait_WaitHandle_WaitHandle = new(typeof(System.Threading.WaitHandle), "SignalAndWait", 0, typeof(System.Threading.WaitHandle), typeof(System.Threading.WaitHandle));
+					r_MSignalAndWait_WaitHandle_WaitHandle = new(Type, "SignalAndWait", 0, typeof(System.Threading.WaitHandle), typeof(System.Threading.WaitHandle));
 				}
 				return r_MSignalAndWait_WaitHandle_WaitHandle;
 			}
@@ -622,7 +623,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean == null)
 				{
-					r_MSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean = new(typeof(System.Threading.WaitHandle), "SignalAndWait", 0, typeof(System.Threading.WaitHandle), typeof(System.Threading.WaitHandle), typeof(System.TimeSpan), typeof(System.Boolean));
+					r_MSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean = new(Type, "SignalAndWait", 0, typeof(System.Threading.WaitHandle), typeof(System.Threading.WaitHandle), typeof(System.TimeSpan), typeof(System.Boolean));
 				}
 				return r_MSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean;
 			}
@@ -638,7 +639,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean == null)
 				{
-					r_MSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean = new(typeof(System.Threading.WaitHandle), "SignalAndWait", 0, typeof(System.Threading.WaitHandle), typeof(System.Threading.WaitHandle), typeof(System.Int32), typeof(System.Boolean));
+					r_MSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean = new(Type, "SignalAndWait", 0, typeof(System.Threading.WaitHandle), typeof(System.Threading.WaitHandle), typeof(System.Int32), typeof(System.Boolean));
 				}
 				return r_MSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean;
 			}
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MThrowAbandonedMutexException == null)
 				{
-					r_MThrowAbandonedMutexException = new(typeof(System.Threading.WaitHandle), "ThrowAbandonedMutexException", 0);
+					r_MThrowAbandonedMutexException = new(Type, "ThrowAbandonedMutexException", 0);
 				}
 				return r_MThrowAbandonedMutexException;
 			}
@@ -670,7 +671,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MThrowAbandonedMutexException_Int32_WaitHandle == null)
 				{
-					r_MThrowAbandonedMutexException_Int32_WaitHandle = new(typeof(System.Threading.WaitHandle), "ThrowAbandonedMutexException", 0, typeof(System.Int32), typeof(System.Threading.WaitHandle));
+					r_MThrowAbandonedMutexException_Int32_WaitHandle = new(Type, "ThrowAbandonedMutexException", 0, typeof(System.Int32), typeof(System.Threading.WaitHandle));
 				}
 				return r_MThrowAbandonedMutexException_Int32_WaitHandle;
 			}
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitOneNative_SafeHandle_UInt32_Boolean_Boolean == null)
 				{
-					r_MWaitOneNative_SafeHandle_UInt32_Boolean_Boolean = new(typeof(System.Threading.WaitHandle), "WaitOneNative", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MWaitOneNative_SafeHandle_UInt32_Boolean_Boolean = new(Type, "WaitOneNative", 0, typeof(System.Runtime.InteropServices.SafeHandle), typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MWaitOneNative_SafeHandle_UInt32_Boolean_Boolean;
 			}
@@ -750,7 +751,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean == null)
 				{
-					r_MWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean = new(typeof(System.Threading.WaitHandle), "WaitMultiple", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean = new(Type, "WaitMultiple", 0, typeof(System.Threading.WaitHandle).MakeArrayType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean;
 			}
@@ -766,7 +767,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MWait_internal_IntPtrPointer_Int32_Boolean_Int32 == null)
 				{
-					r_MWait_internal_IntPtrPointer_Int32_Boolean_Int32 = new(typeof(System.Threading.WaitHandle), "Wait_internal", 0, typeof(System.IntPtr).MakePointerType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
+					r_MWait_internal_IntPtrPointer_Int32_Boolean_Int32 = new(Type, "Wait_internal", 0, typeof(System.IntPtr).MakePointerType(), typeof(System.Int32), typeof(System.Boolean), typeof(System.Int32));
 				}
 				return r_MWait_internal_IntPtrPointer_Int32_Boolean_Int32;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean == null)
 				{
-					r_MSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean = new(typeof(System.Threading.WaitHandle), "SignalAndWaitOne", 0, typeof(Microsoft.Win32.SafeHandles.SafeWaitHandle), typeof(Microsoft.Win32.SafeHandles.SafeWaitHandle), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
+					r_MSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean = new(Type, "SignalAndWaitOne", 0, typeof(Microsoft.Win32.SafeHandles.SafeWaitHandle), typeof(Microsoft.Win32.SafeHandles.SafeWaitHandle), typeof(System.Int32), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MSignalAndWait_Internal_IntPtr_IntPtr_Int32 == null)
 				{
-					r_MSignalAndWait_Internal_IntPtr_IntPtr_Int32 = new(typeof(System.Threading.WaitHandle), "SignalAndWait_Internal", 0, typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.Int32));
+					r_MSignalAndWait_Internal_IntPtr_IntPtr_Int32 = new(Type, "SignalAndWait_Internal", 0, typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.Int32));
 				}
 				return r_MSignalAndWait_Internal_IntPtr_IntPtr_Int32;
 			}
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MToTimeoutMilliseconds_TimeSpan == null)
 				{
-					r_MToTimeoutMilliseconds_TimeSpan = new(typeof(System.Threading.WaitHandle), "ToTimeoutMilliseconds", 0, typeof(System.TimeSpan));
+					r_MToTimeoutMilliseconds_TimeSpan = new(Type, "ToTimeoutMilliseconds", 0, typeof(System.TimeSpan));
 				}
 				return r_MToTimeoutMilliseconds_TimeSpan;
 			}
@@ -1026,7 +1027,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout, @exitContext};
             var ___result = RMWaitOne_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1037,7 +1038,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout, @exitContext};
             var ___result = RMWaitOne_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1048,7 +1049,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMWaitOne.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1059,7 +1060,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@millisecondsTimeout};
             var ___result = RMWaitOne_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1070,7 +1071,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout};
             var ___result = RMWaitOne_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1081,7 +1082,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout, @exitContext};
             var ___result = RMWaitOne_Int64_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1092,7 +1093,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitableSafeHandle, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
             var ___result = RMInternalWaitOne_SafeHandle_Int64_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1103,7 +1104,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMWaitOneWithoutFAS.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1114,7 +1115,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext};
             var ___result = RMWaitAll_WaitHandleArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1125,7 +1126,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @timeout, @exitContext};
             var ___result = RMWaitAll_WaitHandleArray_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1136,7 +1137,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles};
             var ___result = RMWaitAll_WaitHandleArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1147,7 +1148,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @millisecondsTimeout};
             var ___result = RMWaitAll_WaitHandleArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1158,7 +1159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @timeout};
             var ___result = RMWaitAll_WaitHandleArray_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1169,7 +1170,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext};
             var ___result = RMWaitAny_WaitHandleArray_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1180,7 +1181,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @timeout, @exitContext};
             var ___result = RMWaitAny_WaitHandleArray_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1191,7 +1192,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @timeout};
             var ___result = RMWaitAny_WaitHandleArray_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1202,7 +1203,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles};
             var ___result = RMWaitAny_WaitHandleArray.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1213,7 +1214,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @millisecondsTimeout};
             var ___result = RMWaitAny_WaitHandleArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1224,7 +1225,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@toSignal, @toWaitOn};
             var ___result = RMSignalAndWait_WaitHandle_WaitHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1235,7 +1236,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@toSignal, @toWaitOn, @timeout, @exitContext};
             var ___result = RMSignalAndWait_WaitHandle_WaitHandle_TimeSpan_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@toSignal, @toWaitOn, @millisecondsTimeout, @exitContext};
             var ___result = RMSignalAndWait_WaitHandle_WaitHandle_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1312,7 +1313,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitableSafeHandle, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
             var ___result = RMWaitOneNative_SafeHandle_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1323,7 +1324,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandles, @millisecondsTimeout, @exitContext, @WaitAll};
             var ___result = RMWaitMultiple_WaitHandleArray_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1334,7 +1335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{Pointer.Box(@handles, typeof(System.IntPtr)), @numHandles, @waitAll, @ms};
             var ___result = RMWait_internal_IntPtrPointer_Int32_Boolean_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1345,7 +1346,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@waitHandleToSignal, @waitHandleToWaitOn, @millisecondsTimeout, @hasThreadAffinity, @exitContext};
             var ___result = RMSignalAndWaitOne_SafeWaitHandle_SafeWaitHandle_Int32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1356,7 +1357,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@toSignal, @toWaitOn, @ms};
             var ___result = RMSignalAndWait_Internal_IntPtr_IntPtr_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1367,7 +1368,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@timeout};
             var ___result = RMToTimeoutMilliseconds_TimeSpan.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1380,7 +1381,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___result = RMGetObjectIdentity_MarshalByRefObject_Out_Boolean.Invoke(___genericsType, ___parameters);
 			@IsClient = (System.Boolean)___parameters[1];
 
-            return new Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RIdentity>(___result);
         }
 
 
@@ -1391,7 +1392,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@requestedType};
             var ___result = RMCreateObjRef_Type.Invoke(___genericsType, ___parameters);
 
-            return (System.Runtime.Remoting.ObjRef)___result;
+            return ReflectionUtils.Convert<System.Runtime.Remoting.ObjRef>(___result);
         }
 
 
@@ -1402,7 +1403,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetLifetimeService.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1413,7 +1414,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMInitializeLifetimeService.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1424,7 +1425,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@cloneIdentity};
             var ___result = RMMemberwiseClone_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (System.MarshalByRefObject)___result;
+            return ReflectionUtils.Convert<System.MarshalByRefObject>(___result);
         }
 
 
@@ -1435,7 +1436,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1457,7 +1458,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1468,7 +1469,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1479,7 +1480,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1490,7 +1491,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

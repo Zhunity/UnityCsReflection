@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.TextEditOp
 	/// </summary>
     public partial class RTextEditOp : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveLeft == null)
 				{
-					r_FMoveLeft = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveLeft");
+					r_FMoveLeft = new(Type, "MoveLeft");
 				}
 				return r_FMoveLeft;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveRight == null)
 				{
-					r_FMoveRight = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveRight");
+					r_FMoveRight = new(Type, "MoveRight");
 				}
 				return r_FMoveRight;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveUp == null)
 				{
-					r_FMoveUp = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveUp");
+					r_FMoveUp = new(Type, "MoveUp");
 				}
 				return r_FMoveUp;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveDown == null)
 				{
-					r_FMoveDown = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveDown");
+					r_FMoveDown = new(Type, "MoveDown");
 				}
 				return r_FMoveDown;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveLineStart == null)
 				{
-					r_FMoveLineStart = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveLineStart");
+					r_FMoveLineStart = new(Type, "MoveLineStart");
 				}
 				return r_FMoveLineStart;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveLineEnd == null)
 				{
-					r_FMoveLineEnd = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveLineEnd");
+					r_FMoveLineEnd = new(Type, "MoveLineEnd");
 				}
 				return r_FMoveLineEnd;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveTextStart == null)
 				{
-					r_FMoveTextStart = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveTextStart");
+					r_FMoveTextStart = new(Type, "MoveTextStart");
 				}
 				return r_FMoveTextStart;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveTextEnd == null)
 				{
-					r_FMoveTextEnd = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveTextEnd");
+					r_FMoveTextEnd = new(Type, "MoveTextEnd");
 				}
 				return r_FMoveTextEnd;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMovePageUp == null)
 				{
-					r_FMovePageUp = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MovePageUp");
+					r_FMovePageUp = new(Type, "MovePageUp");
 				}
 				return r_FMovePageUp;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMovePageDown == null)
 				{
-					r_FMovePageDown = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MovePageDown");
+					r_FMovePageDown = new(Type, "MovePageDown");
 				}
 				return r_FMovePageDown;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveGraphicalLineStart == null)
 				{
-					r_FMoveGraphicalLineStart = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveGraphicalLineStart");
+					r_FMoveGraphicalLineStart = new(Type, "MoveGraphicalLineStart");
 				}
 				return r_FMoveGraphicalLineStart;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveGraphicalLineEnd == null)
 				{
-					r_FMoveGraphicalLineEnd = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveGraphicalLineEnd");
+					r_FMoveGraphicalLineEnd = new(Type, "MoveGraphicalLineEnd");
 				}
 				return r_FMoveGraphicalLineEnd;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveWordLeft == null)
 				{
-					r_FMoveWordLeft = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveWordLeft");
+					r_FMoveWordLeft = new(Type, "MoveWordLeft");
 				}
 				return r_FMoveWordLeft;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveWordRight == null)
 				{
-					r_FMoveWordRight = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveWordRight");
+					r_FMoveWordRight = new(Type, "MoveWordRight");
 				}
 				return r_FMoveWordRight;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveParagraphForward == null)
 				{
-					r_FMoveParagraphForward = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveParagraphForward");
+					r_FMoveParagraphForward = new(Type, "MoveParagraphForward");
 				}
 				return r_FMoveParagraphForward;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveParagraphBackward == null)
 				{
-					r_FMoveParagraphBackward = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveParagraphBackward");
+					r_FMoveParagraphBackward = new(Type, "MoveParagraphBackward");
 				}
 				return r_FMoveParagraphBackward;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveToStartOfNextWord == null)
 				{
-					r_FMoveToStartOfNextWord = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveToStartOfNextWord");
+					r_FMoveToStartOfNextWord = new(Type, "MoveToStartOfNextWord");
 				}
 				return r_FMoveToStartOfNextWord;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FMoveToEndOfPreviousWord == null)
 				{
-					r_FMoveToEndOfPreviousWord = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "MoveToEndOfPreviousWord");
+					r_FMoveToEndOfPreviousWord = new(Type, "MoveToEndOfPreviousWord");
 				}
 				return r_FMoveToEndOfPreviousWord;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDelete == null)
 				{
-					r_FDelete = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "Delete");
+					r_FDelete = new(Type, "Delete");
 				}
 				return r_FDelete;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FBackspace == null)
 				{
-					r_FBackspace = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "Backspace");
+					r_FBackspace = new(Type, "Backspace");
 				}
 				return r_FBackspace;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDeleteWordBack == null)
 				{
-					r_FDeleteWordBack = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "DeleteWordBack");
+					r_FDeleteWordBack = new(Type, "DeleteWordBack");
 				}
 				return r_FDeleteWordBack;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDeleteWordForward == null)
 				{
-					r_FDeleteWordForward = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "DeleteWordForward");
+					r_FDeleteWordForward = new(Type, "DeleteWordForward");
 				}
 				return r_FDeleteWordForward;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FDeleteLineBack == null)
 				{
-					r_FDeleteLineBack = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "DeleteLineBack");
+					r_FDeleteLineBack = new(Type, "DeleteLineBack");
 				}
 				return r_FDeleteLineBack;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FCut == null)
 				{
-					r_FCut = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "Cut");
+					r_FCut = new(Type, "Cut");
 				}
 				return r_FCut;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FPaste == null)
 				{
-					r_FPaste = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "Paste");
+					r_FPaste = new(Type, "Paste");
 				}
 				return r_FPaste;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FScrollStart == null)
 				{
-					r_FScrollStart = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "ScrollStart");
+					r_FScrollStart = new(Type, "ScrollStart");
 				}
 				return r_FScrollStart;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FScrollEnd == null)
 				{
-					r_FScrollEnd = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "ScrollEnd");
+					r_FScrollEnd = new(Type, "ScrollEnd");
 				}
 				return r_FScrollEnd;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FScrollPageUp == null)
 				{
-					r_FScrollPageUp = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "ScrollPageUp");
+					r_FScrollPageUp = new(Type, "ScrollPageUp");
 				}
 				return r_FScrollPageUp;
 			}
@@ -510,7 +511,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FScrollPageDown == null)
 				{
-					r_FScrollPageDown = new( ReflectionUtils.GetType("UnityEngine.TextEditOp"), "ScrollPageDown");
+					r_FScrollPageDown = new(Type, "ScrollPageDown");
 				}
 				return r_FScrollPageDown;
 			}
@@ -732,7 +733,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -743,7 +744,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -754,7 +755,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -765,7 +766,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -776,7 +777,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -787,7 +788,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -809,7 +810,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -820,7 +821,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -831,7 +832,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -853,7 +854,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -864,7 +865,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

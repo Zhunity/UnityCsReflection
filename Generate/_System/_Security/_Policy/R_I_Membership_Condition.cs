@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Policy.IMembershipCondition
 	/// </summary>
     public partial class RIMembershipCondition : RMember //
@@ -108,7 +109,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@evidence};
             var ___result = RMCheck_Evidence.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -119,7 +120,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Security.Policy.IMembershipCondition)___result;
+            return ReflectionUtils.Convert<System.Security.Policy.IMembershipCondition>(___result);
         }
 
 
@@ -130,7 +131,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -141,7 +142,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPolicy
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

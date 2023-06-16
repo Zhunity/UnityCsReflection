@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.CompressedStack
 	/// </summary>
     public partial class RCompressedStack : RMember //
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MCapture == null)
 				{
-					r_MCapture = new(typeof(System.Threading.CompressedStack), "Capture", 0);
+					r_MCapture = new(Type, "Capture", 0);
 				}
 				return r_MCapture;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MGetCompressedStack == null)
 				{
-					r_MGetCompressedStack = new(typeof(System.Threading.CompressedStack), "GetCompressedStack", 0);
+					r_MGetCompressedStack = new(Type, "GetCompressedStack", 0);
 				}
 				return r_MGetCompressedStack;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
 			{
 				if(r_MRun_CompressedStack_ContextCallback_Object == null)
 				{
-					r_MRun_CompressedStack_ContextCallback_Object = new(typeof(System.Threading.CompressedStack), "Run", 0, typeof(System.Threading.CompressedStack), typeof(System.Threading.ContextCallback), typeof(System.Object));
+					r_MRun_CompressedStack_ContextCallback_Object = new(Type, "Run", 0, typeof(System.Threading.CompressedStack), typeof(System.Threading.ContextCallback), typeof(System.Object));
 				}
 				return r_MRun_CompressedStack_ContextCallback_Object;
 			}
@@ -284,7 +285,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCreateCopy.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.CompressedStack)___result;
+            return ReflectionUtils.Convert<System.Threading.CompressedStack>(___result);
         }
 
 
@@ -295,7 +296,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMCapture.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.CompressedStack)___result;
+            return ReflectionUtils.Convert<System.Threading.CompressedStack>(___result);
         }
 
 
@@ -306,7 +307,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetCompressedStack.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.CompressedStack)___result;
+            return ReflectionUtils.Convert<System.Threading.CompressedStack>(___result);
         }
 
 
@@ -339,7 +340,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@cs};
             var ___result = RMEquals_CompressedStack.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMIsEmpty.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -361,7 +362,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -383,7 +384,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -394,7 +395,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -405,7 +406,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -416,7 +417,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

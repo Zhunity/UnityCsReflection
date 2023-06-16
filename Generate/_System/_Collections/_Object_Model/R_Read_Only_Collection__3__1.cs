@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Collections.ObjectModel.ReadOnlyCollection`1
 	/// </summary>
     public partial class RReadOnlyCollection<T> : RMember //
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
         {
             get
             {
-                return  ReflectionUtils.GetType("System.Collections.ObjectModel.ReadOnlyCollection`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("System.Collections.ObjectModel.ReadOnlyCollection`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
 			{
 				if(r_MIsCompatibleObject_Object == null)
 				{
-					r_MIsCompatibleObject_Object = new( ReflectionUtils.GetType("System.Collections.ObjectModel.ReadOnlyCollection`1"), "IsCompatibleObject", 0, typeof(System.Object));
+					r_MIsCompatibleObject_Object = new(Type, "IsCompatibleObject", 0, typeof(System.Object));
 				}
 				return r_MIsCompatibleObject_Object;
 			}
@@ -636,7 +637,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMContains_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -658,7 +659,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.IEnumerator<T>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.IEnumerator<T>>(___result);
         }
 
 
@@ -669,7 +670,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMIndexOf_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -713,7 +714,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__Generic__2__ICollection__0__T__1____2__Remove_T.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -735,7 +736,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -757,7 +758,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__IList__2__Add_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -779,7 +780,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMIsCompatibleObject_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -790,7 +791,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__IList__2__Contains_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -801,7 +802,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@value};
             var ___result = RMSystem__2__Collections__2__IList__2__IndexOf_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -845,7 +846,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -867,7 +868,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -878,7 +879,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -889,7 +890,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -900,7 +901,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RCollections.RObjectModel
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

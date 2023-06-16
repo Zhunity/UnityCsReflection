@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Unity.Collections.Allocator
 	/// </summary>
     public partial class RAllocator : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FInvalid == null)
 				{
-					r_FInvalid = new(typeof(Unity.Collections.Allocator), "Invalid");
+					r_FInvalid = new(Type, "Invalid");
 				}
 				return r_FInvalid;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(Unity.Collections.Allocator), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FTemp == null)
 				{
-					r_FTemp = new(typeof(Unity.Collections.Allocator), "Temp");
+					r_FTemp = new(Type, "Temp");
 				}
 				return r_FTemp;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FTempJob == null)
 				{
-					r_FTempJob = new(typeof(Unity.Collections.Allocator), "TempJob");
+					r_FTempJob = new(Type, "TempJob");
 				}
 				return r_FTempJob;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FPersistent == null)
 				{
-					r_FPersistent = new(typeof(Unity.Collections.Allocator), "Persistent");
+					r_FPersistent = new(Type, "Persistent");
 				}
 				return r_FPersistent;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FAudioKernel == null)
 				{
-					r_FAudioKernel = new(typeof(Unity.Collections.Allocator), "AudioKernel");
+					r_FAudioKernel = new(Type, "AudioKernel");
 				}
 				return r_FAudioKernel;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_FFirstUserIndex == null)
 				{
-					r_FFirstUserIndex = new(typeof(Unity.Collections.Allocator), "FirstUserIndex");
+					r_FFirstUserIndex = new(Type, "FirstUserIndex");
 				}
 				return r_FFirstUserIndex;
 			}
@@ -380,7 +381,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -391,7 +392,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -402,7 +403,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -413,7 +414,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -424,7 +425,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -435,7 +436,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -457,7 +458,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -468,7 +469,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -479,7 +480,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -501,7 +502,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -512,7 +513,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

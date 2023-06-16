@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Events.PersistentCall
 	/// </summary>
     public partial class RPersistentCall : RMember //
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
 			{
 				if(r_MGetObjectCall_Object_MethodInfo_ArgumentCache == null)
 				{
-					r_MGetObjectCall_Object_MethodInfo_ArgumentCache = new( ReflectionUtils.GetType("UnityEngine.Events.PersistentCall"), "GetObjectCall", 0, typeof(UnityEngine.Object), typeof(System.Reflection.MethodInfo),  ReflectionUtils.GetType("UnityEngine.Events.ArgumentCache"));
+					r_MGetObjectCall_Object_MethodInfo_ArgumentCache = new(Type, "GetObjectCall", 0, typeof(UnityEngine.Object), typeof(System.Reflection.MethodInfo),  ReflectionUtils.GetType("UnityEngine.Events.ArgumentCache"));
 				}
 				return r_MGetObjectCall_Object_MethodInfo_ArgumentCache;
 			}
@@ -444,7 +445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{};
             var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -455,7 +456,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{@theEvent};
             var ___result = RMGetRuntimeCall_UnityEventBase.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>(___result);
         }
 
 
@@ -466,7 +467,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{@target, @method, @arguments.Value};
             var ___result = RMGetObjectCall_Object_MethodInfo_ArgumentCache.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.REvents.RBaseInvokableCall>(___result);
         }
 
 
@@ -521,7 +522,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -543,7 +544,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -554,7 +555,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -565,7 +566,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -576,7 +577,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.REvents
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

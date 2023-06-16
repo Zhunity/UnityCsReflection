@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Runtime.Remoting.Contexts.IContextProperty
 	/// </summary>
     public partial class RIContextProperty : RMember //
@@ -103,7 +104,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RRuntime.RRemoting.RContexts
             var ___parameters = new object[]{@newCtx};
             var ___result = RMIsNewContextOK_Context.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.RenderTexture
 	/// </summary>
     public partial class RRenderTexture : RMember //
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Pactive == null)
 				{
-					r_Pactive = new(typeof(UnityEngine.RenderTexture), "active", -1);
+					r_Pactive = new(Type, "active", -1);
 				}
 				return r_Pactive;
 			}
@@ -462,7 +463,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_Penabled == null)
 				{
-					r_Penabled = new(typeof(UnityEngine.RenderTexture), "enabled", -1);
+					r_Penabled = new(Type, "enabled", -1);
 				}
 				return r_Penabled;
 			}
@@ -782,7 +783,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetActive == null)
 				{
-					r_MGetActive = new(typeof(UnityEngine.RenderTexture), "GetActive", 0);
+					r_MGetActive = new(Type, "GetActive", 0);
 				}
 				return r_MGetActive;
 			}
@@ -798,7 +799,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSetActive_RenderTexture == null)
 				{
-					r_MSetActive_RenderTexture = new(typeof(UnityEngine.RenderTexture), "SetActive", 0, typeof(UnityEngine.RenderTexture));
+					r_MSetActive_RenderTexture = new(Type, "SetActive", 0, typeof(UnityEngine.RenderTexture));
 				}
 				return r_MSetActive_RenderTexture;
 			}
@@ -1118,7 +1119,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_Create_RenderTexture == null)
 				{
-					r_MInternal_Create_RenderTexture = new(typeof(UnityEngine.RenderTexture), "Internal_Create", 0, typeof(UnityEngine.RenderTexture));
+					r_MInternal_Create_RenderTexture = new(Type, "Internal_Create", 0, typeof(UnityEngine.RenderTexture));
 				}
 				return r_MInternal_Create_RenderTexture;
 			}
@@ -1134,7 +1135,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MSupportsStencil_RenderTexture == null)
 				{
-					r_MSupportsStencil_RenderTexture = new(typeof(UnityEngine.RenderTexture), "SupportsStencil", 0, typeof(UnityEngine.RenderTexture));
+					r_MSupportsStencil_RenderTexture = new(Type, "SupportsStencil", 0, typeof(UnityEngine.RenderTexture));
 				}
 				return r_MSupportsStencil_RenderTexture;
 			}
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Internal_RenderTextureDescriptor == null)
 				{
-					r_MGetTemporary_Internal_RenderTextureDescriptor = new(typeof(UnityEngine.RenderTexture), "GetTemporary_Internal", 0, typeof(UnityEngine.RenderTextureDescriptor));
+					r_MGetTemporary_Internal_RenderTextureDescriptor = new(Type, "GetTemporary_Internal", 0, typeof(UnityEngine.RenderTextureDescriptor));
 				}
 				return r_MGetTemporary_Internal_RenderTextureDescriptor;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MReleaseTemporary_RenderTexture == null)
 				{
-					r_MReleaseTemporary_RenderTexture = new(typeof(UnityEngine.RenderTexture), "ReleaseTemporary", 0, typeof(UnityEngine.RenderTexture));
+					r_MReleaseTemporary_RenderTexture = new(Type, "ReleaseTemporary", 0, typeof(UnityEngine.RenderTexture));
 				}
 				return r_MReleaseTemporary_RenderTexture;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetDepthStencilFormatLegacy_Int32_GraphicsFormat == null)
 				{
-					r_MGetDepthStencilFormatLegacy_Int32_GraphicsFormat = new(typeof(UnityEngine.RenderTexture), "GetDepthStencilFormatLegacy", 0, typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
+					r_MGetDepthStencilFormatLegacy_Int32_GraphicsFormat = new(Type, "GetDepthStencilFormatLegacy", 0, typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
 				}
 				return r_MGetDepthStencilFormatLegacy_Int32_GraphicsFormat;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MValidateRenderTextureDesc_RenderTextureDescriptor == null)
 				{
-					r_MValidateRenderTextureDesc_RenderTextureDescriptor = new(typeof(UnityEngine.RenderTexture), "ValidateRenderTextureDesc", 0, typeof(UnityEngine.RenderTextureDescriptor));
+					r_MValidateRenderTextureDesc_RenderTextureDescriptor = new(Type, "ValidateRenderTextureDesc", 0, typeof(UnityEngine.RenderTextureDescriptor));
 				}
 				return r_MValidateRenderTextureDesc_RenderTextureDescriptor;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite == null)
 				{
-					r_MGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite = new(typeof(UnityEngine.RenderTexture), "GetCompatibleFormat", 0, typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite));
+					r_MGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite = new(Type, "GetCompatibleFormat", 0, typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite));
 				}
 				return r_MGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_RenderTextureDescriptor == null)
 				{
-					r_MGetTemporary_RenderTextureDescriptor = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(UnityEngine.RenderTextureDescriptor));
+					r_MGetTemporary_RenderTextureDescriptor = new(Type, "GetTemporary", 0, typeof(UnityEngine.RenderTextureDescriptor));
 				}
 				return r_MGetTemporary_RenderTextureDescriptor;
 			}
@@ -1294,7 +1295,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean == null)
 				{
-					r_MGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean = new(typeof(UnityEngine.RenderTexture), "GetTemporaryImpl", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage), typeof(System.Boolean));
+					r_MGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean = new(Type, "GetTemporaryImpl", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage), typeof(System.Boolean));
 				}
 				return r_MGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean;
 			}
@@ -1310,7 +1311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage), typeof(System.Boolean));
+					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage), typeof(System.Boolean));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean;
 			}
@@ -1326,7 +1327,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage));
+					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage;
 			}
@@ -1342,7 +1343,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless));
+					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless;
 			}
@@ -1358,7 +1359,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32 == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32 = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32));
+					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32 = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(System.Int32));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32;
 			}
@@ -1374,7 +1375,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
+					r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_GraphicsFormat;
 			}
@@ -1390,7 +1391,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage), typeof(System.Boolean));
+					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage), typeof(System.Boolean));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean;
 			}
@@ -1406,7 +1407,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage));
+					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless), typeof(UnityEngine.VRTextureUsage));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage;
 			}
@@ -1422,7 +1423,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless));
+					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32), typeof(UnityEngine.RenderTextureMemoryless));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless;
 			}
@@ -1438,7 +1439,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32 == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32 = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32));
+					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32 = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite), typeof(System.Int32));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32;
 			}
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite));
+					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat), typeof(UnityEngine.RenderTextureReadWrite));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite;
 			}
@@ -1470,7 +1471,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat));
+					r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.RenderTextureFormat));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32_RenderTextureFormat;
 			}
@@ -1486,7 +1487,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32_Int32 == null)
 				{
-					r_MGetTemporary_Int32_Int32_Int32 = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MGetTemporary_Int32_Int32_Int32 = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MGetTemporary_Int32_Int32_Int32;
 			}
@@ -1502,7 +1503,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Int32_Int32 == null)
 				{
-					r_MGetTemporary_Int32_Int32 = new(typeof(UnityEngine.RenderTexture), "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32));
+					r_MGetTemporary_Int32_Int32 = new(Type, "GetTemporary", 0, typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MGetTemporary_Int32_Int32;
 			}
@@ -1614,7 +1615,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor == null)
 				{
-					r_MGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor = new(typeof(UnityEngine.RenderTexture), "GetTemporary_Internal_Injected", 0, typeof(UnityEngine.RenderTextureDescriptor).MakeByRefType());
+					r_MGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor = new(Type, "GetTemporary_Internal_Injected", 0, typeof(UnityEngine.RenderTextureDescriptor).MakeByRefType());
 				}
 				return r_MGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor;
 			}
@@ -1916,7 +1917,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@suppressWarnings};
             var ___result = RMGetColorFormat_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Experimental.Rendering.GraphicsFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
         }
 
 
@@ -1938,7 +1939,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetIsPowerOfTwo.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1949,7 +1950,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetActive.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -1971,7 +1972,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetColorBuffer.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderBuffer)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___result);
         }
 
 
@@ -1982,7 +1983,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetDepthBuffer.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderBuffer)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderBuffer>(___result);
         }
 
 
@@ -2015,7 +2016,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeDepthBufferPtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -2114,7 +2115,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMCreate.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2136,7 +2137,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMIsCreated.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2191,7 +2192,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@rt};
             var ___result = RMSupportsStencil_RenderTexture.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2213,7 +2214,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetDescriptor.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTextureDescriptor)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTextureDescriptor>(___result);
         }
 
 
@@ -2224,7 +2225,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@desc};
             var ___result = RMGetTemporary_Internal_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2257,7 +2258,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@depthBits, @colorFormat};
             var ___result = RMGetDepthStencilFormatLegacy_Int32_GraphicsFormat.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Experimental.Rendering.GraphicsFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
         }
 
 
@@ -2279,7 +2280,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@renderTextureFormat, @readWrite};
             var ___result = RMGetCompatibleFormat_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Experimental.Rendering.GraphicsFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
         }
 
 
@@ -2290,7 +2291,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@desc};
             var ___result = RMGetTemporary_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2301,7 +2302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @colorFormat, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
             var ___result = RMGetTemporaryImpl_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2312,7 +2313,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
             var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2323,7 +2324,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode, @vrUsage};
             var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless_VRTextureUsage.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2334,7 +2335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing, @memorylessMode};
             var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2345,7 +2346,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @antiAliasing};
             var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2356,7 +2357,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format};
             var ___result = RMGetTemporary_Int32_Int32_Int32_GraphicsFormat.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2367,7 +2368,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode, @vrUsage, @useDynamicScale};
             var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage_Boolean.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2378,7 +2379,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode, @vrUsage};
             var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless_VRTextureUsage.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2389,7 +2390,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing, @memorylessMode};
             var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32_RenderTextureMemoryless.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2400,7 +2401,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite, @antiAliasing};
             var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2411,7 +2412,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format, @readWrite};
             var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat_RenderTextureReadWrite.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2422,7 +2423,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer, @format};
             var ___result = RMGetTemporary_Int32_Int32_Int32_RenderTextureFormat.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2433,7 +2434,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height, @depthBuffer};
             var ___result = RMGetTemporary_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2444,7 +2445,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@width, @height};
             var ___result = RMGetTemporary_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2466,7 +2467,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetTexelOffset.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Vector2)___result;
+            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
         }
 
 
@@ -2529,7 +2530,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetTemporary_Internal_Injected_Ref_RenderTextureDescriptor.Invoke(___genericsType, ___parameters);
 			@desc = (UnityEngine.RenderTextureDescriptor)___parameters[0];
 
-            return (UnityEngine.RenderTexture)___result;
+            return ReflectionUtils.Convert<UnityEngine.RenderTexture>(___result);
         }
 
 
@@ -2540,7 +2541,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMget_graphicsFormat.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Experimental.Rendering.GraphicsFormat)___result;
+            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.GraphicsFormat>(___result);
         }
 
 
@@ -2551,7 +2552,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeTexturePtr.Invoke(___genericsType, ___parameters);
 
-            return (System.IntPtr)___result;
+            return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
 
 
@@ -2562,7 +2563,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetNativeTextureID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2584,7 +2585,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@mipLevel, @element};
             var ___result = RMGetPixelDataSize_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -2595,7 +2596,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@mipLevel, @element};
             var ___result = RMGetPixelDataOffset_Int32_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.UInt64)___result;
+            return ReflectionUtils.Convert<System.UInt64>(___result);
         }
 
 
@@ -2606,7 +2607,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMValidateFormat_RenderTextureFormat.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2617,7 +2618,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format};
             var ___result = RMValidateFormat_TextureFormat.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2628,7 +2629,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@format, @usage};
             var ___result = RMValidateFormat_GraphicsFormat_FormatUsage.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2639,7 +2640,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@t};
             var ___result = RMCreateNonReadableException_Texture.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UnityException)___result;
+            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
         }
 
 
@@ -2650,7 +2651,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMCreateNativeArrayLengthOverflowException.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UnityException)___result;
+            return ReflectionUtils.Convert<UnityEngine.UnityException>(___result);
         }
 
 
@@ -2661,7 +2662,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2672,7 +2673,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -2683,7 +2684,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2694,7 +2695,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -2716,7 +2717,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -2727,7 +2728,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

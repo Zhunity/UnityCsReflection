@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.PackageManager.PackageInfo
 	/// </summary>
     public partial class RPackageInfo : RMember //
@@ -1182,7 +1183,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MFindForAssetPath_String == null)
 				{
-					r_MFindForAssetPath_String = new(typeof(UnityEditor.PackageManager.PackageInfo), "FindForAssetPath", 0, typeof(System.String));
+					r_MFindForAssetPath_String = new(Type, "FindForAssetPath", 0, typeof(System.String));
 				}
 				return r_MFindForAssetPath_String;
 			}
@@ -1198,7 +1199,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MFindForAssembly_Assembly == null)
 				{
-					r_MFindForAssembly_Assembly = new(typeof(UnityEditor.PackageManager.PackageInfo), "FindForAssembly", 0, typeof(System.Reflection.Assembly));
+					r_MFindForAssembly_Assembly = new(Type, "FindForAssembly", 0, typeof(System.Reflection.Assembly));
 				}
 				return r_MFindForAssembly_Assembly;
 			}
@@ -1214,7 +1215,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MGetForAssemblyFilePaths_List_d_String_p_ == null)
 				{
-					r_MGetForAssemblyFilePaths_List_d_String_p_ = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetForAssemblyFilePaths", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)));
+					r_MGetForAssemblyFilePaths_List_d_String_p_ = new(Type, "GetForAssemblyFilePaths", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(System.String)));
 				}
 				return r_MGetForAssemblyFilePaths_List_d_String_p_;
 			}
@@ -1230,7 +1231,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MGetAllRegisteredPackages == null)
 				{
-					r_MGetAllRegisteredPackages = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetAllRegisteredPackages", 0);
+					r_MGetAllRegisteredPackages = new(Type, "GetAllRegisteredPackages", 0);
 				}
 				return r_MGetAllRegisteredPackages;
 			}
@@ -1246,7 +1247,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MGetPredefinedPackageTypes == null)
 				{
-					r_MGetPredefinedPackageTypes = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetPredefinedPackageTypes", 0);
+					r_MGetPredefinedPackageTypes = new(Type, "GetPredefinedPackageTypes", 0);
 				}
 				return r_MGetPredefinedPackageTypes;
 			}
@@ -1262,7 +1263,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MGetPredefinedHiddenByDefaultPackageTypes == null)
 				{
-					r_MGetPredefinedHiddenByDefaultPackageTypes = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetPredefinedHiddenByDefaultPackageTypes", 0);
+					r_MGetPredefinedHiddenByDefaultPackageTypes = new(Type, "GetPredefinedHiddenByDefaultPackageTypes", 0);
 				}
 				return r_MGetPredefinedHiddenByDefaultPackageTypes;
 			}
@@ -1278,7 +1279,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 			{
 				if(r_MGetPackageByAssetPath_String == null)
 				{
-					r_MGetPackageByAssetPath_String = new(typeof(UnityEditor.PackageManager.PackageInfo), "GetPackageByAssetPath", 0, typeof(System.String));
+					r_MGetPackageByAssetPath_String = new(Type, "GetPackageByAssetPath", 0, typeof(System.String));
 				}
 				return r_MGetPackageByAssetPath_String;
 			}
@@ -1388,7 +1389,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@assetPath};
             var ___result = RMFindForAssetPath_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1399,7 +1400,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@assembly};
             var ___result = RMFindForAssembly_Assembly.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1410,7 +1411,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@assemblyPaths};
             var ___result = RMGetForAssemblyFilePaths_List_d_String_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>)___result;
+            return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo>>(___result);
         }
 
 
@@ -1421,7 +1422,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetAllRegisteredPackages.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo[])___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
         }
 
 
@@ -1432,7 +1433,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetPredefinedPackageTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1443,7 +1444,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetPredefinedHiddenByDefaultPackageTypes.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -1454,7 +1455,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@assetPath};
             var ___result = RMGetPackageByAssetPath_String.Invoke(___genericsType, ___parameters);
 
-            return (UnityEditor.PackageManager.PackageInfo)___result;
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
@@ -1465,7 +1466,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1487,7 +1488,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1498,7 +1499,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1509,7 +1510,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1520,7 +1521,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

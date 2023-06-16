@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEditor
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEditor.WindowAction
 	/// </summary>
     public partial class RWindowAction : RMember //
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MCreateWindowMenuItem_String_ExecuteHandler_String == null)
 				{
-					r_MCreateWindowMenuItem_String_ExecuteHandler_String = new( ReflectionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowMenuItem", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String));
+					r_MCreateWindowMenuItem_String_ExecuteHandler_String = new(Type, "CreateWindowMenuItem", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String));
 				}
 				return r_MCreateWindowMenuItem_String_ExecuteHandler_String;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D == null)
 				{
-					r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D = new( ReflectionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowActionButton", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single), typeof(UnityEngine.Texture2D));
+					r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D = new(Type, "CreateWindowActionButton", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single), typeof(UnityEngine.Texture2D));
 				}
 				return r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			{
 				if(r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler == null)
 				{
-					r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler = new( ReflectionUtils.GetType("UnityEditor.WindowAction"), "CreateWindowActionButton", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single),  ReflectionUtils.GetType("UnityEditor.WindowAction+DrawHandler"));
+					r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler = new(Type, "CreateWindowActionButton", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.WindowAction+ExecuteHandler"), typeof(System.String), typeof(System.Single),  ReflectionUtils.GetType("UnityEditor.WindowAction+DrawHandler"));
 				}
 				return r_MCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler;
 			}
@@ -332,7 +333,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath};
             var ___result = RMCreateWindowMenuItem_String_ExecuteHandler_String.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RWindowAction>(___result);
         }
 
 
@@ -343,7 +344,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath, @width, @icon};
             var ___result = RMCreateWindowActionButton_String_ExecuteHandler_String_Single_Texture2D.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RWindowAction>(___result);
         }
 
 
@@ -354,7 +355,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@id, @executeHandler.Value, @menuPath, @width, @drawHandler.Value};
             var ___result = RMCreateWindowActionButton_String_ExecuteHandler_String_Single_DrawHandler.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnityEditor.RWindowAction(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RWindowAction>(___result);
         }
 
 
@@ -365,7 +366,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -387,7 +388,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -409,7 +410,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -420,7 +421,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

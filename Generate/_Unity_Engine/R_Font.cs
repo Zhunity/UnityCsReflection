@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.Font
 	/// </summary>
     public partial class RFont : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_EtextureRebuilt == null)
 				{
-					r_EtextureRebuilt = new(typeof(UnityEngine.Font), "textureRebuilt");
+					r_EtextureRebuilt = new(Type, "textureRebuilt");
 				}
 				return r_EtextureRebuilt;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_FtextureRebuilt == null)
 				{
-					r_FtextureRebuilt = new(typeof(UnityEngine.Font), "textureRebuilt");
+					r_FtextureRebuilt = new(Type, "textureRebuilt");
 				}
 				return r_FtextureRebuilt;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateDynamicFontFromOSFont_String_Int32 == null)
 				{
-					r_MCreateDynamicFontFromOSFont_String_Int32 = new(typeof(UnityEngine.Font), "CreateDynamicFontFromOSFont", 0, typeof(System.String), typeof(System.Int32));
+					r_MCreateDynamicFontFromOSFont_String_Int32 = new(Type, "CreateDynamicFontFromOSFont", 0, typeof(System.String), typeof(System.Int32));
 				}
 				return r_MCreateDynamicFontFromOSFont_String_Int32;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MCreateDynamicFontFromOSFont_StringArray_Int32 == null)
 				{
-					r_MCreateDynamicFontFromOSFont_StringArray_Int32 = new(typeof(UnityEngine.Font), "CreateDynamicFontFromOSFont", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32));
+					r_MCreateDynamicFontFromOSFont_StringArray_Int32 = new(Type, "CreateDynamicFontFromOSFont", 0, typeof(System.String).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MCreateDynamicFontFromOSFont_StringArray_Int32;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInvokeTextureRebuilt_Internal_Font == null)
 				{
-					r_MInvokeTextureRebuilt_Internal_Font = new(typeof(UnityEngine.Font), "InvokeTextureRebuilt_Internal", 0, typeof(UnityEngine.Font));
+					r_MInvokeTextureRebuilt_Internal_Font = new(Type, "InvokeTextureRebuilt_Internal", 0, typeof(UnityEngine.Font));
 				}
 				return r_MInvokeTextureRebuilt_Internal_Font;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetMaxVertsForString_String == null)
 				{
-					r_MGetMaxVertsForString_String = new(typeof(UnityEngine.Font), "GetMaxVertsForString", 0, typeof(System.String));
+					r_MGetMaxVertsForString_String = new(Type, "GetMaxVertsForString", 0, typeof(System.String));
 				}
 				return r_MGetMaxVertsForString_String;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetDefault == null)
 				{
-					r_MGetDefault = new(typeof(UnityEngine.Font), "GetDefault", 0);
+					r_MGetDefault = new(Type, "GetDefault", 0);
 				}
 				return r_MGetDefault;
 			}
@@ -382,7 +383,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetOSInstalledFontNames == null)
 				{
-					r_MGetOSInstalledFontNames = new(typeof(UnityEngine.Font), "GetOSInstalledFontNames", 0);
+					r_MGetOSInstalledFontNames = new(Type, "GetOSInstalledFontNames", 0);
 				}
 				return r_MGetOSInstalledFontNames;
 			}
@@ -398,7 +399,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MGetPathsToOSFonts == null)
 				{
-					r_MGetPathsToOSFonts = new(typeof(UnityEngine.Font), "GetPathsToOSFonts", 0);
+					r_MGetPathsToOSFonts = new(Type, "GetPathsToOSFonts", 0);
 				}
 				return r_MGetPathsToOSFonts;
 			}
@@ -414,7 +415,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_CreateFont_Font_String == null)
 				{
-					r_MInternal_CreateFont_Font_String = new(typeof(UnityEngine.Font), "Internal_CreateFont", 0, typeof(UnityEngine.Font), typeof(System.String));
+					r_MInternal_CreateFont_Font_String = new(Type, "Internal_CreateFont", 0, typeof(UnityEngine.Font), typeof(System.String));
 				}
 				return r_MInternal_CreateFont_Font_String;
 			}
@@ -430,7 +431,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_CreateFontFromPath_Font_String == null)
 				{
-					r_MInternal_CreateFontFromPath_Font_String = new(typeof(UnityEngine.Font), "Internal_CreateFontFromPath", 0, typeof(UnityEngine.Font), typeof(System.String));
+					r_MInternal_CreateFontFromPath_Font_String = new(Type, "Internal_CreateFontFromPath", 0, typeof(UnityEngine.Font), typeof(System.String));
 				}
 				return r_MInternal_CreateFontFromPath_Font_String;
 			}
@@ -446,7 +447,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			{
 				if(r_MInternal_CreateDynamicFont_Font_StringArray_Int32 == null)
 				{
-					r_MInternal_CreateDynamicFont_Font_StringArray_Int32 = new(typeof(UnityEngine.Font), "Internal_CreateDynamicFont", 0, typeof(UnityEngine.Font), typeof(System.String).MakeArrayType(), typeof(System.Int32));
+					r_MInternal_CreateDynamicFont_Font_StringArray_Int32 = new(Type, "Internal_CreateDynamicFont", 0, typeof(UnityEngine.Font), typeof(System.String).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MInternal_CreateDynamicFont_Font_StringArray_Int32;
 			}
@@ -668,7 +669,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@fontname, @size};
             var ___result = RMCreateDynamicFontFromOSFont_String_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Font)___result;
+            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
         }
 
 
@@ -679,7 +680,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@fontnames, @size};
             var ___result = RMCreateDynamicFontFromOSFont_StringArray_Int32.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Font)___result;
+            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
         }
 
 
@@ -701,7 +702,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@str};
             var ___result = RMGetMaxVertsForString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -712,7 +713,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetDefault.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.Font)___result;
+            return ReflectionUtils.Convert<UnityEngine.Font>(___result);
         }
 
 
@@ -723,7 +724,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@c};
             var ___result = RMHasCharacter_Char.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -734,7 +735,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@c};
             var ___result = RMHasCharacter_Int32.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -745,7 +746,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetOSInstalledFontNames.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -756,7 +757,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetPathsToOSFonts.Invoke(___genericsType, ___parameters);
 
-            return (System.String[])___result;
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -802,7 +803,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32_FontStyle.Invoke(___genericsType, ___parameters);
 			@info = (UnityEngine.CharacterInfo)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -815,7 +816,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo_Int32.Invoke(___genericsType, ___parameters);
 			@info = (UnityEngine.CharacterInfo)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -828,7 +829,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetCharacterInfo_Char_Out_CharacterInfo.Invoke(___genericsType, ___parameters);
 			@info = (UnityEngine.CharacterInfo)___parameters[1];
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -872,7 +873,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetInstanceID.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -883,7 +884,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -894,7 +895,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@other};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -905,7 +906,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -927,7 +928,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -938,7 +939,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

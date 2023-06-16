@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RResources
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Resources.Win32ResourceType
 	/// </summary>
     public partial class RWin32ResourceType : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_CURSOR == null)
 				{
-					r_FRT_CURSOR = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_CURSOR");
+					r_FRT_CURSOR = new(Type, "RT_CURSOR");
 				}
 				return r_FRT_CURSOR;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_FONT == null)
 				{
-					r_FRT_FONT = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_FONT");
+					r_FRT_FONT = new(Type, "RT_FONT");
 				}
 				return r_FRT_FONT;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_BITMAP == null)
 				{
-					r_FRT_BITMAP = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_BITMAP");
+					r_FRT_BITMAP = new(Type, "RT_BITMAP");
 				}
 				return r_FRT_BITMAP;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_ICON == null)
 				{
-					r_FRT_ICON = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_ICON");
+					r_FRT_ICON = new(Type, "RT_ICON");
 				}
 				return r_FRT_ICON;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_MENU == null)
 				{
-					r_FRT_MENU = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_MENU");
+					r_FRT_MENU = new(Type, "RT_MENU");
 				}
 				return r_FRT_MENU;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_DIALOG == null)
 				{
-					r_FRT_DIALOG = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_DIALOG");
+					r_FRT_DIALOG = new(Type, "RT_DIALOG");
 				}
 				return r_FRT_DIALOG;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_STRING == null)
 				{
-					r_FRT_STRING = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_STRING");
+					r_FRT_STRING = new(Type, "RT_STRING");
 				}
 				return r_FRT_STRING;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_FONTDIR == null)
 				{
-					r_FRT_FONTDIR = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_FONTDIR");
+					r_FRT_FONTDIR = new(Type, "RT_FONTDIR");
 				}
 				return r_FRT_FONTDIR;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_ACCELERATOR == null)
 				{
-					r_FRT_ACCELERATOR = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_ACCELERATOR");
+					r_FRT_ACCELERATOR = new(Type, "RT_ACCELERATOR");
 				}
 				return r_FRT_ACCELERATOR;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_RCDATA == null)
 				{
-					r_FRT_RCDATA = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_RCDATA");
+					r_FRT_RCDATA = new(Type, "RT_RCDATA");
 				}
 				return r_FRT_RCDATA;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_MESSAGETABLE == null)
 				{
-					r_FRT_MESSAGETABLE = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_MESSAGETABLE");
+					r_FRT_MESSAGETABLE = new(Type, "RT_MESSAGETABLE");
 				}
 				return r_FRT_MESSAGETABLE;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_GROUP_CURSOR == null)
 				{
-					r_FRT_GROUP_CURSOR = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_GROUP_CURSOR");
+					r_FRT_GROUP_CURSOR = new(Type, "RT_GROUP_CURSOR");
 				}
 				return r_FRT_GROUP_CURSOR;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_GROUP_ICON == null)
 				{
-					r_FRT_GROUP_ICON = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_GROUP_ICON");
+					r_FRT_GROUP_ICON = new(Type, "RT_GROUP_ICON");
 				}
 				return r_FRT_GROUP_ICON;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_VERSION == null)
 				{
-					r_FRT_VERSION = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_VERSION");
+					r_FRT_VERSION = new(Type, "RT_VERSION");
 				}
 				return r_FRT_VERSION;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_DLGINCLUDE == null)
 				{
-					r_FRT_DLGINCLUDE = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_DLGINCLUDE");
+					r_FRT_DLGINCLUDE = new(Type, "RT_DLGINCLUDE");
 				}
 				return r_FRT_DLGINCLUDE;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_PLUGPLAY == null)
 				{
-					r_FRT_PLUGPLAY = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_PLUGPLAY");
+					r_FRT_PLUGPLAY = new(Type, "RT_PLUGPLAY");
 				}
 				return r_FRT_PLUGPLAY;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_VXD == null)
 				{
-					r_FRT_VXD = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_VXD");
+					r_FRT_VXD = new(Type, "RT_VXD");
 				}
 				return r_FRT_VXD;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_ANICURSOR == null)
 				{
-					r_FRT_ANICURSOR = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_ANICURSOR");
+					r_FRT_ANICURSOR = new(Type, "RT_ANICURSOR");
 				}
 				return r_FRT_ANICURSOR;
 			}
@@ -350,7 +351,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_ANIICON == null)
 				{
-					r_FRT_ANIICON = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_ANIICON");
+					r_FRT_ANIICON = new(Type, "RT_ANIICON");
 				}
 				return r_FRT_ANIICON;
 			}
@@ -366,7 +367,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
 			{
 				if(r_FRT_HTML == null)
 				{
-					r_FRT_HTML = new( ReflectionUtils.GetType("System.Resources.Win32ResourceType"), "RT_HTML");
+					r_FRT_HTML = new(Type, "RT_HTML");
 				}
 				return r_FRT_HTML;
 			}
@@ -588,7 +589,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -599,7 +600,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -610,7 +611,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -621,7 +622,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -632,7 +633,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -643,7 +644,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -654,7 +655,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -665,7 +666,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -676,7 +677,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -687,7 +688,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -709,7 +710,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -720,7 +721,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RResources
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

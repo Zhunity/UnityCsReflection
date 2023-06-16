@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.EventDispatcher
 	/// </summary>
     public partial class REventDispatcher : RMember //
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fk_EventQueuePool == null)
 				{
-					r_Fk_EventQueuePool = new(typeof(UnityEngine.UIElements.EventDispatcher), "k_EventQueuePool");
+					r_Fk_EventQueuePool = new(Type, "k_EventQueuePool");
 				}
 				return r_Fk_EventQueuePool;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_EditorEventDispatcher == null)
 				{
-					r_Fs_EditorEventDispatcher = new(typeof(UnityEngine.UIElements.EventDispatcher), "s_EditorEventDispatcher");
+					r_Fs_EditorEventDispatcher = new(Type, "s_EditorEventDispatcher");
 				}
 				return r_Fs_EditorEventDispatcher;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_Fs_EditorStrategies == null)
 				{
-					r_Fs_EditorStrategies = new(typeof(UnityEngine.UIElements.EventDispatcher), "s_EditorStrategies");
+					r_Fs_EditorStrategies = new(Type, "s_EditorStrategies");
 				}
 				return r_Fs_EditorStrategies;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_PeditorDispatcher == null)
 				{
-					r_PeditorDispatcher = new(typeof(UnityEngine.UIElements.EventDispatcher), "editorDispatcher", -1);
+					r_PeditorDispatcher = new(Type, "editorDispatcher", -1);
 				}
 				return r_PeditorDispatcher;
 			}
@@ -302,7 +303,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MClearEditorDispatcher == null)
 				{
-					r_MClearEditorDispatcher = new(typeof(UnityEngine.UIElements.EventDispatcher), "ClearEditorDispatcher", 0);
+					r_MClearEditorDispatcher = new(Type, "ClearEditorDispatcher", 0);
 				}
 				return r_MClearEditorDispatcher;
 			}
@@ -318,7 +319,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MCreateDefault == null)
 				{
-					r_MCreateDefault = new(typeof(UnityEngine.UIElements.EventDispatcher), "CreateDefault", 0);
+					r_MCreateDefault = new(Type, "CreateDefault", 0);
 				}
 				return r_MCreateDefault;
 			}
@@ -334,7 +335,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			{
 				if(r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_ == null)
 				{
-					r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_ = new(typeof(UnityEngine.UIElements.EventDispatcher), "CreateForRuntime", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy")));
+					r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_ = new(Type, "CreateForRuntime", 0,  ReflectionUtils.GetType("System.Collections.Generic.IList`1").MakeGenericType( ReflectionUtils.GetType("UnityEngine.UIElements.IEventDispatchingStrategy")));
 				}
 				return r_MCreateForRuntime_IList_d_IEventDispatchingStrategy_p_;
 			}
@@ -583,7 +584,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMCreateDefault.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.EventDispatcher)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.EventDispatcher>(___result);
         }
 
 
@@ -594,7 +595,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@strategies.Value};
             var ___result = RMCreateForRuntime_IList_d_IEventDispatchingStrategy_p_.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.EventDispatcher)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.EventDispatcher>(___result);
         }
 
 
@@ -693,7 +694,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -715,7 +716,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -726,7 +727,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -737,7 +738,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -748,7 +749,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RMono
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Mono.RuntimePropertyHandle
 	/// </summary>
     public partial class RRuntimePropertyHandle : RMember //
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RMono
 			{
 				if(r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle == null)
 				{
-					r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Equality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
+					r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
 				}
 				return r_Mop_Equality_RuntimePropertyHandle_RuntimePropertyHandle;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RMono
 			{
 				if(r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle == null)
 				{
-					r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle = new( ReflectionUtils.GetType("Mono.RuntimePropertyHandle"), "op_Inequality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
+					r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"),  ReflectionUtils.GetType("Mono.RuntimePropertyHandle"));
 				}
 				return r_Mop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle;
 			}
@@ -220,7 +221,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -231,7 +232,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{@handle.Value};
             var ___result = RMEquals_RuntimePropertyHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -242,7 +243,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -253,7 +254,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Equality_RuntimePropertyHandle_RuntimePropertyHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -264,7 +265,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Inequality_RuntimePropertyHandle_RuntimePropertyHandle.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -275,7 +276,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -297,7 +298,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -308,7 +309,7 @@ namespace Hvak.Editor.Refleaction.RMono
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Security.Principal.IPrincipal
 	/// </summary>
     public partial class RIPrincipal : RMember //
@@ -76,7 +77,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RSecurity.RPrincipal
             var ___parameters = new object[]{@role};
             var ___result = RMIsInRole_String.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

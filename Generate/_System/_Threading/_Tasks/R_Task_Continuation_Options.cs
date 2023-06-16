@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.Threading.Tasks.TaskContinuationOptions
 	/// </summary>
     public partial class RTaskContinuationOptions : RMember //
@@ -62,7 +63,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FNone == null)
 				{
-					r_FNone = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "None");
+					r_FNone = new(Type, "None");
 				}
 				return r_FNone;
 			}
@@ -78,7 +79,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FPreferFairness == null)
 				{
-					r_FPreferFairness = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "PreferFairness");
+					r_FPreferFairness = new(Type, "PreferFairness");
 				}
 				return r_FPreferFairness;
 			}
@@ -94,7 +95,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FLongRunning == null)
 				{
-					r_FLongRunning = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "LongRunning");
+					r_FLongRunning = new(Type, "LongRunning");
 				}
 				return r_FLongRunning;
 			}
@@ -110,7 +111,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FAttachedToParent == null)
 				{
-					r_FAttachedToParent = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "AttachedToParent");
+					r_FAttachedToParent = new(Type, "AttachedToParent");
 				}
 				return r_FAttachedToParent;
 			}
@@ -126,7 +127,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FDenyChildAttach == null)
 				{
-					r_FDenyChildAttach = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "DenyChildAttach");
+					r_FDenyChildAttach = new(Type, "DenyChildAttach");
 				}
 				return r_FDenyChildAttach;
 			}
@@ -142,7 +143,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FHideScheduler == null)
 				{
-					r_FHideScheduler = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "HideScheduler");
+					r_FHideScheduler = new(Type, "HideScheduler");
 				}
 				return r_FHideScheduler;
 			}
@@ -158,7 +159,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FLazyCancellation == null)
 				{
-					r_FLazyCancellation = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "LazyCancellation");
+					r_FLazyCancellation = new(Type, "LazyCancellation");
 				}
 				return r_FLazyCancellation;
 			}
@@ -174,7 +175,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FRunContinuationsAsynchronously == null)
 				{
-					r_FRunContinuationsAsynchronously = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "RunContinuationsAsynchronously");
+					r_FRunContinuationsAsynchronously = new(Type, "RunContinuationsAsynchronously");
 				}
 				return r_FRunContinuationsAsynchronously;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FNotOnRanToCompletion == null)
 				{
-					r_FNotOnRanToCompletion = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "NotOnRanToCompletion");
+					r_FNotOnRanToCompletion = new(Type, "NotOnRanToCompletion");
 				}
 				return r_FNotOnRanToCompletion;
 			}
@@ -206,7 +207,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FNotOnFaulted == null)
 				{
-					r_FNotOnFaulted = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "NotOnFaulted");
+					r_FNotOnFaulted = new(Type, "NotOnFaulted");
 				}
 				return r_FNotOnFaulted;
 			}
@@ -222,7 +223,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FNotOnCanceled == null)
 				{
-					r_FNotOnCanceled = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "NotOnCanceled");
+					r_FNotOnCanceled = new(Type, "NotOnCanceled");
 				}
 				return r_FNotOnCanceled;
 			}
@@ -238,7 +239,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FOnlyOnRanToCompletion == null)
 				{
-					r_FOnlyOnRanToCompletion = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "OnlyOnRanToCompletion");
+					r_FOnlyOnRanToCompletion = new(Type, "OnlyOnRanToCompletion");
 				}
 				return r_FOnlyOnRanToCompletion;
 			}
@@ -254,7 +255,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FOnlyOnFaulted == null)
 				{
-					r_FOnlyOnFaulted = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "OnlyOnFaulted");
+					r_FOnlyOnFaulted = new(Type, "OnlyOnFaulted");
 				}
 				return r_FOnlyOnFaulted;
 			}
@@ -270,7 +271,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FOnlyOnCanceled == null)
 				{
-					r_FOnlyOnCanceled = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "OnlyOnCanceled");
+					r_FOnlyOnCanceled = new(Type, "OnlyOnCanceled");
 				}
 				return r_FOnlyOnCanceled;
 			}
@@ -286,7 +287,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
 			{
 				if(r_FExecuteSynchronously == null)
 				{
-					r_FExecuteSynchronously = new(typeof(System.Threading.Tasks.TaskContinuationOptions), "ExecuteSynchronously");
+					r_FExecuteSynchronously = new(Type, "ExecuteSynchronously");
 				}
 				return r_FExecuteSynchronously;
 			}
@@ -508,7 +509,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetValue.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -519,7 +520,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -530,7 +531,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -541,7 +542,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -552,7 +553,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@format, @provider};
             var ___result = RMToString_String_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -563,7 +564,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@target};
             var ___result = RMCompareTo_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -574,7 +575,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@format};
             var ___result = RMToString_String.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -585,7 +586,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@provider};
             var ___result = RMToString_IFormatProvider.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -596,7 +597,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{@flag};
             var ___result = RMHasFlag_Enum.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -607,7 +608,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetTypeCode.Invoke(___genericsType, ___parameters);
 
-            return (System.TypeCode)___result;
+            return ReflectionUtils.Convert<System.TypeCode>(___result);
         }
 
 
@@ -629,7 +630,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -640,7 +641,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RThreading.RTasks
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

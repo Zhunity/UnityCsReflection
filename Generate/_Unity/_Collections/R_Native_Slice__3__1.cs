@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnity.RCollections
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// Unity.Collections.NativeSlice`1
 	/// </summary>
     public partial class RNativeSlice<T> : RMember // where T : struct
@@ -14,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
         {
             get
             {
-                return  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(typeof(T));
+                return  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1").MakeGenericType(ReflectionUtils.GetType(typeof(T)));
             }
         }
 
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Implicit_NativeArray_d_T_p_ == null)
 				{
-					r_Mop_Implicit_NativeArray_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"), "op_Implicit", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
+					r_Mop_Implicit_NativeArray_d_T_p_ = new(Type, "op_Implicit", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
 				}
 				return r_Mop_Implicit_NativeArray_d_T_p_;
 			}
@@ -478,7 +479,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_ == null)
 				{
-					r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"), "op_Equality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
+					r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new(Type, "op_Equality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
 				}
 				return r_Mop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_;
 			}
@@ -494,7 +495,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 			{
 				if(r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_ == null)
 				{
-					r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new( ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"), "op_Inequality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
+					r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_ = new(Type, "op_Inequality", 0,  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"),  ReflectionUtils.GetType("Unity.Collections.NativeSlice`1"));
 				}
 				return r_Mop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_;
 			}
@@ -572,7 +573,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@array.Value};
             var ___result = RMop_Implicit_NativeArray_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -583,7 +584,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSliceConvert_GU.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -594,7 +595,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@offset};
             var ___result = RMSliceWithStride_GU_Int32.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -605,7 +606,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSliceWithStride_GU.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -693,7 +694,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToArray.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -704,7 +705,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>.REnumerator(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeSlice<Hvak.Editor.Refleaction.RType>.REnumerator>(___result);
         }
 
 
@@ -715,7 +716,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__Generic__2__IEnumerable__0__T__1____2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return new Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 
@@ -726,7 +727,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
-            return (System.Collections.IEnumerator)___result;
+            return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
         }
 
 
@@ -737,7 +738,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@other.Value};
             var ___result = RMEquals_NativeSlice_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -748,7 +749,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -759,7 +760,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -770,7 +771,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Equality_NativeSlice_d_T_p__NativeSlice_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -781,7 +782,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{@left.Value, @right.Value};
             var ___result = RMop_Inequality_NativeSlice_d_T_p__NativeSlice_d_T_p_.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -792,7 +793,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
@@ -814,7 +815,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -825,7 +826,7 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 

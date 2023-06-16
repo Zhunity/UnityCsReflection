@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// UnityEngine.UIElements.IStylePainter
 	/// </summary>
     public partial class RIStylePainter : RMember //
@@ -172,7 +173,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@vertexCount, @indexCount, @texture, @material, @flags.Value};
             var ___result = RMDrawMesh_Int32_Int32_Texture_Material_MeshFlags.Invoke(___genericsType, ___parameters);
 
-            return (UnityEngine.UIElements.MeshWriteData)___result;
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
         }
 
 

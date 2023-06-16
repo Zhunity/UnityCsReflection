@@ -6,6 +6,7 @@ using System.Reflection;
 namespace Hvak.Editor.Refleaction.RSystem.RIO
 {
 	/// <summary>
+    /// https://github.com/Zhunity/UnityCsReflection
 	/// System.IO.BinaryWriter
 	/// </summary>
     public partial class RBinaryWriter : RMember //
@@ -46,7 +47,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_FNull == null)
 				{
-					r_FNull = new(typeof(System.IO.BinaryWriter), "Null");
+					r_FNull = new(Type, "Null");
 				}
 				return r_FNull;
 			}
@@ -190,7 +191,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
 			{
 				if(r_FLargeByteBufferSize == null)
 				{
-					r_FLargeByteBufferSize = new(typeof(System.IO.BinaryWriter), "LargeByteBufferSize");
+					r_FLargeByteBufferSize = new(Type, "LargeByteBufferSize");
 				}
 				return r_FLargeByteBufferSize;
 			}
@@ -792,7 +793,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@offset, @origin};
             var ___result = RMSeek_Int32_SeekOrigin.Invoke(___genericsType, ___parameters);
 
-            return (System.Int64)___result;
+            return ReflectionUtils.Convert<System.Int64>(___result);
         }
 
 
@@ -825,7 +826,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMDisposeAsync.Invoke(___genericsType, ___parameters);
 
-            return (System.Threading.Tasks.ValueTask)___result;
+            return ReflectionUtils.Convert<System.Threading.Tasks.ValueTask>(___result);
         }
 
 
@@ -1045,7 +1046,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
-            return (System.Boolean)___result;
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1067,7 +1068,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return (System.Int32)___result;
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1078,7 +1079,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMGetType.Invoke(___genericsType, ___parameters);
 
-            return (System.Type)___result;
+            return ReflectionUtils.Convert<System.Type>(___result);
         }
 
 
@@ -1089,7 +1090,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
-            return (System.Object)___result;
+            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -1100,7 +1101,7 @@ namespace Hvak.Editor.Refleaction.RSystem.RIO
             var ___parameters = new object[]{};
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
-            return (System.String)___result;
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
