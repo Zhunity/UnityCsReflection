@@ -86,6 +86,38 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 		/// <summary>
+		/// System.Int32 TempVersion
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FTempVersion;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFTempVersion
+		{
+			get
+			{
+				if(r_FTempVersion == null)
+				{
+					r_FTempVersion = new(Type, "TempVersion");
+				}
+				return r_FTempVersion;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 VersionIncrement
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FVersionIncrement;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFVersionIncrement
+		{
+			get
+			{
+				if(r_FVersionIncrement == null)
+				{
+					r_FVersionIncrement = new(Type, "VersionIncrement");
+				}
+				return r_FVersionIncrement;
+			}
+		}
+
+		/// <summary>
 		/// System.Int32 ReadCheck
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FReadCheck;
@@ -1014,22 +1046,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 		/// <summary>
-		/// Void CheckWriteAndBumpSecondaryVersion_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
-		/// </summary>
-		protected static RMethod r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
-		public static RMethod RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle
-		{
-			get
-			{
-				if(r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle == null)
-				{
-					r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle = new(Type, "CheckWriteAndBumpSecondaryVersion_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-				}
-				return r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
-			}
-		}
-
-		/// <summary>
 		/// Unity.Collections.LowLevel.Unsafe.EnforceJobResult EnforceAllBufferJobsHaveCompleted_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
 		protected static RMethod r_MEnforceAllBufferJobsHaveCompleted_Injected_Ref_AtomicSafetyHandle;
@@ -1881,18 +1897,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void CheckWriteAndBumpSecondaryVersion_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
         }
 
 

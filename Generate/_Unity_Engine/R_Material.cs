@@ -1286,6 +1286,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void CopyMatchingPropertiesFromMaterial(UnityEngine.Material)
+		/// </summary>
+		protected RMethod r_MCopyMatchingPropertiesFromMaterial_Material;
+		public virtual RMethod RMCopyMatchingPropertiesFromMaterial_Material
+		{
+			get
+			{
+				if(r_MCopyMatchingPropertiesFromMaterial_Material == null)
+				{
+					r_MCopyMatchingPropertiesFromMaterial_Material = new(this, "CopyMatchingPropertiesFromMaterial", 0, typeof(UnityEngine.Material));
+				}
+				return r_MCopyMatchingPropertiesFromMaterial_Material;
+			}
+		}
+
+		/// <summary>
 		/// System.String[] GetShaderKeywords()
 		/// </summary>
 		protected RMethod r_MGetShaderKeywords;
@@ -4086,6 +4102,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -4778,6 +4810,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@mat};
             var ___result = RMCopyPropertiesFromMaterial_Material.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void CopyMatchingPropertiesFromMaterial(UnityEngine.Material @mat)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@mat};
+            var ___result = RMCopyMatchingPropertiesFromMaterial_Material.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -6741,6 +6784,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

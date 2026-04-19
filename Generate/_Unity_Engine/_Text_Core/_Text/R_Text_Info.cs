@@ -310,6 +310,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// System.Boolean hasMultipleColors
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasMultipleColors;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasMultipleColors
+		{
+			get
+			{
+				if(r_FhasMultipleColors == null)
+				{
+					r_FhasMultipleColors = new(this, "hasMultipleColors");
+				}
+				return r_FhasMultipleColors;
+			}
+		}
+
+		/// <summary>
 		/// Void Clear()
 		/// </summary>
 		protected RMethod r_MClear;

@@ -182,6 +182,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void Internal_CopyFrom(IntPtr)
+		/// </summary>
+		protected RMethod r_MInternal_CopyFrom_IntPtr;
+		public virtual RMethod RMInternal_CopyFrom_IntPtr
+		{
+			get
+			{
+				if(r_MInternal_CopyFrom_IntPtr == null)
+				{
+					r_MInternal_CopyFrom_IntPtr = new(this, "Internal_CopyFrom", 0, typeof(System.IntPtr));
+				}
+				return r_MInternal_CopyFrom_IntPtr;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -278,6 +294,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void ClearKeys()
+		/// </summary>
+		protected RMethod r_MClearKeys;
+		public virtual RMethod RMClearKeys
+		{
+			get
+			{
+				if(r_MClearKeys == null)
+				{
+					r_MClearKeys = new(this, "ClearKeys", 0);
+				}
+				return r_MClearKeys;
+			}
+		}
+
+		/// <summary>
 		/// Void RemoveKey(Int32)
 		/// </summary>
 		protected RMethod r_MRemoveKey_Int32;
@@ -338,6 +370,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MGetKeys = new(this, "GetKeys", 0);
 				}
 				return r_MGetKeys;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
+		{
+			get
+			{
+				if(r_MGetHashCode == null)
+				{
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+				}
+				return r_MGetHashCode;
 			}
 		}
 
@@ -438,18 +486,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetHashCode()
+		/// Void CopyFrom(UnityEngine.AnimationCurve)
 		/// </summary>
-		protected RMethod r_MGetHashCode;
-		public virtual RMethod RMGetHashCode
+		protected RMethod r_MCopyFrom_AnimationCurve;
+		public virtual RMethod RMCopyFrom_AnimationCurve
 		{
 			get
 			{
-				if(r_MGetHashCode == null)
+				if(r_MCopyFrom_AnimationCurve == null)
 				{
-					r_MGetHashCode = new(this, "GetHashCode", 0);
+					r_MCopyFrom_AnimationCurve = new(this, "CopyFrom", 0, typeof(UnityEngine.AnimationCurve));
 				}
-				return r_MGetHashCode;
+				return r_MCopyFrom_AnimationCurve;
 			}
 		}
 
@@ -583,6 +631,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void Internal_CopyFrom(System.IntPtr @other)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@other};
+            var ___result = RMInternal_CopyFrom_IntPtr.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void Finalize()
         {
 
@@ -649,6 +708,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual void ClearKeys()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMClearKeys.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void RemoveKey(System.Int32 @index)
         {
 
@@ -690,6 +760,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetKeys.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Keyframe[]>(___result);
+        }
+
+
+        public virtual System.Int32 GetHashCode()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -759,14 +840,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetHashCode()
+        public virtual void CopyFrom(UnityEngine.AnimationCurve @other)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@other};
+            var ___result = RMCopyFrom_AnimationCurve.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Int32>(___result);
+            
         }
 
 

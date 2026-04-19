@@ -134,6 +134,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.UIR.RenderDataFlags flags
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataFlags r_Fflags;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataFlags RFflags
+		{
+			get
+			{
+				if(r_Fflags == null)
+				{
+					r_Fflags = new(this, "flags");
+				}
+				return r_Fflags;
+			}
+		}
+
+		/// <summary>
 		/// System.Int32 hierarchyDepth
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FhierarchyDepth;
@@ -706,6 +722,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_PlastClosingOrLastCommand = new(this, "lastClosingOrLastCommand", -1);
 				}
 				return r_PlastClosingOrLastCommand;
+			}
+		}
+
+		/// <summary>
+		/// Boolean isIgnoringDynamicColorHint
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisIgnoringDynamicColorHint;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisIgnoringDynamicColorHint
+		{
+			get
+			{
+				if(r_PisIgnoringDynamicColorHint == null)
+				{
+					r_PisIgnoringDynamicColorHint = new(this, "isIgnoringDynamicColorHint", -1);
+				}
+				return r_PisIgnoringDynamicColorHint;
 			}
 		}
 

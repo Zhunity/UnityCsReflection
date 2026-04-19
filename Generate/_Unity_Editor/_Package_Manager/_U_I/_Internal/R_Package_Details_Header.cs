@@ -1558,6 +1558,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -2358,18 +2390,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void RefreshRegistry()
+		/// Void RefreshDetailRegistry()
 		/// </summary>
-		protected RMethod r_MRefreshRegistry;
-		public virtual RMethod RMRefreshRegistry
+		protected RMethod r_MRefreshDetailRegistry;
+		public virtual RMethod RMRefreshDetailRegistry
 		{
 			get
 			{
-				if(r_MRefreshRegistry == null)
+				if(r_MRefreshDetailRegistry == null)
 				{
-					r_MRefreshRegistry = new(this, "RefreshRegistry", 0);
+					r_MRefreshDetailRegistry = new(this, "RefreshDetailRegistry", 0);
 				}
-				return r_MRefreshRegistry;
+				return r_MRefreshDetailRegistry;
+			}
+		}
+
+		/// <summary>
+		/// Void RefreshScopedRegistryInfoBox(UnityEditor.PackageManager.RegistryInfo, Boolean)
+		/// </summary>
+		protected RMethod r_MRefreshScopedRegistryInfoBox_RegistryInfo_Boolean;
+		public virtual RMethod RMRefreshScopedRegistryInfoBox_RegistryInfo_Boolean
+		{
+			get
+			{
+				if(r_MRefreshScopedRegistryInfoBox_RegistryInfo_Boolean == null)
+				{
+					r_MRefreshScopedRegistryInfoBox_RegistryInfo_Boolean = new(this, "RefreshScopedRegistryInfoBox", 0, typeof(UnityEditor.PackageManager.RegistryInfo), typeof(System.Boolean));
+				}
+				return r_MRefreshScopedRegistryInfoBox_RegistryInfo_Boolean;
 			}
 		}
 
@@ -4583,12 +4631,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void RefreshRegistry()
+        public virtual void RefreshDetailRegistry()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMRefreshRegistry.Invoke(___genericsType, ___parameters);
+            var ___result = RMRefreshDetailRegistry.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RefreshScopedRegistryInfoBox(UnityEditor.PackageManager.RegistryInfo @registry, System.Boolean @showRegistry)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@registry, @showRegistry};
+            var ___result = RMRefreshScopedRegistryInfoBox_RegistryInfo_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

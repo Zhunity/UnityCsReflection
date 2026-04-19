@@ -150,6 +150,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Boolean m_SkipClone
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_SkipClone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_SkipClone
+		{
+			get
+			{
+				if(r_Fm_SkipClone == null)
+				{
+					r_Fm_SkipClone = new(this, "m_SkipClone");
+				}
+				return r_Fm_SkipClone;
+			}
+		}
+
+		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Properties
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Properties;
@@ -258,6 +274,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PhasStylesheets = new(this, "hasStylesheets", -1);
 				}
 				return r_PhasStylesheets;
+			}
+		}
+
+		/// <summary>
+		/// Boolean skipClone
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipClone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipClone
+		{
+			get
+			{
+				if(r_PskipClone == null)
+				{
+					r_PskipClone = new(this, "skipClone", -1);
+				}
+				return r_PskipClone;
 			}
 		}
 

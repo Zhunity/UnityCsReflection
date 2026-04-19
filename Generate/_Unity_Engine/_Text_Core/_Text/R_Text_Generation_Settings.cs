@@ -470,10 +470,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Boolean extraPadding
+		/// System.Single extraPadding
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FextraPadding;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFextraPadding
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FextraPadding;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFextraPadding
 		{
 			get
 			{

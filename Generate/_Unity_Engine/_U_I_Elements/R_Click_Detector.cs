@@ -166,6 +166,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void Cleanup(System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement])
+		/// </summary>
+		protected RMethod r_MCleanup_List_d_VisualElement_p_;
+		public virtual RMethod RMCleanup_List_d_VisualElement_p_
+		{
+			get
+			{
+				if(r_MCleanup_List_d_VisualElement_p_ == null)
+				{
+					r_MCleanup_List_d_VisualElement_p_ = new(this, "Cleanup", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
+				}
+				return r_MCleanup_List_d_VisualElement_p_;
+			}
+		}
+
+		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -314,6 +330,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMContainsPointer_VisualElement_Vector2.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual void Cleanup(System.Collections.Generic.List<UnityEngine.UIElements.VisualElement> @elements)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@elements};
+            var ___result = RMCleanup_List_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

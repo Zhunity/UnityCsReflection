@@ -86,6 +86,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
+		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem m_CurrentContextTree
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fm_CurrentContextTree;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFm_CurrentContextTree
+		{
+			get
+			{
+				if(r_Fm_CurrentContextTree == null)
+				{
+					r_Fm_CurrentContextTree = new(this, "m_CurrentContextTree");
+				}
+				return r_Fm_CurrentContextTree;
+			}
+		}
+
+		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_SelectedIDs
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SelectedIDs;
@@ -98,6 +114,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_Fm_SelectedIDs = new(this, "m_SelectedIDs");
 				}
 				return r_Fm_SelectedIDs;
+			}
+		}
+
+		/// <summary>
+		/// System.Boolean <CurrentFolderContextualSearch>k__BackingField
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__CurrentFolderContextualSearch__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__CurrentFolderContextualSearch__1__k__BackingField
+		{
+			get
+			{
+				if(r_F__0__CurrentFolderContextualSearch__1__k__BackingField == null)
+				{
+					r_F__0__CurrentFolderContextualSearch__1__k__BackingField = new(this, "<CurrentFolderContextualSearch>k__BackingField");
+				}
+				return r_F__0__CurrentFolderContextualSearch__1__k__BackingField;
 			}
 		}
 
@@ -198,6 +230,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
+		/// Boolean CurrentFolderContextualSearch
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCurrentFolderContextualSearch;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCurrentFolderContextualSearch
+		{
+			get
+			{
+				if(r_PCurrentFolderContextualSearch == null)
+				{
+					r_PCurrentFolderContextualSearch = new(this, "CurrentFolderContextualSearch", -1);
+				}
+				return r_PCurrentFolderContextualSearch;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem root
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Proot;
@@ -246,18 +294,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// Void RebuildSearch(System.String)
+		/// Void RebuildSearch(System.String, UnityEditor.IMGUI.Controls.AdvancedDropdownItem)
 		/// </summary>
-		protected RMethod r_MRebuildSearch_String;
-		public virtual RMethod RMRebuildSearch_String
+		protected RMethod r_MRebuildSearch_String_AdvancedDropdownItem;
+		public virtual RMethod RMRebuildSearch_String_AdvancedDropdownItem
 		{
 			get
 			{
-				if(r_MRebuildSearch_String == null)
+				if(r_MRebuildSearch_String_AdvancedDropdownItem == null)
 				{
-					r_MRebuildSearch_String = new(this, "RebuildSearch", 0, typeof(System.String));
+					r_MRebuildSearch_String_AdvancedDropdownItem = new(this, "RebuildSearch", 0, typeof(System.String), typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem));
 				}
-				return r_MRebuildSearch_String;
+				return r_MRebuildSearch_String_AdvancedDropdownItem;
 			}
 		}
 
@@ -444,12 +492,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void RebuildSearch(System.String @search)
+        public virtual void RebuildSearch(System.String @search, UnityEditor.IMGUI.Controls.AdvancedDropdownItem @currentTree)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@search};
-            var ___result = RMRebuildSearch_String.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@search, @currentTree};
+            var ___result = RMRebuildSearch_String_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
 
             
         }

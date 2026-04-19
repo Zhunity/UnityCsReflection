@@ -310,6 +310,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Object GetItemForId(Int32)
+		/// </summary>
+		protected RMethod r_MGetItemForId_Int32;
+		public virtual RMethod RMGetItemForId_Int32
+		{
+			get
+			{
+				if(r_MGetItemForId_Int32 == null)
+				{
+					r_MGetItemForId_Int32 = new(this, "GetItemForId", 0, typeof(System.Int32));
+				}
+				return r_MGetItemForId_Int32;
+			}
+		}
+
+		/// <summary>
 		/// Void InvokeMakeItem(UnityEngine.UIElements.ReusableCollectionItem)
 		/// </summary>
 		protected RMethod r_MInvokeMakeItem_ReusableCollectionItem;
@@ -660,6 +676,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMGetItemForIndex_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Object>(___result);
+        }
+
+
+        public virtual System.Object GetItemForId(System.Int32 @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id};
+            var ___result = RMGetItemForId_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

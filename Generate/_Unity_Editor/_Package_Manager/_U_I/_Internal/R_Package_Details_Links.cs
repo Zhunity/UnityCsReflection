@@ -262,6 +262,102 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.String[] m_DocumentationOnlineUrls
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_DocumentationOnlineUrls;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_DocumentationOnlineUrls
+		{
+			get
+			{
+				if(r_Fm_DocumentationOnlineUrls == null)
+				{
+					r_Fm_DocumentationOnlineUrls = new(this, "m_DocumentationOnlineUrls");
+				}
+				return r_Fm_DocumentationOnlineUrls;
+			}
+		}
+
+		/// <summary>
+		/// System.String m_DocumentationOfflineUrl
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DocumentationOfflineUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DocumentationOfflineUrl
+		{
+			get
+			{
+				if(r_Fm_DocumentationOfflineUrl == null)
+				{
+					r_Fm_DocumentationOfflineUrl = new(this, "m_DocumentationOfflineUrl");
+				}
+				return r_Fm_DocumentationOfflineUrl;
+			}
+		}
+
+		/// <summary>
+		/// System.String m_ChangelogOnlineUrl
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ChangelogOnlineUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ChangelogOnlineUrl
+		{
+			get
+			{
+				if(r_Fm_ChangelogOnlineUrl == null)
+				{
+					r_Fm_ChangelogOnlineUrl = new(this, "m_ChangelogOnlineUrl");
+				}
+				return r_Fm_ChangelogOnlineUrl;
+			}
+		}
+
+		/// <summary>
+		/// System.String m_ChangelogOfflineUrl
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ChangelogOfflineUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ChangelogOfflineUrl
+		{
+			get
+			{
+				if(r_Fm_ChangelogOfflineUrl == null)
+				{
+					r_Fm_ChangelogOfflineUrl = new(this, "m_ChangelogOfflineUrl");
+				}
+				return r_Fm_ChangelogOfflineUrl;
+			}
+		}
+
+		/// <summary>
+		/// System.String m_LicensesOnlineUrl
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LicensesOnlineUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_LicensesOnlineUrl
+		{
+			get
+			{
+				if(r_Fm_LicensesOnlineUrl == null)
+				{
+					r_Fm_LicensesOnlineUrl = new(this, "m_LicensesOnlineUrl");
+				}
+				return r_Fm_LicensesOnlineUrl;
+			}
+		}
+
+		/// <summary>
+		/// System.String m_LicensesOfflineUrl
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LicensesOfflineUrl;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_LicensesOfflineUrl
+		{
+			get
+			{
+				if(r_Fm_LicensesOfflineUrl == null)
+				{
+					r_Fm_LicensesOfflineUrl = new(this, "m_LicensesOfflineUrl");
+				}
+				return r_Fm_LicensesOfflineUrl;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags m_Flags
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_Fm_Flags;
@@ -1298,6 +1394,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PenabledSelf = new(this, "enabledSelf", -1);
 				}
 				return r_PenabledSelf;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
 			}
 		}
 

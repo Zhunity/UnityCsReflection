@@ -70,6 +70,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings m_fontAssetCreationEditorSettings
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_Fm_fontAssetCreationEditorSettings;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RFm_fontAssetCreationEditorSettings
+		{
+			get
+			{
+				if(r_Fm_fontAssetCreationEditorSettings == null)
+				{
+					r_Fm_fontAssetCreationEditorSettings = new(this, "m_fontAssetCreationEditorSettings");
+				}
+				return r_Fm_fontAssetCreationEditorSettings;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Font m_SourceFontFile
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_Fm_SourceFontFile;
@@ -454,22 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings m_fontAssetCreationEditorSettings
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_Fm_fontAssetCreationEditorSettings;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RFm_fontAssetCreationEditorSettings
-		{
-			get
-			{
-				if(r_Fm_fontAssetCreationEditorSettings == null)
-				{
-					r_Fm_fontAssetCreationEditorSettings = new(this, "m_fontAssetCreationEditorSettings");
-				}
-				return r_Fm_fontAssetCreationEditorSettings;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.TextCore.Text.FontWeightPair[] m_FontWeightTable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontWeightPair> r_Fm_FontWeightTable;
@@ -690,6 +690,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_FSetSourceFontGUID = new(Type, "SetSourceFontGUID");
 				}
 				return r_FSetSourceFontGUID;
+			}
+		}
+
+		/// <summary>
+		/// System.Func`1[System.Boolean] EditorApplicationIsUpdating
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FEditorApplicationIsUpdating;
+		public static Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RSystem.RBoolean> RFEditorApplicationIsUpdating
+		{
+			get
+			{
+				if(r_FEditorApplicationIsUpdating == null)
+				{
+					r_FEditorApplicationIsUpdating = new(Type, "EditorApplicationIsUpdating");
+				}
+				return r_FEditorApplicationIsUpdating;
 			}
 		}
 
@@ -1206,6 +1222,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings fontAssetCreationEditorSettings
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_PfontAssetCreationEditorSettings;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RPfontAssetCreationEditorSettings
+		{
+			get
+			{
+				if(r_PfontAssetCreationEditorSettings == null)
+				{
+					r_PfontAssetCreationEditorSettings = new(this, "fontAssetCreationEditorSettings", -1);
+				}
+				return r_PfontAssetCreationEditorSettings;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Font sourceFontFile
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_PsourceFontFile;
@@ -1554,22 +1586,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_PfallbackFontAssetTable = new(this, "fallbackFontAssetTable", -1);
 				}
 				return r_PfallbackFontAssetTable;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.TextCore.Text.FontAssetCreationEditorSettings fontAssetCreationEditorSettings
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings r_PfontAssetCreationEditorSettings;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RFontAssetCreationEditorSettings RPfontAssetCreationEditorSettings
-		{
-			get
-			{
-				if(r_PfontAssetCreationEditorSettings == null)
-				{
-					r_PfontAssetCreationEditorSettings = new(this, "fontAssetCreationEditorSettings", -1);
-				}
-				return r_PfontAssetCreationEditorSettings;
 			}
 		}
 
@@ -2246,6 +2262,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// Boolean HasCharacter(UInt32, Boolean, Boolean)
+		/// </summary>
+		protected RMethod r_MHasCharacter_UInt32_Boolean_Boolean;
+		public virtual RMethod RMHasCharacter_UInt32_Boolean_Boolean
+		{
+			get
+			{
+				if(r_MHasCharacter_UInt32_Boolean_Boolean == null)
+				{
+					r_MHasCharacter_UInt32_Boolean_Boolean = new(this, "HasCharacter", 0, typeof(System.UInt32), typeof(System.Boolean), typeof(System.Boolean));
+				}
+				return r_MHasCharacter_UInt32_Boolean_Boolean;
+			}
+		}
+
+		/// <summary>
 		/// Boolean HasCharacter_Internal(UInt32, Boolean, Boolean)
 		/// </summary>
 		protected RMethod r_MHasCharacter_Internal_UInt32_Boolean_Boolean;
@@ -2870,6 +2902,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -3221,6 +3269,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
             var ___result = RMHasCharacter_Char_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual System.Boolean HasCharacter(System.UInt32 @character, System.Boolean @searchFallbacks, System.Boolean @tryAddCharacter)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@character, @searchFallbacks, @tryAddCharacter};
+            var ___result = RMHasCharacter_UInt32_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -3667,6 +3726,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

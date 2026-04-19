@@ -806,6 +806,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Int32 GetComponentIndex()
+		/// </summary>
+		protected RMethod r_MGetComponentIndex;
+		public virtual RMethod RMGetComponentIndex
+		{
+			get
+			{
+				if(r_MGetComponentIndex == null)
+				{
+					r_MGetComponentIndex = new(this, "GetComponentIndex", 0);
+				}
+				return r_MGetComponentIndex;
+			}
+		}
+
+		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
 		protected RMethod r_MCompareTag_String;
@@ -1106,6 +1122,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
+			}
+		}
+
+		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
 			}
 		}
 
@@ -1492,6 +1524,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual System.Int32 GetComponentIndex()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetComponentIndex.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
         public virtual System.Boolean CompareTag(System.String @tag)
         {
 
@@ -1698,6 +1741,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

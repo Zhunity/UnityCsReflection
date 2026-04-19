@@ -15,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RExperimental.RLicensing
         {
             get
             {
-                return  ReflectionUtils.GetType("UnityEditor.Experimental.Licensing.EntitlementStatus");
+                return typeof(UnityEditor.Experimental.Licensing.EntitlementStatus);
             }
         }
 

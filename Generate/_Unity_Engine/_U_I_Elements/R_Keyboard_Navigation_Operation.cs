@@ -150,6 +150,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.KeyboardNavigationOperation MoveRight
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FMoveRight;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFMoveRight
+		{
+			get
+			{
+				if(r_FMoveRight == null)
+				{
+					r_FMoveRight = new(Type, "MoveRight");
+				}
+				return r_FMoveRight;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.KeyboardNavigationOperation MoveLeft
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FMoveLeft;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation RFMoveLeft
+		{
+			get
+			{
+				if(r_FMoveLeft == null)
+				{
+					r_FMoveLeft = new(Type, "MoveLeft");
+				}
+				return r_FMoveLeft;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.KeyboardNavigationOperation PageUp
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationOperation r_FPageUp;

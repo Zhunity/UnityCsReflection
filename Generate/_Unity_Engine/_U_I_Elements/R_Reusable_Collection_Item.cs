@@ -54,6 +54,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onDestroy
+		/// </summary>
+		protected REvent r_EonDestroy;
+		public virtual REvent REonDestroy
+		{
+			get
+			{
+				if(r_EonDestroy == null)
+				{
+					r_EonDestroy = new(this, "onDestroy");
+				}
+				return r_EonDestroy;
+			}
+		}
+
+		/// <summary>
 		/// System.Int32 UndefinedIndex
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FUndefinedIndex;
@@ -178,6 +194,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fm_GeometryChangedEventCallback = new(this, "m_GeometryChangedEventCallback");
 				}
 				return r_Fm_GeometryChangedEventCallback;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onDestroy
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> r_FonDestroy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> RFonDestroy
+		{
+			get
+			{
+				if(r_FonDestroy == null)
+				{
+					r_FonDestroy = new(this, "onDestroy");
+				}
+				return r_FonDestroy;
 			}
 		}
 
@@ -326,6 +358,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void DestroyElement()
+		/// </summary>
+		protected RMethod r_MDestroyElement;
+		public virtual RMethod RMDestroyElement
+		{
+			get
+			{
+				if(r_MDestroyElement == null)
+				{
+					r_MDestroyElement = new(this, "DestroyElement", 0);
+				}
+				return r_MDestroyElement;
+			}
+		}
+
+		/// <summary>
 		/// Void SetSelected(Boolean)
 		/// </summary>
 		protected RMethod r_MSetSelected_Boolean;
@@ -338,6 +386,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MSetSelected_Boolean = new(this, "SetSelected", 0, typeof(System.Boolean));
 				}
 				return r_MSetSelected_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void SetDragGhost(Boolean)
+		/// </summary>
+		protected RMethod r_MSetDragGhost_Boolean;
+		public virtual RMethod RMSetDragGhost_Boolean
+		{
+			get
+			{
+				if(r_MSetDragGhost_Boolean == null)
+				{
+					r_MSetDragGhost_Boolean = new(this, "SetDragGhost", 0, typeof(System.Boolean));
+				}
+				return r_MSetDragGhost_Boolean;
 			}
 		}
 
@@ -487,12 +551,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void DestroyElement()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMDestroyElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void SetSelected(System.Boolean @selected)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@selected};
             var ___result = RMSetSelected_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetDragGhost(System.Boolean @dragGhost)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@dragGhost};
+            var ___result = RMSetDragGhost_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -1414,6 +1414,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -1974,18 +2006,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void SetError(System.String, Boolean, Boolean)
+		/// Void SetError(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_MSetError_String_Boolean_Boolean;
-		public virtual RMethod RMSetError_String_Boolean_Boolean
+		protected RMethod r_MSetError_Boolean_Boolean;
+		public virtual RMethod RMSetError_Boolean_Boolean
 		{
 			get
 			{
-				if(r_MSetError_String_Boolean_Boolean == null)
+				if(r_MSetError_Boolean_Boolean == null)
 				{
-					r_MSetError_String_Boolean_Boolean = new(this, "SetError", 0, typeof(System.String), typeof(System.Boolean), typeof(System.Boolean));
+					r_MSetError_Boolean_Boolean = new(this, "SetError", 0, typeof(System.Boolean), typeof(System.Boolean));
 				}
-				return r_MSetError_String_Boolean_Boolean;
+				return r_MSetError_Boolean_Boolean;
 			}
 		}
 
@@ -4098,12 +4130,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void SetError(System.String @errorMessage, System.Boolean @isNameError, System.Boolean @isVersionError)
+        public virtual void SetError(System.Boolean @isNameError, System.Boolean @isVersionError)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@errorMessage, @isNameError, @isVersionError};
-            var ___result = RMSetError_String_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@isNameError, @isVersionError};
+            var ___result = RMSetError_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

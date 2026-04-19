@@ -374,18 +374,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEditor.IPropertyView <propertyViewer>k__BackingField
+		/// UnityEditor.IPropertyView m_PropertyViewer
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_F__0__propertyViewer__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RF__0__propertyViewer__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_Fm_PropertyViewer;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RFm_PropertyViewer
 		{
 			get
 			{
-				if(r_F__0__propertyViewer__1__k__BackingField == null)
+				if(r_Fm_PropertyViewer == null)
 				{
-					r_F__0__propertyViewer__1__k__BackingField = new(this, "<propertyViewer>k__BackingField");
+					r_Fm_PropertyViewer = new(this, "m_PropertyViewer");
 				}
-				return r_F__0__propertyViewer__1__k__BackingField;
+				return r_Fm_PropertyViewer;
 			}
 		}
 
@@ -802,6 +802,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MHasLargeHeader = new(this, "HasLargeHeader", 0);
 				}
 				return r_MHasLargeHeader;
+			}
+		}
+
+		/// <summary>
+		/// Void PostSerializedObjectCreation()
+		/// </summary>
+		protected RMethod r_MPostSerializedObjectCreation;
+		public virtual RMethod RMPostSerializedObjectCreation
+		{
+			get
+			{
+				if(r_MPostSerializedObjectCreation == null)
+				{
+					r_MPostSerializedObjectCreation = new(this, "PostSerializedObjectCreation", 0);
+				}
+				return r_MPostSerializedObjectCreation;
 			}
 		}
 
@@ -2070,6 +2086,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -2159,6 +2191,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMHasLargeHeader.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual void PostSerializedObjectCreation()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMPostSerializedObjectCreation.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 
@@ -3037,6 +3080,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

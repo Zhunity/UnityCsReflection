@@ -1126,6 +1126,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Int32 getScreenRenderingHeight(Int32)
+		/// </summary>
+		protected static RMethod r_MgetScreenRenderingHeight_Int32;
+		public static RMethod RMgetScreenRenderingHeight_Int32
+		{
+			get
+			{
+				if(r_MgetScreenRenderingHeight_Int32 == null)
+				{
+					r_MgetScreenRenderingHeight_Int32 = new(Type, "getScreenRenderingHeight", 0, typeof(System.Int32));
+				}
+				return r_MgetScreenRenderingHeight_Int32;
+			}
+		}
+
+		/// <summary>
+		/// Int32 getScreenRenderingWidth(Int32)
+		/// </summary>
+		protected static RMethod r_MgetScreenRenderingWidth_Int32;
+		public static RMethod RMgetScreenRenderingWidth_Int32
+		{
+			get
+			{
+				if(r_MgetScreenRenderingWidth_Int32 == null)
+				{
+					r_MgetScreenRenderingWidth_Int32 = new(Type, "getScreenRenderingWidth", 0, typeof(System.Int32));
+				}
+				return r_MgetScreenRenderingWidth_Int32;
+			}
+		}
+
+		/// <summary>
 		/// Void Repaint(UnityEngine.Event)
 		/// </summary>
 		protected RMethod r_MRepaint_Event;
@@ -1838,6 +1870,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public static System.Int32 getScreenRenderingHeight(System.Int32 @display)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@display};
+            var ___result = RMgetScreenRenderingHeight_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
+        public static System.Int32 getScreenRenderingWidth(System.Int32 @display)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@display};
+            var ___result = RMgetScreenRenderingWidth_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

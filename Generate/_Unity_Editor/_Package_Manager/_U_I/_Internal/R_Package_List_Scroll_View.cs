@@ -182,6 +182,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.Boolean m_MouseWheelScrollSizeIsInline
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_MouseWheelScrollSizeIsInline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_MouseWheelScrollSizeIsInline
+		{
+			get
+			{
+				if(r_Fm_MouseWheelScrollSizeIsInline == null)
+				{
+					r_Fm_MouseWheelScrollSizeIsInline = new(this, "m_MouseWheelScrollSizeIsInline");
+				}
+				return r_Fm_MouseWheelScrollSizeIsInline;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.IVisualElementScheduledItem m_PostPointerUpAnimation
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualElementScheduledItem r_Fm_PostPointerUpAnimation;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualElementScheduledItem RFm_PostPointerUpAnimation
+		{
+			get
+			{
+				if(r_Fm_PostPointerUpAnimation == null)
+				{
+					r_Fm_PostPointerUpAnimation = new(this, "m_PostPointerUpAnimation");
+				}
+				return r_Fm_PostPointerUpAnimation;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags m_Flags
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_Fm_Flags;
@@ -614,6 +646,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Single mouseWheelScrollSize
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmouseWheelScrollSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmouseWheelScrollSize
+		{
+			get
+			{
+				if(r_PmouseWheelScrollSize == null)
+				{
+					r_PmouseWheelScrollSize = new(this, "mouseWheelScrollSize", -1);
+				}
+				return r_PmouseWheelScrollSize;
+			}
+		}
+
+		/// <summary>
 		/// Single scrollableWidth
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PscrollableWidth;
@@ -706,6 +754,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PnestedInteractionKind = new(this, "nestedInteractionKind", -1);
 				}
 				return r_PnestedInteractionKind;
+			}
+		}
+
+		/// <summary>
+		/// Int64 elasticAnimationIntervalMs
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PelasticAnimationIntervalMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPelasticAnimationIntervalMs
+		{
+			get
+			{
+				if(r_PelasticAnimationIntervalMs == null)
+				{
+					r_PelasticAnimationIntervalMs = new(this, "elasticAnimationIntervalMs", -1);
+				}
+				return r_PelasticAnimationIntervalMs;
 			}
 		}
 
@@ -1602,6 +1666,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PenabledSelf = new(this, "enabledSelf", -1);
 				}
 				return r_PenabledSelf;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
 			}
 		}
 
@@ -2546,6 +2642,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MScrollTo_VisualElement = new(this, "ScrollTo", 0, typeof(UnityEngine.UIElements.VisualElement));
 				}
 				return r_MScrollTo_VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void ApplyScrollInertia()
+		/// </summary>
+		protected RMethod r_MApplyScrollInertia;
+		public virtual RMethod RMApplyScrollInertia
+		{
+			get
+			{
+				if(r_MApplyScrollInertia == null)
+				{
+					r_MApplyScrollInertia = new(this, "ApplyScrollInertia", 0);
+				}
+				return r_MApplyScrollInertia;
 			}
 		}
 
@@ -4832,6 +4944,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@child};
             var ___result = RMScrollTo_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyScrollInertia()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMApplyScrollInertia.Invoke(___genericsType, ___parameters);
 
             
         }

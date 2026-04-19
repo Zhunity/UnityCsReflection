@@ -1702,6 +1702,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -2418,6 +2450,70 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MUpdateTextFromValue = new(this, "UpdateTextFromValue", 0);
 				}
 				return r_MUpdateTextFromValue;
+			}
+		}
+
+		/// <summary>
+		/// Void RegisterEditingCallbacks()
+		/// </summary>
+		protected RMethod r_MRegisterEditingCallbacks;
+		public virtual RMethod RMRegisterEditingCallbacks
+		{
+			get
+			{
+				if(r_MRegisterEditingCallbacks == null)
+				{
+					r_MRegisterEditingCallbacks = new(this, "RegisterEditingCallbacks", 0);
+				}
+				return r_MRegisterEditingCallbacks;
+			}
+		}
+
+		/// <summary>
+		/// Void UnregisterEditingCallbacks()
+		/// </summary>
+		protected RMethod r_MUnregisterEditingCallbacks;
+		public virtual RMethod RMUnregisterEditingCallbacks
+		{
+			get
+			{
+				if(r_MUnregisterEditingCallbacks == null)
+				{
+					r_MUnregisterEditingCallbacks = new(this, "UnregisterEditingCallbacks", 0);
+				}
+				return r_MUnregisterEditingCallbacks;
+			}
+		}
+
+		/// <summary>
+		/// Void StartEditing(UnityEngine.UIElements.EventBase)
+		/// </summary>
+		protected RMethod r_MStartEditing_EventBase;
+		public virtual RMethod RMStartEditing_EventBase
+		{
+			get
+			{
+				if(r_MStartEditing_EventBase == null)
+				{
+					r_MStartEditing_EventBase = new(this, "StartEditing", 0, typeof(UnityEngine.UIElements.EventBase));
+				}
+				return r_MStartEditing_EventBase;
+			}
+		}
+
+		/// <summary>
+		/// Void EndEditing(UnityEngine.UIElements.EventBase)
+		/// </summary>
+		protected RMethod r_MEndEditing_EventBase;
+		public virtual RMethod RMEndEditing_EventBase
+		{
+			get
+			{
+				if(r_MEndEditing_EventBase == null)
+				{
+					r_MEndEditing_EventBase = new(this, "EndEditing", 0, typeof(UnityEngine.UIElements.EventBase));
+				}
+				return r_MEndEditing_EventBase;
 			}
 		}
 
@@ -4475,6 +4571,50 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMUpdateTextFromValue.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RegisterEditingCallbacks()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRegisterEditingCallbacks.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void UnregisterEditingCallbacks()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMUnregisterEditingCallbacks.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void StartEditing(UnityEngine.UIElements.EventBase @e)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@e};
+            var ___result = RMStartEditing_EventBase.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void EndEditing(UnityEngine.UIElements.EventBase @e)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@e};
+            var ___result = RMEndEditing_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }

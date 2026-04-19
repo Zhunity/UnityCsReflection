@@ -326,6 +326,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.EventCategory Reserved
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FReserved;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFReserved
+		{
+			get
+			{
+				if(r_FReserved == null)
+				{
+					r_FReserved = new(Type, "Reserved");
+				}
+				return r_FReserved;
+			}
+		}
+
+		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

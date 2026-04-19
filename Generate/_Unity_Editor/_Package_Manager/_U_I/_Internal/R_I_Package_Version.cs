@@ -278,6 +278,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.RegistryType availableRegistry
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType r_PavailableRegistry;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType RPavailableRegistry
+		{
+			get
+			{
+				if(r_PavailableRegistry == null)
+				{
+					r_PavailableRegistry = new(this, "availableRegistry", -1);
+				}
+				return r_PavailableRegistry;
+			}
+		}
+
+		/// <summary>
 		/// Boolean isFullyFetched
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFullyFetched;
@@ -322,22 +338,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PisDirectDependency = new(this, "isDirectDependency", -1);
 				}
 				return r_PisDirectDependency;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isUnityPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUnityPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUnityPackage
-		{
-			get
-			{
-				if(r_PisUnityPackage == null)
-				{
-					r_PisUnityPackage = new(this, "isUnityPackage", -1);
-				}
-				return r_PisUnityPackage;
 			}
 		}
 
@@ -450,38 +450,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PIsRequestedButOverriddenVersion = new(this, "IsRequestedButOverriddenVersion", -1);
 				}
 				return r_PIsRequestedButOverriddenVersion;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isRegistryPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRegistryPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRegistryPackage
-		{
-			get
-			{
-				if(r_PisRegistryPackage == null)
-				{
-					r_PisRegistryPackage = new(this, "isRegistryPackage", -1);
-				}
-				return r_PisRegistryPackage;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isFromScopedRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFromScopedRegistry;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFromScopedRegistry
-		{
-			get
-			{
-				if(r_PisFromScopedRegistry == null)
-				{
-					r_PisFromScopedRegistry = new(this, "isFromScopedRegistry", -1);
-				}
-				return r_PisFromScopedRegistry;
 			}
 		}
 

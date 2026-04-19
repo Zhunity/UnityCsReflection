@@ -726,6 +726,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
+		{
+			get
+			{
+				if(r_MToString == null)
+				{
+					r_MToString = new(this, "ToString", 0);
+				}
+				return r_MToString;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToStringTest()
+		/// </summary>
+		protected RMethod r_MToStringTest;
+		public virtual RMethod RMToStringTest
+		{
+			get
+			{
+				if(r_MToStringTest == null)
+				{
+					r_MToStringTest = new(this, "ToStringTest", 0);
+				}
+				return r_MToStringTest;
+			}
+		}
+
+		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -754,22 +786,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_MGetHashCode = new(this, "GetHashCode", 0);
 				}
 				return r_MGetHashCode;
-			}
-		}
-
-		/// <summary>
-		/// System.String ToString()
-		/// </summary>
-		protected RMethod r_MToString;
-		public virtual RMethod RMToString
-		{
-			get
-			{
-				if(r_MToString == null)
-				{
-					r_MToString = new(this, "ToString", 0);
-				}
-				return r_MToString;
 			}
 		}
 
@@ -822,6 +838,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 
+        public virtual System.String ToString()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual System.String ToStringTest()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMToStringTest.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
         public virtual System.Boolean Equals(System.Object @obj)
         {
 
@@ -841,17 +879,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

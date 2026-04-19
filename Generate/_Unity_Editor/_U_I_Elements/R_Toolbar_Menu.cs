@@ -646,6 +646,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.ITextElementExperimentalFeatures experimental
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextElementExperimentalFeatures r_Pexperimental;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextElementExperimentalFeatures RPexperimental
+		{
+			get
+			{
+				if(r_Pexperimental == null)
+				{
+					r_Pexperimental = new(this, "experimental", -1);
+				}
+				return r_Pexperimental;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.ITextSelection selection
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextSelection r_Pselection;
@@ -1526,6 +1542,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -1666,22 +1714,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RUIElements
 					r_PisEventCallbackParentCategoriesDirty = new(this, "isEventCallbackParentCategoriesDirty", -1);
 				}
 				return r_PisEventCallbackParentCategoriesDirty;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.IExperimentalFeatures experimental
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIExperimentalFeatures r_Pexperimental;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIExperimentalFeatures RPexperimental
-		{
-			get
-			{
-				if(r_Pexperimental == null)
-				{
-					r_Pexperimental = new(this, "experimental", -1);
-				}
-				return r_Pexperimental;
 			}
 		}
 

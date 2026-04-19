@@ -118,6 +118,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Boolean isDirty
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDirty;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDirty
+		{
+			get
+			{
+				if(r_PisDirty == null)
+				{
+					r_PisDirty = new(this, "isDirty", -1);
+				}
+				return r_PisDirty;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElement Pick(UnityEngine.Vector2)
 		/// </summary>
 		protected RMethod r_MPick_Vector2;

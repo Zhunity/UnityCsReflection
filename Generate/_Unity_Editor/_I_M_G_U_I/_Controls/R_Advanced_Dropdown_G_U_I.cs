@@ -38,6 +38,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 
 
 		/// <summary>
+		/// System.String k_SearchFieldName
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SearchFieldName;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SearchFieldName
+		{
+			get
+			{
+				if(r_Fk_SearchFieldName == null)
+				{
+					r_Fk_SearchFieldName = new(Type, "k_SearchFieldName");
+				}
+				return r_Fk_SearchFieldName;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Vector2 s_IconSize
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_IconSize;

@@ -486,6 +486,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Boolean <AddItems>g__IsGenericList|15_0(System.Type)
+		/// </summary>
+		protected static RMethod r_M__0__AddItems__1__g__IsGenericList__5__15_0_Type;
+		public static RMethod RM__0__AddItems__1__g__IsGenericList__5__15_0_Type
+		{
+			get
+			{
+				if(r_M__0__AddItems__1__g__IsGenericList__5__15_0_Type == null)
+				{
+					r_M__0__AddItems__1__g__IsGenericList__5__15_0_Type = new(Type, "<AddItems>g__IsGenericList|15_0", 0, typeof(System.Type));
+				}
+				return r_M__0__AddItems__1__g__IsGenericList__5__15_0_Type;
+			}
+		}
+
+		/// <summary>
 		/// Void SetItemsSourceWithoutNotify(System.Collections.IList)
 		/// </summary>
 		protected RMethod r_MSetItemsSourceWithoutNotify_IList;
@@ -626,6 +642,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetItemForIndex_Int32 = new(this, "GetItemForIndex", 0, typeof(System.Int32));
 				}
 				return r_MGetItemForIndex_Int32;
+			}
+		}
+
+		/// <summary>
+		/// System.Object GetItemForId(Int32)
+		/// </summary>
+		protected RMethod r_MGetItemForId_Int32;
+		public virtual RMethod RMGetItemForId_Int32
+		{
+			get
+			{
+				if(r_MGetItemForId_Int32 == null)
+				{
+					r_MGetItemForId_Int32 = new(this, "GetItemForId", 0, typeof(System.Int32));
+				}
+				return r_MGetItemForId_Int32;
 			}
 		}
 
@@ -1041,6 +1073,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static System.Boolean __0__AddItems__1__g__IsGenericList__5__15_0(System.Type @t)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@t};
+            var ___result = RM__0__AddItems__1__g__IsGenericList__5__15_0_Type.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
         public virtual void SetItemsSourceWithoutNotify(System.Collections.IList @source)
         {
 
@@ -1135,6 +1178,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMGetItemForIndex_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Object>(___result);
+        }
+
+
+        public virtual System.Object GetItemForId(System.Int32 @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@id};
+            var ___result = RMGetItemForId_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

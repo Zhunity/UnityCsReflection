@@ -822,34 +822,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// Void SetColorValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.Color)
+		/// Void SetColorValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.Color, Boolean)
 		/// </summary>
-		protected RMethod r_MSetColorValue_BMPAlloc_Color;
-		public virtual RMethod RMSetColorValue_BMPAlloc_Color
+		protected RMethod r_MSetColorValue_BMPAlloc_Color_Boolean;
+		public virtual RMethod RMSetColorValue_BMPAlloc_Color_Boolean
 		{
 			get
 			{
-				if(r_MSetColorValue_BMPAlloc_Color == null)
+				if(r_MSetColorValue_BMPAlloc_Color_Boolean == null)
 				{
-					r_MSetColorValue_BMPAlloc_Color = new(this, "SetColorValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Color));
+					r_MSetColorValue_BMPAlloc_Color_Boolean = new(this, "SetColorValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"), typeof(UnityEngine.Color), typeof(System.Boolean));
 				}
-				return r_MSetColorValue_BMPAlloc_Color;
+				return r_MSetColorValue_BMPAlloc_Color_Boolean;
 			}
 		}
 
 		/// <summary>
-		/// Void SetTextCoreSettingValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.UIElements.UIR.TextCoreSettings)
+		/// Void SetTextCoreSettingValue(UnityEngine.UIElements.UIR.BMPAlloc, UnityEngine.UIElements.UIR.TextCoreSettings, Boolean)
 		/// </summary>
-		protected RMethod r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
-		public virtual RMethod RMSetTextCoreSettingValue_BMPAlloc_TextCoreSettings
+		protected RMethod r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings_Boolean;
+		public virtual RMethod RMSetTextCoreSettingValue_BMPAlloc_TextCoreSettings_Boolean
 		{
 			get
 			{
-				if(r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings == null)
+				if(r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings_Boolean == null)
 				{
-					r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings = new(this, "SetTextCoreSettingValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"));
+					r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings_Boolean = new(this, "SetTextCoreSettingValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.BMPAlloc"),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.TextCoreSettings"), typeof(System.Boolean));
 				}
-				return r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings;
+				return r_MSetTextCoreSettingValue_BMPAlloc_TextCoreSettings_Boolean;
 			}
 		}
 
@@ -1277,23 +1277,23 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void SetColorValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color)
+        public virtual void SetColorValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, UnityEngine.Color @color, System.Boolean @isEditorContext)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @color};
-            var ___result = RMSetColorValue_BMPAlloc_Color.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@alloc.Value, @color, @isEditorContext};
+            var ___result = RMSetColorValue_BMPAlloc_Color_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SetTextCoreSettingValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings)
+        public virtual void SetTextCoreSettingValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc @alloc, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextCoreSettings @settings, System.Boolean @isEditorContext)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@alloc.Value, @settings.Value};
-            var ___result = RMSetTextCoreSettingValue_BMPAlloc_TextCoreSettings.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@alloc.Value, @settings.Value, @isEditorContext};
+            var ___result = RMSetTextCoreSettingValue_BMPAlloc_TextCoreSettings_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

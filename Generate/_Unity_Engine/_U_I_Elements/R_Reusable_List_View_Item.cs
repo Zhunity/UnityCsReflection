@@ -54,6 +54,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onDestroy
+		/// </summary>
+		protected REvent r_EonDestroy;
+		public virtual REvent REonDestroy
+		{
+			get
+			{
+				if(r_EonDestroy == null)
+				{
+					r_EonDestroy = new(this, "onDestroy");
+				}
+				return r_EonDestroy;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElement m_Container
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Container;
@@ -294,6 +310,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void SetDragGhost(Boolean)
+		/// </summary>
+		protected RMethod r_MSetDragGhost_Boolean;
+		public virtual RMethod RMSetDragGhost_Boolean
+		{
+			get
+			{
+				if(r_MSetDragGhost_Boolean == null)
+				{
+					r_MSetDragGhost_Boolean = new(this, "SetDragGhost", 0, typeof(System.Boolean));
+				}
+				return r_MSetDragGhost_Boolean;
+			}
+		}
+
+		/// <summary>
 		/// Void Init(UnityEngine.UIElements.VisualElement)
 		/// </summary>
 		protected RMethod r_MInit_VisualElement;
@@ -306,6 +338,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MInit_VisualElement = new(this, "Init", 0, typeof(UnityEngine.UIElements.VisualElement));
 				}
 				return r_MInit_VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void DestroyElement()
+		/// </summary>
+		protected RMethod r_MDestroyElement;
+		public virtual RMethod RMDestroyElement
+		{
+			get
+			{
+				if(r_MDestroyElement == null)
+				{
+					r_MDestroyElement = new(this, "DestroyElement", 0);
+				}
+				return r_MDestroyElement;
 			}
 		}
 
@@ -493,12 +541,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void SetDragGhost(System.Boolean @dragGhost)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@dragGhost};
+            var ___result = RMSetDragGhost_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void Init(UnityEngine.UIElements.VisualElement @item)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@item};
             var ___result = RMInit_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DestroyElement()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMDestroyElement.Invoke(___genericsType, ___parameters);
 
             
         }

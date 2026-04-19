@@ -166,18 +166,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_IsUnityPackage
+		/// UnityEditor.PackageManager.UI.Internal.RegistryType m_AvailableRegistry
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsUnityPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsUnityPackage
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType r_Fm_AvailableRegistry;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType RFm_AvailableRegistry
 		{
 			get
 			{
-				if(r_Fm_IsUnityPackage == null)
+				if(r_Fm_AvailableRegistry == null)
 				{
-					r_Fm_IsUnityPackage = new(this, "m_IsUnityPackage");
+					r_Fm_AvailableRegistry = new(this, "m_AvailableRegistry");
 				}
-				return r_Fm_IsUnityPackage;
+				return r_Fm_AvailableRegistry;
 			}
 		}
 
@@ -194,22 +194,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_Source = new(this, "m_Source");
 				}
 				return r_Fm_Source;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_IsFromScopedRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsFromScopedRegistry;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsFromScopedRegistry
-		{
-			get
-			{
-				if(r_Fm_IsFromScopedRegistry == null)
-				{
-					r_Fm_IsFromScopedRegistry = new(this, "m_IsFromScopedRegistry");
-				}
-				return r_Fm_IsFromScopedRegistry;
 			}
 		}
 
@@ -550,50 +534,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean isUnityPackage
+		/// UnityEditor.PackageManager.UI.Internal.RegistryType availableRegistry
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUnityPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUnityPackage
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType r_PavailableRegistry;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType RPavailableRegistry
 		{
 			get
 			{
-				if(r_PisUnityPackage == null)
+				if(r_PavailableRegistry == null)
 				{
-					r_PisUnityPackage = new(this, "isUnityPackage", -1);
+					r_PavailableRegistry = new(this, "availableRegistry", -1);
 				}
-				return r_PisUnityPackage;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isRegistryPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRegistryPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRegistryPackage
-		{
-			get
-			{
-				if(r_PisRegistryPackage == null)
-				{
-					r_PisRegistryPackage = new(this, "isRegistryPackage", -1);
-				}
-				return r_PisRegistryPackage;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isFromScopedRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFromScopedRegistry;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFromScopedRegistry
-		{
-			get
-			{
-				if(r_PisFromScopedRegistry == null)
-				{
-					r_PisFromScopedRegistry = new(this, "isFromScopedRegistry", -1);
-				}
-				return r_PisFromScopedRegistry;
+				return r_PavailableRegistry;
 			}
 		}
 
@@ -690,22 +642,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PisInstalled = new(this, "isInstalled", -1);
 				}
 				return r_PisInstalled;
-			}
-		}
-
-		/// <summary>
-		/// Boolean installedFromPath
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PinstalledFromPath;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPinstalledFromPath
-		{
-			get
-			{
-				if(r_PinstalledFromPath == null)
-				{
-					r_PinstalledFromPath = new(this, "installedFromPath", -1);
-				}
-				return r_PinstalledFromPath;
 			}
 		}
 
@@ -902,6 +838,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Boolean isRegistryPackage
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRegistryPackage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRegistryPackage
+		{
+			get
+			{
+				if(r_PisRegistryPackage == null)
+				{
+					r_PisRegistryPackage = new(this, "isRegistryPackage", -1);
+				}
+				return r_PisRegistryPackage;
+			}
+		}
+
+		/// <summary>
+		/// Boolean isFromScopedRegistry
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFromScopedRegistry;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFromScopedRegistry
+		{
+			get
+			{
+				if(r_PisFromScopedRegistry == null)
+				{
+					r_PisFromScopedRegistry = new(this, "isFromScopedRegistry", -1);
+				}
+				return r_PisFromScopedRegistry;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.IPackage package
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage r_Ppackage;
@@ -1030,18 +998,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void UpdatePackageInfo(UnityEditor.PackageManager.PackageInfo, Boolean)
+		/// Void UpdatePackageInfo(UnityEditor.PackageManager.PackageInfo, UnityEditor.PackageManager.UI.Internal.RegistryType)
 		/// </summary>
-		protected RMethod r_MUpdatePackageInfo_PackageInfo_Boolean;
-		public virtual RMethod RMUpdatePackageInfo_PackageInfo_Boolean
+		protected RMethod r_MUpdatePackageInfo_PackageInfo_RegistryType;
+		public virtual RMethod RMUpdatePackageInfo_PackageInfo_RegistryType
 		{
 			get
 			{
-				if(r_MUpdatePackageInfo_PackageInfo_Boolean == null)
+				if(r_MUpdatePackageInfo_PackageInfo_RegistryType == null)
 				{
-					r_MUpdatePackageInfo_PackageInfo_Boolean = new(this, "UpdatePackageInfo", 0, typeof(UnityEditor.PackageManager.PackageInfo), typeof(System.Boolean));
+					r_MUpdatePackageInfo_PackageInfo_RegistryType = new(this, "UpdatePackageInfo", 0, typeof(UnityEditor.PackageManager.PackageInfo),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.RegistryType"));
 				}
-				return r_MUpdatePackageInfo_PackageInfo_Boolean;
+				return r_MUpdatePackageInfo_PackageInfo_RegistryType;
 			}
 		}
 
@@ -1302,12 +1270,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void UpdatePackageInfo(UnityEditor.PackageManager.PackageInfo @packageInfo, System.Boolean @isUnityPackage)
+        public virtual void UpdatePackageInfo(UnityEditor.PackageManager.PackageInfo @packageInfo, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType @availableRegistry)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageInfo, @isUnityPackage};
-            var ___result = RMUpdatePackageInfo_PackageInfo_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@packageInfo, @availableRegistry.Value};
+            var ___result = RMUpdatePackageInfo_PackageInfo_RegistryType.Invoke(___genericsType, ___parameters);
 
             
         }

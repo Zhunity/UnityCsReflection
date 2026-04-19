@@ -582,50 +582,50 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Color <UnityEngine.UIElements.ITextSelection.selectionColor>k__BackingField
+		/// UnityEngine.Color m_SelectionColor
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__selectionColor__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RF__0__UnityEngine__2__UIElements__2__ITextSelection__2__selectionColor__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fm_SelectionColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFm_SelectionColor
 		{
 			get
 			{
-				if(r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__selectionColor__1__k__BackingField == null)
+				if(r_Fm_SelectionColor == null)
 				{
-					r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__selectionColor__1__k__BackingField = new(this, "<UnityEngine.UIElements.ITextSelection.selectionColor>k__BackingField");
+					r_Fm_SelectionColor = new(this, "m_SelectionColor");
 				}
-				return r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__selectionColor__1__k__BackingField;
+				return r_Fm_SelectionColor;
 			}
 		}
 
 		/// <summary>
-		/// UnityEngine.Color <UnityEngine.UIElements.ITextSelection.cursorColor>k__BackingField
+		/// UnityEngine.Color m_CursorColor
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorColor__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RF__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorColor__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_Fm_CursorColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RFm_CursorColor
 		{
 			get
 			{
-				if(r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorColor__1__k__BackingField == null)
+				if(r_Fm_CursorColor == null)
 				{
-					r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorColor__1__k__BackingField = new(this, "<UnityEngine.UIElements.ITextSelection.cursorColor>k__BackingField");
+					r_Fm_CursorColor = new(this, "m_CursorColor");
 				}
-				return r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorColor__1__k__BackingField;
+				return r_Fm_CursorColor;
 			}
 		}
 
 		/// <summary>
-		/// System.Single <UnityEngine.UIElements.ITextSelection.cursorWidth>k__BackingField
+		/// System.Single m_CursorWidth
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorWidth__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RF__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorWidth__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_CursorWidth;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_CursorWidth
 		{
 			get
 			{
-				if(r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorWidth__1__k__BackingField == null)
+				if(r_Fm_CursorWidth == null)
 				{
-					r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorWidth__1__k__BackingField = new(this, "<UnityEngine.UIElements.ITextSelection.cursorWidth>k__BackingField");
+					r_Fm_CursorWidth = new(this, "m_CursorWidth");
 				}
-				return r_F__0__UnityEngine__2__UIElements__2__ITextSelection__2__cursorWidth__1__k__BackingField;
+				return r_Fm_CursorWidth;
 			}
 		}
 
@@ -1286,6 +1286,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.ITextElementExperimentalFeatures experimental
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextElementExperimentalFeatures r_Pexperimental;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextElementExperimentalFeatures RPexperimental
+		{
+			get
+			{
+				if(r_Pexperimental == null)
+				{
+					r_Pexperimental = new(this, "experimental", -1);
+				}
+				return r_Pexperimental;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.ITextSelection selection
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextSelection r_Pselection;
@@ -1474,6 +1490,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PUnityEngine__2__UIElements__2__ITextSelection__2__cursorColor = new(this, "UnityEngine.UIElements.ITextSelection.cursorColor", -1);
 				}
 				return r_PUnityEngine__2__UIElements__2__ITextSelection__2__cursorColor;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Color cursorColor
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PcursorColor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor RPcursorColor
+		{
+			get
+			{
+				if(r_PcursorColor == null)
+				{
+					r_PcursorColor = new(this, "cursorColor", -1);
+				}
+				return r_PcursorColor;
 			}
 		}
 
@@ -2358,6 +2390,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -2498,22 +2562,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PisEventCallbackParentCategoriesDirty = new(this, "isEventCallbackParentCategoriesDirty", -1);
 				}
 				return r_PisEventCallbackParentCategoriesDirty;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.IExperimentalFeatures experimental
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIExperimentalFeatures r_Pexperimental;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIExperimentalFeatures RPexperimental
-		{
-			get
-			{
-				if(r_Pexperimental == null)
-				{
-					r_Pexperimental = new(this, "experimental", -1);
-				}
-				return r_Pexperimental;
 			}
 		}
 
@@ -3254,6 +3302,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void UnityEngine.UIElements.ITextElementExperimentalFeatures.SetRenderedText(System.String)
+		/// </summary>
+		protected RMethod r_MUnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText_String;
+		public virtual RMethod RMUnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText_String
+		{
+			get
+			{
+				if(r_MUnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText_String == null)
+				{
+					r_MUnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText_String = new(this, "UnityEngine.UIElements.ITextElementExperimentalFeatures.SetRenderedText", 0, typeof(System.String));
+				}
+				return r_MUnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText_String;
+			}
+		}
+
+		/// <summary>
 		/// Void UnityEngine.UIElements.ITextSelection.SelectAll()
 		/// </summary>
 		protected RMethod r_MUnityEngine__2__UIElements__2__ITextSelection__2__SelectAll;
@@ -3362,6 +3426,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MDrawCaret_MeshGenerationContext = new(this, "DrawCaret", 0, typeof(UnityEngine.UIElements.MeshGenerationContext));
 				}
 				return r_MDrawCaret_MeshGenerationContext;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetLastCharacterAt(Int32)
+		/// </summary>
+		protected RMethod r_MGetLastCharacterAt_Int32;
+		public virtual RMethod RMGetLastCharacterAt_Int32
+		{
+			get
+			{
+				if(r_MGetLastCharacterAt_Int32 == null)
+				{
+					r_MGetLastCharacterAt_Int32 = new(this, "GetLastCharacterAt", 0, typeof(System.Int32));
+				}
+				return r_MGetLastCharacterAt_Int32;
 			}
 		}
 
@@ -5529,6 +5609,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void UnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText(System.String @renderedText)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@renderedText};
+            var ___result = RMUnityEngine__2__UIElements__2__ITextElementExperimentalFeatures__2__SetRenderedText_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void UnityEngine__2__UIElements__2__ITextSelection__2__SelectAll()
         {
 
@@ -5603,6 +5694,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMDrawCaret_MeshGenerationContext.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual System.Int32 GetLastCharacterAt(System.Int32 @lineIndex)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@lineIndex};
+            var ___result = RMGetLastCharacterAt_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

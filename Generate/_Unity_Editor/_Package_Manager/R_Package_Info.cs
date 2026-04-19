@@ -1238,38 +1238,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// System.String[] GetPredefinedPackageTypes()
-		/// </summary>
-		protected static RMethod r_MGetPredefinedPackageTypes;
-		public static RMethod RMGetPredefinedPackageTypes
-		{
-			get
-			{
-				if(r_MGetPredefinedPackageTypes == null)
-				{
-					r_MGetPredefinedPackageTypes = new(Type, "GetPredefinedPackageTypes", 0);
-				}
-				return r_MGetPredefinedPackageTypes;
-			}
-		}
-
-		/// <summary>
-		/// System.String[] GetPredefinedHiddenByDefaultPackageTypes()
-		/// </summary>
-		protected static RMethod r_MGetPredefinedHiddenByDefaultPackageTypes;
-		public static RMethod RMGetPredefinedHiddenByDefaultPackageTypes
-		{
-			get
-			{
-				if(r_MGetPredefinedHiddenByDefaultPackageTypes == null)
-				{
-					r_MGetPredefinedHiddenByDefaultPackageTypes = new(Type, "GetPredefinedHiddenByDefaultPackageTypes", 0);
-				}
-				return r_MGetPredefinedHiddenByDefaultPackageTypes;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.PackageInfo GetPackageByAssetPath(System.String)
 		/// </summary>
 		protected static RMethod r_MGetPackageByAssetPath_String;
@@ -1423,28 +1391,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___result = RMGetAllRegisteredPackages.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
-        }
-
-
-        public static System.String[] GetPredefinedPackageTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPredefinedPackageTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
-        public static System.String[] GetPredefinedHiddenByDefaultPackageTypes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPredefinedHiddenByDefaultPackageTypes.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 

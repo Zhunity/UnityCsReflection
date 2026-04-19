@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion latestPatch
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion r_PlatestPatch;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion RPlatestPatch
-		{
-			get
-			{
-				if(r_PlatestPatch == null)
-				{
-					r_PlatestPatch = new(this, "latestPatch", -1);
-				}
-				return r_PlatestPatch;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion importAvailable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion r_PimportAvailable;

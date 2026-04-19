@@ -2342,6 +2342,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
+		/// Void ReleaseViewData()
+		/// </summary>
+		protected RMethod r_MReleaseViewData;
+		public virtual RMethod RMReleaseViewData
+		{
+			get
+			{
+				if(r_MReleaseViewData == null)
+				{
+					r_MReleaseViewData = new(this, "ReleaseViewData", 0);
+				}
+				return r_MReleaseViewData;
+			}
+		}
+
+		/// <summary>
 		/// Void AddSceneTab()
 		/// </summary>
 		protected RMethod r_MAddSceneTab;
@@ -2514,6 +2530,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
+			}
+		}
+
+		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
 			}
 		}
 
@@ -3369,6 +3401,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
+        public virtual void ReleaseViewData()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMReleaseViewData.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void AddSceneTab()
         {
 
@@ -3489,6 +3532,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

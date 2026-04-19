@@ -278,22 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean isUnityPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUnityPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUnityPackage
-		{
-			get
-			{
-				if(r_PisUnityPackage == null)
-				{
-					r_PisUnityPackage = new(this, "isUnityPackage", -1);
-				}
-				return r_PisUnityPackage;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion latest
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion r_Platest;
@@ -486,18 +470,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void UpdateExtraPackageInfos(System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.PackageInfo], Boolean)
+		/// Void UpdateExtraPackageInfos(System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.PackageInfo], UnityEditor.PackageManager.UI.Internal.RegistryType)
 		/// </summary>
-		protected RMethod r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean;
-		public virtual RMethod RMUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean
+		protected RMethod r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType;
+		public virtual RMethod RMUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType
 		{
 			get
 			{
-				if(r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean == null)
+				if(r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType == null)
 				{
-					r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean = new(this, "UpdateExtraPackageInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)), typeof(System.Boolean));
+					r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType = new(this, "UpdateExtraPackageInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.RegistryType"));
 				}
-				return r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean;
+				return r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType;
 			}
 		}
 
@@ -776,12 +760,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void UpdateExtraPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @extraVersions, System.Boolean @isUnityPackage)
+        public virtual void UpdateExtraPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @extraVersions, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType @availableRegistry)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@extraVersions, @isUnityPackage};
-            var ___result = RMUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@extraVersions, @availableRegistry.Value};
+            var ___result = RMUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType.Invoke(___genericsType, ___parameters);
 
             
         }

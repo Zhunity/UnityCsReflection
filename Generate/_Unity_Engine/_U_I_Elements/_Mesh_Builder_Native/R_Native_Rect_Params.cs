@@ -328,6 +328,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.Vector4 rectInset
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FrectInset;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFrectInset
+		{
+			get
+			{
+				if(r_FrectInset == null)
+				{
+					r_FrectInset = new(this, "rectInset");
+				}
+				return r_FrectInset;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.MeshBuilderNative+NativeColorPage colorPage
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage r_FcolorPage;

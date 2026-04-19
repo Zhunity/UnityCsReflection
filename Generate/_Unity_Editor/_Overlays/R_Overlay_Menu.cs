@@ -134,6 +134,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// System.Int32 m_ListContentsHash
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ListContentsHash;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ListContentsHash
+		{
+			get
+			{
+				if(r_Fm_ListContentsHash == null)
+				{
+					r_Fm_ListContentsHash = new(this, "m_ListContentsHash");
+				}
+				return r_Fm_ListContentsHash;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.Toggle m_Toggle
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RToggle r_Fm_Toggle;
@@ -1318,6 +1334,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -1878,50 +1926,82 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void RebuildMenu(System.Collections.Generic.IEnumerable`1[UnityEditor.Overlays.Overlay])
+		/// Boolean RebuildMenu()
 		/// </summary>
-		protected RMethod r_MRebuildMenu_IEnumerable_d_Overlay_p_;
-		public virtual RMethod RMRebuildMenu_IEnumerable_d_Overlay_p_
+		protected RMethod r_MRebuildMenu;
+		public virtual RMethod RMRebuildMenu
 		{
 			get
 			{
-				if(r_MRebuildMenu_IEnumerable_d_Overlay_p_ == null)
+				if(r_MRebuildMenu == null)
 				{
-					r_MRebuildMenu_IEnumerable_d_Overlay_p_ = new(this, "RebuildMenu", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEditor.Overlays.Overlay)));
+					r_MRebuildMenu = new(this, "RebuildMenu", 0);
 				}
-				return r_MRebuildMenu_IEnumerable_d_Overlay_p_;
+				return r_MRebuildMenu;
 			}
 		}
 
 		/// <summary>
-		/// Void Show(System.Collections.Generic.IEnumerable`1[UnityEditor.Overlays.Overlay], Boolean)
+		/// Void Show(Boolean)
 		/// </summary>
-		protected RMethod r_MShow_IEnumerable_d_Overlay_p__Boolean;
-		public virtual RMethod RMShow_IEnumerable_d_Overlay_p__Boolean
+		protected RMethod r_MShow_Boolean;
+		public virtual RMethod RMShow_Boolean
 		{
 			get
 			{
-				if(r_MShow_IEnumerable_d_Overlay_p__Boolean == null)
+				if(r_MShow_Boolean == null)
 				{
-					r_MShow_IEnumerable_d_Overlay_p__Boolean = new(this, "Show", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(UnityEditor.Overlays.Overlay)), typeof(System.Boolean));
+					r_MShow_Boolean = new(this, "Show", 0, typeof(System.Boolean));
 				}
-				return r_MShow_IEnumerable_d_Overlay_p__Boolean;
+				return r_MShow_Boolean;
 			}
 		}
 
 		/// <summary>
-		/// Void ResolveSizeLimits(Single ByRef, Single ByRef, Single ByRef, Single ByRef)
+		/// Void PresentAtCenter(UnityEngine.UIElements.GeometryChangedEvent)
 		/// </summary>
-		protected RMethod r_MResolveSizeLimits_Out_Single_Out_Single_Out_Single_Out_Single;
-		public virtual RMethod RMResolveSizeLimits_Out_Single_Out_Single_Out_Single_Out_Single
+		protected RMethod r_MPresentAtCenter_GeometryChangedEvent;
+		public virtual RMethod RMPresentAtCenter_GeometryChangedEvent
 		{
 			get
 			{
-				if(r_MResolveSizeLimits_Out_Single_Out_Single_Out_Single_Out_Single == null)
+				if(r_MPresentAtCenter_GeometryChangedEvent == null)
 				{
-					r_MResolveSizeLimits_Out_Single_Out_Single_Out_Single_Out_Single = new(this, "ResolveSizeLimits", 0, typeof(System.Single).MakeByRefType(), typeof(System.Single).MakeByRefType(), typeof(System.Single).MakeByRefType(), typeof(System.Single).MakeByRefType());
+					r_MPresentAtCenter_GeometryChangedEvent = new(this, "PresentAtCenter", 0, typeof(UnityEngine.UIElements.GeometryChangedEvent));
 				}
-				return r_MResolveSizeLimits_Out_Single_Out_Single_Out_Single_Out_Single;
+				return r_MPresentAtCenter_GeometryChangedEvent;
+			}
+		}
+
+		/// <summary>
+		/// Void PresentAtMouse(UnityEngine.UIElements.GeometryChangedEvent)
+		/// </summary>
+		protected RMethod r_MPresentAtMouse_GeometryChangedEvent;
+		public virtual RMethod RMPresentAtMouse_GeometryChangedEvent
+		{
+			get
+			{
+				if(r_MPresentAtMouse_GeometryChangedEvent == null)
+				{
+					r_MPresentAtMouse_GeometryChangedEvent = new(this, "PresentAtMouse", 0, typeof(UnityEngine.UIElements.GeometryChangedEvent));
+				}
+				return r_MPresentAtMouse_GeometryChangedEvent;
+			}
+		}
+
+		/// <summary>
+		/// Void Present(Boolean)
+		/// </summary>
+		protected RMethod r_MPresent_Boolean;
+		public virtual RMethod RMPresent_Boolean
+		{
+			get
+			{
+				if(r_MPresent_Boolean == null)
+				{
+					r_MPresent_Boolean = new(this, "Present", 0, typeof(System.Boolean));
+				}
+				return r_MPresent_Boolean;
 			}
 		}
 
@@ -3938,42 +4018,56 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void RebuildMenu(System.Collections.Generic.IEnumerable<UnityEditor.Overlays.Overlay> @overlays)
+        public virtual System.Boolean RebuildMenu()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlays};
-            var ___result = RMRebuildMenu_IEnumerable_d_Overlay_p_.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{};
+            var ___result = RMRebuildMenu.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual void Show(System.Boolean @atMousePosition)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@atMousePosition};
+            var ___result = RMShow_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void Show(System.Collections.Generic.IEnumerable<UnityEditor.Overlays.Overlay> @overlays, System.Boolean @atMousePosition)
+        public virtual void PresentAtCenter(UnityEngine.UIElements.GeometryChangedEvent @_)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlays, @atMousePosition};
-            var ___result = RMShow_IEnumerable_d_Overlay_p__Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@_};
+            var ___result = RMPresentAtCenter_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void ResolveSizeLimits(out System.Single @minWidth, out System.Single @minHeight, out System.Single @maxWidth, out System.Single @maxHeight)
+        public virtual void PresentAtMouse(UnityEngine.UIElements.GeometryChangedEvent @_)
         {
-			@minWidth = default;
-			@minHeight = default;
-			@maxWidth = default;
-			@maxHeight = default;
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@minWidth, @minHeight, @maxWidth, @maxHeight};
-            var ___result = RMResolveSizeLimits_Out_Single_Out_Single_Out_Single_Out_Single.Invoke(___genericsType, ___parameters);
-			@minWidth = ReflectionUtils.Convert<System.Single>(___parameters[0]);
-			@minHeight = ReflectionUtils.Convert<System.Single>(___parameters[1]);
-			@maxWidth = ReflectionUtils.Convert<System.Single>(___parameters[2]);
-			@maxHeight = ReflectionUtils.Convert<System.Single>(___parameters[3]);
+            var ___parameters = new object[]{@_};
+            var ___result = RMPresentAtMouse_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Present(System.Boolean @atMousePosition)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@atMousePosition};
+            var ___result = RMPresent_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

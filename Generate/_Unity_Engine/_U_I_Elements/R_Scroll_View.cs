@@ -198,6 +198,54 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Single k_MouseWheelScrollSizeDefaultValue
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fk_MouseWheelScrollSizeDefaultValue;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFk_MouseWheelScrollSizeDefaultValue
+		{
+			get
+			{
+				if(r_Fk_MouseWheelScrollSizeDefaultValue == null)
+				{
+					r_Fk_MouseWheelScrollSizeDefaultValue = new(Type, "k_MouseWheelScrollSizeDefaultValue");
+				}
+				return r_Fk_MouseWheelScrollSizeDefaultValue;
+			}
+		}
+
+		/// <summary>
+		/// System.Single k_MouseWheelScrollSizeUnset
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fk_MouseWheelScrollSizeUnset;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFk_MouseWheelScrollSizeUnset
+		{
+			get
+			{
+				if(r_Fk_MouseWheelScrollSizeUnset == null)
+				{
+					r_Fk_MouseWheelScrollSizeUnset = new(Type, "k_MouseWheelScrollSizeUnset");
+				}
+				return r_Fk_MouseWheelScrollSizeUnset;
+			}
+		}
+
+		/// <summary>
+		/// System.Boolean m_MouseWheelScrollSizeIsInline
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_MouseWheelScrollSizeIsInline;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_MouseWheelScrollSizeIsInline
+		{
+			get
+			{
+				if(r_Fm_MouseWheelScrollSizeIsInline == null)
+				{
+					r_Fm_MouseWheelScrollSizeIsInline = new(this, "m_MouseWheelScrollSizeIsInline");
+				}
+				return r_Fm_MouseWheelScrollSizeIsInline;
+			}
+		}
+
+		/// <summary>
 		/// System.Single m_HorizontalPageSize
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_HorizontalPageSize;
@@ -226,6 +274,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fm_VerticalPageSize = new(this, "m_VerticalPageSize");
 				}
 				return r_Fm_VerticalPageSize;
+			}
+		}
+
+		/// <summary>
+		/// System.Single m_MouseWheelScrollSize
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_MouseWheelScrollSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFm_MouseWheelScrollSize
+		{
+			get
+			{
+				if(r_Fm_MouseWheelScrollSize == null)
+				{
+					r_Fm_MouseWheelScrollSize = new(this, "m_MouseWheelScrollSize");
+				}
+				return r_Fm_MouseWheelScrollSize;
 			}
 		}
 
@@ -322,6 +386,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fm_NestedInteractionKind = new(this, "m_NestedInteractionKind");
 				}
 				return r_Fm_NestedInteractionKind;
+			}
+		}
+
+		/// <summary>
+		/// System.Int64 k_DefaultElasticAnimationInterval
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RInt64 r_Fk_DefaultElasticAnimationInterval;
+		public static Hvak.Editor.Refleaction.RSystem.RInt64 RFk_DefaultElasticAnimationInterval
+		{
+			get
+			{
+				if(r_Fk_DefaultElasticAnimationInterval == null)
+				{
+					r_Fk_DefaultElasticAnimationInterval = new(Type, "k_DefaultElasticAnimationInterval");
+				}
+				return r_Fk_DefaultElasticAnimationInterval;
+			}
+		}
+
+		/// <summary>
+		/// System.Int64 m_ElasticAnimationIntervalMs
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_ElasticAnimationIntervalMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_ElasticAnimationIntervalMs
+		{
+			get
+			{
+				if(r_Fm_ElasticAnimationIntervalMs == null)
+				{
+					r_Fm_ElasticAnimationIntervalMs = new(this, "m_ElasticAnimationIntervalMs");
+				}
+				return r_Fm_ElasticAnimationIntervalMs;
 			}
 		}
 
@@ -1350,6 +1446,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Single mouseWheelScrollSize
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PmouseWheelScrollSize;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPmouseWheelScrollSize
+		{
+			get
+			{
+				if(r_PmouseWheelScrollSize == null)
+				{
+					r_PmouseWheelScrollSize = new(this, "mouseWheelScrollSize", -1);
+				}
+				return r_PmouseWheelScrollSize;
+			}
+		}
+
+		/// <summary>
 		/// Single scrollableWidth
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PscrollableWidth;
@@ -1458,6 +1570,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PnestedInteractionKind = new(this, "nestedInteractionKind", -1);
 				}
 				return r_PnestedInteractionKind;
+			}
+		}
+
+		/// <summary>
+		/// Int64 elasticAnimationIntervalMs
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PelasticAnimationIntervalMs;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RPelasticAnimationIntervalMs
+		{
+			get
+			{
+				if(r_PelasticAnimationIntervalMs == null)
+				{
+					r_PelasticAnimationIntervalMs = new(this, "elasticAnimationIntervalMs", -1);
+				}
+				return r_PelasticAnimationIntervalMs;
 			}
 		}
 
@@ -2354,6 +2482,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PenabledSelf = new(this, "enabledSelf", -1);
 				}
 				return r_PenabledSelf;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
 			}
 		}
 
@@ -3430,34 +3590,50 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void <.ctor>b__108_0(Single)
+		/// Void UpdateElasticBehaviour()
 		/// </summary>
-		protected RMethod r_M__0____2__ctor__1__b__108_0_Single;
-		public virtual RMethod RM__0____2__ctor__1__b__108_0_Single
+		protected RMethod r_MUpdateElasticBehaviour;
+		public virtual RMethod RMUpdateElasticBehaviour
 		{
 			get
 			{
-				if(r_M__0____2__ctor__1__b__108_0_Single == null)
+				if(r_MUpdateElasticBehaviour == null)
 				{
-					r_M__0____2__ctor__1__b__108_0_Single = new(this, "<.ctor>b__108_0", 0, typeof(System.Single));
+					r_MUpdateElasticBehaviour = new(this, "UpdateElasticBehaviour", 0);
 				}
-				return r_M__0____2__ctor__1__b__108_0_Single;
+				return r_MUpdateElasticBehaviour;
 			}
 		}
 
 		/// <summary>
-		/// Void <.ctor>b__108_1(Single)
+		/// Void <.ctor>b__120_0(Single)
 		/// </summary>
-		protected RMethod r_M__0____2__ctor__1__b__108_1_Single;
-		public virtual RMethod RM__0____2__ctor__1__b__108_1_Single
+		protected RMethod r_M__0____2__ctor__1__b__120_0_Single;
+		public virtual RMethod RM__0____2__ctor__1__b__120_0_Single
 		{
 			get
 			{
-				if(r_M__0____2__ctor__1__b__108_1_Single == null)
+				if(r_M__0____2__ctor__1__b__120_0_Single == null)
 				{
-					r_M__0____2__ctor__1__b__108_1_Single = new(this, "<.ctor>b__108_1", 0, typeof(System.Single));
+					r_M__0____2__ctor__1__b__120_0_Single = new(this, "<.ctor>b__120_0", 0, typeof(System.Single));
 				}
-				return r_M__0____2__ctor__1__b__108_1_Single;
+				return r_M__0____2__ctor__1__b__120_0_Single;
+			}
+		}
+
+		/// <summary>
+		/// Void <.ctor>b__120_1(Single)
+		/// </summary>
+		protected RMethod r_M__0____2__ctor__1__b__120_1_Single;
+		public virtual RMethod RM__0____2__ctor__1__b__120_1_Single
+		{
+			get
+			{
+				if(r_M__0____2__ctor__1__b__120_1_Single == null)
+				{
+					r_M__0____2__ctor__1__b__120_1_Single = new(this, "<.ctor>b__120_1", 0, typeof(System.Single));
+				}
+				return r_M__0____2__ctor__1__b__120_1_Single;
 			}
 		}
 
@@ -5789,23 +5965,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void __0____2__ctor__1__b__108_0(System.Single @value)
+        public virtual void UpdateElasticBehaviour()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RM__0____2__ctor__1__b__108_0_Single.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{};
+            var ___result = RMUpdateElasticBehaviour.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0____2__ctor__1__b__108_1(System.Single @value)
+        public virtual void __0____2__ctor__1__b__120_0(System.Single @value)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
-            var ___result = RM__0____2__ctor__1__b__108_1_Single.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0____2__ctor__1__b__120_0_Single.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void __0____2__ctor__1__b__120_1(System.Single @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value};
+            var ___result = RM__0____2__ctor__1__b__120_1_Single.Invoke(___genericsType, ___parameters);
 
             
         }

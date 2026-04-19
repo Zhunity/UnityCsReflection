@@ -86,38 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.Bounds k_DefaultBounds
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RBounds r_Fk_DefaultBounds;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RBounds RFk_DefaultBounds
-		{
-			get
-			{
-				if(r_Fk_DefaultBounds == null)
-				{
-					r_Fk_DefaultBounds = new(Type, "k_DefaultBounds");
-				}
-				return r_Fk_DefaultBounds;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Mesh mesh
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RMesh r_Fmesh;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMesh RFmesh
-		{
-			get
-			{
-				if(r_Fmesh == null)
-				{
-					r_Fmesh = new(this, "mesh");
-				}
-				return r_Fmesh;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 vertexCount
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertexCount;
@@ -258,6 +226,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_Fmaterial = new(this, "material");
 				}
 				return r_Fmaterial;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode glyphRenderMode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FglyphRenderMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFglyphRenderMode
+		{
+			get
+			{
+				if(r_FglyphRenderMode == null)
+				{
+					r_FglyphRenderMode = new(this, "glyphRenderMode");
+				}
+				return r_FglyphRenderMode;
 			}
 		}
 

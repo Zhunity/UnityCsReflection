@@ -598,6 +598,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.RegistryType availableRegistry
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType r_PavailableRegistry;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType RPavailableRegistry
+		{
+			get
+			{
+				if(r_PavailableRegistry == null)
+				{
+					r_PavailableRegistry = new(this, "availableRegistry", -1);
+				}
+				return r_PavailableRegistry;
+			}
+		}
+
+		/// <summary>
 		/// Boolean hasEntitlements
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasEntitlements;
@@ -690,22 +706,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PsupportedVersion = new(this, "supportedVersion", -1);
 				}
 				return r_PsupportedVersion;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isUnityPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUnityPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUnityPackage
-		{
-			get
-			{
-				if(r_PisUnityPackage == null)
-				{
-					r_PisUnityPackage = new(this, "isUnityPackage", -1);
-				}
-				return r_PisUnityPackage;
 			}
 		}
 

@@ -390,6 +390,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// UInt32 sortingKey
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PsortingKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPsortingKey
+		{
+			get
+			{
+				if(r_PsortingKey == null)
+				{
+					r_PsortingKey = new(this, "sortingKey", -1);
+				}
+				return r_PsortingKey;
+			}
+		}
+
+		/// <summary>
 		/// Int32 sortingGroupID
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PsortingGroupID;
@@ -418,6 +434,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_PsortingGroupOrder = new(this, "sortingGroupOrder", -1);
 				}
 				return r_PsortingGroupOrder;
+			}
+		}
+
+		/// <summary>
+		/// UInt32 sortingGroupKey
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PsortingGroupKey;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPsortingGroupKey
+		{
+			get
+			{
+				if(r_PsortingGroupKey == null)
+				{
+					r_PsortingGroupKey = new(this, "sortingGroupKey", -1);
+				}
+				return r_PsortingGroupKey;
+			}
+		}
+
+		/// <summary>
+		/// Byte stagePriority
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RByte r_PstagePriority;
+		public virtual Hvak.Editor.Refleaction.RSystem.RByte RPstagePriority
+		{
+			get
+			{
+				if(r_PstagePriority == null)
+				{
+					r_PstagePriority = new(this, "stagePriority", -1);
+				}
+				return r_PstagePriority;
 			}
 		}
 
@@ -1106,6 +1154,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MCopySharedMaterialArray_MaterialArray = new(this, "CopySharedMaterialArray", 0, typeof(UnityEngine.Material).MakeArrayType());
 				}
 				return r_MCopySharedMaterialArray_MaterialArray;
+			}
+		}
+
+		/// <summary>
+		/// Void SetMaterialArray(UnityEngine.Material[], Int32)
+		/// </summary>
+		protected RMethod r_MSetMaterialArray_MaterialArray_Int32;
+		public virtual RMethod RMSetMaterialArray_MaterialArray_Int32
+		{
+			get
+			{
+				if(r_MSetMaterialArray_MaterialArray_Int32 == null)
+				{
+					r_MSetMaterialArray_MaterialArray_Int32 = new(this, "SetMaterialArray", 0, typeof(UnityEngine.Material).MakeArrayType(), typeof(System.Int32));
+				}
+				return r_MSetMaterialArray_MaterialArray_Int32;
 			}
 		}
 
@@ -2134,6 +2198,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Int32 GetComponentIndex()
+		/// </summary>
+		protected RMethod r_MGetComponentIndex;
+		public virtual RMethod RMGetComponentIndex
+		{
+			get
+			{
+				if(r_MGetComponentIndex == null)
+				{
+					r_MGetComponentIndex = new(this, "GetComponentIndex", 0);
+				}
+				return r_MGetComponentIndex;
+			}
+		}
+
+		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
 		protected RMethod r_MCompareTag_String;
@@ -2438,6 +2518,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -2580,6 +2676,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@m};
             var ___result = RMCopySharedMaterialArray_MaterialArray.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetMaterialArray(UnityEngine.Material[] @m, System.Int32 @length)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@m, @length};
+            var ___result = RMSetMaterialArray_MaterialArray_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3307,6 +3414,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual System.Int32 GetComponentIndex()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetComponentIndex.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
         public virtual System.Boolean CompareTag(System.String @tag)
         {
 
@@ -3513,6 +3631,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

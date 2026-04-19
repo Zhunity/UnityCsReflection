@@ -1670,18 +1670,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void DeregisterSelectedPane(Boolean, Boolean)
+		/// Void DeregisterSelectedPane(Boolean, Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_MDeregisterSelectedPane_Boolean_Boolean;
-		public virtual RMethod RMDeregisterSelectedPane_Boolean_Boolean
+		protected RMethod r_MDeregisterSelectedPane_Boolean_Boolean_Boolean;
+		public virtual RMethod RMDeregisterSelectedPane_Boolean_Boolean_Boolean
 		{
 			get
 			{
-				if(r_MDeregisterSelectedPane_Boolean_Boolean == null)
+				if(r_MDeregisterSelectedPane_Boolean_Boolean_Boolean == null)
 				{
-					r_MDeregisterSelectedPane_Boolean_Boolean = new(this, "DeregisterSelectedPane", 0, typeof(System.Boolean), typeof(System.Boolean));
+					r_MDeregisterSelectedPane_Boolean_Boolean_Boolean = new(this, "DeregisterSelectedPane", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 				}
-				return r_MDeregisterSelectedPane_Boolean_Boolean;
+				return r_MDeregisterSelectedPane_Boolean_Boolean_Boolean;
 			}
 		}
 
@@ -2806,6 +2806,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -3228,12 +3244,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DeregisterSelectedPane(System.Boolean @clearActualView, System.Boolean @sendEvents)
+        public virtual void DeregisterSelectedPane(System.Boolean @clearActualView, System.Boolean @sendEvents, System.Boolean @isSwitchingTab)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clearActualView, @sendEvents};
-            var ___result = RMDeregisterSelectedPane_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@clearActualView, @sendEvents, @isSwitchingTab};
+            var ___result = RMDeregisterSelectedPane_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -4006,6 +4022,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

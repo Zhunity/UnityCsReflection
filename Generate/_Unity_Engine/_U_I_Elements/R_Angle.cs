@@ -262,6 +262,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void ConvertTo(UnityEngine.UIElements.AngleUnit)
+		/// </summary>
+		protected RMethod r_MConvertTo_AngleUnit;
+		public virtual RMethod RMConvertTo_AngleUnit
+		{
+			get
+			{
+				if(r_MConvertTo_AngleUnit == null)
+				{
+					r_MConvertTo_AngleUnit = new(this, "ConvertTo", 0, typeof(UnityEngine.UIElements.AngleUnit));
+				}
+				return r_MConvertTo_AngleUnit;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.Angle op_Implicit(Single)
 		/// </summary>
 		protected static RMethod r_Mop_Implicit_Single;
@@ -529,6 +545,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMToTurns.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Single>(___result);
+        }
+
+
+        public virtual void ConvertTo(UnityEngine.UIElements.AngleUnit @newUnit)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@newUnit};
+            var ___result = RMConvertTo_AngleUnit.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

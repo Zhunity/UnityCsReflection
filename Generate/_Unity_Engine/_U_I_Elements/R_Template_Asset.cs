@@ -246,6 +246,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Boolean skipClone
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipClone;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipClone
+		{
+			get
+			{
+				if(r_PskipClone == null)
+				{
+					r_PskipClone = new(this, "skipClone", -1);
+				}
+				return r_PskipClone;
+			}
+		}
+
+		/// <summary>
 		/// System.String fullTypeName
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PfullTypeName;

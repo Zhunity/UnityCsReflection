@@ -470,10 +470,10 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean[] m_SerializedRegistryUrlsValues
+		/// UnityEditor.PackageManager.UI.Internal.RegistryType[] m_SerializedRegistryUrlsValues
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_SerializedRegistryUrlsValues;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_SerializedRegistryUrlsValues
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType> r_Fm_SerializedRegistryUrlsValues;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType> RFm_SerializedRegistryUrlsValues
 		{
 			get
 			{
@@ -486,10 +486,10 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.String,System.Boolean] m_RegistryUrls
+		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.UI.Internal.RegistryType] m_RegistryUrls
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_RegistryUrls;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_RegistryUrls
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType> r_Fm_RegistryUrls;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType> RFm_RegistryUrls
 		{
 			get
 			{
@@ -1398,6 +1398,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.RegistryType GetAvailableRegistryType(UnityEditor.PackageManager.PackageInfo)
+		/// </summary>
+		protected RMethod r_MGetAvailableRegistryType_PackageInfo;
+		public virtual RMethod RMGetAvailableRegistryType_PackageInfo
+		{
+			get
+			{
+				if(r_MGetAvailableRegistryType_PackageInfo == null)
+				{
+					r_MGetAvailableRegistryType_PackageInfo = new(this, "GetAvailableRegistryType", 0, typeof(UnityEditor.PackageManager.PackageInfo));
+				}
+				return r_MGetAvailableRegistryType_PackageInfo;
+			}
+		}
+
+		/// <summary>
 		/// Boolean IsUnityPackage(UnityEditor.PackageManager.PackageInfo)
 		/// </summary>
 		protected RMethod r_MIsUnityPackage_PackageInfo;
@@ -2071,6 +2087,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMResolve.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType GetAvailableRegistryType(UnityEditor.PackageManager.PackageInfo @packageInfo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@packageInfo};
+            var ___result = RMGetAvailableRegistryType_PackageInfo.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType>(___result);
         }
 
 

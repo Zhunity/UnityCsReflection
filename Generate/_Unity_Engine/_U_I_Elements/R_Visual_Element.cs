@@ -518,18 +518,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.PickingMode <pickingMode>k__BackingField
+		/// UnityEngine.UIElements.PickingMode m_PickingMode
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPickingMode r_F__0__pickingMode__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPickingMode RF__0__pickingMode__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPickingMode r_Fm_PickingMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPickingMode RFm_PickingMode
 		{
 			get
 			{
-				if(r_F__0__pickingMode__1__k__BackingField == null)
+				if(r_Fm_PickingMode == null)
 				{
-					r_F__0__pickingMode__1__k__BackingField = new(this, "<pickingMode>k__BackingField");
+					r_Fm_PickingMode = new(this, "m_PickingMode");
 				}
-				return r_F__0__pickingMode__1__k__BackingField;
+				return r_Fm_PickingMode;
 			}
 		}
 
@@ -646,6 +646,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection m_LanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_Fm_LanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RFm_LanguageDirection
+		{
+			get
+			{
+				if(r_Fm_LanguageDirection == null)
+				{
+					r_Fm_LanguageDirection = new(this, "m_LanguageDirection");
+				}
+				return r_Fm_LanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection m_LocalLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_Fm_LocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RFm_LocalLanguageDirection
+		{
+			get
+			{
+				if(r_Fm_LocalLanguageDirection == null)
+				{
+					r_Fm_LocalLanguageDirection = new(this, "m_LocalLanguageDirection");
+				}
+				return r_Fm_LocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.MeshGenerationContext] <generateVisualContent>k__BackingField
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext> r_F__0__generateVisualContent__1__k__BackingField;
@@ -664,14 +696,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		/// <summary>
 		/// Unity.Profiling.ProfilerMarker k_GenerateVisualContentMarker
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fk_GenerateVisualContentMarker;
-		public virtual Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFk_GenerateVisualContentMarker
+		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker r_Fk_GenerateVisualContentMarker;
+		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerMarker RFk_GenerateVisualContentMarker
 		{
 			get
 			{
 				if(r_Fk_GenerateVisualContentMarker == null)
 				{
-					r_Fk_GenerateVisualContentMarker = new(this, "k_GenerateVisualContentMarker");
+					r_Fk_GenerateVisualContentMarker = new(Type, "k_GenerateVisualContentMarker");
 				}
 				return r_Fk_GenerateVisualContentMarker;
 			}
@@ -3350,6 +3382,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -5990,6 +6054,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void PropagateCachedNextParentWithEventCallback(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MPropagateCachedNextParentWithEventCallback_VisualElement_VisualElement;
+		public virtual RMethod RMPropagateCachedNextParentWithEventCallback_VisualElement_VisualElement
+		{
+			get
+			{
+				if(r_MPropagateCachedNextParentWithEventCallback_VisualElement_VisualElement == null)
+				{
+					r_MPropagateCachedNextParentWithEventCallback_VisualElement_VisualElement = new(this, "PropagateCachedNextParentWithEventCallback", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MPropagateCachedNextParentWithEventCallback_VisualElement_VisualElement;
+			}
+		}
+
+		/// <summary>
 		/// Void UpdateCallbackParentCategories()
 		/// </summary>
 		protected RMethod r_MUpdateCallbackParentCategories;
@@ -6950,18 +7030,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Yoga.YogaSize <AssignMeasureFunction>b__424_0(UnityEngine.Yoga.YogaNode, Single, UnityEngine.Yoga.YogaMeasureMode, Single, UnityEngine.Yoga.YogaMeasureMode)
+		/// UnityEngine.Yoga.YogaSize <AssignMeasureFunction>b__432_0(UnityEngine.Yoga.YogaNode, Single, UnityEngine.Yoga.YogaMeasureMode, Single, UnityEngine.Yoga.YogaMeasureMode)
 		/// </summary>
-		protected RMethod r_M__0__AssignMeasureFunction__1__b__424_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
-		public virtual RMethod RM__0__AssignMeasureFunction__1__b__424_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode
+		protected RMethod r_M__0__AssignMeasureFunction__1__b__432_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
+		public virtual RMethod RM__0__AssignMeasureFunction__1__b__432_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode
 		{
 			get
 			{
-				if(r_M__0__AssignMeasureFunction__1__b__424_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode == null)
+				if(r_M__0__AssignMeasureFunction__1__b__432_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode == null)
 				{
-					r_M__0__AssignMeasureFunction__1__b__424_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode = new(this, "<AssignMeasureFunction>b__424_0", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"));
+					r_M__0__AssignMeasureFunction__1__b__432_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode = new(this, "<AssignMeasureFunction>b__432_0", 0,  ReflectionUtils.GetType("UnityEngine.Yoga.YogaNode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"), typeof(System.Single),  ReflectionUtils.GetType("UnityEngine.Yoga.YogaMeasureMode"));
 				}
-				return r_M__0__AssignMeasureFunction__1__b__424_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
+				return r_M__0__AssignMeasureFunction__1__b__432_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode;
 			}
 		}
 
@@ -8790,6 +8870,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void PropagateCachedNextParentWithEventCallback(UnityEngine.UIElements.VisualElement @nextParent, UnityEngine.UIElements.VisualElement @stopParent)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@nextParent, @stopParent};
+            var ___result = RMPropagateCachedNextParentWithEventCallback_VisualElement_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void UpdateCallbackParentCategories()
         {
 
@@ -9468,12 +9559,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize __0__AssignMeasureFunction__1__b__424_0(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @f, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @mode, System.Single @f1, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize __0__AssignMeasureFunction__1__b__432_0(Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaNode @node, System.Single @f, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @mode, System.Single @f1, Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaMeasureMode @heightMode)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@node.Value, @f, @mode.Value, @f1, @heightMode.Value};
-            var ___result = RM__0__AssignMeasureFunction__1__b__424_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__AssignMeasureFunction__1__b__432_0_YogaNode_Single_YogaMeasureMode_Single_YogaMeasureMode.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RYoga.RYogaSize>(___result);
         }

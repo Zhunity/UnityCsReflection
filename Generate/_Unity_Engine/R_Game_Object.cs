@@ -1126,6 +1126,86 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Int32 GetComponentCount()
+		/// </summary>
+		protected RMethod r_MGetComponentCount;
+		public virtual RMethod RMGetComponentCount
+		{
+			get
+			{
+				if(r_MGetComponentCount == null)
+				{
+					r_MGetComponentCount = new(this, "GetComponentCount", 0);
+				}
+				return r_MGetComponentCount;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component QueryComponentAtIndex(Int32)
+		/// </summary>
+		protected RMethod r_MQueryComponentAtIndex_Int32;
+		public virtual RMethod RMQueryComponentAtIndex_Int32
+		{
+			get
+			{
+				if(r_MQueryComponentAtIndex_Int32 == null)
+				{
+					r_MQueryComponentAtIndex_Int32 = new(this, "QueryComponentAtIndex", 0, typeof(System.Int32));
+				}
+				return r_MQueryComponentAtIndex_Int32;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Component GetComponentAtIndex(Int32)
+		/// </summary>
+		protected RMethod r_MGetComponentAtIndex_Int32;
+		public virtual RMethod RMGetComponentAtIndex_Int32
+		{
+			get
+			{
+				if(r_MGetComponentAtIndex_Int32 == null)
+				{
+					r_MGetComponentAtIndex_Int32 = new(this, "GetComponentAtIndex", 0, typeof(System.Int32));
+				}
+				return r_MGetComponentAtIndex_Int32;
+			}
+		}
+
+		/// <summary>
+		/// T GetComponentAtIndex[T](Int32)
+		/// </summary>
+		protected RMethod r_MGetComponentAtIndex_GT_Int32;
+		public virtual RMethod RMGetComponentAtIndex_GT_Int32
+		{
+			get
+			{
+				if(r_MGetComponentAtIndex_GT_Int32 == null)
+				{
+					r_MGetComponentAtIndex_GT_Int32 = new(this, "GetComponentAtIndex", 1, typeof(System.Int32));
+				}
+				return r_MGetComponentAtIndex_GT_Int32;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetComponentIndex(UnityEngine.Component)
+		/// </summary>
+		protected RMethod r_MGetComponentIndex_Component;
+		public virtual RMethod RMGetComponentIndex_Component
+		{
+			get
+			{
+				if(r_MGetComponentIndex_Component == null)
+				{
+					r_MGetComponentIndex_Component = new(this, "GetComponentIndex", 0, typeof(UnityEngine.Component));
+				}
+				return r_MGetComponentIndex_Component;
+			}
+		}
+
+		/// <summary>
 		/// Void SetActive(Boolean)
 		/// </summary>
 		protected RMethod r_MSetActive_Boolean;
@@ -1382,6 +1462,102 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void SetGameObjectsActive(IntPtr, Int32, Boolean)
+		/// </summary>
+		protected static RMethod r_MSetGameObjectsActive_IntPtr_Int32_Boolean;
+		public static RMethod RMSetGameObjectsActive_IntPtr_Int32_Boolean
+		{
+			get
+			{
+				if(r_MSetGameObjectsActive_IntPtr_Int32_Boolean == null)
+				{
+					r_MSetGameObjectsActive_IntPtr_Int32_Boolean = new(Type, "SetGameObjectsActive", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.Boolean));
+				}
+				return r_MSetGameObjectsActive_IntPtr_Int32_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void SetGameObjectsActive(Unity.Collections.NativeArray`1[System.Int32], Boolean)
+		/// </summary>
+		protected static RMethod r_MSetGameObjectsActive_NativeArray_d_Int32_p__Boolean;
+		public static RMethod RMSetGameObjectsActive_NativeArray_d_Int32_p__Boolean
+		{
+			get
+			{
+				if(r_MSetGameObjectsActive_NativeArray_d_Int32_p__Boolean == null)
+				{
+					r_MSetGameObjectsActive_NativeArray_d_Int32_p__Boolean = new(Type, "SetGameObjectsActive", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(System.Int32)), typeof(System.Boolean));
+				}
+				return r_MSetGameObjectsActive_NativeArray_d_Int32_p__Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void SetGameObjectsActive(System.ReadOnlySpan`1[System.Int32], Boolean)
+		/// </summary>
+		protected static RMethod r_MSetGameObjectsActive_ReadOnlySpan_d_Int32_p__Boolean;
+		public static RMethod RMSetGameObjectsActive_ReadOnlySpan_d_Int32_p__Boolean
+		{
+			get
+			{
+				if(r_MSetGameObjectsActive_ReadOnlySpan_d_Int32_p__Boolean == null)
+				{
+					r_MSetGameObjectsActive_ReadOnlySpan_d_Int32_p__Boolean = new(Type, "SetGameObjectsActive", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(System.Int32)), typeof(System.Boolean));
+				}
+				return r_MSetGameObjectsActive_ReadOnlySpan_d_Int32_p__Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void InstantiateGameObjects(Int32, IntPtr, IntPtr, Int32, UnityEngine.SceneManagement.Scene)
+		/// </summary>
+		protected static RMethod r_MInstantiateGameObjects_Int32_IntPtr_IntPtr_Int32_Scene;
+		public static RMethod RMInstantiateGameObjects_Int32_IntPtr_IntPtr_Int32_Scene
+		{
+			get
+			{
+				if(r_MInstantiateGameObjects_Int32_IntPtr_IntPtr_Int32_Scene == null)
+				{
+					r_MInstantiateGameObjects_Int32_IntPtr_IntPtr_Int32_Scene = new(Type, "InstantiateGameObjects", 0, typeof(System.Int32), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.SceneManagement.Scene));
+				}
+				return r_MInstantiateGameObjects_Int32_IntPtr_IntPtr_Int32_Scene;
+			}
+		}
+
+		/// <summary>
+		/// Void InstantiateGameObjects(Int32, Int32, Unity.Collections.NativeArray`1[System.Int32], Unity.Collections.NativeArray`1[System.Int32], UnityEngine.SceneManagement.Scene)
+		/// </summary>
+		protected static RMethod r_MInstantiateGameObjects_Int32_Int32_NativeArray_d_Int32_p__NativeArray_d_Int32_p__Scene;
+		public static RMethod RMInstantiateGameObjects_Int32_Int32_NativeArray_d_Int32_p__NativeArray_d_Int32_p__Scene
+		{
+			get
+			{
+				if(r_MInstantiateGameObjects_Int32_Int32_NativeArray_d_Int32_p__NativeArray_d_Int32_p__Scene == null)
+				{
+					r_MInstantiateGameObjects_Int32_Int32_NativeArray_d_Int32_p__NativeArray_d_Int32_p__Scene = new(Type, "InstantiateGameObjects", 0, typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(System.Int32)),  ReflectionUtils.GetType("Unity.Collections.NativeArray`1").MakeGenericType(typeof(System.Int32)), typeof(UnityEngine.SceneManagement.Scene));
+				}
+				return r_MInstantiateGameObjects_Int32_Int32_NativeArray_d_Int32_p__NativeArray_d_Int32_p__Scene;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.SceneManagement.Scene GetScene(Int32)
+		/// </summary>
+		protected static RMethod r_MGetScene_Int32;
+		public static RMethod RMGetScene_Int32
+		{
+			get
+			{
+				if(r_MGetScene_Int32 == null)
+				{
+					r_MGetScene_Int32 = new(Type, "GetScene", 0, typeof(System.Int32));
+				}
+				return r_MGetScene_Int32;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Bounds CalculateBounds()
 		/// </summary>
 		protected RMethod r_MCalculateBounds;
@@ -1478,6 +1654,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void InstantiateGameObjects_Injected(Int32, IntPtr, IntPtr, Int32, UnityEngine.SceneManagement.Scene ByRef)
+		/// </summary>
+		protected static RMethod r_MInstantiateGameObjects_Injected_Int32_IntPtr_IntPtr_Int32_Ref_Scene;
+		public static RMethod RMInstantiateGameObjects_Injected_Int32_IntPtr_IntPtr_Int32_Ref_Scene
+		{
+			get
+			{
+				if(r_MInstantiateGameObjects_Injected_Int32_IntPtr_IntPtr_Int32_Ref_Scene == null)
+				{
+					r_MInstantiateGameObjects_Injected_Int32_IntPtr_IntPtr_Int32_Ref_Scene = new(Type, "InstantiateGameObjects_Injected", 0, typeof(System.Int32), typeof(System.IntPtr), typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
+				}
+				return r_MInstantiateGameObjects_Injected_Int32_IntPtr_IntPtr_Int32_Ref_Scene;
+			}
+		}
+
+		/// <summary>
+		/// Void GetScene_Injected(Int32, UnityEngine.SceneManagement.Scene ByRef)
+		/// </summary>
+		protected static RMethod r_MGetScene_Injected_Int32_Out_Scene;
+		public static RMethod RMGetScene_Injected_Int32_Out_Scene
+		{
+			get
+			{
+				if(r_MGetScene_Injected_Int32_Out_Scene == null)
+				{
+					r_MGetScene_Injected_Int32_Out_Scene = new(Type, "GetScene_Injected", 0, typeof(System.Int32), typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
+				}
+				return r_MGetScene_Injected_Int32_Out_Scene;
+			}
+		}
+
+		/// <summary>
 		/// Void get_scene_Injected(UnityEngine.SceneManagement.Scene ByRef)
 		/// </summary>
 		protected RMethod r_Mget_scene_Injected_Out_Scene;
@@ -1570,6 +1778,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
+			}
+		}
+
+		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
 			}
 		}
 
@@ -2088,6 +2312,61 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual System.Int32 GetComponentCount()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetComponentCount.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
+        public virtual UnityEngine.Component QueryComponentAtIndex(System.Int32 @index)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index};
+            var ___result = RMQueryComponentAtIndex_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+        }
+
+
+        public virtual UnityEngine.Component GetComponentAtIndex(System.Int32 @index)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@index};
+            var ___result = RMGetComponentAtIndex_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEngine.Component>(___result);
+        }
+
+
+        public virtual T GetComponentAtIndex<T>(System.Int32 @index) where T : UnityEngine.Component
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@index};
+            var ___result = RMGetComponentAtIndex_GT_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<T>(___result);
+        }
+
+
+        public virtual System.Int32 GetComponentIndex(UnityEngine.Component @component)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@component};
+            var ___result = RMGetComponentIndex_Component.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
         public virtual void SetActive(System.Boolean @value)
         {
 
@@ -2264,6 +2543,72 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public static void SetGameObjectsActive(System.IntPtr @instanceIds, System.Int32 @instanceCount, System.Boolean @active)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@instanceIds, @instanceCount, @active};
+            var ___result = RMSetGameObjectsActive_IntPtr_Int32_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void SetGameObjectsActive(Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RInt32> @instanceIDs, System.Boolean @active)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@instanceIDs.Value, @active};
+            var ___result = RMSetGameObjectsActive_NativeArray_d_Int32_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void SetGameObjectsActive(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RSystem.RInt32> @instanceIDs, System.Boolean @active)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@instanceIDs.Value, @active};
+            var ___result = RMSetGameObjectsActive_ReadOnlySpan_d_Int32_p__Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void InstantiateGameObjects(System.Int32 @sourceInstanceID, System.IntPtr @newInstanceIDs, System.IntPtr @newTransformInstanceIDs, System.Int32 @count, UnityEngine.SceneManagement.Scene @destinationScene)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sourceInstanceID, @newInstanceIDs, @newTransformInstanceIDs, @count, @destinationScene};
+            var ___result = RMInstantiateGameObjects_Int32_IntPtr_IntPtr_Int32_Scene.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void InstantiateGameObjects(System.Int32 @sourceInstanceID, System.Int32 @count, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RInt32> @newInstanceIDs, Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RSystem.RInt32> @newTransformInstanceIDs, UnityEngine.SceneManagement.Scene @destinationScene)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sourceInstanceID, @count, @newInstanceIDs.Value, @newTransformInstanceIDs.Value, @destinationScene};
+            var ___result = RMInstantiateGameObjects_Int32_Int32_NativeArray_d_Int32_p__NativeArray_d_Int32_p__Scene.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static UnityEngine.SceneManagement.Scene GetScene(System.Int32 @instanceID)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@instanceID};
+            var ___result = RMGetScene_Int32.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEngine.SceneManagement.Scene>(___result);
+        }
+
+
         public virtual UnityEngine.Bounds CalculateBounds()
         {
 
@@ -2325,6 +2670,31 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMStopAnimation.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void InstantiateGameObjects_Injected(System.Int32 @sourceInstanceID, System.IntPtr @newInstanceIDs, System.IntPtr @newTransformInstanceIDs, System.Int32 @count, ref UnityEngine.SceneManagement.Scene @destinationScene)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@sourceInstanceID, @newInstanceIDs, @newTransformInstanceIDs, @count, @destinationScene};
+            var ___result = RMInstantiateGameObjects_Injected_Int32_IntPtr_IntPtr_Int32_Ref_Scene.Invoke(___genericsType, ___parameters);
+			@destinationScene = ReflectionUtils.Convert<UnityEngine.SceneManagement.Scene>(___parameters[4]);
+
+            
+        }
+
+
+        public static void GetScene_Injected(System.Int32 @instanceID, out UnityEngine.SceneManagement.Scene @ret)
+        {
+			@ret = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@instanceID, @ret};
+            var ___result = RMGetScene_Injected_Int32_Out_Scene.Invoke(___genericsType, ___parameters);
+			@ret = ReflectionUtils.Convert<UnityEngine.SceneManagement.Scene>(___parameters[1]);
 
             
         }
@@ -2397,6 +2767,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

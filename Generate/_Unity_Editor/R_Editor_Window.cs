@@ -278,6 +278,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEditor.EditorWindow] <activeEditorWindows>k__BackingField
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.REditorWindow> r_F__0__activeEditorWindows__1__k__BackingField;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.REditorWindow> RF__0__activeEditorWindows__1__k__BackingField
+		{
+			get
+			{
+				if(r_F__0__activeEditorWindows__1__k__BackingField == null)
+				{
+					r_F__0__activeEditorWindows__1__k__BackingField = new(Type, "<activeEditorWindows>k__BackingField");
+				}
+				return r_F__0__activeEditorWindows__1__k__BackingField;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Rect m_GameViewRect
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_Fm_GameViewRect;
@@ -626,6 +642,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PviewDataDictionary = new(this, "viewDataDictionary", -1);
 				}
 				return r_PviewDataDictionary;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEditor.EditorWindow] activeEditorWindows
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.REditorWindow> r_PactiveEditorWindows;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.REditorWindow> RPactiveEditorWindows
+		{
+			get
+			{
+				if(r_PactiveEditorWindows == null)
+				{
+					r_PactiveEditorWindows = new(Type, "activeEditorWindows", -1);
+				}
+				return r_PactiveEditorWindows;
 			}
 		}
 
@@ -1670,6 +1702,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Void AssignTitle(UnityEditor.EditorWindow, System.String)
+		/// </summary>
+		protected static RMethod r_MAssignTitle_EditorWindow_String;
+		public static RMethod RMAssignTitle_EditorWindow_String
+		{
+			get
+			{
+				if(r_MAssignTitle_EditorWindow_String == null)
+				{
+					r_MAssignTitle_EditorWindow_String = new(Type, "AssignTitle", 0, typeof(UnityEditor.EditorWindow), typeof(System.String));
+				}
+				return r_MAssignTitle_EditorWindow_String;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.EditorWindow GetWindowPrivate(System.Type, Boolean, System.String, Boolean)
 		/// </summary>
 		protected static RMethod r_MGetWindowPrivate_Type_Boolean_String_Boolean;
@@ -2358,6 +2406,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Void OnEnableINTERNAL()
+		/// </summary>
+		protected RMethod r_MOnEnableINTERNAL;
+		public virtual RMethod RMOnEnableINTERNAL
+		{
+			get
+			{
+				if(r_MOnEnableINTERNAL == null)
+				{
+					r_MOnEnableINTERNAL = new(this, "OnEnableINTERNAL", 0);
+				}
+				return r_MOnEnableINTERNAL;
+			}
+		}
+
+		/// <summary>
 		/// Void OnDisableINTERNAL()
 		/// </summary>
 		protected RMethod r_MOnDisableINTERNAL;
@@ -2370,6 +2434,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MOnDisableINTERNAL = new(this, "OnDisableINTERNAL", 0);
 				}
 				return r_MOnDisableINTERNAL;
+			}
+		}
+
+		/// <summary>
+		/// Void ReleaseViewData()
+		/// </summary>
+		protected RMethod r_MReleaseViewData;
+		public virtual RMethod RMReleaseViewData
+		{
+			get
+			{
+				if(r_MReleaseViewData == null)
+				{
+					r_MReleaseViewData = new(this, "ReleaseViewData", 0);
+				}
+				return r_MReleaseViewData;
 			}
 		}
 
@@ -2658,6 +2738,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
+			}
+		}
+
+		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
 			}
 		}
 
@@ -3183,6 +3279,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
+        public static void AssignTitle(UnityEditor.EditorWindow @win, System.String @title)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@win, @title};
+            var ___result = RMAssignTitle_EditorWindow_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public static UnityEditor.EditorWindow GetWindowPrivate(System.Type @t, System.Boolean @utility, System.String @title, System.Boolean @focus)
         {
 
@@ -3194,77 +3301,77 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type @t, System.Boolean @utility, System.String @title, System.Boolean @focus)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @windowType, System.Boolean @utility, System.String @title, System.Boolean @focus)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @utility, @title, @focus};
+            var ___parameters = new object[]{@windowType, @utility, @title, @focus};
             var ___result = RMGetWindow_Type_Boolean_String_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type @t, System.Boolean @utility, System.String @title)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @windowType, System.Boolean @utility, System.String @title)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @utility, @title};
+            var ___parameters = new object[]{@windowType, @utility, @title};
             var ___result = RMGetWindow_Type_Boolean_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type @t, System.Boolean @utility)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @windowType, System.Boolean @utility)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @utility};
+            var ___parameters = new object[]{@windowType, @utility};
             var ___result = RMGetWindow_Type_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
         }
 
 
-        public static UnityEditor.EditorWindow GetWindow(System.Type @t)
+        public static UnityEditor.EditorWindow GetWindow(System.Type @windowType)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t};
+            var ___parameters = new object[]{@windowType};
             var ___result = RMGetWindow_Type.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @t, UnityEngine.Rect @rect, System.Boolean @utility, System.String @title)
+        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @windowType, UnityEngine.Rect @rect, System.Boolean @utility, System.String @title)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @rect, @utility, @title};
+            var ___parameters = new object[]{@windowType, @rect, @utility, @title};
             var ___result = RMGetWindowWithRect_Type_Rect_Boolean_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @t, UnityEngine.Rect @rect, System.Boolean @utility)
+        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @windowType, UnityEngine.Rect @rect, System.Boolean @utility)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @rect, @utility};
+            var ___parameters = new object[]{@windowType, @rect, @utility};
             var ___result = RMGetWindowWithRect_Type_Rect_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
         }
 
 
-        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @t, UnityEngine.Rect @rect)
+        public static UnityEditor.EditorWindow GetWindowWithRect(System.Type @windowType, UnityEngine.Rect @rect)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@t, @rect};
+            var ___parameters = new object[]{@windowType, @rect};
             var ___result = RMGetWindowWithRect_Type_Rect.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.EditorWindow>(___result);
@@ -3656,12 +3763,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void OnEnableINTERNAL()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMOnEnableINTERNAL.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void OnDisableINTERNAL()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMOnDisableINTERNAL.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ReleaseViewData()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMReleaseViewData.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3864,6 +3993,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

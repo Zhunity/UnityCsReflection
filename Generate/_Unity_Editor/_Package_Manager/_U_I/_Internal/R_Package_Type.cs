@@ -118,54 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageType Unity
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType r_FUnity;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType RFUnity
-		{
-			get
-			{
-				if(r_FUnity == null)
-				{
-					r_FUnity = new(Type, "Unity");
-				}
-				return r_FUnity;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageType ScopedRegistry
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType r_FScopedRegistry;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType RFScopedRegistry
-		{
-			get
-			{
-				if(r_FScopedRegistry == null)
-				{
-					r_FScopedRegistry = new(Type, "ScopedRegistry");
-				}
-				return r_FScopedRegistry;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageType MainNotUnity
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType r_FMainNotUnity;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType RFMainNotUnity
-		{
-			get
-			{
-				if(r_FMainNotUnity == null)
-				{
-					r_FMainNotUnity = new(Type, "MainNotUnity");
-				}
-				return r_FMainNotUnity;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageType Feature
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageType r_FFeature;

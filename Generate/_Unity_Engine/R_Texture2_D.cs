@@ -534,6 +534,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Boolean isNativeTexture
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisNativeTexture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisNativeTexture
+		{
+			get
+			{
+				if(r_PisNativeTexture == null)
+				{
+					r_PisNativeTexture = new(this, "isNativeTexture", -1);
+				}
+				return r_PisNativeTexture;
+			}
+		}
+
+		/// <summary>
+		/// Boolean allowReadingInEditor
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PallowReadingInEditor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPallowReadingInEditor
+		{
+			get
+			{
+				if(r_PallowReadingInEditor == null)
+				{
+					r_PallowReadingInEditor = new(this, "allowReadingInEditor", -1);
+				}
+				return r_PallowReadingInEditor;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.TextureWrapMode wrapMode
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTextureWrapMode r_PwrapMode;
@@ -774,34 +806,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Boolean Internal_CreateImpl(UnityEngine.Texture2D, Int32, Int32, Int32, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Experimental.Rendering.TextureCreationFlags, IntPtr, System.String)
+		/// Boolean Internal_CreateImpl(UnityEngine.Texture2D, Int32, Int32, Int32, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.TextureColorSpace, UnityEngine.Experimental.Rendering.TextureCreationFlags, IntPtr, System.String)
 		/// </summary>
-		protected static RMethod r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String;
-		public static RMethod RMInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String
+		protected static RMethod r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String;
+		public static RMethod RMInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String
 		{
 			get
 			{
-				if(r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String == null)
+				if(r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String == null)
 				{
-					r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String = new(Type, "Internal_CreateImpl", 0, typeof(UnityEngine.Texture2D), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(UnityEngine.Experimental.Rendering.TextureCreationFlags), typeof(System.IntPtr), typeof(System.String));
+					r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String = new(Type, "Internal_CreateImpl", 0, typeof(UnityEngine.Texture2D), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("UnityEngine.TextureColorSpace"), typeof(UnityEngine.Experimental.Rendering.TextureCreationFlags), typeof(System.IntPtr), typeof(System.String));
 				}
-				return r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String;
+				return r_MInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String;
 			}
 		}
 
 		/// <summary>
-		/// Void Internal_Create(UnityEngine.Texture2D, Int32, Int32, Int32, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.Experimental.Rendering.TextureCreationFlags, IntPtr, System.String)
+		/// Void Internal_Create(UnityEngine.Texture2D, Int32, Int32, Int32, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.TextureColorSpace, UnityEngine.Experimental.Rendering.TextureCreationFlags, IntPtr, System.String)
 		/// </summary>
-		protected static RMethod r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String;
-		public static RMethod RMInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String
+		protected static RMethod r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String;
+		public static RMethod RMInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String
 		{
 			get
 			{
-				if(r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String == null)
+				if(r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String == null)
 				{
-					r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String = new(Type, "Internal_Create", 0, typeof(UnityEngine.Texture2D), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat), typeof(UnityEngine.Experimental.Rendering.TextureCreationFlags), typeof(System.IntPtr), typeof(System.String));
+					r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String = new(Type, "Internal_Create", 0, typeof(UnityEngine.Texture2D), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.Experimental.Rendering.GraphicsFormat),  ReflectionUtils.GetType("UnityEngine.TextureColorSpace"), typeof(UnityEngine.Experimental.Rendering.TextureCreationFlags), typeof(System.IntPtr), typeof(System.String));
 				}
-				return r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String;
+				return r_MInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String;
 			}
 		}
 
@@ -2102,6 +2134,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// UnityEngine.TextureColorSpace GetTextureColorSpace(Boolean)
+		/// </summary>
+		protected RMethod r_MGetTextureColorSpace_Boolean;
+		public virtual RMethod RMGetTextureColorSpace_Boolean
+		{
+			get
+			{
+				if(r_MGetTextureColorSpace_Boolean == null)
+				{
+					r_MGetTextureColorSpace_Boolean = new(this, "GetTextureColorSpace", 0, typeof(System.Boolean));
+				}
+				return r_MGetTextureColorSpace_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.TextureColorSpace GetTextureColorSpace(UnityEngine.Experimental.Rendering.GraphicsFormat)
+		/// </summary>
+		protected RMethod r_MGetTextureColorSpace_GraphicsFormat;
+		public virtual RMethod RMGetTextureColorSpace_GraphicsFormat
+		{
+			get
+			{
+				if(r_MGetTextureColorSpace_GraphicsFormat == null)
+				{
+					r_MGetTextureColorSpace_GraphicsFormat = new(this, "GetTextureColorSpace", 0, typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
+				}
+				return r_MGetTextureColorSpace_GraphicsFormat;
+			}
+		}
+
+		/// <summary>
 		/// Boolean ValidateFormat(UnityEngine.RenderTextureFormat)
 		/// </summary>
 		protected RMethod r_MValidateFormat_RenderTextureFormat;
@@ -2246,6 +2310,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -2305,23 +2385,23 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.Boolean Internal_CreateImpl(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex, System.String @mipmapLimitGroupName)
+        public static System.Boolean Internal_CreateImpl(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace @colorSpace, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex, System.String @mipmapLimitGroupName)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @flags, @nativeTex, @mipmapLimitGroupName};
-            var ___result = RMInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @colorSpace.Value, @flags, @nativeTex, @mipmapLimitGroupName};
+            var ___result = RMInternal_CreateImpl_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public static void Internal_Create(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex, System.String @mipmapLimitGroupName)
+        public static void Internal_Create(UnityEngine.Texture2D @mono, System.Int32 @w, System.Int32 @h, System.Int32 @mipCount, UnityEngine.Experimental.Rendering.GraphicsFormat @format, Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace @colorSpace, UnityEngine.Experimental.Rendering.TextureCreationFlags @flags, System.IntPtr @nativeTex, System.String @mipmapLimitGroupName)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @flags, @nativeTex, @mipmapLimitGroupName};
-            var ___result = RMInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureCreationFlags_IntPtr_String.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@mono, @w, @h, @mipCount, @format, @colorSpace.Value, @flags, @nativeTex, @mipmapLimitGroupName};
+            var ___result = RMInternal_Create_Texture2D_Int32_Int32_Int32_GraphicsFormat_TextureColorSpace_TextureCreationFlags_IntPtr_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3228,6 +3308,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace GetTextureColorSpace(System.Boolean @linear)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@linear};
+            var ___result = RMGetTextureColorSpace_Boolean.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace>(___result);
+        }
+
+
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace GetTextureColorSpace(UnityEngine.Experimental.Rendering.GraphicsFormat @format)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@format};
+            var ___result = RMGetTextureColorSpace_GraphicsFormat.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace>(___result);
+        }
+
+
         public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
         {
 
@@ -3324,6 +3426,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

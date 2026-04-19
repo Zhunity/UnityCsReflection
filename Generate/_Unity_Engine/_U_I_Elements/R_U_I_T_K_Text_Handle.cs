@@ -150,6 +150,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Single k_MinPadding
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fk_MinPadding;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFk_MinPadding
+		{
+			get
+			{
+				if(r_Fk_MinPadding == null)
+				{
+					r_Fk_MinPadding = new(Type, "k_MinPadding");
+				}
+				return r_Fk_MinPadding;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.TextCore.Text.TextGenerationSettings textGenerationSettings
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextGenerationSettings r_FtextGenerationSettings;
@@ -466,6 +482,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MTextLibraryCanElide = new(this, "TextLibraryCanElide", 0);
 				}
 				return r_MTextLibraryCanElide;
+			}
+		}
+
+		/// <summary>
+		/// Single GetTextEffectPadding(UnityEngine.TextCore.Text.FontAsset)
+		/// </summary>
+		protected RMethod r_MGetTextEffectPadding_FontAsset;
+		public virtual RMethod RMGetTextEffectPadding_FontAsset
+		{
+			get
+			{
+				if(r_MGetTextEffectPadding_FontAsset == null)
+				{
+					r_MGetTextEffectPadding_FontAsset = new(this, "GetTextEffectPadding", 0, typeof(UnityEngine.TextCore.Text.FontAsset));
+				}
+				return r_MGetTextEffectPadding_FontAsset;
 			}
 		}
 
@@ -1139,6 +1171,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMTextLibraryCanElide.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual System.Single GetTextEffectPadding(UnityEngine.TextCore.Text.FontAsset @fontAsset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@fontAsset};
+            var ___result = RMGetTextEffectPadding_FontAsset.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Single>(___result);
         }
 
 

@@ -74,6 +74,22 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 		}
 
 		/// <summary>
+		/// T value
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RField r_Fvalue;
+		public virtual Hvak.Editor.Refleaction.RField RFvalue
+		{
+			get
+			{
+				if(r_Fvalue == null)
+				{
+					r_Fvalue = new(this, "value");
+				}
+				return r_Fvalue;
+			}
+		}
+
+		/// <summary>
 		/// T Current
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RProperty r_PCurrent;

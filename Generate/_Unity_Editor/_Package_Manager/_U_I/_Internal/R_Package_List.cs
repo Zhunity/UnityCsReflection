@@ -1366,6 +1366,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection languageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
+		{
+			get
+			{
+				if(r_PlanguageDirection == null)
+				{
+					r_PlanguageDirection = new(this, "languageDirection", -1);
+				}
+				return r_PlanguageDirection;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
+		{
+			get
+			{
+				if(r_PlocalLanguageDirection == null)
+				{
+					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
+				}
+				return r_PlocalLanguageDirection;
+			}
+		}
+
+		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -2246,18 +2278,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void <HideListShowMessage>b__21_0()
+		/// Void <HideListShowMessage>b__22_0()
 		/// </summary>
-		protected RMethod r_M__0__HideListShowMessage__1__b__21_0;
-		public virtual RMethod RM__0__HideListShowMessage__1__b__21_0
+		protected RMethod r_M__0__HideListShowMessage__1__b__22_0;
+		public virtual RMethod RM__0__HideListShowMessage__1__b__22_0
 		{
 			get
 			{
-				if(r_M__0__HideListShowMessage__1__b__21_0 == null)
+				if(r_M__0__HideListShowMessage__1__b__22_0 == null)
 				{
-					r_M__0__HideListShowMessage__1__b__21_0 = new(this, "<HideListShowMessage>b__21_0", 0);
+					r_M__0__HideListShowMessage__1__b__22_0 = new(this, "<HideListShowMessage>b__22_0", 0);
 				}
-				return r_M__0__HideListShowMessage__1__b__21_0;
+				return r_M__0__HideListShowMessage__1__b__22_0;
 			}
 		}
 
@@ -4446,12 +4478,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void __0__HideListShowMessage__1__b__21_0()
+        public virtual void __0__HideListShowMessage__1__b__22_0()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RM__0__HideListShowMessage__1__b__21_0.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__HideListShowMessage__1__b__22_0.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -182,6 +182,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Boolean isNativeTexture
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisNativeTexture;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisNativeTexture
+		{
+			get
+			{
+				if(r_PisNativeTexture == null)
+				{
+					r_PisNativeTexture = new(this, "isNativeTexture", -1);
+				}
+				return r_PisNativeTexture;
+			}
+		}
+
+		/// <summary>
 		/// Boolean isReadable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisReadable;
@@ -194,6 +210,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_PisReadable = new(this, "isReadable", -1);
 				}
 				return r_PisReadable;
+			}
+		}
+
+		/// <summary>
+		/// Boolean allowReadingInEditor
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PallowReadingInEditor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPallowReadingInEditor
+		{
+			get
+			{
+				if(r_PallowReadingInEditor == null)
+				{
+					r_PallowReadingInEditor = new(this, "allowReadingInEditor", -1);
+				}
+				return r_PallowReadingInEditor;
 			}
 		}
 
@@ -838,6 +870,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// UnityEngine.TextureColorSpace GetTextureColorSpace(Boolean)
+		/// </summary>
+		protected RMethod r_MGetTextureColorSpace_Boolean;
+		public virtual RMethod RMGetTextureColorSpace_Boolean
+		{
+			get
+			{
+				if(r_MGetTextureColorSpace_Boolean == null)
+				{
+					r_MGetTextureColorSpace_Boolean = new(this, "GetTextureColorSpace", 0, typeof(System.Boolean));
+				}
+				return r_MGetTextureColorSpace_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.TextureColorSpace GetTextureColorSpace(UnityEngine.Experimental.Rendering.GraphicsFormat)
+		/// </summary>
+		protected RMethod r_MGetTextureColorSpace_GraphicsFormat;
+		public virtual RMethod RMGetTextureColorSpace_GraphicsFormat
+		{
+			get
+			{
+				if(r_MGetTextureColorSpace_GraphicsFormat == null)
+				{
+					r_MGetTextureColorSpace_GraphicsFormat = new(this, "GetTextureColorSpace", 0, typeof(UnityEngine.Experimental.Rendering.GraphicsFormat));
+				}
+				return r_MGetTextureColorSpace_GraphicsFormat;
+			}
+		}
+
+		/// <summary>
 		/// Boolean ValidateFormat(UnityEngine.RenderTextureFormat)
 		/// </summary>
 		protected RMethod r_MValidateFormat_RenderTextureFormat;
@@ -1030,6 +1094,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Void MarkDirty()
+		/// </summary>
+		protected RMethod r_MMarkDirty;
+		public virtual RMethod RMMarkDirty
+		{
+			get
+			{
+				if(r_MMarkDirty == null)
+				{
+					r_MMarkDirty = new(this, "MarkDirty", 0);
+				}
+				return r_MMarkDirty;
+			}
+		}
+
+		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -1210,6 +1290,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace GetTextureColorSpace(System.Boolean @linear)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@linear};
+            var ___result = RMGetTextureColorSpace_Boolean.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace>(___result);
+        }
+
+
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace GetTextureColorSpace(UnityEngine.Experimental.Rendering.GraphicsFormat @format)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@format};
+            var ___result = RMGetTextureColorSpace_GraphicsFormat.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RTextureColorSpace>(___result);
+        }
+
+
         public virtual System.Boolean ValidateFormat(UnityEngine.RenderTextureFormat @format)
         {
 
@@ -1344,6 +1446,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void MarkDirty()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 

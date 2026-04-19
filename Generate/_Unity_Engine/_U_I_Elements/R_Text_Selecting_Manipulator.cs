@@ -150,6 +150,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Int32 m_ConsecutiveMouseDownCount
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_ConsecutiveMouseDownCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_ConsecutiveMouseDownCount
+		{
+			get
+			{
+				if(r_Fm_ConsecutiveMouseDownCount == null)
+				{
+					r_Fm_ConsecutiveMouseDownCount = new(this, "m_ConsecutiveMouseDownCount");
+				}
+				return r_Fm_ConsecutiveMouseDownCount;
+			}
+		}
+
+		/// <summary>
+		/// System.Int64 m_LastMouseDownTimeStamp
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Fm_LastMouseDownTimeStamp;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFm_LastMouseDownTimeStamp
+		{
+			get
+			{
+				if(r_Fm_LastMouseDownTimeStamp == null)
+				{
+					r_Fm_LastMouseDownTimeStamp = new(this, "m_LastMouseDownTimeStamp");
+				}
+				return r_Fm_LastMouseDownTimeStamp;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Event m_ImguiEvent
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.REvent r_Fm_ImguiEvent;
@@ -290,6 +322,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MHasSelection = new(this, "HasSelection", 0);
 				}
 				return r_MHasSelection;
+			}
+		}
+
+		/// <summary>
+		/// Boolean HasFocus()
+		/// </summary>
+		protected RMethod r_MHasFocus;
+		public virtual RMethod RMHasFocus
+		{
+			get
+			{
+				if(r_MHasFocus == null)
+				{
+					r_MHasFocus = new(this, "HasFocus", 0);
+				}
+				return r_MHasFocus;
 			}
 		}
 
@@ -600,6 +648,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMHasSelection.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual System.Boolean HasFocus()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMHasFocus.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

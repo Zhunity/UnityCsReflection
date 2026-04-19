@@ -822,18 +822,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// Void DrawRectangleRepeat(RectangleParams, UnityEngine.Rect)
+		/// Void DrawRectangleRepeat(RectangleParams, UnityEngine.Rect, Single)
 		/// </summary>
-		protected RMethod r_MDrawRectangleRepeat_RectangleParams_Rect;
-		public virtual RMethod RMDrawRectangleRepeat_RectangleParams_Rect
+		protected RMethod r_MDrawRectangleRepeat_RectangleParams_Rect_Single;
+		public virtual RMethod RMDrawRectangleRepeat_RectangleParams_Rect_Single
 		{
 			get
 			{
-				if(r_MDrawRectangleRepeat_RectangleParams_Rect == null)
+				if(r_MDrawRectangleRepeat_RectangleParams_Rect_Single == null)
 				{
-					r_MDrawRectangleRepeat_RectangleParams_Rect = new(this, "DrawRectangleRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect));
+					r_MDrawRectangleRepeat_RectangleParams_Rect_Single = new(this, "DrawRectangleRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect), typeof(System.Single));
 				}
-				return r_MDrawRectangleRepeat_RectangleParams_Rect;
+				return r_MDrawRectangleRepeat_RectangleParams_Rect_Single;
 			}
 		}
 
@@ -914,6 +914,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 					r_MDrawSprite_RectangleParams = new(this, "DrawSprite", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
 				}
 				return r_MDrawSprite_RectangleParams;
+			}
+		}
+
+		/// <summary>
+		/// Void ApplyInset(NativeRectParams ByRef, UnityEngine.Texture)
+		/// </summary>
+		protected RMethod r_MApplyInset_Ref_NativeRectParams_Texture;
+		public virtual RMethod RMApplyInset_Ref_NativeRectParams_Texture
+		{
+			get
+			{
+				if(r_MApplyInset_Ref_NativeRectParams_Texture == null)
+				{
+					r_MApplyInset_Ref_NativeRectParams_Texture = new(this, "ApplyInset", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshBuilderNative+NativeRectParams").MakeByRefType(), typeof(UnityEngine.Texture));
+				}
+				return r_MApplyInset_Ref_NativeRectParams_Texture;
 			}
 		}
 
@@ -1356,12 +1372,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
         }
 
 
-        public virtual void DrawRectangleRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams, UnityEngine.Rect @totalRect)
+        public virtual void DrawRectangleRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams, UnityEngine.Rect @totalRect, System.Single @scaledPixelsPerPoint)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value, @totalRect};
-            var ___result = RMDrawRectangleRepeat_RectangleParams_Rect.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@rectParams.Value, @totalRect, @scaledPixelsPerPoint};
+            var ___result = RMDrawRectangleRepeat_RectangleParams_Rect_Single.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1417,6 +1433,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rectParams.Value};
             var ___result = RMDrawSprite_RectangleParams.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ApplyInset(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams @rectParams, UnityEngine.Texture @tex)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@rectParams.Value, @tex};
+            var ___result = RMApplyInset_Ref_NativeRectParams_Texture.Invoke(___genericsType, ___parameters);
+			@rectParams = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams>(___parameters[0]);
 
             
         }

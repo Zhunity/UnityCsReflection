@@ -54,34 +54,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Object <userData>k__BackingField
+		/// UnityEngine.UIElements.DragVisualMode <visualMode>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RObject r_F__0__userData__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RObject RF__0__userData__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_F__0__visualMode__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RF__0__visualMode__1__k__BackingField
 		{
 			get
 			{
-				if(r_F__0__userData__1__k__BackingField == null)
+				if(r_F__0__visualMode__1__k__BackingField == null)
 				{
-					r_F__0__userData__1__k__BackingField = new(this, "<userData>k__BackingField");
+					r_F__0__visualMode__1__k__BackingField = new(this, "<visualMode>k__BackingField");
 				}
-				return r_F__0__userData__1__k__BackingField;
+				return r_F__0__visualMode__1__k__BackingField;
 			}
 		}
 
 		/// <summary>
-		/// System.Collections.Hashtable m_GenericData
+		/// System.Collections.Hashtable <genericData>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_Fm_GenericData;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RFm_GenericData
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable r_F__0__genericData__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RHashtable RF__0__genericData__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_GenericData == null)
+				if(r_F__0__genericData__1__k__BackingField == null)
 				{
-					r_Fm_GenericData = new(this, "m_GenericData");
+					r_F__0__genericData__1__k__BackingField = new(this, "<genericData>k__BackingField");
 				}
-				return r_Fm_GenericData;
+				return r_F__0__genericData__1__k__BackingField;
 			}
 		}
 
@@ -118,18 +118,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Object userData
+		/// UnityEngine.UIElements.DragVisualMode visualMode
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RObject r_PuserData;
-		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPuserData
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode r_PvisualMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragVisualMode RPvisualMode
 		{
 			get
 			{
-				if(r_PuserData == null)
+				if(r_PvisualMode == null)
 				{
-					r_PuserData = new(this, "userData", -1);
+					r_PvisualMode = new(this, "visualMode", -1);
 				}
-				return r_PuserData;
+				return r_PvisualMode;
 			}
 		}
 
@@ -214,22 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void Finalize()
-		/// </summary>
-		protected RMethod r_MFinalize;
-		public virtual RMethod RMFinalize
-		{
-			get
-			{
-				if(r_MFinalize == null)
-				{
-					r_MFinalize = new(this, "Finalize", 0);
-				}
-				return r_MFinalize;
-			}
-		}
-
-		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
 		protected RMethod r_MGetHashCode;
@@ -242,6 +226,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetHashCode = new(this, "GetHashCode", 0);
 				}
 				return r_MGetHashCode;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
+		{
+			get
+			{
+				if(r_MToString == null)
+				{
+					r_MToString = new(this, "ToString", 0);
+				}
+				return r_MToString;
+			}
+		}
+
+		/// <summary>
+		/// Void Finalize()
+		/// </summary>
+		protected RMethod r_MFinalize;
+		public virtual RMethod RMFinalize
+		{
+			get
+			{
+				if(r_MFinalize == null)
+				{
+					r_MFinalize = new(this, "Finalize", 0);
+				}
+				return r_MFinalize;
 			}
 		}
 
@@ -274,22 +290,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MMemberwiseClone = new(this, "MemberwiseClone", 0);
 				}
 				return r_MMemberwiseClone;
-			}
-		}
-
-		/// <summary>
-		/// System.String ToString()
-		/// </summary>
-		protected RMethod r_MToString;
-		public virtual RMethod RMToString
-		{
-			get
-			{
-				if(r_MToString == null)
-				{
-					r_MToString = new(this, "ToString", 0);
-				}
-				return r_MToString;
 			}
 		}
 
@@ -327,17 +327,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Finalize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual System.Int32 GetHashCode()
         {
 
@@ -346,6 +335,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
+        public virtual System.String ToString()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual void Finalize()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 
@@ -368,17 +379,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMMemberwiseClone.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

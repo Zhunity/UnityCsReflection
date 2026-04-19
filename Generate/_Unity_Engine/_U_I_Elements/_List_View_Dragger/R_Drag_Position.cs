@@ -56,6 +56,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// System.Int32 parentId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FparentId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFparentId
+		{
+			get
+			{
+				if(r_FparentId == null)
+				{
+					r_FparentId = new(this, "parentId");
+				}
+				return r_FparentId;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 childIndex
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FchildIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFchildIndex
+		{
+			get
+			{
+				if(r_FchildIndex == null)
+				{
+					r_FchildIndex = new(this, "childIndex");
+				}
+				return r_FchildIndex;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.ReusableCollectionItem recycledItem
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem r_FrecycledItem;
@@ -72,18 +104,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.DragAndDropPosition dragAndDropPosition
+		/// UnityEngine.UIElements.DragAndDropPosition dropPosition
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition r_FdragAndDropPosition;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition RFdragAndDropPosition
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition r_FdropPosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RDragAndDropPosition RFdropPosition
 		{
 			get
 			{
-				if(r_FdragAndDropPosition == null)
+				if(r_FdropPosition == null)
 				{
-					r_FdragAndDropPosition = new(this, "dragAndDropPosition");
+					r_FdropPosition = new(this, "dropPosition");
 				}
-				return r_FdragAndDropPosition;
+				return r_FdropPosition;
 			}
 		}
 
