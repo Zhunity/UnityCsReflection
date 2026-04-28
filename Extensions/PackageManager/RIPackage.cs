@@ -10,7 +10,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		{
 			RPversions.GetValue();
 			RPdisplayName.GetValue();
-			RPpublisherName.GetValue();
+			RPstate.GetValue();
 		}
 	}
 }

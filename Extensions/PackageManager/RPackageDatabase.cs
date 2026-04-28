@@ -16,17 +16,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		protected override void OnSetBelong()
 		{
 			var packages = RFm_Packages.GetValue() as IDictionary;
+			if (packages == null)
+			{
+				return;
+			}
+
 			var iter = packages.GetEnumerator();
 			while (iter.MoveNext())
 			{
 				item.SetInstance(iter.Value);
-				if (item.RPstate.Value.Equals( RPackageState.RFUpdateAvailable.Value))
+				if (item.RPstate.Value.Equals(RPackageState.RFUpdateAvailable.Value))
 				{
-					if (UnityEditor.EditorUtility.DisplayDialog("Ò»¼üÉı¼¶", $"¼ì²âµ½ÓĞ{item.RPdisplayName.Value}¿ÉÒÔÉı¼¶£¬ÊÇ·ñÒ»¼üÉı¼¶£¿", "È·ÈÏ", "È¡Ïû"))
+					if (UnityEditor.EditorUtility.DisplayDialog("ä¸€é”®æ›´æ–°", $"æ£€æµ‹åˆ° {item.RPdisplayName.Value} å¯æ›´æ–°ï¼Œæ˜¯å¦ç«‹å³æ›´æ–°ï¼Ÿ", "ç¡®å®š", "å–æ¶ˆ"))
 					{
 						var updateTarget = item.RPversions.GetUpdateTarget(item.RPversions.RPinstalled);
 						Install(updateTarget);
-						Debug.Log(item.id + " update  " + item.RPdisplayName.Value + "  state " + item.RPstate.Value + " to version : " + updateTarget.RPversionId.Value);
+						Debug.Log($"{item.id} æ›´æ–° {item.RPdisplayName.Value}ï¼ŒçŠ¶æ€ {item.RPstate.Value}ï¼Œç›®æ ‡ç‰ˆæœ¬ï¼š{updateTarget.RPversionId.Value}");
 					}
 					break;
 				}

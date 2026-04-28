@@ -14,6 +14,27 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			RPrecommended.GetValue();
 		}
 
+		/// <summary>
+		/// 兼容旧版 Unity 内部 API 的更新目标选择逻辑。
+		/// 新版生成代码里没有 GetUpdateTarget 时，优先选择 recommended，其次 latest/importAvailable/installed。
+		/// </summary>
+		public RIPackageVersion GetUpdateTarget(RIPackageVersion installedVersion)
+		{
+			if (RPrecommended.Value != null)
+			{
+				return RPrecommended;
+			}
+			if (RPlatest.Value != null)
+			{
+				return RPlatest;
+			}
+			if (RPimportAvailable.Value != null)
+			{
+				return RPimportAvailable;
+			}
+			return installedVersion ?? RPinstalled;
+		}
+
 		protected override void OnSetBelong()
 		{
 			if(RPinstalled.RPversionId.Value == null)
@@ -21,6 +42,10 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				return;
 			}
 			var rtargetVersion = GetUpdateTarget(RPinstalled);
+			if (rtargetVersion?.RPversionId.Value == null)
+			{
+				return;
+			}
 			string installVersion = RPinstalled.RPversionId.Value as string;
 			string targetVersion = rtargetVersion.RPversionId.Value as string;
 			if (installVersion == targetVersion)
