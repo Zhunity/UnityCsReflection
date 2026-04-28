@@ -102,34 +102,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Action`1[UnityEngine.Texture]] registeredDefaultReflectionSetActions
+		/// System.Action`1[UnityEngine.Cubemap] defaultReflectionSet
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RTexture>> r_FregisteredDefaultReflectionSetActions;
-		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RTexture>> RFregisteredDefaultReflectionSetActions
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RCubemap> r_FdefaultReflectionSet;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RCubemap> RFdefaultReflectionSet
 		{
 			get
 			{
-				if(r_FregisteredDefaultReflectionSetActions == null)
+				if(r_FdefaultReflectionSet == null)
 				{
-					r_FregisteredDefaultReflectionSetActions = new(Type, "registeredDefaultReflectionSetActions");
+					r_FdefaultReflectionSet = new(Type, "defaultReflectionSet");
 				}
-				return r_FregisteredDefaultReflectionSetActions;
+				return r_FdefaultReflectionSet;
 			}
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[System.Action`1[UnityEngine.Texture]] registeredDefaultReflectionTextureActions
+		/// System.Action`1[UnityEngine.Texture] defaultReflectionTexture
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RTexture>> r_FregisteredDefaultReflectionTextureActions;
-		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RTexture>> RFregisteredDefaultReflectionTextureActions
+		protected static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RTexture> r_FdefaultReflectionTexture;
+		public static Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RTexture> RFdefaultReflectionTexture
 		{
 			get
 			{
-				if(r_FregisteredDefaultReflectionTextureActions == null)
+				if(r_FdefaultReflectionTexture == null)
 				{
-					r_FregisteredDefaultReflectionTextureActions = new(Type, "registeredDefaultReflectionTextureActions");
+					r_FdefaultReflectionTexture = new(Type, "defaultReflectionTexture");
 				}
-				return r_FregisteredDefaultReflectionTextureActions;
+				return r_FdefaultReflectionTexture;
 			}
 		}
 
@@ -1670,22 +1670,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetComponentIndex()
-		/// </summary>
-		protected RMethod r_MGetComponentIndex;
-		public virtual RMethod RMGetComponentIndex
-		{
-			get
-			{
-				if(r_MGetComponentIndex == null)
-				{
-					r_MGetComponentIndex = new(this, "GetComponentIndex", 0);
-				}
-				return r_MGetComponentIndex;
-			}
-		}
-
-		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
 		protected RMethod r_MCompareTag_String;
@@ -1986,22 +1970,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -2590,17 +2558,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetComponentIndex()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentIndex.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual System.Boolean CompareTag(System.String @tag)
         {
 
@@ -2807,17 +2764,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

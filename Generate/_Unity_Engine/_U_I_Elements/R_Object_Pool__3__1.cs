@@ -70,22 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Func`1[T] CreateFunc
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField> r_FCreateFunc;
-		public virtual Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RField> RFCreateFunc
-		{
-			get
-			{
-				if(r_FCreateFunc == null)
-				{
-					r_FCreateFunc = new(this, "CreateFunc");
-				}
-				return r_FCreateFunc;
-			}
-		}
-
-		/// <summary>
 		/// Int32 maxSize
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PmaxSize;

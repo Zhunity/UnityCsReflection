@@ -38,10 +38,10 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 
 
 		/// <summary>
-		/// System.UInt64 jobGroup
+		/// System.IntPtr jobGroup
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_FjobGroup;
-		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFjobGroup
+		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FjobGroup;
+		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFjobGroup
 		{
 			get
 			{
@@ -66,38 +66,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 					r_Fversion = new(this, "version");
 				}
 				return r_Fversion;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32 debugVersion
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FdebugVersion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFdebugVersion
-		{
-			get
-			{
-				if(r_FdebugVersion == null)
-				{
-					r_FdebugVersion = new(this, "debugVersion");
-				}
-				return r_FdebugVersion;
-			}
-		}
-
-		/// <summary>
-		/// System.IntPtr debugInfo
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RIntPtr r_FdebugInfo;
-		public virtual Hvak.Editor.Refleaction.RSystem.RIntPtr RFdebugInfo
-		{
-			get
-			{
-				if(r_FdebugInfo == null)
-				{
-					r_FdebugInfo = new(this, "debugInfo");
-				}
-				return r_FdebugInfo;
 			}
 		}
 
@@ -374,86 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 		}
 
 		/// <summary>
-		/// Boolean Equals(Unity.Jobs.JobHandle)
-		/// </summary>
-		protected RMethod r_MEquals_JobHandle;
-		public virtual RMethod RMEquals_JobHandle
-		{
-			get
-			{
-				if(r_MEquals_JobHandle == null)
-				{
-					r_MEquals_JobHandle = new(this, "Equals", 0, typeof(Unity.Jobs.JobHandle));
-				}
-				return r_MEquals_JobHandle;
-			}
-		}
-
-		/// <summary>
-		/// Boolean Equals(System.Object)
-		/// </summary>
-		protected RMethod r_MEquals_Object;
-		public virtual RMethod RMEquals_Object
-		{
-			get
-			{
-				if(r_MEquals_Object == null)
-				{
-					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
-				}
-				return r_MEquals_Object;
-			}
-		}
-
-		/// <summary>
-		/// Boolean op_Equality(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
-		/// </summary>
-		protected static RMethod r_Mop_Equality_JobHandle_JobHandle;
-		public static RMethod RMop_Equality_JobHandle_JobHandle
-		{
-			get
-			{
-				if(r_Mop_Equality_JobHandle_JobHandle == null)
-				{
-					r_Mop_Equality_JobHandle_JobHandle = new(Type, "op_Equality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-				}
-				return r_Mop_Equality_JobHandle_JobHandle;
-			}
-		}
-
-		/// <summary>
-		/// Boolean op_Inequality(Unity.Jobs.JobHandle, Unity.Jobs.JobHandle)
-		/// </summary>
-		protected static RMethod r_Mop_Inequality_JobHandle_JobHandle;
-		public static RMethod RMop_Inequality_JobHandle_JobHandle
-		{
-			get
-			{
-				if(r_Mop_Inequality_JobHandle_JobHandle == null)
-				{
-					r_Mop_Inequality_JobHandle_JobHandle = new(Type, "op_Inequality", 0, typeof(Unity.Jobs.JobHandle), typeof(Unity.Jobs.JobHandle));
-				}
-				return r_Mop_Inequality_JobHandle_JobHandle;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetHashCode()
-		/// </summary>
-		protected RMethod r_MGetHashCode;
-		public virtual RMethod RMGetHashCode
-		{
-			get
-			{
-				if(r_MGetHashCode == null)
-				{
-					r_MGetHashCode = new(this, "GetHashCode", 0);
-				}
-				return r_MGetHashCode;
-			}
-		}
-
-		/// <summary>
 		/// Void CombineDependenciesInternal2_Injected(Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef, Unity.Jobs.JobHandle ByRef)
 		/// </summary>
 		protected static RMethod r_MCombineDependenciesInternal2_Injected_Ref_JobHandle_Ref_JobHandle_Out_JobHandle;
@@ -514,6 +402,38 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 					r_MCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle = new(Type, "CheckFenceIsDependencyOrDidSyncFence_Injected", 0, typeof(Unity.Jobs.JobHandle).MakeByRefType(), typeof(Unity.Jobs.JobHandle).MakeByRefType());
 				}
 				return r_MCheckFenceIsDependencyOrDidSyncFence_Injected_Ref_JobHandle_Ref_JobHandle;
+			}
+		}
+
+		/// <summary>
+		/// Boolean Equals(System.Object)
+		/// </summary>
+		protected RMethod r_MEquals_Object;
+		public virtual RMethod RMEquals_Object
+		{
+			get
+			{
+				if(r_MEquals_Object == null)
+				{
+					r_MEquals_Object = new(this, "Equals", 0, typeof(System.Object));
+				}
+				return r_MEquals_Object;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
+		{
+			get
+			{
+				if(r_MGetHashCode == null)
+				{
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+				}
+				return r_MGetHashCode;
 			}
 		}
 
@@ -770,61 +690,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
         }
 
 
-        public virtual System.Boolean Equals(Unity.Jobs.JobHandle @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(System.Object @obj)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@obj};
-            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(Unity.Jobs.JobHandle @a, Unity.Jobs.JobHandle @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Equality_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(Unity.Jobs.JobHandle @a, Unity.Jobs.JobHandle @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b};
-            var ___result = RMop_Inequality_JobHandle_JobHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public static void CombineDependenciesInternal2_Injected(ref Unity.Jobs.JobHandle @job0, ref Unity.Jobs.JobHandle @job1, out Unity.Jobs.JobHandle @ret)
         {
 			@ret = default;
@@ -879,6 +744,28 @@ namespace Hvak.Editor.Refleaction.RUnity.RJobs
 			@dependsOn = ReflectionUtils.Convert<Unity.Jobs.JobHandle>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual System.Boolean Equals(System.Object @obj)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@obj};
+            var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual System.Int32 GetHashCode()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

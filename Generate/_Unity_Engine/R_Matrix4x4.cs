@@ -774,22 +774,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Boolean CompareApproximately(UnityEngine.Matrix4x4, UnityEngine.Matrix4x4, Single)
-		/// </summary>
-		protected static RMethod r_MCompareApproximately_Matrix4x4_Matrix4x4_Single;
-		public static RMethod RMCompareApproximately_Matrix4x4_Matrix4x4_Single
-		{
-			get
-			{
-				if(r_MCompareApproximately_Matrix4x4_Matrix4x4_Single == null)
-				{
-					r_MCompareApproximately_Matrix4x4_Matrix4x4_Single = new(Type, "CompareApproximately", 0, typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Matrix4x4), typeof(System.Single));
-				}
-				return r_MCompareApproximately_Matrix4x4_Matrix4x4_Single;
-			}
-		}
-
-		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
 		protected RMethod r_MGetHashCode;
@@ -1366,22 +1350,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Boolean CompareApproximately_Injected(UnityEngine.Matrix4x4 ByRef, UnityEngine.Matrix4x4 ByRef, Single)
-		/// </summary>
-		protected static RMethod r_MCompareApproximately_Injected_Ref_Matrix4x4_Ref_Matrix4x4_Single;
-		public static RMethod RMCompareApproximately_Injected_Ref_Matrix4x4_Ref_Matrix4x4_Single
-		{
-			get
-			{
-				if(r_MCompareApproximately_Injected_Ref_Matrix4x4_Ref_Matrix4x4_Single == null)
-				{
-					r_MCompareApproximately_Injected_Ref_Matrix4x4_Ref_Matrix4x4_Single = new(Type, "CompareApproximately_Injected", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Single));
-				}
-				return r_MCompareApproximately_Injected_Ref_Matrix4x4_Ref_Matrix4x4_Single;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -1615,17 +1583,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMFrustum_FrustumPlanes.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___result);
-        }
-
-
-        public static System.Boolean CompareApproximately(UnityEngine.Matrix4x4 @a, UnityEngine.Matrix4x4 @b, System.Single @threshold)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @threshold};
-            var ___result = RMCompareApproximately_Matrix4x4_Matrix4x4_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2058,19 +2015,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 			@ret = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[6]);
 
             
-        }
-
-
-        public static System.Boolean CompareApproximately_Injected(ref UnityEngine.Matrix4x4 @a, ref UnityEngine.Matrix4x4 @b, System.Single @threshold)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @b, @threshold};
-            var ___result = RMCompareApproximately_Injected_Ref_Matrix4x4_Ref_Matrix4x4_Single.Invoke(___genericsType, ___parameters);
-			@a = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-			@b = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

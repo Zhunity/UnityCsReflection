@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.Boolean <skipDecoratorDrawers>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__skipDecoratorDrawers__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__skipDecoratorDrawers__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__skipDecoratorDrawers__1__k__BackingField == null)
-				{
-					r_F__0__skipDecoratorDrawers__1__k__BackingField = new(this, "<skipDecoratorDrawers>k__BackingField");
-				}
-				return r_F__0__skipDecoratorDrawers__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 m_NestingLevel
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NestingLevel;
@@ -230,38 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEditor.DecoratorDrawer] decoratorDrawers
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> r_PdecoratorDrawers;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RDecoratorDrawer> RPdecoratorDrawers
-		{
-			get
-			{
-				if(r_PdecoratorDrawers == null)
-				{
-					r_PdecoratorDrawers = new(this, "decoratorDrawers", -1);
-				}
-				return r_PdecoratorDrawers;
-			}
-		}
-
-		/// <summary>
-		/// Boolean skipDecoratorDrawers
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipDecoratorDrawers;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipDecoratorDrawers
-		{
-			get
-			{
-				if(r_PskipDecoratorDrawers == null)
-				{
-					r_PskipDecoratorDrawers = new(this, "skipDecoratorDrawers", -1);
-				}
-				return r_PskipDecoratorDrawers;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isCurrentlyNested
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCurrentlyNested;
@@ -294,22 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void OnUndoRedo(UnityEditor.UndoRedoInfo ByRef)
-		/// </summary>
-		protected static RMethod r_MOnUndoRedo_In_UndoRedoInfo;
-		public static RMethod RMOnUndoRedo_In_UndoRedoInfo
-		{
-			get
-			{
-				if(r_MOnUndoRedo_In_UndoRedoInfo == null)
-				{
-					r_MOnUndoRedo_In_UndoRedoInfo = new(Type, "OnUndoRedo", 0, typeof(UnityEditor.UndoRedoInfo).MakeByRefType());
-				}
-				return r_MOnUndoRedo_In_UndoRedoInfo;
-			}
-		}
-
-		/// <summary>
 		/// Void ClearCache()
 		/// </summary>
 		protected static RMethod r_MClearCache;
@@ -326,18 +262,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void InvalidateListCacheIncludingChildren(UnityEditor.SerializedProperty)
+		/// Void InvalidateListCacheIncludingChildren(System.String)
 		/// </summary>
-		protected static RMethod r_MInvalidateListCacheIncludingChildren_SerializedProperty;
-		public static RMethod RMInvalidateListCacheIncludingChildren_SerializedProperty
+		protected static RMethod r_MInvalidateListCacheIncludingChildren_String;
+		public static RMethod RMInvalidateListCacheIncludingChildren_String
 		{
 			get
 			{
-				if(r_MInvalidateListCacheIncludingChildren_SerializedProperty == null)
+				if(r_MInvalidateListCacheIncludingChildren_String == null)
 				{
-					r_MInvalidateListCacheIncludingChildren_SerializedProperty = new(Type, "InvalidateListCacheIncludingChildren", 0, typeof(UnityEditor.SerializedProperty));
+					r_MInvalidateListCacheIncludingChildren_String = new(Type, "InvalidateListCacheIncludingChildren", 0, typeof(System.String));
 				}
-				return r_MInvalidateListCacheIncludingChildren_SerializedProperty;
+				return r_MInvalidateListCacheIncludingChildren_String;
 			}
 		}
 
@@ -582,22 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void Dispose()
-		/// </summary>
-		protected RMethod r_MDispose;
-		public virtual RMethod RMDispose
-		{
-			get
-			{
-				if(r_MDispose == null)
-				{
-					r_MDispose = new(this, "Dispose", 0);
-				}
-				return r_MDispose;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -694,17 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public static void OnUndoRedo(in UnityEditor.UndoRedoInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info};
-            var ___result = RMOnUndoRedo_In_UndoRedoInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public static void ClearCache()
         {
 
@@ -716,12 +625,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void InvalidateListCacheIncludingChildren(UnityEditor.SerializedProperty @property)
+        public static void InvalidateListCacheIncludingChildren(System.String @propertyPath)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property};
-            var ___result = RMInvalidateListCacheIncludingChildren_SerializedProperty.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@propertyPath};
+            var ___result = RMInvalidateListCacheIncludingChildren_String.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -889,17 +798,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMIncrementNestingContext.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPropertyHandler.RNestingContext>(___result);
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageTag InstalledFromPath
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag r_FInstalledFromPath;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag RFInstalledFromPath
-		{
-			get
-			{
-				if(r_FInstalledFromPath == null)
-				{
-					r_FInstalledFromPath = new(Type, "InstalledFromPath");
-				}
-				return r_FInstalledFromPath;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageTag Custom
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag r_FCustom;
@@ -150,6 +134,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.PackageTag Bundled
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag r_FBundled;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag RFBundled
+		{
+			get
+			{
+				if(r_FBundled == null)
+				{
+					r_FBundled = new(Type, "Bundled");
+				}
+				return r_FBundled;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageTag BuiltIn
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag r_FBuiltIn;
@@ -178,38 +178,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_FFeature = new(Type, "Feature");
 				}
 				return r_FFeature;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageTag Placeholder
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag r_FPlaceholder;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag RFPlaceholder
-		{
-			get
-			{
-				if(r_FPlaceholder == null)
-				{
-					r_FPlaceholder = new(Type, "Placeholder");
-				}
-				return r_FPlaceholder;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageTag Unity
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag r_FUnity;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageTag RFUnity
-		{
-			get
-			{
-				if(r_FUnity == null)
-				{
-					r_FUnity = new(Type, "Unity");
-				}
-				return r_FUnity;
 			}
 		}
 

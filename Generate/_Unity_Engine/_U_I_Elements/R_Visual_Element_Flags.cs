@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElementFlags EventCallbackParentCategoriesDirty
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FEventCallbackParentCategoriesDirty;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFEventCallbackParentCategoriesDirty
-		{
-			get
-			{
-				if(r_FEventCallbackParentCategoriesDirty == null)
-				{
-					r_FEventCallbackParentCategoriesDirty = new(Type, "EventCallbackParentCategoriesDirty");
-				}
-				return r_FEventCallbackParentCategoriesDirty;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.VisualElementFlags LayoutManual
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_FLayoutManual;

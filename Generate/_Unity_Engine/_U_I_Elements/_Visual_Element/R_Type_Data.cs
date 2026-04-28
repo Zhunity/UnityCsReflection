@@ -88,22 +88,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.String m_TypeNamespace
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_TypeNamespace;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_TypeNamespace
-		{
-			get
-			{
-				if(r_Fm_TypeNamespace == null)
-				{
-					r_Fm_TypeNamespace = new(this, "m_TypeNamespace");
-				}
-				return r_Fm_TypeNamespace;
-			}
-		}
-
-		/// <summary>
 		/// System.Type type
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RType r_Ptype;
@@ -148,22 +132,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtypeName = new(this, "typeName", -1);
 				}
 				return r_PtypeName;
-			}
-		}
-
-		/// <summary>
-		/// System.String typeNamespace
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PtypeNamespace;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPtypeNamespace
-		{
-			get
-			{
-				if(r_PtypeNamespace == null)
-				{
-					r_PtypeNamespace = new(this, "typeNamespace", -1);
-				}
-				return r_PtypeNamespace;
 			}
 		}
 

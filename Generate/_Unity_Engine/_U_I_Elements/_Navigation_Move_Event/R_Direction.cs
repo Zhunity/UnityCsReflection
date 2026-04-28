@@ -136,38 +136,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Next
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FNext;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFNext
-		{
-			get
-			{
-				if(r_FNext == null)
-				{
-					r_FNext = new(Type, "Next");
-				}
-				return r_FNext;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent+Direction Previous
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_FPrevious;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RFPrevious
-		{
-			get
-			{
-				if(r_FPrevious == null)
-				{
-					r_FPrevious = new(Type, "Previous");
-				}
-				return r_FPrevious;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

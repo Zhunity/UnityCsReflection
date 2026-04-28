@@ -182,22 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.LowLevel.GlyphValueRecord op_Multiply(UnityEngine.TextCore.LowLevel.GlyphValueRecord, Single)
-		/// </summary>
-		protected static RMethod r_Mop_Multiply_GlyphValueRecord_Single;
-		public static RMethod RMop_Multiply_GlyphValueRecord_Single
-		{
-			get
-			{
-				if(r_Mop_Multiply_GlyphValueRecord_Single == null)
-				{
-					r_Mop_Multiply_GlyphValueRecord_Single = new(Type, "op_Multiply", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphValueRecord), typeof(System.Single));
-				}
-				return r_Mop_Multiply_GlyphValueRecord_Single;
-			}
-		}
-
-		/// <summary>
 		/// Int32 GetHashCode()
 		/// </summary>
 		protected RMethod r_MGetHashCode;
@@ -348,17 +332,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@a, @b};
             var ___result = RMop_Addition_GlyphValueRecord_GlyphValueRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.GlyphValueRecord>(___result);
-        }
-
-
-        public static UnityEngine.TextCore.LowLevel.GlyphValueRecord op_Multiply(UnityEngine.TextCore.LowLevel.GlyphValueRecord @a, System.Single @emScale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@a, @emScale};
-            var ___result = RMop_Multiply_GlyphValueRecord_Single.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.TextCore.LowLevel.GlyphValueRecord>(___result);
         }

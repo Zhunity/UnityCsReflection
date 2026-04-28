@@ -518,22 +518,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 		}
 
 		/// <summary>
-		/// System.String GetTemplatePath()
-		/// </summary>
-		protected RMethod r_MGetTemplatePath;
-		public virtual RMethod RMGetTemplatePath
-		{
-			get
-			{
-				if(r_MGetTemplatePath == null)
-				{
-					r_MGetTemplatePath = new(this, "GetTemplatePath", 0);
-				}
-				return r_MGetTemplatePath;
-			}
-		}
-
-		/// <summary>
 		/// Void CreateScript()
 		/// </summary>
 		protected RMethod r_MCreateScript;
@@ -614,22 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 		}
 
 		/// <summary>
-		/// Int32 GetHashCode()
-		/// </summary>
-		protected RMethod r_MGetHashCode;
-		public virtual RMethod RMGetHashCode
-		{
-			get
-			{
-				if(r_MGetHashCode == null)
-				{
-					r_MGetHashCode = new(this, "GetHashCode", 0);
-				}
-				return r_MGetHashCode;
-			}
-		}
-
-		/// <summary>
 		/// Void AddSeparator()
 		/// </summary>
 		protected RMethod r_MAddSeparator;
@@ -706,6 +674,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
 					r_MFinalize = new(this, "Finalize", 0);
 				}
 				return r_MFinalize;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
+		{
+			get
+			{
+				if(r_MGetHashCode == null)
+				{
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+				}
+				return r_MGetHashCode;
 			}
 		}
 
@@ -841,17 +825,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.String GetTemplatePath()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetTemplatePath.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
         public virtual void CreateScript()
         {
 
@@ -907,17 +880,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
         }
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual void AddSeparator()
         {
 
@@ -970,6 +932,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RAddComponent
             var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual System.Int32 GetHashCode()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

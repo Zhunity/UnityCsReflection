@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean IsValid()
-		/// </summary>
-		protected RMethod r_MIsValid;
-		public virtual RMethod RMIsValid
-		{
-			get
-			{
-				if(r_MIsValid == null)
-				{
-					r_MIsValid = new(this, "IsValid", 0);
-				}
-				return r_MIsValid;
-			}
-		}
-
-		/// <summary>
 		/// Single ConvertToGpu()
 		/// </summary>
 		protected RMethod r_MConvertToGpu;
@@ -260,17 +244,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual System.Boolean IsValid()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
 
         public virtual System.Single ConvertToGpu()

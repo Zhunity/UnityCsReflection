@@ -118,70 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition backgroundPositionX
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_PbackgroundPositionX;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RPbackgroundPositionX
-		{
-			get
-			{
-				if(r_PbackgroundPositionX == null)
-				{
-					r_PbackgroundPositionX = new(this, "backgroundPositionX", -1);
-				}
-				return r_PbackgroundPositionX;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition backgroundPositionY
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_PbackgroundPositionY;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RPbackgroundPositionY
-		{
-			get
-			{
-				if(r_PbackgroundPositionY == null)
-				{
-					r_PbackgroundPositionY = new(this, "backgroundPositionY", -1);
-				}
-				return r_PbackgroundPositionY;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundRepeat backgroundRepeat
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat r_PbackgroundRepeat;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat RPbackgroundRepeat
-		{
-			get
-			{
-				if(r_PbackgroundRepeat == null)
-				{
-					r_PbackgroundRepeat = new(this, "backgroundRepeat", -1);
-				}
-				return r_PbackgroundRepeat;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundSize backgroundSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSize r_PbackgroundSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSize RPbackgroundSize
-		{
-			get
-			{
-				if(r_PbackgroundSize == null)
-				{
-					r_PbackgroundSize = new(this, "backgroundSize", -1);
-				}
-				return r_PbackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Color borderBottomColor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PborderBottomColor;
@@ -998,6 +934,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.ScaleMode unityBackgroundScaleMode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_PunityBackgroundScaleMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RPunityBackgroundScaleMode
+		{
+			get
+			{
+				if(r_PunityBackgroundScaleMode == null)
+				{
+					r_PunityBackgroundScaleMode = new(this, "unityBackgroundScaleMode", -1);
+				}
+				return r_PunityBackgroundScaleMode;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Font unityFont
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_PunityFont;
@@ -1106,22 +1058,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PunitySliceRight = new(this, "unitySliceRight", -1);
 				}
 				return r_PunitySliceRight;
-			}
-		}
-
-		/// <summary>
-		/// Single unitySliceScale
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PunitySliceScale;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPunitySliceScale
-		{
-			get
-			{
-				if(r_PunitySliceScale == null)
-				{
-					r_PunitySliceScale = new(this, "unitySliceScale", -1);
-				}
-				return r_PunitySliceScale;
 			}
 		}
 
@@ -1266,22 +1202,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PwordSpacing = new(this, "wordSpacing", -1);
 				}
 				return r_PwordSpacing;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] unityBackgroundScaleMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> r_PunityBackgroundScaleMode;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> RPunityBackgroundScaleMode
-		{
-			get
-			{
-				if(r_PunityBackgroundScaleMode == null)
-				{
-					r_PunityBackgroundScaleMode = new(this, "unityBackgroundScaleMode", -1);
-				}
-				return r_PunityBackgroundScaleMode;
 			}
 		}
 

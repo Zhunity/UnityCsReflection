@@ -38,6 +38,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
+		/// System.String k_DownloadedStatus
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_DownloadedStatus;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_DownloadedStatus
+		{
+			get
+			{
+				if(r_Fk_DownloadedStatus == null)
+				{
+					r_Fk_DownloadedStatus = new(Type, "k_DownloadedStatus");
+				}
+				return r_Fk_DownloadedStatus;
+			}
+		}
+
+		/// <summary>
 		/// System.Int32 startIndex
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstartIndex;
@@ -54,10 +70,10 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Int64 limit
+		/// System.Int32 limit
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Flimit;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt64 RFlimit
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Flimit;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFlimit
 		{
 			get
 			{
@@ -102,22 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String searchText
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PsearchText;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsearchText
-		{
-			get
-			{
-				if(r_PsearchText == null)
-				{
-					r_PsearchText = new(this, "searchText", -1);
-				}
-				return r_PsearchText;
-			}
-		}
-
-		/// <summary>
 		/// System.String status
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Pstatus;
@@ -150,34 +150,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean updateAvailableOnly
+		/// System.String searchText
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PupdateAvailableOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPupdateAvailableOnly
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PsearchText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsearchText
 		{
 			get
 			{
-				if(r_PupdateAvailableOnly == null)
+				if(r_PsearchText == null)
 				{
-					r_PupdateAvailableOnly = new(this, "updateAvailableOnly", -1);
+					r_PsearchText = new(this, "searchText", -1);
 				}
-				return r_PupdateAvailableOnly;
+				return r_PsearchText;
 			}
 		}
 
 		/// <summary>
-		/// Boolean subscriptionBasedOnly
+		/// System.Collections.Generic.List`1[System.String] statuses
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsubscriptionBasedOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsubscriptionBasedOnly
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Pstatuses;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RPstatuses
 		{
 			get
 			{
-				if(r_PsubscriptionBasedOnly == null)
+				if(r_Pstatuses == null)
 				{
-					r_PsubscriptionBasedOnly = new(this, "subscriptionBasedOnly", -1);
+					r_Pstatuses = new(this, "statuses", -1);
 				}
-				return r_PsubscriptionBasedOnly;
+				return r_Pstatuses;
 			}
 		}
 

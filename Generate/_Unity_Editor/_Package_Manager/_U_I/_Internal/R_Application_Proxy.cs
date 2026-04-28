@@ -486,66 +486,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String OpenFolderPanel(System.String, System.String)
+		/// Boolean DisplayDialog(System.String, System.String, System.String, System.String)
 		/// </summary>
-		protected RMethod r_MOpenFolderPanel_String_String;
-		public virtual RMethod RMOpenFolderPanel_String_String
+		protected RMethod r_MDisplayDialog_String_String_String_String;
+		public virtual RMethod RMDisplayDialog_String_String_String_String
 		{
 			get
 			{
-				if(r_MOpenFolderPanel_String_String == null)
+				if(r_MDisplayDialog_String_String_String_String == null)
 				{
-					r_MOpenFolderPanel_String_String = new(this, "OpenFolderPanel", 0, typeof(System.String), typeof(System.String));
+					r_MDisplayDialog_String_String_String_String = new(this, "DisplayDialog", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String));
 				}
-				return r_MOpenFolderPanel_String_String;
+				return r_MDisplayDialog_String_String_String_String;
 			}
 		}
 
 		/// <summary>
-		/// Boolean DisplayDialog(System.String, System.String, System.String, System.String, System.String)
+		/// Int32 DisplayDialogComplex(System.String, System.String, System.String, System.String, System.String)
 		/// </summary>
-		protected RMethod r_MDisplayDialog_String_String_String_String_String;
-		public virtual RMethod RMDisplayDialog_String_String_String_String_String
+		protected RMethod r_MDisplayDialogComplex_String_String_String_String_String;
+		public virtual RMethod RMDisplayDialogComplex_String_String_String_String_String
 		{
 			get
 			{
-				if(r_MDisplayDialog_String_String_String_String_String == null)
+				if(r_MDisplayDialogComplex_String_String_String_String_String == null)
 				{
-					r_MDisplayDialog_String_String_String_String_String = new(this, "DisplayDialog", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String));
+					r_MDisplayDialogComplex_String_String_String_String_String = new(this, "DisplayDialogComplex", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String));
 				}
-				return r_MDisplayDialog_String_String_String_String_String;
-			}
-		}
-
-		/// <summary>
-		/// Int32 DisplayDialogComplex(System.String, System.String, System.String, System.String, System.String, System.String)
-		/// </summary>
-		protected RMethod r_MDisplayDialogComplex_String_String_String_String_String_String;
-		public virtual RMethod RMDisplayDialogComplex_String_String_String_String_String_String
-		{
-			get
-			{
-				if(r_MDisplayDialogComplex_String_String_String_String_String_String == null)
-				{
-					r_MDisplayDialogComplex_String_String_String_String_String_String = new(this, "DisplayDialogComplex", 0, typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String), typeof(System.String));
-				}
-				return r_MDisplayDialogComplex_String_String_String_String_String_String;
-			}
-		}
-
-		/// <summary>
-		/// T Load[T](System.String)
-		/// </summary>
-		protected RMethod r_MLoad_GT_String;
-		public virtual RMethod RMLoad_GT_String
-		{
-			get
-			{
-				if(r_MLoad_GT_String == null)
-				{
-					r_MLoad_GT_String = new(this, "Load", 1, typeof(System.String));
-				}
-				return r_MLoad_GT_String;
+				return r_MDisplayDialogComplex_String_String_String_String_String;
 			}
 		}
 
@@ -745,47 +713,25 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual System.String OpenFolderPanel(System.String @title, System.String @folder)
+        public virtual System.Boolean DisplayDialog(System.String @title, System.String @message, System.String @ok, System.String @cancel)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@title, @folder};
-            var ___result = RMOpenFolderPanel_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Boolean DisplayDialog(System.String @idForAnalytics, System.String @title, System.String @message, System.String @ok, System.String @cancel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idForAnalytics, @title, @message, @ok, @cancel};
-            var ___result = RMDisplayDialog_String_String_String_String_String.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@title, @message, @ok, @cancel};
+            var ___result = RMDisplayDialog_String_String_String_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual System.Int32 DisplayDialogComplex(System.String @idForAnalytics, System.String @title, System.String @message, System.String @ok, System.String @cancel, System.String @alt)
+        public virtual System.Int32 DisplayDialogComplex(System.String @title, System.String @message, System.String @ok, System.String @cancel, System.String @alt)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@idForAnalytics, @title, @message, @ok, @cancel, @alt};
-            var ___result = RMDisplayDialogComplex_String_String_String_String_String_String.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@title, @message, @ok, @cancel, @alt};
+            var ___result = RMDisplayDialogComplex_String_String_String_String_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual T Load<T>(System.String @path) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@path};
-            var ___result = RMLoad_GT_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
         }
 
 

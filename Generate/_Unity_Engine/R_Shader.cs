@@ -2662,22 +2662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetPropertyDefaultIntValue(Int32)
-		/// </summary>
-		protected RMethod r_MGetPropertyDefaultIntValue_Int32;
-		public virtual RMethod RMGetPropertyDefaultIntValue_Int32
-		{
-			get
-			{
-				if(r_MGetPropertyDefaultIntValue_Int32 == null)
-				{
-					r_MGetPropertyDefaultIntValue_Int32 = new(this, "GetPropertyDefaultIntValue", 0, typeof(System.Int32));
-				}
-				return r_MGetPropertyDefaultIntValue_Int32;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Rendering.TextureDimension GetPropertyTextureDimension(Int32)
 		/// </summary>
 		protected RMethod r_MGetPropertyTextureDimension_Int32;
@@ -2946,22 +2930,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -4648,17 +4616,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetPropertyDefaultIntValue(System.Int32 @propertyIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyIndex};
-            var ___result = RMGetPropertyDefaultIntValue_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual UnityEngine.Rendering.TextureDimension GetPropertyTextureDimension(System.Int32 @propertyIndex)
         {
 
@@ -4861,17 +4818,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

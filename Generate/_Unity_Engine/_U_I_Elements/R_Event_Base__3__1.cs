@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.EventCategory EventCategory
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_FEventCategory;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RFEventCategory
-		{
-			get
-			{
-				if(r_FEventCategory == null)
-				{
-					r_FEventCategory = new(Type, "EventCategory");
-				}
-				return r_FEventCategory;
-			}
-		}
-
-		/// <summary>
 		/// Int64 eventTypeId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PeventTypeId;
@@ -114,22 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PeventTypeId = new(this, "eventTypeId", -1);
 				}
 				return r_PeventTypeId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
 			}
 		}
 
@@ -242,22 +210,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 
@@ -578,22 +530,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Ppooled = new(this, "pooled", -1);
 				}
 				return r_Ppooled;
-			}
-		}
-
-		/// <summary>
-		/// Void SetCreateFunction(System.Func`1[T])
-		/// </summary>
-		protected static RMethod r_MSetCreateFunction_Func_d_T_p_;
-		public static RMethod RMSetCreateFunction_Func_d_T_p_
-		{
-			get
-			{
-				if(r_MSetCreateFunction_Func_d_T_p_ == null)
-				{
-					r_MSetCreateFunction_Func_d_T_p_ = new(Type, "SetCreateFunction", 0,  ReflectionUtils.GetType("System.Func`1").MakeGenericType(Type.MakeGenericMethodParameter(0)));
-				}
-				return r_MSetCreateFunction_Func_d_T_p_;
 			}
 		}
 
@@ -964,17 +900,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				return r_MToString;
 			}
 		}
-
-
-        public static void SetCreateFunction(System.Func<T> @createMethod)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@createMethod};
-            var ___result = RMSetCreateFunction_Func_d_T_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
 
 
         public static System.Int64 TypeId()

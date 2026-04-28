@@ -38,70 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 
 
 		/// <summary>
-		/// System.Single kMinAperture
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkMinAperture;
-		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkMinAperture
-		{
-			get
-			{
-				if(r_FkMinAperture == null)
-				{
-					r_FkMinAperture = new(Type, "kMinAperture");
-				}
-				return r_FkMinAperture;
-			}
-		}
-
-		/// <summary>
-		/// System.Single kMaxAperture
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkMaxAperture;
-		public static Hvak.Editor.Refleaction.RSystem.RSingle RFkMaxAperture
-		{
-			get
-			{
-				if(r_FkMaxAperture == null)
-				{
-					r_FkMaxAperture = new(Type, "kMaxAperture");
-				}
-				return r_FkMaxAperture;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32 kMinBladeCount
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkMinBladeCount;
-		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkMinBladeCount
-		{
-			get
-			{
-				if(r_FkMinBladeCount == null)
-				{
-					r_FkMinBladeCount = new(Type, "kMinBladeCount");
-				}
-				return r_FkMinBladeCount;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32 kMaxBladeCount
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FkMaxBladeCount;
-		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFkMaxBladeCount
-		{
-			get
-			{
-				if(r_FkMaxBladeCount == null)
-				{
-					r_FkMaxBladeCount = new(Type, "kMaxBladeCount");
-				}
-				return r_FkMaxBladeCount;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Camera+CameraCallback onPreCull
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RCamera.RCameraCallback r_FonPreCull;
@@ -694,150 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 iso
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Piso;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPiso
-		{
-			get
-			{
-				if(r_Piso == null)
-				{
-					r_Piso = new(this, "iso", -1);
-				}
-				return r_Piso;
-			}
-		}
-
-		/// <summary>
-		/// Single shutterSpeed
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PshutterSpeed;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPshutterSpeed
-		{
-			get
-			{
-				if(r_PshutterSpeed == null)
-				{
-					r_PshutterSpeed = new(this, "shutterSpeed", -1);
-				}
-				return r_PshutterSpeed;
-			}
-		}
-
-		/// <summary>
-		/// Single aperture
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Paperture;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPaperture
-		{
-			get
-			{
-				if(r_Paperture == null)
-				{
-					r_Paperture = new(this, "aperture", -1);
-				}
-				return r_Paperture;
-			}
-		}
-
-		/// <summary>
-		/// Single focusDistance
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PfocusDistance;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPfocusDistance
-		{
-			get
-			{
-				if(r_PfocusDistance == null)
-				{
-					r_PfocusDistance = new(this, "focusDistance", -1);
-				}
-				return r_PfocusDistance;
-			}
-		}
-
-		/// <summary>
-		/// Single focalLength
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PfocalLength;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPfocalLength
-		{
-			get
-			{
-				if(r_PfocalLength == null)
-				{
-					r_PfocalLength = new(this, "focalLength", -1);
-				}
-				return r_PfocalLength;
-			}
-		}
-
-		/// <summary>
-		/// Int32 bladeCount
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PbladeCount;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPbladeCount
-		{
-			get
-			{
-				if(r_PbladeCount == null)
-				{
-					r_PbladeCount = new(this, "bladeCount", -1);
-				}
-				return r_PbladeCount;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 curvature
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Pcurvature;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPcurvature
-		{
-			get
-			{
-				if(r_Pcurvature == null)
-				{
-					r_Pcurvature = new(this, "curvature", -1);
-				}
-				return r_Pcurvature;
-			}
-		}
-
-		/// <summary>
-		/// Single barrelClipping
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PbarrelClipping;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPbarrelClipping
-		{
-			get
-			{
-				if(r_PbarrelClipping == null)
-				{
-					r_PbarrelClipping = new(this, "barrelClipping", -1);
-				}
-				return r_PbarrelClipping;
-			}
-		}
-
-		/// <summary>
-		/// Single anamorphism
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Panamorphism;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPanamorphism
-		{
-			get
-			{
-				if(r_Panamorphism == null)
-				{
-					r_Panamorphism = new(this, "anamorphism", -1);
-				}
-				return r_Panamorphism;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector2 sensorSize
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PsensorSize;
@@ -866,6 +658,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_PlensShift = new(this, "lensShift", -1);
 				}
 				return r_PlensShift;
+			}
+		}
+
+		/// <summary>
+		/// Single focalLength
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PfocalLength;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPfocalLength
+		{
+			get
+			{
+				if(r_PfocalLength == null)
+				{
+					r_PfocalLength = new(this, "focalLength", -1);
+				}
+				return r_PfocalLength;
 			}
 		}
 
@@ -2838,38 +2646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void SubmitRenderRequest[RequestData](RequestData)
-		/// </summary>
-		protected RMethod r_MSubmitRenderRequest_GRequestData_RequestData;
-		public virtual RMethod RMSubmitRenderRequest_GRequestData_RequestData
-		{
-			get
-			{
-				if(r_MSubmitRenderRequest_GRequestData_RequestData == null)
-				{
-					r_MSubmitRenderRequest_GRequestData_RequestData = new(this, "SubmitRenderRequest", 1, Type.MakeGenericMethodParameter(0));
-				}
-				return r_MSubmitRenderRequest_GRequestData_RequestData;
-			}
-		}
-
-		/// <summary>
-		/// Void HandleBuiltInObjectIDRenderRequest(UnityEngine.Rendering.ObjectIdRequest)
-		/// </summary>
-		protected RMethod r_MHandleBuiltInObjectIDRenderRequest_ObjectIdRequest;
-		public virtual RMethod RMHandleBuiltInObjectIDRenderRequest_ObjectIdRequest
-		{
-			get
-			{
-				if(r_MHandleBuiltInObjectIDRenderRequest_ObjectIdRequest == null)
-				{
-					r_MHandleBuiltInObjectIDRenderRequest_ObjectIdRequest = new(this, "HandleBuiltInObjectIDRenderRequest", 0, typeof(UnityEngine.Rendering.ObjectIdRequest));
-				}
-				return r_MHandleBuiltInObjectIDRenderRequest_ObjectIdRequest;
-			}
-		}
-
-		/// <summary>
 		/// Void SubmitRenderRequestsInternal(System.Object)
 		/// </summary>
 		protected RMethod r_MSubmitRenderRequestsInternal_Object;
@@ -2882,22 +2658,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MSubmitRenderRequestsInternal_Object = new(this, "SubmitRenderRequestsInternal", 0, typeof(System.Object));
 				}
 				return r_MSubmitRenderRequestsInternal_Object;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object[] SubmitBuiltInObjectIDRenderRequest(UnityEngine.RenderTexture, Int32, UnityEngine.CubemapFace, Int32)
-		/// </summary>
-		protected RMethod r_MSubmitBuiltInObjectIDRenderRequest_RenderTexture_Int32_CubemapFace_Int32;
-		public virtual RMethod RMSubmitBuiltInObjectIDRenderRequest_RenderTexture_Int32_CubemapFace_Int32
-		{
-			get
-			{
-				if(r_MSubmitBuiltInObjectIDRenderRequest_RenderTexture_Int32_CubemapFace_Int32 == null)
-				{
-					r_MSubmitBuiltInObjectIDRenderRequest_RenderTexture_Int32_CubemapFace_Int32 = new(this, "SubmitBuiltInObjectIDRenderRequest", 0, typeof(UnityEngine.RenderTexture), typeof(System.Int32), typeof(UnityEngine.CubemapFace), typeof(System.Int32));
-				}
-				return r_MSubmitBuiltInObjectIDRenderRequest_RenderTexture_Int32_CubemapFace_Int32;
 			}
 		}
 
@@ -3442,38 +3202,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_Mset_backgroundColor_Injected_Ref_Color = new(this, "set_backgroundColor_Injected", 0, typeof(UnityEngine.Color).MakeByRefType());
 				}
 				return r_Mset_backgroundColor_Injected_Ref_Color;
-			}
-		}
-
-		/// <summary>
-		/// Void get_curvature_Injected(UnityEngine.Vector2 ByRef)
-		/// </summary>
-		protected RMethod r_Mget_curvature_Injected_Out_Vector2;
-		public virtual RMethod RMget_curvature_Injected_Out_Vector2
-		{
-			get
-			{
-				if(r_Mget_curvature_Injected_Out_Vector2 == null)
-				{
-					r_Mget_curvature_Injected_Out_Vector2 = new(this, "get_curvature_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-				}
-				return r_Mget_curvature_Injected_Out_Vector2;
-			}
-		}
-
-		/// <summary>
-		/// Void set_curvature_Injected(UnityEngine.Vector2 ByRef)
-		/// </summary>
-		protected RMethod r_Mset_curvature_Injected_Ref_Vector2;
-		public virtual RMethod RMset_curvature_Injected_Ref_Vector2
-		{
-			get
-			{
-				if(r_Mset_curvature_Injected_Ref_Vector2 == null)
-				{
-					r_Mset_curvature_Injected_Ref_Vector2 = new(this, "set_curvature_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-				}
-				return r_Mset_curvature_Injected_Ref_Vector2;
 			}
 		}
 
@@ -4566,22 +4294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetComponentIndex()
-		/// </summary>
-		protected RMethod r_MGetComponentIndex;
-		public virtual RMethod RMGetComponentIndex
-		{
-			get
-			{
-				if(r_MGetComponentIndex == null)
-				{
-					r_MGetComponentIndex = new(this, "GetComponentIndex", 0);
-				}
-				return r_MGetComponentIndex;
-			}
-		}
-
-		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
 		protected RMethod r_MCompareTag_String;
@@ -4882,22 +4594,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -5691,28 +5387,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void SubmitRenderRequest<RequestData>(RequestData @renderRequest)
-        {
-
-            var ___genericsType = new Type[] {typeof(RequestData)};
-            var ___parameters = new object[]{@renderRequest};
-            var ___result = RMSubmitRenderRequest_GRequestData_RequestData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleBuiltInObjectIDRenderRequest(UnityEngine.Rendering.ObjectIdRequest @renderRequest)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderRequest};
-            var ___result = RMHandleBuiltInObjectIDRenderRequest_ObjectIdRequest.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void SubmitRenderRequestsInternal(System.Object @requests)
         {
 
@@ -5721,17 +5395,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMSubmitRenderRequestsInternal_Object.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual UnityEngine.Object[] SubmitBuiltInObjectIDRenderRequest(UnityEngine.RenderTexture @target, System.Int32 @mipLevel, UnityEngine.CubemapFace @cubemapFace, System.Int32 @depthSlice)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @mipLevel, @cubemapFace, @depthSlice};
-            var ___result = RMSubmitBuiltInObjectIDRenderRequest_RenderTexture_Int32_CubemapFace_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
         }
 
 
@@ -6121,31 +5784,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___parameters = new object[]{@value};
             var ___result = RMset_backgroundColor_Injected_Ref_Color.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Color>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual void get_curvature_Injected(out UnityEngine.Vector2 @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_curvature_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual void set_curvature_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_curvature_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             
         }
@@ -6980,17 +6618,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetComponentIndex()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentIndex.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual System.Boolean CompareTag(System.String @tag)
         {
 
@@ -7197,17 +6824,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

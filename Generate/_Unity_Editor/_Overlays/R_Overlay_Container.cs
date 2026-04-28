@@ -38,6 +38,86 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 
 
 		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_TopOverlays
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_TopOverlays;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_TopOverlays
+		{
+			get
+			{
+				if(r_Fm_TopOverlays == null)
+				{
+					r_Fm_TopOverlays = new(this, "m_TopOverlays");
+				}
+				return r_Fm_TopOverlays;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_BottomOverlaysOverlays
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_BottomOverlaysOverlays;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_BottomOverlaysOverlays
+		{
+			get
+			{
+				if(r_Fm_BottomOverlaysOverlays == null)
+				{
+					r_Fm_BottomOverlaysOverlays = new(this, "m_BottomOverlaysOverlays");
+				}
+				return r_Fm_BottomOverlaysOverlays;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.OverlayDropZoneBase <beforeSpacerDropZone>k__BackingField
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase r_F__0__beforeSpacerDropZone__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase RF__0__beforeSpacerDropZone__1__k__BackingField
+		{
+			get
+			{
+				if(r_F__0__beforeSpacerDropZone__1__k__BackingField == null)
+				{
+					r_F__0__beforeSpacerDropZone__1__k__BackingField = new(this, "<beforeSpacerDropZone>k__BackingField");
+				}
+				return r_F__0__beforeSpacerDropZone__1__k__BackingField;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.OverlayDropZoneBase <afterSpacerDropZone>k__BackingField
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase r_F__0__afterSpacerDropZone__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase RF__0__afterSpacerDropZone__1__k__BackingField
+		{
+			get
+			{
+				if(r_F__0__afterSpacerDropZone__1__k__BackingField == null)
+				{
+					r_F__0__afterSpacerDropZone__1__k__BackingField = new(this, "<afterSpacerDropZone>k__BackingField");
+				}
+				return r_F__0__afterSpacerDropZone__1__k__BackingField;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Layout m_SupportedOverlayLayouts
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Fm_SupportedOverlayLayouts;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFm_SupportedOverlayLayouts
+		{
+			get
+			{
+				if(r_Fm_SupportedOverlayLayouts == null)
+				{
+					r_Fm_SupportedOverlayLayouts = new(this, "m_SupportedOverlayLayouts");
+				}
+				return r_Fm_SupportedOverlayLayouts;
+			}
+		}
+
+		/// <summary>
 		/// System.String className
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RString r_FclassName;
@@ -102,50 +182,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.Overlay spacerMarker
+		/// System.Boolean m_IsHorizontal
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay r_FspacerMarker;
-		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay RFspacerMarker
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsHorizontal;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsHorizontal
 		{
 			get
 			{
-				if(r_FspacerMarker == null)
+				if(r_Fm_IsHorizontal == null)
 				{
-					r_FspacerMarker = new(Type, "spacerMarker");
+					r_Fm_IsHorizontal = new(this, "m_IsHorizontal");
 				}
-				return r_FspacerMarker;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_BeforeOverlays
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_BeforeOverlays;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_BeforeOverlays
-		{
-			get
-			{
-				if(r_Fm_BeforeOverlays == null)
-				{
-					r_Fm_BeforeOverlays = new(this, "m_BeforeOverlays");
-				}
-				return r_Fm_BeforeOverlays;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_AfterOverlays
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_AfterOverlays;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_AfterOverlays
-		{
-			get
-			{
-				if(r_Fm_AfterOverlays == null)
-				{
-					r_Fm_AfterOverlays = new(this, "m_AfterOverlays");
-				}
-				return r_Fm_AfterOverlays;
+				return r_Fm_IsHorizontal;
 			}
 		}
 
@@ -166,66 +214,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.Layout m_SupportedOverlayLayouts
+		/// UnityEngine.UIElements.VisualElement m_Canvas
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Fm_SupportedOverlayLayouts;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFm_SupportedOverlayLayouts
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_Canvas;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_Canvas
 		{
 			get
 			{
-				if(r_Fm_SupportedOverlayLayouts == null)
+				if(r_Fm_Canvas == null)
 				{
-					r_Fm_SupportedOverlayLayouts = new(this, "m_SupportedOverlayLayouts");
+					r_Fm_Canvas = new(this, "m_Canvas");
 				}
-				return r_Fm_SupportedOverlayLayouts;
+				return r_Fm_Canvas;
 			}
 		}
 
 		/// <summary>
-		/// System.Boolean m_IsHorizontal
+		/// System.Boolean m_StateLocked
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsHorizontal;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsHorizontal
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_StateLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_StateLocked
 		{
 			get
 			{
-				if(r_Fm_IsHorizontal == null)
+				if(r_Fm_StateLocked == null)
 				{
-					r_Fm_IsHorizontal = new(this, "m_IsHorizontal");
+					r_Fm_StateLocked = new(this, "m_StateLocked");
 				}
-				return r_Fm_IsHorizontal;
+				return r_Fm_StateLocked;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.OverlayCanvas <canvas>k__BackingField
+		/// System.Collections.Generic.HashSet`1[UnityEditor.Overlays.Overlay] m_VisibleInContainer
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas r_F__0__canvas__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas RF__0__canvas__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_VisibleInContainer;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_VisibleInContainer
 		{
 			get
 			{
-				if(r_F__0__canvas__1__k__BackingField == null)
+				if(r_Fm_VisibleInContainer == null)
 				{
-					r_F__0__canvas__1__k__BackingField = new(this, "<canvas>k__BackingField");
+					r_Fm_VisibleInContainer = new(this, "m_VisibleInContainer");
 				}
-				return r_F__0__canvas__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.VisualElementFlags m_Flags
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_Fm_Flags;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFm_Flags
-		{
-			get
-			{
-				if(r_Fm_Flags == null)
-				{
-					r_Fm_Flags = new(this, "m_Flags");
-				}
-				return r_Fm_Flags;
+				return r_Fm_VisibleInContainer;
 			}
 		}
 
@@ -438,50 +470,82 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.OverlayCanvas canvas
+		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] topOverlays
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas r_Pcanvas;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayCanvas RPcanvas
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_PtopOverlays;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RPtopOverlays
 		{
 			get
 			{
-				if(r_Pcanvas == null)
+				if(r_PtopOverlays == null)
 				{
-					r_Pcanvas = new(this, "canvas", -1);
+					r_PtopOverlays = new(this, "topOverlays", -1);
 				}
-				return r_Pcanvas;
+				return r_PtopOverlays;
 			}
 		}
 
 		/// <summary>
-		/// Int32 overlayCount
+		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] bottomOverlays
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PoverlayCount;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPoverlayCount
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_PbottomOverlays;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RPbottomOverlays
 		{
 			get
 			{
-				if(r_PoverlayCount == null)
+				if(r_PbottomOverlays == null)
 				{
-					r_PoverlayCount = new(this, "overlayCount", -1);
+					r_PbottomOverlays = new(this, "bottomOverlays", -1);
 				}
-				return r_PoverlayCount;
+				return r_PbottomOverlays;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.Layout preferredLayout
+		/// Int32 visibleOverlayCount
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_PpreferredLayout;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RPpreferredLayout
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PvisibleOverlayCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPvisibleOverlayCount
 		{
 			get
 			{
-				if(r_PpreferredLayout == null)
+				if(r_PvisibleOverlayCount == null)
 				{
-					r_PpreferredLayout = new(this, "preferredLayout", -1);
+					r_PvisibleOverlayCount = new(this, "visibleOverlayCount", -1);
 				}
-				return r_PpreferredLayout;
+				return r_PvisibleOverlayCount;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.OverlayDropZoneBase beforeSpacerDropZone
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase r_PbeforeSpacerDropZone;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase RPbeforeSpacerDropZone
+		{
+			get
+			{
+				if(r_PbeforeSpacerDropZone == null)
+				{
+					r_PbeforeSpacerDropZone = new(this, "beforeSpacerDropZone", -1);
+				}
+				return r_PbeforeSpacerDropZone;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.OverlayDropZoneBase afterSpacerDropZone
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase r_PafterSpacerDropZone;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZoneBase RPafterSpacerDropZone
+		{
+			get
+			{
+				if(r_PafterSpacerDropZone == null)
+				{
+					r_PafterSpacerDropZone = new(this, "afterSpacerDropZone", -1);
+				}
+				return r_PafterSpacerDropZone;
 			}
 		}
 
@@ -502,6 +566,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// UnityEditor.Overlays.Layout preferredLayout
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_PpreferredLayout;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RPpreferredLayout
+		{
+			get
+			{
+				if(r_PpreferredLayout == null)
+				{
+					r_PpreferredLayout = new(this, "preferredLayout", -1);
+				}
+				return r_PpreferredLayout;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElement spacer
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pspacer;
@@ -518,34 +598,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean isSpacerVisible
+		/// Boolean stateLocked
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisSpacerVisible;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisSpacerVisible
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PstateLocked;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPstateLocked
 		{
 			get
 			{
-				if(r_PisSpacerVisible == null)
+				if(r_PstateLocked == null)
 				{
-					r_PisSpacerVisible = new(this, "isSpacerVisible", -1);
+					r_PstateLocked = new(this, "stateLocked", -1);
 				}
-				return r_PisSpacerVisible;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.IResolvedStyle resolvedStyle
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle r_PresolvedStyle;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle RPresolvedStyle
-		{
-			get
-			{
-				if(r_PresolvedStyle == null)
-				{
-					r_PresolvedStyle = new(this, "resolvedStyle", -1);
-				}
-				return r_PresolvedStyle;
+				return r_PstateLocked;
 			}
 		}
 
@@ -870,22 +934,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean isWorldBoundingBoxOrDependenciesDirty
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisWorldBoundingBoxOrDependenciesDirty;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisWorldBoundingBoxOrDependenciesDirty
-		{
-			get
-			{
-				if(r_PisWorldBoundingBoxOrDependenciesDirty == null)
-				{
-					r_PisWorldBoundingBoxOrDependenciesDirty = new(this, "isWorldBoundingBoxOrDependenciesDirty", -1);
-				}
-				return r_PisWorldBoundingBoxOrDependenciesDirty;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Rect boundingBox
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_PboundingBox;
@@ -994,22 +1042,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_PisWorldTransformInverseDirty = new(this, "isWorldTransformInverseDirty", -1);
 				}
 				return r_PisWorldTransformInverseDirty;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isWorldTransformInverseOrDependenciesDirty
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisWorldTransformInverseOrDependenciesDirty;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisWorldTransformInverseOrDependenciesDirty
-		{
-			get
-			{
-				if(r_PisWorldTransformInverseOrDependenciesDirty == null)
-				{
-					r_PisWorldTransformInverseOrDependenciesDirty = new(this, "isWorldTransformInverseOrDependenciesDirty", -1);
-				}
-				return r_PisWorldTransformInverseOrDependenciesDirty;
 			}
 		}
 
@@ -1350,38 +1382,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.LanguageDirection languageDirection
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
-		{
-			get
-			{
-				if(r_PlanguageDirection == null)
-				{
-					r_PlanguageDirection = new(this, "languageDirection", -1);
-				}
-				return r_PlanguageDirection;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
-		{
-			get
-			{
-				if(r_PlocalLanguageDirection == null)
-				{
-					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
-				}
-				return r_PlocalLanguageDirection;
-			}
-		}
-
-		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -1458,70 +1458,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_PdefaultMaterial = new(this, "defaultMaterial", -1);
 				}
 				return r_PdefaultMaterial;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.VisualElement nextParentWithEventCallback
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PnextParentWithEventCallback;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPnextParentWithEventCallback
-		{
-			get
-			{
-				if(r_PnextParentWithEventCallback == null)
-				{
-					r_PnextParentWithEventCallback = new(this, "nextParentWithEventCallback", -1);
-				}
-				return r_PnextParentWithEventCallback;
-			}
-		}
-
-		/// <summary>
-		/// Int32 eventCallbackCategories
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PeventCallbackCategories;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPeventCallbackCategories
-		{
-			get
-			{
-				if(r_PeventCallbackCategories == null)
-				{
-					r_PeventCallbackCategories = new(this, "eventCallbackCategories", -1);
-				}
-				return r_PeventCallbackCategories;
-			}
-		}
-
-		/// <summary>
-		/// Int32 eventCallbackParentCategories
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PeventCallbackParentCategories;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPeventCallbackParentCategories
-		{
-			get
-			{
-				if(r_PeventCallbackParentCategories == null)
-				{
-					r_PeventCallbackParentCategories = new(this, "eventCallbackParentCategories", -1);
-				}
-				return r_PeventCallbackParentCategories;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isEventCallbackParentCategoriesDirty
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEventCallbackParentCategoriesDirty;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisEventCallbackParentCategoriesDirty
-		{
-			get
-			{
-				if(r_PisEventCallbackParentCategoriesDirty == null)
-				{
-					r_PisEventCallbackParentCategoriesDirty = new(this, "isEventCallbackParentCategoriesDirty", -1);
-				}
-				return r_PisEventCallbackParentCategoriesDirty;
 			}
 		}
 
@@ -1718,6 +1654,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.ILiveReloadAssetTracker`1[UnityEngine.UIElements.VisualTreeAsset] visualTreeAssetTracker
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> r_PvisualTreeAssetTracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> RPvisualTreeAssetTracker
+		{
+			get
+			{
+				if(r_PvisualTreeAssetTracker == null)
+				{
+					r_PvisualTreeAssetTracker = new(this, "visualTreeAssetTracker", -1);
+				}
+				return r_PvisualTreeAssetTracker;
+			}
+		}
+
+		/// <summary>
 		/// Boolean hasDefaultRotationAndScale
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasDefaultRotationAndScale;
@@ -1810,6 +1762,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Ptooltip = new(this, "tooltip", -1);
 				}
 				return r_Ptooltip;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.IResolvedStyle resolvedStyle
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle r_PresolvedStyle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle RPresolvedStyle
+		{
+			get
+			{
+				if(r_PresolvedStyle == null)
+				{
+					r_PresolvedStyle = new(this, "resolvedStyle", -1);
+				}
+				return r_PresolvedStyle;
 			}
 		}
 
@@ -1910,182 +1878,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean ContainsOverlay(UnityEditor.Overlays.Overlay, UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MContainsOverlay_Overlay_OverlayContainerSection;
-		public virtual RMethod RMContainsOverlay_Overlay_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MContainsOverlay_Overlay_OverlayContainerSection == null)
-				{
-					r_MContainsOverlay_Overlay_OverlayContainerSection = new(this, "ContainsOverlay", 0, typeof(UnityEditor.Overlays.Overlay),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MContainsOverlay_Overlay_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
-		/// Boolean ContainsOverlay(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MContainsOverlay_Overlay;
-		public virtual RMethod RMContainsOverlay_Overlay
-		{
-			get
-			{
-				if(r_MContainsOverlay_Overlay == null)
-				{
-					r_MContainsOverlay_Overlay = new(this, "ContainsOverlay", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MContainsOverlay_Overlay;
-			}
-		}
-
-		/// <summary>
-		/// Void InsertOverlay(UnityEditor.Overlays.Overlay, UnityEditor.Overlays.OverlayContainerSection, Int32)
-		/// </summary>
-		protected RMethod r_MInsertOverlay_Overlay_OverlayContainerSection_Int32;
-		public virtual RMethod RMInsertOverlay_Overlay_OverlayContainerSection_Int32
-		{
-			get
-			{
-				if(r_MInsertOverlay_Overlay_OverlayContainerSection_Int32 == null)
-				{
-					r_MInsertOverlay_Overlay_OverlayContainerSection_Int32 = new(this, "InsertOverlay", 0, typeof(UnityEditor.Overlays.Overlay),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"), typeof(System.Int32));
-				}
-				return r_MInsertOverlay_Overlay_OverlayContainerSection_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Boolean RemoveOverlay(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MRemoveOverlay_Overlay;
-		public virtual RMethod RMRemoveOverlay_Overlay
-		{
-			get
-			{
-				if(r_MRemoveOverlay_Overlay == null)
-				{
-					r_MRemoveOverlay_Overlay = new(this, "RemoveOverlay", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MRemoveOverlay_Overlay;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetOverlayIndex(UnityEditor.Overlays.Overlay, UnityEditor.Overlays.OverlayContainerSection ByRef, Int32 ByRef)
-		/// </summary>
-		protected RMethod r_MGetOverlayIndex_Overlay_Out_OverlayContainerSection_Out_Int32;
-		public virtual RMethod RMGetOverlayIndex_Overlay_Out_OverlayContainerSection_Out_Int32
-		{
-			get
-			{
-				if(r_MGetOverlayIndex_Overlay_Out_OverlayContainerSection_Out_Int32 == null)
-				{
-					r_MGetOverlayIndex_Overlay_Out_OverlayContainerSection_Out_Int32 = new(this, "GetOverlayIndex", 0, typeof(UnityEditor.Overlays.Overlay),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection").MakeByRefType(), typeof(System.Int32).MakeByRefType());
-				}
-				return r_MGetOverlayIndex_Overlay_Out_OverlayContainerSection_Out_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasVisibleOverlays()
-		/// </summary>
-		protected RMethod r_MHasVisibleOverlays;
-		public virtual RMethod RMHasVisibleOverlays
-		{
-			get
-			{
-				if(r_MHasVisibleOverlays == null)
-				{
-					r_MHasVisibleOverlays = new(this, "HasVisibleOverlays", 0);
-				}
-				return r_MHasVisibleOverlays;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetSectionCount(UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MGetSectionCount_OverlayContainerSection;
-		public virtual RMethod RMGetSectionCount_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MGetSectionCount_OverlayContainerSection == null)
-				{
-					r_MGetSectionCount_OverlayContainerSection = new(this, "GetSectionCount", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MGetSectionCount_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.ObjectModel.ReadOnlyCollection`1[UnityEditor.Overlays.Overlay] GetSection(UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MGetSection_OverlayContainerSection;
-		public virtual RMethod RMGetSection_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MGetSection_OverlayContainerSection == null)
-				{
-					r_MGetSection_OverlayContainerSection = new(this, "GetSection", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MGetSection_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] GetSectionInternal(UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MGetSectionInternal_OverlayContainerSection;
-		public virtual RMethod RMGetSectionInternal_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MGetSectionInternal_OverlayContainerSection == null)
-				{
-					r_MGetSectionInternal_OverlayContainerSection = new(this, "GetSectionInternal", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MGetSectionInternal_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.Overlay GetFirstVisible(UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MGetFirstVisible_OverlayContainerSection;
-		public virtual RMethod RMGetFirstVisible_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MGetFirstVisible_OverlayContainerSection == null)
-				{
-					r_MGetFirstVisible_OverlayContainerSection = new(this, "GetFirstVisible", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MGetFirstVisible_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.Overlay GetLastVisible(UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MGetLastVisible_OverlayContainerSection;
-		public virtual RMethod RMGetLastVisible_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MGetLastVisible_OverlayContainerSection == null)
-				{
-					r_MGetLastVisible_OverlayContainerSection = new(this, "GetLastVisible", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MGetLastVisible_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
 		/// Boolean IsOverlayLayoutSupported(UnityEditor.Overlays.Layout)
 		/// </summary>
 		protected RMethod r_MIsOverlayLayoutSupported_Layout;
@@ -2102,82 +1894,338 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean TryConvertLengthUnits(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Length ByRef, UnityEngine.UIElements.Length ByRef, Int32)
+		/// Void OnAttachedToPanel(UnityEngine.UIElements.AttachToPanelEvent)
 		/// </summary>
-		protected RMethod r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
-		public virtual RMethod RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32
+		protected RMethod r_MOnAttachedToPanel_AttachToPanelEvent;
+		public virtual RMethod RMOnAttachedToPanel_AttachToPanelEvent
 		{
 			get
 			{
-				if(r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 == null)
+				if(r_MOnAttachedToPanel_AttachToPanelEvent == null)
 				{
-					r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 = new(this, "TryConvertLengthUnits", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(System.Int32));
+					r_MOnAttachedToPanel_AttachToPanelEvent = new(this, "OnAttachedToPanel", 0, typeof(UnityEngine.UIElements.AttachToPanelEvent));
 				}
-				return r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
+				return r_MOnAttachedToPanel_AttachToPanelEvent;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertTransformOriginUnits(UnityEngine.UIElements.TransformOrigin ByRef, UnityEngine.UIElements.TransformOrigin ByRef)
+		/// Boolean InitSpacer()
 		/// </summary>
-		protected RMethod r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
-		public virtual RMethod RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin
+		protected RMethod r_MInitSpacer;
+		public virtual RMethod RMInitSpacer
 		{
 			get
 			{
-				if(r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin == null)
+				if(r_MInitSpacer == null)
 				{
-					r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin = new(this, "TryConvertTransformOriginUnits", 0, typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType(), typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType());
+					r_MInitSpacer = new(this, "InitSpacer", 0);
 				}
-				return r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
+				return r_MInitSpacer;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertTranslateUnits(UnityEngine.UIElements.Translate ByRef, UnityEngine.UIElements.Translate ByRef)
+		/// Void RemoveOverlay(UnityEditor.Overlays.Overlay)
 		/// </summary>
-		protected RMethod r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate;
-		public virtual RMethod RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate
+		protected RMethod r_MRemoveOverlay_Overlay;
+		public virtual RMethod RMRemoveOverlay_Overlay
 		{
 			get
 			{
-				if(r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate == null)
+				if(r_MRemoveOverlay_Overlay == null)
 				{
-					r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate = new(this, "TryConvertTranslateUnits", 0, typeof(UnityEngine.UIElements.Translate).MakeByRefType(), typeof(UnityEngine.UIElements.Translate).MakeByRefType());
+					r_MRemoveOverlay_Overlay = new(this, "RemoveOverlay", 0, typeof(UnityEditor.Overlays.Overlay));
 				}
-				return r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate;
+				return r_MRemoveOverlay_Overlay;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertBackgroundPositionUnits(UnityEngine.UIElements.BackgroundPosition ByRef, UnityEngine.UIElements.BackgroundPosition ByRef)
+		/// Void InsertBefore(UnityEditor.Overlays.Overlay, UnityEditor.Overlays.Overlay)
 		/// </summary>
-		protected RMethod r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
-		public virtual RMethod RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition
+		protected RMethod r_MInsertBefore_Overlay_Overlay;
+		public virtual RMethod RMInsertBefore_Overlay_Overlay
 		{
 			get
 			{
-				if(r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition == null)
+				if(r_MInsertBefore_Overlay_Overlay == null)
 				{
-					r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition = new(this, "TryConvertBackgroundPositionUnits", 0, typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType());
+					r_MInsertBefore_Overlay_Overlay = new(this, "InsertBefore", 0, typeof(UnityEditor.Overlays.Overlay), typeof(UnityEditor.Overlays.Overlay));
 				}
-				return r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
+				return r_MInsertBefore_Overlay_Overlay;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertBackgroundSizeUnits(UnityEngine.UIElements.BackgroundSize ByRef, UnityEngine.UIElements.BackgroundSize ByRef)
+		/// Void AddAfter(UnityEditor.Overlays.Overlay, UnityEditor.Overlays.Overlay)
 		/// </summary>
-		protected RMethod r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
-		public virtual RMethod RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize
+		protected RMethod r_MAddAfter_Overlay_Overlay;
+		public virtual RMethod RMAddAfter_Overlay_Overlay
 		{
 			get
 			{
-				if(r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize == null)
+				if(r_MAddAfter_Overlay_Overlay == null)
 				{
-					r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize = new(this, "TryConvertBackgroundSizeUnits", 0, typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType());
+					r_MAddAfter_Overlay_Overlay = new(this, "AddAfter", 0, typeof(UnityEditor.Overlays.Overlay), typeof(UnityEditor.Overlays.Overlay));
 				}
-				return r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
+				return r_MAddAfter_Overlay_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void AddToTop(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MAddToTop_Overlay;
+		public virtual RMethod RMAddToTop_Overlay
+		{
+			get
+			{
+				if(r_MAddToTop_Overlay == null)
+				{
+					r_MAddToTop_Overlay = new(this, "AddToTop", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MAddToTop_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void AddToBottom(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MAddToBottom_Overlay;
+		public virtual RMethod RMAddToBottom_Overlay
+		{
+			get
+			{
+				if(r_MAddToBottom_Overlay == null)
+				{
+					r_MAddToBottom_Overlay = new(this, "AddToBottom", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MAddToBottom_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void OnOverlayAdded(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MOnOverlayAdded_Overlay;
+		public virtual RMethod RMOnOverlayAdded_Overlay
+		{
+			get
+			{
+				if(r_MOnOverlayAdded_Overlay == null)
+				{
+					r_MOnOverlayAdded_Overlay = new(this, "OnOverlayAdded", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MOnOverlayAdded_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void OnOverlayRemoved(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MOnOverlayRemoved_Overlay;
+		public virtual RMethod RMOnOverlayRemoved_Overlay
+		{
+			get
+			{
+				if(r_MOnOverlayRemoved_Overlay == null)
+				{
+					r_MOnOverlayRemoved_Overlay = new(this, "OnOverlayRemoved", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MOnOverlayRemoved_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Overlay FirstTopOverlay()
+		/// </summary>
+		protected RMethod r_MFirstTopOverlay;
+		public virtual RMethod RMFirstTopOverlay
+		{
+			get
+			{
+				if(r_MFirstTopOverlay == null)
+				{
+					r_MFirstTopOverlay = new(this, "FirstTopOverlay", 0);
+				}
+				return r_MFirstTopOverlay;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Overlay LastTopOverlay()
+		/// </summary>
+		protected RMethod r_MLastTopOverlay;
+		public virtual RMethod RMLastTopOverlay
+		{
+			get
+			{
+				if(r_MLastTopOverlay == null)
+				{
+					r_MLastTopOverlay = new(this, "LastTopOverlay", 0);
+				}
+				return r_MLastTopOverlay;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Overlay FirstBottomOverlay()
+		/// </summary>
+		protected RMethod r_MFirstBottomOverlay;
+		public virtual RMethod RMFirstBottomOverlay
+		{
+			get
+			{
+				if(r_MFirstBottomOverlay == null)
+				{
+					r_MFirstBottomOverlay = new(this, "FirstBottomOverlay", 0);
+				}
+				return r_MFirstBottomOverlay;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Overlay LastBottomOverlay()
+		/// </summary>
+		protected RMethod r_MLastBottomOverlay;
+		public virtual RMethod RMLastBottomOverlay
+		{
+			get
+			{
+				if(r_MLastBottomOverlay == null)
+				{
+					r_MLastBottomOverlay = new(this, "LastBottomOverlay", 0);
+				}
+				return r_MLastBottomOverlay;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Overlay FirstValidOverlay(System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay])
+		/// </summary>
+		protected RMethod r_MFirstValidOverlay_List_d_Overlay_p_;
+		public virtual RMethod RMFirstValidOverlay_List_d_Overlay_p_
+		{
+			get
+			{
+				if(r_MFirstValidOverlay_List_d_Overlay_p_ == null)
+				{
+					r_MFirstValidOverlay_List_d_Overlay_p_ = new(this, "FirstValidOverlay", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.Overlays.Overlay)));
+				}
+				return r_MFirstValidOverlay_List_d_Overlay_p_;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.Overlays.Overlay LastValidOverlay(System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay])
+		/// </summary>
+		protected RMethod r_MLastValidOverlay_List_d_Overlay_p_;
+		public virtual RMethod RMLastValidOverlay_List_d_Overlay_p_
+		{
+			get
+			{
+				if(r_MLastValidOverlay_List_d_Overlay_p_ == null)
+				{
+					r_MLastValidOverlay_List_d_Overlay_p_ = new(this, "LastValidOverlay", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.Overlays.Overlay)));
+				}
+				return r_MLastValidOverlay_List_d_Overlay_p_;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsOverlayVisibleInContainer(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MIsOverlayVisibleInContainer_Overlay;
+		public virtual RMethod RMIsOverlayVisibleInContainer_Overlay
+		{
+			get
+			{
+				if(r_MIsOverlayVisibleInContainer_Overlay == null)
+				{
+					r_MIsOverlayVisibleInContainer_Overlay = new(this, "IsOverlayVisibleInContainer", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MIsOverlayVisibleInContainer_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void OnOverlayBecomeVisibleInContainer(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MOnOverlayBecomeVisibleInContainer_Overlay;
+		public virtual RMethod RMOnOverlayBecomeVisibleInContainer_Overlay
+		{
+			get
+			{
+				if(r_MOnOverlayBecomeVisibleInContainer_Overlay == null)
+				{
+					r_MOnOverlayBecomeVisibleInContainer_Overlay = new(this, "OnOverlayBecomeVisibleInContainer", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MOnOverlayBecomeVisibleInContainer_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void OnOverlayBecomeInvisibleInContainer(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MOnOverlayBecomeInvisibleInContainer_Overlay;
+		public virtual RMethod RMOnOverlayBecomeInvisibleInContainer_Overlay
+		{
+			get
+			{
+				if(r_MOnOverlayBecomeInvisibleInContainer_Overlay == null)
+				{
+					r_MOnOverlayBecomeInvisibleInContainer_Overlay = new(this, "OnOverlayBecomeInvisibleInContainer", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MOnOverlayBecomeInvisibleInContainer_Overlay;
+			}
+		}
+
+		/// <summary>
+		/// Void OnStateLocked()
+		/// </summary>
+		protected RMethod r_MOnStateLocked;
+		public virtual RMethod RMOnStateLocked
+		{
+			get
+			{
+				if(r_MOnStateLocked == null)
+				{
+					r_MOnStateLocked = new(this, "OnStateLocked", 0);
+				}
+				return r_MOnStateLocked;
+			}
+		}
+
+		/// <summary>
+		/// Void OnStateUnlocked()
+		/// </summary>
+		protected RMethod r_MOnStateUnlocked;
+		public virtual RMethod RMOnStateUnlocked
+		{
+			get
+			{
+				if(r_MOnStateUnlocked == null)
+				{
+					r_MOnStateUnlocked = new(this, "OnStateUnlocked", 0);
+				}
+				return r_MOnStateUnlocked;
+			}
+		}
+
+		/// <summary>
+		/// Void UpdateIsVisibleInContainer(UnityEditor.Overlays.Overlay)
+		/// </summary>
+		protected RMethod r_MUpdateIsVisibleInContainer_Overlay;
+		public virtual RMethod RMUpdateIsVisibleInContainer_Overlay
+		{
+			get
+			{
+				if(r_MUpdateIsVisibleInContainer_Overlay == null)
+				{
+					r_MUpdateIsVisibleInContainer_Overlay = new(this, "UpdateIsVisibleInContainer", 0, typeof(UnityEditor.Overlays.Overlay));
+				}
+				return r_MUpdateIsVisibleInContainer_Overlay;
 			}
 		}
 
@@ -2198,18 +2246,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void ClearManualLayout()
+		/// UnityEngine.Vector3 ComputeGlobalScale()
 		/// </summary>
-		protected RMethod r_MClearManualLayout;
-		public virtual RMethod RMClearManualLayout
+		protected RMethod r_MComputeGlobalScale;
+		public virtual RMethod RMComputeGlobalScale
 		{
 			get
 			{
-				if(r_MClearManualLayout == null)
+				if(r_MComputeGlobalScale == null)
 				{
-					r_MClearManualLayout = new(this, "ClearManualLayout", 0);
+					r_MComputeGlobalScale = new(this, "ComputeGlobalScale", 0);
 				}
-				return r_MClearManualLayout;
+				return r_MComputeGlobalScale;
 			}
 		}
 
@@ -3030,134 +3078,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean GetCachedNextParentWithEventCallback(UnityEngine.UIElements.VisualElement ByRef)
-		/// </summary>
-		protected RMethod r_MGetCachedNextParentWithEventCallback_Out_VisualElement;
-		public virtual RMethod RMGetCachedNextParentWithEventCallback_Out_VisualElement
-		{
-			get
-			{
-				if(r_MGetCachedNextParentWithEventCallback_Out_VisualElement == null)
-				{
-					r_MGetCachedNextParentWithEventCallback_Out_VisualElement = new(this, "GetCachedNextParentWithEventCallback", 0, typeof(UnityEngine.UIElements.VisualElement).MakeByRefType());
-				}
-				return r_MGetCachedNextParentWithEventCallback_Out_VisualElement;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasEventCallbacks(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasEventCallbacks_EventCategory;
-		public virtual RMethod RMHasEventCallbacks_EventCategory
-		{
-			get
-			{
-				if(r_MHasEventCallbacks_EventCategory == null)
-				{
-					r_MHasEventCallbacks_EventCategory = new(this, "HasEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasEventCallbacks_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParentEventCallbacks(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasParentEventCallbacks_EventCategory;
-		public virtual RMethod RMHasParentEventCallbacks_EventCategory
-		{
-			get
-			{
-				if(r_MHasParentEventCallbacks_EventCategory == null)
-				{
-					r_MHasParentEventCallbacks_EventCategory = new(this, "HasParentEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasParentEventCallbacks_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParentEventCallbacksOrDefaultActions(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasParentEventCallbacksOrDefaultActions_EventCategory;
-		public virtual RMethod RMHasParentEventCallbacksOrDefaultActions_EventCategory
-		{
-			get
-			{
-				if(r_MHasParentEventCallbacksOrDefaultActions_EventCategory == null)
-				{
-					r_MHasParentEventCallbacksOrDefaultActions_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasParentEventCallbacksOrDefaultActions_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasEventCallbacksOrDefaultActions(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasEventCallbacksOrDefaultActions_EventCategory;
-		public virtual RMethod RMHasEventCallbacksOrDefaultActions_EventCategory
-		{
-			get
-			{
-				if(r_MHasEventCallbacksOrDefaultActions_EventCategory == null)
-				{
-					r_MHasEventCallbacksOrDefaultActions_EventCategory = new(this, "HasEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasEventCallbacksOrDefaultActions_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParentEventCallbacksOrDefaultActionAtTarget(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
-		public virtual RMethod RMHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory
-		{
-			get
-			{
-				if(r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
-				{
-					r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasEventCallbacksOrDefaultActionAtTarget(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory;
-		public virtual RMethod RMHasEventCallbacksOrDefaultActionAtTarget_EventCategory
-		{
-			get
-			{
-				if(r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
-				{
-					r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasDefaultAction(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasDefaultAction_EventCategory;
-		public virtual RMethod RMHasDefaultAction_EventCategory
-		{
-			get
-			{
-				if(r_MHasDefaultAction_EventCategory == null)
-				{
-					r_MHasDefaultAction_EventCategory = new(this, "HasDefaultAction", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasDefaultAction_EventCategory;
-			}
-		}
-
-		/// <summary>
 		/// Boolean ShouldClip()
 		/// </summary>
 		protected RMethod r_MShouldClip;
@@ -3462,22 +3382,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate`1[UnityEngine.UIElements.VisualElement])
-		/// </summary>
-		protected RMethod r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
-		public virtual RMethod RMGetFirstAncestorWhere_Predicate_d_VisualElement_p_
-		{
-			get
-			{
-				if(r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ == null)
-				{
-					r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ = new(this, "GetFirstAncestorWhere", 0,  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-				}
-				return r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Contains(UnityEngine.UIElements.VisualElement)
 		/// </summary>
 		protected RMethod r_MContains_VisualElement;
@@ -3586,22 +3490,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MRetargetElement_VisualElement = new(this, "RetargetElement", 0, typeof(UnityEngine.UIElements.VisualElement));
 				}
 				return r_MRetargetElement_VisualElement;
-			}
-		}
-
-		/// <summary>
-		/// Void GetPivotedMatrixWithLayout(UnityEngine.Matrix4x4 ByRef)
-		/// </summary>
-		protected RMethod r_MGetPivotedMatrixWithLayout_Out_Matrix4x4;
-		public virtual RMethod RMGetPivotedMatrixWithLayout_Out_Matrix4x4
-		{
-			get
-			{
-				if(r_MGetPivotedMatrixWithLayout_Out_Matrix4x4 == null)
-				{
-					r_MGetPivotedMatrixWithLayout_Out_Matrix4x4 = new(this, "GetPivotedMatrixWithLayout", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-				}
-				return r_MGetPivotedMatrixWithLayout_Out_Matrix4x4;
 			}
 		}
 
@@ -3814,54 +3702,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase)
-		/// </summary>
-		protected RMethod r_MHandleEventAtTargetAndDefaultPhase_EventBase;
-		public virtual RMethod RMHandleEventAtTargetAndDefaultPhase_EventBase
-		{
-			get
-			{
-				if(r_MHandleEventAtTargetAndDefaultPhase_EventBase == null)
-				{
-					r_MHandleEventAtTargetAndDefaultPhase_EventBase = new(this, "HandleEventAtTargetAndDefaultPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-				}
-				return r_MHandleEventAtTargetAndDefaultPhase_EventBase;
-			}
-		}
-
-		/// <summary>
-		/// Void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase)
-		/// </summary>
-		protected RMethod r_MHandleEventAtCurrentTargetAndPhase_EventBase;
-		public virtual RMethod RMHandleEventAtCurrentTargetAndPhase_EventBase
-		{
-			get
-			{
-				if(r_MHandleEventAtCurrentTargetAndPhase_EventBase == null)
-				{
-					r_MHandleEventAtCurrentTargetAndPhase_EventBase = new(this, "HandleEventAtCurrentTargetAndPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-				}
-				return r_MHandleEventAtCurrentTargetAndPhase_EventBase;
-			}
-		}
-
-		/// <summary>
-		/// Void HandleEventEditorInternal(UnityEngine.UIElements.EventBase)
-		/// </summary>
-		protected RMethod r_MHandleEventEditorInternal_EventBase;
-		public virtual RMethod RMHandleEventEditorInternal_EventBase
-		{
-			get
-			{
-				if(r_MHandleEventEditorInternal_EventBase == null)
-				{
-					r_MHandleEventEditorInternal_EventBase = new(this, "HandleEventEditorInternal", 0, typeof(UnityEngine.UIElements.EventBase));
-				}
-				return r_MHandleEventEditorInternal_EventBase;
-			}
-		}
-
-		/// <summary>
 		/// Void HandleEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
 		protected RMethod r_MHandleEvent_EventBase;
@@ -4044,131 +3884,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean ContainsOverlay(UnityEditor.Overlays.Overlay @overlay, Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @section.Value};
-            var ___result = RMContainsOverlay_Overlay_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ContainsOverlay(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMContainsOverlay_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void InsertOverlay(UnityEditor.Overlays.Overlay @overlay, Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @section.Value, @index};
-            var ___result = RMInsertOverlay_Overlay_OverlayContainerSection_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean RemoveOverlay(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMRemoveOverlay_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean GetOverlayIndex(UnityEditor.Overlays.Overlay @overlay, out Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section, out System.Int32 @index)
-        {
-			@section = default;
-			@index = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @section.Value, @index};
-            var ___result = RMGetOverlayIndex_Overlay_Out_OverlayContainerSection_Out_Int32.Invoke(___genericsType, ___parameters);
-			@section = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection>(___parameters[1]);
-			@index = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasVisibleOverlays()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasVisibleOverlays.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 GetSectionCount(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@section.Value};
-            var ___result = RMGetSectionCount_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Collections.ObjectModel.ReadOnlyCollection<UnityEditor.Overlays.Overlay> GetSection(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@section.Value};
-            var ___result = RMGetSection_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.ObjectModel.ReadOnlyCollection<UnityEditor.Overlays.Overlay>>(___result);
-        }
-
-
-        public virtual System.Collections.Generic.List<UnityEditor.Overlays.Overlay> GetSectionInternal(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@section.Value};
-            var ___result = RMGetSectionInternal_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<UnityEditor.Overlays.Overlay>>(___result);
-        }
-
-
-        public virtual UnityEditor.Overlays.Overlay GetFirstVisible(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@section.Value};
-            var ___result = RMGetFirstVisible_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
-        }
-
-
-        public virtual UnityEditor.Overlays.Overlay GetLastVisible(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@section.Value};
-            var ___result = RMGetLastVisible_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
-        }
-
-
         public virtual System.Boolean IsOverlayLayoutSupported(UnityEditor.Overlays.Layout @requested)
         {
 
@@ -4180,68 +3895,234 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean TryConvertLengthUnits(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to, System.Int32 @subPropertyIndex)
+        public virtual void OnAttachedToPanel(UnityEngine.UIElements.AttachToPanelEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
-            var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[1]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[2]);
+            var ___parameters = new object[]{@evt};
+            var ___result = RMOnAttachedToPanel_AttachToPanelEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean InitSpacer()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMInitSpacer.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin @from, ref UnityEngine.UIElements.TransformOrigin @to)
+        public virtual void RemoveOverlay(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[1]);
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMRemoveOverlay_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void InsertBefore(UnityEditor.Overlays.Overlay @overlay, UnityEditor.Overlays.Overlay @targetOverlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay, @targetOverlay};
+            var ___result = RMInsertBefore_Overlay_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddAfter(UnityEditor.Overlays.Overlay @overlay, UnityEditor.Overlays.Overlay @targetOverlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay, @targetOverlay};
+            var ___result = RMAddAfter_Overlay_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddToTop(UnityEditor.Overlays.Overlay @overlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMAddToTop_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddToBottom(UnityEditor.Overlays.Overlay @overlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMAddToBottom_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnOverlayAdded(UnityEditor.Overlays.Overlay @overlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMOnOverlayAdded_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnOverlayRemoved(UnityEditor.Overlays.Overlay @overlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMOnOverlayRemoved_Overlay.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual UnityEditor.Overlays.Overlay FirstTopOverlay()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMFirstTopOverlay.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
+        }
+
+
+        public virtual UnityEditor.Overlays.Overlay LastTopOverlay()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMLastTopOverlay.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
+        }
+
+
+        public virtual UnityEditor.Overlays.Overlay FirstBottomOverlay()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMFirstBottomOverlay.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
+        }
+
+
+        public virtual UnityEditor.Overlays.Overlay LastBottomOverlay()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMLastBottomOverlay.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
+        }
+
+
+        public virtual UnityEditor.Overlays.Overlay FirstValidOverlay(System.Collections.Generic.List<UnityEditor.Overlays.Overlay> @overlays)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlays};
+            var ___result = RMFirstValidOverlay_List_d_Overlay_p_.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
+        }
+
+
+        public virtual UnityEditor.Overlays.Overlay LastValidOverlay(System.Collections.Generic.List<UnityEditor.Overlays.Overlay> @overlays)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlays};
+            var ___result = RMLastValidOverlay_List_d_Overlay_p_.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.Overlays.Overlay>(___result);
+        }
+
+
+        public virtual System.Boolean IsOverlayVisibleInContainer(UnityEditor.Overlays.Overlay @overlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMIsOverlayVisibleInContainer_Overlay.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual System.Boolean TryConvertTranslateUnits(ref UnityEngine.UIElements.Translate @from, ref UnityEngine.UIElements.Translate @to)
+        public virtual void OnOverlayBecomeVisibleInContainer(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[1]);
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMOnOverlayBecomeVisibleInContainer_Overlay.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
         }
 
 
-        public virtual System.Boolean TryConvertBackgroundPositionUnits(ref UnityEngine.UIElements.BackgroundPosition @from, ref UnityEngine.UIElements.BackgroundPosition @to)
+        public virtual void OnOverlayBecomeInvisibleInContainer(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[1]);
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMOnOverlayBecomeInvisibleInContainer_Overlay.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
         }
 
 
-        public virtual System.Boolean TryConvertBackgroundSizeUnits(ref UnityEngine.UIElements.BackgroundSize @from, ref UnityEngine.UIElements.BackgroundSize @to)
+        public virtual void OnStateLocked()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[1]);
+            var ___parameters = new object[]{};
+            var ___result = RMOnStateLocked.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
+        }
+
+
+        public virtual void OnStateUnlocked()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMOnStateUnlocked.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void UpdateIsVisibleInContainer(UnityEditor.Overlays.Overlay @overlay)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlay};
+            var ___result = RMUpdateIsVisibleInContainer_Overlay.Invoke(___genericsType, ___parameters);
+
+            
         }
 
 
@@ -4256,14 +4137,14 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void ClearManualLayout()
+        public virtual UnityEngine.Vector3 ComputeGlobalScale()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMClearManualLayout.Invoke(___genericsType, ___parameters);
+            var ___result = RMComputeGlobalScale.Invoke(___genericsType, ___parameters);
 
-            
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -4829,96 +4710,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean GetCachedNextParentWithEventCallback(out UnityEngine.UIElements.VisualElement @nextParent)
-        {
-			@nextParent = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nextParent};
-            var ___result = RMGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
-			@nextParent = ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasEventCallbacks(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasParentEventCallbacks(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasParentEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasParentEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasEventCallbacksOrDefaultActions(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasDefaultAction(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasDefaultAction_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual System.Boolean ShouldClip()
         {
 
@@ -5128,17 +4919,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate<UnityEngine.UIElements.VisualElement> @predicate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@predicate};
-            var ___result = RMGetFirstAncestorWhere_Predicate_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
         public virtual System.Boolean Contains(UnityEngine.UIElements.VisualElement @child)
         {
 
@@ -5213,19 +4993,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___result = RMRetargetElement_VisualElement.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void GetPivotedMatrixWithLayout(out UnityEngine.Matrix4x4 @result)
-        {
-			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@result};
-            var ___result = RMGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
         }
 
 
@@ -5369,39 +5136,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
             var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventAtTargetAndDefaultPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventAtCurrentTargetAndPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleEventEditorInternal(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventEditorInternal_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }

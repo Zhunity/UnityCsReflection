@@ -54,6 +54,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// UnityEngine.Texture font
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Ffont;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFfont
+		{
+			get
+			{
+				if(r_Ffont == null)
+				{
+					r_Ffont = new(this, "font");
+				}
+				return r_Ffont;
+			}
+		}
+
+		/// <summary>
+		/// System.Single fontTexSDFScale
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontTexSDFScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFfontTexSDFScale
+		{
+			get
+			{
+				if(r_FfontTexSDFScale == null)
+				{
+					r_FfontTexSDFScale = new(this, "fontTexSDFScale");
+				}
+				return r_FfontTexSDFScale;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.TextureId texture
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId r_Ftexture;
@@ -82,22 +114,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_FstencilRef = new(this, "stencilRef");
 				}
 				return r_FstencilRef;
-			}
-		}
-
-		/// <summary>
-		/// System.Single sdfScale
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FsdfScale;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFsdfScale
-		{
-			get
-			{
-				if(r_FsdfScale == null)
-				{
-					r_FsdfScale = new(this, "sdfScale");
-				}
-				return r_FsdfScale;
 			}
 		}
 

@@ -54,18 +54,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void OnContextClick(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.ContextClickEvent)
+		/// Void OnPostMouseEvent(UnityEngine.UIElements.IPanel, UnityEngine.UIElements.IMouseEvent)
 		/// </summary>
-		protected RMethod r_MOnContextClick_IPanel_ContextClickEvent;
-		public virtual RMethod RMOnContextClick_IPanel_ContextClickEvent
+		protected RMethod r_MOnPostMouseEvent_IPanel_IMouseEvent;
+		public virtual RMethod RMOnPostMouseEvent_IPanel_IMouseEvent
 		{
 			get
 			{
-				if(r_MOnContextClick_IPanel_ContextClickEvent == null)
+				if(r_MOnPostMouseEvent_IPanel_IMouseEvent == null)
 				{
-					r_MOnContextClick_IPanel_ContextClickEvent = new(this, "OnContextClick", 0, typeof(UnityEngine.UIElements.IPanel), typeof(UnityEngine.UIElements.ContextClickEvent));
+					r_MOnPostMouseEvent_IPanel_IMouseEvent = new(this, "OnPostMouseEvent", 0, typeof(UnityEngine.UIElements.IPanel), typeof(UnityEngine.UIElements.IMouseEvent));
 				}
-				return r_MOnContextClick_IPanel_ContextClickEvent;
+				return r_MOnPostMouseEvent_IPanel_IMouseEvent;
 			}
 		}
 
@@ -81,12 +81,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void OnContextClick(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.ContextClickEvent @ev)
+        public virtual void OnPostMouseEvent(UnityEngine.UIElements.IPanel @panel, UnityEngine.UIElements.IMouseEvent @ev)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@panel, @ev};
-            var ___result = RMOnContextClick_IPanel_ContextClickEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnPostMouseEvent_IPanel_IMouseEvent.Invoke(___genericsType, ___parameters);
 
             
         }

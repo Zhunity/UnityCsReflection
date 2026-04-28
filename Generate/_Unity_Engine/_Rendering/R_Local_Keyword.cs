@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Boolean isDynamic
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDynamic;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDynamic
-		{
-			get
-			{
-				if(r_PisDynamic == null)
-				{
-					r_PisDynamic = new(this, "isDynamic", -1);
-				}
-				return r_PisDynamic;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isOverridable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisOverridable;
@@ -162,22 +146,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_Ptype = new(this, "type", -1);
 				}
 				return r_Ptype;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsDynamic(UnityEngine.Rendering.LocalKeyword)
-		/// </summary>
-		protected static RMethod r_MIsDynamic_LocalKeyword;
-		public static RMethod RMIsDynamic_LocalKeyword
-		{
-			get
-			{
-				if(r_MIsDynamic_LocalKeyword == null)
-				{
-					r_MIsDynamic_LocalKeyword = new(Type, "IsDynamic", 0, typeof(UnityEngine.Rendering.LocalKeyword));
-				}
-				return r_MIsDynamic_LocalKeyword;
 			}
 		}
 
@@ -390,22 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Boolean IsDynamic_Injected(UnityEngine.Rendering.LocalKeyword ByRef)
-		/// </summary>
-		protected static RMethod r_MIsDynamic_Injected_Ref_LocalKeyword;
-		public static RMethod RMIsDynamic_Injected_Ref_LocalKeyword
-		{
-			get
-			{
-				if(r_MIsDynamic_Injected_Ref_LocalKeyword == null)
-				{
-					r_MIsDynamic_Injected_Ref_LocalKeyword = new(Type, "IsDynamic_Injected", 0, typeof(UnityEngine.Rendering.LocalKeyword).MakeByRefType());
-				}
-				return r_MIsDynamic_Injected_Ref_LocalKeyword;
-			}
-		}
-
-		/// <summary>
 		/// Boolean IsOverridable_Injected(UnityEngine.Rendering.LocalKeyword ByRef)
 		/// </summary>
 		protected static RMethod r_MIsOverridable_Injected_Ref_LocalKeyword;
@@ -500,17 +452,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public static System.Boolean IsDynamic(UnityEngine.Rendering.LocalKeyword @kw)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@kw};
-            var ___result = RMIsDynamic_LocalKeyword.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
 
 
         public static System.Boolean IsOverridable(UnityEngine.Rendering.LocalKeyword @kw)
@@ -653,18 +594,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean IsDynamic_Injected(ref UnityEngine.Rendering.LocalKeyword @kw)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@kw};
-            var ___result = RMIsDynamic_Injected_Ref_LocalKeyword.Invoke(___genericsType, ___parameters);
-			@kw = ReflectionUtils.Convert<UnityEngine.Rendering.LocalKeyword>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

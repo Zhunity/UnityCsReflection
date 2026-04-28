@@ -310,38 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector2 tilt
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Ptilt;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPtilt
-		{
-			get
-			{
-				if(r_Ptilt == null)
-				{
-					r_Ptilt = new(this, "tilt", -1);
-				}
-				return r_Ptilt;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.PenStatus penStatus
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_PpenStatus;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RPpenStatus
-		{
-			get
-			{
-				if(r_PpenStatus == null)
-				{
-					r_PpenStatus = new(this, "penStatus", -1);
-				}
-				return r_PpenStatus;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector2 radius
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Pradius;
@@ -502,22 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
-			}
-		}
-
-		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
@@ -626,22 +578,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 

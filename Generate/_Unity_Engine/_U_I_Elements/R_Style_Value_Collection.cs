@@ -134,38 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(UnityEngine.UIElements.StyleSheets.StylePropertyId)
-		/// </summary>
-		protected RMethod r_MGetStyleBackgroundPosition_StylePropertyId;
-		public virtual RMethod RMGetStyleBackgroundPosition_StylePropertyId
-		{
-			get
-			{
-				if(r_MGetStyleBackgroundPosition_StylePropertyId == null)
-				{
-					r_MGetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-				}
-				return r_MGetStyleBackgroundPosition_StylePropertyId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(UnityEngine.UIElements.StyleSheets.StylePropertyId)
-		/// </summary>
-		protected RMethod r_MGetStyleBackgroundRepeat_StylePropertyId;
-		public virtual RMethod RMGetStyleBackgroundRepeat_StylePropertyId
-		{
-			get
-			{
-				if(r_MGetStyleBackgroundRepeat_StylePropertyId == null)
-				{
-					r_MGetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-				}
-				return r_MGetStyleBackgroundRepeat_StylePropertyId;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.StyleFont GetStyleFont(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
 		protected RMethod r_MGetStyleFont_StylePropertyId;
@@ -378,28 +346,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackground>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleBackgroundPosition_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundPosition>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleBackgroundRepeat_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundRepeat>(___result);
         }
 
 

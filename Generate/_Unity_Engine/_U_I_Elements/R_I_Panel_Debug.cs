@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean hasAttachedDebuggers
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasAttachedDebuggers;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasAttachedDebuggers
-		{
-			get
-			{
-				if(r_PhasAttachedDebuggers == null)
-				{
-					r_PhasAttachedDebuggers = new(this, "hasAttachedDebuggers", -1);
-				}
-				return r_PhasAttachedDebuggers;
-			}
-		}
-
-		/// <summary>
 		/// Void AttachDebugger(UnityEngine.UIElements.IPanelDebugger)
 		/// </summary>
 		protected RMethod r_MAttachDebugger_IPanelDebugger;

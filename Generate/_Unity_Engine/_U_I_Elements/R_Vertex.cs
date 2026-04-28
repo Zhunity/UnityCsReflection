@@ -166,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Color32 settingIndex
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FsettingIndex;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFsettingIndex
-		{
-			get
-			{
-				if(r_FsettingIndex == null)
-				{
-					r_FsettingIndex = new(this, "settingIndex");
-				}
-				return r_FsettingIndex;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector4 circle
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fcircle;

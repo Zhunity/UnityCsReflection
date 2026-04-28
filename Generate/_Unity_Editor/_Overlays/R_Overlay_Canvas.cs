@@ -15,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         {
             get
             {
-                return typeof(UnityEditor.Overlays.OverlayCanvas);
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayCanvas");
             }
         }
 
@@ -146,22 +146,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Fk_StyleDark = new(Type, "k_StyleDark");
 				}
 				return r_Fk_StyleDark;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32 k_ContainerCount
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_ContainerCount;
-		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_ContainerCount
-		{
-			get
-			{
-				if(r_Fk_ContainerCount == null)
-				{
-					r_Fk_ContainerCount = new(Type, "k_ContainerCount");
-				}
-				return r_Fk_ContainerCount;
 			}
 		}
 
@@ -310,34 +294,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// System.String[] k_DockZoneContainerIDs
+		/// UnityEditor.Overlays.SaveData k_DefaultSaveData
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fk_DockZoneContainerIDs;
-		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFk_DockZoneContainerIDs
+		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData r_Fk_DefaultSaveData;
+		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData RFk_DefaultSaveData
 		{
 			get
 			{
-				if(r_Fk_DockZoneContainerIDs == null)
+				if(r_Fk_DefaultSaveData == null)
 				{
-					r_Fk_DockZoneContainerIDs = new(Type, "k_DockZoneContainerIDs");
+					r_Fk_DefaultSaveData = new(Type, "k_DefaultSaveData");
 				}
-				return r_Fk_DockZoneContainerIDs;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_MouseInCurrentCanvas
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_MouseInCurrentCanvas;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_MouseInCurrentCanvas
-		{
-			get
-			{
-				if(r_Fm_MouseInCurrentCanvas == null)
-				{
-					r_Fm_MouseInCurrentCanvas = new(this, "m_MouseInCurrentCanvas");
-				}
-				return r_Fm_MouseInCurrentCanvas;
+				return r_Fk_DefaultSaveData;
 			}
 		}
 
@@ -358,38 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_Overlays
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_Overlays;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_Overlays
-		{
-			get
-			{
-				if(r_Fm_Overlays == null)
-				{
-					r_Fm_Overlays = new(this, "m_Overlays");
-				}
-				return r_Fm_Overlays;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_TransientOverlays
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_TransientOverlays;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_TransientOverlays
-		{
-			get
-			{
-				if(r_Fm_TransientOverlays == null)
-				{
-					r_Fm_TransientOverlays = new(this, "m_TransientOverlays");
-				}
-				return r_Fm_TransientOverlays;
-			}
-		}
-
-		/// <summary>
 		/// System.String m_LastAppliedPresetName
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LastAppliedPresetName;
@@ -406,6 +342,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay] m_Overlays
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_Fm_Overlays;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RFm_Overlays
+		{
+			get
+			{
+				if(r_Fm_Overlays == null)
+				{
+					r_Fm_Overlays = new(this, "m_Overlays");
+				}
+				return r_Fm_Overlays;
+			}
+		}
+
+		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.Overlays.SaveData] m_SaveData
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData> r_Fm_SaveData;
@@ -418,22 +370,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Fm_SaveData = new(this, "m_SaveData");
 				}
 				return r_Fm_SaveData;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_OverlaysVisible
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_OverlaysVisible;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_OverlaysVisible
-		{
-			get
-			{
-				if(r_Fm_OverlaysVisible == null)
-				{
-					r_Fm_OverlaysVisible = new(this, "m_OverlaysVisible");
-				}
-				return r_Fm_OverlaysVisible;
 			}
 		}
 
@@ -470,18 +406,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.FloatingOverlayContainer m_FloatingOverlayContainer
+		/// UnityEngine.UIElements.VisualElement <floatingContainer>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RFloatingOverlayContainer r_Fm_FloatingOverlayContainer;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RFloatingOverlayContainer RFm_FloatingOverlayContainer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_F__0__floatingContainer__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RF__0__floatingContainer__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_FloatingOverlayContainer == null)
+				if(r_F__0__floatingContainer__1__k__BackingField == null)
 				{
-					r_Fm_FloatingOverlayContainer = new(this, "m_FloatingOverlayContainer");
+					r_F__0__floatingContainer__1__k__BackingField = new(this, "<floatingContainer>k__BackingField");
 				}
-				return r_Fm_FloatingOverlayContainer;
+				return r_F__0__floatingContainer__1__k__BackingField;
 			}
 		}
 
@@ -498,6 +434,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Fm_HoveredOverlay = new(this, "m_HoveredOverlay");
 				}
 				return r_Fm_HoveredOverlay;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector2 <localMousePosition>k__BackingField
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_F__0__localMousePosition__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RF__0__localMousePosition__1__k__BackingField
+		{
+			get
+			{
+				if(r_F__0__localMousePosition__1__k__BackingField == null)
+				{
+					r_F__0__localMousePosition__1__k__BackingField = new(this, "<localMousePosition>k__BackingField");
+				}
+				return r_F__0__localMousePosition__1__k__BackingField;
 			}
 		}
 
@@ -562,6 +514,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_F__0__containers__1__k__BackingField = new(this, "<containers>k__BackingField");
 				}
 				return r_F__0__containers__1__k__BackingField;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] <toolbarZones>k__BackingField
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_F__0__toolbarZones__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RF__0__toolbarZones__1__k__BackingField
+		{
+			get
+			{
+				if(r_F__0__toolbarZones__1__k__BackingField == null)
+				{
+					r_F__0__toolbarZones__1__k__BackingField = new(this, "<toolbarZones>k__BackingField");
+				}
+				return r_F__0__toolbarZones__1__k__BackingField;
 			}
 		}
 
@@ -662,22 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.SaveData defaultSaveData
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData r_PdefaultSaveData;
-		public static Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData RPdefaultSaveData
-		{
-			get
-			{
-				if(r_PdefaultSaveData == null)
-				{
-					r_PdefaultSaveData = new(Type, "defaultSaveData", -1);
-				}
-				return r_PdefaultSaveData;
-			}
-		}
-
-		/// <summary>
 		/// System.String lastAppliedPresetName
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PlastAppliedPresetName;
@@ -710,10 +662,10 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.FloatingOverlayContainer floatingContainer
+		/// UnityEngine.UIElements.VisualElement floatingContainer
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RFloatingOverlayContainer r_PfloatingContainer;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RFloatingOverlayContainer RPfloatingContainer
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PfloatingContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPfloatingContainer
 		{
 			get
 			{
@@ -754,6 +706,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_ProotVisualElement = new(this, "rootVisualElement", -1);
 				}
 				return r_ProotVisualElement;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector2 localMousePosition
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PlocalMousePosition;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPlocalMousePosition
+		{
+			get
+			{
+				if(r_PlocalMousePosition == null)
+				{
+					r_PlocalMousePosition = new(this, "localMousePosition", -1);
+				}
+				return r_PlocalMousePosition;
 			}
 		}
 
@@ -838,6 +806,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] toolbarZones
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_PtoolbarZones;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RPtoolbarZones
+		{
+			get
+			{
+				if(r_PtoolbarZones == null)
+				{
+					r_PtoolbarZones = new(this, "toolbarZones", -1);
+				}
+				return r_PtoolbarZones;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.Overlays.OverlayDestinationMarker destinationMarker
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDestinationMarker r_PdestinationMarker;
@@ -866,22 +850,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Poverlays = new(this, "overlays", -1);
 				}
 				return r_Poverlays;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.IEnumerable`1[UnityEditor.Overlays.Overlay] transientOverlays
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> r_PtransientOverlays;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlay> RPtransientOverlays
-		{
-			get
-			{
-				if(r_PtransientOverlays == null)
-				{
-					r_PtransientOverlays = new(this, "transientOverlays", -1);
-				}
-				return r_PtransientOverlays;
 			}
 		}
 
@@ -930,38 +898,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_PmenuVisible = new(this, "menuVisible", -1);
 				}
 				return r_PmenuVisible;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.DockZone GetDockZone(UnityEditor.Overlays.OverlayContainer)
-		/// </summary>
-		protected static RMethod r_MGetDockZone_OverlayContainer;
-		public static RMethod RMGetDockZone_OverlayContainer
-		{
-			get
-			{
-				if(r_MGetDockZone_OverlayContainer == null)
-				{
-					r_MGetDockZone_OverlayContainer = new(Type, "GetDockZone", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"));
-				}
-				return r_MGetDockZone_OverlayContainer;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.OverlayContainer GetDockZoneContainer(UnityEditor.Overlays.DockZone)
-		/// </summary>
-		protected RMethod r_MGetDockZoneContainer_DockZone;
-		public virtual RMethod RMGetDockZoneContainer_DockZone
-		{
-			get
-			{
-				if(r_MGetDockZoneContainer_DockZone == null)
-				{
-					r_MGetDockZoneContainer_DockZone = new(this, "GetDockZoneContainer", 0, typeof(UnityEditor.Overlays.DockZone));
-				}
-				return r_MGetDockZoneContainer_DockZone;
 			}
 		}
 
@@ -1078,38 +1014,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void OnMouseEnter(UnityEngine.UIElements.MouseEnterEvent)
-		/// </summary>
-		protected RMethod r_MOnMouseEnter_MouseEnterEvent;
-		public virtual RMethod RMOnMouseEnter_MouseEnterEvent
-		{
-			get
-			{
-				if(r_MOnMouseEnter_MouseEnterEvent == null)
-				{
-					r_MOnMouseEnter_MouseEnterEvent = new(this, "OnMouseEnter", 0, typeof(UnityEngine.UIElements.MouseEnterEvent));
-				}
-				return r_MOnMouseEnter_MouseEnterEvent;
-			}
-		}
-
-		/// <summary>
-		/// Void OnMouseLeave(UnityEngine.UIElements.MouseLeaveEvent)
-		/// </summary>
-		protected RMethod r_MOnMouseLeave_MouseLeaveEvent;
-		public virtual RMethod RMOnMouseLeave_MouseLeaveEvent
-		{
-			get
-			{
-				if(r_MOnMouseLeave_MouseLeaveEvent == null)
-				{
-					r_MOnMouseLeave_MouseLeaveEvent = new(this, "OnMouseLeave", 0, typeof(UnityEngine.UIElements.MouseLeaveEvent));
-				}
-				return r_MOnMouseLeave_MouseLeaveEvent;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Rect ClampToOverlayWindow(UnityEngine.Rect)
 		/// </summary>
 		protected RMethod r_MClampToOverlayWindow_Rect;
@@ -1158,6 +1062,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
+		/// Void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent)
+		/// </summary>
+		protected RMethod r_MOnMouseMove_MouseMoveEvent;
+		public virtual RMethod RMOnMouseMove_MouseMoveEvent
+		{
+			get
+			{
+				if(r_MOnMouseMove_MouseMoveEvent == null)
+				{
+					r_MOnMouseMove_MouseMoveEvent = new(this, "OnMouseMove", 0, typeof(UnityEngine.UIElements.MouseMoveEvent));
+				}
+				return r_MOnMouseMove_MouseMoveEvent;
+			}
+		}
+
+		/// <summary>
+		/// Void OnMouseEnter(UnityEngine.UIElements.MouseOverEvent)
+		/// </summary>
+		protected RMethod r_MOnMouseEnter_MouseOverEvent;
+		public virtual RMethod RMOnMouseEnter_MouseOverEvent
+		{
+			get
+			{
+				if(r_MOnMouseEnter_MouseOverEvent == null)
+				{
+					r_MOnMouseEnter_MouseOverEvent = new(this, "OnMouseEnter", 0, typeof(UnityEngine.UIElements.MouseOverEvent));
+				}
+				return r_MOnMouseEnter_MouseOverEvent;
+			}
+		}
+
+		/// <summary>
 		/// Void OnMouseLeaveOverlay(UnityEngine.UIElements.MouseLeaveEvent)
 		/// </summary>
 		protected RMethod r_MOnMouseLeaveOverlay_MouseLeaveEvent;
@@ -1202,38 +1138,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MHideHoveredOverlay = new(this, "HideHoveredOverlay", 0);
 				}
 				return r_MHideHoveredOverlay;
-			}
-		}
-
-		/// <summary>
-		/// Void ShowMenu(Boolean, Boolean)
-		/// </summary>
-		protected RMethod r_MShowMenu_Boolean_Boolean;
-		public virtual RMethod RMShowMenu_Boolean_Boolean
-		{
-			get
-			{
-				if(r_MShowMenu_Boolean_Boolean == null)
-				{
-					r_MShowMenu_Boolean_Boolean = new(this, "ShowMenu", 0, typeof(System.Boolean), typeof(System.Boolean));
-				}
-				return r_MShowMenu_Boolean_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsTransient(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MIsTransient_Overlay;
-		public virtual RMethod RMIsTransient_Overlay
-		{
-			get
-			{
-				if(r_MIsTransient_Overlay == null)
-				{
-					r_MIsTransient_Overlay = new(this, "IsTransient", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MIsTransient_Overlay;
 			}
 		}
 
@@ -1334,22 +1238,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void WriteOrReplaceSaveData(UnityEditor.Overlays.Overlay, Int32)
-		/// </summary>
-		protected RMethod r_MWriteOrReplaceSaveData_Overlay_Int32;
-		public virtual RMethod RMWriteOrReplaceSaveData_Overlay_Int32
-		{
-			get
-			{
-				if(r_MWriteOrReplaceSaveData_Overlay_Int32 == null)
-				{
-					r_MWriteOrReplaceSaveData_Overlay_Int32 = new(this, "WriteOrReplaceSaveData", 0, typeof(UnityEditor.Overlays.Overlay), typeof(System.Int32));
-				}
-				return r_MWriteOrReplaceSaveData_Overlay_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void OnBeforeSerialize()
 		/// </summary>
 		protected RMethod r_MOnBeforeSerialize;
@@ -1430,22 +1318,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void Move(UnityEditor.Overlays.Overlay, UnityEditor.Overlays.DockZone, UnityEditor.Overlays.DockPosition)
-		/// </summary>
-		protected RMethod r_MMove_Overlay_DockZone_DockPosition;
-		public virtual RMethod RMMove_Overlay_DockZone_DockPosition
-		{
-			get
-			{
-				if(r_MMove_Overlay_DockZone_DockPosition == null)
-				{
-					r_MMove_Overlay_DockZone_DockPosition = new(this, "Move", 0, typeof(UnityEditor.Overlays.Overlay), typeof(UnityEditor.Overlays.DockZone), typeof(UnityEditor.Overlays.DockPosition));
-				}
-				return r_MMove_Overlay_DockZone_DockPosition;
-			}
-		}
-
-		/// <summary>
 		/// Void Rebuild()
 		/// </summary>
 		protected RMethod r_MRebuild;
@@ -1462,66 +1334,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void Add(UnityEditor.Overlays.Overlay, Boolean)
+		/// Void AddOverlay(UnityEditor.Overlays.Overlay)
 		/// </summary>
-		protected RMethod r_MAdd_Overlay_Boolean;
-		public virtual RMethod RMAdd_Overlay_Boolean
+		protected RMethod r_MAddOverlay_Overlay;
+		public virtual RMethod RMAddOverlay_Overlay
 		{
 			get
 			{
-				if(r_MAdd_Overlay_Boolean == null)
+				if(r_MAddOverlay_Overlay == null)
 				{
-					r_MAdd_Overlay_Boolean = new(this, "Add", 0, typeof(UnityEditor.Overlays.Overlay), typeof(System.Boolean));
+					r_MAddOverlay_Overlay = new(this, "AddOverlay", 0, typeof(UnityEditor.Overlays.Overlay));
 				}
-				return r_MAdd_Overlay_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void Add(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MAdd_Overlay;
-		public virtual RMethod RMAdd_Overlay
-		{
-			get
-			{
-				if(r_MAdd_Overlay == null)
-				{
-					r_MAdd_Overlay = new(this, "Add", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MAdd_Overlay;
-			}
-		}
-
-		/// <summary>
-		/// Boolean Remove(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MRemove_Overlay;
-		public virtual RMethod RMRemove_Overlay
-		{
-			get
-			{
-				if(r_MRemove_Overlay == null)
-				{
-					r_MRemove_Overlay = new(this, "Remove", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MRemove_Overlay;
-			}
-		}
-
-		/// <summary>
-		/// Void AddOverlay(UnityEditor.Overlays.Overlay, Boolean)
-		/// </summary>
-		protected RMethod r_MAddOverlay_Overlay_Boolean;
-		public virtual RMethod RMAddOverlay_Overlay_Boolean
-		{
-			get
-			{
-				if(r_MAddOverlay_Overlay_Boolean == null)
-				{
-					r_MAddOverlay_Overlay_Boolean = new(this, "AddOverlay", 0, typeof(UnityEditor.Overlays.Overlay), typeof(System.Boolean));
-				}
-				return r_MAddOverlay_Overlay_Boolean;
+				return r_MAddOverlay_Overlay;
 			}
 		}
 
@@ -1586,6 +1410,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MRestoreOverlays = new(this, "RestoreOverlays", 0);
 				}
 				return r_MRestoreOverlays;
+			}
+		}
+
+		/// <summary>
+		/// Void <OnBeforeSerialize>g__SaveContainer|103_0(System.Collections.Generic.List`1[UnityEditor.Overlays.Overlay])
+		/// </summary>
+		protected RMethod r_M__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_;
+		public virtual RMethod RM__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_
+		{
+			get
+			{
+				if(r_M__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_ == null)
+				{
+					r_M__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_ = new(this, "<OnBeforeSerialize>g__SaveContainer|103_0", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.Overlays.Overlay)));
+				}
+				return r_M__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_;
 			}
 		}
 
@@ -1686,28 +1526,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 
-        public static UnityEditor.Overlays.DockZone GetDockZone(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer @container)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@container.Value};
-            var ___result = RMGetDockZone_OverlayContainer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.Overlays.DockZone>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer GetDockZoneContainer(UnityEditor.Overlays.DockZone @zone)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@zone};
-            var ___result = RMGetDockZoneContainer_DockZone.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer>(___result);
-        }
-
-
         public virtual void SetOverlaysEnabled(System.Boolean @visible)
         {
 
@@ -1785,28 +1603,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void OnMouseEnter(UnityEngine.UIElements.MouseEnterEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseEnter_MouseEnterEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnMouseLeave(UnityEngine.UIElements.MouseLeaveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnMouseLeave_MouseLeaveEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual UnityEngine.Rect ClampToOverlayWindow(UnityEngine.Rect @rect)
         {
 
@@ -1835,6 +1631,28 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
             var ___result = RMGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnMouseMove(UnityEngine.UIElements.MouseMoveEvent @evt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt};
+            var ___result = RMOnMouseMove_MouseMoveEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnMouseEnter(UnityEngine.UIElements.MouseOverEvent @evt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt};
+            var ___result = RMOnMouseEnter_MouseOverEvent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1870,28 +1688,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___result = RMHideHoveredOverlay.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual void ShowMenu(System.Boolean @show, System.Boolean @atMousePosition)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@show, @atMousePosition};
-            var ___result = RMShowMenu_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsTransient(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMIsTransient_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -1961,17 +1757,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void WriteOrReplaceSaveData(UnityEditor.Overlays.Overlay @overlay, System.Int32 @containerIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @containerIndex};
-            var ___result = RMWriteOrReplaceSaveData_Overlay_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void OnBeforeSerialize()
         {
 
@@ -2029,17 +1814,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void Move(UnityEditor.Overlays.Overlay @overlay, UnityEditor.Overlays.DockZone @zone, UnityEditor.Overlays.DockPosition @position)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @zone, @position};
-            var ___result = RMMove_Overlay_DockZone_DockPosition.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void Rebuild()
         {
 
@@ -2051,45 +1825,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void Add(UnityEditor.Overlays.Overlay @overlay, System.Boolean @show)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @show};
-            var ___result = RMAdd_Overlay_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Add(UnityEditor.Overlays.Overlay @overlay)
+        public virtual void AddOverlay(UnityEditor.Overlays.Overlay @overlay)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@overlay};
-            var ___result = RMAdd_Overlay.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean Remove(UnityEditor.Overlays.Overlay @overlay)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay};
-            var ___result = RMRemove_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void AddOverlay(UnityEditor.Overlays.Overlay @overlay, System.Boolean @transient)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@overlay, @transient};
-            var ___result = RMAddOverlay_Overlay_Boolean.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddOverlay_Overlay.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2134,6 +1875,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRestoreOverlays.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void __0__OnBeforeSerialize__1__g__SaveContainer__5__103_0(System.Collections.Generic.List<UnityEditor.Overlays.Overlay> @overlays)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@overlays};
+            var ___result = RM__0__OnBeforeSerialize__1__g__SaveContainer__5__103_0_List_d_Overlay_p_.Invoke(___genericsType, ___parameters);
 
             
         }

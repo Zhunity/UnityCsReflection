@@ -278,22 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.LowLevel.FontEngineError OpenTypeLayoutLookup_Mismatch
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError r_FOpenTypeLayoutLookup_Mismatch;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RFontEngineError RFOpenTypeLayoutLookup_Mismatch
-		{
-			get
-			{
-				if(r_FOpenTypeLayoutLookup_Mismatch == null)
-				{
-					r_FOpenTypeLayoutLookup_Mismatch = new(Type, "OpenTypeLayoutLookup_Mismatch");
-				}
-				return r_FOpenTypeLayoutLookup_Mismatch;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

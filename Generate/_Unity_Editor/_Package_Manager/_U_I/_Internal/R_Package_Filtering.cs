@@ -278,18 +278,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean FilterByTab(UnityEditor.PackageManager.UI.Internal.IPackage, UnityEditor.PackageManager.UI.Internal.PackageFilterTab, Boolean)
+		/// Boolean FilterByTab(UnityEditor.PackageManager.UI.Internal.IPackage, UnityEditor.PackageManager.UI.Internal.PackageFilterTab, Boolean, Boolean)
 		/// </summary>
-		protected static RMethod r_MFilterByTab_IPackage_PackageFilterTab_Boolean;
-		public static RMethod RMFilterByTab_IPackage_PackageFilterTab_Boolean
+		protected static RMethod r_MFilterByTab_IPackage_PackageFilterTab_Boolean_Boolean;
+		public static RMethod RMFilterByTab_IPackage_PackageFilterTab_Boolean_Boolean
 		{
 			get
 			{
-				if(r_MFilterByTab_IPackage_PackageFilterTab_Boolean == null)
+				if(r_MFilterByTab_IPackage_PackageFilterTab_Boolean_Boolean == null)
 				{
-					r_MFilterByTab_IPackage_PackageFilterTab_Boolean = new(Type, "FilterByTab", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"), typeof(System.Boolean));
+					r_MFilterByTab_IPackage_PackageFilterTab_Boolean_Boolean = new(Type, "FilterByTab", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"), typeof(System.Boolean), typeof(System.Boolean));
 				}
-				return r_MFilterByTab_IPackage_PackageFilterTab_Boolean;
+				return r_MFilterByTab_IPackage_PackageFilterTab_Boolean_Boolean;
 			}
 		}
 
@@ -465,12 +465,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public static System.Boolean FilterByTab(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @tab, System.Boolean @isLoggedIn)
+        public static System.Boolean FilterByTab(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @tab, System.Boolean @showDependencies, System.Boolean @isLoggedIn)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@package.Value, @tab.Value, @isLoggedIn};
-            var ___result = RMFilterByTab_IPackage_PackageFilterTab_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@package.Value, @tab.Value, @showDependencies, @isLoggedIn};
+            var ___result = RMFilterByTab_IPackage_PackageFilterTab_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

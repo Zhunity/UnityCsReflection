@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Action draggingEnded
-		/// </summary>
-		protected REvent r_EdraggingEnded;
-		public virtual REvent REdraggingEnded
-		{
-			get
-			{
-				if(r_EdraggingEnded == null)
-				{
-					r_EdraggingEnded = new(this, "draggingEnded");
-				}
-				return r_EdraggingEnded;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.EventBase] clickedWithEventInfo
 		/// </summary>
 		protected REvent r_EclickedWithEventInfo;
@@ -114,22 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fdragging = new(this, "dragging");
 				}
 				return r_Fdragging;
-			}
-		}
-
-		/// <summary>
-		/// System.Action draggingEnded
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FdraggingEnded;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFdraggingEnded
-		{
-			get
-			{
-				if(r_FdraggingEnded == null)
-				{
-					r_FdraggingEnded = new(this, "draggingEnded");
-				}
-				return r_FdraggingEnded;
 			}
 		}
 
@@ -342,22 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void ProcessUpEvent(UnityEngine.UIElements.EventBase, UnityEngine.Vector2, Int32)
-		/// </summary>
-		protected RMethod r_MProcessUpEvent_EventBase_Vector2_Int32;
-		public virtual RMethod RMProcessUpEvent_EventBase_Vector2_Int32
-		{
-			get
-			{
-				if(r_MProcessUpEvent_EventBase_Vector2_Int32 == null)
-				{
-					r_MProcessUpEvent_EventBase_Vector2_Int32 = new(this, "ProcessUpEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.Vector2), typeof(System.Int32));
-				}
-				return r_MProcessUpEvent_EventBase_Vector2_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void ProcessMoveEvent(UnityEngine.UIElements.EventBase, UnityEngine.Vector2)
 		/// </summary>
 		protected RMethod r_MProcessMoveEvent_EventBase_Vector2;
@@ -482,6 +434,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MSimulateSingleClick_EventBase_Int32 = new(this, "SimulateSingleClick", 0, typeof(UnityEngine.UIElements.EventBase), typeof(System.Int32));
 				}
 				return r_MSimulateSingleClick_EventBase_Int32;
+			}
+		}
+
+		/// <summary>
+		/// Void ProcessUpEvent(UnityEngine.UIElements.EventBase, UnityEngine.Vector2, Int32)
+		/// </summary>
+		protected RMethod r_MProcessUpEvent_EventBase_Vector2_Int32;
+		public virtual RMethod RMProcessUpEvent_EventBase_Vector2_Int32
+		{
+			get
+			{
+				if(r_MProcessUpEvent_EventBase_Vector2_Int32 == null)
+				{
+					r_MProcessUpEvent_EventBase_Vector2_Int32 = new(this, "ProcessUpEvent", 0, typeof(UnityEngine.UIElements.EventBase), typeof(UnityEngine.Vector2), typeof(System.Int32));
+				}
+				return r_MProcessUpEvent_EventBase_Vector2_Int32;
 			}
 		}
 
@@ -673,17 +641,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt, @localPosition, @pointerId};
-            var ___result = RMProcessUpEvent_EventBase_Vector2_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void ProcessMoveEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition)
         {
 
@@ -767,6 +724,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt, @delayMs};
             var ___result = RMSimulateSingleClick_EventBase_Int32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void ProcessUpEvent(UnityEngine.UIElements.EventBase @evt, UnityEngine.Vector2 @localPosition, System.Int32 @pointerId)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt, @localPosition, @pointerId};
+            var ___result = RMProcessUpEvent_EventBase_Vector2_Int32.Invoke(___genericsType, ___parameters);
 
             
         }

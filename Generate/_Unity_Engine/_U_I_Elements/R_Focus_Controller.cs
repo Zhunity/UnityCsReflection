@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.TextElement m_SelectedTextElement
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_Fm_SelectedTextElement;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RFm_SelectedTextElement
-		{
-			get
-			{
-				if(r_Fm_SelectedTextElement == null)
-				{
-					r_Fm_SelectedTextElement = new(this, "m_SelectedTextElement");
-				}
-				return r_Fm_SelectedTextElement;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.FocusController+FocusedElement] m_FocusedElements
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RFocusController.RFocusedElement> r_Fm_FocusedElements;
@@ -162,22 +146,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PfocusRing = new(this, "focusRing", -1);
 				}
 				return r_PfocusRing;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.TextElement selectedTextElement
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement r_PselectedTextElement;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextElement RPselectedTextElement
-		{
-			get
-			{
-				if(r_PselectedTextElement == null)
-				{
-					r_PselectedTextElement = new(this, "selectedTextElement", -1);
-				}
-				return r_PselectedTextElement;
 			}
 		}
 
@@ -374,22 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void ProcessPendingFocusChange(UnityEngine.UIElements.Focusable)
-		/// </summary>
-		protected RMethod r_MProcessPendingFocusChange_Focusable;
-		public virtual RMethod RMProcessPendingFocusChange_Focusable
-		{
-			get
-			{
-				if(r_MProcessPendingFocusChange_Focusable == null)
-				{
-					r_MProcessPendingFocusChange_Focusable = new(this, "ProcessPendingFocusChange", 0, typeof(UnityEngine.UIElements.Focusable));
-				}
-				return r_MProcessPendingFocusChange_Focusable;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection)
 		/// </summary>
 		protected RMethod r_MFocusNextInDirection_FocusChangeDirection;
@@ -518,7 +470,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void SwitchFocusOnEvent(UnityEngine.UIElements.EventBase)
+		/// UnityEngine.UIElements.Focusable SwitchFocusOnEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
 		protected RMethod r_MSwitchFocusOnEvent_EventBase;
 		public virtual RMethod RMSwitchFocusOnEvent_EventBase
@@ -788,17 +740,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ProcessPendingFocusChange(UnityEngine.UIElements.Focusable @f)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@f};
-            var ___result = RMProcessPendingFocusChange_Focusable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual UnityEngine.UIElements.Focusable FocusNextInDirection(UnityEngine.UIElements.FocusChangeDirection @direction)
         {
 
@@ -887,14 +828,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SwitchFocusOnEvent(UnityEngine.UIElements.EventBase @e)
+        public virtual UnityEngine.UIElements.Focusable SwitchFocusOnEvent(UnityEngine.UIElements.EventBase @e)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@e};
             var ___result = RMSwitchFocusOnEvent_EventBase.Invoke(___genericsType, ___parameters);
 
-            
+            return ReflectionUtils.Convert<UnityEngine.UIElements.Focusable>(___result);
         }
 
 

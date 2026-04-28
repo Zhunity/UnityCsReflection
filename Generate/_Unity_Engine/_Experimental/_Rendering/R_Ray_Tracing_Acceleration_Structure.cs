@@ -166,102 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// Void AddInstance(UnityEngine.Renderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[], Boolean, Boolean, UInt32, UInt32)
-		/// </summary>
-		protected RMethod r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
-		public virtual RMethod RMAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32
-		{
-			get
-			{
-				if(r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
-				{
-					r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
-				}
-				return r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
-			}
-		}
-
-		/// <summary>
-		/// Int32 AddInstance(UnityEngine.GraphicsBuffer, UInt32, Boolean, UnityEngine.Matrix4x4, UnityEngine.Material, Boolean, UnityEngine.MaterialPropertyBlock, UInt32, UInt32)
-		/// </summary>
-		protected RMethod r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
-		public virtual RMethod RMAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32
-		{
-			get
-			{
-				if(r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
-				{
-					r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-				}
-				return r_MAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
-			}
-		}
-
-		/// <summary>
-		/// Void RemoveInstance(UnityEngine.Renderer)
-		/// </summary>
-		protected RMethod r_MRemoveInstance_Renderer;
-		public virtual RMethod RMRemoveInstance_Renderer
-		{
-			get
-			{
-				if(r_MRemoveInstance_Renderer == null)
-				{
-					r_MRemoveInstance_Renderer = new(this, "RemoveInstance", 0, typeof(UnityEngine.Renderer));
-				}
-				return r_MRemoveInstance_Renderer;
-			}
-		}
-
-		/// <summary>
-		/// Void RemoveInstance(Int32)
-		/// </summary>
-		protected RMethod r_MRemoveInstance_Int32;
-		public virtual RMethod RMRemoveInstance_Int32
-		{
-			get
-			{
-				if(r_MRemoveInstance_Int32 == null)
-				{
-					r_MRemoveInstance_Int32 = new(this, "RemoveInstance", 0, typeof(System.Int32));
-				}
-				return r_MRemoveInstance_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateInstanceTransform(UnityEngine.Renderer)
-		/// </summary>
-		protected RMethod r_MUpdateInstanceTransform_Renderer;
-		public virtual RMethod RMUpdateInstanceTransform_Renderer
-		{
-			get
-			{
-				if(r_MUpdateInstanceTransform_Renderer == null)
-				{
-					r_MUpdateInstanceTransform_Renderer = new(this, "UpdateInstanceTransform", 0, typeof(UnityEngine.Renderer));
-				}
-				return r_MUpdateInstanceTransform_Renderer;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateInstanceTransform(Int32, UnityEngine.Matrix4x4)
-		/// </summary>
-		protected RMethod r_MUpdateInstanceTransform_Int32_Matrix4x4;
-		public virtual RMethod RMUpdateInstanceTransform_Int32_Matrix4x4
-		{
-			get
-			{
-				if(r_MUpdateInstanceTransform_Int32_Matrix4x4 == null)
-				{
-					r_MUpdateInstanceTransform_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-				}
-				return r_MUpdateInstanceTransform_Int32_Matrix4x4;
-			}
-		}
-
-		/// <summary>
 		/// Void Update()
 		/// </summary>
 		protected RMethod r_MUpdate;
@@ -274,6 +178,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 					r_MUpdate = new(this, "Update", 0);
 				}
 				return r_MUpdate;
+			}
+		}
+
+		/// <summary>
+		/// Void Build(UnityEngine.Vector3)
+		/// </summary>
+		protected RMethod r_MBuild_Vector3;
+		public virtual RMethod RMBuild_Vector3
+		{
+			get
+			{
+				if(r_MBuild_Vector3 == null)
+				{
+					r_MBuild_Vector3 = new(this, "Build", 0, typeof(UnityEngine.Vector3));
+				}
+				return r_MBuild_Vector3;
 			}
 		}
 
@@ -310,6 +230,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
+		/// Void AddInstance(UnityEngine.Renderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[], Boolean, Boolean, UInt32, UInt32)
+		/// </summary>
+		protected RMethod r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
+		public virtual RMethod RMAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32
+		{
+			get
+			{
+				if(r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 == null)
+				{
+					r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32 = new(this, "AddInstance", 0, typeof(UnityEngine.Renderer), typeof(UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags).MakeArrayType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.UInt32));
+				}
+				return r_MAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32;
+			}
+		}
+
+		/// <summary>
+		/// Void RemoveInstance(UnityEngine.Renderer)
+		/// </summary>
+		protected RMethod r_MRemoveInstance_Renderer;
+		public virtual RMethod RMRemoveInstance_Renderer
+		{
+			get
+			{
+				if(r_MRemoveInstance_Renderer == null)
+				{
+					r_MRemoveInstance_Renderer = new(this, "RemoveInstance", 0, typeof(UnityEngine.Renderer));
+				}
+				return r_MRemoveInstance_Renderer;
+			}
+		}
+
+		/// <summary>
 		/// Void AddInstance(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
 		protected RMethod r_MAddInstance_GraphicsBuffer_UInt32_Material_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
@@ -342,114 +294,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// Void Build(UnityEngine.Vector3)
+		/// Void AddInstance_Procedural(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
-		protected RMethod r_MBuild_Vector3;
-		public virtual RMethod RMBuild_Vector3
+		protected RMethod r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+		public virtual RMethod RMAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
 		{
 			get
 			{
-				if(r_MBuild_Vector3 == null)
+				if(r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
-					r_MBuild_Vector3 = new(this, "Build", 0, typeof(UnityEngine.Vector3));
+					r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
 				}
-				return r_MBuild_Vector3;
+				return r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
 		}
 
 		/// <summary>
-		/// Void AddInstance_Procedural_Deprecated(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
+		/// Void UpdateInstanceTransform(UnityEngine.Renderer)
 		/// </summary>
-		protected RMethod r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
-		public virtual RMethod RMAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
+		protected RMethod r_MUpdateInstanceTransform_Renderer;
+		public virtual RMethod RMUpdateInstanceTransform_Renderer
 		{
 			get
 			{
-				if(r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
+				if(r_MUpdateInstanceTransform_Renderer == null)
 				{
-					r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
+					r_MUpdateInstanceTransform_Renderer = new(this, "UpdateInstanceTransform", 0, typeof(UnityEngine.Renderer));
 				}
-				return r_MAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
-			}
-		}
-
-		/// <summary>
-		/// Int32 AddInstance_Procedural(UnityEngine.GraphicsBuffer, UInt32, Boolean, UnityEngine.Matrix4x4, UnityEngine.Material, Boolean, UnityEngine.MaterialPropertyBlock, UInt32, UInt32)
-		/// </summary>
-		protected RMethod r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
-		public virtual RMethod RMAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32
-		{
-			get
-			{
-				if(r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
-				{
-					r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
-				}
-				return r_MAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
-			}
-		}
-
-		/// <summary>
-		/// Void RemoveInstance_Renderer(UnityEngine.Renderer)
-		/// </summary>
-		protected RMethod r_MRemoveInstance_Renderer_Renderer;
-		public virtual RMethod RMRemoveInstance_Renderer_Renderer
-		{
-			get
-			{
-				if(r_MRemoveInstance_Renderer_Renderer == null)
-				{
-					r_MRemoveInstance_Renderer_Renderer = new(this, "RemoveInstance_Renderer", 0, typeof(UnityEngine.Renderer));
-				}
-				return r_MRemoveInstance_Renderer_Renderer;
-			}
-		}
-
-		/// <summary>
-		/// Void RemoveInstance_InstanceID(Int32)
-		/// </summary>
-		protected RMethod r_MRemoveInstance_InstanceID_Int32;
-		public virtual RMethod RMRemoveInstance_InstanceID_Int32
-		{
-			get
-			{
-				if(r_MRemoveInstance_InstanceID_Int32 == null)
-				{
-					r_MRemoveInstance_InstanceID_Int32 = new(this, "RemoveInstance_InstanceID", 0, typeof(System.Int32));
-				}
-				return r_MRemoveInstance_InstanceID_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateInstanceTransform_Renderer(UnityEngine.Renderer)
-		/// </summary>
-		protected RMethod r_MUpdateInstanceTransform_Renderer_Renderer;
-		public virtual RMethod RMUpdateInstanceTransform_Renderer_Renderer
-		{
-			get
-			{
-				if(r_MUpdateInstanceTransform_Renderer_Renderer == null)
-				{
-					r_MUpdateInstanceTransform_Renderer_Renderer = new(this, "UpdateInstanceTransform_Renderer", 0, typeof(UnityEngine.Renderer));
-				}
-				return r_MUpdateInstanceTransform_Renderer_Renderer;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateInstanceTransform_InstanceID(Int32, UnityEngine.Matrix4x4)
-		/// </summary>
-		protected RMethod r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
-		public virtual RMethod RMUpdateInstanceTransform_InstanceID_Int32_Matrix4x4
-		{
-			get
-			{
-				if(r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4 == null)
-				{
-					r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4));
-				}
-				return r_MUpdateInstanceTransform_InstanceID_Int32_Matrix4x4;
+				return r_MUpdateInstanceTransform_Renderer;
 			}
 		}
 
@@ -486,22 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// Void UpdateInstancePropertyBlock(Int32, UnityEngine.MaterialPropertyBlock)
-		/// </summary>
-		protected RMethod r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
-		public virtual RMethod RMUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock
-		{
-			get
-			{
-				if(r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock == null)
-				{
-					r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock = new(this, "UpdateInstancePropertyBlock", 0, typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
-				}
-				return r_MUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock;
-			}
-		}
-
-		/// <summary>
 		/// UInt64 GetSize()
 		/// </summary>
 		protected RMethod r_MGetSize;
@@ -530,38 +386,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 					r_MGetInstanceCount = new(this, "GetInstanceCount", 0);
 				}
 				return r_MGetInstanceCount;
-			}
-		}
-
-		/// <summary>
-		/// Void ClearInstances()
-		/// </summary>
-		protected RMethod r_MClearInstances;
-		public virtual RMethod RMClearInstances
-		{
-			get
-			{
-				if(r_MClearInstances == null)
-				{
-					r_MClearInstances = new(this, "ClearInstances", 0);
-				}
-				return r_MClearInstances;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults CullInstances(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig ByRef)
-		/// </summary>
-		protected RMethod r_MCullInstances_Ref_RayTracingInstanceCullingConfig;
-		public virtual RMethod RMCullInstances_Ref_RayTracingInstanceCullingConfig
-		{
-			get
-			{
-				if(r_MCullInstances_Ref_RayTracingInstanceCullingConfig == null)
-				{
-					r_MCullInstances_Ref_RayTracingInstanceCullingConfig = new(this, "CullInstances", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType());
-				}
-				return r_MCullInstances_Ref_RayTracingInstanceCullingConfig;
 			}
 		}
 
@@ -598,22 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// Void Update_Injected(UnityEngine.Vector3 ByRef)
-		/// </summary>
-		protected RMethod r_MUpdate_Injected_Ref_Vector3;
-		public virtual RMethod RMUpdate_Injected_Ref_Vector3
-		{
-			get
-			{
-				if(r_MUpdate_Injected_Ref_Vector3 == null)
-				{
-					r_MUpdate_Injected_Ref_Vector3 = new(this, "Update_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
-				}
-				return r_MUpdate_Injected_Ref_Vector3;
-			}
-		}
-
-		/// <summary>
 		/// Void Build_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
 		protected RMethod r_MBuild_Injected_Ref_Vector3;
@@ -630,66 +438,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// Void AddInstance_Procedural_Deprecated_Injected(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4 ByRef, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
+		/// Void Update_Injected(UnityEngine.Vector3 ByRef)
 		/// </summary>
-		protected RMethod r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
-		public virtual RMethod RMAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
+		protected RMethod r_MUpdate_Injected_Ref_Vector3;
+		public virtual RMethod RMUpdate_Injected_Ref_Vector3
 		{
 			get
 			{
-				if(r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
+				if(r_MUpdate_Injected_Ref_Vector3 == null)
 				{
-					r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Deprecated_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
+					r_MUpdate_Injected_Ref_Vector3 = new(this, "Update_Injected", 0, typeof(UnityEngine.Vector3).MakeByRefType());
 				}
-				return r_MAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+				return r_MUpdate_Injected_Ref_Vector3;
 			}
 		}
 
 		/// <summary>
-		/// Int32 AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer, UInt32, Boolean, UnityEngine.Matrix4x4 ByRef, UnityEngine.Material, Boolean, UnityEngine.MaterialPropertyBlock, UInt32, UInt32)
+		/// Void AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer, UInt32, UnityEngine.Material, UnityEngine.Matrix4x4 ByRef, Boolean, Boolean, Boolean, UInt32, Boolean, UInt32)
 		/// </summary>
-		protected RMethod r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
-		public virtual RMethod RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32
+		protected RMethod r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
+		public virtual RMethod RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32
 		{
 			get
 			{
-				if(r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 == null)
+				if(r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 == null)
 				{
-					r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32 = new(this, "AddInstance_Procedural_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(System.Boolean), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(UnityEngine.MaterialPropertyBlock), typeof(System.UInt32), typeof(System.UInt32));
+					r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32 = new(this, "AddInstance_Procedural_Injected", 0, typeof(UnityEngine.GraphicsBuffer), typeof(System.UInt32), typeof(UnityEngine.Material), typeof(UnityEngine.Matrix4x4).MakeByRefType(), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.UInt32), typeof(System.Boolean), typeof(System.UInt32));
 				}
-				return r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateInstanceTransform_InstanceID_Injected(Int32, UnityEngine.Matrix4x4 ByRef)
-		/// </summary>
-		protected RMethod r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
-		public virtual RMethod RMUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4
-		{
-			get
-			{
-				if(r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 == null)
-				{
-					r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4 = new(this, "UpdateInstanceTransform_InstanceID_Injected", 0, typeof(System.Int32), typeof(UnityEngine.Matrix4x4).MakeByRefType());
-				}
-				return r_MUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4;
-			}
-		}
-
-		/// <summary>
-		/// Void CullInstances_Injected(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig ByRef, UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults ByRef)
-		/// </summary>
-		protected RMethod r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
-		public virtual RMethod RMCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults
-		{
-			get
-			{
-				if(r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults == null)
-				{
-					r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults = new(this, "CullInstances_Injected", 0, typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig).MakeByRefType(), typeof(UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults).MakeByRefType());
-				}
-				return r_MCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults;
+				return r_MAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32;
 			}
 		}
 
@@ -851,78 +627,23 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer, @subMeshFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
-            var ___result = RMAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @aabbCount, System.Boolean @dynamicData, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Boolean @opaqueMaterial, UnityEngine.MaterialPropertyBlock @properties, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @aabbCount, @dynamicData, @matrix, @material, @opaqueMaterial, @properties, @mask, @id};
-            var ___result = RMAddInstance_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void RemoveInstance(UnityEngine.Renderer @targetRenderer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer};
-            var ___result = RMRemoveInstance_Renderer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveInstance(System.Int32 @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMRemoveInstance_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceTransform(UnityEngine.Renderer @renderer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@renderer};
-            var ___result = RMUpdateInstanceTransform_Renderer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceTransform(System.Int32 @handle, UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @matrix};
-            var ___result = RMUpdateInstanceTransform_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void Update()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMUpdate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Build(UnityEngine.Vector3 @relativeOrigin)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@relativeOrigin};
+            var ___result = RMBuild_Vector3.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -950,6 +671,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
+        public virtual void AddInstance(UnityEngine.Renderer @targetRenderer, UnityEngine.Experimental.Rendering.RayTracingSubMeshFlags[] @subMeshFlags, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.UInt32 @id)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@targetRenderer, @subMeshFlags, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @id};
+            var ___result = RMAddInstance_Renderer_RayTracingSubMeshFlagsArray_Boolean_Boolean_UInt32_UInt32.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveInstance(UnityEngine.Renderer @targetRenderer)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@targetRenderer};
+            var ___result = RMRemoveInstance_Renderer.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void AddInstance(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
@@ -972,78 +715,23 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Build(UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeOrigin};
-            var ___result = RMBuild_Vector3.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AddInstance_Procedural_Deprecated(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
+        public virtual void AddInstance_Procedural(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
-            var ___result = RMAddInstance_Procedural_Deprecated_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddInstance_Procedural_GraphicsBuffer_UInt32_Material_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Int32 AddInstance_Procedural(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @aabbCount, System.Boolean @dynamicData, UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Boolean @opaqueMaterial, UnityEngine.MaterialPropertyBlock @properties, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @aabbCount, @dynamicData, @matrix, @material, @opaqueMaterial, @properties, @mask, @id};
-            var ___result = RMAddInstance_Procedural_GraphicsBuffer_UInt32_Boolean_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void RemoveInstance_Renderer(UnityEngine.Renderer @targetRenderer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@targetRenderer};
-            var ___result = RMRemoveInstance_Renderer_Renderer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveInstance_InstanceID(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMRemoveInstance_InstanceID_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceTransform_Renderer(UnityEngine.Renderer @renderer)
+        public virtual void UpdateInstanceTransform(UnityEngine.Renderer @renderer)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@renderer};
-            var ___result = RMUpdateInstanceTransform_Renderer_Renderer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInstanceTransform_InstanceID(System.Int32 @instanceID, UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID, @matrix};
-            var ___result = RMUpdateInstanceTransform_InstanceID_Int32_Matrix4x4.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateInstanceTransform_Renderer.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1071,17 +759,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void UpdateInstancePropertyBlock(System.Int32 @handle, UnityEngine.MaterialPropertyBlock @properties)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @properties};
-            var ___result = RMUpdateInstancePropertyBlock_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual System.UInt64 GetSize()
         {
 
@@ -1101,29 +778,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
             var ___result = RMGetInstanceCount.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.UInt32>(___result);
-        }
-
-
-        public virtual void ClearInstances()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearInstances.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults CullInstances(ref UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig @cullingConfig)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cullingConfig};
-            var ___result = RMCullInstances_Ref_RayTracingInstanceCullingConfig.Invoke(___genericsType, ___parameters);
-			@cullingConfig = ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig>(___parameters[0]);
-
-            return ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults>(___result);
         }
 
 
@@ -1150,18 +804,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void Update_Injected(ref UnityEngine.Vector3 @relativeOrigin)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@relativeOrigin};
-            var ___result = RMUpdate_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
-			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-
-            
-        }
-
-
         public virtual void Build_Injected(ref UnityEngine.Vector3 @relativeOrigin)
         {
 
@@ -1174,51 +816,25 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
         }
 
 
-        public virtual void AddInstance_Procedural_Deprecated_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, ref UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
+        public virtual void Update_Injected(ref UnityEngine.Vector3 @relativeOrigin)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@relativeOrigin};
+            var ___result = RMUpdate_Injected_Ref_Vector3.Invoke(___genericsType, ___parameters);
+			@relativeOrigin = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
+
+            
+        }
+
+
+        public virtual void AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @numElements, UnityEngine.Material @material, ref UnityEngine.Matrix4x4 @instanceTransform, System.Boolean @isCutOff, System.Boolean @enableTriangleCulling, System.Boolean @frontTriangleCounterClockwise, System.UInt32 @mask, System.Boolean @reuseBounds, System.UInt32 @id)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@aabbBuffer, @numElements, @material, @instanceTransform, @isCutOff, @enableTriangleCulling, @frontTriangleCounterClockwise, @mask, @reuseBounds, @id};
-            var ___result = RMAddInstance_Procedural_Deprecated_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
+            var ___result = RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Material_Ref_Matrix4x4_Boolean_Boolean_Boolean_UInt32_Boolean_UInt32.Invoke(___genericsType, ___parameters);
 			@instanceTransform = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
-
-            
-        }
-
-
-        public virtual System.Int32 AddInstance_Procedural_Injected(UnityEngine.GraphicsBuffer @aabbBuffer, System.UInt32 @aabbCount, System.Boolean @dynamicData, ref UnityEngine.Matrix4x4 @matrix, UnityEngine.Material @material, System.Boolean @opaqueMaterial, UnityEngine.MaterialPropertyBlock @properties, System.UInt32 @mask, System.UInt32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@aabbBuffer, @aabbCount, @dynamicData, @matrix, @material, @opaqueMaterial, @properties, @mask, @id};
-            var ___result = RMAddInstance_Procedural_Injected_GraphicsBuffer_UInt32_Boolean_Ref_Matrix4x4_Material_Boolean_MaterialPropertyBlock_UInt32_UInt32.Invoke(___genericsType, ___parameters);
-			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[3]);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void UpdateInstanceTransform_InstanceID_Injected(System.Int32 @instanceID, ref UnityEngine.Matrix4x4 @matrix)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID, @matrix};
-            var ___result = RMUpdateInstanceTransform_InstanceID_Injected_Int32_Ref_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@matrix = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual void CullInstances_Injected(ref UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig @cullingConfig, out UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cullingConfig, @ret};
-            var ___result = RMCullInstances_Injected_Ref_RayTracingInstanceCullingConfig_Out_RayTracingInstanceCullingResults.Invoke(___genericsType, ___parameters);
-			@cullingConfig = ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingConfig>(___parameters[0]);
-			@ret = ReflectionUtils.Convert<UnityEngine.Experimental.Rendering.RayTracingInstanceCullingResults>(___parameters[1]);
 
             
         }

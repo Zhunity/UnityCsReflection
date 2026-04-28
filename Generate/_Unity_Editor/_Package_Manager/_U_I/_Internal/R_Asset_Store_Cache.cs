@@ -54,54 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo] onProductInfoChanged
-		/// </summary>
-		protected REvent r_EonProductInfoChanged;
-		public virtual REvent REonProductInfoChanged
-		{
-			get
-			{
-				if(r_EonProductInfoChanged == null)
-				{
-					r_EonProductInfoChanged = new(this, "onProductInfoChanged");
-				}
-				return r_EonProductInfoChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo]] onPurchaseInfosChanged
-		/// </summary>
-		protected REvent r_EonPurchaseInfosChanged;
-		public virtual REvent REonPurchaseInfosChanged
-		{
-			get
-			{
-				if(r_EonPurchaseInfosChanged == null)
-				{
-					r_EonPurchaseInfosChanged = new(this, "onPurchaseInfosChanged");
-				}
-				return r_EonPurchaseInfosChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo]] onUpdatesFound
-		/// </summary>
-		protected REvent r_EonUpdatesFound;
-		public virtual REvent REonUpdatesFound
-		{
-			get
-			{
-				if(r_EonUpdatesFound == null)
-				{
-					r_EonUpdatesFound = new(this, "onUpdatesFound");
-				}
-				return r_EonUpdatesFound;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.Dictionary`2[System.String,System.String] m_ETags
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ETags;
@@ -182,18 +134,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo] m_UpdateInfos
+		/// UnityEngine.Texture2D m_MissingTexture
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo> r_Fm_UpdateInfos;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo> RFm_UpdateInfos
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fm_MissingTexture;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFm_MissingTexture
 		{
 			get
 			{
-				if(r_Fm_UpdateInfos == null)
+				if(r_Fm_MissingTexture == null)
 				{
-					r_Fm_UpdateInfos = new(this, "m_UpdateInfos");
+					r_Fm_MissingTexture = new(this, "m_MissingTexture");
 				}
-				return r_Fm_UpdateInfos;
+				return r_Fm_MissingTexture;
 			}
 		}
 
@@ -310,22 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo[] m_SerializedUpdateInfos
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo> r_Fm_SerializedUpdateInfos;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo> RFm_SerializedUpdateInfos
-		{
-			get
-			{
-				if(r_Fm_SerializedUpdateInfos == null)
-				{
-					r_Fm_SerializedUpdateInfos = new(this, "m_SerializedUpdateInfos");
-				}
-				return r_Fm_SerializedUpdateInfos;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`2[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo],System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo]] onLocalInfosChanged
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo>, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo>> r_FonLocalInfosChanged;
@@ -338,54 +274,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_FonLocalInfosChanged = new(this, "onLocalInfosChanged");
 				}
 				return r_FonLocalInfosChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo] onProductInfoChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo> r_FonProductInfoChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo> RFonProductInfoChanged
-		{
-			get
-			{
-				if(r_FonProductInfoChanged == null)
-				{
-					r_FonProductInfoChanged = new(this, "onProductInfoChanged");
-				}
-				return r_FonProductInfoChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo]] onPurchaseInfosChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo>> r_FonPurchaseInfosChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo>> RFonPurchaseInfosChanged
-		{
-			get
-			{
-				if(r_FonPurchaseInfosChanged == null)
-				{
-					r_FonPurchaseInfosChanged = new(this, "onPurchaseInfosChanged");
-				}
-				return r_FonPurchaseInfosChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo]] onUpdatesFound
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo>> r_FonUpdatesFound;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo>> RFonUpdatesFound
-		{
-			get
-			{
-				if(r_FonUpdatesFound == null)
-				{
-					r_FonUpdatesFound = new(this, "onUpdatesFound");
-				}
-				return r_FonUpdatesFound;
 			}
 		}
 
@@ -662,34 +550,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo GetUpdateInfo(System.String)
+		/// Void SetPurchaseInfo(UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo)
 		/// </summary>
-		protected RMethod r_MGetUpdateInfo_String;
-		public virtual RMethod RMGetUpdateInfo_String
+		protected RMethod r_MSetPurchaseInfo_AssetStorePurchaseInfo;
+		public virtual RMethod RMSetPurchaseInfo_AssetStorePurchaseInfo
 		{
 			get
 			{
-				if(r_MGetUpdateInfo_String == null)
+				if(r_MSetPurchaseInfo_AssetStorePurchaseInfo == null)
 				{
-					r_MGetUpdateInfo_String = new(this, "GetUpdateInfo", 0, typeof(System.String));
+					r_MSetPurchaseInfo_AssetStorePurchaseInfo = new(this, "SetPurchaseInfo", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo"));
 				}
-				return r_MGetUpdateInfo_String;
-			}
-		}
-
-		/// <summary>
-		/// Void SetPurchaseInfos(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo])
-		/// </summary>
-		protected RMethod r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_;
-		public virtual RMethod RMSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_
-		{
-			get
-			{
-				if(r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_ == null)
-				{
-					r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_ = new(this, "SetPurchaseInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo")));
-				}
-				return r_MSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_;
+				return r_MSetPurchaseInfo_AssetStorePurchaseInfo;
 			}
 		}
 
@@ -726,18 +598,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void SetUpdateInfos(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo])
+		/// Void RemoveProductInfo(System.String)
 		/// </summary>
-		protected RMethod r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_;
-		public virtual RMethod RMSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_
+		protected RMethod r_MRemoveProductInfo_String;
+		public virtual RMethod RMRemoveProductInfo_String
 		{
 			get
 			{
-				if(r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_ == null)
+				if(r_MRemoveProductInfo_String == null)
 				{
-					r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_ = new(this, "SetUpdateInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo")));
+					r_MRemoveProductInfo_String = new(this, "RemoveProductInfo", 0, typeof(System.String));
 				}
-				return r_MSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_;
+				return r_MRemoveProductInfo_String;
 			}
 		}
 
@@ -981,33 +853,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo GetUpdateInfo(System.String @uploadIdString)
+        public virtual void SetPurchaseInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @info)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uploadIdString};
-            var ___result = RMGetUpdateInfo_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo>(___result);
-        }
-
-
-        public virtual void SetPurchaseInfos(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo> @purchaseInfos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@purchaseInfos.Value};
-            var ___result = RMSetPurchaseInfos_IEnumerable_d_AssetStorePurchaseInfo_p_.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@info.Value};
+            var ___result = RMSetPurchaseInfo_AssetStorePurchaseInfo.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SetProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @productInfo)
+        public virtual void SetProductInfo(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @info)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productInfo.Value};
+            var ___parameters = new object[]{@info.Value};
             var ___result = RMSetProductInfo_AssetStoreProductInfo.Invoke(___genericsType, ___parameters);
 
             
@@ -1025,12 +886,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void SetUpdateInfos(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo> @updateInfos)
+        public virtual void RemoveProductInfo(System.String @productIdString)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@updateInfos.Value};
-            var ___result = RMSetUpdateInfos_IEnumerable_d_AssetStoreUpdateInfo_p_.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@productIdString};
+            var ___result = RMRemoveProductInfo_String.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean isHidden
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FisHidden;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFisHidden
-		{
-			get
-			{
-				if(r_FisHidden == null)
-				{
-					r_FisHidden = new(this, "isHidden");
-				}
-				return r_FisHidden;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo ParsePurchaseInfo(System.Collections.Generic.IDictionary`2[System.String,System.Object])
 		/// </summary>
 		protected static RMethod r_MParsePurchaseInfo_IDictionary_d_String_Object_p_;
@@ -130,22 +114,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MParsePurchaseInfo_IDictionary_d_String_Object_p_ = new(Type, "ParsePurchaseInfo", 0,  ReflectionUtils.GetType("System.Collections.Generic.IDictionary`2").MakeGenericType(typeof(System.String), typeof(System.Object)));
 				}
 				return r_MParsePurchaseInfo_IDictionary_d_String_Object_p_;
-			}
-		}
-
-		/// <summary>
-		/// Boolean Equals(UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo)
-		/// </summary>
-		protected RMethod r_MEquals_AssetStorePurchaseInfo;
-		public virtual RMethod RMEquals_AssetStorePurchaseInfo
-		{
-			get
-			{
-				if(r_MEquals_AssetStorePurchaseInfo == null)
-				{
-					r_MEquals_AssetStorePurchaseInfo = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo"));
-				}
-				return r_MEquals_AssetStorePurchaseInfo;
 			}
 		}
 
@@ -254,17 +222,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMParsePurchaseInfo_IDictionary_d_String_Object_p_.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMEquals_AssetStorePurchaseInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

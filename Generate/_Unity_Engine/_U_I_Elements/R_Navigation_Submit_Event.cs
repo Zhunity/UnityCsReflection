@@ -38,118 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 
 
 		/// <summary>
-		/// UnityEngine.EventModifiers modifiers
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
-		{
-			get
-			{
-				if(r_Pmodifiers == null)
-				{
-					r_Pmodifiers = new(this, "modifiers", -1);
-				}
-				return r_Pmodifiers;
-			}
-		}
-
-		/// <summary>
-		/// Boolean shiftKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PshiftKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPshiftKey
-		{
-			get
-			{
-				if(r_PshiftKey == null)
-				{
-					r_PshiftKey = new(this, "shiftKey", -1);
-				}
-				return r_PshiftKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean ctrlKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PctrlKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPctrlKey
-		{
-			get
-			{
-				if(r_PctrlKey == null)
-				{
-					r_PctrlKey = new(this, "ctrlKey", -1);
-				}
-				return r_PctrlKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean commandKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcommandKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcommandKey
-		{
-			get
-			{
-				if(r_PcommandKey == null)
-				{
-					r_PcommandKey = new(this, "commandKey", -1);
-				}
-				return r_PcommandKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean altKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PaltKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPaltKey
-		{
-			get
-			{
-				if(r_PaltKey == null)
-				{
-					r_PaltKey = new(this, "altKey", -1);
-				}
-				return r_PaltKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean actionKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactionKey
-		{
-			get
-			{
-				if(r_PactionKey == null)
-				{
-					r_PactionKey = new(this, "actionKey", -1);
-				}
-				return r_PactionKey;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationDeviceType deviceType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_PdeviceType;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RPdeviceType
-		{
-			get
-			{
-				if(r_PdeviceType == null)
-				{
-					r_PdeviceType = new(this, "deviceType", -1);
-				}
-				return r_PdeviceType;
-			}
-		}
-
-		/// <summary>
 		/// Int64 eventTypeId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PeventTypeId;
@@ -162,22 +50,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PeventTypeId = new(this, "eventTypeId", -1);
 				}
 				return r_PeventTypeId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
 			}
 		}
 
@@ -290,22 +162,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 

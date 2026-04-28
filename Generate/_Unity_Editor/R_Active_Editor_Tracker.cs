@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Boolean hasUnsavedChanges
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
-		{
-			get
-			{
-				if(r_PhasUnsavedChanges == null)
-				{
-					r_PhasUnsavedChanges = new(this, "hasUnsavedChanges", -1);
-				}
-				return r_PhasUnsavedChanges;
-			}
-		}
-
-		/// <summary>
 		/// Boolean delayFlushDirtyRebuild
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RBoolean r_PdelayFlushDirtyRebuild;
@@ -194,22 +178,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PhasComponentsWhichCannotBeMultiEdited = new(this, "hasComponentsWhichCannotBeMultiEdited", -1);
 				}
 				return r_PhasComponentsWhichCannotBeMultiEdited;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataMode dataMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
-		{
-			get
-			{
-				if(r_PdataMode == null)
-				{
-					r_PdataMode = new(this, "dataMode", -1);
-				}
-				return r_PdataMode;
 			}
 		}
 
@@ -614,54 +582,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Boolean Internal_HasUnsavedChanges(UnityEditor.ActiveEditorTracker)
-		/// </summary>
-		protected static RMethod r_MInternal_HasUnsavedChanges_ActiveEditorTracker;
-		public static RMethod RMInternal_HasUnsavedChanges_ActiveEditorTracker
-		{
-			get
-			{
-				if(r_MInternal_HasUnsavedChanges_ActiveEditorTracker == null)
-				{
-					r_MInternal_HasUnsavedChanges_ActiveEditorTracker = new(Type, "Internal_HasUnsavedChanges", 0, typeof(UnityEditor.ActiveEditorTracker));
-				}
-				return r_MInternal_HasUnsavedChanges_ActiveEditorTracker;
-			}
-		}
-
-		/// <summary>
-		/// Void Internal_UnsavedChangesStateChanged(UnityEditor.ActiveEditorTracker, Int32, Boolean)
-		/// </summary>
-		protected static RMethod r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
-		public static RMethod RMInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean
-		{
-			get
-			{
-				if(r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean == null)
-				{
-					r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean = new(Type, "Internal_UnsavedChangesStateChanged", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(System.Int32), typeof(System.Boolean));
-				}
-				return r_MInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void UnsavedChangesStateChanged(UnityEditor.Editor, Boolean)
-		/// </summary>
-		protected RMethod r_MUnsavedChangesStateChanged_Editor_Boolean;
-		public virtual RMethod RMUnsavedChangesStateChanged_Editor_Boolean
-		{
-			get
-			{
-				if(r_MUnsavedChangesStateChanged_Editor_Boolean == null)
-				{
-					r_MUnsavedChangesStateChanged_Editor_Boolean = new(this, "UnsavedChangesStateChanged", 0, typeof(UnityEditor.Editor), typeof(System.Boolean));
-				}
-				return r_MUnsavedChangesStateChanged_Editor_Boolean;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Internal_GetDelayFlushDirtyRebuild()
 		/// </summary>
 		protected static RMethod r_MInternal_GetDelayFlushDirtyRebuild;
@@ -866,38 +786,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MVerifyModifiedMonoBehaviours = new(this, "VerifyModifiedMonoBehaviours", 0);
 				}
 				return r_MVerifyModifiedMonoBehaviours;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataMode Internal_GetDataMode(UnityEditor.ActiveEditorTracker)
-		/// </summary>
-		protected static RMethod r_MInternal_GetDataMode_ActiveEditorTracker;
-		public static RMethod RMInternal_GetDataMode_ActiveEditorTracker
-		{
-			get
-			{
-				if(r_MInternal_GetDataMode_ActiveEditorTracker == null)
-				{
-					r_MInternal_GetDataMode_ActiveEditorTracker = new(Type, "Internal_GetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker));
-				}
-				return r_MInternal_GetDataMode_ActiveEditorTracker;
-			}
-		}
-
-		/// <summary>
-		/// Void Internal_SetDataMode(UnityEditor.ActiveEditorTracker, UnityEditor.DataMode)
-		/// </summary>
-		protected static RMethod r_MInternal_SetDataMode_ActiveEditorTracker_DataMode;
-		public static RMethod RMInternal_SetDataMode_ActiveEditorTracker_DataMode
-		{
-			get
-			{
-				if(r_MInternal_SetDataMode_ActiveEditorTracker_DataMode == null)
-				{
-					r_MInternal_SetDataMode_ActiveEditorTracker_DataMode = new(Type, "Internal_SetDataMode", 0, typeof(UnityEditor.ActiveEditorTracker), typeof(UnityEditor.DataMode));
-				}
-				return r_MInternal_SetDataMode_ActiveEditorTracker_DataMode;
 			}
 		}
 
@@ -1278,39 +1166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static System.Boolean Internal_HasUnsavedChanges(UnityEditor.ActiveEditorTracker @activeEditorTracker)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@activeEditorTracker};
-            var ___result = RMInternal_HasUnsavedChanges_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void Internal_UnsavedChangesStateChanged(UnityEditor.ActiveEditorTracker @self, System.Int32 @editorInstance, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @editorInstance, @value};
-            var ___result = RMInternal_UnsavedChangesStateChanged_ActiveEditorTracker_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor @editor, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @value};
-            var ___result = RMUnsavedChangesStateChanged_Editor_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public static System.Boolean Internal_GetDelayFlushDirtyRebuild()
         {
 
@@ -1449,28 +1304,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMVerifyModifiedMonoBehaviours.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEditor.DataMode Internal_GetDataMode(UnityEditor.ActiveEditorTracker @self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self};
-            var ___result = RMInternal_GetDataMode_ActiveEditorTracker.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.DataMode>(___result);
-        }
-
-
-        public static void Internal_SetDataMode(UnityEditor.ActiveEditorTracker @self, UnityEditor.DataMode @mode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@self, @mode};
-            var ___result = RMInternal_SetDataMode_ActiveEditorTracker_DataMode.Invoke(___genericsType, ___parameters);
 
             
         }

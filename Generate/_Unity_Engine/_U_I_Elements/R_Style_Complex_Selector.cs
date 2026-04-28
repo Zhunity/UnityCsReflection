@@ -38,22 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 
 
 		/// <summary>
-		/// UnityEngine.UIElements.Hashes ancestorHashes
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHashes r_FancestorHashes;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHashes RFancestorHashes
-		{
-			get
-			{
-				if(r_FancestorHashes == null)
-				{
-					r_FancestorHashes = new(this, "ancestorHashes");
-				}
-				return r_FancestorHashes;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 m_Specificity
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_Specificity;
@@ -82,22 +66,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_F__0__rule__1__k__BackingField = new(this, "<rule>k__BackingField");
 				}
 				return r_F__0__rule__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_isSimple
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_isSimple;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_isSimple
-		{
-			get
-			{
-				if(r_Fm_isSimple == null)
-				{
-					r_Fm_isSimple = new(this, "m_isSimple");
-				}
-				return r_Fm_isSimple;
 			}
 		}
 
@@ -182,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleSelectorPart] m_HashList
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> r_Fm_HashList;
-		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart> RFm_HashList
-		{
-			get
-			{
-				if(r_Fm_HashList == null)
-				{
-					r_Fm_HashList = new(Type, "m_HashList");
-				}
-				return r_Fm_HashList;
-			}
-		}
-
-		/// <summary>
 		/// Int32 specificity
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pspecificity;
@@ -262,38 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void OnBeforeSerialize()
-		/// </summary>
-		protected RMethod r_MOnBeforeSerialize;
-		public virtual RMethod RMOnBeforeSerialize
-		{
-			get
-			{
-				if(r_MOnBeforeSerialize == null)
-				{
-					r_MOnBeforeSerialize = new(this, "OnBeforeSerialize", 0);
-				}
-				return r_MOnBeforeSerialize;
-			}
-		}
-
-		/// <summary>
-		/// Void OnAfterDeserialize()
-		/// </summary>
-		protected RMethod r_MOnAfterDeserialize;
-		public virtual RMethod RMOnAfterDeserialize
-		{
-			get
-			{
-				if(r_MOnAfterDeserialize == null)
-				{
-					r_MOnAfterDeserialize = new(this, "OnAfterDeserialize", 0);
-				}
-				return r_MOnAfterDeserialize;
-			}
-		}
-
-		/// <summary>
 		/// Void CachePseudoStateMasks()
 		/// </summary>
 		protected RMethod r_MCachePseudoStateMasks;
@@ -322,38 +242,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Int32 StyleSelectorPartCompare(UnityEngine.UIElements.StyleSelectorPart, UnityEngine.UIElements.StyleSelectorPart)
-		/// </summary>
-		protected static RMethod r_MStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart;
-		public static RMethod RMStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart
-		{
-			get
-			{
-				if(r_MStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart == null)
-				{
-					r_MStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart = new(Type, "StyleSelectorPartCompare", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSelectorPart"));
-				}
-				return r_MStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart;
-			}
-		}
-
-		/// <summary>
-		/// Void CalculateHashes()
-		/// </summary>
-		protected RMethod r_MCalculateHashes;
-		public virtual RMethod RMCalculateHashes
-		{
-			get
-			{
-				if(r_MCalculateHashes == null)
-				{
-					r_MCalculateHashes = new(this, "CalculateHashes", 0);
-				}
-				return r_MCalculateHashes;
 			}
 		}
 
@@ -438,28 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 
-        public virtual void OnBeforeSerialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void CachePseudoStateMasks()
         {
 
@@ -479,28 +345,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static System.Int32 StyleSelectorPartCompare(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart @x, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSelectorPart @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x.Value, @y.Value};
-            var ___result = RMStyleSelectorPartCompare_StyleSelectorPart_StyleSelectorPart.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void CalculateHashes()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCalculateHashes.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

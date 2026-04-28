@@ -310,22 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy m_AssetStoreCachePathProxy
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy r_Fm_AssetStoreCachePathProxy;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy RFm_AssetStoreCachePathProxy
-		{
-			get
-			{
-				if(r_Fm_AssetStoreCachePathProxy == null)
-				{
-					r_Fm_AssetStoreCachePathProxy = new(this, "m_AssetStoreCachePathProxy");
-				}
-				return r_Fm_AssetStoreCachePathProxy;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreDownloadManager+DownloadDelegateHandler m_DownloadDelegateHandler
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreDownloadManager.RDownloadDelegateHandler r_Fm_DownloadDelegateHandler;
@@ -390,18 +374,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.ApplicationProxy, UnityEditor.PackageManager.UI.Internal.HttpClientFactory, UnityEditor.PackageManager.UI.Internal.UnityConnectProxy, UnityEditor.PackageManager.UI.Internal.IOProxy, UnityEditor.PackageManager.UI.Internal.AssetStoreCache, UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI, UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy)
+		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.ApplicationProxy, UnityEditor.PackageManager.UI.Internal.HttpClientFactory, UnityEditor.PackageManager.UI.Internal.UnityConnectProxy, UnityEditor.PackageManager.UI.Internal.IOProxy, UnityEditor.PackageManager.UI.Internal.AssetStoreCache, UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI)
 		/// </summary>
-		protected RMethod r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy;
-		public virtual RMethod RMResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy
+		protected RMethod r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI;
+		public virtual RMethod RMResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI
 		{
 			get
 			{
-				if(r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy == null)
+				if(r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI == null)
 				{
-					r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ApplicationProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.HttpClientFactory"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy"));
+					r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ApplicationProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.HttpClientFactory"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"));
 				}
-				return r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy;
+				return r_MResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI;
 			}
 		}
 
@@ -450,38 +434,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MIsAnyDownloadInProgress = new(this, "IsAnyDownloadInProgress", 0);
 				}
 				return r_MIsAnyDownloadInProgress;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsAnyDownloadInProgressOrPause()
-		/// </summary>
-		protected RMethod r_MIsAnyDownloadInProgressOrPause;
-		public virtual RMethod RMIsAnyDownloadInProgressOrPause
-		{
-			get
-			{
-				if(r_MIsAnyDownloadInProgressOrPause == null)
-				{
-					r_MIsAnyDownloadInProgressOrPause = new(this, "IsAnyDownloadInProgressOrPause", 0);
-				}
-				return r_MIsAnyDownloadInProgressOrPause;
-			}
-		}
-
-		/// <summary>
-		/// Int32 DownloadInProgressCount()
-		/// </summary>
-		protected RMethod r_MDownloadInProgressCount;
-		public virtual RMethod RMDownloadInProgressCount
-		{
-			get
-			{
-				if(r_MDownloadInProgressCount == null)
-				{
-					r_MDownloadInProgressCount = new(this, "DownloadInProgressCount", 0);
-				}
-				return r_MDownloadInProgressCount;
 			}
 		}
 
@@ -726,22 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void OnAssetStoreCacheConfigChange(CachePathConfig)
-		/// </summary>
-		protected RMethod r_MOnAssetStoreCacheConfigChange_CachePathConfig;
-		public virtual RMethod RMOnAssetStoreCacheConfigChange_CachePathConfig
-		{
-			get
-			{
-				if(r_MOnAssetStoreCacheConfigChange_CachePathConfig == null)
-				{
-					r_MOnAssetStoreCacheConfigChange_CachePathConfig = new(this, "OnAssetStoreCacheConfigChange", 0,  ReflectionUtils.GetType("UnityEditorInternal.AssetStoreCachePathManager+CachePathConfig"));
-				}
-				return r_MOnAssetStoreCacheConfigChange_CachePathConfig;
-			}
-		}
-
-		/// <summary>
 		/// Void OnBeforeSerialize()
 		/// </summary>
 		protected RMethod r_MOnBeforeSerialize;
@@ -774,50 +710,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void <SetupDownloadOperation>b__37_0(UnityEditor.PackageManager.UI.Internal.IOperation, UnityEditor.PackageManager.UI.Internal.UIError)
+		/// Void <SetupDownloadOperation>b__34_0(UnityEditor.PackageManager.UI.Internal.IOperation, UnityEditor.PackageManager.UI.Internal.UIError)
 		/// </summary>
-		protected RMethod r_M__0__SetupDownloadOperation__1__b__37_0_IOperation_UIError;
-		public virtual RMethod RM__0__SetupDownloadOperation__1__b__37_0_IOperation_UIError
+		protected RMethod r_M__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError;
+		public virtual RMethod RM__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError
 		{
 			get
 			{
-				if(r_M__0__SetupDownloadOperation__1__b__37_0_IOperation_UIError == null)
+				if(r_M__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError == null)
 				{
-					r_M__0__SetupDownloadOperation__1__b__37_0_IOperation_UIError = new(this, "<SetupDownloadOperation>b__37_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"));
+					r_M__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError = new(this, "<SetupDownloadOperation>b__34_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"));
 				}
-				return r_M__0__SetupDownloadOperation__1__b__37_0_IOperation_UIError;
+				return r_M__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError;
 			}
 		}
 
 		/// <summary>
-		/// Void <SetupDownloadOperation>b__37_1(UnityEditor.PackageManager.UI.Internal.IOperation)
+		/// Void <SetupDownloadOperation>b__34_1(UnityEditor.PackageManager.UI.Internal.IOperation)
 		/// </summary>
-		protected RMethod r_M__0__SetupDownloadOperation__1__b__37_1_IOperation;
-		public virtual RMethod RM__0__SetupDownloadOperation__1__b__37_1_IOperation
+		protected RMethod r_M__0__SetupDownloadOperation__1__b__34_1_IOperation;
+		public virtual RMethod RM__0__SetupDownloadOperation__1__b__34_1_IOperation
 		{
 			get
 			{
-				if(r_M__0__SetupDownloadOperation__1__b__37_1_IOperation == null)
+				if(r_M__0__SetupDownloadOperation__1__b__34_1_IOperation == null)
 				{
-					r_M__0__SetupDownloadOperation__1__b__37_1_IOperation = new(this, "<SetupDownloadOperation>b__37_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"));
+					r_M__0__SetupDownloadOperation__1__b__34_1_IOperation = new(this, "<SetupDownloadOperation>b__34_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"));
 				}
-				return r_M__0__SetupDownloadOperation__1__b__37_1_IOperation;
+				return r_M__0__SetupDownloadOperation__1__b__34_1_IOperation;
 			}
 		}
 
 		/// <summary>
-		/// Void <SetupDownloadOperation>b__37_2(UnityEditor.PackageManager.UI.Internal.IOperation)
+		/// Void <SetupDownloadOperation>b__34_2(UnityEditor.PackageManager.UI.Internal.IOperation)
 		/// </summary>
-		protected RMethod r_M__0__SetupDownloadOperation__1__b__37_2_IOperation;
-		public virtual RMethod RM__0__SetupDownloadOperation__1__b__37_2_IOperation
+		protected RMethod r_M__0__SetupDownloadOperation__1__b__34_2_IOperation;
+		public virtual RMethod RM__0__SetupDownloadOperation__1__b__34_2_IOperation
 		{
 			get
 			{
-				if(r_M__0__SetupDownloadOperation__1__b__37_2_IOperation == null)
+				if(r_M__0__SetupDownloadOperation__1__b__34_2_IOperation == null)
 				{
-					r_M__0__SetupDownloadOperation__1__b__37_2_IOperation = new(this, "<SetupDownloadOperation>b__37_2", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"));
+					r_M__0__SetupDownloadOperation__1__b__34_2_IOperation = new(this, "<SetupDownloadOperation>b__34_2", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"));
 				}
-				return r_M__0__SetupDownloadOperation__1__b__37_2_IOperation;
+				return r_M__0__SetupDownloadOperation__1__b__34_2_IOperation;
 			}
 		}
 
@@ -918,12 +854,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy @assetStoreCachePathProxy)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RHttpClientFactory @httpClientFactory, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@application.Value, @httpClientFactory.Value, @unityConnect.Value, @ioProxy.Value, @assetStoreCache.Value, @assetStoreUtils.Value, @assetStoreRestAPI.Value, @assetStoreCachePathProxy.Value};
-            var ___result = RMResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@application.Value, @httpClientFactory.Value, @unityConnect.Value, @ioProxy.Value, @assetStoreCache.Value, @assetStoreUtils.Value, @assetStoreRestAPI.Value};
+            var ___result = RMResolveDependencies_ApplicationProxy_HttpClientFactory_UnityConnectProxy_IOProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -959,28 +895,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMIsAnyDownloadInProgress.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsAnyDownloadInProgressOrPause()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsAnyDownloadInProgressOrPause.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Int32 DownloadInProgressCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDownloadInProgressCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1149,17 +1063,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnAssetStoreCacheConfigChange(Hvak.Editor.Refleaction.RUnityEditorInternal.RAssetStoreCachePathManager.RCachePathConfig @config)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@config.Value};
-            var ___result = RMOnAssetStoreCacheConfigChange_CachePathConfig.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void OnBeforeSerialize()
         {
 
@@ -1182,34 +1085,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void __0__SetupDownloadOperation__1__b__37_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+        public virtual void __0__SetupDownloadOperation__1__b__34_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@op.Value, @error.Value};
-            var ___result = RM__0__SetupDownloadOperation__1__b__37_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__SetupDownloadOperation__1__b__34_0_IOperation_UIError.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__SetupDownloadOperation__1__b__37_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
+        public virtual void __0__SetupDownloadOperation__1__b__34_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@op.Value};
-            var ___result = RM__0__SetupDownloadOperation__1__b__37_1_IOperation.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__SetupDownloadOperation__1__b__34_1_IOperation.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__SetupDownloadOperation__1__b__37_2(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
+        public virtual void __0__SetupDownloadOperation__1__b__34_2(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@op.Value};
-            var ___result = RM__0__SetupDownloadOperation__1__b__37_2_IOperation.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__SetupDownloadOperation__1__b__34_2_IOperation.Invoke(___genericsType, ___parameters);
 
             
         }

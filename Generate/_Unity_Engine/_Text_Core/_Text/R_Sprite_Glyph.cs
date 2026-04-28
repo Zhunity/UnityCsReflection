@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.GlyphClassDefinitionType classDefinitionType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_PclassDefinitionType;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RPclassDefinitionType
-		{
-			get
-			{
-				if(r_PclassDefinitionType == null)
-				{
-					r_PclassDefinitionType = new(this, "classDefinitionType", -1);
-				}
-				return r_PclassDefinitionType;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Compare(UnityEngine.TextCore.Glyph)
 		/// </summary>
 		protected RMethod r_MCompare_Glyph;

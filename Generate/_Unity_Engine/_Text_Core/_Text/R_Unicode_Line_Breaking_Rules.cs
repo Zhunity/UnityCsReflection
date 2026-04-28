@@ -38,6 +38,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 
 
 		/// <summary>
+		/// UnityEngine.TextCore.Text.UnicodeLineBreakingRules s_Instance
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules r_Fs_Instance;
+		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RUnicodeLineBreakingRules RFs_Instance
+		{
+			get
+			{
+				if(r_Fs_Instance == null)
+				{
+					r_Fs_Instance = new(Type, "s_Instance");
+				}
+				return r_Fs_Instance;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.TextAsset m_UnicodeLineBreakingRules
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTextAsset r_Fm_UnicodeLineBreakingRules;
@@ -102,34 +118,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.HashSet`1[System.UInt32] m_LeadingCharactersLookup
+		/// System.Collections.Generic.HashSet`1[System.UInt32] s_LeadingCharactersLookup
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_LeadingCharactersLookup;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_LeadingCharactersLookup
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fs_LeadingCharactersLookup;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RFs_LeadingCharactersLookup
 		{
 			get
 			{
-				if(r_Fm_LeadingCharactersLookup == null)
+				if(r_Fs_LeadingCharactersLookup == null)
 				{
-					r_Fm_LeadingCharactersLookup = new(this, "m_LeadingCharactersLookup");
+					r_Fs_LeadingCharactersLookup = new(Type, "s_LeadingCharactersLookup");
 				}
-				return r_Fm_LeadingCharactersLookup;
+				return r_Fs_LeadingCharactersLookup;
 			}
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.HashSet`1[System.UInt32] m_FollowingCharactersLookup
+		/// System.Collections.Generic.HashSet`1[System.UInt32] s_FollowingCharactersLookup
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fm_FollowingCharactersLookup;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RFm_FollowingCharactersLookup
+		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> r_Fs_FollowingCharactersLookup;
+		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RUInt32> RFs_FollowingCharactersLookup
 		{
 			get
 			{
-				if(r_Fm_FollowingCharactersLookup == null)
+				if(r_Fs_FollowingCharactersLookup == null)
 				{
-					r_Fm_FollowingCharactersLookup = new(this, "m_FollowingCharactersLookup");
+					r_Fs_FollowingCharactersLookup = new(Type, "s_FollowingCharactersLookup");
 				}
-				return r_Fm_FollowingCharactersLookup;
+				return r_Fs_FollowingCharactersLookup;
 			}
 		}
 
@@ -232,14 +248,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Void LoadLineBreakingRules()
 		/// </summary>
-		protected RMethod r_MLoadLineBreakingRules;
-		public virtual RMethod RMLoadLineBreakingRules
+		protected static RMethod r_MLoadLineBreakingRules;
+		public static RMethod RMLoadLineBreakingRules
 		{
 			get
 			{
 				if(r_MLoadLineBreakingRules == null)
 				{
-					r_MLoadLineBreakingRules = new(this, "LoadLineBreakingRules", 0);
+					r_MLoadLineBreakingRules = new(Type, "LoadLineBreakingRules", 0);
 				}
 				return r_MLoadLineBreakingRules;
 			}
@@ -248,14 +264,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		/// <summary>
 		/// Void LoadLineBreakingRules(UnityEngine.TextAsset, UnityEngine.TextAsset)
 		/// </summary>
-		protected RMethod r_MLoadLineBreakingRules_TextAsset_TextAsset;
-		public virtual RMethod RMLoadLineBreakingRules_TextAsset_TextAsset
+		protected static RMethod r_MLoadLineBreakingRules_TextAsset_TextAsset;
+		public static RMethod RMLoadLineBreakingRules_TextAsset_TextAsset
 		{
 			get
 			{
 				if(r_MLoadLineBreakingRules_TextAsset_TextAsset == null)
 				{
-					r_MLoadLineBreakingRules_TextAsset_TextAsset = new(this, "LoadLineBreakingRules", 0, typeof(UnityEngine.TextAsset), typeof(UnityEngine.TextAsset));
+					r_MLoadLineBreakingRules_TextAsset_TextAsset = new(Type, "LoadLineBreakingRules", 0, typeof(UnityEngine.TextAsset), typeof(UnityEngine.TextAsset));
 				}
 				return r_MLoadLineBreakingRules_TextAsset_TextAsset;
 			}
@@ -374,7 +390,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 
-        public virtual void LoadLineBreakingRules()
+        public static void LoadLineBreakingRules()
         {
 
             var ___genericsType = new Type[] {};
@@ -385,7 +401,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
         }
 
 
-        public virtual void LoadLineBreakingRules(UnityEngine.TextAsset @leadingRules, UnityEngine.TextAsset @followingRules)
+        public static void LoadLineBreakingRules(UnityEngine.TextAsset @leadingRules, UnityEngine.TextAsset @followingRules)
         {
 
             var ___genericsType = new Type[] {};

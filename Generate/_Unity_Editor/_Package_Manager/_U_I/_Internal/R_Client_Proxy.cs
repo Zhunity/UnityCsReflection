@@ -230,54 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.Requests.GetCacheRootRequest GetCacheRoot()
-		/// </summary>
-		protected RMethod r_MGetCacheRoot;
-		public virtual RMethod RMGetCacheRoot
-		{
-			get
-			{
-				if(r_MGetCacheRoot == null)
-				{
-					r_MGetCacheRoot = new(this, "GetCacheRoot", 0);
-				}
-				return r_MGetCacheRoot;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.Requests.SetCacheRootRequest SetCacheRoot(System.String)
-		/// </summary>
-		protected RMethod r_MSetCacheRoot_String;
-		public virtual RMethod RMSetCacheRoot_String
-		{
-			get
-			{
-				if(r_MSetCacheRoot_String == null)
-				{
-					r_MSetCacheRoot_String = new(this, "SetCacheRoot", 0, typeof(System.String));
-				}
-				return r_MSetCacheRoot_String;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.Requests.ClearCacheRootRequest ClearCacheRoot()
-		/// </summary>
-		protected RMethod r_MClearCacheRoot;
-		public virtual RMethod RMClearCacheRoot
-		{
-			get
-			{
-				if(r_MClearCacheRoot == null)
-				{
-					r_MClearCacheRoot = new(this, "ClearCacheRoot", 0);
-				}
-				return r_MClearCacheRoot;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -503,39 +455,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMUpdateScopedRegistry_String_UpdateScopedRegistryOptions.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RUpdateScopedRegistryRequest>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetCacheRootRequest GetCacheRoot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetCacheRoot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RGetCacheRootRequest>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RSetCacheRootRequest SetCacheRoot(System.String @path)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path};
-            var ___result = RMSetCacheRoot_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RSetCacheRootRequest>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RClearCacheRootRequest ClearCacheRoot()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearCacheRoot.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RClearCacheRootRequest>(___result);
         }
 
 

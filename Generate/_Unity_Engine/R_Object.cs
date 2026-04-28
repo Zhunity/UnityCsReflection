@@ -294,166 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T;
-		public static RMethod RMInstantiateAsync_GT_T
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T == null)
-				{
-					r_MInstantiateAsync_GT_T = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0));
-				}
-				return r_MInstantiateAsync_GT_T;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, UnityEngine.Transform)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Transform;
-		public static RMethod RMInstantiateAsync_GT_T_Transform
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Transform == null)
-				{
-					r_MInstantiateAsync_GT_T_Transform = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform));
-				}
-				return r_MInstantiateAsync_GT_T_Transform;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, UnityEngine.Vector3, UnityEngine.Quaternion)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Vector3_Quaternion;
-		public static RMethod RMInstantiateAsync_GT_T_Vector3_Quaternion
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Vector3_Quaternion == null)
-				{
-					r_MInstantiateAsync_GT_T_Vector3_Quaternion = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-				}
-				return r_MInstantiateAsync_GT_T_Vector3_Quaternion;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Transform_Vector3_Quaternion;
-		public static RMethod RMInstantiateAsync_GT_T_Transform_Vector3_Quaternion
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Transform_Vector3_Quaternion == null)
-				{
-					r_MInstantiateAsync_GT_T_Transform_Vector3_Quaternion = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-				}
-				return r_MInstantiateAsync_GT_T_Transform_Vector3_Quaternion;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, Int32)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Int32;
-		public static RMethod RMInstantiateAsync_GT_T_Int32
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Int32 == null)
-				{
-					r_MInstantiateAsync_GT_T_Int32 = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(System.Int32));
-				}
-				return r_MInstantiateAsync_GT_T_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, Int32, UnityEngine.Transform)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Int32_Transform;
-		public static RMethod RMInstantiateAsync_GT_T_Int32_Transform
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Int32_Transform == null)
-				{
-					r_MInstantiateAsync_GT_T_Int32_Transform = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(UnityEngine.Transform));
-				}
-				return r_MInstantiateAsync_GT_T_Int32_Transform;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, Int32, UnityEngine.Vector3, UnityEngine.Quaternion)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Int32_Vector3_Quaternion;
-		public static RMethod RMInstantiateAsync_GT_T_Int32_Vector3_Quaternion
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Int32_Vector3_Quaternion == null)
-				{
-					r_MInstantiateAsync_GT_T_Int32_Vector3_Quaternion = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-				}
-				return r_MInstantiateAsync_GT_T_Int32_Vector3_Quaternion;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, Int32, System.ReadOnlySpan`1[UnityEngine.Vector3], System.ReadOnlySpan`1[UnityEngine.Quaternion])
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Int32_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_;
-		public static RMethod RMInstantiateAsync_GT_T_Int32_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Int32_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_ == null)
-				{
-					r_MInstantiateAsync_GT_T_Int32_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_ = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(System.Int32),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Quaternion)));
-				}
-				return r_MInstantiateAsync_GT_T_Int32_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, Int32, UnityEngine.Transform, UnityEngine.Vector3, UnityEngine.Quaternion)
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Int32_Transform_Vector3_Quaternion;
-		public static RMethod RMInstantiateAsync_GT_T_Int32_Transform_Vector3_Quaternion
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Int32_Transform_Vector3_Quaternion == null)
-				{
-					r_MInstantiateAsync_GT_T_Int32_Transform_Vector3_Quaternion = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(UnityEngine.Transform), typeof(UnityEngine.Vector3), typeof(UnityEngine.Quaternion));
-				}
-				return r_MInstantiateAsync_GT_T_Int32_Transform_Vector3_Quaternion;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation`1[T] InstantiateAsync[T](T, Int32, UnityEngine.Transform, System.ReadOnlySpan`1[UnityEngine.Vector3], System.ReadOnlySpan`1[UnityEngine.Quaternion])
-		/// </summary>
-		protected static RMethod r_MInstantiateAsync_GT_T_Int32_Transform_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_;
-		public static RMethod RMInstantiateAsync_GT_T_Int32_Transform_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_
-		{
-			get
-			{
-				if(r_MInstantiateAsync_GT_T_Int32_Transform_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_ == null)
-				{
-					r_MInstantiateAsync_GT_T_Int32_Transform_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_ = new(Type, "InstantiateAsync", 1, Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(UnityEngine.Transform),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Quaternion)));
-				}
-				return r_MInstantiateAsync_GT_T_Int32_Transform_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Object Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)
 		/// </summary>
 		protected static RMethod r_MInstantiate_Object_Vector3_Quaternion;
@@ -498,22 +338,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MInstantiate_Object = new(Type, "Instantiate", 0, typeof(UnityEngine.Object));
 				}
 				return r_MInstantiate_Object;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object Instantiate(UnityEngine.Object, UnityEngine.SceneManagement.Scene)
-		/// </summary>
-		protected static RMethod r_MInstantiate_Object_Scene;
-		public static RMethod RMInstantiate_Object_Scene
-		{
-			get
-			{
-				if(r_MInstantiate_Object_Scene == null)
-				{
-					r_MInstantiate_Object_Scene = new(Type, "Instantiate", 0, typeof(UnityEngine.Object), typeof(UnityEngine.SceneManagement.Scene));
-				}
-				return r_MInstantiate_Object_Scene;
 			}
 		}
 
@@ -726,38 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Object[] FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)
-		/// </summary>
-		protected static RMethod r_MFindObjectsByType_Type_FindObjectsSortMode;
-		public static RMethod RMFindObjectsByType_Type_FindObjectsSortMode
-		{
-			get
-			{
-				if(r_MFindObjectsByType_Type_FindObjectsSortMode == null)
-				{
-					r_MFindObjectsByType_Type_FindObjectsSortMode = new(Type, "FindObjectsByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsSortMode));
-				}
-				return r_MFindObjectsByType_Type_FindObjectsSortMode;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object[] FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)
-		/// </summary>
-		protected static RMethod r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode;
-		public static RMethod RMFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode
-		{
-			get
-			{
-				if(r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode == null)
-				{
-					r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode = new(Type, "FindObjectsByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive), typeof(UnityEngine.FindObjectsSortMode));
-				}
-				return r_MFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode;
-			}
-		}
-
-		/// <summary>
 		/// Void DontDestroyOnLoad(UnityEngine.Object)
 		/// </summary>
 		protected static RMethod r_MDontDestroyOnLoad_Object;
@@ -854,22 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// T[] FindObjectsByType[T](UnityEngine.FindObjectsSortMode)
-		/// </summary>
-		protected static RMethod r_MFindObjectsByType_GT_FindObjectsSortMode;
-		public static RMethod RMFindObjectsByType_GT_FindObjectsSortMode
-		{
-			get
-			{
-				if(r_MFindObjectsByType_GT_FindObjectsSortMode == null)
-				{
-					r_MFindObjectsByType_GT_FindObjectsSortMode = new(Type, "FindObjectsByType", 1, typeof(UnityEngine.FindObjectsSortMode));
-				}
-				return r_MFindObjectsByType_GT_FindObjectsSortMode;
-			}
-		}
-
-		/// <summary>
 		/// T[] FindObjectsOfType[T](Boolean)
 		/// </summary>
 		protected static RMethod r_MFindObjectsOfType_GT_Boolean;
@@ -882,22 +658,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MFindObjectsOfType_GT_Boolean = new(Type, "FindObjectsOfType", 1, typeof(System.Boolean));
 				}
 				return r_MFindObjectsOfType_GT_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// T[] FindObjectsByType[T](UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)
-		/// </summary>
-		protected static RMethod r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode;
-		public static RMethod RMFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode
-		{
-			get
-			{
-				if(r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode == null)
-				{
-					r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode = new(Type, "FindObjectsByType", 1, typeof(UnityEngine.FindObjectsInactive), typeof(UnityEngine.FindObjectsSortMode));
-				}
-				return r_MFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode;
 			}
 		}
 
@@ -930,70 +690,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MFindObjectOfType_GT_Boolean = new(Type, "FindObjectOfType", 1, typeof(System.Boolean));
 				}
 				return r_MFindObjectOfType_GT_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// T FindFirstObjectByType[T]()
-		/// </summary>
-		protected static RMethod r_MFindFirstObjectByType_GT;
-		public static RMethod RMFindFirstObjectByType_GT
-		{
-			get
-			{
-				if(r_MFindFirstObjectByType_GT == null)
-				{
-					r_MFindFirstObjectByType_GT = new(Type, "FindFirstObjectByType", 1);
-				}
-				return r_MFindFirstObjectByType_GT;
-			}
-		}
-
-		/// <summary>
-		/// T FindAnyObjectByType[T]()
-		/// </summary>
-		protected static RMethod r_MFindAnyObjectByType_GT;
-		public static RMethod RMFindAnyObjectByType_GT
-		{
-			get
-			{
-				if(r_MFindAnyObjectByType_GT == null)
-				{
-					r_MFindAnyObjectByType_GT = new(Type, "FindAnyObjectByType", 1);
-				}
-				return r_MFindAnyObjectByType_GT;
-			}
-		}
-
-		/// <summary>
-		/// T FindFirstObjectByType[T](UnityEngine.FindObjectsInactive)
-		/// </summary>
-		protected static RMethod r_MFindFirstObjectByType_GT_FindObjectsInactive;
-		public static RMethod RMFindFirstObjectByType_GT_FindObjectsInactive
-		{
-			get
-			{
-				if(r_MFindFirstObjectByType_GT_FindObjectsInactive == null)
-				{
-					r_MFindFirstObjectByType_GT_FindObjectsInactive = new(Type, "FindFirstObjectByType", 1, typeof(UnityEngine.FindObjectsInactive));
-				}
-				return r_MFindFirstObjectByType_GT_FindObjectsInactive;
-			}
-		}
-
-		/// <summary>
-		/// T FindAnyObjectByType[T](UnityEngine.FindObjectsInactive)
-		/// </summary>
-		protected static RMethod r_MFindAnyObjectByType_GT_FindObjectsInactive;
-		public static RMethod RMFindAnyObjectByType_GT_FindObjectsInactive
-		{
-			get
-			{
-				if(r_MFindAnyObjectByType_GT_FindObjectsInactive == null)
-				{
-					r_MFindAnyObjectByType_GT_FindObjectsInactive = new(Type, "FindAnyObjectByType", 1, typeof(UnityEngine.FindObjectsInactive));
-				}
-				return r_MFindAnyObjectByType_GT_FindObjectsInactive;
 			}
 		}
 
@@ -1046,38 +742,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Object FindFirstObjectByType(System.Type)
-		/// </summary>
-		protected static RMethod r_MFindFirstObjectByType_Type;
-		public static RMethod RMFindFirstObjectByType_Type
-		{
-			get
-			{
-				if(r_MFindFirstObjectByType_Type == null)
-				{
-					r_MFindFirstObjectByType_Type = new(Type, "FindFirstObjectByType", 0, typeof(System.Type));
-				}
-				return r_MFindFirstObjectByType_Type;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object FindAnyObjectByType(System.Type)
-		/// </summary>
-		protected static RMethod r_MFindAnyObjectByType_Type;
-		public static RMethod RMFindAnyObjectByType_Type
-		{
-			get
-			{
-				if(r_MFindAnyObjectByType_Type == null)
-				{
-					r_MFindAnyObjectByType_Type = new(Type, "FindAnyObjectByType", 0, typeof(System.Type));
-				}
-				return r_MFindAnyObjectByType_Type;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Object FindObjectOfType(System.Type, Boolean)
 		/// </summary>
 		protected static RMethod r_MFindObjectOfType_Type_Boolean;
@@ -1090,38 +754,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MFindObjectOfType_Type_Boolean = new(Type, "FindObjectOfType", 0, typeof(System.Type), typeof(System.Boolean));
 				}
 				return r_MFindObjectOfType_Type_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)
-		/// </summary>
-		protected static RMethod r_MFindFirstObjectByType_Type_FindObjectsInactive;
-		public static RMethod RMFindFirstObjectByType_Type_FindObjectsInactive
-		{
-			get
-			{
-				if(r_MFindFirstObjectByType_Type_FindObjectsInactive == null)
-				{
-					r_MFindFirstObjectByType_Type_FindObjectsInactive = new(Type, "FindFirstObjectByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive));
-				}
-				return r_MFindFirstObjectByType_Type_FindObjectsInactive;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)
-		/// </summary>
-		protected static RMethod r_MFindAnyObjectByType_Type_FindObjectsInactive;
-		public static RMethod RMFindAnyObjectByType_Type_FindObjectsInactive
-		{
-			get
-			{
-				if(r_MFindAnyObjectByType_Type_FindObjectsInactive == null)
-				{
-					r_MFindAnyObjectByType_Type_FindObjectsInactive = new(Type, "FindAnyObjectByType", 0, typeof(System.Type), typeof(UnityEngine.FindObjectsInactive));
-				}
-				return r_MFindAnyObjectByType_Type_FindObjectsInactive;
 			}
 		}
 
@@ -1222,22 +854,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Object Internal_CloneSingleWithScene(UnityEngine.Object, UnityEngine.SceneManagement.Scene)
-		/// </summary>
-		protected static RMethod r_MInternal_CloneSingleWithScene_Object_Scene;
-		public static RMethod RMInternal_CloneSingleWithScene_Object_Scene
-		{
-			get
-			{
-				if(r_MInternal_CloneSingleWithScene_Object_Scene == null)
-				{
-					r_MInternal_CloneSingleWithScene_Object_Scene = new(Type, "Internal_CloneSingleWithScene", 0, typeof(UnityEngine.Object), typeof(UnityEngine.SceneManagement.Scene));
-				}
-				return r_MInternal_CloneSingleWithScene_Object_Scene;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object, UnityEngine.Transform, Boolean)
 		/// </summary>
 		protected static RMethod r_MInternal_CloneSingleWithParent_Object_Transform_Boolean;
@@ -1250,22 +866,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MInternal_CloneSingleWithParent_Object_Transform_Boolean = new(Type, "Internal_CloneSingleWithParent", 0, typeof(UnityEngine.Object), typeof(UnityEngine.Transform), typeof(System.Boolean));
 				}
 				return r_MInternal_CloneSingleWithParent_Object_Transform_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.AsyncInstantiateOperation Internal_InstantiateAsyncWithParent(UnityEngine.Object, Int32, UnityEngine.Transform, IntPtr, Int32, IntPtr, Int32)
-		/// </summary>
-		protected static RMethod r_MInternal_InstantiateAsyncWithParent_Object_Int32_Transform_IntPtr_Int32_IntPtr_Int32;
-		public static RMethod RMInternal_InstantiateAsyncWithParent_Object_Int32_Transform_IntPtr_Int32_IntPtr_Int32
-		{
-			get
-			{
-				if(r_MInternal_InstantiateAsyncWithParent_Object_Int32_Transform_IntPtr_Int32_IntPtr_Int32 == null)
-				{
-					r_MInternal_InstantiateAsyncWithParent_Object_Int32_Transform_IntPtr_Int32_IntPtr_Int32 = new(Type, "Internal_InstantiateAsyncWithParent", 0, typeof(UnityEngine.Object), typeof(System.Int32), typeof(UnityEngine.Transform), typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr), typeof(System.Int32));
-				}
-				return r_MInternal_InstantiateAsyncWithParent_Object_Int32_Transform_IntPtr_Int32_IntPtr_Int32;
 			}
 		}
 
@@ -1410,54 +1010,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MForceLoadFromInstanceID_Int32 = new(Type, "ForceLoadFromInstanceID", 0, typeof(System.Int32));
 				}
 				return r_MForceLoadFromInstanceID_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object CreateMissingReferenceObject(Int32)
-		/// </summary>
-		protected static RMethod r_MCreateMissingReferenceObject_Int32;
-		public static RMethod RMCreateMissingReferenceObject_Int32
-		{
-			get
-			{
-				if(r_MCreateMissingReferenceObject_Int32 == null)
-				{
-					r_MCreateMissingReferenceObject_Int32 = new(Type, "CreateMissingReferenceObject", 0, typeof(System.Int32));
-				}
-				return r_MCreateMissingReferenceObject_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Object Internal_CloneSingleWithScene_Injected(UnityEngine.Object, UnityEngine.SceneManagement.Scene ByRef)
-		/// </summary>
-		protected static RMethod r_MInternal_CloneSingleWithScene_Injected_Object_Ref_Scene;
-		public static RMethod RMInternal_CloneSingleWithScene_Injected_Object_Ref_Scene
-		{
-			get
-			{
-				if(r_MInternal_CloneSingleWithScene_Injected_Object_Ref_Scene == null)
-				{
-					r_MInternal_CloneSingleWithScene_Injected_Object_Ref_Scene = new(Type, "Internal_CloneSingleWithScene_Injected", 0, typeof(UnityEngine.Object), typeof(UnityEngine.SceneManagement.Scene).MakeByRefType());
-				}
-				return r_MInternal_CloneSingleWithScene_Injected_Object_Ref_Scene;
 			}
 		}
 
@@ -1630,116 +1182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original};
-            var ___result = RMInstantiateAsync_GT_T.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, UnityEngine.Transform @parent) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @parent};
-            var ___result = RMInstantiateAsync_GT_T_Transform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @position, @rotation};
-            var ___result = RMInstantiateAsync_GT_T_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, UnityEngine.Transform @parent, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @parent, @position, @rotation};
-            var ___result = RMInstantiateAsync_GT_T_Transform_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, System.Int32 @count) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @count};
-            var ___result = RMInstantiateAsync_GT_T_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, System.Int32 @count, UnityEngine.Transform @parent) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @count, @parent};
-            var ___result = RMInstantiateAsync_GT_T_Int32_Transform.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, System.Int32 @count, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @count, @position, @rotation};
-            var ___result = RMInstantiateAsync_GT_T_Int32_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, System.Int32 @count, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RQuaternion> @rotations) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @count, @positions.Value, @rotations.Value};
-            var ___result = RMInstantiateAsync_GT_T_Int32_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, System.Int32 @count, UnityEngine.Transform @parent, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @count, @parent, @position, @rotation};
-            var ___result = RMInstantiateAsync_GT_T_Int32_Transform_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation<T> InstantiateAsync<T>(T @original, System.Int32 @count, UnityEngine.Transform @parent, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions, Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RQuaternion> @rotations) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@original, @count, @parent, @positions.Value, @rotations.Value};
-            var ___result = RMInstantiateAsync_GT_T_Int32_Transform_ReadOnlySpan_d_Vector3_p__ReadOnlySpan_d_Quaternion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation<T>>(___result);
-        }
-
-
         public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.Vector3 @position, UnityEngine.Quaternion @rotation)
         {
 
@@ -1768,17 +1210,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@original};
             var ___result = RMInstantiate_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object Instantiate(UnityEngine.Object @original, UnityEngine.SceneManagement.Scene @scene)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original, @scene};
-            var ___result = RMInstantiate_Object_Scene.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
@@ -1927,28 +1358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object[] FindObjectsByType(System.Type @type, UnityEngine.FindObjectsSortMode @sortMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @sortMode};
-            var ___result = RMFindObjectsByType_Type_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
-        public static UnityEngine.Object[] FindObjectsByType(System.Type @type, UnityEngine.FindObjectsInactive @findObjectsInactive, UnityEngine.FindObjectsSortMode @sortMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @findObjectsInactive, @sortMode};
-            var ___result = RMFindObjectsByType_Type_FindObjectsInactive_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object[]>(___result);
-        }
-
-
         public static void DontDestroyOnLoad(UnityEngine.Object @target)
         {
 
@@ -2015,34 +1424,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static T[] FindObjectsByType<T>(UnityEngine.FindObjectsSortMode @sortMode) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@sortMode};
-            var ___result = RMFindObjectsByType_GT_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
         public static T[] FindObjectsOfType<T>(System.Boolean @includeInactive) where T : UnityEngine.Object
         {
 
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive};
             var ___result = RMFindObjectsOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T[]>(___result);
-        }
-
-
-        public static T[] FindObjectsByType<T>(UnityEngine.FindObjectsInactive @findObjectsInactive, UnityEngine.FindObjectsSortMode @sortMode) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@findObjectsInactive, @sortMode};
-            var ___result = RMFindObjectsByType_GT_FindObjectsInactive_FindObjectsSortMode.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<T[]>(___result);
         }
@@ -2065,50 +1452,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {typeof(T)};
             var ___parameters = new object[]{@includeInactive};
             var ___result = RMFindObjectOfType_GT_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T FindFirstObjectByType<T>() where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMFindFirstObjectByType_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T FindAnyObjectByType<T>() where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{};
-            var ___result = RMFindAnyObjectByType_GT.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T FindFirstObjectByType<T>(UnityEngine.FindObjectsInactive @findObjectsInactive) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@findObjectsInactive};
-            var ___result = RMFindFirstObjectByType_GT_FindObjectsInactive.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public static T FindAnyObjectByType<T>(UnityEngine.FindObjectsInactive @findObjectsInactive) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@findObjectsInactive};
-            var ___result = RMFindAnyObjectByType_GT_FindObjectsInactive.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<T>(___result);
         }
@@ -2147,56 +1490,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object FindFirstObjectByType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindFirstObjectByType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object FindAnyObjectByType(System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMFindAnyObjectByType_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
         public static UnityEngine.Object FindObjectOfType(System.Type @type, System.Boolean @includeInactive)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@type, @includeInactive};
             var ___result = RMFindObjectOfType_Type_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object FindFirstObjectByType(System.Type @type, UnityEngine.FindObjectsInactive @findObjectsInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @findObjectsInactive};
-            var ___result = RMFindFirstObjectByType_Type_FindObjectsInactive.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object FindAnyObjectByType(System.Type @type, UnityEngine.FindObjectsInactive @findObjectsInactive)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type, @findObjectsInactive};
-            var ___result = RMFindAnyObjectByType_Type_FindObjectsInactive.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }
@@ -2268,17 +1567,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Object Internal_CloneSingleWithScene(UnityEngine.Object @data, UnityEngine.SceneManagement.Scene @scene)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @scene};
-            var ___result = RMInternal_CloneSingleWithScene_Object_Scene.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
         public static UnityEngine.Object Internal_CloneSingleWithParent(UnityEngine.Object @data, UnityEngine.Transform @parent, System.Boolean @worldPositionStays)
         {
 
@@ -2287,17 +1575,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMInternal_CloneSingleWithParent_Object_Transform_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.AsyncInstantiateOperation Internal_InstantiateAsyncWithParent(UnityEngine.Object @original, System.Int32 @count, UnityEngine.Transform @parent, System.IntPtr @positions, System.Int32 @positionsCount, System.IntPtr @rotations, System.Int32 @rotationsCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@original, @count, @parent, @positions, @positionsCount, @rotations, @rotationsCount};
-            var ___result = RMInternal_InstantiateAsyncWithParent_Object_Int32_Transform_IntPtr_Int32_IntPtr_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.AsyncInstantiateOperation>(___result);
         }
 
 
@@ -2395,40 +1672,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@instanceID};
             var ___result = RMForceLoadFromInstanceID_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public static UnityEngine.Object CreateMissingReferenceObject(System.Int32 @instanceID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@instanceID};
-            var ___result = RMCreateMissingReferenceObject_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Object>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static UnityEngine.Object Internal_CloneSingleWithScene_Injected(UnityEngine.Object @data, ref UnityEngine.SceneManagement.Scene @scene)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@data, @scene};
-            var ___result = RMInternal_CloneSingleWithScene_Injected_Object_Ref_Scene.Invoke(___genericsType, ___parameters);
-			@scene = ReflectionUtils.Convert<UnityEngine.SceneManagement.Scene>(___parameters[1]);
 
             return ReflectionUtils.Convert<UnityEngine.Object>(___result);
         }

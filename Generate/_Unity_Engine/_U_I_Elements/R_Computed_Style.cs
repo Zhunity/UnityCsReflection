@@ -326,70 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition backgroundPositionX
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_PbackgroundPositionX;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RPbackgroundPositionX
-		{
-			get
-			{
-				if(r_PbackgroundPositionX == null)
-				{
-					r_PbackgroundPositionX = new(this, "backgroundPositionX", -1);
-				}
-				return r_PbackgroundPositionX;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition backgroundPositionY
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_PbackgroundPositionY;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RPbackgroundPositionY
-		{
-			get
-			{
-				if(r_PbackgroundPositionY == null)
-				{
-					r_PbackgroundPositionY = new(this, "backgroundPositionY", -1);
-				}
-				return r_PbackgroundPositionY;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundRepeat backgroundRepeat
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat r_PbackgroundRepeat;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat RPbackgroundRepeat
-		{
-			get
-			{
-				if(r_PbackgroundRepeat == null)
-				{
-					r_PbackgroundRepeat = new(this, "backgroundRepeat", -1);
-				}
-				return r_PbackgroundRepeat;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundSize backgroundSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSize r_PbackgroundSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSize RPbackgroundSize
-		{
-			get
-			{
-				if(r_PbackgroundSize == null)
-				{
-					r_PbackgroundSize = new(this, "backgroundSize", -1);
-				}
-				return r_PbackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Color borderBottomColor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PborderBottomColor;
@@ -1254,6 +1190,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.ScaleMode unityBackgroundScaleMode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_PunityBackgroundScaleMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RPunityBackgroundScaleMode
+		{
+			get
+			{
+				if(r_PunityBackgroundScaleMode == null)
+				{
+					r_PunityBackgroundScaleMode = new(this, "unityBackgroundScaleMode", -1);
+				}
+				return r_PunityBackgroundScaleMode;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Font unityFont
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RFont r_PunityFont;
@@ -1378,22 +1330,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PunitySliceRight = new(this, "unitySliceRight", -1);
 				}
 				return r_PunitySliceRight;
-			}
-		}
-
-		/// <summary>
-		/// Single unitySliceScale
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PunitySliceScale;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPunitySliceScale
-		{
-			get
-			{
-				if(r_PunitySliceScale == null)
-				{
-					r_PunitySliceScale = new(this, "unitySliceScale", -1);
-				}
-				return r_PunitySliceScale;
 			}
 		}
 
@@ -1686,6 +1622,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.VersionChangeType CompareChanges(UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.ComputedStyle ByRef)
+		/// </summary>
+		protected static RMethod r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
+		public static RMethod RMCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle
+		{
+			get
+			{
+				if(r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle == null)
+				{
+					r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle = new(Type, "CompareChanges", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
+				}
+				return r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
+			}
+		}
+
+		/// <summary>
 		/// Boolean StartAnimationInlineTextShadow(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleTextShadow, Int32, Int32, System.Func`2[System.Single,System.Single])
 		/// </summary>
 		protected static RMethod r_MStartAnimationInlineTextShadow_VisualElement_Ref_ComputedStyle_StyleTextShadow_Int32_Int32_Func_d_Single_Single_p_;
@@ -1762,22 +1714,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_ = new(Type, "StartAnimationInlineTransformOrigin", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleTransformOrigin), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Single), typeof(System.Single)));
 				}
 				return r_MStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_;
-			}
-		}
-
-		/// <summary>
-		/// Boolean StartAnimationInlineBackgroundSize(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.StyleBackgroundSize, Int32, Int32, System.Func`2[System.Single,System.Single])
-		/// </summary>
-		protected static RMethod r_MStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
-		public static RMethod RMStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_
-		{
-			get
-			{
-				if(r_MStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ == null)
-				{
-					r_MStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_ = new(Type, "StartAnimationInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(), typeof(UnityEngine.UIElements.StyleBackgroundSize), typeof(System.Int32), typeof(System.Int32),  ReflectionUtils.GetType("System.Func`2").MakeGenericType(typeof(System.Single), typeof(System.Single)));
-				}
-				return r_MStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_;
 			}
 		}
 
@@ -2002,54 +1938,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MApplyPropertyAnimation_VisualElement_StylePropertyId_Int32 = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(System.Int32));
 				}
 				return r_MApplyPropertyAnimation_VisualElement_StylePropertyId_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.BackgroundPosition)
-		/// </summary>
-		protected RMethod r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
-		public virtual RMethod RMApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition
-		{
-			get
-			{
-				if(r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition == null)
-				{
-					r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundPosition));
-				}
-				return r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.BackgroundRepeat)
-		/// </summary>
-		protected RMethod r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
-		public virtual RMethod RMApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat
-		{
-			get
-			{
-				if(r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat == null)
-				{
-					r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundRepeat));
-				}
-				return r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.BackgroundSize)
-		/// </summary>
-		protected RMethod r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
-		public virtual RMethod RMApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize
-		{
-			get
-			{
-				if(r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize == null)
-				{
-					r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize = new(this, "ApplyPropertyAnimation", 0, typeof(UnityEngine.UIElements.VisualElement),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.BackgroundSize));
-				}
-				return r_MApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize;
 			}
 		}
 
@@ -2310,22 +2198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void ApplyStyleBackgroundSize(UnityEngine.UIElements.BackgroundSize)
-		/// </summary>
-		protected RMethod r_MApplyStyleBackgroundSize_BackgroundSize;
-		public virtual RMethod RMApplyStyleBackgroundSize_BackgroundSize
-		{
-			get
-			{
-				if(r_MApplyStyleBackgroundSize_BackgroundSize == null)
-				{
-					r_MApplyStyleBackgroundSize_BackgroundSize = new(this, "ApplyStyleBackgroundSize", 0, typeof(UnityEngine.UIElements.BackgroundSize));
-				}
-				return r_MApplyStyleBackgroundSize_BackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// Void ApplyInitialValue(UnityEngine.UIElements.StyleSheets.StylePropertyReader)
 		/// </summary>
 		protected RMethod r_MApplyInitialValue_StylePropertyReader;
@@ -2386,22 +2258,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MApplyUnsetValue_StylePropertyId_Ref_ComputedStyle = new(this, "ApplyUnsetValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
 				}
 				return r_MApplyUnsetValue_StylePropertyId_Ref_ComputedStyle;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.VersionChangeType CompareChanges(UnityEngine.UIElements.ComputedStyle ByRef, UnityEngine.UIElements.ComputedStyle ByRef)
-		/// </summary>
-		protected static RMethod r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
-		public static RMethod RMCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle
-		{
-			get
-			{
-				if(r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle == null)
-				{
-					r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle = new(Type, "CompareChanges", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.ComputedStyle").MakeByRefType());
-				}
-				return r_MCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle;
 			}
 		}
 
@@ -2604,6 +2460,19 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType CompareChanges(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @x, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @y)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@x.Value, @y.Value};
+            var ___result = RMCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
+			@x = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
+			@y = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType>(___result);
+        }
+
+
         public static System.Boolean StartAnimationInlineTextShadow(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleTextShadow @textShadow, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
         {
 
@@ -2658,18 +2527,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@element, @computedStyle.Value, @transformOrigin, @durationMs, @delayMs, @easingCurve};
             var ___result = RMStartAnimationInlineTransformOrigin_VisualElement_Ref_ComputedStyle_StyleTransformOrigin_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
-			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean StartAnimationInlineBackgroundSize(UnityEngine.UIElements.VisualElement @element, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @computedStyle, UnityEngine.UIElements.StyleBackgroundSize @backgroundSize, System.Int32 @durationMs, System.Int32 @delayMs, System.Func<System.Single, System.Single> @easingCurve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@element, @computedStyle.Value, @backgroundSize, @durationMs, @delayMs, @easingCurve};
-            var ___result = RMStartAnimationInlineBackgroundSize_VisualElement_Ref_ComputedStyle_StyleBackgroundSize_Int32_Int32_Func_d_Single_Single_p_.Invoke(___genericsType, ___parameters);
 			@computedStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
@@ -2831,39 +2688,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ve, @id.Value, @newValue};
             var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.BackgroundPosition @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundPosition.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.BackgroundRepeat @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundRepeat.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyAnimation(UnityEngine.UIElements.VisualElement @ve, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.BackgroundSize @newValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve, @id.Value, @newValue};
-            var ___result = RMApplyPropertyAnimation_VisualElement_StylePropertyId_BackgroundSize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3050,17 +2874,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ApplyStyleBackgroundSize(UnityEngine.UIElements.BackgroundSize @backgroundSizeValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@backgroundSizeValue};
-            var ___result = RMApplyStyleBackgroundSize_BackgroundSize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void ApplyInitialValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyReader @reader)
         {
 
@@ -3104,19 +2917,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			@parentStyle = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
 
             
-        }
-
-
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType CompareChanges(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @x, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle @y)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@x.Value, @y.Value};
-            var ___result = RMCompareChanges_Ref_ComputedStyle_Ref_ComputedStyle.Invoke(___genericsType, ___parameters);
-			@x = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[0]);
-			@y = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RComputedStyle>(___parameters[1]);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType>(___result);
         }
 
 

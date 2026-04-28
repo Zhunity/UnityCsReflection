@@ -438,22 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy m_AssetStoreCachePathProxy
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy r_Fm_AssetStoreCachePathProxy;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy RFm_AssetStoreCachePathProxy
-		{
-			get
-			{
-				if(r_Fm_AssetStoreCachePathProxy == null)
-				{
-					r_Fm_AssetStoreCachePathProxy = new(this, "m_AssetStoreCachePathProxy");
-				}
-				return r_Fm_AssetStoreCachePathProxy;
-			}
-		}
-
-		/// <summary>
 		/// System.String packageUniqueId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageUniqueId;
@@ -710,18 +694,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI, UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy)
+		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI)
 		/// </summary>
-		protected RMethod r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy;
-		public virtual RMethod RMResolveDependencies_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy
+		protected RMethod r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI;
+		public virtual RMethod RMResolveDependencies_AssetStoreUtils_AssetStoreRestAPI
 		{
 			get
 			{
-				if(r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy == null)
+				if(r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI == null)
 				{
-					r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCachePathProxy"));
+					r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"));
 				}
-				return r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy;
+				return r_MResolveDependencies_AssetStoreUtils_AssetStoreRestAPI;
 			}
 		}
 
@@ -742,18 +726,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void OnErrorMessage(System.String, Int32, Attribute)
+		/// Void OnErrorMessage(System.String, Int32)
 		/// </summary>
-		protected RMethod r_MOnErrorMessage_String_Int32_Attribute;
-		public virtual RMethod RMOnErrorMessage_String_Int32_Attribute
+		protected RMethod r_MOnErrorMessage_String_Int32;
+		public virtual RMethod RMOnErrorMessage_String_Int32
 		{
 			get
 			{
-				if(r_MOnErrorMessage_String_Int32_Attribute == null)
+				if(r_MOnErrorMessage_String_Int32 == null)
 				{
-					r_MOnErrorMessage_String_Int32_Attribute = new(this, "OnErrorMessage", 0, typeof(System.String), typeof(System.Int32),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError+Attribute"));
+					r_MOnErrorMessage_String_Int32 = new(this, "OnErrorMessage", 0, typeof(System.String), typeof(System.Int32));
 				}
-				return r_MOnErrorMessage_String_Int32_Attribute;
+				return r_MOnErrorMessage_String_Int32;
 			}
 		}
 
@@ -770,22 +754,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MPause = new(this, "Pause", 0);
 				}
 				return r_MPause;
-			}
-		}
-
-		/// <summary>
-		/// Void Cancel()
-		/// </summary>
-		protected RMethod r_MCancel;
-		public virtual RMethod RMCancel
-		{
-			get
-			{
-				if(r_MCancel == null)
-				{
-					r_MCancel = new(this, "Cancel", 0);
-				}
-				return r_MCancel;
 			}
 		}
 
@@ -918,12 +886,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCachePathProxy @assetStoreCachePathProxy)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assetStoreUtils.Value, @assetStoreRestAPI.Value, @assetStoreCachePathProxy.Value};
-            var ___result = RMResolveDependencies_AssetStoreUtils_AssetStoreRestAPI_AssetStoreCachePathProxy.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@assetStoreUtils.Value, @assetStoreRestAPI.Value};
+            var ___result = RMResolveDependencies_AssetStoreUtils_AssetStoreRestAPI.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -940,12 +908,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnErrorMessage(System.String @errorMessage, System.Int32 @operationErrorCode, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError.RAttribute @attr)
+        public virtual void OnErrorMessage(System.String @errorMessage, System.Int32 @operationErrorCode)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@errorMessage, @operationErrorCode, @attr.Value};
-            var ___result = RMOnErrorMessage_String_Int32_Attribute.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@errorMessage, @operationErrorCode};
+            var ___result = RMOnErrorMessage_String_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -957,17 +925,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMPause.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Cancel()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCancel.Invoke(___genericsType, ___parameters);
 
             
         }

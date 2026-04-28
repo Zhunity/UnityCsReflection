@@ -118,23 +118,23 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void UpdateAssetTrackerCounts(T, Int32, Int32, Int32, Int32)
+		/// Void UpdateAssetDirtyCount(T, Int32)
 		/// </summary>
-		protected RMethod r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32;
-		public virtual RMethod RMUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32
+		protected RMethod r_MUpdateAssetDirtyCount_T_Int32;
+		public virtual RMethod RMUpdateAssetDirtyCount_T_Int32
 		{
 			get
 			{
-				if(r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32 == null)
+				if(r_MUpdateAssetDirtyCount_T_Int32 == null)
 				{
-					r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32 = new(this, "UpdateAssetTrackerCounts", 0, Type.MakeGenericMethodParameter(0), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32), typeof(System.Int32));
+					r_MUpdateAssetDirtyCount_T_Int32 = new(this, "UpdateAssetDirtyCount", 0, Type.MakeGenericMethodParameter(0), typeof(System.Int32));
 				}
-				return r_MUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32;
+				return r_MUpdateAssetDirtyCount_T_Int32;
 			}
 		}
 
 		/// <summary>
-		/// Boolean OnAssetsImported(System.Collections.Generic.HashSet`1[T], System.Collections.Generic.HashSet`1[System.String])
+		/// Void OnAssetsImported(System.Collections.Generic.HashSet`1[T], System.Collections.Generic.HashSet`1[System.String])
 		/// </summary>
 		protected RMethod r_MOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_;
 		public virtual RMethod RMOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_
@@ -221,25 +221,25 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void UpdateAssetTrackerCounts(T @asset, System.Int32 @newDirtyCount, System.Int32 @newElementCount, System.Int32 @newInlinePropertiesCount, System.Int32 @newAttributePropertiesDirtyCount)
+        public virtual void UpdateAssetDirtyCount(T @asset, System.Int32 @newDirtyCount)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@asset, @newDirtyCount, @newElementCount, @newInlinePropertiesCount, @newAttributePropertiesDirtyCount};
-            var ___result = RMUpdateAssetTrackerCounts_T_Int32_Int32_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@asset, @newDirtyCount};
+            var ___result = RMUpdateAssetDirtyCount_T_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Boolean OnAssetsImported(System.Collections.Generic.HashSet<T> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
+        public virtual void OnAssetsImported(System.Collections.Generic.HashSet<T> @changedAssets, System.Collections.Generic.HashSet<System.String> @deletedAssets)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@changedAssets, @deletedAssets};
             var ___result = RMOnAssetsImported_HashSet_d_T_p__HashSet_d_String_p_.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
         }
 
 

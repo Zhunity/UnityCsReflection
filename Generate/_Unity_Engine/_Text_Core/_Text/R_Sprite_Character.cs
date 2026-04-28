@@ -54,6 +54,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
+		/// System.Int32 m_HashCode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_HashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_HashCode
+		{
+			get
+			{
+				if(r_Fm_HashCode == null)
+				{
+					r_Fm_HashCode = new(this, "m_HashCode");
+				}
+				return r_Fm_HashCode;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.TextCore.Text.TextElementType m_ElementType
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElementType r_Fm_ElementType;
@@ -162,6 +178,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_Pname = new(this, "name", -1);
 				}
 				return r_Pname;
+			}
+		}
+
+		/// <summary>
+		/// Int32 hashCode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhashCode;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhashCode
+		{
+			get
+			{
+				if(r_PhashCode == null)
+				{
+					r_PhashCode = new(this, "hashCode", -1);
+				}
+				return r_PhashCode;
 			}
 		}
 

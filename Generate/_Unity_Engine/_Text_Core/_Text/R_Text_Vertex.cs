@@ -54,10 +54,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector4 uv
+		/// UnityEngine.Vector2 uv
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fuv;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFuv
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fuv;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFuv
 		{
 			get
 			{
@@ -82,6 +82,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_Fuv2 = new(this, "uv2");
 				}
 				return r_Fuv2;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Vector2 uv4
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fuv4;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFuv4
+		{
+			get
+			{
+				if(r_Fuv4 == null)
+				{
+					r_Fuv4 = new(this, "uv4");
+				}
+				return r_Fuv4;
 			}
 		}
 

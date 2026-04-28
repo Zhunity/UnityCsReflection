@@ -54,6 +54,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.Action`1[System.Boolean] onEnablePackageDependenciesChanged
+		/// </summary>
+		protected REvent r_EonEnablePackageDependenciesChanged;
+		public virtual REvent REonEnablePackageDependenciesChanged
+		{
+			get
+			{
+				if(r_EonEnablePackageDependenciesChanged == null)
+				{
+					r_EonEnablePackageDependenciesChanged = new(this, "onEnablePackageDependenciesChanged");
+				}
+				return r_EonEnablePackageDependenciesChanged;
+			}
+		}
+
+		/// <summary>
 		/// System.Action`1[System.Boolean] onAdvancedSettingsFoldoutChanged
 		/// </summary>
 		protected REvent r_EonAdvancedSettingsFoldoutChanged;
@@ -150,6 +166,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.Action`1[System.Boolean] onEnablePackageDependenciesChanged
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonEnablePackageDependenciesChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> RFonEnablePackageDependenciesChanged
+		{
+			get
+			{
+				if(r_FonEnablePackageDependenciesChanged == null)
+				{
+					r_FonEnablePackageDependenciesChanged = new(this, "onEnablePackageDependenciesChanged");
+				}
+				return r_FonEnablePackageDependenciesChanged;
+			}
+		}
+
+		/// <summary>
 		/// System.Action`1[System.Boolean] onAdvancedSettingsFoldoutChanged
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RBoolean> r_FonAdvancedSettingsFoldoutChanged;
@@ -230,22 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean dismissPreviewPackagesInUse
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdismissPreviewPackagesInUse;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdismissPreviewPackagesInUse
-		{
-			get
-			{
-				if(r_PdismissPreviewPackagesInUse == null)
-				{
-					r_PdismissPreviewPackagesInUse = new(this, "dismissPreviewPackagesInUse", -1);
-				}
-				return r_PdismissPreviewPackagesInUse;
-			}
-		}
-
-		/// <summary>
 		/// Boolean enablePreReleasePackages
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenablePreReleasePackages;
@@ -258,6 +274,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PenablePreReleasePackages = new(this, "enablePreReleasePackages", -1);
 				}
 				return r_PenablePreReleasePackages;
+			}
+		}
+
+		/// <summary>
+		/// Boolean enablePackageDependencies
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenablePackageDependencies;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPenablePackageDependencies
+		{
+			get
+			{
+				if(r_PenablePackageDependencies == null)
+				{
+					r_PenablePackageDependencies = new(this, "enablePackageDependencies", -1);
+				}
+				return r_PenablePackageDependencies;
 			}
 		}
 
@@ -566,6 +598,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Void OnEnablePackageDependenciesChanged(Boolean)
+		/// </summary>
+		protected RMethod r_MOnEnablePackageDependenciesChanged_Boolean;
+		public virtual RMethod RMOnEnablePackageDependenciesChanged_Boolean
+		{
+			get
+			{
+				if(r_MOnEnablePackageDependenciesChanged_Boolean == null)
+				{
+					r_MOnEnablePackageDependenciesChanged_Boolean = new(this, "OnEnablePackageDependenciesChanged", 0, typeof(System.Boolean));
+				}
+				return r_MOnEnablePackageDependenciesChanged_Boolean;
+			}
+		}
+
+		/// <summary>
 		/// Void OnAdvancedSettingsFoldoutChanged(Boolean)
 		/// </summary>
 		protected RMethod r_MOnAdvancedSettingsFoldoutChanged_Boolean;
@@ -831,6 +879,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@enablePreReleasePackages};
             var ___result = RMOnEnablePreReleasePackagesChanged_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnEnablePackageDependenciesChanged(System.Boolean @enablePackageDependencies)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@enablePackageDependencies};
+            var ___result = RMOnEnablePackageDependenciesChanged_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		}
 
 		/// <summary>
-		/// Unity.Profiling.LowLevel.MarkerFlags AvailabilityNonDevelopment
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FAvailabilityNonDevelopment;
-		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags RFAvailabilityNonDevelopment
-		{
-			get
-			{
-				if(r_FAvailabilityNonDevelopment == null)
-				{
-					r_FAvailabilityNonDevelopment = new(Type, "AvailabilityNonDevelopment");
-				}
-				return r_FAvailabilityNonDevelopment;
-			}
-		}
-
-		/// <summary>
 		/// Unity.Profiling.LowLevel.MarkerFlags Warning
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RMarkerFlags r_FWarning;

@@ -278,38 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector2 tilt
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Ptilt;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPtilt
-		{
-			get
-			{
-				if(r_Ptilt == null)
-				{
-					r_Ptilt = new(this, "tilt", -1);
-				}
-				return r_Ptilt;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.PenStatus penStatus
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_PpenStatus;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RPpenStatus
-		{
-			get
-			{
-				if(r_PpenStatus == null)
-				{
-					r_PpenStatus = new(this, "penStatus", -1);
-				}
-				return r_PpenStatus;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector2 radius
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Pradius;

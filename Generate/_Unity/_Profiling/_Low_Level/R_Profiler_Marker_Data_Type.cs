@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 		}
 
 		/// <summary>
-		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType InstanceId
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInstanceId;
-		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFInstanceId
-		{
-			get
-			{
-				if(r_FInstanceId == null)
-				{
-					r_FInstanceId = new(Type, "InstanceId");
-				}
-				return r_FInstanceId;
-			}
-		}
-
-		/// <summary>
 		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType Int32
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FInt32;
@@ -194,22 +178,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel
 					r_FBlob8 = new(Type, "Blob8");
 				}
 				return r_FBlob8;
-			}
-		}
-
-		/// <summary>
-		/// Unity.Profiling.LowLevel.ProfilerMarkerDataType GfxResourceId
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType r_FGfxResourceId;
-		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RLowLevel.RProfilerMarkerDataType RFGfxResourceId
-		{
-			get
-			{
-				if(r_FGfxResourceId == null)
-				{
-					r_FGfxResourceId = new(Type, "GfxResourceId");
-				}
-				return r_FGfxResourceId;
 			}
 		}
 

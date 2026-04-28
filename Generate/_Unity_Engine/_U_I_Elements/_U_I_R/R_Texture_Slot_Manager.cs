@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// System.Int32 k_SlotSize
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_SlotSize;
-		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFk_SlotSize
-		{
-			get
-			{
-				if(r_Fk_SlotSize == null)
-				{
-					r_Fk_SlotSize = new(Type, "k_SlotSize");
-				}
-				return r_Fk_SlotSize;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32[] slotIds
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_FslotIds;
@@ -310,34 +294,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// Void Bind(UnityEngine.UIElements.TextureId, Single, Int32, UnityEngine.MaterialPropertyBlock)
+		/// Void Bind(UnityEngine.UIElements.TextureId, Int32, UnityEngine.MaterialPropertyBlock)
 		/// </summary>
-		protected RMethod r_MBind_TextureId_Single_Int32_MaterialPropertyBlock;
-		public virtual RMethod RMBind_TextureId_Single_Int32_MaterialPropertyBlock
+		protected RMethod r_MBind_TextureId_Int32_MaterialPropertyBlock;
+		public virtual RMethod RMBind_TextureId_Int32_MaterialPropertyBlock
 		{
 			get
 			{
-				if(r_MBind_TextureId_Single_Int32_MaterialPropertyBlock == null)
+				if(r_MBind_TextureId_Int32_MaterialPropertyBlock == null)
 				{
-					r_MBind_TextureId_Single_Int32_MaterialPropertyBlock = new(this, "Bind", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Single), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
+					r_MBind_TextureId_Int32_MaterialPropertyBlock = new(this, "Bind", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(UnityEngine.MaterialPropertyBlock));
 				}
-				return r_MBind_TextureId_Single_Int32_MaterialPropertyBlock;
-			}
-		}
-
-		/// <summary>
-		/// Void SetGpuData(Int32, UnityEngine.UIElements.TextureId, Int32, Int32, Single)
-		/// </summary>
-		protected RMethod r_MSetGpuData_Int32_TextureId_Int32_Int32_Single;
-		public virtual RMethod RMSetGpuData_Int32_TextureId_Int32_Int32_Single
-		{
-			get
-			{
-				if(r_MSetGpuData_Int32_TextureId_Int32_Int32_Single == null)
-				{
-					r_MSetGpuData_Int32_TextureId_Int32_Int32_Single = new(this, "SetGpuData", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(System.Int32), typeof(System.Single));
-				}
-				return r_MSetGpuData_Int32_TextureId_Int32_Int32_Single;
+				return r_MBind_TextureId_Int32_MaterialPropertyBlock;
 			}
 		}
 
@@ -493,23 +461,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void Bind(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Single @sdfScale, System.Int32 @slot, UnityEngine.MaterialPropertyBlock @mat)
+        public virtual void Bind(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Int32 @slot, UnityEngine.MaterialPropertyBlock @mat)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @sdfScale, @slot, @mat};
-            var ___result = RMBind_TextureId_Single_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetGpuData(System.Int32 @slotIndex, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @id, System.Int32 @textureWidth, System.Int32 @textureHeight, System.Single @sdfScale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@slotIndex, @id.Value, @textureWidth, @textureHeight, @sdfScale};
-            var ___result = RMSetGpuData_Int32_TextureId_Int32_Int32_Single.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@id.Value, @slot, @mat};
+            var ___result = RMBind_TextureId_Int32_MaterialPropertyBlock.Invoke(___genericsType, ___parameters);
 
             
         }

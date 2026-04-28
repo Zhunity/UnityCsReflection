@@ -38,38 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests
 
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.ProgressUpdateEventArgs] progressUpdated
-		/// </summary>
-		protected REvent r_EprogressUpdated;
-		public virtual REvent REprogressUpdated
-		{
-			get
-			{
-				if(r_EprogressUpdated == null)
-				{
-					r_EprogressUpdated = new(this, "progressUpdated");
-				}
-				return r_EprogressUpdated;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.RequestProgress m_Progress
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress r_Fm_Progress;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequestProgress RFm_Progress
-		{
-			get
-			{
-				if(r_Fm_Progress == null)
-				{
-					r_Fm_Progress = new(this, "m_Progress");
-				}
-				return r_Fm_Progress;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.PackageCollection Result
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageCollection r_PResult;

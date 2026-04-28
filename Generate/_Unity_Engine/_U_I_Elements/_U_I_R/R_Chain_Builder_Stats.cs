@@ -182,22 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// System.UInt32 opacityIdUpdates
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FopacityIdUpdates;
-		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFopacityIdUpdates
-		{
-			get
-			{
-				if(r_FopacityIdUpdates == null)
-				{
-					r_FopacityIdUpdates = new(this, "opacityIdUpdates");
-				}
-				return r_FopacityIdUpdates;
-			}
-		}
-
-		/// <summary>
 		/// System.UInt32 colorUpdates
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FcolorUpdates;
@@ -418,6 +402,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_FimmedateRenderersActive = new(this, "immedateRenderersActive");
 				}
 				return r_FimmedateRenderersActive;
+			}
+		}
+
+		/// <summary>
+		/// System.UInt32 textUpdates
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_FtextUpdates;
+		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RFtextUpdates
+		{
+			get
+			{
+				if(r_FtextUpdates == null)
+				{
+					r_FtextUpdates = new(this, "textUpdates");
+				}
+				return r_FtextUpdates;
 			}
 		}
 

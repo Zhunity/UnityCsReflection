@@ -102,118 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.EventModifiers modifiers
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.REventModifiers r_Pmodifiers;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.REventModifiers RPmodifiers
-		{
-			get
-			{
-				if(r_Pmodifiers == null)
-				{
-					r_Pmodifiers = new(this, "modifiers", -1);
-				}
-				return r_Pmodifiers;
-			}
-		}
-
-		/// <summary>
-		/// Boolean shiftKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PshiftKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPshiftKey
-		{
-			get
-			{
-				if(r_PshiftKey == null)
-				{
-					r_PshiftKey = new(this, "shiftKey", -1);
-				}
-				return r_PshiftKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean ctrlKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PctrlKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPctrlKey
-		{
-			get
-			{
-				if(r_PctrlKey == null)
-				{
-					r_PctrlKey = new(this, "ctrlKey", -1);
-				}
-				return r_PctrlKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean commandKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcommandKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcommandKey
-		{
-			get
-			{
-				if(r_PcommandKey == null)
-				{
-					r_PcommandKey = new(this, "commandKey", -1);
-				}
-				return r_PcommandKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean altKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PaltKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPaltKey
-		{
-			get
-			{
-				if(r_PaltKey == null)
-				{
-					r_PaltKey = new(this, "altKey", -1);
-				}
-				return r_PaltKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean actionKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPactionKey
-		{
-			get
-			{
-				if(r_PactionKey == null)
-				{
-					r_PactionKey = new(this, "actionKey", -1);
-				}
-				return r_PactionKey;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationDeviceType deviceType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_PdeviceType;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RPdeviceType
-		{
-			get
-			{
-				if(r_PdeviceType == null)
-				{
-					r_PdeviceType = new(this, "deviceType", -1);
-				}
-				return r_PdeviceType;
-			}
-		}
-
-		/// <summary>
 		/// Int64 eventTypeId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_PeventTypeId;
@@ -226,22 +114,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PeventTypeId = new(this, "eventTypeId", -1);
 				}
 				return r_PeventTypeId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
 			}
 		}
 
@@ -354,22 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 
@@ -710,66 +566,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2, UnityEngine.EventModifiers)
+		/// UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2)
 		/// </summary>
-		protected static RMethod r_MGetPooled_Vector2_EventModifiers;
-		public static RMethod RMGetPooled_Vector2_EventModifiers
+		protected static RMethod r_MGetPooled_Vector2;
+		public static RMethod RMGetPooled_Vector2
 		{
 			get
 			{
-				if(r_MGetPooled_Vector2_EventModifiers == null)
+				if(r_MGetPooled_Vector2 == null)
 				{
-					r_MGetPooled_Vector2_EventModifiers = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Vector2 = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector2));
 				}
-				return r_MGetPooled_Vector2_EventModifiers;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2, UnityEngine.UIElements.NavigationDeviceType, UnityEngine.EventModifiers)
-		/// </summary>
-		protected static RMethod r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers;
-		public static RMethod RMGetPooled_Vector2_NavigationDeviceType_EventModifiers
-		{
-			get
-			{
-				if(r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers == null)
-				{
-					r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector2),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
-				}
-				return r_MGetPooled_Vector2_NavigationDeviceType_EventModifiers;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent GetPooled(Direction, UnityEngine.EventModifiers)
-		/// </summary>
-		protected static RMethod r_MGetPooled_Direction_EventModifiers;
-		public static RMethod RMGetPooled_Direction_EventModifiers
-		{
-			get
-			{
-				if(r_MGetPooled_Direction_EventModifiers == null)
-				{
-					r_MGetPooled_Direction_EventModifiers = new(Type, "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"), typeof(UnityEngine.EventModifiers));
-				}
-				return r_MGetPooled_Direction_EventModifiers;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent GetPooled(Direction, UnityEngine.UIElements.NavigationDeviceType, UnityEngine.EventModifiers)
-		/// </summary>
-		protected static RMethod r_MGetPooled_Direction_NavigationDeviceType_EventModifiers;
-		public static RMethod RMGetPooled_Direction_NavigationDeviceType_EventModifiers
-		{
-			get
-			{
-				if(r_MGetPooled_Direction_NavigationDeviceType_EventModifiers == null)
-				{
-					r_MGetPooled_Direction_NavigationDeviceType_EventModifiers = new(Type, "GetPooled", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationMoveEvent+Direction"),  ReflectionUtils.GetType("UnityEngine.UIElements.NavigationDeviceType"), typeof(UnityEngine.EventModifiers));
-				}
-				return r_MGetPooled_Direction_NavigationDeviceType_EventModifiers;
+				return r_MGetPooled_Vector2;
 			}
 		}
 
@@ -786,22 +594,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MInit = new(this, "Init", 0);
 				}
 				return r_MInit;
-			}
-		}
-
-		/// <summary>
-		/// Void LocalInit()
-		/// </summary>
-		protected RMethod r_MLocalInit;
-		public virtual RMethod RMLocalInit
-		{
-			get
-			{
-				if(r_MLocalInit == null)
-				{
-					r_MLocalInit = new(this, "LocalInit", 0);
-				}
-				return r_MLocalInit;
 			}
 		}
 
@@ -1105,45 +897,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2 @moveVector, UnityEngine.EventModifiers @modifiers)
+        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2 @moveVector)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@moveVector, @modifiers};
-            var ___result = RMGetPooled_Vector2_EventModifiers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(UnityEngine.Vector2 @moveVector, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType @deviceType, UnityEngine.EventModifiers @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@moveVector, @deviceType.Value, @modifiers};
-            var ___result = RMGetPooled_Vector2_NavigationDeviceType_EventModifiers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection @direction, UnityEngine.EventModifiers @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@direction.Value, @modifiers};
-            var ___result = RMGetPooled_Direction_EventModifiers.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.NavigationMoveEvent GetPooled(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection @direction, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType @deviceType, UnityEngine.EventModifiers @modifiers)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@direction.Value, @deviceType.Value, @modifiers};
-            var ___result = RMGetPooled_Direction_NavigationDeviceType_EventModifiers.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@moveVector};
+            var ___result = RMGetPooled_Vector2.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.NavigationMoveEvent>(___result);
         }
@@ -1155,17 +914,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMInit.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void LocalInit()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLocalInit.Invoke(___genericsType, ___parameters);
 
             
         }

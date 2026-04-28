@@ -54,18 +54,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.EntitlementLicensingModel m_LicensingModel
+		/// UnityEditor.PackageManager.EntitlementLicenseType m_LicenseType
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_Fm_LicensingModel;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RFm_LicensingModel
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicenseType r_Fm_LicenseType;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicenseType RFm_LicenseType
 		{
 			get
 			{
-				if(r_Fm_LicensingModel == null)
+				if(r_Fm_LicenseType == null)
 				{
-					r_Fm_LicensingModel = new(this, "m_LicensingModel");
+					r_Fm_LicenseType = new(this, "m_LicenseType");
 				}
-				return r_Fm_LicensingModel;
+				return r_Fm_LicenseType;
 			}
 		}
 
@@ -102,18 +102,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.EntitlementLicensingModel licensingModel
+		/// UnityEditor.PackageManager.EntitlementLicenseType licenseType
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel r_PlicensingModel;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicensingModel RPlicensingModel
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicenseType r_PlicenseType;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.REntitlementLicenseType RPlicenseType
 		{
 			get
 			{
-				if(r_PlicensingModel == null)
+				if(r_PlicenseType == null)
 				{
-					r_PlicensingModel = new(this, "licensingModel", -1);
+					r_PlicenseType = new(this, "licenseType", -1);
 				}
-				return r_PlicensingModel;
+				return r_PlicenseType;
 			}
 		}
 

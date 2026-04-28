@@ -182,86 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StylePropertyId BackgroundPosition
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FBackgroundPosition;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFBackgroundPosition
-		{
-			get
-			{
-				if(r_FBackgroundPosition == null)
-				{
-					r_FBackgroundPosition = new(Type, "BackgroundPosition");
-				}
-				return r_FBackgroundPosition;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StylePropertyId BackgroundPositionX
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FBackgroundPositionX;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFBackgroundPositionX
-		{
-			get
-			{
-				if(r_FBackgroundPositionX == null)
-				{
-					r_FBackgroundPositionX = new(Type, "BackgroundPositionX");
-				}
-				return r_FBackgroundPositionX;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StylePropertyId BackgroundPositionY
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FBackgroundPositionY;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFBackgroundPositionY
-		{
-			get
-			{
-				if(r_FBackgroundPositionY == null)
-				{
-					r_FBackgroundPositionY = new(Type, "BackgroundPositionY");
-				}
-				return r_FBackgroundPositionY;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StylePropertyId BackgroundRepeat
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FBackgroundRepeat;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFBackgroundRepeat
-		{
-			get
-			{
-				if(r_FBackgroundRepeat == null)
-				{
-					r_FBackgroundRepeat = new(Type, "BackgroundRepeat");
-				}
-				return r_FBackgroundRepeat;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StylePropertyId BackgroundSize
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FBackgroundSize;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFBackgroundSize
-		{
-			get
-			{
-				if(r_FBackgroundSize == null)
-				{
-					r_FBackgroundSize = new(Type, "BackgroundSize");
-				}
-				return r_FBackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StylePropertyId BorderBottomColor
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FBorderBottomColor;
@@ -1378,22 +1298,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 					r_FUnitySliceRight = new(Type, "UnitySliceRight");
 				}
 				return r_FUnitySliceRight;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StylePropertyId UnitySliceScale
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId r_FUnitySliceScale;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId RFUnitySliceScale
-		{
-			get
-			{
-				if(r_FUnitySliceScale == null)
-				{
-					r_FUnitySliceScale = new(Type, "UnitySliceScale");
-				}
-				return r_FUnitySliceScale;
 			}
 		}
 

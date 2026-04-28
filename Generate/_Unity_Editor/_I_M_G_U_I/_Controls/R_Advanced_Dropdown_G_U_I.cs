@@ -38,22 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 
 
 		/// <summary>
-		/// System.String k_SearchFieldName
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SearchFieldName;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SearchFieldName
-		{
-			get
-			{
-				if(r_Fk_SearchFieldName == null)
-				{
-					r_Fk_SearchFieldName = new(Type, "k_SearchFieldName");
-				}
-				return r_Fk_SearchFieldName;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector2 s_IconSize
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fs_IconSize;
@@ -310,22 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// UnityEngine.Rect CalculateSearchRect(UnityEngine.Rect ByRef)
-		/// </summary>
-		protected RMethod r_MCalculateSearchRect_Ref_Rect;
-		public virtual RMethod RMCalculateSearchRect_Ref_Rect
-		{
-			get
-			{
-				if(r_MCalculateSearchRect_Ref_Rect == null)
-				{
-					r_MCalculateSearchRect_Ref_Rect = new(this, "CalculateSearchRect", 0, typeof(UnityEngine.Rect).MakeByRefType());
-				}
-				return r_MCalculateSearchRect_Ref_Rect;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Rect GetAnimRect(UnityEngine.Rect, Single)
 		/// </summary>
 		protected RMethod r_MGetAnimRect_Rect_Single;
@@ -370,70 +338,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect = new(this, "GetSelectionHeight", 0,  ReflectionUtils.GetType("UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource"), typeof(UnityEngine.Rect));
 				}
 				return r_MGetSelectionHeight_AdvancedDropdownDataSource_Rect;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Rect GetItemRect(UnityEngine.GUIContent ByRef)
-		/// </summary>
-		protected RMethod r_MGetItemRect_In_GUIContent;
-		public virtual RMethod RMGetItemRect_In_GUIContent
-		{
-			get
-			{
-				if(r_MGetItemRect_In_GUIContent == null)
-				{
-					r_MGetItemRect_In_GUIContent = new(this, "GetItemRect", 0, typeof(UnityEngine.GUIContent).MakeByRefType());
-				}
-				return r_MGetItemRect_In_GUIContent;
-			}
-		}
-
-		/// <summary>
-		/// Single CalcItemHeight(UnityEngine.GUIContent, Single)
-		/// </summary>
-		protected RMethod r_MCalcItemHeight_GUIContent_Single;
-		public virtual RMethod RMCalcItemHeight_GUIContent_Single
-		{
-			get
-			{
-				if(r_MCalcItemHeight_GUIContent_Single == null)
-				{
-					r_MCalcItemHeight_GUIContent_Single = new(this, "CalcItemHeight", 0, typeof(UnityEngine.GUIContent), typeof(System.Single));
-				}
-				return r_MCalcItemHeight_GUIContent_Single;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 CalcItemSize(UnityEngine.GUIContent)
-		/// </summary>
-		protected RMethod r_MCalcItemSize_GUIContent;
-		public virtual RMethod RMCalcItemSize_GUIContent
-		{
-			get
-			{
-				if(r_MCalcItemSize_GUIContent == null)
-				{
-					r_MCalcItemSize_GUIContent = new(this, "CalcItemSize", 0, typeof(UnityEngine.GUIContent));
-				}
-				return r_MCalcItemSize_GUIContent;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawItemContent(UnityEditor.IMGUI.Controls.AdvancedDropdownItem, UnityEngine.Rect, UnityEngine.GUIContent, Boolean, Boolean, Boolean, Boolean)
-		/// </summary>
-		protected RMethod r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
-		public virtual RMethod RMDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean
-		{
-			get
-			{
-				if(r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean == null)
-				{
-					r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean = new(this, "DrawItemContent", 0, typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem), typeof(UnityEngine.Rect), typeof(UnityEngine.GUIContent), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
-				}
-				return r_MDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean;
 			}
 		}
 
@@ -600,18 +504,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual UnityEngine.Rect CalculateSearchRect(ref UnityEngine.Rect @controlRect)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@controlRect};
-            var ___result = RMCalculateSearchRect_Ref_Rect.Invoke(___genericsType, ___parameters);
-			@controlRect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[0]);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
         public virtual UnityEngine.Rect GetAnimRect(UnityEngine.Rect @position, System.Single @anim)
         {
 
@@ -642,50 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___result = RMGetSelectionHeight_AdvancedDropdownDataSource_Rect.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual UnityEngine.Rect GetItemRect(in UnityEngine.GUIContent @content)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content};
-            var ___result = RMGetItemRect_In_GUIContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Rect>(___result);
-        }
-
-
-        public virtual System.Single CalcItemHeight(UnityEngine.GUIContent @content, System.Single @width)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content, @width};
-            var ___result = RMCalcItemHeight_GUIContent_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual UnityEngine.Vector2 CalcItemSize(UnityEngine.GUIContent @content)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@content};
-            var ___result = RMCalcItemSize_GUIContent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Vector2>(___result);
-        }
-
-
-        public virtual void DrawItemContent(UnityEditor.IMGUI.Controls.AdvancedDropdownItem @item, UnityEngine.Rect @rect, UnityEngine.GUIContent @content, System.Boolean @isHover, System.Boolean @isActive, System.Boolean @on, System.Boolean @hasKeyboardFocus)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item, @rect, @content, @isHover, @isActive, @on, @hasKeyboardFocus};
-            var ___result = RMDrawItemContent_AdvancedDropdownItem_Rect_GUIContent_Boolean_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Int32 stringLength
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstringLength;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstringLength
-		{
-			get
-			{
-				if(r_FstringLength == null)
-				{
-					r_FstringLength = new(this, "stringLength");
-				}
-				return r_FstringLength;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.TextCore.Text.TextElement textElement
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextElement r_FtextElement;
@@ -114,22 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_FtextElement = new(this, "textElement");
 				}
 				return r_FtextElement;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.TextCore.Glyph alternativeGlyph
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph r_FalternativeGlyph;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyph RFalternativeGlyph
-		{
-			get
-			{
-				if(r_FalternativeGlyph == null)
-				{
-					r_FalternativeGlyph = new(this, "alternativeGlyph");
-				}
-				return r_FalternativeGlyph;
 			}
 		}
 
@@ -486,54 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Single adjustedAscender
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FadjustedAscender;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFadjustedAscender
-		{
-			get
-			{
-				if(r_FadjustedAscender == null)
-				{
-					r_FadjustedAscender = new(this, "adjustedAscender");
-				}
-				return r_FadjustedAscender;
-			}
-		}
-
-		/// <summary>
-		/// System.Single adjustedDescender
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FadjustedDescender;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFadjustedDescender
-		{
-			get
-			{
-				if(r_FadjustedDescender == null)
-				{
-					r_FadjustedDescender = new(this, "adjustedDescender");
-				}
-				return r_FadjustedDescender;
-			}
-		}
-
-		/// <summary>
-		/// System.Single adjustedHorizontalAdvance
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FadjustedHorizontalAdvance;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFadjustedHorizontalAdvance
-		{
-			get
-			{
-				if(r_FadjustedHorizontalAdvance == null)
-				{
-					r_FadjustedHorizontalAdvance = new(this, "adjustedHorizontalAdvance");
-				}
-				return r_FadjustedHorizontalAdvance;
-			}
-		}
-
-		/// <summary>
 		/// System.Single xAdvance
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FxAdvance;
@@ -614,22 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Int32 underlineVertexIndex
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FunderlineVertexIndex;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFunderlineVertexIndex
-		{
-			get
-			{
-				if(r_FunderlineVertexIndex == null)
-				{
-					r_FunderlineVertexIndex = new(this, "underlineVertexIndex");
-				}
-				return r_FunderlineVertexIndex;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Color32 strikethroughColor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FstrikethroughColor;
@@ -646,22 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Int32 strikethroughVertexIndex
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FstrikethroughVertexIndex;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFstrikethroughVertexIndex
-		{
-			get
-			{
-				if(r_FstrikethroughVertexIndex == null)
-				{
-					r_FstrikethroughVertexIndex = new(this, "strikethroughVertexIndex");
-				}
-				return r_FstrikethroughVertexIndex;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Color32 highlightColor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_FhighlightColor;
@@ -674,22 +562,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_FhighlightColor = new(this, "highlightColor");
 				}
 				return r_FhighlightColor;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.TextCore.Text.HighlightState highlightState
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState r_FhighlightState;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RHighlightState RFhighlightState
-		{
-			get
-			{
-				if(r_FhighlightState == null)
-				{
-					r_FhighlightState = new(this, "highlightState");
-				}
-				return r_FhighlightState;
 			}
 		}
 
@@ -726,38 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.String ToString()
-		/// </summary>
-		protected RMethod r_MToString;
-		public virtual RMethod RMToString
-		{
-			get
-			{
-				if(r_MToString == null)
-				{
-					r_MToString = new(this, "ToString", 0);
-				}
-				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// System.String ToStringTest()
-		/// </summary>
-		protected RMethod r_MToStringTest;
-		public virtual RMethod RMToStringTest
-		{
-			get
-			{
-				if(r_MToStringTest == null)
-				{
-					r_MToStringTest = new(this, "ToStringTest", 0);
-				}
-				return r_MToStringTest;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -786,6 +626,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_MGetHashCode = new(this, "GetHashCode", 0);
 				}
 				return r_MGetHashCode;
+			}
+		}
+
+		/// <summary>
+		/// System.String ToString()
+		/// </summary>
+		protected RMethod r_MToString;
+		public virtual RMethod RMToString
+		{
+			get
+			{
+				if(r_MToString == null)
+				{
+					r_MToString = new(this, "ToString", 0);
+				}
+				return r_MToString;
 			}
 		}
 
@@ -838,28 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 
-        public virtual System.String ToString()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToString.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String ToStringTest()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToStringTest.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
         public virtual System.Boolean Equals(System.Object @obj)
         {
 
@@ -879,6 +713,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
+        }
+
+
+        public virtual System.String ToString()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMToString.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String>(___result);
         }
 
 

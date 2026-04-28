@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 		}
 
 		/// <summary>
-		/// Unity.Collections.Allocator FirstUserIndex
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator r_FFirstUserIndex;
-		public static Hvak.Editor.Refleaction.RUnity.RCollections.RAllocator RFFirstUserIndex
-		{
-			get
-			{
-				if(r_FFirstUserIndex == null)
-				{
-					r_FFirstUserIndex = new(Type, "FirstUserIndex");
-				}
-				return r_FFirstUserIndex;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

@@ -278,6 +278,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Boolean isUnityPackage
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUnityPackage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUnityPackage
+		{
+			get
+			{
+				if(r_PisUnityPackage == null)
+				{
+					r_PisUnityPackage = new(this, "isUnityPackage", -1);
+				}
+				return r_PisUnityPackage;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion latest
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion r_Platest;
@@ -422,18 +438,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion GetUpdateTarget(UnityEditor.PackageManager.UI.Internal.IPackageVersion)
+		/// Void UpdateVersion(UnityEditor.PackageManager.UI.Internal.UpmPackageVersion)
 		/// </summary>
-		protected RMethod r_MGetUpdateTarget_IPackageVersion;
-		public virtual RMethod RMGetUpdateTarget_IPackageVersion
+		protected RMethod r_MUpdateVersion_UpmPackageVersion;
+		public virtual RMethod RMUpdateVersion_UpmPackageVersion
 		{
 			get
 			{
-				if(r_MGetUpdateTarget_IPackageVersion == null)
+				if(r_MUpdateVersion_UpmPackageVersion == null)
 				{
-					r_MGetUpdateTarget_IPackageVersion = new(this, "GetUpdateTarget", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
+					r_MUpdateVersion_UpmPackageVersion = new(this, "UpdateVersion", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion"));
 				}
-				return r_MGetUpdateTarget_IPackageVersion;
+				return r_MUpdateVersion_UpmPackageVersion;
 			}
 		}
 
@@ -466,38 +482,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion = new(Type, "AddToSortedVersions", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion")),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmPackageVersion"));
 				}
 				return r_MAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateExtraPackageInfos(System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.PackageInfo], UnityEditor.PackageManager.UI.Internal.RegistryType)
-		/// </summary>
-		protected RMethod r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType;
-		public virtual RMethod RMUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType
-		{
-			get
-			{
-				if(r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType == null)
-				{
-					r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType = new(this, "UpdateExtraPackageInfos", 0,  ReflectionUtils.GetType("System.Collections.Generic.Dictionary`2").MakeGenericType(typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo)),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.RegistryType"));
-				}
-				return r_MUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType;
-			}
-		}
-
-		/// <summary>
-		/// Void SetLifecycleVersions(System.String, System.String)
-		/// </summary>
-		protected RMethod r_MSetLifecycleVersions_String_String;
-		public virtual RMethod RMSetLifecycleVersions_String_String
-		{
-			get
-			{
-				if(r_MSetLifecycleVersions_String_String == null)
-				{
-					r_MSetLifecycleVersions_String_String = new(this, "SetLifecycleVersions", 0, typeof(System.String), typeof(System.String));
-				}
-				return r_MSetLifecycleVersions_String_String;
 			}
 		}
 
@@ -727,14 +711,14 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetUpdateTarget(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+        public virtual void UpdateVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmPackageVersion @version)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@version.Value};
-            var ___result = RMGetUpdateTarget_IPackageVersion.Invoke(___genericsType, ___parameters);
+            var ___result = RMUpdateVersion_UpmPackageVersion.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
+            
         }
 
 
@@ -757,28 +741,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMAddToSortedVersions_List_d_UpmPackageVersion_p__UpmPackageVersion.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void UpdateExtraPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @extraVersions, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType @availableRegistry)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@extraVersions, @availableRegistry.Value};
-            var ___result = RMUpdateExtraPackageInfos_Dictionary_d_String_PackageInfo_p__RegistryType.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetLifecycleVersions(System.String @unityLifecycleInfoVersion, System.String @unityLifecycleInfoNextVersion)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unityLifecycleInfoVersion, @unityLifecycleInfoNextVersion};
-            var ___result = RMSetLifecycleVersions_String_String.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

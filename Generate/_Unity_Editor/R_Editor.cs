@@ -326,38 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.Boolean m_HasUnsavedChanges
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasUnsavedChanges;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasUnsavedChanges
-		{
-			get
-			{
-				if(r_Fm_HasUnsavedChanges == null)
-				{
-					r_Fm_HasUnsavedChanges = new(this, "m_HasUnsavedChanges");
-				}
-				return r_Fm_HasUnsavedChanges;
-			}
-		}
-
-		/// <summary>
-		/// System.String <saveChangesMessage>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_F__0__saveChangesMessage__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RF__0__saveChangesMessage__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__saveChangesMessage__1__k__BackingField == null)
-				{
-					r_F__0__saveChangesMessage__1__k__BackingField = new(this, "<saveChangesMessage>k__BackingField");
-				}
-				return r_F__0__saveChangesMessage__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean <firstInspectedEditor>k__BackingField
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__firstInspectedEditor__1__k__BackingField;
@@ -374,18 +342,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEditor.IPropertyView m_PropertyViewer
+		/// UnityEditor.IPropertyView <propertyViewer>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_Fm_PropertyViewer;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RFm_PropertyViewer
+		protected Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView r_F__0__propertyViewer__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIPropertyView RF__0__propertyViewer__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_PropertyViewer == null)
+				if(r_F__0__propertyViewer__1__k__BackingField == null)
 				{
-					r_Fm_PropertyViewer = new(this, "m_PropertyViewer");
+					r_F__0__propertyViewer__1__k__BackingField = new(this, "<propertyViewer>k__BackingField");
 				}
-				return r_Fm_PropertyViewer;
+				return r_F__0__propertyViewer__1__k__BackingField;
 			}
 		}
 
@@ -434,54 +402,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PinspectorMode = new(this, "inspectorMode", -1);
 				}
 				return r_PinspectorMode;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataMode dataMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PdataMode;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPdataMode
-		{
-			get
-			{
-				if(r_PdataMode == null)
-				{
-					r_PdataMode = new(this, "dataMode", -1);
-				}
-				return r_PdataMode;
-			}
-		}
-
-		/// <summary>
-		/// Boolean hasUnsavedChanges
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasUnsavedChanges;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPhasUnsavedChanges
-		{
-			get
-			{
-				if(r_PhasUnsavedChanges == null)
-				{
-					r_PhasUnsavedChanges = new(this, "hasUnsavedChanges", -1);
-				}
-				return r_PhasUnsavedChanges;
-			}
-		}
-
-		/// <summary>
-		/// System.String saveChangesMessage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PsaveChangesMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPsaveChangesMessage
-		{
-			get
-			{
-				if(r_PsaveChangesMessage == null)
-				{
-					r_PsaveChangesMessage = new(this, "saveChangesMessage", -1);
-				}
-				return r_PsaveChangesMessage;
 			}
 		}
 
@@ -742,54 +662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Boolean GetHasUnsavedChanges()
-		/// </summary>
-		protected RMethod r_MGetHasUnsavedChanges;
-		public virtual RMethod RMGetHasUnsavedChanges
-		{
-			get
-			{
-				if(r_MGetHasUnsavedChanges == null)
-				{
-					r_MGetHasUnsavedChanges = new(this, "GetHasUnsavedChanges", 0);
-				}
-				return r_MGetHasUnsavedChanges;
-			}
-		}
-
-		/// <summary>
-		/// Void SaveChanges()
-		/// </summary>
-		protected RMethod r_MSaveChanges;
-		public virtual RMethod RMSaveChanges
-		{
-			get
-			{
-				if(r_MSaveChanges == null)
-				{
-					r_MSaveChanges = new(this, "SaveChanges", 0);
-				}
-				return r_MSaveChanges;
-			}
-		}
-
-		/// <summary>
-		/// Void DiscardChanges()
-		/// </summary>
-		protected RMethod r_MDiscardChanges;
-		public virtual RMethod RMDiscardChanges
-		{
-			get
-			{
-				if(r_MDiscardChanges == null)
-				{
-					r_MDiscardChanges = new(this, "DiscardChanges", 0);
-				}
-				return r_MDiscardChanges;
-			}
-		}
-
-		/// <summary>
 		/// Boolean HasLargeHeader()
 		/// </summary>
 		protected RMethod r_MHasLargeHeader;
@@ -802,22 +674,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MHasLargeHeader = new(this, "HasLargeHeader", 0);
 				}
 				return r_MHasLargeHeader;
-			}
-		}
-
-		/// <summary>
-		/// Void PostSerializedObjectCreation()
-		/// </summary>
-		protected RMethod r_MPostSerializedObjectCreation;
-		public virtual RMethod RMPostSerializedObjectCreation
-		{
-			get
-			{
-				if(r_MPostSerializedObjectCreation == null)
-				{
-					r_MPostSerializedObjectCreation = new(this, "PostSerializedObjectCreation", 0);
-				}
-				return r_MPostSerializedObjectCreation;
 			}
 		}
 
@@ -1558,38 +1414,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void DrawMismatchedNameNotification(UnityEditor.Editor, System.String, System.String)
-		/// </summary>
-		protected static RMethod r_MDrawMismatchedNameNotification_Editor_String_String;
-		public static RMethod RMDrawMismatchedNameNotification_Editor_String_String
-		{
-			get
-			{
-				if(r_MDrawMismatchedNameNotification_Editor_String_String == null)
-				{
-					r_MDrawMismatchedNameNotification_Editor_String_String = new(Type, "DrawMismatchedNameNotification", 0, typeof(UnityEditor.Editor), typeof(System.String), typeof(System.String));
-				}
-				return r_MDrawMismatchedNameNotification_Editor_String_String;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawNotification(UnityEngine.Texture, System.String, System.String, System.Action)
-		/// </summary>
-		protected static RMethod r_MDrawNotification_Texture_String_String_Action;
-		public static RMethod RMDrawNotification_Texture_String_String_Action
-		{
-			get
-			{
-				if(r_MDrawNotification_Texture_String_String_Action == null)
-				{
-					r_MDrawNotification_Texture_String_String_Action = new(Type, "DrawNotification", 0, typeof(UnityEngine.Texture), typeof(System.String), typeof(System.String), typeof(System.Action));
-				}
-				return r_MDrawNotification_Texture_String_String_Action;
-			}
-		}
-
-		/// <summary>
 		/// Void DrawPostIconContent(UnityEngine.Rect)
 		/// </summary>
 		protected RMethod r_MDrawPostIconContent_Rect;
@@ -1602,6 +1426,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MDrawPostIconContent_Rect = new(this, "DrawPostIconContent", 0, typeof(UnityEngine.Rect));
 				}
 				return r_MDrawPostIconContent_Rect;
+			}
+		}
+
+		/// <summary>
+		/// Void DrawPostIconContent()
+		/// </summary>
+		protected RMethod r_MDrawPostIconContent;
+		public virtual RMethod RMDrawPostIconContent
+		{
+			get
+			{
+				if(r_MDrawPostIconContent == null)
+				{
+					r_MDrawPostIconContent = new(this, "DrawPostIconContent", 0);
+				}
+				return r_MDrawPostIconContent;
 			}
 		}
 
@@ -2086,22 +1926,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -2150,39 +1974,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 
-        public virtual System.Boolean GetHasUnsavedChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHasUnsavedChanges.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SaveChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DiscardChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDiscardChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual System.Boolean HasLargeHeader()
         {
 
@@ -2191,17 +1982,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMHasLargeHeader.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void PostSerializedObjectCreation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPostSerializedObjectCreation.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -2717,34 +2497,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void DrawMismatchedNameNotification(UnityEditor.Editor @editor, System.String @expectedMainObjectName, System.String @mainObjectName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @expectedMainObjectName, @mainObjectName};
-            var ___result = RMDrawMismatchedNameNotification_Editor_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void DrawNotification(UnityEngine.Texture @image, System.String @text, System.String @btnText, System.Action @onBtnClick)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@image, @text, @btnText, @onBtnClick};
-            var ___result = RMDrawNotification_Texture_String_String_Action.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void DrawPostIconContent(UnityEngine.Rect @iconRect)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@iconRect};
             var ___result = RMDrawPostIconContent_Rect.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DrawPostIconContent()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMDrawPostIconContent.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3080,17 +2849,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

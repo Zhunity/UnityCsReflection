@@ -278,38 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Boolean m_HasInlineBackgroundSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_HasInlineBackgroundSize;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_HasInlineBackgroundSize
-		{
-			get
-			{
-				if(r_Fm_HasInlineBackgroundSize == null)
-				{
-					r_Fm_HasInlineBackgroundSize = new(this, "m_HasInlineBackgroundSize");
-				}
-				return r_Fm_HasInlineBackgroundSize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundSize m_InlineBackgroundSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize r_Fm_InlineBackgroundSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize RFm_InlineBackgroundSize
-		{
-			get
-			{
-				if(r_Fm_InlineBackgroundSize == null)
-				{
-					r_Fm_InlineBackgroundSize = new(this, "m_InlineBackgroundSize");
-				}
-				return r_Fm_InlineBackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.InlineStyleAccess+InlineRule m_InlineRule
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_Fm_InlineRule;
@@ -338,6 +306,134 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fm_Values = new(this, "m_Values");
 				}
 				return r_Fm_Values;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement ve
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pve;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPve
+		{
+			get
+			{
+				if(r_Pve == null)
+				{
+					r_Pve = new(this, "ve", -1);
+				}
+				return r_Pve;
+			}
+		}
+
+		/// <summary>
+		/// InlineRule inlineRule
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_PinlineRule;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule RPinlineRule
+		{
+			get
+			{
+				if(r_PinlineRule == null)
+				{
+					r_PinlineRule = new(this, "inlineRule", -1);
+				}
+				return r_PinlineRule;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.StyleCursor UnityEngine.UIElements.IStyle.cursor
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor r_PUnityEngine__2__UIElements__2__IStyle__2__cursor;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor RPUnityEngine__2__UIElements__2__IStyle__2__cursor
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__cursor == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__cursor = new(this, "UnityEngine.UIElements.IStyle.cursor", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__cursor;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.StyleTextShadow UnityEngine.UIElements.IStyle.textShadow
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow RPUnityEngine__2__UIElements__2__IStyle__2__textShadow
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow = new(this, "UnityEngine.UIElements.IStyle.textShadow", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.StyleTransformOrigin UnityEngine.UIElements.IStyle.transformOrigin
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin RPUnityEngine__2__UIElements__2__IStyle__2__transformOrigin
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin = new(this, "UnityEngine.UIElements.IStyle.transformOrigin", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.StyleTranslate UnityEngine.UIElements.IStyle.translate
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate r_PUnityEngine__2__UIElements__2__IStyle__2__translate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate RPUnityEngine__2__UIElements__2__IStyle__2__translate
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__translate == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__translate = new(this, "UnityEngine.UIElements.IStyle.translate", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__translate;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.StyleRotate UnityEngine.UIElements.IStyle.rotate
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate r_PUnityEngine__2__UIElements__2__IStyle__2__rotate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate RPUnityEngine__2__UIElements__2__IStyle__2__rotate
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__rotate == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__rotate = new(this, "UnityEngine.UIElements.IStyle.rotate", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__rotate;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.StyleScale UnityEngine.UIElements.IStyle.scale
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale r_PUnityEngine__2__UIElements__2__IStyle__2__scale;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale RPUnityEngine__2__UIElements__2__IStyle__2__scale
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__scale == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__scale = new(this, "UnityEngine.UIElements.IStyle.scale", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__scale;
 			}
 		}
 
@@ -418,54 +514,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundImage = new(this, "UnityEngine.UIElements.IStyle.backgroundImage", -1);
 				}
 				return r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundImage;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundPosition UnityEngine.UIElements.IStyle.backgroundPositionX
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition RPUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX = new(this, "UnityEngine.UIElements.IStyle.backgroundPositionX", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionX;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundPosition UnityEngine.UIElements.IStyle.backgroundPositionY
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundPosition RPUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY = new(this, "UnityEngine.UIElements.IStyle.backgroundPositionY", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundPositionY;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundRepeat UnityEngine.UIElements.IStyle.backgroundRepeat
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundRepeat r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundRepeat RPUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat = new(this, "UnityEngine.UIElements.IStyle.backgroundRepeat", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundRepeat;
 			}
 		}
 
@@ -1238,6 +1286,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] UnityEngine.UIElements.IStyle.unityBackgroundScaleMode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> RPUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode
+		{
+			get
+			{
+				if(r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode == null)
+				{
+					r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode = new(this, "UnityEngine.UIElements.IStyle.unityBackgroundScaleMode", -1);
+				}
+				return r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.StyleFont UnityEngine.UIElements.IStyle.unityFont
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFont r_PUnityEngine__2__UIElements__2__IStyle__2__unityFont;
@@ -1362,22 +1426,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight = new(this, "UnityEngine.UIElements.IStyle.unitySliceRight", -1);
 				}
 				return r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceRight;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleFloat UnityEngine.UIElements.IStyle.unitySliceScale
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleFloat RPUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale = new(this, "UnityEngine.UIElements.IStyle.unitySliceScale", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__unitySliceScale;
 			}
 		}
 
@@ -1526,166 +1574,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement ve
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Pve;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPve
-		{
-			get
-			{
-				if(r_Pve == null)
-				{
-					r_Pve = new(this, "ve", -1);
-				}
-				return r_Pve;
-			}
-		}
-
-		/// <summary>
-		/// InlineRule inlineRule
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule r_PinlineRule;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RInlineStyleAccess.RInlineRule RPinlineRule
-		{
-			get
-			{
-				if(r_PinlineRule == null)
-				{
-					r_PinlineRule = new(this, "inlineRule", -1);
-				}
-				return r_PinlineRule;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleCursor UnityEngine.UIElements.IStyle.cursor
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor r_PUnityEngine__2__UIElements__2__IStyle__2__cursor;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleCursor RPUnityEngine__2__UIElements__2__IStyle__2__cursor
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__cursor == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__cursor = new(this, "UnityEngine.UIElements.IStyle.cursor", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__cursor;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleTextShadow UnityEngine.UIElements.IStyle.textShadow
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTextShadow RPUnityEngine__2__UIElements__2__IStyle__2__textShadow
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow = new(this, "UnityEngine.UIElements.IStyle.textShadow", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__textShadow;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundSize UnityEngine.UIElements.IStyle.backgroundSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleBackgroundSize RPUnityEngine__2__UIElements__2__IStyle__2__backgroundSize
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundSize == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundSize = new(this, "UnityEngine.UIElements.IStyle.backgroundSize", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__backgroundSize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleTransformOrigin UnityEngine.UIElements.IStyle.transformOrigin
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTransformOrigin RPUnityEngine__2__UIElements__2__IStyle__2__transformOrigin
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin = new(this, "UnityEngine.UIElements.IStyle.transformOrigin", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__transformOrigin;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleTranslate UnityEngine.UIElements.IStyle.translate
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate r_PUnityEngine__2__UIElements__2__IStyle__2__translate;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleTranslate RPUnityEngine__2__UIElements__2__IStyle__2__translate
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__translate == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__translate = new(this, "UnityEngine.UIElements.IStyle.translate", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__translate;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleRotate UnityEngine.UIElements.IStyle.rotate
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate r_PUnityEngine__2__UIElements__2__IStyle__2__rotate;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRotate RPUnityEngine__2__UIElements__2__IStyle__2__rotate
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__rotate == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__rotate = new(this, "UnityEngine.UIElements.IStyle.rotate", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__rotate;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleScale UnityEngine.UIElements.IStyle.scale
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale r_PUnityEngine__2__UIElements__2__IStyle__2__scale;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleScale RPUnityEngine__2__UIElements__2__IStyle__2__scale
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__scale == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__scale = new(this, "UnityEngine.UIElements.IStyle.scale", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__scale;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleEnum`1[UnityEngine.ScaleMode] UnityEngine.UIElements.IStyle.unityBackgroundScaleMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleEnum<Hvak.Editor.Refleaction.RUnityEngine.RScaleMode> RPUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode
-		{
-			get
-			{
-				if(r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode == null)
-				{
-					r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode = new(this, "UnityEngine.UIElements.IStyle.unityBackgroundScaleMode", -1);
-				}
-				return r_PUnityEngine__2__UIElements__2__IStyle__2__unityBackgroundScaleMode;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -1794,38 +1682,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged = new(this, "TryGetStyleValueManaged", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleValueManaged").MakeByRefType());
 				}
 				return r_MTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged;
-			}
-		}
-
-		/// <summary>
-		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleBackgroundPosition)
-		/// </summary>
-		protected RMethod r_MSetStyleValue_StylePropertyId_StyleBackgroundPosition;
-		public virtual RMethod RMSetStyleValue_StylePropertyId_StyleBackgroundPosition
-		{
-			get
-			{
-				if(r_MSetStyleValue_StylePropertyId_StyleBackgroundPosition == null)
-				{
-					r_MSetStyleValue_StylePropertyId_StyleBackgroundPosition = new(this, "SetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackgroundPosition));
-				}
-				return r_MSetStyleValue_StylePropertyId_StyleBackgroundPosition;
-			}
-		}
-
-		/// <summary>
-		/// Boolean SetStyleValue(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.StyleBackgroundRepeat)
-		/// </summary>
-		protected RMethod r_MSetStyleValue_StylePropertyId_StyleBackgroundRepeat;
-		public virtual RMethod RMSetStyleValue_StylePropertyId_StyleBackgroundRepeat
-		{
-			get
-			{
-				if(r_MSetStyleValue_StylePropertyId_StyleBackgroundRepeat == null)
-				{
-					r_MSetStyleValue_StylePropertyId_StyleBackgroundRepeat = new(this, "SetStyleValue", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.StyleBackgroundRepeat));
-				}
-				return r_MSetStyleValue_StylePropertyId_StyleBackgroundRepeat;
 			}
 		}
 
@@ -2166,38 +2022,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean SetInlineBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize)
-		/// </summary>
-		protected RMethod r_MSetInlineBackgroundSize_StyleBackgroundSize;
-		public virtual RMethod RMSetInlineBackgroundSize_StyleBackgroundSize
-		{
-			get
-			{
-				if(r_MSetInlineBackgroundSize_StyleBackgroundSize == null)
-				{
-					r_MSetInlineBackgroundSize_StyleBackgroundSize = new(this, "SetInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize));
-				}
-				return r_MSetInlineBackgroundSize_StyleBackgroundSize;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyStyleBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize)
-		/// </summary>
-		protected RMethod r_MApplyStyleBackgroundSize_StyleBackgroundSize;
-		public virtual RMethod RMApplyStyleBackgroundSize_StyleBackgroundSize
-		{
-			get
-			{
-				if(r_MApplyStyleBackgroundSize_StyleBackgroundSize == null)
-				{
-					r_MApplyStyleBackgroundSize_StyleBackgroundSize = new(this, "ApplyStyleBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize));
-				}
-				return r_MApplyStyleBackgroundSize_StyleBackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// Void ApplyStyleValue(UnityEngine.UIElements.StyleSheets.StyleValue)
 		/// </summary>
 		protected RMethod r_MApplyStyleValue_StyleValue;
@@ -2358,22 +2182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean TryGetInlineBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize ByRef)
-		/// </summary>
-		protected RMethod r_MTryGetInlineBackgroundSize_Ref_StyleBackgroundSize;
-		public virtual RMethod RMTryGetInlineBackgroundSize_Ref_StyleBackgroundSize
-		{
-			get
-			{
-				if(r_MTryGetInlineBackgroundSize_Ref_StyleBackgroundSize == null)
-				{
-					r_MTryGetInlineBackgroundSize_Ref_StyleBackgroundSize = new(this, "TryGetInlineBackgroundSize", 0, typeof(UnityEngine.UIElements.StyleBackgroundSize).MakeByRefType());
-				}
-				return r_MTryGetInlineBackgroundSize_Ref_StyleBackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.StyleLength GetStyleLength(UnityEngine.UIElements.StyleSheets.StylePropertyId)
 		/// </summary>
 		protected RMethod r_MGetStyleLength_StylePropertyId;
@@ -2450,38 +2258,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetStyleBackground_StylePropertyId = new(this, "GetStyleBackground", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
 				}
 				return r_MGetStyleBackground_StylePropertyId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(UnityEngine.UIElements.StyleSheets.StylePropertyId)
-		/// </summary>
-		protected RMethod r_MGetStyleBackgroundPosition_StylePropertyId;
-		public virtual RMethod RMGetStyleBackgroundPosition_StylePropertyId
-		{
-			get
-			{
-				if(r_MGetStyleBackgroundPosition_StylePropertyId == null)
-				{
-					r_MGetStyleBackgroundPosition_StylePropertyId = new(this, "GetStyleBackgroundPosition", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-				}
-				return r_MGetStyleBackgroundPosition_StylePropertyId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(UnityEngine.UIElements.StyleSheets.StylePropertyId)
-		/// </summary>
-		protected RMethod r_MGetStyleBackgroundRepeat_StylePropertyId;
-		public virtual RMethod RMGetStyleBackgroundRepeat_StylePropertyId
-		{
-			get
-			{
-				if(r_MGetStyleBackgroundRepeat_StylePropertyId == null)
-				{
-					r_MGetStyleBackgroundRepeat_StylePropertyId = new(this, "GetStyleBackgroundRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"));
-				}
-				return r_MGetStyleBackgroundRepeat_StylePropertyId;
 			}
 		}
 
@@ -2704,28 +2480,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___parameters = new object[]{@id.Value, @value.Value};
             var ___result = RMTryGetStyleValueManaged_StylePropertyId_Ref_StyleValueManaged.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValueManaged>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackgroundPosition @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleBackgroundPosition.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean SetStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, UnityEngine.UIElements.StyleBackgroundRepeat @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @inlineValue};
-            var ___result = RMSetStyleValue_StylePropertyId_StyleBackgroundRepeat.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -2962,28 +2716,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean SetInlineBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize @inlineValue)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@inlineValue};
-            var ___result = RMSetInlineBackgroundSize_StyleBackgroundSize.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ApplyStyleBackgroundSize(UnityEngine.UIElements.StyleBackgroundSize @backgroundSize)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@backgroundSize};
-            var ___result = RMApplyStyleBackgroundSize_StyleBackgroundSize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void ApplyStyleValue(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleValue @value)
         {
 
@@ -3101,18 +2833,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Boolean TryGetInlineBackgroundSize(ref UnityEngine.UIElements.StyleBackgroundSize @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTryGetInlineBackgroundSize_Ref_StyleBackgroundSize.Invoke(___genericsType, ___parameters);
-			@value = ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundSize>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual UnityEngine.UIElements.StyleLength GetStyleLength(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
         {
 
@@ -3165,28 +2885,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMGetStyleBackground_StylePropertyId.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackground>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleBackgroundPosition GetStyleBackgroundPosition(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleBackgroundPosition_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundPosition>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleBackgroundRepeat GetStyleBackgroundRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value};
-            var ___result = RMGetStyleBackgroundRepeat_StylePropertyId.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleBackgroundRepeat>(___result);
         }
 
 

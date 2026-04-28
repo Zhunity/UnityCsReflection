@@ -38,38 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 
 
 		/// <summary>
-		/// System.Threading.CancellationTokenSource m_CancellationTokenSource
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource r_Fm_CancellationTokenSource;
-		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationTokenSource RFm_CancellationTokenSource
-		{
-			get
-			{
-				if(r_Fm_CancellationTokenSource == null)
-				{
-					r_Fm_CancellationTokenSource = new(this, "m_CancellationTokenSource");
-				}
-				return r_Fm_CancellationTokenSource;
-			}
-		}
-
-		/// <summary>
-		/// System.Threading.CancellationToken destroyCancellationToken
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken r_PdestroyCancellationToken;
-		public virtual Hvak.Editor.Refleaction.RSystem.RThreading.RCancellationToken RPdestroyCancellationToken
-		{
-			get
-			{
-				if(r_PdestroyCancellationToken == null)
-				{
-					r_PdestroyCancellationToken = new(this, "destroyCancellationToken", -1);
-				}
-				return r_PdestroyCancellationToken;
-			}
-		}
-
-		/// <summary>
 		/// Boolean useGUILayout
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseGUILayout;
@@ -434,22 +402,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_PhideFlags = new(this, "hideFlags", -1);
 				}
 				return r_PhideFlags;
-			}
-		}
-
-		/// <summary>
-		/// Void RaiseCancellation()
-		/// </summary>
-		protected RMethod r_MRaiseCancellation;
-		public virtual RMethod RMRaiseCancellation
-		{
-			get
-			{
-				if(r_MRaiseCancellation == null)
-				{
-					r_MRaiseCancellation = new(this, "RaiseCancellation", 0);
-				}
-				return r_MRaiseCancellation;
 			}
 		}
 
@@ -882,22 +834,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MGetScriptClassName = new(this, "GetScriptClassName", 0);
 				}
 				return r_MGetScriptClassName;
-			}
-		}
-
-		/// <summary>
-		/// Void OnCancellationTokenCreated()
-		/// </summary>
-		protected RMethod r_MOnCancellationTokenCreated;
-		public virtual RMethod RMOnCancellationTokenCreated
-		{
-			get
-			{
-				if(r_MOnCancellationTokenCreated == null)
-				{
-					r_MOnCancellationTokenCreated = new(this, "OnCancellationTokenCreated", 0);
-				}
-				return r_MOnCancellationTokenCreated;
 			}
 		}
 
@@ -1366,22 +1302,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetComponentIndex()
-		/// </summary>
-		protected RMethod r_MGetComponentIndex;
-		public virtual RMethod RMGetComponentIndex
-		{
-			get
-			{
-				if(r_MGetComponentIndex == null)
-				{
-					r_MGetComponentIndex = new(this, "GetComponentIndex", 0);
-				}
-				return r_MGetComponentIndex;
-			}
-		}
-
-		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
 		protected RMethod r_MCompareTag_String;
@@ -1686,22 +1606,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -1748,17 +1652,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual void RaiseCancellation()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRaiseCancellation.Invoke(___genericsType, ___parameters);
-
-            
-        }
 
 
         public virtual System.Boolean IsInvoking()
@@ -2055,17 +1948,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetScriptClassName.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void OnCancellationTokenCreated()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnCancellationTokenCreated.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -2392,17 +2274,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetComponentIndex()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentIndex.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual System.Boolean CompareTag(System.String @tag)
         {
 
@@ -2609,17 +2480,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

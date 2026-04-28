@@ -120,6 +120,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
+		/// Unity.Collections.LowLevel.Unsafe.DisposeSentinel m_DisposeSentinel
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel r_Fm_DisposeSentinel;
+		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RDisposeSentinel RFm_DisposeSentinel
+		{
+			get
+			{
+				if(r_Fm_DisposeSentinel == null)
+				{
+					r_Fm_DisposeSentinel = new(this, "m_DisposeSentinel");
+				}
+				return r_Fm_DisposeSentinel;
+			}
+		}
+
+		/// <summary>
 		/// Int32 Length
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PLength;

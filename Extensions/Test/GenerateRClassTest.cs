@@ -1,21 +1,14 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 #if UNITY_EDITOR
-using UnityEngine;
 using UnityEditor;
+using UnityEngine;
 #endif
-using System.Reflection;
-using System.IO;
-using System.Runtime.CompilerServices;
-using System.Text.RegularExpressions;
-using Hvak.Editor.Refleaction.RSystem.RReflection;
-using UnityEngine.UI;
-using Hvak.Editor.Refleaction.RHvak.REditor.RRefleaction;
 
 namespace Hvak.Editor.Refleaction
 {
-
+	/// <summary>
+	/// ç”Ÿæˆå™¨æµ‹è¯•ç”¨çš„æ™®é€šç±»å‹ã€‚
+	/// </summary>
 	class ATest
 	{
 		int a = 2;
@@ -26,6 +19,9 @@ namespace Hvak.Editor.Refleaction
 		}
 	}
 
+	/// <summary>
+	/// ç”Ÿæˆå™¨æµ‹è¯•ç”¨çš„æ™®é€šç±»å‹ï¼ŒåŒ…å«å­—æ®µã€å±æ€§å’ŒåµŒå¥—å¯¹è±¡ã€‚
+	/// </summary>
 	class BTest
 	{
 		string str = "hello world!";
@@ -36,32 +32,43 @@ namespace Hvak.Editor.Refleaction
 		} = new ATest();
 	}
 
+	/// <summary>
+	/// RType ç”Ÿæˆä¸è°ƒç”¨æµ‹è¯•å…¥å£ã€‚
+	/// æ³¨æ„ï¼šæœ¬æ–‡ä»¶é»˜è®¤ä¸å¼•ç”¨ç”Ÿæˆåçš„ R å‘½åç©ºé—´ï¼Œé¿å… Generate ç›®å½•ä¸ºç©ºæ—¶å¯¼è‡´ Unity ç¼–è¯‘å¤±è´¥ã€‚
+	/// </summary>
 	static class Test
-	{ 
+	{
 		[MenuItem("Tools/NewGenerate")]
 		static void GenerateNewWay()
 		{
-			// 0¡¢Èç¹ûĞèÒªÓÃµ½dllµÄ±ğÃû£¬¿ÉÒÔÔÚÕâÀï×¢²á¡££¨ÒòÎª²»ÖªµÀÔõÃ´·´ÉädllµÄaliasÃû£¬ÏÈÓÃ±¿·½·¨£¬ÊÖ¶¯×¢²áÁË£©
-			ModuleAliasConfig.Set("", "");
-			// 1¡¢Ö¸¶¨Éú³É´úÂëµÄÎÄ¼ş¼ĞÂ·¾¶
-			GenerateRtype.UnityCSReflectionPath = $"{Application.dataPath}/Script/UnityCsReflection/";
-			// 2¡¢Ìí¼ÓĞèÒªÉú³ÉµÄÀà£¬ÖØÔØÁËÈıÖÖ½Ó¿Ú£¬ÕâÊÇÆäÖĞ´«ÈëÀàĞÍÃû×ÖµÄ½Ó¿Ú£¬ÆäÓàÁ½ÖÖÊÇ´«ÀàĞÍÁĞ±í£¬´«ÊµÀıÁĞ±í
-			GenerateRtype.Generate(new List<string> { "UnityType", "ComponentDropdownItem", "AddComponentWindow", "PackageManagerWindow", "BTest" });
+			// å¦‚æœéœ€è¦ç”¨åˆ° dll çš„ aliasï¼Œå¯ä»¥åœ¨è¿™é‡Œæ³¨å†Œã€‚
+			ModuleAliasConfig.Set(string.Empty, string.Empty);
+
+			// æŒ‡å‘å½“å‰æ’ä»¶ç›®å½•ï¼Œç”Ÿæˆç»“æœä¼šæ”¾åˆ° Assets/UnityCsReflection/Generate ä¸‹ã€‚
+			GenerateRtype.UnityCSReflectionPath = $"{Application.dataPath}/UnityCsReflection/";
+
+			// ç”Ÿæˆæµ‹è¯•ç±»å‹å’Œå¸¸ç”¨ Unity Editor ç±»å‹çš„ RTypeã€‚
+			GenerateRtype.Generate(new List<string>
+			{
+				"UnityType",
+				"ComponentDropdownItem",
+				"AddComponentWindow",
+				"PackageManagerWindow",
+				"BTest",
+			});
 		}
 
+#if UNITY_CS_REFLECTION_GENERATED_TEST
 		[MenuItem("Tools/Test Generate")]
 		static void TestRType()
 		{
-			// 1¡¢ÕâÀïËäÈ»ÊÇÖ±½ÓnewÁËÒ»¸öBTest£¬µ«ÊÇÏÖÊµÇé¿ö¿ÉÄÜÍ¨¹ıÆäËûÊÖ¶ÎÄÃµ½µÄBTestÊµÀı
-			BTest bTest = new BTest();
-			// 2¡¢newÒ»¸öRBTest£¬²¢°ÑBTestµÄÊµÀı´«½øÈ¥
-			RBTest rBTest = new RBTest(bTest);
-			// 3¡¢³¢ÊÔµ÷ÓÃÍ¨¹ıRBTestÀ´µ÷ÓÃBTestÀïÃæµÄprivate field
+			// æ‰“å¼€ UNITY_CS_REFLECTION_GENERATED_TEST å®å‰ï¼Œè¯·å…ˆæ‰§è¡Œ Tools/NewGenerate å¹¶ç¡®ä¿ç”Ÿæˆä»£ç å·²ç¼–è¯‘é€šè¿‡ã€‚
+			var bTest = new BTest();
+			var rBTest = new Hvak.Editor.Refleaction.RHvak.REditor.RRefleaction.RBTest(bTest);
 			Debug.Log(rBTest.RFstr.Value);
-			// 4¡¢³¢ÊÔµ÷ÓÃÍ¨¹ıRBTestÀ´µ÷ÓÃBTestÀïÃæµÄprivate property
 			Debug.Log(rBTest.RPaTest.RFa.Value);
-			// 5¡¢³¢ÊÔµ÷ÓÃÍ¨¹ıRBTestÀ´µ÷ÓÃBTestÀïÃæµÄprivate method
 			rBTest.RPaTest.Log();
 		}
+#endif
 	}
 }

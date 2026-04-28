@@ -1078,22 +1078,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void Internal_SetComputeGraphicsBufferHandleParam(UnityEngine.ComputeShader, Int32, Int32, UnityEngine.GraphicsBufferHandle)
-		/// </summary>
-		protected RMethod r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle;
-		public virtual RMethod RMInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle == null)
-				{
-					r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle = new(this, "Internal_SetComputeGraphicsBufferHandleParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle));
-				}
-				return r_MInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
 		/// Void Internal_SetComputeGraphicsBufferParam(UnityEngine.ComputeShader, Int32, Int32, UnityEngine.GraphicsBuffer)
 		/// </summary>
 		protected RMethod r_MInternal_SetComputeGraphicsBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer;
@@ -1138,22 +1122,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32 = new(this, "Internal_SetComputeConstantGraphicsBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void Internal_SetComputeParamsFromMaterial(UnityEngine.ComputeShader, Int32, UnityEngine.Material)
-		/// </summary>
-		protected RMethod r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material;
-		public virtual RMethod RMInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material
-		{
-			get
-			{
-				if(r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material == null)
-				{
-					r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material = new(this, "Internal_SetComputeParamsFromMaterial", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Material));
-				}
-				return r_MInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material;
 			}
 		}
 
@@ -1606,7 +1574,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void Internal_DrawRendererList(UnityEngine.Rendering.RendererList)
+		/// Void Internal_DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList)
 		/// </summary>
 		protected RMethod r_MInternal_DrawRendererList_RendererList;
 		public virtual RMethod RMInternal_DrawRendererList_RendererList
@@ -1615,7 +1583,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_DrawRendererList_RendererList == null)
 				{
-					r_MInternal_DrawRendererList_RendererList = new(this, "Internal_DrawRendererList", 0, typeof(UnityEngine.Rendering.RendererList));
+					r_MInternal_DrawRendererList_RendererList = new(this, "Internal_DrawRendererList", 0, typeof(UnityEngine.Rendering.RendererUtils.RendererList));
 				}
 				return r_MInternal_DrawRendererList_RendererList;
 			}
@@ -3334,70 +3302,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void BeginSample(Unity.Profiling.ProfilerMarker)
-		/// </summary>
-		protected RMethod r_MBeginSample_ProfilerMarker;
-		public virtual RMethod RMBeginSample_ProfilerMarker
-		{
-			get
-			{
-				if(r_MBeginSample_ProfilerMarker == null)
-				{
-					r_MBeginSample_ProfilerMarker = new(this, "BeginSample", 0, typeof(Unity.Profiling.ProfilerMarker));
-				}
-				return r_MBeginSample_ProfilerMarker;
-			}
-		}
-
-		/// <summary>
-		/// Void EndSample(Unity.Profiling.ProfilerMarker)
-		/// </summary>
-		protected RMethod r_MEndSample_ProfilerMarker;
-		public virtual RMethod RMEndSample_ProfilerMarker
-		{
-			get
-			{
-				if(r_MEndSample_ProfilerMarker == null)
-				{
-					r_MEndSample_ProfilerMarker = new(this, "EndSample", 0, typeof(Unity.Profiling.ProfilerMarker));
-				}
-				return r_MEndSample_ProfilerMarker;
-			}
-		}
-
-		/// <summary>
-		/// Void BeginSample_ProfilerMarker(IntPtr)
-		/// </summary>
-		protected RMethod r_MBeginSample_ProfilerMarker_IntPtr;
-		public virtual RMethod RMBeginSample_ProfilerMarker_IntPtr
-		{
-			get
-			{
-				if(r_MBeginSample_ProfilerMarker_IntPtr == null)
-				{
-					r_MBeginSample_ProfilerMarker_IntPtr = new(this, "BeginSample_ProfilerMarker", 0, typeof(System.IntPtr));
-				}
-				return r_MBeginSample_ProfilerMarker_IntPtr;
-			}
-		}
-
-		/// <summary>
-		/// Void EndSample_ProfilerMarker(IntPtr)
-		/// </summary>
-		protected RMethod r_MEndSample_ProfilerMarker_IntPtr;
-		public virtual RMethod RMEndSample_ProfilerMarker_IntPtr
-		{
-			get
-			{
-				if(r_MEndSample_ProfilerMarker_IntPtr == null)
-				{
-					r_MEndSample_ProfilerMarker_IntPtr = new(this, "EndSample_ProfilerMarker", 0, typeof(System.IntPtr));
-				}
-				return r_MEndSample_ProfilerMarker_IntPtr;
-			}
-		}
-
-		/// <summary>
 		/// Void IssuePluginEventAndDataInternal(IntPtr, Int32, IntPtr)
 		/// </summary>
 		protected RMethod r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr;
@@ -3410,22 +3314,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr = new(this, "IssuePluginEventAndDataInternal", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(System.IntPtr));
 				}
 				return r_MIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr;
-			}
-		}
-
-		/// <summary>
-		/// Void IssuePluginEventAndDataInternalWithFlags(IntPtr, Int32, UnityEngine.Rendering.CustomMarkerCallbackFlags, IntPtr)
-		/// </summary>
-		protected RMethod r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr;
-		public virtual RMethod RMIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr
-		{
-			get
-			{
-				if(r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr == null)
-				{
-					r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr = new(this, "IssuePluginEventAndDataInternalWithFlags", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.CustomMarkerCallbackFlags), typeof(System.IntPtr));
-				}
-				return r_MIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr;
 			}
 		}
 
@@ -3522,38 +3410,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_MSetInstanceMultiplier_UInt32 = new(this, "SetInstanceMultiplier", 0, typeof(System.UInt32));
 				}
 				return r_MSetInstanceMultiplier_UInt32;
-			}
-		}
-
-		/// <summary>
-		/// Void SetFoveatedRenderingMode(UnityEngine.Rendering.FoveatedRenderingMode)
-		/// </summary>
-		protected RMethod r_MSetFoveatedRenderingMode_FoveatedRenderingMode;
-		public virtual RMethod RMSetFoveatedRenderingMode_FoveatedRenderingMode
-		{
-			get
-			{
-				if(r_MSetFoveatedRenderingMode_FoveatedRenderingMode == null)
-				{
-					r_MSetFoveatedRenderingMode_FoveatedRenderingMode = new(this, "SetFoveatedRenderingMode", 0, typeof(UnityEngine.Rendering.FoveatedRenderingMode));
-				}
-				return r_MSetFoveatedRenderingMode_FoveatedRenderingMode;
-			}
-		}
-
-		/// <summary>
-		/// Void ConfigureFoveatedRendering(IntPtr)
-		/// </summary>
-		protected RMethod r_MConfigureFoveatedRendering_IntPtr;
-		public virtual RMethod RMConfigureFoveatedRendering_IntPtr
-		{
-			get
-			{
-				if(r_MConfigureFoveatedRendering_IntPtr == null)
-				{
-					r_MConfigureFoveatedRendering_IntPtr = new(this, "ConfigureFoveatedRendering", 0, typeof(System.IntPtr));
-				}
-				return r_MConfigureFoveatedRendering_IntPtr;
 			}
 		}
 
@@ -4678,38 +4534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void SetComputeBufferParam(UnityEngine.ComputeShader, Int32, Int32, UnityEngine.GraphicsBufferHandle)
-		/// </summary>
-		protected RMethod r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle;
-		public virtual RMethod RMSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle == null)
-				{
-					r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle));
-				}
-				return r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
-		/// Void SetComputeBufferParam(UnityEngine.ComputeShader, Int32, System.String, UnityEngine.GraphicsBufferHandle)
-		/// </summary>
-		protected RMethod r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle;
-		public virtual RMethod RMSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle == null)
-				{
-					r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle = new(this, "SetComputeBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.String), typeof(UnityEngine.GraphicsBufferHandle));
-				}
-				return r_MSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
 		/// Void SetComputeBufferParam(UnityEngine.ComputeShader, Int32, Int32, UnityEngine.GraphicsBuffer)
 		/// </summary>
 		protected RMethod r_MSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBuffer;
@@ -4802,22 +4626,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32 = new(this, "SetComputeConstantBufferParam", 0, typeof(UnityEngine.ComputeShader), typeof(System.String), typeof(UnityEngine.GraphicsBuffer), typeof(System.Int32), typeof(System.Int32));
 				}
 				return r_MSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void SetComputeParamsFromMaterial(UnityEngine.ComputeShader, Int32, UnityEngine.Material)
-		/// </summary>
-		protected RMethod r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material;
-		public virtual RMethod RMSetComputeParamsFromMaterial_ComputeShader_Int32_Material
-		{
-			get
-			{
-				if(r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material == null)
-				{
-					r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material = new(this, "SetComputeParamsFromMaterial", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(UnityEngine.Material));
-				}
-				return r_MSetComputeParamsFromMaterial_ComputeShader_Int32_Material;
 			}
 		}
 
@@ -5494,7 +5302,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void DrawRendererList(UnityEngine.Rendering.RendererList)
+		/// Void DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList)
 		/// </summary>
 		protected RMethod r_MDrawRendererList_RendererList;
 		public virtual RMethod RMDrawRendererList_RendererList
@@ -5503,7 +5311,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MDrawRendererList_RendererList == null)
 				{
-					r_MDrawRendererList_RendererList = new(this, "DrawRendererList", 0, typeof(UnityEngine.Rendering.RendererList));
+					r_MDrawRendererList_RendererList = new(this, "DrawRendererList", 0, typeof(UnityEngine.Rendering.RendererUtils.RendererList));
 				}
 				return r_MDrawRendererList_RendererList;
 			}
@@ -6854,22 +6662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void IssuePluginEventAndDataWithFlags(IntPtr, Int32, UnityEngine.Rendering.CustomMarkerCallbackFlags, IntPtr)
-		/// </summary>
-		protected RMethod r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr;
-		public virtual RMethod RMIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr
-		{
-			get
-			{
-				if(r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr == null)
-				{
-					r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr = new(this, "IssuePluginEventAndDataWithFlags", 0, typeof(System.IntPtr), typeof(System.Int32), typeof(UnityEngine.Rendering.CustomMarkerCallbackFlags), typeof(System.IntPtr));
-				}
-				return r_MIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr;
-			}
-		}
-
-		/// <summary>
 		/// Void IssuePluginCustomBlit(IntPtr, UInt32, UnityEngine.Rendering.RenderTargetIdentifier, UnityEngine.Rendering.RenderTargetIdentifier, UInt32, UInt32)
 		/// </summary>
 		protected RMethod r_MIssuePluginCustomBlit_IntPtr_UInt32_RenderTargetIdentifier_RenderTargetIdentifier_UInt32_UInt32;
@@ -7190,22 +6982,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void Internal_SetComputeGraphicsBufferHandleParam_Injected(UnityEngine.ComputeShader, Int32, Int32, UnityEngine.GraphicsBufferHandle ByRef)
-		/// </summary>
-		protected RMethod r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle;
-		public virtual RMethod RMInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle == null)
-				{
-					r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle = new(this, "Internal_SetComputeGraphicsBufferHandleParam_Injected", 0, typeof(UnityEngine.ComputeShader), typeof(System.Int32), typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle).MakeByRefType());
-				}
-				return r_MInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
 		/// Void Internal_SetRayTracingVectorParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader, Int32, UnityEngine.Vector4 ByRef)
 		/// </summary>
 		protected RMethod r_MInternal_SetRayTracingVectorParam_Injected_RayTracingShader_Int32_Ref_Vector4;
@@ -7286,7 +7062,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Void Internal_DrawRendererList_Injected(UnityEngine.Rendering.RendererList ByRef)
+		/// Void Internal_DrawRendererList_Injected(UnityEngine.Rendering.RendererUtils.RendererList ByRef)
 		/// </summary>
 		protected RMethod r_MInternal_DrawRendererList_Injected_Ref_RendererList;
 		public virtual RMethod RMInternal_DrawRendererList_Injected_Ref_RendererList
@@ -7295,7 +7071,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			{
 				if(r_MInternal_DrawRendererList_Injected_Ref_RendererList == null)
 				{
-					r_MInternal_DrawRendererList_Injected_Ref_RendererList = new(this, "Internal_DrawRendererList_Injected", 0, typeof(UnityEngine.Rendering.RendererList).MakeByRefType());
+					r_MInternal_DrawRendererList_Injected_Ref_RendererList = new(this, "Internal_DrawRendererList_Injected", 0, typeof(UnityEngine.Rendering.RendererUtils.RendererList).MakeByRefType());
 				}
 				return r_MInternal_DrawRendererList_Injected_Ref_RendererList;
 			}
@@ -8647,17 +8423,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeGraphicsBufferHandleParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBufferHandle @bufferHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @bufferHandle};
-            var ___result = RMInternal_SetComputeGraphicsBufferHandleParam_ComputeShader_Int32_Int32_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void Internal_SetComputeGraphicsBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
         {
 
@@ -8686,17 +8451,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @nameID, @buffer, @offset, @size};
             var ___result = RMInternal_SetComputeConstantGraphicsBufferParam_ComputeShader_Int32_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Internal_SetComputeParamsFromMaterial(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.Material @material)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @material};
-            var ___result = RMInternal_SetComputeParamsFromMaterial_ComputeShader_Int32_Material.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -9011,7 +8765,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRendererList(UnityEngine.Rendering.RendererList @rendererList)
+        public virtual void Internal_DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
         {
 
             var ___genericsType = new Type[] {};
@@ -10207,67 +9961,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void BeginSample(Unity.Profiling.ProfilerMarker @marker)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@marker};
-            var ___result = RMBeginSample_ProfilerMarker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndSample(Unity.Profiling.ProfilerMarker @marker)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@marker};
-            var ___result = RMEndSample_ProfilerMarker.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BeginSample_ProfilerMarker(System.IntPtr @markerHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@markerHandle};
-            var ___result = RMBeginSample_ProfilerMarker_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndSample_ProfilerMarker(System.IntPtr @markerHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@markerHandle};
-            var ___result = RMEndSample_ProfilerMarker_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void IssuePluginEventAndDataInternal(System.IntPtr @callback, System.Int32 @eventID, System.IntPtr @data)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@callback, @eventID, @data};
             var ___result = RMIssuePluginEventAndDataInternal_IntPtr_Int32_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void IssuePluginEventAndDataInternalWithFlags(System.IntPtr @callback, System.Int32 @eventID, UnityEngine.Rendering.CustomMarkerCallbackFlags @flags, System.IntPtr @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @eventID, @flags, @data};
-            var ___result = RMIssuePluginEventAndDataInternalWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -10336,28 +10035,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@multiplier};
             var ___result = RMSetInstanceMultiplier_UInt32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetFoveatedRenderingMode(UnityEngine.Rendering.FoveatedRenderingMode @foveatedRenderingMode)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@foveatedRenderingMode};
-            var ___result = RMSetFoveatedRenderingMode_FoveatedRenderingMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ConfigureFoveatedRendering(System.IntPtr @platformData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@platformData};
-            var ___result = RMConfigureFoveatedRendering_IntPtr.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -11133,28 +10810,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBufferHandle @bufferHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @bufferHandle};
-            var ___result = RMSetComputeBufferParam_ComputeShader_Int32_Int32_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.String @name, UnityEngine.GraphicsBufferHandle @bufferHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @name, @bufferHandle};
-            var ___result = RMSetComputeBufferParam_ComputeShader_Int32_String_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void SetComputeBufferParam(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, UnityEngine.GraphicsBuffer @buffer)
         {
 
@@ -11216,17 +10871,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@computeShader, @name, @buffer, @offset, @size};
             var ___result = RMSetComputeConstantBufferParam_ComputeShader_String_GraphicsBuffer_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetComputeParamsFromMaterial(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, UnityEngine.Material @material)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @material};
-            var ___result = RMSetComputeParamsFromMaterial_ComputeShader_Int32_Material.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -11694,7 +11338,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void DrawRendererList(UnityEngine.Rendering.RendererList @rendererList)
+        public virtual void DrawRendererList(UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
         {
 
             var ___genericsType = new Type[] {};
@@ -12629,17 +12273,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void IssuePluginEventAndDataWithFlags(System.IntPtr @callback, System.Int32 @eventID, UnityEngine.Rendering.CustomMarkerCallbackFlags @flags, System.IntPtr @data)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@callback, @eventID, @flags, @data};
-            var ___result = RMIssuePluginEventAndDataWithFlags_IntPtr_Int32_CustomMarkerCallbackFlags_IntPtr.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void IssuePluginCustomBlit(System.IntPtr @callback, System.UInt32 @command, UnityEngine.Rendering.RenderTargetIdentifier @source, UnityEngine.Rendering.RenderTargetIdentifier @dest, System.UInt32 @commandParam, System.UInt32 @commandFlags)
         {
 
@@ -12864,18 +12497,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_SetComputeGraphicsBufferHandleParam_Injected(UnityEngine.ComputeShader @computeShader, System.Int32 @kernelIndex, System.Int32 @nameID, ref UnityEngine.GraphicsBufferHandle @bufferHandle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@computeShader, @kernelIndex, @nameID, @bufferHandle};
-            var ___result = RMInternal_SetComputeGraphicsBufferHandleParam_Injected_ComputeShader_Int32_Int32_Ref_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@bufferHandle = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[3]);
-
-            
-        }
-
-
         public virtual void Internal_SetRayTracingVectorParam_Injected(UnityEngine.Experimental.Rendering.RayTracingShader @rayTracingShader, System.Int32 @nameID, ref UnityEngine.Vector4 @val)
         {
 
@@ -12936,13 +12557,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual void Internal_DrawRendererList_Injected(ref UnityEngine.Rendering.RendererList @rendererList)
+        public virtual void Internal_DrawRendererList_Injected(ref UnityEngine.Rendering.RendererUtils.RendererList @rendererList)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rendererList};
             var ___result = RMInternal_DrawRendererList_Injected_Ref_RendererList.Invoke(___genericsType, ___parameters);
-			@rendererList = ReflectionUtils.Convert<UnityEngine.Rendering.RendererList>(___parameters[0]);
+			@rendererList = ReflectionUtils.Convert<UnityEngine.Rendering.RendererUtils.RendererList>(___parameters[0]);
 
             
         }

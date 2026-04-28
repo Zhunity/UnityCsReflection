@@ -38,7 +38,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.PageSelection] onSelectionChanged
+		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.IPackageVersion] onSelectionChanged
 		/// </summary>
 		protected REvent r_EonSelectionChanged;
 		public virtual REvent REonSelectionChanged
@@ -102,34 +102,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.IPage] onSubPageChanged
+		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.IPage] onSubPageAdded
 		/// </summary>
-		protected REvent r_EonSubPageChanged;
-		public virtual REvent REonSubPageChanged
+		protected REvent r_EonSubPageAdded;
+		public virtual REvent REonSubPageAdded
 		{
 			get
 			{
-				if(r_EonSubPageChanged == null)
+				if(r_EonSubPageAdded == null)
 				{
-					r_EonSubPageChanged = new(this, "onSubPageChanged");
+					r_EonSubPageAdded = new(this, "onSubPageAdded");
 				}
-				return r_EonSubPageChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.PageFilters] onFiltersChange
-		/// </summary>
-		protected REvent r_EonFiltersChange;
-		public virtual REvent REonFiltersChange
-		{
-			get
-			{
-				if(r_EonFiltersChange == null)
-				{
-					r_EonFiltersChange = new(this, "onFiltersChange");
-				}
-				return r_EonFiltersChange;
+				return r_EonSubPageAdded;
 			}
 		}
 
@@ -178,22 +162,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_EonRefreshOperationError = new(this, "onRefreshOperationError");
 				}
 				return r_EonRefreshOperationError;
-			}
-		}
-
-		/// <summary>
-		/// System.String k_AssetStorePackageGroupName
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_AssetStorePackageGroupName;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_AssetStorePackageGroupName
-		{
-			get
-			{
-				if(r_Fk_AssetStorePackageGroupName == null)
-				{
-					r_Fk_AssetStorePackageGroupName = new(Type, "k_AssetStorePackageGroupName");
-				}
-				return r_Fk_AssetStorePackageGroupName;
 			}
 		}
 
@@ -262,10 +230,10 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.PageSelection] onSelectionChanged
+		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.IPackageVersion] onSelectionChanged
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection> r_FonSelectionChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection> RFonSelectionChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> r_FonSelectionChanged;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> RFonSelectionChanged
 		{
 			get
 			{
@@ -326,34 +294,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.IPage] onSubPageChanged
+		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.IPage] onSubPageAdded
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage> r_FonSubPageChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage> RFonSubPageChanged
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage> r_FonSubPageAdded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage> RFonSubPageAdded
 		{
 			get
 			{
-				if(r_FonSubPageChanged == null)
+				if(r_FonSubPageAdded == null)
 				{
-					r_FonSubPageChanged = new(this, "onSubPageChanged");
+					r_FonSubPageAdded = new(this, "onSubPageAdded");
 				}
-				return r_FonSubPageChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.PageFilters] onFiltersChange
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters> r_FonFiltersChange;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters> RFonFiltersChange
-		{
-			get
-			{
-				if(r_FonFiltersChange == null)
-				{
-					r_FonFiltersChange = new(this, "onFiltersChange");
-				}
-				return r_FonFiltersChange;
+				return r_FonSubPageAdded;
 			}
 		}
 
@@ -822,22 +774,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageSelectionObject GetPackageSelectionObject(UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair, Boolean)
-		/// </summary>
-		protected RMethod r_MGetPackageSelectionObject_PackageAndVersionIdPair_Boolean;
-		public virtual RMethod RMGetPackageSelectionObject_PackageAndVersionIdPair_Boolean
-		{
-			get
-			{
-				if(r_MGetPackageSelectionObject_PackageAndVersionIdPair_Boolean == null)
-				{
-					r_MGetPackageSelectionObject_PackageAndVersionIdPair_Boolean = new(this, "GetPackageSelectionObject", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair"), typeof(System.Boolean));
-				}
-				return r_MGetPackageSelectionObject_PackageAndVersionIdPair_Boolean;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageSelectionObject GetPackageSelectionObject(UnityEditor.PackageManager.UI.Internal.IPackage, UnityEditor.PackageManager.UI.Internal.IPackageVersion, Boolean)
 		/// </summary>
 		protected RMethod r_MGetPackageSelectionObject_IPackage_IPackageVersion_Boolean;
@@ -886,6 +822,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// ConditionalOrdering[] GetConditionalOrderingForTab(UnityEditor.PackageManager.UI.Internal.PackageFilterTab)
+		/// </summary>
+		protected RMethod r_MGetConditionalOrderingForTab_PackageFilterTab;
+		public virtual RMethod RMGetConditionalOrderingForTab_PackageFilterTab
+		{
+			get
+			{
+				if(r_MGetConditionalOrderingForTab_PackageFilterTab == null)
+				{
+					r_MGetConditionalOrderingForTab_PackageFilterTab = new(this, "GetConditionalOrderingForTab", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"));
+				}
+				return r_MGetConditionalOrderingForTab_PackageFilterTab;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPage CreatePageFromTab(System.Nullable`1[UnityEditor.PackageManager.UI.Internal.PackageFilterTab])
 		/// </summary>
 		protected RMethod r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_;
@@ -898,6 +850,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_ = new(this, "CreatePageFromTab", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
 				}
 				return r_MCreatePageFromTab_Nullable_d_PackageFilterTab_p_;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsAnyPackagesWithUpdateAvailable(UnityEditor.PackageManager.UI.Internal.PackageFilterTab)
+		/// </summary>
+		protected RMethod r_MIsAnyPackagesWithUpdateAvailable_PackageFilterTab;
+		public virtual RMethod RMIsAnyPackagesWithUpdateAvailable_PackageFilterTab
+		{
+			get
+			{
+				if(r_MIsAnyPackagesWithUpdateAvailable_PackageFilterTab == null)
+				{
+					r_MIsAnyPackagesWithUpdateAvailable_PackageFilterTab = new(this, "IsAnyPackagesWithUpdateAvailable", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"));
+				}
+				return r_MIsAnyPackagesWithUpdateAvailable_PackageFilterTab;
+			}
+		}
+
+		/// <summary>
+		/// Boolean IsAnyPackagesWithEntitlements(UnityEditor.PackageManager.UI.Internal.PackageFilterTab)
+		/// </summary>
+		protected RMethod r_MIsAnyPackagesWithEntitlements_PackageFilterTab;
+		public virtual RMethod RMIsAnyPackagesWithEntitlements_PackageFilterTab
+		{
+			get
+			{
+				if(r_MIsAnyPackagesWithEntitlements_PackageFilterTab == null)
+				{
+					r_MIsAnyPackagesWithEntitlements_PackageFilterTab = new(this, "IsAnyPackagesWithEntitlements", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab"));
+				}
+				return r_MIsAnyPackagesWithEntitlements_PackageFilterTab;
 			}
 		}
 
@@ -934,34 +918,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void OnPageSelectionChanged(UnityEditor.PackageManager.UI.Internal.PageSelection)
+		/// Void OnPageSelectionChanged(UnityEditor.PackageManager.UI.Internal.IPackageVersion)
 		/// </summary>
-		protected RMethod r_MOnPageSelectionChanged_PageSelection;
-		public virtual RMethod RMOnPageSelectionChanged_PageSelection
+		protected RMethod r_MOnPageSelectionChanged_IPackageVersion;
+		public virtual RMethod RMOnPageSelectionChanged_IPackageVersion
 		{
 			get
 			{
-				if(r_MOnPageSelectionChanged_PageSelection == null)
+				if(r_MOnPageSelectionChanged_IPackageVersion == null)
 				{
-					r_MOnPageSelectionChanged_PageSelection = new(this, "OnPageSelectionChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageSelection"));
+					r_MOnPageSelectionChanged_IPackageVersion = new(this, "OnPageSelectionChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
 				}
-				return r_MOnPageSelectionChanged_PageSelection;
+				return r_MOnPageSelectionChanged_IPackageVersion;
 			}
 		}
 
 		/// <summary>
-		/// Void TriggerOnVisualStateChange(UnityEditor.PackageManager.UI.Internal.VisualStateChangeArgs)
+		/// Void TriggerOnVisualStateChange(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.VisualState])
 		/// </summary>
-		protected RMethod r_MTriggerOnVisualStateChange_VisualStateChangeArgs;
-		public virtual RMethod RMTriggerOnVisualStateChange_VisualStateChangeArgs
+		protected RMethod r_MTriggerOnVisualStateChange_IEnumerable_d_VisualState_p_;
+		public virtual RMethod RMTriggerOnVisualStateChange_IEnumerable_d_VisualState_p_
 		{
 			get
 			{
-				if(r_MTriggerOnVisualStateChange_VisualStateChangeArgs == null)
+				if(r_MTriggerOnVisualStateChange_IEnumerable_d_VisualState_p_ == null)
 				{
-					r_MTriggerOnVisualStateChange_VisualStateChangeArgs = new(this, "TriggerOnVisualStateChange", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualStateChangeArgs"));
+					r_MTriggerOnVisualStateChange_IEnumerable_d_VisualState_p_ = new(this, "TriggerOnVisualStateChange", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualState")));
 				}
-				return r_MTriggerOnVisualStateChange_VisualStateChangeArgs;
+				return r_MTriggerOnVisualStateChange_IEnumerable_d_VisualState_p_;
 			}
 		}
 
@@ -998,34 +982,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void TriggerOnSubPageChanged(UnityEditor.PackageManager.UI.Internal.IPage)
+		/// Void TriggerOnSubPageAdded(UnityEditor.PackageManager.UI.Internal.IPage)
 		/// </summary>
-		protected RMethod r_MTriggerOnSubPageChanged_IPage;
-		public virtual RMethod RMTriggerOnSubPageChanged_IPage
+		protected RMethod r_MTriggerOnSubPageAdded_IPage;
+		public virtual RMethod RMTriggerOnSubPageAdded_IPage
 		{
 			get
 			{
-				if(r_MTriggerOnSubPageChanged_IPage == null)
+				if(r_MTriggerOnSubPageAdded_IPage == null)
 				{
-					r_MTriggerOnSubPageChanged_IPage = new(this, "TriggerOnSubPageChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPage"));
+					r_MTriggerOnSubPageAdded_IPage = new(this, "TriggerOnSubPageAdded", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPage"));
 				}
-				return r_MTriggerOnSubPageChanged_IPage;
-			}
-		}
-
-		/// <summary>
-		/// Void TriggerOnFiltersChange(UnityEditor.PackageManager.UI.Internal.PageFilters)
-		/// </summary>
-		protected RMethod r_MTriggerOnFiltersChange_PageFilters;
-		public virtual RMethod RMTriggerOnFiltersChange_PageFilters
-		{
-			get
-			{
-				if(r_MTriggerOnFiltersChange_PageFilters == null)
-				{
-					r_MTriggerOnFiltersChange_PageFilters = new(this, "TriggerOnFiltersChange", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageFilters"));
-				}
-				return r_MTriggerOnFiltersChange_PageFilters;
+				return r_MTriggerOnSubPageAdded_IPage;
 			}
 		}
 
@@ -1062,18 +1030,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PageSelection GetSelection()
+		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion GetSelectedVersion()
 		/// </summary>
-		protected RMethod r_MGetSelection;
-		public virtual RMethod RMGetSelection
+		protected RMethod r_MGetSelectedVersion;
+		public virtual RMethod RMGetSelectedVersion
 		{
 			get
 			{
-				if(r_MGetSelection == null)
+				if(r_MGetSelectedVersion == null)
 				{
-					r_MGetSelection = new(this, "GetSelection", 0);
+					r_MGetSelectedVersion = new(this, "GetSelectedVersion", 0);
 				}
-				return r_MGetSelection;
+				return r_MGetSelectedVersion;
+			}
+		}
+
+		/// <summary>
+		/// Void GetSelectedPackageAndVersion(UnityEditor.PackageManager.UI.Internal.IPackage ByRef, UnityEditor.PackageManager.UI.Internal.IPackageVersion ByRef)
+		/// </summary>
+		protected RMethod r_MGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion;
+		public virtual RMethod RMGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion
+		{
+			get
+			{
+				if(r_MGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion == null)
+				{
+					r_MGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion = new(this, "GetSelectedPackageAndVersion", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage").MakeByRefType(),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion").MakeByRefType());
+				}
+				return r_MGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion;
 			}
 		}
 
@@ -1110,70 +1094,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void SetSelected(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair], Boolean)
-		/// </summary>
-		protected RMethod r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
-		public virtual RMethod RMSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean
-		{
-			get
-			{
-				if(r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean == null)
-				{
-					r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "SetSelected", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
-				}
-				return r_MSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void ToggleSelected(System.String, Boolean)
-		/// </summary>
-		protected RMethod r_MToggleSelected_String_Boolean;
-		public virtual RMethod RMToggleSelected_String_Boolean
-		{
-			get
-			{
-				if(r_MToggleSelected_String_Boolean == null)
-				{
-					r_MToggleSelected_String_Boolean = new(this, "ToggleSelected", 0, typeof(System.String), typeof(System.Boolean));
-				}
-				return r_MToggleSelected_String_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void AmendSelection(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair], Boolean)
-		/// </summary>
-		protected RMethod r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
-		public virtual RMethod RMAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean
-		{
-			get
-			{
-				if(r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean == null)
-				{
-					r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "AmendSelection", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
-				}
-				return r_MAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void RemoveSelection(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair], Boolean)
-		/// </summary>
-		protected RMethod r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
-		public virtual RMethod RMRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean
-		{
-			get
-			{
-				if(r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean == null)
-				{
-					r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean = new(this, "RemoveSelection", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair")), typeof(System.Boolean));
-				}
-				return r_MRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean;
-			}
-		}
-
-		/// <summary>
 		/// Boolean UpdateSelectionIfCurrentSelectionIsInvalid()
 		/// </summary>
 		protected RMethod r_MUpdateSelectionIfCurrentSelectionIsInvalid;
@@ -1206,34 +1126,66 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void SelectInInspector(UnityEditor.PackageManager.UI.Internal.PageSelection, Boolean)
+		/// Void SelectInInspector(UnityEditor.PackageManager.UI.Internal.IPackage, UnityEditor.PackageManager.UI.Internal.IPackageVersion, Boolean)
 		/// </summary>
-		protected RMethod r_MSelectInInspector_PageSelection_Boolean;
-		public virtual RMethod RMSelectInInspector_PageSelection_Boolean
+		protected RMethod r_MSelectInInspector_IPackage_IPackageVersion_Boolean;
+		public virtual RMethod RMSelectInInspector_IPackage_IPackageVersion_Boolean
 		{
 			get
 			{
-				if(r_MSelectInInspector_PageSelection_Boolean == null)
+				if(r_MSelectInInspector_IPackage_IPackageVersion_Boolean == null)
 				{
-					r_MSelectInInspector_PageSelection_Boolean = new(this, "SelectInInspector", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageSelection"), typeof(System.Boolean));
+					r_MSelectInInspector_IPackage_IPackageVersion_Boolean = new(this, "SelectInInspector", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"), typeof(System.Boolean));
 				}
-				return r_MSelectInInspector_PageSelection_Boolean;
+				return r_MSelectInInspector_IPackage_IPackageVersion_Boolean;
 			}
 		}
 
 		/// <summary>
-		/// Void SetSeeAllVersions(System.String, Boolean)
+		/// Boolean IsSeeAllVersions(UnityEditor.PackageManager.UI.Internal.IPackage)
 		/// </summary>
-		protected RMethod r_MSetSeeAllVersions_String_Boolean;
-		public virtual RMethod RMSetSeeAllVersions_String_Boolean
+		protected RMethod r_MIsSeeAllVersions_IPackage;
+		public virtual RMethod RMIsSeeAllVersions_IPackage
 		{
 			get
 			{
-				if(r_MSetSeeAllVersions_String_Boolean == null)
+				if(r_MIsSeeAllVersions_IPackage == null)
 				{
-					r_MSetSeeAllVersions_String_Boolean = new(this, "SetSeeAllVersions", 0, typeof(System.String), typeof(System.Boolean));
+					r_MIsSeeAllVersions_IPackage = new(this, "IsSeeAllVersions", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
-				return r_MSetSeeAllVersions_String_Boolean;
+				return r_MIsSeeAllVersions_IPackage;
+			}
+		}
+
+		/// <summary>
+		/// Void SetSeeAllVersions(UnityEditor.PackageManager.UI.Internal.IPackage, Boolean)
+		/// </summary>
+		protected RMethod r_MSetSeeAllVersions_IPackage_Boolean;
+		public virtual RMethod RMSetSeeAllVersions_IPackage_Boolean
+		{
+			get
+			{
+				if(r_MSetSeeAllVersions_IPackage_Boolean == null)
+				{
+					r_MSetSeeAllVersions_IPackage_Boolean = new(this, "SetSeeAllVersions", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.Boolean));
+				}
+				return r_MSetSeeAllVersions_IPackage_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void SetExpanded(UnityEditor.PackageManager.UI.Internal.IPackage, Boolean)
+		/// </summary>
+		protected RMethod r_MSetExpanded_IPackage_Boolean;
+		public virtual RMethod RMSetExpanded_IPackage_Boolean
+		{
+			get
+			{
+				if(r_MSetExpanded_IPackage_Boolean == null)
+				{
+					r_MSetExpanded_IPackage_Boolean = new(this, "SetExpanded", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"), typeof(System.Boolean));
+				}
+				return r_MSetExpanded_IPackage_Boolean;
 			}
 		}
 
@@ -1286,34 +1238,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageFilterTab FindTab(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackageVersion])
+		/// Void OnInstalledOrUninstalled(UnityEditor.PackageManager.UI.Internal.IPackage)
 		/// </summary>
-		protected RMethod r_MFindTab_IEnumerable_d_IPackageVersion_p_;
-		public virtual RMethod RMFindTab_IEnumerable_d_IPackageVersion_p_
+		protected RMethod r_MOnInstalledOrUninstalled_IPackage;
+		public virtual RMethod RMOnInstalledOrUninstalled_IPackage
 		{
 			get
 			{
-				if(r_MFindTab_IEnumerable_d_IPackageVersion_p_ == null)
+				if(r_MOnInstalledOrUninstalled_IPackage == null)
 				{
-					r_MFindTab_IEnumerable_d_IPackageVersion_p_ = new(this, "FindTab", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion")));
+					r_MOnInstalledOrUninstalled_IPackage = new(this, "OnInstalledOrUninstalled", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
-				return r_MFindTab_IEnumerable_d_IPackageVersion_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void OnPackageUniqueIdFinalize(System.String, System.String)
-		/// </summary>
-		protected RMethod r_MOnPackageUniqueIdFinalize_String_String;
-		public virtual RMethod RMOnPackageUniqueIdFinalize_String_String
-		{
-			get
-			{
-				if(r_MOnPackageUniqueIdFinalize_String_String == null)
-				{
-					r_MOnPackageUniqueIdFinalize_String_String = new(this, "OnPackageUniqueIdFinalize", 0, typeof(System.String), typeof(System.String));
-				}
-				return r_MOnPackageUniqueIdFinalize_String_String;
+				return r_MOnInstalledOrUninstalled_IPackage;
 			}
 		}
 
@@ -1366,18 +1302,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void OnPackagesChanged(UnityEditor.PackageManager.UI.Internal.PackagesChangeArgs)
+		/// Void OnShowDependenciesChanged(Boolean)
 		/// </summary>
-		protected RMethod r_MOnPackagesChanged_PackagesChangeArgs;
-		public virtual RMethod RMOnPackagesChanged_PackagesChangeArgs
+		protected RMethod r_MOnShowDependenciesChanged_Boolean;
+		public virtual RMethod RMOnShowDependenciesChanged_Boolean
 		{
 			get
 			{
-				if(r_MOnPackagesChanged_PackagesChangeArgs == null)
+				if(r_MOnShowDependenciesChanged_Boolean == null)
 				{
-					r_MOnPackagesChanged_PackagesChangeArgs = new(this, "OnPackagesChanged", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackagesChangeArgs"));
+					r_MOnShowDependenciesChanged_Boolean = new(this, "OnShowDependenciesChanged", 0, typeof(System.Boolean));
 				}
-				return r_MOnPackagesChanged_PackagesChangeArgs;
+				return r_MOnShowDependenciesChanged_Boolean;
+			}
+		}
+
+		/// <summary>
+		/// Void OnPackagesChanged(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage])
+		/// </summary>
+		protected RMethod r_MOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_;
+		public virtual RMethod RMOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_
+		{
+			get
+			{
+				if(r_MOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ == null)
+				{
+					r_MOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ = new(this, "OnPackagesChanged", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+				}
+				return r_MOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_;
 			}
 		}
 
@@ -1398,18 +1350,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void OnProductExtraFetched(Int64)
+		/// Void OnProductFetched(Int64)
 		/// </summary>
-		protected RMethod r_MOnProductExtraFetched_Int64;
-		public virtual RMethod RMOnProductExtraFetched_Int64
+		protected RMethod r_MOnProductFetched_Int64;
+		public virtual RMethod RMOnProductFetched_Int64
 		{
 			get
 			{
-				if(r_MOnProductExtraFetched_Int64 == null)
+				if(r_MOnProductFetched_Int64 == null)
 				{
-					r_MOnProductExtraFetched_Int64 = new(this, "OnProductExtraFetched", 0, typeof(System.Int64));
+					r_MOnProductFetched_Int64 = new(this, "OnProductFetched", 0, typeof(System.Int64));
 				}
-				return r_MOnProductExtraFetched_Int64;
+				return r_MOnProductFetched_Int64;
 			}
 		}
 
@@ -1446,34 +1398,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void Refresh(System.Nullable`1[UnityEditor.PackageManager.UI.Internal.PackageFilterTab])
+		/// Void Refresh(System.Nullable`1[UnityEditor.PackageManager.UI.Internal.PackageFilterTab], Int32)
 		/// </summary>
-		protected RMethod r_MRefresh_Nullable_d_PackageFilterTab_p_;
-		public virtual RMethod RMRefresh_Nullable_d_PackageFilterTab_p_
+		protected RMethod r_MRefresh_Nullable_d_PackageFilterTab_p__Int32;
+		public virtual RMethod RMRefresh_Nullable_d_PackageFilterTab_p__Int32
 		{
 			get
 			{
-				if(r_MRefresh_Nullable_d_PackageFilterTab_p_ == null)
+				if(r_MRefresh_Nullable_d_PackageFilterTab_p__Int32 == null)
 				{
-					r_MRefresh_Nullable_d_PackageFilterTab_p_ = new(this, "Refresh", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")));
+					r_MRefresh_Nullable_d_PackageFilterTab_p__Int32 = new(this, "Refresh", 0,  ReflectionUtils.GetType("System.Nullable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFilterTab")), typeof(System.Int32));
 				}
-				return r_MRefresh_Nullable_d_PackageFilterTab_p_;
+				return r_MRefresh_Nullable_d_PackageFilterTab_p__Int32;
 			}
 		}
 
 		/// <summary>
-		/// Void Refresh(UnityEditor.PackageManager.UI.Internal.RefreshOptions)
+		/// Void Refresh(UnityEditor.PackageManager.UI.Internal.RefreshOptions, Int32)
 		/// </summary>
-		protected RMethod r_MRefresh_RefreshOptions;
-		public virtual RMethod RMRefresh_RefreshOptions
+		protected RMethod r_MRefresh_RefreshOptions_Int32;
+		public virtual RMethod RMRefresh_RefreshOptions_Int32
 		{
 			get
 			{
-				if(r_MRefresh_RefreshOptions == null)
+				if(r_MRefresh_RefreshOptions_Int32 == null)
 				{
-					r_MRefresh_RefreshOptions = new(this, "Refresh", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.RefreshOptions"));
+					r_MRefresh_RefreshOptions_Int32 = new(this, "Refresh", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.RefreshOptions"), typeof(System.Int32));
 				}
-				return r_MRefresh_RefreshOptions;
+				return r_MRefresh_RefreshOptions_Int32;
 			}
 		}
 
@@ -1522,6 +1474,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MFetch_String = new(this, "Fetch", 0, typeof(System.String));
 				}
 				return r_MFetch_String;
+			}
+		}
+
+		/// <summary>
+		/// Void FetchDetail(UnityEditor.PackageManager.UI.Internal.IPackage, System.Action`1[UnityEditor.PackageManager.UI.Internal.IPackage])
+		/// </summary>
+		protected RMethod r_MFetchDetail_IPackage_Action_d_IPackage_p_;
+		public virtual RMethod RMFetchDetail_IPackage_Action_d_IPackage_p_
+		{
+			get
+			{
+				if(r_MFetchDetail_IPackage_Action_d_IPackage_p_ == null)
+				{
+					r_MFetchDetail_IPackage_Action_d_IPackage_p_ = new(this, "FetchDetail", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
+				}
+				return r_MFetchDetail_IPackage_Action_d_IPackage_p_;
 			}
 		}
 
@@ -1926,66 +1894,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageSelectionObject <SelectInInspector>b__82_0(UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair)
+		/// Boolean <InitializeSubPages>g__FilterAllPackages|107_0(UnityEditor.PackageManager.UI.Internal.IPackage)
 		/// </summary>
-		protected RMethod r_M__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair;
-		public virtual RMethod RM__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair
+		protected static RMethod r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__107_0_IPackage;
+		public static RMethod RM__0__InitializeSubPages__1__g__FilterAllPackages__5__107_0_IPackage
 		{
 			get
 			{
-				if(r_M__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair == null)
+				if(r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__107_0_IPackage == null)
 				{
-					r_M__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair = new(this, "<SelectInInspector>b__82_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageAndVersionIdPair"));
+					r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__107_0_IPackage = new(Type, "<InitializeSubPages>g__FilterAllPackages|107_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
-				return r_M__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair;
+				return r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__107_0_IPackage;
 			}
 		}
 
 		/// <summary>
-		/// Boolean <InitializeSubPages>g__FilterAllPackages|110_0(UnityEditor.PackageManager.UI.Internal.IPackage)
+		/// System.String <InitializeSubPages>g__GroupPackagesAndFeatures|107_1(UnityEditor.PackageManager.UI.Internal.IPackage)
 		/// </summary>
-		protected static RMethod r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage;
-		public static RMethod RM__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage
+		protected static RMethod r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1_IPackage;
+		public static RMethod RM__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1_IPackage
 		{
 			get
 			{
-				if(r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage == null)
+				if(r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1_IPackage == null)
 				{
-					r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage = new(Type, "<InitializeSubPages>g__FilterAllPackages|110_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
+					r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1_IPackage = new(Type, "<InitializeSubPages>g__GroupPackagesAndFeatures|107_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
-				return r_M__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage;
+				return r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1_IPackage;
 			}
 		}
 
 		/// <summary>
-		/// System.String <InitializeSubPages>g__GroupPackagesAndFeatures|110_1(UnityEditor.PackageManager.UI.Internal.IPackage)
+		/// System.String <InitializeSubPages>g__GroupPackagesWithAuthorAndFeatures|107_2(UnityEditor.PackageManager.UI.Internal.IPackage)
 		/// </summary>
-		protected static RMethod r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage;
-		public static RMethod RM__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage
+		protected static RMethod r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2_IPackage;
+		public static RMethod RM__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2_IPackage
 		{
 			get
 			{
-				if(r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage == null)
+				if(r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2_IPackage == null)
 				{
-					r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage = new(Type, "<InitializeSubPages>g__GroupPackagesAndFeatures|110_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
+					r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2_IPackage = new(Type, "<InitializeSubPages>g__GroupPackagesWithAuthorAndFeatures|107_2", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
 				}
-				return r_M__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage;
-			}
-		}
-
-		/// <summary>
-		/// System.String <InitializeSubPages>g__GroupPackagesWithAuthorAndFeatures|110_2(UnityEditor.PackageManager.UI.Internal.IPackage)
-		/// </summary>
-		protected static RMethod r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage;
-		public static RMethod RM__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage
-		{
-			get
-			{
-				if(r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage == null)
-				{
-					r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage = new(Type, "<InitializeSubPages>g__GroupPackagesWithAuthorAndFeatures|110_2", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
-				}
-				return r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage;
+				return r_M__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2_IPackage;
 			}
 		}
 
@@ -2119,17 +2071,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject GetPackageSelectionObject(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair @pair, System.Boolean @createIfNotFound)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@pair.Value, @createIfNotFound};
-            var ___result = RMGetPackageSelectionObject_PackageAndVersionIdPair_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject>(___result);
-        }
-
-
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject GetPackageSelectionObject(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version, System.Boolean @createIfNotFound)
         {
 
@@ -2163,6 +2104,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
+        public virtual Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.RConditionalOrdering> GetConditionalOrderingForTab(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @tab)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tab.Value};
+            var ___result = RMGetConditionalOrderingForTab_PackageFilterTab.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.RConditionalOrdering>>(___result);
+        }
+
+
         public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage CreatePageFromTab(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> @tab)
         {
 
@@ -2171,6 +2123,28 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMCreatePageFromTab_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage>(___result);
+        }
+
+
+        public virtual System.Boolean IsAnyPackagesWithUpdateAvailable(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @tab)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tab.Value};
+            var ___result = RMIsAnyPackagesWithUpdateAvailable_PackageFilterTab.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual System.Boolean IsAnyPackagesWithEntitlements(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab @tab)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tab.Value};
+            var ___result = RMIsAnyPackagesWithEntitlements_PackageFilterTab.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -2196,23 +2170,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnPageSelectionChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection @selection)
+        public virtual void OnPageSelectionChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@selection.Value};
-            var ___result = RMOnPageSelectionChanged_PageSelection.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@version.Value};
+            var ___result = RMOnPageSelectionChanged_IPackageVersion.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void TriggerOnVisualStateChange(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualStateChangeArgs @args)
+        public virtual void TriggerOnVisualStateChange(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState> @visualStates)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMTriggerOnVisualStateChange_VisualStateChangeArgs.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@visualStates.Value};
+            var ___result = RMTriggerOnVisualStateChange_IEnumerable_d_VisualState_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2240,23 +2214,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void TriggerOnSubPageChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage @page)
+        public virtual void TriggerOnSubPageAdded(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPage @page)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@page.Value};
-            var ___result = RMTriggerOnSubPageChanged_IPage.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TriggerOnFiltersChange(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageFilters @filters)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@filters.Value};
-            var ___result = RMTriggerOnFiltersChange_PageFilters.Invoke(___genericsType, ___parameters);
+            var ___result = RMTriggerOnSubPageAdded_IPage.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2284,14 +2247,29 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection GetSelection()
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetSelectedVersion()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMGetSelection.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetSelectedVersion.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection>(___result);
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
+        }
+
+
+        public virtual void GetSelectedPackageAndVersion(out Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, out Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+        {
+			@package = default;
+			@version = default;
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@package.Value, @version.Value};
+            var ___result = RMGetSelectedPackageAndVersion_Out_IPackage_Out_IPackageVersion.Invoke(___genericsType, ___parameters);
+			@package = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___parameters[0]);
+			@version = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___parameters[1]);
+
+            
         }
 
 
@@ -2312,50 +2290,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@package.Value, @version.Value, @forceSelectInInspector};
             var ___result = RMSetSelected_IPackage_IPackageVersion_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSelected(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair> @newSelection, System.Boolean @forceSelectInInspector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newSelection.Value, @forceSelectInInspector};
-            var ___result = RMSetSelected_IEnumerable_d_PackageAndVersionIdPair_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ToggleSelected(System.String @packageUniqueId, System.Boolean @forceSelectInInspector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId, @forceSelectInInspector};
-            var ___result = RMToggleSelected_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AmendSelection(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair> @toAddOrUpdate, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair> @toRemove, System.Boolean @forceSelectInInspector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toAddOrUpdate.Value, @toRemove.Value, @forceSelectInInspector};
-            var ___result = RMAmendSelection_IEnumerable_d_PackageAndVersionIdPair_p__IEnumerable_d_PackageAndVersionIdPair_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveSelection(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair> @toRemove, System.Boolean @forceSelectInInspector)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@toRemove.Value, @forceSelectInInspector};
-            var ___result = RMRemoveSelection_IEnumerable_d_PackageAndVersionIdPair_p__Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2383,23 +2317,45 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void SelectInInspector(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageSelection @selection, System.Boolean @forceSelectInInspector)
+        public virtual void SelectInInspector(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version, System.Boolean @forceSelectInInspector)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@selection.Value, @forceSelectInInspector};
-            var ___result = RMSelectInInspector_PageSelection_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@package.Value, @version.Value, @forceSelectInInspector};
+            var ___result = RMSelectInInspector_IPackage_IPackageVersion_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void SetSeeAllVersions(System.String @packageUniqueId, System.Boolean @value)
+        public virtual System.Boolean IsSeeAllVersions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageUniqueId, @value};
-            var ___result = RMSetSeeAllVersions_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@package.Value};
+            var ___result = RMIsSeeAllVersions_IPackage.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
+        public virtual void SetSeeAllVersions(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, System.Boolean @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@package.Value, @value};
+            var ___result = RMSetSeeAllVersions_IPackage_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void SetExpanded(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, System.Boolean @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@package.Value, @value};
+            var ___result = RMSetExpanded_IPackage_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2438,23 +2394,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab FindTab(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> @packageVersions)
+        public virtual void OnInstalledOrUninstalled(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@packageVersions.Value};
-            var ___result = RMFindTab_IEnumerable_d_IPackageVersion_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab>(___result);
-        }
-
-
-        public virtual void OnPackageUniqueIdFinalize(System.String @tempPackageUniqueId, System.String @finalPackageUniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tempPackageUniqueId, @finalPackageUniqueId};
-            var ___result = RMOnPackageUniqueIdFinalize_String_String.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@package.Value};
+            var ___result = RMOnInstalledOrUninstalled_IPackage.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2493,12 +2438,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnPackagesChanged(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackagesChangeArgs @args)
+        public virtual void OnShowDependenciesChanged(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@args.Value};
-            var ___result = RMOnPackagesChanged_PackagesChangeArgs.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@value};
+            var ___result = RMOnShowDependenciesChanged_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnPackagesChanged(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @added, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @removed, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @preUpdate, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @postUpdate)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@added.Value, @removed.Value, @preUpdate.Value, @postUpdate.Value};
+            var ___result = RMOnPackagesChanged_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2515,12 +2471,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnProductExtraFetched(System.Int64 @productId)
+        public virtual void OnProductFetched(System.Int64 @productId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productId};
-            var ___result = RMOnProductExtraFetched_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMOnProductFetched_Int64.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2548,23 +2504,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void Refresh(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> @tab)
+        public virtual void Refresh(Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFilterTab> @tab, System.Int32 @pageSize)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@tab.Value};
-            var ___result = RMRefresh_Nullable_d_PackageFilterTab_p_.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@tab.Value, @pageSize};
+            var ___result = RMRefresh_Nullable_d_PackageFilterTab_p__Int32.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void Refresh(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions @options)
+        public virtual void Refresh(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRefreshOptions @options, System.Int32 @pageSize)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@options.Value};
-            var ___result = RMRefresh_RefreshOptions.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@options.Value, @pageSize};
+            var ___result = RMRefresh_RefreshOptions_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2598,6 +2554,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@uniqueId};
             var ___result = RMFetch_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void FetchDetail(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @doneCallbackAction)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@package.Value, @doneCallbackAction.Value};
+            var ___result = RMFetchDetail_IPackage_Action_d_IPackage_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2878,45 +2845,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject __0__SelectInInspector__1__b__82_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageAndVersionIdPair @s)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@s.Value};
-            var ___result = RM__0__SelectInInspector__1__b__82_0_PackageAndVersionIdPair.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSelectionObject>(___result);
-        }
-
-
-        public static System.Boolean __0__InitializeSubPages__1__g__FilterAllPackages__5__110_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+        public static System.Boolean __0__InitializeSubPages__1__g__FilterAllPackages__5__107_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@package.Value};
-            var ___result = RM__0__InitializeSubPages__1__g__FilterAllPackages__5__110_0_IPackage.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__InitializeSubPages__1__g__FilterAllPackages__5__107_0_IPackage.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public static System.String __0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+        public static System.String __0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@package.Value};
-            var ___result = RM__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__110_1_IPackage.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__InitializeSubPages__1__g__GroupPackagesAndFeatures__5__107_1_IPackage.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
 
 
-        public static System.String __0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+        public static System.String __0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@package.Value};
-            var ___result = RM__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__110_2_IPackage.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__InitializeSubPages__1__g__GroupPackagesWithAuthorAndFeatures__5__107_2_IPackage.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }

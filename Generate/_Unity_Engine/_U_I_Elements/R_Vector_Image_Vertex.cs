@@ -102,38 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Color32 flags
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RColor32 r_Fflags;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColor32 RFflags
-		{
-			get
-			{
-				if(r_Fflags == null)
-				{
-					r_Fflags = new(this, "flags");
-				}
-				return r_Fflags;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector4 circle
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fcircle;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFcircle
-		{
-			get
-			{
-				if(r_Fcircle == null)
-				{
-					r_Fcircle = new(this, "circle");
-				}
-				return r_Fcircle;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;

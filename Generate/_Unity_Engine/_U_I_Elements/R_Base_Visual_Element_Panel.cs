@@ -166,18 +166,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIElementsBridge m_UIElementsBridge
+		/// System.Boolean <enableAssetReload>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIElementsBridge r_Fm_UIElementsBridge;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIElementsBridge RFm_UIElementsBridge
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__enableAssetReload__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__enableAssetReload__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_UIElementsBridge == null)
+				if(r_F__0__enableAssetReload__1__k__BackingField == null)
 				{
-					r_Fm_UIElementsBridge = new(this, "m_UIElementsBridge");
+					r_F__0__enableAssetReload__1__k__BackingField = new(this, "<enableAssetReload>k__BackingField");
 				}
-				return r_Fm_UIElementsBridge;
+				return r_F__0__enableAssetReload__1__k__BackingField;
 			}
 		}
 
@@ -226,22 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fm_PixelsPerPoint = new(this, "m_PixelsPerPoint");
 				}
 				return r_Fm_PixelsPerPoint;
-			}
-		}
-
-		/// <summary>
-		/// System.Single <referenceSpritePixelsPerUnit>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_F__0__referenceSpritePixelsPerUnit__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RF__0__referenceSpritePixelsPerUnit__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__referenceSpritePixelsPerUnit__1__k__BackingField == null)
-				{
-					r_F__0__referenceSpritePixelsPerUnit__1__k__BackingField = new(this, "<referenceSpritePixelsPerUnit>k__BackingField");
-				}
-				return r_F__0__referenceSpritePixelsPerUnit__1__k__BackingField;
 			}
 		}
 
@@ -470,22 +454,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.ILiveReloadSystem <liveReloadSystem>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadSystem r_F__0__liveReloadSystem__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadSystem RF__0__liveReloadSystem__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__liveReloadSystem__1__k__BackingField == null)
-				{
-					r_F__0__liveReloadSystem__1__k__BackingField = new(this, "<liveReloadSystem>k__BackingField");
-				}
-				return r_F__0__liveReloadSystem__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.EventInterests IMGUIEventInterests
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.REventInterests r_PIMGUIEventInterests;
@@ -598,22 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIElementsBridge uiElementsBridge
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIElementsBridge r_PuiElementsBridge;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIElementsBridge RPuiElementsBridge
-		{
-			get
-			{
-				if(r_PuiElementsBridge == null)
-				{
-					r_PuiElementsBridge = new(this, "uiElementsBridge", -1);
-				}
-				return r_PuiElementsBridge;
-			}
-		}
-
-		/// <summary>
 		/// Boolean enableAssetReload
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PenableAssetReload;
@@ -674,22 +626,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PscaledPixelsPerPoint = new(this, "scaledPixelsPerPoint", -1);
 				}
 				return r_PscaledPixelsPerPoint;
-			}
-		}
-
-		/// <summary>
-		/// Single referenceSpritePixelsPerUnit
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PreferenceSpritePixelsPerUnit;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPreferenceSpritePixelsPerUnit
-		{
-			get
-			{
-				if(r_PreferenceSpritePixelsPerUnit == null)
-				{
-					r_PreferenceSpritePixelsPerUnit = new(this, "referenceSpritePixelsPerUnit", -1);
-				}
-				return r_PreferenceSpritePixelsPerUnit;
 			}
 		}
 
@@ -950,6 +886,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.ILiveReloadAssetTracker`1[UnityEngine.UIElements.StyleSheet] m_LiveReloadStyleSheetAssetTracker
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> r_Pm_LiveReloadStyleSheetAssetTracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> RPm_LiveReloadStyleSheetAssetTracker
+		{
+			get
+			{
+				if(r_Pm_LiveReloadStyleSheetAssetTracker == null)
+				{
+					r_Pm_LiveReloadStyleSheetAssetTracker = new(this, "m_LiveReloadStyleSheetAssetTracker", -1);
+				}
+				return r_Pm_LiveReloadStyleSheetAssetTracker;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.Shader standardShader
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RShader r_PstandardShader;
@@ -1014,22 +966,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.ILiveReloadSystem liveReloadSystem
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadSystem r_PliveReloadSystem;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadSystem RPliveReloadSystem
-		{
-			get
-			{
-				if(r_PliveReloadSystem == null)
-				{
-					r_PliveReloadSystem = new(this, "liveReloadSystem", -1);
-				}
-				return r_PliveReloadSystem;
-			}
-		}
-
-		/// <summary>
 		/// Void Dispose()
 		/// </summary>
 		protected RMethod r_MDispose;
@@ -1074,22 +1010,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MRepaint_Event = new(this, "Repaint", 0, typeof(UnityEngine.Event));
 				}
 				return r_MRepaint_Event;
-			}
-		}
-
-		/// <summary>
-		/// Void ValidateFocus()
-		/// </summary>
-		protected RMethod r_MValidateFocus;
-		public virtual RMethod RMValidateFocus
-		{
-			get
-			{
-				if(r_MValidateFocus == null)
-				{
-					r_MValidateFocus = new(this, "ValidateFocus", 0);
-				}
-				return r_MValidateFocus;
 			}
 		}
 
@@ -1186,22 +1106,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MDirtyStyleSheets = new(this, "DirtyStyleSheets", 0);
 				}
 				return r_MDirtyStyleSheets;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateInlineStylesRecursively(UnityEngine.UIElements.VisualElement)
-		/// </summary>
-		protected RMethod r_MUpdateInlineStylesRecursively_VisualElement;
-		public virtual RMethod RMUpdateInlineStylesRecursively_VisualElement
-		{
-			get
-			{
-				if(r_MUpdateInlineStylesRecursively_VisualElement == null)
-				{
-					r_MUpdateInlineStylesRecursively_VisualElement = new(this, "UpdateInlineStylesRecursively", 0, typeof(UnityEngine.UIElements.VisualElement));
-				}
-				return r_MUpdateInlineStylesRecursively_VisualElement;
 			}
 		}
 
@@ -1330,6 +1234,86 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetEditorUpdater_VisualTreeEditorUpdatePhase = new(this, "GetEditorUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
 				}
 				return r_MGetEditorUpdater_VisualTreeEditorUpdatePhase;
+			}
+		}
+
+		/// <summary>
+		/// Void StartVisualTreeAssetTracking(UnityEngine.UIElements.ILiveReloadAssetTracker`1[UnityEngine.UIElements.VisualTreeAsset], UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement;
+		public virtual RMethod RMStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement
+		{
+			get
+			{
+				if(r_MStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement == null)
+				{
+					r_MStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement = new(this, "StartVisualTreeAssetTracking", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ILiveReloadAssetTracker`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualTreeAsset)), typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void StopVisualTreeAssetTracking(UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MStopVisualTreeAssetTracking_VisualElement;
+		public virtual RMethod RMStopVisualTreeAssetTracking_VisualElement
+		{
+			get
+			{
+				if(r_MStopVisualTreeAssetTracking_VisualElement == null)
+				{
+					r_MStopVisualTreeAssetTracking_VisualElement = new(this, "StopVisualTreeAssetTracking", 0, typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MStopVisualTreeAssetTracking_VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void OnTextElementAdded(UnityEngine.UIElements.TextElement)
+		/// </summary>
+		protected RMethod r_MOnTextElementAdded_TextElement;
+		public virtual RMethod RMOnTextElementAdded_TextElement
+		{
+			get
+			{
+				if(r_MOnTextElementAdded_TextElement == null)
+				{
+					r_MOnTextElementAdded_TextElement = new(this, "OnTextElementAdded", 0, typeof(UnityEngine.UIElements.TextElement));
+				}
+				return r_MOnTextElementAdded_TextElement;
+			}
+		}
+
+		/// <summary>
+		/// Void OnTextElementRemoved(UnityEngine.UIElements.TextElement)
+		/// </summary>
+		protected RMethod r_MOnTextElementRemoved_TextElement;
+		public virtual RMethod RMOnTextElementRemoved_TextElement
+		{
+			get
+			{
+				if(r_MOnTextElementRemoved_TextElement == null)
+				{
+					r_MOnTextElementRemoved_TextElement = new(this, "OnTextElementRemoved", 0, typeof(UnityEngine.UIElements.TextElement));
+				}
+				return r_MOnTextElementRemoved_TextElement;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.HashSet`1[UnityEngine.UIElements.ILiveReloadAssetTracker`1[UnityEngine.UIElements.VisualTreeAsset]] GetVisualTreeAssetTrackersListCopy()
+		/// </summary>
+		protected RMethod r_MGetVisualTreeAssetTrackersListCopy;
+		public virtual RMethod RMGetVisualTreeAssetTrackersListCopy
+		{
+			get
+			{
+				if(r_MGetVisualTreeAssetTrackersListCopy == null)
+				{
+					r_MGetVisualTreeAssetTrackersListCopy = new(this, "GetVisualTreeAssetTrackersListCopy", 0);
+				}
+				return r_MGetVisualTreeAssetTrackersListCopy;
 			}
 		}
 
@@ -1510,38 +1494,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void UnityEngine.UIElements.IGroupBox.OnOptionAdded(UnityEngine.UIElements.IGroupBoxOption)
-		/// </summary>
-		protected RMethod r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded_IGroupBoxOption;
-		public virtual RMethod RMUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded_IGroupBoxOption
-		{
-			get
-			{
-				if(r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded_IGroupBoxOption == null)
-				{
-					r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded_IGroupBoxOption = new(this, "UnityEngine.UIElements.IGroupBox.OnOptionAdded", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IGroupBoxOption"));
-				}
-				return r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded_IGroupBoxOption;
-			}
-		}
-
-		/// <summary>
-		/// Void UnityEngine.UIElements.IGroupBox.OnOptionRemoved(UnityEngine.UIElements.IGroupBoxOption)
-		/// </summary>
-		protected RMethod r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved_IGroupBoxOption;
-		public virtual RMethod RMUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved_IGroupBoxOption
-		{
-			get
-			{
-				if(r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved_IGroupBoxOption == null)
-				{
-					r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved_IGroupBoxOption = new(this, "UnityEngine.UIElements.IGroupBox.OnOptionRemoved", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.IGroupBoxOption"));
-				}
-				return r_MUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved_IGroupBoxOption;
-			}
-		}
-
-		/// <summary>
 		/// Void Update()
 		/// </summary>
 		protected RMethod r_MUpdate;
@@ -1687,17 +1639,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void ValidateFocus()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMValidateFocus.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void ValidateLayout()
         {
 
@@ -1759,17 +1700,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMDirtyStyleSheets.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateInlineStylesRecursively(UnityEngine.UIElements.VisualElement @root)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@root};
-            var ___result = RMUpdateInlineStylesRecursively_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1860,6 +1790,61 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMGetEditorUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
+        }
+
+
+        public virtual void StartVisualTreeAssetTracking(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> @tracker, UnityEngine.UIElements.VisualElement @visualElementUsingAsset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@tracker.Value, @visualElementUsingAsset};
+            var ___result = RMStartVisualTreeAssetTracking_ILiveReloadAssetTracker_d_VisualTreeAsset_p__VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void StopVisualTreeAssetTracking(UnityEngine.UIElements.VisualElement @visualElementUsingAsset)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@visualElementUsingAsset};
+            var ___result = RMStopVisualTreeAssetTracking_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnTextElementAdded(UnityEngine.UIElements.TextElement @element)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element};
+            var ___result = RMOnTextElementAdded_TextElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnTextElementRemoved(UnityEngine.UIElements.TextElement @element)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@element};
+            var ___result = RMOnTextElementRemoved_TextElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset>> GetVisualTreeAssetTrackersListCopy()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetVisualTreeAssetTrackersListCopy.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset>>>(___result);
         }
 
 
@@ -1979,28 +1964,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMUpdateElementUnderPointers.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIGroupBoxOption @option)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@option.Value};
-            var ___result = RMUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionAdded_IGroupBoxOption.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIGroupBoxOption @option)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@option.Value};
-            var ___result = RMUnityEngine__2__UIElements__2__IGroupBox__2__OnOptionRemoved_IGroupBoxOption.Invoke(___genericsType, ___parameters);
 
             
         }

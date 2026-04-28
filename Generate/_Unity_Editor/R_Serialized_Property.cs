@@ -102,38 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.String m_PropertyPath
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PropertyPath;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PropertyPath
-		{
-			get
-			{
-				if(r_Fm_PropertyPath == null)
-				{
-					r_Fm_PropertyPath = new(this, "m_PropertyPath");
-				}
-				return r_Fm_PropertyPath;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32 m_PropertyPathHash
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_PropertyPathHash;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_PropertyPathHash
-		{
-			get
-			{
-				if(r_Fm_PropertyPathHash == null)
-				{
-					r_Fm_PropertyPathHash = new(this, "m_PropertyPathHash");
-				}
-				return r_Fm_PropertyPathHash;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean <unsafeMode>k__BackingField
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__unsafeMode__1__k__BackingField;
@@ -230,22 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.Object boxedValue
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RObject r_PboxedValue;
-		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPboxedValue
-		{
-			get
-			{
-				if(r_PboxedValue == null)
-				{
-					r_PboxedValue = new(this, "boxedValue", -1);
-				}
-				return r_PboxedValue;
-			}
-		}
-
-		/// <summary>
 		/// Boolean hasMultipleDifferentValues
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasMultipleDifferentValues;
@@ -322,6 +274,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_Ptype = new(this, "type", -1);
 				}
 				return r_Ptype;
+			}
+		}
+
+		/// <summary>
+		/// Boolean isTypeFloat
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisTypeFloat;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisTypeFloat
+		{
+			get
+			{
+				if(r_PisTypeFloat == null)
+				{
+					r_PisTypeFloat = new(this, "isTypeFloat", -1);
+				}
+				return r_PisTypeFloat;
 			}
 		}
 
@@ -406,22 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Int32 hashCodeForPropertyPath
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PhashCodeForPropertyPath;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPhashCodeForPropertyPath
-		{
-			get
-			{
-				if(r_PhashCodeForPropertyPath == null)
-				{
-					r_PhashCodeForPropertyPath = new(this, "hashCodeForPropertyPath", -1);
-				}
-				return r_PhashCodeForPropertyPath;
-			}
-		}
-
-		/// <summary>
 		/// Boolean editable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Peditable;
@@ -482,22 +434,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PisKey = new(this, "isKey", -1);
 				}
 				return r_PisKey;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isLiveModified
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisLiveModified;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisLiveModified
-		{
-			get
-			{
-				if(r_PisLiveModified == null)
-				{
-					r_PisLiveModified = new(this, "isLiveModified", -1);
-				}
-				return r_PisLiveModified;
 			}
 		}
 
@@ -662,22 +598,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEditor.SerializedPropertyNumericType numericType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType r_PnumericType;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RSerializedPropertyNumericType RPnumericType
-		{
-			get
-			{
-				if(r_PnumericType == null)
-				{
-					r_PnumericType = new(this, "numericType", -1);
-				}
-				return r_PnumericType;
-			}
-		}
-
-		/// <summary>
 		/// Int32 intValue
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PintValue;
@@ -706,38 +626,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PlongValue = new(this, "longValue", -1);
 				}
 				return r_PlongValue;
-			}
-		}
-
-		/// <summary>
-		/// UInt64 ulongValue
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_PulongValue;
-		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RPulongValue
-		{
-			get
-			{
-				if(r_PulongValue == null)
-				{
-					r_PulongValue = new(this, "ulongValue", -1);
-				}
-				return r_PulongValue;
-			}
-		}
-
-		/// <summary>
-		/// UInt32 uintValue
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PuintValue;
-		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPuintValue
-		{
-			get
-			{
-				if(r_PuintValue == null)
-				{
-					r_PuintValue = new(this, "uintValue", -1);
-				}
-				return r_PuintValue;
 			}
 		}
 
@@ -962,22 +850,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PmanagedReferenceFieldTypename = new(this, "managedReferenceFieldTypename", -1);
 				}
 				return r_PmanagedReferenceFieldTypename;
-			}
-		}
-
-		/// <summary>
-		/// System.Object structValue
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RObject r_PstructValue;
-		public virtual Hvak.Editor.Refleaction.RSystem.RObject RPstructValue
-		{
-			get
-			{
-				if(r_PstructValue == null)
-				{
-					r_PstructValue = new(this, "structValue", -1);
-				}
-				return r_PstructValue;
 			}
 		}
 
@@ -1430,22 +1302,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UInt32 contentHash
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_PcontentHash;
-		public virtual Hvak.Editor.Refleaction.RSystem.RUInt32 RPcontentHash
-		{
-			get
-			{
-				if(r_PcontentHash == null)
-				{
-					r_PcontentHash = new(this, "contentHash", -1);
-				}
-				return r_PcontentHash;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -1670,22 +1526,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Boolean FindFirstPropertyFromManagedReferencePathInternal(System.String)
-		/// </summary>
-		protected RMethod r_MFindFirstPropertyFromManagedReferencePathInternal_String;
-		public virtual RMethod RMFindFirstPropertyFromManagedReferencePathInternal_String
-		{
-			get
-			{
-				if(r_MFindFirstPropertyFromManagedReferencePathInternal_String == null)
-				{
-					r_MFindFirstPropertyFromManagedReferencePathInternal_String = new(this, "FindFirstPropertyFromManagedReferencePathInternal", 0, typeof(System.String));
-				}
-				return r_MFindFirstPropertyFromManagedReferencePathInternal_String;
-			}
-		}
-
-		/// <summary>
 		/// Void Dispose()
 		/// </summary>
 		protected RMethod r_MDispose;
@@ -1894,6 +1734,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Boolean IsSerializedPropertyTypeFloatInternal()
+		/// </summary>
+		protected RMethod r_MIsSerializedPropertyTypeFloatInternal;
+		public virtual RMethod RMIsSerializedPropertyTypeFloatInternal
+		{
+			get
+			{
+				if(r_MIsSerializedPropertyTypeFloatInternal == null)
+				{
+					r_MIsSerializedPropertyTypeFloatInternal = new(this, "IsSerializedPropertyTypeFloatInternal", 0);
+				}
+				return r_MIsSerializedPropertyTypeFloatInternal;
+			}
+		}
+
+		/// <summary>
 		/// System.String GetSerializedPropertyArrayElementTypeNameInternal()
 		/// </summary>
 		protected RMethod r_MGetSerializedPropertyArrayElementTypeNameInternal;
@@ -1954,22 +1810,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MGetPropertyPathInternal = new(this, "GetPropertyPathInternal", 0);
 				}
 				return r_MGetPropertyPathInternal;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetHashCodeForPropertyPathInternal()
-		/// </summary>
-		protected RMethod r_MGetHashCodeForPropertyPathInternal;
-		public virtual RMethod RMGetHashCodeForPropertyPathInternal
-		{
-			get
-			{
-				if(r_MGetHashCodeForPropertyPathInternal == null)
-				{
-					r_MGetHashCodeForPropertyPathInternal = new(this, "GetHashCodeForPropertyPathInternal", 0);
-				}
-				return r_MGetHashCodeForPropertyPathInternal;
 			}
 		}
 
@@ -2066,22 +1906,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MIsKeyInternal = new(this, "IsKeyInternal", 0);
 				}
 				return r_MIsKeyInternal;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsLiveModified()
-		/// </summary>
-		protected RMethod r_MIsLiveModified;
-		public virtual RMethod RMIsLiveModified
-		{
-			get
-			{
-				if(r_MIsLiveModified == null)
-				{
-					r_MIsLiveModified = new(this, "IsLiveModified", 0);
-				}
-				return r_MIsLiveModified;
 			}
 		}
 
@@ -2306,22 +2130,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MGetSerializedPropertyTypeInternal = new(this, "GetSerializedPropertyTypeInternal", 0);
 				}
 				return r_MGetSerializedPropertyTypeInternal;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetNumericTypeInternal()
-		/// </summary>
-		protected RMethod r_MGetNumericTypeInternal;
-		public virtual RMethod RMGetNumericTypeInternal
-		{
-			get
-			{
-				if(r_MGetNumericTypeInternal == null)
-				{
-					r_MGetNumericTypeInternal = new(this, "GetNumericTypeInternal", 0);
-				}
-				return r_MGetNumericTypeInternal;
 			}
 		}
 
@@ -2658,38 +2466,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MSetManagedReferenceValueInternal_Object = new(this, "SetManagedReferenceValueInternal", 0, typeof(System.Object));
 				}
 				return r_MSetManagedReferenceValueInternal_Object;
-			}
-		}
-
-		/// <summary>
-		/// Void SetStructValueInternal(System.Object)
-		/// </summary>
-		protected RMethod r_MSetStructValueInternal_Object;
-		public virtual RMethod RMSetStructValueInternal_Object
-		{
-			get
-			{
-				if(r_MSetStructValueInternal_Object == null)
-				{
-					r_MSetStructValueInternal_Object = new(this, "SetStructValueInternal", 0, typeof(System.Object));
-				}
-				return r_MSetStructValueInternal_Object;
-			}
-		}
-
-		/// <summary>
-		/// System.Object GetStructValueInternal(System.String, System.String, System.String)
-		/// </summary>
-		protected RMethod r_MGetStructValueInternal_String_String_String;
-		public virtual RMethod RMGetStructValueInternal_String_String_String
-		{
-			get
-			{
-				if(r_MGetStructValueInternal_String_String_String == null)
-				{
-					r_MGetStructValueInternal_String_String_String = new(this, "GetStructValueInternal", 0, typeof(System.String), typeof(System.String), typeof(System.String));
-				}
-				return r_MGetStructValueInternal_String_String_String;
 			}
 		}
 
@@ -4038,38 +3814,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Boolean IsValidInternal()
-		/// </summary>
-		protected RMethod r_MIsValidInternal;
-		public virtual RMethod RMIsValidInternal
-		{
-			get
-			{
-				if(r_MIsValidInternal == null)
-				{
-					r_MIsValidInternal = new(this, "IsValidInternal", 0);
-				}
-				return r_MIsValidInternal;
-			}
-		}
-
-		/// <summary>
-		/// UInt32 GetContentHashInternal()
-		/// </summary>
-		protected RMethod r_MGetContentHashInternal;
-		public virtual RMethod RMGetContentHashInternal
-		{
-			get
-			{
-				if(r_MGetContentHashInternal == null)
-				{
-					r_MGetContentHashInternal = new(this, "GetContentHashInternal", 0);
-				}
-				return r_MGetContentHashInternal;
-			}
-		}
-
-		/// <summary>
 		/// Void GetColorValueInternal_Injected(UnityEngine.Color ByRef)
 		/// </summary>
 		protected RMethod r_MGetColorValueInternal_Injected_Out_Color;
@@ -4688,17 +4432,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean FindFirstPropertyFromManagedReferencePathInternal(System.String @managedReferencePath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@managedReferencePath};
-            var ___result = RMFindFirstPropertyFromManagedReferencePathInternal_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual void Dispose()
         {
 
@@ -4842,6 +4575,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual System.Boolean IsSerializedPropertyTypeFloatInternal()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMIsSerializedPropertyTypeFloatInternal.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
         public virtual System.String GetSerializedPropertyArrayElementTypeNameInternal()
         {
 
@@ -4883,17 +4627,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMGetPropertyPathInternal.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.Int32 GetHashCodeForPropertyPathInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCodeForPropertyPathInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -4958,17 +4691,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMIsKeyInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsLiveModified()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsLiveModified.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -5123,17 +4845,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMGetSerializedPropertyTypeInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetNumericTypeInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetNumericTypeInternal.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -5367,28 +5078,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMSetManagedReferenceValueInternal_Object.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual void SetStructValueInternal(System.Object @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMSetStructValueInternal_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Object GetStructValueInternal(System.String @assemblyName, System.String @nameSpace, System.String @className)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@assemblyName, @nameSpace, @className};
-            var ___result = RMGetStructValueInternal_String_String_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
         }
 
 
@@ -6313,28 +6002,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMValueEquals_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsValidInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMIsValidInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.UInt32 GetContentHashInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetContentHashInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.UInt32>(___result);
         }
 
 

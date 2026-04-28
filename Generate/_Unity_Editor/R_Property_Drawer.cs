@@ -70,22 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.String m_PreferredLabel
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PreferredLabel;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PreferredLabel
-		{
-			get
-			{
-				if(r_Fm_PreferredLabel == null)
-				{
-					r_Fm_PreferredLabel = new(this, "m_PreferredLabel");
-				}
-				return r_Fm_PreferredLabel;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.PropertyAttribute attribute
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RPropertyAttribute r_Pattribute;
@@ -114,22 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PfieldInfo = new(this, "fieldInfo", -1);
 				}
 				return r_PfieldInfo;
-			}
-		}
-
-		/// <summary>
-		/// System.String preferredLabel
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PpreferredLabel;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpreferredLabel
-		{
-			get
-			{
-				if(r_PpreferredLabel == null)
-				{
-					r_PpreferredLabel = new(this, "preferredLabel", -1);
-				}
-				return r_PpreferredLabel;
 			}
 		}
 

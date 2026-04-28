@@ -470,18 +470,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4, Boolean, UnityEngine.SecondarySpriteTexture[])
+		/// UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4, Boolean)
 		/// </summary>
-		protected static RMethod r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
-		public static RMethod RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray
+		protected static RMethod r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
+		public static RMethod RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean
 		{
 			get
 			{
-				if(r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
+				if(r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean == null)
 				{
-					r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(Type, "CreateSprite", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean = new(Type, "CreateSprite", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean));
 				}
-				return r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
+				return r_MCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean;
 			}
 		}
 
@@ -498,38 +498,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MGetSecondaryTexture_Int32 = new(this, "GetSecondaryTexture", 0, typeof(System.Int32));
 				}
 				return r_MGetSecondaryTexture_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetSecondaryTextureCount()
-		/// </summary>
-		protected RMethod r_MGetSecondaryTextureCount;
-		public virtual RMethod RMGetSecondaryTextureCount
-		{
-			get
-			{
-				if(r_MGetSecondaryTextureCount == null)
-				{
-					r_MGetSecondaryTextureCount = new(this, "GetSecondaryTextureCount", 0);
-				}
-				return r_MGetSecondaryTextureCount;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetSecondaryTextures(UnityEngine.SecondarySpriteTexture[])
-		/// </summary>
-		protected RMethod r_MGetSecondaryTextures_SecondarySpriteTextureArray;
-		public virtual RMethod RMGetSecondaryTextures_SecondarySpriteTextureArray
-		{
-			get
-			{
-				if(r_MGetSecondaryTextures_SecondarySpriteTextureArray == null)
-				{
-					r_MGetSecondaryTextures_SecondarySpriteTextureArray = new(this, "GetSecondaryTextures", 0, typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
-				}
-				return r_MGetSecondaryTextures_SecondarySpriteTextureArray;
 			}
 		}
 
@@ -726,22 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4, Boolean, UnityEngine.SecondarySpriteTexture[])
-		/// </summary>
-		protected static RMethod r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
-		public static RMethod RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray
-		{
-			get
-			{
-				if(r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray == null)
-				{
-					r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray = new(Type, "Create", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
-				}
-				return r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Sprite Create(UnityEngine.Texture2D, UnityEngine.Rect, UnityEngine.Vector2, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4)
 		/// </summary>
 		protected static RMethod r_MCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4;
@@ -918,18 +870,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D, UnityEngine.Rect ByRef, UnityEngine.Vector2 ByRef, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4 ByRef, Boolean, UnityEngine.SecondarySpriteTexture[])
+		/// UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D, UnityEngine.Rect ByRef, UnityEngine.Vector2 ByRef, Single, UInt32, UnityEngine.SpriteMeshType, UnityEngine.Vector4 ByRef, Boolean)
 		/// </summary>
-		protected static RMethod r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
-		public static RMethod RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray
+		protected static RMethod r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean;
+		public static RMethod RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean
 		{
 			get
 			{
-				if(r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray == null)
+				if(r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean == null)
 				{
-					r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray = new(Type, "CreateSprite_Injected", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean), typeof(UnityEngine.SecondarySpriteTexture).MakeArrayType());
+					r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean = new(Type, "CreateSprite_Injected", 0, typeof(UnityEngine.Texture2D), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Vector2).MakeByRefType(), typeof(System.Single), typeof(System.UInt32), typeof(UnityEngine.SpriteMeshType), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean));
 				}
-				return r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray;
+				return r_MCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean;
 			}
 		}
 
@@ -1058,22 +1010,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -1225,12 +1161,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[] @secondaryTexture)
+        public static UnityEngine.Sprite CreateSprite(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTexture};
-            var ___result = RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
+            var ___result = RMCreateSprite_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
@@ -1244,28 +1180,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMGetSecondaryTexture_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Texture2D>(___result);
-        }
-
-
-        public virtual System.Int32 GetSecondaryTextureCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetSecondaryTextureCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetSecondaryTextures(UnityEngine.SecondarySpriteTexture[] @secondaryTexture)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@secondaryTexture};
-            var ___result = RMGetSecondaryTextures_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -1396,17 +1310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
             var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
-        }
-
-
-        public static UnityEngine.Sprite Create(UnityEngine.Texture2D @texture, UnityEngine.Rect @rect, UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[] @secondaryTextures)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTextures};
-            var ___result = RMCreate_Texture2D_Rect_Vector2_Single_UInt32_SpriteMeshType_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Sprite>(___result);
         }
@@ -1545,12 +1448,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D @texture, ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, ref UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape, UnityEngine.SecondarySpriteTexture[] @secondaryTexture)
+        public static UnityEngine.Sprite CreateSprite_Injected(UnityEngine.Texture2D @texture, ref UnityEngine.Rect @rect, ref UnityEngine.Vector2 @pivot, System.Single @pixelsPerUnit, System.UInt32 @extrude, UnityEngine.SpriteMeshType @meshType, ref UnityEngine.Vector4 @border, System.Boolean @generateFallbackPhysicsShape)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape, @secondaryTexture};
-            var ___result = RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean_SecondarySpriteTextureArray.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@texture, @rect, @pivot, @pixelsPerUnit, @extrude, @meshType, @border, @generateFallbackPhysicsShape};
+            var ___result = RMCreateSprite_Injected_Texture2D_Ref_Rect_Ref_Vector2_Single_UInt32_SpriteMeshType_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
 			@rect = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[1]);
 			@pivot = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[2]);
 			@border = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[6]);
@@ -1652,17 +1555,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

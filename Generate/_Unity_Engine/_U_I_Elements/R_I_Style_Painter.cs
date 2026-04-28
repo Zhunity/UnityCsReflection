@@ -70,34 +70,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void DrawText(UnityEngine.UIElements.TextElement)
+		/// Void DrawText(TextParams, UnityEngine.UIElements.ITextHandle, Single)
 		/// </summary>
-		protected RMethod r_MDrawText_TextElement;
-		public virtual RMethod RMDrawText_TextElement
+		protected RMethod r_MDrawText_TextParams_ITextHandle_Single;
+		public virtual RMethod RMDrawText_TextParams_ITextHandle_Single
 		{
 			get
 			{
-				if(r_MDrawText_TextElement == null)
+				if(r_MDrawText_TextParams_ITextHandle_Single == null)
 				{
-					r_MDrawText_TextElement = new(this, "DrawText", 0, typeof(UnityEngine.UIElements.TextElement));
+					r_MDrawText_TextParams_ITextHandle_Single = new(this, "DrawText", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+TextParams"),  ReflectionUtils.GetType("UnityEngine.UIElements.ITextHandle"), typeof(System.Single));
 				}
-				return r_MDrawText_TextElement;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawText(System.String, UnityEngine.Vector2, Single, UnityEngine.Color, UnityEngine.TextCore.Text.FontAsset)
-		/// </summary>
-		protected RMethod r_MDrawText_String_Vector2_Single_Color_FontAsset;
-		public virtual RMethod RMDrawText_String_Vector2_Single_Color_FontAsset
-		{
-			get
-			{
-				if(r_MDrawText_String_Vector2_Single_Color_FontAsset == null)
-				{
-					r_MDrawText_String_Vector2_Single_Color_FontAsset = new(this, "DrawText", 0, typeof(System.String), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Color), typeof(UnityEngine.TextCore.Text.FontAsset));
-				}
-				return r_MDrawText_String_Vector2_Single_Color_FontAsset;
+				return r_MDrawText_TextParams_ITextHandle_Single;
 			}
 		}
 
@@ -149,22 +133,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			}
 		}
 
-		/// <summary>
-		/// Void DrawVectorImage(UnityEngine.UIElements.VectorImage, UnityEngine.Vector2, UnityEngine.UIElements.Angle, UnityEngine.Vector2)
-		/// </summary>
-		protected RMethod r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2;
-		public virtual RMethod RMDrawVectorImage_VectorImage_Vector2_Angle_Vector2
-		{
-			get
-			{
-				if(r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2 == null)
-				{
-					r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2 = new(this, "DrawVectorImage", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(UnityEngine.Vector2), typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.Vector2));
-				}
-				return r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2;
-			}
-		}
-
 
         public virtual UnityEngine.UIElements.MeshWriteData DrawMesh(System.Int32 @vertexCount, System.Int32 @indexCount, UnityEngine.Texture @texture, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags)
         {
@@ -177,23 +145,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DrawText(UnityEngine.UIElements.TextElement @te)
+        public virtual void DrawText(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@te};
-            var ___result = RMDrawText_TextElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawText(System.String @text, UnityEngine.Vector2 @pos, System.Single @fontSize, UnityEngine.Color @color, UnityEngine.TextCore.Text.FontAsset @font)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @pos, @fontSize, @color, @font};
-            var ___result = RMDrawText_String_Vector2_Single_Color_FontAsset.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+            var ___result = RMDrawText_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -227,17 +184,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@callback, @cullingEnabled};
             var ___result = RMDrawImmediate_Action_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage @vectorImage, UnityEngine.Vector2 @pos, UnityEngine.UIElements.Angle @rotationAngle, UnityEngine.Vector2 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vectorImage, @pos, @rotationAngle, @scale};
-            var ___result = RMDrawVectorImage_VectorImage_Vector2_Angle_Vector2.Invoke(___genericsType, ___parameters);
 
             
         }

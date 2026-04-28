@@ -294,22 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
-			}
-		}
-
-		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
@@ -418,22 +402,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 
@@ -758,18 +726,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.WheelEvent GetPooled(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.EventModifiers)
+		/// UnityEngine.UIElements.WheelEvent GetPooled(UnityEngine.Vector3, UnityEngine.Vector3)
 		/// </summary>
-		protected static RMethod r_MGetPooled_Vector3_Vector3_EventModifiers;
-		public static RMethod RMGetPooled_Vector3_Vector3_EventModifiers
+		protected static RMethod r_MGetPooled_Vector3_Vector3;
+		public static RMethod RMGetPooled_Vector3_Vector3
 		{
 			get
 			{
-				if(r_MGetPooled_Vector3_Vector3_EventModifiers == null)
+				if(r_MGetPooled_Vector3_Vector3 == null)
 				{
-					r_MGetPooled_Vector3_Vector3_EventModifiers = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3), typeof(UnityEngine.EventModifiers));
+					r_MGetPooled_Vector3_Vector3 = new(Type, "GetPooled", 0, typeof(UnityEngine.Vector3), typeof(UnityEngine.Vector3));
 				}
-				return r_MGetPooled_Vector3_Vector3_EventModifiers;
+				return r_MGetPooled_Vector3_Vector3;
 			}
 		}
 
@@ -1121,12 +1089,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.WheelEvent GetPooled(UnityEngine.Vector3 @delta, UnityEngine.Vector3 @mousePosition, UnityEngine.EventModifiers @modifiers)
+        public static UnityEngine.UIElements.WheelEvent GetPooled(UnityEngine.Vector3 @delta, UnityEngine.Vector3 @mousePosition)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@delta, @mousePosition, @modifiers};
-            var ___result = RMGetPooled_Vector3_Vector3_EventModifiers.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@delta, @mousePosition};
+            var ___result = RMGetPooled_Vector3_Vector3.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.WheelEvent>(___result);
         }

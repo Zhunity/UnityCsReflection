@@ -54,66 +54,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 		}
 
 		/// <summary>
-		/// System.String m_NextVersion
+		/// System.String m_Nextversion
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_NextVersion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_NextVersion
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Nextversion;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Nextversion
 		{
 			get
 			{
-				if(r_Fm_NextVersion == null)
+				if(r_Fm_Nextversion == null)
 				{
-					r_Fm_NextVersion = new(this, "m_NextVersion");
+					r_Fm_Nextversion = new(this, "m_Nextversion");
 				}
-				return r_Fm_NextVersion;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_RecommendedVersion
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_RecommendedVersion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_RecommendedVersion
-		{
-			get
-			{
-				if(r_Fm_RecommendedVersion == null)
-				{
-					r_Fm_RecommendedVersion = new(this, "m_RecommendedVersion");
-				}
-				return r_Fm_RecommendedVersion;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_IsDeprecated
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsDeprecated;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsDeprecated
-		{
-			get
-			{
-				if(r_Fm_IsDeprecated == null)
-				{
-					r_Fm_IsDeprecated = new(this, "m_IsDeprecated");
-				}
-				return r_Fm_IsDeprecated;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_DeprecationMessage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DeprecationMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DeprecationMessage
-		{
-			get
-			{
-				if(r_Fm_DeprecationMessage == null)
-				{
-					r_Fm_DeprecationMessage = new(this, "m_DeprecationMessage");
-				}
-				return r_Fm_DeprecationMessage;
+				return r_Fm_Nextversion;
 			}
 		}
 
@@ -146,54 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUnityLifecycle
 					r_PnextVersion = new(this, "nextVersion", -1);
 				}
 				return r_PnextVersion;
-			}
-		}
-
-		/// <summary>
-		/// System.String recommendedVersion
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PrecommendedVersion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPrecommendedVersion
-		{
-			get
-			{
-				if(r_PrecommendedVersion == null)
-				{
-					r_PrecommendedVersion = new(this, "recommendedVersion", -1);
-				}
-				return r_PrecommendedVersion;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isDeprecated
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDeprecated;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDeprecated
-		{
-			get
-			{
-				if(r_PisDeprecated == null)
-				{
-					r_PisDeprecated = new(this, "isDeprecated", -1);
-				}
-				return r_PisDeprecated;
-			}
-		}
-
-		/// <summary>
-		/// System.String deprecationMessage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PdeprecationMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdeprecationMessage
-		{
-			get
-			{
-				if(r_PdeprecationMessage == null)
-				{
-					r_PdeprecationMessage = new(this, "deprecationMessage", -1);
-				}
-				return r_PdeprecationMessage;
 			}
 		}
 

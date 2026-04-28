@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement CreatePropertyGUI()
-		/// </summary>
-		protected RMethod r_MCreatePropertyGUI;
-		public virtual RMethod RMCreatePropertyGUI
-		{
-			get
-			{
-				if(r_MCreatePropertyGUI == null)
-				{
-					r_MCreatePropertyGUI = new(this, "CreatePropertyGUI", 0);
-				}
-				return r_MCreatePropertyGUI;
-			}
-		}
-
-		/// <summary>
 		/// Single GetHeight()
 		/// </summary>
 		protected RMethod r_MGetHeight;
@@ -238,17 +222,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMOnGUI_Rect.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement CreatePropertyGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCreatePropertyGUI.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 

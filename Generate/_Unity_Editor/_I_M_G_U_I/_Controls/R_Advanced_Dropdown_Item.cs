@@ -358,22 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// Int32 GetHashCode()
-		/// </summary>
-		protected RMethod r_MGetHashCode;
-		public virtual RMethod RMGetHashCode
-		{
-			get
-			{
-				if(r_MGetHashCode == null)
-				{
-					r_MGetHashCode = new(this, "GetHashCode", 0);
-				}
-				return r_MGetHashCode;
-			}
-		}
-
-		/// <summary>
 		/// Int32 CompareTo(System.Object)
 		/// </summary>
 		protected RMethod r_MCompareTo_Object;
@@ -486,6 +470,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
+		{
+			get
+			{
+				if(r_MGetHashCode == null)
+				{
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+				}
+				return r_MGetHashCode;
+			}
+		}
+
+		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
 		protected RMethod r_MGetType;
@@ -526,17 +526,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___result = RMAddChild_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -614,6 +603,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual System.Int32 GetHashCode()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

@@ -678,86 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionX(Int32)
-		/// </summary>
-		protected RMethod r_MReadBackgroundPositionX_Int32;
-		public virtual RMethod RMReadBackgroundPositionX_Int32
-		{
-			get
-			{
-				if(r_MReadBackgroundPositionX_Int32 == null)
-				{
-					r_MReadBackgroundPositionX_Int32 = new(this, "ReadBackgroundPositionX", 0, typeof(System.Int32));
-				}
-				return r_MReadBackgroundPositionX_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionY(Int32)
-		/// </summary>
-		protected RMethod r_MReadBackgroundPositionY_Int32;
-		public virtual RMethod RMReadBackgroundPositionY_Int32
-		{
-			get
-			{
-				if(r_MReadBackgroundPositionY_Int32 == null)
-				{
-					r_MReadBackgroundPositionY_Int32 = new(this, "ReadBackgroundPositionY", 0, typeof(System.Int32));
-				}
-				return r_MReadBackgroundPositionY_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(Int32, UnityEngine.UIElements.BackgroundPositionKeyword)
-		/// </summary>
-		protected RMethod r_MReadBackgroundPosition_Int32_BackgroundPositionKeyword;
-		public virtual RMethod RMReadBackgroundPosition_Int32_BackgroundPositionKeyword
-		{
-			get
-			{
-				if(r_MReadBackgroundPosition_Int32_BackgroundPositionKeyword == null)
-				{
-					r_MReadBackgroundPosition_Int32_BackgroundPositionKeyword = new(this, "ReadBackgroundPosition", 0, typeof(System.Int32), typeof(UnityEngine.UIElements.BackgroundPositionKeyword));
-				}
-				return r_MReadBackgroundPosition_Int32_BackgroundPositionKeyword;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(Int32)
-		/// </summary>
-		protected RMethod r_MReadBackgroundRepeat_Int32;
-		public virtual RMethod RMReadBackgroundRepeat_Int32
-		{
-			get
-			{
-				if(r_MReadBackgroundRepeat_Int32 == null)
-				{
-					r_MReadBackgroundRepeat_Int32 = new(this, "ReadBackgroundRepeat", 0, typeof(System.Int32));
-				}
-				return r_MReadBackgroundRepeat_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(Int32)
-		/// </summary>
-		protected RMethod r_MReadBackgroundSize_Int32;
-		public virtual RMethod RMReadBackgroundSize_Int32
-		{
-			get
-			{
-				if(r_MReadBackgroundSize_Int32 == null)
-				{
-					r_MReadBackgroundSize_Int32 = new(this, "ReadBackgroundSize", 0, typeof(System.Int32));
-				}
-				return r_MReadBackgroundSize_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void ReadListEasingFunction(System.Collections.Generic.List`1[UnityEngine.UIElements.EasingFunction], Int32)
 		/// </summary>
 		protected RMethod r_MReadListEasingFunction_List_d_EasingFunction_p__Int32;
@@ -934,22 +854,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		}
 
 		/// <summary>
-		/// Boolean TryReadEnum(UnityEngine.UIElements.StyleSheets.StyleEnumType, UnityEngine.UIElements.StyleSheets.StylePropertyValue, Int32 ByRef)
-		/// </summary>
-		protected static RMethod r_MTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32;
-		public static RMethod RMTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32
-		{
-			get
-			{
-				if(r_MTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32 == null)
-				{
-					r_MTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32 = new(Type, "TryReadEnum", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StyleEnumType"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"), typeof(System.Int32).MakeByRefType());
-				}
-				return r_MTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Int32 ReadEnum(UnityEngine.UIElements.StyleSheets.StyleEnumType, UnityEngine.UIElements.StyleSheets.StylePropertyValue)
 		/// </summary>
 		protected static RMethod r_MReadEnum_StyleEnumType_StylePropertyValue;
@@ -978,54 +882,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 					r_MReadAngle_StylePropertyValue = new(Type, "ReadAngle", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
 				}
 				return r_MReadAngle_StylePropertyValue;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(Int32, UnityEngine.UIElements.StyleSheets.StylePropertyValue, UnityEngine.UIElements.StyleSheets.StylePropertyValue, UnityEngine.UIElements.BackgroundPositionKeyword)
-		/// </summary>
-		protected static RMethod r_MReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword;
-		public static RMethod RMReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword
-		{
-			get
-			{
-				if(r_MReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword == null)
-				{
-					r_MReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword = new(Type, "ReadBackgroundPosition", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"), typeof(UnityEngine.UIElements.BackgroundPositionKeyword));
-				}
-				return r_MReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(Int32, UnityEngine.UIElements.StyleSheets.StylePropertyValue, UnityEngine.UIElements.StyleSheets.StylePropertyValue)
-		/// </summary>
-		protected static RMethod r_MReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue;
-		public static RMethod RMReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue
-		{
-			get
-			{
-				if(r_MReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue == null)
-				{
-					r_MReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue = new(Type, "ReadBackgroundRepeat", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
-				}
-				return r_MReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(Int32, UnityEngine.UIElements.StyleSheets.StylePropertyValue, UnityEngine.UIElements.StyleSheets.StylePropertyValue)
-		/// </summary>
-		protected static RMethod r_MReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue;
-		public static RMethod RMReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue
-		{
-			get
-			{
-				if(r_MReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue == null)
-				{
-					r_MReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue = new(Type, "ReadBackgroundSize", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"),  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyValue"));
-				}
-				return r_MReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue;
 			}
 		}
 
@@ -1395,61 +1251,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionX(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadBackgroundPositionX_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPositionY(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadBackgroundPositionY_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32 @index, UnityEngine.UIElements.BackgroundPositionKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @keyword};
-            var ___result = RMReadBackgroundPosition_Int32_BackgroundPositionKeyword.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadBackgroundRepeat_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundRepeat>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMReadBackgroundSize_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___result);
-        }
-
-
         public virtual void ReadListEasingFunction(System.Collections.Generic.List<UnityEngine.UIElements.EasingFunction> @list, System.Int32 @index)
         {
 
@@ -1575,19 +1376,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
         }
 
 
-        public static System.Boolean TryReadEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType @enumType, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value, out System.Int32 @intValue)
-        {
-			@intValue = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@enumType.Value, @value.Value, @intValue};
-            var ___result = RMTryReadEnum_StyleEnumType_StylePropertyValue_Out_Int32.Invoke(___genericsType, ___parameters);
-			@intValue = ReflectionUtils.Convert<System.Int32>(___parameters[2]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public static System.Int32 ReadEnum(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType @enumType, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @value)
         {
 
@@ -1607,39 +1395,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
             var ___result = RMReadAngle_StylePropertyValue.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.BackgroundPosition ReadBackgroundPosition(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2, UnityEngine.UIElements.BackgroundPositionKeyword @keyword)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value, @keyword};
-            var ___result = RMReadBackgroundPosition_Int32_StylePropertyValue_StylePropertyValue_BackgroundPositionKeyword.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.BackgroundRepeat ReadBackgroundRepeat(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value};
-            var ___result = RMReadBackgroundRepeat_Int32_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundRepeat>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.BackgroundSize ReadBackgroundSize(System.Int32 @valCount, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val1, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyValue @val2)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@valCount, @val1.Value, @val2.Value};
-            var ___result = RMReadBackgroundSize_Int32_StylePropertyValue_StylePropertyValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___result);
         }
 
 

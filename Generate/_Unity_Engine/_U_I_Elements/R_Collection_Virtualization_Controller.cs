@@ -70,6 +70,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Int32 lastVisibleIndex
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlastVisibleIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlastVisibleIndex
+		{
+			get
+			{
+				if(r_PlastVisibleIndex == null)
+				{
+					r_PlastVisibleIndex = new(this, "lastVisibleIndex", -1);
+				}
+				return r_PlastVisibleIndex;
+			}
+		}
+
+		/// <summary>
 		/// Int32 visibleItemCount
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PvisibleItemCount;
@@ -134,18 +150,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void Resize(UnityEngine.Vector2)
+		/// Void Resize(UnityEngine.Vector2, Int32)
 		/// </summary>
-		protected RMethod r_MResize_Vector2;
-		public virtual RMethod RMResize_Vector2
+		protected RMethod r_MResize_Vector2_Int32;
+		public virtual RMethod RMResize_Vector2_Int32
 		{
 			get
 			{
-				if(r_MResize_Vector2 == null)
+				if(r_MResize_Vector2_Int32 == null)
 				{
-					r_MResize_Vector2 = new(this, "Resize", 0, typeof(UnityEngine.Vector2));
+					r_MResize_Vector2_Int32 = new(this, "Resize", 0, typeof(UnityEngine.Vector2), typeof(System.Int32));
 				}
-				return r_MResize_Vector2;
+				return r_MResize_Vector2_Int32;
 			}
 		}
 
@@ -182,34 +198,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Single GetExpectedItemHeight(Int32)
+		/// Single GetItemHeight(Int32)
 		/// </summary>
-		protected RMethod r_MGetExpectedItemHeight_Int32;
-		public virtual RMethod RMGetExpectedItemHeight_Int32
+		protected RMethod r_MGetItemHeight_Int32;
+		public virtual RMethod RMGetItemHeight_Int32
 		{
 			get
 			{
-				if(r_MGetExpectedItemHeight_Int32 == null)
+				if(r_MGetItemHeight_Int32 == null)
 				{
-					r_MGetExpectedItemHeight_Int32 = new(this, "GetExpectedItemHeight", 0, typeof(System.Int32));
+					r_MGetItemHeight_Int32 = new(this, "GetItemHeight", 0, typeof(System.Int32));
 				}
-				return r_MGetExpectedItemHeight_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Single GetExpectedContentHeight()
-		/// </summary>
-		protected RMethod r_MGetExpectedContentHeight;
-		public virtual RMethod RMGetExpectedContentHeight
-		{
-			get
-			{
-				if(r_MGetExpectedContentHeight == null)
-				{
-					r_MGetExpectedContentHeight = new(this, "GetExpectedContentHeight", 0);
-				}
-				return r_MGetExpectedContentHeight;
+				return r_MGetItemHeight_Int32;
 			}
 		}
 
@@ -262,34 +262,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void StartDragItem(UnityEngine.UIElements.ReusableCollectionItem)
+		/// Void ReplaceActiveItem(Int32)
 		/// </summary>
-		protected RMethod r_MStartDragItem_ReusableCollectionItem;
-		public virtual RMethod RMStartDragItem_ReusableCollectionItem
+		protected RMethod r_MReplaceActiveItem_Int32;
+		public virtual RMethod RMReplaceActiveItem_Int32
 		{
 			get
 			{
-				if(r_MStartDragItem_ReusableCollectionItem == null)
+				if(r_MReplaceActiveItem_Int32 == null)
 				{
-					r_MStartDragItem_ReusableCollectionItem = new(this, "StartDragItem", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.ReusableCollectionItem"));
+					r_MReplaceActiveItem_Int32 = new(this, "ReplaceActiveItem", 0, typeof(System.Int32));
 				}
-				return r_MStartDragItem_ReusableCollectionItem;
-			}
-		}
-
-		/// <summary>
-		/// Void EndDrag(Int32)
-		/// </summary>
-		protected RMethod r_MEndDrag_Int32;
-		public virtual RMethod RMEndDrag_Int32
-		{
-			get
-			{
-				if(r_MEndDrag_Int32 == null)
-				{
-					r_MEndDrag_Int32 = new(this, "EndDrag", 0, typeof(System.Int32));
-				}
-				return r_MEndDrag_Int32;
+				return r_MReplaceActiveItem_Int32;
 			}
 		}
 
@@ -412,12 +396,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void Resize(UnityEngine.Vector2 @size)
+        public virtual void Resize(UnityEngine.Vector2 @size, System.Int32 @layoutPass)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@size};
-            var ___result = RMResize_Vector2.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@size, @layoutPass};
+            var ___result = RMResize_Vector2_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -445,23 +429,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Single GetExpectedItemHeight(System.Int32 @index)
+        public virtual System.Single GetItemHeight(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
-            var ___result = RMGetExpectedItemHeight_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single GetExpectedContentHeight()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetExpectedContentHeight.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetItemHeight_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Single>(___result);
         }
@@ -500,23 +473,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void StartDragItem(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem @item)
+        public virtual void ReplaceActiveItem(System.Int32 @index)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@item.Value};
-            var ___result = RMStartDragItem_ReusableCollectionItem.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void EndDrag(System.Int32 @dropIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dropIndex};
-            var ___result = RMEndDrag_Int32.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@index};
+            var ___result = RMReplaceActiveItem_Int32.Invoke(___genericsType, ___parameters);
 
             
         }

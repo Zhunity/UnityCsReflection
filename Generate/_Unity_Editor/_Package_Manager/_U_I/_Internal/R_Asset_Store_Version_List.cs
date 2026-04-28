@@ -214,22 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion GetUpdateTarget(UnityEditor.PackageManager.UI.Internal.IPackageVersion)
-		/// </summary>
-		protected RMethod r_MGetUpdateTarget_IPackageVersion;
-		public virtual RMethod RMGetUpdateTarget_IPackageVersion
-		{
-			get
-			{
-				if(r_MGetUpdateTarget_IPackageVersion == null)
-				{
-					r_MGetUpdateTarget_IPackageVersion = new(this, "GetUpdateTarget", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
-				}
-				return r_MGetUpdateTarget_IPackageVersion;
-			}
-		}
-
-		/// <summary>
 		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.IOProxy)
 		/// </summary>
 		protected RMethod r_MResolveDependencies_AssetStoreUtils_IOProxy;
@@ -242,6 +226,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MResolveDependencies_AssetStoreUtils_IOProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"));
 				}
 				return r_MResolveDependencies_AssetStoreUtils_IOProxy;
+			}
+		}
+
+		/// <summary>
+		/// Void AddVersion(UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion)
+		/// </summary>
+		protected RMethod r_MAddVersion_AssetStorePackageVersion;
+		public virtual RMethod RMAddVersion_AssetStorePackageVersion
+		{
+			get
+			{
+				if(r_MAddVersion_AssetStorePackageVersion == null)
+				{
+					r_MAddVersion_AssetStorePackageVersion = new(this, "AddVersion", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion"));
+				}
+				return r_MAddVersion_AssetStorePackageVersion;
+			}
+		}
+
+		/// <summary>
+		/// Void RemoveVersion(UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion)
+		/// </summary>
+		protected RMethod r_MRemoveVersion_AssetStorePackageVersion;
+		public virtual RMethod RMRemoveVersion_AssetStorePackageVersion
+		{
+			get
+			{
+				if(r_MRemoveVersion_AssetStorePackageVersion == null)
+				{
+					r_MRemoveVersion_AssetStorePackageVersion = new(this, "RemoveVersion", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePackageVersion"));
+				}
+				return r_MRemoveVersion_AssetStorePackageVersion;
 			}
 		}
 
@@ -374,23 +390,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetUpdateTarget(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@version.Value};
-            var ___result = RMGetUpdateTarget_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
-        }
-
-
         public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@assetStoreUtils.Value, @ioProxy.Value};
             var ___result = RMResolveDependencies_AssetStoreUtils_IOProxy.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void AddVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePackageVersion @version)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@version.Value};
+            var ___result = RMAddVersion_AssetStorePackageVersion.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveVersion(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePackageVersion @version)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@version.Value};
+            var ___result = RMRemoveVersion_AssetStorePackageVersion.Invoke(___genericsType, ___parameters);
 
             
         }

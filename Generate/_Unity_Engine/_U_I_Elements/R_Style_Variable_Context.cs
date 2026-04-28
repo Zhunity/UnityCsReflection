@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.StyleVariable] variables
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> r_Pvariables;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleVariable> RPvariables
-		{
-			get
-			{
-				if(r_Pvariables == null)
-				{
-					r_Pvariables = new(this, "variables", -1);
-				}
-				return r_Pvariables;
-			}
-		}
-
-		/// <summary>
 		/// Void Add(UnityEngine.UIElements.StyleVariable)
 		/// </summary>
 		protected RMethod r_MAdd_StyleVariable;

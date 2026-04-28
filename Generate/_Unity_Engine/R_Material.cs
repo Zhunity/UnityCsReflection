@@ -246,70 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Material parent
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RMaterial r_Pparent;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RMaterial RPparent
-		{
-			get
-			{
-				if(r_Pparent == null)
-				{
-					r_Pparent = new(this, "parent", -1);
-				}
-				return r_Pparent;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isVariant
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisVariant;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisVariant
-		{
-			get
-			{
-				if(r_PisVariant == null)
-				{
-					r_PisVariant = new(this, "isVariant", -1);
-				}
-				return r_PisVariant;
-			}
-		}
-
-		/// <summary>
-		/// Int32 overrideCount
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PoverrideCount;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPoverrideCount
-		{
-			get
-			{
-				if(r_PoverrideCount == null)
-				{
-					r_PoverrideCount = new(this, "overrideCount", -1);
-				}
-				return r_PoverrideCount;
-			}
-		}
-
-		/// <summary>
-		/// Int32 lockCount
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PlockCount;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPlockCount
-		{
-			get
-			{
-				if(r_PlockCount == null)
-				{
-					r_PlockCount = new(this, "lockCount", -1);
-				}
-				return r_PlockCount;
-			}
-		}
-
-		/// <summary>
 		/// System.String name
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Pname;
@@ -1286,22 +1222,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void CopyMatchingPropertiesFromMaterial(UnityEngine.Material)
-		/// </summary>
-		protected RMethod r_MCopyMatchingPropertiesFromMaterial_Material;
-		public virtual RMethod RMCopyMatchingPropertiesFromMaterial_Material
-		{
-			get
-			{
-				if(r_MCopyMatchingPropertiesFromMaterial_Material == null)
-				{
-					r_MCopyMatchingPropertiesFromMaterial_Material = new(this, "CopyMatchingPropertiesFromMaterial", 0, typeof(UnityEngine.Material));
-				}
-				return r_MCopyMatchingPropertiesFromMaterial_Material;
-			}
-		}
-
-		/// <summary>
 		/// System.String[] GetShaderKeywords()
 		/// </summary>
 		protected RMethod r_MGetShaderKeywords;
@@ -1330,22 +1250,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MSetShaderKeywords_StringArray = new(this, "SetShaderKeywords", 0, typeof(System.String).MakeArrayType());
 				}
 				return r_MSetShaderKeywords_StringArray;
-			}
-		}
-
-		/// <summary>
-		/// System.String[] GetPropertyNamesImpl(Int32)
-		/// </summary>
-		protected RMethod r_MGetPropertyNamesImpl_Int32;
-		public virtual RMethod RMGetPropertyNamesImpl_Int32
-		{
-			get
-			{
-				if(r_MGetPropertyNamesImpl_Int32 == null)
-				{
-					r_MGetPropertyNamesImpl_Int32 = new(this, "GetPropertyNamesImpl", 0, typeof(System.Int32));
-				}
-				return r_MGetPropertyNamesImpl_Int32;
 			}
 		}
 
@@ -1702,38 +1606,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.GraphicsBufferHandle GetBufferImpl(Int32)
-		/// </summary>
-		protected RMethod r_MGetBufferImpl_Int32;
-		public virtual RMethod RMGetBufferImpl_Int32
-		{
-			get
-			{
-				if(r_MGetBufferImpl_Int32 == null)
-				{
-					r_MGetBufferImpl_Int32 = new(this, "GetBufferImpl", 0, typeof(System.Int32));
-				}
-				return r_MGetBufferImpl_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.GraphicsBufferHandle GetConstantBufferImpl(Int32)
-		/// </summary>
-		protected RMethod r_MGetConstantBufferImpl_Int32;
-		public virtual RMethod RMGetConstantBufferImpl_Int32
-		{
-			get
-			{
-				if(r_MGetConstantBufferImpl_Int32 == null)
-				{
-					r_MGetConstantBufferImpl_Int32 = new(this, "GetConstantBufferImpl", 0, typeof(System.Int32));
-				}
-				return r_MGetConstantBufferImpl_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void SetFloatArrayImpl(Int32, Single[], Int32)
 		/// </summary>
 		protected RMethod r_MSetFloatArrayImpl_Int32_SingleArray_Int32;
@@ -2034,374 +1906,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MSetTextureScaleImpl_Int32_Vector2 = new(this, "SetTextureScaleImpl", 0, typeof(System.Int32), typeof(UnityEngine.Vector2));
 				}
 				return r_MSetTextureScaleImpl_Int32_Vector2;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsChildOf(UnityEngine.Material)
-		/// </summary>
-		protected RMethod r_MIsChildOf_Material;
-		public virtual RMethod RMIsChildOf_Material
-		{
-			get
-			{
-				if(r_MIsChildOf_Material == null)
-				{
-					r_MIsChildOf_Material = new(this, "IsChildOf", 0, typeof(UnityEngine.Material));
-				}
-				return r_MIsChildOf_Material;
-			}
-		}
-
-		/// <summary>
-		/// Void RevertAllPropertyOverrides()
-		/// </summary>
-		protected RMethod r_MRevertAllPropertyOverrides;
-		public virtual RMethod RMRevertAllPropertyOverrides
-		{
-			get
-			{
-				if(r_MRevertAllPropertyOverrides == null)
-				{
-					r_MRevertAllPropertyOverrides = new(this, "RevertAllPropertyOverrides", 0);
-				}
-				return r_MRevertAllPropertyOverrides;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsPropertyOverriden(Int32)
-		/// </summary>
-		protected RMethod r_MIsPropertyOverriden_Int32;
-		public virtual RMethod RMIsPropertyOverriden_Int32
-		{
-			get
-			{
-				if(r_MIsPropertyOverriden_Int32 == null)
-				{
-					r_MIsPropertyOverriden_Int32 = new(this, "IsPropertyOverriden", 0, typeof(System.Int32));
-				}
-				return r_MIsPropertyOverriden_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsPropertyLocked(Int32)
-		/// </summary>
-		protected RMethod r_MIsPropertyLocked_Int32;
-		public virtual RMethod RMIsPropertyLocked_Int32
-		{
-			get
-			{
-				if(r_MIsPropertyLocked_Int32 == null)
-				{
-					r_MIsPropertyLocked_Int32 = new(this, "IsPropertyLocked", 0, typeof(System.Int32));
-				}
-				return r_MIsPropertyLocked_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsPropertyLockedByAncestor(Int32)
-		/// </summary>
-		protected RMethod r_MIsPropertyLockedByAncestor_Int32;
-		public virtual RMethod RMIsPropertyLockedByAncestor_Int32
-		{
-			get
-			{
-				if(r_MIsPropertyLockedByAncestor_Int32 == null)
-				{
-					r_MIsPropertyLockedByAncestor_Int32 = new(this, "IsPropertyLockedByAncestor", 0, typeof(System.Int32));
-				}
-				return r_MIsPropertyLockedByAncestor_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsPropertyOverriden(System.String)
-		/// </summary>
-		protected RMethod r_MIsPropertyOverriden_String;
-		public virtual RMethod RMIsPropertyOverriden_String
-		{
-			get
-			{
-				if(r_MIsPropertyOverriden_String == null)
-				{
-					r_MIsPropertyOverriden_String = new(this, "IsPropertyOverriden", 0, typeof(System.String));
-				}
-				return r_MIsPropertyOverriden_String;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsPropertyLocked(System.String)
-		/// </summary>
-		protected RMethod r_MIsPropertyLocked_String;
-		public virtual RMethod RMIsPropertyLocked_String
-		{
-			get
-			{
-				if(r_MIsPropertyLocked_String == null)
-				{
-					r_MIsPropertyLocked_String = new(this, "IsPropertyLocked", 0, typeof(System.String));
-				}
-				return r_MIsPropertyLocked_String;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsPropertyLockedByAncestor(System.String)
-		/// </summary>
-		protected RMethod r_MIsPropertyLockedByAncestor_String;
-		public virtual RMethod RMIsPropertyLockedByAncestor_String
-		{
-			get
-			{
-				if(r_MIsPropertyLockedByAncestor_String == null)
-				{
-					r_MIsPropertyLockedByAncestor_String = new(this, "IsPropertyLockedByAncestor", 0, typeof(System.String));
-				}
-				return r_MIsPropertyLockedByAncestor_String;
-			}
-		}
-
-		/// <summary>
-		/// Void SetPropertyLock(Int32, Boolean)
-		/// </summary>
-		protected RMethod r_MSetPropertyLock_Int32_Boolean;
-		public virtual RMethod RMSetPropertyLock_Int32_Boolean
-		{
-			get
-			{
-				if(r_MSetPropertyLock_Int32_Boolean == null)
-				{
-					r_MSetPropertyLock_Int32_Boolean = new(this, "SetPropertyLock", 0, typeof(System.Int32), typeof(System.Boolean));
-				}
-				return r_MSetPropertyLock_Int32_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyOverride(UnityEngine.Material, Int32, Boolean)
-		/// </summary>
-		protected RMethod r_MApplyPropertyOverride_Material_Int32_Boolean;
-		public virtual RMethod RMApplyPropertyOverride_Material_Int32_Boolean
-		{
-			get
-			{
-				if(r_MApplyPropertyOverride_Material_Int32_Boolean == null)
-				{
-					r_MApplyPropertyOverride_Material_Int32_Boolean = new(this, "ApplyPropertyOverride", 0, typeof(UnityEngine.Material), typeof(System.Int32), typeof(System.Boolean));
-				}
-				return r_MApplyPropertyOverride_Material_Int32_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void RevertPropertyOverride(Int32)
-		/// </summary>
-		protected RMethod r_MRevertPropertyOverride_Int32;
-		public virtual RMethod RMRevertPropertyOverride_Int32
-		{
-			get
-			{
-				if(r_MRevertPropertyOverride_Int32 == null)
-				{
-					r_MRevertPropertyOverride_Int32 = new(this, "RevertPropertyOverride", 0, typeof(System.Int32));
-				}
-				return r_MRevertPropertyOverride_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void GetPropertyState(Int32, Boolean ByRef, Boolean ByRef, Boolean ByRef)
-		/// </summary>
-		protected RMethod r_MGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean;
-		public virtual RMethod RMGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean
-		{
-			get
-			{
-				if(r_MGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean == null)
-				{
-					r_MGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState", 0, typeof(System.Int32), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
-				}
-				return r_MGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void SetPropertyLock(System.String, Boolean)
-		/// </summary>
-		protected RMethod r_MSetPropertyLock_String_Boolean;
-		public virtual RMethod RMSetPropertyLock_String_Boolean
-		{
-			get
-			{
-				if(r_MSetPropertyLock_String_Boolean == null)
-				{
-					r_MSetPropertyLock_String_Boolean = new(this, "SetPropertyLock", 0, typeof(System.String), typeof(System.Boolean));
-				}
-				return r_MSetPropertyLock_String_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyOverride(UnityEngine.Material, System.String, Boolean)
-		/// </summary>
-		protected RMethod r_MApplyPropertyOverride_Material_String_Boolean;
-		public virtual RMethod RMApplyPropertyOverride_Material_String_Boolean
-		{
-			get
-			{
-				if(r_MApplyPropertyOverride_Material_String_Boolean == null)
-				{
-					r_MApplyPropertyOverride_Material_String_Boolean = new(this, "ApplyPropertyOverride", 0, typeof(UnityEngine.Material), typeof(System.String), typeof(System.Boolean));
-				}
-				return r_MApplyPropertyOverride_Material_String_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void RevertPropertyOverride(System.String)
-		/// </summary>
-		protected RMethod r_MRevertPropertyOverride_String;
-		public virtual RMethod RMRevertPropertyOverride_String
-		{
-			get
-			{
-				if(r_MRevertPropertyOverride_String == null)
-				{
-					r_MRevertPropertyOverride_String = new(this, "RevertPropertyOverride", 0, typeof(System.String));
-				}
-				return r_MRevertPropertyOverride_String;
-			}
-		}
-
-		/// <summary>
-		/// Void SetPropertyLock_Serialized(UnityEngine.MaterialSerializedProperty, Boolean)
-		/// </summary>
-		protected RMethod r_MSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean;
-		public virtual RMethod RMSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean
-		{
-			get
-			{
-				if(r_MSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean == null)
-				{
-					r_MSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean = new(this, "SetPropertyLock_Serialized", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
-				}
-				return r_MSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyOverride_Serialized(UnityEngine.Material, UnityEngine.MaterialSerializedProperty, Boolean)
-		/// </summary>
-		protected RMethod r_MApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean;
-		public virtual RMethod RMApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean
-		{
-			get
-			{
-				if(r_MApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean == null)
-				{
-					r_MApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean = new(this, "ApplyPropertyOverride_Serialized", 0, typeof(UnityEngine.Material),  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
-				}
-				return r_MApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void RevertPropertyOverride_Serialized(UnityEngine.MaterialSerializedProperty)
-		/// </summary>
-		protected RMethod r_MRevertPropertyOverride_Serialized_MaterialSerializedProperty;
-		public virtual RMethod RMRevertPropertyOverride_Serialized_MaterialSerializedProperty
-		{
-			get
-			{
-				if(r_MRevertPropertyOverride_Serialized_MaterialSerializedProperty == null)
-				{
-					r_MRevertPropertyOverride_Serialized_MaterialSerializedProperty = new(this, "RevertPropertyOverride_Serialized", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"));
-				}
-				return r_MRevertPropertyOverride_Serialized_MaterialSerializedProperty;
-			}
-		}
-
-		/// <summary>
-		/// Void GetPropertyState_Serialized(UnityEngine.MaterialSerializedProperty, Boolean ByRef, Boolean ByRef, Boolean ByRef)
-		/// </summary>
-		protected RMethod r_MGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean;
-		public virtual RMethod RMGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean
-		{
-			get
-			{
-				if(r_MGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean == null)
-				{
-					r_MGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState_Serialized", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
-				}
-				return r_MGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void SetPropertyLock(UnityEngine.MaterialSerializedProperty, Boolean)
-		/// </summary>
-		protected RMethod r_MSetPropertyLock_MaterialSerializedProperty_Boolean;
-		public virtual RMethod RMSetPropertyLock_MaterialSerializedProperty_Boolean
-		{
-			get
-			{
-				if(r_MSetPropertyLock_MaterialSerializedProperty_Boolean == null)
-				{
-					r_MSetPropertyLock_MaterialSerializedProperty_Boolean = new(this, "SetPropertyLock", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
-				}
-				return r_MSetPropertyLock_MaterialSerializedProperty_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void ApplyPropertyOverride(UnityEngine.Material, UnityEngine.MaterialSerializedProperty, Boolean)
-		/// </summary>
-		protected RMethod r_MApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean;
-		public virtual RMethod RMApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean
-		{
-			get
-			{
-				if(r_MApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean == null)
-				{
-					r_MApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean = new(this, "ApplyPropertyOverride", 0, typeof(UnityEngine.Material),  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean));
-				}
-				return r_MApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void RevertPropertyOverride(UnityEngine.MaterialSerializedProperty)
-		/// </summary>
-		protected RMethod r_MRevertPropertyOverride_MaterialSerializedProperty;
-		public virtual RMethod RMRevertPropertyOverride_MaterialSerializedProperty
-		{
-			get
-			{
-				if(r_MRevertPropertyOverride_MaterialSerializedProperty == null)
-				{
-					r_MRevertPropertyOverride_MaterialSerializedProperty = new(this, "RevertPropertyOverride", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"));
-				}
-				return r_MRevertPropertyOverride_MaterialSerializedProperty;
-			}
-		}
-
-		/// <summary>
-		/// Void GetPropertyState(UnityEngine.MaterialSerializedProperty, Boolean ByRef, Boolean ByRef, Boolean ByRef)
-		/// </summary>
-		protected RMethod r_MGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean;
-		public virtual RMethod RMGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean
-		{
-			get
-			{
-				if(r_MGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean == null)
-				{
-					r_MGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean = new(this, "GetPropertyState", 0,  ReflectionUtils.GetType("UnityEngine.MaterialSerializedProperty"), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType(), typeof(System.Boolean).MakeByRefType());
-				}
-				return r_MGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean;
 			}
 		}
 
@@ -3398,38 +2902,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.GraphicsBufferHandle GetBuffer(System.String)
-		/// </summary>
-		protected RMethod r_MGetBuffer_String;
-		public virtual RMethod RMGetBuffer_String
-		{
-			get
-			{
-				if(r_MGetBuffer_String == null)
-				{
-					r_MGetBuffer_String = new(this, "GetBuffer", 0, typeof(System.String));
-				}
-				return r_MGetBuffer_String;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.GraphicsBufferHandle GetConstantBuffer(System.String)
-		/// </summary>
-		protected RMethod r_MGetConstantBuffer_String;
-		public virtual RMethod RMGetConstantBuffer_String
-		{
-			get
-			{
-				if(r_MGetConstantBuffer_String == null)
-				{
-					r_MGetConstantBuffer_String = new(this, "GetConstantBuffer", 0, typeof(System.String));
-				}
-				return r_MGetConstantBuffer_String;
-			}
-		}
-
-		/// <summary>
 		/// Single[] GetFloatArray(System.String)
 		/// </summary>
 		protected RMethod r_MGetFloatArray_String;
@@ -3814,22 +3286,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// System.String[] GetPropertyNames(UnityEngine.MaterialPropertyType)
-		/// </summary>
-		protected RMethod r_MGetPropertyNames_MaterialPropertyType;
-		public virtual RMethod RMGetPropertyNames_MaterialPropertyType
-		{
-			get
-			{
-				if(r_MGetPropertyNames_MaterialPropertyType == null)
-				{
-					r_MGetPropertyNames_MaterialPropertyType = new(this, "GetPropertyNames", 0, typeof(UnityEngine.MaterialPropertyType));
-				}
-				return r_MGetPropertyNames_MaterialPropertyType;
-			}
-		}
-
-		/// <summary>
 		/// Void EnableLocalKeyword_Injected(UnityEngine.Rendering.LocalKeyword ByRef)
 		/// </summary>
 		protected RMethod r_MEnableLocalKeyword_Injected_Ref_LocalKeyword;
@@ -3958,38 +3414,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void GetBufferImpl_Injected(Int32, UnityEngine.GraphicsBufferHandle ByRef)
-		/// </summary>
-		protected RMethod r_MGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle;
-		public virtual RMethod RMGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_MGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle == null)
-				{
-					r_MGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle = new(this, "GetBufferImpl_Injected", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle).MakeByRefType());
-				}
-				return r_MGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
-		/// Void GetConstantBufferImpl_Injected(Int32, UnityEngine.GraphicsBufferHandle ByRef)
-		/// </summary>
-		protected RMethod r_MGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle;
-		public virtual RMethod RMGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_MGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle == null)
-				{
-					r_MGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle = new(this, "GetConstantBufferImpl_Injected", 0, typeof(System.Int32), typeof(UnityEngine.GraphicsBufferHandle).MakeByRefType());
-				}
-				return r_MGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
 		/// Void GetTextureScaleAndOffsetImpl_Injected(Int32, UnityEngine.Vector4 ByRef)
 		/// </summary>
 		protected RMethod r_MGetTextureScaleAndOffsetImpl_Injected_Int32_Out_Vector4;
@@ -4098,22 +3522,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -4815,17 +4223,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void CopyMatchingPropertiesFromMaterial(UnityEngine.Material @mat)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mat};
-            var ___result = RMCopyMatchingPropertiesFromMaterial_Material.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual System.String[] GetShaderKeywords()
         {
 
@@ -4845,17 +4242,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMSetShaderKeywords_StringArray.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual System.String[] GetPropertyNamesImpl(System.Int32 @propertyType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyType};
-            var ___result = RMGetPropertyNamesImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 
@@ -5101,28 +4487,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.GraphicsBufferHandle GetBufferImpl(System.Int32 @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetBufferImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___result);
-        }
-
-
-        public virtual UnityEngine.GraphicsBufferHandle GetConstantBufferImpl(System.Int32 @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetConstantBufferImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___result);
-        }
-
-
         public virtual void SetFloatArrayImpl(System.Int32 @name, System.Single[] @values, System.Int32 @count)
         {
 
@@ -5327,277 +4691,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@name, @scale};
             var ___result = RMSetTextureScaleImpl_Int32_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsChildOf(UnityEngine.Material @ancestor)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ancestor};
-            var ___result = RMIsChildOf_Material.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RevertAllPropertyOverrides()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRevertAllPropertyOverrides.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsPropertyOverriden(System.Int32 @nameID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID};
-            var ___result = RMIsPropertyOverriden_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPropertyLocked(System.Int32 @nameID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID};
-            var ___result = RMIsPropertyLocked_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPropertyLockedByAncestor(System.Int32 @nameID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID};
-            var ___result = RMIsPropertyLockedByAncestor_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPropertyOverriden(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMIsPropertyOverriden_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPropertyLocked(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMIsPropertyLocked_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsPropertyLockedByAncestor(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMIsPropertyLockedByAncestor_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetPropertyLock(System.Int32 @nameID, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @value};
-            var ___result = RMSetPropertyLock_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyOverride(UnityEngine.Material @destination, System.Int32 @nameID, System.Boolean @recordUndo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @nameID, @recordUndo};
-            var ___result = RMApplyPropertyOverride_Material_Int32_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RevertPropertyOverride(System.Int32 @nameID)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID};
-            var ___result = RMRevertPropertyOverride_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetPropertyState(System.Int32 @nameID, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
-        {
-			@isOverriden = default;
-			@isLockedInChildren = default;
-			@isLockedByAncestor = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nameID, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
-            var ___result = RMGetPropertyState_Int32_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isOverriden = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-			@isLockedInChildren = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-			@isLockedByAncestor = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
-
-            
-        }
-
-
-        public virtual void SetPropertyLock(System.String @name, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetPropertyLock_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyOverride(UnityEngine.Material @destination, System.String @name, System.Boolean @recordUndo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @name, @recordUndo};
-            var ___result = RMApplyPropertyOverride_Material_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RevertPropertyOverride(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMRevertPropertyOverride_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetPropertyLock_Serialized(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property.Value, @value};
-            var ___result = RMSetPropertyLock_Serialized_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyOverride_Serialized(UnityEngine.Material @destination, Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @recordUndo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @property.Value, @recordUndo};
-            var ___result = RMApplyPropertyOverride_Serialized_Material_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RevertPropertyOverride_Serialized(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property.Value};
-            var ___result = RMRevertPropertyOverride_Serialized_MaterialSerializedProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetPropertyState_Serialized(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
-        {
-			@isOverriden = default;
-			@isLockedInChildren = default;
-			@isLockedByAncestor = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
-            var ___result = RMGetPropertyState_Serialized_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isOverriden = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-			@isLockedInChildren = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-			@isLockedByAncestor = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
-
-            
-        }
-
-
-        public virtual void SetPropertyLock(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property.Value, @value};
-            var ___result = RMSetPropertyLock_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ApplyPropertyOverride(UnityEngine.Material @destination, Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property, System.Boolean @recordUndo)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@destination, @property.Value, @recordUndo};
-            var ___result = RMApplyPropertyOverride_Material_MaterialSerializedProperty_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RevertPropertyOverride(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @property)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@property.Value};
-            var ___result = RMRevertPropertyOverride_MaterialSerializedProperty.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetPropertyState(Hvak.Editor.Refleaction.RUnityEngine.RMaterialSerializedProperty @propertyName, out System.Boolean @isOverriden, out System.Boolean @isLockedInChildren, out System.Boolean @isLockedByAncestor)
-        {
-			@isOverriden = default;
-			@isLockedInChildren = default;
-			@isLockedByAncestor = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyName.Value, @isOverriden, @isLockedInChildren, @isLockedByAncestor};
-            var ___result = RMGetPropertyState_MaterialSerializedProperty_Out_Boolean_Out_Boolean_Out_Boolean.Invoke(___genericsType, ___parameters);
-			@isOverriden = ReflectionUtils.Convert<System.Boolean>(___parameters[1]);
-			@isLockedInChildren = ReflectionUtils.Convert<System.Boolean>(___parameters[2]);
-			@isLockedByAncestor = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
 
             
         }
@@ -6285,28 +5378,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.GraphicsBufferHandle GetBuffer(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetBuffer_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___result);
-        }
-
-
-        public virtual UnityEngine.GraphicsBufferHandle GetConstantBuffer(System.String @name)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name};
-            var ___result = RMGetConstantBuffer_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___result);
-        }
-
-
         public virtual System.Single[] GetFloatArray(System.String @name)
         {
 
@@ -6571,17 +5642,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.String[] GetPropertyNames(UnityEngine.MaterialPropertyType @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@type};
-            var ___result = RMGetPropertyNames_MaterialPropertyType.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String[]>(___result);
-        }
-
-
         public virtual void EnableLocalKeyword_Injected(ref UnityEngine.Rendering.LocalKeyword @keyword)
         {
 
@@ -6680,32 +5740,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetBufferImpl_Injected(System.Int32 @name, out UnityEngine.GraphicsBufferHandle @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @ret};
-            var ___result = RMGetBufferImpl_Injected_Int32_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@ret = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual void GetConstantBufferImpl_Injected(System.Int32 @name, out UnityEngine.GraphicsBufferHandle @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @ret};
-            var ___result = RMGetConstantBufferImpl_Injected_Int32_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@ret = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[1]);
-
-            
-        }
-
-
         public virtual void GetTextureScaleAndOffsetImpl_Injected(System.Int32 @name, out UnityEngine.Vector4 @ret)
         {
 			@ret = default;
@@ -6784,17 +5818,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

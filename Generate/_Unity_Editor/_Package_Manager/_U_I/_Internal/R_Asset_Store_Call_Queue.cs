@@ -38,38 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
-		/// System.Action onCheckUpdateProgress
-		/// </summary>
-		protected REvent r_EonCheckUpdateProgress;
-		public virtual REvent REonCheckUpdateProgress
-		{
-			get
-			{
-				if(r_EonCheckUpdateProgress == null)
-				{
-					r_EonCheckUpdateProgress = new(this, "onCheckUpdateProgress");
-				}
-				return r_EonCheckUpdateProgress;
-			}
-		}
-
-		/// <summary>
-		/// System.Action onCheckUpdateProgress
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FonCheckUpdateProgress;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFonCheckUpdateProgress
-		{
-			get
-			{
-				if(r_FonCheckUpdateProgress == null)
-				{
-					r_FonCheckUpdateProgress = new(this, "onCheckUpdateProgress");
-				}
-				return r_FonCheckUpdateProgress;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 k_CheckUpdateChunkSize
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_CheckUpdateChunkSize;
@@ -198,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PageManager m_PageManager
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager r_Fm_PageManager;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager RFm_PageManager
-		{
-			get
-			{
-				if(r_Fm_PageManager == null)
-				{
-					r_Fm_PageManager = new(this, "m_PageManager");
-				}
-				return r_Fm_PageManager;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.String] m_CurrentFetchDetails
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_CurrentFetchDetails;
@@ -262,22 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_RefreshAfterCheckUpdates
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_RefreshAfterCheckUpdates;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_RefreshAfterCheckUpdates
-		{
-			get
-			{
-				if(r_Fm_RefreshAfterCheckUpdates == null)
-				{
-					r_Fm_RefreshAfterCheckUpdates = new(this, "m_RefreshAfterCheckUpdates");
-				}
-				return r_Fm_RefreshAfterCheckUpdates;
-			}
-		}
-
-		/// <summary>
 		/// System.String[] m_SerializedCheckUpdateStack
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_SerializedCheckUpdateStack;
@@ -290,38 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_SerializedCheckUpdateStack = new(this, "m_SerializedCheckUpdateStack");
 				}
 				return r_Fm_SerializedCheckUpdateStack;
-			}
-		}
-
-		/// <summary>
-		/// System.String[] m_SerializedForceCheckUpdateLookupKeys
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_SerializedForceCheckUpdateLookupKeys;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_SerializedForceCheckUpdateLookupKeys
-		{
-			get
-			{
-				if(r_Fm_SerializedForceCheckUpdateLookupKeys == null)
-				{
-					r_Fm_SerializedForceCheckUpdateLookupKeys = new(this, "m_SerializedForceCheckUpdateLookupKeys");
-				}
-				return r_Fm_SerializedForceCheckUpdateLookupKeys;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean[] m_SerializedForceCheckUpdateLookupValues
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_SerializedForceCheckUpdateLookupValues;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_SerializedForceCheckUpdateLookupValues
-		{
-			get
-			{
-				if(r_Fm_SerializedForceCheckUpdateLookupValues == null)
-				{
-					r_Fm_SerializedForceCheckUpdateLookupValues = new(this, "m_SerializedForceCheckUpdateLookupValues");
-				}
-				return r_Fm_SerializedForceCheckUpdateLookupValues;
 			}
 		}
 
@@ -358,66 +262,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.String,System.Boolean] m_ForceCheckUpdateLookup
+		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.ApplicationProxy, UnityEditor.PackageManager.UI.Internal.UnityConnectProxy, UnityEditor.PackageManager.UI.Internal.PackageFiltering, UnityEditor.PackageManager.UI.Internal.AssetStoreClient, UnityEditor.PackageManager.UI.Internal.AssetStoreCache)
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RBoolean> r_Fm_ForceCheckUpdateLookup;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RBoolean> RFm_ForceCheckUpdateLookup
+		protected RMethod r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache;
+		public virtual RMethod RMResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache
 		{
 			get
 			{
-				if(r_Fm_ForceCheckUpdateLookup == null)
+				if(r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache == null)
 				{
-					r_Fm_ForceCheckUpdateLookup = new(this, "m_ForceCheckUpdateLookup");
+					r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ApplicationProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFiltering"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreClient"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"));
 				}
-				return r_Fm_ForceCheckUpdateLookup;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isCheckUpdateInProgress
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisCheckUpdateInProgress;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisCheckUpdateInProgress
-		{
-			get
-			{
-				if(r_PisCheckUpdateInProgress == null)
-				{
-					r_PisCheckUpdateInProgress = new(this, "isCheckUpdateInProgress", -1);
-				}
-				return r_PisCheckUpdateInProgress;
-			}
-		}
-
-		/// <summary>
-		/// Int32 checkUpdatePercentage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PcheckUpdatePercentage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPcheckUpdatePercentage
-		{
-			get
-			{
-				if(r_PcheckUpdatePercentage == null)
-				{
-					r_PcheckUpdatePercentage = new(this, "checkUpdatePercentage", -1);
-				}
-				return r_PcheckUpdatePercentage;
-			}
-		}
-
-		/// <summary>
-		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.ApplicationProxy, UnityEditor.PackageManager.UI.Internal.UnityConnectProxy, UnityEditor.PackageManager.UI.Internal.PackageFiltering, UnityEditor.PackageManager.UI.Internal.AssetStoreClient, UnityEditor.PackageManager.UI.Internal.AssetStoreCache, UnityEditor.PackageManager.UI.Internal.PageManager)
-		/// </summary>
-		protected RMethod r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache_PageManager;
-		public virtual RMethod RMResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache_PageManager
-		{
-			get
-			{
-				if(r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache_PageManager == null)
-				{
-					r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache_PageManager = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ApplicationProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageFiltering"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreClient"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PageManager"));
-				}
-				return r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache_PageManager;
+				return r_MResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache;
 			}
 		}
 
@@ -518,22 +374,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void OnUserLoginStateChange(Boolean, Boolean)
-		/// </summary>
-		protected RMethod r_MOnUserLoginStateChange_Boolean_Boolean;
-		public virtual RMethod RMOnUserLoginStateChange_Boolean_Boolean
-		{
-			get
-			{
-				if(r_MOnUserLoginStateChange_Boolean_Boolean == null)
-				{
-					r_MOnUserLoginStateChange_Boolean_Boolean = new(this, "OnUserLoginStateChange", 0, typeof(System.Boolean), typeof(System.Boolean));
-				}
-				return r_MOnUserLoginStateChange_Boolean_Boolean;
-			}
-		}
-
-		/// <summary>
 		/// Void AddToFetchDetailsQueue(System.String)
 		/// </summary>
 		protected RMethod r_MAddToFetchDetailsQueue_String;
@@ -566,18 +406,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void ClearFetchDetails()
+		/// Void Clear()
 		/// </summary>
-		protected RMethod r_MClearFetchDetails;
-		public virtual RMethod RMClearFetchDetails
+		protected RMethod r_MClear;
+		public virtual RMethod RMClear
 		{
 			get
 			{
-				if(r_MClearFetchDetails == null)
+				if(r_MClear == null)
 				{
-					r_MClearFetchDetails = new(this, "ClearFetchDetails", 0);
+					r_MClear = new(this, "Clear", 0);
 				}
-				return r_MClearFetchDetails;
+				return r_MClear;
 			}
 		}
 
@@ -614,82 +454,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void InsertToCheckUpdateQueue(System.String, Boolean)
+		/// Void InsertToCheckUpdateQueue(System.String)
 		/// </summary>
-		protected RMethod r_MInsertToCheckUpdateQueue_String_Boolean;
-		public virtual RMethod RMInsertToCheckUpdateQueue_String_Boolean
+		protected RMethod r_MInsertToCheckUpdateQueue_String;
+		public virtual RMethod RMInsertToCheckUpdateQueue_String
 		{
 			get
 			{
-				if(r_MInsertToCheckUpdateQueue_String_Boolean == null)
+				if(r_MInsertToCheckUpdateQueue_String == null)
 				{
-					r_MInsertToCheckUpdateQueue_String_Boolean = new(this, "InsertToCheckUpdateQueue", 0, typeof(System.String), typeof(System.Boolean));
+					r_MInsertToCheckUpdateQueue_String = new(this, "InsertToCheckUpdateQueue", 0, typeof(System.String));
 				}
-				return r_MInsertToCheckUpdateQueue_String_Boolean;
+				return r_MInsertToCheckUpdateQueue_String;
 			}
 		}
 
 		/// <summary>
-		/// Void InsertToCheckUpdateQueue(System.Collections.Generic.IEnumerable`1[System.String], Boolean)
+		/// Void InsertToCheckUpdateQueue(System.Collections.Generic.IEnumerable`1[System.String])
 		/// </summary>
-		protected RMethod r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p__Boolean;
-		public virtual RMethod RMInsertToCheckUpdateQueue_IEnumerable_d_String_p__Boolean
+		protected RMethod r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p_;
+		public virtual RMethod RMInsertToCheckUpdateQueue_IEnumerable_d_String_p_
 		{
 			get
 			{
-				if(r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p__Boolean == null)
+				if(r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p_ == null)
 				{
-					r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p__Boolean = new(this, "InsertToCheckUpdateQueue", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)), typeof(System.Boolean));
+					r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p_ = new(this, "InsertToCheckUpdateQueue", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.String)));
 				}
-				return r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p__Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void ForceCheckUpdateForAllLocalInfos()
-		/// </summary>
-		protected RMethod r_MForceCheckUpdateForAllLocalInfos;
-		public virtual RMethod RMForceCheckUpdateForAllLocalInfos
-		{
-			get
-			{
-				if(r_MForceCheckUpdateForAllLocalInfos == null)
-				{
-					r_MForceCheckUpdateForAllLocalInfos = new(this, "ForceCheckUpdateForAllLocalInfos", 0);
-				}
-				return r_MForceCheckUpdateForAllLocalInfos;
-			}
-		}
-
-		/// <summary>
-		/// Void CancelCheckUpdates()
-		/// </summary>
-		protected RMethod r_MCancelCheckUpdates;
-		public virtual RMethod RMCancelCheckUpdates
-		{
-			get
-			{
-				if(r_MCancelCheckUpdates == null)
-				{
-					r_MCancelCheckUpdates = new(this, "CancelCheckUpdates", 0);
-				}
-				return r_MCancelCheckUpdates;
-			}
-		}
-
-		/// <summary>
-		/// Void CheckUpdateForUncheckedLocalInfos()
-		/// </summary>
-		protected RMethod r_MCheckUpdateForUncheckedLocalInfos;
-		public virtual RMethod RMCheckUpdateForUncheckedLocalInfos
-		{
-			get
-			{
-				if(r_MCheckUpdateForUncheckedLocalInfos == null)
-				{
-					r_MCheckUpdateForUncheckedLocalInfos = new(this, "CheckUpdateForUncheckedLocalInfos", 0);
-				}
-				return r_MCheckUpdateForUncheckedLocalInfos;
+				return r_MInsertToCheckUpdateQueue_IEnumerable_d_String_p_;
 			}
 		}
 
@@ -710,50 +502,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean <OnLocalInfosChanged>b__32_0(UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo)
+		/// Boolean <OnLocalInfosChanged>b__20_0(UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo)
 		/// </summary>
-		protected RMethod r_M__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo;
-		public virtual RMethod RM__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo
+		protected RMethod r_M__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo;
+		public virtual RMethod RM__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo
 		{
 			get
 			{
-				if(r_M__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo == null)
+				if(r_M__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo == null)
 				{
-					r_M__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo = new(this, "<OnLocalInfosChanged>b__32_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo"));
+					r_M__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo = new(this, "<OnLocalInfosChanged>b__20_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo"));
 				}
-				return r_M__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo;
+				return r_M__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo;
 			}
 		}
 
 		/// <summary>
-		/// Void <CheckUpdateFromStack>b__38_0()
+		/// Void <CheckUpdateFromStack>b__25_0()
 		/// </summary>
-		protected RMethod r_M__0__CheckUpdateFromStack__1__b__38_0;
-		public virtual RMethod RM__0__CheckUpdateFromStack__1__b__38_0
+		protected RMethod r_M__0__CheckUpdateFromStack__1__b__25_0;
+		public virtual RMethod RM__0__CheckUpdateFromStack__1__b__25_0
 		{
 			get
 			{
-				if(r_M__0__CheckUpdateFromStack__1__b__38_0 == null)
+				if(r_M__0__CheckUpdateFromStack__1__b__25_0 == null)
 				{
-					r_M__0__CheckUpdateFromStack__1__b__38_0 = new(this, "<CheckUpdateFromStack>b__38_0", 0);
+					r_M__0__CheckUpdateFromStack__1__b__25_0 = new(this, "<CheckUpdateFromStack>b__25_0", 0);
 				}
-				return r_M__0__CheckUpdateFromStack__1__b__38_0;
-			}
-		}
-
-		/// <summary>
-		/// Boolean <CheckUpdateForUncheckedLocalInfos>b__43_0(UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo)
-		/// </summary>
-		protected RMethod r_M__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo;
-		public virtual RMethod RM__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo
-		{
-			get
-			{
-				if(r_M__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo == null)
-				{
-					r_M__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo = new(this, "<CheckUpdateForUncheckedLocalInfos>b__43_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo"));
-				}
-				return r_M__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo;
+				return r_M__0__CheckUpdateFromStack__1__b__25_0;
 			}
 		}
 
@@ -854,12 +630,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFiltering @packageFiltering, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient @assetStoreClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager @pageManager)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @application, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageFiltering @packageFiltering, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient @assetStoreClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@application.Value, @unityConnect.Value, @packageFiltering.Value, @assetStoreClient.Value, @assetStoreCache.Value, @pageManager.Value};
-            var ___result = RMResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache_PageManager.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@application.Value, @unityConnect.Value, @packageFiltering.Value, @assetStoreClient.Value, @assetStoreCache.Value};
+            var ___result = RMResolveDependencies_ApplicationProxy_UnityConnectProxy_PackageFiltering_AssetStoreClient_AssetStoreCache.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -931,17 +707,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void OnUserLoginStateChange(System.Boolean @isUserInfoReady, System.Boolean @isUserLoggedIn)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@isUserInfoReady, @isUserLoggedIn};
-            var ___result = RMOnUserLoginStateChange_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void AddToFetchDetailsQueue(System.String @packageUniqueId)
         {
 
@@ -964,12 +729,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void ClearFetchDetails()
+        public virtual void Clear()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMClearFetchDetails.Invoke(___genericsType, ___parameters);
+            var ___result = RMClear.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -997,56 +762,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void InsertToCheckUpdateQueue(System.String @productId, System.Boolean @forceCheckUpdate)
+        public virtual void InsertToCheckUpdateQueue(System.String @productId)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @forceCheckUpdate};
-            var ___result = RMInsertToCheckUpdateQueue_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@productId};
+            var ___result = RMInsertToCheckUpdateQueue_String.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void InsertToCheckUpdateQueue(System.Collections.Generic.IEnumerable<System.String> @productIds, System.Boolean @forceCheckUpdate)
+        public virtual void InsertToCheckUpdateQueue(System.Collections.Generic.IEnumerable<System.String> @productIds)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productIds, @forceCheckUpdate};
-            var ___result = RMInsertToCheckUpdateQueue_IEnumerable_d_String_p__Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ForceCheckUpdateForAllLocalInfos()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMForceCheckUpdateForAllLocalInfos.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CancelCheckUpdates()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCancelCheckUpdates.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void CheckUpdateForUncheckedLocalInfos()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMCheckUpdateForUncheckedLocalInfos.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@productIds};
+            var ___result = RMInsertToCheckUpdateQueue_IEnumerable_d_String_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1063,36 +795,25 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual System.Boolean __0__OnLocalInfosChanged__1__b__32_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @info)
+        public virtual System.Boolean __0__OnLocalInfosChanged__1__b__20_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @info)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@info.Value};
-            var ___result = RM__0__OnLocalInfosChanged__1__b__32_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__OnLocalInfosChanged__1__b__20_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual void __0__CheckUpdateFromStack__1__b__38_0()
+        public virtual void __0__CheckUpdateFromStack__1__b__25_0()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RM__0__CheckUpdateFromStack__1__b__38_0.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__CheckUpdateFromStack__1__b__25_0.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual System.Boolean __0__CheckUpdateForUncheckedLocalInfos__1__b__43_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info.Value};
-            var ___result = RM__0__CheckUpdateForUncheckedLocalInfos__1__b__43_0_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

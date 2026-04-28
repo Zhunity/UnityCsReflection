@@ -264,38 +264,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
 		}
 
 		/// <summary>
-		/// System.ReadOnlySpan`1[T] AsReadOnlySpan()
-		/// </summary>
-		protected RMethod r_MAsReadOnlySpan;
-		public virtual RMethod RMAsReadOnlySpan
-		{
-			get
-			{
-				if(r_MAsReadOnlySpan == null)
-				{
-					r_MAsReadOnlySpan = new(this, "AsReadOnlySpan", 0);
-				}
-				return r_MAsReadOnlySpan;
-			}
-		}
-
-		/// <summary>
-		/// System.ReadOnlySpan`1[T] op_Implicit(ReadOnly ByRef)
-		/// </summary>
-		protected static RMethod r_Mop_Implicit_In_ReadOnly;
-		public static RMethod RMop_Implicit_In_ReadOnly
-		{
-			get
-			{
-				if(r_Mop_Implicit_In_ReadOnly == null)
-				{
-					r_Mop_Implicit_In_ReadOnly = new(Type, "op_Implicit", 0,  ReflectionUtils.GetType("Unity.Collections.NativeArray`1+ReadOnly").MakeByRefType());
-				}
-				return r_Mop_Implicit_In_ReadOnly;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -477,28 +445,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections
             var ___result = RMSystem__2__Collections__2__IEnumerable__2__GetEnumerator.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Collections.IEnumerator>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> AsReadOnlySpan()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAsReadOnlySpan.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public static Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType> op_Implicit(in Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>.RReadOnly @source)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source.Value};
-            var ___result = RMop_Implicit_In_ReadOnly.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RType>>(___result);
         }
 
 

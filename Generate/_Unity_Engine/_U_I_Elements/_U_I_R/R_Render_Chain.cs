@@ -294,6 +294,118 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.VisualElement m_FirstTextElement
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_FirstTextElement;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_FirstTextElement
+		{
+			get
+			{
+				if(r_Fm_FirstTextElement == null)
+				{
+					r_Fm_FirstTextElement = new(this, "m_FirstTextElement");
+				}
+				return r_Fm_FirstTextElement;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.UIR.Implementation.UIRTextUpdatePainter m_TextUpdatePainter
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRTextUpdatePainter r_Fm_TextUpdatePainter;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRTextUpdatePainter RFm_TextUpdatePainter
+		{
+			get
+			{
+				if(r_Fm_TextUpdatePainter == null)
+				{
+					r_Fm_TextUpdatePainter = new(this, "m_TextUpdatePainter");
+				}
+				return r_Fm_TextUpdatePainter;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 m_TextElementCount
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_TextElementCount;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_TextElementCount
+		{
+			get
+			{
+				if(r_Fm_TextElementCount == null)
+				{
+					r_Fm_TextElementCount = new(this, "m_TextElementCount");
+				}
+				return r_Fm_TextElementCount;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 m_DirtyTextStartIndex
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_DirtyTextStartIndex;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_DirtyTextStartIndex
+		{
+			get
+			{
+				if(r_Fm_DirtyTextStartIndex == null)
+				{
+					r_Fm_DirtyTextStartIndex = new(this, "m_DirtyTextStartIndex");
+				}
+				return r_Fm_DirtyTextStartIndex;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 m_DirtyTextRemaining
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_DirtyTextRemaining;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_DirtyTextRemaining
+		{
+			get
+			{
+				if(r_Fm_DirtyTextRemaining == null)
+				{
+					r_Fm_DirtyTextRemaining = new(this, "m_DirtyTextRemaining");
+				}
+				return r_Fm_DirtyTextRemaining;
+			}
+		}
+
+		/// <summary>
+		/// System.Boolean m_FontWasReset
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_FontWasReset;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_FontWasReset
+		{
+			get
+			{
+				if(r_Fm_FontWasReset == null)
+				{
+					r_Fm_FontWasReset = new(this, "m_FontWasReset");
+				}
+				return r_Fm_FontWasReset;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.Dictionary`2[UnityEngine.UIElements.VisualElement,UnityEngine.Vector2] m_LastGroupTransformElementScale
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_Fm_LastGroupTransformElementScale;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement, Hvak.Editor.Refleaction.RUnityEngine.RVector2> RFm_LastGroupTransformElementScale
+		{
+			get
+			{
+				if(r_Fm_LastGroupTransformElementScale == null)
+				{
+					r_Fm_LastGroupTransformElementScale = new(this, "m_LastGroupTransformElementScale");
+				}
+				return r_Fm_LastGroupTransformElementScale;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.TextureRegistry m_TextureRegistry
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureRegistry r_Fm_TextureRegistry;
@@ -306,22 +418,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_Fm_TextureRegistry = new(this, "m_TextureRegistry");
 				}
 				return r_Fm_TextureRegistry;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.OpacityIdAccelerator <opacityIdAccelerator>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator r_F__0__opacityIdAccelerator__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator RF__0__opacityIdAccelerator__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__opacityIdAccelerator__1__k__BackingField == null)
-				{
-					r_F__0__opacityIdAccelerator__1__k__BackingField = new(this, "<opacityIdAccelerator>k__BackingField");
-				}
-				return r_F__0__opacityIdAccelerator__1__k__BackingField;
 			}
 		}
 
@@ -534,54 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIR.TempAllocator`1[UnityEngine.UIElements.Vertex] <vertsPool>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_F__0__vertsPool__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RF__0__vertsPool__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__vertsPool__1__k__BackingField == null)
-				{
-					r_F__0__vertsPool__1__k__BackingField = new(this, "<vertsPool>k__BackingField");
-				}
-				return r_F__0__vertsPool__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] <indicesPool>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> r_F__0__indicesPool__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> RF__0__indicesPool__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__indicesPool__1__k__BackingField == null)
-				{
-					r_F__0__indicesPool__1__k__BackingField = new(this, "<indicesPool>k__BackingField");
-				}
-				return r_F__0__indicesPool__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.JobManager <jobManager>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobManager r_F__0__jobManager__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobManager RF__0__jobManager__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__jobManager__1__k__BackingField == null)
-				{
-					r_F__0__jobManager__1__k__BackingField = new(this, "<jobManager>k__BackingField");
-				}
-				return r_F__0__jobManager__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator shaderInfoAllocator
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRVEShaderInfoAllocator r_FshaderInfoAllocator;
@@ -658,22 +706,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_PfirstCommand = new(this, "firstCommand", -1);
 				}
 				return r_PfirstCommand;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.OpacityIdAccelerator opacityIdAccelerator
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator r_PopacityIdAccelerator;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.ROpacityIdAccelerator RPopacityIdAccelerator
-		{
-			get
-			{
-				if(r_PopacityIdAccelerator == null)
-				{
-					r_PopacityIdAccelerator = new(this, "opacityIdAccelerator", -1);
-				}
-				return r_PopacityIdAccelerator;
 			}
 		}
 
@@ -770,54 +802,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_PvectorImageManager = new(this, "vectorImageManager", -1);
 				}
 				return r_PvectorImageManager;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.TempAllocator`1[UnityEngine.UIElements.Vertex] vertsPool
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_PvertsPool;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RPvertsPool
-		{
-			get
-			{
-				if(r_PvertsPool == null)
-				{
-					r_PvertsPool = new(this, "vertsPool", -1);
-				}
-				return r_PvertsPool;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] indicesPool
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> r_PindicesPool;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> RPindicesPool
-		{
-			get
-			{
-				if(r_PindicesPool == null)
-				{
-					r_PindicesPool = new(this, "indicesPool", -1);
-				}
-				return r_PindicesPool;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.JobManager jobManager
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobManager r_PjobManager;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RJobManager RPjobManager
-		{
-			get
-			{
-				if(r_PjobManager == null)
-				{
-					r_PjobManager = new(this, "jobManager", -1);
-				}
-				return r_PjobManager;
 			}
 		}
 
@@ -998,6 +982,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// Void ProcessTextRegen(Boolean)
+		/// </summary>
+		protected RMethod r_MProcessTextRegen_Boolean;
+		public virtual RMethod RMProcessTextRegen_Boolean
+		{
+			get
+			{
+				if(r_MProcessTextRegen_Boolean == null)
+				{
+					r_MProcessTextRegen_Boolean = new(this, "ProcessTextRegen", 0, typeof(System.Boolean));
+				}
+				return r_MProcessTextRegen_Boolean;
+			}
+		}
+
+		/// <summary>
 		/// Void UIEOnChildAdded(UnityEngine.UIElements.VisualElement)
 		/// </summary>
 		protected RMethod r_MUIEOnChildAdded_VisualElement;
@@ -1042,6 +1042,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_MUIEOnChildRemoving_VisualElement = new(this, "UIEOnChildRemoving", 0, typeof(UnityEngine.UIElements.VisualElement));
 				}
 				return r_MUIEOnChildRemoving_VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void StopTrackingGroupTransformElement(UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MStopTrackingGroupTransformElement_VisualElement;
+		public virtual RMethod RMStopTrackingGroupTransformElement_VisualElement
+		{
+			get
+			{
+				if(r_MStopTrackingGroupTransformElement_VisualElement == null)
+				{
+					r_MStopTrackingGroupTransformElement_VisualElement = new(this, "StopTrackingGroupTransformElement", 0, typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MStopTrackingGroupTransformElement_VisualElement;
 			}
 		}
 
@@ -1138,22 +1154,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_MUIEOnVisualsChanged_VisualElement_Boolean = new(this, "UIEOnVisualsChanged", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(System.Boolean));
 				}
 				return r_MUIEOnVisualsChanged_VisualElement_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void UIEOnOpacityIdChanged(UnityEngine.UIElements.VisualElement)
-		/// </summary>
-		protected RMethod r_MUIEOnOpacityIdChanged_VisualElement;
-		public virtual RMethod RMUIEOnOpacityIdChanged_VisualElement
-		{
-			get
-			{
-				if(r_MUIEOnOpacityIdChanged_VisualElement == null)
-				{
-					r_MUIEOnOpacityIdChanged_VisualElement = new(this, "UIEOnOpacityIdChanged", 0, typeof(UnityEngine.UIElements.VisualElement));
-				}
-				return r_MUIEOnOpacityIdChanged_VisualElement;
 			}
 		}
 
@@ -1286,6 +1286,54 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// Void AddTextElement(UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MAddTextElement_VisualElement;
+		public virtual RMethod RMAddTextElement_VisualElement
+		{
+			get
+			{
+				if(r_MAddTextElement_VisualElement == null)
+				{
+					r_MAddTextElement_VisualElement = new(this, "AddTextElement", 0, typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MAddTextElement_VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void RemoveTextElement(UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MRemoveTextElement_VisualElement;
+		public virtual RMethod RMRemoveTextElement_VisualElement
+		{
+			get
+			{
+				if(r_MRemoveTextElement_VisualElement == null)
+				{
+					r_MRemoveTextElement_VisualElement = new(this, "RemoveTextElement", 0, typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MRemoveTextElement_VisualElement;
+			}
+		}
+
+		/// <summary>
+		/// Void OnGroupTransformElementChangedTransform(UnityEngine.UIElements.VisualElement)
+		/// </summary>
+		protected RMethod r_MOnGroupTransformElementChangedTransform_VisualElement;
+		public virtual RMethod RMOnGroupTransformElementChangedTransform_VisualElement
+		{
+			get
+			{
+				if(r_MOnGroupTransformElementChangedTransform_VisualElement == null)
+				{
+					r_MOnGroupTransformElementChangedTransform_VisualElement = new(this, "OnGroupTransformElementChangedTransform", 0, typeof(UnityEngine.UIElements.VisualElement));
+				}
+				return r_MOnGroupTransformElementChangedTransform_VisualElement;
+			}
+		}
+
+		/// <summary>
 		/// RenderNodeData AccessRenderNodeData(IntPtr)
 		/// </summary>
 		protected static RMethod r_MAccessRenderNodeData_IntPtr;
@@ -1362,6 +1410,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_MRepaintTexturedElements = new(this, "RepaintTexturedElements", 0);
 				}
 				return r_MRepaintTexturedElements;
+			}
+		}
+
+		/// <summary>
+		/// Void OnFontReset(UnityEngine.Font)
+		/// </summary>
+		protected RMethod r_MOnFontReset_Font;
+		public virtual RMethod RMOnFontReset_Font
+		{
+			get
+			{
+				if(r_MOnFontReset_Font == null)
+				{
+					r_MOnFontReset_Font = new(this, "OnFontReset", 0, typeof(UnityEngine.Font));
+				}
+				return r_MOnFontReset_Font;
 			}
 		}
 
@@ -1592,6 +1656,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void ProcessTextRegen(System.Boolean @timeSliced)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@timeSliced};
+            var ___result = RMProcessTextRegen_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void UIEOnChildAdded(UnityEngine.UIElements.VisualElement @ve)
         {
 
@@ -1620,6 +1695,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ve};
             var ___result = RMUIEOnChildRemoving_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void StopTrackingGroupTransformElement(UnityEngine.UIElements.VisualElement @ve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve};
+            var ___result = RMStopTrackingGroupTransformElement_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1686,17 +1772,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@ve, @hierarchical};
             var ___result = RMUIEOnVisualsChanged_VisualElement_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UIEOnOpacityIdChanged(UnityEngine.UIElements.VisualElement @ve)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ve};
-            var ___result = RMUIEOnOpacityIdChanged_VisualElement.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1790,6 +1865,39 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public virtual void AddTextElement(UnityEngine.UIElements.VisualElement @ve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve};
+            var ___result = RMAddTextElement_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RemoveTextElement(UnityEngine.UIElements.VisualElement @ve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve};
+            var ___result = RMRemoveTextElement_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnGroupTransformElementChangedTransform(UnityEngine.UIElements.VisualElement @ve)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@ve};
+            var ___result = RMOnGroupTransformElementChangedTransform_VisualElement.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChain.RRenderNodeData AccessRenderNodeData(System.IntPtr @obj)
         {
 
@@ -1841,6 +1949,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRepaintTexturedElements.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnFontReset(UnityEngine.Font @font)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@font};
+            var ___result = RMOnFontReset_Font.Invoke(___genericsType, ___parameters);
 
             
         }

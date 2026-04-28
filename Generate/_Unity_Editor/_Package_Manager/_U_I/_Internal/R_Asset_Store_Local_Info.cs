@@ -182,6 +182,70 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo+UpdateStatus updateStatus
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo.RUpdateStatus r_FupdateStatus;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo.RUpdateStatus RFupdateStatus
+		{
+			get
+			{
+				if(r_FupdateStatus == null)
+				{
+					r_FupdateStatus = new(this, "updateStatus");
+				}
+				return r_FupdateStatus;
+			}
+		}
+
+		/// <summary>
+		/// Boolean updateInfoFetched
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PupdateInfoFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPupdateInfoFetched
+		{
+			get
+			{
+				if(r_PupdateInfoFetched == null)
+				{
+					r_PupdateInfoFetched = new(this, "updateInfoFetched", -1);
+				}
+				return r_PupdateInfoFetched;
+			}
+		}
+
+		/// <summary>
+		/// Boolean canUpdate
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanUpdate;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanUpdate
+		{
+			get
+			{
+				if(r_PcanUpdate == null)
+				{
+					r_PcanUpdate = new(this, "canUpdate", -1);
+				}
+				return r_PcanUpdate;
+			}
+		}
+
+		/// <summary>
+		/// Boolean canDowngrade
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PcanDowngrade;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPcanDowngrade
+		{
+			get
+			{
+				if(r_PcanDowngrade == null)
+				{
+					r_PcanDowngrade = new(this, "canDowngrade", -1);
+				}
+				return r_PcanDowngrade;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo ParseLocalInfo(UnityEditor.PackageInfo)
 		/// </summary>
 		protected static RMethod r_MParseLocalInfo_PackageInfo;

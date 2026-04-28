@@ -118,22 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Int32 paddingMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpaddingMode;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFpaddingMode
-		{
-			get
-			{
-				if(r_FpaddingMode == null)
-				{
-					r_FpaddingMode = new(this, "paddingMode");
-				}
-				return r_FpaddingMode;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 packingMode
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FpackingMode;

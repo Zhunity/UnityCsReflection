@@ -38,22 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 
 
 		/// <summary>
-		/// System.Action OnTextChanged
-		/// </summary>
-		protected REvent r_EOnTextChanged;
-		public virtual REvent REOnTextChanged
-		{
-			get
-			{
-				if(r_EOnTextChanged == null)
-				{
-					r_EOnTextChanged = new(this, "OnTextChanged");
-				}
-				return r_EOnTextChanged;
-			}
-		}
-
-		/// <summary>
 		/// System.String m_Text
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Text;
@@ -98,22 +82,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_Fm_Tooltip = new(this, "m_Tooltip");
 				}
 				return r_Fm_Tooltip;
-			}
-		}
-
-		/// <summary>
-		/// System.Action OnTextChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FOnTextChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFOnTextChanged
-		{
-			get
-			{
-				if(r_FOnTextChanged == null)
-				{
-					r_FOnTextChanged = new(this, "OnTextChanged");
-				}
-				return r_FOnTextChanged;
 			}
 		}
 

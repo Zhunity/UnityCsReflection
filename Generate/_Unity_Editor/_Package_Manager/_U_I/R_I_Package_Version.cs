@@ -118,22 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.IPackage package
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage r_Ppackage;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage RPpackage
-		{
-			get
-			{
-				if(r_Ppackage == null)
-				{
-					r_Ppackage = new(this, "package", -1);
-				}
-				return r_Ppackage;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isInstalled
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInstalled;

@@ -214,22 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.DownloadState AbortRequsted
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FAbortRequsted;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFAbortRequsted
-		{
-			get
-			{
-				if(r_FAbortRequsted == null)
-				{
-					r_FAbortRequsted = new(Type, "AbortRequsted");
-				}
-				return r_FAbortRequsted;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.DownloadState Error
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FError;
@@ -242,38 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_FError = new(Type, "Error");
 				}
 				return r_FError;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.DownloadState InProgress
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FInProgress;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFInProgress
-		{
-			get
-			{
-				if(r_FInProgress == null)
-				{
-					r_FInProgress = new(Type, "InProgress");
-				}
-				return r_FInProgress;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.DownloadState InPause
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState r_FInPause;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RDownloadState RFInPause
-		{
-			get
-			{
-				if(r_FInPause == null)
-				{
-					r_FInPause = new(Type, "InPause");
-				}
-				return r_FInPause;
 			}
 		}
 

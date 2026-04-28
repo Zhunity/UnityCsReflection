@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void Dispose()
-		/// </summary>
-		protected RMethod r_MDispose;
-		public virtual RMethod RMDispose
-		{
-			get
-			{
-				if(r_MDispose == null)
-				{
-					r_MDispose = new(this, "Dispose", 0);
-				}
-				return r_MDispose;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -296,17 +280,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClear.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
 
             
         }

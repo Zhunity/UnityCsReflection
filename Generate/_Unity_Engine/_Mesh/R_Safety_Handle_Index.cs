@@ -88,22 +88,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.Mesh+SafetyHandleIndex BindposeArray
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex r_FBindposeArray;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex RFBindposeArray
-		{
-			get
-			{
-				if(r_FBindposeArray == null)
-				{
-					r_FBindposeArray = new(Type, "BindposeArray");
-				}
-				return r_FBindposeArray;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

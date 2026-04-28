@@ -70,6 +70,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Boolean useUIElementsDefaultInspector
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseUIElementsDefaultInspector;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseUIElementsDefaultInspector
+		{
+			get
+			{
+				if(r_PuseUIElementsDefaultInspector == null)
+				{
+					r_PuseUIElementsDefaultInspector = new(this, "useUIElementsDefaultInspector", -1);
+				}
+				return r_PuseUIElementsDefaultInspector;
+			}
+		}
+
+		/// <summary>
 		/// System.Collections.Generic.HashSet`1[System.Int32] editorsWithImportedObjectLabel
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RHashSet<Hvak.Editor.Refleaction.RSystem.RInt32> r_PeditorsWithImportedObjectLabel;
@@ -150,6 +166,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Boolean IsMultiEditingSupported(UnityEditor.Editor, UnityEngine.Object)
+		/// </summary>
+		protected RMethod r_MIsMultiEditingSupported_Editor_Object;
+		public virtual RMethod RMIsMultiEditingSupported_Editor_Object
+		{
+			get
+			{
+				if(r_MIsMultiEditingSupported_Editor_Object == null)
+				{
+					r_MIsMultiEditingSupported_Editor_Object = new(this, "IsMultiEditingSupported", 0, typeof(UnityEditor.Editor), typeof(UnityEngine.Object));
+				}
+				return r_MIsMultiEditingSupported_Editor_Object;
+			}
+		}
+
+		/// <summary>
 		/// Boolean WasEditorVisible(UnityEditor.Editor[], Int32, UnityEngine.Object)
 		/// </summary>
 		protected RMethod r_MWasEditorVisible_EditorArray_Int32_Object;
@@ -197,22 +229,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 			}
 		}
 
-		/// <summary>
-		/// Void UnsavedChangesStateChanged(UnityEditor.Editor, Boolean)
-		/// </summary>
-		protected RMethod r_MUnsavedChangesStateChanged_Editor_Boolean;
-		public virtual RMethod RMUnsavedChangesStateChanged_Editor_Boolean
-		{
-			get
-			{
-				if(r_MUnsavedChangesStateChanged_Editor_Boolean == null)
-				{
-					r_MUnsavedChangesStateChanged_Editor_Boolean = new(this, "UnsavedChangesStateChanged", 0, typeof(UnityEditor.Editor), typeof(System.Boolean));
-				}
-				return r_MUnsavedChangesStateChanged_Editor_Boolean;
-			}
-		}
-
 
         public virtual UnityEngine.UIElements.IMGUIContainer CreateIMGUIContainer(System.Action @headerOnGUI, System.String @v)
         {
@@ -222,6 +238,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMCreateIMGUIContainer_Action_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.IMGUIContainer>(___result);
+        }
+
+
+        public virtual System.Boolean IsMultiEditingSupported(UnityEditor.Editor @editor, UnityEngine.Object @target)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@editor, @target};
+            var ___result = RMIsMultiEditingSupported_Editor_Object.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
@@ -253,17 +280,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRepaint.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor @editor, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @value};
-            var ___result = RMUnsavedChangesStateChanged_Editor_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

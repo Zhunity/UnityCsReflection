@@ -166,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypes VisualsOpacityId
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypes r_FVisualsOpacityId;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypes RFVisualsOpacityId
-		{
-			get
-			{
-				if(r_FVisualsOpacityId == null)
-				{
-					r_FVisualsOpacityId = new(Type, "VisualsOpacityId");
-				}
-				return r_FVisualsOpacityId;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypes Opacity
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypes r_FOpacity;
@@ -226,22 +210,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_FColor = new(Type, "Color");
 				}
 				return r_FColor;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.UIR.RenderDataDirtyTypes AllVisuals
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypes r_FAllVisuals;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataDirtyTypes RFAllVisuals
-		{
-			get
-			{
-				if(r_FAllVisuals == null)
-				{
-					r_FAllVisuals = new(Type, "AllVisuals");
-				}
-				return r_FAllVisuals;
 			}
 		}
 

@@ -54,6 +54,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.Action`2[System.String,UnityEditor.PackageManager.UI.Internal.IPackageVersion] onPackageVersionUpdated
+		/// </summary>
+		protected REvent r_EonPackageVersionUpdated;
+		public virtual REvent REonPackageVersionUpdated
+		{
+			get
+			{
+				if(r_EonPackageVersionUpdated == null)
+				{
+					r_EonPackageVersionUpdated = new(this, "onPackageVersionUpdated");
+				}
+				return r_EonPackageVersionUpdated;
+			}
+		}
+
+		/// <summary>
 		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.AssetStorePurchases] onProductListFetched
 		/// </summary>
 		protected REvent r_EonProductListFetched;
@@ -70,18 +86,66 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[System.Int64] onProductExtraFetched
+		/// System.Action`1[System.Int64] onProductFetched
 		/// </summary>
-		protected REvent r_EonProductExtraFetched;
-		public virtual REvent REonProductExtraFetched
+		protected REvent r_EonProductFetched;
+		public virtual REvent REonProductFetched
 		{
 			get
 			{
-				if(r_EonProductExtraFetched == null)
+				if(r_EonProductFetched == null)
 				{
-					r_EonProductExtraFetched = new(this, "onProductExtraFetched");
+					r_EonProductFetched = new(this, "onProductFetched");
 				}
-				return r_EonProductExtraFetched;
+				return r_EonProductFetched;
+			}
+		}
+
+		/// <summary>
+		/// System.Action onFetchDetailsStart
+		/// </summary>
+		protected REvent r_EonFetchDetailsStart;
+		public virtual REvent REonFetchDetailsStart
+		{
+			get
+			{
+				if(r_EonFetchDetailsStart == null)
+				{
+					r_EonFetchDetailsStart = new(this, "onFetchDetailsStart");
+				}
+				return r_EonFetchDetailsStart;
+			}
+		}
+
+		/// <summary>
+		/// System.Action onFetchDetailsFinish
+		/// </summary>
+		protected REvent r_EonFetchDetailsFinish;
+		public virtual REvent REonFetchDetailsFinish
+		{
+			get
+			{
+				if(r_EonFetchDetailsFinish == null)
+				{
+					r_EonFetchDetailsFinish = new(this, "onFetchDetailsFinish");
+				}
+				return r_EonFetchDetailsFinish;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.UIError] onFetchDetailsError
+		/// </summary>
+		protected REvent r_EonFetchDetailsError;
+		public virtual REvent REonFetchDetailsError
+		{
+			get
+			{
+				if(r_EonFetchDetailsError == null)
+				{
+					r_EonFetchDetailsError = new(this, "onFetchDetailsError");
+				}
+				return r_EonFetchDetailsError;
 			}
 		}
 
@@ -102,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[System.Collections.Generic.IEnumerable`1[System.String]] onUpdateChecked
-		/// </summary>
-		protected REvent r_EonUpdateChecked;
-		public virtual REvent REonUpdateChecked
-		{
-			get
-			{
-				if(r_EonUpdateChecked == null)
-				{
-					r_EonUpdateChecked = new(this, "onUpdateChecked");
-				}
-				return r_EonUpdateChecked;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage]] onPackagesChanged
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>> r_FonPackagesChanged;
@@ -130,6 +178,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_FonPackagesChanged = new(this, "onPackagesChanged");
 				}
 				return r_FonPackagesChanged;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`2[System.String,UnityEditor.PackageManager.UI.Internal.IPackageVersion] onPackageVersionUpdated
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> r_FonPackageVersionUpdated;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> RFonPackageVersionUpdated
+		{
+			get
+			{
+				if(r_FonPackageVersionUpdated == null)
+				{
+					r_FonPackageVersionUpdated = new(this, "onPackageVersionUpdated");
+				}
+				return r_FonPackageVersionUpdated;
 			}
 		}
 
@@ -150,18 +214,66 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[System.Int64] onProductExtraFetched
+		/// System.Action`1[System.Int64] onProductFetched
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt64> r_FonProductExtraFetched;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt64> RFonProductExtraFetched
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt64> r_FonProductFetched;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RInt64> RFonProductFetched
 		{
 			get
 			{
-				if(r_FonProductExtraFetched == null)
+				if(r_FonProductFetched == null)
 				{
-					r_FonProductExtraFetched = new(this, "onProductExtraFetched");
+					r_FonProductFetched = new(this, "onProductFetched");
 				}
-				return r_FonProductExtraFetched;
+				return r_FonProductFetched;
+			}
+		}
+
+		/// <summary>
+		/// System.Action onFetchDetailsStart
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FonFetchDetailsStart;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFonFetchDetailsStart
+		{
+			get
+			{
+				if(r_FonFetchDetailsStart == null)
+				{
+					r_FonFetchDetailsStart = new(this, "onFetchDetailsStart");
+				}
+				return r_FonFetchDetailsStart;
+			}
+		}
+
+		/// <summary>
+		/// System.Action onFetchDetailsFinish
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction r_FonFetchDetailsFinish;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFonFetchDetailsFinish
+		{
+			get
+			{
+				if(r_FonFetchDetailsFinish == null)
+				{
+					r_FonFetchDetailsFinish = new(this, "onFetchDetailsFinish");
+				}
+				return r_FonFetchDetailsFinish;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEditor.PackageManager.UI.Internal.UIError] onFetchDetailsError
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> r_FonFetchDetailsError;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError> RFonFetchDetailsError
+		{
+			get
+			{
+				if(r_FonFetchDetailsError == null)
+				{
+					r_FonFetchDetailsError = new(this, "onFetchDetailsError");
+				}
+				return r_FonFetchDetailsError;
 			}
 		}
 
@@ -182,22 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[System.Collections.Generic.IEnumerable`1[System.String]] onUpdateChecked
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString>> r_FonUpdateChecked;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString>> RFonUpdateChecked
-		{
-			get
-			{
-				if(r_FonUpdateChecked == null)
-				{
-					r_FonUpdateChecked = new(this, "onUpdateChecked");
-				}
-				return r_FonUpdateChecked;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.AssetStoreListOperation m_ListOperation
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreListOperation r_Fm_ListOperation;
@@ -210,38 +306,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_ListOperation = new(this, "m_ListOperation");
 				}
 				return r_Fm_ListOperation;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreClient+AssetStorePackageFactory m_AssetStorePackageFactory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient.RAssetStorePackageFactory r_Fm_AssetStorePackageFactory;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient.RAssetStorePackageFactory RFm_AssetStorePackageFactory
-		{
-			get
-			{
-				if(r_Fm_AssetStorePackageFactory == null)
-				{
-					r_Fm_AssetStorePackageFactory = new(this, "m_AssetStorePackageFactory");
-				}
-				return r_Fm_AssetStorePackageFactory;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreClient+UpmOnAssetStorePackageFactory m_UpmOnAssetStorePackageFactory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient.RUpmOnAssetStorePackageFactory r_Fm_UpmOnAssetStorePackageFactory;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreClient.RUpmOnAssetStorePackageFactory RFm_UpmOnAssetStorePackageFactory
-		{
-			get
-			{
-				if(r_Fm_UpmOnAssetStorePackageFactory == null)
-				{
-					r_Fm_UpmOnAssetStorePackageFactory = new(this, "m_UpmOnAssetStorePackageFactory");
-				}
-				return r_Fm_UpmOnAssetStorePackageFactory;
 			}
 		}
 
@@ -310,50 +374,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.FetchStatusTracker m_FetchStatusTracker
+		/// UnityEditor.PackageManager.UI.Internal.UpmClient m_UpmClient
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RFetchStatusTracker r_Fm_FetchStatusTracker;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RFetchStatusTracker RFm_FetchStatusTracker
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmClient r_Fm_UpmClient;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmClient RFm_UpmClient
 		{
 			get
 			{
-				if(r_Fm_FetchStatusTracker == null)
+				if(r_Fm_UpmClient == null)
 				{
-					r_Fm_FetchStatusTracker = new(this, "m_FetchStatusTracker");
+					r_Fm_UpmClient = new(this, "m_UpmClient");
 				}
-				return r_Fm_FetchStatusTracker;
+				return r_Fm_UpmClient;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UpmCache m_UpmCache
+		/// UnityEditor.PackageManager.UI.Internal.IOProxy m_IOProxy
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache r_Fm_UpmCache;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache RFm_UpmCache
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy r_Fm_IOProxy;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy RFm_IOProxy
 		{
 			get
 			{
-				if(r_Fm_UpmCache == null)
+				if(r_Fm_IOProxy == null)
 				{
-					r_Fm_UpmCache = new(this, "m_UpmCache");
+					r_Fm_IOProxy = new(this, "m_IOProxy");
 				}
-				return r_Fm_UpmCache;
+				return r_Fm_IOProxy;
 			}
 		}
 
 		/// <summary>
-		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.UnityConnectProxy, UnityEditor.PackageManager.UI.Internal.AssetStoreCache, UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI, UnityEditor.PackageManager.UI.Internal.FetchStatusTracker, UnityEditor.PackageManager.UI.Internal.UpmCache, UnityEditor.PackageManager.UI.Internal.UpmClient, UnityEditor.PackageManager.UI.Internal.IOProxy)
+		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.UnityConnectProxy, UnityEditor.PackageManager.UI.Internal.AssetStoreCache, UnityEditor.PackageManager.UI.Internal.AssetStoreUtils, UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI, UnityEditor.PackageManager.UI.Internal.UpmClient, UnityEditor.PackageManager.UI.Internal.IOProxy)
 		/// </summary>
-		protected RMethod r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_FetchStatusTracker_UpmCache_UpmClient_IOProxy;
-		public virtual RMethod RMResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_FetchStatusTracker_UpmCache_UpmClient_IOProxy
+		protected RMethod r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_UpmClient_IOProxy;
+		public virtual RMethod RMResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_UpmClient_IOProxy
 		{
 			get
 			{
-				if(r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_FetchStatusTracker_UpmCache_UpmClient_IOProxy == null)
+				if(r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_UpmClient_IOProxy == null)
 				{
-					r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_FetchStatusTracker_UpmCache_UpmClient_IOProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.FetchStatusTracker"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmClient"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"));
+					r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_UpmClient_IOProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UnityConnectProxy"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreCache"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUtils"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreRestAPI"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UpmClient"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOProxy"));
 				}
-				return r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_FetchStatusTracker_UpmCache_UpmClient_IOProxy;
+				return r_MResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_UpmClient_IOProxy;
 			}
 		}
 
@@ -390,34 +454,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void ExtraFetch(Int64)
+		/// Void Fetch(Int64)
 		/// </summary>
-		protected RMethod r_MExtraFetch_Int64;
-		public virtual RMethod RMExtraFetch_Int64
+		protected RMethod r_MFetch_Int64;
+		public virtual RMethod RMFetch_Int64
 		{
 			get
 			{
-				if(r_MExtraFetch_Int64 == null)
+				if(r_MFetch_Int64 == null)
 				{
-					r_MExtraFetch_Int64 = new(this, "ExtraFetch", 0, typeof(System.Int64));
+					r_MFetch_Int64 = new(this, "Fetch", 0, typeof(System.Int64));
 				}
-				return r_MExtraFetch_Int64;
+				return r_MFetch_Int64;
 			}
 		}
 
 		/// <summary>
-		/// Void FetchPurchaseInfoWithRetry(Int64, Boolean)
+		/// Void StartFetchOperation(Int64)
 		/// </summary>
-		protected RMethod r_MFetchPurchaseInfoWithRetry_Int64_Boolean;
-		public virtual RMethod RMFetchPurchaseInfoWithRetry_Int64_Boolean
+		protected RMethod r_MStartFetchOperation_Int64;
+		public virtual RMethod RMStartFetchOperation_Int64
 		{
 			get
 			{
-				if(r_MFetchPurchaseInfoWithRetry_Int64_Boolean == null)
+				if(r_MStartFetchOperation_Int64 == null)
 				{
-					r_MFetchPurchaseInfoWithRetry_Int64_Boolean = new(this, "FetchPurchaseInfoWithRetry", 0, typeof(System.Int64), typeof(System.Boolean));
+					r_MStartFetchOperation_Int64 = new(this, "StartFetchOperation", 0, typeof(System.Int64));
 				}
-				return r_MFetchPurchaseInfoWithRetry_Int64_Boolean;
+				return r_MStartFetchOperation_Int64;
+			}
+		}
+
+		/// <summary>
+		/// Void FetchInternal(Int64, UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo)
+		/// </summary>
+		protected RMethod r_MFetchInternal_Int64_AssetStorePurchaseInfo;
+		public virtual RMethod RMFetchInternal_Int64_AssetStorePurchaseInfo
+		{
+			get
+			{
+				if(r_MFetchInternal_Int64_AssetStorePurchaseInfo == null)
+				{
+					r_MFetchInternal_Int64_AssetStorePurchaseInfo = new(this, "FetchInternal", 0, typeof(System.Int64),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStorePurchaseInfo"));
+				}
+				return r_MFetchInternal_Int64_AssetStorePurchaseInfo;
 			}
 		}
 
@@ -454,18 +534,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void FetchDetail(Int64, System.Action)
+		/// Void FetchDetail(Int64, System.Action`1[UnityEditor.PackageManager.UI.Internal.IPackage])
 		/// </summary>
-		protected RMethod r_MFetchDetail_Int64_Action;
-		public virtual RMethod RMFetchDetail_Int64_Action
+		protected RMethod r_MFetchDetail_Int64_Action_d_IPackage_p_;
+		public virtual RMethod RMFetchDetail_Int64_Action_d_IPackage_p_
 		{
 			get
 			{
-				if(r_MFetchDetail_Int64_Action == null)
+				if(r_MFetchDetail_Int64_Action_d_IPackage_p_ == null)
 				{
-					r_MFetchDetail_Int64_Action = new(this, "FetchDetail", 0, typeof(System.Int64), typeof(System.Action));
+					r_MFetchDetail_Int64_Action_d_IPackage_p_ = new(this, "FetchDetail", 0, typeof(System.Int64),  ReflectionUtils.GetType("System.Action`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
-				return r_MFetchDetail_Int64_Action;
+				return r_MFetchDetail_Int64_Action_d_IPackage_p_;
+			}
+		}
+
+		/// <summary>
+		/// Void FetchDetails(System.Collections.Generic.IEnumerable`1[System.Int64])
+		/// </summary>
+		protected RMethod r_MFetchDetails_IEnumerable_d_Int64_p_;
+		public virtual RMethod RMFetchDetails_IEnumerable_d_Int64_p_
+		{
+			get
+			{
+				if(r_MFetchDetails_IEnumerable_d_Int64_p_ == null)
+				{
+					r_MFetchDetails_IEnumerable_d_Int64_p_ = new(this, "FetchDetails", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType(typeof(System.Int64)));
+				}
+				return r_MFetchDetails_IEnumerable_d_Int64_p_;
 			}
 		}
 
@@ -482,6 +578,54 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MRefreshLocal = new(this, "RefreshLocal", 0);
 				}
 				return r_MRefreshLocal;
+			}
+		}
+
+		/// <summary>
+		/// Void OnProductPackageChanged(System.String, UnityEditor.PackageManager.UI.Internal.IPackage)
+		/// </summary>
+		protected RMethod r_MOnProductPackageChanged_String_IPackage;
+		public virtual RMethod RMOnProductPackageChanged_String_IPackage
+		{
+			get
+			{
+				if(r_MOnProductPackageChanged_String_IPackage == null)
+				{
+					r_MOnProductPackageChanged_String_IPackage = new(this, "OnProductPackageChanged", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage"));
+				}
+				return r_MOnProductPackageChanged_String_IPackage;
+			}
+		}
+
+		/// <summary>
+		/// Void OnProductPackageVersionUpdated(System.String, UnityEditor.PackageManager.UI.Internal.IPackageVersion)
+		/// </summary>
+		protected RMethod r_MOnProductPackageVersionUpdated_String_IPackageVersion;
+		public virtual RMethod RMOnProductPackageVersionUpdated_String_IPackageVersion
+		{
+			get
+			{
+				if(r_MOnProductPackageVersionUpdated_String_IPackageVersion == null)
+				{
+					r_MOnProductPackageVersionUpdated_String_IPackageVersion = new(this, "OnProductPackageVersionUpdated", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
+				}
+				return r_MOnProductPackageVersionUpdated_String_IPackageVersion;
+			}
+		}
+
+		/// <summary>
+		/// Void OnProductPackageFetchError(System.String, UnityEditor.PackageManager.UI.Internal.UIError)
+		/// </summary>
+		protected RMethod r_MOnProductPackageFetchError_String_UIError;
+		public virtual RMethod RMOnProductPackageFetchError_String_UIError
+		{
+			get
+			{
+				if(r_MOnProductPackageFetchError_String_UIError == null)
+				{
+					r_MOnProductPackageFetchError_String_UIError = new(this, "OnProductPackageFetchError", 0, typeof(System.String),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"));
+				}
+				return r_MOnProductPackageFetchError_String_UIError;
 			}
 		}
 
@@ -582,18 +726,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void <ListPurchases>b__29_0(UnityEditor.PackageManager.UI.Internal.IOperation)
+		/// Void RefreshLocalInfos()
 		/// </summary>
-		protected RMethod r_M__0__ListPurchases__1__b__29_0_IOperation;
-		public virtual RMethod RM__0__ListPurchases__1__b__29_0_IOperation
+		protected RMethod r_MRefreshLocalInfos;
+		public virtual RMethod RMRefreshLocalInfos
 		{
 			get
 			{
-				if(r_M__0__ListPurchases__1__b__29_0_IOperation == null)
+				if(r_MRefreshLocalInfos == null)
 				{
-					r_M__0__ListPurchases__1__b__29_0_IOperation = new(this, "<ListPurchases>b__29_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"));
+					r_MRefreshLocalInfos = new(this, "RefreshLocalInfos", 0);
 				}
-				return r_M__0__ListPurchases__1__b__29_0_IOperation;
+				return r_MRefreshLocalInfos;
+			}
+		}
+
+		/// <summary>
+		/// Void OnLocalInfosChanged(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo])
+		/// </summary>
+		protected RMethod r_MOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_;
+		public virtual RMethod RMOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_
+		{
+			get
+			{
+				if(r_MOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_ == null)
+				{
+					r_MOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_ = new(this, "OnLocalInfosChanged", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo")));
+				}
+				return r_MOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_;
+			}
+		}
+
+		/// <summary>
+		/// Void <ListPurchases>b__37_0(UnityEditor.PackageManager.UI.Internal.IOperation)
+		/// </summary>
+		protected RMethod r_M__0__ListPurchases__1__b__37_0_IOperation;
+		public virtual RMethod RM__0__ListPurchases__1__b__37_0_IOperation
+		{
+			get
+			{
+				if(r_M__0__ListPurchases__1__b__37_0_IOperation == null)
+				{
+					r_M__0__ListPurchases__1__b__37_0_IOperation = new(this, "<ListPurchases>b__37_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IOperation"));
+				}
+				return r_M__0__ListPurchases__1__b__37_0_IOperation;
 			}
 		}
 
@@ -694,12 +870,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RFetchStatusTracker @fetchStatusTracker, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache @upmCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmClient @upmClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy)
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUnityConnectProxy @unityConnect, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache @assetStoreCache, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUtils @assetStoreUtils, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreRestAPI @assetStoreRestAPI, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmClient @upmClient, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy @ioProxy)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@unityConnect.Value, @assetStoreCache.Value, @assetStoreUtils.Value, @assetStoreRestAPI.Value, @fetchStatusTracker.Value, @upmCache.Value, @upmClient.Value, @ioProxy.Value};
-            var ___result = RMResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_FetchStatusTracker_UpmCache_UpmClient_IOProxy.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@unityConnect.Value, @assetStoreCache.Value, @assetStoreUtils.Value, @assetStoreRestAPI.Value, @upmClient.Value, @ioProxy.Value};
+            var ___result = RMResolveDependencies_UnityConnectProxy_AssetStoreCache_AssetStoreUtils_AssetStoreRestAPI_UpmClient_IOProxy.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -727,23 +903,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void ExtraFetch(System.Int64 @productId)
+        public virtual void Fetch(System.Int64 @productId)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productId};
-            var ___result = RMExtraFetch_Int64.Invoke(___genericsType, ___parameters);
+            var ___result = RMFetch_Int64.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void FetchPurchaseInfoWithRetry(System.Int64 @productId, System.Boolean @checkHiddenPurchases)
+        public virtual void StartFetchOperation(System.Int64 @productId)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @checkHiddenPurchases};
-            var ___result = RMFetchPurchaseInfoWithRetry_Int64_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@productId};
+            var ___result = RMStartFetchOperation_Int64.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void FetchInternal(System.Int64 @productId, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStorePurchaseInfo @purchaseInfo)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@productId, @purchaseInfo.Value};
+            var ___result = RMFetchInternal_Int64_AssetStorePurchaseInfo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -771,12 +958,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void FetchDetail(System.Int64 @productId, System.Action @doneCallbackAction)
+        public virtual void FetchDetail(System.Int64 @productId, Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @doneCallbackAction)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId, @doneCallbackAction};
-            var ___result = RMFetchDetail_Int64_Action.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@productId, @doneCallbackAction.Value};
+            var ___result = RMFetchDetail_Int64_Action_d_IPackage_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void FetchDetails(System.Collections.Generic.IEnumerable<System.Int64> @productIds)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@productIds};
+            var ___result = RMFetchDetails_IEnumerable_d_Int64_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -788,6 +986,39 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRefreshLocal.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnProductPackageChanged(System.String @productId, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage @package)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@productId, @package.Value};
+            var ___result = RMOnProductPackageChanged_String_IPackage.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnProductPackageVersionUpdated(System.String @productId, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@productId, @version.Value};
+            var ___result = RMOnProductPackageVersionUpdated_String_IPackageVersion.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnProductPackageFetchError(System.String @productId, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@productId, @error.Value};
+            var ___result = RMOnProductPackageFetchError_String_UIError.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -859,12 +1090,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void __0__ListPurchases__1__b__29_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
+        public virtual void RefreshLocalInfos()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshLocalInfos.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnLocalInfosChanged(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @addedOrUpdated, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo> @removed)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@addedOrUpdated.Value, @removed.Value};
+            var ___result = RMOnLocalInfosChanged_IEnumerable_d_AssetStoreLocalInfo_p__IEnumerable_d_AssetStoreLocalInfo_p_.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void __0__ListPurchases__1__b__37_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOperation @op)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@op.Value};
-            var ___result = RM__0__ListPurchases__1__b__29_0_IOperation.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__ListPurchases__1__b__37_0_IOperation.Invoke(___genericsType, ___parameters);
 
             
         }

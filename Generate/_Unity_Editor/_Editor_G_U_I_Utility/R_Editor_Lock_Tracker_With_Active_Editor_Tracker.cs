@@ -120,39 +120,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void PingIcon()
-		/// </summary>
-		protected RMethod r_MPingIcon;
-		public virtual RMethod RMPingIcon
-		{
-			get
-			{
-				if(r_MPingIcon == null)
-				{
-					r_MPingIcon = new(this, "PingIcon", 0);
-				}
-				return r_MPingIcon;
-			}
-		}
-
-		/// <summary>
-		/// Void StopPingIcon()
-		/// </summary>
-		protected RMethod r_MStopPingIcon;
-		public virtual RMethod RMStopPingIcon
-		{
-			get
-			{
-				if(r_MStopPingIcon == null)
-				{
-					r_MStopPingIcon = new(this, "StopPingIcon", 0);
-				}
-				return r_MStopPingIcon;
-			}
-		}
-
-		/// <summary>
-		/// Boolean ShowButton(UnityEngine.Rect, UnityEngine.GUIStyle, Boolean)
+		/// Void ShowButton(UnityEngine.Rect, UnityEngine.GUIStyle, Boolean)
 		/// </summary>
 		protected RMethod r_MShowButton_Rect_GUIStyle_Boolean;
 		public virtual RMethod RMShowButton_Rect_GUIStyle_Boolean
@@ -275,36 +243,14 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void PingIcon()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMPingIcon.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void StopPingIcon()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMStopPingIcon.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ShowButton(UnityEngine.Rect @position, UnityEngine.GUIStyle @lockButtonStyle, System.Boolean @disabled)
+        public virtual void ShowButton(UnityEngine.Rect @position, UnityEngine.GUIStyle @lockButtonStyle, System.Boolean @disabled)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@position, @lockButtonStyle, @disabled};
             var ___result = RMShowButton_Rect_GUIStyle_Boolean.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
         }
 
 

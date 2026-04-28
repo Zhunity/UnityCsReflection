@@ -88,86 +88,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Rect subRect
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_FsubRect;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RRect RFsubRect
-		{
-			get
-			{
-				if(r_FsubRect == null)
-				{
-					r_FsubRect = new(this, "subRect");
-				}
-				return r_FsubRect;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition backgroundPositionX
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_FbackgroundPositionX;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RFbackgroundPositionX
-		{
-			get
-			{
-				if(r_FbackgroundPositionX == null)
-				{
-					r_FbackgroundPositionX = new(this, "backgroundPositionX");
-				}
-				return r_FbackgroundPositionX;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition backgroundPositionY
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_FbackgroundPositionY;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RFbackgroundPositionY
-		{
-			get
-			{
-				if(r_FbackgroundPositionY == null)
-				{
-					r_FbackgroundPositionY = new(this, "backgroundPositionY");
-				}
-				return r_FbackgroundPositionY;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundRepeat backgroundRepeat
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat r_FbackgroundRepeat;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat RFbackgroundRepeat
-		{
-			get
-			{
-				if(r_FbackgroundRepeat == null)
-				{
-					r_FbackgroundRepeat = new(this, "backgroundRepeat");
-				}
-				return r_FbackgroundRepeat;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundSize backgroundSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSize r_FbackgroundSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundSize RFbackgroundSize
-		{
-			get
-			{
-				if(r_FbackgroundSize == null)
-				{
-					r_FbackgroundSize = new(this, "backgroundSize");
-				}
-				return r_FbackgroundSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Texture texture
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Ftexture;
@@ -328,38 +248,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector2 contentSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FcontentSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFcontentSize
-		{
-			get
-			{
-				if(r_FcontentSize == null)
-				{
-					r_FcontentSize = new(this, "contentSize");
-				}
-				return r_FcontentSize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 textureSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_FtextureSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFtextureSize
-		{
-			get
-			{
-				if(r_FtextureSize == null)
-				{
-					r_FtextureSize = new(this, "textureSize");
-				}
-				return r_FtextureSize;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 leftSlice
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FleftSlice;
@@ -456,22 +344,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector4 rectInset
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_FrectInset;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFrectInset
-		{
-			get
-			{
-				if(r_FrectInset == null)
-				{
-					r_FrectInset = new(this, "rectInset");
-				}
-				return r_FrectInset;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.ColorPage colorPage
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage r_FcolorPage;
@@ -536,18 +408,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void AdjustSpriteUVsForScaleMode(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Sprite, UnityEngine.ScaleMode, UnityEngine.Rect ByRef, UnityEngine.Rect ByRef)
+		/// Void AdjustSpriteUVsForScaleMode(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Texture, UnityEngine.Sprite, UnityEngine.ScaleMode, UnityEngine.Rect ByRef, UnityEngine.Rect ByRef)
 		/// </summary>
-		protected static RMethod r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect;
-		public static RMethod RMAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect
+		protected static RMethod r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect;
+		public static RMethod RMAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect
 		{
 			get
 			{
-				if(r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect == null)
+				if(r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect == null)
 				{
-					r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect = new(Type, "AdjustSpriteUVsForScaleMode", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
+					r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect = new(Type, "AdjustSpriteUVsForScaleMode", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Texture), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.Rect).MakeByRefType(), typeof(UnityEngine.Rect).MakeByRefType());
 				}
-				return r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect;
+				return r_MAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect;
 			}
 		}
 
@@ -632,18 +504,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// RectangleParams MakeSprite(UnityEngine.Rect, UnityEngine.Rect, UnityEngine.Sprite, UnityEngine.ScaleMode, UnityEngine.UIElements.ContextType, Boolean, UnityEngine.Vector4 ByRef, Boolean)
+		/// RectangleParams MakeSprite(UnityEngine.Rect, UnityEngine.Sprite, UnityEngine.ScaleMode, UnityEngine.UIElements.ContextType, Boolean, UnityEngine.Vector4 ByRef)
 		/// </summary>
-		protected static RMethod r_MMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean;
-		public static RMethod RMMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean
+		protected static RMethod r_MMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4;
+		public static RMethod RMMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4
 		{
 			get
 			{
-				if(r_MMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean == null)
+				if(r_MMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4 == null)
 				{
-					r_MMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean = new(Type, "MakeSprite", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Rect), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType), typeof(System.Boolean), typeof(UnityEngine.Vector4).MakeByRefType(), typeof(System.Boolean));
+					r_MMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4 = new(Type, "MakeSprite", 0, typeof(UnityEngine.Rect), typeof(UnityEngine.Sprite), typeof(UnityEngine.ScaleMode), typeof(UnityEngine.UIElements.ContextType), typeof(System.Boolean), typeof(UnityEngine.Vector4).MakeByRefType());
 				}
-				return r_MMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean;
+				return r_MMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4;
 			}
 		}
 
@@ -676,38 +548,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MHasRadius_Single = new(this, "HasRadius", 0, typeof(System.Single));
 				}
 				return r_MHasRadius_Single;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasSlices(Single)
-		/// </summary>
-		protected RMethod r_MHasSlices_Single;
-		public virtual RMethod RMHasSlices_Single
-		{
-			get
-			{
-				if(r_MHasSlices_Single == null)
-				{
-					r_MHasSlices_Single = new(this, "HasSlices", 0, typeof(System.Single));
-				}
-				return r_MHasSlices_Single;
-			}
-		}
-
-		/// <summary>
-		/// NativeRectParams ToNativeParams(UnityEngine.Rect)
-		/// </summary>
-		protected RMethod r_MToNativeParams_Rect;
-		public virtual RMethod RMToNativeParams_Rect
-		{
-			get
-			{
-				if(r_MToNativeParams_Rect == null)
-				{
-					r_MToNativeParams_Rect = new(this, "ToNativeParams", 0, typeof(UnityEngine.Rect));
-				}
-				return r_MToNativeParams_Rect;
 			}
 		}
 
@@ -834,16 +674,16 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static void AdjustSpriteUVsForScaleMode(UnityEngine.Rect @containerRect, UnityEngine.Rect @srcRect, UnityEngine.Rect @spriteGeomRect, UnityEngine.Sprite @sprite, UnityEngine.ScaleMode @scaleMode, out UnityEngine.Rect @rectOut, out UnityEngine.Rect @uvOut)
+        public static void AdjustSpriteUVsForScaleMode(UnityEngine.Rect @rect, UnityEngine.Rect @uv, UnityEngine.Rect @geomRect, UnityEngine.Texture @texture, UnityEngine.Sprite @sprite, UnityEngine.ScaleMode @scaleMode, out UnityEngine.Rect @rectOut, out UnityEngine.Rect @uvOut)
         {
 			@rectOut = default;
 			@uvOut = default;
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@containerRect, @srcRect, @spriteGeomRect, @sprite, @scaleMode, @rectOut, @uvOut};
-            var ___result = RMAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Sprite_ScaleMode_Out_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
-			@rectOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[5]);
-			@uvOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[6]);
+            var ___parameters = new object[]{@rect, @uv, @geomRect, @texture, @sprite, @scaleMode, @rectOut, @uvOut};
+            var ___result = RMAdjustSpriteUVsForScaleMode_Rect_Rect_Rect_Texture_Sprite_ScaleMode_Out_Rect_Out_Rect.Invoke(___genericsType, ___parameters);
+			@rectOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[6]);
+			@uvOut = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[7]);
 
             
         }
@@ -904,13 +744,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeSprite(UnityEngine.Rect @containerRect, UnityEngine.Rect @subRect, UnityEngine.Sprite @sprite, UnityEngine.ScaleMode @scaleMode, UnityEngine.UIElements.ContextType @panelContext, System.Boolean @hasRadius, ref UnityEngine.Vector4 @slices, System.Boolean @useForRepeat)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams MakeSprite(UnityEngine.Rect @rect, UnityEngine.Sprite @sprite, UnityEngine.ScaleMode @scaleMode, UnityEngine.UIElements.ContextType @panelContext, System.Boolean @hasRadius, ref UnityEngine.Vector4 @slices)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@containerRect, @subRect, @sprite, @scaleMode, @panelContext, @hasRadius, @slices, @useForRepeat};
-            var ___result = RMMakeSprite_Rect_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4_Boolean.Invoke(___genericsType, ___parameters);
-			@slices = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[6]);
+            var ___parameters = new object[]{@rect, @sprite, @scaleMode, @panelContext, @hasRadius, @slices};
+            var ___result = RMMakeSprite_Rect_Sprite_ScaleMode_ContextType_Boolean_Ref_Vector4.Invoke(___genericsType, ___parameters);
+			@slices = ReflectionUtils.Convert<UnityEngine.Vector4>(___parameters[5]);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams>(___result);
         }
@@ -935,28 +775,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMHasRadius_Single.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasSlices(System.Single @epsilon)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@epsilon};
-            var ___result = RMHasSlices_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams ToNativeParams(UnityEngine.Rect @uvRegion)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uvRegion};
-            var ___result = RMToNativeParams_Rect.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams>(___result);
         }
 
 

@@ -38,6 +38,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
+		/// System.String k_IncompatibleWarningMessage
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_IncompatibleWarningMessage;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_IncompatibleWarningMessage
+		{
+			get
+			{
+				if(r_Fk_IncompatibleWarningMessage == null)
+				{
+					r_Fk_IncompatibleWarningMessage = new(Type, "k_IncompatibleWarningMessage");
+				}
+				return r_Fk_IncompatibleWarningMessage;
+			}
+		}
+
+		/// <summary>
 		/// System.String m_ProductId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ProductId;
@@ -82,22 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_UpmVersionList = new(this, "m_UpmVersionList");
 				}
 				return r_Fm_UpmVersionList;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PlaceholderVersionList m_PlaceholderVersionList
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPlaceholderVersionList r_Fm_PlaceholderVersionList;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPlaceholderVersionList RFm_PlaceholderVersionList
-		{
-			get
-			{
-				if(r_Fm_PlaceholderVersionList == null)
-				{
-					r_Fm_PlaceholderVersionList = new(this, "m_PlaceholderVersionList");
-				}
-				return r_Fm_PlaceholderVersionList;
 			}
 		}
 
@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_IsHidden
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsHidden;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsHidden
-		{
-			get
-			{
-				if(r_Fm_IsHidden == null)
-				{
-					r_Fm_IsHidden = new(this, "m_IsHidden");
-				}
-				return r_Fm_IsHidden;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_Labels
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Labels;
@@ -210,86 +194,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_Name = new(this, "m_Name");
 				}
 				return r_Fm_Name;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_ProductDisplayName
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ProductDisplayName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ProductDisplayName
-		{
-			get
-			{
-				if(r_Fm_ProductDisplayName == null)
-				{
-					r_Fm_ProductDisplayName = new(this, "m_ProductDisplayName");
-				}
-				return r_Fm_ProductDisplayName;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_PublisherName
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PublisherName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PublisherName
-		{
-			get
-			{
-				if(r_Fm_PublisherName == null)
-				{
-					r_Fm_PublisherName = new(this, "m_PublisherName");
-				}
-				return r_Fm_PublisherName;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_PublisherLink
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PublisherLink;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PublisherLink
-		{
-			get
-			{
-				if(r_Fm_PublisherLink == null)
-				{
-					r_Fm_PublisherLink = new(this, "m_PublisherLink");
-				}
-				return r_Fm_PublisherLink;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_ProductDescription
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ProductDescription;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ProductDescription
-		{
-			get
-			{
-				if(r_Fm_ProductDescription == null)
-				{
-					r_Fm_ProductDescription = new(this, "m_ProductDescription");
-				}
-				return r_Fm_ProductDescription;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_PublishNotes
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PublishNotes;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PublishNotes
-		{
-			get
-			{
-				if(r_Fm_PublishNotes == null)
-				{
-					r_Fm_PublishNotes = new(this, "m_PublishNotes");
-				}
-				return r_Fm_PublishNotes;
 			}
 		}
 
@@ -374,22 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String productId
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PproductId;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPproductId
-		{
-			get
-			{
-				if(r_PproductId == null)
-				{
-					r_PproductId = new(this, "productId", -1);
-				}
-				return r_PproductId;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IVersionList versions
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIVersionList r_Pversions;
@@ -454,22 +342,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean isHidden
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisHidden;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisHidden
-		{
-			get
-			{
-				if(r_PisHidden == null)
-				{
-					r_PisHidden = new(this, "isHidden", -1);
-				}
-				return r_PisHidden;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.IEnumerable`1[System.String] labels
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> r_Plabels;
@@ -514,70 +386,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Pname = new(this, "name", -1);
 				}
 				return r_Pname;
-			}
-		}
-
-		/// <summary>
-		/// System.String publisherName
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PpublisherName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpublisherName
-		{
-			get
-			{
-				if(r_PpublisherName == null)
-				{
-					r_PpublisherName = new(this, "publisherName", -1);
-				}
-				return r_PpublisherName;
-			}
-		}
-
-		/// <summary>
-		/// System.String publisherLink
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PpublisherLink;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpublisherLink
-		{
-			get
-			{
-				if(r_PpublisherLink == null)
-				{
-					r_PpublisherLink = new(this, "publisherLink", -1);
-				}
-				return r_PpublisherLink;
-			}
-		}
-
-		/// <summary>
-		/// System.String productDescription
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PproductDescription;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPproductDescription
-		{
-			get
-			{
-				if(r_PproductDescription == null)
-				{
-					r_PproductDescription = new(this, "productDescription", -1);
-				}
-				return r_PproductDescription;
-			}
-		}
-
-		/// <summary>
-		/// System.String latestReleaseNotes
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PlatestReleaseNotes;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPlatestReleaseNotes
-		{
-			get
-			{
-				if(r_PlatestReleaseNotes == null)
-				{
-					r_PlatestReleaseNotes = new(this, "latestReleaseNotes", -1);
-				}
-				return r_PlatestReleaseNotes;
 			}
 		}
 
@@ -742,6 +550,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.IPackage Clone()
+		/// </summary>
+		protected RMethod r_MClone;
+		public virtual RMethod RMClone
+		{
+			get
+			{
+				if(r_MClone == null)
+				{
+					r_MClone = new(this, "Clone", 0);
+				}
+				return r_MClone;
+			}
+		}
+
+		/// <summary>
 		/// Void AddError(UnityEditor.PackageManager.UI.Internal.UIError)
 		/// </summary>
 		protected RMethod r_MAddError_UIError;
@@ -802,38 +626,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MGetDescriptor_Boolean = new(this, "GetDescriptor", 0, typeof(System.Boolean));
 				}
 				return r_MGetDescriptor_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void LinkPackageAndVersions()
-		/// </summary>
-		protected RMethod r_MLinkPackageAndVersions;
-		public virtual RMethod RMLinkPackageAndVersions
-		{
-			get
-			{
-				if(r_MLinkPackageAndVersions == null)
-				{
-					r_MLinkPackageAndVersions = new(this, "LinkPackageAndVersions", 0);
-				}
-				return r_MLinkPackageAndVersions;
-			}
-		}
-
-		/// <summary>
-		/// Void RefreshPackageTypeFromVersions()
-		/// </summary>
-		protected RMethod r_MRefreshPackageTypeFromVersions;
-		public virtual RMethod RMRefreshPackageTypeFromVersions
-		{
-			get
-			{
-				if(r_MRefreshPackageTypeFromVersions == null)
-				{
-					r_MRefreshPackageTypeFromVersions = new(this, "RefreshPackageTypeFromVersions", 0);
-				}
-				return r_MRefreshPackageTypeFromVersions;
 			}
 		}
 
@@ -945,6 +737,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
+        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage Clone()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMClone.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage>(___result);
+        }
+
+
         public virtual void AddError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
         {
 
@@ -986,28 +789,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMGetDescriptor_Boolean.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void LinkPackageAndVersions()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMLinkPackageAndVersions.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RefreshPackageTypeFromVersions()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefreshPackageTypeFromVersions.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

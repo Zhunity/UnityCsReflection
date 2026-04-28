@@ -118,54 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.Angle Gradians(Single)
-		/// </summary>
-		protected static RMethod r_MGradians_Single;
-		public static RMethod RMGradians_Single
-		{
-			get
-			{
-				if(r_MGradians_Single == null)
-				{
-					r_MGradians_Single = new(Type, "Gradians", 0, typeof(System.Single));
-				}
-				return r_MGradians_Single;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.Angle Radians(Single)
-		/// </summary>
-		protected static RMethod r_MRadians_Single;
-		public static RMethod RMRadians_Single
-		{
-			get
-			{
-				if(r_MRadians_Single == null)
-				{
-					r_MRadians_Single = new(Type, "Radians", 0, typeof(System.Single));
-				}
-				return r_MRadians_Single;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.Angle Turns(Single)
-		/// </summary>
-		protected static RMethod r_MTurns_Single;
-		public static RMethod RMTurns_Single
-		{
-			get
-			{
-				if(r_MTurns_Single == null)
-				{
-					r_MTurns_Single = new(Type, "Turns", 0, typeof(System.Single));
-				}
-				return r_MTurns_Single;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.Angle None()
 		/// </summary>
 		protected static RMethod r_MNone;
@@ -210,70 +162,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MToDegrees = new(this, "ToDegrees", 0);
 				}
 				return r_MToDegrees;
-			}
-		}
-
-		/// <summary>
-		/// Single ToGradians()
-		/// </summary>
-		protected RMethod r_MToGradians;
-		public virtual RMethod RMToGradians
-		{
-			get
-			{
-				if(r_MToGradians == null)
-				{
-					r_MToGradians = new(this, "ToGradians", 0);
-				}
-				return r_MToGradians;
-			}
-		}
-
-		/// <summary>
-		/// Single ToRadians()
-		/// </summary>
-		protected RMethod r_MToRadians;
-		public virtual RMethod RMToRadians
-		{
-			get
-			{
-				if(r_MToRadians == null)
-				{
-					r_MToRadians = new(this, "ToRadians", 0);
-				}
-				return r_MToRadians;
-			}
-		}
-
-		/// <summary>
-		/// Single ToTurns()
-		/// </summary>
-		protected RMethod r_MToTurns;
-		public virtual RMethod RMToTurns
-		{
-			get
-			{
-				if(r_MToTurns == null)
-				{
-					r_MToTurns = new(this, "ToTurns", 0);
-				}
-				return r_MToTurns;
-			}
-		}
-
-		/// <summary>
-		/// Void ConvertTo(UnityEngine.UIElements.AngleUnit)
-		/// </summary>
-		protected RMethod r_MConvertTo_AngleUnit;
-		public virtual RMethod RMConvertTo_AngleUnit
-		{
-			get
-			{
-				if(r_MConvertTo_AngleUnit == null)
-				{
-					r_MConvertTo_AngleUnit = new(this, "ConvertTo", 0, typeof(UnityEngine.UIElements.AngleUnit));
-				}
-				return r_MConvertTo_AngleUnit;
 			}
 		}
 
@@ -449,39 +337,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.Angle Gradians(System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMGradians_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.Angle Radians(System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMRadians_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.Angle Turns(System.Single @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMTurns_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Angle>(___result);
-        }
-
-
         public static UnityEngine.UIElements.Angle None()
         {
 
@@ -512,50 +367,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMToDegrees.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single ToGradians()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToGradians.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single ToRadians()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToRadians.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual System.Single ToTurns()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToTurns.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Single>(___result);
-        }
-
-
-        public virtual void ConvertTo(UnityEngine.UIElements.AngleUnit @newUnit)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@newUnit};
-            var ___result = RMConvertTo_AngleUnit.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

@@ -86,18 +86,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String publisherName
+		/// System.String author
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublisherName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublisherName
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fauthor;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFauthor
 		{
 			get
 			{
-				if(r_FpublisherName == null)
+				if(r_Fauthor == null)
 				{
-					r_FpublisherName = new(this, "publisherName");
+					r_Fauthor = new(this, "author");
 				}
-				return r_FpublisherName;
+				return r_Fauthor;
+			}
+		}
+
+		/// <summary>
+		/// System.String publisherId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublisherId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublisherId
+		{
+			get
+			{
+				if(r_FpublisherId == null)
+				{
+					r_FpublisherId = new(this, "publisherId");
+				}
+				return r_FpublisherId;
 			}
 		}
 
@@ -230,22 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String publisherLink
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_FpublisherLink;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFpublisherLink
-		{
-			get
-			{
-				if(r_FpublisherLink == null)
-				{
-					r_FpublisherLink = new(this, "publisherLink");
-				}
-				return r_FpublisherLink;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.PackageLink assetStoreLink
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink r_FassetStoreLink;
@@ -374,18 +374,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String CleanUpHtml(System.String, Boolean)
+		/// System.String CleanUpHtml(System.String)
 		/// </summary>
-		protected static RMethod r_MCleanUpHtml_String_Boolean;
-		public static RMethod RMCleanUpHtml_String_Boolean
+		protected static RMethod r_MCleanUpHtml_String;
+		public static RMethod RMCleanUpHtml_String
 		{
 			get
 			{
-				if(r_MCleanUpHtml_String_Boolean == null)
+				if(r_MCleanUpHtml_String == null)
 				{
-					r_MCleanUpHtml_String_Boolean = new(Type, "CleanUpHtml", 0, typeof(System.String), typeof(System.Boolean));
+					r_MCleanUpHtml_String = new(Type, "CleanUpHtml", 0, typeof(System.String));
 				}
-				return r_MCleanUpHtml_String_Boolean;
+				return r_MCleanUpHtml_String;
+			}
+		}
+
+		/// <summary>
+		/// System.String PrependProtocolIfNotPresent(System.String)
+		/// </summary>
+		protected RMethod r_MPrependProtocolIfNotPresent_String;
+		public virtual RMethod RMPrependProtocolIfNotPresent_String
+		{
+			get
+			{
+				if(r_MPrependProtocolIfNotPresent_String == null)
+				{
+					r_MPrependProtocolIfNotPresent_String = new(this, "PrependProtocolIfNotPresent", 0, typeof(System.String));
+				}
+				return r_MPrependProtocolIfNotPresent_String;
 			}
 		}
 
@@ -466,22 +482,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MGetPackageLink_String_String_String = new(this, "GetPackageLink", 0, typeof(System.String), typeof(System.String), typeof(System.String));
 				}
 				return r_MGetPackageLink_String_String_String;
-			}
-		}
-
-		/// <summary>
-		/// Boolean Equals(UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo)
-		/// </summary>
-		protected RMethod r_MEquals_AssetStoreProductInfo;
-		public virtual RMethod RMEquals_AssetStoreProductInfo
-		{
-			get
-			{
-				if(r_MEquals_AssetStoreProductInfo == null)
-				{
-					r_MEquals_AssetStoreProductInfo = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreProductInfo"));
-				}
-				return r_MEquals_AssetStoreProductInfo;
 			}
 		}
 
@@ -604,12 +604,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public static System.String CleanUpHtml(System.String @source, System.Boolean @removeEndOfLine)
+        public static System.String CleanUpHtml(System.String @source)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@source, @removeEndOfLine};
-            var ___result = RMCleanUpHtml_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@source};
+            var ___result = RMCleanUpHtml_String.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String>(___result);
+        }
+
+
+        public virtual System.String PrependProtocolIfNotPresent(System.String @url)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@url};
+            var ___result = RMPrependProtocolIfNotPresent_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
@@ -667,17 +678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMGetPackageLink_String_String_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageLink>(___result);
-        }
-
-
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreProductInfo @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMEquals_AssetStoreProductInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

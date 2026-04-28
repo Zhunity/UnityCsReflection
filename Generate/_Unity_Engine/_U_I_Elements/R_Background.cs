@@ -166,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.IEnumerable`1[System.Type] allowedAssetTypes
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> r_PallowedAssetTypes;
-		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> RPallowedAssetTypes
-		{
-			get
-			{
-				if(r_PallowedAssetTypes == null)
-				{
-					r_PallowedAssetTypes = new(Type, "allowedAssetTypes", -1);
-				}
-				return r_PallowedAssetTypes;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.Background FromTexture2D(UnityEngine.Texture2D)
 		/// </summary>
 		protected static RMethod r_MFromTexture2D_Texture2D;
@@ -290,22 +274,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Mop_Inequality_Background_Background = new(Type, "op_Inequality", 0, typeof(UnityEngine.UIElements.Background), typeof(UnityEngine.UIElements.Background));
 				}
 				return r_Mop_Inequality_Background_Background;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.Background op_Implicit(UnityEngine.Texture2D)
-		/// </summary>
-		protected static RMethod r_Mop_Implicit_Texture2D;
-		public static RMethod RMop_Implicit_Texture2D
-		{
-			get
-			{
-				if(r_Mop_Implicit_Texture2D == null)
-				{
-					r_Mop_Implicit_Texture2D = new(Type, "op_Implicit", 0, typeof(UnityEngine.Texture2D));
-				}
-				return r_Mop_Implicit_Texture2D;
 			}
 		}
 
@@ -496,17 +464,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMop_Inequality_Background_Background.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static UnityEngine.UIElements.Background op_Implicit(UnityEngine.Texture2D @v)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@v};
-            var ___result = RMop_Implicit_Texture2D.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.Background>(___result);
         }
 
 

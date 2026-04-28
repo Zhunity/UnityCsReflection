@@ -56,18 +56,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.StyleRule rule
+		/// UnityEngine.UIElements.StyleProperty[] properties
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule r_Frule;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleRule RFrule
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> r_Fproperties;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> RFproperties
 		{
 			get
 			{
-				if(r_Frule == null)
+				if(r_Fproperties == null)
 				{
-					r_Frule = new(this, "rule");
+					r_Fproperties = new(this, "properties");
 				}
-				return r_Frule;
+				return r_Fproperties;
 			}
 		}
 
@@ -84,22 +84,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_FpropertyIds = new(this, "propertyIds");
 				}
 				return r_FpropertyIds;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleProperty[] properties
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> r_Pproperties;
-		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleProperty> RPproperties
-		{
-			get
-			{
-				if(r_Pproperties == null)
-				{
-					r_Pproperties = new(this, "properties", -1);
-				}
-				return r_Pproperties;
 			}
 		}
 

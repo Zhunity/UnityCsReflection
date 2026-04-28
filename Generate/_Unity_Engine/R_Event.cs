@@ -198,54 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Single twist
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Ptwist;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPtwist
-		{
-			get
-			{
-				if(r_Ptwist == null)
-				{
-					r_Ptwist = new(this, "twist", -1);
-				}
-				return r_Ptwist;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 tilt
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Ptilt;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPtilt
-		{
-			get
-			{
-				if(r_Ptilt == null)
-				{
-					r_Ptilt = new(this, "tilt", -1);
-				}
-				return r_Ptilt;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.PenStatus penStatus
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RPenStatus r_PpenStatus;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RPenStatus RPpenStatus
-		{
-			get
-			{
-				if(r_PpenStatus == null)
-				{
-					r_PpenStatus = new(this, "penStatus", -1);
-				}
-				return r_PpenStatus;
-			}
-		}
-
-		/// <summary>
 		/// Int32 clickCount
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PclickCount;
@@ -918,38 +870,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void get_tilt_Injected(UnityEngine.Vector2 ByRef)
-		/// </summary>
-		protected RMethod r_Mget_tilt_Injected_Out_Vector2;
-		public virtual RMethod RMget_tilt_Injected_Out_Vector2
-		{
-			get
-			{
-				if(r_Mget_tilt_Injected_Out_Vector2 == null)
-				{
-					r_Mget_tilt_Injected_Out_Vector2 = new(this, "get_tilt_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-				}
-				return r_Mget_tilt_Injected_Out_Vector2;
-			}
-		}
-
-		/// <summary>
-		/// Void set_tilt_Injected(UnityEngine.Vector2 ByRef)
-		/// </summary>
-		protected RMethod r_Mset_tilt_Injected_Ref_Vector2;
-		public virtual RMethod RMset_tilt_Injected_Ref_Vector2
-		{
-			get
-			{
-				if(r_Mset_tilt_Injected_Ref_Vector2 == null)
-				{
-					r_Mset_tilt_Injected_Ref_Vector2 = new(this, "set_tilt_Injected", 0, typeof(UnityEngine.Vector2).MakeByRefType());
-				}
-				return r_Mset_tilt_Injected_Ref_Vector2;
-			}
-		}
-
-		/// <summary>
 		/// System.Type GetType()
 		/// </summary>
 		protected RMethod r_MGetType;
@@ -1235,31 +1155,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@value};
             var ___result = RMset_delta_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
-			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual void get_tilt_Injected(out UnityEngine.Vector2 @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_tilt_Injected_Out_Vector2.Invoke(___genericsType, ___parameters);
-			@ret = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual void set_tilt_Injected(ref UnityEngine.Vector2 @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMset_tilt_Injected_Ref_Vector2.Invoke(___genericsType, ___parameters);
 			@value = ReflectionUtils.Convert<UnityEngine.Vector2>(___parameters[0]);
 
             

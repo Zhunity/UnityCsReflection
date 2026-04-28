@@ -70,22 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.IPackageVersion[] <versions>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageVersion> r_F__0__versions__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageVersion> RF__0__versions__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__versions__1__k__BackingField == null)
-				{
-					r_F__0__versions__1__k__BackingField = new(this, "<versions>k__BackingField");
-				}
-				return r_F__0__versions__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.IWindow <window>k__BackingField
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIWindow r_F__0__window__1__k__BackingField;
@@ -130,22 +114,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 					r_PpackageVersion = new(this, "packageVersion", -1);
 				}
 				return r_PpackageVersion;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.IPackageVersion[] versions
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageVersion> r_Pversions;
-		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackageVersion> RPversions
-		{
-			get
-			{
-				if(r_Pversions == null)
-				{
-					r_Pversions = new(this, "versions", -1);
-				}
-				return r_Pversions;
 			}
 		}
 

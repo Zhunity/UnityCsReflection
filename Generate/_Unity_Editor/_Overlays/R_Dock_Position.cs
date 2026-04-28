@@ -15,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         {
             get
             {
-                return typeof(UnityEditor.Overlays.DockPosition);
+                return  ReflectionUtils.GetType("UnityEditor.Overlays.DockPosition");
             }
         }
 

@@ -70,34 +70,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// System.String m_Recommended
+		/// System.String m_Verified
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Recommended;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Recommended
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Verified;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Verified
 		{
 			get
 			{
-				if(r_Fm_Recommended == null)
+				if(r_Fm_Verified == null)
 				{
-					r_Fm_Recommended = new(this, "m_Recommended");
+					r_Fm_Verified = new(this, "m_Verified");
 				}
-				return r_Fm_Recommended;
-			}
-		}
-
-		/// <summary>
-		/// System.String[] m_Deprecated
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Deprecated;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_Deprecated
-		{
-			get
-			{
-				if(r_Fm_Deprecated == null)
-				{
-					r_Fm_Deprecated = new(this, "m_Deprecated");
-				}
-				return r_Fm_Deprecated;
+				return r_Fm_Verified;
 			}
 		}
 
@@ -134,38 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// System.String recommended
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Precommended;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPrecommended
-		{
-			get
-			{
-				if(r_Precommended == null)
-				{
-					r_Precommended = new(this, "recommended", -1);
-				}
-				return r_Precommended;
-			}
-		}
-
-		/// <summary>
-		/// System.String[] deprecated
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> r_Pdeprecated;
-		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RString> RPdeprecated
-		{
-			get
-			{
-				if(r_Pdeprecated == null)
-				{
-					r_Pdeprecated = new(this, "deprecated", -1);
-				}
-				return r_Pdeprecated;
-			}
-		}
-
-		/// <summary>
 		/// System.String verified
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Pverified;
@@ -178,6 +130,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 					r_Pverified = new(this, "verified", -1);
 				}
 				return r_Pverified;
+			}
+		}
+
+		/// <summary>
+		/// System.String recommended
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Precommended;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPrecommended
+		{
+			get
+			{
+				if(r_Precommended == null)
+				{
+					r_Precommended = new(this, "recommended", -1);
+				}
+				return r_Precommended;
 			}
 		}
 

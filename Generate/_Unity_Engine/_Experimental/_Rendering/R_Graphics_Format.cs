@@ -2406,22 +2406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// UnityEngine.Experimental.Rendering.GraphicsFormat D16_UNorm_S8_UInt
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat r_FD16_UNorm_S8_UInt;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RGraphicsFormat RFD16_UNorm_S8_UInt
-		{
-			get
-			{
-				if(r_FD16_UNorm_S8_UInt == null)
-				{
-					r_FD16_UNorm_S8_UInt = new(Type, "D16_UNorm_S8_UInt");
-				}
-				return r_FD16_UNorm_S8_UInt;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

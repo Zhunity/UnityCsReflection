@@ -88,6 +88,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
+		/// UnityEngine.Texture custom
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Fcustom;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFcustom
+		{
+			get
+			{
+				if(r_Fcustom == null)
+				{
+					r_Fcustom = new(this, "custom");
+				}
+				return r_Fcustom;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.Texture font
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture r_Ffont;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture RFfont
+		{
+			get
+			{
+				if(r_Ffont == null)
+				{
+					r_Ffont = new(this, "font");
+				}
+				return r_Ffont;
+			}
+		}
+
+		/// <summary>
 		/// System.Single fontTexSDFScale
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FfontTexSDFScale;

@@ -150,18 +150,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.PropagationPaths Build(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.EventBase)
+		/// UnityEngine.UIElements.PropagationPaths Build(UnityEngine.UIElements.VisualElement, UnityEngine.UIElements.EventBase, Type)
 		/// </summary>
-		protected static RMethod r_MBuild_VisualElement_EventBase;
-		public static RMethod RMBuild_VisualElement_EventBase
+		protected static RMethod r_MBuild_VisualElement_EventBase_Type;
+		public static RMethod RMBuild_VisualElement_EventBase_Type
 		{
 			get
 			{
-				if(r_MBuild_VisualElement_EventBase == null)
+				if(r_MBuild_VisualElement_EventBase_Type == null)
 				{
-					r_MBuild_VisualElement_EventBase = new(Type, "Build", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.UIElements.EventBase));
+					r_MBuild_VisualElement_EventBase_Type = new(Type, "Build", 0, typeof(UnityEngine.UIElements.VisualElement), typeof(UnityEngine.UIElements.EventBase),  ReflectionUtils.GetType("UnityEngine.UIElements.PropagationPaths+Type"));
 				}
-				return r_MBuild_VisualElement_EventBase;
+				return r_MBuild_VisualElement_EventBase_Type;
 			}
 		}
 
@@ -289,12 +289,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Build(UnityEngine.UIElements.VisualElement @elem, UnityEngine.UIElements.EventBase @evt)
+        public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths Build(UnityEngine.UIElements.VisualElement @elem, UnityEngine.UIElements.EventBase @evt, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths.RType @pathTypesRequested)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@elem, @evt};
-            var ___result = RMBuild_VisualElement_EventBase.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@elem, @evt, @pathTypesRequested.Value};
+            var ___result = RMBuild_VisualElement_EventBase_Type.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths>(___result);
         }

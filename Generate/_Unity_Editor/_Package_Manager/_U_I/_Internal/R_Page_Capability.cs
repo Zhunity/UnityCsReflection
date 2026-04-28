@@ -118,6 +118,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.PageCapability+ConditionalOrdering[] conditionalOrderingValues
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.RConditionalOrdering> r_FconditionalOrderingValues;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageCapability.RConditionalOrdering> RFconditionalOrderingValues
+		{
+			get
+			{
+				if(r_FconditionalOrderingValues == null)
+				{
+					r_FconditionalOrderingValues = new(this, "conditionalOrderingValues");
+				}
+				return r_FconditionalOrderingValues;
+			}
+		}
+
+		/// <summary>
 		/// System.String ToString()
 		/// </summary>
 		protected RMethod r_MToString;

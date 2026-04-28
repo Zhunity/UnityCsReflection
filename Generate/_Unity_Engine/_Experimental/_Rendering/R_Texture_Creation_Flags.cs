@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 		}
 
 		/// <summary>
-		/// UnityEngine.Experimental.Rendering.TextureCreationFlags DontInitializePixels
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FDontInitializePixels;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFDontInitializePixels
-		{
-			get
-			{
-				if(r_FDontInitializePixels == null)
-				{
-					r_FDontInitializePixels = new(Type, "DontInitializePixels");
-				}
-				return r_FDontInitializePixels;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Experimental.Rendering.TextureCreationFlags Crunch
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FCrunch;
@@ -114,38 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering
 					r_FCrunch = new(Type, "Crunch");
 				}
 				return r_FCrunch;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Experimental.Rendering.TextureCreationFlags DontUploadUponCreate
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FDontUploadUponCreate;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFDontUploadUponCreate
-		{
-			get
-			{
-				if(r_FDontUploadUponCreate == null)
-				{
-					r_FDontUploadUponCreate = new(Type, "DontUploadUponCreate");
-				}
-				return r_FDontUploadUponCreate;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Experimental.Rendering.TextureCreationFlags IgnoreMipmapLimit
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags r_FIgnoreMipmapLimit;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RExperimental.RRendering.RTextureCreationFlags RFIgnoreMipmapLimit
-		{
-			get
-			{
-				if(r_FIgnoreMipmapLimit == null)
-				{
-					r_FIgnoreMipmapLimit = new(Type, "IgnoreMipmapLimit");
-				}
-				return r_FIgnoreMipmapLimit;
 			}
 		}
 

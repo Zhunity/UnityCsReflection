@@ -102,6 +102,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion latestPatch
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion r_PlatestPatch;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion RPlatestPatch
+		{
+			get
+			{
+				if(r_PlatestPatch == null)
+				{
+					r_PlatestPatch = new(this, "latestPatch", -1);
+				}
+				return r_PlatestPatch;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion importAvailable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion r_PimportAvailable;
@@ -210,22 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PnumUnloadedVersions = new(this, "numUnloadedVersions", -1);
 				}
 				return r_PnumUnloadedVersions;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion GetUpdateTarget(UnityEditor.PackageManager.UI.Internal.IPackageVersion)
-		/// </summary>
-		protected RMethod r_MGetUpdateTarget_IPackageVersion;
-		public virtual RMethod RMGetUpdateTarget_IPackageVersion
-		{
-			get
-			{
-				if(r_MGetUpdateTarget_IPackageVersion == null)
-				{
-					r_MGetUpdateTarget_IPackageVersion = new(this, "GetUpdateTarget", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
-				}
-				return r_MGetUpdateTarget_IPackageVersion;
 			}
 		}
 
@@ -356,17 +356,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 				return r_MToString;
 			}
 		}
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetUpdateTarget(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@version.Value};
-            var ___result = RMGetUpdateTarget_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
-        }
 
 
         public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerator<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion> GetEnumerator()

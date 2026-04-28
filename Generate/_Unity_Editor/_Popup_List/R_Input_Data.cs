@@ -232,22 +232,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void AddElement(System.String, System.String[])
-		/// </summary>
-		protected RMethod r_MAddElement_String_StringArray;
-		public virtual RMethod RMAddElement_String_StringArray
-		{
-			get
-			{
-				if(r_MAddElement_String_StringArray == null)
-				{
-					r_MAddElement_String_StringArray = new(this, "AddElement", 0, typeof(System.String), typeof(System.String).MakeArrayType());
-				}
-				return r_MAddElement_String_StringArray;
-			}
-		}
-
-		/// <summary>
 		/// ListElement NewOrMatchingElement(System.String)
 		/// </summary>
 		protected RMethod r_MNewOrMatchingElement_String;
@@ -412,17 +396,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMGetFilteredCount_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void AddElement(System.String @label, System.String[] @types)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@label, @types};
-            var ___result = RMAddElement_String_StringArray.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

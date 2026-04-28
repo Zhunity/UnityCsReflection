@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle m_Safety
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle r_Fm_Safety;
-		public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe.RAtomicSafetyHandle RFm_Safety
-		{
-			get
-			{
-				if(r_Fm_Safety == null)
-				{
-					r_Fm_Safety = new(this, "m_Safety");
-				}
-				return r_Fm_Safety;
-			}
-		}
-
-		/// <summary>
 		/// Int32 count
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pcount;
@@ -114,38 +98,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_Ptarget = new(this, "target", -1);
 				}
 				return r_Ptarget;
-			}
-		}
-
-		/// <summary>
-		/// UsageFlags usageFlags
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RUsageFlags r_PusageFlags;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RUsageFlags RPusageFlags
-		{
-			get
-			{
-				if(r_PusageFlags == null)
-				{
-					r_PusageFlags = new(this, "usageFlags", -1);
-				}
-				return r_PusageFlags;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.GraphicsBufferHandle bufferHandle
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBufferHandle r_PbufferHandle;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBufferHandle RPbufferHandle
-		{
-			get
-			{
-				if(r_PbufferHandle == null)
-				{
-					r_PbufferHandle = new(this, "bufferHandle", -1);
-				}
-				return r_PbufferHandle;
 			}
 		}
 
@@ -246,18 +198,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// IntPtr InitBuffer(Target, UsageFlags, Int32, Int32)
+		/// IntPtr InitBuffer(Target, Int32, Int32)
 		/// </summary>
-		protected static RMethod r_MInitBuffer_Target_UsageFlags_Int32_Int32;
-		public static RMethod RMInitBuffer_Target_UsageFlags_Int32_Int32
+		protected static RMethod r_MInitBuffer_Target_Int32_Int32;
+		public static RMethod RMInitBuffer_Target_Int32_Int32
 		{
 			get
 			{
-				if(r_MInitBuffer_Target_UsageFlags_Int32_Int32 == null)
+				if(r_MInitBuffer_Target_Int32_Int32 == null)
 				{
-					r_MInitBuffer_Target_UsageFlags_Int32_Int32 = new(Type, "InitBuffer", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"),  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+UsageFlags"), typeof(System.Int32), typeof(System.Int32));
+					r_MInitBuffer_Target_Int32_Int32 = new(Type, "InitBuffer", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"), typeof(System.Int32), typeof(System.Int32));
 				}
-				return r_MInitBuffer_Target_UsageFlags_Int32_Int32;
+				return r_MInitBuffer_Target_Int32_Int32;
 			}
 		}
 
@@ -274,22 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MDestroyBuffer_GraphicsBuffer = new(Type, "DestroyBuffer", 0, typeof(UnityEngine.GraphicsBuffer));
 				}
 				return r_MDestroyBuffer_GraphicsBuffer;
-			}
-		}
-
-		/// <summary>
-		/// Void InternalInitialization(Target, UsageFlags, Int32, Int32)
-		/// </summary>
-		protected RMethod r_MInternalInitialization_Target_UsageFlags_Int32_Int32;
-		public virtual RMethod RMInternalInitialization_Target_UsageFlags_Int32_Int32
-		{
-			get
-			{
-				if(r_MInternalInitialization_Target_UsageFlags_Int32_Int32 == null)
-				{
-					r_MInternalInitialization_Target_UsageFlags_Int32_Int32 = new(this, "InternalInitialization", 0,  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+Target"),  ReflectionUtils.GetType("UnityEngine.GraphicsBuffer+UsageFlags"), typeof(System.Int32), typeof(System.Int32));
-				}
-				return r_MInternalInitialization_Target_UsageFlags_Int32_Int32;
 			}
 		}
 
@@ -338,22 +274,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MIsValid = new(this, "IsValid", 0);
 				}
 				return r_MIsValid;
-			}
-		}
-
-		/// <summary>
-		/// UsageFlags GetUsageFlags()
-		/// </summary>
-		protected RMethod r_MGetUsageFlags;
-		public virtual RMethod RMGetUsageFlags
-		{
-			get
-			{
-				if(r_MGetUsageFlags == null)
-				{
-					r_MGetUsageFlags = new(this, "GetUsageFlags", 0);
-				}
-				return r_MGetUsageFlags;
 			}
 		}
 
@@ -550,70 +470,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void* BeginBufferWrite(Int32, Int32)
-		/// </summary>
-		protected RMethod r_MBeginBufferWrite_Int32_Int32;
-		public virtual RMethod RMBeginBufferWrite_Int32_Int32
-		{
-			get
-			{
-				if(r_MBeginBufferWrite_Int32_Int32 == null)
-				{
-					r_MBeginBufferWrite_Int32_Int32 = new(this, "BeginBufferWrite", 0, typeof(System.Int32), typeof(System.Int32));
-				}
-				return r_MBeginBufferWrite_Int32_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Unity.Collections.NativeArray`1[T] LockBufferForWrite[T](Int32, Int32)
-		/// </summary>
-		protected RMethod r_MLockBufferForWrite_GT_Int32_Int32;
-		public virtual RMethod RMLockBufferForWrite_GT_Int32_Int32
-		{
-			get
-			{
-				if(r_MLockBufferForWrite_GT_Int32_Int32 == null)
-				{
-					r_MLockBufferForWrite_GT_Int32_Int32 = new(this, "LockBufferForWrite", 1, typeof(System.Int32), typeof(System.Int32));
-				}
-				return r_MLockBufferForWrite_GT_Int32_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void EndBufferWrite(Int32)
-		/// </summary>
-		protected RMethod r_MEndBufferWrite_Int32;
-		public virtual RMethod RMEndBufferWrite_Int32
-		{
-			get
-			{
-				if(r_MEndBufferWrite_Int32 == null)
-				{
-					r_MEndBufferWrite_Int32 = new(this, "EndBufferWrite", 0, typeof(System.Int32));
-				}
-				return r_MEndBufferWrite_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void UnlockBufferAfterWrite[T](Int32)
-		/// </summary>
-		protected RMethod r_MUnlockBufferAfterWrite_GT_Int32;
-		public virtual RMethod RMUnlockBufferAfterWrite_GT_Int32
-		{
-			get
-			{
-				if(r_MUnlockBufferAfterWrite_GT_Int32 == null)
-				{
-					r_MUnlockBufferAfterWrite_GT_Int32 = new(this, "UnlockBufferAfterWrite", 1, typeof(System.Int32));
-				}
-				return r_MUnlockBufferAfterWrite_GT_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void SetName(System.String)
 		/// </summary>
 		protected RMethod r_MSetName_String;
@@ -806,22 +662,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void get_bufferHandle_Injected(UnityEngine.GraphicsBufferHandle ByRef)
-		/// </summary>
-		protected RMethod r_Mget_bufferHandle_Injected_Out_GraphicsBufferHandle;
-		public virtual RMethod RMget_bufferHandle_Injected_Out_GraphicsBufferHandle
-		{
-			get
-			{
-				if(r_Mget_bufferHandle_Injected_Out_GraphicsBufferHandle == null)
-				{
-					r_Mget_bufferHandle_Injected_Out_GraphicsBufferHandle = new(this, "get_bufferHandle_Injected", 0, typeof(UnityEngine.GraphicsBufferHandle).MakeByRefType());
-				}
-				return r_Mget_bufferHandle_Injected_Out_GraphicsBufferHandle;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -957,12 +797,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public static System.IntPtr InitBuffer(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target, Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RUsageFlags @usageFlags, System.Int32 @count, System.Int32 @stride)
+        public static System.IntPtr InitBuffer(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target, System.Int32 @count, System.Int32 @stride)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target.Value, @usageFlags.Value, @count, @stride};
-            var ___result = RMInitBuffer_Target_UsageFlags_Int32_Int32.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@target.Value, @count, @stride};
+            var ___result = RMInitBuffer_Target_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.IntPtr>(___result);
         }
@@ -974,17 +814,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@buf};
             var ___result = RMDestroyBuffer_GraphicsBuffer.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InternalInitialization(Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RTarget @target, Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RUsageFlags @usageFlags, System.Int32 @count, System.Int32 @stride)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target.Value, @usageFlags.Value, @count, @stride};
-            var ___result = RMInternalInitialization_Target_UsageFlags_Int32_Int32.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1020,17 +849,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMIsValid.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RUsageFlags GetUsageFlags()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetUsageFlags.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RGraphicsBuffer.RUsageFlags>(___result);
         }
 
 
@@ -1166,50 +984,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public unsafe virtual void* BeginBufferWrite(System.Int32 @offset, System.Int32 @size)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@offset, @size};
-            var ___result = RMBeginBufferWrite_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return (void*)Pointer.Unbox(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType> LockBufferForWrite<T>(System.Int32 @bufferStartIndex, System.Int32 @count) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@bufferStartIndex, @count};
-            var ___result = RMLockBufferForWrite_GT_Int32_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RType>>(___result);
-        }
-
-
-        public virtual void EndBufferWrite(System.Int32 @bytesWritten)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bytesWritten};
-            var ___result = RMEndBufferWrite_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnlockBufferAfterWrite<T>(System.Int32 @countWritten) where T : struct
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@countWritten};
-            var ___result = RMUnlockBufferAfterWrite_GT_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void SetName(System.String @name)
         {
 
@@ -1337,19 +1111,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRemoveBufferFromLeakDetector.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void get_bufferHandle_Injected(out UnityEngine.GraphicsBufferHandle @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@ret};
-            var ___result = RMget_bufferHandle_Injected_Out_GraphicsBufferHandle.Invoke(___genericsType, ___parameters);
-			@ret = ReflectionUtils.Convert<UnityEngine.GraphicsBufferHandle>(___parameters[0]);
 
             
         }

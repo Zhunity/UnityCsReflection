@@ -198,22 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void ClearItems()
-		/// </summary>
-		protected RMethod r_MClearItems;
-		public virtual RMethod RMClearItems
-		{
-			get
-			{
-				if(r_MClearItems == null)
-				{
-					r_MClearItems = new(this, "ClearItems", 0);
-				}
-				return r_MClearItems;
-			}
-		}
-
-		/// <summary>
 		/// Void PrepareForDisplay(UnityEngine.UIElements.EventBase)
 		/// </summary>
 		protected RMethod r_MPrepareForDisplay_EventBase;
@@ -409,17 +393,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMRemoveItemAt_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearItems()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearItems.Invoke(___genericsType, ___parameters);
 
             
         }

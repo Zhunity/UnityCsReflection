@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.ColorSpace colorSpace
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RColorSpace r_PcolorSpace;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RColorSpace RPcolorSpace
-		{
-			get
-			{
-				if(r_PcolorSpace == null)
-				{
-					r_PcolorSpace = new(this, "colorSpace", -1);
-				}
-				return r_PcolorSpace;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Color constantColor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RColor r_PconstantColor;

@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem m_CurrentContextTree
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Fm_CurrentContextTree;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem RFm_CurrentContextTree
-		{
-			get
-			{
-				if(r_Fm_CurrentContextTree == null)
-				{
-					r_Fm_CurrentContextTree = new(this, "m_CurrentContextTree");
-				}
-				return r_Fm_CurrentContextTree;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[System.Int32] m_SelectedIDs
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SelectedIDs;
@@ -118,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// System.Boolean <CurrentFolderContextualSearch>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__CurrentFolderContextualSearch__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__CurrentFolderContextualSearch__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__CurrentFolderContextualSearch__1__k__BackingField == null)
-				{
-					r_F__0__CurrentFolderContextualSearch__1__k__BackingField = new(this, "<CurrentFolderContextualSearch>k__BackingField");
-				}
-				return r_F__0__CurrentFolderContextualSearch__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] m_SearchableElements
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_Fm_SearchableElements;
@@ -146,38 +114,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_Fm_SearchableElements = new(this, "m_SearchableElements");
 				}
 				return r_Fm_SearchableElements;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.IMGUI.Controls.AdvancedDropdownDataSource+SearchMatchItemHandler searchMatchItem
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource.RSearchMatchItemHandler r_FsearchMatchItem;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownDataSource.RSearchMatchItemHandler RFsearchMatchItem
-		{
-			get
-			{
-				if(r_FsearchMatchItem == null)
-				{
-					r_FsearchMatchItem = new(this, "searchMatchItem");
-				}
-				return r_FsearchMatchItem;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.IComparer`1[UnityEditor.IMGUI.Controls.AdvancedDropdownItem] searchMatchItemComparer
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> r_FsearchMatchItemComparer;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIComparer<Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem> RFsearchMatchItemComparer
-		{
-			get
-			{
-				if(r_FsearchMatchItemComparer == null)
-				{
-					r_FsearchMatchItemComparer = new(this, "searchMatchItemComparer");
-				}
-				return r_FsearchMatchItemComparer;
 			}
 		}
 
@@ -230,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// Boolean CurrentFolderContextualSearch
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PCurrentFolderContextualSearch;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPCurrentFolderContextualSearch
-		{
-			get
-			{
-				if(r_PCurrentFolderContextualSearch == null)
-				{
-					r_PCurrentFolderContextualSearch = new(this, "CurrentFolderContextualSearch", -1);
-				}
-				return r_PCurrentFolderContextualSearch;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.IMGUI.Controls.AdvancedDropdownItem root
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls.RAdvancedDropdownItem r_Proot;
@@ -294,18 +214,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// Void RebuildSearch(System.String, UnityEditor.IMGUI.Controls.AdvancedDropdownItem)
+		/// Void RebuildSearch(System.String)
 		/// </summary>
-		protected RMethod r_MRebuildSearch_String_AdvancedDropdownItem;
-		public virtual RMethod RMRebuildSearch_String_AdvancedDropdownItem
+		protected RMethod r_MRebuildSearch_String;
+		public virtual RMethod RMRebuildSearch_String
 		{
 			get
 			{
-				if(r_MRebuildSearch_String_AdvancedDropdownItem == null)
+				if(r_MRebuildSearch_String == null)
 				{
-					r_MRebuildSearch_String_AdvancedDropdownItem = new(this, "RebuildSearch", 0, typeof(System.String), typeof(UnityEditor.IMGUI.Controls.AdvancedDropdownItem));
+					r_MRebuildSearch_String = new(this, "RebuildSearch", 0, typeof(System.String));
 				}
-				return r_MRebuildSearch_String_AdvancedDropdownItem;
+				return r_MRebuildSearch_String;
 			}
 		}
 
@@ -492,12 +412,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void RebuildSearch(System.String @search, UnityEditor.IMGUI.Controls.AdvancedDropdownItem @currentTree)
+        public virtual void RebuildSearch(System.String @search)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@search, @currentTree};
-            var ___result = RMRebuildSearch_String_AdvancedDropdownItem.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@search};
+            var ___result = RMRebuildSearch_String.Invoke(___genericsType, ___parameters);
 
             
         }

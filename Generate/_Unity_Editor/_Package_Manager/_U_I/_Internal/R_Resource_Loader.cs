@@ -54,66 +54,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Int32[] s_ResolvedDarkStyleSheetIds
+		/// UnityEngine.UIElements.StyleSheet[] m_ResolvedDarkStyleSheets
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fs_ResolvedDarkStyleSheetIds;
-		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFs_ResolvedDarkStyleSheetIds
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> r_Fm_ResolvedDarkStyleSheets;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> RFm_ResolvedDarkStyleSheets
 		{
 			get
 			{
-				if(r_Fs_ResolvedDarkStyleSheetIds == null)
+				if(r_Fm_ResolvedDarkStyleSheets == null)
 				{
-					r_Fs_ResolvedDarkStyleSheetIds = new(Type, "s_ResolvedDarkStyleSheetIds");
+					r_Fm_ResolvedDarkStyleSheets = new(this, "m_ResolvedDarkStyleSheets");
 				}
-				return r_Fs_ResolvedDarkStyleSheetIds;
+				return r_Fm_ResolvedDarkStyleSheets;
 			}
 		}
 
 		/// <summary>
-		/// System.Int32[] s_ResolvedLightStyleSheetIds
+		/// UnityEngine.UIElements.StyleSheet[] m_ResolvedLightStyleSheets
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fs_ResolvedLightStyleSheetIds;
-		public static Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFs_ResolvedLightStyleSheetIds
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> r_Fm_ResolvedLightStyleSheets;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> RFm_ResolvedLightStyleSheets
 		{
 			get
 			{
-				if(r_Fs_ResolvedLightStyleSheetIds == null)
+				if(r_Fm_ResolvedLightStyleSheets == null)
 				{
-					r_Fs_ResolvedLightStyleSheetIds = new(Type, "s_ResolvedLightStyleSheetIds");
+					r_Fm_ResolvedLightStyleSheets = new(this, "m_ResolvedLightStyleSheets");
 				}
-				return r_Fs_ResolvedLightStyleSheetIds;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32[] m_SerializedResolvedDarkStyleSheetIds
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SerializedResolvedDarkStyleSheetIds;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_SerializedResolvedDarkStyleSheetIds
-		{
-			get
-			{
-				if(r_Fm_SerializedResolvedDarkStyleSheetIds == null)
-				{
-					r_Fm_SerializedResolvedDarkStyleSheetIds = new(this, "m_SerializedResolvedDarkStyleSheetIds");
-				}
-				return r_Fm_SerializedResolvedDarkStyleSheetIds;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32[] m_SerializedResolvedLightStyleSheetIds
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_SerializedResolvedLightStyleSheetIds;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_SerializedResolvedLightStyleSheetIds
-		{
-			get
-			{
-				if(r_Fm_SerializedResolvedLightStyleSheetIds == null)
-				{
-					r_Fm_SerializedResolvedLightStyleSheetIds = new(this, "m_SerializedResolvedLightStyleSheetIds");
-				}
-				return r_Fm_SerializedResolvedLightStyleSheetIds;
+				return r_Fm_ResolvedLightStyleSheets;
 			}
 		}
 
@@ -134,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy m_ApplicationProxy
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_ApplicationProxy;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_ApplicationProxy
-		{
-			get
-			{
-				if(r_Fm_ApplicationProxy == null)
-				{
-					r_Fm_ApplicationProxy = new(this, "m_ApplicationProxy");
-				}
-				return r_Fm_ApplicationProxy;
-			}
-		}
-
-		/// <summary>
 		/// System.String lightOrDarkTheme
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RString r_PlightOrDarkTheme;
@@ -166,18 +118,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Int32[] resolvedStyleSheetIds
+		/// UnityEngine.UIElements.StyleSheet[] resolvedStyleSheets
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> r_PresolvedStyleSheetIds;
-		public static Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RSystem.RInt32> RPresolvedStyleSheetIds
+		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> r_PresolvedStyleSheets;
+		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet> RPresolvedStyleSheets
 		{
 			get
 			{
-				if(r_PresolvedStyleSheetIds == null)
+				if(r_PresolvedStyleSheets == null)
 				{
-					r_PresolvedStyleSheetIds = new(Type, "resolvedStyleSheetIds", -1);
+					r_PresolvedStyleSheets = new(this, "resolvedStyleSheets", -1);
 				}
-				return r_PresolvedStyleSheetIds;
+				return r_PresolvedStyleSheets;
 			}
 		}
 
@@ -246,130 +198,50 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.StyleSheet inProgressDropdownStyleSheet
+		/// UnityEngine.UIElements.StyleSheet ResolveStyleSheets(System.String[])
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet r_PinProgressDropdownStyleSheet;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheet RPinProgressDropdownStyleSheet
+		protected static RMethod r_MResolveStyleSheets_StringArray;
+		public static RMethod RMResolveStyleSheets_StringArray
 		{
 			get
 			{
-				if(r_PinProgressDropdownStyleSheet == null)
+				if(r_MResolveStyleSheets_StringArray == null)
 				{
-					r_PinProgressDropdownStyleSheet = new(this, "inProgressDropdownStyleSheet", -1);
+					r_MResolveStyleSheets_StringArray = new(Type, "ResolveStyleSheets", 0, typeof(System.String).MakeArrayType());
 				}
-				return r_PinProgressDropdownStyleSheet;
+				return r_MResolveStyleSheets_StringArray;
 			}
 		}
 
 		/// <summary>
-		/// Void OnBeforeSerialize()
+		/// UnityEngine.UIElements.StyleSheet ResolveStyleSheets(UnityEngine.UIElements.StyleSheet[])
 		/// </summary>
-		protected RMethod r_MOnBeforeSerialize;
-		public virtual RMethod RMOnBeforeSerialize
+		protected static RMethod r_MResolveStyleSheets_StyleSheetArray;
+		public static RMethod RMResolveStyleSheets_StyleSheetArray
 		{
 			get
 			{
-				if(r_MOnBeforeSerialize == null)
+				if(r_MResolveStyleSheets_StyleSheetArray == null)
 				{
-					r_MOnBeforeSerialize = new(this, "OnBeforeSerialize", 0);
+					r_MResolveStyleSheets_StyleSheetArray = new(Type, "ResolveStyleSheets", 0, typeof(UnityEngine.UIElements.StyleSheet).MakeArrayType());
 				}
-				return r_MOnBeforeSerialize;
+				return r_MResolveStyleSheets_StyleSheetArray;
 			}
 		}
 
 		/// <summary>
-		/// Void OnAfterDeserialize()
+		/// UnityEngine.UIElements.VisualElement GetTemplate(System.String)
 		/// </summary>
-		protected RMethod r_MOnAfterDeserialize;
-		public virtual RMethod RMOnAfterDeserialize
+		protected RMethod r_MGetTemplate_String;
+		public virtual RMethod RMGetTemplate_String
 		{
 			get
 			{
-				if(r_MOnAfterDeserialize == null)
+				if(r_MGetTemplate_String == null)
 				{
-					r_MOnAfterDeserialize = new(this, "OnAfterDeserialize", 0);
+					r_MGetTemplate_String = new(this, "GetTemplate", 0, typeof(System.String));
 				}
-				return r_MOnAfterDeserialize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheet FindResolvedStyleSheetFromType(StyleSheetType)
-		/// </summary>
-		protected RMethod r_MFindResolvedStyleSheetFromType_StyleSheetType;
-		public virtual RMethod RMFindResolvedStyleSheetFromType_StyleSheetType
-		{
-			get
-			{
-				if(r_MFindResolvedStyleSheetFromType_StyleSheetType == null)
-				{
-					r_MFindResolvedStyleSheetFromType_StyleSheetType = new(this, "FindResolvedStyleSheetFromType", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"));
-				}
-				return r_MFindResolvedStyleSheetFromType_StyleSheetType;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheet ResolveStyleSheets(StyleSheetType, System.String[])
-		/// </summary>
-		protected RMethod r_MResolveStyleSheets_StyleSheetType_StringArray;
-		public virtual RMethod RMResolveStyleSheets_StyleSheetType_StringArray
-		{
-			get
-			{
-				if(r_MResolveStyleSheets_StyleSheetType_StringArray == null)
-				{
-					r_MResolveStyleSheets_StyleSheetType_StringArray = new(this, "ResolveStyleSheets", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), typeof(System.String).MakeArrayType());
-				}
-				return r_MResolveStyleSheets_StyleSheetType_StringArray;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheet ResolveStyleSheets(StyleSheetType, UnityEngine.UIElements.StyleSheet[])
-		/// </summary>
-		protected RMethod r_MResolveStyleSheets_StyleSheetType_StyleSheetArray;
-		public virtual RMethod RMResolveStyleSheets_StyleSheetType_StyleSheetArray
-		{
-			get
-			{
-				if(r_MResolveStyleSheets_StyleSheetType_StyleSheetArray == null)
-				{
-					r_MResolveStyleSheets_StyleSheetType_StyleSheetArray = new(this, "ResolveStyleSheets", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ResourceLoader+StyleSheetType"), typeof(UnityEngine.UIElements.StyleSheet).MakeArrayType());
-				}
-				return r_MResolveStyleSheets_StyleSheetType_StyleSheetArray;
-			}
-		}
-
-		/// <summary>
-		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.ApplicationProxy)
-		/// </summary>
-		protected RMethod r_MResolveDependencies_ApplicationProxy;
-		public virtual RMethod RMResolveDependencies_ApplicationProxy
-		{
-			get
-			{
-				if(r_MResolveDependencies_ApplicationProxy == null)
-				{
-					r_MResolveDependencies_ApplicationProxy = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.ApplicationProxy"));
-				}
-				return r_MResolveDependencies_ApplicationProxy;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.VisualElement GetTemplate(System.String, Boolean)
-		/// </summary>
-		protected RMethod r_MGetTemplate_String_Boolean;
-		public virtual RMethod RMGetTemplate_String_Boolean
-		{
-			get
-			{
-				if(r_MGetTemplate_String_Boolean == null)
-				{
-					r_MGetTemplate_String_Boolean = new(this, "GetTemplate", 0, typeof(System.String), typeof(System.Boolean));
-				}
-				return r_MGetTemplate_String_Boolean;
+				return r_MGetTemplate_String;
 			}
 		}
 
@@ -402,38 +274,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MReset = new(this, "Reset", 0);
 				}
 				return r_MReset;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheet <get_packageManagerWindowStyleSheet>b__17_0(System.String)
-		/// </summary>
-		protected RMethod r_M__0__get_packageManagerWindowStyleSheet__1__b__17_0_String;
-		public virtual RMethod RM__0__get_packageManagerWindowStyleSheet__1__b__17_0_String
-		{
-			get
-			{
-				if(r_M__0__get_packageManagerWindowStyleSheet__1__b__17_0_String == null)
-				{
-					r_M__0__get_packageManagerWindowStyleSheet__1__b__17_0_String = new(this, "<get_packageManagerWindowStyleSheet>b__17_0", 0, typeof(System.String));
-				}
-				return r_M__0__get_packageManagerWindowStyleSheet__1__b__17_0_String;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheet <ResolveStyleSheets>b__24_0(System.String)
-		/// </summary>
-		protected RMethod r_M__0__ResolveStyleSheets__1__b__24_0_String;
-		public virtual RMethod RM__0__ResolveStyleSheets__1__b__24_0_String
-		{
-			get
-			{
-				if(r_M__0__ResolveStyleSheets__1__b__24_0_String == null)
-				{
-					r_M__0__ResolveStyleSheets__1__b__24_0_String = new(this, "<ResolveStyleSheets>b__24_0", 0, typeof(System.String));
-				}
-				return r_M__0__ResolveStyleSheets__1__b__24_0_String;
 			}
 		}
 
@@ -534,78 +374,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
-        public virtual void OnBeforeSerialize()
+        public static UnityEngine.UIElements.StyleSheet ResolveStyleSheets(System.String[] @styleSheetPaths)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnBeforeSerialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnAfterDeserialize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleSheet FindResolvedStyleSheetFromType(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@styleSheetType.Value};
-            var ___result = RMFindResolvedStyleSheetFromType_StyleSheetType.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@styleSheetPaths};
+            var ___result = RMResolveStyleSheets_StringArray.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
-        public virtual UnityEngine.UIElements.StyleSheet ResolveStyleSheets(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType, System.String[] @styleSheetPaths)
+        public static UnityEngine.UIElements.StyleSheet ResolveStyleSheets(UnityEngine.UIElements.StyleSheet[] @styleSheets)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@styleSheetType.Value, @styleSheetPaths};
-            var ___result = RMResolveStyleSheets_StyleSheetType_StringArray.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@styleSheets};
+            var ___result = RMResolveStyleSheets_StyleSheetArray.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 
-        public virtual UnityEngine.UIElements.StyleSheet ResolveStyleSheets(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader.RStyleSheetType @styleSheetType, UnityEngine.UIElements.StyleSheet[] @styleSheets)
+        public virtual UnityEngine.UIElements.VisualElement GetTemplate(System.String @templateFilename)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@styleSheetType.Value, @styleSheets};
-            var ___result = RMResolveStyleSheets_StyleSheetType_StyleSheetArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
-        }
-
-
-        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy @applicationProxy)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@applicationProxy.Value};
-            var ___result = RMResolveDependencies_ApplicationProxy.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual UnityEngine.UIElements.VisualElement GetTemplate(System.String @templateFilename, System.Boolean @shouldThrowException)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@templateFilename, @shouldThrowException};
-            var ___result = RMGetTemplate_String_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@templateFilename};
+            var ___result = RMGetTemplate_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
@@ -630,28 +426,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMReset.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleSheet __0__get_packageManagerWindowStyleSheet__1__b__17_0(System.String @p)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p};
-            var ___result = RM__0__get_packageManagerWindowStyleSheet__1__b__17_0_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
-        }
-
-
-        public virtual UnityEngine.UIElements.StyleSheet __0__ResolveStyleSheets__1__b__24_0(System.String @p)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@p};
-            var ___result = RM__0__ResolveStyleSheets__1__b__24_0_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleSheet>(___result);
         }
 
 

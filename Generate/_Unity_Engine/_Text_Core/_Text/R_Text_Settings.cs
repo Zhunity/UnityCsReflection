@@ -278,22 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Boolean m_UseModernHangulLineBreakingRules
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_UseModernHangulLineBreakingRules;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_UseModernHangulLineBreakingRules
-		{
-			get
-			{
-				if(r_Fm_UseModernHangulLineBreakingRules == null)
-				{
-					r_Fm_UseModernHangulLineBreakingRules = new(this, "m_UseModernHangulLineBreakingRules");
-				}
-				return r_Fm_UseModernHangulLineBreakingRules;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean m_DisplayWarnings
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DisplayWarnings;
@@ -582,22 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// Boolean useModernHangulLineBreakingRules
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseModernHangulLineBreakingRules;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseModernHangulLineBreakingRules
-		{
-			get
-			{
-				if(r_PuseModernHangulLineBreakingRules == null)
-				{
-					r_PuseModernHangulLineBreakingRules = new(this, "useModernHangulLineBreakingRules", -1);
-				}
-				return r_PuseModernHangulLineBreakingRules;
-			}
-		}
-
-		/// <summary>
 		/// Boolean displayWarnings
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdisplayWarnings;
@@ -642,22 +610,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_PhideFlags = new(this, "hideFlags", -1);
 				}
 				return r_PhideFlags;
-			}
-		}
-
-		/// <summary>
-		/// Void OnEnable()
-		/// </summary>
-		protected RMethod r_MOnEnable;
-		public virtual RMethod RMOnEnable
-		{
-			get
-			{
-				if(r_MOnEnable == null)
-				{
-					r_MOnEnable = new(this, "OnEnable", 0);
-				}
-				return r_MOnEnable;
 			}
 		}
 
@@ -774,22 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -836,17 +772,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
 
 
         public virtual void InitializeFontReferenceLookup()
@@ -923,17 +848,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

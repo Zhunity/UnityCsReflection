@@ -166,54 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+UxmlObjectEntry] m_UxmlObjectEntries
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> r_Fm_UxmlObjectEntries;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> RFm_UxmlObjectEntries
-		{
-			get
-			{
-				if(r_Fm_UxmlObjectEntries == null)
-				{
-					r_Fm_UxmlObjectEntries = new(this, "m_UxmlObjectEntries");
-				}
-				return r_Fm_UxmlObjectEntries;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[System.Int32] m_UxmlObjectIds
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_Fm_UxmlObjectIds;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RFm_UxmlObjectIds
-		{
-			get
-			{
-				if(r_Fm_UxmlObjectIds == null)
-				{
-					r_Fm_UxmlObjectIds = new(this, "m_UxmlObjectIds");
-				}
-				return r_Fm_UxmlObjectIds;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+AssetEntry] m_AssetEntries
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RAssetEntry> r_Fm_AssetEntries;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RAssetEntry> RFm_AssetEntries
-		{
-			get
-			{
-				if(r_Fm_AssetEntries == null)
-				{
-					r_Fm_AssetEntries = new(this, "m_AssetEntries");
-				}
-				return r_Fm_AssetEntries;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+SlotDefinition] m_Slots
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> r_Fm_Slots;
@@ -358,38 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+UxmlObjectEntry] uxmlObjectEntries
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> r_PuxmlObjectEntries;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry> RPuxmlObjectEntries
-		{
-			get
-			{
-				if(r_PuxmlObjectEntries == null)
-				{
-					r_PuxmlObjectEntries = new(this, "uxmlObjectEntries", -1);
-				}
-				return r_PuxmlObjectEntries;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[System.Int32] uxmlObjectIds
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> r_PuxmlObjectIds;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RInt32> RPuxmlObjectIds
-		{
-			get
-			{
-				if(r_PuxmlObjectIds == null)
-				{
-					r_PuxmlObjectIds = new(this, "uxmlObjectIds", -1);
-				}
-				return r_PuxmlObjectIds;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualTreeAsset+SlotDefinition] slots
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RSlotDefinition> r_Pslots;
@@ -482,118 +402,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetNextChildSerialNumber = new(this, "GetNextChildSerialNumber", 0);
 				}
 				return r_MGetNextChildSerialNumber;
-			}
-		}
-
-		/// <summary>
-		/// Void RegisterUxmlObject(UnityEngine.UIElements.UxmlObjectAsset)
-		/// </summary>
-		protected RMethod r_MRegisterUxmlObject_UxmlObjectAsset;
-		public virtual RMethod RMRegisterUxmlObject_UxmlObjectAsset
-		{
-			get
-			{
-				if(r_MRegisterUxmlObject_UxmlObjectAsset == null)
-				{
-					r_MRegisterUxmlObject_UxmlObjectAsset = new(this, "RegisterUxmlObject", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UxmlObjectAsset"));
-				}
-				return r_MRegisterUxmlObject_UxmlObjectAsset;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[T] GetUxmlObjects[T](UnityEngine.UIElements.IUxmlAttributes, UnityEngine.UIElements.CreationContext)
-		/// </summary>
-		protected RMethod r_MGetUxmlObjects_GT_IUxmlAttributes_CreationContext;
-		public virtual RMethod RMGetUxmlObjects_GT_IUxmlAttributes_CreationContext
-		{
-			get
-			{
-				if(r_MGetUxmlObjects_GT_IUxmlAttributes_CreationContext == null)
-				{
-					r_MGetUxmlObjects_GT_IUxmlAttributes_CreationContext = new(this, "GetUxmlObjects", 1, typeof(UnityEngine.UIElements.IUxmlAttributes), typeof(UnityEngine.UIElements.CreationContext));
-				}
-				return r_MGetUxmlObjects_GT_IUxmlAttributes_CreationContext;
-			}
-		}
-
-		/// <summary>
-		/// Boolean AssetEntryExists(System.String, System.Type)
-		/// </summary>
-		protected RMethod r_MAssetEntryExists_String_Type;
-		public virtual RMethod RMAssetEntryExists_String_Type
-		{
-			get
-			{
-				if(r_MAssetEntryExists_String_Type == null)
-				{
-					r_MAssetEntryExists_String_Type = new(this, "AssetEntryExists", 0, typeof(System.String), typeof(System.Type));
-				}
-				return r_MAssetEntryExists_String_Type;
-			}
-		}
-
-		/// <summary>
-		/// Void RegisterAssetEntry(System.String, System.Type, UnityEngine.Object)
-		/// </summary>
-		protected RMethod r_MRegisterAssetEntry_String_Type_Object;
-		public virtual RMethod RMRegisterAssetEntry_String_Type_Object
-		{
-			get
-			{
-				if(r_MRegisterAssetEntry_String_Type_Object == null)
-				{
-					r_MRegisterAssetEntry_String_Type_Object = new(this, "RegisterAssetEntry", 0, typeof(System.String), typeof(System.Type), typeof(UnityEngine.Object));
-				}
-				return r_MRegisterAssetEntry_String_Type_Object;
-			}
-		}
-
-		/// <summary>
-		/// T GetAsset[T](System.String)
-		/// </summary>
-		protected RMethod r_MGetAsset_GT_String;
-		public virtual RMethod RMGetAsset_GT_String
-		{
-			get
-			{
-				if(r_MGetAsset_GT_String == null)
-				{
-					r_MGetAsset_GT_String = new(this, "GetAsset", 1, typeof(System.String));
-				}
-				return r_MGetAsset_GT_String;
-			}
-		}
-
-		/// <summary>
-		/// UxmlObjectEntry GetUxmlObjectEntry(Int32)
-		/// </summary>
-		protected RMethod r_MGetUxmlObjectEntry_Int32;
-		public virtual RMethod RMGetUxmlObjectEntry_Int32
-		{
-			get
-			{
-				if(r_MGetUxmlObjectEntry_Int32 == null)
-				{
-					r_MGetUxmlObjectEntry_Int32 = new(this, "GetUxmlObjectEntry", 0, typeof(System.Int32));
-				}
-				return r_MGetUxmlObjectEntry_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.IBaseUxmlObjectFactory GetUxmlObjectFactory(UnityEngine.UIElements.UxmlObjectAsset)
-		/// </summary>
-		protected RMethod r_MGetUxmlObjectFactory_UxmlObjectAsset;
-		public virtual RMethod RMGetUxmlObjectFactory_UxmlObjectAsset
-		{
-			get
-			{
-				if(r_MGetUxmlObjectFactory_UxmlObjectAsset == null)
-				{
-					r_MGetUxmlObjectFactory_UxmlObjectAsset = new(this, "GetUxmlObjectFactory", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UxmlObjectAsset"));
-				}
-				return r_MGetUxmlObjectFactory_UxmlObjectAsset;
 			}
 		}
 
@@ -918,22 +726,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Int32 GetAttributePropertiesDirtyCount()
-		/// </summary>
-		protected RMethod r_MGetAttributePropertiesDirtyCount;
-		public virtual RMethod RMGetAttributePropertiesDirtyCount
-		{
-			get
-			{
-				if(r_MGetAttributePropertiesDirtyCount == null)
-				{
-					r_MGetAttributePropertiesDirtyCount = new(this, "GetAttributePropertiesDirtyCount", 0);
-				}
-				return r_MGetAttributePropertiesDirtyCount;
-			}
-		}
-
-		/// <summary>
 		/// Void ExtractUsedUxmlQualifiedNames(System.Collections.Generic.HashSet`1[System.String])
 		/// </summary>
 		protected RMethod r_MExtractUsedUxmlQualifiedNames_HashSet_d_String_p_;
@@ -950,18 +742,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement <Create>g__CreateError|71_0(<>c__DisplayClass71_0 ByRef)
+		/// UnityEngine.UIElements.VisualElement <Create>g__CreateError|55_0(<>c__DisplayClass55_0 ByRef)
 		/// </summary>
-		protected static RMethod r_M__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0;
-		public static RMethod RM__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0
+		protected static RMethod r_M__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0;
+		public static RMethod RM__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0
 		{
 			get
 			{
-				if(r_M__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0 == null)
+				if(r_M__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0 == null)
 				{
-					r_M__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0 = new(Type, "<Create>g__CreateError|71_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass71_0").MakeByRefType());
+					r_M__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0 = new(Type, "<Create>g__CreateError|55_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeAsset+<>c__DisplayClass55_0").MakeByRefType());
 				}
-				return r_M__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0;
+				return r_M__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0;
 			}
 		}
 
@@ -1046,22 +838,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -1118,83 +894,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMGetNextChildSerialNumber.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual void RegisterUxmlObject(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uxmlObjectAsset.Value};
-            var ___result = RMRegisterUxmlObject_UxmlObjectAsset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Collections.Generic.List<T> GetUxmlObjects<T>(UnityEngine.UIElements.IUxmlAttributes @asset, UnityEngine.UIElements.CreationContext @cc) where T : new()
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@asset, @cc};
-            var ___result = RMGetUxmlObjects_GT_IUxmlAttributes_CreationContext.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Collections.Generic.List<T>>(___result);
-        }
-
-
-        public virtual System.Boolean AssetEntryExists(System.String @path, System.Type @type)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path, @type};
-            var ___result = RMAssetEntryExists_String_Type.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void RegisterAssetEntry(System.String @path, System.Type @type, UnityEngine.Object @asset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path, @type, @asset};
-            var ___result = RMRegisterAssetEntry_String_Type_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual T GetAsset<T>(System.String @path) where T : UnityEngine.Object
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@path};
-            var ___result = RMGetAsset_GT_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<T>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry GetUxmlObjectEntry(System.Int32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RMGetUxmlObjectEntry_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.RUxmlObjectEntry>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIBaseUxmlObjectFactory GetUxmlObjectFactory(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUxmlObjectAsset @uxmlObjectAsset)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uxmlObjectAsset.Value};
-            var ___result = RMGetUxmlObjectFactory_UxmlObjectAsset.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIBaseUxmlObjectFactory>(___result);
         }
 
 
@@ -1424,17 +1123,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Int32 GetAttributePropertiesDirtyCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetAttributePropertiesDirtyCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual void ExtractUsedUxmlQualifiedNames(System.Collections.Generic.HashSet<System.String> @names)
         {
 
@@ -1446,13 +1134,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__5__71_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0 @_______)
+        public static UnityEngine.UIElements.VisualElement __0__Create__1__g__CreateError__5__55_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass55_0 @_______)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
-            var ___result = RM__0__Create__1__g__CreateError__5__71_0_Ref___0____1__c__DisplayClass71_0.Invoke(___genericsType, ___parameters);
-			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass71_0>(___parameters[0]);
+            var ___result = RM__0__Create__1__g__CreateError__5__55_0_Ref___0____1__c__DisplayClass55_0.Invoke(___genericsType, ___parameters);
+			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset.R__0____1__c__DisplayClass55_0>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
@@ -1510,17 +1198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

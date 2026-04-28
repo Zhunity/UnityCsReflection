@@ -15,7 +15,7 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         {
             get
             {
-                return typeof(UnityEngine.UIElements.CollectionViewController);
+                return  ReflectionUtils.GetType("UnityEngine.UIElements.CollectionViewController");
             }
         }
 
@@ -198,66 +198,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void PrepareView()
+		/// Int32 GetItemCount()
 		/// </summary>
-		protected RMethod r_MPrepareView;
-		public virtual RMethod RMPrepareView
+		protected RMethod r_MGetItemCount;
+		public virtual RMethod RMGetItemCount
 		{
 			get
 			{
-				if(r_MPrepareView == null)
+				if(r_MGetItemCount == null)
 				{
-					r_MPrepareView = new(this, "PrepareView", 0);
+					r_MGetItemCount = new(this, "GetItemCount", 0);
 				}
-				return r_MPrepareView;
-			}
-		}
-
-		/// <summary>
-		/// Void Dispose()
-		/// </summary>
-		protected RMethod r_MDispose;
-		public virtual RMethod RMDispose
-		{
-			get
-			{
-				if(r_MDispose == null)
-				{
-					r_MDispose = new(this, "Dispose", 0);
-				}
-				return r_MDispose;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetItemsCount()
-		/// </summary>
-		protected RMethod r_MGetItemsCount;
-		public virtual RMethod RMGetItemsCount
-		{
-			get
-			{
-				if(r_MGetItemsCount == null)
-				{
-					r_MGetItemsCount = new(this, "GetItemsCount", 0);
-				}
-				return r_MGetItemsCount;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetItemsMinCount()
-		/// </summary>
-		protected RMethod r_MGetItemsMinCount;
-		public virtual RMethod RMGetItemsMinCount
-		{
-			get
-			{
-				if(r_MGetItemsMinCount == null)
-				{
-					r_MGetItemsMinCount = new(this, "GetItemsMinCount", 0);
-				}
-				return r_MGetItemsMinCount;
+				return r_MGetItemCount;
 			}
 		}
 
@@ -306,22 +258,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetItemForIndex_Int32 = new(this, "GetItemForIndex", 0, typeof(System.Int32));
 				}
 				return r_MGetItemForIndex_Int32;
-			}
-		}
-
-		/// <summary>
-		/// System.Object GetItemForId(Int32)
-		/// </summary>
-		protected RMethod r_MGetItemForId_Int32;
-		public virtual RMethod RMGetItemForId_Int32
-		{
-			get
-			{
-				if(r_MGetItemForId_Int32 == null)
-				{
-					r_MGetItemForId_Int32 = new(this, "GetItemForId", 0, typeof(System.Int32));
-				}
-				return r_MGetItemForId_Int32;
 			}
 		}
 
@@ -593,56 +529,23 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void SetView(UnityEngine.UIElements.BaseVerticalCollectionView @collectionView)
+        public virtual void SetView(UnityEngine.UIElements.BaseVerticalCollectionView @view)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@collectionView};
+            var ___parameters = new object[]{@view};
             var ___result = RMSetView_BaseVerticalCollectionView.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void PrepareView()
+        public virtual System.Int32 GetItemCount()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMPrepareView.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Dispose()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetItemsCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetItemsCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public virtual System.Int32 GetItemsMinCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetItemsMinCount.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetItemCount.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
         }
@@ -676,17 +579,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@index};
             var ___result = RMGetItemForIndex_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Object>(___result);
-        }
-
-
-        public virtual System.Object GetItemForId(System.Int32 @id)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id};
-            var ___result = RMGetItemForId_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Object>(___result);
         }

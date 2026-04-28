@@ -197,33 +197,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 			}
 		}
 
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.IPackageVersion GetUpdateTarget(UnityEditor.PackageManager.UI.Internal.IPackageVersion)
-		/// </summary>
-		protected RMethod r_MGetUpdateTarget_IPackageVersion;
-		public virtual RMethod RMGetUpdateTarget_IPackageVersion
-		{
-			get
-			{
-				if(r_MGetUpdateTarget_IPackageVersion == null)
-				{
-					r_MGetUpdateTarget_IPackageVersion = new(this, "GetUpdateTarget", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackageVersion"));
-				}
-				return r_MGetUpdateTarget_IPackageVersion;
-			}
-		}
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion GetUpdateTarget(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion @version)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@version.Value};
-            var ___result = RMGetUpdateTarget_IPackageVersion.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackageVersion>(___result);
-        }
-
 
     }
 }

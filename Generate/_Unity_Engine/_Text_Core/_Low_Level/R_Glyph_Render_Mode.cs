@@ -86,38 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode COLOR_HINTED
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FCOLOR_HINTED;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFCOLOR_HINTED
-		{
-			get
-			{
-				if(r_FCOLOR_HINTED == null)
-				{
-					r_FCOLOR_HINTED = new(Type, "COLOR_HINTED");
-				}
-				return r_FCOLOR_HINTED;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode COLOR
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FCOLOR;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFCOLOR
-		{
-			get
-			{
-				if(r_FCOLOR == null)
-				{
-					r_FCOLOR = new(Type, "COLOR");
-				}
-				return r_FCOLOR;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode RASTER_HINTED
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FRASTER_HINTED;

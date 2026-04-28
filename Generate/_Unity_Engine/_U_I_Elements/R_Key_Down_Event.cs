@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean functionKey
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PfunctionKey;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPfunctionKey
-		{
-			get
-			{
-				if(r_PfunctionKey == null)
-				{
-					r_PfunctionKey = new(this, "functionKey", -1);
-				}
-				return r_PfunctionKey;
-			}
-		}
-
-		/// <summary>
 		/// Boolean actionKey
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PactionKey;
@@ -194,22 +178,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PeventTypeId = new(this, "eventTypeId", -1);
 				}
 				return r_PeventTypeId;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
 			}
 		}
 
@@ -322,22 +290,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 
@@ -678,38 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void PostDispatch(UnityEngine.UIElements.IPanel)
-		/// </summary>
-		protected RMethod r_MPostDispatch_IPanel;
-		public virtual RMethod RMPostDispatch_IPanel
-		{
-			get
-			{
-				if(r_MPostDispatch_IPanel == null)
-				{
-					r_MPostDispatch_IPanel = new(this, "PostDispatch", 0, typeof(UnityEngine.UIElements.IPanel));
-				}
-				return r_MPostDispatch_IPanel;
-			}
-		}
-
-		/// <summary>
-		/// Void SendEquivalentNavigationEventIfAny(UnityEngine.UIElements.IPanel)
-		/// </summary>
-		protected RMethod r_MSendEquivalentNavigationEventIfAny_IPanel;
-		public virtual RMethod RMSendEquivalentNavigationEventIfAny_IPanel
-		{
-			get
-			{
-				if(r_MSendEquivalentNavigationEventIfAny_IPanel == null)
-				{
-					r_MSendEquivalentNavigationEventIfAny_IPanel = new(this, "SendEquivalentNavigationEventIfAny", 0, typeof(UnityEngine.UIElements.IPanel));
-				}
-				return r_MSendEquivalentNavigationEventIfAny_IPanel;
-			}
-		}
-
-		/// <summary>
 		/// Void Init()
 		/// </summary>
 		protected RMethod r_MInit;
@@ -818,6 +738,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MPostDispatch = new(this, "PostDispatch", 0);
 				}
 				return r_MPostDispatch;
+			}
+		}
+
+		/// <summary>
+		/// Void PostDispatch(UnityEngine.UIElements.IPanel)
+		/// </summary>
+		protected RMethod r_MPostDispatch_IPanel;
+		public virtual RMethod RMPostDispatch_IPanel
+		{
+			get
+			{
+				if(r_MPostDispatch_IPanel == null)
+				{
+					r_MPostDispatch_IPanel = new(this, "PostDispatch", 0, typeof(UnityEngine.UIElements.IPanel));
+				}
+				return r_MPostDispatch_IPanel;
 			}
 		}
 
@@ -1009,28 +945,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void PostDispatch(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMPostDispatch_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SendEquivalentNavigationEventIfAny(UnityEngine.UIElements.IPanel @panel)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@panel};
-            var ___result = RMSendEquivalentNavigationEventIfAny_IPanel.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void Init()
         {
 
@@ -1103,6 +1017,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMPostDispatch.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void PostDispatch(UnityEngine.UIElements.IPanel @panel)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@panel};
+            var ___result = RMPostDispatch_IPanel.Invoke(___genericsType, ___parameters);
 
             
         }

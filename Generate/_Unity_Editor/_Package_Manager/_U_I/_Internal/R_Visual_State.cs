@@ -86,6 +86,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.Boolean expanded
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fexpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFexpanded
+		{
+			get
+			{
+				if(r_Fexpanded == null)
+				{
+					r_Fexpanded = new(this, "expanded");
+				}
+				return r_Fexpanded;
+			}
+		}
+
+		/// <summary>
+		/// System.String selectedVersionId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_FselectedVersionId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFselectedVersionId
+		{
+			get
+			{
+				if(r_FselectedVersionId == null)
+				{
+					r_FselectedVersionId = new(this, "selectedVersionId");
+				}
+				return r_FselectedVersionId;
+			}
+		}
+
+		/// <summary>
 		/// System.Boolean lockedByDefault
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FlockedByDefault;

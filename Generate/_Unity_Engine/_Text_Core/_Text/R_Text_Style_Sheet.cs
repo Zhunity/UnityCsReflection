@@ -118,22 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// Void Reset()
-		/// </summary>
-		protected RMethod r_MReset;
-		public virtual RMethod RMReset
-		{
-			get
-			{
-				if(r_MReset == null)
-				{
-					r_MReset = new(this, "Reset", 0);
-				}
-				return r_MReset;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.TextCore.Text.TextStyle GetStyle(Int32)
 		/// </summary>
 		protected RMethod r_MGetStyle_Int32;
@@ -278,22 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -340,17 +308,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual void Reset()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReset.Invoke(___genericsType, ___parameters);
-
-            
-        }
 
 
         public virtual UnityEngine.TextCore.Text.TextStyle GetStyle(System.Int32 @hashCode)
@@ -449,17 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

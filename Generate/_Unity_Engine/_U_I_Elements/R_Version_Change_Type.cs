@@ -310,38 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VersionChangeType EventCallbackCategories
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FEventCallbackCategories;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFEventCallbackCategories
-		{
-			get
-			{
-				if(r_FEventCallbackCategories == null)
-				{
-					r_FEventCallbackCategories = new(Type, "EventCallbackCategories");
-				}
-				return r_FEventCallbackCategories;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.VersionChangeType Picking
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType r_FPicking;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVersionChangeType RFPicking
-		{
-			get
-			{
-				if(r_FPicking == null)
-				{
-					r_FPicking = new(Type, "Picking");
-				}
-				return r_FPicking;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

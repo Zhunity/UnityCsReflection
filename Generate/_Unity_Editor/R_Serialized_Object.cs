@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEditor.DataMode inspectorDataMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RDataMode r_PinspectorDataMode;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataMode RPinspectorDataMode
-		{
-			get
-			{
-				if(r_PinspectorDataMode == null)
-				{
-					r_PinspectorDataMode = new(this, "inspectorDataMode", -1);
-				}
-				return r_PinspectorDataMode;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isEditingMultipleObjects
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEditingMultipleObjects;
@@ -322,22 +306,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MFindProperty_String = new(this, "FindProperty", 0, typeof(System.String));
 				}
 				return r_MFindProperty_String;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.SerializedProperty FindFirstPropertyFromManagedReferencePath(System.String)
-		/// </summary>
-		protected RMethod r_MFindFirstPropertyFromManagedReferencePath_String;
-		public virtual RMethod RMFindFirstPropertyFromManagedReferencePath_String
-		{
-			get
-			{
-				if(r_MFindFirstPropertyFromManagedReferencePath_String == null)
-				{
-					r_MFindFirstPropertyFromManagedReferencePath_String = new(this, "FindFirstPropertyFromManagedReferencePath", 0, typeof(System.String));
-				}
-				return r_MFindFirstPropertyFromManagedReferencePath_String;
 			}
 		}
 
@@ -566,38 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void EnableLivePropertyFeatureGlobally(Boolean)
-		/// </summary>
-		protected static RMethod r_MEnableLivePropertyFeatureGlobally_Boolean;
-		public static RMethod RMEnableLivePropertyFeatureGlobally_Boolean
-		{
-			get
-			{
-				if(r_MEnableLivePropertyFeatureGlobally_Boolean == null)
-				{
-					r_MEnableLivePropertyFeatureGlobally_Boolean = new(Type, "EnableLivePropertyFeatureGlobally", 0, typeof(System.Boolean));
-				}
-				return r_MEnableLivePropertyFeatureGlobally_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetLivePropertyFeatureGlobalState()
-		/// </summary>
-		protected static RMethod r_MGetLivePropertyFeatureGlobalState;
-		public static RMethod RMGetLivePropertyFeatureGlobalState
-		{
-			get
-			{
-				if(r_MGetLivePropertyFeatureGlobalState == null)
-				{
-					r_MGetLivePropertyFeatureGlobalState = new(Type, "GetLivePropertyFeatureGlobalState", 0);
-				}
-				return r_MGetLivePropertyFeatureGlobalState;
-			}
-		}
-
-		/// <summary>
 		/// Void CopyFromSerializedProperty(UnityEditor.SerializedProperty)
 		/// </summary>
 		protected RMethod r_MCopyFromSerializedProperty_SerializedProperty;
@@ -662,18 +598,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Boolean HasAnyInstantiatedPrefabsWithValidAsset()
+		/// Boolean HasAnyInstantiatedPrefabs()
 		/// </summary>
-		protected RMethod r_MHasAnyInstantiatedPrefabsWithValidAsset;
-		public virtual RMethod RMHasAnyInstantiatedPrefabsWithValidAsset
+		protected RMethod r_MHasAnyInstantiatedPrefabs;
+		public virtual RMethod RMHasAnyInstantiatedPrefabs
 		{
 			get
 			{
-				if(r_MHasAnyInstantiatedPrefabsWithValidAsset == null)
+				if(r_MHasAnyInstantiatedPrefabs == null)
 				{
-					r_MHasAnyInstantiatedPrefabsWithValidAsset = new(this, "HasAnyInstantiatedPrefabsWithValidAsset", 0);
+					r_MHasAnyInstantiatedPrefabs = new(this, "HasAnyInstantiatedPrefabs", 0);
 				}
-				return r_MHasAnyInstantiatedPrefabsWithValidAsset;
+				return r_MHasAnyInstantiatedPrefabs;
 			}
 		}
 
@@ -845,17 +781,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual UnityEditor.SerializedProperty FindFirstPropertyFromManagedReferencePath(System.String @propertyPath)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@propertyPath};
-            var ___result = RMFindFirstPropertyFromManagedReferencePath_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEditor.SerializedProperty>(___result);
-        }
-
-
         public virtual System.Boolean ApplyModifiedProperties()
         {
 
@@ -1010,28 +935,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public static void EnableLivePropertyFeatureGlobally(System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@value};
-            var ___result = RMEnableLivePropertyFeatureGlobally_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean GetLivePropertyFeatureGlobalState()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetLivePropertyFeatureGlobalState.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual void CopyFromSerializedProperty(UnityEditor.SerializedProperty @prop)
         {
 
@@ -1076,12 +979,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual System.Boolean HasAnyInstantiatedPrefabsWithValidAsset()
+        public virtual System.Boolean HasAnyInstantiatedPrefabs()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMHasAnyInstantiatedPrefabsWithValidAsset.Invoke(___genericsType, ___parameters);
+            var ___result = RMHasAnyInstantiatedPrefabs.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

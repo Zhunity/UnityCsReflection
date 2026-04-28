@@ -262,34 +262,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_DownloadedAssetsOnly
+		/// System.Boolean m_DownloadAssetsOnly
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DownloadedAssetsOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DownloadedAssetsOnly
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DownloadAssetsOnly;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DownloadAssetsOnly
 		{
 			get
 			{
-				if(r_Fm_DownloadedAssetsOnly == null)
+				if(r_Fm_DownloadAssetsOnly == null)
 				{
-					r_Fm_DownloadedAssetsOnly = new(this, "m_DownloadedAssetsOnly");
+					r_Fm_DownloadAssetsOnly = new(this, "m_DownloadAssetsOnly");
 				}
-				return r_Fm_DownloadedAssetsOnly;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_UpdateAvailableOnly
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_UpdateAvailableOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_UpdateAvailableOnly
-		{
-			get
-			{
-				if(r_Fm_UpdateAvailableOnly == null)
-				{
-					r_Fm_UpdateAvailableOnly = new(this, "m_UpdateAvailableOnly");
-				}
-				return r_Fm_UpdateAvailableOnly;
+				return r_Fm_DownloadAssetsOnly;
 			}
 		}
 
@@ -466,22 +450,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PisProgressVisible = new(this, "isProgressVisible", -1);
 				}
 				return r_PisProgressVisible;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isInPause
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPause
-		{
-			get
-			{
-				if(r_PisInPause == null)
-				{
-					r_PisInPause = new(this, "isInPause", -1);
-				}
-				return r_PisInPause;
 			}
 		}
 
@@ -678,22 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean <SetQueryArgs>b__54_1(UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo)
-		/// </summary>
-		protected RMethod r_M__0__SetQueryArgs__1__b__54_1_AssetStoreLocalInfo;
-		public virtual RMethod RM__0__SetQueryArgs__1__b__54_1_AssetStoreLocalInfo
-		{
-			get
-			{
-				if(r_M__0__SetQueryArgs__1__b__54_1_AssetStoreLocalInfo == null)
-				{
-					r_M__0__SetQueryArgs__1__b__54_1_AssetStoreLocalInfo = new(this, "<SetQueryArgs>b__54_1", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo"));
-				}
-				return r_M__0__SetQueryArgs__1__b__54_1_AssetStoreLocalInfo;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -875,17 +827,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMFinalizedOperation.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual System.Boolean __0__SetQueryArgs__1__b__54_1(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info.Value};
-            var ___result = RM__0__SetQueryArgs__1__b__54_1_AssetStoreLocalInfo.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

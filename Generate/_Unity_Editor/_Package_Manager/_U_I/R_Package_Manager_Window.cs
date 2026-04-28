@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// UnityEditor.DataModeController m_SerializedDataModeController
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RDataModeController r_Fm_SerializedDataModeController;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController RFm_SerializedDataModeController
-		{
-			get
-			{
-				if(r_Fm_SerializedDataModeController == null)
-				{
-					r_Fm_SerializedDataModeController = new(this, "m_SerializedDataModeController");
-				}
-				return r_Fm_SerializedDataModeController;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.HostView m_Parent
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RHostView r_Fm_Parent;
@@ -230,22 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// UnityEditor.IDataModeController dataModeController
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController r_PdataModeController;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController RPdataModeController
-		{
-			get
-			{
-				if(r_PdataModeController == null)
-				{
-					r_PdataModeController = new(this, "dataModeController", -1);
-				}
-				return r_PdataModeController;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.VisualElement baseRootVisualElement
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbaseRootVisualElement;
@@ -290,22 +258,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 					r_PliveReloadPreferenceDefault = new(this, "liveReloadPreferenceDefault", -1);
 				}
 				return r_PliveReloadPreferenceDefault;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isUIToolkitWindow
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUIToolkitWindow;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUIToolkitWindow
-		{
-			get
-			{
-				if(r_PisUIToolkitWindow == null)
-				{
-					r_PisUIToolkitWindow = new(this, "isUIToolkitWindow", -1);
-				}
-				return r_PisUIToolkitWindow;
 			}
 		}
 
@@ -662,38 +614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// Void OnEnable()
-		/// </summary>
-		protected RMethod r_MOnEnable;
-		public virtual RMethod RMOnEnable
-		{
-			get
-			{
-				if(r_MOnEnable == null)
-				{
-					r_MOnEnable = new(this, "OnEnable", 0);
-				}
-				return r_MOnEnable;
-			}
-		}
-
-		/// <summary>
-		/// Void BuildGUI()
-		/// </summary>
-		protected RMethod r_MBuildGUI;
-		public virtual RMethod RMBuildGUI
-		{
-			get
-			{
-				if(r_MBuildGUI == null)
-				{
-					r_MBuildGUI = new(this, "BuildGUI", 0);
-				}
-				return r_MBuildGUI;
-			}
-		}
-
-		/// <summary>
 		/// Void CreateGUI()
 		/// </summary>
 		protected RMethod r_MCreateGUI;
@@ -870,38 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// Void EditorInitializedInSafeMode()
-		/// </summary>
-		protected static RMethod r_MEditorInitializedInSafeMode;
-		public static RMethod RMEditorInitializedInSafeMode
-		{
-			get
-			{
-				if(r_MEditorInitializedInSafeMode == null)
-				{
-					r_MEditorInitializedInSafeMode = new(Type, "EditorInitializedInSafeMode", 0);
-				}
-				return r_MEditorInitializedInSafeMode;
-			}
-		}
-
-		/// <summary>
-		/// Void OnEditorFinishLoadingProject()
-		/// </summary>
-		protected static RMethod r_MOnEditorFinishLoadingProject;
-		public static RMethod RMOnEditorFinishLoadingProject
-		{
-			get
-			{
-				if(r_MOnEditorFinishLoadingProject == null)
-				{
-					r_MOnEditorFinishLoadingProject = new(Type, "OnEditorFinishLoadingProject", 0);
-				}
-				return r_MOnEditorFinishLoadingProject;
-			}
-		}
-
-		/// <summary>
 		/// Void OnRegisteredPackages(UnityEditor.PackageManager.PackageRegistrationEventArgs)
 		/// </summary>
 		protected static RMethod r_MOnRegisteredPackages_PackageRegistrationEventArgs;
@@ -934,6 +822,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
+		/// Void OnEditorFinishLoadingProject()
+		/// </summary>
+		protected static RMethod r_MOnEditorFinishLoadingProject;
+		public static RMethod RMOnEditorFinishLoadingProject
+		{
+			get
+			{
+				if(r_MOnEditorFinishLoadingProject == null)
+				{
+					r_MOnEditorFinishLoadingProject = new(Type, "OnEditorFinishLoadingProject", 0);
+				}
+				return r_MOnEditorFinishLoadingProject;
+			}
+		}
+
+		/// <summary>
 		/// Void SelectPackageAndFilterStatic(System.String, System.Nullable`1[UnityEditor.PackageManager.UI.Internal.PackageFilterTab], Boolean, System.String)
 		/// </summary>
 		protected static RMethod r_MSelectPackageAndFilterStatic_String_Nullable_d_PackageFilterTab_p__Boolean_String;
@@ -962,38 +866,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 					r_MCloseAll = new(Type, "CloseAll", 0);
 				}
 				return r_MCloseAll;
-			}
-		}
-
-		/// <summary>
-		/// Void CheckInnerException[T](System.Reflection.TargetInvocationException)
-		/// </summary>
-		protected static RMethod r_MCheckInnerException_GT_TargetInvocationException;
-		public static RMethod RMCheckInnerException_GT_TargetInvocationException
-		{
-			get
-			{
-				if(r_MCheckInnerException_GT_TargetInvocationException == null)
-				{
-					r_MCheckInnerException_GT_TargetInvocationException = new(Type, "CheckInnerException", 1, typeof(System.Reflection.TargetInvocationException));
-				}
-				return r_MCheckInnerException_GT_TargetInvocationException;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataModeController GetDataModeController_Internal()
-		/// </summary>
-		protected RMethod r_MGetDataModeController_Internal;
-		public virtual RMethod RMGetDataModeController_Internal
-		{
-			get
-			{
-				if(r_MGetDataModeController_Internal == null)
-				{
-					r_MGetDataModeController_Internal = new(this, "GetDataModeController_Internal", 0);
-				}
-				return r_MGetDataModeController_Internal;
 			}
 		}
 
@@ -1798,22 +1670,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// Void ReleaseViewData()
-		/// </summary>
-		protected RMethod r_MReleaseViewData;
-		public virtual RMethod RMReleaseViewData
-		{
-			get
-			{
-				if(r_MReleaseViewData == null)
-				{
-					r_MReleaseViewData = new(this, "ReleaseViewData", 0);
-				}
-				return r_MReleaseViewData;
-			}
-		}
-
-		/// <summary>
 		/// Void AddSceneTab()
 		/// </summary>
 		protected RMethod r_MAddSceneTab;
@@ -1990,22 +1846,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -2052,28 +1892,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual void OnEnable()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEnable.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BuildGUI()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBuildGUI.Invoke(___genericsType, ___parameters);
-
-            
-        }
 
 
         public virtual void CreateGUI()
@@ -2197,28 +2015,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
         }
 
 
-        public static void EditorInitializedInSafeMode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMEditorInitializedInSafeMode.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void OnEditorFinishLoadingProject()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMOnEditorFinishLoadingProject.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public static void OnRegisteredPackages(UnityEditor.PackageManager.PackageRegistrationEventArgs @args)
         {
 
@@ -2236,6 +2032,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@filterTabOrSubPage};
             var ___result = RMSelectFilterSubPageStatic_String.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public static void OnEditorFinishLoadingProject()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMOnEditorFinishLoadingProject.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2260,28 +2067,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___result = RMCloseAll.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public static void CheckInnerException<T>(System.Reflection.TargetInvocationException @e) where T : System.Exception
-        {
-
-            var ___genericsType = new Type[] {typeof(T)};
-            var ___parameters = new object[]{@e};
-            var ___result = RMCheckInnerException_GT_TargetInvocationException.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController GetDataModeController_Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RDataModeController>(___result);
         }
 
 
@@ -2835,17 +2620,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
         }
 
 
-        public virtual void ReleaseViewData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReleaseViewData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void AddSceneTab()
         {
 
@@ -2966,17 +2740,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

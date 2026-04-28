@@ -118,6 +118,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.String m_PackageUniqueId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageUniqueId
+		{
+			get
+			{
+				if(r_Fm_PackageUniqueId == null)
+				{
+					r_Fm_PackageUniqueId = new(this, "m_PackageUniqueId");
+				}
+				return r_Fm_PackageUniqueId;
+			}
+		}
+
+		/// <summary>
 		/// System.String m_VersionString
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_VersionString;
@@ -242,6 +258,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Pauthor = new(this, "author", -1);
 				}
 				return r_Pauthor;
+			}
+		}
+
+		/// <summary>
+		/// System.String authorLink
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PauthorLink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPauthorLink
+		{
+			get
+			{
+				if(r_PauthorLink == null)
+				{
+					r_PauthorLink = new(this, "authorLink", -1);
+				}
+				return r_PauthorLink;
 			}
 		}
 
@@ -486,18 +518,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String localReleaseNotes
+		/// System.String releaseNotes
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PlocalReleaseNotes;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPlocalReleaseNotes
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PreleaseNotes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPreleaseNotes
 		{
 			get
 			{
-				if(r_PlocalReleaseNotes == null)
+				if(r_PreleaseNotes == null)
 				{
-					r_PlocalReleaseNotes = new(this, "localReleaseNotes", -1);
+					r_PreleaseNotes = new(this, "releaseNotes", -1);
 				}
-				return r_PlocalReleaseNotes;
+				return r_PreleaseNotes;
 			}
 		}
 
@@ -546,70 +578,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Pentitlements = new(this, "entitlements", -1);
 				}
 				return r_Pentitlements;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isRegistryPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRegistryPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRegistryPackage
-		{
-			get
-			{
-				if(r_PisRegistryPackage == null)
-				{
-					r_PisRegistryPackage = new(this, "isRegistryPackage", -1);
-				}
-				return r_PisRegistryPackage;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isFromScopedRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFromScopedRegistry;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFromScopedRegistry
-		{
-			get
-			{
-				if(r_PisFromScopedRegistry == null)
-				{
-					r_PisFromScopedRegistry = new(this, "isFromScopedRegistry", -1);
-				}
-				return r_PisFromScopedRegistry;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.IPackage package
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage r_Ppackage;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage RPpackage
-		{
-			get
-			{
-				if(r_Ppackage == null)
-				{
-					r_Ppackage = new(this, "package", -1);
-				}
-				return r_Ppackage;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.RegistryType availableRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType r_PavailableRegistry;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType RPavailableRegistry
-		{
-			get
-			{
-				if(r_PavailableRegistry == null)
-				{
-					r_PavailableRegistry = new(this, "availableRegistry", -1);
-				}
-				return r_PavailableRegistry;
 			}
 		}
 
@@ -706,38 +674,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PsupportedVersion = new(this, "supportedVersion", -1);
 				}
 				return r_PsupportedVersion;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsDifferentVersionThanRequested
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDifferentVersionThanRequested;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDifferentVersionThanRequested
-		{
-			get
-			{
-				if(r_PIsDifferentVersionThanRequested == null)
-				{
-					r_PIsDifferentVersionThanRequested = new(this, "IsDifferentVersionThanRequested", -1);
-				}
-				return r_PIsDifferentVersionThanRequested;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsRequestedButOverriddenVersion
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRequestedButOverriddenVersion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRequestedButOverriddenVersion
-		{
-			get
-			{
-				if(r_PIsRequestedButOverriddenVersion == null)
-				{
-					r_PIsRequestedButOverriddenVersion = new(this, "IsRequestedButOverriddenVersion", -1);
-				}
-				return r_PIsRequestedButOverriddenVersion;
 			}
 		}
 

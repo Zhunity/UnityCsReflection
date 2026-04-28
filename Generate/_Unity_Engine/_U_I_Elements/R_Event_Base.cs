@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.EventCategory <eventCategory>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_F__0__eventCategory__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RF__0__eventCategory__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__eventCategory__1__k__BackingField == null)
-				{
-					r_F__0__eventCategory__1__k__BackingField = new(this, "<eventCategory>k__BackingField");
-				}
-				return r_F__0__eventCategory__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// System.UInt64 s_NextEventId
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fs_NextEventId;
@@ -150,18 +134,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.PropagationPaths <path>k__BackingField
+		/// UnityEngine.UIElements.PropagationPaths m_Path
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths r_F__0__path__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths RF__0__path__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths r_Fm_Path;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RPropagationPaths RFm_Path
 		{
 			get
 			{
-				if(r_F__0__path__1__k__BackingField == null)
+				if(r_Fm_Path == null)
 				{
-					r_F__0__path__1__k__BackingField = new(this, "<path>k__BackingField");
+					r_Fm_Path = new(this, "m_Path");
 				}
-				return r_F__0__path__1__k__BackingField;
+				return r_Fm_Path;
 			}
 		}
 
@@ -326,22 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.EventCategory eventCategory
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory r_PeventCategory;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory RPeventCategory
-		{
-			get
-			{
-				if(r_PeventCategory == null)
-				{
-					r_PeventCategory = new(this, "eventCategory", -1);
-				}
-				return r_PeventCategory;
-			}
-		}
-
-		/// <summary>
 		/// Int64 timestamp
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt64 r_Ptimestamp;
@@ -466,22 +434,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PtricklesDown = new(this, "tricklesDown", -1);
 				}
 				return r_PtricklesDown;
-			}
-		}
-
-		/// <summary>
-		/// Boolean bubblesOrTricklesDown
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PbubblesOrTricklesDown;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPbubblesOrTricklesDown
-		{
-			get
-			{
-				if(r_PbubblesOrTricklesDown == null)
-				{
-					r_PbubblesOrTricklesDown = new(this, "bubblesOrTricklesDown", -1);
-				}
-				return r_PbubblesOrTricklesDown;
 			}
 		}
 

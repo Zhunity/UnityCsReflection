@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI
 		}
 
 		/// <summary>
-		/// System.Nullable`1[UnityEngine.Vector2] windowSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_FwindowSize;
-		public virtual Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RUnityEngine.RVector2> RFwindowSize
-		{
-			get
-			{
-				if(r_FwindowSize == null)
-				{
-					r_FwindowSize = new(this, "windowSize");
-				}
-				return r_FwindowSize;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;

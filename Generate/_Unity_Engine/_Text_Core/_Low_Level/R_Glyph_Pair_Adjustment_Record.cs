@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		}
 
 		/// <summary>
-		/// Int32 GetHashCode()
-		/// </summary>
-		protected RMethod r_MGetHashCode;
-		public virtual RMethod RMGetHashCode
-		{
-			get
-			{
-				if(r_MGetHashCode == null)
-				{
-					r_MGetHashCode = new(this, "GetHashCode", 0);
-				}
-				return r_MGetHashCode;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -166,50 +150,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		}
 
 		/// <summary>
-		/// Boolean Equals(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord)
+		/// Int32 GetHashCode()
 		/// </summary>
-		protected RMethod r_MEquals_GlyphPairAdjustmentRecord;
-		public virtual RMethod RMEquals_GlyphPairAdjustmentRecord
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
 		{
 			get
 			{
-				if(r_MEquals_GlyphPairAdjustmentRecord == null)
+				if(r_MGetHashCode == null)
 				{
-					r_MEquals_GlyphPairAdjustmentRecord = new(this, "Equals", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord));
+					r_MGetHashCode = new(this, "GetHashCode", 0);
 				}
-				return r_MEquals_GlyphPairAdjustmentRecord;
-			}
-		}
-
-		/// <summary>
-		/// Boolean op_Equality(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord, UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord)
-		/// </summary>
-		protected static RMethod r_Mop_Equality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord;
-		public static RMethod RMop_Equality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord
-		{
-			get
-			{
-				if(r_Mop_Equality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord == null)
-				{
-					r_Mop_Equality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord = new(Type, "op_Equality", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord));
-				}
-				return r_Mop_Equality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord;
-			}
-		}
-
-		/// <summary>
-		/// Boolean op_Inequality(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord, UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord)
-		/// </summary>
-		protected static RMethod r_Mop_Inequality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord;
-		public static RMethod RMop_Inequality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord
-		{
-			get
-			{
-				if(r_Mop_Inequality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord == null)
-				{
-					r_Mop_Inequality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord = new(Type, "op_Inequality", 0, typeof(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord), typeof(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord));
-				}
-				return r_Mop_Inequality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord;
+				return r_MGetHashCode;
 			}
 		}
 
@@ -278,17 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
 		}
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual System.Boolean Equals(System.Object @obj)
         {
 
@@ -300,36 +241,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel
         }
 
 
-        public virtual System.Boolean Equals(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord @other)
+        public virtual System.Int32 GetHashCode()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other};
-            var ___result = RMEquals_GlyphPairAdjustmentRecord.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{};
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Equality(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord @lhs, UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Equality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static System.Boolean op_Inequality(UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord @lhs, UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord @rhs)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@lhs, @rhs};
-            var ___result = RMop_Inequality_GlyphPairAdjustmentRecord_GlyphPairAdjustmentRecord.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

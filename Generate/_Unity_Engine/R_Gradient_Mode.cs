@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.GradientMode PerceptualBlend
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RGradientMode r_FPerceptualBlend;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RGradientMode RFPerceptualBlend
-		{
-			get
-			{
-				if(r_FPerceptualBlend == null)
-				{
-					r_FPerceptualBlend = new(Type, "PerceptualBlend");
-				}
-				return r_FPerceptualBlend;
-			}
-		}
-
-		/// <summary>
 		/// System.Object GetValue()
 		/// </summary>
 		protected RMethod r_MGetValue;

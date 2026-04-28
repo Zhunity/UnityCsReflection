@@ -136,22 +136,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.String[] m_Types
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Types;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_Types
-		{
-			get
-			{
-				if(r_Fm_Types == null)
-				{
-					r_Fm_Types = new(this, "m_Types");
-				}
-				return r_Fm_Types;
-			}
-		}
-
-		/// <summary>
 		/// Single filterScore
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PfilterScore;
@@ -228,22 +212,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_Ptext = new(this, "text", -1);
 				}
 				return r_Ptext;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.IEnumerable`1[System.String] types
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> r_Ptypes;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RString> RPtypes
-		{
-			get
-			{
-				if(r_Ptypes == null)
-				{
-					r_Ptypes = new(this, "types", -1);
-				}
-				return r_Ptypes;
 			}
 		}
 

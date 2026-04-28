@@ -230,22 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.RenderHints DirtyDynamicColor
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyDynamicColor;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints RFDirtyDynamicColor
-		{
-			get
-			{
-				if(r_FDirtyDynamicColor == null)
-				{
-					r_FDirtyDynamicColor = new(Type, "DirtyDynamicColor");
-				}
-				return r_FDirtyDynamicColor;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.RenderHints DirtyAll
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RRenderHints r_FDirtyAll;

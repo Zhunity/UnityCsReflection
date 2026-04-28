@@ -358,22 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.Boolean m_IsLosingFocus
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsLosingFocus;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsLosingFocus
-		{
-			get
-			{
-				if(r_Fm_IsLosingFocus == null)
-				{
-					r_Fm_IsLosingFocus = new(this, "m_IsLosingFocus");
-				}
-				return r_Fm_IsLosingFocus;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector2 k_DockedMinSize
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fk_DockedMinSize;
@@ -514,6 +498,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_FgenericMenuFloatingLeftOffset = new(Type, "genericMenuFloatingLeftOffset");
 				}
 				return r_FgenericMenuFloatingLeftOffset;
+			}
+		}
+
+		/// <summary>
+		/// System.Single k_iconMargin
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_Fk_iconMargin;
+		public static Hvak.Editor.Refleaction.RSystem.RSingle RFk_iconMargin
+		{
+			get
+			{
+				if(r_Fk_iconMargin == null)
+				{
+					r_Fk_iconMargin = new(Type, "k_iconMargin");
+				}
+				return r_Fk_iconMargin;
 			}
 		}
 
@@ -1670,18 +1670,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void DeregisterSelectedPane(Boolean, Boolean, Boolean)
+		/// Void DeregisterSelectedPane(Boolean, Boolean)
 		/// </summary>
-		protected RMethod r_MDeregisterSelectedPane_Boolean_Boolean_Boolean;
-		public virtual RMethod RMDeregisterSelectedPane_Boolean_Boolean_Boolean
+		protected RMethod r_MDeregisterSelectedPane_Boolean_Boolean;
+		public virtual RMethod RMDeregisterSelectedPane_Boolean_Boolean
 		{
 			get
 			{
-				if(r_MDeregisterSelectedPane_Boolean_Boolean_Boolean == null)
+				if(r_MDeregisterSelectedPane_Boolean_Boolean == null)
 				{
-					r_MDeregisterSelectedPane_Boolean_Boolean_Boolean = new(this, "DeregisterSelectedPane", 0, typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
+					r_MDeregisterSelectedPane_Boolean_Boolean = new(this, "DeregisterSelectedPane", 0, typeof(System.Boolean), typeof(System.Boolean));
 				}
-				return r_MDeregisterSelectedPane_Boolean_Boolean_Boolean;
+				return r_MDeregisterSelectedPane_Boolean_Boolean;
 			}
 		}
 
@@ -1798,22 +1798,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void PopulateDataModeDropdown(UnityEditor.DataModeController, UnityEditor.GenericMenu)
-		/// </summary>
-		protected RMethod r_MPopulateDataModeDropdown_DataModeController_GenericMenu;
-		public virtual RMethod RMPopulateDataModeDropdown_DataModeController_GenericMenu
-		{
-			get
-			{
-				if(r_MPopulateDataModeDropdown_DataModeController_GenericMenu == null)
-				{
-					r_MPopulateDataModeDropdown_DataModeController_GenericMenu = new(this, "PopulateDataModeDropdown", 0,  ReflectionUtils.GetType("UnityEditor.DataModeController"), typeof(UnityEditor.GenericMenu));
-				}
-				return r_MPopulateDataModeDropdown_DataModeController_GenericMenu;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.WindowAction[] FetchWindowActionFromAttribute()
 		/// </summary>
 		protected static RMethod r_MFetchWindowActionFromAttribute;
@@ -1826,22 +1810,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MFetchWindowActionFromAttribute = new(Type, "FetchWindowActionFromAttribute", 0);
 				}
 				return r_MFetchWindowActionFromAttribute;
-			}
-		}
-
-		/// <summary>
-		/// Void FlushView(UnityEditor.EditorWindow)
-		/// </summary>
-		protected static RMethod r_MFlushView_EditorWindow;
-		public static RMethod RMFlushView_EditorWindow
-		{
-			get
-			{
-				if(r_MFlushView_EditorWindow == null)
-				{
-					r_MFlushView_EditorWindow = new(Type, "FlushView", 0, typeof(UnityEditor.EditorWindow));
-				}
-				return r_MFlushView_EditorWindow;
 			}
 		}
 
@@ -2806,22 +2774,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -3244,12 +3196,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void DeregisterSelectedPane(System.Boolean @clearActualView, System.Boolean @sendEvents, System.Boolean @isSwitchingTab)
+        public virtual void DeregisterSelectedPane(System.Boolean @clearActualView, System.Boolean @sendEvents)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clearActualView, @sendEvents, @isSwitchingTab};
-            var ___result = RMDeregisterSelectedPane_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@clearActualView, @sendEvents};
+            var ___result = RMDeregisterSelectedPane_Boolean_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3332,17 +3284,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void PopulateDataModeDropdown(Hvak.Editor.Refleaction.RUnityEditor.RDataModeController @clientDataModeController, UnityEditor.GenericMenu @menu)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@clientDataModeController.Value, @menu};
-            var ___result = RMPopulateDataModeDropdown_DataModeController_GenericMenu.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public static Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RWindowAction> FetchWindowActionFromAttribute()
         {
 
@@ -3351,17 +3292,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMFetchWindowActionFromAttribute.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RTypeArray<Hvak.Editor.Refleaction.RUnityEditor.RWindowAction>>(___result);
-        }
-
-
-        public static void FlushView(UnityEditor.EditorWindow @view)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@view};
-            var ___result = RMFlushView_EditorWindow.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -4022,17 +3952,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

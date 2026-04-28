@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.Requests.AddRequest] onProcessResult
-		/// </summary>
-		protected REvent r_EonProcessResult;
-		public virtual REvent REonProcessResult
-		{
-			get
-			{
-				if(r_EonProcessResult == null)
-				{
-					r_EonProcessResult = new(this, "onProcessResult");
-				}
-				return r_EonProcessResult;
-			}
-		}
-
-		/// <summary>
 		/// System.String m_SpecialUniqueId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_SpecialUniqueId;
@@ -146,6 +130,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_PackageTag = new(this, "m_PackageTag");
 				}
 				return r_Fm_PackageTag;
+			}
+		}
+
+		/// <summary>
+		/// System.Action`1[UnityEditor.PackageManager.Requests.AddRequest] onProcessResult
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddRequest> r_FonProcessResult;
+		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RRequests.RAddRequest> RFonProcessResult
+		{
+			get
+			{
+				if(r_FonProcessResult == null)
+				{
+					r_FonProcessResult = new(this, "onProcessResult");
+				}
+				return r_FonProcessResult;
 			}
 		}
 
@@ -278,22 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_LogErrorInConsole
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_LogErrorInConsole;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_LogErrorInConsole
-		{
-			get
-			{
-				if(r_Fm_LogErrorInConsole == null)
-				{
-					r_Fm_LogErrorInConsole = new(this, "m_LogErrorInConsole");
-				}
-				return r_Fm_LogErrorInConsole;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ClientProxy m_ClientProxy
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RClientProxy r_Fm_ClientProxy;
@@ -370,22 +354,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PrefreshOptions = new(this, "refreshOptions", -1);
 				}
 				return r_PrefreshOptions;
-			}
-		}
-
-		/// <summary>
-		/// System.String operationErrorMessage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PoperationErrorMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPoperationErrorMessage
-		{
-			get
-			{
-				if(r_PoperationErrorMessage == null)
-				{
-					r_PoperationErrorMessage = new(this, "operationErrorMessage", -1);
-				}
-				return r_PoperationErrorMessage;
 			}
 		}
 
@@ -518,38 +486,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean logErrorInConsole
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PlogErrorInConsole;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPlogErrorInConsole
-		{
-			get
-			{
-				if(r_PlogErrorInConsole == null)
-				{
-					r_PlogErrorInConsole = new(this, "logErrorInConsole", -1);
-				}
-				return r_PlogErrorInConsole;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isInPause
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPause
-		{
-			get
-			{
-				if(r_PisInPause == null)
-				{
-					r_PisInPause = new(this, "isInPause", -1);
-				}
-				return r_PisInPause;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isProgressVisible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisProgressVisible;
@@ -594,6 +530,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PprogressPercentage = new(this, "progressPercentage", -1);
 				}
 				return r_PprogressPercentage;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.UIError error
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Perror;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RPerror
+		{
+			get
+			{
+				if(r_Perror == null)
+				{
+					r_Perror = new(this, "error", -1);
+				}
+				return r_Perror;
 			}
 		}
 
@@ -662,18 +614,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void Cancel()
+		/// Void CancelInternal()
 		/// </summary>
-		protected RMethod r_MCancel;
-		public virtual RMethod RMCancel
+		protected RMethod r_MCancelInternal;
+		public virtual RMethod RMCancelInternal
 		{
 			get
 			{
-				if(r_MCancel == null)
+				if(r_MCancelInternal == null)
 				{
-					r_MCancel = new(this, "Cancel", 0);
+					r_MCancelInternal = new(this, "CancelInternal", 0);
 				}
-				return r_MCancel;
+				return r_MCancelInternal;
 			}
 		}
 
@@ -690,22 +642,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MProgress = new(this, "Progress", 0);
 				}
 				return r_MProgress;
-			}
-		}
-
-		/// <summary>
-		/// Void RestoreProgress()
-		/// </summary>
-		protected RMethod r_MRestoreProgress;
-		public virtual RMethod RMRestoreProgress
-		{
-			get
-			{
-				if(r_MRestoreProgress == null)
-				{
-					r_MRestoreProgress = new(this, "RestoreProgress", 0);
-				}
-				return r_MRestoreProgress;
 			}
 		}
 
@@ -866,12 +802,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void Cancel()
+        public virtual void CancelInternal()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMCancel.Invoke(___genericsType, ___parameters);
+            var ___result = RMCancelInternal.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -883,17 +819,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMProgress.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RestoreProgress()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRestoreProgress.Invoke(___genericsType, ___parameters);
 
             
         }

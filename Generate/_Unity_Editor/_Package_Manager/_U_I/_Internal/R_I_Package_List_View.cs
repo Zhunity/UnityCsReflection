@@ -134,6 +134,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Void OnSeeAllPackageVersionsChanged(Boolean)
+		/// </summary>
+		protected RMethod r_MOnSeeAllPackageVersionsChanged_Boolean;
+		public virtual RMethod RMOnSeeAllPackageVersionsChanged_Boolean
+		{
+			get
+			{
+				if(r_MOnSeeAllPackageVersionsChanged_Boolean == null)
+				{
+					r_MOnSeeAllPackageVersionsChanged_Boolean = new(this, "OnSeeAllPackageVersionsChanged", 0, typeof(System.Boolean));
+				}
+				return r_MOnSeeAllPackageVersionsChanged_Boolean;
+			}
+		}
+
+		/// <summary>
 		/// Void OnKeyDownShortcut(UnityEngine.UIElements.KeyDownEvent)
 		/// </summary>
 		protected RMethod r_MOnKeyDownShortcut_KeyDownEvent;
@@ -146,22 +162,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MOnKeyDownShortcut_KeyDownEvent = new(this, "OnKeyDownShortcut", 0, typeof(UnityEngine.UIElements.KeyDownEvent));
 				}
 				return r_MOnKeyDownShortcut_KeyDownEvent;
-			}
-		}
-
-		/// <summary>
-		/// Void OnNavigationMoveShortcut(UnityEngine.UIElements.NavigationMoveEvent)
-		/// </summary>
-		protected RMethod r_MOnNavigationMoveShortcut_NavigationMoveEvent;
-		public virtual RMethod RMOnNavigationMoveShortcut_NavigationMoveEvent
-		{
-			get
-			{
-				if(r_MOnNavigationMoveShortcut_NavigationMoveEvent == null)
-				{
-					r_MOnNavigationMoveShortcut_NavigationMoveEvent = new(this, "OnNavigationMoveShortcut", 0, typeof(UnityEngine.UIElements.NavigationMoveEvent));
-				}
-				return r_MOnNavigationMoveShortcut_NavigationMoveEvent;
 			}
 		}
 
@@ -232,23 +232,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
+        public virtual void OnSeeAllPackageVersionsChanged(System.Boolean @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@value};
+            var ___result = RMOnSeeAllPackageVersionsChanged_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void OnKeyDownShortcut(UnityEngine.UIElements.KeyDownEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
             var ___result = RMOnKeyDownShortcut_KeyDownEvent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnNavigationMoveShortcut(UnityEngine.UIElements.NavigationMoveEvent @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMOnNavigationMoveShortcut_NavigationMoveEvent.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -38,70 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
-		/// System.String k_UnlabeledStatus
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_UnlabeledStatus;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_UnlabeledStatus
-		{
-			get
-			{
-				if(r_Fk_UnlabeledStatus == null)
-				{
-					r_Fk_UnlabeledStatus = new(Type, "k_UnlabeledStatus");
-				}
-				return r_Fk_UnlabeledStatus;
-			}
-		}
-
-		/// <summary>
-		/// System.String k_DownloadedStatus
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_DownloadedStatus;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_DownloadedStatus
-		{
-			get
-			{
-				if(r_Fk_DownloadedStatus == null)
-				{
-					r_Fk_DownloadedStatus = new(Type, "k_DownloadedStatus");
-				}
-				return r_Fk_DownloadedStatus;
-			}
-		}
-
-		/// <summary>
-		/// System.String k_UpdateAvailableStatus
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_UpdateAvailableStatus;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_UpdateAvailableStatus
-		{
-			get
-			{
-				if(r_Fk_UpdateAvailableStatus == null)
-				{
-					r_Fk_UpdateAvailableStatus = new(Type, "k_UpdateAvailableStatus");
-				}
-				return r_Fk_UpdateAvailableStatus;
-			}
-		}
-
-		/// <summary>
-		/// System.String k_SubscriptionBasedStatus
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SubscriptionBasedStatus;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SubscriptionBasedStatus
-		{
-			get
-			{
-				if(r_Fk_SubscriptionBasedStatus == null)
-				{
-					r_Fk_SubscriptionBasedStatus = new(Type, "k_SubscriptionBasedStatus");
-				}
-				return r_Fk_SubscriptionBasedStatus;
-			}
-		}
-
-		/// <summary>
 		/// System.String m_SearchText
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_SearchText;
@@ -118,66 +54,66 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String m_Status
+		/// System.Collections.Generic.List`1[System.String] m_statuses
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Status;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Status
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_statuses;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_statuses
 		{
 			get
 			{
-				if(r_Fm_Status == null)
+				if(r_Fm_statuses == null)
 				{
-					r_Fm_Status = new(this, "m_Status");
+					r_Fm_statuses = new(this, "m_statuses");
 				}
-				return r_Fm_Status;
+				return r_Fm_statuses;
 			}
 		}
 
 		/// <summary>
-		/// System.String m_OrderBy
+		/// System.Collections.Generic.List`1[System.String] m_categories
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_OrderBy;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_OrderBy
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_categories;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_categories
 		{
 			get
 			{
-				if(r_Fm_OrderBy == null)
+				if(r_Fm_categories == null)
 				{
-					r_Fm_OrderBy = new(this, "m_OrderBy");
+					r_Fm_categories = new(this, "m_categories");
 				}
-				return r_Fm_OrderBy;
+				return r_Fm_categories;
 			}
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[System.String] m_Categories
+		/// System.Collections.Generic.List`1[System.String] m_labels
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Categories;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_Categories
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_labels;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_labels
 		{
 			get
 			{
-				if(r_Fm_Categories == null)
+				if(r_Fm_labels == null)
 				{
-					r_Fm_Categories = new(this, "m_Categories");
+					r_Fm_labels = new(this, "m_labels");
 				}
-				return r_Fm_Categories;
+				return r_Fm_labels;
 			}
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[System.String] m_Labels
+		/// System.String m_orderBy
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Labels;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_Labels
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_orderBy;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_orderBy
 		{
 			get
 			{
-				if(r_Fm_Labels == null)
+				if(r_Fm_orderBy == null)
 				{
-					r_Fm_Labels = new(this, "m_Labels");
+					r_Fm_orderBy = new(this, "m_orderBy");
 				}
-				return r_Fm_Labels;
+				return r_Fm_orderBy;
 			}
 		}
 
@@ -214,66 +150,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String status
+		/// System.Collections.Generic.List`1[System.String] statuses
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Pstatus;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstatus
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Pstatuses;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RPstatuses
 		{
 			get
 			{
-				if(r_Pstatus == null)
+				if(r_Pstatuses == null)
 				{
-					r_Pstatus = new(this, "status", -1);
+					r_Pstatuses = new(this, "statuses", -1);
 				}
-				return r_Pstatus;
-			}
-		}
-
-		/// <summary>
-		/// Boolean downloadedOnly
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdownloadedOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdownloadedOnly
-		{
-			get
-			{
-				if(r_PdownloadedOnly == null)
-				{
-					r_PdownloadedOnly = new(this, "downloadedOnly", -1);
-				}
-				return r_PdownloadedOnly;
-			}
-		}
-
-		/// <summary>
-		/// Boolean updateAvailableOnly
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PupdateAvailableOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPupdateAvailableOnly
-		{
-			get
-			{
-				if(r_PupdateAvailableOnly == null)
-				{
-					r_PupdateAvailableOnly = new(this, "updateAvailableOnly", -1);
-				}
-				return r_PupdateAvailableOnly;
-			}
-		}
-
-		/// <summary>
-		/// Boolean subscriptionBasedOnly
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsubscriptionBasedOnly;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsubscriptionBasedOnly
-		{
-			get
-			{
-				if(r_PsubscriptionBasedOnly == null)
-				{
-					r_PsubscriptionBasedOnly = new(this, "subscriptionBasedOnly", -1);
-				}
-				return r_PsubscriptionBasedOnly;
+				return r_Pstatuses;
 			}
 		}
 

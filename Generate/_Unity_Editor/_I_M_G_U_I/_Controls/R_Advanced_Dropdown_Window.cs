@@ -70,22 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// System.Action selectionCanceled
-		/// </summary>
-		protected REvent r_EselectionCanceled;
-		public virtual REvent REselectionCanceled
-		{
-			get
-			{
-				if(r_EselectionCanceled == null)
-				{
-					r_EselectionCanceled = new(this, "selectionCanceled");
-				}
-				return r_EselectionCanceled;
-			}
-		}
-
-		/// <summary>
 		/// System.Single kBorderThickness
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RSingle r_FkBorderThickness;
@@ -438,22 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// System.Action selectionCanceled
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FselectionCanceled;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFselectionCanceled
-		{
-			get
-			{
-				if(r_FselectionCanceled == null)
-				{
-					r_FselectionCanceled = new(this, "selectionCanceled");
-				}
-				return r_FselectionCanceled;
-			}
-		}
-
-		/// <summary>
 		/// System.Func`2[UnityEngine.Event,System.Boolean] specialKeyboardHandling
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RFunc<Hvak.Editor.Refleaction.RUnityEngine.REvent, Hvak.Editor.Refleaction.RSystem.RBoolean> r_FspecialKeyboardHandling;
@@ -498,22 +466,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_Fm_Pos = new(this, "m_Pos");
 				}
 				return r_Fm_Pos;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataModeController m_SerializedDataModeController
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RDataModeController r_Fm_SerializedDataModeController;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController RFm_SerializedDataModeController
-		{
-			get
-			{
-				if(r_Fm_SerializedDataModeController == null)
-				{
-					r_Fm_SerializedDataModeController = new(this, "m_SerializedDataModeController");
-				}
-				return r_Fm_SerializedDataModeController;
 			}
 		}
 
@@ -742,22 +694,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// UnityEditor.IDataModeController dataModeController
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController r_PdataModeController;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController RPdataModeController
-		{
-			get
-			{
-				if(r_PdataModeController == null)
-				{
-					r_PdataModeController = new(this, "dataModeController", -1);
-				}
-				return r_PdataModeController;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.VisualElement baseRootVisualElement
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbaseRootVisualElement;
@@ -802,22 +738,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_PliveReloadPreferenceDefault = new(this, "liveReloadPreferenceDefault", -1);
 				}
 				return r_PliveReloadPreferenceDefault;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isUIToolkitWindow
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUIToolkitWindow;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUIToolkitWindow
-		{
-			get
-			{
-				if(r_PisUIToolkitWindow == null)
-				{
-					r_PisUIToolkitWindow = new(this, "isUIToolkitWindow", -1);
-				}
-				return r_PisUIToolkitWindow;
 			}
 		}
 
@@ -1510,34 +1430,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// Void <OnGUISearch>b__71_0(System.String)
+		/// Void <OnGUISearch>b__68_0(System.String)
 		/// </summary>
-		protected RMethod r_M__0__OnGUISearch__1__b__71_0_String;
-		public virtual RMethod RM__0__OnGUISearch__1__b__71_0_String
+		protected RMethod r_M__0__OnGUISearch__1__b__68_0_String;
+		public virtual RMethod RM__0__OnGUISearch__1__b__68_0_String
 		{
 			get
 			{
-				if(r_M__0__OnGUISearch__1__b__71_0_String == null)
+				if(r_M__0__OnGUISearch__1__b__68_0_String == null)
 				{
-					r_M__0__OnGUISearch__1__b__71_0_String = new(this, "<OnGUISearch>b__71_0", 0, typeof(System.String));
+					r_M__0__OnGUISearch__1__b__68_0_String = new(this, "<OnGUISearch>b__68_0", 0, typeof(System.String));
 				}
-				return r_M__0__OnGUISearch__1__b__71_0_String;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataModeController GetDataModeController_Internal()
-		/// </summary>
-		protected RMethod r_MGetDataModeController_Internal;
-		public virtual RMethod RMGetDataModeController_Internal
-		{
-			get
-			{
-				if(r_MGetDataModeController_Internal == null)
-				{
-					r_MGetDataModeController_Internal = new(this, "GetDataModeController_Internal", 0);
-				}
-				return r_MGetDataModeController_Internal;
+				return r_M__0__OnGUISearch__1__b__68_0_String;
 			}
 		}
 
@@ -2342,22 +2246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 		}
 
 		/// <summary>
-		/// Void ReleaseViewData()
-		/// </summary>
-		protected RMethod r_MReleaseViewData;
-		public virtual RMethod RMReleaseViewData
-		{
-			get
-			{
-				if(r_MReleaseViewData == null)
-				{
-					r_MReleaseViewData = new(this, "ReleaseViewData", 0);
-				}
-				return r_MReleaseViewData;
-			}
-		}
-
-		/// <summary>
 		/// Void AddSceneTab()
 		/// </summary>
 		protected RMethod r_MAddSceneTab;
@@ -2530,22 +2418,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -2829,25 +2701,14 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void __0__OnGUISearch__1__b__71_0(System.String @newSearch)
+        public virtual void __0__OnGUISearch__1__b__68_0(System.String @newSearch)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@newSearch};
-            var ___result = RM__0__OnGUISearch__1__b__71_0_String.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__OnGUISearch__1__b__68_0_String.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController GetDataModeController_Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RDataModeController>(___result);
         }
 
 
@@ -3401,17 +3262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
         }
 
 
-        public virtual void ReleaseViewData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReleaseViewData.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void AddSceneTab()
         {
 
@@ -3532,17 +3382,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RIMGUI.RControls
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

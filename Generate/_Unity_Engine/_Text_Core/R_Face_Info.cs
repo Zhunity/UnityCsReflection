@@ -118,22 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 		}
 
 		/// <summary>
-		/// System.Int32 m_UnitsPerEM
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_UnitsPerEM;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFm_UnitsPerEM
-		{
-			get
-			{
-				if(r_Fm_UnitsPerEM == null)
-				{
-					r_Fm_UnitsPerEM = new(this, "m_UnitsPerEM");
-				}
-				return r_Fm_UnitsPerEM;
-			}
-		}
-
-		/// <summary>
 		/// System.Single m_LineHeight
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_LineHeight;
@@ -450,22 +434,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 					r_Pscale = new(this, "scale", -1);
 				}
 				return r_Pscale;
-			}
-		}
-
-		/// <summary>
-		/// Int32 unitsPerEM
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PunitsPerEM;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPunitsPerEM
-		{
-			get
-			{
-				if(r_PunitsPerEM == null)
-				{
-					r_PunitsPerEM = new(this, "unitsPerEM", -1);
-				}
-				return r_PunitsPerEM;
 			}
 		}
 

@@ -86,34 +86,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_ListIsPatchedInPrefabModeInContext
+		/// System.Boolean m_IsNotInPrefabContextModeWithOverrides
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ListIsPatchedInPrefabModeInContext;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_ListIsPatchedInPrefabModeInContext
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsNotInPrefabContextModeWithOverrides;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsNotInPrefabContextModeWithOverrides
 		{
 			get
 			{
-				if(r_Fm_ListIsPatchedInPrefabModeInContext == null)
+				if(r_Fm_IsNotInPrefabContextModeWithOverrides == null)
 				{
-					r_Fm_ListIsPatchedInPrefabModeInContext = new(this, "m_ListIsPatchedInPrefabModeInContext");
+					r_Fm_IsNotInPrefabContextModeWithOverrides = new(this, "m_IsNotInPrefabContextModeWithOverrides");
 				}
-				return r_Fm_ListIsPatchedInPrefabModeInContext;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_DisableListElements
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DisableListElements;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DisableListElements
-		{
-			get
-			{
-				if(r_Fm_DisableListElements == null)
-				{
-					r_Fm_DisableListElements = new(this, "m_DisableListElements");
-				}
-				return r_Fm_DisableListElements;
+				return r_Fm_IsNotInPrefabContextModeWithOverrides;
 			}
 		}
 
@@ -146,38 +130,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 					r_Fm_ArraySize = new(this, "m_ArraySize");
 				}
 				return r_Fm_ArraySize;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_PropertyPath
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PropertyPath;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PropertyPath
-		{
-			get
-			{
-				if(r_Fm_PropertyPath == null)
-				{
-					r_Fm_PropertyPath = new(this, "m_PropertyPath");
-				}
-				return r_Fm_PropertyPath;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_PropertyPathArraySize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PropertyPathArraySize;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PropertyPathArraySize
-		{
-			get
-			{
-				if(r_Fm_PropertyPathArraySize == null)
-				{
-					r_Fm_PropertyPathArraySize = new(this, "m_PropertyPathArraySize");
-				}
-				return r_Fm_PropertyPathArraySize;
 			}
 		}
 
@@ -246,18 +198,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 		}
 
 		/// <summary>
-		/// Void Init(Boolean, UnityEditor.SerializedProperty)
+		/// Void Init(Boolean)
 		/// </summary>
-		protected RMethod r_MInit_Boolean_SerializedProperty;
-		public virtual RMethod RMInit_Boolean_SerializedProperty
+		protected RMethod r_MInit_Boolean;
+		public virtual RMethod RMInit_Boolean
 		{
 			get
 			{
-				if(r_MInit_Boolean_SerializedProperty == null)
+				if(r_MInit_Boolean == null)
 				{
-					r_MInit_Boolean_SerializedProperty = new(this, "Init", 0, typeof(System.Boolean), typeof(UnityEditor.SerializedProperty));
+					r_MInit_Boolean = new(this, "Init", 0, typeof(System.Boolean));
 				}
-				return r_MInit_Boolean_SerializedProperty;
+				return r_MInit_Boolean;
 			}
 		}
 
@@ -294,22 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 		}
 
 		/// <summary>
-		/// Void UpdatePrefabPatchState(UnityEngine.Object)
-		/// </summary>
-		protected RMethod r_MUpdatePrefabPatchState_Object;
-		public virtual RMethod RMUpdatePrefabPatchState_Object
-		{
-			get
-			{
-				if(r_MUpdatePrefabPatchState_Object == null)
-				{
-					r_MUpdatePrefabPatchState_Object = new(this, "UpdatePrefabPatchState", 0, typeof(UnityEngine.Object));
-				}
-				return r_MUpdatePrefabPatchState_Object;
-			}
-		}
-
-		/// <summary>
 		/// Void Draw(UnityEngine.GUIContent, UnityEngine.Rect, UnityEngine.Rect, System.String, Boolean)
 		/// </summary>
 		protected RMethod r_MDraw_GUIContent_Rect_Rect_String_Boolean;
@@ -342,34 +278,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
 		}
 
 		/// <summary>
-		/// Boolean <Init>b__18_0(UnityEditorInternal.ReorderableList)
+		/// Boolean <Init>b__15_0(UnityEditorInternal.ReorderableList)
 		/// </summary>
-		protected RMethod r_M__0__Init__1__b__18_0_ReorderableList;
-		public virtual RMethod RM__0__Init__1__b__18_0_ReorderableList
+		protected RMethod r_M__0__Init__1__b__15_0_ReorderableList;
+		public virtual RMethod RM__0__Init__1__b__15_0_ReorderableList
 		{
 			get
 			{
-				if(r_M__0__Init__1__b__18_0_ReorderableList == null)
+				if(r_M__0__Init__1__b__15_0_ReorderableList == null)
 				{
-					r_M__0__Init__1__b__18_0_ReorderableList = new(this, "<Init>b__18_0", 0, typeof(UnityEditorInternal.ReorderableList));
+					r_M__0__Init__1__b__15_0_ReorderableList = new(this, "<Init>b__15_0", 0, typeof(UnityEditorInternal.ReorderableList));
 				}
-				return r_M__0__Init__1__b__18_0_ReorderableList;
+				return r_M__0__Init__1__b__15_0_ReorderableList;
 			}
 		}
 
 		/// <summary>
-		/// Boolean <Init>b__18_1(UnityEditorInternal.ReorderableList)
+		/// Boolean <Init>b__15_1(UnityEditorInternal.ReorderableList)
 		/// </summary>
-		protected RMethod r_M__0__Init__1__b__18_1_ReorderableList;
-		public virtual RMethod RM__0__Init__1__b__18_1_ReorderableList
+		protected RMethod r_M__0__Init__1__b__15_1_ReorderableList;
+		public virtual RMethod RM__0__Init__1__b__15_1_ReorderableList
 		{
 			get
 			{
-				if(r_M__0__Init__1__b__18_1_ReorderableList == null)
+				if(r_M__0__Init__1__b__15_1_ReorderableList == null)
 				{
-					r_M__0__Init__1__b__18_1_ReorderableList = new(this, "<Init>b__18_1", 0, typeof(UnityEditorInternal.ReorderableList));
+					r_M__0__Init__1__b__15_1_ReorderableList = new(this, "<Init>b__15_1", 0, typeof(UnityEditorInternal.ReorderableList));
 				}
-				return r_M__0__Init__1__b__18_1_ReorderableList;
+				return r_M__0__Init__1__b__15_1_ReorderableList;
 			}
 		}
 
@@ -481,12 +417,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void Init(System.Boolean @reorderable, UnityEditor.SerializedProperty @property)
+        public virtual void Init(System.Boolean @reorderable)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@reorderable, @property};
-            var ___result = RMInit_Boolean_SerializedProperty.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@reorderable};
+            var ___result = RMInit_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -514,17 +450,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual void UpdatePrefabPatchState(UnityEngine.Object @serializedObjectTarget)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@serializedObjectTarget};
-            var ___result = RMUpdatePrefabPatchState_Object.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void Draw(UnityEngine.GUIContent @label, UnityEngine.Rect @r, UnityEngine.Rect @visibleArea, System.String @tooltip, System.Boolean @includeChildren)
         {
 
@@ -547,23 +472,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditorInternal
         }
 
 
-        public virtual System.Boolean __0__Init__1__b__18_0(UnityEditorInternal.ReorderableList @list)
+        public virtual System.Boolean __0__Init__1__b__15_0(UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@list};
-            var ___result = RM__0__Init__1__b__18_0_ReorderableList.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__Init__1__b__15_0_ReorderableList.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual System.Boolean __0__Init__1__b__18_1(UnityEditorInternal.ReorderableList @list)
+        public virtual System.Boolean __0__Init__1__b__15_1(UnityEditorInternal.ReorderableList @list)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@list};
-            var ___result = RM__0__Init__1__b__18_1_ReorderableList.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__Init__1__b__15_1_ReorderableList.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

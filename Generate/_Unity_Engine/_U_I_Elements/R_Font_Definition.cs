@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.IEnumerable`1[System.Type] allowedAssetTypes
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> r_PallowedAssetTypes;
-		public static Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RSystem.RType> RPallowedAssetTypes
-		{
-			get
-			{
-				if(r_PallowedAssetTypes == null)
-				{
-					r_PallowedAssetTypes = new(Type, "allowedAssetTypes", -1);
-				}
-				return r_PallowedAssetTypes;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.FontDefinition FromFont(UnityEngine.Font)
 		/// </summary>
 		protected static RMethod r_MFromFont_Font;

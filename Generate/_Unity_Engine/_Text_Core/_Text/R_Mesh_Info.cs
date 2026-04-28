@@ -54,38 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector3 k_DefaultNormal
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector3 r_Fk_DefaultNormal;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RVector3 RFk_DefaultNormal
-		{
-			get
-			{
-				if(r_Fk_DefaultNormal == null)
-				{
-					r_Fk_DefaultNormal = new(Type, "k_DefaultNormal");
-				}
-				return r_Fk_DefaultNormal;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector4 k_DefaultTangent
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RVector4 r_Fk_DefaultTangent;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RVector4 RFk_DefaultTangent
-		{
-			get
-			{
-				if(r_Fk_DefaultTangent == null)
-				{
-					r_Fk_DefaultTangent = new(Type, "k_DefaultTangent");
-				}
-				return r_Fk_DefaultTangent;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 vertexCount
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FvertexCount;
@@ -118,42 +86,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector3[] normals
+		/// UnityEngine.Vector2[] uvs0
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> r_Fnormals;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector3> RFnormals
-		{
-			get
-			{
-				if(r_Fnormals == null)
-				{
-					r_Fnormals = new(this, "normals");
-				}
-				return r_Fnormals;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector4[] tangents
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_Ftangents;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFtangents
-		{
-			get
-			{
-				if(r_Ftangents == null)
-				{
-					r_Ftangents = new(this, "tangents");
-				}
-				return r_Ftangents;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector4[] uvs0
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> r_Fuvs0;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector4> RFuvs0
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> r_Fuvs0;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEngine.RVector2> RFuvs0
 		{
 			get
 			{
@@ -230,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.LowLevel.GlyphRenderMode glyphRenderMode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode r_FglyphRenderMode;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RLowLevel.RGlyphRenderMode RFglyphRenderMode
-		{
-			get
-			{
-				if(r_FglyphRenderMode == null)
-				{
-					r_FglyphRenderMode = new(this, "glyphRenderMode");
-				}
-				return r_FglyphRenderMode;
-			}
-		}
-
-		/// <summary>
 		/// Void ResizeMeshInfo(Int32)
 		/// </summary>
 		protected RMethod r_MResizeMeshInfo_Int32;
@@ -290,22 +210,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_MClearUnusedVertices = new(this, "ClearUnusedVertices", 0);
 				}
 				return r_MClearUnusedVertices;
-			}
-		}
-
-		/// <summary>
-		/// Void ClearUnusedVertices(Int32, Boolean)
-		/// </summary>
-		protected RMethod r_MClearUnusedVertices_Int32_Boolean;
-		public virtual RMethod RMClearUnusedVertices_Int32_Boolean
-		{
-			get
-			{
-				if(r_MClearUnusedVertices_Int32_Boolean == null)
-				{
-					r_MClearUnusedVertices_Int32_Boolean = new(this, "ClearUnusedVertices", 0, typeof(System.Int32), typeof(System.Boolean));
-				}
-				return r_MClearUnusedVertices_Int32_Boolean;
 			}
 		}
 
@@ -482,17 +386,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClearUnusedVertices.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearUnusedVertices(System.Int32 @startIndex, System.Boolean @updateMesh)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@startIndex, @updateMesh};
-            var ___result = RMClearUnusedVertices_Int32_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }

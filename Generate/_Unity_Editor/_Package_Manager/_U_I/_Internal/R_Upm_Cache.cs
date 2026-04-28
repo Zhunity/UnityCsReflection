@@ -70,22 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.PackageInfo] onExtraPackageInfoFetched
-		/// </summary>
-		protected REvent r_EonExtraPackageInfoFetched;
-		public virtual REvent REonExtraPackageInfoFetched
-		{
-			get
-			{
-				if(r_EonExtraPackageInfoFetched == null)
-				{
-					r_EonExtraPackageInfoFetched = new(this, "onExtraPackageInfoFetched");
-				}
-				return r_EonExtraPackageInfoFetched;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[System.String] onVerifiedGitPackageUpToDate
 		/// </summary>
 		protected REvent r_EonVerifiedGitPackageUpToDate;
@@ -134,50 +118,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.PackageInfo] m_ProductSearchPackageInfos
+		/// System.Collections.Generic.Dictionary`2[System.String,UnityEditor.PackageManager.PackageInfo] m_ProductPackageInfos
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Fm_ProductSearchPackageInfos;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFm_ProductSearchPackageInfos
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Fm_ProductPackageInfos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFm_ProductPackageInfos
 		{
 			get
 			{
-				if(r_Fm_ProductSearchPackageInfos == null)
+				if(r_Fm_ProductPackageInfos == null)
 				{
-					r_Fm_ProductSearchPackageInfos = new(this, "m_ProductSearchPackageInfos");
+					r_Fm_ProductPackageInfos = new(this, "m_ProductPackageInfos");
 				}
-				return r_Fm_ProductSearchPackageInfos;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.String,System.String] m_ProductIdToNameMap
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ProductIdToNameMap;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> RFm_ProductIdToNameMap
-		{
-			get
-			{
-				if(r_Fm_ProductIdToNameMap == null)
-				{
-					r_Fm_ProductIdToNameMap = new(this, "m_ProductIdToNameMap");
-				}
-				return r_Fm_ProductIdToNameMap;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.String,System.String] m_NameToProductIdMap
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_Fm_NameToProductIdMap;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> RFm_NameToProductIdMap
-		{
-			get
-			{
-				if(r_Fm_NameToProductIdMap == null)
-				{
-					r_Fm_NameToProductIdMap = new(this, "m_NameToProductIdMap");
-				}
-				return r_Fm_NameToProductIdMap;
+				return r_Fm_ProductPackageInfos;
 			}
 		}
 
@@ -194,6 +146,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_ExtraPackageInfo = new(this, "m_ExtraPackageInfo");
 				}
 				return r_Fm_ExtraPackageInfo;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.Dictionary`2[System.String,System.String] m_ProductIdMap
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ProductIdMap;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RString, Hvak.Editor.Refleaction.RSystem.RString> RFm_ProductIdMap
+		{
+			get
+			{
+				if(r_Fm_ProductIdMap == null)
+				{
+					r_Fm_ProductIdMap = new(this, "m_ProductIdMap");
+				}
+				return r_Fm_ProductIdMap;
 			}
 		}
 
@@ -278,18 +246,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.PackageInfo[] m_SerializedProductSearchPackageInfos
+		/// UnityEditor.PackageManager.PackageInfo[] m_SerializedProductPackageInfos
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Fm_SerializedProductSearchPackageInfos;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFm_SerializedProductSearchPackageInfos
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_Fm_SerializedProductPackageInfos;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFm_SerializedProductPackageInfos
 		{
 			get
 			{
-				if(r_Fm_SerializedProductSearchPackageInfos == null)
+				if(r_Fm_SerializedProductPackageInfos == null)
 				{
-					r_Fm_SerializedProductSearchPackageInfos = new(this, "m_SerializedProductSearchPackageInfos");
+					r_Fm_SerializedProductPackageInfos = new(this, "m_SerializedProductPackageInfos");
 				}
-				return r_Fm_SerializedProductSearchPackageInfos;
+				return r_Fm_SerializedProductPackageInfos;
 			}
 		}
 
@@ -306,6 +274,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_SerializedExtraPackageInfos = new(this, "m_SerializedExtraPackageInfos");
 				}
 				return r_Fm_SerializedExtraPackageInfos;
+			}
+		}
+
+		/// <summary>
+		/// System.String[] m_SerializedProductIdMapKeys
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_SerializedProductIdMapKeys;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_SerializedProductIdMapKeys
+		{
+			get
+			{
+				if(r_Fm_SerializedProductIdMapKeys == null)
+				{
+					r_Fm_SerializedProductIdMapKeys = new(this, "m_SerializedProductIdMapKeys");
+				}
+				return r_Fm_SerializedProductIdMapKeys;
+			}
+		}
+
+		/// <summary>
+		/// System.String[] m_SerializedProductIdMapValues
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_SerializedProductIdMapValues;
+		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RString> RFm_SerializedProductIdMapValues
+		{
+			get
+			{
+				if(r_Fm_SerializedProductIdMapValues == null)
+				{
+					r_Fm_SerializedProductIdMapValues = new(this, "m_SerializedProductIdMapValues");
+				}
+				return r_Fm_SerializedProductIdMapValues;
 			}
 		}
 
@@ -358,22 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.PackageManager.PackageInfo] onExtraPackageInfoFetched
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_FonExtraPackageInfoFetched;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RFonExtraPackageInfoFetched
-		{
-			get
-			{
-				if(r_FonExtraPackageInfoFetched == null)
-				{
-					r_FonExtraPackageInfoFetched = new(this, "onExtraPackageInfoFetched");
-				}
-				return r_FonExtraPackageInfoFetched;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[System.String] onVerifiedGitPackageUpToDate
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RSystem.RString> r_FonVerifiedGitPackageUpToDate;
@@ -386,6 +370,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_FonVerifiedGitPackageUpToDate = new(this, "onVerifiedGitPackageUpToDate");
 				}
 				return r_FonVerifiedGitPackageUpToDate;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs m_PackageManagerPrefs
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs r_Fm_PackageManagerPrefs;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs RFm_PackageManagerPrefs
+		{
+			get
+			{
+				if(r_Fm_PackageManagerPrefs == null)
+				{
+					r_Fm_PackageManagerPrefs = new(this, "m_PackageManagerPrefs");
+				}
+				return r_Fm_PackageManagerPrefs;
 			}
 		}
 
@@ -422,18 +422,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.PackageInfo] productSearchPackageInfos
+		/// System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.PackageInfo] productPackageInfos
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_PproductSearchPackageInfos;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPproductSearchPackageInfos
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> r_PproductPackageInfos;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RPackageInfo> RPproductPackageInfos
 		{
 			get
 			{
-				if(r_PproductSearchPackageInfos == null)
+				if(r_PproductPackageInfos == null)
 				{
-					r_PproductSearchPackageInfos = new(this, "productSearchPackageInfos", -1);
+					r_PproductPackageInfos = new(this, "productPackageInfos", -1);
 				}
-				return r_PproductSearchPackageInfos;
+				return r_PproductPackageInfos;
+			}
+		}
+
+		/// <summary>
+		/// Void ResolveDependencies(UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs)
+		/// </summary>
+		protected RMethod r_MResolveDependencies_PackageManagerPrefs;
+		public virtual RMethod RMResolveDependencies_PackageManagerPrefs
+		{
+			get
+			{
+				if(r_MResolveDependencies_PackageManagerPrefs == null)
+				{
+					r_MResolveDependencies_PackageManagerPrefs = new(this, "ResolveDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs"));
+				}
+				return r_MResolveDependencies_PackageManagerPrefs;
 			}
 		}
 
@@ -530,22 +546,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MOnAfterDeserialize = new(this, "OnAfterDeserialize", 0);
 				}
 				return r_MOnAfterDeserialize;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateProductIdAndNameMapping(UnityEditor.PackageManager.PackageInfo)
-		/// </summary>
-		protected RMethod r_MUpdateProductIdAndNameMapping_PackageInfo;
-		public virtual RMethod RMUpdateProductIdAndNameMapping_PackageInfo
-		{
-			get
-			{
-				if(r_MUpdateProductIdAndNameMapping_PackageInfo == null)
-				{
-					r_MUpdateProductIdAndNameMapping_PackageInfo = new(this, "UpdateProductIdAndNameMapping", 0, typeof(UnityEditor.PackageManager.PackageInfo));
-				}
-				return r_MUpdateProductIdAndNameMapping_PackageInfo;
 			}
 		}
 
@@ -726,34 +726,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.PackageInfo GetProductSearchPackageInfo(System.String)
+		/// UnityEditor.PackageManager.PackageInfo GetProductPackageInfo(System.String)
 		/// </summary>
-		protected RMethod r_MGetProductSearchPackageInfo_String;
-		public virtual RMethod RMGetProductSearchPackageInfo_String
+		protected RMethod r_MGetProductPackageInfo_String;
+		public virtual RMethod RMGetProductPackageInfo_String
 		{
 			get
 			{
-				if(r_MGetProductSearchPackageInfo_String == null)
+				if(r_MGetProductPackageInfo_String == null)
 				{
-					r_MGetProductSearchPackageInfo_String = new(this, "GetProductSearchPackageInfo", 0, typeof(System.String));
+					r_MGetProductPackageInfo_String = new(this, "GetProductPackageInfo", 0, typeof(System.String));
 				}
-				return r_MGetProductSearchPackageInfo_String;
+				return r_MGetProductPackageInfo_String;
 			}
 		}
 
 		/// <summary>
-		/// Void SetProductSearchPackageInfo(System.String, UnityEditor.PackageManager.PackageInfo)
+		/// Void SetProductPackageInfo(System.String, UnityEditor.PackageManager.PackageInfo)
 		/// </summary>
-		protected RMethod r_MSetProductSearchPackageInfo_String_PackageInfo;
-		public virtual RMethod RMSetProductSearchPackageInfo_String_PackageInfo
+		protected RMethod r_MSetProductPackageInfo_String_PackageInfo;
+		public virtual RMethod RMSetProductPackageInfo_String_PackageInfo
 		{
 			get
 			{
-				if(r_MSetProductSearchPackageInfo_String_PackageInfo == null)
+				if(r_MSetProductPackageInfo_String_PackageInfo == null)
 				{
-					r_MSetProductSearchPackageInfo_String_PackageInfo = new(this, "SetProductSearchPackageInfo", 0, typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo));
+					r_MSetProductPackageInfo_String_PackageInfo = new(this, "SetProductPackageInfo", 0, typeof(System.String), typeof(UnityEditor.PackageManager.PackageInfo));
 				}
-				return r_MSetProductSearchPackageInfo_String_PackageInfo;
+				return r_MSetProductPackageInfo_String_PackageInfo;
 			}
 		}
 
@@ -790,34 +790,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String GetProductIdByName(System.String)
+		/// System.String GetProductId(System.String)
 		/// </summary>
-		protected RMethod r_MGetProductIdByName_String;
-		public virtual RMethod RMGetProductIdByName_String
+		protected RMethod r_MGetProductId_String;
+		public virtual RMethod RMGetProductId_String
 		{
 			get
 			{
-				if(r_MGetProductIdByName_String == null)
+				if(r_MGetProductId_String == null)
 				{
-					r_MGetProductIdByName_String = new(this, "GetProductIdByName", 0, typeof(System.String));
+					r_MGetProductId_String = new(this, "GetProductId", 0, typeof(System.String));
 				}
-				return r_MGetProductIdByName_String;
-			}
-		}
-
-		/// <summary>
-		/// System.String GetNameByProductId(System.String)
-		/// </summary>
-		protected RMethod r_MGetNameByProductId_String;
-		public virtual RMethod RMGetNameByProductId_String
-		{
-			get
-			{
-				if(r_MGetNameByProductId_String == null)
-				{
-					r_MGetNameByProductId_String = new(this, "GetNameByProductId", 0, typeof(System.String));
-				}
-				return r_MGetNameByProductId_String;
+				return r_MGetProductId_String;
 			}
 		}
 
@@ -854,18 +838,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean <SetInstalledPackageInfos>b__46_2(UnityEditor.PackageManager.PackageInfo)
+		/// Boolean <SetInstalledPackageInfos>b__45_2(UnityEditor.PackageManager.PackageInfo)
 		/// </summary>
-		protected RMethod r_M__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo;
-		public virtual RMethod RM__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo
+		protected RMethod r_M__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo;
+		public virtual RMethod RM__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo
 		{
 			get
 			{
-				if(r_M__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo == null)
+				if(r_M__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo == null)
 				{
-					r_M__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo = new(this, "<SetInstalledPackageInfos>b__46_2", 0, typeof(UnityEditor.PackageManager.PackageInfo));
+					r_M__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo = new(this, "<SetInstalledPackageInfos>b__45_2", 0, typeof(UnityEditor.PackageManager.PackageInfo));
 				}
-				return r_M__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo;
+				return r_M__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo;
 			}
 		}
 
@@ -966,6 +950,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 
+        public virtual void ResolveDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs @packageManagerPrefs)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@packageManagerPrefs.Value};
+            var ___result = RMResolveDependencies_PackageManagerPrefs.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public static System.Collections.Generic.List<UnityEditor.PackageManager.PackageInfo> FindUpdatedPackageInfos(System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @oldInfos, System.Collections.Generic.Dictionary<System.String, UnityEditor.PackageManager.PackageInfo> @newInfos)
         {
 
@@ -1027,17 +1022,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMOnAfterDeserialize.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateProductIdAndNameMapping(UnityEditor.PackageManager.PackageInfo @info)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@info};
-            var ___result = RMUpdateProductIdAndNameMapping_PackageInfo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1164,23 +1148,23 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual UnityEditor.PackageManager.PackageInfo GetProductSearchPackageInfo(System.String @packageName)
+        public virtual UnityEditor.PackageManager.PackageInfo GetProductPackageInfo(System.String @packageName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@packageName};
-            var ___result = RMGetProductSearchPackageInfo_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetProductPackageInfo_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo>(___result);
         }
 
 
-        public virtual void SetProductSearchPackageInfo(System.String @productId, UnityEditor.PackageManager.PackageInfo @info)
+        public virtual void SetProductPackageInfo(System.String @productId, UnityEditor.PackageManager.PackageInfo @info)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@productId, @info};
-            var ___result = RMSetProductSearchPackageInfo_String_PackageInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RMSetProductPackageInfo_String_PackageInfo.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1208,23 +1192,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual System.String GetProductIdByName(System.String @packageName)
+        public virtual System.String GetProductId(System.String @packageName)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@packageName};
-            var ___result = RMGetProductIdByName_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual System.String GetNameByProductId(System.String @productId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@productId};
-            var ___result = RMGetNameByProductId_String.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetProductId_String.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
         }
@@ -1252,12 +1225,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual System.Boolean __0__SetInstalledPackageInfos__1__b__46_2(UnityEditor.PackageManager.PackageInfo @info)
+        public virtual System.Boolean __0__SetInstalledPackageInfos__1__b__45_2(UnityEditor.PackageManager.PackageInfo @info)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@info};
-            var ___result = RM__0__SetInstalledPackageInfos__1__b__46_2_PackageInfo.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__SetInstalledPackageInfos__1__b__45_2_PackageInfo.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

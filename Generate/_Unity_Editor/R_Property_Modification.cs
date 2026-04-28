@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void ApplyPropertyModificationsToObject(UnityEngine.Object, UnityEditor.PropertyModification[])
-		/// </summary>
-		protected static RMethod r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray;
-		public static RMethod RMApplyPropertyModificationsToObject_Object_PropertyModificationArray
-		{
-			get
-			{
-				if(r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray == null)
-				{
-					r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray = new(Type, "ApplyPropertyModificationsToObject", 0, typeof(UnityEngine.Object), typeof(UnityEditor.PropertyModification).MakeArrayType());
-				}
-				return r_MApplyPropertyModificationsToObject_Object_PropertyModificationArray;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -290,17 +274,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@target, @value};
             var ___result = RMApplyPropertyModificationToObject_Object_PropertyModification.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static void ApplyPropertyModificationsToObject(UnityEngine.Object @target, UnityEditor.PropertyModification[] @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target, @value};
-            var ___result = RMApplyPropertyModificationsToObject_Object_PropertyModificationArray.Invoke(___genericsType, ___parameters);
 
             
         }

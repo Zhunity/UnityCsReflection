@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onDestroy
-		/// </summary>
-		protected REvent r_EonDestroy;
-		public virtual REvent REonDestroy
-		{
-			get
-			{
-				if(r_EonDestroy == null)
-				{
-					r_EonDestroy = new(this, "onDestroy");
-				}
-				return r_EonDestroy;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 UndefinedIndex
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FUndefinedIndex;
@@ -150,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Boolean <isDragGhost>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__isDragGhost__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__isDragGhost__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__isDragGhost__1__k__BackingField == null)
-				{
-					r_F__0__isDragGhost__1__k__BackingField = new(this, "<isDragGhost>k__BackingField");
-				}
-				return r_F__0__isDragGhost__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onGeometryChanged
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> r_FonGeometryChanged;
@@ -194,22 +162,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fm_GeometryChangedEventCallback = new(this, "m_GeometryChangedEventCallback");
 				}
 				return r_Fm_GeometryChangedEventCallback;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEngine.UIElements.ReusableCollectionItem] onDestroy
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> r_FonDestroy;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RReusableCollectionItem> RFonDestroy
-		{
-			get
-			{
-				if(r_FonDestroy == null)
-				{
-					r_FonDestroy = new(this, "onDestroy");
-				}
-				return r_FonDestroy;
 			}
 		}
 
@@ -294,22 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean isDragGhost
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDragGhost;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDragGhost
-		{
-			get
-			{
-				if(r_PisDragGhost == null)
-				{
-					r_PisDragGhost = new(this, "isDragGhost", -1);
-				}
-				return r_PisDragGhost;
-			}
-		}
-
-		/// <summary>
 		/// Void Init(UnityEngine.UIElements.VisualElement)
 		/// </summary>
 		protected RMethod r_MInit_VisualElement;
@@ -358,22 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void DestroyElement()
-		/// </summary>
-		protected RMethod r_MDestroyElement;
-		public virtual RMethod RMDestroyElement
-		{
-			get
-			{
-				if(r_MDestroyElement == null)
-				{
-					r_MDestroyElement = new(this, "DestroyElement", 0);
-				}
-				return r_MDestroyElement;
-			}
-		}
-
-		/// <summary>
 		/// Void SetSelected(Boolean)
 		/// </summary>
 		protected RMethod r_MSetSelected_Boolean;
@@ -390,22 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void SetDragGhost(Boolean)
-		/// </summary>
-		protected RMethod r_MSetDragGhost_Boolean;
-		public virtual RMethod RMSetDragGhost_Boolean
-		{
-			get
-			{
-				if(r_MSetDragGhost_Boolean == null)
-				{
-					r_MSetDragGhost_Boolean = new(this, "SetDragGhost", 0, typeof(System.Boolean));
-				}
-				return r_MSetDragGhost_Boolean;
-			}
-		}
-
-		/// <summary>
 		/// Void OnGeometryChanged(UnityEngine.UIElements.GeometryChangedEvent)
 		/// </summary>
 		protected RMethod r_MOnGeometryChanged_GeometryChangedEvent;
@@ -418,6 +322,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MOnGeometryChanged_GeometryChangedEvent = new(this, "OnGeometryChanged", 0, typeof(UnityEngine.UIElements.GeometryChangedEvent));
 				}
 				return r_MOnGeometryChanged_GeometryChangedEvent;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement GetRootElement()
+		/// </summary>
+		protected RMethod r_MGetRootElement;
+		public virtual RMethod RMGetRootElement
+		{
+			get
+			{
+				if(r_MGetRootElement == null)
+				{
+					r_MGetRootElement = new(this, "GetRootElement", 0);
+				}
+				return r_MGetRootElement;
 			}
 		}
 
@@ -551,34 +471,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual void DestroyElement()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDestroyElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void SetSelected(System.Boolean @selected)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@selected};
             var ___result = RMSetSelected_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetDragGhost(System.Boolean @dragGhost)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@dragGhost};
-            var ___result = RMSetDragGhost_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -592,6 +490,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMOnGeometryChanged_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual UnityEngine.UIElements.VisualElement GetRootElement()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetRootElement.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
         }
 
 

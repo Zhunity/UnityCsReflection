@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 bindposeCount
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PbindposeCount;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPbindposeCount
-		{
-			get
-			{
-				if(r_PbindposeCount == null)
-				{
-					r_PbindposeCount = new(this, "bindposeCount", -1);
-				}
-				return r_PbindposeCount;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Matrix4x4[] bindposes
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4> r_Pbindposes;
@@ -498,22 +482,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_PboneWeights = new(this, "boneWeights", -1);
 				}
 				return r_PboneWeights;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.SkinWeights skinWeightBufferLayout
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RSkinWeights r_PskinWeightBufferLayout;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RSkinWeights RPskinWeightBufferLayout
-		{
-			get
-			{
-				if(r_PskinWeightBufferLayout == null)
-				{
-					r_PskinWeightBufferLayout = new(this, "skinWeightBufferLayout", -1);
-				}
-				return r_PskinWeightBufferLayout;
 			}
 		}
 
@@ -1222,38 +1190,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.GraphicsBuffer GetBoneWeightBufferImpl(Int32)
-		/// </summary>
-		protected RMethod r_MGetBoneWeightBufferImpl_Int32;
-		public virtual RMethod RMGetBoneWeightBufferImpl_Int32
-		{
-			get
-			{
-				if(r_MGetBoneWeightBufferImpl_Int32 == null)
-				{
-					r_MGetBoneWeightBufferImpl_Int32 = new(this, "GetBoneWeightBufferImpl", 0, typeof(System.Int32));
-				}
-				return r_MGetBoneWeightBufferImpl_Int32;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.GraphicsBuffer GetBlendShapeBufferImpl(Int32)
-		/// </summary>
-		protected RMethod r_MGetBlendShapeBufferImpl_Int32;
-		public virtual RMethod RMGetBlendShapeBufferImpl_Int32
-		{
-			get
-			{
-				if(r_MGetBlendShapeBufferImpl_Int32 == null)
-				{
-					r_MGetBlendShapeBufferImpl_Int32 = new(this, "GetBlendShapeBufferImpl", 0, typeof(System.Int32));
-				}
-				return r_MGetBlendShapeBufferImpl_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void ClearBlendShapes()
 		/// </summary>
 		protected RMethod r_MClearBlendShapes;
@@ -1362,22 +1298,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array = new(this, "AddBlendShapeFrame", 0, typeof(System.String), typeof(System.Single), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType(), typeof(UnityEngine.Vector3).MakeArrayType());
 				}
 				return r_MAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.BlendShape GetBlendShapeOffsetInternal(Int32)
-		/// </summary>
-		protected RMethod r_MGetBlendShapeOffsetInternal_Int32;
-		public virtual RMethod RMGetBlendShapeOffsetInternal_Int32
-		{
-			get
-			{
-				if(r_MGetBlendShapeOffsetInternal_Int32 == null)
-				{
-					r_MGetBlendShapeOffsetInternal_Int32 = new(this, "GetBlendShapeOffsetInternal", 0, typeof(System.Int32));
-				}
-				return r_MGetBlendShapeOffsetInternal_Int32;
 			}
 		}
 
@@ -1510,22 +1430,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetBoneWeightBufferLayoutInternal()
-		/// </summary>
-		protected RMethod r_MGetBoneWeightBufferLayoutInternal;
-		public virtual RMethod RMGetBoneWeightBufferLayoutInternal
-		{
-			get
-			{
-				if(r_MGetBoneWeightBufferLayoutInternal == null)
-				{
-					r_MGetBoneWeightBufferLayoutInternal = new(this, "GetBoneWeightBufferLayoutInternal", 0);
-				}
-				return r_MGetBoneWeightBufferLayoutInternal;
-			}
-		}
-
-		/// <summary>
 		/// IntPtr GetAllBoneWeightsArray()
 		/// </summary>
 		protected RMethod r_MGetAllBoneWeightsArray;
@@ -1558,34 +1462,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Unity.Collections.NativeArray`1[UnityEngine.Matrix4x4] GetBindposes()
+		/// Int32 GetBindposeCount()
 		/// </summary>
-		protected RMethod r_MGetBindposes;
-		public virtual RMethod RMGetBindposes
+		protected RMethod r_MGetBindposeCount;
+		public virtual RMethod RMGetBindposeCount
 		{
 			get
 			{
-				if(r_MGetBindposes == null)
+				if(r_MGetBindposeCount == null)
 				{
-					r_MGetBindposes = new(this, "GetBindposes", 0);
+					r_MGetBindposeCount = new(this, "GetBindposeCount", 0);
 				}
-				return r_MGetBindposes;
-			}
-		}
-
-		/// <summary>
-		/// IntPtr GetBindposesArray()
-		/// </summary>
-		protected RMethod r_MGetBindposesArray;
-		public virtual RMethod RMGetBindposesArray
-		{
-			get
-			{
-				if(r_MGetBindposesArray == null)
-				{
-					r_MGetBindposesArray = new(this, "GetBindposesArray", 0);
-				}
-				return r_MGetBindposesArray;
+				return r_MGetBindposeCount;
 			}
 		}
 
@@ -3590,70 +3478,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// UnityEngine.GraphicsBuffer GetBoneWeightBuffer(UnityEngine.SkinWeights)
-		/// </summary>
-		protected RMethod r_MGetBoneWeightBuffer_SkinWeights;
-		public virtual RMethod RMGetBoneWeightBuffer_SkinWeights
-		{
-			get
-			{
-				if(r_MGetBoneWeightBuffer_SkinWeights == null)
-				{
-					r_MGetBoneWeightBuffer_SkinWeights = new(this, "GetBoneWeightBuffer", 0, typeof(UnityEngine.SkinWeights));
-				}
-				return r_MGetBoneWeightBuffer_SkinWeights;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.GraphicsBuffer GetBlendShapeBuffer(UnityEngine.Rendering.BlendShapeBufferLayout)
-		/// </summary>
-		protected RMethod r_MGetBlendShapeBuffer_BlendShapeBufferLayout;
-		public virtual RMethod RMGetBlendShapeBuffer_BlendShapeBufferLayout
-		{
-			get
-			{
-				if(r_MGetBlendShapeBuffer_BlendShapeBufferLayout == null)
-				{
-					r_MGetBlendShapeBuffer_BlendShapeBufferLayout = new(this, "GetBlendShapeBuffer", 0, typeof(UnityEngine.Rendering.BlendShapeBufferLayout));
-				}
-				return r_MGetBlendShapeBuffer_BlendShapeBufferLayout;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.GraphicsBuffer GetBlendShapeBuffer()
-		/// </summary>
-		protected RMethod r_MGetBlendShapeBuffer;
-		public virtual RMethod RMGetBlendShapeBuffer
-		{
-			get
-			{
-				if(r_MGetBlendShapeBuffer == null)
-				{
-					r_MGetBlendShapeBuffer = new(this, "GetBlendShapeBuffer", 0);
-				}
-				return r_MGetBlendShapeBuffer;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.BlendShapeBufferRange GetBlendShapeBufferRange(Int32)
-		/// </summary>
-		protected RMethod r_MGetBlendShapeBufferRange_Int32;
-		public virtual RMethod RMGetBlendShapeBufferRange_Int32
-		{
-			get
-			{
-				if(r_MGetBlendShapeBufferRange_Int32 == null)
-				{
-					r_MGetBlendShapeBufferRange_Int32 = new(this, "GetBlendShapeBufferRange", 0, typeof(System.Int32));
-				}
-				return r_MGetBlendShapeBufferRange_Int32;
-			}
-		}
-
-		/// <summary>
 		/// Void PrintErrorCantAccessIndices()
 		/// </summary>
 		protected RMethod r_MPrintErrorCantAccessIndices;
@@ -4854,22 +4678,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void GetBlendShapeOffsetInternal_Injected(Int32, UnityEngine.BlendShape ByRef)
-		/// </summary>
-		protected RMethod r_MGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape;
-		public virtual RMethod RMGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape
-		{
-			get
-			{
-				if(r_MGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape == null)
-				{
-					r_MGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape = new(this, "GetBlendShapeOffsetInternal_Injected", 0, typeof(System.Int32),  ReflectionUtils.GetType("UnityEngine.BlendShape").MakeByRefType());
-				}
-				return r_MGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape;
-			}
-		}
-
-		/// <summary>
 		/// Void GetReadOnlySafetyHandle_Injected(SafetyHandleIndex, Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
 		protected RMethod r_MGetReadOnlySafetyHandle_Injected_SafetyHandleIndex_Out_AtomicSafetyHandle;
@@ -5010,22 +4818,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -5540,28 +5332,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.GraphicsBuffer GetBoneWeightBufferImpl(System.Int32 @bonesPerVertex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@bonesPerVertex};
-            var ___result = RMGetBoneWeightBufferImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBuffer>(___result);
-        }
-
-
-        public virtual UnityEngine.GraphicsBuffer GetBlendShapeBufferImpl(System.Int32 @layout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layout};
-            var ___result = RMGetBlendShapeBufferImpl_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBuffer>(___result);
-        }
-
-
         public virtual void ClearBlendShapes()
         {
 
@@ -5636,17 +5406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMAddBlendShapeFrame_String_Single_Vector3Array_Vector3Array_Vector3Array.Invoke(___genericsType, ___parameters);
 
             
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RBlendShape GetBlendShapeOffsetInternal(System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index};
-            var ___result = RMGetBlendShapeOffsetInternal_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RBlendShape>(___result);
         }
 
 
@@ -5738,17 +5497,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetBoneWeightBufferLayoutInternal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBoneWeightBufferLayoutInternal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual System.IntPtr GetAllBoneWeightsArray()
         {
 
@@ -5771,25 +5519,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4> GetBindposes()
+        public virtual System.Int32 GetBindposeCount()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMGetBindposes.Invoke(___genericsType, ___parameters);
+            var ___result = RMGetBindposeCount.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnity.RCollections.RNativeArray<Hvak.Editor.Refleaction.RUnityEngine.RMatrix4x4>>(___result);
-        }
-
-
-        public virtual System.IntPtr GetBindposesArray()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBindposesArray.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.IntPtr>(___result);
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
@@ -7168,50 +6905,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual UnityEngine.GraphicsBuffer GetBoneWeightBuffer(UnityEngine.SkinWeights @layout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layout};
-            var ___result = RMGetBoneWeightBuffer_SkinWeights.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBuffer>(___result);
-        }
-
-
-        public virtual UnityEngine.GraphicsBuffer GetBlendShapeBuffer(UnityEngine.Rendering.BlendShapeBufferLayout @layout)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@layout};
-            var ___result = RMGetBlendShapeBuffer_BlendShapeBufferLayout.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBuffer>(___result);
-        }
-
-
-        public virtual UnityEngine.GraphicsBuffer GetBlendShapeBuffer()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetBlendShapeBuffer.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.GraphicsBuffer>(___result);
-        }
-
-
-        public virtual UnityEngine.BlendShapeBufferRange GetBlendShapeBufferRange(System.Int32 @blendShapeIndex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@blendShapeIndex};
-            var ___result = RMGetBlendShapeBufferRange_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.BlendShapeBufferRange>(___result);
-        }
-
-
         public virtual void PrintErrorCantAccessIndices()
         {
 
@@ -8039,19 +7732,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual void GetBlendShapeOffsetInternal_Injected(System.Int32 @index, out Hvak.Editor.Refleaction.RUnityEngine.RBlendShape @ret)
-        {
-			@ret = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@index, @ret.Value};
-            var ___result = RMGetBlendShapeOffsetInternal_Injected_Int32_Out_BlendShape.Invoke(___genericsType, ___parameters);
-			@ret = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RBlendShape>(___parameters[1]);
-
-            
-        }
-
-
         public virtual void GetReadOnlySafetyHandle_Injected(Hvak.Editor.Refleaction.RUnityEngine.RMesh.RSafetyHandleIndex @index, out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
@@ -8156,17 +7836,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

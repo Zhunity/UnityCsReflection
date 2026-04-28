@@ -166,22 +166,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// System.UInt64 m_ViewID
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RUInt64 r_Fm_ViewID;
-		public virtual Hvak.Editor.Refleaction.RSystem.RUInt64 RFm_ViewID
-		{
-			get
-			{
-				if(r_Fm_ViewID == null)
-				{
-					r_Fm_ViewID = new(this, "m_ViewID");
-				}
-				return r_Fm_ViewID;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 k_LayerCount
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fk_LayerCount;

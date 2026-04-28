@@ -38,6 +38,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
+		/// System.String k_EmptyDescriptionClass
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_EmptyDescriptionClass;
+		public static Hvak.Editor.Refleaction.RSystem.RString RFk_EmptyDescriptionClass
+		{
+			get
+			{
+				if(r_Fk_EmptyDescriptionClass == null)
+				{
+					r_Fk_EmptyDescriptionClass = new(Type, "k_EmptyDescriptionClass");
+				}
+				return r_Fk_EmptyDescriptionClass;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.ResourceLoader m_ResourceLoader
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RResourceLoader r_Fm_ResourceLoader;
@@ -50,6 +66,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_ResourceLoader = new(this, "m_ResourceLoader");
 				}
 				return r_Fm_ResourceLoader;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy m_Application
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_Application;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_Application
+		{
+			get
+			{
+				if(r_Fm_Application == null)
+				{
+					r_Fm_Application = new(this, "m_Application");
+				}
+				return r_Fm_Application;
 			}
 		}
 
@@ -86,146 +118,34 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageManagerPrefs m_PackageManagerPrefs
+		/// System.Boolean m_DescriptionExpanded
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs r_Fm_PackageManagerPrefs;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageManagerPrefs RFm_PackageManagerPrefs
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DescriptionExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DescriptionExpanded
 		{
 			get
 			{
-				if(r_Fm_PackageManagerPrefs == null)
+				if(r_Fm_DescriptionExpanded == null)
 				{
-					r_Fm_PackageManagerPrefs = new(this, "m_PackageManagerPrefs");
+					r_Fm_DescriptionExpanded = new(this, "m_DescriptionExpanded");
 				}
-				return r_Fm_PackageManagerPrefs;
+				return r_Fm_DescriptionExpanded;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.SelectionProxy m_Selection
+		/// UnityEditor.PackageManager.UI.Internal.IPackage m_Package
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectionProxy r_Fm_Selection;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectionProxy RFm_Selection
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage r_Fm_Package;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage RFm_Package
 		{
 			get
 			{
-				if(r_Fm_Selection == null)
+				if(r_Fm_Package == null)
 				{
-					r_Fm_Selection = new(this, "m_Selection");
+					r_Fm_Package = new(this, "m_Package");
 				}
-				return r_Fm_Selection;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetDatabaseProxy m_AssetDatabase
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy r_Fm_AssetDatabase;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetDatabaseProxy RFm_AssetDatabase
-		{
-			get
-			{
-				if(r_Fm_AssetDatabase == null)
-				{
-					r_Fm_AssetDatabase = new(this, "m_AssetDatabase");
-				}
-				return r_Fm_AssetDatabase;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.ApplicationProxy m_Application
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy r_Fm_Application;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RApplicationProxy RFm_Application
-		{
-			get
-			{
-				if(r_Fm_Application == null)
-				{
-					r_Fm_Application = new(this, "m_Application");
-				}
-				return r_Fm_Application;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.IOProxy m_IOProxy
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy r_Fm_IOProxy;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIOProxy RFm_IOProxy
-		{
-			get
-			{
-				if(r_Fm_IOProxy == null)
-				{
-					r_Fm_IOProxy = new(this, "m_IOProxy");
-				}
-				return r_Fm_IOProxy;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.AssetStoreCache m_AssetStoreCache
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache r_Fm_AssetStoreCache;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreCache RFm_AssetStoreCache
-		{
-			get
-			{
-				if(r_Fm_AssetStoreCache == null)
-				{
-					r_Fm_AssetStoreCache = new(this, "m_AssetStoreCache");
-				}
-				return r_Fm_AssetStoreCache;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PageManager m_PageManager
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager r_Fm_PageManager;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPageManager RFm_PageManager
-		{
-			get
-			{
-				if(r_Fm_PageManager == null)
-				{
-					r_Fm_PageManager = new(this, "m_PageManager");
-				}
-				return r_Fm_PageManager;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UpmCache m_UpmCache
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache r_Fm_UpmCache;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUpmCache RFm_UpmCache
-		{
-			get
-			{
-				if(r_Fm_UpmCache == null)
-				{
-					r_Fm_UpmCache = new(this, "m_UpmCache");
-				}
-				return r_Fm_UpmCache;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.PackageDetailsTabView m_TabView
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDetailsTabView r_Fm_TabView;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDetailsTabView RFm_TabView
-		{
-			get
-			{
-				if(r_Fm_TabView == null)
-				{
-					r_Fm_TabView = new(this, "m_TabView");
-				}
-				return r_Fm_TabView;
+				return r_Fm_Package;
 			}
 		}
 
@@ -246,18 +166,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElementFlags m_Flags
+		/// UnityEditor.PackageManager.UI.Internal.VisualElementCache <cache>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags r_Fm_Flags;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElementFlags RFm_Flags
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualElementCache r_F__0__cache__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualElementCache RF__0__cache__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_Flags == null)
+				if(r_F__0__cache__1__k__BackingField == null)
 				{
-					r_Fm_Flags = new(this, "m_Flags");
+					r_F__0__cache__1__k__BackingField = new(this, "<cache>k__BackingField");
 				}
-				return r_Fm_Flags;
+				return r_F__0__cache__1__k__BackingField;
 			}
 		}
 
@@ -470,18 +390,370 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.IResolvedStyle resolvedStyle
+		/// Boolean descriptionExpanded
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle r_PresolvedStyle;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle RPresolvedStyle
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdescriptionExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdescriptionExpanded
 		{
 			get
 			{
-				if(r_PresolvedStyle == null)
+				if(r_PdescriptionExpanded == null)
 				{
-					r_PresolvedStyle = new(this, "resolvedStyle", -1);
+					r_PdescriptionExpanded = new(this, "descriptionExpanded", -1);
 				}
-				return r_PresolvedStyle;
+				return r_PdescriptionExpanded;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.VisualElementCache cache
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualElementCache r_Pcache;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualElementCache RPcache
+		{
+			get
+			{
+				if(r_Pcache == null)
+				{
+					r_Pcache = new(this, "cache", -1);
+				}
+				return r_Pcache;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.SelectableLabel detailDesc
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel r_PdetailDesc;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel RPdetailDesc
+		{
+			get
+			{
+				if(r_PdetailDesc == null)
+				{
+					r_PdetailDesc = new(this, "detailDesc", -1);
+				}
+				return r_PdetailDesc;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.Button detailDescMore
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RButton r_PdetailDescMore;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RButton RPdetailDescMore
+		{
+			get
+			{
+				if(r_PdetailDescMore == null)
+				{
+					r_PdetailDescMore = new(this, "detailDescMore", -1);
+				}
+				return r_PdetailDescMore;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.Button detailDescLess
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RButton r_PdetailDescLess;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RButton RPdetailDescLess
+		{
+			get
+			{
+				if(r_PdetailDescLess == null)
+				{
+					r_PdetailDescLess = new(this, "detailDescLess", -1);
+				}
+				return r_PdetailDescLess;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.HelpBox disabledInfoBox
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBox r_PdisabledInfoBox;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RHelpBox RPdisabledInfoBox
+		{
+			get
+			{
+				if(r_PdisabledInfoBox == null)
+				{
+					r_PdisabledInfoBox = new(this, "disabledInfoBox", -1);
+				}
+				return r_PdisabledInfoBox;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailSourcePathContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailSourcePathContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailSourcePathContainer
+		{
+			get
+			{
+				if(r_PdetailSourcePathContainer == null)
+				{
+					r_PdetailSourcePathContainer = new(this, "detailSourcePathContainer", -1);
+				}
+				return r_PdetailSourcePathContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.SelectableLabel detailSourcePath
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel r_PdetailSourcePath;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel RPdetailSourcePath
+		{
+			get
+			{
+				if(r_PdetailSourcePath == null)
+				{
+					r_PdetailSourcePath = new(this, "detailSourcePath", -1);
+				}
+				return r_PdetailSourcePath;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailSizesAndSupportedVersionsContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailSizesAndSupportedVersionsContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailSizesAndSupportedVersionsContainer
+		{
+			get
+			{
+				if(r_PdetailSizesAndSupportedVersionsContainer == null)
+				{
+					r_PdetailSizesAndSupportedVersionsContainer = new(this, "detailSizesAndSupportedVersionsContainer", -1);
+				}
+				return r_PdetailSizesAndSupportedVersionsContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailUnityVersionsContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailUnityVersionsContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailUnityVersionsContainer
+		{
+			get
+			{
+				if(r_PdetailUnityVersionsContainer == null)
+				{
+					r_PdetailUnityVersionsContainer = new(this, "detailUnityVersionsContainer", -1);
+				}
+				return r_PdetailUnityVersionsContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.SelectableLabel detailUnityVersions
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel r_PdetailUnityVersions;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel RPdetailUnityVersions
+		{
+			get
+			{
+				if(r_PdetailUnityVersions == null)
+				{
+					r_PdetailUnityVersions = new(this, "detailUnityVersions", -1);
+				}
+				return r_PdetailUnityVersions;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailSizesContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailSizesContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailSizesContainer
+		{
+			get
+			{
+				if(r_PdetailSizesContainer == null)
+				{
+					r_PdetailSizesContainer = new(this, "detailSizesContainer", -1);
+				}
+				return r_PdetailSizesContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailSizes
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailSizes;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailSizes
+		{
+			get
+			{
+				if(r_PdetailSizes == null)
+				{
+					r_PdetailSizes = new(this, "detailSizes", -1);
+				}
+				return r_PdetailSizes;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailPurchasedDateContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailPurchasedDateContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailPurchasedDateContainer
+		{
+			get
+			{
+				if(r_PdetailPurchasedDateContainer == null)
+				{
+					r_PdetailPurchasedDateContainer = new(this, "detailPurchasedDateContainer", -1);
+				}
+				return r_PdetailPurchasedDateContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.SelectableLabel detailPurchasedDate
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel r_PdetailPurchasedDate;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RSelectableLabel RPdetailPurchasedDate
+		{
+			get
+			{
+				if(r_PdetailPurchasedDate == null)
+				{
+					r_PdetailPurchasedDate = new(this, "detailPurchasedDate", -1);
+				}
+				return r_PdetailPurchasedDate;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailReleaseDetailsContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailReleaseDetailsContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailReleaseDetailsContainer
+		{
+			get
+			{
+				if(r_PdetailReleaseDetailsContainer == null)
+				{
+					r_PdetailReleaseDetailsContainer = new(this, "detailReleaseDetailsContainer", -1);
+				}
+				return r_PdetailReleaseDetailsContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailReleaseDetails
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailReleaseDetails;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailReleaseDetails
+		{
+			get
+			{
+				if(r_PdetailReleaseDetails == null)
+				{
+					r_PdetailReleaseDetails = new(this, "detailReleaseDetails", -1);
+				}
+				return r_PdetailReleaseDetails;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailLabelsContainer
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailLabelsContainer;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailLabelsContainer
+		{
+			get
+			{
+				if(r_PdetailLabelsContainer == null)
+				{
+					r_PdetailLabelsContainer = new(this, "detailLabelsContainer", -1);
+				}
+				return r_PdetailLabelsContainer;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement detailLabels
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PdetailLabels;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPdetailLabels
+		{
+			get
+			{
+				if(r_PdetailLabels == null)
+				{
+					r_PdetailLabels = new(this, "detailLabels", -1);
+				}
+				return r_PdetailLabels;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.PackageSampleList sampleList
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSampleList r_PsampleList;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSampleList RPsampleList
+		{
+			get
+			{
+				if(r_PsampleList == null)
+				{
+					r_PsampleList = new(this, "sampleList", -1);
+				}
+				return r_PsampleList;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.PackageDependencies dependencies
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDependencies r_Pdependencies;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDependencies RPdependencies
+		{
+			get
+			{
+				if(r_Pdependencies == null)
+				{
+					r_Pdependencies = new(this, "dependencies", -1);
+				}
+				return r_Pdependencies;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.PackageDetailsImages detailsImages
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDetailsImages r_PdetailsImages;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDetailsImages RPdetailsImages
+		{
+			get
+			{
+				if(r_PdetailsImages == null)
+				{
+					r_PdetailsImages = new(this, "detailsImages", -1);
+				}
+				return r_PdetailsImages;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.FeatureDependencies featureDependencies
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RFeatureDependencies r_PfeatureDependencies;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RFeatureDependencies RPfeatureDependencies
+		{
+			get
+			{
+				if(r_PfeatureDependencies == null)
+				{
+					r_PfeatureDependencies = new(this, "featureDependencies", -1);
+				}
+				return r_PfeatureDependencies;
 			}
 		}
 
@@ -806,22 +1078,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean isWorldBoundingBoxOrDependenciesDirty
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisWorldBoundingBoxOrDependenciesDirty;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisWorldBoundingBoxOrDependenciesDirty
-		{
-			get
-			{
-				if(r_PisWorldBoundingBoxOrDependenciesDirty == null)
-				{
-					r_PisWorldBoundingBoxOrDependenciesDirty = new(this, "isWorldBoundingBoxOrDependenciesDirty", -1);
-				}
-				return r_PisWorldBoundingBoxOrDependenciesDirty;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Rect boundingBox
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RRect r_PboundingBox;
@@ -930,22 +1186,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PisWorldTransformInverseDirty = new(this, "isWorldTransformInverseDirty", -1);
 				}
 				return r_PisWorldTransformInverseDirty;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isWorldTransformInverseOrDependenciesDirty
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisWorldTransformInverseOrDependenciesDirty;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisWorldTransformInverseOrDependenciesDirty
-		{
-			get
-			{
-				if(r_PisWorldTransformInverseOrDependenciesDirty == null)
-				{
-					r_PisWorldTransformInverseOrDependenciesDirty = new(this, "isWorldTransformInverseOrDependenciesDirty", -1);
-				}
-				return r_PisWorldTransformInverseOrDependenciesDirty;
 			}
 		}
 
@@ -1286,38 +1526,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.LanguageDirection languageDirection
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlanguageDirection;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlanguageDirection
-		{
-			get
-			{
-				if(r_PlanguageDirection == null)
-				{
-					r_PlanguageDirection = new(this, "languageDirection", -1);
-				}
-				return r_PlanguageDirection;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.LanguageDirection localLanguageDirection
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection r_PlocalLanguageDirection;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RLanguageDirection RPlocalLanguageDirection
-		{
-			get
-			{
-				if(r_PlocalLanguageDirection == null)
-				{
-					r_PlocalLanguageDirection = new(this, "localLanguageDirection", -1);
-				}
-				return r_PlocalLanguageDirection;
-			}
-		}
-
-		/// <summary>
 		/// Boolean visible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pvisible;
@@ -1394,70 +1602,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PdefaultMaterial = new(this, "defaultMaterial", -1);
 				}
 				return r_PdefaultMaterial;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.VisualElement nextParentWithEventCallback
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PnextParentWithEventCallback;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPnextParentWithEventCallback
-		{
-			get
-			{
-				if(r_PnextParentWithEventCallback == null)
-				{
-					r_PnextParentWithEventCallback = new(this, "nextParentWithEventCallback", -1);
-				}
-				return r_PnextParentWithEventCallback;
-			}
-		}
-
-		/// <summary>
-		/// Int32 eventCallbackCategories
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PeventCallbackCategories;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPeventCallbackCategories
-		{
-			get
-			{
-				if(r_PeventCallbackCategories == null)
-				{
-					r_PeventCallbackCategories = new(this, "eventCallbackCategories", -1);
-				}
-				return r_PeventCallbackCategories;
-			}
-		}
-
-		/// <summary>
-		/// Int32 eventCallbackParentCategories
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PeventCallbackParentCategories;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPeventCallbackParentCategories
-		{
-			get
-			{
-				if(r_PeventCallbackParentCategories == null)
-				{
-					r_PeventCallbackParentCategories = new(this, "eventCallbackParentCategories", -1);
-				}
-				return r_PeventCallbackParentCategories;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isEventCallbackParentCategoriesDirty
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisEventCallbackParentCategoriesDirty;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisEventCallbackParentCategoriesDirty
-		{
-			get
-			{
-				if(r_PisEventCallbackParentCategoriesDirty == null)
-				{
-					r_PisEventCallbackParentCategoriesDirty = new(this, "isEventCallbackParentCategoriesDirty", -1);
-				}
-				return r_PisEventCallbackParentCategoriesDirty;
 			}
 		}
 
@@ -1654,6 +1798,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.ILiveReloadAssetTracker`1[UnityEngine.UIElements.VisualTreeAsset] visualTreeAssetTracker
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> r_PvisualTreeAssetTracker;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RILiveReloadAssetTracker<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeAsset> RPvisualTreeAssetTracker
+		{
+			get
+			{
+				if(r_PvisualTreeAssetTracker == null)
+				{
+					r_PvisualTreeAssetTracker = new(this, "visualTreeAssetTracker", -1);
+				}
+				return r_PvisualTreeAssetTracker;
+			}
+		}
+
+		/// <summary>
 		/// Boolean hasDefaultRotationAndScale
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasDefaultRotationAndScale;
@@ -1750,6 +1910,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.IResolvedStyle resolvedStyle
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle r_PresolvedStyle;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIResolvedStyle RPresolvedStyle
+		{
+			get
+			{
+				if(r_PresolvedStyle == null)
+				{
+					r_PresolvedStyle = new(this, "resolvedStyle", -1);
+				}
+				return r_PresolvedStyle;
+			}
+		}
+
+		/// <summary>
 		/// Boolean focusable
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pfocusable;
@@ -1830,22 +2006,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void AddTabs()
-		/// </summary>
-		protected RMethod r_MAddTabs;
-		public virtual RMethod RMAddTabs
-		{
-			get
-			{
-				if(r_MAddTabs == null)
-				{
-					r_MAddTabs = new(this, "AddTabs", 0);
-				}
-				return r_MAddTabs;
-			}
-		}
-
-		/// <summary>
 		/// Void OnEnable()
 		/// </summary>
 		protected RMethod r_MOnEnable;
@@ -1894,22 +2054,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void RefreshTabs()
-		/// </summary>
-		protected RMethod r_MRefreshTabs;
-		public virtual RMethod RMRefreshTabs
-		{
-			get
-			{
-				if(r_MRefreshTabs == null)
-				{
-					r_MRefreshTabs = new(this, "RefreshTabs", 0);
-				}
-				return r_MRefreshTabs;
-			}
-		}
-
-		/// <summary>
 		/// Void RefreshDependencies()
 		/// </summary>
 		protected RMethod r_MRefreshDependencies;
@@ -1942,146 +2086,210 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void RefreshDependencies(UnityEditor.PackageManager.UI.Internal.PackagesChangeArgs)
+		/// Void RefreshDependencies(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage], System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.IPackage])
 		/// </summary>
-		protected RMethod r_MRefreshDependencies_PackagesChangeArgs;
-		public virtual RMethod RMRefreshDependencies_PackagesChangeArgs
+		protected RMethod r_MRefreshDependencies_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_;
+		public virtual RMethod RMRefreshDependencies_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_
 		{
 			get
 			{
-				if(r_MRefreshDependencies_PackagesChangeArgs == null)
+				if(r_MRefreshDependencies_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ == null)
 				{
-					r_MRefreshDependencies_PackagesChangeArgs = new(this, "RefreshDependencies", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackagesChangeArgs"));
+					r_MRefreshDependencies_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_ = new(this, "RefreshDependencies", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")),  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.IPackage")));
 				}
-				return r_MRefreshDependencies_PackagesChangeArgs;
+				return r_MRefreshDependencies_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_;
 			}
 		}
 
 		/// <summary>
-		/// Void OnTabSwitched(UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement, UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement)
+		/// Void RefreshLabels()
 		/// </summary>
-		protected RMethod r_MOnTabSwitched_PackageDetailsTabElement_PackageDetailsTabElement;
-		public virtual RMethod RMOnTabSwitched_PackageDetailsTabElement_PackageDetailsTabElement
+		protected RMethod r_MRefreshLabels;
+		public virtual RMethod RMRefreshLabels
 		{
 			get
 			{
-				if(r_MOnTabSwitched_PackageDetailsTabElement_PackageDetailsTabElement == null)
+				if(r_MRefreshLabels == null)
 				{
-					r_MOnTabSwitched_PackageDetailsTabElement_PackageDetailsTabElement = new(this, "OnTabSwitched", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageDetailsTabElement"));
+					r_MRefreshLabels = new(this, "RefreshLabels", 0);
 				}
-				return r_MOnTabSwitched_PackageDetailsTabElement_PackageDetailsTabElement;
+				return r_MRefreshLabels;
 			}
 		}
 
 		/// <summary>
-		/// Void RefreshVersionsHistory(System.Collections.Generic.IEnumerable`1[UnityEditor.PackageManager.UI.Internal.VisualState])
+		/// Void DescMoreClick()
 		/// </summary>
-		protected RMethod r_MRefreshVersionsHistory_IEnumerable_d_VisualState_p_;
-		public virtual RMethod RMRefreshVersionsHistory_IEnumerable_d_VisualState_p_
+		protected RMethod r_MDescMoreClick;
+		public virtual RMethod RMDescMoreClick
 		{
 			get
 			{
-				if(r_MRefreshVersionsHistory_IEnumerable_d_VisualState_p_ == null)
+				if(r_MDescMoreClick == null)
 				{
-					r_MRefreshVersionsHistory_IEnumerable_d_VisualState_p_ = new(this, "RefreshVersionsHistory", 0,  ReflectionUtils.GetType("System.Collections.Generic.IEnumerable`1").MakeGenericType( ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualState")));
+					r_MDescMoreClick = new(this, "DescMoreClick", 0);
 				}
-				return r_MRefreshVersionsHistory_IEnumerable_d_VisualState_p_;
+				return r_MDescMoreClick;
 			}
 		}
 
 		/// <summary>
-		/// Boolean <RefreshVersionsHistory>b__25_0(UnityEditor.PackageManager.UI.Internal.VisualState)
+		/// Void DescLessClick()
 		/// </summary>
-		protected RMethod r_M__0__RefreshVersionsHistory__1__b__25_0_VisualState;
-		public virtual RMethod RM__0__RefreshVersionsHistory__1__b__25_0_VisualState
+		protected RMethod r_MDescLessClick;
+		public virtual RMethod RMDescLessClick
 		{
 			get
 			{
-				if(r_M__0__RefreshVersionsHistory__1__b__25_0_VisualState == null)
+				if(r_MDescLessClick == null)
 				{
-					r_M__0__RefreshVersionsHistory__1__b__25_0_VisualState = new(this, "<RefreshVersionsHistory>b__25_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.VisualState"));
+					r_MDescLessClick = new(this, "DescLessClick", 0);
 				}
-				return r_M__0__RefreshVersionsHistory__1__b__25_0_VisualState;
+				return r_MDescLessClick;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertLengthUnits(UnityEngine.UIElements.StyleSheets.StylePropertyId, UnityEngine.UIElements.Length ByRef, UnityEngine.UIElements.Length ByRef, Int32)
+		/// Void DescriptionGeometryChangeEvent(UnityEngine.UIElements.GeometryChangedEvent)
 		/// </summary>
-		protected RMethod r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
-		public virtual RMethod RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32
+		protected RMethod r_MDescriptionGeometryChangeEvent_GeometryChangedEvent;
+		public virtual RMethod RMDescriptionGeometryChangeEvent_GeometryChangedEvent
 		{
 			get
 			{
-				if(r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 == null)
+				if(r_MDescriptionGeometryChangeEvent_GeometryChangedEvent == null)
 				{
-					r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32 = new(this, "TryConvertLengthUnits", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleSheets.StylePropertyId"), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(UnityEngine.UIElements.Length).MakeByRefType(), typeof(System.Int32));
+					r_MDescriptionGeometryChangeEvent_GeometryChangedEvent = new(this, "DescriptionGeometryChangeEvent", 0, typeof(UnityEngine.UIElements.GeometryChangedEvent));
 				}
-				return r_MTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32;
+				return r_MDescriptionGeometryChangeEvent_GeometryChangedEvent;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertTransformOriginUnits(UnityEngine.UIElements.TransformOrigin ByRef, UnityEngine.UIElements.TransformOrigin ByRef)
+		/// Void RefreshDescription()
 		/// </summary>
-		protected RMethod r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
-		public virtual RMethod RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin
+		protected RMethod r_MRefreshDescription;
+		public virtual RMethod RMRefreshDescription
 		{
 			get
 			{
-				if(r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin == null)
+				if(r_MRefreshDescription == null)
 				{
-					r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin = new(this, "TryConvertTransformOriginUnits", 0, typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType(), typeof(UnityEngine.UIElements.TransformOrigin).MakeByRefType());
+					r_MRefreshDescription = new(this, "RefreshDescription", 0);
 				}
-				return r_MTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin;
+				return r_MRefreshDescription;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertTranslateUnits(UnityEngine.UIElements.Translate ByRef, UnityEngine.UIElements.Translate ByRef)
+		/// Void RefreshPurchasedDate()
 		/// </summary>
-		protected RMethod r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate;
-		public virtual RMethod RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate
+		protected RMethod r_MRefreshPurchasedDate;
+		public virtual RMethod RMRefreshPurchasedDate
 		{
 			get
 			{
-				if(r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate == null)
+				if(r_MRefreshPurchasedDate == null)
 				{
-					r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate = new(this, "TryConvertTranslateUnits", 0, typeof(UnityEngine.UIElements.Translate).MakeByRefType(), typeof(UnityEngine.UIElements.Translate).MakeByRefType());
+					r_MRefreshPurchasedDate = new(this, "RefreshPurchasedDate", 0);
 				}
-				return r_MTryConvertTranslateUnits_Ref_Translate_Ref_Translate;
+				return r_MRefreshPurchasedDate;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertBackgroundPositionUnits(UnityEngine.UIElements.BackgroundPosition ByRef, UnityEngine.UIElements.BackgroundPosition ByRef)
+		/// Void RefreshReleaseDetails()
 		/// </summary>
-		protected RMethod r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
-		public virtual RMethod RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition
+		protected RMethod r_MRefreshReleaseDetails;
+		public virtual RMethod RMRefreshReleaseDetails
 		{
 			get
 			{
-				if(r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition == null)
+				if(r_MRefreshReleaseDetails == null)
 				{
-					r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition = new(this, "TryConvertBackgroundPositionUnits", 0, typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundPosition).MakeByRefType());
+					r_MRefreshReleaseDetails = new(this, "RefreshReleaseDetails", 0);
 				}
-				return r_MTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition;
+				return r_MRefreshReleaseDetails;
 			}
 		}
 
 		/// <summary>
-		/// Boolean TryConvertBackgroundSizeUnits(UnityEngine.UIElements.BackgroundSize ByRef, UnityEngine.UIElements.BackgroundSize ByRef)
+		/// Void RefreshSizeAndSupportedUnityVersions()
 		/// </summary>
-		protected RMethod r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
-		public virtual RMethod RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize
+		protected RMethod r_MRefreshSizeAndSupportedUnityVersions;
+		public virtual RMethod RMRefreshSizeAndSupportedUnityVersions
 		{
 			get
 			{
-				if(r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize == null)
+				if(r_MRefreshSizeAndSupportedUnityVersions == null)
 				{
-					r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize = new(this, "TryConvertBackgroundSizeUnits", 0, typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType(), typeof(UnityEngine.UIElements.BackgroundSize).MakeByRefType());
+					r_MRefreshSizeAndSupportedUnityVersions = new(this, "RefreshSizeAndSupportedUnityVersions", 0);
 				}
-				return r_MTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize;
+				return r_MRefreshSizeAndSupportedUnityVersions;
+			}
+		}
+
+		/// <summary>
+		/// Boolean RefreshSupportedUnityVersions()
+		/// </summary>
+		protected RMethod r_MRefreshSupportedUnityVersions;
+		public virtual RMethod RMRefreshSupportedUnityVersions
+		{
+			get
+			{
+				if(r_MRefreshSupportedUnityVersions == null)
+				{
+					r_MRefreshSupportedUnityVersions = new(this, "RefreshSupportedUnityVersions", 0);
+				}
+				return r_MRefreshSupportedUnityVersions;
+			}
+		}
+
+		/// <summary>
+		/// Boolean RefreshSizeInfo()
+		/// </summary>
+		protected RMethod r_MRefreshSizeInfo;
+		public virtual RMethod RMRefreshSizeInfo
+		{
+			get
+			{
+				if(r_MRefreshSizeInfo == null)
+				{
+					r_MRefreshSizeInfo = new(this, "RefreshSizeInfo", 0);
+				}
+				return r_MRefreshSizeInfo;
+			}
+		}
+
+		/// <summary>
+		/// Void RefreshSourcePath()
+		/// </summary>
+		protected RMethod r_MRefreshSourcePath;
+		public virtual RMethod RMRefreshSourcePath
+		{
+			get
+			{
+				if(r_MRefreshSourcePath == null)
+				{
+					r_MRefreshSourcePath = new(this, "RefreshSourcePath", 0);
+				}
+				return r_MRefreshSourcePath;
+			}
+		}
+
+		/// <summary>
+		/// Boolean <RefreshSizeInfo>b__28_0(UnityEditor.PackageManager.UI.Internal.PackageSizeInfo)
+		/// </summary>
+		protected RMethod r_M__0__RefreshSizeInfo__1__b__28_0_PackageSizeInfo;
+		public virtual RMethod RM__0__RefreshSizeInfo__1__b__28_0_PackageSizeInfo
+		{
+			get
+			{
+				if(r_M__0__RefreshSizeInfo__1__b__28_0_PackageSizeInfo == null)
+				{
+					r_M__0__RefreshSizeInfo__1__b__28_0_PackageSizeInfo = new(this, "<RefreshSizeInfo>b__28_0", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.PackageSizeInfo"));
+				}
+				return r_M__0__RefreshSizeInfo__1__b__28_0_PackageSizeInfo;
 			}
 		}
 
@@ -2102,18 +2310,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void ClearManualLayout()
+		/// UnityEngine.Vector3 ComputeGlobalScale()
 		/// </summary>
-		protected RMethod r_MClearManualLayout;
-		public virtual RMethod RMClearManualLayout
+		protected RMethod r_MComputeGlobalScale;
+		public virtual RMethod RMComputeGlobalScale
 		{
 			get
 			{
-				if(r_MClearManualLayout == null)
+				if(r_MComputeGlobalScale == null)
 				{
-					r_MClearManualLayout = new(this, "ClearManualLayout", 0);
+					r_MComputeGlobalScale = new(this, "ComputeGlobalScale", 0);
 				}
-				return r_MClearManualLayout;
+				return r_MComputeGlobalScale;
 			}
 		}
 
@@ -2934,134 +3142,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean GetCachedNextParentWithEventCallback(UnityEngine.UIElements.VisualElement ByRef)
-		/// </summary>
-		protected RMethod r_MGetCachedNextParentWithEventCallback_Out_VisualElement;
-		public virtual RMethod RMGetCachedNextParentWithEventCallback_Out_VisualElement
-		{
-			get
-			{
-				if(r_MGetCachedNextParentWithEventCallback_Out_VisualElement == null)
-				{
-					r_MGetCachedNextParentWithEventCallback_Out_VisualElement = new(this, "GetCachedNextParentWithEventCallback", 0, typeof(UnityEngine.UIElements.VisualElement).MakeByRefType());
-				}
-				return r_MGetCachedNextParentWithEventCallback_Out_VisualElement;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasEventCallbacks(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasEventCallbacks_EventCategory;
-		public virtual RMethod RMHasEventCallbacks_EventCategory
-		{
-			get
-			{
-				if(r_MHasEventCallbacks_EventCategory == null)
-				{
-					r_MHasEventCallbacks_EventCategory = new(this, "HasEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasEventCallbacks_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParentEventCallbacks(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasParentEventCallbacks_EventCategory;
-		public virtual RMethod RMHasParentEventCallbacks_EventCategory
-		{
-			get
-			{
-				if(r_MHasParentEventCallbacks_EventCategory == null)
-				{
-					r_MHasParentEventCallbacks_EventCategory = new(this, "HasParentEventCallbacks", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasParentEventCallbacks_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParentEventCallbacksOrDefaultActions(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasParentEventCallbacksOrDefaultActions_EventCategory;
-		public virtual RMethod RMHasParentEventCallbacksOrDefaultActions_EventCategory
-		{
-			get
-			{
-				if(r_MHasParentEventCallbacksOrDefaultActions_EventCategory == null)
-				{
-					r_MHasParentEventCallbacksOrDefaultActions_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasParentEventCallbacksOrDefaultActions_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasEventCallbacksOrDefaultActions(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasEventCallbacksOrDefaultActions_EventCategory;
-		public virtual RMethod RMHasEventCallbacksOrDefaultActions_EventCategory
-		{
-			get
-			{
-				if(r_MHasEventCallbacksOrDefaultActions_EventCategory == null)
-				{
-					r_MHasEventCallbacksOrDefaultActions_EventCategory = new(this, "HasEventCallbacksOrDefaultActions", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasEventCallbacksOrDefaultActions_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParentEventCallbacksOrDefaultActionAtTarget(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
-		public virtual RMethod RMHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory
-		{
-			get
-			{
-				if(r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
-				{
-					r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasParentEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasEventCallbacksOrDefaultActionAtTarget(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory;
-		public virtual RMethod RMHasEventCallbacksOrDefaultActionAtTarget_EventCategory
-		{
-			get
-			{
-				if(r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory == null)
-				{
-					r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory = new(this, "HasEventCallbacksOrDefaultActionAtTarget", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasEventCallbacksOrDefaultActionAtTarget_EventCategory;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasDefaultAction(UnityEngine.UIElements.EventCategory)
-		/// </summary>
-		protected RMethod r_MHasDefaultAction_EventCategory;
-		public virtual RMethod RMHasDefaultAction_EventCategory
-		{
-			get
-			{
-				if(r_MHasDefaultAction_EventCategory == null)
-				{
-					r_MHasDefaultAction_EventCategory = new(this, "HasDefaultAction", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.EventCategory"));
-				}
-				return r_MHasDefaultAction_EventCategory;
-			}
-		}
-
-		/// <summary>
 		/// Boolean ShouldClip()
 		/// </summary>
 		protected RMethod r_MShouldClip;
@@ -3366,22 +3446,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate`1[UnityEngine.UIElements.VisualElement])
-		/// </summary>
-		protected RMethod r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
-		public virtual RMethod RMGetFirstAncestorWhere_Predicate_d_VisualElement_p_
-		{
-			get
-			{
-				if(r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ == null)
-				{
-					r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_ = new(this, "GetFirstAncestorWhere", 0,  ReflectionUtils.GetType("System.Predicate`1").MakeGenericType(typeof(UnityEngine.UIElements.VisualElement)));
-				}
-				return r_MGetFirstAncestorWhere_Predicate_d_VisualElement_p_;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Contains(UnityEngine.UIElements.VisualElement)
 		/// </summary>
 		protected RMethod r_MContains_VisualElement;
@@ -3490,22 +3554,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MRetargetElement_VisualElement = new(this, "RetargetElement", 0, typeof(UnityEngine.UIElements.VisualElement));
 				}
 				return r_MRetargetElement_VisualElement;
-			}
-		}
-
-		/// <summary>
-		/// Void GetPivotedMatrixWithLayout(UnityEngine.Matrix4x4 ByRef)
-		/// </summary>
-		protected RMethod r_MGetPivotedMatrixWithLayout_Out_Matrix4x4;
-		public virtual RMethod RMGetPivotedMatrixWithLayout_Out_Matrix4x4
-		{
-			get
-			{
-				if(r_MGetPivotedMatrixWithLayout_Out_Matrix4x4 == null)
-				{
-					r_MGetPivotedMatrixWithLayout_Out_Matrix4x4 = new(this, "GetPivotedMatrixWithLayout", 0, typeof(UnityEngine.Matrix4x4).MakeByRefType());
-				}
-				return r_MGetPivotedMatrixWithLayout_Out_Matrix4x4;
 			}
 		}
 
@@ -3718,54 +3766,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase)
-		/// </summary>
-		protected RMethod r_MHandleEventAtTargetAndDefaultPhase_EventBase;
-		public virtual RMethod RMHandleEventAtTargetAndDefaultPhase_EventBase
-		{
-			get
-			{
-				if(r_MHandleEventAtTargetAndDefaultPhase_EventBase == null)
-				{
-					r_MHandleEventAtTargetAndDefaultPhase_EventBase = new(this, "HandleEventAtTargetAndDefaultPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-				}
-				return r_MHandleEventAtTargetAndDefaultPhase_EventBase;
-			}
-		}
-
-		/// <summary>
-		/// Void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase)
-		/// </summary>
-		protected RMethod r_MHandleEventAtCurrentTargetAndPhase_EventBase;
-		public virtual RMethod RMHandleEventAtCurrentTargetAndPhase_EventBase
-		{
-			get
-			{
-				if(r_MHandleEventAtCurrentTargetAndPhase_EventBase == null)
-				{
-					r_MHandleEventAtCurrentTargetAndPhase_EventBase = new(this, "HandleEventAtCurrentTargetAndPhase", 0, typeof(UnityEngine.UIElements.EventBase));
-				}
-				return r_MHandleEventAtCurrentTargetAndPhase_EventBase;
-			}
-		}
-
-		/// <summary>
-		/// Void HandleEventEditorInternal(UnityEngine.UIElements.EventBase)
-		/// </summary>
-		protected RMethod r_MHandleEventEditorInternal_EventBase;
-		public virtual RMethod RMHandleEventEditorInternal_EventBase
-		{
-			get
-			{
-				if(r_MHandleEventEditorInternal_EventBase == null)
-				{
-					r_MHandleEventEditorInternal_EventBase = new(this, "HandleEventEditorInternal", 0, typeof(UnityEngine.UIElements.EventBase));
-				}
-				return r_MHandleEventEditorInternal_EventBase;
-			}
-		}
-
-		/// <summary>
 		/// Void HandleEvent(UnityEngine.UIElements.EventBase)
 		/// </summary>
 		protected RMethod r_MHandleEvent_EventBase;
@@ -3937,17 +3937,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void AddTabs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMAddTabs.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void OnEnable()
         {
 
@@ -3981,17 +3970,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void RefreshTabs()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMRefreshTabs.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void RefreshDependencies()
         {
 
@@ -4014,110 +3992,144 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void RefreshDependencies(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackagesChangeArgs @_)
+        public virtual void RefreshDependencies(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @added, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @removed, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @preUpdate, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RIPackage> @postUpdate)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_.Value};
-            var ___result = RMRefreshDependencies_PackagesChangeArgs.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@added.Value, @removed.Value, @preUpdate.Value, @postUpdate.Value};
+            var ___result = RMRefreshDependencies_IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p__IEnumerable_d_IPackage_p_.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void OnTabSwitched(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDetailsTabElement @oldSelection, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageDetailsTabElement @newSelection)
+        public virtual void RefreshLabels()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@oldSelection.Value, @newSelection.Value};
-            var ___result = RMOnTabSwitched_PackageDetailsTabElement_PackageDetailsTabElement.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshLabels.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void RefreshVersionsHistory(Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RIEnumerable<Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState> @states)
+        public virtual void DescMoreClick()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@states.Value};
-            var ___result = RMRefreshVersionsHistory_IEnumerable_d_VisualState_p_.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{};
+            var ___result = RMDescMoreClick.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual System.Boolean __0__RefreshVersionsHistory__1__b__25_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RVisualState @state)
+        public virtual void DescLessClick()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@state.Value};
-            var ___result = RM__0__RefreshVersionsHistory__1__b__25_0_VisualState.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{};
+            var ___result = RMDescLessClick.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DescriptionGeometryChangeEvent(UnityEngine.UIElements.GeometryChangedEvent @evt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt};
+            var ___result = RMDescriptionGeometryChangeEvent_GeometryChangedEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RefreshDescription()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshDescription.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RefreshPurchasedDate()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshPurchasedDate.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RefreshReleaseDetails()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshReleaseDetails.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void RefreshSizeAndSupportedUnityVersions()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshSizeAndSupportedUnityVersions.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual System.Boolean RefreshSupportedUnityVersions()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshSupportedUnityVersions.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual System.Boolean TryConvertLengthUnits(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStylePropertyId @id, ref UnityEngine.UIElements.Length @from, ref UnityEngine.UIElements.Length @to, System.Int32 @subPropertyIndex)
+        public virtual System.Boolean RefreshSizeInfo()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@id.Value, @from, @to, @subPropertyIndex};
-            var ___result = RMTryConvertLengthUnits_StylePropertyId_Ref_Length_Ref_Length_Int32.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[1]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Length>(___parameters[2]);
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshSizeInfo.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 
-        public virtual System.Boolean TryConvertTransformOriginUnits(ref UnityEngine.UIElements.TransformOrigin @from, ref UnityEngine.UIElements.TransformOrigin @to)
+        public virtual void RefreshSourcePath()
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertTransformOriginUnits_Ref_TransformOrigin_Ref_TransformOrigin.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.TransformOrigin>(___parameters[1]);
+            var ___parameters = new object[]{};
+            var ___result = RMRefreshSourcePath.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
         }
 
 
-        public virtual System.Boolean TryConvertTranslateUnits(ref UnityEngine.UIElements.Translate @from, ref UnityEngine.UIElements.Translate @to)
+        public virtual System.Boolean __0__RefreshSizeInfo__1__b__28_0(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RPackageSizeInfo @info)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertTranslateUnits_Ref_Translate_Ref_Translate.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.Translate>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean TryConvertBackgroundPositionUnits(ref UnityEngine.UIElements.BackgroundPosition @from, ref UnityEngine.UIElements.BackgroundPosition @to)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertBackgroundPositionUnits_Ref_BackgroundPosition_Ref_BackgroundPosition.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundPosition>(___parameters[1]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean TryConvertBackgroundSizeUnits(ref UnityEngine.UIElements.BackgroundSize @from, ref UnityEngine.UIElements.BackgroundSize @to)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@from, @to};
-            var ___result = RMTryConvertBackgroundSizeUnits_Ref_BackgroundSize_Ref_BackgroundSize.Invoke(___genericsType, ___parameters);
-			@from = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[0]);
-			@to = ReflectionUtils.Convert<UnityEngine.UIElements.BackgroundSize>(___parameters[1]);
+            var ___parameters = new object[]{@info.Value};
+            var ___result = RM__0__RefreshSizeInfo__1__b__28_0_PackageSizeInfo.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -4134,14 +4146,14 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void ClearManualLayout()
+        public virtual UnityEngine.Vector3 ComputeGlobalScale()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
-            var ___result = RMClearManualLayout.Invoke(___genericsType, ___parameters);
+            var ___result = RMComputeGlobalScale.Invoke(___genericsType, ___parameters);
 
-            
+            return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
         }
 
 
@@ -4707,96 +4719,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual System.Boolean GetCachedNextParentWithEventCallback(out UnityEngine.UIElements.VisualElement @nextParent)
-        {
-			@nextParent = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@nextParent};
-            var ___result = RMGetCachedNextParentWithEventCallback_Out_VisualElement.Invoke(___genericsType, ___parameters);
-			@nextParent = ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasEventCallbacks(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasParentEventCallbacks(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasParentEventCallbacks_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActions(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasParentEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasEventCallbacksOrDefaultActions(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasEventCallbacksOrDefaultActions_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasParentEventCallbacksOrDefaultActionAtTarget(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasParentEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasEventCallbacksOrDefaultActionAtTarget(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasEventCallbacksOrDefaultActionAtTarget_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasDefaultAction(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.REventCategory @eventCategory)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@eventCategory.Value};
-            var ___result = RMHasDefaultAction_EventCategory.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual System.Boolean ShouldClip()
         {
 
@@ -5006,17 +4928,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual UnityEngine.UIElements.VisualElement GetFirstAncestorWhere(System.Predicate<UnityEngine.UIElements.VisualElement> @predicate)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@predicate};
-            var ___result = RMGetFirstAncestorWhere_Predicate_d_VisualElement_p_.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
         public virtual System.Boolean Contains(UnityEngine.UIElements.VisualElement @child)
         {
 
@@ -5091,19 +5002,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMRetargetElement_VisualElement.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.VisualElement>(___result);
-        }
-
-
-        public virtual void GetPivotedMatrixWithLayout(out UnityEngine.Matrix4x4 @result)
-        {
-			@result = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@result};
-            var ___result = RMGetPivotedMatrixWithLayout_Out_Matrix4x4.Invoke(___genericsType, ___parameters);
-			@result = ReflectionUtils.Convert<UnityEngine.Matrix4x4>(___parameters[0]);
-
-            
         }
 
 
@@ -5247,39 +5145,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
             var ___result = RMHandleEventAtTargetPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleEventAtTargetAndDefaultPhase(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventAtTargetAndDefaultPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleEventAtCurrentTargetAndPhase(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventAtCurrentTargetAndPhase_EventBase.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void HandleEventEditorInternal(UnityEngine.UIElements.EventBase @evt)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@evt};
-            var ___result = RMHandleEventEditorInternal_EventBase.Invoke(___genericsType, ___parameters);
 
             
         }

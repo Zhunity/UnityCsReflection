@@ -134,22 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIR.RenderDataFlags flags
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataFlags r_Fflags;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderDataFlags RFflags
-		{
-			get
-			{
-				if(r_Fflags == null)
-				{
-					r_Fflags = new(this, "flags");
-				}
-				return r_Fflags;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 hierarchyDepth
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_FhierarchyDepth;
@@ -310,22 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// System.Boolean localTransformScaleZero
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FlocalTransformScaleZero;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFlocalTransformScaleZero
-		{
-			get
-			{
-				if(r_FlocalTransformScaleZero == null)
-				{
-					r_FlocalTransformScaleZero = new(this, "localTransformScaleZero");
-				}
-				return r_FlocalTransformScaleZero;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean worldFlipsWinding
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FworldFlipsWinding;
@@ -402,6 +370,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_FdisableNudging = new(this, "disableNudging");
 				}
 				return r_FdisableNudging;
+			}
+		}
+
+		/// <summary>
+		/// System.Boolean usesLegacyText
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FusesLegacyText;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFusesLegacyText
+		{
+			get
+			{
+				if(r_FusesLegacyText == null)
+				{
+					r_FusesLegacyText = new(this, "usesLegacyText");
+				}
+				return r_FusesLegacyText;
 			}
 		}
 
@@ -550,22 +534,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIR.BMPAlloc colorID
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FcolorID;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc RFcolorID
-		{
-			get
-			{
-				if(r_FcolorID == null)
-				{
-					r_FcolorID = new(this, "colorID");
-				}
-				return r_FcolorID;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.UIR.BMPAlloc backgroundColorID
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBMPAlloc r_FbackgroundColorID;
@@ -694,6 +662,54 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// UnityEngine.UIElements.VisualElement prevText
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_FprevText;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFprevText
+		{
+			get
+			{
+				if(r_FprevText == null)
+				{
+					r_FprevText = new(this, "prevText");
+				}
+				return r_FprevText;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.VisualElement nextText
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_FnextText;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFnextText
+		{
+			get
+			{
+				if(r_FnextText == null)
+				{
+					r_FnextText = new(this, "nextText");
+				}
+				return r_FnextText;
+			}
+		}
+
+		/// <summary>
+		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.RenderChainTextEntry] textEntries
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainTextEntry> r_FtextEntries;
+		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainTextEntry> RFtextEntries
+		{
+			get
+			{
+				if(r_FtextEntries == null)
+				{
+					r_FtextEntries = new(this, "textEntries");
+				}
+				return r_FtextEntries;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.UIR.BasicNode`1[UnityEngine.UIElements.UIR.TextureEntry] textures
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RBasicNode<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTextureEntry> r_Ftextures;
@@ -722,22 +738,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_PlastClosingOrLastCommand = new(this, "lastClosingOrLastCommand", -1);
 				}
 				return r_PlastClosingOrLastCommand;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isIgnoringDynamicColorHint
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisIgnoringDynamicColorHint;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisIgnoringDynamicColorHint
-		{
-			get
-			{
-				if(r_PisIgnoringDynamicColorHint == null)
-				{
-					r_PisIgnoringDynamicColorHint = new(this, "isIgnoringDynamicColorHint", -1);
-				}
-				return r_PisIgnoringDynamicColorHint;
 			}
 		}
 

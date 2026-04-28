@@ -550,70 +550,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.SignatureInfo m_Signature
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureInfo r_Fm_Signature;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureInfo RFm_Signature
-		{
-			get
-			{
-				if(r_Fm_Signature == null)
-				{
-					r_Fm_Signature = new(this, "m_Signature");
-				}
-				return r_Fm_Signature;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_IsDeprecated
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_IsDeprecated;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_IsDeprecated
-		{
-			get
-			{
-				if(r_Fm_IsDeprecated == null)
-				{
-					r_Fm_IsDeprecated = new(this, "m_IsDeprecated");
-				}
-				return r_Fm_IsDeprecated;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_DeprecationMessage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_DeprecationMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_DeprecationMessage
-		{
-			get
-			{
-				if(r_Fm_DeprecationMessage == null)
-				{
-					r_Fm_DeprecationMessage = new(this, "m_DeprecationMessage");
-				}
-				return r_Fm_DeprecationMessage;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.AssetStoreInfo m_AssetStore
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RAssetStoreInfo r_Fm_AssetStore;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RAssetStoreInfo RFm_AssetStore
-		{
-			get
-			{
-				if(r_Fm_AssetStore == null)
-				{
-					r_Fm_AssetStore = new(this, "m_AssetStore");
-				}
-				return r_Fm_AssetStore;
-			}
-		}
-
-		/// <summary>
 		/// System.String packageId
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageId;
@@ -1062,70 +998,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.SignatureInfo signature
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureInfo r_Psignature;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RSignatureInfo RPsignature
-		{
-			get
-			{
-				if(r_Psignature == null)
-				{
-					r_Psignature = new(this, "signature", -1);
-				}
-				return r_Psignature;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isDeprecated
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisDeprecated;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisDeprecated
-		{
-			get
-			{
-				if(r_PisDeprecated == null)
-				{
-					r_PisDeprecated = new(this, "isDeprecated", -1);
-				}
-				return r_PisDeprecated;
-			}
-		}
-
-		/// <summary>
-		/// System.String deprecationMessage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PdeprecationMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPdeprecationMessage
-		{
-			get
-			{
-				if(r_PdeprecationMessage == null)
-				{
-					r_PdeprecationMessage = new(this, "deprecationMessage", -1);
-				}
-				return r_PdeprecationMessage;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.AssetStoreInfo assetStore
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RAssetStoreInfo r_PassetStore;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RAssetStoreInfo RPassetStore
-		{
-			get
-			{
-				if(r_PassetStore == null)
-				{
-					r_PassetStore = new(this, "assetStore", -1);
-				}
-				return r_PassetStore;
-			}
-		}
-
-		/// <summary>
 		/// System.Nullable`1[System.DateTime] datePublished
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RNullable<Hvak.Editor.Refleaction.RSystem.RDateTime> r_PdatePublished;
@@ -1234,6 +1106,54 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
 					r_MGetAllRegisteredPackages = new(Type, "GetAllRegisteredPackages", 0);
 				}
 				return r_MGetAllRegisteredPackages;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.PackageInfo[] GetAll()
+		/// </summary>
+		protected static RMethod r_MGetAll;
+		public static RMethod RMGetAll
+		{
+			get
+			{
+				if(r_MGetAll == null)
+				{
+					r_MGetAll = new(Type, "GetAll", 0);
+				}
+				return r_MGetAll;
+			}
+		}
+
+		/// <summary>
+		/// System.String[] GetPredefinedPackageTypes()
+		/// </summary>
+		protected static RMethod r_MGetPredefinedPackageTypes;
+		public static RMethod RMGetPredefinedPackageTypes
+		{
+			get
+			{
+				if(r_MGetPredefinedPackageTypes == null)
+				{
+					r_MGetPredefinedPackageTypes = new(Type, "GetPredefinedPackageTypes", 0);
+				}
+				return r_MGetPredefinedPackageTypes;
+			}
+		}
+
+		/// <summary>
+		/// System.String[] GetPredefinedHiddenByDefaultPackageTypes()
+		/// </summary>
+		protected static RMethod r_MGetPredefinedHiddenByDefaultPackageTypes;
+		public static RMethod RMGetPredefinedHiddenByDefaultPackageTypes
+		{
+			get
+			{
+				if(r_MGetPredefinedHiddenByDefaultPackageTypes == null)
+				{
+					r_MGetPredefinedHiddenByDefaultPackageTypes = new(Type, "GetPredefinedHiddenByDefaultPackageTypes", 0);
+				}
+				return r_MGetPredefinedHiddenByDefaultPackageTypes;
 			}
 		}
 
@@ -1391,6 +1311,39 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager
             var ___result = RMGetAllRegisteredPackages.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+        }
+
+
+        public static UnityEditor.PackageManager.PackageInfo[] GetAll()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetAll.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEditor.PackageManager.PackageInfo[]>(___result);
+        }
+
+
+        public static System.String[] GetPredefinedPackageTypes()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetPredefinedPackageTypes.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String[]>(___result);
+        }
+
+
+        public static System.String[] GetPredefinedHiddenByDefaultPackageTypes()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetPredefinedHiddenByDefaultPackageTypes.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.String[]>(___result);
         }
 
 

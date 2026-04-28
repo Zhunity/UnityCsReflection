@@ -118,22 +118,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.GlyphClassDefinitionType m_ClassDefinitionType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_Fm_ClassDefinitionType;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RFm_ClassDefinitionType
-		{
-			get
-			{
-				if(r_Fm_ClassDefinitionType == null)
-				{
-					r_Fm_ClassDefinitionType = new(this, "m_ClassDefinitionType");
-				}
-				return r_Fm_ClassDefinitionType;
-			}
-		}
-
-		/// <summary>
 		/// UInt32 index
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RUInt32 r_Pindex;
@@ -210,22 +194,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore
 					r_PatlasIndex = new(this, "atlasIndex", -1);
 				}
 				return r_PatlasIndex;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.TextCore.GlyphClassDefinitionType classDefinitionType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType r_PclassDefinitionType;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RGlyphClassDefinitionType RPclassDefinitionType
-		{
-			get
-			{
-				if(r_PclassDefinitionType == null)
-				{
-					r_PclassDefinitionType = new(this, "classDefinitionType", -1);
-				}
-				return r_PclassDefinitionType;
 			}
 		}
 

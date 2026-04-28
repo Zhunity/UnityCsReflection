@@ -72,38 +72,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Diagnostics.StackTrace m_StackTrace
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace r_Fm_StackTrace;
-		public virtual Hvak.Editor.Refleaction.RSystem.RDiagnostics.RStackTrace RFm_StackTrace
-		{
-			get
-			{
-				if(r_Fm_StackTrace == null)
-				{
-					r_Fm_StackTrace = new(this, "m_StackTrace");
-				}
-				return r_Fm_StackTrace;
-			}
-		}
-
-		/// <summary>
-		/// System.String stackTrace
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PstackTrace;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPstackTrace
-		{
-			get
-			{
-				if(r_PstackTrace == null)
-				{
-					r_PstackTrace = new(this, "stackTrace", -1);
-				}
-				return r_PstackTrace;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;

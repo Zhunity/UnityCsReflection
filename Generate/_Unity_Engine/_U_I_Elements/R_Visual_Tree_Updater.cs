@@ -70,34 +70,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.IVisualTreeEditorUpdater <visualTreeEditorUpdater>k__BackingField
+		/// UnityEngine.UIElements.VisualTreeUpdater+EditorUpdaterArray m_EditorUpdaterArray
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater r_F__0__visualTreeEditorUpdater__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater RF__0__visualTreeEditorUpdater__1__k__BackingField
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdater.REditorUpdaterArray r_Fm_EditorUpdaterArray;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdater.REditorUpdaterArray RFm_EditorUpdaterArray
 		{
 			get
 			{
-				if(r_F__0__visualTreeEditorUpdater__1__k__BackingField == null)
+				if(r_Fm_EditorUpdaterArray == null)
 				{
-					r_F__0__visualTreeEditorUpdater__1__k__BackingField = new(this, "<visualTreeEditorUpdater>k__BackingField");
+					r_Fm_EditorUpdaterArray = new(this, "m_EditorUpdaterArray");
 				}
-				return r_F__0__visualTreeEditorUpdater__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.IVisualTreeEditorUpdater visualTreeEditorUpdater
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater r_PvisualTreeEditorUpdater;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeEditorUpdater RPvisualTreeEditorUpdater
-		{
-			get
-			{
-				if(r_PvisualTreeEditorUpdater == null)
-				{
-					r_PvisualTreeEditorUpdater = new(this, "visualTreeEditorUpdater", -1);
-				}
-				return r_PvisualTreeEditorUpdater;
+				return r_Fm_EditorUpdaterArray;
 			}
 		}
 
@@ -130,6 +114,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MUpdateVisualTree = new(this, "UpdateVisualTree", 0);
 				}
 				return r_MUpdateVisualTree;
+			}
+		}
+
+		/// <summary>
+		/// Void UpdateEditorVisualTreePhase(UnityEngine.UIElements.VisualTreeEditorUpdatePhase)
+		/// </summary>
+		protected RMethod r_MUpdateEditorVisualTreePhase_VisualTreeEditorUpdatePhase;
+		public virtual RMethod RMUpdateEditorVisualTreePhase_VisualTreeEditorUpdatePhase
+		{
+			get
+			{
+				if(r_MUpdateEditorVisualTreePhase_VisualTreeEditorUpdatePhase == null)
+				{
+					r_MUpdateEditorVisualTreePhase_VisualTreeEditorUpdatePhase = new(this, "UpdateEditorVisualTreePhase", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+				}
+				return r_MUpdateEditorVisualTreePhase_VisualTreeEditorUpdatePhase;
 			}
 		}
 
@@ -226,6 +226,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MGetUpdater_VisualTreeUpdatePhase = new(this, "GetUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeUpdatePhase"));
 				}
 				return r_MGetUpdater_VisualTreeUpdatePhase;
+			}
+		}
+
+		/// <summary>
+		/// Void SetEditorUpdater[T](UnityEngine.UIElements.VisualTreeEditorUpdatePhase)
+		/// </summary>
+		protected RMethod r_MSetEditorUpdater_GT_VisualTreeEditorUpdatePhase;
+		public virtual RMethod RMSetEditorUpdater_GT_VisualTreeEditorUpdatePhase
+		{
+			get
+			{
+				if(r_MSetEditorUpdater_GT_VisualTreeEditorUpdatePhase == null)
+				{
+					r_MSetEditorUpdater_GT_VisualTreeEditorUpdatePhase = new(this, "SetEditorUpdater", 1,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+				}
+				return r_MSetEditorUpdater_GT_VisualTreeEditorUpdatePhase;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.IVisualTreeUpdater GetEditorUpdater(UnityEngine.UIElements.VisualTreeEditorUpdatePhase)
+		/// </summary>
+		protected RMethod r_MGetEditorUpdater_VisualTreeEditorUpdatePhase;
+		public virtual RMethod RMGetEditorUpdater_VisualTreeEditorUpdatePhase
+		{
+			get
+			{
+				if(r_MGetEditorUpdater_VisualTreeEditorUpdatePhase == null)
+				{
+					r_MGetEditorUpdater_VisualTreeEditorUpdatePhase = new(this, "GetEditorUpdater", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.VisualTreeEditorUpdatePhase"));
+				}
+				return r_MGetEditorUpdater_VisualTreeEditorUpdatePhase;
 			}
 		}
 
@@ -364,6 +396,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void UpdateEditorVisualTreePhase(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeEditorUpdatePhase @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RMUpdateEditorVisualTreePhase_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void UpdateVisualTreePhase(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeUpdatePhase @phase)
         {
 
@@ -425,6 +468,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@phase.Value};
             var ___result = RMGetUpdater_VisualTreeUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
+        }
+
+
+        public virtual void SetEditorUpdater<T>(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeEditorUpdatePhase @phase) where T : new()
+        {
+
+            var ___genericsType = new Type[] {typeof(T)};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RMSetEditorUpdater_GT_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater GetEditorUpdater(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualTreeEditorUpdatePhase @phase)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@phase.Value};
+            var ___result = RMGetEditorUpdater_VisualTreeEditorUpdatePhase.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RIVisualTreeUpdater>(___result);
         }

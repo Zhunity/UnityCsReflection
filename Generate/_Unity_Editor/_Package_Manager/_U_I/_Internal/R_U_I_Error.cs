@@ -54,54 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String k_InvalidSignatureWarningMessage
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_InvalidSignatureWarningMessage;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_InvalidSignatureWarningMessage
-		{
-			get
-			{
-				if(r_Fk_InvalidSignatureWarningMessage == null)
-				{
-					r_Fk_InvalidSignatureWarningMessage = new(Type, "k_InvalidSignatureWarningMessage");
-				}
-				return r_Fk_InvalidSignatureWarningMessage;
-			}
-		}
-
-		/// <summary>
-		/// System.String k_UnsignedUnityPackageWarningMessage
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_UnsignedUnityPackageWarningMessage;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_UnsignedUnityPackageWarningMessage
-		{
-			get
-			{
-				if(r_Fk_UnsignedUnityPackageWarningMessage == null)
-				{
-					r_Fk_UnsignedUnityPackageWarningMessage = new(Type, "k_UnsignedUnityPackageWarningMessage");
-				}
-				return r_Fk_UnsignedUnityPackageWarningMessage;
-			}
-		}
-
-		/// <summary>
-		/// System.String k_ReadMoreDocsUrl
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_ReadMoreDocsUrl;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_ReadMoreDocsUrl
-		{
-			get
-			{
-				if(r_Fk_ReadMoreDocsUrl == null)
-				{
-					r_Fk_ReadMoreDocsUrl = new(Type, "k_ReadMoreDocsUrl");
-				}
-				return r_Fk_ReadMoreDocsUrl;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIError k_EntitlementError
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_EntitlementError;
@@ -134,66 +86,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIError k_InvalidSignatureWarning
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode m_UIErrorCode
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_InvalidSignatureWarning;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_InvalidSignatureWarning
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_Fm_UIErrorCode;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFm_UIErrorCode
 		{
 			get
 			{
-				if(r_Fk_InvalidSignatureWarning == null)
+				if(r_Fm_UIErrorCode == null)
 				{
-					r_Fk_InvalidSignatureWarning = new(Type, "k_InvalidSignatureWarning");
+					r_Fm_UIErrorCode = new(this, "m_UIErrorCode");
 				}
-				return r_Fk_InvalidSignatureWarning;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIError k_UnsignedUnityPackageWarning
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Fk_UnsignedUnityPackageWarning;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RFk_UnsignedUnityPackageWarning
-		{
-			get
-			{
-				if(r_Fk_UnsignedUnityPackageWarning == null)
-				{
-					r_Fk_UnsignedUnityPackageWarning = new(Type, "k_UnsignedUnityPackageWarning");
-				}
-				return r_Fk_UnsignedUnityPackageWarning;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode m_ErrorCode
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_Fm_ErrorCode;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFm_ErrorCode
-		{
-			get
-			{
-				if(r_Fm_ErrorCode == null)
-				{
-					r_Fm_ErrorCode = new(this, "m_ErrorCode");
-				}
-				return r_Fm_ErrorCode;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_Message
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Message;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Message
-		{
-			get
-			{
-				if(r_Fm_Message == null)
-				{
-					r_Fm_Message = new(this, "m_Message");
-				}
-				return r_Fm_Message;
+				return r_Fm_UIErrorCode;
 			}
 		}
 
@@ -230,38 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String m_ReadMoreUrl
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_ReadMoreUrl;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_ReadMoreUrl
-		{
-			get
-			{
-				if(r_Fm_ReadMoreUrl == null)
-				{
-					r_Fm_ReadMoreUrl = new(this, "m_ReadMoreUrl");
-				}
-				return r_Fm_ReadMoreUrl;
-			}
-		}
-
-		/// <summary>
-		/// System.String readMoreURL
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PreadMoreURL;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPreadMoreURL
-		{
-			get
-			{
-				if(r_PreadMoreURL == null)
-				{
-					r_PreadMoreURL = new(this, "readMoreURL", -1);
-				}
-				return r_PreadMoreURL;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode errorCode
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_PerrorCode;
@@ -274,22 +146,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PerrorCode = new(this, "errorCode", -1);
 				}
 				return r_PerrorCode;
-			}
-		}
-
-		/// <summary>
-		/// System.String message
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Pmessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPmessage
-		{
-			get
-			{
-				if(r_Pmessage == null)
-				{
-					r_Pmessage = new(this, "message", -1);
-				}
-				return r_Pmessage;
 			}
 		}
 
@@ -322,6 +178,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Pattribute = new(this, "attribute", -1);
 				}
 				return r_Pattribute;
+			}
+		}
+
+		/// <summary>
+		/// System.String message
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Pmessage;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPmessage
+		{
+			get
+			{
+				if(r_Pmessage == null)
+				{
+					r_Pmessage = new(this, "message", -1);
+				}
+				return r_Pmessage;
 			}
 		}
 

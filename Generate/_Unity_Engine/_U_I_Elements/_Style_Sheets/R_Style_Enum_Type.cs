@@ -70,38 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StyleEnumType BackgroundPositionKeyword
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FBackgroundPositionKeyword;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFBackgroundPositionKeyword
-		{
-			get
-			{
-				if(r_FBackgroundPositionKeyword == null)
-				{
-					r_FBackgroundPositionKeyword = new(Type, "BackgroundPositionKeyword");
-				}
-				return r_FBackgroundPositionKeyword;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StyleEnumType BackgroundSizeType
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FBackgroundSizeType;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFBackgroundSizeType
-		{
-			get
-			{
-				if(r_FBackgroundSizeType == null)
-				{
-					r_FBackgroundSizeType = new(Type, "BackgroundSizeType");
-				}
-				return r_FBackgroundSizeType;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.StyleSheets.StyleEnumType DisplayStyle
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FDisplayStyle;
@@ -242,38 +210,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 					r_FPosition = new(Type, "Position");
 				}
 				return r_FPosition;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StyleEnumType Repeat
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FRepeat;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFRepeat
-		{
-			get
-			{
-				if(r_FRepeat == null)
-				{
-					r_FRepeat = new(Type, "Repeat");
-				}
-				return r_FRepeat;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.StyleSheets.StyleEnumType RepeatXY
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType r_FRepeatXY;
-		public static Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets.RStyleEnumType RFRepeatXY
-		{
-			get
-			{
-				if(r_FRepeatXY == null)
-				{
-					r_FRepeatXY = new(Type, "RepeatXY");
-				}
-				return r_FRepeatXY;
 			}
 		}
 

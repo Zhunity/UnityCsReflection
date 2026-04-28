@@ -422,22 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void AbortGetPurchases(System.String)
-		/// </summary>
-		protected RMethod r_MAbortGetPurchases_String;
-		public virtual RMethod RMAbortGetPurchases_String
-		{
-			get
-			{
-				if(r_MAbortGetPurchases_String == null)
-				{
-					r_MAbortGetPurchases_String = new(this, "AbortGetPurchases", 0, typeof(System.String));
-				}
-				return r_MAbortGetPurchases_String;
-			}
-		}
-
-		/// <summary>
 		/// Void GetCategories(System.Action`1[System.Collections.Generic.Dictionary`2[System.String,System.Object]], System.Action`1[UnityEditor.PackageManager.UI.Internal.UIError])
 		/// </summary>
 		protected RMethod r_MGetCategories_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_;
@@ -679,17 +663,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@query, @doneCallbackAction, @errorCallbackAction.Value};
             var ___result = RMGetPurchases_String_Action_d_Dictionary_d_String_Object_p__p__Action_d_UIError_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void AbortGetPurchases(System.String @query)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@query};
-            var ___result = RMAbortGetPurchases_String.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -134,38 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleSheets
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.BackgroundPosition position
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition r_Fposition;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundPosition RFposition
-		{
-			get
-			{
-				if(r_Fposition == null)
-				{
-					r_Fposition = new(this, "position");
-				}
-				return r_Fposition;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.BackgroundRepeat repeat
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat r_Frepeat;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RBackgroundRepeat RFrepeat
-		{
-			get
-			{
-				if(r_Frepeat == null)
-				{
-					r_Frepeat = new(this, "repeat");
-				}
-				return r_Frepeat;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;

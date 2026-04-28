@@ -262,22 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 		}
 
 		/// <summary>
-		/// Void SetPathAndGUIDInternal(Int32, System.String, System.String)
-		/// </summary>
-		protected static RMethod r_MSetPathAndGUIDInternal_Int32_String_String;
-		public static RMethod RMSetPathAndGUIDInternal_Int32_String_String
-		{
-			get
-			{
-				if(r_MSetPathAndGUIDInternal_Int32_String_String == null)
-				{
-					r_MSetPathAndGUIDInternal_Int32_String_String = new(Type, "SetPathAndGUIDInternal", 0, typeof(System.Int32), typeof(System.String), typeof(System.String));
-				}
-				return r_MSetPathAndGUIDInternal_Int32_String_String;
-			}
-		}
-
-		/// <summary>
 		/// System.String GetNameInternal(Int32)
 		/// </summary>
 		protected static RMethod r_MGetNameInternal_Int32;
@@ -582,22 +566,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
 		}
 
 		/// <summary>
-		/// Void SetPathAndGuid(System.String, System.String)
-		/// </summary>
-		protected RMethod r_MSetPathAndGuid_String_String;
-		public virtual RMethod RMSetPathAndGuid_String_String
-		{
-			get
-			{
-				if(r_MSetPathAndGuid_String_String == null)
-				{
-					r_MSetPathAndGuid_String_String = new(this, "SetPathAndGuid", 0, typeof(System.String), typeof(System.String));
-				}
-				return r_MSetPathAndGuid_String_String;
-			}
-		}
-
-		/// <summary>
 		/// System.String ToString()
 		/// </summary>
 		protected RMethod r_MToString;
@@ -681,17 +649,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___result = RMGetPathInternal_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public static void SetPathAndGUIDInternal(System.Int32 @sceneHandle, System.String @path, System.String @guid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@sceneHandle, @path, @guid};
-            var ___result = RMSetPathAndGUIDInternal_Int32_String_String.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -901,17 +858,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RSceneManagement
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetPathAndGuid(System.String @path, System.String @guid)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@path, @guid};
-            var ___result = RMSetPathAndGuid_String_String.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

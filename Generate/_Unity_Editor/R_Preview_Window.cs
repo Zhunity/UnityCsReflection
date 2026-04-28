@@ -278,38 +278,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.Dictionary`2[System.Int32,System.Collections.Generic.List`1[UnityEngine.Component]] m_RemovedComponentDict
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent>> r_Fm_RemovedComponentDict;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RDictionary<Hvak.Editor.Refleaction.RSystem.RInt32, Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent>> RFm_RemovedComponentDict
-		{
-			get
-			{
-				if(r_Fm_RemovedComponentDict == null)
-				{
-					r_Fm_RemovedComponentDict = new(this, "m_RemovedComponentDict");
-				}
-				return r_Fm_RemovedComponentDict;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.Component] m_AdditionalRemovedComponents
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent> r_Fm_AdditionalRemovedComponents;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RComponent> RFm_AdditionalRemovedComponents
-		{
-			get
-			{
-				if(r_Fm_AdditionalRemovedComponents == null)
-				{
-					r_Fm_AdditionalRemovedComponents = new(this, "m_AdditionalRemovedComponents");
-				}
-				return r_Fm_AdditionalRemovedComponents;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean m_ResetKeyboardControl
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_ResetKeyboardControl;
@@ -678,22 +646,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEditor.DataModeController m_SerializedDataModeController
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RDataModeController r_Fm_SerializedDataModeController;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController RFm_SerializedDataModeController
-		{
-			get
-			{
-				if(r_Fm_SerializedDataModeController == null)
-				{
-					r_Fm_SerializedDataModeController = new(this, "m_SerializedDataModeController");
-				}
-				return r_Fm_SerializedDataModeController;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.HostView m_Parent
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.RHostView r_Fm_Parent;
@@ -886,6 +838,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Boolean useUIElementsDefaultInspector
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PuseUIElementsDefaultInspector;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPuseUIElementsDefaultInspector
+		{
+			get
+			{
+				if(r_PuseUIElementsDefaultInspector == null)
+				{
+					r_PuseUIElementsDefaultInspector = new(this, "useUIElementsDefaultInspector", -1);
+				}
+				return r_PuseUIElementsDefaultInspector;
+			}
+		}
+
+		/// <summary>
 		/// UnityEditor.Editor lastInteractedEditor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.REditor r_PlastInteractedEditor;
@@ -966,22 +934,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// UnityEditor.IDataModeController dataModeController
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController r_PdataModeController;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RIDataModeController RPdataModeController
-		{
-			get
-			{
-				if(r_PdataModeController == null)
-				{
-					r_PdataModeController = new(this, "dataModeController", -1);
-				}
-				return r_PdataModeController;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.VisualElement baseRootVisualElement
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PbaseRootVisualElement;
@@ -1026,22 +978,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_PliveReloadPreferenceDefault = new(this, "liveReloadPreferenceDefault", -1);
 				}
 				return r_PliveReloadPreferenceDefault;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isUIToolkitWindow
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisUIToolkitWindow;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisUIToolkitWindow
-		{
-			get
-			{
-				if(r_PisUIToolkitWindow == null)
-				{
-					r_PisUIToolkitWindow = new(this, "isUIToolkitWindow", -1);
-				}
-				return r_PisUIToolkitWindow;
 			}
 		}
 
@@ -1606,22 +1542,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void OnUpdateSupportedDataModes(System.Collections.Generic.List`1[UnityEditor.DataMode])
-		/// </summary>
-		protected RMethod r_MOnUpdateSupportedDataModes_List_d_DataMode_p_;
-		public virtual RMethod RMOnUpdateSupportedDataModes_List_d_DataMode_p_
-		{
-			get
-			{
-				if(r_MOnUpdateSupportedDataModes_List_d_DataMode_p_ == null)
-				{
-					r_MOnUpdateSupportedDataModes_List_d_DataMode_p_ = new(this, "OnUpdateSupportedDataModes", 0,  ReflectionUtils.GetType("System.Collections.Generic.List`1").MakeGenericType(typeof(UnityEditor.DataMode)));
-				}
-				return r_MOnUpdateSupportedDataModes_List_d_DataMode_p_;
-			}
-		}
-
-		/// <summary>
 		/// Void RefreshTitle()
 		/// </summary>
 		protected RMethod r_MRefreshTitle;
@@ -1910,22 +1830,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void ClearEditorsAndRebuild()
-		/// </summary>
-		protected RMethod r_MClearEditorsAndRebuild;
-		public virtual RMethod RMClearEditorsAndRebuild
-		{
-			get
-			{
-				if(r_MClearEditorsAndRebuild == null)
-				{
-					r_MClearEditorsAndRebuild = new(this, "ClearEditorsAndRebuild", 0);
-				}
-				return r_MClearEditorsAndRebuild;
-			}
-		}
-
-		/// <summary>
 		/// Void AddDebugItemsToMenu(UnityEditor.GenericMenu)
 		/// </summary>
 		protected RMethod r_MAddDebugItemsToMenu_GenericMenu;
@@ -2166,6 +2070,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Boolean IsMultiEditingSupported(UnityEditor.Editor, UnityEngine.Object)
+		/// </summary>
+		protected RMethod r_MIsMultiEditingSupported_Editor_Object;
+		public virtual RMethod RMIsMultiEditingSupported_Editor_Object
+		{
+			get
+			{
+				if(r_MIsMultiEditingSupported_Editor_Object == null)
+				{
+					r_MIsMultiEditingSupported_Editor_Object = new(this, "IsMultiEditingSupported", 0, typeof(UnityEditor.Editor), typeof(UnityEngine.Object));
+				}
+				return r_MIsMultiEditingSupported_Editor_Object;
+			}
+		}
+
+		/// <summary>
 		/// Boolean ShouldCullEditor(UnityEditor.Editor[], Int32)
 		/// </summary>
 		protected RMethod r_MShouldCullEditor_EditorArray_Int32;
@@ -2178,86 +2098,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MShouldCullEditor_EditorArray_Int32 = new(this, "ShouldCullEditor", 0, typeof(UnityEditor.Editor).MakeArrayType(), typeof(System.Int32));
 				}
 				return r_MShouldCullEditor_EditorArray_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void SaveChanges()
-		/// </summary>
-		protected RMethod r_MSaveChanges;
-		public virtual RMethod RMSaveChanges
-		{
-			get
-			{
-				if(r_MSaveChanges == null)
-				{
-					r_MSaveChanges = new(this, "SaveChanges", 0);
-				}
-				return r_MSaveChanges;
-			}
-		}
-
-		/// <summary>
-		/// Void DiscardChanges()
-		/// </summary>
-		protected RMethod r_MDiscardChanges;
-		public virtual RMethod RMDiscardChanges
-		{
-			get
-			{
-				if(r_MDiscardChanges == null)
-				{
-					r_MDiscardChanges = new(this, "DiscardChanges", 0);
-				}
-				return r_MDiscardChanges;
-			}
-		}
-
-		/// <summary>
-		/// Void UnsavedChangesStateChanged(UnityEditor.Editor, Boolean)
-		/// </summary>
-		protected RMethod r_MUnsavedChangesStateChanged_Editor_Boolean;
-		public virtual RMethod RMUnsavedChangesStateChanged_Editor_Boolean
-		{
-			get
-			{
-				if(r_MUnsavedChangesStateChanged_Editor_Boolean == null)
-				{
-					r_MUnsavedChangesStateChanged_Editor_Boolean = new(this, "UnsavedChangesStateChanged", 0, typeof(UnityEditor.Editor), typeof(System.Boolean));
-				}
-				return r_MUnsavedChangesStateChanged_Editor_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateSupportedDataModesList()
-		/// </summary>
-		protected RMethod r_MUpdateSupportedDataModesList;
-		public virtual RMethod RMUpdateSupportedDataModesList
-		{
-			get
-			{
-				if(r_MUpdateSupportedDataModesList == null)
-				{
-					r_MUpdateSupportedDataModesList = new(this, "UpdateSupportedDataModesList", 0);
-				}
-				return r_MUpdateSupportedDataModesList;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.DataModeController GetDataModeController_Internal()
-		/// </summary>
-		protected RMethod r_MGetDataModeController_Internal;
-		public virtual RMethod RMGetDataModeController_Internal
-		{
-			get
-			{
-				if(r_MGetDataModeController_Internal == null)
-				{
-					r_MGetDataModeController_Internal = new(this, "GetDataModeController_Internal", 0);
-				}
-				return r_MGetDataModeController_Internal;
 			}
 		}
 
@@ -2854,6 +2694,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
+		/// Void SaveChanges()
+		/// </summary>
+		protected RMethod r_MSaveChanges;
+		public virtual RMethod RMSaveChanges
+		{
+			get
+			{
+				if(r_MSaveChanges == null)
+				{
+					r_MSaveChanges = new(this, "SaveChanges", 0);
+				}
+				return r_MSaveChanges;
+			}
+		}
+
+		/// <summary>
+		/// Void DiscardChanges()
+		/// </summary>
+		protected RMethod r_MDiscardChanges;
+		public virtual RMethod RMDiscardChanges
+		{
+			get
+			{
+				if(r_MDiscardChanges == null)
+				{
+					r_MDiscardChanges = new(this, "DiscardChanges", 0);
+				}
+				return r_MDiscardChanges;
+			}
+		}
+
+		/// <summary>
 		/// Void Close()
 		/// </summary>
 		protected RMethod r_MClose;
@@ -3010,22 +2882,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MSendEvent_Event = new(this, "SendEvent", 0, typeof(UnityEngine.Event));
 				}
 				return r_MSendEvent_Event;
-			}
-		}
-
-		/// <summary>
-		/// Void ReleaseViewData()
-		/// </summary>
-		protected RMethod r_MReleaseViewData;
-		public virtual RMethod RMReleaseViewData
-		{
-			get
-			{
-				if(r_MReleaseViewData == null)
-				{
-					r_MReleaseViewData = new(this, "ReleaseViewData", 0);
-				}
-				return r_MReleaseViewData;
 			}
 		}
 
@@ -3202,22 +3058,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MToString = new(this, "ToString", 0);
 				}
 				return r_MToString;
-			}
-		}
-
-		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
 			}
 		}
 
@@ -3408,17 +3248,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMAwake.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void OnUpdateSupportedDataModes(System.Collections.Generic.List<UnityEditor.DataMode> @supportedModes)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@supportedModes};
-            var ___result = RMOnUpdateSupportedDataModes_List_d_DataMode_p_.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -3622,17 +3451,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
-        public virtual void ClearEditorsAndRebuild()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearEditorsAndRebuild.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void AddDebugItemsToMenu(UnityEditor.GenericMenu @menu)
         {
 
@@ -3798,6 +3616,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual System.Boolean IsMultiEditingSupported(UnityEditor.Editor @editor, UnityEngine.Object @target)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@editor, @target};
+            var ___result = RMIsMultiEditingSupported_Editor_Object.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
+        }
+
+
         public virtual System.Boolean ShouldCullEditor(UnityEditor.Editor[] @editors, System.Int32 @editorIndex)
         {
 
@@ -3806,61 +3635,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMShouldCullEditor_EditorArray_Int32.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SaveChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMSaveChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DiscardChanges()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMDiscardChanges.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UnsavedChangesStateChanged(UnityEditor.Editor @editor, System.Boolean @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@editor, @value};
-            var ___result = RMUnsavedChangesStateChanged_Editor_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void UpdateSupportedDataModesList()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateSupportedDataModesList.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEditor.RDataModeController GetDataModeController_Internal()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetDataModeController_Internal.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEditor.RDataModeController>(___result);
         }
 
 
@@ -4271,6 +4045,28 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
         }
 
 
+        public virtual void SaveChanges()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMSaveChanges.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void DiscardChanges()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMDiscardChanges.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void Close()
         {
 
@@ -4378,17 +4174,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMSendEvent_Event.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ReleaseViewData()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMReleaseViewData.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -4512,17 +4297,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

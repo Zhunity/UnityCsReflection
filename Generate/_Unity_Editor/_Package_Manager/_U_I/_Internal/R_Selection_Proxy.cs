@@ -70,22 +70,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEngine.Object[] objects
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> r_Pobjects;
-		public virtual Hvak.Editor.Refleaction.RPropertyArray<Hvak.Editor.Refleaction.RUnityEngine.RObject> RPobjects
-		{
-			get
-			{
-				if(r_Pobjects == null)
-				{
-					r_Pobjects = new(this, "objects", -1);
-				}
-				return r_Pobjects;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Object activeObject
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RObject r_PactiveObject;

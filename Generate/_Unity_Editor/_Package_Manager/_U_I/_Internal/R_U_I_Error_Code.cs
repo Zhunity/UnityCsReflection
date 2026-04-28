@@ -54,162 +54,82 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_Unknown
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode Unknown
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_Unknown;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_Unknown
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUnknown;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUnknown
 		{
 			get
 			{
-				if(r_FUpmError_Unknown == null)
+				if(r_FUnknown == null)
 				{
-					r_FUpmError_Unknown = new(Type, "UpmError_Unknown");
+					r_FUnknown = new(Type, "Unknown");
 				}
-				return r_FUpmError_Unknown;
+				return r_FUnknown;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_NotFound
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode NotFound
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_NotFound;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_NotFound
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FNotFound;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFNotFound
 		{
 			get
 			{
-				if(r_FUpmError_NotFound == null)
+				if(r_FNotFound == null)
 				{
-					r_FUpmError_NotFound = new(Type, "UpmError_NotFound");
+					r_FNotFound = new(Type, "NotFound");
 				}
-				return r_FUpmError_NotFound;
+				return r_FNotFound;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_Forbidden
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode Forbidden
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_Forbidden;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_Forbidden
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FForbidden;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFForbidden
 		{
 			get
 			{
-				if(r_FUpmError_Forbidden == null)
+				if(r_FForbidden == null)
 				{
-					r_FUpmError_Forbidden = new(Type, "UpmError_Forbidden");
+					r_FForbidden = new(Type, "Forbidden");
 				}
-				return r_FUpmError_Forbidden;
+				return r_FForbidden;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_InvalidParameter
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode InvalidParameter
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_InvalidParameter;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_InvalidParameter
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FInvalidParameter;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFInvalidParameter
 		{
 			get
 			{
-				if(r_FUpmError_InvalidParameter == null)
+				if(r_FInvalidParameter == null)
 				{
-					r_FUpmError_InvalidParameter = new(Type, "UpmError_InvalidParameter");
+					r_FInvalidParameter = new(Type, "InvalidParameter");
 				}
-				return r_FUpmError_InvalidParameter;
+				return r_FInvalidParameter;
 			}
 		}
 
 		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_Conflict
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode Conflict
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_Conflict;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_Conflict
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FConflict;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFConflict
 		{
 			get
 			{
-				if(r_FUpmError_Conflict == null)
+				if(r_FConflict == null)
 				{
-					r_FUpmError_Conflict = new(Type, "UpmError_Conflict");
+					r_FConflict = new(Type, "Conflict");
 				}
-				return r_FUpmError_Conflict;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_ServerNotRunning
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_ServerNotRunning;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_ServerNotRunning
-		{
-			get
-			{
-				if(r_FUpmError_ServerNotRunning == null)
-				{
-					r_FUpmError_ServerNotRunning = new(Type, "UpmError_ServerNotRunning");
-				}
-				return r_FUpmError_ServerNotRunning;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_InvalidSignature
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_InvalidSignature;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_InvalidSignature
-		{
-			get
-			{
-				if(r_FUpmError_InvalidSignature == null)
-				{
-					r_FUpmError_InvalidSignature = new(Type, "UpmError_InvalidSignature");
-				}
-				return r_FUpmError_InvalidSignature;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_UnsignedUnityPackage
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_UnsignedUnityPackage;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_UnsignedUnityPackage
-		{
-			get
-			{
-				if(r_FUpmError_UnsignedUnityPackage == null)
-				{
-					r_FUpmError_UnsignedUnityPackage = new(Type, "UpmError_UnsignedUnityPackage");
-				}
-				return r_FUpmError_UnsignedUnityPackage;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_NotSignedIn
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_NotSignedIn;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_NotSignedIn
-		{
-			get
-			{
-				if(r_FUpmError_NotSignedIn == null)
-				{
-					r_FUpmError_NotSignedIn = new(Type, "UpmError_NotSignedIn");
-				}
-				return r_FUpmError_NotSignedIn;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError_NotAcquired
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError_NotAcquired;
-		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError_NotAcquired
-		{
-			get
-			{
-				if(r_FUpmError_NotAcquired == null)
-				{
-					r_FUpmError_NotAcquired = new(Type, "UpmError_NotAcquired");
-				}
-				return r_FUpmError_NotAcquired;
+				return r_FConflict;
 			}
 		}
 
@@ -290,6 +210,38 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_FAssetStorePackageError = new(Type, "AssetStorePackageError");
 				}
 				return r_FAssetStorePackageError;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode UpmError
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FUpmError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFUpmError
+		{
+			get
+			{
+				if(r_FUpmError == null)
+				{
+					r_FUpmError = new(Type, "UpmError");
+				}
+				return r_FUpmError;
+			}
+		}
+
+		/// <summary>
+		/// UnityEditor.PackageManager.UI.Internal.UIErrorCode NetworkError
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode r_FNetworkError;
+		public static Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIErrorCode RFNetworkError
+		{
+			get
+			{
+				if(r_FNetworkError == null)
+				{
+					r_FNetworkError = new(Type, "NetworkError");
+				}
+				return r_FNetworkError;
 			}
 		}
 

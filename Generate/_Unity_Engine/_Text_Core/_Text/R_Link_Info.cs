@@ -134,38 +134,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.String m_LinkIdString
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LinkIdString;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_LinkIdString
-		{
-			get
-			{
-				if(r_Fm_LinkIdString == null)
-				{
-					r_Fm_LinkIdString = new(this, "m_LinkIdString");
-				}
-				return r_Fm_LinkIdString;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_LinkTextString
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_LinkTextString;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_LinkTextString
-		{
-			get
-			{
-				if(r_Fm_LinkTextString == null)
-				{
-					r_Fm_LinkTextString = new(this, "m_LinkTextString");
-				}
-				return r_Fm_LinkTextString;
-			}
-		}
-
-		/// <summary>
 		/// Void SetLinkId(Char[], Int32, Int32)
 		/// </summary>
 		protected RMethod r_MSetLinkId_CharArray_Int32_Int32;

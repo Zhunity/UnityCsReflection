@@ -406,6 +406,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// System.Int32 s_FontTexPropID
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_FontTexPropID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_FontTexPropID
+		{
+			get
+			{
+				if(r_Fs_FontTexPropID == null)
+				{
+					r_Fs_FontTexPropID = new(Type, "s_FontTexPropID");
+				}
+				return r_Fs_FontTexPropID;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 s_FontTexSDFScaleID
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_FontTexSDFScaleID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_FontTexSDFScaleID
+		{
+			get
+			{
+				if(r_Fs_FontTexSDFScaleID == null)
+				{
+					r_Fs_FontTexSDFScaleID = new(Type, "s_FontTexSDFScaleID");
+				}
+				return r_Fs_FontTexSDFScaleID;
+			}
+		}
+
+		/// <summary>
 		/// System.Int32 s_GradientSettingsTexID
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_GradientSettingsTexID;
@@ -466,6 +498,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 					r_Fs_ClipRectsPropID = new(Type, "s_ClipRectsPropID");
 				}
 				return r_Fs_ClipRectsPropID;
+			}
+		}
+
+		/// <summary>
+		/// System.Int32 s_ClipSpaceParamsID
+		/// </summary>
+		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_Fs_ClipSpaceParamsID;
+		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFs_ClipSpaceParamsID
+		{
+			get
+			{
+				if(r_Fs_ClipSpaceParamsID == null)
+				{
+					r_Fs_ClipSpaceParamsID = new(Type, "s_ClipSpaceParamsID");
+				}
+				return r_Fs_ClipSpaceParamsID;
 			}
 		}
 
@@ -998,38 +1046,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// Void UpdateCopyBackIndices(UnityEngine.UIElements.UIR.MeshHandle, Boolean)
-		/// </summary>
-		protected RMethod r_MUpdateCopyBackIndices_MeshHandle_Boolean;
-		public virtual RMethod RMUpdateCopyBackIndices_MeshHandle_Boolean
-		{
-			get
-			{
-				if(r_MUpdateCopyBackIndices_MeshHandle_Boolean == null)
-				{
-					r_MUpdateCopyBackIndices_MeshHandle_Boolean = new(this, "UpdateCopyBackIndices", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"), typeof(System.Boolean));
-				}
-				return r_MUpdateCopyBackIndices_MeshHandle_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.UIRenderDevice+AllocToUpdate] ActiveUpdatesForMeshHandle(UnityEngine.UIElements.UIR.MeshHandle)
-		/// </summary>
-		protected RMethod r_MActiveUpdatesForMeshHandle_MeshHandle;
-		public virtual RMethod RMActiveUpdatesForMeshHandle_MeshHandle
-		{
-			get
-			{
-				if(r_MActiveUpdatesForMeshHandle_MeshHandle == null)
-				{
-					r_MActiveUpdatesForMeshHandle_MeshHandle = new(this, "ActiveUpdatesForMeshHandle", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshHandle"));
-				}
-				return r_MActiveUpdatesForMeshHandle_MeshHandle;
-			}
-		}
-
-		/// <summary>
 		/// Boolean TryAllocFromPage(UnityEngine.UIElements.UIR.Page, UInt32, UInt32, UnityEngine.UIElements.UIR.Alloc ByRef, UnityEngine.UIElements.UIR.Alloc ByRef, Boolean)
 		/// </summary>
 		protected RMethod r_MTryAllocFromPage_Page_UInt32_UInt32_Ref_Alloc_Ref_Alloc_Boolean;
@@ -1094,6 +1110,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
+		/// UnityEngine.Vector4 GetClipSpaceParams()
+		/// </summary>
+		protected static RMethod r_MGetClipSpaceParams;
+		public static RMethod RMGetClipSpaceParams
+		{
+			get
+			{
+				if(r_MGetClipSpaceParams == null)
+				{
+					r_MGetClipSpaceParams = new(Type, "GetClipSpaceParams", 0);
+				}
+				return r_MGetClipSpaceParams;
+			}
+		}
+
+		/// <summary>
 		/// Void OnFrameRenderingBegin()
 		/// </summary>
 		protected RMethod r_MOnFrameRenderingBegin;
@@ -1126,18 +1158,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
 		}
 
 		/// <summary>
-		/// Void ApplyDrawCommandState(UnityEngine.UIElements.UIR.RenderChainCommand, Int32, UnityEngine.Material, Boolean, EvaluationState ByRef)
+		/// Void ApplyDrawCommandState(UnityEngine.UIElements.UIR.RenderChainCommand, Int32, UnityEngine.Material, Boolean, Boolean, EvaluationState ByRef)
 		/// </summary>
-		protected RMethod r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState;
-		public virtual RMethod RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState
+		protected RMethod r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState;
+		public virtual RMethod RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState
 		{
 			get
 			{
-				if(r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState == null)
+				if(r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState == null)
 				{
-					r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState = new(this, "ApplyDrawCommandState", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState").MakeByRefType());
+					r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState = new(this, "ApplyDrawCommandState", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.RenderChainCommand"), typeof(System.Int32), typeof(UnityEngine.Material), typeof(System.Boolean), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.UIRenderDevice+EvaluationState").MakeByRefType());
 				}
-				return r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState;
+				return r_MApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState;
 			}
 		}
 
@@ -1612,28 +1644,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void UpdateCopyBackIndices(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh, System.Boolean @copyBackIndices)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh.Value, @copyBackIndices};
-            var ___result = RMUpdateCopyBackIndices_MeshHandle_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate> ActiveUpdatesForMeshHandle(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshHandle @mesh)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@mesh.Value};
-            var ___result = RMActiveUpdatesForMeshHandle_MeshHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.RAllocToUpdate>>(___result);
-        }
-
-
         public virtual System.Boolean TryAllocFromPage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RPage @page, System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @va, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RAlloc @ia, System.Boolean @shortLived)
         {
 
@@ -1692,6 +1702,17 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
+        public static UnityEngine.Vector4 GetClipSpaceParams()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetClipSpaceParams.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<UnityEngine.Vector4>(___result);
+        }
+
+
         public virtual void OnFrameRenderingBegin()
         {
 
@@ -1714,13 +1735,13 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR
         }
 
 
-        public virtual void ApplyDrawCommandState(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
+        public virtual void ApplyDrawCommandState(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RRenderChainCommand @cmd, System.Int32 @textureSlot, UnityEngine.Material @newMat, System.Boolean @newMatDiffers, System.Boolean @newFontDiffers, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState @st)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @st.Value};
-            var ___result = RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
-			@st = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState>(___parameters[4]);
+            var ___parameters = new object[]{@cmd.Value, @textureSlot, @newMat, @newMatDiffers, @newFontDiffers, @st.Value};
+            var ___result = RMApplyDrawCommandState_RenderChainCommand_Int32_Material_Boolean_Boolean_Ref_EvaluationState.Invoke(___genericsType, ___parameters);
+			@st = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RUIRenderDevice.REvaluationState>(___parameters[5]);
 
             
         }

@@ -86,6 +86,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// UnityEngine.ScaleMode unityBackgroundScaleMode
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RScaleMode r_FunityBackgroundScaleMode;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RScaleMode RFunityBackgroundScaleMode
+		{
+			get
+			{
+				if(r_FunityBackgroundScaleMode == null)
+				{
+					r_FunityBackgroundScaleMode = new(this, "unityBackgroundScaleMode");
+				}
+				return r_FunityBackgroundScaleMode;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.OverflowClipBox unityOverflowClipBox
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.ROverflowClipBox r_FunityOverflowClipBox;
@@ -146,22 +162,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_FunitySliceRight = new(this, "unitySliceRight");
 				}
 				return r_FunitySliceRight;
-			}
-		}
-
-		/// <summary>
-		/// System.Single unitySliceScale
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_FunitySliceScale;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RFunitySliceScale
-		{
-			get
-			{
-				if(r_FunitySliceScale == null)
-				{
-					r_FunitySliceScale = new(this, "unitySliceScale");
-				}
-				return r_FunitySliceScale;
 			}
 		}
 

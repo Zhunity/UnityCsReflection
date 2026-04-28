@@ -310,22 +310,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 		}
 
 		/// <summary>
-		/// System.Boolean hasMultipleColors
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FhasMultipleColors;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFhasMultipleColors
-		{
-			get
-			{
-				if(r_FhasMultipleColors == null)
-				{
-					r_FhasMultipleColors = new(this, "hasMultipleColors");
-				}
-				return r_FhasMultipleColors;
-			}
-		}
-
-		/// <summary>
 		/// Void Clear()
 		/// </summary>
 		protected RMethod r_MClear;
@@ -370,22 +354,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
 					r_MClearLineInfo = new(this, "ClearLineInfo", 0);
 				}
 				return r_MClearLineInfo;
-			}
-		}
-
-		/// <summary>
-		/// Void ClearPageInfo()
-		/// </summary>
-		protected RMethod r_MClearPageInfo;
-		public virtual RMethod RMClearPageInfo
-		{
-			get
-			{
-				if(r_MClearPageInfo == null)
-				{
-					r_MClearPageInfo = new(this, "ClearPageInfo", 0);
-				}
-				return r_MClearPageInfo;
 			}
 		}
 
@@ -546,17 +514,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMClearLineInfo.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void ClearPageInfo()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearPageInfo.Invoke(___genericsType, ___parameters);
 
             
         }

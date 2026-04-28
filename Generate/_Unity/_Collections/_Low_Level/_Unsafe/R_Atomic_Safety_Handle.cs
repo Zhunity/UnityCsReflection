@@ -86,38 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 		/// <summary>
-		/// System.Int32 TempVersion
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FTempVersion;
-		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFTempVersion
-		{
-			get
-			{
-				if(r_FTempVersion == null)
-				{
-					r_FTempVersion = new(Type, "TempVersion");
-				}
-				return r_FTempVersion;
-			}
-		}
-
-		/// <summary>
-		/// System.Int32 VersionIncrement
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FVersionIncrement;
-		public static Hvak.Editor.Refleaction.RSystem.RInt32 RFVersionIncrement
-		{
-			get
-			{
-				if(r_FVersionIncrement == null)
-				{
-					r_FVersionIncrement = new(Type, "VersionIncrement");
-				}
-				return r_FVersionIncrement;
-			}
-		}
-
-		/// <summary>
 		/// System.Int32 ReadCheck
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RInt32 r_FReadCheck;
@@ -326,38 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 		/// <summary>
-		/// Void SetExclusiveWeak(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
-		/// </summary>
-		protected static RMethod r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
-		public static RMethod RMSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean
-		{
-			get
-			{
-				if(r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean == null)
-				{
-					r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean = new(Type, "SetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
-				}
-				return r_MSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetExclusiveWeak(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
-		/// </summary>
-		protected static RMethod r_MGetExclusiveWeak_In_AtomicSafetyHandle;
-		public static RMethod RMGetExclusiveWeak_In_AtomicSafetyHandle
-		{
-			get
-			{
-				if(r_MGetExclusiveWeak_In_AtomicSafetyHandle == null)
-				{
-					r_MGetExclusiveWeak_In_AtomicSafetyHandle = new(Type, "GetExclusiveWeak", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-				}
-				return r_MGetExclusiveWeak_In_AtomicSafetyHandle;
-			}
-		}
-
-		/// <summary>
 		/// Void PrepareUndisposable(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
 		protected static RMethod r_MPrepareUndisposable_Ref_AtomicSafetyHandle;
@@ -450,38 +386,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 					r_MGetAllowReadOrWriteAccess_AtomicSafetyHandle = new(Type, "GetAllowReadOrWriteAccess", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
 				}
 				return r_MGetAllowReadOrWriteAccess_AtomicSafetyHandle;
-			}
-		}
-
-		/// <summary>
-		/// Void SetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle, Boolean)
-		/// </summary>
-		protected static RMethod r_MSetNestedContainer_AtomicSafetyHandle_Boolean;
-		public static RMethod RMSetNestedContainer_AtomicSafetyHandle_Boolean
-		{
-			get
-			{
-				if(r_MSetNestedContainer_AtomicSafetyHandle_Boolean == null)
-				{
-					r_MSetNestedContainer_AtomicSafetyHandle_Boolean = new(Type, "SetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle), typeof(System.Boolean));
-				}
-				return r_MSetNestedContainer_AtomicSafetyHandle_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-		/// </summary>
-		protected static RMethod r_MGetNestedContainer_AtomicSafetyHandle;
-		public static RMethod RMGetNestedContainer_AtomicSafetyHandle
-		{
-			get
-			{
-				if(r_MGetNestedContainer_AtomicSafetyHandle == null)
-				{
-					r_MGetNestedContainer_AtomicSafetyHandle = new(Type, "GetNestedContainer", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle));
-				}
-				return r_MGetNestedContainer_AtomicSafetyHandle;
 			}
 		}
 
@@ -838,38 +742,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 		/// <summary>
-		/// Void CreateHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Unity.Collections.Allocator)
-		/// </summary>
-		protected static RMethod r_MCreateHandle_Out_AtomicSafetyHandle_Allocator;
-		public static RMethod RMCreateHandle_Out_AtomicSafetyHandle_Allocator
-		{
-			get
-			{
-				if(r_MCreateHandle_Out_AtomicSafetyHandle_Allocator == null)
-				{
-					r_MCreateHandle_Out_AtomicSafetyHandle_Allocator = new(Type, "CreateHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(Unity.Collections.Allocator));
-				}
-				return r_MCreateHandle_Out_AtomicSafetyHandle_Allocator;
-			}
-		}
-
-		/// <summary>
-		/// Void DisposeHandle(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
-		/// </summary>
-		protected static RMethod r_MDisposeHandle_Ref_AtomicSafetyHandle;
-		public static RMethod RMDisposeHandle_Ref_AtomicSafetyHandle
-		{
-			get
-			{
-				if(r_MDisposeHandle_Ref_AtomicSafetyHandle == null)
-				{
-					r_MDisposeHandle_Ref_AtomicSafetyHandle = new(Type, "DisposeHandle", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-				}
-				return r_MDisposeHandle_Ref_AtomicSafetyHandle;
-			}
-		}
-
-		/// <summary>
 		/// Void Create_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
 		protected static RMethod r_MCreate_Injected_Out_AtomicSafetyHandle;
@@ -1014,34 +886,18 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
 		}
 
 		/// <summary>
-		/// Void SetNestedContainer_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef, Boolean)
+		/// Void CheckWriteAndBumpSecondaryVersion_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
 		/// </summary>
-		protected static RMethod r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
-		public static RMethod RMSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean
+		protected static RMethod r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
+		public static RMethod RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle
 		{
 			get
 			{
-				if(r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean == null)
+				if(r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle == null)
 				{
-					r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean = new(Type, "SetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType(), typeof(System.Boolean));
+					r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle = new(Type, "CheckWriteAndBumpSecondaryVersion_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
 				}
-				return r_MSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetNestedContainer_Injected(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle ByRef)
-		/// </summary>
-		protected static RMethod r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle;
-		public static RMethod RMGetNestedContainer_Injected_Ref_AtomicSafetyHandle
-		{
-			get
-			{
-				if(r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle == null)
-				{
-					r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle = new(Type, "GetNestedContainer_Injected", 0, typeof(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle).MakeByRefType());
-				}
-				return r_MGetNestedContainer_Injected_Ref_AtomicSafetyHandle;
+				return r_MCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle;
 			}
 		}
 
@@ -1384,29 +1240,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetExclusiveWeak(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @enabled)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @enabled};
-            var ___result = RMSetExclusiveWeak_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
-
-
-        public static System.Boolean GetExclusiveWeak(in Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetExclusiveWeak_In_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public static void PrepareUndisposable(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
@@ -1470,28 +1303,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
             var ___result = RMGetAllowReadOrWriteAccess_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void SetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @isNestedContainer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @isNestedContainer};
-            var ___result = RMSetNestedContainer_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public static System.Boolean GetNestedContainer(Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle};
-            var ___result = RMGetNestedContainer_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }
@@ -1740,31 +1551,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void CreateHandle(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety, Unity.Collections.Allocator @allocator)
-        {
-			@safety = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@safety, @allocator};
-            var ___result = RMCreateHandle_Out_AtomicSafetyHandle_Allocator.Invoke(___genericsType, ___parameters);
-			@safety = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
-
-
-        public static void DisposeHandle(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @safety)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@safety};
-            var ___result = RMDisposeHandle_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
-			@safety = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
-
-
         public static void Create_Injected(out Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @ret)
         {
 			@ret = default;
@@ -1876,27 +1662,15 @@ namespace Hvak.Editor.Refleaction.RUnity.RCollections.RLowLevel.RUnsafe
         }
 
 
-        public static void SetNestedContainer_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle, System.Boolean @isNestedContainer)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@handle, @isNestedContainer};
-            var ___result = RMSetNestedContainer_Injected_Ref_AtomicSafetyHandle_Boolean.Invoke(___genericsType, ___parameters);
-			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
-
-            
-        }
-
-
-        public static System.Boolean GetNestedContainer_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
+        public static void CheckWriteAndBumpSecondaryVersion_Injected(ref Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle @handle)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@handle};
-            var ___result = RMGetNestedContainer_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
+            var ___result = RMCheckWriteAndBumpSecondaryVersion_Injected_Ref_AtomicSafetyHandle.Invoke(___genericsType, ___parameters);
 			@handle = ReflectionUtils.Convert<Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle>(___parameters[0]);
 
-            return ReflectionUtils.Convert<System.Boolean>(___result);
+            
         }
 
 

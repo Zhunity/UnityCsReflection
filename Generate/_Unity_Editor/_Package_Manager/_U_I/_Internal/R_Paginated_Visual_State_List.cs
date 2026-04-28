@@ -342,6 +342,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Boolean SetExpanded(System.String, Boolean)
+		/// </summary>
+		protected RMethod r_MSetExpanded_String_Boolean;
+		public virtual RMethod RMSetExpanded_String_Boolean
+		{
+			get
+			{
+				if(r_MSetExpanded_String_Boolean == null)
+				{
+					r_MSetExpanded_String_Boolean = new(this, "SetExpanded", 0, typeof(System.String), typeof(System.Boolean));
+				}
+				return r_MSetExpanded_String_Boolean;
+			}
+		}
+
+		/// <summary>
 		/// Void SetupLookupTable()
 		/// </summary>
 		protected RMethod r_MSetupLookupTable;
@@ -599,6 +615,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___result = RMRebuild_IEnumerable_d_Tuple_d_String_String_Boolean_p__p_.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual System.Boolean SetExpanded(System.String @packageUniqueId, System.Boolean @value)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@packageUniqueId, @value};
+            var ___result = RMSetExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Boolean>(___result);
         }
 
 

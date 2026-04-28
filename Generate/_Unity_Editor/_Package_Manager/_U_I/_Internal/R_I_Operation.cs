@@ -198,22 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean isInPause
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPause
-		{
-			get
-			{
-				if(r_PisInPause == null)
-				{
-					r_PisInPause = new(this, "isInPause", -1);
-				}
-				return r_PisInPause;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isProgressVisible
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisProgressVisible;

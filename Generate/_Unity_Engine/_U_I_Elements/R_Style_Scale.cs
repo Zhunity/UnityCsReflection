@@ -102,22 +102,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.Vector2)
-		/// </summary>
-		protected static RMethod r_Mop_Implicit_Vector2;
-		public static RMethod RMop_Implicit_Vector2
-		{
-			get
-			{
-				if(r_Mop_Implicit_Vector2 == null)
-				{
-					r_Mop_Implicit_Vector2 = new(Type, "op_Implicit", 0, typeof(UnityEngine.Vector2));
-				}
-				return r_Mop_Implicit_Vector2;
-			}
-		}
-
-		/// <summary>
 		/// Boolean op_Equality(UnityEngine.UIElements.StyleScale, UnityEngine.UIElements.StyleScale)
 		/// </summary>
 		protected static RMethod r_Mop_Equality_StyleScale_StyleScale;
@@ -292,17 +276,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public static UnityEngine.UIElements.StyleScale op_Implicit(UnityEngine.Vector2 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@scale};
-            var ___result = RMop_Implicit_Vector2.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<UnityEngine.UIElements.StyleScale>(___result);
-        }
 
 
         public static System.Boolean op_Equality(UnityEngine.UIElements.StyleScale @lhs, UnityEngine.UIElements.StyleScale @rhs)

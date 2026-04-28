@@ -838,38 +838,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void GetPositionAndRotation(UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
-		/// </summary>
-		protected RMethod r_MGetPositionAndRotation_Out_Vector3_Out_Quaternion;
-		public virtual RMethod RMGetPositionAndRotation_Out_Vector3_Out_Quaternion
-		{
-			get
-			{
-				if(r_MGetPositionAndRotation_Out_Vector3_Out_Quaternion == null)
-				{
-					r_MGetPositionAndRotation_Out_Vector3_Out_Quaternion = new(this, "GetPositionAndRotation", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-				}
-				return r_MGetPositionAndRotation_Out_Vector3_Out_Quaternion;
-			}
-		}
-
-		/// <summary>
-		/// Void GetLocalPositionAndRotation(UnityEngine.Vector3 ByRef, UnityEngine.Quaternion ByRef)
-		/// </summary>
-		protected RMethod r_MGetLocalPositionAndRotation_Out_Vector3_Out_Quaternion;
-		public virtual RMethod RMGetLocalPositionAndRotation_Out_Vector3_Out_Quaternion
-		{
-			get
-			{
-				if(r_MGetLocalPositionAndRotation_Out_Vector3_Out_Quaternion == null)
-				{
-					r_MGetLocalPositionAndRotation_Out_Vector3_Out_Quaternion = new(this, "GetLocalPositionAndRotation", 0, typeof(UnityEngine.Vector3).MakeByRefType(), typeof(UnityEngine.Quaternion).MakeByRefType());
-				}
-				return r_MGetLocalPositionAndRotation_Out_Vector3_Out_Quaternion;
-			}
-		}
-
-		/// <summary>
 		/// Void Translate(UnityEngine.Vector3, UnityEngine.Space)
 		/// </summary>
 		protected RMethod r_MTranslate_Vector3_Space;
@@ -1206,54 +1174,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void TransformDirections(UnityEngine.Vector3*, Int32, UnityEngine.Vector3*, Int32)
-		/// </summary>
-		protected RMethod r_MTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32;
-		public virtual RMethod RMTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32
-		{
-			get
-			{
-				if(r_MTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32 == null)
-				{
-					r_MTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32 = new(this, "TransformDirections", 0, typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32));
-				}
-				return r_MTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void TransformDirections(System.ReadOnlySpan`1[UnityEngine.Vector3], System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-		public virtual RMethod RMTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
-				{
-					r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformDirections", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void TransformDirections(System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MTransformDirections_Span_d_Vector3_p_;
-		public virtual RMethod RMTransformDirections_Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MTransformDirections_Span_d_Vector3_p_ == null)
-				{
-					r_MTransformDirections_Span_d_Vector3_p_ = new(this, "TransformDirections", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MTransformDirections_Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector3 InverseTransformDirection(UnityEngine.Vector3)
 		/// </summary>
 		protected RMethod r_MInverseTransformDirection_Vector3;
@@ -1282,54 +1202,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MInverseTransformDirection_Single_Single_Single = new(this, "InverseTransformDirection", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MInverseTransformDirection_Single_Single_Single;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformDirections(UnityEngine.Vector3*, Int32, UnityEngine.Vector3*, Int32)
-		/// </summary>
-		protected RMethod r_MInverseTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32;
-		public virtual RMethod RMInverseTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32
-		{
-			get
-			{
-				if(r_MInverseTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32 == null)
-				{
-					r_MInverseTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32 = new(this, "InverseTransformDirections", 0, typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32));
-				}
-				return r_MInverseTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformDirections(System.ReadOnlySpan`1[UnityEngine.Vector3], System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-		public virtual RMethod RMInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
-				{
-					r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformDirections", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformDirections(System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MInverseTransformDirections_Span_d_Vector3_p_;
-		public virtual RMethod RMInverseTransformDirections_Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MInverseTransformDirections_Span_d_Vector3_p_ == null)
-				{
-					r_MInverseTransformDirections_Span_d_Vector3_p_ = new(this, "InverseTransformDirections", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MInverseTransformDirections_Span_d_Vector3_p_;
 			}
 		}
 
@@ -1366,54 +1238,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void TransformVectors(UnityEngine.Vector3*, Int32, UnityEngine.Vector3*, Int32)
-		/// </summary>
-		protected RMethod r_MTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32;
-		public virtual RMethod RMTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32
-		{
-			get
-			{
-				if(r_MTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32 == null)
-				{
-					r_MTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32 = new(this, "TransformVectors", 0, typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32));
-				}
-				return r_MTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void TransformVectors(System.ReadOnlySpan`1[UnityEngine.Vector3], System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-		public virtual RMethod RMTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
-				{
-					r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformVectors", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void TransformVectors(System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MTransformVectors_Span_d_Vector3_p_;
-		public virtual RMethod RMTransformVectors_Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MTransformVectors_Span_d_Vector3_p_ == null)
-				{
-					r_MTransformVectors_Span_d_Vector3_p_ = new(this, "TransformVectors", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MTransformVectors_Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector3 InverseTransformVector(UnityEngine.Vector3)
 		/// </summary>
 		protected RMethod r_MInverseTransformVector_Vector3;
@@ -1442,54 +1266,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MInverseTransformVector_Single_Single_Single = new(this, "InverseTransformVector", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MInverseTransformVector_Single_Single_Single;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformVectors(UnityEngine.Vector3*, Int32, UnityEngine.Vector3*, Int32)
-		/// </summary>
-		protected RMethod r_MInverseTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32;
-		public virtual RMethod RMInverseTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32
-		{
-			get
-			{
-				if(r_MInverseTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32 == null)
-				{
-					r_MInverseTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32 = new(this, "InverseTransformVectors", 0, typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32));
-				}
-				return r_MInverseTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformVectors(System.ReadOnlySpan`1[UnityEngine.Vector3], System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-		public virtual RMethod RMInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
-				{
-					r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformVectors", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformVectors(System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MInverseTransformVectors_Span_d_Vector3_p_;
-		public virtual RMethod RMInverseTransformVectors_Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MInverseTransformVectors_Span_d_Vector3_p_ == null)
-				{
-					r_MInverseTransformVectors_Span_d_Vector3_p_ = new(this, "InverseTransformVectors", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MInverseTransformVectors_Span_d_Vector3_p_;
 			}
 		}
 
@@ -1526,54 +1302,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void TransformPoints(UnityEngine.Vector3*, Int32, UnityEngine.Vector3*, Int32)
-		/// </summary>
-		protected RMethod r_MTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32;
-		public virtual RMethod RMTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32
-		{
-			get
-			{
-				if(r_MTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32 == null)
-				{
-					r_MTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32 = new(this, "TransformPoints", 0, typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32));
-				}
-				return r_MTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void TransformPoints(System.ReadOnlySpan`1[UnityEngine.Vector3], System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-		public virtual RMethod RMTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
-				{
-					r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "TransformPoints", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void TransformPoints(System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MTransformPoints_Span_d_Vector3_p_;
-		public virtual RMethod RMTransformPoints_Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MTransformPoints_Span_d_Vector3_p_ == null)
-				{
-					r_MTransformPoints_Span_d_Vector3_p_ = new(this, "TransformPoints", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MTransformPoints_Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Vector3 InverseTransformPoint(UnityEngine.Vector3)
 		/// </summary>
 		protected RMethod r_MInverseTransformPoint_Vector3;
@@ -1602,54 +1330,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 					r_MInverseTransformPoint_Single_Single_Single = new(this, "InverseTransformPoint", 0, typeof(System.Single), typeof(System.Single), typeof(System.Single));
 				}
 				return r_MInverseTransformPoint_Single_Single_Single;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformPoints(UnityEngine.Vector3*, Int32, UnityEngine.Vector3*, Int32)
-		/// </summary>
-		protected RMethod r_MInverseTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32;
-		public virtual RMethod RMInverseTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32
-		{
-			get
-			{
-				if(r_MInverseTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32 == null)
-				{
-					r_MInverseTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32 = new(this, "InverseTransformPoints", 0, typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32), typeof(UnityEngine.Vector3).MakePointerType(), typeof(System.Int32));
-				}
-				return r_MInverseTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformPoints(System.ReadOnlySpan`1[UnityEngine.Vector3], System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-		public virtual RMethod RMInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ == null)
-				{
-					r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_ = new(this, "InverseTransformPoints", 0,  ReflectionUtils.GetType("System.ReadOnlySpan`1").MakeGenericType(typeof(UnityEngine.Vector3)),  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_;
-			}
-		}
-
-		/// <summary>
-		/// Void InverseTransformPoints(System.Span`1[UnityEngine.Vector3])
-		/// </summary>
-		protected RMethod r_MInverseTransformPoints_Span_d_Vector3_p_;
-		public virtual RMethod RMInverseTransformPoints_Span_d_Vector3_p_
-		{
-			get
-			{
-				if(r_MInverseTransformPoints_Span_d_Vector3_p_ == null)
-				{
-					r_MInverseTransformPoints_Span_d_Vector3_p_ = new(this, "InverseTransformPoints", 0,  ReflectionUtils.GetType("System.Span`1").MakeGenericType(typeof(UnityEngine.Vector3)));
-				}
-				return r_MInverseTransformPoints_Span_d_Vector3_p_;
 			}
 		}
 
@@ -2934,22 +2614,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Int32 GetComponentIndex()
-		/// </summary>
-		protected RMethod r_MGetComponentIndex;
-		public virtual RMethod RMGetComponentIndex
-		{
-			get
-			{
-				if(r_MGetComponentIndex == null)
-				{
-					r_MGetComponentIndex = new(this, "GetComponentIndex", 0);
-				}
-				return r_MGetComponentIndex;
-			}
-		}
-
-		/// <summary>
 		/// Boolean CompareTag(System.String)
 		/// </summary>
 		protected RMethod r_MCompareTag_String;
@@ -3254,22 +2918,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -3423,36 +3071,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@localPosition, @localRotation};
             var ___result = RMSetLocalPositionAndRotation_Vector3_Quaternion.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void GetPositionAndRotation(out UnityEngine.Vector3 @position, out UnityEngine.Quaternion @rotation)
-        {
-			@position = default;
-			@rotation = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@position, @rotation};
-            var ___result = RMGetPositionAndRotation_Out_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@position = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-			@rotation = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
-
-            
-        }
-
-
-        public virtual void GetLocalPositionAndRotation(out UnityEngine.Vector3 @localPosition, out UnityEngine.Quaternion @localRotation)
-        {
-			@localPosition = default;
-			@localRotation = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localPosition, @localRotation};
-            var ___result = RMGetLocalPositionAndRotation_Out_Vector3_Out_Quaternion.Invoke(___genericsType, ___parameters);
-			@localPosition = ReflectionUtils.Convert<UnityEngine.Vector3>(___parameters[0]);
-			@localRotation = ReflectionUtils.Convert<UnityEngine.Quaternion>(___parameters[1]);
 
             
         }
@@ -3689,39 +3307,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public unsafe virtual void TransformDirections(UnityEngine.Vector3* @directions, System.Int32 @count, UnityEngine.Vector3* @transformedDirections, System.Int32 @transformedCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@directions, typeof(UnityEngine.Vector3)), @count, Pointer.Box(@transformedDirections, typeof(UnityEngine.Vector3)), @transformedCount};
-            var ___result = RMTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransformDirections(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedDirections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directions.Value, @transformedDirections.Value};
-            var ___result = RMTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransformDirections(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directions.Value};
-            var ___result = RMTransformDirections_Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual UnityEngine.Vector3 InverseTransformDirection(UnityEngine.Vector3 @direction)
         {
 
@@ -3741,39 +3326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMInverseTransformDirection_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public unsafe virtual void InverseTransformDirections(UnityEngine.Vector3* @directions, System.Int32 @count, UnityEngine.Vector3* @transformedDirections, System.Int32 @transformedCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@directions, typeof(UnityEngine.Vector3)), @count, Pointer.Box(@transformedDirections, typeof(UnityEngine.Vector3)), @transformedCount};
-            var ___result = RMInverseTransformDirections_Vector3Pointer_Int32_Vector3Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InverseTransformDirections(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedDirections)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directions.Value, @transformedDirections.Value};
-            var ___result = RMInverseTransformDirections_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InverseTransformDirections(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @directions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@directions.Value};
-            var ___result = RMInverseTransformDirections_Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -3799,39 +3351,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public unsafe virtual void TransformVectors(UnityEngine.Vector3* @vectors, System.Int32 @count, UnityEngine.Vector3* @transformedVectors, System.Int32 @transformedCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@vectors, typeof(UnityEngine.Vector3)), @count, Pointer.Box(@transformedVectors, typeof(UnityEngine.Vector3)), @transformedCount};
-            var ___result = RMTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransformVectors(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedVectors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vectors.Value, @transformedVectors.Value};
-            var ___result = RMTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransformVectors(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vectors.Value};
-            var ___result = RMTransformVectors_Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual UnityEngine.Vector3 InverseTransformVector(UnityEngine.Vector3 @vector)
         {
 
@@ -3851,39 +3370,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMInverseTransformVector_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public unsafe virtual void InverseTransformVectors(UnityEngine.Vector3* @vectors, System.Int32 @count, UnityEngine.Vector3* @transformedVectors, System.Int32 @transformedCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@vectors, typeof(UnityEngine.Vector3)), @count, Pointer.Box(@transformedVectors, typeof(UnityEngine.Vector3)), @transformedCount};
-            var ___result = RMInverseTransformVectors_Vector3Pointer_Int32_Vector3Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InverseTransformVectors(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedVectors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vectors.Value, @transformedVectors.Value};
-            var ___result = RMInverseTransformVectors_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InverseTransformVectors(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @vectors)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vectors.Value};
-            var ___result = RMInverseTransformVectors_Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -3909,39 +3395,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public unsafe virtual void TransformPoints(UnityEngine.Vector3* @positions, System.Int32 @count, UnityEngine.Vector3* @transformedPositions, System.Int32 @transformedCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@positions, typeof(UnityEngine.Vector3)), @count, Pointer.Box(@transformedPositions, typeof(UnityEngine.Vector3)), @transformedCount};
-            var ___result = RMTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransformPoints(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedPositions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@positions.Value, @transformedPositions.Value};
-            var ___result = RMTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void TransformPoints(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@positions.Value};
-            var ___result = RMTransformPoints_Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual UnityEngine.Vector3 InverseTransformPoint(UnityEngine.Vector3 @position)
         {
 
@@ -3961,39 +3414,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMInverseTransformPoint_Single_Single_Single.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<UnityEngine.Vector3>(___result);
-        }
-
-
-        public unsafe virtual void InverseTransformPoints(UnityEngine.Vector3* @positions, System.Int32 @count, UnityEngine.Vector3* @transformedPositions, System.Int32 @transformedCount)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{Pointer.Box(@positions, typeof(UnityEngine.Vector3)), @count, Pointer.Box(@transformedPositions, typeof(UnityEngine.Vector3)), @transformedCount};
-            var ___result = RMInverseTransformPoints_Vector3Pointer_Int32_Vector3Pointer_Int32.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InverseTransformPoints(Hvak.Editor.Refleaction.RSystem.RReadOnlySpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions, Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @transformedPositions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@positions.Value, @transformedPositions.Value};
-            var ___result = RMInverseTransformPoints_ReadOnlySpan_d_Vector3_p__Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void InverseTransformPoints(Hvak.Editor.Refleaction.RSystem.RSpan<Hvak.Editor.Refleaction.RUnityEngine.RVector3> @positions)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@positions.Value};
-            var ___result = RMInverseTransformPoints_Span_d_Vector3_p_.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 
@@ -4933,17 +4353,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
         }
 
 
-        public virtual System.Int32 GetComponentIndex()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetComponentIndex.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual System.Boolean CompareTag(System.String @tag)
         {
 
@@ -5150,17 +4559,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

@@ -198,18 +198,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_LogErrorInConsole
+		/// UnityEditor.PackageManager.UI.Internal.UIError <error>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_LogErrorInConsole;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_LogErrorInConsole
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_F__0__error__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RF__0__error__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_LogErrorInConsole == null)
+				if(r_F__0__error__1__k__BackingField == null)
 				{
-					r_Fm_LogErrorInConsole = new(this, "m_LogErrorInConsole");
+					r_F__0__error__1__k__BackingField = new(this, "<error>k__BackingField");
 				}
-				return r_Fm_LogErrorInConsole;
+				return r_F__0__error__1__k__BackingField;
 			}
 		}
 
@@ -358,22 +358,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean logErrorInConsole
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PlogErrorInConsole;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPlogErrorInConsole
-		{
-			get
-			{
-				if(r_PlogErrorInConsole == null)
-				{
-					r_PlogErrorInConsole = new(this, "logErrorInConsole", -1);
-				}
-				return r_PlogErrorInConsole;
-			}
-		}
-
-		/// <summary>
 		/// Boolean isInProgress
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInProgress;
@@ -386,22 +370,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PisInProgress = new(this, "isInProgress", -1);
 				}
 				return r_PisInProgress;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isInPause
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisInPause;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisInPause
-		{
-			get
-			{
-				if(r_PisInPause == null)
-				{
-					r_PisInPause = new(this, "isInPause", -1);
-				}
-				return r_PisInPause;
 			}
 		}
 
@@ -454,18 +422,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String operationErrorMessage
+		/// UnityEditor.PackageManager.UI.Internal.UIError error
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PoperationErrorMessage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPoperationErrorMessage
+		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError r_Perror;
+		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError RPerror
 		{
 			get
 			{
-				if(r_PoperationErrorMessage == null)
+				if(r_Perror == null)
 				{
-					r_PoperationErrorMessage = new(this, "operationErrorMessage", -1);
+					r_Perror = new(this, "error", -1);
 				}
-				return r_PoperationErrorMessage;
+				return r_Perror;
 			}
 		}
 

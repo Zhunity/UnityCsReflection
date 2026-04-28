@@ -86,70 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// System.Action`1[UnityEditor.Overlays.OverlayContainer] containerChanged
-		/// </summary>
-		protected REvent r_EcontainerChanged;
-		public virtual REvent REcontainerChanged
-		{
-			get
-			{
-				if(r_EcontainerChanged == null)
-				{
-					r_EcontainerChanged = new(this, "containerChanged");
-				}
-				return r_EcontainerChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action minSizeChanged
-		/// </summary>
-		protected REvent r_EminSizeChanged;
-		public virtual REvent REminSizeChanged
-		{
-			get
-			{
-				if(r_EminSizeChanged == null)
-				{
-					r_EminSizeChanged = new(this, "minSizeChanged");
-				}
-				return r_EminSizeChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action maxSizeChanged
-		/// </summary>
-		protected REvent r_EmaxSizeChanged;
-		public virtual REvent REmaxSizeChanged
-		{
-			get
-			{
-				if(r_EmaxSizeChanged == null)
-				{
-					r_EmaxSizeChanged = new(this, "maxSizeChanged");
-				}
-				return r_EmaxSizeChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action sizeOverridenChanged
-		/// </summary>
-		protected REvent r_EsizeOverridenChanged;
-		public virtual REvent REsizeOverridenChanged
-		{
-			get
-			{
-				if(r_EsizeOverridenChanged == null)
-				{
-					r_EsizeOverridenChanged = new(this, "sizeOverridenChanged");
-				}
-				return r_EsizeOverridenChanged;
-			}
-		}
-
-		/// <summary>
 		/// System.Action`1[System.Boolean] floatingChanged
 		/// </summary>
 		protected REvent r_EfloatingChanged;
@@ -470,22 +406,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEditor.Overlays.Layout m_ActiveLayout
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_Fm_ActiveLayout;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RFm_ActiveLayout
-		{
-			get
-			{
-				if(r_Fm_ActiveLayout == null)
-				{
-					r_Fm_ActiveLayout = new(this, "m_ActiveLayout");
-				}
-				return r_Fm_ActiveLayout;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean m_Collapsed
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_Collapsed;
@@ -582,70 +502,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector2 m_MinSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_MinSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFm_MinSize
-		{
-			get
-			{
-				if(r_Fm_MinSize == null)
-				{
-					r_Fm_MinSize = new(this, "m_MinSize");
-				}
-				return r_Fm_MinSize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 m_MaxSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_MaxSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFm_MaxSize
-		{
-			get
-			{
-				if(r_Fm_MaxSize == null)
-				{
-					r_Fm_MaxSize = new(this, "m_MaxSize");
-				}
-				return r_Fm_MaxSize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 m_Size
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fm_Size;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFm_Size
-		{
-			get
-			{
-				if(r_Fm_Size == null)
-				{
-					r_Fm_Size = new(this, "m_Size");
-				}
-				return r_Fm_Size;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_SizeOverridden
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_SizeOverridden;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_SizeOverridden
-		{
-			get
-			{
-				if(r_Fm_SizeOverridden == null)
-				{
-					r_Fm_SizeOverridden = new(this, "m_SizeOverridden");
-				}
-				return r_Fm_SizeOverridden;
-			}
-		}
-
-		/// <summary>
 		/// System.Boolean m_LockAnchor
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_LockAnchor;
@@ -674,22 +530,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Fm_ContentsChanged = new(this, "m_ContentsChanged");
 				}
 				return r_Fm_ContentsChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean m_DisableContentModification
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DisableContentModification;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DisableContentModification
-		{
-			get
-			{
-				if(r_Fm_DisableContentModification == null)
-				{
-					r_Fm_DisableContentModification = new(this, "m_DisableContentModification");
-				}
-				return r_Fm_DisableContentModification;
 			}
 		}
 
@@ -790,22 +630,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement m_ResizeTarget
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_Fm_ResizeTarget;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RFm_ResizeTarget
-		{
-			get
-			{
-				if(r_Fm_ResizeTarget == null)
-				{
-					r_Fm_ResizeTarget = new(this, "m_ResizeTarget");
-				}
-				return r_Fm_ResizeTarget;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.Overlays.OverlayDropZone m_BeforeDropZone
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayDropZone r_Fm_BeforeDropZone;
@@ -882,70 +706,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_FdisplayedChanged = new(this, "displayedChanged");
 				}
 				return r_FdisplayedChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action`1[UnityEditor.Overlays.OverlayContainer] containerChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer> r_FcontainerChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction<Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer> RFcontainerChanged
-		{
-			get
-			{
-				if(r_FcontainerChanged == null)
-				{
-					r_FcontainerChanged = new(this, "containerChanged");
-				}
-				return r_FcontainerChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action minSizeChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FminSizeChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFminSizeChanged
-		{
-			get
-			{
-				if(r_FminSizeChanged == null)
-				{
-					r_FminSizeChanged = new(this, "minSizeChanged");
-				}
-				return r_FminSizeChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action maxSizeChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FmaxSizeChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFmaxSizeChanged
-		{
-			get
-			{
-				if(r_FmaxSizeChanged == null)
-				{
-					r_FmaxSizeChanged = new(this, "maxSizeChanged");
-				}
-				return r_FmaxSizeChanged;
-			}
-		}
-
-		/// <summary>
-		/// System.Action sizeOverridenChanged
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RAction r_FsizeOverridenChanged;
-		public virtual Hvak.Editor.Refleaction.RSystem.RAction RFsizeOverridenChanged
-		{
-			get
-			{
-				if(r_FsizeOverridenChanged == null)
-				{
-					r_FsizeOverridenChanged = new(this, "sizeOverridenChanged");
-				}
-				return r_FsizeOverridenChanged;
 			}
 		}
 
@@ -1030,22 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.Texture2D m_CollapsedIcon
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fm_CollapsedIcon;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RFm_CollapsedIcon
-		{
-			get
-			{
-				if(r_Fm_CollapsedIcon == null)
-				{
-					r_Fm_CollapsedIcon = new(this, "m_CollapsedIcon");
-				}
-				return r_Fm_CollapsedIcon;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner <floatingSnapCorner>k__BackingField
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_F__0__floatingSnapCorner__1__k__BackingField;
@@ -1110,22 +854,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.VisualElement resizeTarget
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PresizeTarget;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement RPresizeTarget
-		{
-			get
-			{
-				if(r_PresizeTarget == null)
-				{
-					r_PresizeTarget = new(this, "resizeTarget", -1);
-				}
-				return r_PresizeTarget;
-			}
-		}
-
-		/// <summary>
 		/// System.String id
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Pid;
@@ -1174,22 +902,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.Texture2D collapsedIcon
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_PcollapsedIcon;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTexture2D RPcollapsedIcon
-		{
-			get
-			{
-				if(r_PcollapsedIcon == null)
-				{
-					r_PcollapsedIcon = new(this, "collapsedIcon", -1);
-				}
-				return r_PcollapsedIcon;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.VisualElement collapsedContent
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PcollapsedContent;
@@ -1218,22 +930,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Playout = new(this, "layout", -1);
 				}
 				return r_Playout;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.Layout activeLayout
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout r_PactiveLayout;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RLayout RPactiveLayout
-		{
-			get
-			{
-				if(r_PactiveLayout == null)
-				{
-					r_PactiveLayout = new(this, "activeLayout", -1);
-				}
-				return r_PactiveLayout;
 			}
 		}
 
@@ -1298,38 +994,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_Pcontainer = new(this, "container", -1);
 				}
 				return r_Pcontainer;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.DockZone dockZone
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone r_PdockZone;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockZone RPdockZone
-		{
-			get
-			{
-				if(r_PdockZone == null)
-				{
-					r_PdockZone = new(this, "dockZone", -1);
-				}
-				return r_PdockZone;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.Overlays.DockPosition dockPosition
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition r_PdockPosition;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RDockPosition RPdockPosition
-		{
-			get
-			{
-				if(r_PdockPosition == null)
-				{
-					r_PdockPosition = new(this, "dockPosition", -1);
-				}
-				return r_PdockPosition;
 			}
 		}
 
@@ -1430,86 +1094,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean sizeOverridden
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PsizeOverridden;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPsizeOverridden
-		{
-			get
-			{
-				if(r_PsizeOverridden == null)
-				{
-					r_PsizeOverridden = new(this, "sizeOverridden", -1);
-				}
-				return r_PsizeOverridden;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 sizeToSave
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PsizeToSave;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPsizeToSave
-		{
-			get
-			{
-				if(r_PsizeToSave == null)
-				{
-					r_PsizeToSave = new(this, "sizeToSave", -1);
-				}
-				return r_PsizeToSave;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 size
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Psize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPsize
-		{
-			get
-			{
-				if(r_Psize == null)
-				{
-					r_Psize = new(this, "size", -1);
-				}
-				return r_Psize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 minSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PminSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPminSize
-		{
-			get
-			{
-				if(r_PminSize == null)
-				{
-					r_PminSize = new(this, "minSize", -1);
-				}
-				return r_PminSize;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.Vector2 maxSize
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_PmaxSize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RPmaxSize
-		{
-			get
-			{
-				if(r_PmaxSize == null)
-				{
-					r_PmaxSize = new(this, "maxSize", -1);
-				}
-				return r_PmaxSize;
-			}
-		}
-
-		/// <summary>
 		/// UnityEditor.Overlays.SnapCorner floatingSnapCorner
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSnapCorner r_PfloatingSnapCorner;
@@ -1574,34 +1158,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// System.String GetEventTypeErrorMessage(System.String)
+		/// Void SetDisplayedNoCallback(Boolean)
 		/// </summary>
-		protected static RMethod r_MGetEventTypeErrorMessage_String;
-		public static RMethod RMGetEventTypeErrorMessage_String
+		protected RMethod r_MSetDisplayedNoCallback_Boolean;
+		public virtual RMethod RMSetDisplayedNoCallback_Boolean
 		{
 			get
 			{
-				if(r_MGetEventTypeErrorMessage_String == null)
+				if(r_MSetDisplayedNoCallback_Boolean == null)
 				{
-					r_MGetEventTypeErrorMessage_String = new(Type, "GetEventTypeErrorMessage", 0, typeof(System.String));
+					r_MSetDisplayedNoCallback_Boolean = new(this, "SetDisplayedNoCallback", 0, typeof(System.Boolean));
 				}
-				return r_MGetEventTypeErrorMessage_String;
-			}
-		}
-
-		/// <summary>
-		/// Void ResetSize()
-		/// </summary>
-		protected RMethod r_MResetSize;
-		public virtual RMethod RMResetSize
-		{
-			get
-			{
-				if(r_MResetSize == null)
-				{
-					r_MResetSize = new(this, "ResetSize", 0);
-				}
-				return r_MResetSize;
+				return r_MSetDisplayedNoCallback_Boolean;
 			}
 		}
 
@@ -1650,54 +1218,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MRebuildContent = new(this, "RebuildContent", 0);
 				}
 				return r_MRebuildContent;
-			}
-		}
-
-		/// <summary>
-		/// Boolean ShouldUseSizeValue()
-		/// </summary>
-		protected RMethod r_MShouldUseSizeValue;
-		public virtual RMethod RMShouldUseSizeValue
-		{
-			get
-			{
-				if(r_MShouldUseSizeValue == null)
-				{
-					r_MShouldUseSizeValue = new(this, "ShouldUseSizeValue", 0);
-				}
-				return r_MShouldUseSizeValue;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsSizeAuto(Single, Single)
-		/// </summary>
-		protected RMethod r_MIsSizeAuto_Single_Single;
-		public virtual RMethod RMIsSizeAuto_Single_Single
-		{
-			get
-			{
-				if(r_MIsSizeAuto_Single_Single == null)
-				{
-					r_MIsSizeAuto_Single_Single = new(this, "IsSizeAuto", 0, typeof(System.Single), typeof(System.Single));
-				}
-				return r_MIsSizeAuto_Single_Single;
-			}
-		}
-
-		/// <summary>
-		/// Void UpdateSize()
-		/// </summary>
-		protected RMethod r_MUpdateSize;
-		public virtual RMethod RMUpdateSize
-		{
-			get
-			{
-				if(r_MUpdateSize == null)
-				{
-					r_MUpdateSize = new(this, "UpdateSize", 0);
-				}
-				return r_MUpdateSize;
 			}
 		}
 
@@ -1762,22 +1282,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MOnWillBeDestroyed = new(this, "OnWillBeDestroyed", 0);
 				}
 				return r_MOnWillBeDestroyed;
-			}
-		}
-
-		/// <summary>
-		/// Void Close()
-		/// </summary>
-		protected RMethod r_MClose;
-		public virtual RMethod RMClose
-		{
-			get
-			{
-				if(r_MClose == null)
-				{
-					r_MClose = new(this, "Close", 0);
-				}
-				return r_MClose;
 			}
 		}
 
@@ -1926,70 +1430,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Boolean DockAt(UnityEditor.Overlays.OverlayContainer, UnityEditor.Overlays.OverlayContainerSection)
-		/// </summary>
-		protected RMethod r_MDockAt_OverlayContainer_OverlayContainerSection;
-		public virtual RMethod RMDockAt_OverlayContainer_OverlayContainerSection
-		{
-			get
-			{
-				if(r_MDockAt_OverlayContainer_OverlayContainerSection == null)
-				{
-					r_MDockAt_OverlayContainer_OverlayContainerSection = new(this, "DockAt", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"));
-				}
-				return r_MDockAt_OverlayContainer_OverlayContainerSection;
-			}
-		}
-
-		/// <summary>
-		/// Boolean DockAt(UnityEditor.Overlays.OverlayContainer, UnityEditor.Overlays.OverlayContainerSection, Int32)
-		/// </summary>
-		protected RMethod r_MDockAt_OverlayContainer_OverlayContainerSection_Int32;
-		public virtual RMethod RMDockAt_OverlayContainer_OverlayContainerSection_Int32
-		{
-			get
-			{
-				if(r_MDockAt_OverlayContainer_OverlayContainerSection_Int32 == null)
-				{
-					r_MDockAt_OverlayContainer_OverlayContainerSection_Int32 = new(this, "DockAt", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainer"),  ReflectionUtils.GetType("UnityEditor.Overlays.OverlayContainerSection"), typeof(System.Int32));
-				}
-				return r_MDockAt_OverlayContainer_OverlayContainerSection_Int32;
-			}
-		}
-
-		/// <summary>
-		/// Boolean DockBefore(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MDockBefore_Overlay;
-		public virtual RMethod RMDockBefore_Overlay
-		{
-			get
-			{
-				if(r_MDockBefore_Overlay == null)
-				{
-					r_MDockBefore_Overlay = new(this, "DockBefore", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MDockBefore_Overlay;
-			}
-		}
-
-		/// <summary>
-		/// Boolean DockAfter(UnityEditor.Overlays.Overlay)
-		/// </summary>
-		protected RMethod r_MDockAfter_Overlay;
-		public virtual RMethod RMDockAfter_Overlay
-		{
-			get
-			{
-				if(r_MDockAfter_Overlay == null)
-				{
-					r_MDockAfter_Overlay = new(this, "DockAfter", 0, typeof(UnityEditor.Overlays.Overlay));
-				}
-				return r_MDockAfter_Overlay;
-			}
-		}
-
-		/// <summary>
 		/// Void Undock()
 		/// </summary>
 		protected RMethod r_MUndock;
@@ -2002,38 +1442,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MUndock = new(this, "Undock", 0);
 				}
 				return r_MUndock;
-			}
-		}
-
-		/// <summary>
-		/// Void BringToFront()
-		/// </summary>
-		protected RMethod r_MBringToFront;
-		public virtual RMethod RMBringToFront
-		{
-			get
-			{
-				if(r_MBringToFront == null)
-				{
-					r_MBringToFront = new(this, "BringToFront", 0);
-				}
-				return r_MBringToFront;
-			}
-		}
-
-		/// <summary>
-		/// Void SetSnappingOffset(UnityEngine.Vector2, UnityEngine.Vector2)
-		/// </summary>
-		protected RMethod r_MSetSnappingOffset_Vector2_Vector2;
-		public virtual RMethod RMSetSnappingOffset_Vector2_Vector2
-		{
-			get
-			{
-				if(r_MSetSnappingOffset_Vector2_Vector2 == null)
-				{
-					r_MSetSnappingOffset_Vector2_Vector2 = new(this, "SetSnappingOffset", 0, typeof(UnityEngine.Vector2), typeof(UnityEngine.Vector2));
-				}
-				return r_MSetSnappingOffset_Vector2_Vector2;
 			}
 		}
 
@@ -2134,130 +1542,114 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Void <ToggleCollapsedPopup>b__154_0(UnityEngine.UIElements.FocusOutEvent)
+		/// Void <ToggleCollapsedPopup>b__104_0(UnityEngine.UIElements.FocusOutEvent)
 		/// </summary>
-		protected RMethod r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent;
-		public virtual RMethod RM__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent
+		protected RMethod r_M__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent;
+		public virtual RMethod RM__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent
 		{
 			get
 			{
-				if(r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent == null)
+				if(r_M__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent == null)
 				{
-					r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent = new(this, "<ToggleCollapsedPopup>b__154_0", 0, typeof(UnityEngine.UIElements.FocusOutEvent));
+					r_M__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent = new(this, "<ToggleCollapsedPopup>b__104_0", 0, typeof(UnityEngine.UIElements.FocusOutEvent));
 				}
-				return r_M__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent;
+				return r_M__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent;
 			}
 		}
 
 		/// <summary>
-		/// Void <BuildContextMenu>b__157_0(UnityEngine.UIElements.DropdownMenuAction)
+		/// Void <BuildContextMenu>b__107_0(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_0_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__107_0_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__107_0_DropdownMenuAction
 		{
 			get
 			{
-				if(r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__107_0_DropdownMenuAction == null)
 				{
-					r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_0", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__107_0_DropdownMenuAction = new(this, "<BuildContextMenu>b__107_0", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
-				return r_M__0__BuildContextMenu__1__b__157_0_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__107_0_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
-		/// Void <BuildContextMenu>b__157_1(UnityEngine.UIElements.DropdownMenuAction)
+		/// Void <BuildContextMenu>b__107_1(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_1_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__107_1_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__107_1_DropdownMenuAction
 		{
 			get
 			{
-				if(r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__107_1_DropdownMenuAction == null)
 				{
-					r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_1", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__107_1_DropdownMenuAction = new(this, "<BuildContextMenu>b__107_1", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
-				return r_M__0__BuildContextMenu__1__b__157_1_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__107_1_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
-		/// Void <BuildContextMenu>b__157_2(UnityEngine.UIElements.DropdownMenuAction)
+		/// Void <BuildContextMenu>b__107_2(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_2_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__107_2_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__107_2_DropdownMenuAction
 		{
 			get
 			{
-				if(r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__107_2_DropdownMenuAction == null)
 				{
-					r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_2", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__107_2_DropdownMenuAction = new(this, "<BuildContextMenu>b__107_2", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
-				return r_M__0__BuildContextMenu__1__b__157_2_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__107_2_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
-		/// Void <BuildContextMenu>b__157_3(UnityEngine.UIElements.DropdownMenuAction)
+		/// Void <BuildContextMenu>b__107_3(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_3_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__107_3_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__107_3_DropdownMenuAction
 		{
 			get
 			{
-				if(r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__107_3_DropdownMenuAction == null)
 				{
-					r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_3", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__107_3_DropdownMenuAction = new(this, "<BuildContextMenu>b__107_3", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
-				return r_M__0__BuildContextMenu__1__b__157_3_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__107_3_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
-		/// Void <BuildContextMenu>b__157_4(UnityEngine.UIElements.DropdownMenuAction)
+		/// Void <BuildContextMenu>b__107_4(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_4_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__107_4_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__107_4_DropdownMenuAction
 		{
 			get
 			{
-				if(r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__107_4_DropdownMenuAction == null)
 				{
-					r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_4", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__107_4_DropdownMenuAction = new(this, "<BuildContextMenu>b__107_4", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
-				return r_M__0__BuildContextMenu__1__b__157_4_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__107_4_DropdownMenuAction;
 			}
 		}
 
 		/// <summary>
-		/// Void <BuildContextMenu>b__157_5(UnityEngine.UIElements.DropdownMenuAction)
+		/// Void <BuildContextMenu>b__107_5(UnityEngine.UIElements.DropdownMenuAction)
 		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_5_DropdownMenuAction
+		protected RMethod r_M__0__BuildContextMenu__1__b__107_5_DropdownMenuAction;
+		public virtual RMethod RM__0__BuildContextMenu__1__b__107_5_DropdownMenuAction
 		{
 			get
 			{
-				if(r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction == null)
+				if(r_M__0__BuildContextMenu__1__b__107_5_DropdownMenuAction == null)
 				{
-					r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_5", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
+					r_M__0__BuildContextMenu__1__b__107_5_DropdownMenuAction = new(this, "<BuildContextMenu>b__107_5", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
 				}
-				return r_M__0__BuildContextMenu__1__b__157_5_DropdownMenuAction;
-			}
-		}
-
-		/// <summary>
-		/// Void <BuildContextMenu>b__157_6(UnityEngine.UIElements.DropdownMenuAction)
-		/// </summary>
-		protected RMethod r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction;
-		public virtual RMethod RM__0__BuildContextMenu__1__b__157_6_DropdownMenuAction
-		{
-			get
-			{
-				if(r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction == null)
-				{
-					r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction = new(this, "<BuildContextMenu>b__157_6", 0, typeof(UnityEngine.UIElements.DropdownMenuAction));
-				}
-				return r_M__0__BuildContextMenu__1__b__157_6_DropdownMenuAction;
+				return r_M__0__BuildContextMenu__1__b__107_5_DropdownMenuAction;
 			}
 		}
 
@@ -2358,23 +1750,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 
-        public static System.String GetEventTypeErrorMessage(System.String @errorEvent)
+        public virtual void SetDisplayedNoCallback(System.Boolean @value)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@errorEvent};
-            var ___result = RMGetEventTypeErrorMessage_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void ResetSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMResetSize.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@value};
+            var ___result = RMSetDisplayedNoCallback_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2408,39 +1789,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMRebuildContent.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean ShouldUseSizeValue()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMShouldUseSizeValue.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean IsSizeAuto(System.Single @min, System.Single @max)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@min, @max};
-            var ___result = RMIsSizeAuto_Single_Single.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void UpdateSize()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMUpdateSize.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2485,17 +1833,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMOnWillBeDestroyed.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void Close()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClose.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2600,78 +1937,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Boolean DockAt(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer @container, Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@container.Value, @section.Value};
-            var ___result = RMDockAt_OverlayContainer_OverlayContainerSection.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DockAt(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainer @container, Hvak.Editor.Refleaction.RUnityEditor.ROverlays.ROverlayContainerSection @section, System.Int32 @index)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@container.Value, @section.Value, @index};
-            var ___result = RMDockAt_OverlayContainer_OverlayContainerSection_Int32.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DockBefore(UnityEditor.Overlays.Overlay @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMDockBefore_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean DockAfter(UnityEditor.Overlays.Overlay @target)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@target};
-            var ___result = RMDockAfter_Overlay.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual void Undock()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMUndock.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BringToFront()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMBringToFront.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetSnappingOffset(UnityEngine.Vector2 @snapOffset, UnityEngine.Vector2 @snapOffsetDelta)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@snapOffset, @snapOffsetDelta};
-            var ___result = RMSetSnappingOffset_Vector2_Vector2.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2749,89 +2020,78 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual void __0__ToggleCollapsedPopup__1__b__154_0(UnityEngine.UIElements.FocusOutEvent @evt)
+        public virtual void __0__ToggleCollapsedPopup__1__b__104_0(UnityEngine.UIElements.FocusOutEvent @evt)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@evt};
-            var ___result = RM__0__ToggleCollapsedPopup__1__b__154_0_FocusOutEvent.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__ToggleCollapsedPopup__1__b__104_0_FocusOutEvent.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_0(UnityEngine.UIElements.DropdownMenuAction @action)
+        public virtual void __0__BuildContextMenu__1__b__107_0(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_0_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__107_0_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_1(UnityEngine.UIElements.DropdownMenuAction @action)
+        public virtual void __0__BuildContextMenu__1__b__107_1(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_1_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__107_1_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_2(UnityEngine.UIElements.DropdownMenuAction @action)
+        public virtual void __0__BuildContextMenu__1__b__107_2(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_2_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__107_2_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_3(UnityEngine.UIElements.DropdownMenuAction @action)
+        public virtual void __0__BuildContextMenu__1__b__107_3(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_3_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__107_3_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_4(UnityEngine.UIElements.DropdownMenuAction @action)
+        public virtual void __0__BuildContextMenu__1__b__107_4(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_4_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__107_4_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void __0__BuildContextMenu__1__b__157_5(UnityEngine.UIElements.DropdownMenuAction @action)
+        public virtual void __0__BuildContextMenu__1__b__107_5(UnityEngine.UIElements.DropdownMenuAction @action)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_5_DropdownMenuAction.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void __0__BuildContextMenu__1__b__157_6(UnityEngine.UIElements.DropdownMenuAction @action)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@action};
-            var ___result = RM__0__BuildContextMenu__1__b__157_6_DropdownMenuAction.Invoke(___genericsType, ___parameters);
+            var ___result = RM__0__BuildContextMenu__1__b__107_5_DropdownMenuAction.Invoke(___genericsType, ___parameters);
 
             
         }

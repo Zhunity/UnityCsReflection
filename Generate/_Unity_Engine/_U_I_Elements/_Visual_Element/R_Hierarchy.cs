@@ -88,22 +88,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.VisualElement] children
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> r_Pchildren;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement> RPchildren
-		{
-			get
-			{
-				if(r_Pchildren == null)
-				{
-					r_Pchildren = new(this, "children", -1);
-				}
-				return r_Pchildren;
-			}
-		}
-
-		/// <summary>
 		/// Int32 childCount
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PchildCount;

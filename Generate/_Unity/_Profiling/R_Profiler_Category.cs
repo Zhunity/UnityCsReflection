@@ -150,22 +150,6 @@ namespace Hvak.Editor.Refleaction.RUnity.RProfiling
 		}
 
 		/// <summary>
-		/// Unity.Profiling.ProfilerCategory Physics2D
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PPhysics2D;
-		public static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory RPPhysics2D
-		{
-			get
-			{
-				if(r_PPhysics2D == null)
-				{
-					r_PPhysics2D = new(Type, "Physics2D", -1);
-				}
-				return r_PPhysics2D;
-			}
-		}
-
-		/// <summary>
 		/// Unity.Profiling.ProfilerCategory Animation
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RUnity.RProfiling.RProfilerCategory r_PAnimation;

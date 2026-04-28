@@ -806,22 +806,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void SetFreeze(Boolean)
-		/// </summary>
-		protected RMethod r_MSetFreeze_Boolean;
-		public virtual RMethod RMSetFreeze_Boolean
-		{
-			get
-			{
-				if(r_MSetFreeze_Boolean == null)
-				{
-					r_MSetFreeze_Boolean = new(this, "SetFreeze", 0, typeof(System.Boolean));
-				}
-				return r_MSetFreeze_Boolean;
-			}
-		}
-
-		/// <summary>
 		/// Void SetAlpha(Single)
 		/// </summary>
 		protected RMethod r_MSetAlpha_Single;
@@ -1250,22 +1234,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 					r_MShow_ShowMode_Boolean_Boolean_Boolean = new(this, "Show", 0,  ReflectionUtils.GetType("UnityEditor.ShowMode"), typeof(System.Boolean), typeof(System.Boolean), typeof(System.Boolean));
 				}
 				return r_MShow_ShowMode_Boolean_Boolean_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void FitWindowToScreen(Boolean)
-		/// </summary>
-		protected RMethod r_MFitWindowToScreen_Boolean;
-		public virtual RMethod RMFitWindowToScreen_Boolean
-		{
-			get
-			{
-				if(r_MFitWindowToScreen_Boolean == null)
-				{
-					r_MFitWindowToScreen_Boolean = new(this, "FitWindowToScreen", 0, typeof(System.Boolean));
-				}
-				return r_MFitWindowToScreen_Boolean;
 			}
 		}
 
@@ -1974,22 +1942,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -2036,17 +1988,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual void SetFreeze(System.Boolean @freeze)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@freeze};
-            var ___result = RMSetFreeze_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
 
 
         public virtual void SetAlpha(System.Single @alpha)
@@ -2341,17 +2282,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@showMode.Value, @loadPosition, @displayImmediately, @setFocus};
             var ___result = RMShow_ShowMode_Boolean_Boolean_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void FitWindowToScreen(System.Boolean @useMousePos)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@useMousePos};
-            var ___result = RMFitWindowToScreen_Boolean.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -2855,17 +2785,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

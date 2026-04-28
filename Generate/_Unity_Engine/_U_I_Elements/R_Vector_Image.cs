@@ -38,22 +38,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 
 
 		/// <summary>
-		/// System.Int32 version
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fversion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RFversion
-		{
-			get
-			{
-				if(r_Fversion == null)
-				{
-					r_Fversion = new(this, "version");
-				}
-				return r_Fversion;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.Texture2D atlas
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RTexture2D r_Fatlas;
@@ -130,38 +114,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_Fsize = new(this, "size");
 				}
 				return r_Fsize;
-			}
-		}
-
-		/// <summary>
-		/// Single width
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pwidth;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPwidth
-		{
-			get
-			{
-				if(r_Pwidth == null)
-				{
-					r_Pwidth = new(this, "width", -1);
-				}
-				return r_Pwidth;
-			}
-		}
-
-		/// <summary>
-		/// Single height
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Pheight;
-		public virtual Hvak.Editor.Refleaction.RSystem.RSingle RPheight
-		{
-			get
-			{
-				if(r_Pheight == null)
-				{
-					r_Pheight = new(this, "height", -1);
-				}
-				return r_Pheight;
 			}
 		}
 
@@ -278,22 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Void MarkDirty()
-		/// </summary>
-		protected RMethod r_MMarkDirty;
-		public virtual RMethod RMMarkDirty
-		{
-			get
-			{
-				if(r_MMarkDirty == null)
-				{
-					r_MMarkDirty = new(this, "MarkDirty", 0);
-				}
-				return r_MMarkDirty;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -394,17 +330,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMToString.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.String>(___result);
-        }
-
-
-        public virtual void MarkDirty()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMMarkDirty.Invoke(___genericsType, ___parameters);
-
-            
         }
 
 

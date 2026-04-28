@@ -422,38 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.NavigationDeviceType <deviceType>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_F__0__deviceType__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RF__0__deviceType__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__deviceType__1__k__BackingField == null)
-				{
-					r_F__0__deviceType__1__k__BackingField = new(this, "<deviceType>k__BackingField");
-				}
-				return r_F__0__deviceType__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationMoveEvent+Direction <navigationDirection>k__BackingField
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_F__0__navigationDirection__1__k__BackingField;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RF__0__navigationDirection__1__k__BackingField
-		{
-			get
-			{
-				if(r_F__0__navigationDirection__1__k__BackingField == null)
-				{
-					r_F__0__navigationDirection__1__k__BackingField = new(this, "<navigationDirection>k__BackingField");
-				}
-				return r_F__0__navigationDirection__1__k__BackingField;
-			}
-		}
-
-		/// <summary>
 		/// System.String eventBaseName
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PeventBaseName;
@@ -834,38 +802,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PcommandName = new(this, "commandName", -1);
 				}
 				return r_PcommandName;
-			}
-		}
-
-		/// <summary>
-		/// UnityEngine.UIElements.NavigationDeviceType deviceType
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType r_PdeviceType;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationDeviceType RPdeviceType
-		{
-			get
-			{
-				if(r_PdeviceType == null)
-				{
-					r_PdeviceType = new(this, "deviceType", -1);
-				}
-				return r_PdeviceType;
-			}
-		}
-
-		/// <summary>
-		/// Direction navigationDirection
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection r_PnavigationDirection;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RNavigationMoveEvent.RDirection RPnavigationDirection
-		{
-			get
-			{
-				if(r_PnavigationDirection == null)
-				{
-					r_PnavigationDirection = new(this, "navigationDirection", -1);
-				}
-				return r_PnavigationDirection;
 			}
 		}
 

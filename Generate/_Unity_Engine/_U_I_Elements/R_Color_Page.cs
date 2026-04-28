@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// NativeColorPage ToNativeColorPage()
-		/// </summary>
-		protected RMethod r_MToNativeColorPage;
-		public virtual RMethod RMToNativeColorPage
-		{
-			get
-			{
-				if(r_MToNativeColorPage == null)
-				{
-					r_MToNativeColorPage = new(this, "ToNativeColorPage", 0);
-				}
-				return r_MToNativeColorPage;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -206,17 +190,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___result = RMInit_RenderChain_BMPAlloc.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RColorPage>(___result);
-        }
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage ToNativeColorPage()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToNativeColorPage.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeColorPage>(___result);
         }
 
 

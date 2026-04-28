@@ -38,18 +38,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 
 
 		/// <summary>
-		/// System.String k_IncompatibleWarningMessage
+		/// System.String m_Author
 		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_IncompatibleWarningMessage;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_IncompatibleWarningMessage
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_Author;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_Author
 		{
 			get
 			{
-				if(r_Fk_IncompatibleWarningMessage == null)
+				if(r_Fm_Author == null)
 				{
-					r_Fk_IncompatibleWarningMessage = new(Type, "k_IncompatibleWarningMessage");
+					r_Fm_Author = new(this, "m_Author");
 				}
-				return r_Fk_IncompatibleWarningMessage;
+				return r_Fm_Author;
 			}
 		}
 
@@ -82,6 +82,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_Errors = new(this, "m_Errors");
 				}
 				return r_Fm_Errors;
+			}
+		}
+
+		/// <summary>
+		/// System.String m_PublisherId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PublisherId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PublisherId
+		{
+			get
+			{
+				if(r_Fm_PublisherId == null)
+				{
+					r_Fm_PublisherId = new(this, "m_PublisherId");
+				}
+				return r_Fm_PublisherId;
 			}
 		}
 
@@ -294,6 +310,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.String m_PackageUniqueId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageUniqueId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageUniqueId
+		{
+			get
+			{
+				if(r_Fm_PackageUniqueId == null)
+				{
+					r_Fm_PackageUniqueId = new(this, "m_PackageUniqueId");
+				}
+				return r_Fm_PackageUniqueId;
+			}
+		}
+
+		/// <summary>
 		/// System.String m_VersionString
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_VersionString;
@@ -386,6 +418,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Pauthor = new(this, "author", -1);
 				}
 				return r_Pauthor;
+			}
+		}
+
+		/// <summary>
+		/// System.String authorLink
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PauthorLink;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPauthorLink
+		{
+			get
+			{
+				if(r_PauthorLink == null)
+				{
+					r_PauthorLink = new(this, "authorLink", -1);
+				}
+				return r_PauthorLink;
 			}
 		}
 
@@ -726,18 +774,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String localReleaseNotes
+		/// System.String releaseNotes
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PlocalReleaseNotes;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPlocalReleaseNotes
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PreleaseNotes;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPreleaseNotes
 		{
 			get
 			{
-				if(r_PlocalReleaseNotes == null)
+				if(r_PreleaseNotes == null)
 				{
-					r_PlocalReleaseNotes = new(this, "localReleaseNotes", -1);
+					r_PreleaseNotes = new(this, "releaseNotes", -1);
 				}
-				return r_PlocalReleaseNotes;
+				return r_PreleaseNotes;
 			}
 		}
 
@@ -790,70 +838,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean isRegistryPackage
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisRegistryPackage;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisRegistryPackage
-		{
-			get
-			{
-				if(r_PisRegistryPackage == null)
-				{
-					r_PisRegistryPackage = new(this, "isRegistryPackage", -1);
-				}
-				return r_PisRegistryPackage;
-			}
-		}
-
-		/// <summary>
-		/// Boolean isFromScopedRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PisFromScopedRegistry;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPisFromScopedRegistry
-		{
-			get
-			{
-				if(r_PisFromScopedRegistry == null)
-				{
-					r_PisFromScopedRegistry = new(this, "isFromScopedRegistry", -1);
-				}
-				return r_PisFromScopedRegistry;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.IPackage package
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage r_Ppackage;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RIPackage RPpackage
-		{
-			get
-			{
-				if(r_Ppackage == null)
-				{
-					r_Ppackage = new(this, "package", -1);
-				}
-				return r_Ppackage;
-			}
-		}
-
-		/// <summary>
-		/// UnityEditor.PackageManager.UI.Internal.RegistryType availableRegistry
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType r_PavailableRegistry;
-		public virtual Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RRegistryType RPavailableRegistry
-		{
-			get
-			{
-				if(r_PavailableRegistry == null)
-				{
-					r_PavailableRegistry = new(this, "availableRegistry", -1);
-				}
-				return r_PavailableRegistry;
-			}
-		}
-
-		/// <summary>
 		/// Boolean hasEntitlements
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PhasEntitlements;
@@ -882,38 +866,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PhasEntitlementsError = new(this, "hasEntitlementsError", -1);
 				}
 				return r_PhasEntitlementsError;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsDifferentVersionThanRequested
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsDifferentVersionThanRequested;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsDifferentVersionThanRequested
-		{
-			get
-			{
-				if(r_PIsDifferentVersionThanRequested == null)
-				{
-					r_PIsDifferentVersionThanRequested = new(this, "IsDifferentVersionThanRequested", -1);
-				}
-				return r_PIsDifferentVersionThanRequested;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsRequestedButOverriddenVersion
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PIsRequestedButOverriddenVersion;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPIsRequestedButOverriddenVersion
-		{
-			get
-			{
-				if(r_PIsRequestedButOverriddenVersion == null)
-				{
-					r_PIsRequestedButOverriddenVersion = new(this, "IsRequestedButOverriddenVersion", -1);
-				}
-				return r_PIsRequestedButOverriddenVersion;
 			}
 		}
 
@@ -950,18 +902,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Void AddDowngradeWarningIfApplicable(UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo, UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo)
+		/// Void SetUpmPackageFetchError(UnityEditor.PackageManager.UI.Internal.UIError)
 		/// </summary>
-		protected RMethod r_MAddDowngradeWarningIfApplicable_AssetStoreLocalInfo_AssetStoreUpdateInfo;
-		public virtual RMethod RMAddDowngradeWarningIfApplicable_AssetStoreLocalInfo_AssetStoreUpdateInfo
+		protected RMethod r_MSetUpmPackageFetchError_UIError;
+		public virtual RMethod RMSetUpmPackageFetchError_UIError
 		{
 			get
 			{
-				if(r_MAddDowngradeWarningIfApplicable_AssetStoreLocalInfo_AssetStoreUpdateInfo == null)
+				if(r_MSetUpmPackageFetchError_UIError == null)
 				{
-					r_MAddDowngradeWarningIfApplicable_AssetStoreLocalInfo_AssetStoreUpdateInfo = new(this, "AddDowngradeWarningIfApplicable", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreLocalInfo"),  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.AssetStoreUpdateInfo"));
+					r_MSetUpmPackageFetchError_UIError = new(this, "SetUpmPackageFetchError", 0,  ReflectionUtils.GetType("UnityEditor.PackageManager.UI.Internal.UIError"));
 				}
-				return r_MAddDowngradeWarningIfApplicable_AssetStoreLocalInfo_AssetStoreUpdateInfo;
+				return r_MSetUpmPackageFetchError_UIError;
 			}
 		}
 
@@ -1132,12 +1084,12 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
         }
 
 
-        public virtual void AddDowngradeWarningIfApplicable(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreLocalInfo @localInfo, Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RAssetStoreUpdateInfo @updateInfo)
+        public virtual void SetUpmPackageFetchError(Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal.RUIError @error)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@localInfo.Value, @updateInfo.Value};
-            var ___result = RMAddDowngradeWarningIfApplicable_AssetStoreLocalInfo_AssetStoreUpdateInfo.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@error.Value};
+            var ___result = RMSetUpmPackageFetchError_UIError.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -262,22 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean ReferenceEquals(UnityEngine.UIElements.StyleDataRef`1[T])
-		/// </summary>
-		protected RMethod r_MReferenceEquals_StyleDataRef_d_T_p_;
-		public virtual RMethod RMReferenceEquals_StyleDataRef_d_T_p_
-		{
-			get
-			{
-				if(r_MReferenceEquals_StyleDataRef_d_T_p_ == null)
-				{
-					r_MReferenceEquals_StyleDataRef_d_T_p_ = new(this, "ReferenceEquals", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.StyleDataRef`1"));
-				}
-				return r_MReferenceEquals_StyleDataRef_d_T_p_;
-			}
-		}
-
-		/// <summary>
 		/// System.String ToString()
 		/// </summary>
 		protected RMethod r_MToString;
@@ -458,17 +442,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@obj};
             var ___result = RMEquals_Object.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean ReferenceEquals(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RStyleDataRef<Hvak.Editor.Refleaction.RType> @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMReferenceEquals_StyleDataRef_d_T_p_.Invoke(___genericsType, ___parameters);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
         }

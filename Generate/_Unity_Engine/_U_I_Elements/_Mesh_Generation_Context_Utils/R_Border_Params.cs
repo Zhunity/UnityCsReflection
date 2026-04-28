@@ -344,22 +344,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// NativeBorderParams ToNativeParams()
-		/// </summary>
-		protected RMethod r_MToNativeParams;
-		public virtual RMethod RMToNativeParams
-		{
-			get
-			{
-				if(r_MToNativeParams == null)
-				{
-					r_MToNativeParams = new(this, "ToNativeParams", 0);
-				}
-				return r_MToNativeParams;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -454,17 +438,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 				return r_MMemberwiseClone;
 			}
 		}
-
-
-        public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeBorderParams ToNativeParams()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMToNativeParams.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeBorderParams>(___result);
-        }
 
 
         public virtual System.Boolean Equals(System.Object @obj)

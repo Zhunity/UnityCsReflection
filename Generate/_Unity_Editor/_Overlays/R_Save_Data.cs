@@ -230,54 +230,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// UnityEngine.Vector2 size
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RVector2 r_Fsize;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RVector2 RFsize
-		{
-			get
-			{
-				if(r_Fsize == null)
-				{
-					r_Fsize = new(this, "size");
-				}
-				return r_Fsize;
-			}
-		}
-
-		/// <summary>
-		/// System.Boolean sizeOverriden
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_FsizeOverriden;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFsizeOverriden
-		{
-			get
-			{
-				if(r_FsizeOverriden == null)
-				{
-					r_FsizeOverriden = new(this, "sizeOverriden");
-				}
-				return r_FsizeOverriden;
-			}
-		}
-
-		/// <summary>
-		/// Boolean Equals(UnityEditor.Overlays.SaveData)
-		/// </summary>
-		protected RMethod r_MEquals_SaveData;
-		public virtual RMethod RMEquals_SaveData
-		{
-			get
-			{
-				if(r_MEquals_SaveData == null)
-				{
-					r_MEquals_SaveData = new(this, "Equals", 0,  ReflectionUtils.GetType("UnityEditor.Overlays.SaveData"));
-				}
-				return r_MEquals_SaveData;
-			}
-		}
-
-		/// <summary>
 		/// Boolean Equals(System.Object)
 		/// </summary>
 		protected RMethod r_MEquals_Object;
@@ -294,22 +246,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 		/// <summary>
-		/// Int32 GetHashCode()
-		/// </summary>
-		protected RMethod r_MGetHashCode;
-		public virtual RMethod RMGetHashCode
-		{
-			get
-			{
-				if(r_MGetHashCode == null)
-				{
-					r_MGetHashCode = new(this, "GetHashCode", 0);
-				}
-				return r_MGetHashCode;
-			}
-		}
-
-		/// <summary>
 		/// Void Finalize()
 		/// </summary>
 		protected RMethod r_MFinalize;
@@ -322,6 +258,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 					r_MFinalize = new(this, "Finalize", 0);
 				}
 				return r_MFinalize;
+			}
+		}
+
+		/// <summary>
+		/// Int32 GetHashCode()
+		/// </summary>
+		protected RMethod r_MGetHashCode;
+		public virtual RMethod RMGetHashCode
+		{
+			get
+			{
+				if(r_MGetHashCode == null)
+				{
+					r_MGetHashCode = new(this, "GetHashCode", 0);
+				}
+				return r_MGetHashCode;
 			}
 		}
 
@@ -374,17 +326,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
 		}
 
 
-        public virtual System.Boolean Equals(Hvak.Editor.Refleaction.RUnityEditor.ROverlays.RSaveData @other)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@other.Value};
-            var ___result = RMEquals_SaveData.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
         public virtual System.Boolean Equals(System.Object @obj)
         {
 
@@ -396,17 +337,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
         }
 
 
-        public virtual System.Int32 GetHashCode()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
         public virtual void Finalize()
         {
 
@@ -415,6 +345,17 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.ROverlays
             var ___result = RMFinalize.Invoke(___genericsType, ___parameters);
 
             
+        }
+
+
+        public virtual System.Int32 GetHashCode()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMGetHashCode.Invoke(___genericsType, ___parameters);
+
+            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 

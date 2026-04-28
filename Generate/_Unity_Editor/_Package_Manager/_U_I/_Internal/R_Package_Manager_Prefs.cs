@@ -54,22 +54,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String k_SkipMultiSelectRemoveConfirmationPrefs
-		/// </summary>
-		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SkipMultiSelectRemoveConfirmationPrefs;
-		public static Hvak.Editor.Refleaction.RSystem.RString RFk_SkipMultiSelectRemoveConfirmationPrefs
-		{
-			get
-			{
-				if(r_Fk_SkipMultiSelectRemoveConfirmationPrefs == null)
-				{
-					r_Fk_SkipMultiSelectRemoveConfirmationPrefs = new(Type, "k_SkipMultiSelectRemoveConfirmationPrefs");
-				}
-				return r_Fk_SkipMultiSelectRemoveConfirmationPrefs;
-			}
-		}
-
-		/// <summary>
 		/// System.String k_SkipDisableConfirmationPrefs
 		/// </summary>
 		protected static Hvak.Editor.Refleaction.RSystem.RString r_Fk_SkipDisableConfirmationPrefs;
@@ -118,6 +102,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// System.Boolean m_DismissPreviewPackagesInUse
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_DismissPreviewPackagesInUse;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_DismissPreviewPackagesInUse
+		{
+			get
+			{
+				if(r_Fm_DismissPreviewPackagesInUse == null)
+				{
+					r_Fm_DismissPreviewPackagesInUse = new(this, "m_DismissPreviewPackagesInUse");
+				}
+				return r_Fm_DismissPreviewPackagesInUse;
+			}
+		}
+
+		/// <summary>
 		/// System.Int32 m_NumItemsPerPage
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Fm_NumItemsPerPage;
@@ -146,6 +146,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_DependenciesExpanded = new(this, "m_DependenciesExpanded");
 				}
 				return r_Fm_DependenciesExpanded;
+			}
+		}
+
+		/// <summary>
+		/// System.Boolean m_FeatureDependenciesExpanded
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_FeatureDependenciesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_FeatureDependenciesExpanded
+		{
+			get
+			{
+				if(r_Fm_FeatureDependenciesExpanded == null)
+				{
+					r_Fm_FeatureDependenciesExpanded = new(this, "m_FeatureDependenciesExpanded");
+				}
+				return r_Fm_FeatureDependenciesExpanded;
 			}
 		}
 
@@ -182,22 +198,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.Boolean m_OverviewFoldoutExpanded
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Fm_OverviewFoldoutExpanded;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RFm_OverviewFoldoutExpanded
-		{
-			get
-			{
-				if(r_Fm_OverviewFoldoutExpanded == null)
-				{
-					r_Fm_OverviewFoldoutExpanded = new(this, "m_OverviewFoldoutExpanded");
-				}
-				return r_Fm_OverviewFoldoutExpanded;
-			}
-		}
-
-		/// <summary>
 		/// System.Single m_PackageDetailVerticalScrollOffset
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_Fm_PackageDetailVerticalScrollOffset;
@@ -214,22 +214,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// System.String m_SelectedPackageDetailsTabIdentifier
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_SelectedPackageDetailsTabIdentifier;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_SelectedPackageDetailsTabIdentifier
-		{
-			get
-			{
-				if(r_Fm_SelectedPackageDetailsTabIdentifier == null)
-				{
-					r_Fm_SelectedPackageDetailsTabIdentifier = new(this, "m_SelectedPackageDetailsTabIdentifier");
-				}
-				return r_Fm_SelectedPackageDetailsTabIdentifier;
-			}
-		}
-
-		/// <summary>
 		/// System.Collections.Generic.List`1[System.String] m_ExpandedDetailsExtensions
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ExpandedDetailsExtensions;
@@ -242,38 +226,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_Fm_ExpandedDetailsExtensions = new(this, "m_ExpandedDetailsExtensions");
 				}
 				return r_Fm_ExpandedDetailsExtensions;
-			}
-		}
-
-		/// <summary>
-		/// System.String m_PackageDisplayedInVersionHistoryTab
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_Fm_PackageDisplayedInVersionHistoryTab;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RFm_PackageDisplayedInVersionHistoryTab
-		{
-			get
-			{
-				if(r_Fm_PackageDisplayedInVersionHistoryTab == null)
-				{
-					r_Fm_PackageDisplayedInVersionHistoryTab = new(this, "m_PackageDisplayedInVersionHistoryTab");
-				}
-				return r_Fm_PackageDisplayedInVersionHistoryTab;
-			}
-		}
-
-		/// <summary>
-		/// System.Collections.Generic.List`1[System.String] m_ExpandedVersionHistoryItems
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_ExpandedVersionHistoryItems;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_ExpandedVersionHistoryItems
-		{
-			get
-			{
-				if(r_Fm_ExpandedVersionHistoryItems == null)
-				{
-					r_Fm_ExpandedVersionHistoryItems = new(this, "m_ExpandedVersionHistoryItems");
-				}
-				return r_Fm_ExpandedVersionHistoryItems;
 			}
 		}
 
@@ -326,18 +278,18 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean skipMultiSelectRemoveConfirmation
+		/// Boolean dismissPreviewPackagesInUse
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipMultiSelectRemoveConfirmation;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipMultiSelectRemoveConfirmation
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PdismissPreviewPackagesInUse;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdismissPreviewPackagesInUse
 		{
 			get
 			{
-				if(r_PskipMultiSelectRemoveConfirmation == null)
+				if(r_PdismissPreviewPackagesInUse == null)
 				{
-					r_PskipMultiSelectRemoveConfirmation = new(this, "skipMultiSelectRemoveConfirmation", -1);
+					r_PdismissPreviewPackagesInUse = new(this, "dismissPreviewPackagesInUse", -1);
 				}
-				return r_PskipMultiSelectRemoveConfirmation;
+				return r_PdismissPreviewPackagesInUse;
 			}
 		}
 
@@ -422,6 +374,22 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
+		/// Boolean featureDependenciesExpanded
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PfeatureDependenciesExpanded;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPfeatureDependenciesExpanded
+		{
+			get
+			{
+				if(r_PfeatureDependenciesExpanded == null)
+				{
+					r_PfeatureDependenciesExpanded = new(this, "featureDependenciesExpanded", -1);
+				}
+				return r_PfeatureDependenciesExpanded;
+			}
+		}
+
+		/// <summary>
 		/// System.String selectedFeatureDependency
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PselectedFeatureDependency;
@@ -454,22 +422,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 		}
 
 		/// <summary>
-		/// Boolean overviewFoldoutExpanded
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PoverviewFoldoutExpanded;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPoverviewFoldoutExpanded
-		{
-			get
-			{
-				if(r_PoverviewFoldoutExpanded == null)
-				{
-					r_PoverviewFoldoutExpanded = new(this, "overviewFoldoutExpanded", -1);
-				}
-				return r_PoverviewFoldoutExpanded;
-			}
-		}
-
-		/// <summary>
 		/// Single packageDetailVerticalScrollOffset
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RSingle r_PpackageDetailVerticalScrollOffset;
@@ -482,38 +434,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_PpackageDetailVerticalScrollOffset = new(this, "packageDetailVerticalScrollOffset", -1);
 				}
 				return r_PpackageDetailVerticalScrollOffset;
-			}
-		}
-
-		/// <summary>
-		/// System.String selectedPackageDetailsTabIdentifier
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PselectedPackageDetailsTabIdentifier;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPselectedPackageDetailsTabIdentifier
-		{
-			get
-			{
-				if(r_PselectedPackageDetailsTabIdentifier == null)
-				{
-					r_PselectedPackageDetailsTabIdentifier = new(this, "selectedPackageDetailsTabIdentifier", -1);
-				}
-				return r_PselectedPackageDetailsTabIdentifier;
-			}
-		}
-
-		/// <summary>
-		/// System.String packageDisplayedInVersionHistoryTab
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PpackageDisplayedInVersionHistoryTab;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPpackageDisplayedInVersionHistoryTab
-		{
-			get
-			{
-				if(r_PpackageDisplayedInVersionHistoryTab == null)
-				{
-					r_PpackageDisplayedInVersionHistoryTab = new(this, "packageDisplayedInVersionHistoryTab", -1);
-				}
-				return r_PpackageDisplayedInVersionHistoryTab;
 			}
 		}
 
@@ -546,54 +466,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
 					r_MSetDetailsExtensionExpanded_String_Boolean = new(this, "SetDetailsExtensionExpanded", 0, typeof(System.String), typeof(System.Boolean));
 				}
 				return r_MSetDetailsExtensionExpanded_String_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Void SetVersionHistoryItemExpanded(System.String, Boolean)
-		/// </summary>
-		protected RMethod r_MSetVersionHistoryItemExpanded_String_Boolean;
-		public virtual RMethod RMSetVersionHistoryItemExpanded_String_Boolean
-		{
-			get
-			{
-				if(r_MSetVersionHistoryItemExpanded_String_Boolean == null)
-				{
-					r_MSetVersionHistoryItemExpanded_String_Boolean = new(this, "SetVersionHistoryItemExpanded", 0, typeof(System.String), typeof(System.Boolean));
-				}
-				return r_MSetVersionHistoryItemExpanded_String_Boolean;
-			}
-		}
-
-		/// <summary>
-		/// Boolean IsVersionHistoryItemExpanded(System.String)
-		/// </summary>
-		protected RMethod r_MIsVersionHistoryItemExpanded_String;
-		public virtual RMethod RMIsVersionHistoryItemExpanded_String
-		{
-			get
-			{
-				if(r_MIsVersionHistoryItemExpanded_String == null)
-				{
-					r_MIsVersionHistoryItemExpanded_String = new(this, "IsVersionHistoryItemExpanded", 0, typeof(System.String));
-				}
-				return r_MIsVersionHistoryItemExpanded_String;
-			}
-		}
-
-		/// <summary>
-		/// Void ClearExpandedVersionHistoryItems()
-		/// </summary>
-		protected RMethod r_MClearExpandedVersionHistoryItems;
-		public virtual RMethod RMClearExpandedVersionHistoryItems
-		{
-			get
-			{
-				if(r_MClearExpandedVersionHistoryItems == null)
-				{
-					r_MClearExpandedVersionHistoryItems = new(this, "ClearExpandedVersionHistoryItems", 0);
-				}
-				return r_MClearExpandedVersionHistoryItems;
 			}
 		}
 
@@ -711,39 +583,6 @@ namespace Hvak.Editor.Refleaction.RUnityEditor.RPackageManager.RUI.RInternal
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@extensionTitle, @value};
             var ___result = RMSetDetailsExtensionExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void SetVersionHistoryItemExpanded(System.String @uniqueId, System.Boolean @expanded)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uniqueId, @expanded};
-            var ___result = RMSetVersionHistoryItemExpanded_String_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Boolean IsVersionHistoryItemExpanded(System.String @uniqueId)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@uniqueId};
-            var ___result = RMIsVersionHistoryItemExpanded_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void ClearExpandedVersionHistoryItems()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMClearExpandedVersionHistoryItems.Invoke(___genericsType, ___parameters);
 
             
         }

@@ -182,22 +182,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 		}
 
 		/// <summary>
-		/// Boolean forcePlayerLoopUpdate
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PforcePlayerLoopUpdate;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPforcePlayerLoopUpdate
-		{
-			get
-			{
-				if(r_PforcePlayerLoopUpdate == null)
-				{
-					r_PforcePlayerLoopUpdate = new(this, "forcePlayerLoopUpdate", -1);
-				}
-				return r_PforcePlayerLoopUpdate;
-			}
-		}
-
-		/// <summary>
 		/// Void Update()
 		/// </summary>
 		protected RMethod r_MUpdate;
@@ -354,38 +338,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_MGetDepth = new(this, "GetDepth", 0);
 				}
 				return r_MGetDepth;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetForcePlayerLoopUpdate()
-		/// </summary>
-		protected RMethod r_MGetForcePlayerLoopUpdate;
-		public virtual RMethod RMGetForcePlayerLoopUpdate
-		{
-			get
-			{
-				if(r_MGetForcePlayerLoopUpdate == null)
-				{
-					r_MGetForcePlayerLoopUpdate = new(this, "GetForcePlayerLoopUpdate", 0);
-				}
-				return r_MGetForcePlayerLoopUpdate;
-			}
-		}
-
-		/// <summary>
-		/// Void SetForcePlayerLoopUpdate(Boolean)
-		/// </summary>
-		protected RMethod r_MSetForcePlayerLoopUpdate_Boolean;
-		public virtual RMethod RMSetForcePlayerLoopUpdate_Boolean
-		{
-			get
-			{
-				if(r_MSetForcePlayerLoopUpdate_Boolean == null)
-				{
-					r_MSetForcePlayerLoopUpdate_Boolean = new(this, "SetForcePlayerLoopUpdate", 0, typeof(System.Boolean));
-				}
-				return r_MSetForcePlayerLoopUpdate_Boolean;
 			}
 		}
 
@@ -594,38 +546,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 					r_MGetDepth_Injected_Ref_AsyncGPUReadbackRequest = new(Type, "GetDepth_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
 				}
 				return r_MGetDepth_Injected_Ref_AsyncGPUReadbackRequest;
-			}
-		}
-
-		/// <summary>
-		/// Boolean GetForcePlayerLoopUpdate_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef)
-		/// </summary>
-		protected static RMethod r_MGetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest;
-		public static RMethod RMGetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest
-		{
-			get
-			{
-				if(r_MGetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest == null)
-				{
-					r_MGetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest = new(Type, "GetForcePlayerLoopUpdate_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType());
-				}
-				return r_MGetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest;
-			}
-		}
-
-		/// <summary>
-		/// Void SetForcePlayerLoopUpdate_Injected(UnityEngine.Rendering.AsyncGPUReadbackRequest ByRef, Boolean)
-		/// </summary>
-		protected static RMethod r_MSetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest_Boolean;
-		public static RMethod RMSetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest_Boolean
-		{
-			get
-			{
-				if(r_MSetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest_Boolean == null)
-				{
-					r_MSetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest_Boolean = new(Type, "SetForcePlayerLoopUpdate_Injected", 0, typeof(UnityEngine.Rendering.AsyncGPUReadbackRequest).MakeByRefType(), typeof(System.Boolean));
-				}
-				return r_MSetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest_Boolean;
 			}
 		}
 
@@ -900,28 +820,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
         }
 
 
-        public virtual System.Boolean GetForcePlayerLoopUpdate()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetForcePlayerLoopUpdate.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetForcePlayerLoopUpdate(System.Boolean @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@b};
-            var ___result = RMSetForcePlayerLoopUpdate_Boolean.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void CreateSafetyHandle()
         {
 
@@ -1071,30 +969,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RRendering
 			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
 
             return ReflectionUtils.Convert<System.Int32>(___result);
-        }
-
-
-        public static System.Boolean GetForcePlayerLoopUpdate_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self};
-            var ___result = RMGetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest.Invoke(___genericsType, ___parameters);
-			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public static void SetForcePlayerLoopUpdate_Injected(ref UnityEngine.Rendering.AsyncGPUReadbackRequest @_unity_self, System.Boolean @b)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@_unity_self, @b};
-            var ___result = RMSetForcePlayerLoopUpdate_Injected_Ref_AsyncGPUReadbackRequest_Boolean.Invoke(___genericsType, ___parameters);
-			@_unity_self = ReflectionUtils.Convert<UnityEngine.Rendering.AsyncGPUReadbackRequest>(___parameters[0]);
-
-            
         }
 
 

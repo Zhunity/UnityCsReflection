@@ -198,10 +198,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIR.TempAllocator`1[UnityEngine.UIElements.Vertex] m_VertsPool
+		/// UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+TempDataAlloc`1[UnityEngine.UIElements.Vertex] m_VertsPool
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fm_VertsPool;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFm_VertsPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter.RTempDataAlloc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> r_Fm_VertsPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter.RTempDataAlloc<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVertex> RFm_VertsPool
 		{
 			get
 			{
@@ -214,10 +214,10 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.UIR.TempAllocator`1[System.UInt16] m_IndicesPool
+		/// UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+TempDataAlloc`1[System.UInt16] m_IndicesPool
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> r_Fm_IndicesPool;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RTempAllocator<Hvak.Editor.Refleaction.RSystem.RUInt16> RFm_IndicesPool
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter.RTempDataAlloc<Hvak.Editor.Refleaction.RSystem.RUInt16> r_Fm_IndicesPool;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter.RTempDataAlloc<Hvak.Editor.Refleaction.RSystem.RUInt16> RFm_IndicesPool
 		{
 			get
 			{
@@ -262,22 +262,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[UnityEngine.UIElements.UIR.Implementation.UIRStylePainter+RepeatRectUV][] m_RepeatRectUVList
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter.RRepeatRectUV>> r_Fm_RepeatRectUVList;
-		public virtual Hvak.Editor.Refleaction.RFieldArray<Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation.RUIRStylePainter.RRepeatRectUV>> RFm_RepeatRectUVList
-		{
-			get
-			{
-				if(r_Fm_RepeatRectUVList == null)
-				{
-					r_Fm_RepeatRectUVList = new(this, "m_RepeatRectUVList");
-				}
-				return r_Fm_RepeatRectUVList;
-			}
-		}
-
-		/// <summary>
 		/// UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator m_AllocRawVertsIndicesDelegate
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator r_Fm_AllocRawVertsIndicesDelegate;
@@ -306,6 +290,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 					r_Fm_AllocThroughDrawMeshDelegate = new(this, "m_AllocThroughDrawMeshDelegate");
 				}
 				return r_Fm_AllocThroughDrawMeshDelegate;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData+Allocator m_AllocThroughDrawGradientsDelegate
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator r_Fm_AllocThroughDrawGradientsDelegate;
+		public virtual Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData.RAllocator RFm_AllocThroughDrawGradientsDelegate
+		{
+			get
+			{
+				if(r_Fm_AllocThroughDrawGradientsDelegate == null)
+				{
+					r_Fm_AllocThroughDrawGradientsDelegate = new(this, "m_AllocThroughDrawGradientsDelegate");
+				}
+				return r_Fm_AllocThroughDrawGradientsDelegate;
 			}
 		}
 
@@ -374,18 +374,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// UnityEngine.TextCore.Text.TextInfo m_TextInfo
+		/// System.Boolean <disposed>k__BackingField
 		/// </summary>
-		protected Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo r_Fm_TextInfo;
-		public virtual Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo RFm_TextInfo
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_F__0__disposed__1__k__BackingField;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RF__0__disposed__1__k__BackingField
 		{
 			get
 			{
-				if(r_Fm_TextInfo == null)
+				if(r_F__0__disposed__1__k__BackingField == null)
 				{
-					r_Fm_TextInfo = new(this, "m_TextInfo");
+					r_F__0__disposed__1__k__BackingField = new(this, "<disposed>k__BackingField");
 				}
-				return r_Fm_TextInfo;
+				return r_F__0__disposed__1__k__BackingField;
 			}
 		}
 
@@ -486,6 +486,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
+		/// Boolean disposed
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_Pdisposed;
+		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPdisposed
+		{
+			get
+			{
+				if(r_Pdisposed == null)
+				{
+					r_Pdisposed = new(this, "disposed", -1);
+				}
+				return r_Pdisposed;
+			}
+		}
+
+		/// <summary>
 		/// UnityEngine.UIElements.VisualElement visualElement
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RVisualElement r_PvisualElement;
@@ -546,6 +562,54 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 					r_MAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData = new(this, "AllocThroughDrawMesh", 0, typeof(System.UInt32), typeof(System.UInt32),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData").MakeByRefType());
 				}
 				return r_MAllocThroughDrawMesh_UInt32_UInt32_Ref_AllocMeshData;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.MeshWriteData AllocThroughDrawGradients(UInt32, UInt32, AllocMeshData ByRef)
+		/// </summary>
+		protected RMethod r_MAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData;
+		public virtual RMethod RMAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData
+		{
+			get
+			{
+				if(r_MAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData == null)
+				{
+					r_MAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData = new(this, "AllocThroughDrawGradients", 0, typeof(System.UInt32), typeof(System.UInt32),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.MeshBuilder+AllocMeshData").MakeByRefType());
+				}
+				return r_MAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData;
+			}
+		}
+
+		/// <summary>
+		/// Void Dispose()
+		/// </summary>
+		protected RMethod r_MDispose;
+		public virtual RMethod RMDispose
+		{
+			get
+			{
+				if(r_MDispose == null)
+				{
+					r_MDispose = new(this, "Dispose", 0);
+				}
+				return r_MDispose;
+			}
+		}
+
+		/// <summary>
+		/// Void Dispose(Boolean)
+		/// </summary>
+		protected RMethod r_MDispose_Boolean;
+		public virtual RMethod RMDispose_Boolean
+		{
+			get
+			{
+				if(r_MDispose_Boolean == null)
+				{
+					r_MDispose_Boolean = new(this, "Dispose", 0, typeof(System.Boolean));
+				}
+				return r_MDispose_Boolean;
 			}
 		}
 
@@ -630,114 +694,50 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// Void TryAtlasTexture(UnityEngine.Texture, MeshFlags, UnityEngine.Rect ByRef, Boolean ByRef, UnityEngine.UIElements.TextureId ByRef, UnityEngine.UIElements.UIR.VertexFlags ByRef)
+		/// Void DrawText(TextParams, UnityEngine.UIElements.ITextHandle, Single)
 		/// </summary>
-		protected RMethod r_MTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags;
-		public virtual RMethod RMTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags
+		protected RMethod r_MDrawText_TextParams_ITextHandle_Single;
+		public virtual RMethod RMDrawText_TextParams_ITextHandle_Single
 		{
 			get
 			{
-				if(r_MTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags == null)
+				if(r_MDrawText_TextParams_ITextHandle_Single == null)
 				{
-					r_MTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags = new(this, "TryAtlasTexture", 0, typeof(UnityEngine.Texture),  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"), typeof(UnityEngine.Rect).MakeByRefType(), typeof(System.Boolean).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags").MakeByRefType());
+					r_MDrawText_TextParams_ITextHandle_Single = new(this, "DrawText", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+TextParams"),  ReflectionUtils.GetType("UnityEngine.UIElements.ITextHandle"), typeof(System.Single));
 				}
-				return r_MTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags;
+				return r_MDrawText_TextParams_ITextHandle_Single;
 			}
 		}
 
 		/// <summary>
-		/// Void BuildEntryFromNativeMesh(UnityEngine.UIElements.MeshWriteDataInterface, UnityEngine.Texture, UnityEngine.UIElements.TextureId, Boolean, UnityEngine.Material, MeshFlags, UnityEngine.Rect, UnityEngine.UIElements.UIR.VertexFlags)
+		/// Void DrawTextNative(TextParams, UnityEngine.UIElements.ITextHandle, Single)
 		/// </summary>
-		protected RMethod r_MBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags;
-		public virtual RMethod RMBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags
+		protected RMethod r_MDrawTextNative_TextParams_ITextHandle_Single;
+		public virtual RMethod RMDrawTextNative_TextParams_ITextHandle_Single
 		{
 			get
 			{
-				if(r_MBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags == null)
+				if(r_MDrawTextNative_TextParams_ITextHandle_Single == null)
 				{
-					r_MBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags = new(this, "BuildEntryFromNativeMesh", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"), typeof(UnityEngine.Texture),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Boolean), typeof(UnityEngine.Material),  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContext+MeshFlags"), typeof(UnityEngine.Rect),  ReflectionUtils.GetType("UnityEngine.UIElements.UIR.VertexFlags"));
+					r_MDrawTextNative_TextParams_ITextHandle_Single = new(this, "DrawTextNative", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+TextParams"),  ReflectionUtils.GetType("UnityEngine.UIElements.ITextHandle"), typeof(System.Single));
 				}
-				return r_MBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags;
+				return r_MDrawTextNative_TextParams_ITextHandle_Single;
 			}
 		}
 
 		/// <summary>
-		/// Void BuildGradientEntryFromNativeMesh(UnityEngine.UIElements.MeshWriteDataInterface, UnityEngine.UIElements.TextureId)
+		/// Void DrawTextCore(TextParams, UnityEngine.UIElements.ITextHandle, Single)
 		/// </summary>
-		protected RMethod r_MBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId;
-		public virtual RMethod RMBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId
+		protected RMethod r_MDrawTextCore_TextParams_ITextHandle_Single;
+		public virtual RMethod RMDrawTextCore_TextParams_ITextHandle_Single
 		{
 			get
 			{
-				if(r_MBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId == null)
+				if(r_MDrawTextCore_TextParams_ITextHandle_Single == null)
 				{
-					r_MBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId = new(this, "BuildGradientEntryFromNativeMesh", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"));
+					r_MDrawTextCore_TextParams_ITextHandle_Single = new(this, "DrawTextCore", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+TextParams"),  ReflectionUtils.GetType("UnityEngine.UIElements.ITextHandle"), typeof(System.Single));
 				}
-				return r_MBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId;
-			}
-		}
-
-		/// <summary>
-		/// Void BuildRawEntryFromNativeMesh(UnityEngine.UIElements.MeshWriteDataInterface)
-		/// </summary>
-		protected RMethod r_MBuildRawEntryFromNativeMesh_MeshWriteDataInterface;
-		public virtual RMethod RMBuildRawEntryFromNativeMesh_MeshWriteDataInterface
-		{
-			get
-			{
-				if(r_MBuildRawEntryFromNativeMesh_MeshWriteDataInterface == null)
-				{
-					r_MBuildRawEntryFromNativeMesh_MeshWriteDataInterface = new(this, "BuildRawEntryFromNativeMesh", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshWriteDataInterface"));
-				}
-				return r_MBuildRawEntryFromNativeMesh_MeshWriteDataInterface;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawText(UnityEngine.UIElements.TextElement)
-		/// </summary>
-		protected RMethod r_MDrawText_TextElement;
-		public virtual RMethod RMDrawText_TextElement
-		{
-			get
-			{
-				if(r_MDrawText_TextElement == null)
-				{
-					r_MDrawText_TextElement = new(this, "DrawText", 0, typeof(UnityEngine.UIElements.TextElement));
-				}
-				return r_MDrawText_TextElement;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawText(System.String, UnityEngine.Vector2, Single, UnityEngine.Color, UnityEngine.TextCore.Text.FontAsset)
-		/// </summary>
-		protected RMethod r_MDrawText_String_Vector2_Single_Color_FontAsset;
-		public virtual RMethod RMDrawText_String_Vector2_Single_Color_FontAsset
-		{
-			get
-			{
-				if(r_MDrawText_String_Vector2_Single_Color_FontAsset == null)
-				{
-					r_MDrawText_String_Vector2_Single_Color_FontAsset = new(this, "DrawText", 0, typeof(System.String), typeof(UnityEngine.Vector2), typeof(System.Single), typeof(UnityEngine.Color), typeof(UnityEngine.TextCore.Text.FontAsset));
-				}
-				return r_MDrawText_String_Vector2_Single_Color_FontAsset;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawTextInfo(UnityEngine.TextCore.Text.TextInfo, UnityEngine.Vector2, Boolean)
-		/// </summary>
-		protected RMethod r_MDrawTextInfo_TextInfo_Vector2_Boolean;
-		public virtual RMethod RMDrawTextInfo_TextInfo_Vector2_Boolean
-		{
-			get
-			{
-				if(r_MDrawTextInfo_TextInfo_Vector2_Boolean == null)
-				{
-					r_MDrawTextInfo_TextInfo_Vector2_Boolean = new(this, "DrawTextInfo", 0,  ReflectionUtils.GetType("UnityEngine.TextCore.Text.TextInfo"), typeof(UnityEngine.Vector2), typeof(System.Boolean));
-				}
-				return r_MDrawTextInfo_TextInfo_Vector2_Boolean;
+				return r_MDrawTextCore_TextParams_ITextHandle_Single;
 			}
 		}
 
@@ -790,22 +790,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// Void DrawVectorImage(UnityEngine.UIElements.VectorImage, UnityEngine.Vector2, UnityEngine.UIElements.Angle, UnityEngine.Vector2)
-		/// </summary>
-		protected RMethod r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2;
-		public virtual RMethod RMDrawVectorImage_VectorImage_Vector2_Angle_Vector2
-		{
-			get
-			{
-				if(r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2 == null)
-				{
-					r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2 = new(this, "DrawVectorImage", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(UnityEngine.Vector2), typeof(UnityEngine.UIElements.Angle), typeof(UnityEngine.Vector2));
-				}
-				return r_MDrawVectorImage_VectorImage_Vector2_Angle_Vector2;
-			}
-		}
-
-		/// <summary>
 		/// Void DrawVisualElementBackground()
 		/// </summary>
 		protected RMethod r_MDrawVisualElementBackground;
@@ -818,38 +802,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 					r_MDrawVisualElementBackground = new(this, "DrawVisualElementBackground", 0);
 				}
 				return r_MDrawVisualElementBackground;
-			}
-		}
-
-		/// <summary>
-		/// Void DrawRectangleRepeat(RectangleParams, UnityEngine.Rect, Single)
-		/// </summary>
-		protected RMethod r_MDrawRectangleRepeat_RectangleParams_Rect_Single;
-		public virtual RMethod RMDrawRectangleRepeat_RectangleParams_Rect_Single
-		{
-			get
-			{
-				if(r_MDrawRectangleRepeat_RectangleParams_Rect_Single == null)
-				{
-					r_MDrawRectangleRepeat_RectangleParams_Rect_Single = new(this, "DrawRectangleRepeat", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect), typeof(System.Single));
-				}
-				return r_MDrawRectangleRepeat_RectangleParams_Rect_Single;
-			}
-		}
-
-		/// <summary>
-		/// Void StampRectangleWithSubRect(RectangleParams, UnityEngine.Rect, UnityEngine.Rect)
-		/// </summary>
-		protected RMethod r_MStampRectangleWithSubRect_RectangleParams_Rect_Rect;
-		public virtual RMethod RMStampRectangleWithSubRect_RectangleParams_Rect_Rect
-		{
-			get
-			{
-				if(r_MStampRectangleWithSubRect_RectangleParams_Rect_Rect == null)
-				{
-					r_MStampRectangleWithSubRect_RectangleParams_Rect_Rect = new(this, "StampRectangleWithSubRect", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(UnityEngine.Rect), typeof(UnityEngine.Rect));
-				}
-				return r_MStampRectangleWithSubRect_RectangleParams_Rect_Rect;
 			}
 		}
 
@@ -918,38 +870,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 		}
 
 		/// <summary>
-		/// Void ApplyInset(NativeRectParams ByRef, UnityEngine.Texture)
-		/// </summary>
-		protected RMethod r_MApplyInset_Ref_NativeRectParams_Texture;
-		public virtual RMethod RMApplyInset_Ref_NativeRectParams_Texture
-		{
-			get
-			{
-				if(r_MApplyInset_Ref_NativeRectParams_Texture == null)
-				{
-					r_MApplyInset_Ref_NativeRectParams_Texture = new(this, "ApplyInset", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshBuilderNative+NativeRectParams").MakeByRefType(), typeof(UnityEngine.Texture));
-				}
-				return r_MApplyInset_Ref_NativeRectParams_Texture;
-			}
-		}
-
-		/// <summary>
-		/// Void RegisterVectorImageGradient(UnityEngine.UIElements.VectorImage, Int32 ByRef, UnityEngine.UIElements.TextureId ByRef)
-		/// </summary>
-		protected RMethod r_MRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId;
-		public virtual RMethod RMRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId
-		{
-			get
-			{
-				if(r_MRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId == null)
-				{
-					r_MRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId = new(this, "RegisterVectorImageGradient", 0, typeof(UnityEngine.UIElements.VectorImage), typeof(System.Int32).MakeByRefType(),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId").MakeByRefType());
-				}
-				return r_MRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId;
-			}
-		}
-
-		/// <summary>
 		/// Void DrawVectorImage(RectangleParams)
 		/// </summary>
 		protected RMethod r_MDrawVectorImage_RectangleParams;
@@ -962,22 +882,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
 					r_MDrawVectorImage_RectangleParams = new(this, "DrawVectorImage", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"));
 				}
 				return r_MDrawVectorImage_RectangleParams;
-			}
-		}
-
-		/// <summary>
-		/// Void MakeVectorGraphics(RectangleParams, Boolean, UnityEngine.UIElements.TextureId, Int32, Int32 ByRef, Int32 ByRef)
-		/// </summary>
-		protected RMethod r_MMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32;
-		public virtual RMethod RMMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32
-		{
-			get
-			{
-				if(r_MMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32 == null)
-				{
-					r_MMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32 = new(this, "MakeVectorGraphics", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.MeshGenerationContextUtils+RectangleParams"), typeof(System.Boolean),  ReflectionUtils.GetType("UnityEngine.UIElements.TextureId"), typeof(System.Int32), typeof(System.Int32).MakeByRefType(), typeof(System.Int32).MakeByRefType());
-				}
-				return r_MMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32;
 			}
 		}
 
@@ -1177,6 +1081,40 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
         }
 
 
+        public virtual UnityEngine.UIElements.MeshWriteData AllocThroughDrawGradients(System.UInt32 @vertexCount, System.UInt32 @indexCount, ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData @allocatorData)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@vertexCount, @indexCount, @allocatorData.Value};
+            var ___result = RMAllocThroughDrawGradients_UInt32_UInt32_Ref_AllocMeshData.Invoke(___genericsType, ___parameters);
+			@allocatorData = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RMeshBuilder.RAllocMeshData>(___parameters[2]);
+
+            return ReflectionUtils.Convert<UnityEngine.UIElements.MeshWriteData>(___result);
+        }
+
+
+        public virtual void Dispose()
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{};
+            var ___result = RMDispose.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void Dispose(System.Boolean @disposing)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@disposing};
+            var ___result = RMDispose_Boolean.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void Begin(UnityEngine.UIElements.VisualElement @ve)
         {
 
@@ -1232,86 +1170,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
         }
 
 
-        public virtual void TryAtlasTexture(UnityEngine.Texture @texture, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags, out UnityEngine.Rect @outUVRegion, out System.Boolean @outIsAtlas, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @outTextureId, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags @outAddFlags)
+        public virtual void DrawText(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
         {
-			@outUVRegion = default;
-			@outIsAtlas = default;
-			@outTextureId = default;
-			@outAddFlags = default;
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@texture, @flags.Value, @outUVRegion, @outIsAtlas, @outTextureId.Value, @outAddFlags.Value};
-            var ___result = RMTryAtlasTexture_Texture_MeshFlags_Out_Rect_Out_Boolean_Out_TextureId_Out_VertexFlags.Invoke(___genericsType, ___parameters);
-			@outUVRegion = ReflectionUtils.Convert<UnityEngine.Rect>(___parameters[2]);
-			@outIsAtlas = ReflectionUtils.Convert<System.Boolean>(___parameters[3]);
-			@outTextureId = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___parameters[4]);
-			@outAddFlags = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags>(___parameters[5]);
+            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+            var ___result = RMDrawText_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void BuildEntryFromNativeMesh(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteDataInterface @meshData, UnityEngine.Texture @texture, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @textureId, System.Boolean @isAtlas, UnityEngine.Material @material, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContext.RMeshFlags @flags, UnityEngine.Rect @uvRegion, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RVertexFlags @addFlags)
+        public virtual void DrawTextNative(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@meshData.Value, @texture, @textureId.Value, @isAtlas, @material, @flags.Value, @uvRegion, @addFlags.Value};
-            var ___result = RMBuildEntryFromNativeMesh_MeshWriteDataInterface_Texture_TextureId_Boolean_Material_MeshFlags_Rect_VertexFlags.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+            var ___result = RMDrawTextNative_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
 
             
         }
 
 
-        public virtual void BuildGradientEntryFromNativeMesh(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteDataInterface @meshData, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @svgTextureId)
+        public virtual void DrawTextCore(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RTextParams @textParams, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RITextHandle @handle, System.Single @pixelsPerPoint)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@meshData.Value, @svgTextureId.Value};
-            var ___result = RMBuildGradientEntryFromNativeMesh_MeshWriteDataInterface_TextureId.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void BuildRawEntryFromNativeMesh(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshWriteDataInterface @meshData)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@meshData.Value};
-            var ___result = RMBuildRawEntryFromNativeMesh_MeshWriteDataInterface.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawText(UnityEngine.UIElements.TextElement @te)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@te};
-            var ___result = RMDrawText_TextElement.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawText(System.String @text, UnityEngine.Vector2 @pos, System.Single @fontSize, UnityEngine.Color @color, UnityEngine.TextCore.Text.FontAsset @font)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@text, @pos, @fontSize, @color, @font};
-            var ___result = RMDrawText_String_Vector2_Single_Color_FontAsset.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawTextInfo(Hvak.Editor.Refleaction.RUnityEngine.RTextCore.RText.RTextInfo @textInfo, UnityEngine.Vector2 @offset, System.Boolean @useHints)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@textInfo.Value, @offset, @useHints};
-            var ___result = RMDrawTextInfo_TextInfo_Vector2_Boolean.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@textParams.Value, @handle.Value, @pixelsPerPoint};
+            var ___result = RMDrawTextCore_TextParams_ITextHandle_Single.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1350,45 +1236,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
         }
 
 
-        public virtual void DrawVectorImage(UnityEngine.UIElements.VectorImage @vectorImage, UnityEngine.Vector2 @offset, UnityEngine.UIElements.Angle @rotationAngle, UnityEngine.Vector2 @scale)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vectorImage, @offset, @rotationAngle, @scale};
-            var ___result = RMDrawVectorImage_VectorImage_Vector2_Angle_Vector2.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
         public virtual void DrawVisualElementBackground()
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{};
             var ___result = RMDrawVisualElementBackground.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void DrawRectangleRepeat(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams, UnityEngine.Rect @totalRect, System.Single @scaledPixelsPerPoint)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value, @totalRect, @scaledPixelsPerPoint};
-            var ___result = RMDrawRectangleRepeat_RectangleParams_Rect_Single.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void StampRectangleWithSubRect(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams, UnityEngine.Rect @targetRect, UnityEngine.Rect @targetUV)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value, @targetRect, @targetUV};
-            var ___result = RMStampRectangleWithSubRect_RectangleParams_Rect_Rect.Invoke(___genericsType, ___parameters);
 
             
         }
@@ -1438,54 +1291,12 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RUIR.RImplementation
         }
 
 
-        public virtual void ApplyInset(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams @rectParams, UnityEngine.Texture @tex)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value, @tex};
-            var ___result = RMApplyInset_Ref_NativeRectParams_Texture.Invoke(___genericsType, ___parameters);
-			@rectParams = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshBuilderNative.RNativeRectParams>(___parameters[0]);
-
-            
-        }
-
-
-        public virtual void RegisterVectorImageGradient(UnityEngine.UIElements.VectorImage @vi, out System.Int32 @settingIndexOffset, out Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @texture)
-        {
-			@settingIndexOffset = default;
-			@texture = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@vi, @settingIndexOffset, @texture.Value};
-            var ___result = RMRegisterVectorImageGradient_VectorImage_Out_Int32_Out_TextureId.Invoke(___genericsType, ___parameters);
-			@settingIndexOffset = ReflectionUtils.Convert<System.Int32>(___parameters[1]);
-			@texture = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId>(___parameters[2]);
-
-            
-        }
-
-
         public virtual void DrawVectorImage(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@rectParams.Value};
             var ___result = RMDrawVectorImage_RectangleParams.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void MakeVectorGraphics(Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RMeshGenerationContextUtils.RRectangleParams @rectParams, System.Boolean @isUsingGradients, Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RTextureId @svgTexture, System.Int32 @settingIndexOffset, out System.Int32 @finalVertexCount, out System.Int32 @finalIndexCount)
-        {
-			@finalVertexCount = default;
-			@finalIndexCount = default;
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@rectParams.Value, @isUsingGradients, @svgTexture.Value, @settingIndexOffset, @finalVertexCount, @finalIndexCount};
-            var ___result = RMMakeVectorGraphics_RectangleParams_Boolean_TextureId_Int32_Out_Int32_Out_Int32.Invoke(___genericsType, ___parameters);
-			@finalVertexCount = ReflectionUtils.Convert<System.Int32>(___parameters[4]);
-			@finalIndexCount = ReflectionUtils.Convert<System.Int32>(___parameters[5]);
 
             
         }

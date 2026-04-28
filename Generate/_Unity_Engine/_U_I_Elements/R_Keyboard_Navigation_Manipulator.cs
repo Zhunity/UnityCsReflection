@@ -118,6 +118,38 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Void OnRuntimeKeyDown(UnityEngine.UIElements.KeyDownEvent)
+		/// </summary>
+		protected RMethod r_MOnRuntimeKeyDown_KeyDownEvent;
+		public virtual RMethod RMOnRuntimeKeyDown_KeyDownEvent
+		{
+			get
+			{
+				if(r_MOnRuntimeKeyDown_KeyDownEvent == null)
+				{
+					r_MOnRuntimeKeyDown_KeyDownEvent = new(this, "OnRuntimeKeyDown", 0, typeof(UnityEngine.UIElements.KeyDownEvent));
+				}
+				return r_MOnRuntimeKeyDown_KeyDownEvent;
+			}
+		}
+
+		/// <summary>
+		/// Void OnEditorKeyDown(UnityEngine.UIElements.KeyDownEvent)
+		/// </summary>
+		protected RMethod r_MOnEditorKeyDown_KeyDownEvent;
+		public virtual RMethod RMOnEditorKeyDown_KeyDownEvent
+		{
+			get
+			{
+				if(r_MOnEditorKeyDown_KeyDownEvent == null)
+				{
+					r_MOnEditorKeyDown_KeyDownEvent = new(this, "OnEditorKeyDown", 0, typeof(UnityEngine.UIElements.KeyDownEvent));
+				}
+				return r_MOnEditorKeyDown_KeyDownEvent;
+			}
+		}
+
+		/// <summary>
 		/// Void OnNavigationCancel(UnityEngine.UIElements.NavigationCancelEvent)
 		/// </summary>
 		protected RMethod r_MOnNavigationCancel_NavigationCancelEvent;
@@ -182,18 +214,34 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// UnityEngine.UIElements.KeyboardNavigationOperation <OnKeyDown>g__GetOperation|4_0(<>c__DisplayClass4_0 ByRef)
+		/// UnityEngine.UIElements.KeyboardNavigationOperation <OnRuntimeKeyDown>g__GetOperation|5_0(<>c__DisplayClass5_0 ByRef)
 		/// </summary>
-		protected static RMethod r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0;
-		public static RMethod RM__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0
+		protected static RMethod r_M__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0;
+		public static RMethod RM__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0
 		{
 			get
 			{
-				if(r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0 == null)
+				if(r_M__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0 == null)
 				{
-					r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0 = new(Type, "<OnKeyDown>g__GetOperation|4_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.KeyboardNavigationManipulator+<>c__DisplayClass4_0").MakeByRefType());
+					r_M__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0 = new(Type, "<OnRuntimeKeyDown>g__GetOperation|5_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.KeyboardNavigationManipulator+<>c__DisplayClass5_0").MakeByRefType());
 				}
-				return r_M__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0;
+				return r_M__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0;
+			}
+		}
+
+		/// <summary>
+		/// UnityEngine.UIElements.KeyboardNavigationOperation <OnEditorKeyDown>g__GetOperation|6_0(<>c__DisplayClass6_0 ByRef)
+		/// </summary>
+		protected static RMethod r_M__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0;
+		public static RMethod RM__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0
+		{
+			get
+			{
+				if(r_M__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0 == null)
+				{
+					r_M__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0 = new(Type, "<OnEditorKeyDown>g__GetOperation|6_0", 0,  ReflectionUtils.GetType("UnityEngine.UIElements.KeyboardNavigationManipulator+<>c__DisplayClass6_0").MakeByRefType());
+				}
+				return r_M__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0;
 			}
 		}
 
@@ -327,6 +375,28 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
+        public virtual void OnRuntimeKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt};
+            var ___result = RMOnRuntimeKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
+        public virtual void OnEditorKeyDown(UnityEngine.UIElements.KeyDownEvent @evt)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@evt};
+            var ___result = RMOnEditorKeyDown_KeyDownEvent.Invoke(___genericsType, ___parameters);
+
+            
+        }
+
+
         public virtual void OnNavigationCancel(UnityEngine.UIElements.NavigationCancelEvent @evt)
         {
 
@@ -371,13 +441,25 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnKeyDown__1__g__GetOperation__5__4_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0 @_______)
+        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass5_0 @_______)
         {
 
             var ___genericsType = new Type[] {};
             var ___parameters = new object[]{@_______.Value};
-            var ___result = RM__0__OnKeyDown__1__g__GetOperation__5__4_0_Ref___0____1__c__DisplayClass4_0.Invoke(___genericsType, ___parameters);
-			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass4_0>(___parameters[0]);
+            var ___result = RM__0__OnRuntimeKeyDown__1__g__GetOperation__5__5_0_Ref___0____1__c__DisplayClass5_0.Invoke(___genericsType, ___parameters);
+			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass5_0>(___parameters[0]);
+
+            return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
+        }
+
+
+        public static UnityEngine.UIElements.KeyboardNavigationOperation __0__OnEditorKeyDown__1__g__GetOperation__5__6_0(ref Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass6_0 @_______)
+        {
+
+            var ___genericsType = new Type[] {};
+            var ___parameters = new object[]{@_______.Value};
+            var ___result = RM__0__OnEditorKeyDown__1__g__GetOperation__5__6_0_Ref___0____1__c__DisplayClass6_0.Invoke(___genericsType, ___parameters);
+			@_______ = ReflectionUtils.Convert<Hvak.Editor.Refleaction.RUnityEngine.RUIElements.RKeyboardNavigationManipulator.R__0____1__c__DisplayClass6_0>(___parameters[0]);
 
             return ReflectionUtils.Convert<UnityEngine.UIElements.KeyboardNavigationOperation>(___result);
         }

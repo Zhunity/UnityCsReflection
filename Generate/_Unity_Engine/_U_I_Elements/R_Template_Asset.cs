@@ -86,22 +86,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[System.String] m_Properties
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> r_Fm_Properties;
-		public virtual Hvak.Editor.Refleaction.RSystem.RCollections.RGeneric.RList<Hvak.Editor.Refleaction.RSystem.RString> RFm_Properties
-		{
-			get
-			{
-				if(r_Fm_Properties == null)
-				{
-					r_Fm_Properties = new(this, "m_Properties");
-				}
-				return r_Fm_Properties;
-			}
-		}
-
-		/// <summary>
 		/// System.String templateAlias
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RString r_PtemplateAlias;
@@ -150,6 +134,54 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
+		/// Int32 id
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
+		{
+			get
+			{
+				if(r_Pid == null)
+				{
+					r_Pid = new(this, "id", -1);
+				}
+				return r_Pid;
+			}
+		}
+
+		/// <summary>
+		/// Int32 orderInDocument
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PorderInDocument;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPorderInDocument
+		{
+			get
+			{
+				if(r_PorderInDocument == null)
+				{
+					r_PorderInDocument = new(this, "orderInDocument", -1);
+				}
+				return r_PorderInDocument;
+			}
+		}
+
+		/// <summary>
+		/// Int32 parentId
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PparentId;
+		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPparentId
+		{
+			get
+			{
+				if(r_PparentId == null)
+				{
+					r_PparentId = new(this, "parentId", -1);
+				}
+				return r_PparentId;
+			}
+		}
+
+		/// <summary>
 		/// Int32 ruleIndex
 		/// </summary>
 		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PruleIndex;
@@ -162,6 +194,22 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_PruleIndex = new(this, "ruleIndex", -1);
 				}
 				return r_PruleIndex;
+			}
+		}
+
+		/// <summary>
+		/// System.String fullTypeName
+		/// </summary>
+		protected Hvak.Editor.Refleaction.RSystem.RString r_PfullTypeName;
+		public virtual Hvak.Editor.Refleaction.RSystem.RString RPfullTypeName
+		{
+			get
+			{
+				if(r_PfullTypeName == null)
+				{
+					r_PfullTypeName = new(this, "fullTypeName", -1);
+				}
+				return r_PfullTypeName;
 			}
 		}
 
@@ -246,86 +294,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// Boolean skipClone
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RBoolean r_PskipClone;
-		public virtual Hvak.Editor.Refleaction.RSystem.RBoolean RPskipClone
-		{
-			get
-			{
-				if(r_PskipClone == null)
-				{
-					r_PskipClone = new(this, "skipClone", -1);
-				}
-				return r_PskipClone;
-			}
-		}
-
-		/// <summary>
-		/// System.String fullTypeName
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RString r_PfullTypeName;
-		public virtual Hvak.Editor.Refleaction.RSystem.RString RPfullTypeName
-		{
-			get
-			{
-				if(r_PfullTypeName == null)
-				{
-					r_PfullTypeName = new(this, "fullTypeName", -1);
-				}
-				return r_PfullTypeName;
-			}
-		}
-
-		/// <summary>
-		/// Int32 id
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_Pid;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPid
-		{
-			get
-			{
-				if(r_Pid == null)
-				{
-					r_Pid = new(this, "id", -1);
-				}
-				return r_Pid;
-			}
-		}
-
-		/// <summary>
-		/// Int32 orderInDocument
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PorderInDocument;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPorderInDocument
-		{
-			get
-			{
-				if(r_PorderInDocument == null)
-				{
-					r_PorderInDocument = new(this, "orderInDocument", -1);
-				}
-				return r_PorderInDocument;
-			}
-		}
-
-		/// <summary>
-		/// Int32 parentId
-		/// </summary>
-		protected Hvak.Editor.Refleaction.RSystem.RInt32 r_PparentId;
-		public virtual Hvak.Editor.Refleaction.RSystem.RInt32 RPparentId
-		{
-			get
-			{
-				if(r_PparentId == null)
-				{
-					r_PparentId = new(this, "parentId", -1);
-				}
-				return r_PparentId;
-			}
-		}
-
-		/// <summary>
 		/// Void AddSlotUsage(System.String, Int32)
 		/// </summary>
 		protected RMethod r_MAddSlotUsage_String_Int32;
@@ -374,66 +342,18 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 		}
 
 		/// <summary>
-		/// System.Collections.Generic.List`1[System.String] GetProperties()
+		/// Void AddProperty(System.String, System.String)
 		/// </summary>
-		protected RMethod r_MGetProperties;
-		public virtual RMethod RMGetProperties
+		protected RMethod r_MAddProperty_String_String;
+		public virtual RMethod RMAddProperty_String_String
 		{
 			get
 			{
-				if(r_MGetProperties == null)
+				if(r_MAddProperty_String_String == null)
 				{
-					r_MGetProperties = new(this, "GetProperties", 0);
+					r_MAddProperty_String_String = new(this, "AddProperty", 0, typeof(System.String), typeof(System.String));
 				}
-				return r_MGetProperties;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasParent()
-		/// </summary>
-		protected RMethod r_MHasParent;
-		public virtual RMethod RMHasParent
-		{
-			get
-			{
-				if(r_MHasParent == null)
-				{
-					r_MHasParent = new(this, "HasParent", 0);
-				}
-				return r_MHasParent;
-			}
-		}
-
-		/// <summary>
-		/// Boolean HasAttribute(System.String)
-		/// </summary>
-		protected RMethod r_MHasAttribute_String;
-		public virtual RMethod RMHasAttribute_String
-		{
-			get
-			{
-				if(r_MHasAttribute_String == null)
-				{
-					r_MHasAttribute_String = new(this, "HasAttribute", 0, typeof(System.String));
-				}
-				return r_MHasAttribute_String;
-			}
-		}
-
-		/// <summary>
-		/// System.String GetAttributeValue(System.String)
-		/// </summary>
-		protected RMethod r_MGetAttributeValue_String;
-		public virtual RMethod RMGetAttributeValue_String
-		{
-			get
-			{
-				if(r_MGetAttributeValue_String == null)
-				{
-					r_MGetAttributeValue_String = new(this, "GetAttributeValue", 0, typeof(System.String));
-				}
-				return r_MGetAttributeValue_String;
+				return r_MAddProperty_String_String;
 			}
 		}
 
@@ -450,54 +370,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 					r_MTryGetAttributeValue_String_Out_String = new(this, "TryGetAttributeValue", 0, typeof(System.String), typeof(System.String).MakeByRefType());
 				}
 				return r_MTryGetAttributeValue_String_Out_String;
-			}
-		}
-
-		/// <summary>
-		/// Void SetAttribute(System.String, System.String)
-		/// </summary>
-		protected RMethod r_MSetAttribute_String_String;
-		public virtual RMethod RMSetAttribute_String_String
-		{
-			get
-			{
-				if(r_MSetAttribute_String_String == null)
-				{
-					r_MSetAttribute_String_String = new(this, "SetAttribute", 0, typeof(System.String), typeof(System.String));
-				}
-				return r_MSetAttribute_String_String;
-			}
-		}
-
-		/// <summary>
-		/// Void RemoveAttribute(System.String)
-		/// </summary>
-		protected RMethod r_MRemoveAttribute_String;
-		public virtual RMethod RMRemoveAttribute_String
-		{
-			get
-			{
-				if(r_MRemoveAttribute_String == null)
-				{
-					r_MRemoveAttribute_String = new(this, "RemoveAttribute", 0, typeof(System.String));
-				}
-				return r_MRemoveAttribute_String;
-			}
-		}
-
-		/// <summary>
-		/// Int32 GetPropertiesDirtyCount()
-		/// </summary>
-		protected RMethod r_MGetPropertiesDirtyCount;
-		public virtual RMethod RMGetPropertiesDirtyCount
-		{
-			get
-			{
-				if(r_MGetPropertiesDirtyCount == null)
-				{
-					r_MGetPropertiesDirtyCount = new(this, "GetPropertiesDirtyCount", 0);
-				}
-				return r_MGetPropertiesDirtyCount;
 			}
 		}
 
@@ -631,47 +503,14 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
         }
 
 
-        public virtual System.Collections.Generic.List<System.String> GetProperties()
+        public virtual void AddProperty(System.String @propertyName, System.String @propertyValue)
         {
 
             var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetProperties.Invoke(___genericsType, ___parameters);
+            var ___parameters = new object[]{@propertyName, @propertyValue};
+            var ___result = RMAddProperty_String_String.Invoke(___genericsType, ___parameters);
 
-            return ReflectionUtils.Convert<System.Collections.Generic.List<System.String>>(___result);
-        }
-
-
-        public virtual System.Boolean HasParent()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMHasParent.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.Boolean HasAttribute(System.String @attributeName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeName};
-            var ___result = RMHasAttribute_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual System.String GetAttributeValue(System.String @attributeName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeName};
-            var ___result = RMGetAttributeValue_String.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.String>(___result);
+            
         }
 
 
@@ -685,39 +524,6 @@ namespace Hvak.Editor.Refleaction.RUnityEngine.RUIElements
 			@value = ReflectionUtils.Convert<System.String>(___parameters[1]);
 
             return ReflectionUtils.Convert<System.Boolean>(___result);
-        }
-
-
-        public virtual void SetAttribute(System.String @name, System.String @value)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@name, @value};
-            var ___result = RMSetAttribute_String_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual void RemoveAttribute(System.String @attributeName)
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{@attributeName};
-            var ___result = RMRemoveAttribute_String.Invoke(___genericsType, ___parameters);
-
-            
-        }
-
-
-        public virtual System.Int32 GetPropertiesDirtyCount()
-        {
-
-            var ___genericsType = new Type[] {};
-            var ___parameters = new object[]{};
-            var ___result = RMGetPropertiesDirtyCount.Invoke(___genericsType, ___parameters);
-
-            return ReflectionUtils.Convert<System.Int32>(___result);
         }
 
 
